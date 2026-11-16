@@ -1,0 +1,1084 @@
+Source: https://www.tigta.gov/sites/default/files/reports/2025-08/2025100024fr.pdf
+Publisher: Treasury Inspector General for Tax Administration
+Retrieved: 2026-11-16
+Original SHA-256: dd37017dc15f77f4ae60f453303080d64414de8c40a9ca00e1e88e20309cf15b
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+TREASURY INSPECTOR GENERAL FOR TAX ADMINISTRATION
+
+Improvements to Taxpayer Advocate Case Processing
+Would Result in Better Customer Service
+June 11, 2025
+Report Number: 2025-100-024
+
+This report has cleared the Treasury Inspector General for Tax Administration disclosure review process and
+information determined to be restricted from public release has been redacted from this document.
+1
+
+TIGTACommunications@tigta.treas.gov | www.tigta.gov
+
+HIGHLIGHTS: Improvements to Taxpayer Advocate Case Processing
+Would Result in Better Customer Service
+Final Report issued on June 11, 2025
+
+Report Number 2025-100-024
+
+Why TIGTA Did This Audit
+
+What TIGTA Found
+
+The Taxpayer Advocate Service
+(TAS) is an independent
+organization within the IRS that
+serves as an advocate for
+taxpayers. TAS operates around
+four statutory objectives, one of
+which is to help taxpayers resolve
+problems with the IRS.
+
+In FY 2023, cases worked by TAS generally met its acceptance criteria
+and taxpayers’ issues were fully addressed. However, we found
+TAS case advocates did not timely contact taxpayers or their
+representatives in 103 (63 percent) of the 163 closed cases we
+sampled. The initial and subsequent contact delays for these cases
+totaled an average of 146 calendar days late.
+
+This audit evaluated whether
+taxpayer issues worked by TAS
+case advocacy were resolved
+efficiently, timely, and accurately.
+
+Impact on Tax Administration
+TAS accepts cases when taxpayers
+are experiencing an economic or
+systemic burden, when it is in the
+best interest of the taxpayer, or in
+matters of public policy as
+determined by the National
+Taxpayer Advocate.
+The average calendar days it took
+TAS to close a case fluctuated over
+the last five fiscal years. For
+example, it took TAS an average of
+110 calendar days to close a case
+in Fiscal Year (FY) 2024, more than
+29 percent longer than the
+85 calendar days it took to close a
+case in FY 2020. This difference
+could result in additional burden
+or harm to taxpayers because it
+could delay the resolution of their
+issue.
+
+When TAS case advocates do not have the authority to take the
+actions necessary to resolve taxpayer issues, they use Form 12412,
+Operations Assistance Request (OAR), to request or recommend
+actions from an IRS function. We reviewed 104 closed cases from
+FY 2023 and found that in 23 (22 percent) of them, TAS case
+advocates did not timely send an OAR, or the responding IRS
+function did not timely complete the OAR. The remaining 81 OARs
+were timely processed.
+The National Taxpayer Advocate has stated that TAS case advocacy
+is facing three challenges: 1) an increase in case receipts; 2) an
+increase in the number of new TAS case advocates; and 3) the use
+of a legacy case management system that causes inefficiencies and
+delays. In October 2024, TAS issued interim guidance that modified
+procedures for working certain systemic burden cases by grouping
+taxpayers with similar issues. TAS management estimates that this
+has reduced new receipts by 30 percent, which equates to
+approximately 65,000 cases that will not be assigned to a case
+advocate.
+In addition, TAS is planning to deploy a new case and systemic issue
+management system in October 2025 that management believes will
+be essential to providing quality taxpayer service and enhancing
+employee efficiency. However, management also stated that the
+capability for taxpayers to interface with the system will not be
+available in the initial release.
+
+What TIGTA Recommended
+We recommended that the National Taxpayer Advocate: 1) set
+specific, attainable time frames for initial contact with an emphasis
+on economic burden cases, and adopt permanent policies that
+provide clear and consistent expectations for taxpayers; 2) establish
+an automated process within the new case and systemic issue
+management system that would apprise the taxpayer of the
+progress on their case; and 3) establish an automated process to
+notify the case advocate and their manager when an OAR has not
+been sent and requires completion follow up.
+The IRS agreed with two recommendations and partially agreed with
+the third, stating that its new customer relationship management
+system will have a dashboard enabling case advocates and managers
+to monitor the status of OARs more effectively. TAS plans to assess
+the resources needed to add automated notification functionality in a
+future release.
+
+U.S. DEPARTMENT OF THE TREASURY
+WASHINGTON, D.C. 20024
+
+TREASURY INSPECTOR GENERAL
+FOR TAX ADMINISTRATION
+
+June 11, 2025
+MEMORANDUM FOR: COMMISSIONER OF INTERNAL REVENUE
+
+FROM:
+
+Diana M. Tengesdal
+Acting Deputy Inspector General for Audit
+
+SUBJECT:
+
+Final Audit Report – Improvements to Taxpayer Advocate
+Case Processing Would Result in Better Customer Service
+(Audit No.: 2024100015)
+
+This report presents the results of our review to evaluate whether taxpayer issues worked by
+Taxpayer Advocate Service case advocacy were resolved efficiently, timely, and accurately. This
+review is part of our Fiscal Year 2025 Annual Audit Plan and addresses the major management
+and performance challenge of Taxpayer Service.
+Management’s complete response to the draft report is included as Appendix III. If you have any
+questions, please contact me or LaToya P. George, Acting Assistant Inspector General for Audit
+(Taxpayer Services and Operational Support).
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Table of Contents
+Background .....................................................................................................................................Page 1
+Results of Review .......................................................................................................................Page 4
+Taxpayer Advocate Service Cases Generally Met
+Acceptance Criteria and Taxpayer Issues Were Fully
+Addressed ...............................................................................................................................Page 4
+Taxpayer Advocate Service Contacts With Taxpayers or
+Their Representatives Were Not Always Timely.......................................................Page 5
+Recommendations 1 and 2: .....................................................Page 7
+
+Taxpayer Cases Requiring an Operations Assistance
+Request Were Not Always Timely Processed ............................................................Page 8
+Recommendation 3: ...................................................................Page 9
+
+Appendices
+Appendix I – Detailed Objective, Scope, and Methodology................................Page 10
+Appendix II – Outcome Measures .................................................................................Page 12
+Appendix III – Management’s Response to the Draft Report .............................Page 15
+Appendix IV – Abbreviations ...........................................................................................Page 19
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Background
+The Taxpayer Advocate Service (TAS) is an independent organization within the Internal
+Revenue Service (IRS) that serves as an advocate for taxpayers. TAS operates around
+four statutory objectives:
+1. Assist taxpayers in resolving problems with the IRS.
+2. Identify areas in which taxpayers are experiencing problems with the IRS.
+3. Propose changes in IRS administrative practices to mitigate problems taxpayers are
+experiencing with the IRS.
+4. Identify potential legislative changes that may be appropriate to mitigate such
+problems.1
+Central to its mission is protecting taxpayer rights and providing assistance to all types of
+taxpayers (e.g., individuals, business owners, exempt entities) when they have issues interacting
+with the IRS. To accomplish this, TAS helps taxpayers one-on-one in resolving problems with the
+IRS. TAS personnel work with taxpayers, their representatives, and congressional staff to resolve
+specific tax problems and recommend changes to prevent future problems. Figure 1 provides
+the TAS case acceptance criteria (hereafter referred to as TAS criteria), which fall into four main
+categories.
+
+1
+
+I.R.C. § 7803(c)(2)(A).
+
+Page 1
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Figure 1: TAS Criteria
+ECONOMIC BURDEN
+Economic burden cases are those involving a financial difficulty to the taxpayer: an IRS action
+or inaction has caused or will cause negative financial consequences or have a long-term
+adverse impact on the taxpayer.
+Criteria 1
+
+The taxpayer is experiencing economic harm or is about to suffer economic
+harm.
+
+Criteria 2
+
+The taxpayer is facing an immediate threat or adverse action.
+
+Criteria 3
+
+The taxpayer will incur significant costs if relief is not granted (including fees for
+professional representation).
+
+Criteria 4
+
+The taxpayer will suffer irreparable injury or long-term adverse impact if relief is
+not granted.
+
+SYSTEMIC BURDEN
+Systemic burden cases are those in which an IRS process, system, or procedure has failed to
+operate as intended, and as a result, the IRS has failed to timely respond to or resolve a
+taxpayer issue.
+Criteria 5
+
+The taxpayer has experienced a delay of more than 30 calendar days to resolve
+a tax account problem.
+
+Criteria 6
+
+The taxpayer has not received a response or resolution to the problem or
+inquiry by the date provided.
+
+Criteria 7
+
+A system or procedure has either failed to operate as intended or failed to
+resolve the taxpayer’s problem or dispute within the IRS.
+
+BEST INTEREST OF THE TAXPAYER
+TAS acceptance of these cases will help ensure that taxpayers receive fair and equitable
+treatment and that their rights as taxpayers are protected.
+Criteria 8
+
+The manner in which the tax laws are being administered raises considerations
+of equity or has impaired or will impair the taxpayer’s rights.
+
+PUBLIC POLICY
+Acceptance of cases into TAS under this category will be determined by the National Taxpayer
+Advocate and will generally be based on a unique set of circumstances warranting assistance
+to certain taxpayers.
+Criteria 9
+
+The National Taxpayer Advocate determines compelling public policy warrants
+assistance to an individual or group of taxpayers.
+
+Source: Appendix 2 of the National Taxpayer Advocate Fiscal Year 2025 Objectives Report to Congress
+(June 2024).
+
+TAS receives cases through a variety of sources, including directly from taxpayers via the
+telephone or in-person at a TAS office, taxpayer correspondence, IRS functional referrals,
+congressional office contacts, or other inquiries (e.g., congressional committee or executive
+Page 2
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+branch department or bureau). If the inquiry meets TAS criteria and the intake advocate cannot
+resolve the taxpayer’s issue, they will conduct an in-depth interview, take appropriate case
+building actions, create the case on Taxpayer Advocate Management Information System
+(TAMIS), and assign the case to the local TAS office or through the regular case assignment
+process. If the taxpayer does not meet TAS criteria, they will refer the taxpayer to the
+appropriate IRS function.
+Once a case has been assigned to a case advocate, they must review the criteria code for
+accuracy, make initial contact with the taxpayer or representative and establish a subsequent
+contact date. TAS will remain in contact with the taxpayer or their representative until the
+closing contact is made and will keep the case open long enough to ensure its effective
+resolution. These contacts with the taxpayer or their representative must be made on or before
+the subsequent contact date promised.
+When case advocates do not have the authority to take the actions necessary to resolve
+taxpayer issues (e.g., cases that are open in another IRS function or to overrule determinations
+made by employees of other IRS functions), they use Form 12412, Operations Assistance
+Request (OAR), to request or recommend actions from an IRS function. For cases where an
+expedited processing determination of the OAR has been made, the case advocate must send
+the OAR to the IRS function within one workday. For all other cases, the case advocate must
+send the OAR within five workdays once the OAR is properly developed. The case advocate must
+also include a requested completion date, which can be revised after negotiations between the
+case advocate and the IRS function employee assigned to the OAR. Further, TAS has negotiated
+national agreements with various IRS functions, known as service level agreements. These
+agreements outline the procedures and responsibilities for processing TAS casework when the
+responsibility to resolve the case issues rests outside of TAS’s authority.
+TAS receipts, closures, and average calendar days to close fluctuated over the last five fiscal
+years. For example, it took TAS an average of 110 calendar days to close a case in Fiscal
+Year (FY) 2024, more than 29 percent longer than the 85 calendar days it took to close a case
+in FY 2020. Figure 2 provides a summary of TAS cases worked.
+
+Figure 2: Case Advocacy Receipts, Closures, and Cycle Time
+for FYs 2020 through 2024
+Fiscal Year
+
+Number of Receipts
+
+Number of Closures
+
+Average Calendar Days to Close
+
+2020
+
+206,772
+
+203,665
+
+85
+
+2021
+
+264,343
+
+246,702
+
+96
+
+2022
+
+223,227
+
+234,293
+
+122
+
+2023
+
+219,251
+
+222,996
+
+111
+
+2024
+
+256,737
+
+232,504
+
+110
+th
+
+Source: FYs 2020 through 2023 information is from the TAS FYs 2021 and 2023 4 Quarter Business
+Performance Reviews. TAS provided the FY 2024 information.
+
+From FYs 2020 through 2024, the number of case advocates employed by TAS has steadily
+increased. Figure 3 shows the increase in case advocacy staffing.
+
+Page 3
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Figure 3: Case Advocate Staffing for FYs 2020 through 2024
+
+Source: FYs 2020 through 2023 information is from the TAS FYs 2021 and 2023
+4th Quarter Business Performance Reviews. TAS provided the FY 2024 information.
+
+TAS has been looking at ways to improve the customer service it provides to taxpayers. One of
+the objectives in the National Taxpayer Advocate Fiscal Year 2024 Objectives Report to Congress
+(June 2023) is optimizing the experience of TAS customers. The report also explains that TAS will
+continue to comprehensively analyze the intake process with emphasis on identifying ways to
+enhance the incorporation of customer cases.
+In addition, the National Taxpayer Advocate Fiscal Year 2025 Objectives Report to Congress
+(June 2024) contains the objective of deploying a new case and systemic issue management
+system. TAS currently uses two case and systemic issue management systems that have not kept
+pace with innovations in technology. TAS management believes that developing a new singular
+system is essential to providing quality taxpayer service and enhancing employee efficiency.
+TAS management estimates they will deploy an initial release of this new system by
+October 2025. However, management also stated that the capability for taxpayers to interface
+with the system will not be available in the initial release.
+
+Results of Review
+Taxpayer Advocate Service Cases Generally Met Acceptance Criteria and
+Taxpayer Issues Were Fully Addressed
+Nearly all cases worked by intake advocates met TAS case acceptance criteria. For this review, we
+selected a statistically valid stratified random sample of 163 out of a population of 217,166 cases
+
+Page 4
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+closed by TAS in FY 2023.2 We found that ********1******** closed cases in our sample properly
+met TAS case acceptance criteria. *******************************1********************************
+********1*************
+Intake advocates determine which cases to accept and case criteria code to use before assigning
+a case to a case advocate. TAS generally accepts taxpayer inquiries under the belief that there is
+an economic burden, which includes damage or loss of finances in any capacity. For example,
+the taxpayer will not be able to pay for housing without getting their refund. However, this
+depends on the facts and circumstances of each case. TAS also accepts taxpayer inquiries that
+are a result of a systemic burden, i.e., an IRS issue. For example, the IRS has not resolved the
+taxpayer’s tax-related issue after sending multiple letters stating the IRS needed more time.
+In addition, case advocates fully addressed the taxpayer’s issues in 159 of the 163 (98 percent) of
+the FY 2023 closed cases we reviewed. For the remaining four cases, TAS personnel either did
+not request the documents from the taxpayer or send the documents they already had via an
+OAR to be considered and processed by an IRS function. TAS should keep a case open until all
+issues are completely resolved, and all incidental matters are addressed, including related issues.
+
+Taxpayer Advocate Service Contacts With Taxpayers or Their Representatives
+Were Not Always Timely
+TAS did not timely contact taxpayers or their representatives in 103 (63 percent) of the
+163 FY 2023 closed cases we reviewed. This included instances where case advocates
+were not timely with either
+their initial or subsequent
+contacts with taxpayers or
+their representatives. Since
+these cases can sometimes be
+open for more than a year,
+there can be many subsequent contacts throughout the life of the case. The total initial and
+subsequent contact delays for the 103 untimely cases were an average of 146 calendar days late.
+While TAS timely contacted 60 taxpayers in our sample, case advocates were not timely with the
+initial contact in 30 cases or with subsequent contacts in 32 cases. There was an additional 41 of
+the 103 cases in which TAS was not timely in both the initial contact and subsequent contacts.
+We estimate that contacts were not timely for 125,982 (58 percent) of the 217,166 cases TAS
+closed in FY 2023 by an average of 60 calendar days.3 Not timely contacting taxpayers about
+their case could delay their case being resolved, resulting in additional burden or harm.
+
+Initial contact delays
+IRS policy requires case advocates to make initial contact (either via telephone or letter) with a
+taxpayer or their representative within three workdays of the received date by TAS for economic
+
+2
+
+Our statistically valid stratified random sample was selected using a 95 percent confidence interval, a 10 percent
+error rate, and a ±5 percent precision factor. See Appendix I for the sampling details.
+3
+
+When projecting the results (103) of our statistically valid stratified random sample (163), we are 95 percent
+confident that the actual total amount of cases is between 108,977 and 142,987 and the actual amount of calendar
+days is between 48 and 75.
+
+Page 5
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+burden cases or within five workdays for systemic burden cases. TAS issued interim guidance in
+November 2021 that changed these dates to 5 and 10 workdays, respectively. We found that in
+71 (44 percent) of the 163 closed cases we reviewed, the initial contact was not timely based on
+either the original or revised deadlines. As of November 2024, the IRS’s policy has not been
+updated to include the criteria from the interim guidance.
+The interim guidance also changed the criteria for when to begin tracking case due dates.
+Instead of using the date received by TAS, the case tracking will now begin once a case is
+assigned to a case advocate. TAS management stated that they implemented this deviation from
+their policy because cases were not being put on TAMIS timely, making timely initial contacts
+impossible for case advocates. However, the unintended consequence of moving the date of
+when case tracking begins is that the initial contact with taxpayers can be delayed by several
+weeks.
+
+Subsequent contact delays
+We also identified 73 (45 percent) of the 163 closed cases where the case advocates were late
+meeting the subsequent contact date deadline. Based on TAS policy, case advocates are
+required to provide a subsequent contact date to the taxpayer or their representative so they
+know when to expect an update on their case. These contacts are usually by telephone or a
+letter. In addition, case advocates will set a subsequent contact date after every verbal or written
+contact. If the case advocate fails to establish a subsequent contact date, they must contact the
+taxpayer, either verbally or in writing, within five workdays of their last contact and establish a
+new date. When case advocates are not timely meeting the subsequent contact dates, taxpayers
+or their representatives are not being kept informed on the status of their case. This could create
+additional burden for the taxpayer.
+
+TAS efforts to improve the timeliness of taxpayer case processing
+In September 2024, the National Taxpayer Advocate acknowledged that TAS did not work cases
+timely and did not return taxpayer telephone calls quickly.4 The National Taxpayer Advocate also
+stated that TAS case advocacy is facing three challenges that affect the timeliness of case
+processing:
+1. An increase in case receipts.
+2. An increase in the number of new case advocates who require training before they can
+effectively assist taxpayers.
+3. The use of a legacy case management system that causes inefficiencies and delays.
+TAS also had a significant backlog of taxpayer requests for assistance that had not been added
+to TAMIS. TAS management took action to address the backlog by issuing interim guidance
+effective in October 2024 that temporarily revised procedures for intake advocates.
+Intake advocates were no longer required to perform initial and case building actions, use
+delegated authorities to resolve cases, or secure all documentation needed to support case
+resolution. Instead, case advocates would secure all needed documentation once the case is
+assigned and contact is made with the taxpayer. TAS management stated that as of
+4
+
+National Taxpayer Advocate, TAS is Taking Steps to Better Serve Taxpayers, Taxpayer Advocate Service
+(September 19, 2024).
+
+Page 6
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+December 2024, the backlog of 14,000 requests for TAS assistance has been reduced to
+approximately 260. We did not verify the decrease in the backlog since the temporary changes
+were made after our review was completed.
+In addition, TAS has been experiencing staffing challenges. Although TAS employed 893 case
+advocates in FY 2024, a significant number were offline due to training. This included both new
+case advocates receiving and experienced case advocates providing training. In addition, TAS
+received 50,000 more cases in FY 2024 than they did in FY 2020. TAS management stated that
+these large individual caseloads cannot be effectively worked under current processes and
+procedures.
+To help address individual inventory levels of the case advocates, the interim guidance also
+modified procedures for working certain systemic burden cases (e.g., a taxpayer has experienced
+a delay of more than 30 calendar days or has not received a response or resolution by the date
+provided) by grouping together taxpayers with similar issues. TAS management estimates that
+this has reduced new receipts by 30 percent, which equates to approximately 65,000 cases that
+will not be assigned to a case advocate. TAS also issued additional interim guidance in
+November 2024 that allows case advocates to transfer some existing cases to a centralized
+inventory for bulk processing.
+Finally, TAS began a large-scale effort to design a new system to improve interactions with
+taxpayers and the quality of its service. The initial release of this new system is estimated to be
+deployed by October 2025 and will include features to assist case advocates in scheduling
+subsequent contacts. However, it will not enable taxpayers to interface with the system to learn
+about the status of their case. TAS is considering this feature for future releases.
+The National Taxpayer Advocate should:
+Recommendation 1: Set specific, attainable time frames for initial contact, with an emphasis on
+economic burden cases, and adopt permanent policies that provide clear and consistent
+expectations for taxpayers.
+Management’s Response: IRS management agreed with this recommendation.
+Currently there are specific contact timeframes articulated based on an Interim Guidance
+Memorandum. TAS plans to monitor taxpayer contact trends based on available
+resources and will update guidance to provide attainable timeframes for taxpayer
+communications.
+Recommendation 2: Establish an automated process within the new case and systemic issue
+management system that would apprise the taxpayer of the progress on their case.
+Management’s Response: IRS management agreed with this recommendation. The
+new customer relationship management system will allow the implementation of an
+automated process to apprise congressional offices about the status of their
+constituents’ cases. TAS plans to assess the feasibility and resources required to further
+expand this process to provide status updates directly to taxpayers and practitioners.
+
+Page 7
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Taxpayer Cases Requiring an Operations Assistance Request Were Not Always
+Timely Processed
+We found that case advocates did not always timely send OARs to the IRS functions, or the
+IRS functions did not complete the OARs by their requested or negotiated completion date. We
+reviewed a statistically valid stratified random sample of 104 cases closed by TAS in FY 2023 that
+required outside assistance and found that OARs were not timely processed in 23 (22 percent)
+of the cases. *****************************************1****************************************
+*********1********************* The remaining 81 OARs were timely processed. Based on these
+results, we estimate that 24,039 (17 percent) of the 139,080 cases requiring assistance closed in
+FY 2023 had 1 or more OARs that were not timely sent to the appropriate IRS functions by case
+advocates or completed by their requested or negotiated completion date. We estimate these
+exceptions were an average of 19 calendar days late.5
+
+OARs were not always timely sent by case advocates
+We found that 10 (10 percent) of the 104 closed cases sampled had 1 or more OARs that were
+not sent timely to the IRS functions by case advocates and were delayed by an average of
+55 calendar days. TAS generally uses Form 12412 to request or recommend actions from the IRS
+functions when the case advocates do not have the delegated authority to take the actions
+necessary to resolve the taxpayers’ issues. TAS guidance states that OARs that require expedited
+actions must be submitted within one workday and OARs that do not require expedited actions
+should be submitted within five workdays once the OAR is sufficiently developed. Not timely
+sending OARs to the IRS functions causes delays resolving the taxpayer’s issue and creates
+additional taxpayer burden.
+TAS management attributed timeliness issues to increased case receipts and case advocates
+having a large volume of open cases. The case advocates prepare the OARs manually and there
+is no reminder when OARs are prepared but not sent. When a case advocate prepares an OAR,
+they need to ensure that the OAR is complete and sent prior to moving on to other cases.
+
+IRS functions did not always timely complete the OARs
+IRS functions did not always timely complete OARs by their requested or negotiated completion
+date. We found that 14 (13 percent) of the 104 closed cases sampled that required an OAR had
+1 or more OARs that were not timely completed by the IRS functions and were late by an
+average of 9 calendar days.
+When case advocates send OARs to the IRS functions, they will include a requested completion
+date. If that date will not be met by IRS function personnel per the service level agreements,
+they must communicate with the case advocate and negotiate a new completion date. Not
+timely completing OARs could delay resolving a taxpayer’s issue. When the IRS functions are not
+timely completing the OARs, TAS can elevate the issue through the IRS management chain.
+
+5
+
+Our statistically valid stratified random sample was selected using a 95 percent confidence interval, a 10 percent
+error rate, and a ±5 percent precision factor. When projecting the results of our sample, we are 95 percent confident
+that the actual total number of cases with an untimely OAR is between 13,474 and 34,603 and the total calendar days
+late is between 7 and 50. See Appendix I for the sampling details.
+
+Page 8
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+However, case advocates are not always timely following up with the IRS function personnel
+when their OARs’ requested or negotiated completion dates have expired.
+Recommendation 3: The National Taxpayer Advocate should establish an automated process
+within the new case and systemic issue management system that would 1) notify the case
+advocate and their manager when an OAR has been prepared but not sent, and 2) notify IRS
+function personnel the next business day following the requested or negotiated OAR
+completion date.
+Management’s Response: The IRS partially agreed with this recommendation. The
+new customer relationship management system will have a dashboard enabling case
+advocates and managers to monitor the status of OARs more effectively. TAS plans to
+assess the resources needed to add automated notification functionality in a future
+release.
+
+Page 9
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Appendix I
+Detailed Objective, Scope, and Methodology
+The overall objective of this audit was to evaluate whether taxpayer issues worked by TAS case
+advocacy were resolved efficiently, timely, and accurately. To accomplish our objective, we:
+·
+
+Determined whether the TAS case inventory includes cases that do not meet their
+criteria.
+o
+
+Selected a statistically valid stratified random sample of 163 of the 217,166 TAS cases
+closed in FY 2023 based on a 95 percent confidence interval, a 10 percent error rate,
+and a ±5 percent precision factor and stratified based on whether a case has an OAR
+(104 cases with and 59 cases without an OAR) and the length of time the case was
+open. We reviewed a statistically valid stratified random sample of cases to project
+the results to the population. This sample was used to determine whether TAS
+accepted cases that met its criteria, was timely with its contacts with taxpayers and
+their representatives, and whether there were delays with the issuance and
+completion of the OARs. TIGTA’s contract statistician assisted with developing the
+sampling plan and projections.
+
+·
+
+Determined whether contact with the taxpayer was maintained and the taxpayer’s issues
+were fully and accurately addressed.
+
+·
+
+Determined whether the OAR process is causing delays in TAS case resolutions.
+
+Performance of This Review
+This review was performed with information obtained from the TAS offices located in Phoenix,
+Arizona; Washington, D.C.; Buffalo, New York; and Holtsville, New York, during the period
+June 2024 through January 2025. We conducted this performance audit in accordance with
+generally accepted government auditing standards. Those standards require that we plan and
+perform the audit to obtain sufficient, appropriate evidence to provide a reasonable basis for
+our findings and conclusions based on our audit objective. We believe that the evidence
+obtained provides a reasonable basis for our findings and conclusions based on our audit
+objective.
+
+Data Validation Methodology
+For this review, we relied on data obtained from TAMIS. We evaluated the data by 1) reviewing
+query criteria and totals provided by TAS, 2) querying the database ourselves, 3) assessing the
+appropriateness of the data within the requested fields, and 4) interviewing TAS officials
+knowledgeable about the data. We determined that the data were sufficiently reliable for
+purposes of this report.
+
+Internal Controls Methodology
+Internal controls relate to management’s plans, methods, and procedures used to meet their
+mission, goals, and objectives. Internal controls include the processes and procedures for
+planning, organizing, directing, and controlling program operations. They include the systems
+Page 10
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+for measuring, reporting, and monitoring program performance. We determined that the
+following internal controls were relevant to our audit objective: the TAS policies and procedures
+for case acceptance and the processing of cases including the OARs. We evaluated these
+controls by reviewing a statistically valid stratified random sample of closed cases and
+interviewing TAS management.
+
+Page 11
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Appendix II
+Outcome Measures
+This appendix presents detailed information on the measurable impact that our recommended
+corrective actions will have on tax administration. These benefits will be incorporated into our
+Semiannual Report to Congress.
+
+Type and Value of Outcome Measure:
+·
+
+Taxpayer Burden – Potential; 125,982 closed taxpayer cases that did not have timely
+initial or subsequent contacts throughout the case (see Recommendations 1 and 2).
+
+Methodology Used to Measure the Reported Benefit:
+We reviewed a statistically valid stratified random sample of 163 cases closed by TAS in FY 2023
+to determine whether initial and subsequent contacts with the taxpayers or their representatives
+were timely. We identified 103 cases where the initial or subsequent contacts were not timely.
+For cases that were received before November 8, 2021, the initial contact was late if it was made
+more than three workdays from the date received by TAS for economic burden cases and
+five workdays for all other cases. For cases received after November 7, 2021, the initial contact
+was late if it was made more than 5 workdays from the date assigned to the TAS case advocate
+for economic burden cases and 10 workdays for all other cases. In addition, subsequent contacts
+were deemed late if the date provided to the taxpayer for their next contact was not met and if
+no subsequent contact date was provided to the taxpayer, then it was deemed late if the contact
+was more than 5 workdays later.
+We estimate that 58 percent of the taxpayer cases closed in FY 2023 (125,982 taxpayer cases)
+did not have timely initial or subsequent contacts.1 TIGTA’s contract statistician calculated these
+error rate projections and applied them over the total population size of 217,166 taxpayer cases
+closed in FY 2023. Figure 1 shows how we estimated the number of cases without timely initial
+or subsequent contacts.
+
+1
+
+Our statistically valid stratified random sample was selected using a 95 percent confidence interval, a 10 percent
+error rate, and a ±5 percent precision factor. When projecting the results of our sample, we are 95 percent confident
+that the actual total amount is between 108,977 and 142,987.
+
+Page 12
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Figure 1: Estimated Number of Closed TAS Case Files in FY 2023
+Without Timely Initial or Subsequent Contacts
+Strata Based on Calendar
+Day Cycle Time
+
+Population of
+Cases Closed
+
+Sample
+Size
+
+Documentation
+Errors
+
+Error
+Percentage
+in Sample
+
+Estimated
+Number of
+Errors in
+Population2
+
+Less than 101 days with
+an OAR
+
+80,394
+
+52
+
+25
+
+48.1%
+
+38,651
+
+More than 100 and less
+than 366 days with
+an OAR
+
+52,980
+
+34
+
+26
+
+76.5%
+
+40,514
+
+More than 365 and less
+than 731 days with
+an OAR
+
+4,950
+
+5
+
+4
+
+80.0%
+
+3,960
+
+More than 730 and less
+than 1,825 days with
+an OAR
+
+748
+
+5
+
+5
+
+100.0%
+
+748
+
+More than 1,824 days
+with an OAR
+
+8
+
+8
+
+7
+
+87.5%
+
+7
+
+Less than 101 days
+without an OAR
+
+57,761
+
+37
+
+16
+
+43.2%
+
+24,978
+
+More than 100 and less
+than 366 days without
+an OAR
+
+19,207
+
+12
+
+10
+
+83.3%
+
+16,006
+
+More than 365 and less
+than 731 days without
+an OAR
+
+1,063
+
+5
+
+5
+
+100.0%
+
+1,063
+
+More than 730 days
+without an OAR
+
+55
+
+5
+
+5
+
+100.0%
+
+55
+
+Total
+
+217,166
+
+163
+
+103
+
+N/A
+
+125,982
+
+Source: TIGTA’s contract statistician’s projections based on our audit results.
+
+Type and Value of Outcome Measure:
+·
+
+Taxpayer Burden – Potential; 24,039 closed taxpayer cases that had 1 or more OARs that
+were not timely sent to or timely completed by the IRS functions by their requested or
+negotiated completion date (see Recommendation 3).
+
+Methodology Used to Measure the Reported Benefit:
+We reviewed a statistically valid stratified random sample of 104 cases closed by TAS in FY 2023
+that required an OAR to determine whether the OARs were timely sent to or completed by the
+IRS functions by their requested or negotiated completion date. We identified 23 cases where
+the OARs were not timely sent or completed by their due date. We estimate that 17 percent of
+the taxpayer cases closed in FY 2023 (24,039 taxpayer cases) had one or more OARs that were
+
+2
+
+Estimated number of errors in the population may not calculate correctly due to rounding.
+
+Page 13
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+not timely sent or completed by their due date.3 TIGTA’s contract statistician calculated these
+error rate projections and applied them over the total population size of 139,080 taxpayer cases
+closed in FY 2023 with an OAR. Figure 2 shows how we estimated the number of cases without a
+timely OAR issued or completed by their due date.
+
+Figure 2: Estimated Number of FY 2023 Closed TAS Case Files Without a Timely
+OAR Issued or Completed by Their Requested or Negotiated Completion Date
+Strata Based on Calendar
+Day Cycle Time
+
+Population of
+Cases Closed
+
+Sample
+Size
+
+Documentation
+Errors
+
+Error
+Percentage
+in Sample
+
+Estimated
+Number of
+Errors in
+Population4
+
+Less than 101 days with
+an OAR
+
+80,394
+
+52
+
+5
+
+9.6%
+
+7,730
+
+More than 100 and less
+than 366 days with
+an OAR
+
+52,980
+
+34
+
+9
+
+26.5%
+
+14,024
+
+More than 365 and less
+than 731 days with
+an OAR
+
+4,950
+
+5
+
+*1*
+
+**1**
+
+*1*
+
+More than 730 and less
+than 1,826 days with
+an OAR
+
+748
+
+5
+
+*1*
+
+**1**
+
+*1*
+
+More than 1,825 days
+with an OAR
+
+8
+
+8
+
+*1*
+
+**1**
+
+*1*
+
+Total
+
+139,080
+
+104
+
+23
+
+N/A
+
+24,0395
+
+Source: TIGTA’s contract statistician’s projections based on our audit results.
+
+3
+
+Our statistically valid stratified random sample was selected using a 95 percent confidence interval, a 10 percent
+error rate, and a ±5 percent precision factor. When projecting the results of our sample, we are 95 percent confident
+that the actual total amount is between 14,834 and 36,360.
+4
+
+Estimated number of errors in the population may not calculate correctly due to rounding.
+
+5
+
+Totals do not match due to rounding.
+
+Page 14
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Appendix III
+Management’s Response to the Draft Report
+
+Thank you for the opportunity to respond to the above-referenced report and for considering
+comments we previously submitted. We appreciate your office’s evaluation of the Taxpayer
+Advocate Service’s case processing operations and your recommendations to improve our
+service to taxpayers. We also appreciate your acknowledgement that *1* of the TAS cases
+reviewed met case acceptance criteria and that TAS case advocates fully addressed the
+taxpayer’s issues in 98% of these cases.
+TAS continues to experience high case inventories and expects those to continue due to high
+taxpayer demand and recent significant attrition across both the IRS and TAS. We continue to
+evaluate our processes and procedures to improve our communications with taxpayers and help
+set realistic expectations regarding when taxpayers will hear from their case advocates. Toward
+that end, TAS has streamlined our intake process, shortening the time it takes for a taxpayer to
+receive a response from a Case Advocate. TAS is also working with the IRS to reduce
+Operations Assistance Request (OAR) inefficiencies through centralization of work and using
+Bulk OARs (combining multiple cases that present a similar issue into a group OAR rather than
+sending multiple individual OARs). We believe this approach will free up employees to focus
+their time on cases that require more development, such as securing and reviewing supporting
+documentation, and direct interaction with taxpayers.
+TAS is on schedule to implement the first release of our new customer relationship management
+system (Phoenix) this summer. Among other things, the first release of the new system will give
+us the capability to view dashboards and reports for improved oversight and monitoring.
+Additionally, we are developing a portal that will allow congressional offices that refer cases to
+TAS to interact with case advocates digitally, which will largely eliminate the need to send faxes
+and schedule telephone calls to provide status updates. Congressional cases currently account for
+
+Page 15
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Page 16
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Page 17
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Page 18
+
+Improvements to Taxpayer Advocate Case Processing Would Result in Better Customer Service
+
+Appendix IV
+Abbreviations
+FY
+
+Fiscal Year
+
+IRS
+
+Internal Revenue Service
+
+OAR
+
+Operations Assistance Request
+
+TAMIS Taxpayer Advocate Management Information System
+TAS
+
+Taxpayer Advocate Service
+
+TIGTA
+
+Treasury Inspector General for Tax Administration
+
+Page 19
+
+To report fraud, waste, or abuse,
+contact our hotline on the web
+at https://www.tigta.gov/reportcrime-misconduct.
+
+To make suggestions to improve IRS policies, processes, or systems
+affecting taxpayers, contact us at www.tigta.gov/form/suggestions.
+
+Information you provide is confidential, and you may remain anonymous.
+
+

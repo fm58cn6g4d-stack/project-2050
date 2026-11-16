@@ -1,0 +1,1098 @@
+Source: https://www.courts.ca.gov/opinions/archive/S279622.PDF
+Publisher: Supreme Court of California (2024)
+Retrieved: 2026-11-16
+Original SHA-256: 977a74415826b93fcf4f2ab62e000b3fb4a2f0891a60dc75afd01d7b2682eedf
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+IN THE SUPREME COURT OF
+CALIFORNIA
+HECTOR CASTELLANOS et al.,
+Plaintiffs and Respondents,
+v.
+STATE OF CALIFORNIA et al.,
+Defendants and Appellants;
+PROTECT APP-BASED DRIVERS AND SERVICES et al.,
+Interveners and Appellants.
+S279622
+First Appellate District, Division Four
+A163655
+Alameda County Superior Court
+RG21088725
+
+July 25, 2024
+Justice Liu authored the opinion of the Court, in which Chief
+Justice Guerrero and Justices Corrigan, Kruger, Groban,
+Jenkins, and Evans concurred.
+
+CASTELLANOS v. STATE OF CALIFORNIA
+S279622
+
+Opinion of the Court by Liu, J.
+
+This case concerns Business and Professions Code section
+7451, which was enacted by the voters through Proposition 22
+(Gen. Elec. (Nov. 3, 2020)), the Protect App-Based Drivers and
+Services Act (Proposition 22) (Bus. & Prof. Code, §§ 7448–7467;
+all undesignated statutory references are to this code). Under
+section 7451, a driver for an app-based transportation or
+delivery company, such as Uber Technologies, Inc. (Uber), Lyft,
+Inc. (Lyft), or DoorDash, Inc., is an independent contractor and
+not an employee of the company as long as several conditions
+are met. As a result of section 7451, app-based drivers are not
+covered by California workers’ compensation laws, which
+generally apply to employees and not to independent
+contractors.
+Plaintiffs Hector Castellanos, Joseph Delgado, Saori
+Okawa, Michael Robinson, Service Employees International
+Union California State Council, and Service Employees
+International Union assert that section 7451 conflicts with
+article XIV, section 4 of the California Constitution, which vests
+the Legislature “with plenary power, unlimited by any provision
+of this Constitution, to create, and enforce a complete system of
+workers’ compensation, by appropriate legislation.” (Cal.
+Const., art. XIV, § 4; all undesignated article references are to
+the California Constitution.) They further contend that because
+section 7465 and article II, section 10, subdivision (c) (article II,
+section 10(c)) together operate to require voter approval of any
+1
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+legislation amending section 7451, those provisions restrict the
+Legislature’s “unlimited” power to govern workers’
+compensation under the terms of article XIV, section 4.
+Interveners Protect App-Based Drivers and Services, Davis
+White, and Keith Yandell acknowledge that section 7465 and
+article II, section 10(c) would restrict the Legislature’s power to
+restore app-based drivers’ eligibility for workers’ compensation,
+but they see no inconsistency between this effect of Proposition
+22 and article XIV, section 4. The Attorney General contends
+that although section 7465 and article II, section 10(c) may
+conflict with article XIV, section 4, those provisions are not
+before us. According to the Attorney General, the sole provision
+at issue in this case, section 7451, does not itself conflict with
+article XIV, section 4 because the latter provision does not
+assign the Legislature sole authority, to the exclusion of the
+initiative power, to govern workers’ compensation.
+We agree with the Attorney General that section 7451
+does not conflict with article XIV, section 4 because the latter
+provision does not preclude the electorate from exercising its
+initiative power to legislate on matters affecting workers’
+compensation. Whether the operation of section 7465 and
+article II, section 10(c) improperly constrains the Legislature’s
+article XIV, section 4 authority to enact future legislation is not
+presented here, and we express no view on that question.
+I.
+Article XIV, section 4 provides in relevant part: “The
+Legislature is hereby expressly vested with plenary power,
+unlimited by any provision of this Constitution, to create, and
+enforce a complete system of workers’ compensation, by
+appropriate legislation, and in that behalf to create and enforce
+
+2
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+a liability on the part of any or all persons to compensate any or
+all of their workers for injury or disability . . . .” A “complete
+system of workers’ compensation” includes, among other things,
+“adequate provisions for the comfort, health and safety and
+general welfare of any and all workers,” “full provision for
+securing safety in places of employment,” and “full provision for
+adequate insurance coverage against liability to pay or furnish
+compensation.” (Ibid.) “[A]ll of which matters are expressly
+declared to be the social public policy of this State.” (Ibid.)
+“The right to workers’ compensation benefits is ‘wholly
+statutory,’ ” “exclusive of all other statutory and common law
+remedies, and substitutes a new system of rights and obligations
+for the common law rules governing liability of employers for
+injuries to their employees.” (Graczyk v. Workers’ Comp.
+Appeals Bd. (1986) 184 Cal.App.3d 997, 1002, 1003.) The
+workers’ compensation statutes are based on the theory that the
+common law remedy for work injuries “involves intolerable
+delay and great economic waste, gives inadequate relief for loss
+and suffering, operates unequally as between different
+individuals in like circumstances, and . . . is inequitable and
+unsuited to the conditions of modern industry.” (Western Indem.
+Co. v. Pillsbury (1915) 170 Cal. 686, 693 (Western Indemnity).)
+In 2019, the Legislature enacted Assembly Bill No. 5
+(2019–2020 Reg. Sess.) (Assembly Bill 5) to address “[t]he
+misclassification of workers as independent contractors,” which
+it identified as “a significant factor in the erosion of the middle
+class and the rise in income inequality.” (Stats. 2019, ch. 296,
+§ 1, subd. (c).)
+The Legislature sought to ensure that
+misclassified workers “have the basic rights and protections
+they deserve under the law, including a minimum wage,
+workers’ compensation if they are injured on the job,
+3
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+unemployment insurance, paid sick leave, and paid family
+leave.” (Stats. 2019, ch. 296, § 1, subd. (e).) To achieve this aim,
+Assembly Bill 5 codified the “ABC test” set forth in Dynamex
+Operations West, Inc. v. Superior Court (2018) 4 Cal.5th 903.
+(Stats. 2019, ch. 296, § 1.) Under that test, a worker is an
+independent contractor only if the hiring entity establishes: “(A)
+that the worker is free from the control and direction of the hirer
+in connection with the performance of the work, both under the
+contract for the performance of the work and in fact; (B) that the
+worker performs work that is outside the usual course of the
+hiring entity’s business; and (C) that the worker is customarily
+engaged in an independently established trade, occupation, or
+business of the same nature as the work performed for the hiring
+entity.” (Dynamex, at pp. 916–917; see Lab. Code, § 2775,
+subd. (b)(1).)
+Assembly Bill 5 took effect in January 2020. (Stats. 2019,
+ch. 296, § 2.) In October 2020, the Court of Appeal in People v.
+Uber Technologies, Inc. (2020) 56 Cal.App.5th 266, 273,
+prohibited Uber and Lyft from misclassifying their drivers as
+independent contractors under Assembly Bill 5. The court said
+“we have little doubt the Legislature contemplated that those
+who drive for Uber and Lyft would be treated as employees”
+under Assembly Bill 5. (Uber Technologies, at p. 297.)
+In November 2020, Protect App-Based Drivers and
+Services supported Davis White and Keith Yandell in placing
+Proposition 22 on the general election ballot. Proposition 22
+states that its purposes are to “protect the basic legal right of
+Californians to choose to work as independent contractors with
+rideshare and delivery network companies,” “protect the
+individual right of every app-based rideshare and delivery
+driver to have the flexibility to set their own hours for when,
+4
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+where, and how they work,” and “require rideshare and delivery
+network companies to offer new protections and benefits for appbased rideshare and delivery drivers, including minimum
+compensation levels, insurance to cover on-the-job injuries,
+automobile accident insurance, health care subsidies for
+qualifying drivers, protection against harassment and
+discrimination, and mandatory contractual rights and appeal
+processes.” (§ 7450, subds. (a), (b) & (c).) Proposition 22 passed
+with the support of 58.6 percent of the voters and enacted
+sections 7448 to 7467 of the Business and Professions Code.
+Section 7451 is the focus of this appeal. It provides:
+“Notwithstanding any other provision of law, including, but not
+limited to, the Labor Code, the Unemployment Insurance Code,
+and any orders, regulations, or opinions of the Department of
+Industrial Relations or any board, division, or commission
+within the Department of Industrial Relations, an app-based
+driver is an independent contractor and not an employee or
+agent with respect to the app-based driver’s relationship with a
+network company if the following conditions are met: [¶] (a) The
+network company does not unilaterally prescribe specific dates,
+times of day, or a minimum number of hours during which the
+app-based driver must be logged into the network company’s
+online-enabled application or platform. [¶] (b) The network
+company does not require the app-based driver to accept any
+specific rideshare service or delivery service request as a
+condition of maintaining access to the network company’s
+online-enabled application or platform. [¶] (c) The network
+company does not restrict the app-based driver from performing
+rideshare services or delivery services through other network
+companies except during engaged time. [¶] (d) The network
+
+5
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+company does not restrict the app-based driver from working in
+any other lawful occupation or business.” (§ 7451.)
+The statute defines a “ ‘[n]etwork company’ ” as a business
+entity that “maintains an online-enabled application or platform
+used to facilitate delivery [or transportation] services within the
+State of California on an on-demand basis . . . .” (§ 7463,
+subds. (l), (f); see id., subd. (p).) Network companies are
+required to provide app-based drivers certain benefits and
+protections, including “a guaranteed minimum level of
+compensation for app-based drivers that cannot be reduced”
+(§ 7453, subd. (a)), “a quarterly health care subsidy to qualifying
+app-based drivers” (§ 7454, subd. (a)), and “occupational
+accident insurance to cover medical expenses and lost income
+resulting from injuries suffered while the app-based driver is
+online” (§ 7455, subd. (a)).
+Section 7465 specifies the procedure for amending
+Proposition 22: “After the effective date of this chapter, the
+Legislature may amend this chapter by a statute passed in each
+house of the Legislature by rollcall vote entered into the journal,
+seven-eighths of the membership concurring, provided that the
+statute is consistent with, and furthers the purpose of, this
+chapter.” (§ 7465, subd. (a).) “Any statute that amends Section
+7451 does not further the purposes of this chapter.” (§ 7465,
+subd. (c)(2).)
+Section 7467 states that “the provisions of this chapter are
+severable. If any portion, section, subdivision, paragraph,
+clause, sentence, phrase, word, or application of this chapter is
+for any reason held to be invalid by a decision of any court of
+competent jurisdiction, that decision shall not affect the validity
+of the remaining portions of this chapter.” (§ 7467, subd. (a).)
+
+6
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+But “if any portion, section, subdivision, paragraph, clause,
+sentence, phrase, word, or application of Section 7451 . . . is for
+any reason held to be invalid by a decision of any court of
+competent jurisdiction, that decision shall apply to the entirety
+of the remaining provisions of this chapter, and no provision of
+this chapter shall be deemed valid or given force of law.”
+(§ 7467, subd. (b).)
+In February 2021, plaintiffs filed a petition for writ of
+mandate in Alameda County Superior Court, naming the State
+of California and Katie Hagen, Director of the Department of
+Industrial Relations, as defendants. By stipulation of the
+parties, the trial court granted interveners leave to oppose the
+petition as real parties in interest. The petition alleged that
+“Proposition 22 conflicts with article XIV, section 4, by
+purporting to entirely remove app-based drivers from the
+‘complete system of worker’s compensation’ the Legislature has
+extended to them and to limit the authority of the Legislature to
+extend such worker’s compensation benefits to app-based
+drivers in the future.” Plaintiffs further contended that “the
+entirety of Proposition 22 must be invalidated” because section
+7451 is not severable. Plaintiffs also argued that other
+provisions of Proposition 22 not before us in this appeal are
+invalid.
+The trial court found Proposition 22 “constitutionally
+problematic” because under article II, section 10(c), “the
+Legislature may not act to amend or repeal an initiative statute
+without a subsequent vote of the people.” Although the court
+concluded that the people have authority to enact workers’
+compensation laws through the initiative power, the court
+characterized section 7451 as “an unconstitutional continuing
+limitation on the Legislature’s power to exercise its plenary
+7
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+power to determine what workers must be covered or not
+covered by the worker’s compensation system.” The court
+explained, “[I]f the People wish to use their initiative power to
+restrict or qualify a ‘plenary’ and ‘unlimited’ power granted to
+the Legislature, they must first do so by initiative constitutional
+amendment, not by initiative statute.” Given that section 7451
+is not severable, the court held Proposition 22 invalid in its
+entirety. The court also held Proposition 22 unconstitutional on
+other grounds not at issue here.
+The Attorney General and interveners appealed, and a
+divided Court of Appeal reversed. The court first concluded that
+under article XIV, section 4, the voters and the Legislature
+“jointly and severally have authority to create a workers’
+compensation system.”
+(Castellanos v. State (2023) 89
+Cal.App.5th 131, 150 (Castellanos).) Relying on Independent
+Energy Producers Association v. McPherson (2006) 38 Cal.4th
+1020 (McPherson), the court reasoned that article XIV, section 4
+does not “require every worker to be covered by workers’
+compensation.” (Castellanos, at p. 155.) Observing that “courts
+must liberally construe the initiative power and resolve doubts
+in favor of the use of the initiative wherever reasonable,” the
+Court of Appeal held that Proposition 22 does not conflict with
+article XIV, section 4. (Castellanos, at p. 150; see id. at p. 157.)
+The court affirmed the trial court’s judgment insofar as it
+invalidated severable provisions of Proposition 22 — section
+7465, subdivisions (c)(3) and (c)(4) — which are not before us in
+the present matter. (Castellanos, at pp. 163–177.)
+Justice Streeter disagreed with the Court of Appeal’s
+conclusion that Proposition 22 does not conflict with article XIV,
+section 4. He explained that Proposition 22 “constitutes a sub
+rosa attempt to amend the Constitution in the guise of statutory
+8
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+change” and “presents a direct conflict between the voter
+electors’ power to adopt initiative statutes and the Legislature’s
+power under article XIV, section 4.” (Castellanos, supra, 89
+Cal.App.5th at p. 178 (conc. & dis. opn. of Streeter, J.).) “[O]n
+this record,” he concluded, “we must resolve that conflict in favor
+of the Legislature.” (Ibid.)
+Plaintiffs petitioned for our review. We granted the
+petition and later limited the issue to be argued and briefed as
+follows: “Does Business and Professions Code section 7451,
+which was enacted by Proposition 22 (the ‘Protect App-Based
+Drivers and Services Act’), conflict with article XIV, section 4 of
+the California Constitution and therefore require that
+Proposition 22, by its own terms, be deemed invalid in its
+entirety?”
+II.
+In addressing this question, we begin by examining
+whether the Legislature’s plenary power under article XIV,
+section 4 to legislate on workers’ compensation is exclusive, or
+whether the people through the initiative power may also
+legislate on matters affecting workers’ compensation by
+enacting section 7451.
+A.
+Plaintiffs assert that the phrase “unlimited by any
+provision of this Constitution” (the “unlimited” clause) in article
+XIV, section 4 prohibits the initiative statute here. According to
+plaintiffs, if “an initiative statute can remove entire classes of
+workers from the complete workers’ compensation system
+established by the Legislature . . . then the Legislature’s plenary
+power is not ‘unlimited.’ ” They ask us to invalidate section 7451
+on that basis.
+9
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+Our analysis is guided by McPherson, supra, 38 Cal.4th
+1020, where we examined the only other provision of the
+California Constitution that expressly references the
+Legislature’s plenary power, unlimited by any other
+constitutional provision, to take a specified action. That
+provision is article XII, section 5, which states: “The Legislature
+has plenary power, unlimited by the other provisions of this
+constitution but consistent with this article, to confer additional
+authority and jurisdiction upon the [Public Utilities
+Commission] . . . .” We held that article XII, section 5 does not
+“preclude[] the use of the initiative process to enact statutes
+conferring additional authority upon the [commission].”
+(McPherson, at p. 1025.) In other words, the Legislature’s power
+under article XII, section 5 is not exclusive of the people’s
+initiative power, notwithstanding the “unlimited” clause.
+As McPherson observed, the initiative power is recognized
+in article IV, section 1 of the California Constitution, which
+states: “The legislative power of this State is vested in the
+California Legislature which consists of the Senate and
+Assembly, but the people reserve to themselves the powers of
+initiative and referendum.” We summarized the history of this
+provision as follows: “ ‘The amendment of the California
+Constitution in 1911 to provide for the initiative and
+referendum signifies one of the outstanding achievements of the
+progressive movement of the early 1900’s. Drafted in light of
+the theory that all power of government ultimately resides in
+the people, the amendment speaks of the initiative and
+referendum, not as a right granted the people, but as a power
+reserved by them. Declaring it “the duty of the courts to
+jealously guard the right of the people” [citation], the courts
+have described the initiative and referendum as articulating
+10
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+“one of the most precious rights of our democratic process”
+[citation]. “[I]t has long been our judicial policy to apply a liberal
+construction to this power whenever it is challenged in order
+that the right be not improperly annulled. If doubts can
+reasonably be resolved in favor of the use of this reserve power,
+courts will preserve it.” ’ ” (McPherson, supra, 38 Cal.4th at
+p. 1032, quoting Associated Home Builders of the Greater
+Eastbay, Inc. v. City of Livermore (1976) 18 Cal.3d 582, 591
+(Associated Home Builders).)
+Mindful of these principles, this court in McPherson
+rejected the view that article XII, section 5 conferred exclusive
+power on the Legislature to expand the Public Utilities
+Commission’s (PUC) authority or jurisdiction. (McPherson,
+supra, 38 Cal.4th at p. 1032.) Proponents of the initiative
+statute there argued that the phrase “ ‘unlimited by the other
+provisions of this constitution’ ” in article XII, section 5 could not
+be read literally because doing so “logically would signify that a
+statute passed by the Legislature pursuant to article XII, section
+5 would not be subject to any provision of the California
+Constitution, including, for example, the provision authorizing
+the Governor to veto a bill approved by the Legislature. (Cal.
+Const., art. IV, § 10.)” (McPherson, at p. 1036.) We agreed that
+the “unlimited” clause was “not unambiguous” and could not
+“reasonably be interpreted only as having the effect of
+precluding the people’s exercise of their reserved initiative
+power.” (Ibid.) We then consulted the background of article XII,
+section 5 and observed that it was approved at the same 1911
+election where voters also approved article IV, section 1
+establishing the initiative power. (McPherson, at pp. 1040–
+1041.) Given this timing, we found it “most improbable” that
+the voters intended, “without any direct or explicit statement to
+11
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+this effect, to limit the use of the initiative power” through
+article XII, section 5. (McPherson, at p. 1042.)
+Relying on McPherson, the Court of Appeal reasoned that
+“article XIV, section 4’s ‘unlimited’ clause cannot mean that
+workers’ compensation laws are exempt from every other aspect
+of the Constitution” and that “it is ambiguous as to which
+aspects of the Constitution continue to apply and which do not.”
+(Castellanos, supra, 89 Cal.App.5th at p. 150.) Although
+Proposition 22 differs in some respects from the initiative
+statute at issue in McPherson, we agree with the Court of
+Appeal that McPherson is instructive when interpreting the
+“nearly identical” “unlimited” clause of article XIV, section 4.
+(Castellanos, at p. 150.)
+Plaintiffs attempt to distinguish article XIV, section 4’s
+“unlimited” clause from the provision at issue in McPherson on
+several grounds. First, plaintiffs point out that unlike article
+XII, section 5, which was enacted the same year as the initiative
+power, the “unlimited” clause was added to article XIV, section
+4 in 1918, seven years after the initiative power was added to
+the Constitution in 1911. In light of this chronology, plaintiffs
+contend the “unlimited” clause of article XIV, section 4
+“necessarily encompassed” the existing initiative power. But
+this timing does not resolve article XIV, section 4’s ambiguity
+because it provides no basis to single out the initiative power
+from other constitutional checks on the Legislature’s power such
+as the Governor’s veto power. In any event, we agree with the
+Court of Appeal that it seems “ ‘most improbable’ that the voters
+in 1918 — seven years after they ‘approved a far-reaching
+measure incorporating a broad initiative power as part of the
+California Constitution’ — would have intended, ‘without any
+direct or explicit statement to this effect, to limit the use of the
+12
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+initiative power by virtue of the language’ in article XIV, section
+4.” (Castellanos, supra, 89 Cal.App.5th at pp. 151–152, quoting
+McPherson, supra, 38 Cal.4th at p. 1042.)
+Plaintiffs respond that “[e]ven if the 1918 voters did not
+have the initiative power in mind,” the “broad and
+comprehensive” language of the “unlimited” clause supports
+their view that the clause limits the initiative power. But even
+plaintiffs do not endorse a literal reading of the “unlimited”
+clause such that the Legislature would be entirely free of
+constitutional checks or constraints in the area of workers’
+compensation. The clause requires interpretation, and without
+a specific indication that the 1918 voters who enacted the clause
+meant to limit the initiative power, it is “ ‘our judicial policy to
+apply a liberal construction to this power wherever it is
+challenged in order that the right be not improperly annulled.’ ”
+(Associated Home Builders, supra, 18 Cal.3d at p. 591.)
+Next, plaintiffs assert that the “unlimited” clause here is
+not ambiguous because article XIV, section 4 directs the
+Legislature to enact “appropriate legislation” to administer the
+workers’ compensation system.
+They contend that “the
+potential ambiguity about the veto power in McPherson arose
+only because the constitutional provision at issue there did not
+specify how the Legislature could exercise its ‘unlimited’
+authority.” Because “[l]egislation is adopted only when a bill is
+‘bicamerally enacted and presented to the head of the executive
+branch for approval or veto,’ ” plaintiffs argue, the phrase
+“appropriate legislation” makes clear that article XIV, section
+4’s “unlimited” clause applies only to the initiative power and
+not to other constitutional checks on the legislative power.
+
+13
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+Like the Court of Appeal, we believe the phrase “by
+appropriate legislation” in article XIV, section 4 “does not
+change the analysis.” (Castellanos, supra, 89 Cal.App.5th at
+p. 153.) It seems unlikely that the term “appropriate” was
+intended to mean that a bill has been bicamerally enacted and
+presented to the Governor.
+“Without following those
+procedures, no bill the Legislature passes is binding on anyone.
+It is not law at all . . . .” (Id. at p. 193 (conc. & dis. opn. of
+Streeter, J.).) Thus, if the authors of article XIV, section 4 had
+intended to specify that workers’ compensation statutes must
+comply with constitutional checks on legislative power, they
+could have simply used the word “legislation,” and the
+additional word “appropriate” would be surplusage. Moreover,
+plaintiffs’ definition of “appropriate legislation” as legislation
+that has been bicamerally enacted and presented to the
+Governor does not account for legislation that amends an
+initiative statute and must be approved by the voters under
+article II, section 10(c). In other words, under our state
+Constitution, just as “legislation” ordinarily means a bill that
+has been presented to the Governor, “legislation” amending an
+initiative statute is a bill that has been approved by the voters
+unless the initiative provides otherwise. Plaintiffs’ definition
+still requires us to “choos[e] which constitutional provisions
+would apply and which would not. It is not clear why the veto
+power and the initiative power would fall on different sides of
+that line.” (Castellanos, at p. 153.)
+In sum, guided by McPherson’s reasoning, we conclude
+that the “unlimited” clause is ambiguous and that there is no
+textual or historical basis to construe it to apply solely to the
+initiative power.
+
+14
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+B.
+To discern the meaning of the “unlimited” clause, the
+Court of Appeal consulted the ballot materials from the 1918
+election at which an amendment to former article XX, section 21
+added the “unlimited” clause and enacted what is now article
+XIV, section 4. In those materials, the Court of Appeal found no
+evidence that the “voters intended to free the Legislature [from
+the initiative power] when enacting workers’ compensation
+laws.” (Castellanos, supra, 89 Cal.App.5th at p. 151.) The court
+agreed with our determination in Mathews v. Workmen’s
+Compensation Appeals Board (1972) 6 Cal.3d 719, 734–735
+(Mathews) that the 1918 amendment served “ ‘the sole purpose
+of removing all doubts as to the constitutionality of the then
+existing workmen’s compensation statutes.’ ” (Castellanos, at
+p. 151; see Mathews, at p. 732, fn. 9.)
+A review of the historical background of the 1918
+amendment confirms our conclusion in Mathews. In 1911, the
+Roseberry Act (Stats. 1911, ch. 399, § 1, p. 796) established a
+voluntary system of workers’ compensation. (Mathews, supra,
+6 Cal.3d at p. 729.) One month later, the voters approved article
+XX, section 21 (now article XIV, § 4), which provided in relevant
+part, “ ‘The Legislature may by appropriate legislation create
+and enforce a liability on the part of all employers to compensate
+their employees for any injury incurred by the said employees in
+the course of their employment irrespective of the fault of either
+party.’ ” (Mathews, at p. 730, italics omitted, quoting former art.
+XX, § 21.) “Because few employers had chosen coverage under
+the voluntary plan established by the Roseberry Act, in 1913 the
+Legislature exercised the power conferred upon it by section 21
+of article XX and enacted a compulsory scheme of workmen’s
+compensation” through what was popularly known as the
+15
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+Boynton Act (Stats. 1913, ch. 176, § 1, p. 279). (Mathews, at
+p. 730.) The Boynton Act “substitute[d] a new system of rights
+and obligations for the common-law rules governing the liability
+of employers for injuries to their workmen. . . . In place of the
+old action, in which the employer was liable only if he, or some
+one representing him, had been guilty of negligence or
+misconduct, the new law impose[d] upon the employer a liability
+for any accidental injuries to his employees arising out of the
+employment . . . .” (Western Indemnity, supra, 170 Cal. at
+p. 692.)
+Between 1913 and 1918, the Boynton Act was challenged
+on multiple constitutional grounds.
+(See, e.g., Western
+Indemnity, supra, 170 Cal. 686; Western Metal Supply Co. v.
+Pillsbury (1916) 172 Cal. 407.) In Western Indemnity, we
+characterized the Boynton Act as “radical” but held that it did
+not violate the California Constitution or the Fourteenth
+Amendment to the United States Constitution. (Western
+Indemnity, at p. 692, see id. at p. 701.) Justice Henshaw
+disagreed, describing the Boynton Act as “obnoxious to the
+constitutional provisions guaranteeing equal protection, and
+forbidding confiscation,” and predicting that the United States
+Supreme Court would grant review of our decision. (Western
+Indemnity, at p. 716 (dis. opn. of Henshaw, J.); see id. at p. 721
+(dis. opn. of Henshaw, J.).) Justice Shaw agreed with Justice
+Henshaw that, under some circumstances, application of the
+Boynton Act “would be a taking for a public purpose without
+lawful excuse or right and without compensation.” (Western
+Indemnity, at p. 735 (conc. opn. dubitante of Shaw, J., on rehg.
+den.).) Together, Justice Henshaw and Justice Shaw “cast doubt
+on whether former article XX, section 21, provided adequate
+support for the Boynton Act as a matter of state law.”
+16
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+(Castellanos, supra, 89 Cal.App.5th at p. 184 (conc. & dis. opn.
+of Streeter, J.).)
+In 1918, the electorate was presented with an amendment
+to article XX, section 21 to address those doubts. The ballot
+materials explained that “ ‘[t]he proposed amendment [wa]s
+designed to express full authority for legislation; to sanction,
+establish and protect the full plan in all essentials where the
+courts ha[d] not already passed upon it.’ ” (Mathews, supra, 6
+Cal.3d at p. 733, fn. 11, italics omitted.) The ballot materials
+also called the amendment “ ‘a necessary amplification and
+definition of the constitutional authority vested in the
+legislature by the amendment to the Constitution adopted
+October 10, 1911, to enable the enactment of a complete plan of
+workmen’s compensation . . . .’ ” (Ibid.) The materials further
+stated, “Our workmen’s compensation act . . . should be put
+upon a firm constitutional basis, beyond the possibility of being
+attacked on technical grounds or by reason of any questioned
+want of constitutional authority.” (Ballot Pamp., General Elec.
+(Nov. 5, 1918) argument in favor of Senate Constitutional
+Amendment No. 30, p. 56.) As Mathews explained, this history
+demonstrates the voters’ intent to confirm “the constitutionality
+of the then existing workmen’s compensation statutes.”
+(Mathews, at pp. 734–735.)
+In light of this purpose, Mathews rejected a claim that the
+1918 amendment invalidated one of the “basic features” of
+existing workers’ compensation laws (Mathews, supra, 6 Cal.3d
+at p. 735) — “conditioning the right to compensation upon the
+absence of wilful misconduct or other intentional wrongdoing”
+(id. at pp. 724–725). According to Justice Streeter, Mathews’s
+preservation of this “basic feature” of the workers’ compensation
+system suggests that “there is a minimum constitutional
+17
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+baseline to our workers’ compensation system no statute can go
+below” and that Proposition 22 falls below that baseline.
+(Castellanos, supra, 89 Cal.App.5th at p. 181 (conc. & dis. opn.
+of Streeter, J.).) But this misconstrues Mathews. As the Court
+of Appeal explained, “[t]he point of Mathews was only that
+article XIV, section 4 was intended to authorize the workers’
+compensation system that already existed — not that those
+features became sacrosanct and untouchable by either the
+Legislature or the electorate.” (Castellanos, at p. 151, fn. 8.)
+Like Justice Streeter, plaintiffs assert that the 1918
+workers’ compensation system “contained the basic elements
+necessary to protect workers and their families” and that
+Proposition 22 “lacks those basic elements,” thereby
+“frustrat[ing] the social public policy” declared by article XIV,
+section 4. But we agree with interveners that “the ‘social public
+policy’ language [of article XIV, section 4] does not impose a
+substantive requirement that the workers’ compensation
+system cover any particular group of workers.” Article XIV,
+section 4’s declaration that a complete system of workers’
+compensation is the “social public policy of the State” does not
+alter the extent of what we held in Mathews.
+In sum, the history of the 1918 amendment that codified,
+in all material respects, the present version of article XIV,
+section 4 demonstrates that the amendment was a response to
+constitutional challenges to the existing workers’ compensation
+system. It does not show that the amendment was meant to
+limit the initiative power in any respect.
+C.
+Plaintiffs further contend that McPherson is inapposite
+because of an express limitation in that decision. As noted,
+
+18
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+McPherson held that the Legislature’s article XII, section 5
+power does not invalidate an initiative statute conferring
+additional authority upon the PUC. (McPherson, supra, 38
+Cal.4th at p. 1025.) But we said we “ha[d] no occasion” “to
+consider whether an initiative measure relating to the PUC may
+be challenged on the ground that it improperly limits the PUC’s
+authority or improperly conflicts with the Legislature’s exercise
+of its authority to expand the PUC’s jurisdiction or authority.”
+(Id. at p. 1044, fn. 9.) Plaintiffs assert that this case presents a
+situation not addressed by McPherson because “the Legislature
+exercised its authority when it enacted [Assembly Bill 5], and
+section 7451 conflicts with that exercise of authority.” They also
+argue that section 7451 “restrains the Legislature from
+exercising its plenary power to provide a complete system of
+workers’ compensation.”
+We agree that section 7451 contradicts Assembly Bill 5’s
+classification of app-based drivers as employees and that
+McPherson did not address such a conflict. But in light of our
+conclusion that the article XIV, section 4 power is not exclusive,
+it would unduly restrict the initiative power to give the
+Legislature what would essentially be a first-mover advantage,
+precluding the electorate from undoing any action the
+Legislature takes pursuant to article XIV, section 4. The power
+of initiative includes “the power to abrogate existing [laws].”
+(California Redevelopment Assn. v. Matosantos (2011) 53
+Cal.4th 231, 255.) Accordingly, the people may alter existing
+workers’ compensation policy without running afoul of article
+XIV, section 4. We express no view on the outer bounds of that
+authority or whether article XIV, section 4 might place limits on
+it.
+
+19
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+As for plaintiffs’ further concern that section 7451
+improperly limits the Legislature’s ability to enact future
+workers’ compensation laws, we agree with the Attorney
+General that section 7451 does not, by its terms, limit the
+Legislature’s power to enact workers’ compensation laws.
+Section 7451 operates to classify app-based drivers as
+independent contractors instead of employees when certain
+criteria are met. Against the backdrop of existing law, this
+classification renders app-based drivers ineligible for workers’
+compensation because eligibility generally depends on the
+existence of an employment relationship. (Lab. Code, § 3600,
+subd. (a).) But section 7451 itself says nothing about workers’
+compensation, and the Legislature has made a number of
+exceptions to the general eligibility rule in order to extend
+workers’ compensation to nonemployees. (See, e.g., Lab. Code,
+§§ 3360 [providing conditions under which “[w]orkmen
+associating themselves under a partnership agreement, the
+principal purpose of which is the performance of the labor on a
+particular piece of work,” may be treated as employees for
+purposes of workers’ compensation], 3363.6, subd. (a) [providing
+similar conditions for “a person who performs voluntary service
+without pay for a private, nonprofit organization”], 3364 [setting
+forth similar conditions for “volunteer, unsalaried member[s] of
+a sheriff’s reserve”].)
+In making these exceptions, the
+Legislature has asserted that it is empowered by article XIV,
+section 4. (See Lab. Code, § 3201 [“This division and Division 5
+(commencing with Section 6300) . . . are intended to make
+effective and apply to a complete system of workers’
+compensation the provisions of Section 4 of Article XIV of the
+California Constitution.”].)
+
+20
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+Plaintiffs acknowledge that “[a]n initiative statute that
+did not prevent the Legislature from providing app-based
+drivers with a complete system of workers’ compensation could
+be harmonized with article XIV.” But they argue that such
+action by the Legislature would be stymied by section 7465’s
+directives that the Legislature may only amend the initiative by
+passing a statute (with a seven-eighths majority vote) that “is
+consistent with, and furthers the purpose of, this chapter,” and
+that “[a]ny statute that amends Section 7451 does not further
+purposes of this chapter.” (§ 7465, subds. (a), (c)(2).) As
+plaintiffs put it, “future legislation providing workers’
+compensation benefits to app-based drivers . . . would constitute
+an impermissible amendment of section 7451.” What this
+means, according to plaintiffs, is that any act by the Legislature
+to restore workers’ compensation eligibility to app-based drivers
+would require voter approval because article II, section 10(c)
+prohibits the Legislature from amending an initiative statute
+without voter approval unless the initiative provides otherwise.
+The Attorney General responds that “[i]t would be
+premature to address any questions about the Legislature’s
+power to enact future legislation that defines app-based drivers
+as workers entitled to workers’ compensation” because we
+cannot “predict what shape such legislation might take and
+what the relevant constitutional analysis would be in assessing
+its validity.” We agree. Without any specific legislation before
+us, we have no occasion to decide whether a statute providing
+app-based drivers workers’ compensation would necessarily
+constitute a statute that “amends Section 7451” (§ 7465,
+subd. (c)(2)) and triggers the voter approval requirement of
+article II, section 10(c). We leave open whether a future statute
+that changes the consequences of section 7451 in a discrete area
+21
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+would properly be characterized as an amendment of section
+7451. (Cf., e.g., People v. Rojas (2023) 15 Cal.5th 561, 568;
+People v. Kelly (2010) 47 Cal.4th 1008, 1025–1026; People v.
+Cooper (2002) 27 Cal.4th 38, 44.)
+Under section 7465, the Legislature may amend
+provisions of Proposition 22 other than section 7451 as long as
+such an amendment “is consistent with, and furthers the
+purpose of, this chapter” and obtains a seven-eighths majority
+vote in each house of the Legislature. (§ 7465, subd. (a).)
+Plaintiffs and the Attorney General contend that section 7465’s
+supermajority requirement may conflict with article XIV,
+section 4 under our reasoning in County of Los Angeles v. State
+(1987) 43 Cal.3d 46 (County of Los Angeles). In County of Los
+Angeles, we addressed a potential conflict between article XIV,
+section 4 and article XIII B, section 6. Under the latter
+provision, “[w]henever the Legislature or any state agency
+mandates a new program or higher level of service on any local
+government,” the state must reimburse the local government for
+costs incurred as a result of the mandate. (Art. XIII B, § 6,
+subd. (a).) The question was whether legislation that increased
+workers’ compensation benefits for local government employees
+was subject to article XIII B, section 6. If so, then the legislation
+would have been subject to a supermajority vote under article
+IV, section 12. (See County of Los Angeles, at p. 57; art. IV, § 12,
+subd. (d) [“Appropriations from the General Fund of the State
+. . . are void unless passed in each house by rollcall vote entered
+in the journal, two-thirds of the membership concurring.”].)
+We explained that “[o]ur concern over potential conflict
+arises because article XIV, section 4, gives the Legislature
+‘plenary power, unlimited by any provision of this Constitution’
+over workers’ compensation.” (County of Los Angeles, supra, 43
+22
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+Cal.3d at pp. 58–59, fn. omitted.) “A constitutional requirement
+that [workers’ compensation] legislation either exclude
+employees of local governmental agencies or be adopted by a
+supermajority vote” would “curtail the power of a majority to
+enact substantive changes by any procedural means.” (Id. at
+p. 60.) Because such an interpretation of article XIII B,
+section 6 “would have an indirect, but substantial impact on the
+ability of the Legislature to make future changes in the existing
+workers’ compensation scheme,” we construed article XIII B,
+section 6 to avoid that result. (County of Los Angeles, at p. 59.)
+Plaintiffs observe that section 7465, unlike article XIII B,
+section 6, is part of an initiative statute that is “subordinate to
+the Constitution.” They argue that any “limitation on the
+Legislature’s power to increase workers’ compensation
+benefits,” including section 7465, “would conflict with article
+XIV.” And the Attorney General acknowledges that the seveneighths majority requirement of section 7465 “may be
+constitutionally problematic” in light of County of Los Angeles.
+But interveners said during oral argument that County of Los
+Angeles is “readily distinguishable,” in part because it did not
+actually resolve any conflict between constitutional provisions
+since the two provisions at issue could be harmonized.
+We have no need in this case to decide the applicability of
+our reasoning in County of Los Angeles to Proposition 22 or to
+determine the extent to which article XIV, section 4 may limit
+the initiative power. We reserve these issues until we are
+presented with an actual challenge to an act of the Legislature
+providing workers’ compensation to app-based drivers. To
+resolve the question presented, it suffices to conclude that
+section 7451 does not itself restrict the Legislature’s authority
+
+23
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+to enact workers’ compensation legislation or otherwise conflict
+with article XIV, section 4.
+Plaintiffs assert in their reply and answer to amicus
+curiae briefs that the Legislature has already extended workers’
+compensation benefits to app-based drivers through Assembly
+Bill No. 1766 (2023–2024 Reg. Sess.) (Assembly Bill 1766),
+which was enacted after Proposition 22. (Stats. 2023, ch. 133.)
+They point to a provision of Assembly Bill 1766 that
+prospectively revised the definition of “employee” in Labor Code
+section 3351, subdivision (i) to include “any individual who is an
+employee pursuant to section 2775.”
+They say that by
+“updat[ing] an obsolete cross-reference” in this provision, the
+Legislature “reaffirm[ed] that ‘any individual who is an
+employee pursuant to [Labor Code] Section 2775’ (which codifies
+the ABC test) is covered by the workers’ compensation system.
+(Stats. 2023, ch. 133, § 1 (Assem. Bill No. 1766), effective Jan. 1,
+2024.)” But plaintiffs do not cite any authority for their claim
+that this updated cross-reference effectively recodifies the ABC
+test for app-based drivers, nor do they demonstrate that their
+theory has ever been tested in litigation. At this juncture, it is
+not clear that “there is already a direct and irreconcilable
+conflict between section 7451 and a statute adopted by the
+Legislature after Proposition 22 was enacted,” as plaintiffs
+contend. In any event, that question is not before us, and we
+express no view on it.
+
+24
+
+CASTELLANOS v. STATE OF CALIFORNIA
+Opinion of the Court by Liu, J.
+
+CONCLUSION
+We affirm the judgment of the Court of Appeal insofar as
+it held that Business and Professions Code section 7451 does not
+conflict with article XIV, section 4 of the California Constitution.
+
+LIU, J.
+We Concur:
+GUERRERO, C. J.
+CORRIGAN, J.
+KRUGER, J.
+GROBAN, J.
+JENKINS, J.
+EVANS, J.
+
+25
+
+See next page for addresses and telephone numbers for counsel who
+argued in Supreme Court.
+Name of Opinion Castellanos v. State of California
+__________________________________________________________
+Procedural Posture (see XX below)
+Original Appeal
+Original Proceeding
+Review Granted (published) XX 89 Cal.App.5th 131
+Review Granted (unpublished)
+Rehearing Granted
+__________________________________________________________
+Opinion No. S279622
+Date Filed: July 25, 2024
+__________________________________________________________
+Court: Superior
+County: Alameda
+Judge: Frank Roesch
+__________________________________________________________
+Counsel:
+Rob Bonta, Attorney General, Michael J. Mongan, State Solicitor
+General, Thomas S. Patterson, Assistant Attorney General, Samuel T.
+Harbourt, Deputy State Solicitor General, Mark R. Beckington, Jose A.
+Zelidon-Zepeda and Lara Haddad, Deputy Attorneys General, and
+Cara M. Newlon, Associate Deputy State Solicitor General, for
+Defendants and Appellants.
+DLA Piper, Stanley J. Panikowski and Justin R. Sarno for former
+Attorney General Daniel E. Lungren as Amicus Curiae on behalf of
+Defendants and Appellants.
+DLA Piper and Stanley J. Panikowski for former California
+Assemblyman William R. Berryhill as Amicus Curiae on behalf of
+Defendants and Appellants.
+Eimer Stahl and Robert E. Dunn for Crum & Forster Holding Co. as
+Amicus Curiae on behalf of Defendants and Appellants.
+
+California Constitution Center, University of California, Berkeley,
+David A. Carrillo; Benbrook Law Group and Stephen M. Duvernay for
+California Constitution Scholars as Amici Curiae on behalf of
+Defendants and Appellants.
+Holland & Knight, Stacey Wang, Amit Agarwal and Keiana Wilkerson
+for former State Senators Robert Timothy Leslie and James Stephen
+Peace as Amici Curiae on behalf of Defendants and Appellants.
+O’Melveny & Myers, Jeffery L. Fisher; Nielsen Merksamer Parrinello
+Gross & Leoni, Arthur G. Scotland, Sean P. Welch, Kurt R. Oneto and
+David J. Lazarus for Interveners and Appellants.
+Eimer Stahl, Robert E. Dunn and Collin J. Vierra for Citizens in
+Charge as Amicus Curiae on behalf of Defendants and Appellants and
+Interveners and Appellants.
+Allen Matkins Leck Gamble Mallory & Natsis, Marshall C. Wallace,
+Alexander J. Doherty and Kimberly F. Macey for Citizens in Charge
+and The Initiative and Referendum Institute at the University of
+Southern California as Amici Curiae on behalf of Defendants and
+Appellants and Interveners and Appellants.
+Davis Wright Tremaine, Rochelle L. Wilcox and Alexa A. Graumlich
+for California Chamber of Commerce as Amicus Curiae on behalf of
+Defendants and Appellants and Interveners and Appellants.
+Davis Wright Tremaine, Adam S. Sieff, Annie Zhang and David M.
+Gossett for Chamber of Progress, NetChoice, Asian Industry B2B, the
+Silicon Valley Leadership Group and sf.citi as Amici Curiae on behalf
+of Defendants and Appellants and Interveners and Appellants.
+Holtzman Vogel Baran Torchinsky Josefiak, Alex Vogel, Edward M.
+Wenger and Andrew Pardue for California Policy Center as Amicus
+Curiae on behalf of Defendants and Appellants and Interveners and
+Appellants.
+Willenken, Kenneth M. Trujillo-Jamison and Michelle K. Millard for
+California Asian Pacific Chamber of Commerce, NAACP California
+Hawaii State Conference, California Hispanic Chambers of Commerce,
+Los Angeles Metropolitan Churches, National Action Network Los
+Angeles, National Action Network Sacramento Chapter Inc., National
+Asian American Coalition and National Diversity Coalition as Amici
+
+Curiae on behalf of Defendants and Appellants and Interveners and
+Appellants.
+Jenner & Block, Laurie J. Edelstein and Adam G. Unikowsky for
+Chamber of Commerce of the United States of America as Amicus
+Curiae on behalf of Defendants and Appellants and Interveners and
+Appellants.
+Baker Botts and Michael W. Ward for Arnold Schwarzenegger as
+Amicus Curiae on behalf of Defendants and Appellants and
+Interveners and Appellants.
+King & Spalding, Albert Giang, Jeffery Hammer, Anne M. Voigts and
+Ramon A. Miyar for Marketplace Industry Association, Inc., as Amicus
+Curiae on behalf of Defendants and Appellants and Interveners and
+Appellants.
+Buchalter, Steven G. Churchwell, Berit Elam and Brandon Q. Tran for
+Daniel Schnur, T. Anthony Quinn and Robert M. Stern as Amici
+Curiae on behalf of Defendants and Appellants and Interveners and
+Appellants.
+Weintraub Tobin Chediak Coleman Grodin and Brendan J. Begley for
+Independent Drivers Alliance of California, Kelly Rickert, Ali Mazhin
+and Stephanie Whitfield as Amici Curiae on behalf of Defendants and
+Appellants and Interveners and Appellants.
+Wilmer Cutler Pickering Hale and Dorr, Kelly P. Dunbar, Samuel M.
+Strongin, Joshua H. Lerner and Michael A. Mugmon for the California
+Chamber of Commerce as Amicus Curiae on behalf of Defendants and
+Appellants and Interveners and Appellants.
+Keiter Appellate Law and Mitchell Keiter for Amicus Populi as Amicus
+Curiae on behalf of Defendants and Appellants and Interveners and
+Appellants.
+Mayer Brown and Archis A. Parasharami for David R. Henderson,
+Keith Chen, Jeffrey R. Hummel, Ethan Ligon, Michael Marlow, Lee E.
+Ohanian, Damian Park, Valerie Ramey, Abbylin H. Sellers, William F.
+Shughart II, Brian P. Simpson and Robert S. Taylor as Amici Curiae
+on behalf of Defendants and Appellants and Interveners and
+Appellants.
+
+Jonathan M. Coupal, Timothy A. Bittle, Laura E. Dougherty and Amy
+C. Sparrow for Howard Jarvis Taxpayers Association as Amicus Curiae
+on behalf of Interveners and Appellants.
+Olson Remcho, Robin B. Johansen, Richard R. Rios, Deborah B.
+Caplan, Benjamin N. Gevercer; Altshuler Berzon, Stephen P. Berzon,
+Scott A. Kronland, Stacey M. Leyton, Juhyung Harold Lee, Robin
+Tholin; Service Employees International Union, Nicole G. Berner,
+Steven K. Ury and Claire Presetel for Plaintiffs and Respondents.
+Richard L. Hasen; Public Counsel, Mark D. Rosenbaum and Kathryn
+Eidmann for California Election Law Professors as Amici Curiae on
+behalf of Plaintiffs and Respondents.
+Hina B. Shah; Benjamin Beach; Nayantara Mehta and Brian Chen for
+Gig Workers Rising, Mobile Workers Alliance, Rideshare Drivers
+United—California, We Drive Progress, A Better Balance, ACCE
+Institute, Action Center on Race & the Economy, Asian Americans
+Advancing Justice—Los Angeles, Bet Tzedek, California Employment
+Lawyers Association, California Immigrant Policy Center, Centro
+Legal de la Raza, Chinese Progressive Association, Economic Policy
+Institute, Jobs With Justice Education Fund and Jobs With Justice
+San Francisco, Lawyers Committee for Civil Rights of the San
+Francisco Bay Area, Legal Aid at Work, Los Angeles Black Worker
+Center, Maintenance Cooperation Trust Fund, National Black Worker
+Center, National Council for Occupational Safety and Health, National
+Domestic Workers Alliance, National Employment Law Project,
+Pilipino Workers Center, PowerSwitch Action, Public Rights Project,
+Santa Clara County Wage Theft Coalition, Women’s Employment
+Rights Clinic of Golden Gate University School of Law and Worksafe
+as Amici Curiae on behalf of Plaintiffs and Respondents.
+Weinberg, Roger & Rosenfeld, David A. Rosenfeld; Daniel Ocampo,
+Sally Dworak-Fisher, Laura Padin and Catherine Ruckelshaus for the
+National Employment Law Project, California Labor Federation,
+Rideshare Drivers United, Gig Workers Rising, Asian Americans
+Advancing Justice – Asian Law Caucus, Asian Americans Advancing
+Justice Southern California, PowerSwitch Action, Worksafe, Action
+Center on Race & the Economy, the Economic Policy Institute, Bet
+Tzedek and the California Immigrant Policy Center as Amici Curiae on
+behalf of Plaintiffs and Respondents.
+
+Bush Gottlieb, Julie Gutman Dickinson, Hector De Haro and Luke
+Taylor for International Brotherhood of Teamsters, Local 396,
+International Brotherhood of Teamsters, Local 542, International
+Brotherhood of Teamsters, Local 848, and the Los Angeles County
+Federation of Labor, AFL-CIO, as Amici Curiae on behalf of Plaintiffs
+and Respondents.
+David Chiu, City Attorney (San Francisco), Yvonne R. Meré, Chief
+Deputy City Attorney, Sara J. Eisenberg, Matthew D. Goldberg, Ian
+Eliasoph and Molly J. Alarcon, Deputy City Attorneys, Barbara J.
+Parker, City Attorney (Oakland), Maria Bee, Chief Assistant City
+Attorney, Zoe Savitsky and Divya Musinipally, Deputy City Attorneys,
+Katherine Read, Fellowship Attorney, Michael N. Feuer, City Attorney
+(Los Angeles), Kathleen Kenealy, Chief Assistant City Attorney,
+Michael J. Bostrom, Assistant City Attorney, Mara W. Elliott, City
+Attorney (San Diego), Mark Ankcorn, Chief Deputy City Attorney, Eric
+Laguardia, Kevin King and Julie Rau, Deputy City Attorneys, Tony
+Lopresti, County Counsel (Santa Clara), Kavita Narayan, Meredith A.
+Johnson and Raphael N. Rajendra, Deputy County Counsel, for the
+City and County of San Francisco, the Cities of Oakland and San
+Diego, and the County of Santa Clara, as Amici Curiae on behalf of
+Plaintiffs and Respondents.
+Eric M. Overholt and Andrew W. Lockard for California Applicants’
+Attorneys Association as Amicus Curiae on behalf of Plaintiffs and
+Respondents.
+Veena Dubal for Catherine L. Fisk, Sameer Ashar, Veena Dubal,
+Charlotte Garden, Joseph Grodin, William B. Gould IV, Stephen Lee,
+Sanjukta Paul, Leticia Saucedo, Reuel Schiller, Katherine Stone and
+Noah D. Zatz as Amici Curiae on behalf of Plaintiffs and Respondents.
+Cara L. Jenkins, Stephen Dehrer and Benjamin Herzberger for State
+Senator Dave Cortese and State Assembly Member Liz Ortega as
+Amici Curiae on behalf of Plaintiffs and Respondents.
+
+Counsel who argued in Supreme Court (not intended for
+publication with opinion):
+Jeffrey L. Fisher
+O’Melveny & Meyers LLP
+2765 Sand Hill Road
+Menlo Park, CA 94025
+(650) 473-2633
+Michael J. Mongan
+State Solicitor General
+455 Golden Gate Avenue, Suite 11000
+San Francisco, CA 94102-7004
+(415) 510-3920
+Scott A. Kronland
+Altshuler Berzon LLP
+177 Post Street, #300
+San Francisco, CA 94108
+(415) 421-7151
+
+

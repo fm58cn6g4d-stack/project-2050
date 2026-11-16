@@ -22,9 +22,22 @@ E2t,,C1,,,,,,,,,,,the transition share follows the fee
 H1,norm,,1.0,0.333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,HLT-1's booked fiscal-year path (calendar 2030 only)
 H4,norm,,0.521,0.713,0.999,1,0.984,0.416,0.25,0.259,0.269,0.279,"HLT-4's booked path (care_booking.py incidence()): the bridge and the floor in Medicaid to 2034, the children's and dental parts end as the groups move"
 MA,norm,,0.282,0.703,0.862,0.928,1.0,0.255,0.0,0.0,0.0,0.0,HLT-6's booked fiscal-year path (calendar 2030-34)
-H7h,norm,,0.0,0.109,0.152,0.247,0.381,0.715,0.848,0.896,0.946,1.0,health_booking.py incidence(): the groups' moves on the fiscal-year path
+H7h,norm,,0.0,0.109,0.152,0.247,0.381,0.715,0.848,0.896,0.946,1.0,health_booking.py incidence_booked(): the groups' moves on the fiscal-year path
 H9,norm,,0,0,0,0,0,0.449,0.731,0.882,0.952,1,"HLT-9's booked net path (care_booking.py incidence()): from January 1, 2035"
-H7w,norm,,0.0,0.054,0.075,0.242,0.482,0.747,0.848,0.896,0.946,1.0,health_booking.py incidence(): HX's moved-share path
+H7w,norm,,0.0,0.054,0.075,0.242,0.482,0.747,0.848,0.896,0.946,1.0,health_booking.py incidence_booked(): HX's moved-share path
 H7x,,H7w,,,,,,,,,,,as H7w (the exclusion ends on the same path)
 C19b,norm,,0.0,0.485,1.0,0.862,0.48,0.095,0.0,0.0,0.0,0.0,the exclusion cap ends as employer groups join the single plan (health_booking.py c19b)
 C19,,C19b,,,,,,,,,,,as C19b
+H7c,norm,,0.0,0.0,0.0,0.0,0.0,0.497,0.772,0.842,0.918,1,"health_booking.py incidence_booked(): HLT-7/worker-credit's booked path, from the January 2035 endpoint"
+HCUw,norm,,0.0,0.469,0.648,0.797,1,0.271,0.0,0.0,0.0,0.0,"health_booking.py incidence_booked(): HCU before the endpoint, in steps with the waves (DEC-2026-11-16-01)"
+HCU,norm,,0.0,0.0,0.0,0.0,0.0,0.647,0.895,0.929,0.964,1,health_booking.py incidence_booked(): HCU from the January 2035 endpoint
+HCW,norm,,0.0,0.0,0.0,0.0,0.0,0.641,0.889,0.925,0.962,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HCA,norm,,0.0,0.0,0.0,0.0,0.0,0.641,0.889,0.925,0.962,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HCP,norm,,0.0,0.0,0.0,0.0,0.0,0.56,0.848,0.896,0.946,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HCH,norm,,0.0,0.0,0.0,0.0,0.0,0.647,0.895,0.929,0.964,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HEC,norm,,0.0,0.055,0.077,0.248,0.493,0.742,0.837,0.888,0.942,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HEX,norm,,0.0,0.055,0.077,0.248,0.493,0.742,0.837,0.888,0.942,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HS1,norm,,0.716,0.744,0.772,0.801,0.831,0.862,0.895,0.929,0.964,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HS2,norm,,0.716,0.744,0.772,0.801,0.831,0.862,0.895,0.929,0.964,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HS3,norm,,0.716,0.744,0.772,0.801,0.831,0.862,0.895,0.929,0.964,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HS4,norm,,0.716,0.744,0.772,0.801,0.831,0.862,0.895,0.929,0.964,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)

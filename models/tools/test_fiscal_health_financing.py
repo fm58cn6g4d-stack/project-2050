@@ -184,13 +184,33 @@ class HealthFinancingBooking(unittest.TestCase):
         self.assertLess(fm[2049], 0.1 * fm[2044])
         self.assertGreater(fm[2044], fm[2040])
 
+    def test_employer_contribution_after_the_window(self):
+        """DEC-2026-11-15-23 (b): the no-offer phase-in is full in 2044, so HEC's after-window path adds its last
+        steps (FY2041-45) instead of growing FY2040's partly phased-in level; HEX follows at the exclusion's rate."""
+        rows = {r["id"]: r for r in csv.DictReader(open(ROOT / "models/data/inputs/fiscal-after.csv", newline=""))}
+        g = fiscal.growth_index(self.base, "rev_payroll")
+        for k in ("HEC", "HEX"):
+            want = self.b["after"][k]
+            self.assertEqual({y: float(rows[k]["y%d" % y]) for y in HB.HEC_AFTER_YEARS}, want, k)
+            p = self.revenue(k)
+            for y in HB.HEC_AFTER_YEARS:     # fiscal-after.csv keeps a revenue row's gain negative
+                self.assertAlmostEqual(p[y], -want[y], delta=0.01, msg=(k, y))
+            self.assertAlmostEqual(p[2046] / p[2045], fiscal.growth_index(self.base, fiscal.PR.REVENUE[k]["grow"])[2046]
+                                   / fiscal.growth_index(self.base, fiscal.PR.REVENUE[k]["grow"])[2045], places=9)
+        hec = {y: -v for y, v in self.b["after"]["HEC"].items()}
+        self.assertAlmostEqual(hec[2040], self.b["fy2040"]["revenue"]["HEC"], delta=0.01)
+        for y in range(2041, 2046):     # above FY2040 grown with pay, by the steps no longer uncharged
+            self.assertGreater(hec[y], hec[2040] * g[y] / g[2040], y)
+        self.assertAlmostEqual(hec[2045] / g[2045], (hec[2040] + self.fin["path"][2040]["phase_in"]) / g[2040], delta=0.01)
+
     def test_first_call_and_the_plan_wide_gap(self):
         calls, need, own = HB.first_call(self.b)
-        self.assertAlmostEqual(calls[2040], 515.7, delta=3)                    # DEC-2026-11-15-20
+        # DEC-2026-11-15-20's about $516B, plus the status rule priced on the corrected base (about $15B in FY2040)
+        self.assertAlmostEqual(calls[2040], 532.1, delta=3)
         paths = {int(r["year"]): float(r["agenda_gf_primary_bn"]) for r in csv.DictReader(open(BUILD / "recovery-budget-paths.csv"))
                  if r["case"] == "mixed"}
         self.assertAlmostEqual(paths[2040], CR.GAP_BEFORE_REASSIGN + calls[2040], delta=3)
-        self.assertAlmostEqual(paths[2040], 586, delta=5)                      # DEC-2026-11-15-11
+        self.assertAlmostEqual(paths[2040], 602.7, delta=5)        # DEC-2026-11-15-11's $586B, plus the status rule
         before = HF.paths()
         for y in W:     # the rest of the plan's gap before the booking, plus health's first call
             rest = float(before[y]["agenda_gf_primary_bn"]) - HF.need_path(HF.seam())[y]["booked"]

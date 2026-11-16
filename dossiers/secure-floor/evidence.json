@@ -14341,5 +14341,324 @@
    "dossiers/secure-floor/8-change-our-minds.md"
   ],
   "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-706",
+  "statement": "The Railroad Retirement and Survivors' Improvement Act of 2001 directs that, for all purposes of the Budget Act, the Deficit Control Act and chapter 11 of title 31, and notwithstanding section 20 of OMB Circular A-11, the National Railroad Retirement Investment Trust's purchases and sales of non-Federal assets, other than gains or losses from them, are treated as a means of financing.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3996",
+  "anchor": [
+   "(c) Means <<NOTE: 45 USC 231n note.>> of Financing.--For all\npurposes of the Congressional Budget Act of 1974, the Balanced Budget\nand Emergency Deficit Control Act of 1985, and chapter 11 of title 31,\nUnited States Code, and notwithstanding section 20 of the Office of\nManagement and Budget Circular No. A-11, the purchase or sale of non-\nFederal assets (other than gains or losses from such transactions) by\nthe National Railroad Retirement Investment Trust shall be treated as a\nmeans of financing."
+  ],
+  "locator": "Sec. 105(c), \"Means of Financing\" (45 U.S.C. 231n note)",
+  "grade": "A",
+  "fact_date": "2001-12-21",
+  "recheck": "2027-11-16",
+  "context": "Primary law (December 2001). The clause overrides OMB's default rule (A-11 section 113, EV-SEC-711) for this one trust; it does not say how gains, losses or projections are recorded (EV-SEC-707, EV-SEC-708).",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-707",
+  "statement": "CRS reports that under the Trust's law its purchases and sales are a means of financing, not outlays or receipts; that CBO and OMB agreed to recognize capital gains and losses in the year prices change and to record interest and dividends as offsetting receipts, so income and gains reduce outlays and the deficit and losses increase them; and that both CBO and OMB project the Trust's investments to earn the comparable Treasury bond rate.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3997",
+  "anchor": [
+   "For budgetary purposes, purchases or sales by the Trust are treated as a means of financing, which are not considered\nas outlays or receipts, so they are nonbudgetary.",
+   "Budget Office (CBO) and OMB agreed that any capital loss or gain resulting from changes in\nmarket prices would be recognized in the year in which the price change occurs",
+   "payments and dividends would be recorded as offsetting receipts.23 As a result, income and\ncapital gains reduce outlays and the deficit, and losses increase them. This reflects the change in\nreal economic resources available to the government as the value of the Trust changes. As for\nfuture performance, both CBO and OMB use risk-adjusted rate of return assumptions—that is,\nthey assume that the Trust’s investments will earn the comparable Treasury bond rate."
+  ],
+  "locator": "\"Accounting in the Federal Budget\", pp. 7-8, and note 22",
+  "grade": "C",
+  "fact_date": "2022-08-01",
+  "recheck": "2027-11-16",
+  "context": "CRS (nonpartisan) describing the scorekeepers' agreed practice, which it takes from CBO's 2003 paper (its note 23). A secondary description of agency practice, so grade C; it agrees with CBO's own account (EV-SEC-708) and OMB's listing of the Trust's purchases among the means of financing (EV-SEC-711).",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-708",
+  "statement": "CBO (2003) states that in projecting the Railroad Retirement system's private investments, CBO and OMB subtract the equity premium from expected returns, which is equivalent to using a Treasury rate, and that it can use a Treasury rate to calculate expected risk-adjusted returns on any portfolio so as to avoid the appearance of arbitrage profits from issuing debt to buy risky securities; it concludes that if risk is taken into account, returns on private securities would be no greater than on government securities.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3998",
+  "anchor": [
+   "In the case of private investments by the Railroad Retirement system, when the Congressional\nBudget Office and the Office of Management and Budget make projections, they subtract the\nequity premium from the system’s expected returns—which is equivalent to using a Treasury\nrate.2 As a result, those projections are risk-adjusted using the financial markets’ valuation of the\ncost of that risk.",
+   "If that\nrisk was taken into account, the returns on private securities would be\nno greater than the returns on government securities.",
+   "Budget analysts can avoid the appearance of arbitrage profits by using a riskadjusted interest rate to value expected gains from investments. In other words,\nthey can use a Treasury rate (the standard proxy for the required return on a riskfree investment) to calculate the expected risk-adjusted returns on any investment"
+  ],
+  "locator": "Box 2 (p. 12) and \"Projecting Future Budgetary Resources\" (pp. 18-19)",
+  "grade": "C",
+  "fact_date": "2003-01",
+  "recheck": "2027-11-16",
+  "context": "CBO (nonpartisan), a paper requested by Senate Budget Committee chairman Domenici (R). Its view that risk-adjusted equity returns equal Treasury returns is standard finance (the equity premium is the price of risk); advocates of trust-fund equity investment, such as the Clinton Treasury in 1999 and the Cassidy-Kaine sponsors (EV-SEC-467), count expected returns instead. CRS (EV-SEC-707) and CBO's 2021 fair-value report (EV-SEC-716) support it.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-707",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-716",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-467",
+    "stance": "contests"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-709",
+  "statement": "CBO (2003) describes two budget treatments of federal stock purchases: cash basis, which OMB's Circular A-11 directs and under which a purchase is an outlay that raises the deficit; and an accrual (noncash) basis modeled on credit reform, under which purchases and sales affect borrowing but not outlays, while interest, dividends and capital gains or losses are recorded as collections that reduce or increase outlays. It says the choice weighs accuracy against fiscal discipline and requires political judgment, and that Credit Reform Act discounting at the government's borrowing rate would overstate the value of stock investments.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3998",
+  "anchor": [
+   "Indeed, OMB’s Circular A-11\ndirects that all federal purchases of assets receive the same treatment and be\nshown as outlays. Purchases of goods and services and transfer payments are all\nrecorded as outlays when the funds are disbursed. That treatment implies that\nwhen the government buys private securities, the budget should record an increase\nin outlays—and an equal increase in the deficit or decrease in the surplus.",
+   "Under\nthat approach, purchases and sales of private securities would be treated as\ntransactions affecting federal borrowing from the public but not outlays or the\nbudget deficit. Interest income, dividends, and capital gains (or losses), however,\nwould be recorded as collections, which reduce (or increase) outlays.",
+   "Because stock investments are riskier than government securities,\ndiscounting at the government rate could result in reported valuations that significantly exceeded the economic value of those investments.",
+   "As in most\nbudget accounting matters, political judgment is required."
+  ],
+  "locator": "\"Alternative Budgetary Treatments of Federal Investment Activity\" and \"Evaluating the Alternatives\", pp. 13-18",
+  "grade": "C",
+  "fact_date": "2003-01",
+  "recheck": "2027-11-16",
+  "context": "CBO (nonpartisan). Analysis of accounting choices; GAO (1998, EV-SEC-714) reaches the same reading of the default rule, and OMB's current circular confirms it (EV-SEC-711).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-714",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-711",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-710",
+  "statement": "CBO estimated that the Railroad Retirement act's investment would add $15,320 million to outlays in 2002 on a cash basis, followed by negative outlays of $460 million to $920 million a year in 2003 to 2006, against zero in every year under the means-of-financing treatment, and that without the statutory clause CBO and OMB might have used cash-basis accounting; its original cash estimate showed projected returns in excess of Treasury rates, and sale proceeds, as negative outlays in later years.",
+  "claim": "analysis",
+  "figures": [
+   "15,320",
+   "-460",
+   "-920",
+   "0"
+  ],
+  "source": "SRC-3998",
+  "anchor": [
+   "Cash Basis\nAccrual Basis\n(Means of financing)\n\n2002\n\n2003\n\n2004\n\n2005\n\n2006\n\n15,320\n\n-460\n\n-660\n\n-830\n\n-920\n\n0",
+   "In CBO’s\noriginal cash-basis estimate, the projected initial purchases are the cash outlays to\nbuy securities. Projected future returns in excess of Treasury rates, and proceeds\nfrom sales of securities, are shown as negative outlays in later years.",
+   "Had the Congress not directed the accrual means-of-financing treatment for\nthe Railroad Retirement system’s investments, CBO and OMB might have used\ncash-basis accounting."
+  ],
+  "locator": "Table 1 (p. 21) and the text after it",
+  "grade": "C",
+  "fact_date": "2003-01",
+  "recheck": "2027-11-16",
+  "context": "CBO's own estimates (nonpartisan), H.R. 1140 as enacted (P.L. 107-90): the initial transfer of about $15 billion to the Trust. The size of the difference between treatments is the point; the figures are for that act, not for SS-8.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-707",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-711",
+  "statement": "OMB's budget circular (2026 edition) treats an investment in a non-Federal security, equity or debt, as the purchase of an asset, recording an obligation and an outlay equal to the purchase price in the year of purchase, with sale proceeds as offsetting collections or receipts; it notes that the Federal Credit Reform Act and the statutes governing the Troubled Asset Relief Program supersede that treatment, and it lists net purchases of non-Federal securities by the National Railroad Retirement Investment Trust among the means of financing.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3999",
+  "anchor": [
+   "The budget treats an investment in a non-Federal security (equity or debt security) as a purchase of an asset,\nrecording an obligation and an outlay in an amount equal to the purchase price in the year of the purchase.",
+   "When such securities are sold or redeemed at maturity, the budget records the proceeds as offsetting\ncollections or receipts, which adds to the balances of the account.",
+   "Some other\nstatutes, such as those governing the Troubled Asset Relief Program, prescribe accounting akin to that in\nFCRA for the acquisition by those programs of non-Federal equity, debt, or analogous securities.",
+   "Net purchases of non-Federal securities by the National Railroad Retirement Investment Trust;"
+  ],
+  "locator": "Section 113.3(c), \"Non-Federal securities\"; section 20.7(h), \"Means of financing\"",
+  "grade": "A",
+  "fact_date": "2026",
+  "recheck": "2027-08-01",
+  "context": "OMB's budget-concepts rules, 2026 edition (second Trump administration). These are official accounting rules, not analysis; the passages restate long-standing concepts that CBO described in 2003 (EV-SEC-709) and GAO in 1998 (EV-SEC-714), so no change coinciding with the administration is involved.",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-712",
+  "statement": "OMB's budget circular (2026 edition) records no outlays for credit-program disbursements made from 1992 on, treating credit cash flows as a means of financing and recording outlays equal to the subsidy cost when loans are disbursed; it treats the Thrift Savings Fund as money the government holds as a true trustee for individual employees, accounted for in deposit funds that are not owned by the government and are excluded from the budget.",
+  "claim": "data",
+  "figures": [
+   "1992"
+  ],
+  "source": "SRC-3999",
+  "anchor": [
+   "because we treat the cash flows to and from the Government for credit\nprograms as a means of financing. We record outlays equal to the subsidy cost of direct loans and\nloan guarantees when the underlying direct or guaranteed loans are disbursed.",
+   "maintains accounts on behalf of individual Federal employees in the Thrift Savings Fund, investing them\nas directed by the individual employee. The Government accounts for such funds in deposit funds (see the\nsection after next).",
+   "not owned by the Government and are therefore excluded from the budget",
+   "year 1992 or later"
+  ],
+  "locator": "Section 20.5 (outlays not recorded); section 20.12 (trust funds and deposit funds)",
+  "grade": "A",
+  "fact_date": "2026",
+  "recheck": "2027-08-01",
+  "context": "OMB's budget-concepts rules, 2026 edition (second Trump administration); long-standing rules (credit reform since 1990). CBO (2003, EV-SEC-713) gives the same account of the Thrift Savings Plan's exclusion.",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-713",
+  "statement": "CBO (2003) says the Thrift Savings Plan is effectively private and excluded from the budget because the government administers it solely for beneficiaries and holds its investments in a fiduciary capacity for private owners, whereas under most proposals for direct federal investment in private securities the activity would be unequivocally federal, since the funds and the gains and losses would be the government's; it treats the Railroad Retirement system's investments as federal and in the budget.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3998",
+  "anchor": [
+   "That is the status of the Thrift Savings Plan\nfor federal employees, which is administered by the government solely on behalf\nof beneficiaries and holds investments in a fiduciary capacity for private owners.",
+   "Under most proposals for direct federal investment in private securities, the\ninvestment activity would be unequivocally federal because it would be undertaken at the initiative of the government, the funds invested would be federal, and\nthe gains and losses would accrue to the government.",
+   "is clearly a federal activity, so its investments should be\nincluded in the budget."
+  ],
+  "locator": "\"Budgetary status of federal investment\", p. 13; \"The Case of the Railroad Industry Pension Fund\", p. 20",
+  "grade": "C",
+  "fact_date": "2003-01",
+  "recheck": "2027-11-16",
+  "context": "CBO (nonpartisan). OMB's circular treats the Thrift Savings Fund the same way (EV-SEC-712).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-712",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-714",
+  "statement": "GAO (1998) found that under current budget scoring rules Social Security trust fund stock purchases would be treated as budget outlays, raising the reported unified deficit or lowering any surplus by possibly more than $100 billion a year depending on the amount invested, while leaving gross debt and the government's fundamental fiscal position largely unchanged; it noted policymakers could change the scoring rules so purchases would not count as outlays.",
+  "claim": "analysis",
+  "figures": [
+   "$100 billion"
+  ],
+  "source": "SRC-3629",
+  "anchor": [
+   "In the short term, stock investing would increase the reported\nunified deficit or decrease any unified surplus because, under\ncurrent budget scoring rules, stock purchases would be treated as\nbudget outlays. The magnitude of the change in the reported\ndeficit/surplus could exceed $100 billion annually, depending on how\nmuch the trust fund invested in stocks.",
+   "As a result, the government's\nfundamental fiscal position would be largely unchanged.",
+   "they might consider changing budget\nscoring rules so that stock purchases would not count as budget\noutlays."
+  ],
+  "locator": "Executive summary, \"Effects of Government Stock Investments on the Federal Budget and Fiscal Policy\"; chapter 5",
+  "grade": "C",
+  "fact_date": "1998-04",
+  "recheck": "2027-11-16",
+  "context": "GAO (nonpartisan congressional auditor), April 1998, during the debate before President Clinton's equity proposal. CBO (2003, EV-SEC-709) and OMB's circular (EV-SEC-711) agree on the default rule.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-709",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-715",
+  "statement": "CBO's analysis of President Clinton's budget proposals counted the proposed purchase of corporate stock by the Social Security trust funds as reducing the budget surplus: of the framework's $1,076 billion reduction over ten years, $280 billion would be used to purchase corporate stock for Social Security.",
+  "claim": "analysis",
+  "figures": [
+   "$1,076 billion",
+   "$280 billion"
+  ],
+  "source": "SRC-3666",
+  "anchor": [
+   "The Administration's Social Security framework would reduce those budget surpluses by a total of $1,076 billion over the next 10 years. Of that amount, $280 billion would be used to purchase corporate stock for Social Security."
+  ],
+  "locator": "Chapter 2, paragraph 109 of the reproduction; Table 2-1, \"Purchase of stock by Social Security trust funds\"",
+  "grade": "C",
+  "fact_date": "1999-03",
+  "recheck": "2027-11-16",
+  "context": "CBO (nonpartisan), scoring President Clinton's 1999 proposal (15% of reserves in an index fund under an independent board) on the cash basis of A-11 as then written. Read in Tax Notes' reproduction, not CBO's own copy; the reviewer should check the quotation. The Clinton Treasury's claim that the equities would close 0.46% of payroll is the administration's view and is not relied on.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-714",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-716",
+  "statement": "CBO (2021) explains that fair value, unlike Federal Credit Reform Act estimates discounted at Treasury rates, includes market risk, the risk that remains in a diversified portfolio, to which the government's stakeholders are exposed when it invests in a financial asset such as an ownership stake in a private business; FCRA estimates are more likely to show budgetary savings for activities that could be costly.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3667",
+  "anchor": [
+   "Fair value includes market risk, which is the financial risk that remains even with a well-diversified portfolio",
+   "or invests in a financial asset, such as an ownership stake in a private business",
+   "FCRA estimates are more likely to produce the appearance of budgetary savings"
+  ],
+  "locator": "Pages 1 and 3",
+  "grade": "C",
+  "fact_date": "2021-03",
+  "recheck": "2027-11-16",
+  "context": "CBO (nonpartisan). Supports CBO's 2003 reasoning (EV-SEC-708); fair value is not the official scoring rule except where a statute requires it, as section 123 of the 2008 act does for TARP (EV-SEC-717).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-708",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-717",
+  "statement": "Section 123 of the Emergency Economic Stabilization Act of 2008 requires the costs of TARP's purchases of troubled assets to be determined under the Federal Credit Reform Act, with the discount rate adjusted for market risks.",
+  "claim": "data",
+  "figures": [
+   "123"
+  ],
+  "source": "SRC-3628",
+  "anchor": [
+   "(a) In general\nSubject to subsection (b), the costs of purchases of troubled assets made under section 5211(a) of this title and guarantees of troubled assets under section 5212 of this title, and any cash flows associated with the activities authorized in section 5212 of this title and subsections (a), (b), and (c) of section 5216 of this title shall be determined as provided under the Federal Credit Reform Act of 1990 (2 U.S.C. 661 et.",
+   "(1) the cost of troubled assets and guarantees of troubled assets shall be calculated by adjusting the discount rate in section 502(5)(E) (2 U.S.C. 661a(5)(E)) for market risks; and",
+   "§123"
+  ],
+  "locator": "12 U.S.C. 5232(a), (b)(1); source note",
+  "grade": "A",
+  "fact_date": "2008-10-03",
+  "recheck": "2027-11-16",
+  "context": "Primary law (2008). OMB's circular cites TARP's statutes as one case that supersedes the cash rule for equity (EV-SEC-711).",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/secure-floor/notes/ss8-budget-treatment.md"
+  ]
  }
 ]

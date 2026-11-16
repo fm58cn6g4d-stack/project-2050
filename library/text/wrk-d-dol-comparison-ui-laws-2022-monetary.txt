@@ -1,0 +1,5450 @@
+Source: https://oui.doleta.gov/unemploy/pdf/uilawcompar/2022/monetary.pdf
+Publisher: U.S. Department of Labor
+Retrieved: 2026-11-16
+Original SHA-256: 6aeab10bc6ba41377f4e07b856d391f5abadcf99e5d61cc3bfd2a08f415f5703
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+CHAPTER 3
+MONETARY ENTITLEMENT
+IN GENERAL
+This chapter details the monetary requirements of state Unemployment Insurance (UI) laws, including:
+•
+
+wages and employment needed in a base-period to establish a benefit year;
+
+•
+
+amount payable for a week of unemployment, referred to as the “weekly benefit amount” or WBA;
+
+•
+
+waiting periods;
+
+•
+
+benefit amounts for a week of partial unemployment;
+
+•
+
+dependents’ allowances;
+
+•
+
+the maximum benefit entitlement and duration an individual may receive in a benefit year; and
+
+•
+
+other considerations, such as seasonal employment and deductions and withholding from benefits.
+
+An individual’s monetary entitlement for unemployment compensation (UC) is determined by the law
+of the state where the UC claim was filed. While most individuals are employed in the state where they reside,
+many individuals regularly commute to a different state to work or work in more than one state. The Interstate
+Benefit Payment Plan was created to provide instructions for how states are to process UC claims when an
+individual has wage credits in a state but is not physically present in that state.
+Although this chapter analyzes each of the monetary factors separately (e.g., qualifying wages,
+calculation of the WBA), it is important to recognize the relationship among these factors is complex.
+Therefore, careful consideration of these relationships must be made when comparing state laws.
+
+BASE-PERIOD AND BENEFIT YEAR
+An individual’s benefit rights to UC are determined using wages and employment from a specific period
+of time called a base- period. Once a claim is established, benefits are payable during a period of time called the
+benefit year. Individuals who exhaust their benefits before the end of a benefit year must wait until the current
+benefit year ends before they can file a new claim.
+BASE-PERIODS—A base period is the look-back period during which wages earned and/or hours/weeks
+worked are examined to determine an individual’s monetary entitlement to benefits. Almost all states use the
+first four of the last five completed calendar quarters preceding the filing of the claim, commonly known as a
+regular base period, as the look-back period. In other states, the look-back period is defined differently. For
+example, Massachusetts uses the four completed calendar quarters preceding the first day of the benefit year.
+Minnesota uses the last four completed calendar quarters, provided the effective date of the claim is not during
+the month immediately following the fourth completed calendar quarter.
+
+3-1
+
+MONETARY ENTITLEMENT
+Base period employment is considered evidence of an individual’s attachment to the labor market.
+Because it is an imperfect measure, there are instances when individuals with labor market attachment are
+monetarily unable to establish a claim for benefits using a state’s regular base-period due to insufficient wages
+or hours/weeks worked. To address this, states have enacted additional base periods that apply under certain
+circumstances. This chapter refers to these in two ways: Alternative Base Periods (ABP) and Extended Base
+Periods (EBP). States may use different names to label these.
+Alternative Base-Period (ABP)—A regular base-period results in a lag of up to six months between the end of
+the regular base-period and the date an individual files a claim. Consequently, the individual’s most recent work
+history is not used when determining monetary eligibility. When individuals fail to qualify under the regular
+base-period, many states determine monetary eligibility using an ABP in which the states will use wages and
+employment from the last four completed calendar quarters.
+Extended Base-Period (EBP)—Several states allow individuals who have no wages in the current base-period,
+typically due to illness or injury, to use older wages and employment to establish eligibility. The use of this
+older time frame is generally called an extended base period. For example, a state may allow an individual who
+was previously injured on the job, and who has collected workers’ compensation benefits prior to filing for
+unemployment benefits, to establish eligibility for unemployment insurance benefits by using wages earned and
+employment worked before the date of the individual’s injury. (Note that some state laws may describe these
+base-periods as “alternative” base-periods.) The following table details the alternative and extended base
+periods states use in addition to the regular base-period.
+TABLE 3-1: STATES WITH ALTERNATIVE AND/OR EXTENDED BASE-PERIODS
+ABP: Last 4 completed quarters
+
+ABP: Last 4 completed quarters
+
+EBP: BP extended up to 4 quarters if individual was
+incapable of working during the greater part of a
+quarter
+EBP: Last 4 completed quarters following previous BP
+when new BY overlaps preceding BY; also, first 4 of
+last 5 completed quarters preceding the week a
+compensable industrial injury began if not qualified
+under normal base-period, if claim is filed within 2
+years of beginning of disability
+
+AR
+
+EBP: Up to 4 quarters if individual has insufficient wages
+to establish a claim because of a job-related injury for
+which the individual received worker’s compensation
+
+CA
+
+ABP: Last 4 completed quarters
+
+CO
+
+ABP: Last 4 completed quarters
+
+CT
+
+DE
+
+ABP: Last 4 completed quarters
+
+DC
+
+ABP: Last 4 completed quarters
+
+GA
+
+ABP: Last 4 completed quarters
+
+HI
+
+ABP: Last 4 completed quarters
+
+AK
+
+AZ
+
+ABP: Last 4 completed quarters
+ID
+
+IN
+
+EBP: An individual who experienced a temporary total
+disability may elect a BP of the first 4 of the last 5
+completed quarters preceding the disability if the
+individual filed a claim within 3 years of the disability
+and no later than 6 months after the end of the
+disability
+EBP: Up to 4 quarters preceding the last day the
+individual was able to work
+
+ABP: Last 4 completed quarters
+EBP: Last 4 completed quarters preceding sickness or
+disability
+
+APB: Last 4 completed quarters
+IL
+
+EBP: BP extended up to 1 year if the individual received
+temporary total disability under a workers’ compensation
+act or occupational diseases act
+
+ABP: Last 4 completed quarters
+IA
+
+3-2
+
+EBP: BP extended 3 or more quarters if the individual
+received workers’ compensation or weekly indemnity
+insurance benefits for 3 or more quarters
+
+MONETARY ENTITLEMENT
+TABLE 3-1: STATES WITH ALTERNATIVE AND/OR EXTENDED BASE-PERIODS
+
+KY
+
+EBP: BP extended up to 4 quarters if an individual, due
+to job-related injury or who has received workers’
+compensation, files a UI claim within 4 weeks after
+having last received workers’
+Compensation
+
+MD
+
+ABP: Last 4 completed quarters
+
+MI
+
+ABP: Last 4 completed quarters if individual fails to
+meet qualifying wage requirements
+
+ABP: Last 4 completed quarters
+KS
+
+EBP: Last 4 completed quarters preceding the date of
+qualifying injury
+ABP: Last 4 completed quarters
+
+ME
+
+MA
+
+EBP: BP extended up to 4 quarters if 1 quarter has
+been used in a previous determination, extend the BY
+up to 1 week if there would otherwise be overlapping
+of the same quarter in 2 consecutive BPs
+ABP: Last 3 quarters, plus any weeks of work in
+quarter in which claim is filed; individual may also
+elect to use this ABP if it results in a 10% or more
+increase in WBA
+EBP: BP extended to 52 weeks if individual received
+compensation for temporary total disability under a
+workers’ compensation law for more than 7 weeks in
+BP
+ABP: First 4 of last 5 completed quarters1
+
+MN
+
+EBP: Up to 4 quarters depending on length of time an
+individual received compensation for temporary
+disability under a workers’ compensation law
+
+ABP: Last 4 completed quarters
+MT
+
+EBP: Up to 4 quarters preceding the disability if the
+claim was filed within 24 months from the date of the
+individual’s disability
+ABP: Last 4 completed quarters
+
+NE
+
+ABP: Last 4 completed quarters
+
+NV
+
+NH
+
+ABP: Last 4 completed quarters
+
+NJ
+
+NM
+
+ABP: Last 4 completed quarters
+
+NY
+
+EBP: Last 4 quarters preceding BY if 1 quarter has been
+used in a previous determination; extend the BY up to 1
+week if there would otherwise be overlapping of the same
+quarter in 2 consecutive BPs
+ABP: BP may be one of two alternatives: 1) last 4
+completed quarters or 2) last 3 completed quarters, plus
+any weeks of work in quarter in which claim is filed
+ABP: Last 4 completed quarters
+
+NC
+
+ABP: Last 4 completed quarters
+EBP: Up to 4 quarters, if individual has insufficient
+wages to establish a claim because of a job-related
+injury for which the individual received workers’
+compensation
+
+OH
+
+ABP: Last 4 completed quarters
+
+OR
+
+ABP: Last 4 completed quarters
+EBP: BP extended up to 4 quarters if the individual is
+disabled for the majority of a quarter; if the individual
+received workers’ compensation, the base year can be
+extended up to 4 quarters preceding the illness or injury
+
+PR
+
+ABP: Last 4 completed quarters
+
+SC
+
+ABP: Last 4 completed quarters
+
+TN
+
+EBP: Individual who received temporary total disability
+payments under workers’ compensation law may use a BP
+of the last 4 completed quarters preceding the disability
+
+ABP: Last 4 completed quarters
+OK
+
+PA
+
+RI
+
+SD
+
+EBP: 4 quarters prior to regular BP
+EBP: Last 4 completed quarters immediately
+preceding the date of the injury if the individual was
+eligible for workers’ compensation during the
+individual’s current BP
+ABP: Last 4 completed quarters
+EBP: Individual who received workers’ compensation
+and has requested reinstatement to a previous position
+that no longer exists is eligible to have BP determined
+as of the date of the work-related injury
+ABP: Last 4 completed quarters
+EBP: Individual who received temporary total
+disability payments under workers’ compensation law
+may use a BP of the first 4 of the last 5 completed
+quarters preceding the disability if a claim is filed
+within 24 months of the date the disability occurred
+
+3-3
+
+MONETARY ENTITLEMENT
+TABLE 3-1: STATES WITH ALTERNATIVE AND/OR EXTENDED BASE-PERIODS
+
+TX
+
+EBP: If an initial claim is filed within 24 months from
+the date an individual’s illness or injury began or
+occurred, the BP will be the first 4 of the last 5
+completed quarters preceding the illness or injury
+
+UT
+
+VA
+
+ABP: Last 4 completed quarters
+EBP: First 4 of last 5 completed quarters prior to date of
+illness/injury; individual must have received temporary
+disability payments during normal BP, filed initial claim
+no later than 90 days after release to work and within 36
+months of the date the injury/illness occurred
+ABP: Last 4 completed quarters
+
+ABP: Last 4 completed quarters
+VI
+ABP: One of two alternatives: 1) last 4 quarters or, if
+VT
+still ineligible 2) last 3 quarters plus any weeks of work
+WA ABP: Last 4 completed quarters
+in quarter in which claim is filed
+WV ABP: Last 4 completed quarters
+WI
+ABP: Last 4 completed quarters
+EBP: An individual who experienced a temporary total
+disability under workers’ compensation may elect a BP
+of the last 4 completed quarters preceding the date of
+WY
+injury if the individual filed a claim within 3 years of
+the date of injury and no later than 60 days after notice
+of the end of the disability
+1 If the claim has an effective date during the month immediately following the last completed calendar quarter, the base-period is the
+first 4 of the last 5 completed calendar quarters; however, the first 4 of the last 5 completed calendar quarters must be used if the
+individual has more wage credits in those quarters than in the last 4 completed quarters.
+
+QUALIFYING WAGES OR EMPLOYMENT—Within the base-period, all states require an individual to
+have earned a certain amount of wages, worked for a certain period of time, or both, to be monetarily eligible to
+receive benefits.
+Most individuals qualify for benefits based on employment and wages in a single state. However, some
+individuals work in more than one state and may not have sufficient employment and wages in a single state to
+establish monetary eligibility. Additionally, some individuals could qualify for a higher weekly benefit amount
+if wages from multiple states are considered. In both of these situations, individuals may file a combined wage
+claim (CWC). In a CWC, wages and length of employment from multiple states may be combined in order to
+establish monetary eligibility or to increase a weekly benefit amount. The individual with wages in more than
+one state may file the claim in either state. Because of the potential of establishing more than one benefit year in
+more than one state, federal regulations stipulate that employment and wages transferred from one state to a
+second state for use in establishing a CWC cannot be used again to establish monetary eligibility on a different
+benefit year.
+Methods of Qualifying—The methods that states use to determine monetary eligibility vary greatly and
+generally include one or more of the following methods: multiple of high-quarter wages, multiple of weekly
+benefit amount, flat qualifying amount, and weeks/hours of employment.
+Multiple of High-Quarter Wages—Individuals must earn a certain dollar amount in the quarter of their baseperiod with the highest earnings and earn total base-period wages that are a multiple of the high-quarter wages
+(typically 1½). For example, if an individual earns $5,000 in the high-quarter, the individual must earn another
+$2,500 in the rest of the base-period so that total base-period wages equal $7,500.
+
+3-4
+
+MONETARY ENTITLEMENT
+
+Multiple of Weekly Benefit Amount—The state agency will first compute the individual’s weekly benefit
+amount. See Table 3-5, Weekly Benefit Amounts. During the base period, the individual must have earned an
+amount equal to or greater than a specified multiple of the weekly benefit amount in order to establish monetary
+eligibility. For example, if an individual’s weekly benefit amount is $100 and the state requires base-period
+earnings equal to 40 times the weekly benefit amount, the individual will need earnings of $4,000 during the
+base period to qualify. Under this method, most states also require the individual to have earned wages in at
+least two base-period quarters. Additionally, some states have weighted schedules that require varying multiples
+for varying weekly benefits.
+Flat Qualifying Amount—Under this method, individuals must earn a specified dollar amount of total wages
+during the base period.
+Weeks/Hours of Employment—Under this method, individuals must work a specified number of weeks or
+hours at a certain wage rate during the base-period.
+The following table provides information on the qualifying formulas for each state. The columns under
+“Minimum Wages Needed to Qualify” are calculated based on the assumption that an individual earned a
+consistent amount of wages each quarter of their base period.
+TABLE 3-2: BASE-PERIOD WAGE AND EMPLOYMENT REQUIREMENTS FOR BENEFITS
+State
+
+Qualifying Formula: Wages or Employment
+
+Minimum Wages Needed to
+Qualify:
+High- Quarter
+
+Base-Period
+
+AL
+
+1½ x HQW in BP
+
+N/A
+
+>$2,314 in 2
+HQs
+
+AK
+
+$2,500 flat amount and wages in 2 quarters of BP, at least $250 outside HQ
+
+N/A
+
+$2,500
+
+AZ
+
+1½ x HQW in BP and 390 x minimum wage in effect ($4,992) in one quarter
+Alternative: Wages in 2 quarters of BP, with wages in 1 quarter sufficient to qualify
+for the maximum WBA, and total BPW ≥ the taxable wage base
+
+$4,992
+
+$7,488
+
+AR
+
+35 x WBA in BP and wages in 2 quarters of BP
+
+N/A
+
+$2,835
+
+CA
+
+$1,300 in HQ
+Alternative: $900 in HQ with BPW = 1¼ x HQ
+
+$900
+
+$1,125
+
+CO
+
+40 x WBA or $2,500 in BP, whichever is greater
+
+$1,084
+in 2 HQs
+
+$2,500
+
+CT
+
+40 x WBA in BP
+
+N/A
+
+$600
+
+DE
+
+36 x WBA in BP
+Alternative: If (36 x WBA) - BPW ≤ $180, eligible for reduced WBA
+
+N/A
+
+$720
+
+DC
+
+1½ x HQW in BP or within $70 of meeting the 1½ HQW requirement, $1,950 in 2
+quarters, and $1,300 in 1 quarter
+
+$1,300
+
+$1,950
+in 2 HQs
+
+FL
+
+1½ x HQW in BP; minimum of $3,400 in BP
+
+N/A
+
+$3,400
+
+GA
+
+Wages in 2 quarters and 150% x HQW
+Alternative: HQW divided by 21 for WBA and total earnings in 2 quarters totaling at
+least 40 x WBA
+
+$1,155
+
+$2,200
+in 2 HQs
+
+HI
+
+26 x WBA in BP and wages in 2 quarters
+
+N/A
+
+$130
+
+ID
+
+1¼ x HQW in BP and $1,872 in one quarter
+
+$1,872
+
+$2,340
+
+IL
+
+$1,600 flat amount with $440 outside HQ
+
+N/A
+
+$1,600
+
+IN
+
+1½ x HQW totaling at least $2,500 in last 2 quarters; not less than $4,200
+
+N/A
+
+$4,200
+
+IA
+
+1¼ x HQW in BP, 3.5% of the statewide AAW in HQ, and ½ HQW in quarter that is
+not the HQ
+
+$1,890
+
+$2,840
+
+KS
+
+30 x WBA in BP and wages in 2 quarters
+
+N/A
+
+$4,050
+
+3-5
+
+MONETARY ENTITLEMENT
+TABLE 3-2: BASE-PERIOD WAGE AND EMPLOYMENT REQUIREMENTS FOR BENEFITS
+State
+
+Qualifying Formula: Wages or Employment
+
+Minimum Wages Needed to
+Qualify:
+High- Quarter
+
+Base-Period
+
+KY
+
+1½ x HQW in BP, 8 x WBA in last 2 quarters of BP, $1,500 in a quarter
+
+N/A
+
+$3,230
+
+LA
+
+$1,200 in total BPW, wages in at least two quarters, 1½ x HQW in BP
+
+$800
+
+$1,200
+
+ME
+
+2 x AWW in each of 2 different quarters and total wages of 6 x AWW in BP
+
+$1,968 in each
+of 2 quarters
+
+$5,904
+
+MD
+
+1½ x HQW in BP, >$1,175 in HQ, and $1,800 BP
+Alternative: eligibility for a lower WBA can be established if BP wages meet a
+specified amount on the wage schedule
+
+>$1,175
+
+$1,800
+
+MA
+
+30 x WBA in BP and $5,700 minimum in BP
+
+N/A
+
+$5,700
+
+MI
+
+1½ x HQW in BP, wages in at least 2 quarters, and at least $3,830 in HQ
+Alternative: BPW equal to 20 times the state AWW and wages in 2 quarters
+
+$3,830
+
+$5,745
+
+MN
+
+5.3 percent of state AAW rounded to the lower $100
+
+N/A
+
+$3,392
+
+MS
+
+40 x WBA in BP, 26 x minimum WBA in HQ and wages in 2 quarters
+
+$780
+
+$1,200
+
+MO
+
+1½ x HQW in BP and $1,500 in one quarter
+Alternative: wages in 2 quarters and BPW of 1½ x maximum taxable wage base for
+that year
+
+$1,500
+
+$2,250
+
+MT
+
+1½ x HQW in BP with total BP wages ≥7% of the AAW
+Alternative: total BPW ≥ 50% of AAW
+
+$2,225
+
+$3,337
+
+NE
+
+$4,532 in BP, $1,850 in HQ, $800 in another quarter
+
+$1,850
+
+$4,532
+
+NV
+
+1½ x HQW in BP and $400 in HQ
+Alternative: wages in 3 of the 4 quarters in the BP and $400 in HQ
+
+$400
+
+$600
+
+NH
+
+$1,400 in each of 2 quarters
+
+$1,400
+
+$2,800
+
+NJ
+
+20 weeks employment at 20 x State hourly minimum wage
+Alternative: 1,000 times the state minimum hourly wage (total of $8,500)
+
+N/A
+
+$4,800
+
+NM
+
+$2,332.72 in BP and wages in 2 quarters
+
+N/A
+
+$2,332.72
+
+NY
+
+1½ x HQW in BP; H2QW equal to 221 x state minimum wage, rounded to the next
+lower $100 increment
+
+$2,900
+
+$4,350
+
+NC
+
+6 x AWW in BP and wages in last 2 quarters of BP
+
+N/A
+
+$780
+in last 2 qtrs
+
+ND
+
+1½ x HQW in BP and wages in 2 quarters
+
+N/A
+
+$2,795
+In 2 qtrs
+
+OH
+
+20 weeks employment with wages averaging at least 27.5% of the state AWW in BP
+and wages in 2 quarters
+
+N/A
+
+$5,220
+
+OK
+
+$1,500 minimum and 1½ x HQW in BP
+Alternative: $24,800 in BP (100% state taxable wage base)
+
+N/A
+
+$1,500
+
+OR
+
+$1,000 minimum and 1½ x HQW in BP
+Alternative: 500 hours of employment in BP
+
+$667
+
+$1,000
+
+PA
+
+$1,688 in HQ, minimum $2,718 in BP, at least 37% BPW outside of HQ, and 18 credit
+weeks in BP
+
+$1,688
+
+$2,718
+
+PR
+
+40 x WBA in BP and wages in 2 quarters
+Alternative: If fail to meet qualifying requirement for WBA computed on HQW but do
+meet qualifying requirement for next lower bracket, eligible for lower WBA, unlimited
+step-down provision; PR has a flat qualifying requirement for agricultural workers;
+individual’s annual salary is used for agricultural workers
+
+$660
+
+$2,400
+
+RI
+
+1½ x HQW in BP and 200 x minimum hourly wage in 1 quarter and at least 400 x the
+minimum hourly wage in BP
+Alternative: $1,200 x minimum hourly wage in BP
+
+$2,300
+
+$4,600
+
+SC
+
+1½ x HQW in BP and $4,455 BPW and $1,092 HQW
+
+$1,092
+
+$4,455
+
+3-6
+
+MONETARY ENTITLEMENT
+TABLE 3-2: BASE-PERIOD WAGE AND EMPLOYMENT REQUIREMENTS FOR BENEFITS
+State
+
+Qualifying Formula: Wages or Employment
+
+Minimum Wages Needed to
+Qualify:
+High- Quarter
+
+Base-Period
+
+$728
+
+$1,288
+
+Avg $780.01 in
+highest 2 qtrs
+
+>$1,560
+in 2 HQs
+
+SD
+
+$728 in HQ and 20 x WBA outside HQ
+
+TN
+
+40 x WBA, $780.01 average wages in highest 2 quarters in BP, and wages outside of
+HQ are lesser of 6 x WBA or $900
+
+TX
+
+37 x WBA in BP and wages in 2 quarters
+
+N/A
+
+$2,627
+
+UT
+
+$4,500 minimum and 1½ x HQW in BP (BPW must be 8% of state average fiscal year
+wages in BP, rounded to the higher $100)
+
+$3,000
+
+$4,500
+
+VT
+
+1.4 x HQW in BP and $2,999 in HQ (HQW will be adjusted by a percentage increase
+equal to the percentage increase in the state minimum wage for the prior year)
+
+$2,999
+
+$4,199
+
+VA
+
+$3,000 in 2 highest quarters of BP
+
+N/A
+
+$3,000
+in 2 HQs
+
+VI
+
+1½ x HQW in BP and $858 in HQ
+Alternative: $858 in HQW and 39 x WBA in BP
+
+$858
+
+$1,287
+
+WA
+
+680 hours employment in BP and wages in BP or alternate BP
+
+N/A
+
+N/A
+
+WV
+
+$2,200 flat amount and wages in 2 quarters
+
+N/A
+
+$2,200
+
+WI
+
+35 x WBA in BP, $1,350 in HQ, and 4 x WBA outside HQ and wages in at least 2
+quarters
+
+$1,350
+
+$1,890
+
+1.4 x HQW in BP (BPW must be ≥8% of statewide AAW rounded down to lower $50
+$3,350
+increment – minimum HQW requirement calculated by dividing BPW by 4 and
+$800
+rounded down to the lower $50 increment)
+GENERAL NOTE: Additional monetary requirements in some state laws result in minimum high-quarter and/or base-period wages
+that are higher than what the qualifying formula alone would require.
+WY
+
+BENEFIT YEARS—In most states a benefit year is a 1-year, or 52-week, period during which an individual
+may receive unemployment insurance benefits and the benefit year begins the week the claim is filed. In all
+states, the beginning date of the benefit year depends on when an individual first files a “valid claim,” meaning
+the individual meets minimum wage and employment requirements as it pertains to the base-period of the claim.
+The following table identifies states in which the benefit year begins in a week other than the week a valid claim
+is filed.
+TABLE 3-3: WHEN BENEFIT YEAR BEGINS - OTHER THAN THE WEEK A FIRST CLAIM IS FILED
+AR
+
+Benefit year begins with the first day of the quarter in which a claim is first filed. As a result, the benefit “year” ranges
+from 40 to 52 weeks.
+
+NY
+
+Benefit year consists of 52 weeks beginning the first Monday after filing a valid original claim.
+
+QUALIFYING FOR A SECOND BENEFIT YEAR—Federal law requires that an individual must have
+worked since the beginning of one benefit year in order to qualify for benefits in the next benefit year. In many
+states, the amount an individual must earn during this intervening employment is a multiple of the weekly
+benefit amount. A few states require an individual to earn wages after the establishment of the original benefit
+year that are sufficient to meet the minimum qualifying requirement.
+In some states, lag wages—wages earned after the prior claim’s base period and before the
+establishment of the prior claim’s benefit year—may be used to assist a claimant with qualifying for a second
+benefit year. In order to use lag wages to assist with establishing monetary eligibility, the individual must have
+worked since the beginning of their previous benefit year.
+3-7
+
+MONETARY ENTITLEMENT
+
+State
+
+TABLE 3-4: WAGES NEEDED TO ESTABLISH NEW BENEFIT YEAR
+(AMOUNT TIMES WBA UNLESS INDICATED)
+Subsequent to
+Subsequent to
+Subsequent to
+Subsequent to
+Beginning of
+Wages Must Be
+Beginning of
+Date of Last
+State
+Date of Last
+Preceding
+in Insured Work
+Preceding
+Valid Claim
+Valid Claim
+Benefit Year
+Benefit Year
+
+AL
+
+8
+
+AZ
+
+8
+
+X
+Qualifying
+wages
+
+CA
+CT
+
+5 x WBA or
+$300, whichever
+is greater
+
+DC
+
+10
+
+GA
+
+10
+
+ID
+
+6 x WBA
+
+IN
+
+8
+
+KS
+
+X
+
+AK
+
+8
+
+AR
+
+10
+
+CO
+
+$2,000
+
+DE
+
+Wages Must Be
+in Insured Work
+
+X
+
+10
+
+X
+
+FL
+
+3
+
+HI
+
+5
+
+IL
+
+3
+
+X
+
+IA
+
+8
+
+8
+
+X
+
+KY
+
+5
+
+LA
+
+6 x WBA; or
+3/13th of HQW,
+whichever is less
+
+X
+
+ME
+
+8
+
+MD
+
+10
+
+X
+
+MA
+
+3
+
+MI
+
+5
+
+MN
+
+5.3% AAW
+
+MS
+
+8
+
+X
+
+MO
+
+5 x WBA; 10 x
+WBA in noncovered work
+
+X
+
+MT
+
+6 x WBA; or
+3/13th of HQW,
+whichever is less
+
+X
+
+NE
+
+Wages in
+insured work at
+least 6 x WBA
+
+X
+
+NV
+
+3
+
+NH
+
+$700 during or
+subsequent to
+benefit year
+
+NJ
+
+4 weeks of
+employment and
+at least 6 x WBA
+in wages
+
+NM
+
+5
+
+NY
+
+10
+
+NC
+
+10
+
+X
+
+X
+
+OH
+
+3 x AWW and
+covered
+employment in 6
+weeks
+
+X
+
+X
+
+OR
+
+6
+
+X
+
+PR
+
+3 x WBA in 1
+CQ; but not <
+$50
+
+X
+
+ND
+
+X
+
+101
+
+X
+X
+
+X
+
+X
+
+X
+
+OK
+
+10
+
+PA
+
+6
+
+RI
+
+80 x the
+minimum hourly
+wage
+
+X
+
+SC
+
+8
+
+Insured work;
+must be with a
+single employer
+
+SD
+
+4
+
+X
+
+TN
+
+5
+
+X
+
+TX
+
+6
+
+UT
+
+6
+
+X
+
+3-8
+
+MONETARY ENTITLEMENT
+
+State
+VT
+
+TABLE 3-4: WAGES NEEDED TO ESTABLISH NEW BENEFIT YEAR
+(AMOUNT TIMES WBA UNLESS INDICATED)
+Subsequent to
+Subsequent to
+Subsequent to
+Subsequent to
+Beginning of
+Wages Must Be
+Beginning of
+Date of Last
+State
+Date of Last
+Preceding
+in Insured Work
+Preceding
+Valid Claim
+Valid Claim
+Benefit Year
+Benefit Year
+30 days or 240
+4
+X
+VA
+hours of work2
+
+VI
+
+6
+
+WV
+
+8
+
+WY
+
+8
+
+X
+
+WA
+
+6
+
+WI
+
+8
+
+Wages Must Be
+in Insured Work
+X
+
+X
+
+1 Does not apply to employment by a partnership, corporation, or limited liability company if, at the time claim is filed, ownership
+
+interest has been ceded.
+
+2 Must be with one employer.
+
+WEEKLY BENEFIT AMOUNT (WBA)
+As part of calculating an individual’s monetary eligibility, the state must determine the weekly benefit
+amount, that is, the amount payable for a week of total unemployment. UI is intended to provide a partial wage
+replacement, and an individual’s weekly benefit amount will depend on the individual’s prior work history.
+Some states replace approximately 50 percent of individuals’ lost wages up to a certain limit (generally some
+percentage of the average weekly wage in the state). As a result of this cap, states tend to replace income at a
+higher percentage for low-wage earners than they do for high-wage earners. Several states also provide
+dependents’ allowances to provide an additional payment based on the individual having dependents. All states
+round weekly benefits to an even dollar amount.
+States determine eligibility for benefits weekly. Generally, a week of unemployment is considered to be
+Sunday through Saturday.
+METHODS OF COMPUTING WEEKLY BENEFITS—As with qualifying wages, states utilize a variety of
+methods to determine an individual’s weekly benefit amount.
+High-Quarter Method (HQ)—The weekly benefit amount is calculated by looking at wages in the quarter with
+the highest earnings in the base period. This quarter is viewed as the period most closely reflecting total
+employment for the individual during the base-period. By dividing this amount by 13 (the number of weeks in a
+calendar quarter) the average weekly wage is calculated. Based on the state’s wage replacement rate, the
+weekly wage is then divided and the weekly benefit amount is calculated. For example, an individual who earns
+$2,600 in the high-quarter has an average weekly wage of $200 a week ($2,600 divided by 13). If the state
+replaces ½ of the average weekly earnings, the weekly benefit amount is $100. To simplify the calculations,
+states will use the “overall” multiple of the high-quarter wages to calculate the weekly benefit amount. In this
+example, it would be 1/26 of the high-quarter wages (1/13 multiplied by .5). The most common multiple used
+by states is 1/26 of the high-quarter wages. Alternatively, states that use this method may calculate the benefit
+as a percentage of high-quarter wages.
+Because even the quarter of highest earnings may include some periods of unemployment, some states
+use a fraction to generate a higher weekly benefit amount (e.g., 1/23). Some states use a weighted schedule,
+which gives a greater proportion of the high-quarter wages to lower-paid individuals than to those earning more.
+
+3-9
+
+MONETARY ENTITLEMENT
+
+Multi-Quarter Method (MQ)—The weekly benefit amount is calculated as a multiple of the total or average
+quarterly wages paid across multiple quarters. This approach is viewed as being more likely to reflect an
+individual’s usual employment pattern since it surveys a greater period of time rather than just focusing on the
+quarter with highest earnings.
+Annual-Wage Method (AW)—The weekly benefit is calculated as a percentage of annual wages in the baseperiod. This approach reflects the view that annual wages determine the individual’s standard of living. Some
+states use a weighted schedule, which gives a larger proportion of annual wages to lower-paid individuals to
+determine their weekly benefit amount, while other states use a flat percentage.
+Weekly-Wage Method (WW)—The weekly benefit is calculated as a percentage of the individual’s average
+weekly wages in the base-period.
+The following table provides information on how states calculate weekly benefit amounts, as well as the
+minimum and maximum amounts available in that respective states. Additionally, and assuming consistent
+wage earnings throughout the claimant’s base-period, the table provides the wages required to be eligible for the
+maximum weekly benefit amount in that respective state.
+TABLE 3-5: WEEKLY BENEFIT AMOUNTS
+
+State
+
+Method of Calculating and
+Formula
+
+Rounding
+to
+
+Weekly Benefit Amount
+Minimum1
+
+Maximum1
+
+Minimum Wages
+Required
+for Maximum WBA
+HighBaseQuarter
+Period
+
+AL
+
+MQ
+1/26 of average wages in 2 high-quarters
+
+Higher $
+
+$45
+
+$275
+
+N/A
+
+$14,274
+in 2
+quarters
+
+AK
+
+AW
+0.9% - 2.2% BP wages + DA
+
+Nearest $
+
+$56 - $80
+
+$370 - $394
+
+N/A
+
+$42,000
+
+AZ
+
+HQ
+1/25 HQW
+
+Nearest $
+
+$200
+
+$240
+
+$5,988
+
+$8,982
+
+AR
+
+MQ
+1/26 of average wages in 4 quarters
+
+Lower $
+
+$81
+
+$451
+
+N/A
+
+$46,904
+
+Higher $
+
+$40
+
+$450
+
+>$11,674
+
+$11,700
+
+$636
+(low formula)
+
+$11,744
+(low
+formula)
+
+$27,560 in
+2 quarters
+(low
+formula)
+
+$700
+(high formula)
+
+N/A
+(high
+formula)
+
+$72,800
+(high
+formula)
+
+CA
+
+CO
+
+CT
+
+HQ
+1/23-1/26 HQW (if HQW <$1,833, see table
+in law; otherwise, 1/26 HQW)
+HQ/WW
+Higher of:
+(1) 60% of 1/26 of 2 highest consecutive
+quarters, capped by 50% of average weekly
+earnings (low formula); or
+(2) 50% of 1/52 BP earnings, capped by
+55% of average weekly earnings (high
+formula)
+MQ/HQ
+1/26 of the average of the 2 HQs + DA; for
+construction workers, 1/26 of HQW + DA
+
+Lower $
+
+$25
+
+Lower $
+
+$15 - $30
+
+$685 - $760
+
+$17,810
+in each of 2
+quarters
+
+$35,620
+in 2
+quarters
+
+DE
+
+MQ
+1/46 of wages earned in highest 2 quarters
+
+Lower $
+
+$20
+
+$400
+
+N/A
+
+$18,400
+in 2
+quarters
+
+DC
+
+HQ
+1/26 HQW
+
+Lower $
+
+$50
+
+$444
+
+$11,544
+
+$17,316
+
+FL
+
+HQ
+1/26 HQW
+
+Lower $
+
+$32
+
+$275
+
+$7,150
+
+$10,725
+
+3-10
+
+MONETARY ENTITLEMENT
+TABLE 3-5: WEEKLY BENEFIT AMOUNTS
+
+State
+
+GA
+
+HI
+
+Method of Calculating and
+Formula
+MQ
+1/42 wages in 2 HQs; computed as 1/21 of
+HQW when alternative qualifying wages are
+used (Note: If individual would qualify for
+$27 - $55, the claimant’s WBA is $55.)
+HQ
+1/21 HQW
+
+Rounding
+to
+
+Weekly Benefit Amount
+
+Minimum Wages
+Required
+for Maximum WBA
+HighBaseQuarter
+Period
+
+Minimum1
+
+Maximum1
+
+Lower $
+
+$55
+
+$365
+
+N/A
+
+$15,330
+in 2
+quarters
+
+Higher $
+
+$5
+
+$695
+
+$14,595
+
+$18,070
+
+ID
+
+HQ
+1/26 HQW
+
+Lower $
+
+$72
+
+$499
+
+$12,974
+
+$16,218
+
+IL
+
+MQ
+47% of the claimant’s wages in highest 2
+quarters divided by 26 + DA
+
+Higher $
+
+$51 - $77
+
+$542 - $745
+
+N/A
+
+$29,939
+in 2
+quarters
+
+IN
+
+WW
+47% of AWW
+
+Lower $
+
+$37
+
+$390
+
+N/A
+
+$43,149
+
+IA
+
+HQ
+1/19 HQW (4 or more dependents) - 1/23
+HQW (no dependents)
+
+Lower $
+
+$79 - $95
+
+$531 - $651
+
+$12,213
+
+$15,267
+
+KS
+
+HQ
+4.25% HQW
+
+Lower $
+
+$135
+
+$540
+
+$12,706
+
+$16,200
+
+KY
+
+AW
+1.1923% BPW
+
+Nearest $
+
+$39
+
+$569
+
+N/A
+
+$47,681
+
+LA2
+
+MQ
+1/25 of the average wages in 4 quarters of
+BP x 1.05 x a multiple ranging from 1.03 to
+1.32
+
+Lower $
+
+$10
+
+$275 to $284
+
+N/A
+
+$27,500 to
+$28,400
+
+ME
+
+MQ
+1/22 of the average of the 2 HQs + DA (see
+table in law)
+
+Lower $
+
+$89 - $155
+
+$511 - $894
+
+N/A
+
+$22,484
+in 2
+quarters
+
+MD
+
+HQ
+1/24 HQW + DA (see table in law)
+
+Higher $
+
+$50 - $90
+
+$430
+same with or
+without DA
+
+>$10,296
+
+$15,480
+
+MA
+
+MQ
+50% of 1/26 of total wages in 2 HQs up to
+57.5% of state AWW
+
+Lower $
+
+$55 - $83
+
+$974 - $1461
+
+N/A
+
+$50,648 in
+2 highquarters
+
+MI
+
+HQ
+4.1% HQW + DA
+
+Lower $
+
+$157 - $187
+
+$362
+same with or
+without DA
+
+$8,830
+
+$13,245
+
+MN
+
+HQ/WW
+The higher of 50% of 1/52 BPW up to
+66⅔% of the state AWW, or 50% of 1/13
+HQ up to 43% of the state’s AWW
+
+Lower $
+
+$13,754
+(based on
+HQW)
+$85,280
+(based on
+BPW)
+
+MS
+
+HQ
+1/26 HQW
+
+MO
+
+MT
+
+$31
+
+$820
+(based on
+BPW)
+
+$13,754
+(based on
+HQW)
+N/A
+(based on
+BPW)
+
+Lower $
+
+$30
+
+$235
+
+$6,110
+
+$9,400
+
+MQ
+4.0% of the average of the 2 HQs
+
+Lower $
+
+$35
+
+$320
+
+N/A
+
+$16,000
+in 2
+quarters
+
+AW/MQ
+1.0% of BPW or 1.9% of wages in the 2
+HQs
+
+Lower $
+
+$183
+
+$618
+
+N/A
+
+$32,527
+in 2
+quarters
+
+3-11
+
+$529 (based
+on HQW)
+
+MONETARY ENTITLEMENT
+TABLE 3-5: WEEKLY BENEFIT AMOUNTS
+Method of Calculating and
+Formula
+
+Rounding
+to
+
+NE
+
+WW
+1/2 of AWW, may not exceed 1/2 of state
+AWW
+
+NV
+
+State
+
+Weekly Benefit Amount
+
+Minimum Wages
+Required
+for Maximum WBA
+HighBaseQuarter
+Period
+
+Minimum1
+
+Maximum1
+
+Lower even
+$
+
+$70
+
+$490
+
+$12,740
+
+$13,540
+
+HQ
+1/25 HQW
+
+Lower $
+
+$16
+
+$533
+
+$13,325
+
+$19,988
+
+NH
+
+AW
+1.0% - 1.1% of BPW (see table in law)
+
+Nearest $
+
+$32
+
+$427
+
+N/A
+
+$41,500
+
+NJ
+
+WW
+60% (base weeks’ wages/number of base
+weeks) + DA
+
+Lower $
+
+$144 - $165
+
+$804 same
+with or
+without DA
+
+N/A
+
+$26,800
+in 20 weeks
+
+NM
+
+WW
+53½% of AWW in HQ + DA; wages in 2
+quarters of BP
+
+Lower $
+
+$96 - $144
+
+$514 - $565
+
+$12,490
+
+$12,491
+
+NY
+
+HQ/MQ
+Wages in 4 quarters - 1/26 HQW or 1/25 if
+HQW ≤$3,575
+Wages in 2 or 3 quarters - 1/26 average of
+the highest 2 quarters, unless the HQW is
+≤$4,000 but >$3,575 then 1/26 HQW, and if
+HQW is ≤$3,575 then 1/25 HQW
+
+Lower $
+
+$116
+
+$504
+
+$13,104
+
+$19,656
+
+NC
+
+MQ
+1/52 of last 2 quarters
+
+Lower $
+
+$15
+
+$350
+
+N/A
+
+$18,200
+in last 2
+quarters
+
+ND
+
+MQ
+1/65 of (total wages earned in highest 2
+quarters and 1/2 of total wages in third
+highest quarter)
+
+Lower $
+
+$43
+
+$657
+
+N/A
+
+$42,705
+In 2.5
+quarters
+
+OH
+
+WW
+50% (wages in qualified weeks in BP
+divided by number of such weeks) + DA
+
+Lower $
+
+$149
+
+$530 - $715
+
+N/A
+
+$21,200
+in 20 weeks
+
+OK
+
+HQ
+1/23 HQW
+
+Lower $
+
+$16
+
+$476
+
+$10,948
+
+$16,422
+
+OR
+
+AW
+1.25% BP wages
+
+Lower $
+
+$171
+
+$733
+
+N/A
+
+$58,640
+
+PA
+
+HQ
+(4% HQW + 2) x 0.98 + DA (see table in
+law)
+
+Lower $
+
+$68 - $76
+
+$594 - $602
+
+$15,088
+
+$23,949
+
+PR
+
+HQ
+1/11 - 1/26 HQW
+
+Lower $
+
+$60
+
+$240
+
+$6,240
+
+$9,600
+
+RI
+
+MQ
+3.85% of average of 2 highest quarter wages
++ DA
+
+Lower $
+
+$62 - $112
+
+$661 - $826
+
+N/A
+
+$34,338
+2 quarters
+
+SC
+
+WW
+50% AWW in HQ
+
+Lower $
+
+$42
+
+$326
+
+$8,476
+
+$12,714
+
+SD
+
+HQ
+1/26 HQW
+
+Lower $
+
+$28
+
+$466
+
+$12,116
+
+$21,436
+
+TN
+
+MQ
+1/26 of average of 2 HQs (see table in law)
+
+Lower $
+
+$30
+
+$275
+
+N/A
+
+>$14,300
+in 2
+quarters
+
+TX
+
+HQ
+1/25 HQW
+
+Nearest $
+
+$71
+
+$549
+
+$13,713
+
+$20,295
+
+3-12
+
+MONETARY ENTITLEMENT
+TABLE 3-5: WEEKLY BENEFIT AMOUNTS
+
+State
+
+Method of Calculating and
+Formula
+
+Rounding
+to
+
+Weekly Benefit Amount
+Minimum1
+
+Maximum1
+
+Minimum Wages
+Required
+for Maximum WBA
+HighBaseQuarter
+Period
+
+UT
+
+HQ
+1/26 HQW minus $5
+
+Lower $
+
+$38
+
+$661
+
+$17,316
+
+$25,974
+
+VT
+
+MQ
+Wages in the 2 highest quarters divided by
+45
+
+Lower $
+
+$75
+
+$583
+
+N/A
+
+$26,235
+in 2
+quarters
+
+VA
+
+MQ
+1/50 of 2 HQs (see table in law)
+
+Lower $
+
+$60
+
+$378
+
+N/A
+
+>$18,900
+in 2
+quarters
+
+VI
+
+HQ
+1/26 HQW
+
+Lower $
+
+$33
+
+$642
+
+$16,692
+
+$25,038
+
+WA
+
+MQ
+3.85% of average of 2 HQs
+
+Lower $
+
+$295
+
+$929
+
+N/A
+
+$48,260
+in 2
+quarters
+
+WV
+
+AW
+55% of 1/52 of median wages in
+individual’s wage class (see table in law)
+
+Lower $
+
+$24
+
+$424
+
+N/A
+
+$40,150
+
+WI
+
+HQ
+4.0% HQW
+
+Lower $
+
+$54
+
+$370
+
+$9,250
+
+$12,950
+
+Lower $
+
+$38
+
+$533
+
+$13,325
+
+$18,655
+
+HQ
+4.0% HQW
+KEY: HQ = High-Quarter Formula
+AW = Annual Wage Formula
+WY
+
+HQW = High-Quarter Wage
+MQ = Multi-Quarter Formula
+WW = Average Weekly Wage Formula
+DA = Dependents’ Allowances
+
+GENERAL NOTE: Because the high-quarter and base-period wage requirements for the minimum weekly benefit amount are the
+same as the wage and employment requirements to qualify for benefits, they are not repeated in this table. (See Table 3-2, Base
+Period Wage and Employment Requirements for Benefits.) Additionally, in states where the benefit entitlement is calculated using
+multi-quarter, annual wage, or average weekly wage formulas, the high-quarter cell is shown as N/A as no specific level of wages is
+required in the high-quarter pursuant to state law.
+1 When 2 WBAs are listed, higher figure includes DA.
+
+Higher figure for minimum and maximum WBAs includes DA for maximum
+number of dependents. Specific detail about state DAs are in Table 3-9, Definition of Dependent.
+2 Depending upon the procedure in place each year, different benefit multipliers may be utilized. As a result, the maximum weekly
+benefit amount varies from year to year, and similarly, the amount of BPWs necessary to receive the maximum weekly benefit
+amount fluctuates. See the most recent Significant Provisions of State UI Laws for a point-in-time reference
+https://oui.doleta.gov/unemploy/statelaws.asp#RecentSigProLaws.
+
+AUTOMATIC ADJUSTMENTS TO WEEKLY BENEFIT AMOUNTS—Many states link their maximum
+weekly benefit amount with the state’s average weekly wage, thus providing for an automatic adjustment as
+overall wages change across time. The maximum weekly benefit amount is usually indexed to be more than 50
+percent of the average weekly wage in covered employment within the state during a recent 1-year period. The
+minimum weekly benefit amount is specified in the law in most states. However, some state laws link the
+minimum weekly benefit amount with the states’ average weekly wage as well. The following table includes
+states with automatic adjustments to benefit amounts.
+
+3-13
+
+MONETARY ENTITLEMENT
+TABLE 3-6: STATES WITH AUTOMATIC ADJUSTMENT TO BENEFIT AMOUNTS
+Method of Computation
+Annually as % of AWW in
+Covered Employment in:
+State
+Preceding CY
+
+AR
+
+12
+Months
+Ending
+March
+31
+
+12
+Months
+Ending
+June 30
+
+Semiannually as % of
+AWW in Covered
+Employment in:
+12 Months
+Ending 6
+All
+Months
+Industries
+Before
+in State
+Effective
+Date
+
+X
+
+CO
+
+X
+
+CT
+
+X
+
+DC
+
+Maximum
+
+Minimum
+
+66⅔% (high formula)
+
+12% (low
+formula)
+
+55%
+
+X
+
+Effective
+Date of New
+Amounts
+
+July 1
+July 1
+1st Sunday in
+
+50%
+
+X
+
+HI
+
+Establishing the State’s Maximum and
+Minimum WBA as a Percentage of
+State AWW
+
+October
+
+66⅔%
+
+January 1
+
+70%
+
+January 1
+
+Percentage varies (52% 60%) depending upon the
+base tax rate in a given year
+47%; for claimants with
+dependents, maximum is
+limited to 65.2% of state’s
+AWW, which is based on
+percentage changes from
+year to year
+53% for claimants with no
+dependents; for claimants
+with dependents, ranges
+from 55% to 65%
+
+ID
+
+X
+
+IL
+
+X
+
+IA
+
+X
+
+KS
+
+X
+
+60%
+
+X
+
+62%; cannot increase in any
+year when tax schedule
+increases from previous
+year (year-to-year increases
+limited depending on fund
+balance)
+
+July 1
+
+66⅔%
+
+September1
+
+KY
+
+LA
+ME
+
+X
+X
+
+MA
+
+January 1
+
+1st Sunday in
+July
+25% of
+max WBA
+
+52%
+X
+
+MN
+
+X
+
+MT
+
+X
+
+67½%
+
+X
+
+50% of the individual’s
+AWW during the HQ to a
+maximum of 50% of state
+AWW
+
+3-14
+
+July 1
+
+June 1
+1st Sunday in
+
+57½%
+Higher of 50% of the
+individual’s AWW in the
+BP to a maximum of 66⅔%
+of the state AWW; or 50%
+of the individual’s AWW
+during the HQ to a
+maximum of 43% of the
+state AWW
+
+NE
+
+January 1
+
+October
+
+Last Sunday
+in October
+
+20%
+
+July 1
+January 1
+
+MONETARY ENTITLEMENT
+TABLE 3-6: STATES WITH AUTOMATIC ADJUSTMENT TO BENEFIT AMOUNTS
+Method of Computation
+Annually as % of AWW in
+Covered Employment in:
+State
+Preceding CY
+
+12
+Months
+Ending
+March
+31
+
+12
+Months
+Ending
+June 30
+
+Semiannually as % of
+AWW in Covered
+Employment in:
+12 Months
+Ending 6
+All
+Months
+Industries
+Before
+in State
+Effective
+Date
+
+Establishing the State’s Maximum and
+Minimum WBA as a Percentage of
+State AWW
+
+Maximum
+
+NV
+
+X
+
+50%
+
+NJ
+
+X
+
+56⅔%
+
+NM
+NC
+
+ND
+
+X
+
+53½%
+
+X
+
+OH
+
+X
+
+OR
+
+X
+
+PA
+
+July 1
+January 1
+10%
+
+64%
+X1
+
+1st Sunday in
+January
+
+August 1
+
+62%; 65% of state AWW if
+trust fund reserves on Oct. 1
+are ≥ the required amount
+and the state’s average
+contribution rate is < the
+nationwide average for the
+preceding year
+Percentage used is not
+specified in law
+The greater of $197 or 60%,
+57.7%, 55%, 52½% or 50%
+of state AWW of the second
+preceding CY, depending
+on the condition of the fund
+
+X
+
+OK
+
+Minimum
+
+66⅔%
+
+X
+
+Effective
+Date of New
+Amounts
+
+1st Sunday in
+July
+
+1st Sunday in
+January
+January 1
+
+15%
+
+Week of July
+4
+
+66⅔%
+
+January 1
+
+PR
+
+X
+
+50%
+
+July 1
+
+RI
+
+X
+
+57.7%
+
+July 1
+
+SC
+
+X
+
+66⅔%
+
+July 1
+
+SD
+
+X
+
+50%
+
+July 1
+
+TX
+
+X
+
+47.6%
+
+UT
+VT
+
+X
+X
+
+VI
+
+X
+
+January 1
+
+Percentage not specified by
+law
+
+1st Sunday in
+January 1
+1st Sunday in
+July
+
+63%
+
+WV
+
+X
+
+66⅔%
+55%
+
+1 State AWW computed using 36-month period.
+
+3-15
+
+July
+
+65%
+
+X
+
+X
+
+October 1
+
+62½% minus $5
+
+WA
+
+WY
+
+7.6%
+
+15%
+
+July 1
+4%
+
+1st Sunday in
+July
+
+MONETARY ENTITLEMENT
+WAITING PERIOD
+In most states, individuals who are otherwise eligible for benefits must serve a waiting period of one
+week, often called a waiting week, before being able to receive benefits. During the waiting period, benefits are
+not payable. In most states, the waiting period requirement for weeks of partial unemployment is the same as for
+weeks of total unemployment.
+The waiting period is served in, or with respect to, a particular benefit year. Special provisions may
+exist for successive benefit years. For example, if an individual, after intervening employment, has an
+additional spell of unemployment that continues beyond the end of the first benefit year, then the individual may
+not, depending on state law, have to serve another waiting week if monetarily eligible for benefits in the second
+year. The following table provides information about states’ initial waiting periods.
+TABLE 3-7: STATE INITIAL WAITING PERIODS
+State
+
+Duration1
+(week)
+
+AL
+
+1
+
+AK
+
+1
+
+AZ
+
+1
+
+AR
+
+1
+
+CA
+
+12
+
+CO
+
+1
+
+Becomes Compensable After
+
+May Be Waived Under These Circumstances
+
+During a state of war emergency or a state of emergency if
+compliance with the waiting period requirement would prevent,
+hinder, or delay the mitigation of the effects of a state of emergency
+(e.g., natural disaster)
+
+CT
+
+No waiting period
+
+DE
+
+No waiting period
+
+DC
+
+1
+
+FL
+
+1
+
+GA
+
+No waiting period
+
+HI
+
+1
+
+ID
+
+1
+
+IL
+
+1
+
+IN
+
+13
+
+For individuals who become unemployed due to employer
+terminating business operations within the state, declaring
+bankruptcy, or initiating a workforce reduction pursuant to the
+federal WARN Act
+
+IA
+
+No waiting period
+
+KS
+
+1
+
+KY
+
+1
+
+LA
+
+1
+
+For individuals who become unemployed due to employer
+terminating business operations within the state, the employer
+declaring bankruptcy, or a workforce reduction that is subject to the
+federal WARN Act
+The remaining balance on claim is
+equal to or less than compensable
+amount for waiting week
+
+3-16
+
+MONETARY ENTITLEMENT
+TABLE 3-7: STATE INITIAL WAITING PERIODS
+State
+
+Duration1
+(week)
+
+ME
+
+1
+
+Becomes Compensable After
+
+MD
+MA
+
+May Be Waived Under These Circumstances
+
+No waiting period
+1
+
+No waivers though authority exists and has been used before
+
+MI
+
+No waiting period
+
+MN
+
+1
+
+If the individual would have been entitled to DUA but has
+established benefit account
+
+MS
+
+1
+
+In counties or areas identified for individual assistance, if the
+President declares a major disaster in accordance with Stafford Act
+
+MO
+
+1
+
+MT
+
+1
+
+NE
+
+1
+
+NV
+
+1
+
+NH
+
+1
+
+The remaining balance on claim is
+equal to or less than compensable
+amount for waiting week
+
+Later of one week or when any
+issues preventing payment are
+resolved and initial payment made
+
+NJ
+
+Discretion of the Agency
+
+No waiting period
+
+NM
+
+1
+
+Natural disaster, extended benefit program
+
+NY
+
+1
+
+At the direction of the Governor
+
+NC
+
+1
+
+ND
+
+1
+
+OH
+
+1
+
+OK
+
+1
+
+OR
+
+1
+
+PA
+
+1
+
+PR
+
+1
+
+RI
+
+1
+
+SC
+
+1
+
+SD
+
+1
+
+TN
+
+1
+
+3 consecutive weeks of compensable
+unemployment immediately
+following a waiting period
+
+TX
+
+13
+
+Receipt of benefits equaling 3 x
+WBA
+
+UT
+
+1
+
+VT
+
+1
+
+VA
+
+1
+
+During a state of emergency declared by the Governor
+
+For individuals who become unemployed due to a natural disaster
+or state of emergency
+
+Governor may waive for individuals unemployed as a direct result
+of a presidentially declared disaster provided the individual is
+eligible for regular UC and is not receiving DUA benefits for the
+period that includes the waiting period.
+If Department approval for training is granted for the first eligible
+week of the claim
+For an individual whose unemployment was caused by the
+employer terminating operations, closing its business, or declaring
+bankruptcy without paying the final wages earned; authorized by
+the Governor under an executive order
+
+3-17
+
+MONETARY ENTITLEMENT
+TABLE 3-7: STATE INITIAL WAITING PERIODS
+State
+
+Duration1
+(week)
+
+VI
+
+13
+
+WA
+
+1
+
+WV
+
+1
+
+WI
+
+1
+
+WY
+
+Becomes Compensable After
+
+May Be Waived Under These Circumstances
+
+No waiting period
+
+1 For total unemployment, partial unemployment, or in consecutive benefit years unless otherwise noted.
+2 One week waiting period is deferred if claimant is in continued claim status from a prior year’s claim.
+
+The one-week waiting period
+must be served later in the new benefit year if there is an interruption of UI payments for one or more weeks. Also, the 1-week
+waiting period credit for the new benefit year may be served in the last week of the prior benefit year if the claim was exhausted prior
+to the last week of that benefit year.
+3 No waiting period required for new/consecutive benefit year.
+
+BENEFITS FOR PARTIAL UNEMPLOYMENT
+A week of total unemployment is commonly defined as a week in which the individual performs no
+work and with which remuneration is not payable. In a few states, an individual is considered totally
+unemployed in a week even though certain small amounts of wages are earned.
+Partial unemployment refers to circumstances where individuals have experienced a reduction in both
+hours and wages but continue to perform part-time work. Such individuals may be eligible for a partial weekly
+benefit amount as long as they meet all eligibility requirements. In most states, an individual is partially
+unemployed in a week of less than full-time work with earnings less than the weekly benefit amount. In some
+states, an individual is partially unemployed in a week of less than full-time work when earning less than a
+percentage or multiplier of the weekly benefit amount.
+Generally, states reduce an individual’s weekly benefit amount based upon the part-time earnings
+reported by the individual on their claim for benefits. The amount of that reduction depends on state law. All
+states disregard some earnings for partially unemployed individuals in order to incentivize part-time or shortterm work, referred to as the “earnings disregard”. Thus, a partially unemployed individual’s weekly benefit
+will usually be the difference between their weekly earnings, reduced by the state’s earnings disregard, and their
+weekly benefit amount.
+Most state laws provide that the benefit for a week of partial unemployment will be rounded to the
+nearest or the lower dollar. For example, a state may calculate an individual’s weekly benefit amount to be $40
+and the individual earns $50.95 from part-time work during a given week. The state has an earnings disregard
+of $30. The individual would receive a partial benefit of $19 ($50.95 part-time earnings minus $30 earnings
+disregard equals $20.95; $40 weekly benefit amount minus $20.95 earnings reduction equals $19.05).
+States usually provide individuals with information about their maximum amount of benefits or a
+maximum number of weeks that can be drawn throughout the benefit year. See Table 3-11, Maximum Benefit
+Entitlement. In states that calculate a maximum amount of benefits, a partially unemployed individual may
+draw benefits for a greater number of weeks than a totally unemployed individual, but at a reduced weekly
+benefit amount, provided the individual does not exceed their maximum benefit entitlement for the claim. The
+following table details states’ definition of partial unemployment and each states’ applicable earnings disregard.
+
+3-18
+
+MONETARY ENTITLEMENT
+TABLE 3-8: PARTIAL UNEMPLOYMENT AND EARNINGS DISREGARDED WHEN DETERMINING WEEKLY
+BENEFIT
+Definition of Partial
+Definition of Partial
+Earnings Disregarded in
+Earnings Disregarded in
+Unemployment - Week
+Unemployment - Week
+Computing Weekly
+Computing Weekly
+State
+of Less Than Full-Time
+State
+of Less Than Full-Time
+Benefit for Partial
+Benefit for Partial
+Work if Earnings are
+Work if Earnings are
+Unemployment
+Unemployment
+Less Than:
+Less Than:
+AL
+
+WBA
+
+⅓ WBA
+
+AK
+
+1⅓ x WBA + $50
+
+$50 and ¼ wages over $50
+
+AZ
+
+WBA
+
+$30
+
+AR
+
+WBA + 40% WBA
+
+40% WBA
+
+CA
+
+WBA
+
+Greater of $25 or
+¼ of wages
+
+CO
+
+WBA
+
+¼ WBA
+
+CT
+
+1½ + basic WBA
+
+⅓ wages; includes holiday
+pay in the remuneration for
+determining partial
+benefits
+
+DE
+
+WBA + greater of $10
+or ½ WBA
+
+Greater of $10 or ½ WBA
+
+DC
+
+WBA + $20
+
+⅓ of wages + $50
+
+FL
+
+WBA
+
+8 x Federal hourly
+minimum wage
+
+GA
+
+WBA
+
+$50; excludes payments
+for jury service
+
+HI
+
+WBA
+
+$150
+
+ID
+
+1½ WBA
+
+½ WBA
+
+IL
+
+WBA
+
+½ WBA
+
+IN
+
+WBA
+
+Greater of $3 or 20%
+WBA from other than BP
+employers; excludes
+payments for jury service
+
+IA
+
+WBA + $15
+
+¼ WBA; excludes
+payments for jury service
+
+KS
+
+WBA
+
+¼ WBA
+
+KY
+
+1¼ x WBA
+
+20% wages
+
+LA
+
+WBA
+
+Lesser of ½ WBA or $50
+
+ME
+
+WBA + $5
+
+$100
+
+WBA
+
+⅓ WBA; earnings plus
+WBA may not equal or
+exceed the individual’s
+AWW
+
+WBA
+
+For each $1 earned, WBA
+reduced by 50 cents; no
+deduction for jury pay and
+wages earned for services
+performed in National
+Guard and military
+reserve, and as a volunteer
+firefighter or in ambulance
+services
+
+MD
+
+MI
+
+Augmented WBA
+
+$50
+
+MA
+
+1.6 x WBA
+
+For each $1 earned, WBA
+reduced by 50 cents
+(benefits and earnings
+cannot exceed 1 3/5
+WBA); earnings above 1.6
+x WBA result in dollarfor-dollar reduction in
+WBA; if the resulting
+WBA is zero, weeks of
+benefits payable reduced
+by 1 week; excludes wages
+for on-call or training
+services as a volunteer
+firefighter if wages are
+<$10,000
+
+MN
+
+MS
+
+WBA
+
+$40
+
+MO
+
+WBA + $20 or 20%WBA,
+whichever is greater
+
+$20 or 20% WBA,
+whichever is greater;
+excludes termination pay,
+severance pay, and wages
+from service in the
+organized militia for
+training or authorized duty
+from benefit computation
+
+MT
+
+2 x WBA
+
+¼ WBA
+
+NE
+
+WBA
+
+¼ WBA
+
+NV
+
+WBA
+
+¼ wages
+
+NH
+
+WBA
+
+30% WBA
+
+3-19
+
+MONETARY ENTITLEMENT
+
+TABLE 3-8: PARTIAL UNEMPLOYMENT AND EARNINGS DISREGARDED WHEN DETERMINING WEEKLY
+BENEFIT
+Definition of Partial
+Definition of Partial
+Earnings Disregarded in
+Earnings Disregarded in
+Unemployment - Week
+Unemployment - Week
+Computing Weekly
+Computing Weekly
+State
+of Less Than Full-Time
+State
+of Less Than Full-Time
+Benefit for Partial
+Benefit for Partial
+Work if Earnings are
+Work if Earnings are
+Unemployment
+Unemployment
+Less Than:
+Less Than:
+WBA + greater of $5 or
+Greater of $5 or 20%
+20%WBA; excludes
+NJ
+NM
+WBA
+20% WBA
+WBA
+payments for jury service
+Benefits paid at the rate of ¼ WBA for each effective
+day within a week beginning on Monday (effective day
+Week of less than 3
+NY
+NC
+20% WBA
+defined as 4th and each subsequent day of total
+customary scheduled fullunemployment in a week in which claimant earns not
+time days
+more than $300)
+ND
+
+WBA
+
+60% WBA
+
+OH
+
+WBA
+
+20% WBA
+
+OK
+
+WBA + $100
+
+$100
+
+OR
+
+WBA
+
+Greater of $120 or ⅓
+WBA
+
+WBA
+
+PA
+
+WBA + 40% WBA
+
+Greater of $21 or 30%
+WBA
+
+PR
+
+1½ x WBA; week in
+which wages or
+remuneration from selfemployment are less than
+1½ times claimant’s WBA
+or the claimant performs
+no service for a working
+period of 32 hours or more
+in a week
+
+RI1
+
+Basic WBA
+
+20% WBA
+
+SC
+
+WBA
+
+¼ WBA
+
+SD
+
+WBA
+
+¼ wages over $25
+
+TN
+
+WBA
+
+Greater of $50 or ¼ WBA
+
+Greater of $5 or ¼ WBA
+
+UT
+
+WBA
+
+30% WBA
+
+½ of gross wages
+
+VA
+
+WBA
+
+$50
+
+¼ wages in excess of $15
+
+WA
+
+TX
+
+VT
+
+VI
+
+WBA + greater of $5 or ¼
+WBA
+WBA + $15 provided the
+claimant works less than
+35 hours (35 hours is
+considered full-time
+employment)
+1⅓ x WBA + $15
+
+WV
+
+WBA + $61
+
+$60
+
+WY
+
+WBA
+
+½ WBA
+
+WI
+
+1⅓ x WBA + $5; weekly
+hours of work temporarily
+reduced by employer by
+no more than 60%
+Any week the individual
+receives any wages under
+$500 or performs services
+less than 32 hours; no
+individual may be eligible
+for partial benefits if the
+benefit payment is <$5
+
+¼ wages over $5
+$30 plus 33% of wages in
+excess of $30 (excludes
+wages received as a
+volunteer firefighter or
+voluntary medical
+technician from benefit
+computation)
+
+1 Special provision for totally unemployed individuals who have days of employment between the end of the waiting period and the
+
+beginning of the first compensable week, and also for those who return to work prior to the end of a compensable week, provided
+they have been in receipt of benefits for at least 2 successive weeks of total unemployment. For each day of unemployment in such
+week in which work is ordinarily performed in the individual’s occupation, one-fifth of the weekly benefit is paid, up to four-fifths
+of the weekly rate.
+
+DEPENDENTS’ ALLOWANCES
+Although wages earned during the base-period are the primary factor in determining the weekly benefit
+amount, some state laws provide for a dependents’ allowance above and beyond the basic weekly benefit
+3-20
+
+MONETARY ENTITLEMENT
+
+amount. The definition of dependent, for UI purposes, varies from state to state, as does the allowance granted.
+In general, a dependent must be wholly or mainly supported by the individual, living with the individual, or
+receiving regular support from the individual.
+DEFINITION OF DEPENDENT—All states with dependents’ allowances include children under a specified
+age. The intent is to include all children whom the individual is obligated to support. In most of these states,
+allowances may be paid on behalf of older children who are unable to work because of physical or mental
+disability. In some states, spouses, parents, or siblings may also be included in the definition. The following
+table outlines the states that have dependents’ allowances and the definition of a dependent.
+TABLE 3-9: DEFINITION OF DEPENDENT
+Dependent Child
+State
+
+Under 18 Unless Otherwise
+Noted1
+
+AK
+
+Child must be unmarried; must
+have received more than half
+the cost of support from
+individual or be lawfully in the
+individual’s custody at the time
+the individual claims the
+allowance2
+
+CT
+
+21 if child is full-time student
+
+Nonworking Dependent
+Older
+Child
+Not
+Able to
+Work1
+
+Spouse
+
+Parent
+
+Brother
+or Sister
+
+Number of
+Dependents
+Fixed by
+BY
+
+X2
+
+X3
+
+Maximum
+Number of
+Dependents
+
+3
+
+X
+Spouse must be
+currently ineligible for
+benefits in the State
+because of insufficient
+BPW
+No dependency
+allowance paid for any
+week in which spouse
+earns more than $120 in
+gross wages
+No dependency
+allowance paid for any
+week in which spouse is
+employed full time and
+is contributing to
+support of dependents
+
+5
+
+IL
+
+X2
+
+X2
+
+IA
+
+X2
+
+X2
+
+ME
+
+X2
+
+X2, 3
+
+MD
+
+X2
+
+X2
+
+X
+
+5
+
+X2, 3
+
+X
+
+X4
+
+X
+
+5
+
+X
+
+24
+
+MA5
+
+MI
+
+NJ
+
+Child must be unmarried and,
+by interpretation, 24 if child is
+full-time student2
+Must have received more than
+half the cost of support from
+individual for at least 90
+consecutive days or for the
+duration of the parental
+relationship2
+19; child must be unmarried; 22
+if child is full-time student2
+
+X2, 3
+
+X
+
+X2, 3
+
+X
+
+3-21
+
+1
+
+X
+
+X
+
+X
+
+4
+
+X4
+
+X6
+
+X7
+
+MONETARY ENTITLEMENT
+TABLE 3-9: DEFINITION OF DEPENDENT
+Dependent Child
+State
+
+NM
+
+OH
+
+Under 18 Unless Otherwise
+Noted1
+Child must also be
+unemancipated; child may be in
+legal custody of claimant
+pending adoption; court
+requires claimant to contribute
+to child’s support and no one
+else is receiving benefits for
+that child
+Must have received more than
+half the cost of support from
+individual within 90 days prior
+to BYB (or duration of parental
+relationship, if less than 90
+days)
+
+Nonworking Dependent
+Older
+Child
+Not
+Able to
+Work1
+
+Parent
+
+Brother
+or Sister
+
+Maximum
+Number of
+Dependents
+
+2
+
+PA
+RI
+
+Spouse
+
+Number of
+Dependents
+Fixed by
+BY
+
+X2
+
+X2
+
+May not be claimed as
+dependent if average
+weekly income is in
+excess of 25% of the
+claimant’s AWW
+
+X
+
+3
+
+X
+
+X
+
+X
+
+2
+
+X
+
+5
+
+X2
+
+1 In all states except MA, includes stepchild by statute.
+
+2 AK, IL, IA, ME, MD, MI, NJ, OH, and RI - adopted child is included by statute; MA - adopted child is included by interpretation,
+
+and legal guardians are included by statute.
+
+3 Full-time student included in CT, ME, MA, MI, and NJ.
+
+4 The dependent allowance is capped at 50% of the individual’s WBA.
+
+5 Only dependents residing within the U.S. and its Territories and possessions.
+6 Parents over 65 or permanently disabled from gainful employment.
+
+7 Brother or sister under 18, orphaned, or whose living parents are dependents.
+
+AMOUNT OF WEEKLY DEPENDENTS’ ALLOWANCES—The dependents’ allowance is ordinarily a
+fixed sum, and almost all states have a limit on the total amount of dependents’ allowance payable in any week
+in terms of dollar amount, number of dependents, or percentage of weekly benefit amount. In almost all states,
+the number of dependents is fixed for the benefit year when the monetary determination on the claim is made.
+A few states permit dependents’ allowances to be adjusted during the benefit year if an individual acquires
+additional dependents. In virtually all states, only one parent may draw allowances if both are receiving benefits
+simultaneously. Individuals who are eligible for partial UI benefits may draw the full dependents’ allowance
+amount in addition to their partial weekly benefit amount in most of the states providing for these allowances.
+TABLE 3-10: AMOUNT OF WEEKLY DEPENDENTS’ ALLOWANCES
+Maximum
+Dependents’ Allowance for
+Minimum Weekly Benefit
+
+Maximum
+Dependents’ Allowance
+for
+Maximum Weekly
+Benefit
+
+State
+
+Weekly Allowance per
+Dependent
+
+Weekly
+Dependents’ Allowances
+Capped at:
+
+AK
+
+$24
+
+$72
+
+$72
+
+$72
+
+CT
+
+$15
+
+Lesser of WBA or $75
+
+$15
+
+$75
+
+$26
+
+$178
+
+IL1
+
+$26 - $178
+
+IA
+
+$3 - $14
+
+Schedule $3 - $106
+
+$14
+
+$106
+
+ME
+
+$10
+
+½ WBA
+
+$37
+
+$215
+
+3-22
+
+MONETARY ENTITLEMENT
+TABLE 3-10: AMOUNT OF WEEKLY DEPENDENTS’ ALLOWANCES
+State
+
+Weekly Allowance per
+Dependent
+
+MD2
+
+$8
+
+$40
+
+$40
+
+MA
+
+$25
+
+½ WBA
+
+$22
+
+$487
+
+MI2
+
+$6
+
+$30
+
+$30
+
+Same maximum WBA
+with or without
+dependents
+
+$15
+
+Same maximum WBA
+with or without
+dependents
+
+NJ2
+
+7% of WBA for 1st dependent and 4% for each of the next 2
+dependents
+
+Maximum
+Dependents’ Allowance for
+Minimum Weekly Benefit
+
+Maximum
+Dependents’ Allowance
+for
+Maximum Weekly
+Benefit
+Same maximum WBA
+with or without
+dependents
+
+Weekly
+Dependents’ Allowances
+Capped at:
+
+NM
+
+$25
+
+½ WBA up to $50
+
+$41
+
+$50
+
+OH
+
+$1 - $185
+
+Determined by schedule
+according to the dependency
+class
+
+$0
+
+$155
+
+PA
+
+$5; $3 for one other
+dependent
+
+$8
+
+$8
+
+$8
+
+$15 or 5% of WBA up to 5
+Greater of $50 or 25% of
+$50
+$144
+dependents
+WBA
+GENERAL NOTE: Full dependents’ allowance (DA) given for weeks of partial benefits in all states with the following exceptions:
+MD and PA - Not more than 26 DA payments for dependents may be made in any one BY (individuals are partially unemployed if
+they earn less than the unadjusted WBA).
+RI
+
+1 IL - the amount shown is dependent child allowance; individuals without a child who have a non-working spouse receive a different
+amount (amounts are determined by applying the applicable dependent allowance rate (see state benefit chart)).
+2 MD, MI, NJ - see Table 3-5: Weekly Benefit Amount, for more information regarding maximum benefit amount.
+
+MAXIMUM BENEFIT ENTITLEMENT
+When states compute an individual’s monetary eligibility for benefits, in addition to calculating the
+weekly benefit amount, they determine the maximum benefit amount payable (i.e., maximum benefit
+entitlement) for the benefit year. This total maximum amount is determined based on a formula that is based on
+state law. The maximum benefit entitlement is available to the individual only for the duration of the benefit
+year. Individuals may not collect the full maximum benefit entitlement if, during the benefit year, the individual
+returns to work, is disqualified, or stops filing for another reason. Consequently, this balance is not available to
+collect after the benefit year expires.
+Depending on the state’s qualifying formula and the distribution of wages in an individual’s baseperiod, individuals with the same total base-period wages and weekly benefit amounts can have a different
+maximum benefit entitlement. Generally, the formula for maximum benefit amounts is tied to some percentage
+of base-period wages; however, some states use formulas that take into consideration the ratio of high-quarter
+wages to total base-period wages. A few state laws establish uniform durations, meaning the same number of
+weeks, for all individuals who meet the qualifying wage requirements. In such cases, the maximum benefit
+amount is determined by multiplying the weekly benefit amount times the number of weeks established based
+on the state’s uniform duration.
+The following table describes how each state calculates maximum benefit amounts, as well as the wage
+credits required to qualify. Such calculations assume consistent wage earnings throughout the claimant’s base3-23
+
+MONETARY ENTITLEMENT
+
+period. This table reflects only benefits available from the regular UI program. Benefit amounts tied to
+extensions are addressed in Chapter 4, Extensions and Special Programs.
+
+TABLE 3-11: MAXIMUM BENEFIT ENTITLEMENT
+Maximum Potential Benefits
+State
+
+Calculation of Maximum Benefit Amount
+
+Maximum Benefit
+Amount1
+
+Minimum Wages Required to Qualify for State
+Maximum Benefit
+High-Quarter
+
+Base-Period
+
+AL
+
+Lesser of 14 x WBA or ¼ BPW
+
+$3,850
+
+N/A
+
+$16,500
+
+AK
+
+Ratio of BPW to HQW—from less than 1.5 to
+3.5 or more
+
+$9,620 - $11,492
+
+N/A
+
+$42,000
+
+AZ
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$6,240
+
+$5,988
+
+$18,720
+
+AR
+
+Lesser of 16 x WBA or ⅓ BPW
+
+$7,216
+
+N/A
+
+$46,904
+
+CA
+
+Lesser of 26 x WBA or ½ BPW
+
+$11,700
+
+>$11,674
+
+$23,400
+
+$16,536
+(low formula)
+
+$13,780
+(low formula)
+
+$49,608
+(low formula)
+
+$18,200
+(high formula)
+
+N/A (high formula)
+
+$72,800
+(high formula)
+
+CO
+
+Lesser of 26 x WBA or ⅓ BPW
+
+CT
+
+N/A: Uniform duration state
+
+$17,810 - $19,760
+
+$17,810
+in each of 2 quarters
+
+$35,620
+
+DE
+
+Lessor of 26 x WBA or ½ BPW
+
+$10,400
+
+N/A
+
+$20,800
+
+DC
+
+N/A: Uniform duration state
+
+$11,544
+
+$11,544
+
+$17,316
+
+FL
+
+Lesser of 12-23 x WBA or 25% BPW
+
+$6,325
+
+$7,150
+
+$25,300
+
+GA
+
+Lesser of 14 - 20 x WBA or ¼ BPW
+
+$7,300
+
+N/A
+
+$29,200
+
+HI
+
+N/A: Uniform duration state
+
+$18,070
+
+$14,595
+
+$18,070
+
+ID
+
+Sliding scale of seasonally adjusted
+unemployment rates determines number of
+weeks (see scale in law)
+
+$9,980
+
+$12,974
+
+$35,530
+
+IL
+
+N/A: Uniform duration state
+
+$14,092 - $19,370
+
+N/A
+
+$29,939
+in 2 quarters
+
+IN
+
+Lesser of 26 x WBA or 28% of BP wage
+credits
+
+$10,140
+
+N/A
+
+$43,149
+
+IA
+
+Lesser of 26 x WBA or ⅓ BPW; if laid off
+due to employer going out of business, ½ of
+wages in BP up to 39 weeks
+
+$13,806 - $16,926
+
+$12,222
+
+$41,418
+
+KS
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$8,640
+
+$12,706
+
+$25,920
+
+KY
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$14,794
+
+N/A
+
+$47,681
+
+LA2
+
+N/A: Uniform duration state
+
+$5,746 to $7,384
+
+N/A
+
+$22,100 to $28,400
+
+ME
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$13,286 - $23,244
+
+N/A
+
+$39,858
+
+MD
+
+N/A: Uniform duration state
+
+$11,180
+with or without DA
+
+>$10,296
+
+$15,480
+
+3-24
+
+MONETARY ENTITLEMENT
+TABLE 3-11: MAXIMUM BENEFIT ENTITLEMENT
+Maximum Potential Benefits
+State
+
+Calculation of Maximum Benefit Amount
+
+Maximum Benefit
+Amount1
+
+Minimum Wages Required to Qualify for State
+Maximum Benefit
+High-Quarter
+
+Base-Period
+
+MA
+
+Lesser of 30 x WBA or 36% BPW (reduced
+to 26 x WBA if all of the local areas
+unemployment rates are ≤5.1%)
+
+$25,324 - $37,986
+
+N/A
+
+$70,345
+
+MI
+
+Lesser of 20 x WBA or 43% BPW
+
+$7,240
+with or without DA
+
+$8,830
+
+$16,838
+
+13,754
+(based on HQW)
+
+$13,754
+(based on HQW)
+
+$41,262
+(based on HQW)
+
+$21,320
+(based on BPW)
+
+N/A
+(based on BPW)
+
+$85,280
+(based on BPW)
+
+MN
+
+Lesser of 26 x WBA or ⅓ BPW
+
+MS
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$6,110
+
+$6,110
+
+$18,330
+
+MO
+
+Lesser of 20 x WBA or ⅓ BPW
+
+$6,400
+
+N/A
+
+$19,200
+
+MT
+
+Ratio of BPW to HQW—from 1.0 to 3.5 or
+greater (see schedule in law)
+
+$17,303
+
+N/A
+
+$56,923
+
+NE
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$12,740
+
+$12,740
+
+$38,220
+
+NV
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$13,858
+
+$13,325
+
+$41,574
+
+NH
+
+N/A: Uniform duration state
+
+$11,102
+
+N/A
+
+$41,500
+
+NJ
+
+Number of weeks worked in base year (up to
+26) x WBA
+
+$20,904
+with or without DA
+
+N/A
+
+$34,840
+
+NM
+
+Lesser of 26 x WBA or 60% BPW
+
+$13,364 - $14,690
+
+$12,490
+
+$22,274
+
+NY
+
+N/A: Uniform duration state
+
+$13,104
+
+$13,104
+
+$19,656
+
+NC
+
+N/A: Uniform duration state
+
+$7,000
+
+N/A
+
+$18,200
+
+ND
+
+Ratio of BPW to HQW—from 1.5 to 3.2
+
+$17,082
+
+N/A
+
+$91,104
+
+OH
+
+Lesser of 26 x WBA or 20 x WBA+ WBA for
+each qualifying week in excess of 20 up to a
+maximum of 26 weeks
+
+$13,780 - $18,590
+
+N/A
+
+$27,560
+in 26 weeks
+
+OK
+
+Lesser of 26 x WBA or a variable percentage
+of the state’s AAW for the 2nd preceding year
+depending upon the conditional factor in place
+
+$11,405
+
+$10,948
+
+$16,422
+
+OR
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$19,058
+
+N/A
+
+$58,640
+
+PA
+
+Number of credit weeks (18-26) in BP x
+WBA (a credit week is a week a claimant
+earned at least $116)
+
+$15,444 - $15,652
+
+$15,088
+
+$23,949
+
+PR
+
+N/A: Uniform duration state
+
+$6,240
+
+$6,240
+
+$9,600
+
+RI
+
+Lesser of 26 x WBA or 33% BPW
+
+$17,186 - $21,476
+
+N/A
+
+$52,079
+
+SC
+
+Lesser of 20 x WBA or ⅓ BPW
+
+$6,520
+
+$8,476
+
+$19,560
+
+SD
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$12,116
+
+$12,116
+
+$36,348
+
+TN
+
+Lesser of 26 x WBA or ¼ BPW
+
+$7,150
+
+N/A
+
+$28,600
+
+3-25
+
+MONETARY ENTITLEMENT
+TABLE 3-11: MAXIMUM BENEFIT ENTITLEMENT
+Maximum Potential Benefits
+State
+
+Calculation of Maximum Benefit Amount
+
+Maximum Benefit
+Amount1
+
+Minimum Wages Required to Qualify for State
+Maximum Benefit
+High-Quarter
+
+Base-Period
+
+TX
+
+Lesser of 26 x WBA or 27% BPW
+
+$14,274
+
+$13,713
+
+$52,867
+
+UT
+
+27% BPW
+
+$17,186
+
+$17,316
+
+$63,652
+
+VT
+
+Lesser of 26 x WBA or 46% BPW
+
+$15,158
+
+N/A
+
+$32,953
+
+VA
+
+Ratio of BPW to HQW (see table in law)
+
+$9,828
+
+N/A
+
+>$37,800
+
+VI
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$16,692
+
+$16,692
+
+$50,076
+
+WA
+
+Lesser of 26 x WBA or ⅓ BPW
+
+$24,154
+
+N/A
+
+$72,462
+
+WV
+
+N/A: Uniform duration state
+
+$11,024
+
+N/A
+
+$40,150
+
+WI
+
+Lesser of 26 x WBA or 40% BPW
+
+$9,620
+
+$9,250
+
+$24,050
+
+WY
+
+Lesser of 26 x WBA or 30% BPW
+
+$13,858
+
+$13,325
+
+$46,194
+
+GENERAL NOTE: Because the high-quarter and base-period wage requirements for the minimum duration of the minimum weekly
+benefit amount are the same as the wage and employment requirements to qualify for benefits, they are not repeated in this table. See
+Table 3-2, Base Period Wage and Employment Requirement for Benefits. Some states will extend duration under certain
+circumstances. See Chapter 4, Extensions and Special Programs, for additional information. Additionally, in states where the benefit
+entitlement is calculated using multi-quarter, annual wage, or weekly wage formulas the high-quarter cell is shown as N/A as no
+specific level of wages is required to exist in the high-quarter pursuant to state law.
+1 When 2 amounts are given, higher amount includes dependents’ allowance.
+
+2 Depending on the procedure in place in a given year, different benefit multipliers are utilized.
+
+As a result, the maximum potential
+benefit payable varies from year to year and, similarly, the amount of BPWs necessary to receive the maximum potential benefit
+payable fluctuates.
+
+DURATION OF BENEFITS
+The maximum number of weeks an individual may receive benefits during their benefit year is different
+for each state and dependent on the individual’s base-period wages, though most states provide a cap of 26
+weeks of benefits.
+Many states provide for variable durations, where the number of weeks for which an individual may
+collect benefits (i.e., duration) is determined by dividing the maximum benefit amount payable (see Table 3-11,
+Maximum Benefit Entitlement, for calculation methodology) by the individual’s weekly benefit amount (see
+Table 3-5, Weekly Benefit Amount, for calculation methodology). Some states specify both a minimum and
+maximum number of weeks, and a sub-set of these states adjust these minimum and maximum values depending
+on the state’s unemployment rate. Because all of these states allow for the maximum benefit amount to be used
+for weeks of total or partial unemployment, individuals may collect benefits longer than their stated duration at a
+reduced weekly benefit amount, until they have exhausted their maximum entitlement.
+Depending on the distribution of wages in the base-period, individuals with the same total base-period
+wages can have different durations and different weekly benefit amounts. For example, individuals whose
+wages are concentrated largely or wholly in the high-quarter may have a higher weekly benefit amount but a
+shorter duration.
+3-26
+
+MONETARY ENTITLEMENT
+
+As noted in Table 3-11, Maximum Benefit Entitlement, some states establish a uniform duration for all
+individuals who meet the qualifying wage requirements (see Table 3-2, Base Period Wage and Employment
+Requirement for Benefits, for calculation methodology). States with a uniform duration are not necessarily
+“more generous” than the other states because many of these states have comparatively high minimum wage
+thresholds to qualify for all but the lowest benefit levels. Similarly, whether directly or indirectly, all uniform
+duration states require employment in more than one quarter for all – or most – individuals to qualify for
+benefits.
+The following table displays the duration of benefits available in each state. Additionally, the table
+indicates whether the state has a uniform duration formula or a variable duration formula.
+TABLE 3-12: DURATION OF BENEFITS
+Variable Duration
+Weeks Based on
+Base-Period Wages (BPW)
+
+Weeks Based on BPW and
+Unemployment Rate1
+
+Minimum
+
+Minimum
+
+Maximum
+
+14
+
+20
+
+FL
+
+9
+
+12-23
+
+GA
+
+6
+
+14-20
+
+10
+
+20-26
+
+10
+
+16-26
+
+10
+
+302
+
+State
+
+Uniform Duration Number of Weeks
+
+Maximum
+
+AL
+AK
+
+16
+
+26
+
+AZ
+
+8
+
+26
+
+AR
+
+9
+
+16
+
+CA
+
+14
+
+26
+
+CO
+
+13
+
+26
+
+24
+
+26
+
+CT
+
+26
+
+DE
+DC
+
+HI
+
+26
+
+26
+
+ID
+IL
+
+26
+
+IN
+
+26
+
+26
+
+IA
+
+8
+
+26
+
+KS
+KY
+LA
+
+26
+
+15
+
+26
+
+26
+
+ME
+MD
+
+15
+
+26
+
+MA
+MI
+
+14
+
+20
+
+MN
+
+11
+
+26
+
+MS
+
+13
+
+26
+
+MO
+
+8
+
+20
+
+MT
+
+8
+
+283
+
+3-27
+
+MONETARY ENTITLEMENT
+TABLE 3-12: DURATION OF BENEFITS
+Variable Duration
+Weeks Based on
+Base-Period Wages (BPW)
+
+Weeks Based on BPW and
+Unemployment Rate1
+
+Minimum
+
+Maximum
+
+Minimum
+
+NE
+
+10
+
+26
+
+NV
+
+8
+
+26
+
+NJ
+
+20
+
+26
+
+NM
+
+14
+
+26
+
+ND
+
+12
+
+26
+
+OH
+
+20
+
+26
+
+OK
+
+16
+
+26
+
+OR
+
+3
+
+26
+
+PA
+
+18
+
+26
+
+RI
+
+17
+
+26
+
+SC
+
+13
+
+20
+
+SD
+
+15
+
+26
+
+TN
+
+13
+
+26
+
+TX
+
+10
+
+26
+
+UT
+
+10
+
+26
+
+VT
+
+21
+
+26
+
+VA
+
+12
+
+26
+
+VI
+
+13
+
+26
+
+WA
+
+1
+
+26
+
+WI
+
+14
+
+265
+
+WY
+
+11
+
+26
+
+State
+
+NH
+
+Uniform Duration Number of Weeks
+
+26
+
+NY
+
+26
+
+NC
+
+12-204
+
+PR
+
+WV
+
+Maximum
+
+26
+
+26
+
+1 See the most recent Significant Provisions of State UI Laws for a point-in-time reference
+
+https://oui.doleta.gov/unemploy/statelaws.asp#RecentSigProLaws
+2 Maximum number of weeks is capped at 26 during periods of low unemployment.
+3 To qualify for 28 weeks, individual’s ratio of total base-period wages to HQ wages must be at least 3.5.
+4 Number of weeks paid in a given year is dependent upon the state’s unemployment rate.
+5 With some limited exceptions, individuals with significant ownership interest in family partnerships, LLCs, and corporations, and
+certain members of their families, are limited to 4 weeks of regular UI benefits.
+
+SEASONAL EMPLOYMENT AND BENEFITS
+Several states have laws that contain special provisions restricting payment of benefits to individuals
+who earned some or a substantial part of their base-period wages from employers operating on a seasonal basis.
+3-28
+
+MONETARY ENTITLEMENT
+
+The definition of seasonal employment varies across states. Most consider the industry, employer, or
+occupation involved; the wages earned during the operating period of the employer or industry (e.g., the
+season); and the individual. Some states allow an employer classified as a seasonal employer to request to not to
+be treated as a seasonal employer.
+In most states, the designation of seasonal industries, occupations, or employers and the beginning and
+ending dates of their seasons is made in accordance with a formal procedure, following action initiated by the UI
+agency or upon application by the employers or individuals. Typically, this involves hearings and presentation
+of supporting data.
+Other states provide a more uniform definition of seasonal employment, which considers the climate
+conditions or seasonal nature of the employment and the extent to which it is customary to operate only during
+regularly recurring periods up to a specified number of weeks. This specified number of weeks includes: 16
+weeks in Massachusetts; 26 weeks in Colorado, Indiana, Michigan, Oklahoma, and Tennessee; 26 weeks in
+Maine (except for seasonal lodging facilities, variety stores, or trading posts, restaurants, and camps, where a
+period of less than 26 weeks applies); 36 weeks in North Carolina; and 40 weeks in Ohio.
+The most frequent restriction provides that wage credits earned in seasonal employment are available
+for payment of benefits only for weeks of unemployment in the benefit year that fall within the operating period
+of the employer or industry where they were earned. Wage credits earned in non-seasonal work or in
+employment with a seasonal employer outside the operating period are available for payment of benefits at any
+time in the benefit year. The states with this type of provision are listed in the following table, together with the
+definitions of “seasonal worker” to whom the restrictions apply.
+TABLE 3-13: SEASONAL WAGE CREDITS AVAILABLE ONLY DURING SEASON
+
+AR
+
+Off-season wages of (a) less than
+30 times the weekly benefit
+amount, if individual’s seasonal
+wages were earned in an industry
+with an operating period of 2-6
+months; or (b) less than 24 times
+the weekly benefit amount, if
+seasonal wages were earned in an
+industry with an operating period
+of 7-8 months
+
+IN
+
+Some seasonal wages in operating
+period of seasonal employer
+
+AZ
+
+For employment in transient
+lodging only; no benefits based on
+seasonal wages during the offseason if unemployment is due to
+substantial slowdown in operations
+
+CO
+
+Some seasonal wages in operating
+period of seasonal industry
+
+ME
+
+Some seasonal wages in operating
+period of seasonal employer
+
+MA
+
+Some seasonal wages in operating
+period of seasonal industry
+
+MI
+
+Wages must be within seasonal
+period of 26 weeks or less;
+designation of employment as
+seasonal is voluntary
+
+MS
+
+Off-season wages of (a) less than
+30 times the weekly benefit
+amount, if individual’s seasonal
+wages were earned in a cotton
+ginning industry or professional
+baseball with an operating period
+of 6-26 weeks; or (b) less than 24
+times the weekly benefit amount, if
+seasonal wages were earned in a
+cotton ginning industry or
+professional baseball with an
+operating period of 27-36 weeks
+
+NC
+
+25% or more of BP wages earned
+in operating period of seasonal
+employer
+
+OH
+
+Some seasonal wages earned in
+operating period of seasonal
+employer
+
+PA
+
+Seasonal wages for less than 180
+days of work in operating period;
+applies only if reasonable
+assurance of reemployment exists
+
+SD
+
+Some wages earned in operating
+period of seasonal employer
+
+TN
+
+Wages must be 26 consecutive
+weeks or less and for a seasonal
+employer as defined by the state
+
+3-29
+
+MONETARY ENTITLEMENT
+Two states have established other seasonal provisions, which are listed in the following table.
+TABLE 3-14: OTHER SEASONAL PROVISIONS
+DE
+
+Individual with 75% or more of BP earnings in seasonal employment – defined as the processing of agricultural or seafood
+products – will be eligible only if the individual had been employed in the corresponding month of the BP
+
+WV
+
+Individual working less than 100 days in seasonal employment is not eligible unless the individual has non-seasonal
+employment earnings of at least $100
+
+DEDUCTIONS AND WITHHOLDING FROM BENEFITS
+Federal law requires that money withdrawn from the state unemployment fund (refer to Chapter 2,
+Financing) must only be used to pay unemployment compensation. However, federal law explicitly provides
+for some exceptions to this requirement.
+OVERPAYMENTS—Overpayments are established when the state determines an individual received benefits
+they were not entitled to receive. Federal law requires states to recover existing overpayments by offsetting
+benefits that are otherwise payable. See Chapter 6, Overpayments for more information on this topic.
+CHILD SUPPORT—Federal law requires states to deduct child support obligations from benefits only when
+the obligations are enforced by the state child support agency.
+OVERISSUANCES OF SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM (SNAP)—Federal
+law permits states to deduct an uncollected over issuance of SNAP (i.e., food stamps). The following table
+indicates which state laws authorize these deductions, though the state UI and SNAP agencies must enter into an
+agreement to implement this provision.
+TABLE 3-15: STATES WITH AUTHORITY TO DEDUCT SNAP OVERISSUANCES
+Alabama
+
+Arizona
+
+Arkansas
+
+Colorado
+
+Delaware
+
+Georgia
+
+Hawaii
+
+Illinois
+
+Iowa
+
+Kansas
+
+Louisiana
+
+Maine
+
+Massachusetts
+
+Missouri
+
+Montana
+
+Nebraska
+
+New Hampshire
+
+New Jersey
+
+New Mexico
+
+New York
+
+Oklahoma
+
+South Dakota
+
+Tennessee
+
+Texas
+
+Utah
+
+Vermont
+
+Virgin Islands
+
+Virginia
+
+Wyoming
+
+INCOME TAX—Federal law requires states to offer individuals the opportunity to voluntarily have federal
+income tax withheld from benefits at the rate of 10 percent. Federal law also permits states to withhold state and
+local income tax from benefits. The following table indicates which states offer individuals the opportunity to
+have state and/or local income taxes withheld.
+TABLE 3-16: WITHHOLDING STATE AND LOCAL INCOME TAX AT CLAIMANT OPTION
+State
+AZ
+
+State
+Taxes
+X
+
+GA
+IA
+
+X
+X
+
+Local
+Taxes
+
+State
+CO
+
+State
+Taxes
+X
+
+Local
+Taxes
+
+HI
+KS
+
+X
+X
+
+X1
+
+3-30
+
+State
+CT
+
+State
+Taxes
+X
+
+ID
+KY
+
+X
+X
+
+Local
+Taxes
+X
+
+State
+DC
+
+State
+Taxes
+X
+
+IL
+ME
+
+X
+X
+
+Local
+Taxes
+
+X
+
+MONETARY ENTITLEMENT
+TABLE 3-16: WITHHOLDING STATE AND LOCAL INCOME TAX AT CLAIMANT OPTION
+State
+
+State
+Taxes
+
+MD
+MS
+
+X
+X
+
+Local
+Taxes
+
+State
+
+State
+Taxes
+
+X
+
+MA
+NE
+
+X
+X
+
+Local
+Taxes
+
+State
+
+State
+Taxes
+
+MI
+NY
+
+X2
+X
+
+Local
+Taxes
+
+State
+
+State
+Taxes
+
+X
+
+MN
+NC
+
+X
+X
+
+RI
+WV
+
+X
+X
+
+ND
+X
+OK
+X2
+OR
+X
+SC
+X
+UT
+X
+VT
+X2
+WI
+X
+GENERAL NOTE: AK, DE, FL, NV, SD, TX, WA, and WY have no state income tax.
+
+Local
+Taxes
+
+1 Local income taxes deducted and withheld from the individual's UI for other states and localities.
+2 If federal taxes are elected to be withheld from benefits, then state taxes will be withheld as well.
+
+HEALTHCARE COVERAGE—Federal law permits states to deduct amounts from an individual’s benefit to
+pay for certain types of health insurance, if the individual elects to do so. While neither state has implemented
+such provisions, Illinois and Oklahoma authorize the deduction of health insurance premiums from
+unemployment benefits if the individual so elects, provided the state has an approved health care plan for
+unemployed individuals. Massachusetts has a health insurance program for unemployed individuals; however,
+it is unrelated to the UI program.
+
+3-31
+
+

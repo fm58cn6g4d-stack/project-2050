@@ -1,6 +1,6 @@
 # Household model: model card
 
-Role: the model card of `MOD-household`, the core model that measures taxes, benefits, poverty and distribution for real households (`charter/PLAN.md` 3.4). Status: **working** for the 2029 current-law baseline, the provision interface and the D3 report (with the secure floor's INC-1 to INC-5), the typical families and the 65-cent ceiling check; step M3, part 2. Owner: Claude Code (the M3 worker sessions), reporting to the lead. Generated results are in [`results.md`](results.md) and `results.json`; never quote a figure from this card that `results.md` no longer shows.
+Role: the model card of `MOD-household`, the core model that measures taxes, benefits, poverty and distribution for real households (`charter/PLAN.md` 3.4). Status: **working** for the 2029 current-law baseline, the provision interface and the D3 report (with the secure floor's INC-1 to INC-5), the typical families and the 65-cent ceiling check, with 90% sampling intervals from the CPS replicate weights and the CBO-convention check; maintenance step M3. Owner: Claude Code (the M3 worker sessions), reporting to the lead. Generated results are in [`results.md`](results.md) and `results.json`; never quote a figure from this card that `results.md` no longer shows.
 
 ## What it answers, and what it cannot
 
@@ -18,7 +18,7 @@ It cannot answer, by design: behavior (work, take-up, migration or marriage resp
 | Legacy piece | What it did | Now |
 | --- | --- | --- |
 | `models/tools/incidence-model.py`, `incidence-years.py`, `incidence-make-md.py` → `legacy/index/revenue-household-incidence-model.md` | The D3 net test with typed distribution keys over 140 million households, its year-by-year profiles and its report | **Retired (M3 part 2).** `d3.py` is the engine: its legacy version gives the legacy figures exactly (tested against the last legacy run, `test-data/`) and writes `incidence.json` for the budget model's readers; its model version uses the measured keys. The year profiles are ported (`d3.py`, `series`), and the report's text is `results.md`, sections 5, 6 and 8. The legacy report is the scripts' last output, no longer regenerated |
-| `models/tools/child-poverty/` → `legacy/sources/family-child-poverty-*.md`, `legacy/index/child-poverty-agenda-analysis.html` | Child SPM poverty on the CPS ASEC 2026, the agenda's family experiments, replicate-weight uncertainty | The same archive and SPM measurement (`extract.py` checks the same SHA-256), with taxes recomputed, for every age group and aged to 2029. The child-poverty tool's replicate-weight intervals, delivery and identification branches and its eight agenda cases are not yet ported (part 2) |
+| `models/tools/child-poverty/` → `legacy/sources/family-child-poverty-*.md`, `legacy/index/child-poverty-agenda-analysis.html` | Child SPM poverty on the CPS ASEC 2026, the agenda's family experiments, replicate-weight uncertainty | The same archive and SPM measurement (`extract.py` checks the same SHA-256), with taxes recomputed, for every age group and aged to 2029. Its replicate-weight intervals are ported and extended to every headline output (`intervals.py`, below); its delivery and identification branches and its eight agenda cases are not yet ported |
 
 ## Data
 
@@ -27,6 +27,7 @@ It cannot answer, by design: behavior (work, take-up, migration or marriage resp
 - **Units:** tax units for taxes (the Census's own assignment of filers, spouses and dependents); SPM units for poverty; households for distribution.
 - **Why the CPS and not the legacy cells:** the legacy incidence model's keys are typed estimates "anchored to a published pattern; no row is yet a microsimulation" (its own words). The CPS has every element the D3 test and the SPM need for most keys, and the child-poverty tool had already validated the 2026 file against the Census's published rates. The ACS was not used: it lacks the SPM elements and the Census tax model's figures.
 - **Weights:** person weights (`MARSUPWT`) for poverty, household weights (`HSUP_WGT`) for distribution, the head's person weight for tax units.
+- **Replicate weights:** the archive's `asec_csv_repwgt_2026.csv` holds the Census's 160 replicate person weights. They are not committed (22 million numbers); `intervals.py` reads them from the archive and commits only its results, `intervals.json`. Each record takes the replicate weights of the person whose weight it already uses: on the file, `HSUP_WGT` is the householder's person weight and `SPM_WEIGHT` the SPM unit head's (checked for every record).
 
 ## Rules modeled at the 2029 baseline
 
@@ -57,7 +58,7 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 ## Distribution conventions
 
 - **D3 convention (the fairness test):** households ranked by expanded cash income (cash income plus the employer's payroll tax) divided by the square root of household size, in quintiles and deciles of **equal numbers of households**, so a per-household average is comparable with the legacy model's. The top 1% is the top 1% of households on the same ranking.
-- **Benchmark conventions:** tax units in quintiles of equal numbers of people (the Tax Policy Center's); households of equal numbers of people would be CBO's.
+- **Benchmark conventions:** tax units in quintiles of equal numbers of people (the Tax Policy Center's), and CBO's, set against D3 step by step in "The CBO-convention check" below.
 - The size adjustment is a model-design choice: an unadjusted ranking puts large families higher than their living standard warrants. It moves households between groups; it changes no booked amount.
 
 ## Provision interface
@@ -93,22 +94,42 @@ What part 1 already shows, at 2029 law (`results.md`, section 4):
 | Child and other-dependent credits, 2025 law | $119.7B, of which $23.0B refundable | Census $118.8B ($23.6B); IRS SOI 2023 (tables 2.5, 3.3) $118.9B at the $2,000 credit ($34.5B refundable) | About 7% below SOI once SOI is put at the $2,200 credit; the refundable part is $11B lower, the low-earnings under-reporting again |
 | AGI, 2025 | $16.0T | Census tax model $16.2T | 1% |
 | Average federal rates by quintile, 2029: income tax / payroll, tax units with equal people (Q1 to Q5, top 1%) | −2.1/5.7, 2.1/10.0, 6.5/10.7, 9.8/11.4, 18.6/9.2; 28.7/5.4% | Tax Policy Center T26-0045 (June 2026; current law with P.L. 119-21): −3.7/6.1, −0.1/7.7, 4.5/7.7, 7.7/7.9, 16.2/5.5; 23.3/2.1% | The model's rates run 1.5-2.4 points (income) and 2-3.7 points (payroll) higher, mostly in the denominator. TPC's expanded cash income adds what the CPS lacks: employer health and retirement contributions, retirement-account earnings, imputed corporate tax and SNAP. TPC's income is $29.0T against the model's $21.9T. In dollars the model's income tax is lower ($2.68T against TPC's $3.15T), because the CPS top-codes and misses top incomes and gains; its payroll tax is higher ($2.16T against $1.89T), because CPS earnings run above the national accounts' wages ($15.8T against CBO's $15.2T). The ordering and the progressivity match |
-| CBO, *The Distribution of Household Income, 2022* (January 2026), table 9 | — | Q1 −10.1% income tax, 9.5% payroll; top 1% 23.9% and 2.0% | Not comparable directly: a different year and law, and CBO ranks by income before transfers and taxes. Recorded for part 2's household-convention check |
+| CBO, *The Distribution of Household Income, 2022* (January 2026), table 9 | — | Q1 −10.1% income tax, 9.5% payroll; top 1% 23.9% and 2.0% | Not comparable directly: a different year and law. The conventions are compared step by step in "The CBO-convention check" (`results.md`, section 10) |
 | JCT | — | No distribution table under P.L. 119-21 yet (JCX-38-25 says its estimates were not ready); the latest, JCX-26-24, is pre-2025 law | Not used |
 
 Sources: Census P60-290 is SRC-3600 (report) and SRC-3602 (table 8). TPC T26-0038 and T26-0045 are SRC-4800 and SRC-4801 (licensed, cited only); CBO 61911 is SRC-4802. IRS SOI's tax year 2023 tables 2.5 and 3.3 are at `irs.gov/pub/irs-soi/23in25ic.xls` and `23in33ar.xls`; `fetch_public.py` cannot read legacy `.xls`, so they are cited until it can. 
 
+## Sampling uncertainty
+
+`intervals.py` recomputes the headline outputs with each of the Census's 160 replicate weights and writes `intervals.json`; `run.py` reports it (`results.md`, section 9). The method is the Census's, successive difference replication: SE = √(4/160 × Σ(estimate_r − estimate_0)²), with the 90% interval at ±1.645 SE.
+- **Covered:** SPM poverty (rates by age, counts and the gap, 2025 and 2029); D3 average federal tax rates by quintile and the top 1%; the D3 test's net per household by group in every scenario, with the measured keys, groups, household count and group incomes recomputed in each replicate; and `health_cost_review.take_home_micro`'s pass shares for the recommended 2.25% contribution, the 2.5% alternative and package E.
+- **The check on the method:** the 2025 poverty intervals reproduce the Census's published 90% margins (about ±0.3 points for all people, ±0.6 for children).
+- **What it shows:** sampling error is small next to the model's other uncertainties. The 2029 poverty rate is 13.3% ±0.3; the take-home test's 88.7% of workers is ±0.3; the D3 test's fourth quintile is ±$50-60 a household, and its sign holds at 90% in every scenario.
+- **Held fixed:** each record's computed amounts (taxes, poverty status, a package's charge), and two weight-dependent calibrations, SNAP's work-rule probabilities (A-8) and the state-median stand-in (A-10). The take-home package's rates and lines are also held fixed: the intervals say how many of the country's workers pass a given design.
+- **Keeping it current:** `results.md` compares the interval run's centers with each run's own estimates and marks any that have moved by more than half an interval; then rerun `intervals.py` with the archive (about five minutes). The take-home centers are not rechecked by `run.py`, since `health_cost_review.py` is not part of it; rerun `intervals.py` when the recommended design changes.
+
+## The CBO-convention check
+
+`conventions.py` moves the 2029 baseline households from D3's conventions to CBO's (*The Distribution of Household Income, 2022*, SRC-4802) one at a time and reports each step's average tax rates, the households that change quintile and scenario Q's net per household on re-measured keys (`results.md`, section 10).
+
+| Convention | D3 | CBO | Effect, measured |
+| --- | --- | --- | --- |
+| Unit and size adjustment | Households, square root of size | The same | None |
+| Groups | Equal numbers of households | Equal numbers of people | The largest: about 8% of households change quintile; the first quintile holds about 32 million households and the fifth 27 million; Q's fourth quintile about $190 a household further behind |
+| Means-tested cash (SSI, TANF); negative incomes | In the ranking income; ranked at the bottom | Out; in no group | Very small |
+| Medicare and employers' health premiums | Out: the CPS records neither | In, at average cost | About 21% of households change quintile in all, as retirees and covered workers move up; rates fall in the upper quintiles and rise in the first; Q's fourth quintile hardly moves. Measured at working values (a Medicare enrollee at about $17,550 in 2029, from CBO's 2032 cost per enrollee, EV-CAR-061; employers' premiums at 2.79 times what a job-covered unit reports paying, from KFF's 26.4% worker share, EV-CAR-111, EV-CAR-112) |
+| Taxes in the rates | Income and payroll | Also corporate and excise | Not a ranking convention: the D3 test carries those taxes through its keys |
+| Data | The CPS | Tax returns merged at the top; transfers corrected | Data, not conventions (see "Benchmarks"): the first quintile's income tax rate is about −4% on CBO's conventions against CBO's −10% for 2022, mostly from the survey's under-reported low earnings and credits |
+
+**What it settles:** D3's verdicts do not depend on the convention, and D3 keeps equal households, since it states and compares results per household. CBO's grouping is reported as a sensitivity where a quintile's result is near zero.
+
 ## Reconciliation with the legacy incidence model
 
-Scenario Q (the decided package), net dollars per household per year, FY2030-39 (`results.md`, section 5, reconciliation table):
-- The legacy model gives Q1 to Q4 +$8,889, +$6,433, +$3,323 and **−$527**. The household model gives +$9,595, +$5,477, +$3,301 and **−$327**. The **D3 result does not change**: the fourth quintile still comes out behind on scenario Q, and ahead on the base package alone (+$457 against +$340). These figures include the secure floor's INC-1 to INC-5 (part 2); before them, part 1 gave −$629 and −$420.
-- **What moves the fourth quintile:**
-  - the household count, 147.1 million against 140 million (+$25);
-  - the earnings keys (+$143): the CPS puts 54% of earnings in the top quintile, against the typed 46%, so payroll-based costs (the paid-leave contribution, the education fund) fall less on the fourth;
-  - FAM-1's key (+$50);
-  - partly offset by the housing key (−$94): the CPS puts today's housing assistance 93% in the first quintile, against the typed 60%.
-- **The second quintile falls by about $960 in all.** The housing key accounts for about $450 of it, the larger household count for about $310 and the other keys for the rest. Housing's key is a model-design choice, and the lead settled it on #318: the CPS-measured spread (today's assisted households, 93% in the first quintile) is the central case. The legacy key (60%) is a stated sensitivity in `results.md`: with it, Q1 is +$8,789, Q2 +$5,932 and Q4 −$233. If the housing dossier expects new awards to reach higher up than today's assistance, the sensitivity is the reading to use.
-- **The top 1%** pays $639,233 a year against $671,627, from the larger household count.
+Scenario Q (the decided package), net dollars per household per year, FY2030-39 (`results.md`, section 5, with the reconciliation table that moves from the legacy setup to the model's one key at a time; the figures change with every booking, so read them there):
+- **The D3 result does not change:** on both versions the fourth quintile comes out behind on scenario Q and ahead on the base package alone (scenario A). The model's figures for the fourth quintile are smaller in size than the legacy model's.
+- **What moves the fourth quintile:** the household count (147.1 million against 140 million), the earnings keys (the CPS puts 54% of earnings in the top quintile, against the typed 46%, so payroll-based costs fall less on the fourth), FAM-1's key, partly offset by the housing key (the CPS puts today's housing assistance 93% in the first quintile, against the typed 60%).
+- **Housing's key** is a model-design choice, which the lead settled on #318: the CPS-measured spread is the central case, and the legacy key is a stated sensitivity in `results.md`. If the housing dossier expects new awards to reach higher up than today's assistance, the sensitivity is the reading to use.
+- **Sampling error does not change the verdict:** in every scenario the fourth quintile's sign holds at 90% (`results.md`, section 9). **Nor does CBO's grouping,** though equal numbers of people make Q's fourth-quintile shortfall about $190 a household larger (section 10).
 - **What's still open:** the remaining typed keys (capital, consumption and the top-end taxes) dominate the costs, so the measured keys change the picture at the margin, not at the core. Replacing them needs tax data (TPC or CBO tables by key), part 2.
 
 ## What it does not do (limits)
@@ -119,14 +140,12 @@ Scenario Q (the decided package), net dollars per household per year, FY2030-39 
 - **The top of the distribution is thin:** the CPS top-codes income and misses most capital gains, so top-1% results come from the legacy keys where it matters (`keys.csv`).
 - **No health coverage values:** coverage enters only as counts for keys. The health coverage model owns premiums and out-of-pocket costs.
 - **Year-by-year paths are shapes:** the phase-in profiles spread each row's ten-year total (`d3.py`, `series`); they are not scored annual paths.
-- **No replicate-weight intervals yet:** sampling error on the 2029 rates is about ±0.3 points for all people and ±0.6 for children (the Census's 90% margins for 2025).
+- **Intervals are for sampling error only** (`intervals.py`): under-reporting, top-coding and the model's assumptions are larger for most outputs and are not in them.
 
 ## Status and next steps
 
-- **Working:** the 2029 baseline, the benchmarks above, the provision interface on legacy and measured keys, the D3 report and its year paths (`d3.py`; the legacy incidence scripts are retired), the secure floor's INC-1 to INC-5, the typical families and the 65-cent ceiling check.
+- **Working:** the 2029 baseline, the benchmarks above, the provision interface on legacy and measured keys, the D3 report and its year paths (`d3.py`; the legacy incidence scripts are retired), the secure floor's INC-1 to INC-5, the typical families and the 65-cent ceiling check, the replicate-weight intervals and the CBO-convention check.
 - **Still to do:**
-  - replicate-weight intervals;
-  - a CBO-convention check against CBO 61911;
   - the child-poverty tool's agenda cases;
   - moving the budget model's readers from the legacy version to the measured keys (a visible change to their outputs).
 
@@ -137,7 +156,8 @@ From the repository root:
 ```bash
 bash models/tools/run-all.sh                                   # builds the ledger, runs the tests and the model
 python3 models/tools/household/run.py --ledger build/ledger.json --out build/household
-python3 models/tools/household/test_household.py               # 26 tests; the legacy check needs build/
+python3 models/tools/household/test_household.py               # 32 tests; the legacy and CBO-check tests need build/
+python3 models/tools/household/intervals.py --archive /path/to/asecpub26csv.zip --ledger build/ledger.json   # the intervals (needs the archive)
 python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   # rebuild the extract
 ```
 
@@ -152,7 +172,9 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 - the FAM-1 rule, and the secure floor's: the 2021 childless credit, the care credit's rates and the guarantee's charge, the refundable part, SSI's exclusions, and SNAP's cuts as the key's base;
 - P.L. 119-21's SNAP changes: the source year untouched, 2029's losses matching CBO's share, a cut of 8-12% of benefits;
 - the typical families, and the ceiling check's layers, charge and verdicts;
-- **exact reproduction of the legacy incidence model's last results** in every scenario, while its inputs are unchanged, and year profiles that sum to each row's total.
+- **exact reproduction of the legacy incidence model's last results** in every scenario, while its inputs are unchanged, and year profiles that sum to each row's total. The fixture (`test-data/legacy-incidence-2026-11-13.json`) is the legacy model's run on main at `e897ac6`, so **the exact reproduction holds as of `e897ac6`**: on that commit's inputs and ledger, d3.py's legacy version gives the fixture exactly in every scenario (checked again on November 16, 2026 with this model's current code). Since then `incidence-rows.csv` and `incidence-keys.csv` have changed (from INC-2.02's row on), so on main the test is skipped. It guards the legacy arithmetic, not today's figures;
+- the replicate-weight step: the SDR formula, its groups and poverty estimators against the model's own, and the committed `intervals.json` (complete, the 2025 margins near the Census's, and the 2029 poverty and tax-rate centers equal to this model's);
+- the CBO-convention check: its step 0 is D3 itself, its equal-people groups hold a fifth of people each, and it leaves the model's groups as they were.
 
 ## Run log
 
@@ -164,3 +186,4 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 | `RUN-household-2026-11-13-d` | #321, merged as `d204a85` (M3 part 2, the 65-cent ceiling check) | As run b | As run a; results section 7 added, no provision result changes |
 | `RUN-household-2026-11-13-e` | #327, merged as `8537e86` (M3 part 2, the legacy reports moved) | As runs c and d | As run c; `d3.py` in place of the legacy scripts; results section 8 added |
 | `RUN-household-2026-11-13-f` | The INC-2.02 PR's head (Espen's option D, `DEC-2026-11-13-03`) | As run e, with the household field `snap_earn` (no extract change) | As run e, with the ledger row INC-2B, `incidence-rows.csv` INC2D and its key `snap_earn`; the ceiling check with SNAP's earned income deduction at 45% |
+| `RUN-household-2026-11-16-g` | The M3 intervals PR's head (replicate-weight intervals and the CBO-convention check) | As run f, with the archive's replicate weights (`asec_csv_repwgt_2026.csv`, same SHA-256) read by `intervals.py`; working values for Medicare and employers' premiums in `conventions.py` | The ledger as built from main on November 16, 2026 (`e561ca5`); no provision result changes; results sections 9 and 10 added |

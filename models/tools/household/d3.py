@@ -37,6 +37,10 @@ YRS = list(range(2030, 2040))
 GF_IDS = ["G1", "G5", "G7", "G3", "G9", "G11", "G6", "H1b", "GX", "G8", "G10"]
 CORPORATE = ("G1", "G5", "G7")
 NOT_GF = ("SAFR2", "EDUP")   # EDUP is a dedicated fund, not general-fund revenue; SAF-R2 is a trim, not a raiser
+# DEC-2026-11-15-29: health's contributions count outside the revenue-mix test, as replacements for premiums: the
+# household and employer contributions and the taxes folded into them (health_booking.py D3_CONTRIBUTIONS). HEX stays
+# in, netted with HX, and so do the new streams HS1 to HS4.
+HEALTH_CONTRIBUTIONS = ("HCU", "HCUw", "HCW", "HCA", "HCP", "HCH", "HEC")
 
 
 class D3:
@@ -78,7 +82,8 @@ class D3:
 
     def gf_test(self, opts):
         """D3's revenue-mix test: the share of new general-fund revenue from the top 1% (by incidence) and
-        corporations (statutory). Returns (total, top 1%, corporate, percent)."""
+        corporations (statutory), health's contributions left out (DEC-2026-11-15-29). Returns (total, top 1%,
+        corporate, percent)."""
         total = top1 = corp = 0.0
         for rid, label, side, amt, parts, basis in self.ROWS:
             if rid in GF_IDS:
@@ -89,7 +94,7 @@ class D3:
                     top1 += self.dist(parts)["T1"]
         for o in opts:
             side, amt, parts, label = self.OPTIONS[o]
-            if side == "cost" and o not in NOT_GF:
+            if side == "cost" and o not in NOT_GF + HEALTH_CONTRIBUTIONS:
                 total += amt
                 top1 += self.dist(parts)["T1"]
         return round(total, 2), round(top1, 2), round(corp, 2), round(100 * (top1 + corp) / total)

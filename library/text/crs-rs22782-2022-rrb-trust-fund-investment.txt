@@ -1,0 +1,694 @@
+Source: https://www.everycrsreport.com/files/2022-08-01_RS22782_6189b6c646601c110f80a7e1ad9b6b6ad4579ee3.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-11-16
+Original SHA-256: 0e2978d18c9e20fb56461ac4787af20cf20493495d5babd4120ed56c10489599
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Railroad Retirement Board:
+Trust Fund Investment Practices
+Updated August 1, 2022
+
+Congressional Research Service
+https://crsreports.congress.gov
+RS22782
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Summary
+The Railroad Retirement Board (RRB), an independent federal agency, administers retirement,
+survivor, disability, unemployment, and sickness insurance for railroad workers and their
+families. Railroad retirement payroll taxes include two tiers—Tier I and Tier II taxes. The Tier I
+tax finances the Tier I railroad retirement benefit that is equivalent to Social Security benefits and
+the Tier II tax finances the Tier II benefit, Tier I benefits in excess of Social Security benefits, and
+supplemental annuities.
+Since 2002, Tier II tax revenues in excess of obligatory RRB benefits and associated
+administrative costs have been invested in private stocks, bonds, and other investments. Prior to
+the Railroad Retirement and Survivors’ Improvement Act of 2001 (RRSIA; P.L. 107-90), surplus
+railroad retirement assets could only be invested in U.S. government securities—just as the Social
+Security trust funds must be invested. The RRSIA established the National Railroad Retirement
+Investment Trust (NRRIT; hereinafter, the Trust) to manage and invest part of the RRB’s assets in
+much the same way that the assets of private-sector and most state and local government pension
+plans are invested. The remainder of RRB’s assets continues to be invested solely in U.S.
+government securities.
+Congress structured the Trust in an effort to ensure investment independence and limit political
+interference. It also aimed to increase railroad retirement system funding, add enhanced benefits,
+potentially reduce taxes, and protect system financing in case of market downturns. The Trust’s
+assets are invested in a diversified portfolio, both to minimize investment risk and avoid
+disproportionate influence over an industry or firm. The Trust is a tax-exempt entity independent
+of the federal government, and it is not subject to the same oversight as federal agencies.
+However, the RRSIA requires an annual management report to Congress.
+From its inception in February 2002 to the end of March 2022, $21.3 billion has been transferred
+to the Trust from the RRB and $30.6 billion has been transferred from the Trust to pay railroad
+retirement benefits. At the end of March 2022, the net asset value of the Trust was $28.1 billion.
+The Trust’s investments have generally followed the markets’ recent performance. From FY2003
+to FY2021, the Trust’s annual returns averaged 8.92%, slightly higher than expectations of the
+bill’s drafters, who assumed nominal annual returns of 8.0%. As the Trust’s investment portfolio
+diversified over time, its administrative expenses steadily increased to 36 basis points in FY2011
+but fell to 28 basis points in FY2021 and generally remained low when compared with other
+mutual funds in 2021.
+The combined fair market value of Tier II taxes and Trust assets is designed to maintain four to
+six years’ worth of RRB benefits and administrative expenses. To maintain this balance, the
+Railroad Retirement Tier II tax rates automatically adjust as needed. This tax adjustment does not
+require congressional action. The Railroad Retirement Tier II tax rates increased in 2013 and
+most recently in 2015.
+
+Congressional Research Service
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Contents
+Background ..................................................................................................................................... 1
+History of the Trust.......................................................................................................................... 1
+Structure of the Trust ....................................................................................................................... 2
+Independence............................................................................................................................. 2
+Goals ......................................................................................................................................... 3
+Impact on Railroad Retirement Tier II Tax Rates ..................................................................... 3
+Investment Guidelines ............................................................................................................... 4
+Oversight ................................................................................................................................... 6
+Accounting in the Federal Budget ............................................................................................. 7
+Performance of the Trust ................................................................................................................. 8
+Comparison to Benchmarks ...................................................................................................... 8
+Administrative Expenses ........................................................................................................... 9
+
+Figures
+Figure 1. Average Account Benefits Ratio (ABR) and Tier II Tax Rates, 2004-2022 ..................... 4
+Figure 2. NRRIT Target Asset Allocations, FY2006-FY2021 ........................................................ 5
+Figure 3. Actual Trust Rates of Return Compared with Strategic Policy Benchmarks ................... 9
+
+Tables
+Table 1. Current Trust Target Asset Allocations and Ranges........................................................... 4
+Table 2. Trust Expense Ratios ......................................................................................................... 9
+
+Contacts
+Author Information........................................................................................................................ 10
+Acknowledgments ......................................................................................................................... 10
+
+Congressional Research Service
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Background
+The Railroad Retirement Act authorizes retirement, survivor, and disability benefits for railroad
+workers and their families.1 The Railroad Retirement Board (RRB), an independent federal
+agency, administers these benefits. Workers covered by the RRB include those employed by
+railroads engaged in interstate commerce and related subsidiaries, railroad associations, and
+railroad labor organizations. These benefits are earned by railroad workers and their families in
+lieu of Social Security.
+Railroad retirement benefits are divided into two tiers. Tier I benefits are generally computed
+using the Social Security benefit formula, on the basis of earnings covered by either the Railroad
+Retirement or Social Security programs. In some cases, RRB Tier I benefits can be higher than
+comparable Social Security benefits. For example, RRB beneficiaries may receive unreduced Tier
+I retirement benefits as early as aged 60 if they have at least 30 years of railroad service; Social
+Security beneficiaries may receive unreduced retirement benefits only when they reach their full
+retirement ages, currently rising from aged 65 to 67. RRB Tier II benefits are similar to private
+pension benefits and are based only on railroad work.2
+The Tier I railroad retirement benefit that is equivalent to Social Security benefits is mainly
+financed by Tier I payroll taxes (typically the same rate as the 12.4% Social Security payroll
+tax—6.2% for employers and 6.2% for employees—on earnings up to $147,000 in 2022) and
+Social Security’s financial interchange transfers.3 Tier II benefits, Tier I benefits in excess of
+Social Security benefits, and supplemental annuities4 are mainly financed by Tier II payroll taxes
+(currently 13.1% for employers and 4.9% for employees on earnings up to $109,200 in 2022) and
+transfers from the National Railroad Retirement Investment Trust (NRRIT; hereinafter, the
+Trust).5
+
+History of the Trust
+Beginning in 2002, Tier II tax revenues in excess of obligatory benefits and associated
+administrative costs have been transferred from the Railroad Retirement Accounts to the Trust,
+which is invested in private stocks, bonds, and other investments. Prior to the Railroad
+1 45 U.S.C. §231 et seq. For additional information on the RRB, see CRS Report RS22350, Railroad Retirement
+
+Board: Retirement, Survivor, Disability, Unemployment, and Sickness Benefits.
+2 Railroad employers also finance a supplemental annuity program for certain railroad employees hired before October
+1981. General revenues finance a vested dual benefit for certain railroad employees who were eligible for benefits
+before 1975.
+3 The financial interchange is intended to place the Social Security Trust Funds in the same position in which they
+would have been had railroad employment been covered by the Social Security since Social Security’s inception. This
+involves computing the amount of Social Security taxes that would have been collected on railroad employment, and
+computing the amount of additional benefits which Social Security would have paid to railroad retirement beneficiaries
+during the same fiscal year. When benefit reimbursements exceed payroll taxes, the difference, with an allowance for
+interest and administrative expenses, is transferred from the Social Security Trust Funds to the Social Security
+Equivalent Benefits Account. If taxes exceed benefit reimbursements (this has not happened since 1951), a transfer
+would be made in favor of the Social Security Trust Funds.
+4 Supplemental annuities are payable to employees first hired before October 1981, aged 60 with at least 30 years of
+covered railroad service or aged 65 and older with at least 25 years of covered railroad service, and a current
+connection with the railroad industry.
+5 RRB, Railroad Retirement and Unemployment Insurance Taxes in 2022, December 2021, at https://www.rrb.gov/
+Newsroom/NewsReleases/RetirementUnemploymentInsuranceTaxes.
+
+Congressional Research Service
+
+1
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Retirement and Survivors’ Improvement Act of 2001 (RRSIA; P.L. 107-90), surplus railroad
+retirement assets could be invested only in U.S. government securities—just as the Social
+Security trust funds must be invested.6 The RRSIA established the Trust to manage and invest
+assets in the Railroad Retirement Account in much the same way that the assets of private-sector
+retirement plans are invested. The RRB also receives transfers from the Trust, as needed, to pay
+railroad retirement and survivor benefits. Assets in the Social Security Equivalent Benefits
+Account, which are used for RRB Tier I benefits that are equivalent to Social Security benefits,
+continue to be invested solely in U.S. government bonds, as required by law.
+Since February 2002 when railroad retirement funds were first invested through the Trust, a total
+of $21.3 billion has been transferred to the Trust from the RRB,7 and, as of March 2022, $30.6
+billion in earnings have been transferred from the Trust to the RRB to pay railroad benefits and
+administrative expenses.8 From its inception to the end of March 2022, the Trust has earned a
+total of $37.4 billion. At the end of March 2022, the market value of the Trust’s managed assets
+was $28.1 billion.9
+
+Structure of the Trust
+Independence
+Congress structured the Trust to be independent and free of political interference. As such, the
+Trust is a tax-exempt entity independent of the RRB and is not part of the federal government,
+which has no responsibilities for administering RRB benefits. The Trust’s trustees are required to
+act solely in the interest of the RRB and the railroad retirement system participants. The fiduciary
+rules governing the trustees are similar to those required by the law that governs the private
+pension system, the Employee Retirement Income Security Act (ERISA). 10
+The board of the Trust is made up of seven trustees who have expertise in managing financial
+investments and pension plans. Three of the trustees are selected by railroad labor unions, three
+by railroad management, and one by the other six trustees. Each trustee serves a three-year term.
+A professional staff handles the Trust’s day-to-day operations.
+Independent investment managers invest the Trust’s assets according to the investment guidelines
+established by the trustees. Each investment manager
+
+
+
+may control no more than 10% of the Trust’s assets;
+must vote all proxies he or she holds in the Trust’s portfolio in the sole interest of
+railroad retirement participants and beneficiaries;
+
+6 The Social Security trust funds may not be invested in private markets. For additional information on current
+
+practices, see CRS In Focus IF10564, Social Security Trust Fund Investment Practices.
+7 National Railroad Retirement Investment Trust (NRRIT), Quarterly Update for the Period Ending March 31, 2022,
+April 2022, at https://www.rrb.gov/sites/default/files/2022-05/qrtly032022.pdf. The Trust has received no transfers
+from the RRB since the end of FY2004.
+8 NRRIT, Quarterly Update for the Period Ending March 31, 2022, p. 2.
+9 NRRIT, Quarterly Update for the Period Ending March 31, 2022, p. 2.
+10 For additional information on ERISA, see CRS Report 95-926, Regulating Private Pensions: A Brief Summary of
+ERISA.
+
+Congressional Research Service
+
+2
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+
+
+
+must certify each year that all proxies have been voted in the sole interest of
+railroad retirement participants and beneficiaries; and
+must record votes and provide them to the Trust upon request.11
+
+Goals
+Congress designed the Trust to increase RRB funding. Investing railroad retirement funds in
+private markets was expected to yield higher average annual returns than investing solely in
+government securities. The higher returns were intended to pay for the enhanced benefits that
+were established in the RRSIA and to potentially reduce future tax rates for railroad employers
+and employees.12
+
+Impact on Railroad Retirement Tier II Tax Rates
+Under the RRSIA, Tier II taxes on both employers and employees are automatically adjusted
+according to the average account benefits ratio. The average account benefits ratio (ABR) is the
+average of the 10 most recent annual ABRs. The ABR is the ratio of the combined fair market
+value of Railroad Retirement Account and Trust assets as of the close of the fiscal year to the total
+RRB benefits and administrative expenses paid from the Railroad Retirement Account and the
+Trust in that fiscal year. A higher average ABR will result in a lower Tier II tax rate and
+consequently lower future tax income, whereas a lower average ABR results in higher Tier II tax
+rates and income.
+Depending on the average ABR, Tier II taxes for employers can range between 8.2% and 22.1%
+and the Tier II tax rate for employees is capped at 4.9%. Since the Trust’s inception, Tier II tax
+rates have been lowered twice and increased twice (see Figure 1). In 2005, the Tier II tax rate on
+employers was automatically lowered from 13.1% to 12.6% and the tax rate on employees was
+lowered from 4.9% to 4.4%. Tier II tax rates were lowered again in 2007 to 12.1% on employers
+and 3.9% on employees. In 2013, tax rates were raised to 12.6% and 4.4% on employers and
+employees, respectively, and in 2015, the rates were raised to their current levels of 13.1% on
+employers and 4.9% on employees. The maximum amount of earnings subject to Tier II taxes is
+$109,200 in 2022.
+
+11 NRRIT, Annual Management Report for Fiscal Year 2021.
+12 U.S. Congress, House Committee on Transportation and Infrastructure, Railroad Retirement and Survivors
+
+Improvement Act of 2001, report to accompany H.R. 1140, 107th Cong., 1st sess., May 24, 2001, H.Rept. 107-82, part 1
+(Washington: GPO, 2001), pp. 14-15. Hereinafter cited as H.Rept. 107-82, part 1.
+
+Congressional Research Service
+
+3
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Figure 1. Average Account Benefits Ratio (ABR) and Tier II Tax Rates, 2004-2022
+
+Source: National Railroad Retirement Investment Trust, Annual Management Report for Fiscal Year 2006-2021;
+and Railroad Retirement Board, RRB Reminders for 2020 and 2022.
+Notes: The Average ABR was measured at the end of each fiscal year (September 30 of each calendar year) and
+was available through the end of FY2021. The Tier II tax rate was applied to railroad employers and employees
+in each calendar year and was available through 2022.
+
+Investment Guidelines
+The Trust’s assets are invested in a diversified portfolio, both to minimize investment risk and
+avoid disproportionate influence over a particular industry or firm. The investment guidelines
+adopted by the trustees include target asset allocations developed by the Trust’s investment staff
+in consultation with an independent investment advisory firm. Outside investment managers hired
+by the Trust invest the assets according to these guidelines. The resulting investment performance
+is monitored by the trustees and the Trust’s Chief Investment Officer. The current investment
+guidelines are shown in detail in Table 1.
+Table 1. Current Trust Target Asset Allocations and Ranges
+(effective beginning November 18, 2020)
+Asset Class
+Equity
+
+Target Allocation
+
+Target Allocation Range
+
+67%
+
+Domestic
+
+31%
+
+26%-36%
+
+International
+
+24%
+
+19%-29%
+
+Private
+
+12%
+
+7%-17%
+
+Fixed Income
+
+14%
+
+Domestic
+
+10%
+
+6%-14%
+
+International
+
+2%
+
+0%-4%
+
+2%
+
+0%-4%
+
+Private Debt
+Real Estate
+
+10%
+
+Real Estate
+
+10%
+
+Congressional Research Service
+
+5%-15%
+
+4
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Asset Class
+Other
+
+Target Allocation
+
+Target Allocation Range
+
+9%
+
+Absolute Return
+
+4%
+
+2%-6%
+
+Opportunistic
+
+3%
+
+1%-5%
+
+Cash
+
+2%
+
+0%-4%
+
+Source: National Railroad Retirement Investment Trust, Annual Management Report for Fiscal Year 2021, p. 16,
+https://www.rrb.gov/sites/default/files/2022-03/FY2021_Report_with_Auditors_Report.pdf. See pages 16-18 for
+detailed definitions of assets.
+
+The Trust’s target asset allocations change over time to reflect current market expectation (see
+Figure 2).13 For example, from FY2006 to FY2014, the Trust continued its effort in moving away
+from fixed income investment, with a decline from 35% of total investments to 20%. The target
+proportion of total investment in fixed income remained at 20% between FY2014 and FY2020
+and then declined to 14% in FY2021. The target proportion of total investments in equity—
+domestic, international, and private equity—was relatively stable between FY2006 and FY2020,
+ranging from 54% to 58%, and then increased to 67% in FY2021. The percentage of total
+investments in private equity increased from 5% in FY2006 to 10% in FY2008 and remained at
+about this level thereafter. The investment in real estate increased from 5% of total investments in
+FY2006 to 10% in FY2008, and then the proportion remained relatively stable.
+Figure 2. NRRIT Target Asset Allocations, FY2006-FY2021
+
+Source: National Railroad Retirement Investment Trust, Annual Management Report for Fiscal Year 2006-2021.
+Note: Others include cash, absolute return, commodities and opportunistic. Commodities were eliminated in
+FY2021.
+
+13 At the Trust’s inception, the initial asset allocation policy established target weights between 2002 and 2006 were
+
+47% in domestic equity, 21% in international equity, and 32% in fixed income. National Railroad Retirement
+Investment Trust, Annual Management Report for Fiscal Year 2007, at https://www.goiam.org/wp-content/uploads/
+2015/08/uploadedFiles_TCUnion_Railroad_Retirement_Updates_2007_Annual_Report.pdf.
+
+Congressional Research Service
+
+5
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Oversight
+The Trust is an independent nongovernmental entity, and it is not subject to the same oversight as
+federal agencies. The RRSIA outlines specific reporting requirements, including an annual
+management report to Congress. The report must include a statement of financial position, a
+statement of cash flows, a statement on internal accounting and administrative control systems,
+and any other information necessary to inform Congress about the operations and financial
+condition of the Trust. The financial statements must be audited by independent public
+accountants. A copy of the annual report and audit must be submitted to the President, the RRB,
+and the Director of the Office of Management and Budget (OMB). The RRB has the authority to
+bring a civil action to enforce provisions of the act.
+In 2002, shortly after the Trust was created, the Trust, RRB, OMB, and the Treasury co-signed a
+memorandum of understanding that requires the Trust to submit a monthly report to the RRB
+containing the information on investment and other transactions. The RRB then uses this
+information to prepare monthly financial reports submitted to the Treasury.14 In a 2014 report, the
+Government Accountability Office (GAO) interviewed RRB officials regarding their relationship
+with the Trust. RRB officials indicated that the annual reports and other communications between
+the RRB and the Trust had “effectively provided continuous oversight” on the Trust.15
+Between 2004 and 2012, the Trust commissioned four performance reviews, including reviews of
+its internal financial controls, investment operations, and others.16 In 2014, the Trust and the RRB
+entered a memorandum of understanding that specifies the timing of future performance reviews
+(every three years starting in 2015) and the structure, scope, management, cost, and assessment of
+those reviews.17 According to the memorandum, qualified independent professionals will
+complete the performance reviews, and the RRB and the Trust will review the results and assess
+the appropriate changes (if any) to the practices or procedures of the Trust. These performance
+audits are not required by law.
+In addition, the Trust worked with the GAO during 2018 to create a memorandum of
+understanding related to the GAO’s access to information supporting the Trust’s audited financial
+statements. The memorandum was implemented in FY2019 and provides for coordination
+between the GAO and the Trust’s auditors to facilitate the inclusion of audited Trust net asset
+balances in the Financial Report of the U.S. Government.18
+
+14 The memorandum of understanding was included in NRRIT, Annual Management Report for Fiscal Year 2019,
+
+Appendix C, at https://rrb.gov/sites/default/files/2020-04/FY2019_Appendices.pdf.
+15 U.S. Government Accountability Office (GAO), Oversight of the National Railroad Retirement Investment Trust,
+May 2014, GAO-14-312, https://www.gao.gov/products/gao-14-312. Communications between the RRB and Trust also
+include twice face-to-face meetings each year and quarterly conference calls.
+16 The four performance audits took place in 2004, 2006, 2009, and 2012. The detailed information of each
+performance audit is available at GAO, Oversight of the National Railroad Retirement Investment Trust, Table 3.
+17 The memorandum of understanding was included in NRRIT, Annual Management Report for Fiscal Year 2021,
+Appendix D, at https://www.rrb.gov/sites/default/files/2022-03/FY2021_Appendices.pdf. According to the
+memorandum, the Trust commissioned two additional performance reviews in 2015 and 2018. The 2015 performance
+review, among others, assessed NRRIT’s corporate governance oversight framework over its investment activities and
+its overall fiduciary responsibilities as outlined in the Trust’s governing documents. The 2018 performance review
+assessed the content of and the process related to the development of the Trust’s investment documents, including the
+Trust’s investment guidelines and asset allocation, investment plan, performance benchmarks, and the quarterly
+reporting package regularly provided to the board. CRS received the information of the performance reviews in 2015
+and 2018 from NRRIT in March 2021.
+18 The memorandum of understanding was included in NRRIT, Annual Management Report for Fiscal Year 2021,
+
+Congressional Research Service
+
+6
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+At the same time, however, the RRB Office of Inspector General (OIG) has expressed concerns
+about the effectiveness of the oversight of the Trust. In 2008, the OIG argued that the required
+annual financial audit in and of itself “is not adequate to support the RRB’s enforcement
+responsibility because such audits are not intended to provide information about all areas of risk
+that could indicate the need for enforcement action.”19 The OIG noted that there are fewer
+safeguards protecting the Trust than there are for the retirement investments of federal
+government and private-sector workers. For example, there is no federal requirement for
+performance audits of the Trust by an independent auditor such as the RRB’s OIG, the GAO, or
+public accountants. Those performance audits would assess program effectiveness, economy and
+efficiency, internal control, and compliance with the law.
+In 2011, the OIG reiterated its concerns with the oversight of the Trust and stated
+The lack of NRRIT investment fund management accountability, transparency, and
+stringent financial oversight can be precursors to fraud, waste and abuse. Within the
+Federal agency spectrum there is no comparable example where Federal program assets
+are completely outside the jurisdiction of a Federal agency’s appointed Inspector General.
+However, the NRRIT fund which supports the Railroad Retirement program remains
+outside the purview of those appointed to protect the interests of the program’s
+beneficiaries and the tax-paying public.20
+
+In a recent report in FY2018, the OIG asserted that lack of access to the Trust’s auditor continued
+to be a concern:
+This lack of cooperation and communication prevents OIG auditors from obtaining
+sufficient appropriate audit evidence regarding the RRB’s financial statements…. During
+fiscal year 2014, [OIG] recommended that an independent committee be established to
+identify a functional solution that would enable communication between OIG and NRRIT’s
+auditors. Although RRB management did not concur with this recommendation, [OIG] will
+continue to cite this issue and the need for corrective action.21
+
+Accounting in the Federal Budget
+As required in the RRSIA, Trust purchases and sales initially were treated as exchanges of assets
+of equal value, thus did not produce direct budgetary cost or income.22 The law did not prescribe
+the treatment of unrealized capital gains and losses on the Trust’s investments. The Congressional
+Budget Office (CBO) and OMB agreed that any capital loss or gain resulting from changes in
+market prices would be recognized in the year in which the price change occurs, and interest
+Appendix E, at https://www.rrb.gov/sites/default/files/2022-03/FY2021_Appendices.pdf.
+19 Railroad Retirement Board, Office of Inspector General, Statement of Concern: National Railroad Retirement
+Investment Trust Lack of Provision for Performance Audits, March 31, 2008, https://www.rrb.gov/sites/default/files/
+2017-05/nrritStatement.pdf.
+20 Railroad Retirement Board, Office of the Inspector General, Office of the Inspector General’s Proposal to Improve
+Business Efficiency at the Railroad Retirement Board, September 21, 2011, p. 5, https://rrb.gov/sites/default/files/201705/SR_092111.pdf.
+21 RRB Office of Inspector General, Independent Auditor’s Report in Performance and Accountability Report of
+FY2018, p. 9, at https://www.rrb.gov/sites/default/files/2018-11/
+Report%20on%20the%20Railroad%20Retirement%20Board%27s%20Financial%20Statements%20%20Fiscal%20Yea
+r%202018%20%287.2%20MB%29_0.pdf.
+22 For budgetary purposes, purchases or sales by the Trust are treated as a means of financing, which are not considered
+as outlays or receipts, so they are nonbudgetary. This differs from long-standing budgetary rules, which usually treat an
+investment in nonfederal securities as the purchase of an asset, recording both an obligation and an outlay equal to the
+purchase price during the year of the purchase.
+
+Congressional Research Service
+
+7
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+payments and dividends would be recorded as offsetting receipts.23 As a result, income and
+capital gains reduce outlays and the deficit, and losses increase them. This reflects the change in
+real economic resources available to the government as the value of the Trust changes. As for
+future performance, both CBO and OMB use risk-adjusted rate of return assumptions—that is,
+they assume that the Trust’s investments will earn the comparable Treasury bond rate.
+
+Performance of the Trust
+From FY2003 to FY2021, the Trust’s average annual performance (with an average annual rate of
+return, net of fees, of 8.92%) slightly exceeded expectations expressed by the RRSIA’s drafters,
+which had assumed that Trust investments would earn an average annual rate of return of 8.0%.24
+For the first half of the Trust’s existence, its returns largely exceeded expectations. Prior to
+FY2008, the average rate of return on Trust investments was 14.7% and the average rate of return
+exceeded the expected rate of 8.0% through FY2010. The Trust then had negative rates of return
+in FY2008 (-19.1%) and FY2009 (-0.7%) but rebounded with an 11.2% rate of return in FY2010,
+followed by a slightly negative rate of return of -0.1% in FY2011. The FY2012 rate of return of
+16.4% brought the average annual rate of return of the Trust above the expected level of 8.0% for
+the first time in two years (since FY2010). The rate of return was 7.3% in FY2020 and increased
+to 27.9% in FY2021.25
+
+Comparison to Benchmarks
+The Trust’s annual rates of return have generally compared favorably to its benchmarks. A
+benchmark is a standard used for comparison when measuring investment performance, and the
+NRRIT strategic policy benchmark is based on a series of benchmarks corresponding to each of
+the major asset classes in the Trust.26 For example, the current benchmark for the Trust’s
+investments in domestic equities is the Russell 3000 Index.27
+As shown in Figure 3, in the majority of years between FY2003 and FY2021, Trust performances
+exceeded its strategic policy benchmarks. In FY2006 and FY2007, the Trust’s performances were
+roughly equal to its benchmarks, whereas in FY2008, FY2009, FY2011, FY2016, and FY2019
+the Trust’s investments had lower returns than its strategic policy benchmarks. In FY2021, the
+Trust’s rate of return of 27.9% (net of fees) was higher than the benchmark of 22.9%.28
+
+23 For more information on accounting for government investment in private markets, see Congressional Budget Office,
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities, January 2003,
+http://www.cbo.gov/sites/default/files/cbofiles/ftpdocs/40xx/doc4023/01-08-03-stocks.pdf.
+24 H.Rept. 107-82, part 1, p. 14.
+25 NRRIT, Annual Management Report for Fiscal Year 2021, p. 15, https://www.rrb.gov/sites/default/files/2022-03/
+FY2021_Report_with_Auditors_Report.pdf.
+26 Benchmarks for each of the Trust’s asset classes are provided in NRRIT, Annual Management Report for Fiscal Year
+2021, Appendix B.
+27 Additional information on the Russell 3000 Index is available on the website of Russell Investments at
+http://www.ftse.com/Analytics/FactSheets/temp/44c7ed53-1026-4910-9fda-55fb203f8744.pdf.
+28 NRRIT, Annual Management Report for FY2021, p. 15; and previous editions.
+
+Congressional Research Service
+
+8
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Figure 3. Actual Trust Rates of Return Compared with Strategic Policy Benchmarks
+(FY2003-FY2021)
+
+Source: National Railroad Retirement Investment Trust, Annual Management Report for Fiscal Year 2021, p. 15,
+and previous editions.
+Note: Rates of return are net of fees.
+
+Administrative Expenses
+The Trust’s administrative expenses steadily increased through FY2011 as its investment
+portfolio diversified. However, as shown in Table 2, beginning in FY2012, the Trust’s
+administrative expense ratio decreased, mirroring a national trend of decreasing expense ratios for
+mutual and money market funds. The Trust’s administrative expenses remain low compared with
+industry standards. In FY2021, the Trust’s expense ratio was 28 basis points (expenses were
+0.28% of average net assets).29 In comparison, in 2021, average expense ratios were 47 basis
+points for equity funds, 39 basis points for bond funds, 57 basis points for hybrid funds, and 12
+basis points for money market funds.30
+Table 2. Trust Expense Ratios
+(FY2003-FY2021)
+Fiscal Year
+
+Basis Points
+
+2003
+
+2
+
+2004
+
+4
+
+2005
+
+9
+
+2006
+
+15
+
+2007
+
+24
+
+29 NRRIT, Annual Management Report for FY2021, p. 19.
+30 Investment Company Institute, Trends in the Fees and Expenses of Mutual Funds, 2021, March 2022,
+
+https://www.ici.org/system/files/2022-03/per28-02_2.pdf.
+
+Congressional Research Service
+
+9
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Fiscal Year
+
+Basis Points
+
+2008
+
+25
+
+2009
+
+26
+
+2010
+
+33
+
+2011
+
+36
+
+2012
+
+30
+
+2013
+
+29
+
+2014
+
+29
+
+2015
+
+27
+
+2016
+
+28
+
+2017
+
+31
+
+2018
+
+29
+
+2019
+
+27
+
+2020
+
+25
+
+2021
+
+28
+
+Source: National Railroad Retirement Investment Trust, Annual Management Report for Fiscal Year 2021, pp. 1920; and previous editions.
+Notes: One basis point is equal to 1/100th of 1% of the average net assets of a fund. For example, an expense
+ratio of 28 basis points indicates that expenses were 0.28% of average net assets.
+
+Author Information
+Zhe Li
+Analyst in Social Policy
+
+Acknowledgments
+CRS Analyst Scott Szymendera originally authored an earlier version of this report. CRS Specialist Julie
+Whittaker made additional contributions. CRS Research Assistant Sylvia Bryan contributed in updating the
+report.
+
+Congressional Research Service
+
+10
+
+Railroad Retirement Board: Trust Fund Investment Practices
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+RS22782 · VERSION 32 · UPDATED
+
+11
+
+

@@ -1,0 +1,193 @@
+Source: https://www.everycrsreport.com/reports/IF11286.html
+Publisher: Congressional Research Service
+Retrieved: 2026-11-16
+Original SHA-256: e7e09442f2be69aac4c4ff6566bd04b10ebdf0542d11c45f876585fe48a3fec9
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Election Security: Federal Funding for Securing Election Systems - EveryCRSReport.com
+Internet Explorer version 8 or any modern web browser is required to use this website, sorry.
+Election Security: Federal Funding for Securing Election Systems
+August 8, 2019 –
+April 20, 2026
+IF11286
+Election Security: Federal Funding for Securing Election Systems
+Updated April 20, 2026
+(IF11286)
+Foreign efforts to interfere in the 2016 elections highlighted the potential for threats to the technologies, facilities, and processes used to administer elections. The federal government has responded to such threats, in part, by proposing and providing funding that can be used to help secure election systems.
+This In Focus offers an overview of federal funding for election system security. It starts by describing funding Congress and federal agencies have made available since the 2016 elections for securing election technologies, facilities, and processes. It then summarizes some legislative proposals to authorize or appropriate further funding.
+The In Focus does not cover funding for addressing threats to election workers or the health and safety risks to voters and election officials posed by the COVID-19 pandemic. For more on federal funding for those purposes, see CRS Insight IN11831, Election Worker Safety and Privacy , by Sarah J. Eckman and Karen L. Shanton; and CRS Report R46646, Election Administration: Federal Grant Programs for States and Localities , by Karen L. Shanton.
+Federal Funding
+States, territories, and localities have primary responsibility for securing elections, but federal agencies also play a role in helping identify and address election system threats and vulnerabilities. Since the 2016 elections, Congress has provided funding that can be used to help secure election systems both (1) to states, territories, and the District of Columbia (DC), and (2) to federal agencies. Agencies have also used some of the funding they have received for more general purposes to conduct activities related to election system security.
+Funding for States, Territories, and DC
+The Help America Vote Act of 2002 ( HAVA ; P.L. 107-252 ) established a grant program that was designed to help states improve the administration of elections. Congress has included funding for that grant program in multiple regular and continuing appropriations acts since the 2016 elections: $380 million, $425 million, $75 million, $75 million, $55 million, and $45 million, respectively, in the consolidated appropriations acts for FY2018 , FY2020 , FY2022 , FY2023 , FY2024 , and FY2026 ; and $15 million in the FY2025 full-year continuing appropriations act. All seven of those rounds of funding have been available to the 50 states, DC, American Samoa, Guam, Puerto Rico, and the U.S. Virgin Islands, and all but the FY2018 funds were also available to the Commonwealth of the Northern Mariana Islands.
+The appropriations acts have made the HAVA funding broadly available for improvements to the administration of federal elections, including improvements to election technology and security. Explanatory statements accompanying the FY2018 and FY2020 acts also explicitly listed the following as permissible uses of the funds:
+replacing paperless voting equipment,
+implementing post-election audits,
+addressing cyber vulnerabilities in election systems,
+providing election officials with cybersecurity training,
+instituting election system cybersecurity best practices, and
+making other improvements to the security of federal elections.
+Each eligible recipient has been guaranteed a minimum allocation under each of the above appropriations acts, with some entitled to additional funds based on voting-age population (see Table 1 for the total available to each eligible recipient under all seven acts). The 50 states, DC, and Puerto Rico have been required to provide a 5% match for the FY2018 funding and a 20% match for the subsequent funds.
+All recipients have also been expected to submit plans for use of the funding to the agency charged with administering the funds, the U.S. Election Assistance Commission ( EAC ), and to report to the agency on their spending. According to the EAC, as of March 31, 2025, states had reported spending about $700 million of the more than $1.07 billion available in federal funding and interest for FY2018 through FY2025.
+In addition to the HAVA funding Congress has designated specifically for elections activities, some funding has been available for securing election systems under more general-purpose grant programs. For example, the U.S. Department of Homeland Security (DHS) has encouraged recipients of its State and Local Cybersecurity Grants to include election officials on their Cybersecurity Planning Committees and required FY2023, FY2024, and FY2025 State Homeland Security Program and Urban Area Security Initiative grantees to allocate a share of their funds to enhancing election security. For more on some of those grant programs, see CRS Report R44669, Department of Homeland Security Preparedness Grants: A Summary and Issues , by Shawn Reese.
+Funding for Federal Agencies
+Various federal agencies have played a role in helping secure election systems. For example, the EAC is dedicated to helping improve election administration, and DHS took on new election security responsibilities following its January 2017 designation of election systems as critical infrastructure. For more on the EAC and the critical infrastructure designation, respectively, see CRS Report R45770, The U.S. Election Assistance Commission (EAC): Overview and Selected Issues for Congress , by Karen L. Shanton; and CRS In Focus IF10677, The Designation of Election Systems as Critical Infrastructure , by Brian E. Humphreys.
+Congress has designated some of the funding it has appropriated for such agencies specifically for helping secure election systems. Report language for the consolidated appropriations measures enacted between FY2018 and FY2023 recommended funding for DHS election security initiatives, for example, and the FY2022 and FY2023 report language encouraged the department's Science and Technology Directorate to consider conducting research on voting technologies and election data security procedures.
+Agencies may also choose to spend some of the funding they receive for more general purposes on activities related to election system security. For example, the Defense Advanced Research Projects Agency has provided funding to advance development of a secure, open-source voting system, and the National Science Foundation has awarded grants for voting technology research. DHS opted to continue funding its election security initiatives for FY2024, although it has reportedly subsequently paused or discontinued much of its election security work.
+Table 1. Total HAVA General Improvements Grant Funding Allocated to Eligible Recipients Under Recent Consolidated and Continuing Appropriations Acts
+($, rounded in millions)
+AL
+17.3
+IN
+20.8
+NV
+13.2
+TN
+20.8
+AK
+10.1
+IA
+13.9
+NH
+10.7
+TX
+61.6
+AZ
+20.7
+KS
+13.4
+NJ
+26.2
+UT
+12.8
+AR
+13.6
+KY
+16.4
+NM
+11.9
+VT
+10.1
+CA
+90.1
+LA
+16.6
+NY
+50.7
+VA
+24.5
+CO
+17.9
+ME
+10.7
+NC
+27.8
+WA
+21.8
+CT
+15.0
+MD
+19.6
+ND
+10.1
+WV
+11.8
+DE
+10.1
+MA
+21.6
+OH
+32.0
+WI
+19.3
+DC
+10.1
+MI
+28.4
+OK
+15.1
+WY
+10.1
+FL
+50.7
+MN
+18.4
+OR
+15.5
+AS
+2.0
+GA
+27.7
+MS
+13.6
+PA
+35.2
+CNMI
+1.4
+HI
+10.7
+MO
+19.9
+RI
+10.3
+GU
+2.0
+ID
+10.9
+MT
+10.2
+SC
+17.1
+PR
+9.4
+IL
+34.5
+NE
+11.5
+SD
+10.1
+VI
+2.0
+Source: CRS, based on data from the EAC.
+Note: This table includes allocations from funding provided by the FY2018, FY2020, FY2022, FY2023, FY2024, and FY2026 consolidated appropriations acts and the FY2025 continuing appropriations act.
+Legislative Proposals
+Proposals to provide states, territories, and DC with funding they can use to help secure their election systems have been offered in each appropriations cycle since the 2016 elections. For example, proposed FY2021 appropriations bills and amendments to FY2019 measures would have provided funding under the same provisions of HAVA and the same or similar terms and conditions as the recent consolidated and continuing appropriations acts.
+Some Members have also introduced legislation to authorize other election system security spending. For example, the Securing Tech and Election Administration Defenses For All States and Territories (STEADFAST) Act ( H.R. 7418 , 119 th Congress) and the Sustaining Our Democracy Act ( H.R. 4910 / S. 2588 , 119 th Congress) would provide for ongoing funding for updating and securing election systems and for securing election infrastructure and other elections activities, respectively.
+Such proposals have taken various approaches to helping secure election systems. Some of the ways they vary include the following:
+Type of t hreat a ddressed . Election systems face multiple threats. Bad actors might target technological, physical, or human vulnerabilities in the system or more than one of the above. Funding proposals introduced since the 2016 elections have aimed to address several types of threat. For example, the Fair, Accurate, Secure, and Timely (FAST) Voting Act of 2019 ( H.R. 1512 ) would have authorized funding that could be used to secure the physical chain of custody of voting machines, among other purposes, and the EAC Reauthorization Act of 2017 ( H.R. 794 ) would have authorized funding for grants to upgrade the technological security of voter registration lists.
+Timing of r esponse . Efforts to secure election systems can be aimed at preventing security incidents, detecting them, or recovering from them. Funding has been proposed for interventions at various points. Some of the funding provisions of the Securing America's Federal Elections (SAFE) Act ( H.R. 2722 / S. 2053 / S. 2238 ; 116 th Congress) were directed at protecting election systems against attacks, for example, while others would have helped officials respond to them.
+Specificity of u ses . Some of the funding provisions of election security bills have focused on specific activities. Others would have authorized appropriations for more general purposes and delegated responsibility for identifying the best uses of the funds to states or other entities. For example, the Election Security Assistance Act of 2019 ( H.R. 3412 ) would have left decisions about how to use its payments largely to states, territories, and DC. The 115 th Congress's Secure Elections Act ( H.R. 6663 / S. 2261 / S. 2593 ) would have established an election cybersecurity advisory panel, among other provisions, and authorized a grant program for implementing the panel's guidelines.
+Of the proposed bills listed above, an FY2021 consolidated appropriations measure and a version of the SAFE Act were passed by the House. None of the other proposals had passed either chamber as of this writing.
+Download PDF
+Download EPUB
+Revision History
+Apr. 20, 2026
+HTML
+·
+PDF
+7% changed
+Apr. 30, 2025
+HTML
+·
+PDF
+May. 8, 2023
+HTML
+·
+PDF
+Jul. 8, 2022
+HTML
+·
+PDF
+Mar. 12, 2020
+HTML
+·
+PDF
+Aug. 8, 2019
+HTML
+·
+PDF
+Metadata
+Report Type: In Focus
+Source: Congress.gov , CRSReports.Congress.gov
+Raw Metadata: JSON
