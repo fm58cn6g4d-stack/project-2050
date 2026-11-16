@@ -1,0 +1,987 @@
+Source: https://www.everycrsreport.com/reports/R45951.html
+Publisher: Congressional Research Service
+Retrieved: 2026-11-16
+Original SHA-256: de13e22d497631a4ff06ab8e495afc8a66a5d398ca2a51d276ad6719916cb543
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Apportionment and Redistricting Process for the U.S. House of Representatives - EveryCRSReport.com
+Internet Explorer version 8 or any modern web browser is required to use this website, sorry.
+Apportionment and Redistricting Process for the U.S. House of Representatives
+October 10, 2019 –
+May 20, 2026
+R45951
+Apportionment and Redistricting Process for the U.S. House of Representatives
+Updated May 20, 2026
+(R45951)
+Jump to Main Text of Report
+Contents
+Introduction
+Apportionment Process
+Federal Requirements/Guidelines for Reapportionment: History and Current Policy
+Reapportionment Method and Timeline
+Redistricting Process
+Federal Requirements/Guidelines for Redistricting: History and Current Policy
+Population Equality
+Racial/Language Minority Protections
+Other Redistricting Considerations
+Compactness and Contiguity
+Preserving Political Subdivisions
+Preserving Communities of Interest
+Promoting Political Competition; Considering Existing District or Incumbent
+State Processes for Redistricting
+Congressional Options Regarding Redistricting
+Concluding Observations
+Figures
+Figure 1. Typical Timeline of Census, Apportionment, and Redistricting Process
+Figure 2. Changes to Average District Apportionment Population Sizes and House Seats Over Last Four Apportionment Cycles, 1990-2020
+Figure 3. State Redistricting Methods
+Tables
+Table 1. Loss or Gain of U.S. House Seats in States Following 2020 Census
+Table 2. Scope of Apportionment Changes, 1910-2020
+Table 3. Summary of Average U.S. House District Population Sizes, 1910-2020
+Table 4. Selected Congressional Redistricting Criteria Specified by Certain States
+Table A-1. Hamilton/Vinton Method—Sample Apportionment
+Table A-2. Jefferson Method—Sample Apportionment
+Table A-3. Webster Method—Sample Apportionment
+Table A-4. Huntington-Hill Method—Sample Apportionment
+Table A-5. Sample Priority Values and Resulting Priority List for Selected Values
+Appendixes
+Appendix. Determining an Apportionment Method
+Summary
+The census, apportionment, and redistricting are interrelated activities that affect representation in the U.S. House of Representatives. Congressional apportionment (or reapportionment) is the process of dividing seats for the House among the 50 states following the decennial census. Redistricting refers to the process that follows, in which states create new congressional districts or redraw existing district boundaries to adjust for population changes and/or changes in the number of House seats for the state. At times, Congress has passed or considered legislation addressing apportionment and redistricting processes under its broad authority to make law affecting House elections under Article I, Section 4, of the U.S. Constitution. These processes are all rooted in provisions in Article I, Section 2 (as amended by Section 2 of the Fourteenth Amendment).
+Seats for the House of Representatives are constitutionally required to be divided among the states, based on the population size of each state. To determine how many Representatives each state is entitled to, the Constitution requires the national population to be counted every 10 years, which is done through the census. The Constitution also limits the number of Representatives to no more than one for every 30,000 persons, provided that each state receives at least one Representative. Additional parameters for the census and for apportionment have been established through federal statutes, including timelines for these processes; the number of seats in the House; and the method by which House seats are divided among states. Congress began creating more permanent legislation by the early 20 th century to provide recurring procedures for the census and apportionment, rather than passing measures each decade to address an upcoming reapportionment cycle. Federal law related to the census process is found in Title 13 of the U.S. Code , and two key statutes affecting apportionment today are the Permanent Apportionment Act of 1929 and the Apportionment Act of 1941.
+April 1 of a year ending in "0" marks the decennial census date and the start of the apportionment population counting process; the Secretary of Commerce is to report the apportionment population of each state to the President by the end of that year. Within the first week of the first regular session of the next Congress, the President is to transmit a statement to the House relaying state population information and the number of Representatives each state is entitled to. For a discussion of recent changes to this timeline, see CRS Insight IN11360, Apportionment and Redistricting Following the 2020 Census . Each state receives one Representative, as constitutionally required, and the remaining seats are distributed using a mathematical approach known as the method of equal proportions, established by the Apportionment Act of 1941. Essentially, a ranked "priority list" is created indicating which states receive the 51 st -435 th House seats, based on a calculation involving each state's population size and the number of additional seats a state has received. The U.S. apportionment population from the 2020 census was 331,108,434, reflecting a 7.1% increase since 2010, and 7 House seats were reapportioned among 13 states.
+After a census and apportionment are completed, state officials receive updated population information from the U.S. Census Bureau and the state's allocation of House seats from the Clerk of the House. Single-member House districts are required by 2 U.S.C. §2c, and certain other redistricting standards, largely related to the composition of districts, have been established by federal statute and various legal decisions. Current federal parameters related to redistricting criteria generally address population equality and protections against discrimination for racial and language minority groups under the Voting Rights Act of 1965 (VRA), as amended. Previous federal apportionment statutes have, at times, included other district criteria, such as geographic compactness or contiguity, and these standards have sometimes been referred to in U.S. Supreme Court cases, but they are not included in the current federal statutes that address the apportionment process. These redistricting principles and others, such as considering existing political boundaries, preserving communities of interest, and promoting political competition, have been commonly used across states, and many are reflected in state laws today.
+The procedural elements of redistricting are generally governed by state laws, and state redistricting practices can vary regarding the methods used for drawing districts, timeline for redistricting, and which actors (e.g., elected officials, designated redistricting commissioners, and/or members of the public) are involved in the process. Mapmakers must often make trade-offs between one redistricting consideration and others, and making these trade-offs can add an additional challenge to an already complicated task of ensuring "fair" representation for district residents. Despite technological advances that make it easier to design districts with increasing geographic and demographic precision, the overall task of redistricting remains complex and, in many instances, can be controversial. A majority of states, for example, faced legal challenges to congressional district maps drawn following the 2010 census, and these legal challenges can take multiple years to resolve. A number of states have been engaged in legal challenges related to the 2020 redistricting cycle.
+Introduction
+Every 10 years, the U.S. population is counted through the national census, and districts for the U.S. House of Representatives are readjusted to reflect the new population level and its distribution across states through the federal apportionment and state redistricting processes. The requirement to have proportional representation in the House is found in the U.S. Constitution, and constitutional provisions also underlie other elements of the census, apportionment, and redistricting practices. Figure 1 provides a generalized timeline for how these three interrelated processes occur, and the sections of the report that follow provide additional information on apportionment and redistricting. 1 For a discussion of how the Coronavirus Disease 2019 (COVID-19) pandemic affected the timing of the most recent census and apportionment, see CRS Insight IN11360, Apportionment and Redistricting Following the 2020 Census . For additional discussion of the 2020 census, see CRS Report R44788, The Decennial Census: Issues for 2020 and CRS In Focus IF11015, The 2020 Decennial Census: Overview and Issues . More general information about the decennial census process is available in CRS In Focus IF12909, The Decennial Census of Population and Housing: An Overview , and CRS Insight IN12403, Decennial Census and Apportionment: Frequently Asked Questions .
+Figure 1. Typical Timeline of Census, Apportionment, and Redistricting Process
+Source s : CRS compilation, based on information from the U.S. Constitution, U.S. Code , U.S. Census Bureau, and state laws. Graphic created by Amber Hope Wilhelm, CRS Visual Information Specialist.
+Apportionment Process
+Apportionment (or reapportionment) refers to the process of dividing seats in the U.S. House of Representatives among the states. Article 1, Section 2, of the U.S. Constitution, as amended by Section 2 of the Fourteenth Amendment, requires that seats for Representatives are divided among states, based on the population size of each state. House seats today are reallocated due to changes in state populations, since the number of U.S. states (50) has remained constant since 1959; in earlier eras, the addition of new states would also affect the reapportionment process, as each state is constitutionally required to receive at least one House seat.
+The 2020 census reported a 7.1% overall increase in the U.S. apportionment population since the 2010 census, to 331,108,434 individuals. 2 The ideal (or average) district population size increased across most states following the 2020 census, and some states experienced larger growth levels than others. 3 Three states experienced decreases in average district population size following the 2020 census. 4 The average congressional district population for the United States following the 2020 census was 761,169 individuals. 5 Seven U.S. House seats shifted across states following the 2020 census; seven states lost seats and six states gained seats, distributed as shown in Table 1 . Table 2 provides additional historical data on the number of states and number of seats affected by each apportionment since 1910.
+The map in Figure 2 illustrates changes in states' ideal district size and changes in the number of House seats allocated to each state between the 1990 and 2020 apportionments. Regional patterns of population change observed following previous censuses continued in 2020, as the percentage of House seats distributed across the Northeast and Midwest regions decreased, and the percentage of House seats distributed across the South and West regions increased. 6 California had the largest House delegation following the 2020 census, with 52 seats; Alaska, Delaware, North Dakota, South Dakota, Vermont, and Wyoming each had a single House seat. 7
+Table 1. Loss or Gain of U.S. House Seats in States Following 2020 Census
+Lost U.S. House Seats
+Gained U.S. House Seats
+State
+Seat Change
+State
+Seat Change
+California
+-1
+Colorado
++1
+Illinois
+-1
+Florida
++1
+Michigan
+-1
+Montana
++1
+New York
+-1
+North Carolina
++1
+Ohio
+-1
+Oregon
++1
+Pennsylvania
+-1
+Texas
++2
+West Virginia
+-1
+Source: U.S. Census Bureau, "Table D1. Number of Seats Gained and Lost in U.S. House of Representatives by State: 2020 Census," 2020 Census Apportionment Results , April 26, 2021, https://www2.census.gov/ programs-surveys/ decennial/ 2020/ data/ apportionment/ apportionment-2020-tableD.xlsx .
+Table 2. Scope of Apportionment Changes, 1910-2020
+Census Year
+States Losing Seats
+States Gaining Seats
+Total States Affected By Apportionment
+House Seats Affected by Apportionment
+2020
+7 (14.0%)
+6 (12.0%)
+13 (26.0%)
+7 (1.6%)
+2010
+10 (20.0%)
+8 (16.0%)
+18 (36.0%)
+12 (2.8%)
+2000
+10 (20.0%)
+8 (16.0%)
+18 (36.0%)
+12 (2.8%)
+1990
+13 (26.0%)
+8 (16.0%)
+21 (42.0%)
+19 (4.4%)
+1980
+10 (20.0%)
+11 (22.0%)
+21 (42.0%)
+17 (3.9%)
+1970
+9 (18.0%)
+5 (10.0%)
+14 (28.0%)
+11 (2.5%)
+1960 a
+16 (32.0%)
+10 (20.0%)
+26 (52.0%)
+21 (4.8%)
+1950 b
+9 (18.8%)
+7 (14.6%)
+16 (33.3%)
+14 (3.2%)
+1940 b
+9 (18.8%)
+7 (14.6%)
+16 (33.3%)
+9 (2.1%)
+1930 b
+21 (43.8%)
+13 (27.1%)
+34 (70.8%)
+27 (6.2%)
+1920 c
+—
+—
+—
+—
+1910 d
+0 (0.0%)
+25 (54.3%)
+25 (54.3%)
+47 (10.9%)
+Source: U.S. Census Bureau, Historical Apportionment Data Map , April 26, 2021, https://www.census.gov/ library/ visualizations/ interactive/ historical-apportionment-data-map.html .
+a. The 1960 apportionment was the first to include Hawaii and Alaska, which became states in 1959.
+b. Apportionments between 1930 and 1950 occurred with 48 states.
+c. No apportionment occurred after the 1920 census.
+d. The 1910 apportionment occurred with a House size of 433 and 46 states. Two seats were added to the House once Arizona and New Mexico became states in 1912.
+Figure 2. Changes to Average District Apportionment Population Sizes and House Seats Over Last Four Apportionment Cycles, 1990-2020
+Source: CRS compilation of apportionment population data for 1990 and 2020 from the U.S. Census Bureau. Graphic created by Amber Hope Wilhelm, CRS Visual Information Specialist.
+Federal Requirements/Guidelines for Reapportionment: History and Current Policy
+The constitutional requirements for representation in the House based on state population size are provided in Article I, Section 2, as amended by Section 2 of the Fourteenth Amendment. 8 Article I, Section 2, specified the first apportionment of seats for the House of Representatives, 9 and it also includes some standards for subsequent reapportionments. Article I, Section 2, requires that the national population be counted at least once every 10 years in order to distribute House seats across states. Broad parameters for the number of House Members are also contained in Article I, Section 2: there can be no more than one Representative for every 30,000 persons, provided that each state receives at least one Representative.
+Federal statute establishes a number of other elements of the apportionment process, including how to count the population every 10 years via the decennial census; how many seats are in the House; how those House seats are divided across states; and certain related administrative details. In the 19 th century, Congress often passed measures each decade to address those factors specifically for the next upcoming census and reapportionment. By the early 20 th century, however, Congress began to create legislation to standardize the process and apply it to all subsequent censuses and reapportionments, unless modified by later acts. 10
+One example of such legislation was the permanent authorization of the U.S. Census Bureau in 1902, 11 which helped establish a recurring decennial census process and timeline. Other legislation established the current number of 435 House seats; 12 this number was first used following the 1910 census and subsequently became fixed under the Permanent Apportionment Act of 1929. 13 Congress also created a more general reapportionment formula and process to redistribute seats across states. The timeline for congressional reapportionment and current method for allocating seats among states were contained in the Apportionment Act of 1941, which would then apply to every reapportionment cycle, beginning with the one following the 1950 census. 14 The size of the House, method for reapportionment, and timeline for reapportionment are codified in 2 U.S.C. §2a and are further detailed in the section below, alongside the relevant census procedures codified in Title 13 of the U.S. Code .
+Reapportionment Method and Timeline
+The apportionment steps detailed below are also summarized by the timeline in Figure 1 . This information is representative of the typical census, apportionment, and redistricting processes, but the Coronavirus Disease 2019 (COVID-19) pandemic affected 2020 census field operations and delivery of apportionment figures; for further discussion of these changes and delays, see CRS In Focus IF11486, 2020 Census Fieldwork Delayed by COVID-19 and CRS Insight IN11360, Apportionment and Redistricting Following the 2020 Census .
+Under federal law, April 1 in any year ending in "0" marks the official decennial census date and the beginning of the population counting process. 15 The U.S. Census Bureau calculates the apportionment population for the United States from the information it collects in the decennial census and certain administrative records. 16 The apportionment population reflects the total resident population in each of the 50 states, including minors and noncitizens, plus Armed Forces personnel/dependents living overseas and federal civilian employees/dependents living overseas. 17 The Secretary of Commerce must report the apportionment population to the President within nine months of the census date (by December 31 of the year ending in "0"). 18 In past years, the Census Bureau has released apportionment counts to the public at about the same time they are presented to the President. 19
+Under requirements in the Constitution, each state must receive at least one House Representative, and under statute, the current House size is set at 435 seats. 20 To determine how the 51 st through 435 th seats are distributed across the 50 states, a mathematical approach known as the method of equal proportions is used, which is specified in statute. 21 Essentially, under this method, the "next" House seat available is apportioned to the state ranked highest on a priority list . The priority list rankings are calculated by taking each state's apportionment population from the most recent census, and multiplying it by a series of values. The multipliers used are the reciprocals of the geometric means between every pair of consecutive whole numbers, with those whole numbers representing House seats to be apportioned. 22 The resulting priority values are ordered from largest to smallest, and with the House size set at 435, the states with the top 385 priority values receive the available seats. See the Appendix for additional information on the method of equal proportions and other methods proposed or used in previous apportionments.
+The President then transmits a statement to Congress showing (1) "the whole number of persons in each State," as determined by the decennial census and certain administrative records, and (2) the resulting number of Representatives each state would be entitled to under an apportionment, given the existing number of Representatives and using the method of equal proportions. The President submits this statement to Congress within the first week of the first regular session of the next Congress (typically, early January of a year ending in "1"). 23 Within 15 calendar days of receiving the President's statement, the Clerk of the House sends each state governor a certificate indicating the number of Representatives the state is entitled to. States may then engage in their own redistricting processes, which vary based on state laws. Each state receives the number of Representatives noted in the President's statement for its House delegation, beginning at the start of the next Congress (typically, early January of a year ending in "3").
+At times, Congress has considered legislation that would modify aspects of the apportionment process. Some proposals in recent Congresses, for example, would increase the number of seats in the House of Representatives, and some of these measures would change the method of apportionment as well. 24 In the 118 th and 119 th Congresses, some Members have also proposed legislation that would require the apportionment count to be based on the number of U.S. citizens in a state. 25
+Redistricting Process 26
+Congressional redistricting involves creating or redrawing geographic boundaries for U.S. House districts within a state. Redistricting procedures are largely determined by state law and vary across states, but states must comply with certain parameters established by federal statute and court decisions. In general, there is variation among states regarding the practice of drawing districts and which decisionmakers are involved in the process. Across states, there are some common standards and criteria for districts, some of which reflect values that are commonly thought of as traditional districting practices. Districting criteria may result either from shared expectations and precedent regarding what districts should be like, or they may result from certain standards established by current federal statute and court decisions. These criteria typically reflect a goal of enabling "fair" representation for all residents, rather than allowing arbitrary, or discriminatory, map lines. 27
+Redistricting efforts intended to unfairly favor one group's interests over another's are commonly referred to as gerrymandering . 28 Packing and cracking are two common terms that describe such districts, but there are various ways in which district boundaries might be designed to advantage or disadvantage certain groups of voters. Packing describes district boundaries that are drawn to concentrate individuals who are thought to share similar voting behaviors into certain districts. Concentrating prospective voters with shared preferences can result in a large number of "wasted votes" for these districts, as their Representatives will often be elected by a supermajority that far exceeds the number of votes required for a candidate to win. Cracking may be thought of as the opposite of packing, and occurs when individuals who are thought to share similar voting preferences are deliberately dispersed across a number of districts. This approach dilutes the voting strength of a group and can prevent its preferred candidates from receiving a majority of the vote in any district.
+For some states, redistricting following an apportionment may be necessary to account for House seats gained or lost based on the most recent census population count. 29 Generally, however, states with multiple congressional districts engage in redistricting following an apportionment in order to ensure that the population size of each district remains approximately equal under the equality standard or "one person, one vote" principle (discussed under " Population Equality " below). Some states might make additional changes to district boundaries in the years following an initial redistricting; in some instances, such changes are required by legal decisions finding that the initial districts were improperly drawn. 30
+Federal Requirements/Guidelines for Redistricting: History and Current Policy
+From time to time, Congress considers legislation that would affect apportionment and redistricting processes. The Constitution requires the apportionment of House seats across states based on population size, but it does not specify how those seats are to be distributed within each state. Most redistricting practices are determined by state constitutions or statutes, although some parts of the redistricting process are affected by federal statute or judicial interpretations. 31
+The current system of single-member districts (rather than a general ticket system, where voters could select a slate of Representatives for an entire state) is provided by 2 U.S.C. §2c. 32 In addition to requiring single-member districts, Congress has, at times, passed legislation addressing House district characteristics. For example, in the 1800s and early 1900s, some federal apportionment statutes included other standards for congressional districts, such as population equality or geographic compactness. 33 None of these criteria is expressly contained in the current statute addressing federal apportionment. 34
+Many of the other federal parameters for congressional redistricting have resulted from judicial decisions. 35 It is not uncommon for states to face legal challenges regarding elements of their redistricting plans. 36 One analysis of the 2010 redistricting cycle, for example, found that redistricting lawsuits had been filed in 38 states, 37 and legal challenges to congressional districts in several states continued for a number of years. 38 This report is not intended to be a legal analysis. For analysis of recent legal issues related to redistricting, see CRS Legal Sidebar LSB11431, Congressional Redistricting: High Court Narrows Voting Rights Act in Louisiana v. Callais ; for earlier analysis, see CRS Legal Sidebar LSB10639, Congressional Redistricting 2021: Legal Framework and CRS Report R44798, Congressional Redistricting Law: Background and Recent Court Rulings .
+Population Equality
+One area of redistricting addressed by federal standards is population equality across districts. Legislative provisions, requiring that congressional districts "[contain] as nearly as practicable an equal number of inhabitants," were found in federal apportionment acts between 1872 and 1911. 39 The U.S. Supreme Court has also addressed population size variance among congressional districts within a state, or malapportionment . Under what is known as the "equality standard" or "one person, one vote" principle, the Court has found congressional districts within a state should be drawn to approximately equal population sizes. 40 Mathematically, there are several ways in which the population difference across districts (or deviation from an ideal district size) may be expressed. 41
+These equal population standards apply only to districts within a state, not to districts across states. To illustrate how district population sizes can vary across states, Table 3 provides Census Bureau estimates from 1910 to 2020 for the average district population size nationwide, as well as estimates for which states had the largest and smallest average district population sizes. Wide variations in state populations and the U.S. Constitution's requirement of at least one House seat per state make it difficult to ensure equal district sizes across states, particularly if the size of the House is fixed. 42 The expectation that districts in a state will have equal population sizes reinforces the long-standing practice that states redraw district boundaries following each U.S. Census, in order to account for the sizable population shifts that can occur within a 10-year span. 43
+Table 3. Summary of Average U.S. House District Population Sizes, 1910-2020
+Apportionment Year
+Average District Population Size
+Largest Average District Population
+Smallest Average District Population
+2020
+761,169
+990,837 (Delaware a )
+542,704 (Montana)
+2010
+710,767
+994,416 (Montana a )
+527,624 (Rhode Island)
+2000
+646,952
+905,316 (Montana a )
+495,304 (Wyoming a )
+1990
+572,466
+803,655 (Montana a )
+455,975 (Wyoming a )
+1980
+519,235
+690,178 (South Dakota a )
+393,345 (Montana)
+1970
+469,088
+624,181 (North Dakota a )
+304,067 (Alaska a )
+1960 b
+410,481
+484,633 (Maine)
+226,167 (Alaska a )
+1950 c
+344,587
+395,948 (Rhode Island)
+160,083 (Nevada a )
+1940 c
+301,164
+359,231 (Vermont a )
+110,247 (Nevada a )
+1930 c
+280,675
+395,982 (New Mexico a )
+86,390 (Nevada a )
+1920 d
+—
+—
+—
+1910 e
+210,328
+228,027 (Washington)
+80,293 (Nevada a )
+Source: U.S. Census Bureau, Historical Apportionment Data (1910-2020) , https://www.census.gov/ data/ tables/ time-series/ dec/ apportionment-data-text.html .
+a. State had a single House district during the noted apportionment year.
+b. The 1960 apportionment was the first to include Hawaii and Alaska, which became states in 1959.
+c. Apportionments between 1930 and 1950 occurred with 48 states.
+d. No apportionment occurred after the 1920 Census.
+e. The 1910 apportionment occurred with a House size of 433 and 46 states. Two seats were added to the House once Arizona and New Mexico became states in 1912.
+To assist states in drawing districts that have equal population sizes, the Census Bureau provides population tabulations for certain geographic areas identified by state officials, if requested, under the Census Redistricting Data Program, created by P.L. 94-171 in 1975. Under the program, the Census Bureau is required to provide total population counts for small geographic areas; in practice, the Bureau also typically provides additional demographic information, such as race, ethnicity, and voting age population, to states. 44
+Racial/Language Minority Protections 45
+The Voting Rights Act of 1965 (VRA) also affects how congressional districts are drawn. One key statutory requirement for congressional districts comes from Section 2 of the VRA, as amended, which prohibits states or their political subdivisions from imposing any voting qualification, practice, or procedure that results in denial or abridgement of the right to vote based on race, color, or membership in a language minority. 46 The Supreme Court recently interpreted Section 2 of the VRA in Louisiana v. Callais ; for more information see CRS Legal Sidebar LSB11431, Congressional Redistricting: High Court Narrows Voting Rights Act in Louisiana v. Callais .
+Other Redistricting Considerations
+In addition to requirements of population equality and compliance with the VRA, several other redistricting criteria are common across many states today, including compactness, contiguity, and observing political boundaries. 47 Some of the common redistricting criteria specified by states are presented in Table 4 . These factors are sometimes referred to as traditional districting principles and are often related to geography. The placement of district boundaries, for example, might reflect natural features of the state's land; how the population is distributed across a certain land area; and efforts to preserve existing subdivisions or communities (such as town boundaries or neighborhood areas). State laws vary in whether they require, permit, or prohibit certain factors from consideration when redistricting, and some do not specify any redistricting criteria. Redistricting laws in many states currently include these and other criteria, but redistricting criteria are not explicitly addressed in current federal statute. Previous federal apportionment statutes, however, sometimes contained similar provisions, as further discussed in the sections that follow Table 4 .
+Table 4. Selected Congressional Redistricting Criteria Specified by Certain States
+State
+Compact
+Contiguous
+Political Subdivisions
+Communities of Interest
+Competitive
+Preserve "Core"
+Avoid Pairing Incumbents
+AL
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes a
+AZ
+Yes
+Yes
+Yes
+Yes
+Yes
+CA
+Yes
+Yes
+Yes
+Yes
+CO
+Yes
+Yes
+Yes
+Yes
+Yes
+FL
+Yes
+Yes
+Yes
+GA
+Yes
+Yes
+Yes
+Yes
+Yes a
+HI
+Yes
+Yes
+Yes
+Yes
+ID
+Yes
+Yes
+Yes
+Yes
+IA
+Yes
+Yes
+Yes
+KS
+Yes
+Yes
+Yes
+Yes
+Yes
+KY
+Yes
+Yes
+LA
+Yes
+Yes
+Yes
+Yes
+ME
+Yes
+Yes
+Yes
+MI
+Yes
+Yes
+Yes
+Yes
+MN
+Yes
+Yes
+Yes
+Yes
+MO
+Yes
+Yes
+MT
+Yes
+Yes
+Yes
+Yes a
+Yes a
+NE
+Yes
+Yes
+Yes
+Yes
+Yes
+NM
+Yes
+Yes
+Yes
+Yes
+Yes a
+Yes a
+NY
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+NC
+Yes
+Yes
+Yes
+Yes a
+OH
+Yes
+Yes
+Yes
+OK
+Yes
+Yes
+Yes
+Yes
+Yes a
+Yes a
+OR
+Yes
+Yes
+Yes
+PA
+Yes
+Yes
+Yes
+RI
+Yes
+Yes
+Yes
+SC
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+TN
+Yes
+UT
+Yes
+Yes
+Yes
+Yes
+Yes
+VA
+Yes
+Yes
+Yes
+WA
+Yes
+Yes
+Yes
+Yes
+Yes
+WV
+Yes
+Yes
+Yes
+WY b
+Yes
+Yes
+Yes
+Source: National Conference of State Legislatures, "Redistricting Criteria," September 3, 2025, https://www.ncsl.org/ elections-and-campaigns/ redistricting-criteria ; Ballotpedia , "State-by-State Redistricting Procedures," https://ballotpedia.org/ State-by-state_redistricting_procedures ; and CRS examination of individual state laws and redistricting guidelines. In instances where secondary sources are not in agreement, CRS is relying on analysis of underlying primary source materials from individual states. Additional information may be available from individual states. See the following text sections for an explanation of the criteria used as column headings in this table.
+Notes: States excluded from this table do not specify any of these criteria for congressional redistricting. These states are Alaska, Arkansas, Connecticut, Delaware, Illinois, Indiana, Maryland, Massachusetts, Mississippi, Nevada, New Hampshire, New Jersey, North Dakota, South Dakota, Texas, Vermont, and Wisconsin. Some of these states (Alaska, Delaware, North Dakota, South Dakota, and Vermont) currently have a single House seat. Some states specify different criteria for state legislative districts.
+a. Factor is something that state may "allow" for consideration.
+b. State currently only has one congressional district.
+Compactness and Contiguity
+As a districting criterion, compactness reflects the idea that a congressional district should represent a geographically consolidated area. 48 Compactness of congressional districts is a requirement in 29 states, but often, state laws do not specify precise measures of compactness. 49 Generally, a compact district would tend to have smoother boundaries and might resemble a standard geometric shape more than a less compact district. In some conceptualizations, a compact district would have an identifiable "center" that seems reasonably equidistant from any of its boundaries. 50
+Federal apportionment acts between 1842 and 1911 contained provisions requiring that congressional districts be of "contiguous territory," 51 and 33 states have included similar language in their current redistricting requirements. For a district to be contiguous, it generally must be possible to travel from any point in the district to any other place in the district without crossing into a different district. 52
+Preserving Political Subdivisions
+Most states require that redistricting practitioners take into account existing political boundaries, such as towns, cities, or counties. In many instances, districts may not be able to be drawn in ways that encompass entire political subdivisions, given other districting standards, like population equality, that could take precedence. Maintaining political subdivisions can also help simplify election administration by ensuring that a local election jurisdiction is not split among multiple congressional districts. Some state laws direct redistricting authorities to preserve the "core" of existing congressional districts; other states prohibit drawing district boundaries that would create electoral contests between incumbent House Members. 53
+Preserving Communities of Interest
+Some states include the preservation of communities of interest as a criterion in their redistricting laws. People within a community of interest generally have a shared background or common interests that may be relevant to their legislative representation. These recognized similarities may be due to shared social, cultural, historical, racial, ethnic, partisan, or economic factors. In some instances, communities of interest may naturally be preserved by following other redistricting criteria, such as compactness or preserving political subdivisions. 54
+Promoting Political Competition; Considering Existing District or Incumbent
+Some states include measures providing that districts cannot be drawn to unduly favor a particular candidate or political party. The term gerrymander originated to describe districts drawn to favor a particular political party, 55 and it is often used in this context today. Redistricting has traditionally been viewed as an inherently political process, where authorities have used partisan considerations in drawing district boundaries. Districts generally may be drawn in a way that is politically advantageous to certain candidates or political parties, unless prohibited by state law. 56 Some states, for example, expressly allow the use of party identification information in the redistricting process, whereas others prohibit it; similarly, some states may allow for practices to protect an incumbent or maintain the "core" of an existing district, whereas other states prohibit any practices that would favor or disfavor an incumbent or candidate. 57
+State Processes for Redistricting
+Redistricting processes are fundamentally the responsibility of state governments under current law and practice. Among the 44 states with multiple House districts, a variety of approaches are taken, but generally, states either allow their state legislatures or a separate redistricting commission to determine congressional district boundaries. The map in Figure 3 displays the redistricting methods used across states in the initial redistricting following the 2020 census. 58
+Figure 3. State Redistricting Methods
+Source s : CRS compilation reflecting methods used during the initial congressional redistricting that followed the 2020 census, based on information from Ballotpedia , the National Conference of State Legislatures, and individual states. Graphic created by Amber Hope Wilhelm, CRS Visual Information Specialist.
+Notes: Iowa has nonpartisan legislative staff create its redistricting maps but requires legislative approval to enact them. In New York, redistricting plans also require gubernatorial approval. Maryland's advisory commission has historically been established by the governor for various redistricting cycles; Wisconsin's governor also created an advisory commission for the 2020 redistricting cycle via executive order.
+Historically, and in the majority of states today, congressional district boundaries are primarily determined by state legislatures. Under the procedures used for the redistricting following the 2020 census, 33 states authorized their state legislatures to establish congressional district boundaries. Most of these states enable the governor to veto a redistricting plan created by the legislature; Connecticut and North Carolina do not allow a gubernatorial veto. 59
+In recent years, other states have begun to use redistricting commissions, which may be more removed from state legislative politics. 60 In 11 of the states that currently have multiple congressional districts (Arizona, California, Colorado, Hawaii, Idaho, Michigan, Montana, New Jersey, New York, Virginia, and Washington), redistricting commissions are primarily responsible for redrawing congressional districts. In six other states (Iowa, Maine, Maryland, New Mexico, Rhode Island, and Utah), a commission typically serves in an advisory capacity during the redistricting process. 61 Commissions may also be used as a "backup" or alternate means of redistricting if the legislature's plan is not enacted, such as in Connecticut, Indiana, and Ohio.
+The composition of congressional redistricting commissions can also vary; many include members of the public selected by a method intended to be nonpartisan or bipartisan, whereas other commissions may include political appointees or elected officials, such as in Hawaii and New Jersey. A commission's membership, the authority granted to it, its relationship to other state government entities, and other features may affect whether a commission is perceived to be undertaking an objective process or a more politicized one. Some proponents of redistricting commissions believe that using independent redistricting commissions can prevent opportunities for partisan gerrymandering and may create more competitive and representative districts. 62 Others, however, believe that political considerations can remain in commission decisionmaking processes, and that the effect of redistricting methods on electoral competitiveness is overstated. 63 For more information on redistricting commissions, see CRS Insight IN11053, Redistricting Commissions for Congressional Districts .
+The timeline for redistricting also varies across states, and can be affected by state or federal requirements regarding the redistricting process; the efficiency of the legislature, commission, or other entities involved in drawing a state's districts; and, potentially, by legal or political challenges made to a drafted or enacted redistricting plan. 64 In general, the redistricting process would usually begin early in a year ending in "1," once each state has learned how many seats it is entitled to under the apportionment following the decennial census. 65 Many states complete the process within the next year. After the 2020 reapportionment, for example, Oregon was the first state to enact its initial congressional redistricting plan on September 27, 2021, and 19 other states completed their initial plans by the end of 2021. The remaining 24 states with multiple congressional districts completed their initial redistricting plans by the middle of 2022, with New Hampshire becoming the final state to complete its initial plan on May 31, 2022. 66
+Some states may redistrict multiple times between apportionments, if allowed under state law or required by a legal challenge to the preliminary redistricting. 67 The practice of states redrawing congressional district boundaries after the initial boundary drawing but before the next decennial census is sometimes referred to as mid-decade redistricting . For more information on this topic, see CRS In Focus IF13082, Mid-Decade Congressional Redistricting: Key Issues . The practice typically has not been very common, but lawmakers in a number of states in 2025 and 2026 have engaged in mid-decade redistricting or have announced an interest in doing so. 68
+Congressional Options Regarding Redistricting
+Although redistricting processes in practice today are largely governed by state law, Congress has, at times, considered an expanded federal government role, which could serve to standardize certain elements of the redistricting process across states. Given the historically limited role the federal government has played in the redistricting process, concerns about federalism may arise in the context of certain congressional efforts addressing redistricting. The types of legislative proposals briefly introduced in this section reflect some common examples of redistricting bills introduced in recent Congresses; they are not meant to be an exhaustive list of all the options Congress has considered or could consider related to redistricting.
+Some legislative proposals in recent Congresses would establish criteria for districts, such as population equality, compactness, contiguity, or preservation of existing political subdivisions. 69 Bills have also been introduced that would require states to use independent redistricting commissions and/or maintain certain standards of public input and transparency regarding the redistricting process. 70 Some congressional bills include provisions related to the timing of redistricting, often to restrict or prevent states from redistricting more than once following an apportionment through mid-decade redistricting. 71 Other options could require additional congressional redistricting prior to the next decennial census. 72 Some bills would expand oversight by the Department of Justice under certain circumstances related to existing requirements of, or proposed amendments to, the VRA. 73
+Most of these bills have been referred to committee but not passed by either chamber. In the 117 th Congress, the House passed H.R. 1 , and a similar version of H.R. 1 was also passed by the House in the 116 th Congress. H.R. 1 is a multifaceted bill that addresses multiple areas of election administration, among other topics; with respect to redistricting, it would require states to use independent redistricting commissions, adopt certain redistricting criteria, and prohibit mid-decade redistricting. 74
+Concluding Observations
+Apportionment and redistricting address fundamental elements of representational democracy. Determining how many elected representatives should serve in the House, and how many people should be in each congressional district, are central questions for those who are concerned with how responsive the House can be to the interests of the American public. During earlier eras in the United States, the number of seats in the House of Representatives generally increased as the American population increased, and district sizes could be kept more equal over time and across states. The House size, however, has been set at 435 seats throughout the last century, while the national population has continued to grow and concentrate in certain geographic areas, leading to larger constituencies across all House districts over time and disparate district sizes across states.
+Certain elements of the apportionment process are established by the U.S. Constitution. This includes the requirement for representation in the House based on state population size; the reallocation of House seats every 10 years upon the completion of a national population count; and the requirements that each state receives at least one Representative and that there can be no more than one Representative for every 30,000 persons. Other elements of the process are addressed through federal legislation, such as the overall number of House seats or method of distributing seats among the states. Congress more regularly legislated in this area prior to the mid-20 th century, passing decennial acts to address upcoming censuses and apportionments, rather than creating bills intended to apply for all future reapportionment cycles.
+Whereas apportionment is a process largely governed by federal statute, redistricting is a process, in practice, largely governed by state law. Certain federal standards apply to House districts, generally in the interest of preserving equal access to representation, but the method and timeline by which those districts are created is largely determined by state law. In states with multiple congressional districts, there are a multitude of ways in which district boundaries can be drawn, depending upon the criteria used to create the districts. There is often an expectation that congressional districts will be drawn in a way that ensures "fair" representation, but "fairness" can be a somewhat subjective determination.
+Many lawmakers and members of the public may agree on some of the more basic representational principles embedded in apportionment and redistricting law, but can find it difficult to apply those principles in practice. The criteria commonly used for redistricting today reflect a combination of state and federal statutes, judicial interpretations, and practices from past redistricting cycles that may require trade-offs between one consideration and another. Ensuring equal population size across all congressional districts, for example, may be an agreeable goal for many individuals. In practice, however, the geographic and demographic distribution of residents within and across states, coupled with requirements to observe state boundaries, provide all states with at least one Representative, and maintain a constant number of House seats, make this goal more difficult to achieve. Although mapmaking software today can design districts with increasing precision with respect to geographic boundaries and population characteristics, this technological capacity has not necessarily simplified the overall task of redistricting. A majority of states faced legal challenges to congressional district maps drawn following the 2010 census, reflecting differing perspectives on fairness, representational access, and how competing redistricting criteria should be weighted.
+Appendix. Determining an Apportionment Method
+Congress is a bicameral legislature, in which each state receives equal representation in the Senate and each state's representation in the House is based upon its population. Essentially, any method of apportionment for the House must consider three key variables: (1) the number of House seats; (2) the number of U.S. states; and (3) the apportionment population of each state. A mathematical decision must also be made regarding how fractions of seats are addressed, since House seats must be allocated as whole numbers, and simple division methods are unlikely to produce this outcome for all (or any) states. Because the Constitution does not specify a particular method for apportionment, several options have been considered and utilized throughout history.
+When determining apportionment, parameters could be set for the number of seats in the House, the population size of a district, or both. 75 The Constitution, to an extent, addresses House size and district size by requiring that each state receives at least one House seat and requiring that there can be no more than one Representative per every 30,000 persons. 76 Yet these provisions provide little practical guidance for what the size of the House or the size of a district should be. Based on the number of states and U.S. apportionment population from the 2010 Census, for example, the House could range from a minimum of 50 seats to a maximum size of over 10,000 seats. As a general principle, House size and district size are inversely related: a larger number of House seats means smaller population sizes for districts, and a smaller number of House seats means larger population sizes for districts. Attempts by the Framers and various Congresses to address apportionment reveal a number of perspectives on how best to create a representative legislature, along with political and logistical considerations related to changes in the size of the House. 77
+Prioritizing Equal-Sized Districts or Preserving a Fixed House Size
+An apportionment method prioritizing relatively equal district population size would establish a representation ratio, where there would be one Representative per x number of persons. If the ratio remains the same across apportionment cycles, increases or decreases in the U.S. apportionment population would result in corresponding increases or decreases to the total number of House seats. The representation ratio could also be adjusted to create larger or smaller districts, in order to limit the magnitude of changes to the overall size of the House. If states receive fractional allocations of House seats and there is no constraint on the size of the House, a simple rounding rule could be utilized to arrive at a whole number of seats for the House overall.
+A general example of an apportionment approach prioritizing relatively equal district size follows:
+1. determine an ideal district population size, d ;
+2. divide each state's apportionment population, p s1 , p s2 … p s50, by d to determine how many House seats a state would be entitled to (its "quota" of seats), q ; and
+3. determine a rounding rule to apply for states in which q is not a whole number. 78
+Until the early 20 th century, the size of the House generally increased with each apportionment, due to the addition of new states and population growth, 79 but today, the number of House seats is set at 435 by federal statute. 80 Arguments to expand the House have included expanding the range of interests that House Members would represent and ensuring that Members remained knowledgeable about local issues. Yet concerns have also been raised that it would not be feasible to increase the House size apace with national population growth. 81
+To be sure that a particular apportionment conforms to a specified size of the House, each state must receive a whole number of seats, and the sum of all states' seats must equal the desired total House size. Many apportionment approaches vary on how to address fractional seats, as remainders will often result when calculating state seat quotas. A general example of an apportionment approach to reach a certain House size follows:
+1. a set number of House seats, H , is agreed upon;
+2. divide the national apportionment population, p USA , by H to determine an "ideal" or average district population size, d , also known as the "initial divisor";
+3. divide each state's apportionment population, p s1 , p s2 … p s50, by d to determine how many House seats a state would be entitled to (its "quota" of seats), q ;
+4. determine a rounding rule to apply to any q values that are not whole numbers (to represent actual House seats, which cannot be divided); 82 and
+5. add these rounded (or adjusted), q values; if this sum does not equal H , determine a method to adjust state quotas so that the sum of the resulting q values equals H .
+The following discussions provide an introduction to several methods that have been used for congressional apportionment in the United States. To illustrate how these methods work, for each method an imaginary example is provided in the accompanying table, in which the size of the House is fixed at 20 Members and the seats are divided among four states (states A, B, C, and D) with the populations specified in the tables.
+Hamilton/Vinton Method (Ranking Fractional Remainders)
+Congress considered various methods of apportionment after the first census of 1790 and passed an initial apportionment bill in 1792 that would have utilized what is now known as the Hamilton/Vinton method. President George Washington, however, exercised his first veto on the measure, in part, because the resulting apportionment calculations would have violated the requirement of at least 30,000 persons per district for multiple states. 83 Representative Samuel Vinton later introduced legislation proposing this method, which was enacted, and this apportionment method was first used in 1850 and continued to inform apportionment considerations throughout the rest of the 19 th century, in conjunction with the Webster method (discussed below). The Hamilton/Vinton method is based on a fixed House size, H . Each state receives the whole number of seats in its quota, q , of seats. The remainders from q are rank-ordered from largest to smallest, and any additional House seats are apportioned to the states with the largest remainders.
+Table A-1. Hamilton/Vinton Method—Sample Apportionment
+House size ( H ) = 20 [Fixed]
+Step 1: Find whole number of seats using d (round down any q remainder)
+Step 2: Apportion additional seats in order of largest fractional remainders
+State
+Population
+Quota ( q ) a
+Seats
+Remainder
+Rank
+Additional Seat(s)
+Total Seats
+A
+2,560
+2,560 / 594.1 = 4.31
+4
+.31
+4 th
+0
+4
+B
+3,315
+3,315 / 594.1 = 5.58
+5
+.58
+2 nd
+1
+6
+C
+995
+995 / 594.1 = 1.67
+1
+.67
+1 st
+1
+2
+D
+5,012
+5,012 / 594.1 = 8.44
+8
+.44
+3 rd
+0
+8
+Total
+11,882
+18
+2
+20
+Source: Adapted from U.S. Census Bureau, "Methods of Apportionment," https://www.census.gov/ about/ history/ historical-censuses-and-surveys/ census-programs-surveys/ decennial-census/ methods.html .
+a. The denominator here is calculated by dividing the national apportionment population ( p USA = 11,882) by the number of House seats ( H = 20).
+Jefferson Method (Largest Divisors)
+Following the presidential veto of the Hamilton method, Congress adopted the Jefferson method of apportionment, which was used from 1792 to 1832. The Jefferson method for apportionment is based on a fixed House size, H , and each state's quota of seats, q , is rounded down to the nearest whole number. Often, the sum of the rounded-down q values is less than H . When this occurs, divisor values smaller than d are tested until an adjusted divisor, d adj , is found that results in a set of q values which, when rounded down, sum to H .
+Table A-2. Jefferson Method—Sample Apportionment
+House size ( H ) = 20 [Fixed]
+Step 1: Find seats if apportioned using initial divisor, d (round down any q remainder)
+Step 2: Apportion seats using adjusted divisor, d adj a
+State
+Population
+Quota ( q ) b
+Seats
+Quota
+Total Seats
+A
+2,560
+2,560 / 594.1 = 4.31
+4
+2,560 / 550 = 4.65
+4
+B
+3,315
+3,315 / 594.1 = 5.58
+5
+3,315 / 550 = 6.03
+6
+C
+995
+995 / 594.1 = 1.67
+1
+995 / 550 = 1.81
+1
+D
+5,012
+5,012 / 594.1 = 8.44
+8
+5,012 / 550 = 9.11
+9
+Total
+11,882
+18
+20
+Source: Adapted from U.S. Census Bureau, "Methods of Apportionment," https://www.census.gov/ about/ history/ historical-censuses-and-surveys/ census-programs-surveys/ decennial-census/ methods.html .
+a. The regular divisor, d , is often used as a starting point to inform what values could work for an adjusted divisor, d adj . Here, 550 is used as the adjusted divisor value, but any integer between 513 or 552 would also produce a series of q values that, when rounded down, sum to the total House size of 20 seats.
+b. The denominator here is calculated by dividing the national apportionment population ( p USA = 11,882) by the number of House seats ( H = 20).
+Webster Method (Major Fractions)
+Some believed that the Jefferson method favored large states, and the Webster method was an approach first used for apportionment in 1842 and last used for apportionment following the 1930 census. The Webster method is similar to the Hamilton/Vinton method but differs in how it addresses remainders of seats. Each state receives the whole number of seats in its quota, q ; then, q remainders greater than or equal to 0.5 are rounded up to the next whole number, and those states receive an additional seat. The example provided in Table A-3 happens to result in the same number of House seats as the other examples in this appendix, which treat the House size, H , as fixed at 20 seats, but performing these initial calculations under the Webster method could result in a subsequent adjustment to the number of House seats. 84 If the House size remains fixed, and the initial sum of seats produced by the Webster method does not equal the desired number of seats, an adjusted divisor, d adj , can be used to calculate q values that, when rounded and summed, result in a specific House size.
+Table A-3. Webster Method—Sample Apportionment
+Step 1: Find whole number of seats using d (round down any q remainder)
+Step 2: Apportion additional seat to state if quota remainder ≥ 0.5
+State
+Population
+Quota ( q ) a
+Seats
+Remainder
+Additional Seat
+Total Seats
+A
+2,560
+2,560 / 594.1 = 4.31
+4
+.31
+0
+4
+B
+3,315
+3,315 / 594.1 = 5.58
+5
+.58
+1
+6
+C
+995
+995 / 594.1 = 1.67
+1
+.67
+1
+2
+D
+5,012
+5,012 / 594.1 = 8.44
+8
+.44
+0
+8
+Total
+11,882
+18
+2
+20
+Source: Adapted from U.S. Census Bureau, "Methods of Apportionment," https://www.census.gov/ about/ history/ historical-censuses-and-surveys/ census-programs-surveys/ decennial-census/ methods.html .
+a. The denominator here is calculated by dividing the national apportionment population (pUSA = 11,882) by the number of House seats (H = 20).
+Huntington-Hill Method (Method of Equal Proportions)
+In addition to treating large and small states similarly, some have also believed that an apportionment method should minimize percentage differences in district population sizes (across states) as much as possible. The method of equal proportions, also known as the Huntington-Hill method, seeks to achieve this objective, and has been used for all House apportionments since 1941. This method differs from the Webster method by rounding up remainders for a state's quota, q , at the geometric mean, G , rather than at the arithmetic mean. The geometric mean is found by multiplying two successive numbers together, then taking the square root of their product; here, the successive numbers represent a state's q rounded down to the nearest whole number (its "lower" quota) and a state's q rounded up to the nearest whole number (its "upper" quota). Each state receives its "lower" quota of seats and then may receive an additional seat if its quota, q , is greater than or equal to its geometric mean, G .
+Table A-4. Huntington-Hill Method—Sample Apportionment
+House size ( H ) = 20 [Fixed]
+Step 1: Find lower quota (round down any q remainder) and upper quota (round up any q remainder)
+Step 2: Apportion additional seat to state if quota ≥ geometric mean
+State
+Population
+Quota ( q ) a
+Lower Quota
+Upper Quota
+Geometric Mean ( G )
+Additional Seat (If q ≥ G )
+Total Seats
+A
+2,560
+2,560 / 594.1 = 4.31
+4
+5
+√(4x5) = 4.47
+0
+4
+B
+3,315
+3,315 / 594.1 = 5.58
+5
+6
+√(5x6) = 5.48
+1
+6
+C
+995
+995 / 594.1 = 1.67
+1
+2
+√(1x2) = 1.41
+1
+2
+D
+5,012
+5,012 / 594.1 = 8.44
+8
+9
+√(8x9) = 8.49
+0
+8
+Total
+11,882
+18
+22
+2
+20
+Source: Adapted from U.S. Census Bureau, "Methods of Apportionment," https://www.census.gov/ about/ history/ historical-censuses-and-surveys/ census-programs-surveys/ decennial-census/ methods.html .
+a. The denominator here is calculated by dividing the national apportionment population (pUSA = 11,882) by the number of House seats (H = 20).
+The initial calculation for a state's quota, q , under the method of equal proportions, is made by using the "ideal" district size, d , as the divisor. Table A-4 provides a sample apportionment in which the sum of the rounded geometric means happens to result in the desired House size, H , of 20 seats, but, in practice, this often does not occur. If the sum of the rounded geometric means for each state does not result in the desired number of House seats, there is an additional step: seats can be apportioned using a priority list , which essentially ranks each state's claim to the "next" House seat apportioned (i.e., the 51 st -435 th seats), after each state receives the one seat it is constitutionally entitled to.
+To generate a priority list, each state's apportionment population is multiplied by a series of multiplier values. The multiplier values are created using the reciprocal of the geometric mean associated with each potential successive seat number for the state (above its constitutionally mandated first seat). For example, the multiplier value for a second House seat in any state would be 1/√(1 x 2) or 0.707, the multiplier for a third House seat would be √(2 x 3) or 0.408, and so on. 85 The products that result from multiplying these values by each state's apportionment population are ranked from largest to smallest to create the priority list, and seats are distributed until H number of seats (currently 385, the number needed to get to a total of 435 seats once each of the 50 states receives its constitutionally required seat) have been apportioned.
+Table A-5. Sample Priority Values and Resulting Priority List for Selected Values
+House size ( H ) = 20 [Fixed]
+State
+Population
+2 nd Seat
+3 rd Seat
+4 th Seat
+5 th Seat
+6 th Seat
+7 th Seat
+8 th Seat
+9 th Seat
+Priority Values a
+A
+2,560
+1,810
+1,045
+739
+572
+467
+395
+342
+302
+B
+3,315
+2,344
+1,353
+957
+741
+605
+512
+443
+391
+C
+995
+704
+406
+287
+222
+182
+154
+133
+117
+D
+5,012
+3,544
+2,046
+1,447
+1,121
+915
+773
+670
+591
+Corresponding Priority List Ranking b
+Total Seats
+A
+2,560
+4
+8
+13
+18
+22
+27
+32
+36
+4
+B
+3,315
+2
+6
+9
+12
+16
+20
+23
+28
+6
+C
+995
+14
+25
+38
+51
+62
+75
+86
+98
+2
+D
+5,012
+1
+3
+5
+7
+10
+11
+15
+17
+8
+Total
+11,882
+20
+Source: CRS calculation.
+a. Each priority value is calculated by multiplying the state's apportionment population by a multiplier, representing the reciprocal geometric mean of the last seat apportioned and the next seat to be apportioned. For seat number, n , the multiplier is 1 / (√((n-1) x n). For a list of multipliers, see U.S. Census Bureau, "Computing Apportionment," November 22, 2021, https://www.census.gov/ topics/ public-sector/ congressional-apportionment/ about/ computing.html . In this table, priority values are rounded to the nearest whole number.
+b. Values italicized and in bold represent the 16 remaining seats to be apportioned, after each state receives one seat as constitutionally required and assuming a House size of 20. Larger values in this table are not consecutive because this table only includes rankings associated with the first nine additional seats to be apportioned. Larger states could be ranked higher and entitled to additional seats (above nine) before smaller states receive any additional seats. In this example, if the priority list table continued to display values for additional seats, State D would be ranked 19 th and would receive its 10 th seat before State B receives its 7 th seat (ranked 20 th ); State D is also ranked 21 st and would receive its 11 th seat before State A receives its 6 th seat (ranked 22 nd ).
+Footnotes
+1 .
+This represents the typical timeline immediately following the decennial census and not any subsequent redistricting a state may engage in before the next decennial census.
+2 .
+The apportionment population reflects the total resident population in each of the 50 states, including minors, noncitizens, Armed Forces personnel/dependents living overseas, and federal civilian employees/dependents living overseas; for more information see U.S. Census Bureau, "Congressional Apportionment: Frequently Asked Questions," January 8, 2021, https://www.census.gov/topics/public-sector/congressional-apportionment/about/faqs.html . For 2020 census results, see U.S. Census Bureau, "Table A. Apportionment Population, Resident Population, and Overseas Population: 2020 Census and 2010 Census," 2020 Census Apportionment Results , April 26, 2021, https://www2.census.gov/programs-surveys/decennial/2020/data/apportionment/apportionment-2020-tableA.xlsx
+3 .
+Colorado had the smallest increase in average district population size after the 2020 census, increasing by 2,067 individuals on average per district when compared to the 2010 census. West Virginia had the largest increase in average district population size after the 2020 census, increasing by 277,585 individuals on average per district when compared to the 2010 census. CRS calculations based on information provided in U.S. Census Bureau, Historical Apportionment Data (1910-2020) , April 26, 2021, https://www.census.gov/data/tables/time-series/dec/apportionment-data-text.html .
+4 .
+Montana's average district population size decreased by 451,712 individuals, Oregon's average district population size decreased by 62,804 individuals, and Mississippi's average district population size decreased by 3,581 individuals after the 2020 census. CRS calculations based on information provided in U.S. Census Bureau, Historical Apportionment Data (1910-2020) , April 26, 2021, https://www.census.gov/data/tables/time-series/dec/apportionment-data-text.html .
+5 .
+U.S. Census Bureau, Historical Apportionment Data (1910-2020) , https://www.census.gov/data/tables/time-series/dec/apportionment-data-text.html . See Table 3 for further information on average congressional district sizes since 1910.
+6 .
+See U.S. Census, "Presentation: 2020 Census Apportionment News Conference," 2020 Census Apportionment Counts Press Kit , April 26, 2021, https://www.census.gov/content/dam/Census/newsroom/press-kits/2021/20210426-apportionment-presentation.pdf ; see also Paul Mackun and Steven Wilson, Population Distribution and Change: 2000:2010 , U.S. Census Bureau, Report Number C2010BR-01, March 2011, https://www.census.gov/prod/cen2010/briefs/c2010br-01.pdf ; and Kristen D. Burnett, Congressional Apportionment: 2010 Census Briefs , U.S. Census Bureau, Report Number C2010BR-08, November 2011, pp. 4-5, https://www.census.gov/content/dam/Census/library/publications/2011/dec/c2010br-08.pdf . Historical information dating back to 1910 on state seat gains and losses, as well as the average number of people per representative in each state, is available from U.S. Census Bureau, Historical Apportionment Data (1910-2020) , April 26, 2021, https://www.census.gov/data/tables/time-series/dec/apportionment-data-text.html .
+7 .
+U.S. Census Bureau, "Table 1. Apportionment Population and Number of Representatives by State: 2020 Census," 2020 Census Apportionment Results , April 26, 2021, https://www2.census.gov/programs-surveys/decennial/2020/data/apportionment/apportionment-2020-table01.xlsx .
+8 .
+Article I, Section 2, clause 3, originally stated, "Representatives and direct Taxes shall be apportioned among the several States which may be included within this Union, according to their respective Numbers, which shall be determined by adding to the whole Number of free Persons, including those bound to Service for a Term of Years, and excluding Indians not taxed, three fifths of all other Persons." Following the abolition of slavery, the Fourteenth Amendment, Section 2, states, "Representatives shall be apportioned among the several States according to their respective numbers, counting the whole number of persons in each State, excluding Indians not taxed." For more information, see Office of the Historian, U.S. House of Representatives, "Proportional Representation," https://history.house.gov/Institution/Origins-Development/Proportional-Representation/ .
+9 .
+Article 1, Section 2, provides that a first census would be taken within three years of the first meeting of Congress, and until the population was formally enumerated by a census, there would be 65 House Members, allocated among New Hampshire (3), Massachusetts (8), Rhode Island (1), Connecticut (5), New York (6), New Jersey (4), Pennsylvania (8), Delaware (1), Maryland (6), Virginia (10), North Carolina (5), South Carolina (5), and Georgia (3).
+10 .
+For one overview of provisions contained in various apportionment acts, see Emanuel Celler, "Congressional Apportionment—Past, Present, and Future," Law and Contemporary Problems , vol. 17, no. 2 (Spring 1952), pp. 268-275, https://scholarship.law.duke.edu/lcp/vol17/iss2/3/ . Copies of past apportionment acts (1790-1941) are available from the U.S. Census Bureau at https://www.census.gov/history/www/reference/apportionment .
+11 .
+13 U.S.C. §2 note.
+12 .
+This excludes the nonvoting House seats held by Delegates and the Resident Commissioner; Article I, Section 2, and resulting apportionment practices, only address Representatives from U.S. states. For further discussion, see CRS Insight IN11547, Size of the U.S. House of Representatives .
+13 .
+The 1910 apportionment act (P.L. 62-5, August 8, 1911, 37 Stat. 13, Ch. 5) set the House size at 433, but provided for the addition of one seat each to New Mexico and Arizona, if they became states before the next apportionment, which they did. The next enacted apportionment bill was the Permanent Apportionment Act of 1929 (P.L. 71-13, June 18, 1929, 26 Stat. 21, Ch. 28), which preserved the methods of the preceding apportionment for subsequent apportionments. The enabling acts for Alaska and Hawaii statehood provided temporary increases in the size of the House to provide seats for the new states until the next regular reapportionment, and as a result, the House had 437 seats between 1959 and 1962. See P.L. 85-508, July 7, 1958; P.L. 86-3, March 18, 1959, 73 Stat. 4.
+14 .
+P.L. 77-291, November 15, 1941, 55 Stat. 761, Ch. 470. Similar provisions were contained in the Permanent Reapportionment Act of 1929.
+15 .
+13 U.S.C. §141(a). For additional information on the census process, see CRS In Focus IF12909, The Decennial Census of Population and Housing: An Overview ; and CRS Insight IN12403, Decennial Census and Apportionment: Frequently Asked Questions .
+16 .
+13 U.S.C. §141(b).
+17 .
+For further discussion of who is included in apportionment population counts, see U.S. Census Bureau, "Congressional Apportionment: Frequently Asked Questions," August 26, 2015, https://www.census.gov/topics/public-sector/congressional-apportionment/about/faqs.html . See also CRS Insight IN12403, Decennial Census and Apportionment: Frequently Asked Questions .
+18 .
+13 U.S.C. §141(b).
+19 .
+For example, see U.S. Census Bureau, "U.S. Census Bureau Announces 2010 Census Population Counts Apportionment Counts Delivered to President," press release, December 21, 2010, https://www.census.gov/newsroom/releases/archives/2010_census/cb10-cn93.html .
+20 .
+Permanent Apportionment Act of 1929, P.L. 71-13, June 18, 1929, 26 Stat. 21, Ch. 28.
+21 .
+P.L. 77-291, November 15, 1941, 55 Stat. 761, Ch. 470. The method of equal proportions is sometimes referred to as the Huntington-Hill method . Prior to the 1941 act, other apportionment methods could be used; one such alternative used in several reapportionments was the Webster method . Generally, these apportionment methods vary in how they approach fractional seat entitlements and what rounding points should be used in order to distribute those fractions of seats across states. For a discussion of alternate mathematical approaches, see U.S. Census Bureau, "Methods of Apportionment," July 18, 2017, https://www.census.gov/history/www/reference/apportionment/methods_of_apportionment.html ; and Laurence F. Schmeckebier, "The Method of Equal Proportions," Law and Contemporary Problems , vol. 17, no. 2 (Spring 1952), pp. 302-313.
+22 .
+A geometric mean is the square root of the product of two successive numbers multiplied by each other; the reciprocal of a geometric mean is 1 divided by the geometric mean. To find the "multiplier" for each state's second seat, for example, the geometric mean of 1 and 2 would be used; 1 multiplied by 2 equals 2, and the square root of 2 is 1.41452. The reciprocal of this geometric mean would be 1 divided by 1.41452, or 0.70711. For discussion on the method of equal proportions, and tables with multipliers and priority values for previous apportionments, see U.S. Census Bureau, "Computing Apportionment," Congressional Apportionment , February 4, 2013, https://www.census.gov/population/apportionment/about/computing.html .
+23 .
+P.L. 77-291, November 15, 1941, 55 Stat. 761, Ch. 470. The statute is written to apply to the first regular session of the 82 nd Congress "and of each fifth Congress thereafter."
+24 .
+In the 119 th Congress, for example, H.R. 4125 (Equal Voices Act) would increase the size of the House, based on an apportionment method contingent on an average congressional district size, and establish a commission to study future adjustments to the size of the House. Other examples of related legislation from the 118 th Congress included H.R. 622 (Restoring Equal and Accountable Legislators in the [REAL] House Act), H.R. 643 (Equal Voices Act), and H.Res. 1573 . For further discussion, see CRS Insight IN11547, Size of the U.S. House of Representatives .
+25 .
+In the 119 th Congress, examples include H.R. 151 / S. 2205 (Equal Representation Act), H.J.Res. 37 , H.R. 4798 (Making American Elections Great Again Act), and H.R. 7167 (Make It Count Act). Another bill from the 119 th Congress, H.R. 7219 (Fair Apportionment and Independent Redistricting for Maps that Avoid Partisanship [FAIR MAP] Act), would exclude aliens without lawful status under immigration laws from the apportionment count. Examples from the 118 th Congress included H.R. 7109 / S. 3659 (Equal Representation Act). For discussion of related topics, see CRS Insight IN12403, Decennial Census and Apportionment: Frequently Asked Questions .
+26 .
+This report is not intended to be a legal analysis. For additional information on redistricting law, see CRS Legal Sidebar LSB10639, Congressional Redistricting 2021: Legal Framework , CRS Report R44199, Congressional Redistricting: Legal and Constitutional Issues , and CRS Report R44798, Congressional Redistricting Law: Background and Recent Court Rulings .
+27 .
+For further discussion, see Jeanne C. Fromer, "An Exercise in Line-Drawing: Deriving and Measuring Fairness in Redistricting," Georgetown Law Journal , vol. 93 (2004-2005), pp. 1547-1623.
+28 .
+Michael Wines, "What Is Gerrymandering? What If the Supreme Court Bans It?" New York Times , March 26, 2019, https://www.nytimes.com/2019/03/26/us/what-is-gerrymandering.html ; John O'Loughlin, "The Identification and Evaluation of Racial Gerrymandering," Annals of the Association of American Geographers , vol. 72, no. 2 (June 1982), pp. 165-184; John N. Friedman and Richard T. Holden, "The Rising Incumbent Reelection Rate: What's Gerrymandering Got to Do With It?" Journal of Politics , vol. 71, no. 2 (April 2009), pp. 593-611; CRS Legal Sidebar LSB10164, Partisan Gerrymandering: Supreme Court Provides Guidance on Standing and Maintains Legal Status Quo .
+29 .
+Table 1 provides information on which states gained and lost seats following the 2020 census, and Table 2 provides additional historical data on the number of states and House seats affected by each apportionment since 1910.
+30 .
+See CRS Report R44798, Congressional Redistricting Law: Background and Recent Court Rulings .
+31 .
+Ibid.
+32 .
+P.L. 90-196, December 14, 1967, 81 Stat. 581. The requirement for single-member districts had previously appeared in the Apportionment Act of 1842 (June 25, 1842, 5 Stat. 491). For additional history, see Erik J. Engstrom, "The Origins of Single-Member Districts," ch. 3 in Partisan Gerrymandering and the Construction of American Democracy (University of Michigan Press, 2013), pp. 43-55.
+33 .
+Examples include a requirement for equal population size "as nearly as practicable" ("An Act for the Apportionment of Representatives to Congress among the several States according to the ninth Census," February 2, 1872, 17 Stat. 28); and districts of "contiguous and compact territory" ("An Act Making an apportionment of Representatives in Congress among the several States under the Twelfth Census," January 16, 1901, 31 Stat. 733; "An Act for the apportionment of Representatives in Congress among the several States under the Thirteenth Census," P.L. 62-5, August 8, 1911, 37 Stat. 13, Ch. 5). Some of these provisions appeared in several subsequent apportionment bills.
+34 .
+P.L. 77-291, November 15, 1941, 55 Stat. 761, Ch. 470.
+35 .
+See CRS Report R44798, Congressional Redistricting Law: Background and Recent Court Rulings , for additional information.
+36 .
+Adam Mueller, "The Implications of Legislative Power: State Constitutions, State Legislatures, and Mid-Decade Redistricting," Boston College Law Review , vol. 48 (2007), p. 1344.
+37 .
+"Redistricting Lawsuits Relating to the 2010 Census," Ballotpedia , updated September 2015, https://ballotpedia.org/Redistricting_lawsuits_relating_to_the_2010_Census .
+38 .
+For one listing of litigation across states for both congressional districts and state legislative districts, see Michael Li et al., "The State of Redistricting Litigation," Brennan Center for Justice, April 1, 2021, https://www.brennancenter.org/blog/state-redistricting-litigation . See also "Redistricting Lawsuits Relating to the 2010 Census," Ballotpedia , updated September 2015, https://ballotpedia.org/Redistricting_lawsuits_relating_to_the_2010_Census . These resources provide examples of some recent legal challenges but may not represent a comprehensive account of all cases.
+39 .
+Historical apportionment acts can be viewed at U.S. Census Bureau, "Apportionment Legislation 1840-1880," https://www.census.gov/about/history/historical-censuses-and-surveys/census-programs-surveys/decennial-census/legislation-1840-1880.html ; U.S. Census Bureau, "Apportionment Legislation 1890-Present," https://www.census.gov/about/history/historical-censuses-and-surveys/census-programs-surveys/decennial-census/legislation-1890-present.html .
+40 .
+See CRS Report R44798, Congressional Redistricting Law: Background and Recent Court Rulings .
+For an overview of these, and related, Supreme Court cases, see National Conference of State Legislatures, "Cases Relating to Population," in Redistricting and the Supreme Court: The Most Significant Cases , July 19, 2018, http://www.ncsl.org/research/redistricting/redistricting-and-the-supreme-court-the-most-significant-cases.aspx ; also National Conference of State Legislatures, "Equal Population," in Redistricting Law 2010 , December 1, 2009, ch. 3, http://www.ncsl.org/research/redistricting/redistricting-law-2010.aspx .
+41 .
+See National Conference of State Legislatures, "Measuring Population Equality Among Districts," in Redistricting Law 2010 , December 1, 2009, pp. 23-25, http://www.ncsl.org/research/redistricting/redistricting-law-2010.aspx .
+42 .
+U.S. Census Bureau, Historical Apportionment Data (1910-20202) , https://www.census.gov/data/tables/time-series/dec/apportionment-data-text.html . See also Drew Desilver, "U.S. Population Keeps Growing, But House of Representatives Is Same Size As in Taft Era," FactTank , Pew Research Center, May 31, 2018, https://www.pewresearch.org/fact-tank/2018/05/31/u-s-population-keeps-growing-but-house-of-representatives-is-same-size-as-in-taft-era/ .
+43 .
+Adam Mueller, "The Implications of Legislative Power: State Constitutions, State Legislatures, and Mid-Decade Redistricting," Boston College Law Review , vol. 48 (2007), p. 1351.
+44 .
+P.L. 94-171 , December 23, 1975, 89 Stat. 1023; 13 U.S.C. §141(c). See also U.S. Census Bureau, "Redistricting Data Program Management," updated December 27, 2018, https://www.census.gov/programs-surveys/decennial-census/about/rdo/program-management.html ; and Catherine McCully, Designing P.L. 94-171 Redistricting Data for the Year 2020 Census: The View from the States , U.S. Census Bureau, December 2014, https://www.census.gov/library/publications/2014/rdo/pl94-171.html .
+45 .
+This report is not intended to be a legal analysis of these topics; for additional information on related redistricting law, see CRS Legal Sidebar LSB10639, Congressional Redistricting 2021: Legal Framework , CRS Report R44199, Congressional Redistricting: Legal and Constitutional Issues , and CRS Report R44798, Congressional Redistricting Law: Background and Recent Court Rulings .
+46 .
+52 U.S.C. §§10301, 10303(f)(2).
+47 .
+An overview of common districting principles, and a chart detailing current requirements across states, are available in National Conference of State Legislatures, "Redistricting Criteria," September 3, 2025, https://www.ncsl.org/elections-and-campaigns/redistricting-criteria . For an overview of how certain criteria have been applied over time, see Micah Altman, "Traditional Districting Principles: Judicial Myths vs. Reality," Social Science History , vol. 22, no. 2 (Summer 1998), pp. 159-200.
+48 .
+For additional background on compactness as a redistricting principle, see William Bunge, "Gerrymandering, Geography, and Grouping," Geographical Review , vol. 56, no. 2 (April 1966), pp. 256-263; Jacob S. Siegel, "Geographic Compactness vs. Race/Ethnic Compactness and Other Criteria in the Delineation of Legislative Districts," Population Research and Policy Review , vol. 15, no. 2 (April 1996), pp. 147-164; Richard G. Niemi et al., "Measuring Compactness and the Role of a Compactness Standard in a Test for Partisan and Racial Gerrymandering," Journal of Politics , vol. 52, no. 4 (November 1990), pp. 1155-1181; and Daniel D. Polsby and Robert D. Popper, "The Third Criterion: Compactness as a Procedural Safeguard Against Partisan Gerrymandering," Yale Law and Policy Review , vol. 9, no. 2 (Spring/Summer 1991), pp. 301-353.
+49 .
+National Conference of State Legislatures, "Redistricting Criteria," September 3, 2025, https://www.ncsl.org/elections-and-campaigns/redistricting-criteria ; for further discussion, see Aaron Kaufman et al., "How to Measure Legislative District Compactness If You Only Know It When You See It," working paper, updated December 29, 2020, https://gking.harvard.edu/files/gking/files/compact.pdf , pp. 1-5.
+50 .
+See "Compactness" section from Justin Levitt, "Where Are the Lines Drawn?" All About Redistricting , Loyola Law School, 2020, http://redistricting.lls.edu/where-state.php#contiguity .
+51 .
+Historical apportionment acts can be viewed at U.S. Census Bureau, "Apportionment Legislation 1840-1880," https://www.census.gov/about/history/historical-censuses-and-surveys/census-programs-surveys/decennial-census/legislation-1840-1880.html ; U.S. Census Bureau, "Apportionment Legislation 1890-Present," https://www.census.gov/about/history/historical-censuses-and-surveys/census-programs-surveys/decennial-census/legislation-1890-present.html .
+52 .
+See "Contiguity" section from Justin Levitt, "Where Are the Lines Drawn?" All About Redistricting , Loyola Law School, 2020, https://redistricting.lls.edu/redistricting-101/where-are-the-lines-drawn/#contiguity .
+53 .
+National Conference of State Legislatures, "Redistricting Criteria," September 3, 2025, https://www.ncsl.org/elections-and-campaigns/redistricting-criteria .
+54 .
+See "Communities of interest" section from Justin Levitt, "Where Are the Lines Drawn?" All About Redistricting , Loyola Law School, 2020, https://redistricting.lls.edu/redistricting-101/where-are-the-lines-drawn/#communities+of+interest .
+55 .
+In 1812, the term was coined to describe a salamander-shaped state legislative district in Massachusetts that benefitted Governor Elbridge Gerry's party. See Erick Trickey, "Where Did the Term 'Gerrymander' Come From?" Smithsonian Magazine , July 20, 2017, https://www.smithsonianmag.com/history/where-did-term-gerrymander-come-180964118/ .
+56 .
+Cases addressing partisan gerrymandering have recently been heard by the Supreme Court; for more information, see CRS Legal Sidebar LSB10324, Partisan Gerrymandering Claims Not Subject to Federal Court Review: Considerations Going Forward ; CRS Legal Sidebar LSB10276, Supreme Court Once Again Considers Partisan Gerrymandering: Implications and Legislative Options ; and CRS Legal Sidebar LSB10164, Partisan Gerrymandering: Supreme Court Provides Guidance on Standing and Maintains Legal Status Quo .
+57 .
+National Conference of State Legislatures, "Redistricting Criteria," September 3, 2025, https://www.ncsl.org/elections-and-campaigns/redistricting-criteria .
+58 .
+Some states have engaged or may potentially engage in subsequent mid-decade redistricting; processes for mid-decade redistricting may differ than those shown in Figure 3 . For more information, see CRS In Focus IF13082, Mid-Decade Congressional Redistricting: Key Issues .
+59 .
+See "State-by-State Redistricting Procedures," Ballotpedia , https://ballotpedia.org//State-by-state_redistricting_procedures .
+60 .
+National Conference of State Legislatures, "Redistricting Commissions: Congressional Plans," August 29, 2025, https://www.ncsl.org/redistricting-and-census/redistricting-commissions-congressional-plans .
+61 .
+Wisconsin also used an advisory redistricting commission for the 2020 redistricting cycle, which was established by executive order; see Governor Tony Evers, "Executive Order #66," January 27, 2020, https://evers.wi.gov/Documents/EO/EO066-PeoplesMapsCommission.pdf .
+62 .
+John A. Henderson et al., "Gerrymandering Incumbency: Does Nonpartisan Redistricting Increase Electoral Competition?" The Journal of Politics , vol. 80, no. 3 (July 2018), pp. 1011-1016; Jamie L. Carson et al., "Reevaluating the Effects of Redistricting on Electoral Competition, 1972-2012," State Politics & Policy Quarterly , vol. 14, no 2 (June 2014), pp. 165-177); Katie Zezima and Emily Wax-Thibodeaux, "Voters Are Stripping Partisan Redistricting Power from Politicians in Anti-Gerrymandering Efforts," Washington Post , November 7, 2018, https://www.washingtonpost.com/national/voters-are-stripping-partisan-redistricting-power-from-politicians-in-anti-gerrymandering-efforts/2018/11/07/2a239a5e-e1d9-11e8-b759-3d88a5ce9e19_story.html ; Lyle Denniston, "Opinion Analysis: A Cure for Partisan Gerrymandering?" SCOTUSblog , June 29, 2015, https://www.scotusblog.com/2015/06/opinion-analysis-a-cure-for-partisan-gerrymandering/ .
+63 .
+For example, see Alan Abramowitz et al., "Don't Blame Redistricting for Uncompetitive Elections," PS: Political Science and Politics , vol. 2839, no. 1 (January 2006), pp. 87-90; David A. Lieb, "New redistricting commissions splinter along partisan lines," Associated Press, September 18, 2021, https://apnews.com/article/elections-ohio-virginia-redistricting-voting-districts-b27ebd5a7dd99ad613ac896ed16ffcde ; Meagan Flynn, "Virginia's redistricting commission's failure to transcend partisanship has lessons for other states, critics say," Washington Post , October 25, 2021, https://www.washingtonpost.com/dc-md-va/2021/10/25/redistricting-virginia-lessons-partisan/ ; and Nick Corasaniti and Reid J. Epstein, "How a Cure for Gerrymandering Left U.S. Politics Ailing in New Ways," New York Times , November 17, 2021, https://www.nytimes.com/2021/11/17/us/politics/gerrymandering-redistricting.html .
+64 .
+For general historical background and an analysis of state redistricting timeline considerations, see Erik J. Engstrom, "The Strategic Timing of Congressional Redistricting," ch. 4 in Partisan Gerrymandering and the Construction of American Democracy (University of Michigan Press, 2013), pp. 59-79. A number of lawsuits related to redistricting following the 2010 census remain pending in 2019; see David A. Lieb, "Gerrymandering Lawsuits Are Pending in a Dozen States," Associated Press, March 21, 2019, https://apnews.com//0e7691a32c954975850de9e 78b9b73cc . According to one count, lawsuits were filed in 38 states during the 2010 redistricting cycle; see "Redistricting Lawsuits Related to the 2010 Census," Ballotpedia , updated April 17, 2019, https://ballotpedia.org//Redistricting_lawsuits_relating_to_the_2010_Census .
+65 .
+The Census Bureau announced that states will be receiving redistricting data based on the 2020 census by September 30, 2021. See James Whitehorne, "Timeline for Releasing Redistricting Data," U.S. Census Bureau , February 12, 2021, https://www.census.gov/newsroom/blogs/random-samplings/2021/02/timeline-redistricting-data.html .
+66 .
+See "Status of Redistricting After the 2020 Census," Ballotpedia , https://ballotpedia.org/Status_of_redistricting_after_the_2020_census . For an illustration of the timeline of how congressional redistricting processes unfolded across states following the 2010 apportionment, see the chart created by Justin Levitt, "Maps across the 2010 cycle," All About Redistricting , Loyola Law School, 2020, https://redistricting.lls.edu/resources/maps-across-the-cycle-2010-congress/ . District maps may also face later legal challenges that require further adjustments; for challenges following the 2020 census, see "Redistricting lawsuits in the 2020 redistricting cycle," Ballotpedia , https://ballotpedia.org/Redistricting_lawsuits_in_the_2020_redistricting_cycle , and for challenges following the 2010 census, see "Redistricting lawsuits relating to the 2010 Census," Ballotpedia , https://ballotpedia.org/Redistricting_ lawsuits_relating_to_the_2010_Census .
+67 .
+Justin Levitt and Michael P. McDonald, "Taking the 'Re' out of Redistricting: State Constitutional Provisions on Redistricting Timing," Georgetown Law Journal , vol. 95 (2007), pp. 1247-1285; Adam Mueller, "The Implications of Legislative Power: State Constitutions, State Legislatures, and Mid-Decade Redistricting," Boston College Law Review , vol. 48 (2007), pp. 1343-1386.
+68 .
+For information on recent efforts by states to engage in mid-decade redistricting, see National Conference of State Legislatures, "Changing the Maps: Tracking Mid-Decade Redistricting," May 8, 2026, https://www.ncsl.org/redistricting-and-census/changing-the-maps-tracking-mid-decade-redistricting .
+69 .
+Such bills from the 119 th Congress to date include H.R. 4632 (Fair Representation Act), H.R. 5426 (John Tanner and Jim Cooper Fairness and Independence in Redistricting Act), and H.R. 5449 / S. 2885 (Redistricting Reform Act of 2025). Examples from the 118 th Congress included H.R. 11 / S. 1 / S. 2344 (Freedom to Vote Act), H.R. 2646 / H.R. 3221 (John Tanner and Jim Cooper Fairness and Independence in Redistricting Act), H.R. 7740 (Fair Representation Act), H.R. 7910 (Fair and Impartial Redistricting for Meaningful and Accountable Political Systems [FAIR MAPS] Act), and S. 3750 (Redistricting Reform Act of 2024). Examples from the 117 th Congress included H.R. 1 / S. 1 / S. 2093 (For the People Act of 2021), H.R. 80 / H.R. 4307 (John Tanner Fairness and Independence in Redistricting Act), H.R. 3863 (Fair Representation Act), H.R. 5746 (Freedom to Vote: John R. Lewis Act), S. 2670 (Redistricting Reform Act of 2021), S. 5335 (Redistricting Reform Act of 2021), and S. 2747 (Freedom to Vote Act).
+70 .
+Bills from the 119 th Congress to date that would require states to use redistricting commissions include H.R. 158 (Citizen Legislature Anti-Corruption Reform of Elections [CLEAN Elections] Act), H.R. 5426 (John Tanner and Jim Cooper Fairness and Independence in Redistricting Act), H.R. 5449 / S. 2885 (Redistricting Reform Act of 2025), and H.R. 5921 (Redistricting Transparency and Accountability Act of 2025). Bills from the 118 th Congress that would have required states to use redistricting commissions included H.R. 157 (Citizen Legislature Anti-Corruption Reform of Elections [CLEAN Elections] Act), H.R. 2646 / H.R. 3221 (John Tanner and Jim Cooper Fairness and Independence in Redistricting Act), and H.R. 7910 (Fair And Impartial Redistricting for Meaningful and Accountable Political Systems [FAIR MAPS] Act). Bills from the 117 th Congress to date that would require states to use redistricting commissions included H.R. 1 / S. 1 / S. 2093 (For the People Act of 2021), H.R. 80 / H.R. 4307 (John Tanner Fairness and Independence in Redistricting Act), H.R. 100 (Citizen Legislature Anti-Corruption Reform of Elections [CLEAN Elections] Act), H.R. 3863 (Fair Representation Act), and S. 2670 (Redistricting Reform Act of 2021). Another proposal from the 117 th Congress, S. 2747 (Freedom to Vote Act), would not have created this requirement for states but would have provided funding to states that engage in certain election practices, including using an independent redistricting commission. Some bills related to redistricting commissions have also included measures to provide for public input and transparency regarding the redistricting process. Other bills have included provisions to include public participation in redistricting processes or public notice about district boundary changes, but would not require states to use redistricting commissions. Bills addressing public participation in redistricting in the 119 th Congress to date include H.R. 5921 (Redistricting Transparency and Accountability Act of 2025); similar measures from previous Congresses included H.R. 11 / S. 1 / S. 2344 (Freedom to Vote Act) and H.R. 7095 (Redistricting Transparency and Accountability Act) in the 118 th Congress, as well as H.R. 81 (Redistricting Transparency Act of 2021) in the 117 th Congress. Other examples from the 117 th Congress included H.R. 1366 (Protect the Youth Vote Act of 2021) and H.R. 7948 . Some bills introduced in recent Congresses address public notice about district boundary changes under certain circumstances, including H.R. 14 / S. 2523 (John R. Lewis Voting Rights Advancement Act of 2025) in the 119 th Congress; similar measures (with similar titles) from the 118 th Congress included H.R. 14 and S. 4 , and similar measures from the 117 th Congress included H.R. 4 , S. 4 , and H.R. 5746 .
+71 .
+For more information, see CRS In Focus IF13082, Mid-Decade Congressional Redistricting: Key Issues . Bills with related provisions from the 119 th Congress to date include H.R. 4358 (Anti-Rigging Act of 2025), H.R. 4632 (Fair Representation Act), H.R. 4889 (To prohibit States from carrying out more than one Congressional redistricting after a decennial census and apportionment), H.R. 5426 (John Tanner and Jim Cooper Fairness and Independence in Redistricting Act), H.R. 5449 / S. 2885 (Redistricting Reform Act of 2025), H.R. 5837 (Restoring Electoral Stability to Enhance Trust [RESET] Act of 2025), H.R. 5879 (Save American Democracy Act), H.R. 7167 (Make it Count Act), and H.R. 7219 (Fair Apportionment and Independent Redistricting for Maps that Avoid Partisanship [FAIR MAP] Act). Examples from the 118 th Congress included H.R. 11 / S. 1 (Freedom to Vote Act), H.R. 42 (Coretta Scott King Mid-Decade Redistricting Prohibition Act of 2023), H.R. 2646 / H.R. 3221 (John Tanner and Jim Cooper Fairness and Independence in Redistricting Act), S. 3750 (Redistricting Reform Act of 2024), H.R. 7740 (Fair Representation Act), and H.R. 7910 (Fair and Impartial Redistricting for Meaningful and Accountable Political Systems [FAIR MAPS] Act). Examples from the 117 th Congress included H.R. 1 / S. 1 / S. 2093 (For the People Act), H.R. 80 / H.R. 4307 (John Tanner Fairness and Independence in Redistricting Act), H.R. 134 (Coretta Scott King Mid-Decade Redistricting Prohibition Act of 2021), H.R. 3863 (Fair Representation Act), H.R. 5746 (Freedom to Vote: John R. Lewis Act), S. 5335 (Redistricting Reform Act of 2022), S. 2670 (Redistricting Reform Act of 2021), and S. 2747 (Freedom to Vote Act).
+72 .
+For example, in the 119 th Congress, see H.R. 4798 (Making American Elections Great Again Act).
+73 .
+Examples of such bills from the 119 th Congress include H.R. 14 (John R. Lewis Voting Rights Advancement Act of 2025); similar bills (with similar titles) from the 118 th Congress included H.R. 14 and from the 117 th Congress included H.R. 4 and S. 4 .
+74 .
+For additional information and resources, see CRS In Focus IF11097, H.R. 1 and S. 1: Overview and Related CRS Products .
+75 .
+For additional information, see Michael L. Balinski and H. Peyton Young, Fair Representation: Meeting the Ideal of One Man, One Vote (New Haven, CT: Yale University Press, 1982); and Efton Park, "The Mathematics of Apportionment," University of Chicago Law School Roundtable , vol. 7, no. 1 (2000), pp. 227-237, https://chicagounbound.uchicago.edu/roundtable/vol7/iss1/9/? .
+76 .
+In practice, each House district must also be geographically contained within a state's boundaries; states cannot share districts.
+77 .
+For example, the first amendment proposed by James Madison for the Bill of Rights addressed apportionment, but it was not ratified. See Akhil Reed Amar, The Bill of Rights (Yale University Press, 1998), pp. 8-17; and Rosemarie Zagarri, The Politics of Size: Representation in the United States, 1776-1850 (Cornell University Press, 1987).
+78 .
+An additional decision rule may also be necessary to ensure that each state receives at least one House seat, as required by the Constitution.
+79 .
+An exception occurred in 1842, when the number of House seats decreased; for additional details, see Martin H. Quitt, "Congressional (Partisan) Constitutionalism: The Apportionment Act Debate of 1842 and 1844," Journal of the Early Republic , vol. 28, no. 4 (Winter 2008), pp. 627-651.
+80 .
+P.L. 62-5, August 8, 1911, 37 Stat. 13, Ch. 5.
+81 .
+For some of these considerations, see summary provided in Christopher St. John Yates, "A House of Our Own or a House We've Outgrown," Columbia Journal of Law and Social Problems , vol. 25 (1992), pp. 174-187.
+82 .
+An additional decision rule may also be necessary to ensure that each state receives at least one House seat, as required by the Constitution.
+83 .
+Although the method contained in the bill was a product of congressional debate, it has become associated with Secretary of State Alexander Hamilton. President Washington sought opinions from his Cabinet on the apportionment bill, and Hamilton wrote in support of this approach; Hamilton's letter is available at https://founders.archives.gov/documents/Hamilton/01-11-02-0189-0002 . See also Balinski and Young, ch. 3.
+84 .
+For example, the rounding rule could result in a larger number of House seats (i.e., if each state's q had a remainder of 0.5 or above) or smaller number of House seats (i.e., if each state's q had a remainder lower than 0.5) than expected. Exceptions to the Webster method "rule" would have to be made for any state receiving a quota of less than 0.5 so that the state would receive one House seat, as required by the Constitution.
+85 .
+The Census Bureau typically calculates and provides a list of priority values for each apportionment; for the 2020 priority list, see U.S. Census Bureau, "2020 Census Apportionment Results," December 2020, https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html .
+Download PDF
+Download EPUB
+Revision History
+May. 20, 2026
+HTML
+·
+PDF
+<1% changed
+Mar. 4, 2026
+HTML
+·
+PDF
+51% changed
+Nov. 22, 2021
+HTML
+·
+PDF
+1% changed
+May. 12, 2021
+HTML
+·
+PDF
+56% changed
+Oct. 10, 2019
+HTML
+·
+PDF
+Metadata
+Report Type: Reports
+Source: Congress.gov , CRSReports.Congress.gov , EveryCRSReport.com
+Raw Metadata: JSON
