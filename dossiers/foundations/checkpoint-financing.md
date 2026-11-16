@@ -30,11 +30,11 @@ Units:
    | States: 100% of what they used to spend on Medicaid for the people who move | 466 |
    | Tax on the pay that used to go to premiums | 358 |
    | Five new taxes at the top and on corporations: a wealth tax, a financial transactions tax, capital gains taxed like pay above $1 million, a higher corporate rate, and the investment-income tax on pass-through business income | 385 |
-   | The Medicare payroll tax, 2.9% as today ($580B), less the worker's part that the health contribution replaces ($440B) | 140 |
+   | The Medicare payroll tax, 2.9% as today ($580B), less the Medicare taxes the health contribution replaces ($440B: the worker's 1.45%, $326B; the 0.9% Additional Medicare Tax, $53.5B; worker HI on former premiums, $16B; H1b's wage half, $43.5B) | 140 |
    | Revenue the plan already counted for its other flagships, which health now takes first | 516 |
    | **Total** | **7,345** |
 
-   The household contribution's sections 1 and 6 explain the $440B. On the budget model's own run, health's call on booked revenue is $518B.
+   The household contribution's sections 6 and 7 explain the $440B. On the budget model's own run, health's call on booked revenue is $518B.
 3. **The household contribution, as decided.** It is one health contribution in place of the worker's Medicare taxes (`DEC-2026-11-15-10` to `-13`, `DEC-2026-11-16-01`):
    - **2.25% of AGI** (adjusted gross income, the income on the tax return);
    - **plus 5.96 points on AGI above $205,400 single or $256,750 joint** (2026 dollars, indexed);
