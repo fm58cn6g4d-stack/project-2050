@@ -347,7 +347,7 @@ Sources for the typed keys and conventions: CBO, *The Distribution of Household 
 
 From `intervals.py` (run 2026-11-16, model at `e561ca5`), on the Census's 160 replicate weights (134,729 people, every one joined). Successive difference replication: SE = √(4/160 × Σ(estimate with replicate r − estimate with the base weight)²), and the 90% interval is ±1.645 SE. **Sampling error only**: the survey's under-reporting, top-coding and the model's assumptions are not in these intervals, and for most outputs they are larger. Each record's computed amounts are held fixed and reweighted; groups, measured keys and household counts are recomputed in every replicate (`intervals.py`'s docstring).
 
-Every estimate this run also computes is within half an interval of the interval run's, so the intervals apply as they stand.
+**Stale:** this run's estimate has moved by more than half an interval since the interval run for `d3_net_per_household.Q-H7_net_Q1`, `d3_net_per_household.Q-H7_net_Q2`, `d3_net_per_household.Q-H7_net_Q3`, `d3_net_per_household.Q-H7_net_Q4`, `d3_net_per_household.Q-H7_net_Q5`, `d3_net_per_household.Q-H7_net_T1`. The half-widths still describe the sample; rerun `intervals.py` to refresh the centers.
 
 **SPM poverty.** The 2025 intervals match the Census's own published 90% margins for 2025 (about ±0.3 points for all people and ±0.6 for children), a check on the method.
 
@@ -376,7 +376,7 @@ In 2029: 46.5 million poor people (±1.1), of whom 10.0 million children (±0.4)
 | Q-C19 | +$9,464 ±103 | +$5,528 ±86 | +$3,313 ±64 | −$293 ±54 | −$47,894 ±272 | −$637,917 ±3,607 | yes |
 | Q-SAF | +$9,503 ±103 | +$5,618 ±86 | +$3,482 ±65 | −$76 ±54 | −$47,677 ±271 | −$637,624 ±3,605 | yes |
 | Q-EDU | +$9,894 ±102 | +$5,689 ±85 | +$2,987 ±65 | −$1,335 ±59 | −$49,367 ±288 | −$630,830 ±3,567 | yes |
-| Q-H7 | +$15,232 ±157 | +$15,617 ±212 | +$18,179 ±218 | +$18,542 ±209 | −$26,857 ±237 | −$621,186 ±3,550 | yes |
+| Q-H7 | +$14,691 ±157 | +$13,293 ±212 | +$12,575 ±218 | +$8,130 ±209 | −$56,461 ±237 | −$867,350 ±3,550 | yes |
 
 These are the sampling error of the measured keys, the household count and the groups' incomes, which move together in each replicate. The typed keys, which carry most of the costs, have none here: their uncertainty is a modeling one (`keys.csv`).
 
