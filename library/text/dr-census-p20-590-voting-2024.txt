@@ -1,0 +1,3936 @@
+Source: https://www2.census.gov/library/publications/2026/demo/p20-590.pdf
+Publisher: U.S. Census Bureau
+Retrieved: 2026-11-16
+Original SHA-256: 88c0358e63689f8cbc741f508874f09413ae114123bc6f0107968b73612ecb07
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Voting and Registration in the Election of
+November 2024
+Population Characteristics
+Current Population Reports
+By Leslie K. Davis and Erik L. Hernandez
+P20-590
+August 2026
+
+INTRODUCTION
+The U.S. Census Bureau conducts the Current
+Population Survey’s (CPS) Voting and Registration
+Supplement following each national election in
+November to ask eligible respondents about their
+voting and registration behavior. The supplement
+is fielded after presidential elections, when both
+congressional seats and the presidency are decided,
+and midterm elections, when congressional seats are
+the highest offices decided. The CPS has surveyed
+Americans eligible to vote in these elections since
+1964, and estimates derived from this survey are
+among the most consistently reliable and publicly
+available estimates of the characteristics of American
+voters.1, 2
+The 2024 presidential election showed a decrease
+in voter turnout from 2020, alongside an increase
+in the citizen voting-age population; the number of
+registered citizens also increased.3 Other notable
+highlights include:
+• Those ages 45–64 were the most predominant age
+group among voters, constituting one-third of the
+voting population in 2024 (33.3 percent).
+• Those with some college or an associate’s degree,
+and those with a bachelor’s degree or higher,
+1
+Americans eligible to vote, as used in this report, refers to citizens
+in the civilian population who are 18 years old or older.
+2
+Michael P. McDonald, “The True Electorate: A Cross-Validation of
+Voter Registration Files and Election Survey Demographics,” Public
+Opinion Quarterly, vol. 71, issue 4, 2007, pp. 588–602.
+3
+The U.S. Census Bureau has reviewed this data product to
+ensure appropriate access, use, and disclosure avoidance protection
+of the confidential source data used to produce this product. Data
+Management System (DMS) number: P-7534375 and Disclosure
+Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+were consistently overrepresented in presidential
+elections between 2012 and 2024, while those with
+a high school diploma or who did not complete
+high school were underrepresented.
+• About half of voters (48.8 percent) earned at least
+$100,000 in annual family income, 29.7 percent of
+whom made $150,000 and over.
+• Nontraditional voting in 2024 fell by 9.3 percentage
+points compared to the 2020 presidential election
+(60.1 percent vs. 69.4 percent, respectively).
+• Nearly one-fifth (19.7 percent) of registered
+nonvoters were not interested or felt their vote
+would not make a difference in the election as their
+reason for not voting.
+This report uses the 2024 CPS November Voting and
+Registration Supplement to analyze voters, nonvoters,
+and voting methods by age, race and ethnicity,
+educational attainment, sex, and family income—
+characteristics historically associated with voter
+turnout.4 This report explores trends across these
+characteristics from 1980 to 2024 using past years of
+the Voting and Registration Supplement. Although
+4
+Clem Brooks and Jeff Manza, “Social Cleavages and Political
+Alignments: U.S. Presidential Elections, 1960 to 1992,” American
+Sociological Review, vol. 62, no. 6, 1997, pp. 937–946; Kelly Dittmar,
+“Women Voters,” Minority Voting in the United States, eds. Kyle
+L. Kreider and Thomas J. Baldino, 2015; Thom File, “Who Votes?
+Congressional Elections and the American Electorate: 1978–2014,”
+Population Characteristics, P20-577, U.S. Census Bureau, Washington,
+DC, 2015; Thom File, “The Diversifying Electorate—Voting Rates by
+Race and Hispanic Origin in 2012 (and Other Recent Elections),”
+Population Characteristics, P20-568, U.S. Census Bureau, Washington,
+DC, 2013; Thom File, “Young-Adult Voting: An Analysis of Presidential
+Elections, 1964–2012,” Population Characteristics, P20-573,
+U.S. Census Bureau, Washington, DC, 2014; and Jan E. Leighley and
+Jonathan Nagler, Who Votes Now?: Demographics, Issues, Inequality,
+and Turnout in the United States, Princeton University Press, 2014.
+
+the supplement began in 1964,
+this analysis is limited to 1980
+and later due to issues with data
+comparability and availability in
+earlier supplements. Given the
+documented differences in voting
+behavior between midterm and
+presidential elections, this report
+focuses on comparisons between
+the 2024 election and previous
+presidential elections (historical
+CPS voting products are available
+at <www.census.gov/data/tables/
+time-series/demo/voting-andregistration/voting-historical-timeseries.html>).
+This report begins with a
+description of the CPS November
+Voting and Registration
+Supplement as well as the
+definition of key populations
+and terms used throughout the
+report. The "American Voters
+Over Time: Presidential Elections
+1980–2024" section details trends
+in the demographics of voters
+and provides a brief comparison
+to the demographic trends of the
+citizen voting-age population. The
+"Over- and Underrepresentation
+Among Voters in 2024" section
+explores prominent national
+voter trends by demographic
+characteristics. The “Method of
+Voting in the 2024 Presidential
+Election” section compares rates
+of early voting and voting by mail
+by voter characteristics. The final
+section, entitled "Nonparticipation
+in the 2024 Presidential Election,"
+highlights the reasons why
+nonvoters did not vote or did not
+register to vote.
+
+UNDERSTANDING VOTING
+The CPS is a monthly household
+survey collected as the primary
+
+2
+
+Comparing Current Population Survey (CPS) Voting Estimates to
+Official Reports
+Estimates in this report are based on responses to the November
+Voting and Registration Supplement to the CPS, which surveys the
+civilian, noninstitutionalized population in the United States. Voting
+estimates from the CPS and other sample surveys have historically
+differed from those based on administrative records, such as the
+official reports from each state disseminated collectively by the
+Clerk of the U.S. House of Representatives and the Federal Election
+Commission. In general, sample surveys like the CPS tend to yield
+higher voting rates than official results.1 Potential explanations for
+these differences include question misreporting, problems with
+memory or knowledge of others’ behavior, social desirability bias,
+and methodological issues related to question wording, method of
+survey administration, and survey nonresponse bias. Despite these
+observed differences between CPS estimates and official tallies,
+the CPS remains the most comprehensive data source available for
+examining the social and demographic composition of American
+voters in federal elections, particularly when examining broad
+historical results.2
+1
+Mary G. Powers and Richard W. Dodge, “Voter Participation in the National Election
+November 1964,” Current Population Reports, P20-143, U.S. Census Bureau, Washington,
+DC, 1965, and Matthew DeBell, Jon A. Krosnick, Katie Gera, David S. Yeager, and Michael
+P. McDonald, “The Turnout Gap in Surveys: Explanations and Solutions,” Sociological
+Methods & Research, May 7, 2018.
+2
+Michael P. McDonald, “The True Electorate: A Cross-Validation of Voter Registration
+Files and Election Survey Demographics,” Public Opinion Quarterly, vol. 71, issue 4, 2007,
+pp. 588–602.
+
+source of labor force statistics for
+the civilian, noninstitutionalized
+U.S. population. The survey is
+administered to a sample of
+approximately 60,000 occupied
+housing units in all 50 states and
+the District of Columbia. Along
+with the regular labor force
+questions, the survey features
+different sets of supplemental
+questions in certain months.
+Conducted in November of
+even-numbered years following
+national elections, the Voting
+and Registration Supplement
+asks eligible respondents a series
+of questions about their voting
+and registration behavior during
+
+the latest election.5 Eligible
+respondents are those in the
+citizen voting-age population,
+detailed further below, as
+determined by responses to
+questions about age and
+citizenship in the labor force
+portion of the survey.
+Eligible respondents are first asked
+whether they voted in the most
+recent national election. Those
+who indicated that they voted
+are assumed to be registered
+and are asked further questions
+regarding their method of voting
+and registration. Those who did
+5
+Since the CPS allows proxy responses,
+“eligible respondents” includes proxies for
+eligible respondents.
+
+U.S. Census Bureau
+
+not indicate they voted, including
+those who responded that they
+did not vote, “Don’t know,” and
+those who refused to respond,
+were asked questions about their
+registration status. Those who
+did not vote and those who did
+not register were asked for the
+main reason they did not vote or
+register. The final question of the
+supplement asked respondents
+how long they have lived at their
+current address.
+These questions result in the
+following population universes:6
+Voting-age population (VAP):
+The population age 18 or older
+on Election Day. This group
+includes both noncitizens (who
+are ineligible to vote) and citizens.
+In 2024, there were 260.4 million
+people in the VAP.
+Citizen voting-age population
+(CVAP): Those who are citizens
+and in the VAP. This subset of
+the VAP is the pool of eligible
+voters, or those who may
+register to vote and cast a ballot
+in a national election. Much
+of this report focuses on this
+universe of respondents. Those
+in this population are eligible
+respondents of the Voting and
+Registration Supplement. In 2024,
+there were 236.1 million citizens of
+voting age.
+Noncitizens: Those who are
+not U.S. citizens and, therefore,
+ineligible to vote in national
+elections. Respondents to the CPS
+who indicate they are noncitizens
+are not eligible to vote and are not
+asked the questions in the Voting
+and Registration Supplement.
+There were 24.2 million noncitizens
+in 2024.
+
+Nonrespondents: Those in
+the CVAP who do not answer
+questions in the Voting and
+Registration Supplement. These
+respondents are determined to
+be part of the CVAP in the CPS
+but did not respond when asked
+if they voted or registered to vote
+in the latest national election.
+Nonresponse may occur for a
+variety of reasons, such as refusing
+to answer a question or not
+knowing the answer to a question.
+Nonrespondents of the main
+voting question were an estimated
+14.1 percent of the CVAP in 2024.7
+Voters: Those in the CVAP who
+indicated they voted in the 2024
+election. These respondents are
+in the CVAP and are registered
+to vote. There were an estimated
+154.3 million voters in 2024.
+Nonvoters: Those in the CVAP
+who indicated they did not vote
+in the 2024 election. Nonvoters
+may or may not be registered to
+vote. There were an estimated 48.5
+million nonvoters in 2024.
+Registered: Those who are in the
+CVAP and registered to vote by
+or on Election Day. Registered
+respondents may or may not have
+voted. There were an estimated
+173.9 million citizens of voting age
+who registered to vote in the 2024
+election.
+Registered nonvoters: Those who
+are in the CVAP and registered
+to vote but did not indicate they
+voted in the 2024 election. There
+were an estimated 18.2 million
+registered nonvoters in the 2024
+election.
+7
+Nonrespondents are included in the
+“total 18 and over” and “total citizen votingage” populations.
+
+Figure 1 details the relationship
+between these population
+universes. Voters made up 59.3
+percent of the VAP, 65.3 percent
+of the CVAP, and 88.8 percent
+of the registered population in
+2024. For the remainder of this
+report, the voter turnout refers to
+the percentage of the CVAP who
+voted unless otherwise noted.
+
+AMERICAN VOTERS OVER
+TIME: PRESIDENTIAL
+ELECTIONS 1980–2024
+Table 1 shows that since 1980,
+the CVAP and the number of
+registered citizens have increased
+for each presidential election. For
+the first time since 1988, however,
+the number of voters did not
+significantly change between
+presidential elections. In 2024, the
+CVAP increased by 2.0 percent,
+the number of registered people
+increased by 3.3 percent, and
+the number of voters did not
+significantly change, remaining at
+approximately 154.3 million.
+In addition to an increase in the
+CVAP and the number of people
+registered, the demographic
+makeup of these populations have
+shifted over time. Changes to
+these voter shares may represent
+changes in relative turnout across
+demographics or may reflect
+underlying demographic changes
+in the CVAP. In other words,
+an increase in voter share for a
+particular demographic group
+could be due to an increase in their
+overall population, an increase in
+their relative representation among
+voters, or a combination of both.
+This section primarily focuses on
+demographic changes in the voter
+distribution between 1980 and
+2024.
+
+6
+These populations include only
+noninstitutionalized civilians.
+
+U.S. Census Bureau
+
+3
+
+Figure 1.
+
+Voters Among the Total, Citizen, and Registered Voting-Age Populations: 2024
+(In thousands. Population age 18 and older)
+Noncitizens
+No response to
+voting question
+
+33,350
+
+33,350
+
+Nonvoters
+
+48,480
+
+48,480
+
+Voters
+
+154,300
+
+154,300
+
+154,300
+
+Voting rate
+
+(59.3%)
+
+(65.3%)
+
+(88.8%)
+
+Voting-age
+population
+260,400
+
+Citizen voting-age
+population
+236,100
+
+Registered
+population
+173,900
+
+24,220
+1,3851
+18,160
+
+1
+Represents those who were registered with no response to the initial voting question.
+Note: Numbers and percentages may not sum to totals due to rounding.
+Source: U.S. Census Bureau, Current Population Survey, November 2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+Table 1.
+
+Voting and Registration—Presidential Elections: 1980–2024
+(Numbers in thousands)
+Presidential
+election year
+2024. . . . . . . . . . 
+2020. . . . . . . . . . 
+2016. . . . . . . . . . 
+2012. . . . . . . . . . 
+2008. . . . . . . . . . 
+2004. . . . . . . . . . 
+2000. . . . . . . . . . 
+1996. . . . . . . . . . 
+1992. . . . . . . . . . 
+1988. . . . . . . . . . 
+1984. . . . . . . . . . 
+1980. . . . . . . . . . 
+
+Total 18 and
+older1
+
+Total1
+
+260,400
+252,300
+245,500
+235,200
+225,500
+215,700
+202,600
+193,700
+185,700
+178,100
+170,000
+157,100
+
+236,100
+231,600
+224,100
+215,100
+206,100
+197,000
+186,400
+179,900
+168,200
+164,500
+157,000
+145,400
+
+Citizens
+Registered
+Number
+90 percent C.I.2
+
+Voted
+Number
+90 percent C.I.2
+
+173,900
+168,300
+157,600
+153,200
+146,300
+142,100
+129,500
+127,700
+126,600
+118,600
+116,100
+105,000
+
+154,300
+154,600
+137,500
+132,900
+131,100
+125,700
+110,800
+105,000
+113,900
+102,200
+101,900
+93,070
+
+172,600–175,100
+167,400–169,200
+156,900–158,300
+152,500–153,800
+145,700–147,000
+141,400–142,700
+128,900–130,200
+127,000–128,300
+126,000–127,100
+118,000–119,200
+115,500–116,700
+104,700–105,300
+
+153,100–155,500
+153,700–155,600
+136,800–138,300
+132,400–133,600
+130,500–131,800
+125,100–126,400
+110,200–111,500
+104,400–105,700
+113,300–114,400
+101,500–102,900
+101,300–102,500
+92,690–93,440
+
+1
+The "Total 18 and older" and "Total" populations include nonresponders to the voting question, as well as those who responded "Don't know"
+and "Refused."
+2
+A 90 percent confidence interval (C.I.) is a measure of an estimate's variability. The larger the confidence interval in relation to the size of the
+estimate, the less reliable the estimate.
+Note: Numbers are based on weighted reports of voting behavior derived from a survey sample. Replicate weights are used to calculate C.I.
+for 2024, while parameters were used for prior years. Refer to U.S. Census Bureau, "Estimating Current Population Survey (CPS) Household-level
+Supplement Variances Using Replicate Weights Part I: Instructions for Using CPS Household-level Supplement Replicate Weights to Calculate
+Variances," 2018, at <https://www2.census.gov/programs-surveys/cps/datasets/2018/supp/HH-level_Use_of_the_Public_Use_Replicate_Weight_
+File.doc>.
+Source: U.S. Census Bureau, Current Population Survey, November 1980–2024. Data Management System (DMS) number: P-7534375 and
+Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+4
+
+U.S. Census Bureau
+
+In 2024, people ages 45–64 were
+the most predominant age group
+among voters, making up onethird of the voting population (33.3
+percent) (Figure 2). This votingage group has consistently shrunk
+in relative size for each presidential
+election since it peaked in 2012 at
+39.1 percent. The oldest age group,
+those 65 or older, encompassed
+28.1 percent of voters in 2024.
+This is the largest voter share for
+those 65 and older on record in
+the CPS time series since 1980.
+Compared to 2020, the share of
+voters in the youngest age group
+
+(18- to 29-year-olds) shrunk by 1.2
+percentage points to 15.3 percent
+in 2024, while those ages 30–44
+did not significantly change (23.4
+percent).
+
+in 1980 to 44.9 percent in 2024,
+while the share of those with
+some college or an associate’s
+degree grew more slowly, from 19.3
+percent to 28.2 percent. During the
+same period, the percentage of
+voters with a high school diploma
+declined from 38.7 percent to
+23.0 percent, and the share of
+voters with less than a high school
+diploma declined from 21.4 percent
+to 3.8 percent.
+
+The share of voters with posthigh school attainment has
+consistently grown in the majority
+of presidential elections since
+1980 (Figure 3). Consequently, the
+share of voters with a high school
+credential or lower attainment
+has declined over this period.
+The percentage of voters with a
+bachelor’s degree or higher more
+than doubled from 20.6 percent
+
+The share of voters who were nonHispanic White declined in most
+presidential elections since 1980,
+except in 1992, 2016, and 2024,
+
+Figure 2.
+
+Composition of American Voters by Age—Presidential Elections: 1980–2024
+(In percent)
+
+18–29
+
+30–44
+
+33.3
+
+45–64
+
+2024
+
+15.3
+
+23.4
+
+2020
+
+16.5
+
+23.2
+
+2016
+
+15.7
+
+2012
+
+15.4
+
+2008
+
+17.1
+
+24.8
+
+38.7
+
+19.5
+
+2004
+
+16.0
+
+27.3
+
+37.6
+
+19.0
+
+2000
+
+14.3
+
+30.2
+
+35.5
+
+20.0
+
+1996
+
+14.9
+
+31.8
+
+33.0
+
+20.3
+
+28.1
+
+34.7
+
+25.7
+
+22.5
+
+37.6
+
+24.2
+
+23.1
+
+39.1
+
+22.3
+
+1992
+
+17.7
+
+33.1
+
+30.2
+
+19.0
+
+1988
+
+18.1
+
+32.0
+
+30.5
+
+19.4
+
+1984
+
+21.7
+
+30.2
+
+30.4
+
+17.7
+
+1980
+
+22.3
+
+28.4
+
+32.5
+
+16.8
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+65+
+
+60
+
+70
+
+80
+
+90
+
+100
+
+Note: Totals may not sum to 100 due to rounding.
+Source: U.S. Census Bureau, Current Population Survey, November 1980–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+U.S. Census Bureau
+
+5
+
+Figure 3.
+
+Composition of American Voters by Educational Attainment—Presidential Elections:
+1980–2024
+(In percent)
+
+Less than high school
+
+High school diploma
+
+2024
+
+3.8
+
+23.0
+
+2020
+
+4.6
+
+24.2
+
+2016
+
+5.1
+
+24.6
+
+2012
+
+6.2
+
+25.9
+
+2008
+
+6.9
+
+27.3
+
+2004
+
+8.1
+
+2000
+
+9.2
+
+1996
+
+10.7
+
+1992
+
+12.3
+
+28.2
+
+30.8
+
+39.6
+
+31.3
+
+36.6
+
+31.6
+
+31.2
+
+29.4
+
+29.4
+
+28.2
+
+26.6
+21.6
+
+37.5
+
+38.7
+20
+
+30
+
+40
+
+25.5
+
+20.5
+
+39.0
+
+21.4
+10
+
+32.4
+
+30.1
+
+32.9
+
+18.3
+
+34.1
+
+31.0
+
+30.5
+
+1984
+
+0
+
+41.5
+
+29.5
+
+15.4
+
+Bachelor’s degree or higher
+
+44.9
+
+29.7
+
+28.5
+
+1988
+
+1980
+
+Some college or associate’s degree
+
+22.2
+
+19.3
+50
+
+60
+
+70
+
+20.6
+80
+
+90
+
+100
+
+Note: Totals may not sum to 100 due to rounding.
+Source: U.S. Census Bureau, Current Population Survey, November 1980–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+when it did not differ significantly
+from the prior presidential year
+(Figure 4).8 In 2024, 70.6 percent
+8
+Federal surveys give respondents the
+option of reporting more than one race.
+Therefore, two basic ways of defining a race
+group are possible. A group such as Asian
+may be defined as those who reported
+Asian and no other race (the race-alone
+or single-race concept) or as those who
+reported Asian regardless of whether they
+also reported another race (the race-alone
+or-in-combination concept). The body of this
+report (text and figures) presents data using
+the first approach (race alone), with any
+combination categorized as “Non-Hispanic
+Other.” Hispanic people may also be of
+any race. The body of this report presents
+data separating race and Hispanic origin.
+Use of the single-race and Hispanic origin
+population does not imply that it is the
+preferred method of presenting or analyzing
+data. The Census Bureau uses a variety of
+approaches. In this report, the terms “White,
+non-Hispanic” and “non-Hispanic White” are
+used interchangeably and refer to people
+who are not Hispanic and who reported
+White and no other race. More information
+is available at <www.census.gov/programssurveys/cps.html>.
+
+6
+
+of voters were non-Hispanic White.
+The non-Hispanic Black share of
+voters was 11.5 percent in 2024,
+lower than in both 2008 and
+2012, when non-Hispanic Black
+voters were 12.1 percent and 12.9
+percent of voters, respectively.
+The shares of 2024 voters who
+were Hispanic and non-Hispanic
+Asian were among the highest on
+record for both groups, as Hispanic
+voters increased to 10.7 percent of
+the voting population and nonHispanic Asian voters increased
+to 4.6 percent of the voting
+population.9, 10
+9
+There was no statistically significant
+difference in the Hispanic share of voters
+between 2020 and 2024.
+10
+Other race, non-Hispanic includes
+the non-Hispanic Asian population from
+1980–2000.
+
+Many of the demographic shifts
+seen in the voter distribution
+were also present in the CVAP.
+For example, the share of the
+CVAP age 65 and over grew
+from 15.5 percent in 1980 to
+24.6 percent in 2024. The CVAP
+has also moved towards higher
+levels of educational attainment
+over this period. Those with a
+bachelor’s degree or higher more
+than doubled from 15.5 percent
+in 1980 to 37.1 percent in 2024,
+while the share of those with
+less than a high school diploma
+decreased from 27.8 percent to 6.9
+percent. Furthermore, the share
+of the CVAP who were Hispanic
+significantly increased over this
+span, from 3.7 percent to 13.9
+percent.
+
+U.S. Census Bureau
+
+Figure 4.
+
+Composition of American Voters by Race and Hispanic Origin—Presidential Elections:
+1980–2024
+(In percent)
+
+Non-Hispanic White
+
+Non-Hispanic Black
+
+Non-Hispanic Asian
+
+Hispanic
+
+Non-Hispanic Other
+
+2024
+
+70.6
+
+11.5
+
+4.6
+
+10.7
+
+2.6
+
+2020
+
+71.0
+
+11.7
+
+4.3
+
+10.6
+
+2.4
+
+2016
+
+73.3
+
+11.9
+
+3.6
+
+9.2
+
+2.0
+
+2012
+
+73.7
+
+12.9
+
+2.8
+
+8.4
+
+2.1
+
+7.4
+
+1.7
+
+6.0
+
+1.6
+
+5.4
+
+2.4
+
+4.7
+
+2.2
+
+76.3
+
+2008
+
+2.5
+
+12.1
+
+2.2
+
+2004
+
+79.2
+
+11.0
+
+2000
+
+80.7
+
+1996
+
+82.5
+
+1992
+
+84.6
+
+9.9
+
+3.7
+
+1.7
+
+1988
+
+84.9
+
+9.8
+
+3.6
+
+1.7
+
+1984
+
+85.5
+
+10.0
+
+3.0
+
+1.4
+
+8.9
+
+2.6
+
+1.0
+
+11.5
+10.6
+
+87.6
+
+1980
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+Note: “Non-Hispanic Other” includes the non-Hispanic Asian population from 1980–2000. Totals may not sum to 100 due to rounding.
+Source: U.S. Census Bureau, Current Population Survey, November 1980–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+OVER- AND
+UNDERREPRESENTATION
+AMONG VOTERS
+Table 2 presents the number
+and share of those who were
+in the CVAP, who registered,
+and who voted across various
+demographic characteristics in the
+2024 election. The final column
+of Table 2 presents over- or
+underrepresentation of each group
+among the voting population. A
+group is overrepresented when its
+share of the voting population is
+significantly larger than its share
+of the CVAP; underrepresentation
+is the opposite, with a smaller
+share of people voting than their
+presence in the CVAP would
+suggest. This report explores
+some of the reasons for these
+differences in the final section.
+
+U.S. Census Bureau
+
+In 2024, young adults ages 18-29
+made up 15.3 percent of the voting
+population and 19.6 percent of the
+CVAP. As a result, 18- to 29-yearold voters were underrepresented
+by 4.4 percentage points. Voters
+ages 30-44 made up less than
+one-quarter (23.4 percent) of
+the voting population and nearly
+one-quarter (24.7 percent) of
+the CVAP, indicating that they
+were underrepresented by 1.3
+percentage points, a small but
+statistically significant difference.
+As younger age groups were
+underrepresented among voters,
+older age groups tended to be
+overrepresented. Voters ages
+45-64 were 33.3 percent of
+the voting population and 31.1
+percent of the CVAP in 2024,
+an overrepresentation of 2.2
+percentage points. Voters age
+65 and older made up more
+
+than one-quarter (28.1 percent)
+of the voting population and
+approximately one-quarter (24.6
+percent) of the CVAP, resulting
+in an overrepresentation of 3.5
+percentage points.
+Voters with higher educational
+attainment levels were also
+overrepresented in 2024. Those
+with a bachelor’s degree were 27.8
+percent of the voting population
+in 2024 and 23.5 percent of the
+CVAP, overrepresented by 4.3
+percentage points. Voters with
+advanced degrees contributed 17.1
+percent of the voting population
+and 13.5 percent of the CVAP,
+overrepresented by 3.6 percentage
+points. Conversely, voters who
+with a high school credential
+were 28.6 percent of the CVAP
+and 23.0 percent of the voting
+population, underrepresented by
+5.6 percentage points.
+7
+
+Table 2.
+
+Registration and Voter Characteristics: 2024—Con.
+(Numbers in thousands)
+Characteristic
+
+Citizen voting-age
+population
+
+Registered
+
+Voted
+
+Over- or
+underreprePercent
+sentation1
+
+Number
+
+Percent
+
+Number
+
+Percent
+
+Number
+
+Total .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+236,100
+
+100.0
+
+173,900
+
+100.0
+
+154,300
+
+100.0
+
+X
+
+Age
+18 to 29 . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+30 to 44. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+45 to 64. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+65 and older. . . . . . . . . . . . . . . . . . . . . . . 
+
+46,380
+58,360
+73,400
+57,990
+
+19.6
+24.7
+31.1
+24.6
+
+28,620
+41,990
+56,670
+46,570
+
+16.5
+24.1
+32.6
+26.8
+
+23,540
+36,100
+51,350
+43,320
+
+15.3
+23.4
+33.3
+28.1
+
+–4.4
+–1.3
+2.2
+3.5
+
+Sex
+Male . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Female. . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+114,300
+121,800
+
+48.4
+51.6
+
+82,550
+91,300
+
+47.5
+52.5
+
+72,780
+81,530
+
+47.2
+52.8
+
+–1.2
+1.2
+
+Race and Hispanic Origin
+White, non-Hispanic. . . . . . . . . . . . . . . . 
+Black, non-Hispanic. . . . . . . . . . . . . . . . . 
+Asian, non-Hispanic. . . . . . . . . . . . . . . . . 
+Hispanic. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Other race, non-Hispanic. . . . . . . . . . . . 
+
+154,600
+29,480
+12,330
+32,760
+6,987
+
+65.5
+12.5
+5.2
+13.9
+3.0
+
+120,000
+20,730
+8,154
+20,140
+4,794
+
+69.0
+11.9
+4.7
+11.6
+2.8
+
+108,900
+17,700
+7,122
+16,570
+3,993
+
+70.6
+11.5
+4.6
+10.7
+2.6
+
+5.1
+–1.0
+–0.6
+–3.1
+–0.4
+
+Nativity and Citizenship Status
+Native-born. . . . . . . . . . . . . . . . . . . . . . . . 
+Naturalized citizens. . . . . . . . . . . . . . . . . 
+
+212,400
+23,740
+
+89.9
+10.1
+
+157,900
+15,920
+
+90.8
+9.2
+
+140,500
+13,760
+
+91.1
+8.9
+
+1.1
+–1.1
+
+Marital Status
+Married, spouse present. . . . . . . . . . . . . 
+Married, spouse absent . . . . . . . . . . . . . 
+Widowed. . . . . . . . . . . . . . . . . . . . . . . . . . 
+Divorced . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Separated. . . . . . . . . . . . . . . . . . . . . . . . . 
+Never married. . . . . . . . . . . . . . . . . . . . . . 
+
+118,100
+2,640
+14,330
+24,360
+3,743
+73,000
+
+50.0
+1.1
+6.1
+10.3
+1.6
+30.9
+
+94,060
+1,795
+10,690
+18,170
+2,431
+46,710
+
+54.1
+1.0
+6.2
+10.5
+1.4
+26.9
+
+86,870
+1,540
+9,509
+15,830
+2,017
+38,550
+
+56.3
+1.0
+6.2
+10.3
+1.3
+25.0
+
+6.3
+–0.1
+0.1
+0.0
+–0.3
+–5.9
+
+Employment Status2
+In civilian labor force. . . . . . . . . . . . . . . . 
+Government workers. . . . . . . . . . . . . . 
+Private industry . . . . . . . . . . . . . . . . . . 
+Self-employed. . . . . . . . . . . . . . . . . . . .
+Unemployed. . . . . . . . . . . . . . . . . . . . . 
+Not in labor force. . . . . . . . . . . . . . . . . . .
+
+149,600
+21,660
+113,900
+8,457
+5,548
+86,540
+
+63.4
+9.2
+48.2
+3.6
+2.3
+36.6
+
+112,700
+17,830
+84,870
+6,333
+3,694
+61,120
+
+64.8
+10.3
+48.8
+3.6
+2.1
+35.2
+
+99,870
+16,400
+74,850
+5,666
+2,947
+54,440
+
+64.7
+10.6
+48.5
+3.7
+1.9
+35.3
+
+1.4
+1.5
+0.3
+0.1
+–0.4
+–1.4
+
+Duration of Residence3
+Less than 1 year. . . . . . . . . . . . . . . . . . . . 
+1 to 2 years . . . . . . . . . . . . . . . . . . . . . . . . 
+3 to 4 years. . . . . . . . . . . . . . . . . . . . . . . . 
+5 years or longer. . . . . . . . . . . . . . . . . . . 
+Not reported. . . . . . . . . . . . . . . . . . . . . . . 
+
+20,310
+25,820
+31,570
+127,100
+31,290
+
+8.6
+10.9
+13.4
+53.8
+13.3
+
+14,900
+20,150
+26,110
+110,800
+1,921
+
+8.6
+11.6
+15.0
+63.7
+1.1
+
+12,190
+17,320
+22,980
+100,200
+1,642
+
+7.9
+11.2
+14.9
+64.9
+1.1
+
+–0.7
+0.3
+1.5
+11.1
+–12.2
+
+Region
+Northeast . . . . . . . . . . . . . . . . . . . . . . . . . 
+Midwest. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+South. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+West. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+40,880
+50,210
+91,280
+53,770
+
+17.3
+21.3
+38.7
+22.8
+
+29,980
+39,030
+65,210
+39,630
+
+17.2
+22.4
+37.5
+22.8
+
+27,120
+34,550
+57,060
+35,580
+
+17.6
+22.4
+37.0
+23.1
+
+0.3
+1.1
+–1.7
+0.3
+
+Educational Attainment
+Less than 9th grade . . . . . . . . . . . . . . . . 
+9th to 12th grade, no diploma. . . . . . . . 
+High school graduate. . . . . . . . . . . . . . . 
+Some college or associate’s degree . . 
+Bachelor’s degree. . . . . . . . . . . . . . . . . . 
+Advanced degree . . . . . . . . . . . . . . . . . . 
+
+3,998
+12,290
+67,640
+64,670
+55,580
+31,950
+
+1.7
+5.2
+28.6
+27.4
+23.5
+13.5
+
+1,687
+6,053
+42,870
+49,590
+46,070
+27,580
+
+1.0
+3.5
+24.7
+28.5
+26.5
+15.9
+
+1,233
+4,704
+35,540
+43,560
+42,900
+26,370
+
+0.8
+3.0
+23.0
+28.2
+27.8
+17.1
+
+–0.9
+–2.2
+–5.6
+0.8
+4.3
+3.6
+
+Veteran Status4
+Total .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Veteran . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Nonveteran. . . . . . . . . . . . . . . . . . . . . . . . 
+
+236,200
+17,350
+218,900
+
+100.0
+7.3
+92.7
+
+174,000
+13,900
+160,100
+
+100.0
+8.0
+92.0
+
+154,400
+12,500
+141,900
+
+100.0
+8.1
+91.9
+
+X
+0.8
+–0.8
+
+Footnotes available at end of table.
+
+8
+
+U.S. Census Bureau
+
+Table 2.
+
+Registration and Voter Characteristics: 2024—Con.
+(Numbers in thousands)
+Characteristic
+Annual Family Income5
+Total family members.  .  .  .  .  .  .
+Under $50,000 . . . . . . . . . . . . . . . . . . . . 
+$50,000 to $99,999. . . . . . . . . . . . . . . . 
+$100,000 to $149,999. . . . . . . . . . . . . . .
+$150,000 and over . . . . . . . . . . . . . . . . . 
+Income not reported. . . . . . . . . . . . . . . . 
+
+Citizen voting-age
+population
+
+Registered
+
+Voted
+
+Number
+
+Percent
+
+Number
+
+Percent
+
+Number
+
+168,900
+28,040
+42,140
+28,700
+41,810
+28,170
+
+100.0
+16.6
+25.0
+17.0
+24.8
+16.7
+
+126,400
+18,640
+32,650
+23,830
+36,130
+15,190
+
+100.0
+14.7
+25.8
+18.8
+28.6
+12.0
+
+113,200
+14,980
+29,220
+21,670
+33,600
+13,780
+
+Over- or
+underreprePercent
+sentation1
+100.0
+13.2
+25.8
+19.1
+29.7
+12.2
+
+X
+–3.4
+0.8
+2.1
+4.9
+–4.5
+
+X Not applicable.
+1
+Over- and underrepresentation is calculated as the difference between each demographic group’s voter share and citizen voting-age
+population share. A demographic group is overrepresented among voters if the difference is positive and underrepresented among voters if the
+difference is negative.
+2
+Unpaid jobs are included in the "self-employed" category.
+3
+Some states have durational residency requirements in order to register and vote.
+4
+The veterans estimates were derived using the veteran weight, which uses different procedures for construction than the person weight used
+to produce other turnout estimates in 2024.
+5
+Estimates are limited to persons in families who report income or refuse to answer the question. Respondents who report not knowing
+their income are not included in this table, which includes only the reference person with relatives in the household or people with the following
+relationship to the householder: spouse, child, grandchild, parent, sibling, or other relative. This table excludes foster children, unmarried partners,
+nonrelatives, and roommates.
+Note: Numbers are based on weighted reports of voting behavior derived from a survey sample. Numbers and percentages may not sum to
+totals due to rounding.
+Source: U.S. Census Bureau, Current Population Survey, November 2024. Data Management System (DMS) number: P-7534375 and Disclosure
+Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+Married voters with a spouse
+present were the only
+overrepresented voting group
+by marital status in 2024, and
+voters who had never married
+were the most underrepresented.
+Voters who were married with a
+spouse present in the household
+constituted 56.3 percent of the
+voting population and 50.0
+percent of the CVAP, while
+voters who were never married
+were 25.0 percent of the voting
+population and 30.9 percent of the
+CVAP. There was no statistically
+significant difference between the
+voting population and the CVAP
+for those who were married with a
+spouse absent, widowed, divorced,
+or separated.
+
+U.S. Census Bureau
+
+Other demographic groups also
+experienced varying levels of
+under- and overrepresentation.
+For example, veterans were
+slightly overrepresented in the
+voting population compared to
+nonveterans. Those in the CVAP
+who were unemployed or not in
+the labor force had voting shares
+below their CVAP share, while
+all other employment categories
+had voting rates at or above
+their CVAP share. Regionally,
+only voters in the South were
+underrepresented nationally, with
+a voting rate falling below their
+CVAP share by 1.7 percentage
+points. A longer duration of
+residence was also linked to a
+
+higher rate of representation, with
+a voting share 11.1 percentage
+points higher than CVAP for those
+who lived in their current residence
+for 5 or more years. Female voters
+were overrepresented in 2024
+by 1.2 percentage points. Finally,
+regarding family income, voters
+making less than $50,000 were
+underrepresented and voters
+making at least $100,000 were
+overrepresented.11
+11
+Respondents who report not knowing their income are not included in family
+income, which includes only the reference
+person with relatives in the household or
+people with the following relationship to the
+householder: spouse, child, grandchild, parent, sibling, or other relative. This measure
+excludes foster children, unmarried partners,
+nonrelatives, and roommates.
+
+9
+
+Figure 5 shows the differences
+between voter and CVAP share by
+race and Hispanic origin for the
+past four presidential elections.
+Non-Hispanic White voters were
+overrepresented in the last four
+
+presidential elections, a gap rising
+to 5.1 percentage points in 2024.
+Non-Hispanic Black voters were
+underrepresented among voters in
+the last three elections, contrasting
+with their overrepresentation in
+
+2012. In 2024, Hispanic voters
+were underrepresented by 3.1
+percentage points, as their share
+of the CVAP grew more than their
+share of the voting population
+(Figure 5).
+
+Figure 5.
+
+Difference Between Voter Share and Citizen Voting-Age Population (CVAP)
+Share by Race and Hispanic Origin—Presidential Elections: 2012–2024
+(Percentage-point difference between voter share and CVAP share)
+
+2012
+
+10
+
+2016
+
+2020
+
+2024
+
+8
+6
+4.4 4.2
+4
+
+5.1
+
+2.7
+
+2
+
+0.9
+
+0
+–0.4 –0.7
+
+-2
+
+–1.0
+
+–0.9 –0.9
+
+–0.3 –0.5 –0.3 –0.4
+
+–0.5 –0.6
+–2.4 –2.7 –2.6
+
+-4
+
+–3.1
+
+-6
+-8
+Non-Hispanic
+White
+
+Non-Hispanic
+Black
+
+Non-Hispanic
+Asian
+
+Hispanic
+
+Non-Hispanic
+Other
+
+Source: U.S. Census Bureau, Current Population Survey, November 2012–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+10
+
+U.S. Census Bureau
+
+Those with educational attainment
+above a high school diploma were
+consistently overrepresented in
+the last four presidential elections
+(Figure 6). In 2024, those with
+a bachelor’s degree or higher
+
+were the most overrepresented
+education group, by 7.8
+percentage points. Meanwhile,
+those with a high school
+diploma have been increasingly
+underrepresented since the
+
+2012 presidential election, as the
+difference between their CVAP
+share and voter share grew from
+4.5 percentage points in 2012 to
+5.6 percentage points in 2024.
+
+Figure 6.
+
+Difference Between Voter Share and Citizen Voting-Age Population (CVAP)
+Share by Educational Attainment—Presidential Elections: 2012–2024
+(Percentage-point difference between voter share and CVAP share)
+
+2012
+
+10
+
+2016
+7.3
+
+8
+
+2020
+7.8
+
+2024
+7.8
+
+6.7
+
+6
+4
+2
+
+1.2
+
+0.9
+
+1.2
+
+0.8
+
+0
+–2
+–4
+
+–3.9 –4.0
+
+–3.0 –3.1
+
+–6
+–8
+
+Less than high school
+
+–4.5 –4.7
+–4.9
+
+–5.6
+
+High school diploma
+
+Some college or
+associate's degree
+
+Bachelor's degree
+or higher
+
+Source: U.S. Census Bureau, Current Population Survey, November 2012–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+U.S. Census Bureau
+
+11
+
+Since 2012, voters ages 18–29 were
+consistently underrepresented
+compared to their share of the
+CVAP (Figure 7). In 2024, they
+were underrepresented by 4.4
+percentage points. Conversely,
+voters age 65 and over were
+overrepresented since 2012. In
+2024, voters age 65 and over
+reached their highest rate of
+
+overrepresentation compared to
+the previous three presidential
+elections, at 3.5 percentage points.
+
+METHODS OF VOTING
+Most states have policies in place
+that allow eligible voters to cast
+their vote prior to Election Day,
+either by casting an absentee
+ballot (e.g., by mail), by voting
+
+in-person during an early voting
+period, or both. The CPS has
+asked about these "nontraditional"
+voting methods in every voting
+supplement beginning in 1996.12
+12
+Between 1996 and 2002, the CPS asked
+a single question about timing and method
+of voting. From 2004 onward, the CPS has
+asked two questions, one about voting in
+person or by mail and another about voting
+early or on Election Day.
+
+Figure 7.
+
+Difference Between Voter Share and Citizen Voting-Age Population (CVAP)
+Share by Age—Presidential Elections: 2012–2024
+(Percentage-point difference between voter share and CVAP share)
+
+2012
+
+10
+
+2016
+
+2020
+
+2024
+
+8
+6
+3.5
+
+4
+2
+
+3.0
+
+3.2
+2.1
+
+2.2
+
+3.2
+
+2.7
+
+3.5
+
+0
+–0.9 –1.0 –0.9 –1.3
+
+-2
+-4
+-6
+
+–3.9
+–5.8
+
+–5.2
+
+–4.4
+
+-8
+18–29
+
+30–44
+
+45–64
+
+65+
+
+Source: U.S. Census Bureau, Current Population Survey, November 2012–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+12
+
+U.S. Census Bureau
+
+As demonstrated in Figure 8, the
+rate of nontraditional voting has
+increased in almost all presidential
+elections since 2004. In 2004,
+20.7 percent of voters cast a ballot
+using nontraditional methods,
+compared to 60.1 percent in 2024.
+In 2020, nontraditional voting
+reached the high-water mark of
+69.4 percent, likely due to the
+COVID-19 pandemic’s effect on
+state-level voting regulations and
+voting method preferences. The
+nontraditional voting rate fell by
+roughly 9.3 percentage points
+during the 2024 election but
+remains higher than any election
+between 2004 and 2016.
+By comparing the voting methods
+used in 2016 with those used
+in 2020 and 2024, we can
+examine trends in voting method
+preferences before, during, and
+after the height of the COVID-19
+pandemic (Figure 9).13 In 2016, the
+majority of voters (59.9 percent)
+cast a ballot in-person on Election
+Day. In contrast, 39.9 percent of
+voters participated traditionally in
+2024, which was 9.3 percentage
+points higher than in 2020.
+A larger share of voters cast
+ballots in person prior to Election
+Day in 2024 than in the prior two
+presidential elections (31.0 percent
+vs. 26.2 percent vs. 19.1 percent).
+Voting by mail reached its peak
+during the 2020 election (43.2
+percent) and decreased by 14.1
+percentage points in 2024. Despite
+this decrease, the share of mail
+in voting remained larger in 2024
+than in 2016 (29.1 percent vs. 21.0
+percent).
+
+Methods of Voting: State-Level Rules
+According to the National Conference of State Legislatures (NCSL),
+states fall into the following categories of nontraditional voting
+policies.1
+Election Day Only. There were three states in which permanent
+policies as of 2024 only permitted "traditional" methods of voting;
+that is, early voting was not offered, and an excuse was required
+to vote with an absentee ballot. These states were Alabama,
+Mississippi, and New Hampshire.
+Early In-Person Voting. In 47 states and the District of Columbia,
+eligible voters during the 2024 election could cast a ballot during a
+designated period prior to Election Day (this includes states with allmail elections). No excuse or justification was needed.
+Absentee Voting. All states will mail an absentee ballot to certain
+voters who request one. The voter may return the ballot by mail or
+in person. In 14 states, an excuse was required as of 2024. States
+that required an excuse typically included illness or disability as
+a justification.2 Additionally, some states offered a permanent
+absentee ballot list: once voters asked to be added to the list, they
+automatically receive an absentee ballot for all future elections.3
+All-Mail Voting. In some states, a ballot was automatically mailed
+to every eligible voter—no request or application was necessary.
+Permanent policies in California, Colorado, Hawaii, Nevada, Oregon,
+Utah, Vermont, Washington, and the District of Columbia sanctioned
+all-mail voting in all national elections as of 2024. These states and
+the District of Columbia retain some early in-person voting options
+for voters who need or prefer it, in addition to the option to vote in
+person on Election Day.
+1
+For more information on the NCSL and their summary of state-level policies
+concerning early voting and absentee voting, refer to <www.ncsl.org/elections-andcampaigns/early-in-person-voting> and <www.ncsl.org/elections-and-campaigns/
+table-1-states-with-no-excuse-absentee-voting>.
+2
+For a list of possible justifications from NCSL, refer to <www.ncsl.org/
+elections-and-campaigns/table-2-excuses-to-vote-absentee>.
+3
+For a list of states that use permanent absentee lists, refer to <www.ncsl.org/
+elections-and-campaigns/table-3-states-with-permanent-absentee-voting-lists>.
+
+13
+For a summary of state-level voting
+policies, including states that use all-mail
+voting, refer to the “Methods of Voting:
+State-Level Rules” text box in this report.
+
+U.S. Census Bureau
+
+13
+
+Figure 8.
+
+Nontraditional Voting in Presidential Elections: 2004–2024
+(In percent)
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+2004
+
+2008
+
+2012
+
+2016
+
+2020
+
+2024
+
+Note: The estimates presented in this figure are only for individuals with valid responses to the method and timing questions.
+Source: U.S. Census Bureau, Current Population Survey, November 2004–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+Figure 9.
+
+Method of Voting—Presidential Elections: 2016–2024
+(In percent)
+
+Mail
+In-person before Election Day
+In-person on Election Day
+
+100
+21.0
+80
+
+29.1
+43.2
+
+19.1
+60
+
+31.0
+26.2
+
+40
+59.9
+20
+
+0
+
+30.6
+
+2016
+
+2020
+
+39.9
+
+2024
+
+Note: The estimates presented in this figure are only for individuals with valid responses to the method and timing questions.
+Source: U.S. Census Bureau, Current Population Survey, November 2016–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+14
+
+U.S. Census Bureau
+
+Across all breakdowns by age,
+educational attainment, and race
+and Hispanic origin, nontraditional
+voting was more popular in 2024
+than in 2016, but lower than in
+2020 (Figure 10).
+In the last three presidential
+elections, voters age 65 and over
+were more likely to vote early
+in-person or by mail than those
+in younger age groups. Although
+nontraditional voting declined for
+all age groups between 2020 and
+2024, it decreased less for voters
+age 65 and over (8.1 percentage
+points) than for those ages 18–29
+or 30–44 (10.9 percentage points
+and 10.7 percentage points,
+
+respectively). Nontraditional
+voting increased by roughly 19–20
+percentage points for all age
+cohorts between 2016 and 2024.
+
+voting, as their share increased by
+26.5 percentage points.
+Voters with some college or an
+associate’s degree were more
+likely than those with a high school
+diploma to vote nontraditionally
+in 2016, 2020, and 2024. Voters
+with a bachelor’s degree or higher
+saw the largest increase to their
+nontraditional voting rate between
+2016 and 2024, as it increased
+by 21.6 percentage points. There
+was no statistically significant
+difference in the decrease of
+nontraditional voting for those
+with a bachelor’s degree or those
+with some college or an associate’s
+degree between 2020 and 2024.
+
+In both 2020 and 2024, nonHispanic Asian voters voted
+early in-person or by mail at a
+higher rate than those in other
+race and Hispanic origin groups.
+Furthermore, in each of the last
+three presidential elections,
+Hispanic voters were more likely
+to cast nontraditional ballots than
+non-Hispanic White, non-Hispanic
+Black, and non-Hispanic Other
+voters. Between 2016 and 2024,
+non-Hispanic Asian voters saw the
+largest increase in nontraditional
+
+Figure 10.
+
+Rates of Nontraditional Voting by Selected Characteristics—
+Presidential Elections: 2016–2024
+
+2016
+
+2020
+
+2024
+
+(In percent)
+
+18–29
+Age
+
+30–44
+45–64
+65+
+
+Non-Hispanic White
+Non-Hispanic Black
+Race and Hispanic Origin
+
+Non-Hispanic Asian
+Hispanic
+Non-Hispanic Other
+
+Less than high school
+Educational Attainment
+
+High school diploma
+Some college or
+associate's degree
+Bachelor's degree
+or higher
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+Note: The estimates presented in this figure are only for individuals with valid responses to the method and timing questions.
+Source: U.S. Census Bureau, Current Population Survey, November 2016–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+U.S. Census Bureau
+
+15
+
+Nontraditional voting rates vary significantly by state, in part because
+of differences in state voting procedures. Figure 11 shows how nontraditional voting rates changed by
+state between the 2016 and 2024
+presidential elections.
+
+also saw nontraditional voting rise
+by at least 40 percentage points
+during this period. In 2024, at least
+45.0 percent of voters in each of
+these three states cast nontraditional ballots, either in person prior
+to Election Day or by mail.
+
+Between 2016 and 2024, nontraditional voting (i.e., voting early
+in-person or by mail) rose for all
+but four states. Hawaii, which
+switched to all-mail voting in 2020,
+saw nontraditional voting increase
+from 47.7 percent to 95.5 percent.
+Connecticut, Delaware, and Virginia
+
+A plurality of states saw nontraditional voting rise by 10 to 19.9
+percentage points between the
+two presidential elections. Of the
+18 states in this category, seven
+are in the West and five are in the
+Midwest and South, respectively.
+Despite increasing at similar rates,
+
+the level of nontraditional voting
+in this group of states varied. For
+example, 41.7 percent of voters in
+Maine cast a nontraditional ballot in
+2024, compared to 71.3 percent of
+voters in Arkansas.
+Nine states exhibited an increase
+of fewer than 10 percentage points
+in nontraditional voting between
+the two elections, most of which
+were in the South. For instance,
+Oklahoma’s nontraditional voting
+rate grew by about 5.3 percentage
+points (17.0 percent to 22.3 percent). These states also had a wide
+
+Figure 11.
+
+Change in Nontraditional Voting by State: 2016 to 2024
+
+AK
+
+0
+
+500 Miles
+
+WA
+MT
+
+ME
+
+ND
+VT
+
+MN
+
+OR
+
+NH
+
+ID
+
+SD
+
+WI
+
+WY
+
+NV
+
+PA
+OH
+
+UT
+
+IN
+
+IL
+
+CA
+
+CT
+
+IA
+
+NE
+
+AZ
+
+NM
+
+VA
+
+MO
+
+OK
+
+KY
+
+DC
+NC
+
+TN
+AR
+
+SC
+AL
+
+MS
+TX
+
+GA
+
+LA
+FL
+
+HI
+0
+
+RI
+NJ
+DE
+MD
+
+WV
+
+CO
+KS
+
+MA
+
+NY
+
+MI
+
+0
+
+Percentage-point change*
+2016 to 2024
+30.0 or more
+20.0 to 29.9
+10.0 to 19.9
+3.0 to 9.9
+Not significant
+Decrease
+
+100 Miles
+
+100 Miles
+
+* Percentage-point change is statistically different from zero at the 90 percent confidence level.
+Note: Nontraditional voting includes those who voted early and/or by absentee ballot. The estimates presented are only for individuals
+with valid responses to both the method and timing questions.
+Source: U.S. Census Bureau, Current Population Survey, November 2016 to 2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+16
+
+U.S. Census Bureau
+
+range of nontraditional voting rates
+in 2024. For example, 78.6 percent
+of voters cast a nontraditional ballot
+in Texas compared with 32.6 percent of voters in South Dakota.
+Oregon and Washington, the two
+states with the highest nontraditional voting rates in 2024 (98.9 and
+98.4 percent, respectively), did not
+see statistically significant changes
+in nontraditional voting compared
+to 2016. Colorado also did not see
+a change in its nontraditional voting rate between the two elections
+but had a lower rate in 2024 than
+Oregon and Washington (92.7
+percent). All three states offered allmail voting in both elections.
+Iowa was the only state to see a
+statistically significant decrease in
+nontraditional voting between 2016
+and 2024, falling from 43.5 percent
+to 33.9 percent.
+The rise in nontraditional voting
+rates between 2016 and 2024 can
+be partially attributed to changes
+in state-level voting procedures.14
+Of the 11 states and the District of
+Columbia that saw nontraditional
+voting grow by 30 or more percentage points, eight allowed for early
+in-person voting for all eligible
+voters in 2024 but not in 2016.15
+Furthermore, between the two elections, some states enacted policies
+that expanded access to mail-in
+voting. Six states permitted eligible
+voters to request an absentee ballot
+without an excuse in 2024, but not
+
+14
+For NCSL’s 2016 summary of statelevel early voting policies, refer to <https://
+web.archive.org/web/20161119050024/
+http://www.ncsl.org:80/research/electionsand-campaigns/absentee-and-earlyvoting.aspx>. For NCSL’s summary of
+2024 policies, visit <https://web.archive.
+org/web/20250101055449/https://
+www.ncsl.org/elections-and-campaigns/
+early-in-person-voting>.
+15
+Connecticut, Delaware, Kentucky,
+Michigan, New York, Rhode Island, South
+Carolina, and Virginia allowed eligible voters
+to cast ballots early in 2024 but not in 2016.
+
+U.S. Census Bureau
+
+in 2016.16 Lastly, five states and the
+District of Columbia moved to allmail voting between the 2016 and
+2024 elections.17
+
+NONPARTICIPATION IN
+THE 2024 PRESIDENTIAL
+ELECTION
+The CPS asks about nonparticipation in elections among the citizen
+voting-age population in two different ways. Since 2000, respondents
+who were registered to vote at the
+time of the election but reported
+not voting have been asked why
+they chose not to vote.18 Since
+2004, respondents who reported
+not voting in the election and were
+also not registered to vote have
+been asked why they chose not to
+register.19 With both nonparticipation questions, respondents can
+pick only one main reason.
+In 2024, an estimated 18.2 million
+Americans were in the CVAP and
+registered to vote but did not vote,
+a group referred to in this section
+as registered nonvoters (Table 3).
+A plurality of registered nonvoters
+(19.7 percent) did not vote in 2024
+because they were not interested
+or felt their vote would not matter.
+Smaller shares of registered nonvoters did not vote because they were
+too busy (17.8 percent) or disliked
+the candidates or campaign issues
+(14.7 percent).20
+16
+These states are Massachusetts,
+Michigan, New York, Pennsylvania, Rhode
+Island, and Virginia.
+17
+California, Hawaii, Nevada, Utah,
+Vermont, and the District of Columbia
+offered all-mail voting in 2024, but not in
+2016.
+18
+Reason for not voting was previously
+asked from 1972–1980. Refer to <www.
+census.gov/library/visualizations/interactive/
+cps-voting-supplement.html>.
+19
+Reason for not registering was previously asked from 1966–1980. Refer to <www.
+census.gov/library/visualizations/interactive/
+cps-voting-supplement.html>.
+20
+An additional 2.2 million registered
+nonvoters indicated an “other reason” than
+the response options offered on the supplement. The number of registered had an
+illness or disability did not differ significantly
+from “other reason.”
+
+The top reason for not casting
+a ballot has changed from one
+presidential election to the next
+(Figure 12). For example, the share
+of registered nonvoters who said
+they were not interested in the
+election or felt that their vote would
+not make a difference increased
+from 11.3 percent in 2004 to 19.7
+percent in 2024. Meanwhile, the
+share that indicated being too busy
+to vote decreased from 21.1 percent
+in 2004 to 13.1 percent in 2020 and
+increased to 17.8 percent in 2024.
+Table 3 presents reasons for not
+voting for the 2024 presidential
+election across age groups, race
+and Hispanic origin groups, and
+annual family income. A smaller
+percentage of Hispanic registered
+nonvoters did not like the candidates or campaign issues (12.4
+percent) compared to their nonHispanic White counterparts (15.7
+percent) and did not significantly
+differ from other racial and Hispanic
+origin groups.
+The percentage of registered
+nonvoters who were too busy or
+had a conflicting schedule was
+lowest among older registered
+nonvoters, as 3.5 percent of
+registered nonvoters age 65 and
+older reported being too busy,
+compared with 23.2 percent of
+18- to 29-year-olds, 23.3 percent
+of 30- to 44-year-olds, and 15.7
+percent of 45- to 64-year-olds.21
+Registered nonvoters age 65 and
+older were also less likely to not
+be interested in the election (15.7
+percent) than those in younger age
+groups (19.9 percent or higher).
+By contrast, registered nonvoters
+age 65 and older were most likely
+to cite an illness or disability as
+their reason for not voting (35.0
+percent).
+
+21
+The percentage of 18- to 29-year-olds
+and the percentage of 30- to 44-yearolds who were too busy did not differ
+significantly.
+
+17
+
+18
+
+Table 3.
+
+Reasons for Not Voting and Not Registering by Selected Characteristics: 2024
+(Numbers in thousands)
+Percent distribution of reasons for not voting and registering
+Total
+
+Race and Hispanic origin
+
+White
+alone,
+nonNumber Percent Hispanic
+
+Characteristic
+
+Registered Nonvoters.  .  .  .  .  .  .
+Reasons for Not Voting
+Not interested .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Too busy, conflicting
+schedule. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Didn't like candidates or
+campaign issues. .  .  .  .  .  .  .  .  .  .  .
+Illness or disability .  .  .  .  .  .  .  .  .  .  .
+Other reason .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Out of town .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Forgot to vote.  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Registration problems.  .  .  .  .  .  .  .
+Don't know or refused.  .  .  .  .  .  .  .
+Inconvenient polling place.  .  .  .
+Transportation problems .  .  .  .  .
+Bad weather conditions .  .  .  .  .  .
+
+Black
+alone,
+nonHispanic
+
+Asian
+alone,
+nonHispanic
+
+Age
+
+Other
+race,
+non- Hispanic
+Hispanic (any race)
+
+Family income
+
+18–29
+years
+
+30–44
+years
+
+45–64 65 years
+years and older
+
+Under $50,000– $100,000–
+$50,000 $99,999
+149,999
+
+Income
+$150,000
+not
+and over reported
+
+18,160
+
+100.0
+
+10,380
+
+2,808
+
+913
+
+729
+
+3,332
+
+4,611
+
+5,476
+
+4,960
+
+3,115
+
+3,485
+
+3,206
+
+1,970
+
+2,282
+
+1,192
+
+3,583
+
+19.7
+
+17.4
+
+23.6
+
+18.1
+
+23.9
+
+23.1
+
+20.2
+
+21.5
+
+19.9
+
+15.7
+
+20.3
+
+21.0
+
+21.4
+
+18.9
+
+21.9
+
+3,230
+
+17.8
+
+16.1
+
+16.6
+
+21.4
+
+22.7
+
+21.8
+
+23.2
+
+23.3
+
+15.7
+
+3.5
+
+17.0
+
+20.5
+
+21.8
+
+19.5
+
+15.6
+
+2,672
+2,257
+2,218
+1,350
+748
+652
+558
+432
+407
+55
+
+14.7
+12.4
+12.2
+7.4
+4.1
+3.6
+3.1
+2.4
+2.2
+0.3
+
+15.7
+13.4
+12.6
+7.6
+4.7
+4.6
+3.0
+2.4
+2.1
+0.4
+
+15.5
+13.9
+10.5
+5.0
+2.4
+2.0
+4.2
+2.2
+3.7
+0.2
+
+12.2
+10.2
+11.4
+12.9
+4.2
+3.2
+4.0
+1.1
+0.9
+0.4
+
+10.8
+11.5
+11.3
+7.1
+6.2
+0.3
+0.3
+1.9
+3.9
+0.0
+
+12.4
+9.1
+12.8
+7.7
+3.4
+2.7
+2.7
+2.8
+1.4
+0.0
+
+12.0
+3.6
+12.6
+10.4
+4.8
+4.9
+3.8
+2.4
+2.0
+0.1
+
+13.8
+7.0
+12.2
+6.6
+4.7
+3.1
+2.8
+3.1
+1.7
+0.2
+
+17.8
+12.5
+12.4
+7.7
+3.5
+3.5
+2.4
+2.1
+2.1
+0.6
+
+15.4
+35.0
+11.4
+4.2
+3.1
+2.6
+3.6
+1.5
+3.8
+0.3
+
+14.7
+15.1
+12.2
+4.7
+3.4
+2.9
+2.7
+3.5
+3.6
+0.0
+
+13.5
+13.7
+10.5
+7.3
+4.2
+2.4
+3.9
+1.9
+0.9
+0.1
+
+15.5
+7.2
+12.7
+7.6
+3.1
+4.5
+2.1
+3.1
+0.5
+0.4
+
+17.7
+3.7
+14.4
+14.7
+3.5
+3.6
+1.6
+2.1
+0.3
+0.0
+
+9.5
+15.5
+12.8
+7.0
+3.7
+1.5
+8.9
+2.4
+1.3
+0.0
+
+28,000
+
+100.0
+
+14,710
+
+3,374
+
+2,024
+
+1,120
+
+6,772
+
+9,111
+
+7,855
+
+6,853
+
+4,177
+
+6,363
+
+5,692
+
+2,270
+
+2,076
+
+2,393
+
+11,840
+4,603
+
+42.3
+16.4
+
+45.5
+17.6
+
+39.7
+16.5
+
+36.5
+16.3
+
+46.5
+17.4
+
+37.6
+13.7
+
+41.6
+16.3
+
+43.1
+15.6
+
+42.4
+16.9
+
+42.2
+17.7
+
+42.5
+15.4
+
+44.3
+16.8
+
+46.0
+17.0
+
+37.5
+16.4
+
+38.7
+15.1
+
+3,218
+2,550
+
+11.5
+9.1
+
+11.5
+5.6
+
+10.7
+8.4
+
+10.4
+15.1
+
+12.1
+9.5
+
+12.0
+15.3
+
+15.6
+7.2
+
+12.0
+11.3
+
+9.2
+11.0
+
+5.5
+6.0
+
+9.5
+9.1
+
+12.2
+8.5
+
+13.5
+7.1
+
+16.2
+9.3
+
+11.3
+13.5
+
+1,547
+
+5.5
+
+6.2
+
+7.3
+
+2.3
+
+4.1
+
+4.3
+
+3.8
+
+3.6
+
+5.8
+
+12.3
+
+8.0
+
+2.9
+
+4.2
+
+5.0
+
+4.9
+
+1,226
+1,124
+
+4.4
+4.0
+
+5.3
+3.1
+
+5.2
+6.4
+
+3.3
+4.0
+
+3.0
+2.6
+
+2.6
+4.9
+
+3.6
+5.4
+
+4.6
+3.1
+
+4.6
+3.5
+
+5.4
+3.4
+
+4.0
+3.5
+
+4.5
+4.4
+
+3.9
+4.0
+
+5.1
+4.4
+
+4.0
+5.7
+
+883
+
+3.2
+
+2.8
+
+2.7
+
+3.8
+
+3.3
+
+3.9
+
+4.1
+
+2.9
+
+2.8
+
+2.1
+
+3.3
+
+4.0
+
+3.0
+
+1.9
+
+2.6
+
+647
+360
+
+2.3
+1.3
+
+1.8
+0.4
+
+2.8
+0.2
+
+2.4
+6.0
+
+1.4
+0.1
+
+3.3
+2.4
+
+2.1
+0.3
+
+2.8
+1.1
+
+2.5
+1.3
+
+1.5
+3.9
+
+2.6
+2.1
+
+1.9
+0.7
+
+1.4
+0.0
+
+2.5
+1.7
+
+1.9
+2.3
+
+1
+
+Not Registered.  .  .  .  .  .  .  .  .  .  .  .  .
+Reasons for Not Registering2
+Not interested in the election/
+not involved in politics .  .  .  .  .  .
+Other reason .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Did not meet registration
+deadlines.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Not eligible to vote. .  .  .  .  .  .  .  .  .  .
+Permanent illness or
+disability. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+My vote would not make a
+difference. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Don't know or refused.  .  .  .  .  .  .  .
+Did not know where or how
+to register .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Did not meet residency
+requirements. .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Difficulty with English .  .  .  .  .  .  .  .
+
+Only individuals who reported being registered and also reported not voting were asked the question about the reason for not voting. Nonresponses were not included.
+Includes only those respondents who answered “no” to the question, “Were you registered in the election of November 2024?” Nonresponses were not included.
+Note: Numbers and percentages may not sum to totals due to rounding.
+Source: U.S. Census Bureau, Current Population Survey, November 2024. Data Management System (DMS) number: P-7534375 and Disclosure Review Board (DRB) approval number:
+CBDRB-FY26-SEHSD003-078.
+1
+
+U.S. Census Bureau
+
+2
+
+Figure 12.
+
+Reasons for Not Voting—Presidential Elections: 2004–2024
+(In percent)
+
+Not interested, felt my vote
+wouldn't make a difference
+
+2024
+
+19.7
+
+2020
+
+17.6
+
+2016
+
+15.4
+
+2012
+
+15.7
+
+2008
+
+14.0
+
+2004
+
+11.3
+0
+
+Too busy, conflicting
+work or school schedule
+
+17.8
+
+14.7
+
+13.1
+
+14.6
+
+14.3
+18.9
+
+20
+
+10.5
+30
+
+40
+
+41.7
+11.7
+
+13.5
+
+33.8
+
+14.0
+
+38.7
+
+15.7
+
+38.5
+
+16.3
+50
+
+Other reason (includes
+don't know and refused)
+
+35.3
+
+13.0
+
+12.7
+
+18.4
+
+Illness or
+disability
+
+12.4
+
+24.8
+
+21.1
+10
+
+Didn't like candidates
+or campaign issues
+
+40.8
+60
+
+70
+
+80
+
+90
+
+100
+
+Note: The estimates in this figure are for registered nonvoters. Nonresponses are not included. Totals may not sum to
+100 due to rounding.
+Source: U.S. Census Bureau, Current Population Survey, November 2004–2024. Data Management System (DMS) number: P-7534375
+and Disclosure Review Board (DRB) approval number: CBDRB-FY26-SEHSD003-078.
+
+Finally, regarding family income,
+registered nonvoters making under
+$50,000 a year were more likely
+to have an illness or disability that
+prevented them from voting (15.1
+percent) than those with higher
+family incomes (13.7 percent or
+less). Those making $150,000 or
+more were the least likely to not
+vote due to illness or disability at
+3.7 percent.
+While some Americans registered
+but did not vote, more were potentially eligible to register and did
+not do so. An estimated 28.0 million Americans in the CVAP were
+not registered to vote in the 2024
+election (Table 3).22 These individuals were most likely to be nonregistered because of disinterest in
+the election or not being involved
+in politics at 42.3 percent, followed by not meeting registration
+deadlines at 11.5 percent, and not
+
+being eligible to vote at 9.1 percent.23 About 16.4 percent of those
+not registered indicated an “other
+reason” than the response options
+offered on the supplement.
+Across race and Hispanic origin,
+age, and income categories, a plurality of the nonregistered population did not register because
+they were not interested in the
+election or involved in politics. The
+non-Hispanic White population
+who did not register to vote were
+more likely to not be interested
+(45.5 percent) than non-Hispanic
+Black (39.7 percent), non-Hispanic
+Asian (36.5 percent), and Hispanic
+(37.6 percent) populations, but no
+more likely than the non-Hispanic
+Other race. Meanwhile, not being
+interested was the most common
+reason for all age groups, ranging
+between 41.6 percent and 43.1 percent, with no statistical differences
+between younger and older categories. Lastly, those with family
+Voting eligibility can vary by state
+or local resident requirements. For more
+information, refer to <www.census.gov/data/
+academy/resources/one-pagers/voting-andregistration.html>.
+23
+
+22
+The estimate is limited to nonregistered Americans in the CVAP who said
+they did not vote and answered the reason
+for not voting question.
+
+U.S. Census Bureau
+
+incomes of at least $150,000 were
+less likely to report not interested
+(37.5 percent) than those making
+either $50,000–$99,000 (44.3
+percent) or $100,000–$149,999
+(46.0 percent).24
+
+SUMMARY
+The 2024 election, the first presidential election after the COVID-19
+pandemic, showcased declines in
+voter turnout and nontraditional
+voting compared to 2020. Despite
+these changes, the 2024 election
+also sustained some long-term
+demographic trends from previous presidential elections, such as
+the overrepresentation of voters with high family incomes and
+bachelor’s degrees. The November
+CPS Voting and Registration
+Supplement offers a detailed look
+at the demographics of who voted,
+the methods voters used to vote,
+and how these measures have
+changed over time.
+24
+The difference in the percentage “not
+interested” between $50,000–$99,000 and
+$100,000–$149,999 was not statistically
+significant. The percentage “not interested”
+of those making less than $50,000 did not
+differ significantly from other income groups.
+
+19
+
+ACCURACY STATEMENT
+The population represented (i.e.,
+the population universe) in the CPS
+is the civilian, noninstitutionalized
+population living in the United
+States. In the CPS Voting and
+Registration Supplement, this
+population is further restricted to
+those who report that they are
+citizens who are 18 years of age or
+older and have completed the core
+CPS survey.
+Responses to the Voting and
+Registration Supplement are
+the basis for estimates in this
+report. The first question asked if
+respondents voted in the election
+held on Tuesday, November 5,
+2024. Respondents who did
+not respond to the question or
+answered “No” or “Do not know,”
+were then asked if they were
+registered to vote in the election.
+As in all surveys, estimates from
+the CPS and the November
+supplement are subject to
+sampling and nonsampling error.
+All comparisons presented in this
+report have taken sampling error
+into account and are significant at
+the 90 percent confidence level
+unless otherwise noted.25
+Nonsampling error in surveys
+is attributable to a variety of
+sources, such as survey design,
+the respondents’ interpretation of
+the questions, the respondents’
+willingness and ability to provide
+correct and accurate answers,
+and post-survey practices like
+question coding and response
+classification. To minimize these
+errors, the Census Bureau employs
+quality control procedures in
+sample selection, the wording of
+
+All comparisons within this text are
+simple pair-wise comparisons; no multiple
+comparison adjustments were made to the
+tests. We acknowledge that some of the
+conclusions made in this text may not remain
+statistically significant if the multiple comparison adjustments were included.
+25
+
+20
+
+questions, interviewing, coding,
+data processing, and data analysis.
+The CPS weighting procedure
+uses ratio estimation to adjust
+sample estimates to independent
+estimates of the national
+population by age, race, sex, and
+Hispanic origin. This weighting
+partially corrects for bias due
+to undercoverage of certain
+populations, but biases may
+still be present when people are
+missed by the survey who differ
+from those interviewed in regard
+to other characteristics. We do
+not precisely know the effect of
+this weighting procedure on other
+variables in the survey. All of these
+considerations affect comparisons
+across different surveys or data
+sources.
+Further information on the source
+of the data and accuracy of the
+estimates, including standard
+errors and confidence intervals,
+can be found at <www.census.gov/
+programs-surveys/cps/technicaldocumentation/complete.html> or
+by contacting the Demographic
+Statistical Methods Division
+by email at <dsmd.source.and.
+accuracy@census.gov>.
+The CPS estimates used in this
+report are an important analytic
+tool in election studies because
+they identify the demographic and
+socioeconomic characteristics of
+the voting population, registered
+population, and those who did
+not participate in the election.
+However, these estimates may
+differ from those based on
+administrative data or exit polls.
+Every state’s board of elections
+tabulates the vote counts for each
+national election, while the Clerk of
+the U.S. House of Representatives
+reports these state results in
+aggregate form for the entire
+
+country.26 These tallies, which are
+typically presented as the official
+results for a specific election,
+present the number of votes
+counted for select offices. In the
+elections discussed in this report,
+the official count of comparison
+is either the total number of votes
+cast for the office of the President
+(in presidential election years)
+or the total number of votes cast
+for a House of Representatives
+or Senate seat (in congressional
+election years). In each election,
+there are discrepancies between
+the CPS Voting and Registration
+Supplement estimates and these
+official counts. The discrepancy
+has varied in each election year,
+with official tallies typically
+presenting lower turnout than
+the estimates in these types of
+reports. Differences between the
+official counts and the November
+CPS supplement may be due to a
+combination of an understatement
+of official numbers and an
+overstatement of supplement
+estimates.
+Understatement of Official
+Vote Tallies
+Ballots are sometimes invalidated
+and thrown out during the vote
+counting process, and therefore do
+not appear in the official counts
+as reported by the Clerk of the
+U.S. House of Representatives.
+Official vote counts also frequently
+exclude mismarked, unreadable, or
+blank ballots. Additionally, because
+the total number of official votes
+cast is typically determined by
+counting votes for a specific
+office (such as President or U.S.
+Representative), voters who did
+not vote for this specific office, but
+26
+The official count of votes cast can
+be found on the webpage of the Clerk
+of the U.S. House of Representatives at
+<https://history.house.gov/Institution/
+Election-Statistics/>, or on the webpage of
+the Federal Election Commission at <www.
+fec.gov/introduction-campaign-finance/
+election-and-voting-information/>.
+
+U.S. Census Bureau
+
+who did vote for a different office
+in the same election, may not be
+included in the official reported
+tally. In all of these instances, it is
+conceivable that individuals would
+be counted as voters in the CPS
+and not counted in official tallies.
+Overstatement of Voting in the
+CPS Voting and Registration
+Supplement
+Some of the error in estimating
+turnout using the CPS core
+questions and the CPS Voting
+and Registration Supplement is
+the result of population controls
+and survey coverage. Respondent
+misreporting is also a source of
+error in the estimates. Previous
+analyses based on reinterviews
+presented respondents and proxy
+respondents are consistent in their
+reported answers, revealing that
+misunderstanding the questions
+does not fully account for the
+difference between the official
+counts and the survey estimates.
+However, studies that have
+matched survey responses with
+voting records indicate that part
+of the discrepancy between survey
+estimates and official counts is the
+result of respondent misreporting,
+particularly vote overreporting
+to appear to behave in a socially
+desirable way.27
+
+As discussed earlier, the issue of
+vote overreporting is not unique
+to the Voting and Registration
+Supplement. Other surveys
+consistently overstate voter
+turnout as well, including highly
+respected national-level surveys
+like the American National Election
+Studies and the General Social
+Survey. Potential reasons why
+respondents might incorrectly
+report voting in an election are
+myriad, including intentional
+misreporting, legitimate confusion
+over whether a vote was cast or
+not, and methodological issues
+related to question wording,
+method of survey administration,
+and specific question
+nonresponses.
+Voting Not Captured in the
+CPS Voting and Registration
+Supplement
+The CPS only covers the civilian,
+noninstitutionalized population
+residing in the United States.
+Therefore, the supplement does
+not capture voting for citizens
+living in institutions in the United
+States or voting for citizens,
+whether civilian or military,
+residing outside of the United
+States who cast absentee ballots.
+
+MORE INFORMATION
+Detailed table packages
+are available that provide
+demographic characteristics of
+the population by voting and
+registration status. The Census
+Bureau also provides a series of
+historical tables and graphics.
+Electronic versions of these
+products and this report are
+available at <www.census.gov/
+data/tables/time-series/demo/
+voting-and-registration/p20-590.
+html>.
+
+CONTACT
+U.S. Census Bureau, Customer
+Service Center, toll free at 1-800923-8282 or visit <https://ask.
+census.gov>.
+
+SUGGESTED CITATION
+Davis, Leslie K., and
+Erik L. Hernandez, “Voting
+and Registration in the Election
+of November 2024,” Current
+Population Survey Reports,
+P20-590, U.S. Census Bureau,
+Washington, DC, 2026.
+
+ACKNOWLEDGMENTS
+The authors of this report would
+like to thank Kevin McElrath for his
+contributions to the analysis of the
+2024 CPS data.
+
+27
+Allyson L. Holbrook and Jon A.
+Krosnick, “Social Desirability Bias in Voter
+Turnout Reports: Tests Using the Item Count
+Technique,” Public Opinion Quarterly, Oxford
+University Press, Vol. 74, Issue 1, 2009.
+
+U.S. Census Bureau
+
+21
+
+
