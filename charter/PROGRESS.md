@@ -8,7 +8,7 @@ Updated November 16, 2026 (about 06:30 UTC) by the lead, session_01UQzgBuCWpLEvH
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
-| Lead | `session_01UQzgBuCWpLEvHgx9QKLvwh` | Project 2050: lead | November 15, about 19:06 UTC (started by the outgoing lead; handoff #390) |
+| Lead | `session_01UQzgBuCWpLEvHgx9QKLvwh` (handing over; the new lead adds itself) | Project 2050: lead | November 15, about 19:06 UTC (started by the outgoing lead; handoff #390) |
 | Reviewer | `session_01UQzgBthnBUyyQThmKYgBWb` | Project 2050: reviewer | November 16, about 05:18 UTC; woken every three hours at :32 by the scheduled task `trig_01DDMhKhFdU5hL7hkgCSjqjz` (older reviewer tasks are disabled) |
 | Reviewer 2 (overnight overflow, November 16 only) | `session_01UQzgBuqcWCcoNaq2Va2cNm` | Project 2050: reviewer 2 (tonight's overflow) | November 16, about 05:29 UTC; no scheduled task; reviews only what is sent to it. Archive once its PRs (#402, #405, #407) merge |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
@@ -32,7 +32,25 @@ Updated November 16, 2026 (about 06:30 UTC) by the lead, session_01UQzgBuCWpLEvH
 
 ## In motion
 
-**Lead (since November 15, about 19:06 UTC):** `session_01UQzgBuCWpLEvHgx9QKLvwh`.
+**Lead handoff (November 16, about 09:00 UTC)** from `session_01UQzgBuCWpLEvHgx9QKLvwh` (about 650,000 tokens; lineage depth 1, so it starts the new lead itself).
+1. **Open PRs, in merge order:**
+   1. #407, M3 (routine, approved; branch updated at about 08:54);
+   2. #408, this board PR (routine);
+   3. #402, the D3 report (tier 3, approved). It and #407 both edit `models/tools/household/`, so after #407 merges, ask its author to merge main once and regenerate. Reviewer 2 re-approves, then Espen labels it;
+   4. #405, E-Verify's funds line (tier 3, approved). It needs a GitHub branch update, then Espen's label.
+   Update each branch with GitHub's update just before its turn; a pushed conflict merge needs a re-approval.
+2. **Active sessions** (all report to the lead; send each a `handoff` with the new lead's ID):
+   - work section 2: `session_01UQzgBsbHEBXE2ENZKzKb1v`. It stopped on the 5-hour usage limit at 06:29 UTC and was asked at 08:55 to resume;
+   - democratic renewal section 2: `session_01UQzgBxMgoY5ivSatiQ1PQK`, running;
+   - the two section 2 PRs both append to `library/catalog.csv`, so the second to merge needs one merge of main;
+   - PR authors, idle until asked: #402 `session_01UQzgBwJfUAWY4KtYuhnCam`, #405 `session_01UQzgBtWDQeSZ56gdbZSQaK`, #407 `session_01UQzgBwZAbLzCdjuwPK9vzk`;
+   - reviewer 2, `session_01UQzgBuqcWCcoNaq2Va2cNm`: archive it once #402, #405 and #407 merge;
+   - archive each worker once its PR merges.
+3. **Waiting on Espen:** the labels on #402 and #405, once current with main. Tell Espen that #402 moves the plan-wide FY2040 gap from $588B to $603B.
+4. **Scheduled check-ins:** the outgoing lead's `send_later` `trig_01XAeg12Wb7n4iyj1bKU8Azp` (about 10:12 UTC). The new lead disables it with `update_trigger` and sets its own. The reviewer's task is `trig_01DDMhKhFdU5hL7hkgCSjqjz`.
+5. **Outside the repository:** Espen's three private pages, listed below. Their sources were in the outgoing lead's scratchpad. The new lead reads each with the Artifact tool's read action before any republish. After #402 merges, update the gap on the health financing checkpoint page and the stage E review page to $603B and $3,773B.
+6. **Espen** (they/them) isn't a programmer and wants plain, short updates with numbered asks. After 12:30 am Eastern, tell Espen to go to bed. Espen lifted the session cap for the night of November 16 only.
+
 
 - **Where we are in the plan (`charter/PLAN.md` section 6), for every lead:** stages A to E are done. **Stage E closed at Espen's boundary review with no changes** (`DEC-2026-11-16-04` to `-06`, #406): clean power booked and paused, immigration booked, and the financing checkpoint decided (`DEC-2026-11-15-01` to `-29`, `DEC-2026-11-16-01` to `-03`) and booked (#394), with the memo rewritten as decided (#398). **Stage F (work, democratic renewal) is under way:** section 1 of each is merged (#396, #397) and the work dossier's section 2 has started. Then stage G, the full financing settlement, which re-audits the whole plan's financing, including what the checkpoint settled, once stage F's costs are in (`DEC-2026-11-14-06`). Keep this line current as the stages move.
 - **The plan-wide gap** (budget model, case `mixed`, after #394): **$588B short in FY2040 (1.09% of GDP) and $3,592B over FY2030-39**; health's first call on other flagships' booked revenue is $518B of the FY2040 figure. #402, once merged, moves it to $603B and $3,773B (health's first call $532B); restate this line, `dossiers/foundations/checkpoint-financing.md`, the stage E review page and `dossiers/agenda/transportation/6-cost.md`'s plan-wide row then.
