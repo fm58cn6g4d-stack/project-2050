@@ -49,7 +49,14 @@ for x in s['by_domain']: A(f"| {x['domain']} | {x['rows']} | {x['gf_lo']:.2f} | 
 A(f"| **Total** | | **{g['lo']:.2f}** | **{g['mid']:.2f}** | **{g['hi']:.2f}** | **{s['regular_floor_days']}** (+{s['recon_days']} for R1-R3) |\n")
 A("## Channels at gross\n\nEach dedicated channel's revenue and outlays, kept out of the general-fund gap. Every row that reaches households enters the D3 household net test. The proposed education fund (EDU-9B, held) is not a channel until chosen.\n")
 A("| Channel | Revenue mid | Revenue range | Outlays mid | Outlay range | Note |\n| --- | --- | --- | --- | --- | --- |")
-for c in s['channels']: A(f"| {c['channel']} | {c['rev_mid']:.2f} | {c['rev_lo']:.2f}-{c['rev_hi']:.2f} | {c['out_mid']:.2f} | {c['out_lo']:.2f}-{c['out_hi']:.2f} | {c['note']} |")
+# The Social Security channel's share of the 75-year gap comes from the funds model of the same run (funds.json; run-all.sh
+# runs this script after funds-model.py), so the figure can't go stale when the funds model's inputs change.
+FU = json.load(open('funds.json'))['ss']
+def channel_note(c):
+    if c['channel'] != "Social Security (OASDI)": return c['note']
+    gap = -FU['Current law']['balance']
+    return f"{c['note']}; closes about {FU['D8 baseline']['closed']:.0f}% of the {gap:.2f}%-of-payroll 75-year gap after the haircut (funds model, legacy/index/dedicated-funds.md)"
+for c in s['channels']: A(f"| {c['channel']} | {c['rev_mid']:.2f} | {c['rev_lo']:.2f}-{c['rev_hi']:.2f} | {c['out_mid']:.2f} | {c['out_lo']:.2f}-{c['out_hi']:.2f} | {channel_note(c)} |")
 A("")
 A(transport)
 A("## By vehicle\n\n| Vehicle | Rows | General-fund net ($T) | Floor days |\n| --- | --- | --- | --- |")
