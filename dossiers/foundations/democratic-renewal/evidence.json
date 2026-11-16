@@ -4268,7 +4268,8 @@
    "During the review, we found 27 confirmed noncitizens",
    "Additionally, there are 5,007 registrants whose citizenship status we were unable",
    "My office also identified 25 registered voters who are probable noncitizens.",
-   "Category\nVoted\n\nYear Voted\n\nStatus/Response\nYes\n\n13"
+   "Confirmed Noncitizens (27)",
+   "Voted Yes 13 No 14"
   ],
   "grade": "A",
   "fact_date": "2026-05-27",
@@ -4278,7 +4279,7 @@
   "supports": [
    "dossiers/foundations/democratic-renewal/2-what-works.md"
   ],
-  "locator": "Cover letter; p. 1; Confirmed Noncitizens table (p. 9)"
+  "locator": "Cover letter, p. 1; \"Confirmed Noncitizens (27)\" table, p. 9 (the last quotation reads the table's Voted column across its cells)"
  },
  {
   "id": "EV-DEM-165",
@@ -4803,8 +4804,8 @@
   ],
   "source": "SRC-5239",
   "anchor": [
-   "The number of news desert counties rose to 213 in 2025, a jump from 206 in last year's report.",
-   "In another 1,524 counties, there's only one remaining news source.",
+   "The number of news desert counties rose to 213 in 2025, a jump from 206 in last year’s report.",
+   "In another 1,524 counties, there’s only one remaining news source.",
    "Taken together, some 50 million Americans have limited to no access to local news.",
    "Twenty years ago, there were about 150 news desert counties",
    "The rise in news deserts was accompanied by an increase in newspaper closures, which ticked up to 136 this past year"
@@ -6495,7 +6496,7 @@
   "supports": [
    "dossiers/foundations/democratic-renewal/2-what-works.md"
   ],
-  "locator": "pp. 6-9 (text lines 108-110, 220-223, 416-419)"
+  "locator": "pp. 6-9 (Executive summary and Year Six results)"
  },
  {
   "id": "EV-DEM-242",
