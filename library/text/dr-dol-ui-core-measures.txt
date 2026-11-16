@@ -1,0 +1,247 @@
+Source: https://oui.doleta.gov/unemploy/pdf/Core_Measures.pdf
+Publisher: U.S. Department of Labor
+Retrieved: 2026-11-16
+Original SHA-256: 8b4161e1613ce0c4f4276c4cfa5b8379d55ee9724fbb668ed9c7302145f6ab4e
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+UI PERFORMS Core Measures
+Benefits Measures
+First Payment Promptness: Percentage of all 1st payments made
+within 14/21 days after the week ending date of the first
+compensable week in the benefit year (excludes
+Workshare, episodic claims such as DUA, and retroactive
+payments for a compensable waiting period).
+Nonmonetary Determination Time Lapse: Percentage of
+Nonmonetary Determinations (Separations and Nonseparations)
+made within 21 days of the date of detection of any nonmonetary
+issue that had the potential to affect the claimant’s benefit rights.
+Nonmonetary Determination Quality- Nonseparations:
+Percentage of Nonseparation Determinations with Quality Scores
+equal to or greater than 95 points, based on the evaluation results
+of quarterly samples selected from the universe of nonseparation
+determinations.
+Nonmonetary Determination Quality- Separations: Percentage
+of Separation Determinations with Quality Scores equal to or
+greater than 95 points, based on the evaluation results of quarterly
+samples selected from the universe of separation determinations.
+Program Integrity Measures
+Detection of Overpayments: Percentage of detectable,
+recoverable overpayments estimated by the Benefit Accuracy
+Measurement survey that were established for recovery.
+Improper Payments Measure: Percentage of UI benefits
+overpaid plus UI benefits underpaid divided by the total
+amount of UI benefits paid.
+UI Overpayment Recovery Measure: Percentage of Amount of
+overpayments recovered divided by (Amount of overpayments
+established minus overpayments waived)
+(example IPIA 2013 = July 1, 2012 – June 30, 2013)
+Appeals Measures
+Average Age of Pending Lower Authority Appeals: The sum of
+the ages, in days from filing, of all pending Lower Authority
+Appeals divided by the number of Lower Authority Appeals.
+Average Age of Pending Higher Authority Appeals: The sum of
+the ages, in days from filing, of all pending Higher Authority
+Appeals divided by the number of Higher Authority Appeals.
+Lower Authority Appeals Quality: Percentage of Lower
+Authority Appeals with Quality Scores equal to or greater than
+85% of potential points, based on the evaluation results of
+quarterly samples selected from the universe of lower authority
+benefit appeal hearings.
+Tax Measures
+New Employer Status Determinations Time Lapse: Percentage
+of New Employer Status Determinations made within 90 days of
+the last day in the quarter in which the business became liable.
+
+Acceptable Levels of
+Performance
+
+≥87%
+
+≥80%
+
+≥75%
+
+≥75%
+
+≥50% and ≤95% of detectable /
+recoverable overpayments are
+established for recovery
+< 10%
+IPIA 2019: 68%
+
+≤30 Days
+≤40 Days
+
+≥80%
+
+≥70%
+
+Tax Quality: assessment of the accuracy and completeness of the
+tax program.
+
+Reemployment Measure
+Reemployment Rate in 2nd Quarter after Program Exit: The
+percentage of RESEA participants who are in unsubsidized
+employment during the 2nd quarter after exit from the
+Employment Services (ES) program.
+
+SECRETARY STANDARDS IN REGULATIONS
+
+1
+
+0F
+
+1
+
+No more than 3 tax functions failing
+TPS in a year
+The same tax function cannot fail for 3
+consecutive years
+State specific targets based on
+negotiated levels of performance targets
+in the ES program. This process is
+described here:
+https://wdr.doleta.gov/directives/corr_d
+oc.cfm?docn=3430
+
+Acceptable Levels of
+Performance
+
+First Payment Promptness (Regulation): % of all 1st payments
+made within 14/21 days: Intrastate, UI, full weeks
+
+≥87%
+
+First Payment Promptness (Regulation): % of all 1st payments
+made within 35 days: Intrastate, UI, full weeks
+
+≥93%
+
+First Payment Promptness (Regulation): % of all 1st payments
+made within 14/21 days: Interstate, UI, full weeks
+
+≥70%
+
+First Payment Promptness (Regulation): % of all 1st payments
+made within 35 days: Intrastate, UI, full weeks
+
+≥78%
+
+Lower Authority Appeals (Regulation): % decided within 30
+days of filing
+
+≥60%
+
+Lower Authority Appeals (Regulation): % decided within 45
+days of filing
+
+≥80%
+
+The criteria for measures of Secretary Standards are currently in regulation and will remain in effect until regulation is replaced.
+
+UI PERFORMS MANAGEMENT INFORMATION MEASURES
+Secretary’s Standards
+First payments Intrastate full weeks, within 14/21 days
+First payments Intrastate full weeks, within 35 days
+First payments Interstate full weeks, within 14/21 days
+First payments Interstate full weeks, within 35 days
+Lower Authority Appeals Timeliness – 30 days
+Lower Authority Appeals Timeliness – 45 days
+Tax Measures
+New Status Determination Timeliness ( within 90 days of Quarter Ending Date)
+New Status Determination Timeliness ( within 180 days of Quarter Ending Date)
+Successor Status Determination Timeliness (within 90 days of Quarter Ending Date)
+Successor Status Determination Timeliness (within 180 days of Quarter Ending Date)
+Contributory Employer Report Filing Timeliness
+Reimbursing Employer Report Filing Timeliness
+Secured Delinquent Contributory Reports Timeliness
+Secured Delinquent Reimbursing Reports Timeliness
+Resolved Delinquent Contributory Reports Timeliness
+Resolved Delinquent Reimbursing Reports Timeliness
+Contributory Employer Payments Timeliness
+Reimbursing Employer Payments Timeliness
+Percent of amounts due determined uncollectible- Contributory
+Percent of amounts due determined uncollectible- Reimbursing
+Percent of unpaid Contributions to amount due
+Percent of unpaid reimbursements to amount due
+Total Wage Change Resulting From Audit (Factor 1)
+
+Percent of Total Wages Audited (Annualized)
+Accuracy of New Status Determination
+Accuracy of Successor Determination
+Accuracy of Status inactivation
+Timeliness of Cashiering
+Accurate Identification and Resolution of Report Delinquency
+Accurate identification and Resolution of Accounts Receivable
+Audits to meet ESM Requirements
+Accuracy of Contribution Reports processing
+Accuracy of Debits and Billings of Contributory Employers
+Accuracy of Debits and Billings of Reimbursing Employers
+Accuracy of Credits and Refunds
+Accuracy of Benefit Charging
+Accuracy of Experience Rating
+Cash Management Measures
+Average Days on Deposit
+Timeliness of transfer from clearing account to Trust Fund
+
+Benefits Measures
+Timeliness of Payments and Nonmonetary Determinations
+First Payments Intrastate full weeks
+First Payments Interstate full weeks
+First Payments Intrastate, all weeks
+First Payments Interstate, all weeks
+First Payments, partial weeks
+First Payments, UCFE
+First Payments, UCX
+First Payments, workshare
+Continued Weeks Payment, all weeks
+Continued Weeks Payment, partial weeks
+Continued Weeks Payments, workshare
+Intrastate Separation Determinations
+Intrastate Nonseparation Determinations
+Interstate Separation Determinations
+Interstate Nonseparation Determinations
+Combined Wage Claims Timeliness Measures
+Combined Wage Claim Wage Transfer
+Combined Wage Claim Billing
+Combined Wage Claim Reimbursements
+Benefits Accuracy Measures
+Paid Claim Accuracy
+Denied Claim Accuracy
+Operational Overpayment Rates
+Benefit Payment Control Measures
+Fraud Overpayment Recovery Rate
+Non-fraud Overpayment Recovery Rate
+Appeals Measures
+
+Appeals Timeliness Measures and Case Aging Measures
+Lower Authority Appeals Timeliness
+Higher Authority Appeals Timeliness
+Lower Authority Appeals, Case Aging
+Higher Authority Appeals, Case Aging
+Appeals Quality Measure
+Lower Authority Appeals Quality - Due Process
+Reemployment Measures
+Median Earnings in the 2nd Quarter after Program Exit Quarter for RESEA Participants
+Reemployment Rate for all UI Eligible Participants in the 2nd Quarter After Program Exit Quarter
+Macroeconomic Stabilization Measures
+Recipiency Rates
+Exhaustion Rates
+
+Unemployment Insurance Programs and Other Measures
+Unemployment Compensation for Federal Employees (UCFE)
+Unemployment Compensation for Ex-Service Members (UCX)
+Benefit Payment Control (BPC)
+Internal Security (IS)
+UI Automation Support Account (UIASA)
+State Audits
+Benefit Accuracy Measurement (BAM)
+National Directory of New Hires (NDNH)
+Tax Performance System (TPS)
+Data Validation (DV)
+Benefits, Timeliness, and Quality (BTQ)
+Reporting Delinquencies
+UI Program Integrity
+
+
