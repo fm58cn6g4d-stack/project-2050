@@ -9938,18 +9938,20 @@
  },
  {
   "id": "EV-WRK-395",
-  "statement": "The same bill would raise federal financing of Extended Benefits from 50 percent to 100 percent, trigger extra weeks automatically when unemployment is at or above 5.5 percent, and create a federally financed Jobseeker Allowance of $250 a week for unemployed workers outside regular UI.",
+  "statement": "The same bill would raise federal financing of Extended Benefits from 50 percent to 100 percent, trigger extra weeks automatically when unemployment is at or above 5.5 percent or the national rate is 0.5 percentage points above its recent low, and create a federally financed Jobseeker Allowance of $250 a week for unemployed workers outside regular UI.",
   "claim": "data",
   "figures": [
    "50",
    "100",
    "5.5",
-   "$250"
+   "$250",
+   "0.5"
   ],
   "source": "SRC-5784",
   "anchor": [
    "Sec. 101. Increases federal financing of EB from 50 percent to 100 percent.",
    "adjusted) is at or above 5.5 percent.",
+   "national level is at least 0.5 percentage points higher than the lowest average rate of total",
    "The amount of the Jobseeker Allowance is $250 per week (indexed annually for inflation), minus"
   ],
   "locator": "Title I, secs. 101-103; Title III",
