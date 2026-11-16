@@ -7324,5 +7324,1632 @@
     "stance": "qualifies"
    }
   ]
+ },
+ {
+  "id": "EV-DEM-270",
+  "statement": "CRS reports that CBO estimated in 2020 that a cumulative $40 billion increase in the IRS enforcement budget between 2020 and 2030 would raise about $103 billion and cut the deficit by $63 billion; CRS also records the view that the IRS must use existing money better.",
+  "claim": "analysis",
+  "figures": [
+   "$40",
+   "$103",
+   "$63",
+   "$6.40",
+   "2020",
+   "2030"
+  ],
+  "source": "SRC-5332",
+  "anchor": [
+   "$40 bil ion increase in IRS’s enforcement budget between 2020 and 2030 would increase revenues by an",
+   "estimated $103 bil ion, resulting in a $63 bil ion reduction in the federal budget deficit. The estimate is",
+   "based on an assumed return on investment of $6.40 of added revenue for each additional dollar spent on",
+   "Some maintain that the agency already has adequate"
+  ],
+  "grade": "C",
+  "fact_date": "2020-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "CBO (nonpartisan), July 2020 report 'Trends in the IRS's Funding and Enforcement', as restated by CRS (January 2021); CBO's own page could not be downloaded (403). CBO's estimate excludes deterrence and assumes falling returns as funding rises; the $6.40 is the CRS's description of the assumed return on the marginal dollar, which is higher than the package's average ratio ($103/$40). CBO's 2020 estimate for $20 billion ($61 billion) is in the legacy review but not in this text. Matches legacy capacity-recovery-budget-review.md's 'CBO 2020' row.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Page 3, final paragraphs",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-271",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-273",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-275",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-274",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-271",
+  "statement": "CRS reports a CBO analysis that a $20 billion reduction in Inflation Reduction Act enforcement spending could lower federal revenues by $44 billion over FY2024 to FY2034.",
+  "claim": "analysis",
+  "figures": [
+   "$20 billion",
+   "$44 billion",
+   "FY2024",
+   "FY2034"
+  ],
+  "source": "SRC-5333",
+  "anchor": [
+   "Budget Office analysis concluded that a $20 billion",
+   "reduction in IRA enforcement spending could result in a",
+   "$44 billion drop in federal revenues from FY2024 to",
+   "FY2034."
+  ],
+  "grade": "C",
+  "fact_date": "2024-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "CBO (nonpartisan) February 2024 estimate of rescissions, restated by CRS; CBO page blocked to download. The ratio (about 2.2) is lower than the 2020 marginal figure, consistent with CBO assuming lower returns on later dollars; legacy review records the same pair. Thomson Reuters reports a CBO figure of $38.6 billion for the 2025-26 rescission (EV-DEM-094).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Policy Issues section, page 2",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-270",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-272",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-094",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-274",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-272",
+  "statement": "CBO estimated that the Fiscal Responsibility Act rescission of $1.4 billion of IRS funding would reduce revenues by $2.3 billion through 2033 and raise the deficit by $900 million.",
+  "claim": "analysis",
+  "figures": [
+   "$1.4 billion",
+   "$2.3 billion",
+   "2033",
+   "$900 million"
+  ],
+  "source": "SRC-5334",
+  "anchor": [
+   "Among other changes, the Fiscal Responsibility Act (FRA) rescinds $1.4 billion that the IRA made",
+   "Offic e estimates that this rescission will reduce revenues by $2.3 billion through 2033, and raise the",
+   "federal deficit by $900 million over that period."
+  ],
+  "grade": "C",
+  "fact_date": "2023-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "CBO (nonpartisan) estimate restated by CRS, Biden administration period. A small cut: the revenue loss per dollar (about 1.6) is lower than the larger CBO figures, reflecting timing within the window.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Fiscal Responsibility Act section",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-271",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-273",
+  "statement": "Using IRS accounting data and random audits from tax years 2010-2014, Boning, Hendren, Sprung-Keyser and Stuart estimate that $1 of audit spending raises $2.17 in initial revenue, that audits of the top 0.1% return 6.3:1, and that with deterrence audits above the 90th percentile return more than $12 per $1.",
+  "claim": "analysis",
+  "figures": [
+   "$1",
+   "$2.17",
+   "0.1%",
+   "6.3:1",
+   "90th",
+   "$12",
+   "2010-2014",
+   "40%"
+  ],
+  "source": "SRC-5335",
+  "anchor": [
+   "We find an additional $1 spent auditing taxpayers above the 90th income percentile yields more than $12 in revenue, while audits of below-median income taxpayers yield $5.",
+   "On average, $1 in audit spending raises $2.17 in initial revenue.",
+   "Audits of the 99-99.9th percentile have a 3.2:1 return; audits of the top 0.1% return 6.3:1. We then exploit the 40% audit reduction between tax years 2010 and 2014",
+   "This specific deterrence effect produces at least three times more revenue than the initial audit."
+  ],
+  "grade": "B",
+  "fact_date": "2023-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Academic team (Harvard, Brown) with IRS Research, Applied Analytics and Statistics co-authors (Boning, Stuart); peer-reviewed in QJE 2025. Counts specific deterrence, which CBO excludes, so returns are higher than CBO ratios; measures average and marginal returns in 2010-2014, not the returns to a rapid hiring surge.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-270",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-275",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-274",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-274",
+  "statement": "The Foundation for Government Accountability told Congress that CBO projected nearly $7.2 billion of added IRS enforcement revenue by the end of FY2024 against $1.3 billion collected, and called CBO's $6.40 benchmark off by more than sixfold.",
+  "claim": "analysis",
+  "figures": [
+   "$7.2 billion",
+   "FY2024",
+   "$1.3 billion",
+   "$6.40",
+   "82"
+  ],
+  "source": "SRC-5336",
+  "anchor": [
+   "The CBO predicted that, by the end of FY2024, the IRS would have collected nearly $7.2 billion in additional revenue—but actual collections of only $1.3 billion were shockingly 82 percent below projections.",
+   "The CBO’s benchmark ROI of $6.40 in new revenue gained for every $1.00 spent on enforcement was off by more than sixfold."
+  ],
+  "grade": "C",
+  "fact_date": "2025-02-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-11",
+  "context": "Conservative advocacy group testifying at a House Ways and Means Oversight hearing (Republican majority), February 2025. The $1.3 billion is the IRS's announced collections from one high-income initiative, not total enforcement revenue, and the comparison ignores CBO's multi-year lag; the claim contests CBO but is not an independent measurement. Presented as one side.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Testimony, page 2",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-270",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-271",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-273",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-275",
+  "statement": "The Tax Foundation notes that CBO estimates an added enforcement dollar yields $5 to $9 at current funding but that returns fall as funding grows, and that CBO excludes deterrence, which could make revenue higher.",
+  "claim": "analysis",
+  "figures": [
+   "$5",
+   "$9"
+  ],
+  "source": "SRC-5337",
+  "anchor": [
+   "Under current IRS funding levels, the CBO estimates an additional dollar of enforcement spending will yield between $5 and $9 in additional revenue, as they focus on the highest-return activities.",
+   "However, the return on investment of each additional dollar of IRS funding should fall over time.",
+   "On one hand, the CBO does not consider deterrence effects."
+  ],
+  "grade": "C",
+  "fact_date": "2022-08-17",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Center-right think tank (Tax Foundation), 2022, generally favourable to enforcing existing taxes over new ones but warning of compliance costs. Restates CBO; qualifies both CBO's ratios and higher academic estimates.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Section on revenue estimates",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-270",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-273",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-276",
+  "statement": "In the 2023 filing season, after IRA-funded hiring, the IRS met Treasury's 85% Level of Service goal on its Accounts Management phone lines, though employees answered only 35% of all calls received.",
+  "claim": "data",
+  "figures": [
+   "85%",
+   "35%"
+  ],
+  "source": "SRC-5338",
+  "anchor": [
+   "The IRS reached the Treasury Department’s goal of an 85% “Level of Service” (LOS) on the AM",
+   "telephone lines. However, IRS employees only answered 35% of all calls received. As the report details,"
+  ],
+  "grade": "A",
+  "fact_date": "2023-06-21",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "National Taxpayer Advocate (independent office within the IRS), June 2023, Biden administration. The Advocate says LOS covers a minority of calls and is not the best overall measure. Compare G.2's 2025-26 service figures (EV-DEM-095).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Telephone service, page 2"
+ },
+ {
+  "id": "EV-DEM-277",
+  "statement": "TIGTA found that in the first half of FY2023, as IRA hiring began, the IRS lost more revenue agents than it hired: a net loss of 82 in the Large Business and International Division and 186 in Small Business/Self-Employed, after a Treasury-ordered hiring pause; revenue agents on the rolls were 4.3% and 11.1% below FY2019.",
+  "claim": "data",
+  "figures": [
+   "FY 2023",
+   "82",
+   "186",
+   "4.3 percent",
+   "11.1 percent",
+   "2,908",
+   "4,227",
+   "FY 2019"
+  ],
+  "source": "SRC-5339",
+  "anchor": [
+   "LB&I Division experienced a net loss of 82 (97-15) revenue agents, while the SB/SE Division",
+   "experienced a net loss of 186 (205-19) revenue agents.",
+   "2,908 and 4,227 revenue agents on-roll, respectively. The revenue agents on the rolls as of",
+   "March 31, 2023, in comparison to FY 2019, represent a decrease of 4.3 percent for the",
+   "LB&I Division and 11.1 percent decrease for the SB/SE Division. Figure 7 details the trend in the",
+   "mandated that the IRS pause hiring at the grade GS-12 level and below and extended this"
+  ],
+  "grade": "A",
+  "fact_date": "2023-03-31",
+  "checked": "2026-11-16",
+  "recheck": "2027-08-31",
+  "context": "TIGTA (independent inspector general), August 2023. Shows that new money did not convert quickly into examiners: hiring was paused pending an OPM audit, and attrition outpaced hiring. The report also quotes a former Commissioner that experienced agents need about 3-4 months of training for complex individual returns (page 12). No TIGTA or GAO figure for full proficiency time was found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Pages 8-9, Figures 5-7"
+ },
+ {
+  "id": "EV-DEM-278",
+  "statement": "In the 2025 filing season the IRS estimated 32 million taxpayers were eligible for Direct File but 751,000 registered, a 78% increase on 2024, and 59% of users did not submit a return through it.",
+  "claim": "data",
+  "figures": [
+   "32 million",
+   "751,000",
+   "78 percent",
+   "423,000",
+   "59 percent",
+   "2025",
+   "2024"
+  ],
+  "source": "SRC-5340",
+  "anchor": [
+   "During the 2025 Filing Season, the IRS estimated that 32 million taxpayers would be eligible for",
+   "Direct File but only 751,000 taxpayers registered with Direct File. This was a 78 percent increase",
+   "from 423,000 registered taxpayers during the 2024 Filing Season. Direct File management",
+   "Specifically, 59 percent of the 751,000 Direct File users who accessed Direct File during the"
+  ],
+  "grade": "A",
+  "fact_date": "2025-04-20",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-19",
+  "context": "TIGTA (independent), March 2026, second Trump administration. Direct File management attributed low use to media reports that it had been eliminated and to a lack of outreach. The pilot's 2024 results are EV-SEC-112; its end is EV-SEC-063 and EV-SEC-064.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Results of Review, page 4"
+ },
+ {
+  "id": "EV-DEM-279",
+  "statement": "TIGTA found Direct File cost $16.2 million in FY2025 as of May 2025 against the IRS's $61.2 million estimate, though the reported cost excludes support functions and about $2.5 million of authentication costs; Treasury suspended it citing high costs and low participation.",
+  "claim": "data",
+  "figures": [
+   "$16.2 million",
+   "$61.2 million",
+   "$2.5 million",
+   "2025"
+  ],
+  "source": "SRC-5340",
+  "anchor": [
+   "$16.2 million as of May 2025. However, the IRS’s reported cost for",
+   "While the IRS estimated that Direct File would cost $61.2 million for",
+   "unreported costs were $2.5 million.",
+   "Congress announcing that the IRS would suspend Direct File, citing low overall participation,",
+   "relatively high costs, and burdens compared to other free filing options.4 The report"
+  ],
+  "grade": "A",
+  "fact_date": "2025-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-19",
+  "context": "TIGTA (independent). The 'high costs' reason is the second Trump administration Treasury's own view (October 2025 report to Congress); TIGTA's audited cost was about a quarter of the estimate. A per-return cost is not stated in the report; dividing by returns would need Figure 3's count, which was not legible in the text version.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Highlights; pages 2 and 9-10, Figure 5"
+ },
+ {
+  "id": "EV-DEM-280",
+  "statement": "The UK National Audit Office found in 2017 that the Government Digital Service had successfully reshaped government's approach to technology, and GDS estimated its spending controls saved £1.3 billion over five years, but its Verify identity system proved hard to use and adopt.",
+  "claim": "analysis",
+  "figures": [
+   "£1.3 billion",
+   "£455 million",
+   "nine of the 12",
+   "2015"
+  ],
+  "source": "SRC-5341",
+  "anchor": [
+   "Today’s report found that GDS has successfully reshaped government’s approach to technology and transformation, but there remains a risk it is trying to cover too broad a remit with unclear accountabilities.",
+   "GDS has established strong controls over spending and service design, and estimates that controls have reduced spending on IT by £1.3 billion over five years to April 2016.",
+   "In 2015, GDS received £455 million in funding",
+   "As a result, GDS now allows departments to offer other options for online access, in parallel, for nine of the 12 services"
+  ],
+  "grade": "C",
+  "fact_date": "2017-03-30",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "UK National Audit Office (independent of government), March 2017. The £1.3 billion is GDS's own estimate, reported not verified by the NAO.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Report page summary",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-281",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-312",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-281",
+  "statement": "The NAO found in 2019 that 3.6 million people had signed up for GOV.UK Verify against a target of 25 million by 2020, and that GDS had cut Verify's expected benefits by 75%, from £873 million to £217 million.",
+  "claim": "analysis",
+  "figures": [
+   "3.6 million",
+   "25 million",
+   "2020",
+   "75%",
+   "£873 million",
+   "£217 million"
+  ],
+  "source": "SRC-5342",
+  "anchor": [
+   "GDS is not on track to meet the target of 25 million users signed up to Verify",
+   "by 2020. By February 2019, 3.6 million people had signed up for Verify. If current trends",
+   "to 2019-20. It has now revised its benefits estimate for this period to £217 million,",
+   "75% lower than its original estimate. GDS classifies these benefits as non-cash releasing.6",
+   "GDS estimated that Verify’s benefits would total £873 million for the period 2016-17"
+  ],
+  "grade": "C",
+  "fact_date": "2019-03-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "UK National Audit Office investigation, March 2019; the Cabinet Office disputed the criticism at the time. A central digital unit can succeed on publishing and controls while failing on a shared identity platform.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary, paragraphs 3 and 6",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-280",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-311",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-282",
+  "statement": "The World Bank reports that Estonia's X-Road queries rose from half a million at its 2003 launch to 340 million, and, assuming 30 minutes saved per interaction, estimates savings of more than 7 million work days a year, 5.4 per citizen; Estonian law bars institutions from asking for data already held in a connected repository.",
+  "claim": "analysis",
+  "figures": [
+   "2003",
+   "340 million",
+   "30 minutes",
+   "7 million",
+   "5.4",
+   "2014",
+   "70 percent"
+  ],
+  "source": "SRC-5343",
+  "anchor": [
+   "from half a million to 340 million. In 2014, two-thirds of",
+   "are assumed to yield 30 minutes in time saved per interaction (for the service provider and the citizen) relative to",
+   "in 2014 implies a savings of more than 7 million work days",
+   "a year—5.4 work days for each citizen.",
+   "Estonia’s Public Information Act prohibits institutions",
+   "system launched in 2003 with 10 participating institutions.",
+   "By 2013, almost 900 had joined—70 percent are national"
+  ],
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "World Bank, 2016 (institutional advocate of digital government); the box relies on an Estonian author (Vassil 2015). The time saving rests on an assumed 30 minutes per interaction, not a measurement: treat as an illustration of scale.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chapter 5, Box 5.13",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-283",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-283",
+  "statement": "e-Estonia reports X-Road now carries 2,2B transactions per year (its notation), with 78 000 organisations as indirect users and over 3800 e-services.",
+  "claim": "data",
+  "figures": [
+   "2,2B",
+   "78 000",
+   "3800"
+  ],
+  "source": "SRC-5344",
+  "anchor": [
+   "78 000",
+   "organisations as indirect users of X-Road services",
+   "2,2B",
+   "transactions per year",
+   "over 3800",
+   "e-services available"
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Estonian state-backed promotional site; self-reported, undated counts. Data only.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Page statistics panel"
+ },
+ {
+  "id": "EV-DEM-284",
+  "statement": "The World Bank's 2016 report states that paying India's cooking gas subsidy into Aadhaar-linked bank accounts saved about US$1 billion a year, and that converting other subsidies could save over US$11 billion a year.",
+  "claim": "analysis",
+  "figures": [
+   "US$1 billion",
+   "US$11 billion"
+  ],
+  "source": "SRC-5343",
+  "anchor": [
+   "saved about US$1 billion per year when applied throughout the country",
+   "that are being converted to direct transfers using digital ID, potentially saving over US$11 billion per year in"
+  ],
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "World Bank (advocate of digital ID), 2016, citing Barnwal (2015). Savings claims for India's gas subsidy have been disputed because subsidy outlays also fell with oil prices; no independent audit was read for this entry (Evidence still needed).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chapter 4 (digital identity), section on social programs",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-285",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-286",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-287",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-285",
+  "statement": "India's Finance Ministry reports a BlueKraft Digital Foundation estimate that direct benefit transfer saved ₹3.48 lakh crore from 2009 to 2024, 53% of it in food subsidies through Aadhaar-linked ration card authentication.",
+  "claim": "analysis",
+  "figures": [
+   "₹3.48",
+   "₹1.85",
+   "53%",
+   "2009",
+   "2024",
+   "16 percent",
+   "9 percent"
+  ],
+  "source": "SRC-5345",
+  "anchor": [
+   "India’s Direct Benefit Transfer (DBT) system has helped the country achieve cumulative savings of ₹3.48 lakh crore by plugging leakages in welfare delivery, according to a new quantitative assessment by the BlueKraft Digital Foundation.",
+   "Food Subsidies (PDS): ₹1.85 lakh crore saved, accounting for 53% of total DBT savings. This was largely due to Aadhaar-linked ration card authentication.",
+   "The assessment evaluates data from 2009 to 2024",
+   "have been halved from 16 percent to 9 percent of total"
+  ],
+  "grade": "C",
+  "fact_date": "2025-04-21",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-21",
+  "context": "Government of India (Modi government) publicity release of an estimate by a foundation close to the governing party; method counts deleted beneficiaries as savings. The independent experimental evidence (EV-DEM-286) finds many deletions in Jharkhand's ration system were of real beneficiaries. Presented as the government's claim.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Introduction and sector breakdown, pages 1-2",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-284",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-286",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-286",
+  "statement": "In randomized and natural experiments in Jharkhand's food ration system, Muralidharan, Niehaus and Sukhtankar find stricter biometric ID checks reduced corruption but 1.5-2 million legitimate beneficiaries lost access at some point, driven by how the transition was managed.",
+  "claim": "analysis",
+  "figures": [
+   "1.5-2 million"
+  ],
+  "source": "SRC-5346",
+  "anchor": [
+   "Corruption fell but with substantial costs to legitimate beneﬁciaries, 1.5-2 million of whom lost access to beneﬁts at some point during the reforms.",
+   "Adverse eﬀects appear to have been driven primarily by decisions about the way the transition was managed"
+  ],
+  "grade": "B",
+  "fact_date": "2020-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Academic team (UC San Diego, J-PAL), Gates Foundation funding; peer-reviewed in Review of Economics and Statistics 2025. Same authors as the positive Andhra Pradesh study (EV-DEM-287), so the two are not independent of each other.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-285",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-284",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-287",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-287",
+  "statement": "A randomized rollout of biometric payment smartcards across 158 sub-districts and 19 million people in Andhra Pradesh delivered faster, more predictable and less corrupt payments without reducing access, and time savings to beneficiaries alone equalled the cost.",
+  "claim": "analysis",
+  "figures": [
+   "158",
+   "19 million"
+  ],
+  "source": "SRC-5347",
+  "anchor": [
+   "using a large-scale experiment that randomized the rollout of Smartcards over 158 sub- districts and 19 million people.",
+   "the new system delivered a faster, more predictable, and less corrupt NREGS payments process without adversely affecting program access.",
+   "The investment was cost-effective, as time savings to NREGS beneficiaries alone were equal to the cost of the intervention"
+  ],
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Academic team, Omidyar Network and Gates Foundation funding; American Economic Review 2016. Shows payment rails can cut leakage when access is protected; contrasts with the Jharkhand result by the same authors.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-284",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-286",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-288",
+  "statement": "BIS researchers report that within little over a year of its November 2020 launch, Brazil's Pix had signed up 67% of adults, with free person-to-person payments, and credit mandatory participation of large banks and the central bank's dual role as operator and rule setter.",
+  "claim": "analysis",
+  "figures": [
+   "67%",
+   "2020"
+  ],
+  "source": "SRC-5348",
+  "anchor": [
+   "In little over a year since its launch in November 2020, Pix has signed up 67% of adults in Brazil, with free payments between individuals and low charges for merchants.",
+   "The two key ingredients in the success of Pix are, first, the mandatory participation of large banks to kick-start network effects for users, and second, the central bank's dual role as infrastructure provider and rule setter."
+  ],
+  "grade": "C",
+  "fact_date": "2022-03-23",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Bank for International Settlements bulletin, 2022; a co-author is from the Central Bank of Brazil, Pix's operator, so the success attribution is partly self-assessment. No government-savings figure for Pix was found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Key takeaways",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-289",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-289",
+  "statement": "A 2025 review of Pix fraud finds schemes have moved from pure social engineering to hybrid strategies that combine manipulation with technical exploitation.",
+  "claim": "analysis",
+  "figures": [
+   "2020"
+  ],
+  "source": "SRC-5349",
+  "anchor": [
+   "This work presents a review of attack methodologies targeting Pix, the instant payment system launched by the Central Bank of Brazil in 2020.",
+   "The results show that fraud schemes have evolved from purely social engineering approaches to hybrid strategies that integrate human manipulation with technical exploitation."
+  ],
+  "grade": "C",
+  "fact_date": "2025-11-25",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Preprint by Brazilian academics, not peer reviewed; qualitative (literature review and interviews). Press and industry figures on Pix fraud losses were seen in search results but not read at source.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-288",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-290",
+  "statement": "FedNow, launched in 2023, settled 8,413,402 payments worth $853,411,108,511 in 2025, and 6,376,467 payments in the third quarter of 2026.",
+  "claim": "data",
+  "figures": [
+   "8,413,402",
+   "$853,411,108,511",
+   "6,376,467",
+   "2026:Q3",
+   "2023"
+  ],
+  "source": "SRC-5350",
+  "anchor": [
+   "Transfers represent settled customer credit transfers only.",
+   "2025",
+   "8,413,402",
+   "853,411,108,511",
+   "2026:Q3",
+   "6,376,467",
+   "2023 does not reflect a full year."
+  ],
+  "grade": "A",
+  "fact_date": "2026-10-20",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-20",
+  "context": "Federal Reserve Banks operational data. For scale, Treasury made nearly 1.3 billion payments in FY2024 (EV-DEM-116); FedNow is small but growing (value grew 2134.2% in 2025 per the same table).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Annual and quarterly tables, rows 2025 and 2026:Q3"
+ },
+ {
+  "id": "EV-DEM-291",
+  "statement": "CRS reports that agencies attributed $556.6 billion of $765.8 billion in FY2021-FY2024 overpayments, about 73%, to failure to access existing data, while the Fiscal Service reported $652.7 million prevented or recovered in FY2023, including $45.8 million through Do Not Pay.",
+  "claim": "data",
+  "figures": [
+   "$556.6 billion",
+   "$765.8 billion",
+   "FY2021",
+   "FY2024",
+   "73%",
+   "$652.7 million",
+   "FY2023",
+   "$45.8 million"
+  ],
+  "source": "SRC-5351",
+  "anchor": [
+   "agencies reporting an estimated total of $765.8 billion in improper payments—and, more specifically, in overpayments—between FY2021 and FY2024",
+   "In particular, agencies reported that $556.6 billion of this—or approximately 73%—was disbursed because of a failure to access existing data.",
+   "Other informal reporting from the Fiscal Service states that $652.7 million in improper payments was \"prevented and/or recovered\" government-wide in FY2023.",
+   "$45.8 million in payments prevented or confirmed as improper in the DNP system"
+  ],
+  "grade": "A",
+  "fact_date": "2026-02-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-09",
+  "context": "Nonpartisan CRS, February 2026. Agency root-cause categories are self-reported. The FY2024 figure of over $4 billion prevented and recovered across Treasury's payment integrity work (Treasury press release, Biden administration) was seen in search but not read.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Introduction; section on measuring effectiveness"
+ },
+ {
+  "id": "EV-DEM-292",
+  "statement": "CRS finds that a Do Not Pay match does not automatically stop a payment or prove ineligibility, that not all agencies use the system despite the mandate, and that Congress may find its effectiveness hard to ascertain.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5351",
+  "anchor": [
+   "The DNP system itself does not automatically stop a payment transaction from occurring.",
+   "Matching an intended payment recipient to a DNP system database does not necessarily mean that the payment recipient is in fact ineligible to receive a payment.",
+   "Congress may be challenged to ascertain the effectiveness of the DNP system"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-09",
+  "context": "Nonpartisan CRS. Qualifies claims that central data matching alone ends 'pay and chase'; consistent with GAO's caution that the improper-payment total is incomplete (EV-DEM-113).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary; section on effectiveness",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-291",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-113",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-293",
+  "statement": "TIGTA found nearly 3 million people potentially eligible for $4.7 billion of 2021 Recovery Rebate Credits had not claimed them, and 6.1 million of those it had earlier identified had still filed no 2020 or 2021 return; it put unclaimed 2020 credits at $14 billion.",
+  "claim": "data",
+  "figures": [
+   "3 million",
+   "$4.7 billion",
+   "6.1 million",
+   "$14 billion",
+   "10.6 million",
+   "2020",
+   "2021"
+  ],
+  "source": "SRC-5352",
+  "anchor": [
+   "However, our review of processed Tax Year 2021 tax returns identified nearly 3 million",
+   "individuals who have not claimed $4.7 billion in RRCs they are potentially eligible to receive.",
+   "analysis found that 6.1 million individuals still have not filed a Tax Year 2020 or Tax Year 2021",
+   "We updated our analysis of the 10.6 million potentially eligible individuals we previously",
+   "their RRC. Given the estimated $14 billion in Tax Year 2020 RRCs and $4.7 billion in Tax"
+  ],
+  "grade": "A",
+  "fact_date": "2023-08-24",
+  "checked": "2026-11-16",
+  "recheck": "2027-08-24",
+  "context": "TIGTA (independent), August 2023. The IRS disagreed with sending letters to the 3 million. Pair with EV-CLP-056 (speed and reach of the 2020 payments) and EV-SEC-110 (non-filers missed by the 2021 credit): reach through tax records stops at people who do not file.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Pages 13-15"
+ },
+ {
+  "id": "EV-DEM-294",
+  "statement": "The Labor inspector general found it took states on average 50 days from the CARES Act to the first pandemic emergency payment, 38 days for PUA and 25 for FPUC, and 9 of 12 sampled states could not pay 87% of 9.5 million PUA claims within 21 days.",
+  "claim": "data",
+  "figures": [
+   "50 days",
+   "38 days",
+   "25 days",
+   "9",
+   "12",
+   "87 percent",
+   "21 days",
+   "9.5 million"
+  ],
+  "source": "SRC-5353",
+  "anchor": [
+   "payment of a claim it took on average: 50 days for",
+   "the PEUC program, 38 days for the PUA program,",
+   "and 25 days for the FPUC program. The 12 states",
+   "For the 9.5 million PUA claims approved for payment by our 12 sampled states, 9",
+   "states were not able to pay 87 percent of the initial claims within 21 days, while 3"
+  ],
+  "grade": "A",
+  "fact_date": "2021-05-28",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Labor OIG (independent), May 2021. Labor's 87% promptness standard is EV-DEM-124; pandemic fraud estimates are EV-DEM-125 and EV-DEM-126.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Results in brief; Finding 1"
+ },
+ {
+  "id": "EV-DEM-295",
+  "statement": "The Labor inspector general found a clear correlation between IT modernization and speed: states that had modernized started PEUC 15 days and PUA 8 days faster on average, and 17 of 50 states said their systems could not implement the CARES Act.",
+  "claim": "analysis",
+  "figures": [
+   "15 days",
+   "8 days",
+   "17 of 50",
+   "34 percent"
+  ],
+  "source": "SRC-5353",
+  "anchor": [
+   "states that completed IT modernization started the PEUC program 15 days faster",
+   "and the PUA program 8 days faster (on average) than those still planning IT",
+   "modernization. 33 Officials in 17 of 50 states (34 percent) 34 said their IT systems"
+  ],
+  "grade": "C",
+  "fact_date": "2021-05-28",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Labor OIG (independent). A correlation, not a causal estimate; staffing and unclear federal guidance were named as the other two causes.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Section on causes: antiquated IT systems",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-296",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-296",
+  "statement": "An Atlanta Fed working paper finds states running COBOL unemployment systems in 2020 saw at least a 2.1 percentage point larger rise in the share of claims delayed over 70 days and a 2.8 percentage point larger fall in card spending.",
+  "claim": "analysis",
+  "figures": [
+   "2.1",
+   "70 days",
+   "2.8",
+   "2020"
+  ],
+  "source": "SRC-5355",
+  "anchor": [
+   "States that used an antiquated UI-benefit system experienced a 2.8 percentage point decline in total credit and debit card consumption relative to card consumption in states with more modern UI benefit systems.",
+   "Furthermore, states that used these antiquated systems experienced at least a 2.1 percentage point increase in the share of claims that were delayed by more than 70 days.",
+   "beginning in March 2020"
+  ],
+  "grade": "C",
+  "fact_date": "2025-10-16",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Federal Reserve Bank of Atlanta working paper, not peer reviewed; COBOL is a proxy for system age and may pick up other state differences.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-295",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-297",
+  "statement": "The Labor inspector general found ARPA unemployment equity grants of $219 million to 46 states did not demonstrate improved access: $20.7 million went to 16 projects with no evidence of an access problem, and ARPA's $2 billion for UI was later cut to $1 billion.",
+  "claim": "analysis",
+  "figures": [
+   "$219 million",
+   "46",
+   "$20.7 million",
+   "16",
+   "$2 billion",
+   "$1 billion",
+   "$2.8 million"
+  ],
+  "source": "SRC-5354",
+  "anchor": [
+   "ETA subsequently awarded $219 million in first-of-their-kind",
+   "“equity” grants (grants) to 46 states2 to promote equitable access to UI programs.",
+   "Specifically, ETA awarded more than $20.7 million in ARPA funding for",
+   "16 projects that failed to provide evidence demonstrating the existence of a UI",
+   "funding to DOL was reduced from an initial $2 billion to $1 billion.",
+   "a total of more than $2.8 million as questioned costs and recommend recovery"
+  ],
+  "grade": "C",
+  "fact_date": "2025-08-28",
+  "checked": "2026-11-16",
+  "recheck": "2027-08-28",
+  "context": "Labor OIG (independent), August 2025, second Trump administration, auditing Biden-era grants; ETA agreed with the recommendations but disputed their breadth. Covers the equity grants only, not the Tiger Team or IT modernization grants, whose results remain unmeasured here.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Introduction and Results, pages 1-2",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-296",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-298",
+  "statement": "The Taxpayer Advocate Service provided full or partial relief in 78.2% of its closed cases in FY2023.",
+  "claim": "data",
+  "figures": [
+   "78.2%"
+  ],
+  "source": "SRC-5356",
+  "anchor": [
+   "Relief Granted6\n\nPercentage of closed cases where TAS provided\nfull or partial relief.\n\nIndicator\n\n78.2%"
+  ],
+  "grade": "A",
+  "fact_date": "2023-09-30",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-31",
+  "context": "TAS's own measure (includes reopened cases, per its footnote). Not an outcome evaluation; selection into TAS is by hardship and referral.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Appendix table, Relief Granted row"
+ },
+ {
+  "id": "EV-DEM-299",
+  "statement": "TIGTA found TAS took an average of 110 calendar days to close a case in FY2024, more than 29% longer than the 85 days in FY2020.",
+  "claim": "data",
+  "figures": [
+   "110",
+   "29 percent",
+   "85",
+   "2024",
+   "2020"
+  ],
+  "source": "SRC-5357",
+  "anchor": [
+   "years. For example, it took TAS an average of 110 calendar days to close a case in Fiscal",
+   "Year (FY) 2024, more than 29 percent longer than the 85 calendar days it took to close a case",
+   "in FY 2020. Figure 2 provides a summary of TAS cases worked."
+  ],
+  "grade": "A",
+  "fact_date": "2025-06-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-11",
+  "context": "TIGTA (independent), June 2025. Pair with EV-DEM-122 and EV-DEM-123 (veterans appeals queues).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Background, page 2"
+ },
+ {
+  "id": "EV-DEM-300",
+  "statement": "The UK Parliamentary and Health Service Ombudsman reported in its 2024 annual report that its decisions from investigations rose 9%, 72 of 75 mediation meetings fully resolved the complaint, its financial recommendations totalled £341,937, and non-compliance with its recommendations was still extremely rare.",
+  "claim": "data",
+  "figures": [
+   "9%",
+   "75",
+   "72",
+   "£341,937"
+  ],
+  "source": "SRC-5358",
+  "anchor": [
+   "The total number of decisions reached from primary and detailed investigations has increased by 9% since last year",
+   "We facilitated 75 joint mediation meetings, and 72 of those cases were fully resolved.",
+   "The financial payment recommendations totalled £341,937.",
+   "We have seen an increase in the number of recommendations not complied with. This is still extremely rare but an issue we treat seriously."
+  ],
+  "grade": "A",
+  "fact_date": "2024-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-31",
+  "context": "The ombudsman's own annual report (self-reported). Its State Pension age investigation, where the government declined to compensate, shows the limit of a recommendation-only remedy (same section). No independent evaluation of the PHSO's effect was read.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Performance section, pages on casework and recommendations"
+ },
+ {
+  "id": "EV-DEM-301",
+  "statement": "CRS reports that in March 2024 SSA cut its default withholding rate for Social Security overpayments from 100% of the monthly benefit to 10%, for overpayments from April 15, 2024; SSA estimated $6.5 billion (0.5%) of FY2022 benefits were overpayments and recovered $3.1 billion in FY2023.",
+  "claim": "data",
+  "figures": [
+   "100%",
+   "10%",
+   "April 15, 2024",
+   "$6.5 billion",
+   "0.5%",
+   "FY2022",
+   "$3.1 billion",
+   "FY2023"
+  ],
+  "source": "SRC-5359",
+  "anchor": [
+   "withholding rate from 100% of the monthly benefit to 10%",
+   "overpayments created on or after April 15, 2024. For",
+   "beneficiaries in FY2022, SSA estimated that $6.5 billion (or",
+   "0.5%) were overpayments (se e SSA, Annual Financial",
+   "§404) . SSA recovered $3.1 billion in OASDI overpayments",
+   "during FY2023 and had $4.5 billion in OASDI"
+  ],
+  "grade": "A",
+  "fact_date": "2024-04-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-12",
+  "context": "Nonpartisan CRS, April 2024 (Biden administration policy).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Default Rate of Benefit Withholding; overview"
+ },
+ {
+  "id": "EV-DEM-302",
+  "statement": "NBC News reported that SSA, weeks after announcing a 100% default withholding rate, set 50% for Title II overpayment notices from April 25, 2025, keeping 10% for SSI; SSA had projected the 100% rate would save about $7 billion over a decade.",
+  "claim": "data",
+  "figures": [
+   "100%",
+   "50%",
+   "April 25",
+   "10%",
+   "$7 billion"
+  ],
+  "source": "SRC-5360",
+  "anchor": [
+   "Just weeks after announcing a 100% withholding rate on new overpayments of benefits, the Social Security Administration has slashed the rate down to 50% for certain beneficiaries.",
+   "For new overpayment notices sent on or after April 25, the 50% default withholding rate will apply to so-called Title II benefits",
+   "The withholding rate for Supplemental Security Income benefits remains 10%.",
+   "would generate about $7 billion in program savings in the next decade, based on estimates from the chief actuary."
+  ],
+  "grade": "C",
+  "fact_date": "2025-05-05",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-31",
+  "context": "News report of second Trump administration SSA policy, quoting SSA's emergency message EM-25029 (not fetched: SSA host blocked downloads). The claimants' representatives' group NOSSCR quotes the same 50% language. Beneficiaries keep 90 days to seek a lower rate, reconsideration or waiver.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraphs 1-6"
+ },
+ {
+  "id": "EV-DEM-303",
+  "statement": "Australia agreed in September 2025 to pay a further A$475 million to Robodebt victims, bringing total repayment and compensation costs to A$2.4 billion; the Royal Commission called the scheme a 'crude and cruel mechanism, neither fair nor legal'.",
+  "claim": "data",
+  "figures": [
+   "A$475 million",
+   "A$2.4 billion",
+   "A$720m",
+   "A$400m",
+   "A$112m",
+   "400,000",
+   "2020"
+  ],
+  "source": "SRC-5361",
+  "anchor": [
+   "The Australian government says it has agreed to pay a further A$475 million ($528m) in compensation to victims of an illegal welfare debt recovery programme",
+   "The latest settlement brings total government repayment and compensation costs to A$2.4 billion",
+   "The government settled the case in 2020, agreeing to pay more than A$720m in unlawfully claimed debts, A$400m in unlawful demands and A$112m in compensation to 400,000 people.",
+   "a \"crude and cruel mechanism, neither fair nor legal\""
+  ],
+  "grade": "C",
+  "fact_date": "2025-09-04",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-31",
+  "context": "News report; the Royal Commission's 2023 report itself was not reachable (Evidence still needed), so its findings on income averaging are not entered here.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraphs 1-6"
+ },
+ {
+  "id": "EV-DEM-304",
+  "statement": "The Dutch parliamentary inquiry found basic principles of the rule of law were breached in childcare allowance administration: inflexible law with no hardship clause, an 'all or nothing' approach that branded parents as fraudsters, and administrative courts that for years upheld it.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5362",
+  "anchor": [
+   "The committee notes that basic principles of the rule of law were breached in the administration of childcare allowance.",
+   "It contained no hardship clause, for example",
+   "the ‘all or nothing’ approach, and the way in which the notions of malice and gross negligence were applied formed a serious breach",
+   "the administrative justice system also played a significant part in perpetuating the ruthless application of the legislation on childcare allowance"
+  ],
+  "grade": "C",
+  "fact_date": "2020-12-17",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Official parliamentary inquiry with hearings under oath (December 2020). A causal finding of an official body; the quotations are from the English translation, where line breaks in the PDF were joined.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Observations: The rule of law on trial",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-303",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-305",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-305",
+  "statement": "The Dutch cabinet resigned in January 2021 after thousands of families were wrongly accused of childcare benefit fraud; the scandal began in 2012 and could involve as many as 26,000 parents.",
+  "claim": "data",
+  "figures": [
+   "2012",
+   "26,000"
+  ],
+  "source": "SRC-5363",
+  "anchor": [
+   "The Netherlands ruling party's cabinet has stepped down en masse after thousands of families were wrongly accused of child welfare fraud and told to pay money back.",
+   "The scandal began in 2012, and the number of parents involved could be as high as 26,000.",
+   "Parents were branded fraudsters over minor errors such as missing signatures on paperwork"
+  ],
+  "grade": "C",
+  "fact_date": "2021-01-15",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-31",
+  "context": "News report (RNZ, from agency and BBC reporting). Counts of affected families vary by source and date; the later official count is Evidence still needed.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraphs 1-12"
+ },
+ {
+  "id": "EV-DEM-306",
+  "statement": "In Goldberg v. Kelly the Supreme Court held that when welfare is discontinued, only a pre-termination evidentiary hearing gives the recipient procedural due process.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5364",
+  "anchor": [
+   "But we agree with the District Court that when welfare is discontinued, only a pre-termination evidentiary hearing provides the recipient with procedural due process."
+  ],
+  "grade": "A",
+  "fact_date": "1970",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Primary law (holding), 397 U.S. 254 (1970); CourtListener lists the filing date as 1970-05-04.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "397 U.S. 254, 264"
+ },
+ {
+  "id": "EV-DEM-307",
+  "statement": "In Mathews v. Eldridge the Supreme Court held an evidentiary hearing is not required before disability benefits end, weighing the private interest, the risk of erroneous deprivation and the government's interest.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5365",
+  "anchor": [
+   "We conclude that an evidentiary hearing is not required prior to the termination of disability benefits and that the present administrative procedures fully comport with due process.",
+   "identification of the specific dictates of due process generally requires consideration of three distinct factors: First, the private interest that will be affected by the official action; second, the risk of an erroneous deprivation of such interest through the procedures used"
+  ],
+  "grade": "A",
+  "fact_date": "1976-02-24",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Primary law (holding and test). Sets the balancing test that governs how much process benefit terminations need.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "424 U.S. 319, 335 (three factors) and the concluding paragraph"
+ },
+ {
+  "id": "EV-DEM-308",
+  "statement": "In fifty-two countries, Dahlström, Lapuente and Teorell find that meritocratic recruitment reduces corruption even with many controls, while competitive salaries, career stability and internal promotion show no significant effect.",
+  "claim": "analysis",
+  "figures": [
+   "fifty-two"
+  ],
+  "source": "SRC-5366",
+  "anchor": [
+   "This article analyzes an original data set on the bureaucratic features and its effects on corruption in fifty-two countries.",
+   "First, certain bureaucratic factors, particularly meritocratic recruitment, reduce corruption, even when controlling for a large set of alternative explanations.",
+   "Second, the analysis shows that other allegedly relevant bureaucratic factors, such as public employees’ competitive salaries, career stability, or internal promotion, do not have a significant impact."
+  ],
+  "grade": "B",
+  "fact_date": "2012",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed cross-national observational study (Quality of Government Institute, Gothenburg). Notable for the at-will debate: hiring on merit, not tenure protection, carries the effect.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-309",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-310",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-314",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-309",
+  "statement": "Using close Brazilian mayoral elections, Akhtari, Moreira and Trucco find party turnover replaced municipal personnel across sectors and lowered test scores in municipal schools by 0.05-0.08 standard deviations, with no effect in schools the mayor does not control.",
+  "claim": "analysis",
+  "figures": [
+   "0.05–0.08"
+  ],
+  "source": "SRC-5367",
+  "anchor": [
+   "municipalities with a new party in office experience upheavals in the municipal bureaucracy: new personnel are appointed across multiple service sectors, and at both managerial and non-managerial levels.",
+   "the increase in the replacement rate of personnel in schools controlled by the municipal government is accompanied by test scores that are 0.05–0.08 standard deviations lower.",
+   "In contrast, turnover of the mayor’s party does not impact local (non-municipal) schools."
+  ],
+  "grade": "B",
+  "fact_date": "2022-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed regression-discontinuity study (quasi-experimental), American Economic Review 2022.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-308",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-314",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-310",
+  "statement": "In British colonial personnel data from 1854-1966, Xu finds governors connected to their superior under patronage were promoted more, raised less revenue and invested less, and the gaps disappeared once patronage appointments were abolished.",
+  "claim": "analysis",
+  "figures": [
+   "1854–1966"
+  ],
+  "source": "SRC-5368",
+  "anchor": [
+   "I combine newly digitized personnel and public finance data from the British colonial administration for the period 1854–1966",
+   "Once allocated, they provide more tax exemptions, raise less revenue, and invest less.",
+   "The promotion and performance gaps disappear after the abolition of patronage appointments."
+  ],
+  "grade": "B",
+  "fact_date": "2018-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed historical natural experiment, American Economic Review 2018. Shares an author with EV-DEM-314.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-308",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-311",
+  "statement": "Georgia removed merit-system protections from all state employees hired after July 1, 1996; a statewide survey more than three years later found employees quite pessimistic about the reform's effects on personnel management.",
+  "claim": "analysis",
+  "figures": [
+   "1996",
+   "July 1, 1996"
+  ],
+  "source": "SRC-5369",
+  "anchor": [
+   "In 1996, the state of Georgia enacted a comprehensive reform of its civil service system",
+   "The state removed merit system protections from all employees hired after July 1, 1996",
+   "The findings indicate that more than three years after initial implementation ofthe reform employees are quite pessimistic about the effects of the reform on personnel management processes in state agencies"
+  ],
+  "grade": "B",
+  "fact_date": "2000-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed employee survey (perceptions, not measured performance).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-312",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-313",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-312",
+  "statement": "A study of GeorgiaGain found state officials asserting improved efficiency and fewer routine outstanding ratings, but resignations rising each year across all types of employees and many workers disputing the claimed gains.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5370",
+  "anchor": [
+   "State officials assert that efficiency has improved.",
+   "However, overall, all types of employees have resigned in greater numbers each year, with the majority being the average employee",
+   "Survey findings illustrate that many state workers have also challenged GeorgiaGain's claims of enhanced evaluations, compensation and productivity."
+  ],
+  "grade": "B",
+  "fact_date": "2004-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed; combines personnel data and surveys. Both views of the at-will reform appear in one study: officials report efficiency, employees and turnover data do not.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-311",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-313",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-313",
+  "statement": "Texas human resource directors surveyed in 2005 agreed at-will employment makes employees more responsive to agency administrators but were mixed on its effects on risk taking, whistle-blowing, fairness and agency performance.",
+  "claim": "analysis",
+  "figures": [
+   "2005"
+  ],
+  "source": "SRC-5371",
+  "anchor": [
+   "It reports a 2005 survey of the state's human resource directors focusing on the at-will doctrine and its use and effects.",
+   "Respondents agreed that at-will employment enhances employee responsiveness to agency administrators but held mixed opinion of its effects on other employee behaviors (e.g., risk taking, whistle-blowing, decision making, sensitivity to issues of fairness) and agency performance."
+  ],
+  "grade": "B",
+  "fact_date": "2006-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed survey of managers (perceptions). The view favourable to at-will employment: responsiveness gains, without evidence of performance loss or gain.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-311",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-314",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-314",
+  "statement": "Linking federal personnel records for 1997-2019 to voter files, Spenkuch, Teso and Xu find almost no political cycles in the civil service, but contracts overseen by politically misaligned procurement officers had cost overruns 8% higher than the mean.",
+  "claim": "analysis",
+  "figures": [
+   "1997-2019",
+   "8%"
+  ],
+  "source": "SRC-5372",
+  "anchor": [
+   "We combine personnel records of the United States federal bureaucracy from 1997-2019 with administrative voter registration data",
+   "(ii) By contrast, we find virtually no political cycles in the civil service.",
+   "we find that contracts overseen by a misaligned officer exhibit cost overruns that are, on average, 8% higher than the mean overrun."
+  ],
+  "grade": "B",
+  "fact_date": "2021-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed (Econometrica 2023) quasi-experimental within-bureaucrat design. Cuts both ways: misalignment has a cost (an argument advocates of political control use), yet the career service was not politicized over the period. Shares an author with EV-DEM-310.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-308",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-309",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-315",
+  "statement": "CRS reports that the one automatic continuing resolution enacted, the Pay Our Military Act, ran from October 1 to 17, 2013, and that opponents argue a permanent one could slow regular appropriations and freeze spending, while CBO scored such proposals as new direct spending.",
+  "claim": "analysis",
+  "figures": [
+   "October 1, 2013",
+   "October 17, 2013",
+   "113-39"
+  ],
+  "source": "SRC-5373",
+  "anchor": [
+   "The automatic funding provided by this ACR took effect on October 1, 2013, due to the absence of enacted regular or interim continuing appropriations, and terminated on October 17, 2013",
+   "For an ACR mechanism that was permanent, the existence of automatic fall-back funding could cause the regular appropriations process to slow—or not occur at all",
+   "When the CBO analyzed the ACR proposals contained in S. 558 and H.R. 853 (106 th Congress), it scored the measures as an increase in direct spending.",
+   "Pay our Military Act ( P.L. 113-39 )"
+  ],
+  "grade": "C",
+  "fact_date": "2015-08-20",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Nonpartisan CRS, 2015 version; summarizes arguments from hearings, not measured effects. No study of federal or state automatic continuing appropriations effects was read (Evidence still needed). The 2025-26 funding gaps are EV-DEM-127.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary; arguments for and against",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-316",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-316",
+  "statement": "Andersen, Lassen and Nielsen find 23% of U.S. state budgets were late in 1988-2007, driven by changing economic circumstances and divided government, consistent with bargaining over budget baselines.",
+  "claim": "analysis",
+  "figures": [
+   "23",
+   "1988–2007"
+  ],
+  "source": "SRC-5374",
+  "anchor": [
+   "This paper examines the causes of late budgets using a unique dataset of budget completion dates for US state governments 1988–2007",
+   "We find 23 percent of state budgets to be late.",
+   "We show that changing economic circumstances and divided government are the driving forces behind late budgets, which is consistent with a war-of-attrition bargaining model featuring budget baselines"
+  ],
+  "grade": "B",
+  "fact_date": "2012-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed observational study. Relevant because an automatic continuing appropriation sets the baseline: the model implies the fallback shapes how long bargaining lasts, but the paper does not estimate the effect of states' automatic appropriations.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-315",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-317",
+  "statement": "An FNS-commissioned study found SNAP administrative cost per case ranged from $89 in Florida to $848 in Wyoming in FY2016, fell by more than half after inflation since FY1999, and was about 7% lower after a state adopted broad-based categorical eligibility or simplified reporting.",
+  "claim": "analysis",
+  "figures": [
+   "$89",
+   "$848",
+   "FY 2016",
+   "$348",
+   "$714",
+   "FY 1999",
+   "7 percent",
+   "3.4 percent",
+   "72 percent",
+   "50 percent"
+  ],
+  "source": "SRC-5375",
+  "anchor": [
+   "$89 in Florida to $848 in Wyoming. There has",
+   "was less than half the FY 1999 amount, after",
+   "adjusting for inflation ($348 compared to $714),",
+   "case by about 7 percent when either policy was",
+   "3.4 percent as States adopted an additional",
+   "About 72 percent of the variation in SAE per case",
+   "expenses, with each paying about 50 percent.",
+   "Year (FY) 2016, the SAE per case ranged from"
+  ],
+  "grade": "C",
+  "fact_date": "2019-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Contractor study (Manhattan Strategy Group and Urban Institute) for USDA, published in the first Trump administration (2019); fixed-effects panel, observational. Most variation (72%) is unexplained state differences. The federal share falls from 50% to 25% from FY2027 (EV-DEM-136).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary, Background and Findings",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-318",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-105",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-318",
+  "statement": "In a field experiment with over 60,000 Los Angeles SNAP applicants, on-demand interviews nearly doubled early approvals and raised approval rates by six percentage points; over a third of applications in the county were denied for a missed interview.",
+  "claim": "analysis",
+  "figures": [
+   "60,000"
+  ],
+  "source": "SRC-5376",
+  "anchor": [
+   "Using a field experiment involving over 60,000 applicants in Los Angeles, we find that access to on-demand interviews expedites approvals and increases overall participation rates: early approvals nearly double and approval rates increase by six percentage points.",
+   "For example, over one-third of all applications in Los Angeles County are denied due to a missed interview."
+  ],
+  "grade": "B",
+  "fact_date": "2022-07-22",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Randomized trial; working paper (AEA 2023 session), two of four authors from Code for America, which ran GetCalFresh and the intervention. Consistent with the trials in EV-SEC-103 and EV-SEC-105.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract; Introduction",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-103",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-105",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-319",
+  "statement": "KFF found 55% of people keeping Medicaid in the unwinding were renewed ex parte as of October 2, 2023, ranging from 99% in North Carolina to 3% in Wyoming; 26 states were out of compliance with ex parte rules in March 2023, and household-level errors in 30 states disenrolled about 500,000 people.",
+  "claim": "data",
+  "figures": [
+   "55%",
+   "99%",
+   "3%",
+   "26",
+   "30 states",
+   "500,000",
+   "October 2, 2023",
+   "March 31, 2023"
+  ],
+  "source": "SRC-5377",
+  "anchor": [
+   "55% of people had their coverage renewed automatically via ex parte renewal. However, ex parte rates vary widely, ranging from 99% in North Carolina to 3% in Wyoming.",
+   "as of March 31, 2023, about half of states (26) were out of compliance with federal rules",
+   "In September 2023, federal officials announced that 30 states had been incorrectly processing ex parte renewals.",
+   "In total, states estimated that roughly 500,000 people were inappropriately disenrolled.",
+   "as of October 2, 2023"
+  ],
+  "grade": "C",
+  "fact_date": "2023-10-02",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-31",
+  "context": "KFF (nonpartisan), from CMS and state reports. End-of-unwinding totals are EV-CAR-211 (61% of renewals ex parte) and EV-CAR-210. State capacity, data access and system builds explain the spread.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraphs 2-5, Figure 1"
  }
 ]
