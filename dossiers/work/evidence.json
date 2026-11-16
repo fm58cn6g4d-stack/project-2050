@@ -9851,5 +9851,350 @@
     "stance": "qualifies"
    }
   ]
+ },
+ {
+  "id": "EV-WRK-078",
+  "statement": "BLS reports a median hourly wage of $24.51 for all occupations in May 2025, across 155,495,730 jobs, against a mean of $33.54 an hour and $69,770 a year.",
+  "claim": "data",
+  "figures": [
+   "$24.51",
+   "155,495,730",
+   "$33.54",
+   "$69,770"
+  ],
+  "source": "SRC-5514",
+  "anchor": [
+   "All occupations 155,495,730 $33.54 $69,770 $24.51"
+  ],
+  "locator": "Table 1, row \"All occupations\" (columns: employment, mean hourly, mean annual, median hourly as read)",
+  "grade": "A",
+  "fact_date": "2025-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-01",
+  "context": "Official BLS data from the OEWS survey of employers (May 2025), released under the second Trump administration; no change in method was found. OEWS medians count all jobs, part-time included, so they sit below OECD's median full-time earnings measure (EV-WRK-057). Read through a web fetch of the table page because bls.gov refused a direct download.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-189",
+  "statement": "CBO estimated that implementing S. 567, the PRO Act of 2023 as reported by the Senate committee, would cost $4 million, on net, over the 2023-2028 period, subject to appropriation.",
+  "claim": "analysis",
+  "figures": [
+   "567",
+   "$4 million",
+   "2023-2028"
+  ],
+  "source": "SRC-5611",
+  "anchor": [
+   "CBO estimates that implementing S. 567 would cost $4 million, on net, over the 2023-2028 period. Such spending would be subject to the availability of appropriated funds."
+  ],
+  "locator": "Summary, first page",
+  "grade": "C",
+  "fact_date": "2023-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Congressional Budget Office (nonpartisan), August 2023, for the Senate HELP Committee's reported bill; a budget estimate of administration, not of effects on employers or wages. Read through a search extract; the revenue effect of the civil penalties was not shown in the extract (CBO's 2019 estimate put penalties at $39 million of revenue over ten years, EV-WRK-176).",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-176",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-394",
+  "statement": "The Unemployment Insurance Modernization and Recession Readiness Act of 2025 would require states to offer at least 26 weeks of benefits, replace 75 percent of high-quarter weekly earnings up to a state maximum of at least two-thirds of the state average weekly wage, cover workers with $1,000 in the high quarter and $1,500 in the base period, and use the ABC test.",
+  "claim": "data",
+  "figures": [
+   "2025",
+   "26",
+   "75",
+   "$1,000",
+   "$1,500"
+  ],
+  "source": "SRC-5784",
+  "anchor": [
+   "Unemployment Insurance Modernization and Recession Readiness Act of 2025",
+   "Sec. 201. States must offer at least 26 weeks of benefits.",
+   "Sec. 202. Weekly benefit amounts must replace 75 percent of the claimant’s average weekly",
+   "Sec. 203. The state maximum benefit amount must be equal to at least two-thirds of state’s",
+   "Sec. 212. Requires states to cover individuals who have at least $1,000 of covered wages in the",
+   "high quarter and at least $1,500 in the base period.",
+   "Sec. 213. Requires states use the “ABC test” for the purpose of determining whether a worker is"
+  ],
+  "locator": "Title II, secs. 201-203, 212-213",
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-04",
+  "context": "Sponsors' summary of a bill (S. 2312, 119th Congress), not law; the standards are conditions for employers' federal unemployment tax credit. No CBO score was found.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-395",
+  "statement": "The same bill would raise federal financing of Extended Benefits from 50 percent to 100 percent, trigger extra weeks automatically when unemployment is at or above 5.5 percent, and create a federally financed Jobseeker Allowance of $250 a week for unemployed workers outside regular UI.",
+  "claim": "data",
+  "figures": [
+   "50",
+   "100",
+   "5.5",
+   "$250"
+  ],
+  "source": "SRC-5784",
+  "anchor": [
+   "Sec. 101. Increases federal financing of EB from 50 percent to 100 percent.",
+   "adjusted) is at or above 5.5 percent.",
+   "The amount of the Jobseeker Allowance is $250 per week (indexed annually for inflation), minus"
+  ],
+  "locator": "Title I, secs. 101-103; Title III",
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-04",
+  "context": "Sponsors' summary of a bill (S. 2312), not law. No CBO score was found.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-396",
+  "statement": "CBO estimated that implementing H.R. 8294, the National Apprenticeship Act of 2020, would cost $3.1 billion over the 2021-2025 period, with an insignificant effect on direct spending.",
+  "claim": "analysis",
+  "figures": [
+   "8294",
+   "$3.1 billion",
+   "2021-2025"
+  ],
+  "source": "SRC-5788",
+  "anchor": [
+   "implementing H.R. 8294 would cost $3.1 billion over the 2021-2025 period"
+  ],
+  "locator": "Summary, first page",
+  "grade": "C",
+  "fact_date": "2020-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Congressional Budget Office (nonpartisan), November 2020; spending subject to appropriation for grants authorized by the bill, the predecessor of H.R. 447 (2021). Read through a search extract.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-640",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-397",
+  "statement": "The enacted FY2026 appropriation for AmeriCorps is $1.254 billion, including $557.1 million for AmeriCorps State and National, $103.29 million for VISTA, $37.73 million for NCCC and $180 million for the National Service Trust.",
+  "claim": "data",
+  "figures": [
+   "$1.254",
+   "$557.1",
+   "$103.29",
+   "$37.73",
+   "$180"
+  ],
+  "source": "SRC-5786",
+  "anchor": [
+   "Total: $1.254 B",
+   "AmeriCorps State and National: $557.1 M",
+   "AmeriCorps NCCC: $37.73 M",
+   "AmeriCorps VISTA: $103.29 M",
+   "National Service Trust: $180 M",
+   "FY26"
+  ],
+  "locator": "Funding table, conferenced bill column",
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-01",
+  "context": "An advocacy coalition's restatement of the enacted FY2026 Labor-HHS-Education act (February 3, 2026); the anchors are the table cells as read through a web fetch tool. The act itself should replace this source.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-398",
+  "statement": "For FY2026 AmeriCorps State and National formula grants, the maximum federal request is $25,200 per member service year (one full-time position of at least 1,700 hours), the minimum full-time living allowance is $20,400, and first-time grantees match 24% of costs.",
+  "claim": "data",
+  "figures": [
+   "$25,200",
+   "1,700",
+   "$20,400",
+   "24"
+  ],
+  "source": "SRC-5785",
+  "anchor": [
+   "The maximum allowable federal request is $25,200 per member service year (MSY)",
+   "The minimum required living allowance for full time members is $20,400.",
+   "Member Service Year (MSY): One MSY is equivalent to a full-time AmeriCorps position, at",
+   "least 1,700 service hours.",
+   "A first time successful applicant is required to provide match funding at 24 %"
+  ],
+  "locator": "Section B.3, items F-H; section B.4 note",
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-01",
+  "context": "A state service commission's FY2026 funding notice restating AmeriCorps rules; the Segal Education Award is paid separately from the National Service Trust.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-399",
+  "statement": "The maximum Pell Grant for the 2025-2026 award year stays at $7,395 and the minimum at $740.",
+  "claim": "data",
+  "figures": [
+   "$7,395",
+   "$740"
+  ],
+  "source": "SRC-5787",
+  "anchor": [
+   "The maximum Pell Grant award remains at $7,395 and the minimum Pell Grant award is $740.",
+   "2025-2026"
+  ],
+  "locator": "Article text",
+  "grade": "C",
+  "fact_date": "2025-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-01",
+  "context": "Nonprofit information site restating the Education Department's May 29, 2025 update; the full-time Segal Education Award equals the maximum Pell Grant.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-709",
+  "statement": "The legacy labor file prices LAB-9B, about 150,000 more AmeriCorps slots through appropriations, at about $0.05T, and chooses LAB-9D, a bipartisan authorization at about LAB-9B's scale first with LAB-9A's R2 money as the fallback.",
+  "claim": "analysis",
+  "figures": [
+   "150,000",
+   "$0.05T"
+  ],
+  "source": "SRC-0025",
+  "anchor": [
+   "| LAB-9B | Expand AmeriCorps by about 150,000 slots through appropriations | Cheaper (~$0.05T, estimate); reversible each year; fails design rule 2.",
+   "Seek a **bipartisan authorization** at about LAB-9B's scale first"
+  ],
+  "locator": "LAB-9, options table",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Legacy file legacy/domains/domain-labor.md, LAB-9 options. Legacy project estimate; LAB-9D was chosen in the legacy Decision Brief 2, a working choice under DEC-2026-10-30-02, not Espen's decision for this plan.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-397",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-710",
+  "statement": "The legacy labor file adds an instructor pay line for technical instructors (its option for apprenticeships, B) at +0.01-0.02 trillion, an estimate.",
+  "claim": "analysis",
+  "figures": [
+   "0.01",
+   "0.02"
+  ],
+  "source": "SRC-0025",
+  "anchor": [
+   "| +0.01-0.02 (estimate) |"
+  ],
+  "locator": "LAB-8, options table",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Legacy file legacy/domains/domain-labor.md, LAB-8B; a stress-test option the legacy file left as Espen's call. Legacy project estimate with no source.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ],
+  "corroboration": []
+ },
+ {
+  "id": "EV-WRK-711",
+  "statement": "The legacy AI file carries AI-4A, ordinary displacement support linked to LAB-10, at a 0.12 trillion working envelope, an estimate with its benefit calibration open.",
+  "claim": "analysis",
+  "figures": [
+   "0.12"
+  ],
+  "source": "SRC-0011",
+  "anchor": [
+   "| AI-4A (chosen; revised October 26) | Ordinary displacement support linked to LAB-10 | 0.12 working envelope | estimate; benefit calibration open | FL + R3 |"
+  ],
+  "locator": "AI-4 options table",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Legacy file legacy/domains/domain-ai.md; AI-4's home is agenda/ai, not this dossier. Legacy project estimate, a working choice under DEC-2026-10-30-02.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ],
+  "corroboration": []
+ },
+ {
+  "id": "EV-WRK-712",
+  "statement": "The legacy vote simulation gives the merged labor bill (the PRO Act core with the living wage) a 13% chance of passing the first Congress of the plan, against 77% for the bipartisan national service authorization.",
+  "claim": "analysis",
+  "figures": [
+   "13%",
+   "77%"
+  ],
+  "source": "SRC-0064",
+  "anchor": [
+   "| LAB-1: Labor bill (PRO Act core, living wage) | 13% | 95% | 13% | Yes | 0% | war game: pro + wage (merged, C23) |",
+   "| LAB-9D: National service authorization (bipartisan) | 77% | 100% | 77% | Yes | 11% | estimate |"
+  ],
+  "locator": "Bill table",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Legacy generated model output (legacy/index/vote-simulation.md), from a war game and estimates under the legacy scenario stipulations; not evidence of how a 2029 Congress would vote.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ],
+  "corroboration": []
+ },
+ {
+  "id": "EV-WRK-413",
+  "statement": "OMB's historical tables record outlays for unemployment compensation (subfunction 603) of 29900.0 million dollars in the last year before the pandemic and 41771.0 million dollars in 2025, against 475124.0 million at the pandemic peak.",
+  "claim": "data",
+  "figures": [
+   "603",
+   "29900.0",
+   "41771.0",
+   "475124.0"
+  ],
+  "source": "SRC-5789",
+  "anchor": [
+   "row 84 | Table 3.2 - OUTLAYS BY FUNCTION AND SUBFUNCTION:  1962 - 2031 = 603 Unemployment compensation",
+   "row 84 |  = 29900.0",
+   "row 84 |  = 475124.0",
+   "row 84 |  = 41771.0"
+  ],
+  "locator": "Table 3.2, row 84 (603 Unemployment compensation); FY2019, FY2020 and FY2025 columns",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-01",
+  "context": "Recorded federal outlays (data) from the second Trump administration's FY2027 historical tables; the budget model checks OMB's totals against CBO's independent series (models/data/budget/README.md). Covers federal and state unemployment trust fund outlays, which are on budget.",
+  "supports": [
+   "dossiers/work/3-design.md"
+  ]
  }
 ]
