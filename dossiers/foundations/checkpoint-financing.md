@@ -9,6 +9,7 @@ Status: **decided and booked, November 16, 2026.**
 - **Decided:** Espen's November 15 answers (`DEC-2026-11-15-01` to `-29`, #393) and November 16 answers (`DEC-2026-11-16-01` to `-03`, #395). The analysis behind them is in #385, #386, #388 and #392.
 - **Booked:** the health financing booking, #394 (tier 3), on top of clean power's booking (#359, #372, #377).
 - This memo books nothing and changes no decision.
+- **Figures as of #402.** #402 priced HLT-7's status rule on the corrected base and counted HEC's phase-in after the window. That moved the plan-wide gap from #394's $588B and $3,592B to $603B and $3,773B, and health's first call from $518B to $532B. The figures below are restated from the model's outputs on main after #402.
 
 Units:
 - Federal fiscal years, case `mixed`.
@@ -34,7 +35,7 @@ Units:
    | Revenue the plan already counted for its other flagships, which health now takes first | 516 |
    | **Total** | **7,345** |
 
-   The household contribution's sections 6 and 7 explain the $440B. On the budget model's own run, health's call on booked revenue is $518B.
+   The household contribution's sections 6 and 7 explain the $440B. On the budget model's own run, health's call on booked revenue is $532B (after #402).
 3. **The household contribution, as decided.** It is one health contribution in place of the worker's Medicare taxes (`DEC-2026-11-15-10` to `-13`, `DEC-2026-11-16-01`):
    - **2.25% of AGI** (adjusted gross income, the income on the tax return);
    - **plus 5.96 points on AGI above $205,400 single or $256,750 joint** (2026 dollars, indexed);
@@ -45,15 +46,15 @@ Units:
    - **88.7% of workers,** including every worker below 200% of poverty;
    - **about 98.6% of retirees and non-workers,** because the plan ends Medicare premiums and most medical bills;
    - **an example:** a single worker at $72,000 with job coverage goes from about **$6,700 a year to about $3,000** (`health-household-contribution.md` 3).
-5. **The plan-wide gap left for stage G:** **$588 billion in FY2040** (1.09% of GDP) and **$3,592 billion over FY2030-39**, as booked on #394. Before the health booking it was $4,164B and $23,396B.
-6. **What drives it.** In FY2040, **$518B of the $588B is health taking revenue the other flagships had counted on** (Espen: health comes first, `DEC-2026-11-15-04`). The other $70B is the rest of the plan's own shortfall. Among the rest of the plan, the largest net costs in FY2040 are:
+5. **The plan-wide gap left for stage G:** **$603 billion in FY2040** (1.11% of GDP) and **$3,773 billion over FY2030-39**, as booked on #394 and restated after #402. Before the health booking it was $4,164B and $23,396B.
+6. **What drives it.** In FY2040, **$532B of the $603B is health taking revenue the other flagships had counted on** (Espen: health comes first, `DEC-2026-11-15-04`). The other $70B is the rest of the plan's own shortfall. Among the rest of the plan, the largest net costs in FY2040 are:
    - care parts B to D (long-term care, child care and pre-K, the care wage floor): about $750B;
    - the secure floor: about $300B;
    - clean power: about $125B;
    - housing: about $120B.
 
    The revenue already booked and the dedicated funds' own lines cover most of those costs (part A2). Stage G closes the gap by cutting or refinancing other flagships, taking health's share from the top-end and corporate rows first (`DEC-2026-11-15-20`).
-7. **The biggest risk to the gap.** The national health budget (D2) saves $249B in FY2040, and holding health spending's growth that close to GDP's has never been achieved [EV-CAR-742]. Without it, the FY2040 gap would be about **$837B** (part D).
+7. **The biggest risk to the gap.** The national health budget (D2) saves $249B in FY2040, and holding health spending's growth that close to GDP's has never been achieved [EV-CAR-742]. Without it, the FY2040 gap would be about **$852B** (part D).
 
 ## Part A. The plan-wide gap and what drives it
 
@@ -71,13 +72,13 @@ Dossiers report their cost, and balancing happens here (`DEC-2026-11-10-05`).
 
 | Measure (case `mixed`) | FY2030 | FY2031 | FY2032 | FY2033 | FY2034 | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | **FY2040** | FY2030-39 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| General-fund primary balance, short ($B) | −198 | −108 | 66 | 69 | −37 | 530 | 830 | 824 | 829 | 787 | **588** | **3,592** |
-| Share of GDP | −0.53% | −0.28% | 0.16% | 0.17% | −0.09% | 1.18% | 1.78% | 1.70% | 1.65% | 1.51% | **1.09%** | — |
+| General-fund primary balance, short ($B) | −198 | −76 | 95 | 91 | −18 | 548 | 847 | 839 | 844 | 800 | **603** | **3,773** |
+| Share of GDP | −0.53% | −0.19% | 0.24% | 0.22% | −0.04% | 1.22% | 1.81% | 1.73% | 1.68% | 1.53% | **1.11%** | — |
 
-Source: `models/data/recovery-budget-paths.csv`, column `agenda_gf_primary_bn`, on #394. Primary means before interest; a negative figure is a surplus.
-- **FY2030-34 run close to balance or in surplus.** The five new streams start in FY2030 (`DEC-2026-11-16-02`), and the household contribution and employer contribution step in with the waves, while health's spending grows as people move. So health's own sources exceed its need in those years by about $1.0T in all (`first_call()`: −$986B).
+Source: `models/data/recovery-budget-paths.csv`, column `agenda_gf_primary_bn`, on main after #402. Primary means before interest; a negative figure is a surplus.
+- **FY2030-34 run close to balance or in surplus.** The five new streams start in FY2030 (`DEC-2026-11-16-02`), and the household contribution and employer contribution step in with the waves, while health's spending grows as people move. So health's own sources exceed its need in those years by about $0.9T in all (`first_call()`: −$883B).
 - **The gap jumps in FY2035,** when the plan reaches its endpoint and everyone is covered.
-- **The unified reading,** which also counts the dedicated funds' own balances (Social Security, Medicare HI, education, paid leave), is a surplus of $265B in FY2040 (`program_primary_bn`).
+- **The unified reading,** which also counts the dedicated funds' own balances (Social Security, Medicare HI, education, paid leave), is a surplus of $251B in FY2040 (`program_primary_bn`).
 
 ### A2. What drives it
 
@@ -85,9 +86,9 @@ FY2040 and FY2030-39 by flagship, from the audit lines (case `mixed`, `primary_d
 
 | Driver | Rows | FY2040 ($B) | FY2030-39 ($T) |
 | --- | --- | --- | --- |
-| Health, the single plan's spending (net of the federal money it replaces and the states' payment) | HLT-1 to HLT-8; HLT-7 is $3,518B (#394's components: the seam, the nine corrections, D1, D2, D5, the states at 100%, the credit) | 3,539 | 19.33 |
+| Health, the single plan's spending (net of the federal money it replaces and the states' payment) | HLT-1 to HLT-8; HLT-7 is $3,532B (#394's components, with #402's status rule: the seam, the nine corrections, D1, D2, D5, the states at 100%, the credit) | 3,554 | 19.51 |
 | Health's own financing | HEC −1,945, HX −966, HCU −770, HEX +608, the fold-in HCW, HCA, HCP and HCH +440, the five streams HS1-HS4 and H1a −385 | −3,019 | −17.39 |
-| **Health, net: its call on revenue the plan had booked for other flagships** | | **520** | **1.94** |
+| **Health, net: its call on revenue the plan had booked for other flagships** | | **535** | **2.12** |
 | Care parts B to D: long-term care, child care and pre-K, the care wage floor | HLT-9 to HLT-11, FAM-2 | 748 | 3.43 |
 | Secure floor (flagship 1) | FAM-1, INC-1 to INC-5, LAB-10 | 303 | 2.63 |
 | Clean power (flagship 4) | CLI-*, CX, CXA, CXP, C1T | 125 | 1.90 |
@@ -98,16 +99,16 @@ FY2040 and FY2030-39 by flagship, from the audit lines (case `mixed`, `primary_d
 | Revenue already booked: corporate, top-end, estate, enforcement | G1 to G11, H1b, GX, C3A, C18, C35, C38 to C43, the IRS allowance | −1,106 | −8.66 |
 | Revenue already booked: the indexed income contributions | 4 points above $100K/$200K from 2033; 2 points above $20K/$40K from 2035, phasing in to 2044 | −484 | −1.91 |
 | Fund-boundary items, net | The dedicated funds' own lines (Social Security −732, education −202, paid leave +16; −919 in all), with the general fund's grants to them added back (+853) | −65 | −0.47 |
-| **General-fund gap** | | **588** | **3.59** |
+| **General-fund gap** | | **603** | **3.77** |
 
 **Reading it:**
-- Health's rows net to $520B in FY2040 and $1.94T over the decade. Health's first call as #394 measures it is $518B in FY2040 and $1.71T over FY2030-39. The difference is in rows on the fund boundary: HLT-4's care parts, and H1a's early years, which are paid to Medicare's HI fund.
-- **On #394's measure the gap splits in two.** Health's first call is $518B in FY2040 and $1.71T over the decade. The rest of the plan is about $70B and $1.89T, the same as before the health booking. The health booking moved the gap from health's own need ($4.09T in FY2040) to health's call on the other flagships' revenue.
-- **The decade is driven by FY2035-39.** The rest of the plan's own shortfall runs at about $0.1T to $0.25T a year from FY2031. Health's first call is about −$1.0T over FY2030-34 and about +$2.7T over FY2035-39.
+- Health's rows net to $535B in FY2040 and $2.12T over the decade. Health's first call as #394 measures it is $532B in FY2040 and $1.89T over FY2030-39. The difference is in rows on the fund boundary: HLT-4's care parts, and H1a's early years, which are paid to Medicare's HI fund.
+- **On #394's measure the gap splits in two.** Health's first call is $532B in FY2040 and $1.89T over the decade. The rest of the plan is about $70B and $1.89T, the same as before the health booking. The health booking moved the gap from health's own need ($4.09T in FY2040) to health's call on the other flagships' revenue.
+- **The decade is driven by FY2035-39.** The rest of the plan's own shortfall runs at about $0.1T to $0.25T a year from FY2031. Health's first call is about −$0.9T over FY2030-34 and about +$2.8T over FY2035-39.
 
 ### A3. Inputs still moving
 
-- **Health is booked** (#394). The small follow-ups it lists change FY2040 by a few billion dollars each (part D, items 10 to 13).
+- **Health is booked** (#394). #402 did the small follow-ups in part D, items 10 to 12; item 11 raised FY2040 by about $15B. Item 13 would change FY2040 by a few billion dollars.
 - **Clean power is booked** (#359, #372, #377) and paused at L3. Its parked items don't move FY2040 by more than a few billion dollars.
 - **The secure floor is booked,** including D (#330). SS-8 is booked at zero (part D).
 - **Known later items:**
@@ -206,7 +207,7 @@ The earlier health package in this memo is superseded and has been removed: memo
 - the +1-point interest stress (`DEC-2026-11-08-06`).
 
 **The menu for the non-health remainder:**
-1. **Health's early surplus.** About $1.0T over FY2030-34 (part A1) is larger than the rest of the plan's shortfall in those years. Holding it as a reserve for the plan's fund, or counting it against the rest of the plan's decade gap, is a stage G choice (part D, item 3). It does nothing for FY2040.
+1. **Health's early surplus.** About $0.9T over FY2030-34 (part A1) is larger than the rest of the plan's shortfall in those years. Holding it as a reserve for the plan's fund, or counting it against the rest of the plan's decade gap, is a stage G choice (part D, item 3). It does nothing for FY2040.
 2. **One more point above $100,000/$200,000:** about $67B in FY2040 at the legacy yield, which would close FY2040's remainder on its own. It now stacks on the 4 booked points and the health surcharge, on a top rate on wages of about 67.7%, so it would raise less than $67B (`health-financing.md` part 10).
 3. **Top-end and capital options not yet used:** REV-HP2 and a fifth bracket point. REV-SC2 overlaps H1a. These total well under $1T over the decade, and they meet the capital-income cap (part D, item 4).
 4. **A VAT with a per-person rebate,** or a broad base, if stage G needs more than trims. Each conflicts with the take-home test in a way that has to be shown.
@@ -220,8 +221,8 @@ These are gathered from the decisions, #392's and #394's "For the board", and th
 
 **Risks to the gap:**
 
-2. **D2's risk.** The national health budget saves $249B in FY2040. Holding growth near GDP's has never been done [EV-CAR-742]. Stage G reports the gap without D2 (about **$837B** in FY2040) beside the gap with it ($588B) (`DEC-2026-11-15-08`).
-3. **Health's sources exceed its need by about $1.0T over FY2030-34** (#394; `first_call()`: −$986B). `DEC-2026-11-15-29` pays them into the plan's fund. Stage G decides whether that is held as a reserve or counted against the rest of the plan's gap. The budget model books it on the general fund, as it books all of the plan's revenue.
+2. **D2's risk.** The national health budget saves $249B in FY2040. Holding growth near GDP's has never been done [EV-CAR-742]. Stage G reports the gap without D2 (about **$852B** in FY2040) beside the gap with it ($603B) (`DEC-2026-11-15-08`).
+3. **Health's sources exceed its need by about $0.9T over FY2030-34** (#394, restated after #402; `first_call()`: −$883B). `DEC-2026-11-15-29` pays them into the plan's fund. Stage G decides whether that is held as a reserve or counted against the rest of the plan's gap. The budget model books it on the general fund, as it books all of the plan's revenue.
 
 **The top end:**
 
@@ -230,16 +231,16 @@ These are gathered from the decisions, #392's and #394's "For the board", and th
 
 **Settling the gap:**
 
-6. **Which flagships give way:** which rows, and which flagships are cut or refinanced, to cover health's $518B. Health's share comes from the top-end and corporate rows first (`DEC-2026-11-15-20`).
+6. **Which flagships give way:** which rows, and which flagships are cut or refinanced, to cover health's $532B. Health's share comes from the top-end and corporate rows first (`DEC-2026-11-15-20`).
 7. **The 20% avoidance allowance, set by tier.** It was set for high-income tiers. On a broad base collected by withholding, avoidance is likely smaller, so the gap may be overstated. Each 10 points moves booked revenue taken by about $104B (`health-household-contribution.md` 7).
 8. **The budget model's payroll point against CBO's.** Its $135B a point for 2030 looks like CBO's capped taxable payroll ($131.6B), read as all pay. On all covered earnings a point is about $158B. Items priced on a capped base are slightly overstated, and items on all pay understated (`health-household-contribution.md` 6).
 9. **SS-8,** the trust funds' stock investment, is booked at zero. Stage G needs CBO's and OMB's treatment of the purchases: outlays, a means of financing, or returns above Treasury's rate.
 
 **Small follow-ups from #394,** none needing a decision:
 
-10. The D3 household rows for health (`incidence-rows.csv` H7h, H7w, H7x) are still on the care dossier's uncorrected path, and the package's new rows have no incidence rows.
-11. HLT-7's status-rule component stays on the care dossier's base, so it reads slightly high.
-12. HEC's after-window path leaves out the no-offer phase-in's last steps (2040-44), and D2's after-window path is cautious. Both err low on revenue, which is the cautious side.
+10. The D3 household rows for health (`incidence-rows.csv` H7h, H7w, H7x) are still on the care dossier's uncorrected path, and the package's new rows have no incidence rows. *Done in #402.*
+11. HLT-7's status-rule component stays on the care dossier's base, so it reads slightly high. *Done in #402: on the corrected base the saving is −$18.0B in FY2040 (was −$33.0B), which raised the gap by about $15B.*
+12. HEC's after-window path leaves out the no-offer phase-in's last steps (2040-44), and D2's after-window path is cautious. Both err low on revenue, which is the cautious side. *HEC's part was done in #402 (FY2045's gap fell from $694B to $661B); D2's after-window path is unchanged.*
 13. The 0.9% Additional Medicare Tax ($53.5B) is a working figure and probably low, nearer $70B. If it is higher, booked revenue taken rises by the same amount (`health-household-contribution.md` 6).
 
 **Carried from the earlier checkpoint and `health-financing.md` part 9:**
@@ -289,7 +290,7 @@ All of these sum to about $16.2T (project arithmetic). The paper states no cost 
 | New taxes, and where | None in the bill. The paper offers the menu above | None in the bill; no separate plan found | In law: a household contribution of 2.25% of AGI plus 5.96 points above $205,400/$256,750, replacing the worker's Medicare taxes; five top-end and corporate streams ($385B) |
 | What employers pay | Nothing in the bill. The paper: 7.5% of payroll above $2 million. In the four-year transition, per enrolling employee, the higher of that or 75% of today's premiums | Nothing in the text | What employers as a whole would otherwise spend: 19.3% of pay between $20,000 and the wage base, less the first $100,000 of each firm's pay; mandatory, with pay protections ($1,945B) |
 | What states pay | Eligibility standards and other state-plan services kept, with the federal match, and a floor for institutional long-term care spending (sec. 204) [EV-CAR-278] | Nothing; long-term care moves into the program [EV-CAR-291] | 100% of their former Medicaid spending for the people who move, outside long-term care, indexed ($466B) |
-| The gap left open | All of the program's new money; the paper doesn't price the program | The same, with no menu | None for health: health's $518B call on booked revenue is part of the plan-wide $588B gap that stage G closes |
+| The gap left open | All of the program's new money; the paper doesn't price the program | The same, with no menu | None for health: health's $532B call on booked revenue is part of the plan-wide $603B gap that stage G closes |
 
 **An illustration for two families of four with one earner and employer coverage, on the paper's terms. This is not a model result.** It compares what the paper's household premium would cost with the worker premiums the family stops paying. Premiums are KFF's 2026 averages: $28,303 for family coverage, of which workers pay $7,471 [EV-CAR-111, EV-CAR-112], so employers pay about $20,832. Incomes are the household model's 2029 averages by quintile (`models/tools/household/results.md`, section 3).
 
