@@ -30,13 +30,14 @@ One file per section, each with a part per subject, as the immigration and secur
 | Section | File | Status |
 | --- | --- | --- |
 | 1. The problem | `1-problem.md`: parts A (voting floor and election administration), B (money in politics), C (ethics), D (courts), E (participation and civic life), F (long-run institutional reform), G (a government that delivers), with the flagships' stated state-capacity needs in G.6; the January 2029 baseline; inherited assumptions traced; evidence still needed | Draft (this PR) |
+| Capacity inventory | `capacity-needs-inventory.md`: every state-capacity need the flagships' delivery sections specify (about 190), with file and line, the hand-offs to this foundation and the agencies shared across flagships; the source of section 1, G.6 | Draft (this PR) |
 | 2-9 | Not started | Later stage F steps |
-| Evidence register | `evidence.json` (`EV-DEM-001` on); each entry labelled data or analysis and graded (`DEC-2026-10-28-07`, `DEC-2026-10-30-01`) | Draft |
+| Evidence register | `evidence.json`, `EV-DEM-001` to `EV-DEM-144` (119 data, 25 analysis; graded A 62, B 4, C 77, D 1); each entry labelled data or analysis and graded (`DEC-2026-10-28-07`, `DEC-2026-10-30-01`); sources `SRC-5500` to 5606 in `library/catalog.csv` | Draft (this PR) |
 
 ## IDs reserved
 
 - **Evidence code:** `EV-DEM-`.
-- **Source block:** `SRC-5500` to `SRC-5899` (`library/reserved-blocks.csv`).
+- **Source block:** `SRC-5500` to 5899 (`library/reserved-blocks.csv`).
 
 ## Directions for later stages (recorded, not acted on)
 

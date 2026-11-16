@@ -1449,7 +1449,8 @@
   "context": "Weekly-updated tracker; includes applications filed by other litigants in cases touching the administration, so it does not equal the administration's own filings.",
   "supports": [
    "dossiers/foundations/democratic-renewal/1-problem.md"
-  ]
+  ],
+  "locator": "page introduction (web page)"
  },
  {
   "id": "EV-DEM-060",
@@ -1469,6 +1470,7 @@
   "supports": [
    "dossiers/foundations/democratic-renewal/1-problem.md"
   ],
+  "locator": "article body, second-term tally (web page)",
   "corroboration": [
    {
     "evidence": "EV-DEM-061",
@@ -1628,7 +1630,7 @@
   "grade": "C",
   "fact_date": "2025-09",
   "checked": "2026-11-16",
-  "recheck": "2026-11-10",
+  "recheck": "2027-09-30",
   "context": "Gallup Nov. 10, 2025 (library SRC-2162; quoted here from S-D17). Gallup says trust moves with party control: Republicans' trust in the executive branch rose sharply while Democrats' fell. Not the same question as Pew's (E-D25), so levels differ.",
   "supports": [
    "dossiers/foundations/democratic-renewal/1-problem.md"
@@ -1930,7 +1932,8 @@
   "context": "Advocacy group's count of its own three-subject resolution; the group says 14 more are needed to reach 34. Not an official count.",
   "supports": [
    "dossiers/foundations/democratic-renewal/1-problem.md"
-  ]
+  ],
+  "locator": "page heading and state list (web page)"
  },
  {
   "id": "EV-DEM-079",
@@ -1950,6 +1953,7 @@
   "supports": [
    "dossiers/foundations/democratic-renewal/1-problem.md"
   ],
+  "locator": "application count list (web page)",
   "corroboration": [
    {
     "evidence": "EV-DEM-078",
@@ -2002,7 +2006,8 @@
   "context": "NCSL, a different publisher from CRS (E-D40); consistent with Ballotpedia's account that the 1887 act needed only one member of each chamber.",
   "supports": [
    "dossiers/foundations/democratic-renewal/1-problem.md"
-  ]
+  ],
+  "locator": "introductory paragraph (web page)"
  },
  {
   "id": "EV-DEM-082",
@@ -2074,7 +2079,7 @@
  },
  {
   "id": "EV-DEM-085",
-  "statement": "GAO reports that from January to June 2025 a total of 134,122 individuals separated from 23 large agencies and those agencies hired 65,953.",
+  "statement": "GAO reports that from January to June 2025 a total of 134,122 individuals separated from large agencies and those agencies hired 65,953.",
   "claim": "data",
   "figures": [
    "134,122",
@@ -2157,6 +2162,9 @@
   ],
   "source": "SRC-5564",
   "anchor": [
+   "FY 2025 represents the Operating Plan level before the Inter-Appropriations Transfer (IAT) of up to $272 million from Enforcement to",
+   "the total request of $15.9 billion represents a change of -2.5 percent from FY 2026.",
+   "FY 2027 User Fees will be allocated as follows: $1B to Enforcement and $256M to Taxpayer Services.",
    "94,095",
    "70,829",
    "69,031",
@@ -2178,11 +2186,15 @@
   "claim": "data",
   "figures": [
    "31,273",
-   "28 percent"
+   "28 percent",
+   "January 2025",
+   "January 2026"
   ],
   "source": "SRC-5562",
   "anchor": [
    "The IRS reported that 31,273 employees either voluntarily separated, took a DRP offer, or",
+   "one-year period between January 2025 and",
+   "January 2026. These departures represent",
    "the net effect on IRS staffing was a 28 percent"
   ],
   "grade": "A",
@@ -2285,16 +2297,18 @@
  },
  {
   "id": "EV-DEM-093",
-  "statement": "The Budget Lab at Yale projects that a staffing reduction of almost 28,000, like the IRS cuts of 2025, would increase the deficit by almost $600 billion over 2026 to 2035.",
+  "statement": "The Budget Lab at Yale projects that a staffing reduction of almost 28,000, like the IRS cuts of 2025, would increase the deficit by almost $600 billion over 2026-2035.",
   "claim": "analysis",
   "figures": [
    "28,000",
    "$600 billion",
-   "2025"
+   "2025",
+   "2026-2035"
   ],
   "source": "SRC-5601",
   "anchor": [
-   "reduction of almost 28,000 in staffing—mirroring cuts that occurred in 2025—increases the deficit by almost $600 billion"
+   "reduction of almost 28,000 in staffing—mirroring cuts that occurred in 2025—increases the deficit by almost $600 billion",
+   "Staffing reductions in 2025 are projected to reduce IRS revenues by almost $600 billion over the 2026-2035 budget window."
   ],
   "grade": "C",
   "fact_date": "2026",
@@ -2355,6 +2369,7 @@
   "statement": "TIGTA reports that through February 28, 2026 IRS assistors answered phones with an 8.2-minute average speed of answer, against 3.4 a year earlier, after the IRS lowered its service-rate goal to 70 percent from 85 percent.",
   "claim": "data",
   "figures": [
+   "February 28, 2026",
    "8.2",
    "3.4",
    "70 percent",
@@ -2363,6 +2378,7 @@
   ],
   "source": "SRC-5565",
   "anchor": [
+   "As of February 28, 2026, the average speed of answer was",
    "an 8.2-minute Average Speed of Answer",
    "3.4",
    "leadership reduced the Level of Service or Assistor Service Rate goal to 70 percent during the",
@@ -2526,7 +2542,7 @@
  },
  {
   "id": "EV-DEM-102",
-  "statement": "Nextgov reported that GSA eliminated the 18F digital-service team of about 90 employees on March 1, 2025, and described the U.S. Digital Service as having been transformed into DOGE.",
+  "statement": "Nextgov reported that GSA eliminated the 18F digital-service team of about 90 employees in March 2025, and described the U.S. Digital Service as having been transformed into DOGE.",
   "claim": "data",
   "figures": [
    "90"
@@ -2562,7 +2578,8 @@
   "source": "SRC-5590",
   "anchor": [
    "800 Number Answer Rate 58.4% 57.2% 82.6%",
-   "800 Number Average Speed of Answer (ASA) (minutes) 27.6 15.1 5.6 -79.7%"
+   "800 Number Average Speed of Answer (ASA) (minutes) 27.6 15.1 5.6 -79.7%",
+   "FY 2024 FY 2025 FY 2026"
   ],
   "grade": "A",
   "fact_date": "2026-09",
@@ -2589,7 +2606,8 @@
   "source": "SRC-5590",
   "anchor": [
    "Initial Disability Claims Pending 1,177,974 885,180 910,916 -22.7%",
-   "Hearings Processing Time (days) 342 284 270 -21.1%"
+   "Hearings Processing Time (days) 342 284 270 -21.1%",
+   "FY 2024 FY 2025 FY 2026"
   ],
   "grade": "A",
   "fact_date": "2026-09",
@@ -2615,7 +2633,8 @@
   "source": "SRC-5590",
   "anchor": [
    "56,645 50,801 48,530 -14.3%",
-   "25,845 23,610 22,583 -12.6%"
+   "25,845 23,610 22,583 -12.6%",
+   "FY 2024 FY 2025 FY 2026"
   ],
   "grade": "A",
   "fact_date": "2026-09",
@@ -2662,7 +2681,7 @@
   "anchor": [
    "resulting in double-digit improvements in every service metric"
   ],
-  "grade": "D",
+  "grade": "C",
   "fact_date": "2026-09",
   "checked": "2026-11-16",
   "recheck": "2027-11-01",
@@ -2712,7 +2731,8 @@
   ],
   "source": "SRC-5590",
   "anchor": [
-   "Field Office Overall Wait Time (minutes) 29.9 22.5 20.6 -31.1%"
+   "Field Office Overall Wait Time (minutes) 29.9 22.5 20.6 -31.1%",
+   "FY 2024 FY 2025 FY 2026"
   ],
   "grade": "A",
   "fact_date": "2026-09",
@@ -2819,13 +2839,16 @@
  },
  {
   "id": "EV-DEM-114",
-  "statement": "GAO's FY2025 table shows estimated improper payments of $21.1 billion (32.7 percent) in the Earned Income Tax Credit, $10.2 billion (10.9 percent) in SNAP, $37.4 billion (6.1 percent) in Medicaid and $5.6 billion (14.9 percent) in unemployment insurance.",
+  "statement": "GAO's FY2025 table (dollars in billions) shows estimated improper payments of 21.1 (32.7 percent) in the Earned Income Tax Credit, 10.2 (10.9 percent) in SNAP, 37.4 (6.1 percent) in Medicaid and 5.6 (14.9 percent) in unemployment insurance.",
   "claim": "data",
   "figures": [
+   "21.1",
    "32.7",
+   "10.2",
    "10.9",
-   "$37.4",
+   "37.4",
    "6.1",
+   "5.6",
    "14.9"
   ],
   "source": "SRC-5592",
@@ -2907,7 +2930,7 @@
   "source": "SRC-5576",
   "anchor": [
    "at a rate of 78 percent while dollar participation was 81 percent.",
-   "Overall in tax year 2021 eligible taxpayers participated in the EITC program at a rate of 78 percent"
+   "at a rate of 78 percent in tax year 2021."
   ],
   "grade": "B",
   "fact_date": "2021",
@@ -2947,12 +2970,14 @@
   "statement": "In a randomized trial with 30,000 elderly people likely eligible for SNAP, 6% of the control group enrolled, against 11% given information and 18% given information plus application help.",
   "claim": "data",
   "figures": [
+   "30,000",
    "6%",
    "11%",
    "18%"
   ],
   "source": "SRC-5603",
   "anchor": [
+   "a randomized field experiment in which 30,000 elderly individuals not enrolled in—but likely eligible for—the Supplemental Nutrition Assistance Program (SNAP)",
    "Only 6% of the control group enrolls in SNAP over the next nine months, compared to 11% of the Information Only group and 18% of the Information Plus Assistance group."
   ],
   "grade": "B",
@@ -3100,11 +3125,14 @@
   "claim": "analysis",
   "figures": [
    "$100 billion",
-   "$135 billion"
+   "$135 billion",
+   "11",
+   "15"
   ],
   "source": "SRC-5593",
   "anchor": [
-   "GAO estimates that the amount of fraud in unemployment insurance (UI) programs during the COVID-19 pandemic was likely between $100 billion and $135 billion"
+   "GAO estimates that the amount of fraud in unemployment insurance (UI) programs during the COVID-19 pandemic was likely between $100 billion and $135 billion",
+   "This is about 11 percent and 15 percent, respectively, of the total amount of UI benefits paid during the pandemic."
   ],
   "grade": "C",
   "fact_date": "2023-09",
@@ -3199,12 +3227,14 @@
   "statement": "ACSI reports that satisfaction with federal government services fell 2.6% to 68.6 in its 2026 study, down from 70.4 in 2025 and the first decline in five years, and that call center satisfaction fell 3% to 63.",
   "claim": "data",
   "figures": [
+   "2.6%",
    "68.6",
    "70.4",
    "63"
   ],
   "source": "SRC-5595",
   "anchor": [
+   "Citizen satisfaction with U.S. federal government services falls 2.6% to an American Customer Satisfaction Index (ACSI) score of 68.6",
    "Citizen satisfaction with the U.S. federal government is at an ACSI score of 68.6 this year, down from 70.4 in 2025.",
    "The federal call center satisfaction index slides 3% to 63"
   ],
@@ -3227,7 +3257,7 @@
   "anchor": [
    "those reductions surface throughout the study in weakened customer service, complaint handling, process efficiency, and website scores"
   ],
-  "grade": "D",
+  "grade": "C",
   "fact_date": "2026-09",
   "checked": "2026-11-16",
   "recheck": "2027-10-20",
@@ -3295,7 +3325,7 @@
  },
  {
   "id": "EV-DEM-133",
-  "statement": "GAO concluded on September 29, 2026 that the President's special message proposing rescissions from 11 accounts does not allow funds to be withheld beyond the end of fiscal year 2026.",
+  "statement": "GAO concluded in late September 2026 that the President's special message proposing rescissions from 11 accounts does not allow funds to be withheld beyond the end of fiscal year 2026.",
   "claim": "analysis",
   "figures": [
    "11",
@@ -3360,12 +3390,15 @@
   "id": "EV-DEM-135",
   "statement": "OMB's General Counsel told GAO on May 30, 2025 that OMB is in full compliance with the Impoundment Control Act because none of its actions constituted a withholding subject to the Act's special message requirements.",
   "claim": "analysis",
-  "figures": [],
+  "figures": [
+   "May 30, 2025"
+  ],
   "source": "SRC-5583",
   "anchor": [
+   "May 30, 2025",
    "OMB is in full compliance with the ICA, as none of its actions constituted a withholding"
   ],
-  "grade": "D",
+  "grade": "C",
   "fact_date": "2025-05",
   "checked": "2026-11-16",
   "recheck": "2027-01-30",
@@ -3387,28 +3420,28 @@
  },
  {
   "id": "EV-DEM-136",
-  "statement": "Under P.L. 119-21 the federal government pays 25% of state SNAP administrative costs from October 1, 2026, down from 50%, so states cover 75%.",
+  "statement": "Under the reconciliation law the federal share of state SNAP administrative costs falls from 50% to 25% beginning FY2027, so states pay 75%.",
   "claim": "data",
   "figures": [
-   "25%",
-   "October 1, 2026",
    "50%",
-   "75%"
+   "25%",
+   "75%",
+   "FY2027"
   ],
-  "source": "SRC-5571",
+  "source": "SRC-5570",
   "anchor": [
-   "newly effective October 1, 2026—25% of the state's SNAP administrative costs",
-   "increasing the state cost-share for SNAP administrative costs from 50% to 75%"
+   "increasing the state cost-share for SNAP administrative costs from 50% to 75%, and",
+   "Beginning FY2027, states' costs to administer SNAP would be reimbursed 25% by the federal government."
   ],
   "grade": "A",
   "fact_date": "2026-10",
   "checked": "2026-11-16",
   "recheck": "2027-10-01",
-  "context": "CRS R42505 (November 4, 2026) and R48552, nonpartisan, describing enacted law (P.L. 119-21, section 10106). The change is in effect and will still be in January 2029 unless Congress changes it.",
+  "context": "CRS R48552, nonpartisan, describing enacted law (section 10106 of P.L. 119-21). CRS R42505 confirms the change is now in effect (E-G61). It will still apply in January 2029 unless Congress changes it.",
   "supports": [
    "dossiers/foundations/democratic-renewal/1-problem.md"
   ],
-  "locator": "R42505 summary; R48552 administrative cost sharing"
+  "locator": "Nutrition provisions summary; administrative cost sharing row"
  },
  {
   "id": "EV-DEM-137",
@@ -3438,7 +3471,7 @@
  },
  {
   "id": "EV-DEM-138",
-  "statement": "The Medicaid community engagement requirement in P.L. 119-21 takes effect December 31, 2026 or sooner at state option, with state exemptions for good-faith effort expiring no later than December 31, 2028.",
+  "statement": "The Medicaid community engagement requirement in the reconciliation law takes effect December 31, 2026 or sooner at state option, with state exemptions for good-faith effort expiring no later than December 31, 2028.",
   "claim": "data",
   "figures": [
    "December 31, 2026",
@@ -3526,6 +3559,76 @@
   "checked": "2026-11-16",
   "recheck": "2026-12-05",
   "context": "BLS Current Employment Statistics, seasonally adjusted, in thousands; the last two months are preliminary and revised twice. State and local employment together is about 20.7 million, so local and state governments have not shrunk the way the federal workforce has (state government fell from 5525 to 5479 thousand over the same months, S-G30, not anchored). Employment counts say nothing about eligibility-system capacity or backlogs.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Table rows for 2025 and 2026"
+ },
+ {
+  "id": "EV-DEM-142",
+  "statement": "CRS reports the federal government now pays 25% of state SNAP administrative costs, effective October 1, 2026.",
+  "claim": "data",
+  "figures": [
+   "25%",
+   "October 1, 2026"
+  ],
+  "source": "SRC-5571",
+  "anchor": [
+   "newly effective October 1, 2026—25% of the state's SNAP administrative costs"
+  ],
+  "grade": "A",
+  "fact_date": "2026-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-01",
+  "context": "CRS R42505 (November 4, 2026), nonpartisan; confirms E-G55 as current law.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Summary"
+ },
+ {
+  "id": "EV-DEM-143",
+  "statement": "CRS reports that on August 28, 2025 the President sent Congress a special message proposing 15 rescissions totaling nearly $5 billion in foreign assistance, funds set to expire, after the Rescissions Act of 2025 was signed on July 24, 2025.",
+  "claim": "data",
+  "figures": [
+   "August 28, 2025",
+   "15",
+   "$5 billion",
+   "July 24, 2025"
+  ],
+  "source": "SRC-5584",
+  "anchor": [
+   "On August 28, 2025, President Trump transmitted to Congress a special message proposing 15 rescissions totaling nearly $5 billion in foreign assistance appropriations",
+   "On July 24, 2025, President Donald J. Trump signed into law the Rescissions Act of 2025"
+  ],
+  "grade": "A",
+  "fact_date": "2025-08",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-31",
+  "context": "CRS Legal Sidebar LSB11373 (September 25, 2025), nonpartisan; second Trump administration actions. This is the 2025 pocket rescission; CRS says senior administration officials argued a President may use the ICA this way and that GAO and OMB disagree (E-G53). The Rescissions Act was the first successful use of the ICA rescission process since 1992.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraphs"
+ },
+ {
+  "id": "EV-DEM-144",
+  "statement": "BLS reports state government employment of 5525 thousand in January 2025 and 5479 (preliminary) in October 2026.",
+  "claim": "data",
+  "figures": [
+   "5525",
+   "5479"
+  ],
+  "source": "SRC-5588",
+  "anchor": [
+   "2025 5525 5525 5523 5522 5515 5516 5504 5487 5497 5493 5481 5476",
+   "2026 5479 5473 5469 5469 5467 5462 5482 5475 5471(P) 5479(P)"
+  ],
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-05",
+  "context": "BLS Current Employment Statistics, seasonally adjusted, in thousands; preliminary for the last two months. A slight fall, while the OBBBA shifts SNAP administrative costs to states from FY2027 (E-G55). Headcount alone does not show eligibility-system capacity.",
   "supports": [
    "dossiers/foundations/democratic-renewal/1-problem.md"
   ],
