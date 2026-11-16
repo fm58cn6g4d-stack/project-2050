@@ -14,6 +14,8 @@ import csv
 import importlib.util
 import json
 import os
+import subprocess
+import sys
 import unittest
 from pathlib import Path
 
@@ -88,6 +90,13 @@ class ImmigrationBooking(unittest.TestCase):
     def test_uscis_shares_are_out(self):
         self.assertAlmostEqual(IB.CAP7S[1] - self.b["cap"]["CAP-7S"][1], 0.04, places=9)
         self.assertAlmostEqual(self.b["cap"]["CAP-7"][1], round(0.49 * 0.93, 4), places=9)
+
+    def test_plain_printout_runs(self):
+        # the non-JSON printout once failed with KeyError: 'CAP-7S' (the proxy has no FY2040 figure)
+        out = subprocess.run([sys.executable, str(HERE / "immigration_booking.py")], capture_output=True, text=True)
+        self.assertEqual(out.returncode, 0, out.stderr)
+        self.assertRegex(out.stdout, r"(?m)^CAP-7S\s.*FY2040\s+0\.00")
+        self.assertIn("totals", out.stdout)
 
 
 if __name__ == "__main__":

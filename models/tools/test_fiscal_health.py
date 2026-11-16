@@ -5,11 +5,13 @@ only, plus the dossier's own path script through health_booking.py. Checks that:
 - every health shape, component and ledger amount in models/data/inputs/ equals health_booking.py's derivation from
   dossiers/care/tools/health_path.py, so a change to the dossier's path fails here instead of drifting;
 - the fiscal model books the spending line at the path's FY2040 figure and the exclusion revenue (HX) at its own;
-- the plan's net cost on the model's basis (HLT-1 plus HLT-7's spending line, less HX) is the dossier's $21.74T;
+- the plan's net cost on the model's basis (HLT-1 plus HLT-7's spending line, less HX) is the dossier's $21.74T with
+  the Medicare seam (DEC-2026-11-15-28) and the cost review's corrections (DEC-2026-11-15-05) taken out, as booked by
+  the health financing booking (test_fiscal_health_financing.py checks its other rows);
 - HLT-7's status-rule component (DEC-2026-11-12-19) is care_base_correction's coverage, less the Emergency Medicaid
   and the hospitals' DSH-type uncompensated-care share (DEC-2026-11-13-02) that keep paying, booked once on its own
   component;
-- the employer contribution is not booked on any channel, and HX is general-fund base revenue;
+- the package's revenue rows are general-fund base revenue, HX among them, and none is netted in HLT-7;
 - HLT-3 and HLT-5 are retired, HLT-1, HLT-2 and HLT-6 end with the 2035 endpoint, and HLT-4's retired parts end
   with their waves while its safety-net part continues (its long-term care is care_booking.py's, test_fiscal_care.py);
 - the household test's health rows (incidence-rows.csv H7h, H7w, H7x, with PB, H2 and H5p; their keys and phase-in
@@ -79,6 +81,11 @@ class HealthBooking(unittest.TestCase):
         for k, (lo, mid, hi) in self.b["ledger"].items():
             r, cols = (rev[k], ("lo", "mid", "hi")) if k == "HX" else (bills[k], ("cost_lo", "cost_mid", "cost_hi"))
             self.assertEqual(tuple(float(r[c]) for c in cols), (lo, mid, hi), k)
+        for k, (lo, mid, hi) in self.b["revenue"].items():     # the package's rows (health_booking.financing())
+            self.assertEqual(tuple(float(rev[k][c]) for c in ("lo", "mid", "hi")), (lo, mid, hi), k)
+        prof = {r["id"]: r for r in rows("fiscal-profiles.csv") if r["table"] == "base revenue"}
+        for k in self.b["revenue"]:
+            self.assertAlmostEqual(float(prof[k]["perm"]), self.b["perms"][k], places=6, msg=k)
         hx = next(r for r in rows("fiscal-profiles.csv") if r["id"] == "HX")
         self.assertAlmostEqual(float(hx["perm"]), self.b["perms"]["HX"], places=6)
 
@@ -99,9 +106,13 @@ class HealthBooking(unittest.TestCase):
         hx = fiscal.row_path(self.base, -self.rev["HX"]["mid"], fiscal.PR.REVENUE["HX"], "HX")
         fedcov = t(self.part("HLT-7", "federal-coverage"))
         net = t(self.path("HLT-1")) + t(self.part("HLT-7", "plan-spending")) + fedcov + t(hx)
-        # the dossier's $21.74T, less part 6's federal-coverage correction (FEHB, TRICARE and the VA; B6 item 7)
-        self.assertAlmostEqual(net, self.b["totals"]["net_window"] + self.b["totals"]["federal_coverage_net"], delta=0.002)
-        self.assertAlmostEqual(round(self.b["totals"]["net_window"], 2), 21.74)
+        # the dossier's $21.74T, less part 6's federal-coverage correction (FEHB, TRICARE and the VA; B6 item 7), the
+        # Medicare seam (-$1.28T, DEC-2026-11-15-28) and the cost review's corrections (DEC-2026-11-15-05)
+        T = self.b["totals"]
+        self.assertAlmostEqual(net, T["net_window"] + T["federal_coverage_net"] + T["seam_window"] + T["corrected_window"],
+                               delta=0.002)
+        self.assertAlmostEqual(round(T["net_window"], 2), 21.74)
+        self.assertAlmostEqual(T["seam_window"], -1.28, delta=0.005)
         self.assertAlmostEqual(self.b["totals"]["federal_coverage_net"], -0.365, delta=0.005)   # part 6: $0.2-0.5T high
         self.assertLess(fedcov, 0)
         self.assertAlmostEqual(t(self.part("HLT-7", "worker-help")), 0.06, places=9)   # HLT-7.16, FY2033-38
@@ -139,11 +150,12 @@ class HealthBooking(unittest.TestCase):
         self.assertLess(lo, sum(dsh[y] for y in W))
         self.assertLess(sum(dsh[y] for y in W), hi)
 
-    def test_contribution_is_not_booked(self):
-        # the only revenue row from the health plan is HX: no employer contribution (HLT-7.18) and no FEHB money
+    def test_package_rows_are_base_revenue(self):
+        # HX and the package's rows (DEC-2026-11-15-09) are general-fund base revenue; none is netted in HLT-7
         health = [r for r in self.ledger["revenue"] if "HLT-7" in r["option"] or "care" in r.get("source", "")]
         self.assertEqual([r["id"] for r in health], ["HX"])
-        self.assertEqual((self.rev["HX"]["channel"], self.rev["HX"]["in_base"]), ("General fund", "Yes"))
+        for k in ["HX"] + list(self.b["revenue"]):
+            self.assertEqual((self.rev[k]["channel"], self.rev[k]["in_base"]), ("General fund", "Yes"), k)
         self.assertEqual(self.bills["HLT-7"]["own_revenue"], 0)
 
     def test_retired_and_ended_rows(self):
