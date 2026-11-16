@@ -1,0 +1,1341 @@
+Source: https://www.tigta.gov/sites/default/files/reports/2024-11/202347056fr.pdf
+Publisher: Treasury Inspector General for Tax Administration
+Retrieved: 2026-11-16
+Original SHA-256: 72becdf0fd2da13fbad878241d55de1713695c3f53ac0a6e88ef476d1734a653
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+TREASURY INSPECTOR GENERAL FOR TAX ADMINISTRATION
+
+Processing of Recovery Rebate Credit
+Claims During the 2022 Filing Season
+August 24, 2023
+Report Number: 2023-47-056
+
+TIGTACommunications@tigta.treas.gov | www.tigta.gov
+
+1
+
+HIGHLIGHTS: Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+Final Audit Report issued on August 24, 2023
+
+Report Number 2023-47-056
+
+Why TIGTA Did This Audit
+
+What TIGTA Found
+
+This audit was initiated to assess
+the IRS’s processing of Recovery
+Rebate Credit claims during the
+2022 Filing Season.
+
+The IRS correctly calculated the allowable Recovery Rebate Credit for
+99.7 percent of the Tax Year 2021 tax returns that claimed a credit as
+of May 5, 2022. In addition, the IRS’s tax return validation processes
+ensured that taxpayers received the Recovery Rebate Credit they
+were entitled on 98.3 percent of the returns.
+
+The American Rescue Plan Act of
+2021 created a third Recovery
+Rebate Credit of up to $1,400 per
+eligible individual for Tax
+Year 2021. The legislation also
+directed the IRS to make advance
+payments of the credit (referred to
+as advance Recovery Rebate Credit
+payments or Economic Impact
+Payments). Taxpayers who claim
+the Recovery Rebate Credit on their
+Tax Year 2021 returns must reduce
+the credit by any advance payment
+they received.
+
+Impact on Tax Administration
+As of May 5, 2022, the IRS
+processed 17.8 million tax returns
+with Recovery Rebate Credit claims
+totaling $33 billion.
+Prior reviews of the IRS’s
+implementation of the Recovery
+Rebate Credit found that the IRS’s
+calculation of the amount
+individuals are entitled to receive is
+highly accurate. However, these
+reviews also identified significant
+payments to potentially ineligible
+individuals and a large number of
+potentially eligible individuals who
+had not received an advance
+payment or Recovery Rebate
+Credit.
+
+However, erroneous payments continue to be significant. Of the
+17.8 million returns reviewed, 316,425 (1.7 percent) returns received
+an incorrect Recovery Rebate Credit. These include:
+•
+
+52,297 returns with payments totaling $99.4 million in which
+the IRS’s calculation of the Recovery Rebate Credit amount
+was incorrect.
+
+•
+
+264,128 returns with payments totaling $369.3 million that
+were issued to potentially ineligible dependents,
+nonresidents, and residents of a U.S. Territory.
+
+In addition, some eligible individuals still have not claimed a
+Recovery Rebate Credit despite extensive efforts by the IRS to
+educate taxpayers on their eligibility for the credit and assist them in
+filing a return to obtain these credits. TIGTA’s review of Tax
+Year 2021 tax returns identified nearly 3 million individuals who are
+potentially eligible for $4.7 billion in Recovery Rebate Credits but
+have not claimed them.
+Finally, the use of advance payment debit cards delayed access to
+Recovery Rebate Credit funds for 25,146 taxpayers as of
+October 27, 2022. These taxpayers had $44 million in Recovery
+Rebate Credit claims denied because IRS records show the individual
+received a debit card. However, none of these individuals had
+activated their card.
+
+What TIGTA Recommended
+TIGTA made four recommendations to the IRS that included
+reviewing payments issued to potentially ineligible individuals and
+sending a letter to the potentially eligible individuals associated with
+the nearly 3 million individuals TIGTA identified encouraging them to
+amend their Tax Year 2021 return and claim the credit if eligible.
+The IRS agreed with one of the four recommendations. The IRS did
+not agree to revise the Tax Tip and related Frequently Asked
+Questions or to review the 274,865 individuals who received a
+potentially erroneous Recovery Rebate Credit.
+
+U.S. DEPARTMENT OF THE TREASURY
+WASHINGTON, D.C. 20024
+
+TREASURY INSPECTOR GENERAL
+FOR TAX ADMINISTRATION
+
+August 24, 2023
+
+MEMORANDUM FOR: COMMISSIONER OF INTERNAL REVENUE
+FROM:
+
+Heather M. Hill
+Deputy Inspector General for Audit
+
+SUBJECT:
+
+Final Audit Report – Processing of Recovery Rebate Credit Claims
+During the 2022 Filing Season (Audit # 202240702)
+
+This report represents the results of our review to assess the processing of Recovery Rebate
+Credit (RRC) claims during the 2022 Filing Season, including ensuring that taxpayers properly
+reconciled advanced RRC payments received during Calendar Year 2021. This review is part of
+our Fiscal Year 2023 Annual Audit Plan and addresses the major management and performance
+challenge of Administering Tax Law Changes.
+Management’s complete response to the draft audit report is included as Appendix V. If you
+have any questions, please contact me or Diana M. Tengesdal, Assistant Inspector General for
+Audit (Returns Processing and Account Services).
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Table of Contents
+Background .....................................................................................................................................Page 1
+Results of Review .......................................................................................................................Page 4
+Recovery Rebate Credit Claims Were Processed Accurately;
+However, Erroneous Payments Continue to Be Significant .................................Page 4
+Recommendation 1: ...................................................................Page 7
+Recommendation 2: ...................................................................Page 9
+
+Some Eligible Individuals Still Have Not Claimed a
+Recovery Rebate Credit .....................................................................................................Page 10
+Recommendations 3 and 4: .....................................................Page 12
+
+Appendices
+Appendix I – Detailed Objective, Scope, and Methodology ................................Page 14
+Appendix II – Outcome Measures .................................................................................Page 16
+Appendix III – Comparison of Recovery Rebate Credit Eligibility
+Requirements.........................................................................................................................Page 19
+Appendix IV – Issuance of Recovery Rebate Credits for Calendar
+Years 2020 to 2022 ..............................................................................................................Page 20
+Appendix V – Management’s Response to the Draft Report ..............................Page 21
+Appendix VI – Glossary of Terms ...................................................................................Page 26
+Appendix VII – Abbreviations ..........................................................................................Page 27
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Background
+The American Rescue Plan Act of 2021 (ARPA), signed into law on March 11, 2021, created a
+third Recovery Rebate Credit (RRC) of up to $1,400 per eligible individual for Tax Year 2021. 1
+While several of the eligibility requirements for the ARPA RRC are the same as previously
+enacted credits, there are some notable
+differences. The credit amount was
+increased to $1,400 for each eligible
+taxpayer and $1,400 for each qualifying
+dependent. In addition, the ARPA
+significantly lowered the income phase out
+limits and expanded eligibility to include all
+dependents regardless of age. The ARPA
+also allowed taxpayers with an Individual Taxpayer Identification Number to claim the RRC for
+their dependents who have a valid Social Security Number. In addition to the income
+requirements, individuals:
+•
+
+Must be a U.S. citizen or resident alien.
+
+•
+
+Cannot be claimed as a dependent on someone else’s Federal income tax return.
+
+A comparison of the major provisions in the previously enacted RRCs and the ARPA RRC is
+presented in Appendix III.
+
+Advance payment of the RRC
+The legislation also directed the Internal Revenue Service (IRS) to make advance payments of
+the RRC (referred to as advance RRC payments or Economic Impact Payments) as soon as
+possible but not later than December 31, 2021. The IRS was authorized to use an individual’s
+Tax Year 2020 return to determine eligibility for the purpose of issuing an advance RRC
+payment. The IRS could also use the taxpayer’s Tax Year 2019 return if the Tax Year 2020 return
+had not been filed yet. However, the IRS was directed to reevaluate the taxpayer’s eligibility
+once their Tax Year 2020 return was filed and issue the taxpayer any additional advance
+payment they may be eligible to receive. The IRS refers to these additional payments as plus-up
+payments. The IRS began issuing advance RRC payments on March 11, 2021, the same day the
+ARPA was enacted. Figure 1 provides the number of ARPA RRCs issued as an advance payment
+and claimed on a Tax Year 2021 tax return.
+
+1
+
+Pub. L. No. 117-2, 135 Stat. 4 (codified in scattered sections of 7, 12, 15, 19, 20, 26, 29, 42 and 45 U.S.C.).
+
+Page 1
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Figure 1: ARPA RRCs Issued
+
+Source: Treasury Inspector General for Tax Administration (TIGTA) analyses of
+IRS data. ARPA advance RRC payments issued as of September 16, 2021, and
+Tax Year 2021 RRCs issued as of October 27, 2022.
+
+Claiming the RRC
+The RRC is a refundable tax credit claimed on Line 30 of Form 1040, U.S. Individual Income Tax
+Return. Individuals must reduce the RRC they are eligible to receive by the amount of any
+advance payments received. The IRS refers to this process as reconciling the advance payments.
+Taxpayers use a worksheet included in the Form 1040 instructions to reconcile their advance
+payments and determine the RRC they can claim on their tax return. Individuals who are eligible
+for an RRC that is more than the individual’s advance payment can claim the difference as an
+RRC on their tax return. Those whose advance payment was more than the RRC they are eligible
+for do not have to repay the difference. The RRC will be included in the taxpayer’s refund or
+used to offset any tax owed. Similar to Filing Season 2021, the IRS exercised its discretion to not
+offset the RRC to unpaid Federal prior year tax debt. However, the RRC will still be offset to
+other unpaid Federal debt, such as child support. Figure 2 shows where taxpayers claim the RRC
+on the Form 1040.
+
+Figure 2: Tax Year 2021 Form 1040, Page 2
+
+Source: IRS.gov, Tax Year 2021 Form 1040.
+
+Page 2
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Verification of RRC claims
+IRS computer programming uses the advance RRC payment information recorded in the
+taxpayer’s tax account and information on the tax return to calculate the taxpayer’s allowable
+Tax Year 2021 RRC. Tax returns with a discrepancy between the RRC claimed on the tax return
+and the RRC computed by the IRS are sent to the Error Resolution System (ERS) for verification.
+In response to our previous recommendation, the IRS implemented an automated Error
+Resolution correction tool, called FixERS, for the 2022 Filing Season that shortens the time
+needed to resolve certain taxpayer errors and reduces the risk of IRS employee error. 2 This tool
+systemically replaces the steps an IRS Error Resolution employee would take to resolve the
+identified tax return errors.
+While the FixERS tool has enabled the IRS to reduce the time needed to resolve tax return errors
+considerably, the use of the tool is currently limited to electronically filed tax returns. In
+addition, not all RRC errors on electronically filed returns can be resolved by the FixERS tool.
+Electronically filed returns that cannot be resolved by FixERS and paper-filed tax returns
+continue to be worked manually. Once a return is identified for manual review, an ERS tax
+examiner verifies the allowable RRC and compares that amount to the RRC claimed on the tax
+return. If there is still a discrepancy between the IRS’s calculation and the amount claimed, the
+ERS tax examiner will disallow the amount of RRC in question, and the taxpayer will be sent a
+notice explaining why their claim was denied.
+
+Overview of the implementation of the RRC – Calendar Years 2020 through 2022
+The IRS began issuing the first advance RRC payments on April 10, 2020, two weeks after the
+Coronavirus Aid, Relief, and Economic Security (CARES) Act was enacted. 3 Advance payments
+authorized under the Consolidated Appropriations Act, 2021 (CAA) began two days after the
+legislation was enacted, 4 and advance ARPA payments began on March 11, 2021, the same day
+the ARPA was enacted. Appendix IV provides a detailed timeline of the IRS’s issuance of the
+RRC under the CARES Act, the CAA, and the ARPA, including the issuance of advance payments.
+TIGTA has issued three prior reports regarding the IRS’s implementation of the RRC.
+•
+
+Report No. 2021-46-034, Implementation of Economic Impact Payments (May 2021).
+
+•
+
+Report No. 2022-47-030, American Rescue Plan Act: Implementation of Advance
+Recovery Rebate Credit Payments (March 2022).
+
+•
+
+Report No. 2022-46-032, Processing of Recovery Rebate Credit Claims During the
+2021 Filing Season (May 2022).
+
+Figure 3 shows the total RRC, including advance payments, issued by the IRS at the time we
+conducted our reviews.
+
+2
+
+TIGTA, Report No. 2022-46-032, Processing of Recovery Rebate Credit Claims During the 2021 Filing Season
+(May 2022) and TIGTA, Report No. 2023-40-021, Results of the 2022 Filing Season (Mar. 2023).
+
+3
+
+Pub. L. No. 116-136, 134 Stat. 281 (codified as amended in scattered sections of 2, 5, 12, 15, 20, 21, 29, 42, and 45
+U.S.C.).
+4
+
+Pub. L. No 116-260, 134 Stat. 1182.
+
+Page 3
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Figure 3: RRCs Issued (Includes Advance Payments)
+Type of Payment
+
+Number
+
+Dollars
+
+TIGTA Report No.
+
+CARES Act Advance RRC Payments
+
+168 million
+
+$280 billion
+
+2021-46-034
+
+CAA Advance RRC Payments
+
+147 million
+
+$142 billion
+
+2021-46-034
+
+ARPA Advance RRC Payments
+
+175 million
+
+$408 billion
+
+2022-47-030
+
+Tax Year 2020 RRC (CARES Act and CAA)
+
+26 million
+
+$39 billion
+
+2022-46-032
+
+516 million
+
+$869 billion
+
+Totals
+
+Source: TIGTA analyses of IRS data. CARES Act advance RRCs issued as of December 31, 2020;
+CAA advance RRCs issued as of December 29, 2020; ARPA advance RRCs issued as of
+September 16, 2021; and Tax Year 2020 RRCs issued as of May 27, 2021.
+
+Results of Review
+Recovery Rebate Credit Claims Were Processed Accurately; However,
+Erroneous Payments Continue to Be Significant
+We previously reported that the IRS’s calculation of the amount of RRC individuals are entitled
+to receive is highly accurate. The same is true of the IRS’s issuance of RRCs on Tax Year 2021 tax
+returns. As of May 5, 2022, the IRS processed 17.8 million tax returns with RRC claims totaling
+$33 billion. 5 Our review found the IRS
+calculated the correct allowable RRC
+amount for use in verifying taxpayer claims
+for 17.7 million (99.7 percent) of these
+returns. 6 In addition, the IRS’s tax return
+validation processes ensured that
+taxpayers received the RRC they were
+entitled on 17.5 million (98.3 percent)
+returns.
+The remaining 316,425 (1.7 percent) of the 17.8 million tax returns processed as of May 5, 2022,
+that received an incorrect RRC include:
+•
+
+52,297 returns in which the IRS’s calculation of the RRC amount was incorrect. These
+include 17,800 returns in which the calculated RRCs were $38.8 million more than the
+taxpayers were entitled to receive, and 34,497 returns in which the calculated RRCs were
+$60.6 million less than the taxpayers were entitled to receive.
+
+5
+
+Numbers are rounded.
+
+6
+
+Number and percentage are rounded.
+
+Page 4
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+•
+
+264,128 returns with RRCs totaling $369.3 million that were issued to potentially
+ineligible individuals. These include ineligible dependents, nonresidents, and residents
+of a U.S. Territory. Each tax return may have more than one ineligible condition.
+
+The 52,297 RRC calculation errors occurred because the IRS processed tax returns and advance
+RRC reversals simultaneously, e.g., an advance RRC payment was reversed at the same time or
+after the tax return was processed. According to the IRS, a programming error also incorrectly
+showed some taxpayers as receiving no advance RRC payments. Figure 4 shows the number of
+ARPA RRCs we identified that were issued to a potentially ineligible individual. A tax return can
+be included in more than one ineligible category.
+
+Figure 4: ARPA RRC Payments Issued to Potentially Ineligible Individuals
+Individuals
+
+Dollars
+
+Dependents
+
+214,976
+
+$296.2 million
+
+Nonresidents
+
+59,889
+
+$88 million
+
+343
+
+$819,846
+
+Duplicate U.S. Territory Payments
+
+Source: TIGTA analysis of Tax Year 2021 tax returns processed as of
+May 5, 2022.
+
+Our prior reviews of the IRS’s implementation of the RRC also identified significant payments to
+potentially ineligible individuals, including deceased individuals, dependents, nonresidents, and
+individuals residing in the U.S. Territories. Figure 5 shows the number of payments TIGTA
+reported previously as being issued to potentially ineligible individuals.
+
+Figure 5: Payments Issued to Potentially Ineligible
+Individuals for Calendar Years 2020 to 2022
+Payments
+
+Dollars
+
+CARES Act Advance RRC Payments 7
+
+2.2 million
+
+$1.9 billion
+
+ARPA Advance RRC Payments 8
+
+1.1 million
+
+$1.7 billion
+
+434,079
+
+$733 million
+
+3.7 million
+
+$4.3 billion
+
+Tax Year 2020 RRC (CARES Act and CAA) 9
+Totals
+
+Source: TIGTA analysis of payments issued as of July 16, 2020, May 27, 2021, and
+September 16, 2021.
+
+As shown in Figure 5, most payments that were issued to ineligible individuals were issued as
+advance payments. The IRS is not authorized to recover advance ARPA payments that were
+issued in error.
+
+7
+
+TIGTA, Report. No. 2021-46-034, Implementation of Economic Impact Payments (May 2021).
+
+8
+
+TIGTA, Report. No. 2022-47-030, American Rescue Plan Act: Implementation of Advance Recovery Rebate Credit
+
+Payments (Mar. 2022).
+9
+
+TIGTA, Report No. 2022-46-032, Processing of Recovery Rebate Credit Claims During the 2021 Filing Season
+(May 2022).
+
+Page 5
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Payments to ineligible dependents or for the same dependent
+The ARPA states that an individual is not eligible for the RRC if they can be claimed as a
+dependent by someone else. Our review of Tax Year 2021 tax returns processed as of
+May 5, 2022, identified 135,117 individuals who filed tax returns with potentially erroneous RRCs
+totaling $182.1 million associated with ineligible dependents. These include individuals who
+filed their own tax return and were also claimed on someone else’s return, changed their tax
+return filing status, or claimed a qualifying dependent who was claimed on more than one tax
+return.
+In addition, we identified 79,859 individuals under the age of 25 with RRCs totaling
+$114.1 million in which the IRS’s data indicate they are potentially someone’s dependent, but
+they were not claimed as a dependent on a Tax Year 2021 tax return. The address on the
+79,859 individuals’ Tax Year 2021 tax return is the same as the address on the Tax Year 2020 tax
+return on which they were claimed as a dependent. Most of these individuals also reported less
+than $5,000 in income on their Tax Year 2021 tax return, making us question who provided their
+financial support. In addition, more than one-half (52,679) of the 79,859 individuals attended a
+college or other post-secondary education program during Tax Year 2021 or are under the age
+of 17. Based on our analysis, we question whether these individuals could be a dependent as
+defined by the IRS. 10
+Individuals who file their own tax return and can be claimed as a dependent are required to
+check a box on the Form 1040 notifying the IRS of their dependent status. The IRS relies on this
+box when processing RRC claims. However, not all individuals who can be claimed as a
+dependent check the box as required.
+IRS management also stated that it is not administratively possible to capture advance RRC
+payments at the dependent level. Instead, the IRS records half of the total advance payment
+issued for a Married Filing Joint tax return on each spouse’s tax account, i.e., payment for one
+spouse and half the dependents. As a result, changes in a taxpayer’s filing status or how
+dependents are claimed from year to year can result in erroneous RRC payments. The following
+hypothetical example illustrates how a change in filing status from year to year can result in the
+issuance of the RRC for an ineligible dependent.
+
+Taxpayer A received an advance RRC payment for their self, their spouse, and two
+children based on their Tax Year 2020 Married Filing Joint return. The IRS recorded half
+of the total advance RRC payment issued on Taxpayer A’s tax account and half on the
+spouse’s tax account, i.e., taxpayer and one child. Taxpayer A files as Head of Household
+in Tax Year 2021 with the same two children and claims an RRC for one of the children.
+Because Taxpayer A’s tax account shows the taxpayer only received an advance RRC
+payment for one child, the IRS allowed the RRC for the second child incorrectly.
+Finally, COVID Tax Tip 2022-29, Tips for Parents who Share Custody or Alternate Tax Benefits,
+issued on February 23, 2022, incorrectly informed taxpayers who share qualifying dependents
+10
+
+Dependent means qualifying child or qualifying relative. To be considered a qualifying relative, an individual must
+bear a relationship to the taxpayer or live with the taxpayer all year as a household member, have gross income below
+a threshold amount ($4,300 for Tax Year 2021), and provide no more than half of their own support; be a U.S. citizen,
+national, resident alien, or reside in Canada or Mexico; and generally cannot file a joint tax return. In addition, an
+individual cannot be claimed as a qualifying child by any other taxpayer. Additional residency and age requirements
+must be met to be considered a qualifying child.
+
+Page 6
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+that they can claim the Tax Year 2021 RRC for their shared dependent regardless of any advance
+payment the other parent received. Internal Revenue Code § 6428B(f) requires taxpayers to
+reduce the allowable RRC by any advance payments “made or allowed to the taxpayer” for
+themselves and their qualifying dependents. There is no exception for shared dependents
+whose advance payment may have been issued to someone else. In addition, Internal Revenue
+Code § 6428B(h) states the Secretary of the Treasury shall prescribe regulations or other
+guidance to ensure to the maximum extent administratively practicable that an individual is not
+taken into account more than once, including by different taxpayers, or changing filing status or
+dependent status when determining the amount of the allowable credit. Interestingly, the
+number of times a particular dependent’s Taxpayer Identification Number was used on the
+979 returns we identified with a multiple use dependent Taxpayer Identification Number ranged
+from two to three tax returns.
+Recommendation 1 (E-Mail Alert): On March 14, 2022, we notified the Director, Submission
+Processing, Wage and Investment Division, of our concerns regarding the accuracy of COVID Tax
+Tip 2022-29 regarding Internal Revenue Code §§ 6428B(f) and 6428B(h). Specifically, the
+guidance states incorrectly that taxpayers can claim the RRC for a shared dependent even if the
+IRS has already made an advance payment for the dependent. We recommended that the IRS
+revise the Tax Tip and related Frequently Asked Questions, etc., to state that taxpayers who
+share qualifying dependents are required to reduce the amount of the RRC claimed by the
+advance payment issued to either parent on behalf of the dependent.
+Management’s Response to Alert: IRS management disagreed with our
+recommendation. IRS management stated that they have no plans to change the text of
+COVID Tax Tip 2022-29 because it accurately reflects the IRS’s implementation of and
+programming for the Tax Year 2021 RRC. In addition, management stated that
+according to the IRS Office of Chief Counsel, the implementation of this programming is
+consistent with the ARPA. Both the IRS and Chief Counsel acknowledge that, when the
+Tax Year 2021 RRC was authorized by the ARPA, Congress provided more definitive
+language about duplicate payments by reason of a change in joint return status or
+dependent status. However, when granting regulatory authority in Internal Revenue
+Code § 6428B(h)(2) to prevent duplicate payments, Congress included the caveat of rules
+being prescribed “to the maximum extent administratively practicable.” IRS
+management stated that it was not administratively possible to capture dependent-level
+detail when issuing the advance RRC payments and when processing RRC claims.
+Office of Audit Comment: The IRS’s ability to capture dependent-level detail
+does not exempt the IRS from its responsibility to ensure guidance provided to
+taxpayers accurately reflects the requirements contained in the ARPA to reduce
+the amount of RRC claimed by the advance payments issued for themselves and
+their dependents, to the extent possible.
+
+Payments to nonresidents
+We identified 59,889 tax returns with RRC claims totaling $88 million that were issued to
+individuals who are potentially a nonresident alien. The citizenship code associated with these
+individuals’ Social Security Numbers indicates they are a legal alien authorized to work in the
+United States. However, these individuals had no Federal Insurance Contributions Act tax
+Page 7
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+withheld from their wages in Calendar Year 2021, which indicates they are likely not considered
+a U.S. resident. Certain nonresident aliens are exempt from Federal Insurance Contributions Act
+taxes based on their visa type, such as nonresident alien students and professors temporarily
+present in the United States.
+The ARPA states that to be eligible for an advance RRC payment, an individual must be a U.S.
+citizen or resident alien. The IRS has processes in place to prevent the issuance of the RRC to
+nonresident aliens who file a Form 1040-NR, U.S. Nonresident Alien Income Tax Return.
+However, as we reported previously, the IRS has no processes to identify nonresident aliens who
+incorrectly file a Form 1040. 11 In addition, our review of IRS processes to identify and prevent
+individual international taxpayer fraud found that foreign individuals are potentially filing the
+incorrect tax form to claim tax benefits to which they are not entitled. 12
+IRS management continues to disagree with the method we used to determine whether an
+individual is potentially a nonresident alien. However, they have yet to offer an alternative
+methodology to ensure that nonresident aliens are not receiving payments.
+
+Duplicate payments to Territory residents
+The number of duplicate RRCs issued to Territory residents for Tax Year 2021 has decreased
+significantly when compared to payments issued for Tax Year 2020. Our review of Tax Year 2021
+returns identified 343 individuals with RRC claims totaling $819,846 who incorrectly received
+two RRCs – one from a U.S. Territory and one from the IRS as of June 30, 2022. 13 By comparison,
+in May 2022, we reported that
+3,470 individuals who appeared on a U.S.
+Territory report as receiving an RRC from
+the Territory also filed a Tax Year 2020
+return and claimed RRCs totaling more than
+$5.3 million as of May 27, 2021.
+Individuals who filed these returns also
+appeared on a U.S. Territory report
+associated with an RRC issued by a U.S.
+Territory. Some of these individuals listed a
+U.S. domestic address on their U.S. tax return used to calculate the RRC, while others listed a U.S.
+Territory address on their U.S. tax return. The IRS previously established processes to identify
+IRS advance payments made to individuals with a U.S. Territory address and share such data
+with the Territories to identify duplicate erroneous payments. In response to our May 2022
+recommendation, the IRS agreed to share information that will enable the Territories to recover
+erroneous RRC issued by the Territories to the extent permitted under the relevant Territory’s
+domestic law.
+
+11
+
+TIGTA, Report No. 2021-46-034, Implementation of Economic Impact Payments (May 2021).
+
+12
+
+TIGTA, Report No. 2021-40-057, Improvements Are Needed to Identify Potentially Fraudulent Individual
+International Tax Returns During Processing (Sept. 2021).
+13
+
+American Samoa did not provide any reports to the IRS during Calendar Year 2022.
+
+Page 8
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+TIGTA previously made recommendations to address RRC payments to ineligible
+individuals
+TIGTA first made recommendations to address advance RRC payments to ineligible individuals
+in May 2021, in an attempt to prevent future erroneous payments. For example, we
+recommended that the IRS develop processes to identify ineligible dependents prior to issuing
+payments. However, IRS management disagreed with our recommendations. IRS management
+stated that implementing a process to cross-check tax return filings would not guarantee a
+payment to an unentitled person would be stopped and could harm the rightful individuals by
+denying the payment to them. In March 2022, and again in May 2022, we reported that these
+same unaddressed deficiencies continued to result in the issuance of erroneous advance RRC
+payments and RRCs to ineligible individuals. 14
+While the IRS cannot recover erroneously issued advance RRC payments, it can recover
+erroneous RRCs. In May 2022, we recommended that the IRS recover the erroneous Tax
+Year 2020 RRCs we identified and conduct analysis to identify and recover additional erroneous
+credits that were issued after the date our analysis was completed. IRS management again
+disagreed with our recommendations. Management stated that eligibility for the RRC and the
+amount allowable is determined from the information individuals provide on their tax return. In
+addition, management stated that the IRS’s post-processing compliance checks analyze all
+returns and determine who is entitled to claim the dependent, and any associated tax benefits
+are a question of fact that is addressed under deficiency procedures by its compliance functions.
+According to IRS management, only 40 of the 238,680 potentially ineligible individuals with an
+erroneous Tax Year 2020 RRC payment we recommended that the IRS review were selected for
+examination as of October 31, 2022.
+Recommendation 2: The Commissioner, Wage and Investment Division, should review the
+274,865 individuals identified where the IRS issued an RRC to potentially ineligible dependents
+and nonresidents and take the actions needed to recover payments that are determined to be
+erroneous.
+Management’s Response: IRS management disagreed with the recommendation and
+stated that their post-processing compliance checks are analyzing those returns for
+potential noncompliance. Returns are being selected for further review based on an
+assessment of risk, materiality, and prioritization of available resources.
+Office of Audit Comment: As noted in the report, according to IRS
+management, only 40 of the 238,680 potentially ineligible individuals with an
+erroneous Tax Year 2020 RRC payment we recommended that the IRS review
+were selected for examination as of October 31, 2022. As such, we continue to
+believe that other actions are needed to recover potentially erroneous payments.
+
+14
+
+TIGTA, Report No. 2022-47-030, American Rescue Plan Act: Implementation of Advance Recovery Rebate Credit
+Payments (Mar. 2022) and TIGTA, Report No. 2022-46-032, Processing of Recovery Rebate Credit Claims During the
+2021 Filing Season (May 2022).
+
+Page 9
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Some Eligible Individuals Still Have Not Claimed a Recovery Rebate Credit
+The IRS has taken extensive steps since the enactment of the CARES Act to educate taxpayers on
+their eligibility for the RRC and assist them in filing a tax return to obtain these credits.
+However, our review of processed Tax Year 2021 tax returns identified nearly 3 million
+individuals who have not claimed $4.7 billion in RRCs they are potentially eligible to receive.
+Figure 6 shows the number of potentially eligible individuals we identified who had not received
+an ARPA RRC.
+
+Figure 6: Individuals Who Are Potentially Eligible for ARPA RRC
+Individuals
+Filed a tax return but did not claim the RRC
+Eligible deceased individuals 15
+Totals
+
+Dollars
+
+2.9 million
+
+$4.6 billion
+
+75,321
+
+$105.4 million
+
+3 million
+
+$4.7 billion
+
+Source: TIGTA analysis of Tax Year 2021 tax returns. Taxpayers who did not claim the credit are
+as of May 5, 2022. Deceased individuals are as of December 29, 2022.
+
+Our prior reviews of the IRS’s implementation of the RRC also identified many potentially
+eligible individuals who had not received an advance RRC payment or the RRC. Figure 7 shows
+the number of potentially eligible individuals TIGTA reported previously.
+
+Figure 7: Individuals Who Are Potentially Eligible
+for the RRC for Calendar Years 2020 to 2022
+Individuals
+Tax Year 2020 RRC (CARES Act and the CAA) 16
+
+10 million
+
+ARPA Advance RRC Payments 17
+
+644,705
+Total 10.6 million
+
+Source: TIGTA analysis of payments issued as of May 27, 2021, and
+September 16, 2021.
+
+We updated our analysis of the 10.6 million potentially eligible individuals we previously
+identified to determine how many individuals subsequently received their RRC. Our updated
+analysis found that 6.1 million individuals still have not filed a Tax Year 2020 or Tax Year 2021
+return to claim their RRC, and 3 million individuals filed a Tax Year 2020 return and did not claim
+their RRC credit. We estimate these individuals are entitled to RRCs totaling $14 billion. The
+
+15
+
+The ARPA states that individuals who died in Calendar Year 2021 are eligible to receive the RRC. Includes
+22,924 deceased individuals for whom a Tax Year 2021 return was filed but did not claim the RRC, and
+52,397 deceased individuals for whom a Tax Year 2021 return was not filed.
+
+16
+
+TIGTA, Report No. 2022-46-032, Processing of Recovery Rebate Credit Claims During the 2021 Filing Season
+(May 2022).
+17
+
+TIGTA Report. No. 2022-47-030, American Rescue Plan Act: Implementation of Advance Recovery Rebate Credit
+
+Payments (Mar. 2022).
+
+Page 10
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+amount of RRC these individuals are actually entitled to receive cannot be determined until they
+file a Tax Year 2020 or Tax Year 2021 tax return.
+In May 2022, we recommended that the IRS send a letter to the potentially eligible individuals
+we identified who had not filed a Tax Year 2020 tax return as of May 27, 2021, and encourage
+them to file a return and claim the RRC if eligible. 18 We also recommended that the IRS
+proactively give taxpayers the credit who had filed a Tax Year 2020 return and did not claim their
+RRC credit. IRS management disagreed with our recommendations citing the IRS’s widespread
+communication of the availability of the RRC.
+The IRS has taken extensive steps since the enactment of the CARES Act to educate individuals
+on their eligibility for the RRC and assist them in filing a tax return to obtain their payment.
+Efforts include establishing a dedicated web page on IRS.gov to provide updated information
+related to the issuance of advance RRC payments, including a continually evolving list of
+Frequently Asked Questions; developing an online tool that provides taxpayers with the ability
+to check the status of their advance RRC payment and submit bank information for taxpayer
+accounts that do not already contain this information; and coordinating with the Free File
+Alliance to develop the NonFilers: Enter Payment Info Here tool. 19
+The IRS also coordinated with the Bureau of the Fiscal Service, the Social Security
+Administration, and the Department of Veterans Affairs to identify beneficiary recipients along
+with their direct deposit account numbers, if available, for use in systemically issuing an
+advance RRC payment without the beneficiary having to file a tax return. 20 The IRS coordinated
+with local community organizations, food banks, and homeless shelters to reach unsheltered
+individuals and worked with partner groups to reach low-income and underserved communities.
+In addition, in October 2022, the IRS began sending letters to more than 9 million individuals
+and families who appear to qualify for a variety of key tax benefits, including the RRC, but did
+not claim them by filing a Tax Year 2021 tax return.
+
+The use of advance payment debit cards delayed access to RRC funds for some
+individuals
+In May 2022, we reported that the Bureau of the Fiscal Service had issued advance ARPA RRC
+payments to more than 4.7 million individuals as of September 5, 2021. Individuals must
+activate their debit card to access their payment. At that time, we raised concerns that the use
+of debit cards caused unnecessary burden and delayed receipt of RRCs for some taxpayers.
+Specifically, individuals who have not activated their debit card and claimed the RRC on their tax
+return. We reported that 75,395 individuals who filed a Tax Year 2020 return as of May 27, 2021,
+had RRC claims totaling $77.8 million denied because of an unactivated debit card.
+In response to our concerns, IRS management informed us that the Department of the Treasury
+was continuing to send letters to individuals who were issued a debit card reminding them to
+contact the third-party debit card issuer activate their card. There are indications that these
+18
+
+TIGTA, Report No. 2022-46-032, Processing of Recovery Rebate Credit Claims During the 2021 Filing Season
+(May 2022).
+19
+
+This tool assists individuals who are eligible to receive an advance RRC payment but do not have a Federal tax
+return filing requirement.
+20
+
+The Bureau of the Fiscal Service is an agency of the U.S. Department of the Treasury that issues payments on behalf
+of the IRS.
+
+Page 11
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+efforts were successful in ensuring that individuals could access their advance RRC payment. For
+example, the Department of the Treasury sent letters reminding individuals to activate their
+debit card on March 4, 2021, and 505,697 unactivated CAA advance payment debit cards were
+subsequently activated. 21 Finally, in response to our recommendation, the IRS worked with the
+Bureau of the Fiscal Service to obtain recurring data during Processing Year 2022 to reverse any
+debit card that had been returned or canceled by the recipient. 22
+However, we found that the use of debit cards continued to delay some individuals’ access to
+their Tax Year 2021 RRC. Our review of Tax Year 2021 tax returns processed as of
+October 27, 2022, identified 25,146 taxpayers who had $44 million in RRC claims denied because
+IRS records show the individual received an advance payment debit card. However, none of
+these individuals had activated their card.
+The IRS’s recently released Inflation Reduction Act Strategic Operating Plan includes initiatives
+to better assist individuals who may be eligible for additional tax benefits. These initiatives
+include notifying taxpayers of additional credits and deductions they may be eligible to receive
+in addition to those claimed on their tax return. As discussed previously, the IRS has already
+taken extensive steps to educate and encourage eligible individuals to file a tax return to claim
+their RRC. Given the estimated $14 billion in Tax Year 2020 RRCs and $4.7 billion in Tax
+Year 2021 RRCs that have not been claimed by eligible individuals, we suggest the IRS continue
+its efforts to encourage potentially eligible individuals to file a tax return or file an amended
+return and claim the RRC.
+The Commissioner, Wage and Investment Division, should:
+Recommendation 3: Continue to periodically issue information on the availability of the RRC
+and how to claim it through Frequently Asked Questions on IRS.gov, communications with tax
+return preparers, annual unclaimed refund announcements, etc. until the statutory period for
+taxpayers to file a Tax Year 2020 and 2021 tax return to claim the RRC has expired.
+Management’s Response: IRS management agreed with the recommendation and will
+periodically include general information, coinciding with reminders encouraging
+non-filers to file, about the RRC for those who may be eligible to claim it on their Tax
+Year 2020 and 2021 returns.
+Recommendation 4: Send a letter to the nearly 3 million individuals we identified where the
+tax return data show the individual is potentially eligible for the RRC encouraging the individuals
+to amend their Tax Year 2021 return and claim the credit if eligible. The letter should clearly
+state the eligibility requirements for claiming the RRC in simple terms and direct the individuals
+to additional resources if needed to assist them in determining whether they are eligible.
+Management’s Response: IRS management disagreed with the recommendation
+stating that several initiatives were undertaken as part of their outreach efforts to
+educate and inform individuals of their eligibility for Economic Impact Payments and
+subsequently the RRCs. The IRS identified more than 9.3 million potentially eligible
+families who did not claim benefits such as the Child Tax Credit, Earned Income Tax
+21
+
+As of March 29, 2021.
+
+22
+
+TIGTA, Report No. 2022-46-032, Processing of Recovery Rebate Credit Claims During the 2021 Filing Season
+(May 2022).
+
+Page 12
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+Credit, or RRC. The IRS issued Letter 6550, End of Season Outreach, in English and
+Spanish to these families advising that they may be eligible for other Federal benefits
+and that claiming the credits had no effect on their immigration status. To help
+taxpayers claim these benefits, the IRS kept the IRS Free File Program open for an
+additional month, until November 17, 2022, for eligible taxpayers to file a tax return
+electronically. The IRS also widely communicated the need to file tax returns for Tax
+Year 2021 to claim the RRC and, if it was not claimed on an original filing, that taxpayers
+may still claim it by filing an amended return.
+Office of Audit Comment: Although IRS management did not agree to mail a
+letter to the potentially eligible individuals we identified, they did agree, in
+response to Recommendation 3, to include general information about the RRC in
+periodic reminders for those who may be eligible to claim the RRC on their Tax
+Year 2020 and 2021 tax returns. We believe this action is sufficient considering
+the IRS’s prior efforts to notify eligible individuals about the credit and how to
+claim it.
+
+Page 13
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Appendix I
+Detailed Objective, Scope, and Methodology
+The overall objective of this review was to assess the processing of RRC claims during the
+2022 Filing Season, including ensuring that taxpayers properly reconciled advanced RRC
+payments received during Calendar Year 2021. To accomplish our objective, we:
+•
+
+Assessed the IRS’s outreach and assistance to individuals regarding the RRC.
+
+•
+
+Ensured that Tax Year 2021 tax returns with an RRC claim were processed correctly.
+
+•
+
+Ensured that the RRC amount computed by the IRS was accurate.
+
+•
+
+Ensured that eligible individuals who did not receive their advance ARPA RRC payment
+received the correct RRC amount.
+
+•
+
+Determined whether IRS processes prevented the issuance of RRCs to ineligible
+individuals.
+
+Performance of This Review
+This review was performed with information obtained from the Large Business and
+International Division in Washington D.C.; Return Integrity and Compliance Services function in
+Atlanta, Georgia; and the Wage and Investment Division Submission Processing function office
+in Covington, Kentucky, during the period March 2022 through May 2023. We conducted this
+performance audit in accordance with generally accepted government auditing standards.
+Those standards require that we plan and perform the audit to obtain sufficient, appropriate
+evidence to provide a reasonable basis for our findings and conclusions based on our audit
+objective. We believe that the evidence obtained provides a reasonable basis for our findings
+and conclusions based on our audit objective.
+Major contributors to the report were Russell P. Martin, Deputy Inspector General for
+Inspections and Evaluations; Diana M. Tengesdal, Assistant Inspector General for Audit (Returns
+Processing and Account Services); Deann L. Baiza, Director; Jane G. Lee, Audit Manager; Brieane
+K. Hamaoka, Senior Auditor; and Tracy L. Winfield, Auditor.
+
+Validity and Reliability of Data From Computer-Based Systems
+During this review, we obtained extracts from the Individual Master File; Generalized Mainline
+Framework, Error Resolution files for Tax Year 2021; Individual Master File for Tax Years 2020 and
+2021; Individual Return Transaction File for Processing Years 2021 and 2022; Information Returns
+Master File for Tax Year 2021; Individual Master File Refund Files; and the National Account
+Profile for Processing Year 2022 that were available on the TIGTA Data Center Warehouse. We
+also obtained data from the IRS, which detailed the specific individuals who were issued an
+advance RRC payment by a U.S. Territory from January 1, 2022, through June 30, 2022. Before
+relying on the data, we ensured that each file contained the specific data elements we
+requested. In addition, we selected random samples of each extract and verified that the data in
+
+Page 14
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+the extracts were the same as the data captured in the Integrated Data Retrieval System. 1 We
+also performed analysis to ensure the validity and reasonableness of our data, such as ranges of
+dollar values and obvious invalid values. Based on the results of our tests, we believe that the
+data used in our review were reliable.
+
+Internal Controls Methodology
+Internal controls relate to management’s plans, methods, and procedures used to meet their
+mission, goals, and objectives. Internal controls include the processes and procedures for
+planning, organizing, directing, and controlling program operations. They also include the
+systems for measuring, reporting, and monitoring program performance. We determined that
+the following internal controls were relevant to our audit objective: the process for planning
+and controlling program operations for the issuance of the RRCs. We evaluated these controls
+by meeting with IRS management, reviewing IRS procedures, and reviewing IRS reports.
+
+1
+
+We used a random number generator to select our samples for use to determine whether the extract information
+could be relied upon in conducting our testing.
+
+Page 15
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Appendix II
+Outcome Measures
+This appendix presents detailed information on the measurable impact that our recommended
+corrective actions will have on tax administration. These benefits will be incorporated into our
+Semiannual Report to Congress.
+
+Type and Value of Outcome Measure:
+•
+
+Cost Savings (Funds Put to Better Use) – Potential; 192,939 individuals incorrectly
+allowed more than $265 million in the RRCs associated with ineligible dependents
+(see Recommendation 2).
+
+Methodology Used to Measure the Reported Benefit:
+We obtained extracts from the Individual Master File for Tax Years 2020 and 2021. We also
+obtained extracts from the Individual Return Transaction File for Processing Year 2022 as of
+May 5, 2022.
+Our computer analysis of Tax Year 2021 tax returns that were processed as of May 5, 2022,
+identified 214,976 individuals who filed tax returns with potentially erroneous RRCs totaling
+$296,190,918 in which the individual who filed the return is an ineligible dependent or claimed a
+dependent for a duplicate RRC. To be conservative, we removed duplicate tax returns and
+returns that appeared in multiple populations to arrive at 192,939 individuals who were allowed
+$265,207,818 more in RRCs than entitled. These include:
+
+Figure 1: ARPA RRC Payments Issued to Potentially Ineligible Dependents
+Individuals
+
+Dollars
+
+Individuals claimed as a dependent on someone else’s tax return
+and dependent checkbox not checked
+
+88,209
+
+$123,467,755
+
+Individuals who are potentially the dependent of another taxpayer
+
+68,898
+
+$98,710,478
+
+Joint filers who received an advance RRC payment for a
+dependent and received an RRC on their Tax Year 2021 return for
+the same dependent under a different filing status
+
+34,970
+
+$41,832,585
+
+862
+
+$1,197,000
+
+192,939
+
+$265,207,818
+
+Dependents claimed on more than one tax return
+Totals
+
+Source: TIGTA analysis of Tax Year 2021 tax returns processed as of May 5, 2022.
+
+Type and Value of Outcome Measure:
+•
+
+Cost Savings (Funds Put to Better Use) – Potential; 59,694 individuals incorrectly allowed
+$87.7 million in the RRCs because the IRS does not have processes to identify and
+prevent nonresident aliens from filing Form 1040 (see Recommendation 2).
+
+Page 16
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Methodology Used to Measure the Reported Benefit:
+We obtained extracts from the Individual Master File for Tax Year 2021; the Individual Return
+Transaction File for Processing Year 2022 as of May 5, 2022; and the Information Returns Master
+File for Tax Year 2021 as of September 1, 2022.
+Our computer analysis of Tax Year 2021 tax returns that were processed as of May 5, 2022,
+identified 59,889 returns with the RRCs totaling $88,009,405 issued to potential nonresident
+aliens. To be conservative, we removed duplicate tax returns and returns that appeared in
+multiple populations to arrive at 59,694 individuals who potentially were issued $87,708,005
+more in the RRCs than entitled.
+IRS management disagreed with the method we used to determine whether an individual is
+potentially a nonresident alien but continues to offer no alternative methodology to ensure that
+nonresident aliens are not receiving payments.
+
+Type and Value of Outcome Measure:
+•
+
+Taxpayer Rights and Entitlements – Potential; 75,321 individuals who died in Calendar
+Year 2021 and are potentially eligible for the RRC totaling $105.4 million but did not
+claim the credit on their Tax Year 2021 return (see Recommendation 3).
+
+Methodology Used to Measure the Reported Benefit:
+We obtained extracts from the Individual Master File for Tax Year 2021; the Individual Return
+Transaction File for Processing Year 2022; and the National Account Profile for Processing
+Year 2022 as of December 29, 2022.
+Our computer analysis of tax returns that were processed as of December 29, 2022, identified
+75,321 individuals who died in Calendar Year 2021 and are potentially eligible for the RRC. The
+actual amount of the RRC these individuals are entitled to receive is dependent on each
+taxpayer’s circumstances and will not be known until the taxpayer files a Tax Year 2021 tax
+return and claims the RRC. According to the ARPA, each eligible individual can receive up to
+$1,400, we estimated that these deceased individuals are potentially eligible for $105,449,400
+(75,321 x $1,400 = $105,449,400) in the RRC.
+
+Type and Value of Outcome Measure:
+•
+
+Taxpayer Rights and Entitlements – Potential; 2.9 million individuals who are potentially
+eligible for the RRC totaling $4.6 billion but did not claim the credit on their Tax
+Year 2021 return (see Recommendation 4).
+
+Methodology Used to Measure the Reported Benefit:
+We obtained extracts from the Individual Master File for Tax Year 2021 and the Individual Return
+Transaction File for Processing Year 2022 as of May 5, 2022.
+Our computer analysis of tax returns that were processed as of May 5, 2022, identified
+2,927,919 individuals who are potentially eligible for the RRC but did not claim the credit on
+their Tax Year 2021 return. To be conservative, we removed 11,180 individuals who are also
+included in the 75,321 individuals in the previous measure who were deceased in Calendar
+Year 2021. We arrived at 2,916,739 individuals who are potentially eligible. The actual amount
+Page 17
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+of the RRC these individuals are entitled to receive is dependent on each taxpayer’s
+circumstances and will not be known until the taxpayer files an amended tax return to claim the
+RRC. Based on the information reported on these individuals’ Tax Year 2021 tax return, they are
+potentially eligible to receive $4,615,415,584 in the RRC.
+
+Page 18
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Appendix III
+Comparison of Recovery Rebate Credit Eligibility Requirements
+The ARPA created a third RRC. Figure 1 provides a comparison of the eligibility requirements for
+each of the individual RRCs enacted since March 2020.
+
+Figure 1: Comparison of Major Provisions of the First, Second, and Third RRC
+
+Payment
+Amount
+
+PhaseOut
+
+Eligibility
+
+CARES Act
+
+CAA
+
+$1,200 individual.
+$2,400 married joint filers.
+
+$600 individual.
+$1,200 married joint filers.
+
+$1,400 individual.
+$2,800 married joint filers.
+
+Additional $500 for each
+qualifying child.
+
+Additional $600 for each
+qualifying child.
+
+Additional $1,400 for each
+dependent, including older
+children and adult dependents.
+
+Total payment amount
+phased out by 5 percent of
+AGI over the following
+thresholds:
+
+Total payment amount
+phased out by 5 percent of
+AGI over the following
+thresholds:
+
+Total payment phases out ratably
+between the following income
+levels:
+
+$75,000 Single.
+
+$75,000 Single.
+
+$112,500 Head of
+Household.
+
+$112,500 Head of
+Household.
+
+$150,000 Married Filing
+Joint and Qualifying
+Widower.
+
+$150,000 Married Filing
+Joint and Qualifying
+Widower.
+
+Everyone except:
+
+Everyone except:
+
+Everyone except:
+
+Nonresident aliens.
+
+Nonresident aliens.
+
+Nonresident aliens.
+
+Dependents of other
+taxpayers.
+
+Dependents of other
+individuals.
+
+Dependents of other individuals.
+
+Estates and trusts.
+
+Estates and trusts.
+Individuals who died before
+January 1, 2020.
+
+ARPA
+
+$75,000 - $80,000 Single.
+$112,500 - $120,000 Head of
+Household.
+$150,000 - $160,000 Married
+Filing Joint and Qualifying
+Widower.
+
+Estates and trusts.
+Individuals who died before
+January 1, 2021.
+
+Source: TIGTA’s analysis of the various RRCs. AGI – Adjusted Gross Income.
+
+Page 19
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Appendix IV
+Issuance of Recovery Rebate Credits
+for Calendar Years 2020 to 2022
+The IRS began issuing advance payments of the RRC two weeks after the CARES Act was
+enacted. The IRS began making advance payments of the second RRC enacted in the CAA just
+two days after enactment. Advance payments of the third RRC began the same day the ARPA
+was enacted. Figure 1 shows the timeline of the IRS’s issuance of RRCs beginning with
+enactment of the CARES Act.
+
+Figure 1: Timeline of the Issuance of RRCs
+
+Source: TIGTA’s analysis of the various RRCs.
+
+Page 20
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Appendix V
+Management’s Response to the Draft Report
+
+Page 21
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Page 22
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Page 23
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Page 24
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Page 25
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Appendix VI
+Glossary of Terms
+Term
+
+Definition
+
+Individual Master File
+
+The IRS database that maintains transactions or records of individual tax
+accounts.
+
+Individual Return
+Transaction File
+
+A database the IRS maintains that contains information on the individual
+tax returns it receives.
+
+Individual Taxpayer
+Identification Number
+
+Individual Taxpayer Identification Numbers are issued by the IRS to
+individuals who are required to have a Taxpayer Identification Number for
+Federal tax purposes but do not have and are not eligible to receive a
+Social Security Number.
+
+Integrated Data Retrieval
+System
+
+IRS computer system capable of retrieving or updating stored information.
+It works in conjunction with a taxpayer’s account records.
+
+National Account Profile
+
+A compilation of selected entity data from various IRS Master Files and the
+Social Security Administration.
+
+Tax Year
+
+A 12-month accounting period for keeping records on income and
+expenses used as the basis for calculating the annual taxes due. For most
+individual taxpayers, the tax year is synonymous with the calendar year.
+
+Page 26
+
+Processing of Recovery Rebate Credit Claims During the 2022 Filing Season
+
+Appendix VII
+Abbreviations
+ARPA
+
+American Rescue Plan Act of 2021
+
+CAA
+
+Consolidated Appropriations Act, 2021
+
+CARES
+
+Coronavirus Aid, Relief, and Economic Security
+
+ERS
+
+Error Resolution System
+
+IRS
+
+Internal Revenue Service
+
+RRC
+
+Recovery Rebate Credit
+
+TIGTA
+
+Treasury Inspector General for Tax Administration
+
+Page 27
+
+To report fraud, waste, or abuse,
+contact our hotline on the web at www.tigta.gov or via e-mail at
+oi.govreports@tigta.treas.gov.
+
+To make suggestions to improve IRS policies, processes, or systems
+affecting taxpayers, contact us at www.tigta.gov/form/suggestions.
+
+Information you provide is confidential, and you may remain anonymous.
+
+
