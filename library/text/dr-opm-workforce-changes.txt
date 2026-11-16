@@ -1,0 +1,249 @@
+Source: https://data.opm.gov/explore-data/analytics/workforce-changes
+Publisher: U.S. Office of Personnel Management
+Retrieved: 2026-11-16
+Original SHA-256: 7c3e6b1266d3403ef11fb4806e27dcd75f595fec2ffff494ff68fd61091a728d
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Workforce Changes
+An official website of the United States government
+Here’s how you know
+Official websites use .gov
+A .gov website belongs to an official government organization
+in the United States.
+Secure .gov websites use HTTPS
+A lock ( ) or https:// means you’ve safely connected to the .gov
+website. Share sensitive information only on official, secure websites.
+Federal Workforce Data
+Explore Data
+WORKFORCE INSIGHTS
+Workforce Size & Composition
+Workforce Changes
+Compensation, Performance & Leave
+Federal Recruitment
+Demographics
+Location
+Labor Unions & Bargaining Units
+DATA TOOLS
+Table Builder
+FWD Chat
+Get Data
+GET DATA
+Data Downloads
+API Access
+Data Standards
+DATA STANDARDS
+EHRI Data Standards
+EHRI Data Validation Checks
+Personnel Office Identifiers (POI)
+Duty Stations
+Policy & Guidance
+REFERENCES
+Guide to Human Resources Reporting
+Data Release Policy
+Privacy Impact Assessment
+System of Record Notice
+TOOLS
+GPPA Navigator
+About FWD
+INFO & HELP
+Getting Started
+Release Notes
+Submit Request
+Give Feedback
+RESOURCES
+Data Sources
+Data Quality
+Incomplete Data: A change in Department of War (DOW) data processing continues to impact some components submitting September 2026 data. Visuals and downloads with Status and Dynamics data are affected; all non-DOW data is unaffected. See Release Notes for a full list of affected components. Data will be updated once all submissions are received.
+Workforce Changes
+Examine workforce changes, including accessions, separations, and key personnel actions
+Updated monthly | Data as of September 2026
+How has the size of the federal workforce changed over time?
+-258,108
+Change in the number of federal employees since January 20, 2025
+Source:
+OPM EHRI Dynamics
+Source Notes
+Loading data...
+The size of the federal workforce has generally expanded over time. This is changing. As a result of the administration’s workforce reshaping initiatives, including a hiring freeze, early retirement incentives, reductions in force, and the Deferred Resignation Program, the workforce shrunk considerably in 2025.
+The change in the workforce is measured here as the difference between accessions (new hires to government) and separations (individuals separating from federal service). A negative total means more individuals have left government than joined. A positive total means more individuals have joined government than left.
+Federal workforce changes over time
+Department *
+Agency *
+Subagency *
+Personnel action date (fiscal year)
+Export
+Filters
+Clear all filters
+Loading data...
+Which agencies have seen the largest changes?
++131,847
+Increase in Department Of Veterans Affairs employees since FY 2015
+Source:
+OPM EHRI Dynamics
+Source Notes
+Loading data...
+-21,296
+Decrease in Department Of The Treasury employees since FY 2015
+Source:
+OPM EHRI Dynamics
+Source Notes
+Loading data...
+Since FY 2015, the size of the federal workforce has shifted unevenly across agencies, reflecting changing priorities and missions. The Department of Veterans Affairs has seen the largest overall growth during that time period while agencies like the Social Security Administration, the Department of Agriculture, and the Department of Health and Human Services have seen net decreases. All agencies saw a net decrease with the workforce reductions in FY 2025.
+Federal workforce changes by agency
+View data by:
+Department Agency Subagency
+Department *
+Agency *
+Subagency *
+Personnel action date (fiscal year)
+Export
+Filters
+Clear all filters
+Loading data...
+Which personnel actions are leading to changes in the size of the federal workforce?
+141,084
+Federal employees took the Deferred Resignation Program (DRP)
+Source:
+OPM EHRI Dynamics
+Source Notes
+Loading data...
+Personnel actions are the official records of changes in a federal employee’s status, such as hiring, promotion, reassignment, resignation, retirement, or termination and are documented using Standard Form 50 (SF-50). Personnel actions are grouped into accessions (individuals entering federal service) and separations (individuals leaving federal service).
+The Deferred Resignation Program (DRP) was introduced in 2025 as a new separation option for federal employees. Through the DRP, individuals agreed to separate from federal service by September 30, 2025 (or up to December 31, 2025 if retirement eligible) while receiving full pay and benefits during a period of paid administrative leave.
+Additional DRP actions are expected to be processed over time as agency-specific DRPs are fully processed.
+Separations and accessions since January 20, 2025
+View data by:
+Department Agency Subagency Series
+Department *
+Agency *
+Subagency *
+Occupational series *
+Separation actions (6) *
+Accession actions
+Export
+Filters (6)
+Clear all filters
+SEPARATION ACTION
+Resignation (DRP)
+Retirement - Early (DRP)
+Retirement - Voluntary (DRP)
+Retirement - Other (DRP)
+Transfer-Out (DRP)
+Other Separation (DRP)
+Loading data...
+Separations and accessions over time
+Department *
+Agency *
+Subagency *
+Personnel action type
+Accession
+Personnel action
+Personnel action date (fiscal year)
+Export
+Filters (1)
+Reset all filters
+PERSONNEL ACTION TYPE
+Accession
+Loading data...
+Workforce Insights
+Workforce Size & Composition
+Workforce Changes
+Compensation, Performance & Leave
+Federal Recruitment
+Demographics
+Location Labor Unions & Bargaining Units
+Data Tools
+Table Builder FWD Chat
+Get Data
+Data Downloads API Access
+Data Standards
+EHRI Data Standards
+EHRI Data Validation Checks
+Personnel Office Identifiers (POI)
+Duty Stations
+References
+Guide to Human Resources Reporting
+Data Release Policy
+Privacy Impact Assessment
+System of Record Notice
+Tools
+GPPA Navigator
+Info & Help
+Getting Started
+Release Notes
+Submit Request
+Give Feedback
+Resources
+Data Sources
+Data Quality
+Workforce Insights
+Workforce Size & Composition
+Workforce Changes
+Compensation, Performance & Leave
+Federal Recruitment
+Demographics
+Location Labor Unions & Bargaining Units
+References
+Guide to Human Resources Reporting
+Data Release Policy
+Privacy Impact Assessment
+System of Record Notice
+Tools
+GPPA Navigator
+Data Tools
+Table Builder FWD Chat
+Get Data
+Data Downloads API Access
+Data Standards
+EHRI Data Standards
+EHRI Data Validation Checks
+Personnel Office Identifiers (POI)
+Duty Stations
+Info & Help
+Getting Started
+Release Notes
+Submit Request
+Give Feedback
+Resources
+Data Sources
+Data Quality
+Workforce Insights
+Workforce Size & Composition
+Workforce Changes
+Compensation, Performance & Leave
+Federal Recruitment
+Demographics
+Location Labor Unions & Bargaining Units
+Data Tools
+Table Builder FWD Chat
+Get Data
+Data Downloads API Access
+Data Standards
+EHRI Data Standards
+EHRI Data Validation Checks
+Personnel Office Identifiers (POI)
+Duty Stations
+References
+Guide to Human Resources Reporting
+Data Release Policy
+Privacy Impact Assessment
+System of Record Notice
+Tools
+GPPA Navigator
+Info & Help
+Getting Started
+Release Notes
+Submit Request
+Give Feedback
+Resources
+Data Sources
+Data Quality
+Release 1.17.0 | Site last updated November 4, 2026
+© 2026 Office of Personnel Management
+Give feedback
+An unhandled error has occurred.
+Reload
+🗙
+Reconnecting to the server…
+Connection lost.
+Reload

@@ -1,0 +1,656 @@
+Source: https://www.everycrsreport.com/reports/R47520.html
+Publisher: Congressional Research Service
+Retrieved: 2026-11-16
+Original SHA-256: 327fc760475e38a3718a3fde1f080d5ce0821fe7bb95ccce817a1850ef0e39e4
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+The Voting Rights Act: Historical Development and Policy Background - EveryCRSReport.com
+Internet Explorer version 8 or any modern web browser is required to use this website, sorry.
+The Voting Rights Act: Historical Development and Policy Background
+April 25, 2023 –
+June 3, 2026
+R47520
+The Voting Rights Act: Historical Development and Policy Background
+Updated June 3, 2026
+(R47520)
+Jump to Main Text of Report
+Contents
+Introduction
+A Note on U.S. Code Citations
+Relevance for Congress
+Highlights of VRA Provisions
+Historical Factors That Influenced the VRA
+Reconstruction and Continuing Barriers to Voting Despite Post-Civil War Enfranchisement Efforts
+Reconstruction
+Political Parties and Continuing Disenfranchisement
+Congressional Momentum Toward the VRA
+Development of the 1965 VRA
+Preclearance Requirements Affecting Some Jurisdictions
+Participation After the 1965 VRA
+Development of Major VRA Amendments
+1970 Amendments: Extending Expiring Provisions
+1975 Amendments: Extending Expiring Provisions and Adding Language-Minority Provisions
+1982 Amendments: Extending Expiring Provisions and Clarifying Congressional Intent Regarding Section 2
+2006 Amendments: Extending Preclearance, and Final Major Amendments Pre- Shelby County
+Recent Legislative Developments and Concluding Comments
+Figures
+Figure 1. Jurisdictions Covered by VRA Section 5 Preclearance at the Time of the 2013 Shelby County Decision
+Figure 2. Estimated Percentage Difference in Voter Registration Between Blacks and Whites in Selected Southern States Before and After VRA Enactment
+Tables
+Table 1. Selected VRA (as Amended) Sections and Policy Provisions
+Table 2. Chronology of Selected Historical Events Influencing the Voting Rights Act
+Table 3. Brief Summary of Major Provisions of the 1965 Voting Rights Act, as Enacted
+Table 4. Estimated Voter Registration in Selected Southern States Before and After VRA Enactment
+Table 5. Selected Legislative History Resources for VRA Enactment and Major Amendments
+Summary
+The Voting Rights Act (VRA) is one of the most significant elections statutes ever enacted. The law prohibits discrimination based on race, color, or language-minority status in registration and voting nationwide. The VRA also provides protections for blind, disabled, or illiterate voters.
+Congress designed the VRA to remedy and prevent pervasive racial discrimination in registration and voting, especially in southern states, which continued for a century after the Civil War ended. Although Reconstruction of the South enfranchised many African American men, the federal government's practical role in protecting minority voting rights in the South was substantially limited between the end of Reconstruction, after the 1876 presidential election, and congressional passage of the VRA in 1965. Discrimination in voting and elections remained entrenched throughout much of the nation into the 1960s, when congressional momentum toward the VRA coincided with other civil rights efforts and increased media attention to the subject. This historical background is invariably part of the congressional context surrounding the VRA.
+After passing the VRA in 1965, Congress amended the law in 1970, 1975, 1982, 1992, and 2006. On these occasions, the House and Senate agreed that unique federal action was necessary to protect voting rights for racial minorities and members of certain language-minority groups. Despite that general consensus, congressional sentiment about how or whether to address voting rights through the VRA was not always unanimous. The legislative record reveals generally consistent support for equality in voting rights, and also passionate debate about the proper roles of the federal government and the states in achieving that equality and administering federal elections.
+The 2006 amendments, the most recent, reauthorized the act's Section 4(b) "coverage formula" for a process known as "preclearance." That formula, based on 1960s and 1970s voter participation data, determined which states and political subdivisions (e.g., counties) were required to seek preapproval from the U.S. Attorney General or the U.S. District Court for the District of Columbia before making changes to their voting or election administration practices. The Supreme Court's 2013 Shelby County v. Holder decision invalidated the coverage formula, thus rendering preclearance inoperable. However, other portions of the VRA remain intact. In particular, Section 2 of the act contains a nationwide prohibition on voting qualifications based on race, color, or language-minority status. The Section 2 provisions do not expire. Unlike the act's preclearance provisions, Section 2 must be enforced after the fact through litigation. The 2006 amendments also extended the act's Section 203 language-minority provisions until 2032.
+Recent Congresses have considered amending the VRA, largely in response to Shelby County and other Supreme Court decisions, including the 2021 Brnovich v. Democratic National Committee rulings. Legislative activity is also possible following the Supreme Court's April 2026 decision in Louisiana v. Callais .
+The House passed legislation containing a new coverage formula, in addition to other provisions, in the 116 th ( H.R. 4 ) and 117 th (also H.R. 4 ) Congresses. The legislation was not enacted. Similar legislation (e.g., H.R. 14 and S. 2523 in the 119 th Congress and H.R. 14 and S. 4 in the 118 th Congress) has not substantially advanced beyond introduction. Legislation proposing substantial amendments to the VRA issues discussed in this report has otherwise been relatively uncommon.
+This report provides an overview of the complex political history that led to the VRA, and of more than 60 years of legislative history surrounding the statute's enactment, major amendments, and related developments. Understanding the policy challenges that Congress faced as it developed the VRA and the statutory provisions it agreed upon to address those challenges could help provide a foundation for future congressional consideration of policy options, regardless of whether or how the House and Senate decide to proceed.
+Introduction
+The Voting Rights Act of 1965 (VRA) is one of the most consequential election laws ever enacted. 1 At different points over more than 50 years since its enactment, the VRA has both stood relatively insulated from, and been inseparably part of, broader policy debates about the boundaries of the federalist nature of voting and elections in the United States. As discussed below, the VRA also has both been derided as an unconstitutional usurpation of states' rights and praised as Congress's boldest effort to enforce constitutional protections guaranteeing equal access to the polls. This report provides an overview of the historical and policy issues that shaped the statute, and that provide context for ongoing congressional consideration of voting rights policy issues. 2 The report emphasizes the period from the Civil War through the VRA's 1965 enactment, and also addresses major amendments that occurred through 2006, when Congress most recently altered the statute.
+This report is designed for a general congressional audience. Substantial scholarly, policy, legal, and journalistic literature addresses the topics discussed herein in great detail and from varying perspectives. This report synthesizes some of that literature to provide an overview of key themes. It briefly identifies selected litigation for policy and historical context, but it is not a constitutional or legal analysis. It also does not discuss the relationship between the VRA and redistricting in detail. Other CRS products provide additional detail on related litigation and redistricting. 3
+A Note on U.S. Code Citations
+Due to subsequent organizational changes, this report includes U.S. Code citations that did not exist when the public laws discussed below were enacted. 4 As enacted and amended, provisions in the VRA generally cited previous Title 42 of the U.S. Code , which contained federal election law at the time. A 2014 "editorial reclassification" consolidated these and other federal election provisions into a new Title 52 of the Code . As the Office of Law Revision Counsel (the House office that maintains the U.S. Code ) explains, "No statutory text is altered by such editorial reclassification projects, other than necessary updates to references to reflect the reorganization. Relevant provisions are merely transferred from one place to another in the Code." 5
+Relevance for Congress
+Recent Congresses have considered amendments to the VRA, and Members have expressed various views about how, or whether, to alter the statute. 6 Since 2013, much of the debate has concerned the implications of the end of the preclearance process (discussed below), a result of the Supreme Court's 2013 decision in Shelby County v. Holder . If Congress chooses to continue examining the VRA, the extensive legislative record could be both a tremendous resource and overwhelming. Political and historical developments that preceded the VRA are similarly long and complicated. This report provides an overview of some of the most enduring historical themes and policy background from the VRA's development in Congress.
+A key question facing Congress could be how relevant the historical factors discussed in this report remain today, and are likely to be in the future. Some might argue that the VRA's success renders preclearance unnecessary in the current environment. From this perspective, evidence of greatly improved political participation among racial and language-minority groups might demonstrate that the VRA's most burdensome requirements are no longer necessary. Some also might caution that the VRA's nationwide prohibition on discriminatory voting practices, found in Section 2 of the act, provides adequate safeguards given the substantial progress achieved since 1965. From a different perspective, others might argue that the same empirical evidence could signal that the VRA is still necessary, and that progress will be or has been lost without the statute's full protections. In addition to regular legislative and oversight interest in the VRA, Congress could choose to respond to ongoing litigation (which is beyond the scope of this report) involving the statute, including at the U.S. Supreme Court. 7
+The House and Senate Judiciary Committees have primary jurisdiction over the VRA. 8 In addition, the Committee on House Administration and the Senate Rules and Administration Committee have primary jurisdiction over federal elections issues and frequently hold oversight or legislative hearings that address election administration or voting issues related to the VRA. 9 The Department of Justice (DOJ) administers and enforces the statute, with support from agencies such as the Census Bureau. 10 As such, multiple congressional committees could be directly or indirectly involved in overseeing issues related to the statute. 11
+Highlights of VRA Provisions
+After the 2013 Shelby County decision, Section 2 of the act is perhaps the statute's most consequential language. These provisions prohibit discrimination in registration or voting based on race, color, or membership in certain language-minority groups. They apply nationwide. Section 203 of the act contains provisions, which are operable until 2032, triggering the language-minority requirements. Under these provisions, some jurisdictions must provide materials such as ballots and registration information in English and in other covered languages for voters whose English proficiency is limited. Table 1 identifies selected sections of the VRA and corresponding policy areas that organize the statute.
+Table 1. Selected VRA (as Amended) Sections and Policy Provisions
+VRA Section(s) as Amended
+Policy Provisions Addressed
+2
+Nationwide prohibition on voting qualifications based on race, color, or language-minority status
+3
+Establishes judicial enforcement process for certain jurisdictions ("bail-in" provisions)
+4
+Establishes coverage formula for identifying jurisdictions subject to preclearance process (§4(b)); prohibits English-only elections and requires non-English elections materials in certain jurisdictions
+Note: §4(b) coverage formula inoperable post- Shelby County (2013)
+5
+Establishes preclearance requirements providing for federal review of elections or voting changes before implementation in certain jurisdictions
+Note: §4(b) coverage formula triggering §5 preclearance inoperable post- Shelby County (2013)
+203
+Establishes and provides for enforcement of language-minority provisions in certain jurisdictions
+208
+Requires assistance for blind, disabled, or illiterate voters
+Source: CRS analysis of statutory provisions.
+Note : The table does not address every section of the act.
+Historical Factors That Influenced the VRA
+During the span of a few years during and after the Civil War, many African Americans were freed from slavery, voted and elected Black people to high office during Reconstruction, and then lost many of their recent political gains during a period known as Jim Crow. From approximately 1877 until the 1960s, state governments in the former Confederacy established various legal and cultural barriers to African American political participation that, in practice, nullified many of the protections guaranteed through the Fourteenth and Fifteenth Amendments to the U.S. Constitution. 12 By the 1890s, many of the political gains that Black Americans had achieved during Reconstruction were largely erased, especially in registration and voting in southern states. 13 The VRA marked the culmination of federal efforts to remedy Jim Crow voting barriers for African Americans. This section provides brief historical background on how social and political forces shaped the period between the Civil War and enactment of the VRA. Table 2 below lists selected events that influenced the VRA's development. 14
+Table 2. Chronology of Selected Historical Events Influencing the Voting Rights Act
+Date
+Event
+April 9, 1865
+Confederate Gen. Robert E. Lee surrenders to U.S. Lt. Gen. Ulysses S. Grant at Appomattox, Virginia, effectively ending the Civil War; Reconstruction already underway or begins in former Confederate states
+April 14, 1865
+President Abraham Lincoln (R) assassinated in Washington, DC; Vice President Andrew Johnson (D) assumes the presidency
+December 6, 1865
+Thirteenth Amendment to the U.S. Constitution ratified, prohibiting slavery and "involuntary servitude," except as criminal punishment, in the United States or anywhere in its jurisdiction
+July 9, 1868
+Fourteenth Amendment to the U.S. Constitution ratified, guaranteeing equal protection under law to citizens, and superseding previous "three-fifths" apportionment for congressional representation; suffrage not extended to women or those under age 21
+February 3, 1870
+Fifteenth Amendment to the U.S. Constitution ratified, prohibiting denial or abridgment of voting rights based on "race, color, or previous condition of servitude"
+November 7, 1876
+General election between Rutherford B. Hayes (R) and Samuel Tilden (D) results in contested presidential election outcome, leading to the "Compromise of 1877" in which Hayes is elected President and Reconstruction ends
+Approximately 1877-1896
+Jim Crow system of racial segregation established throughout the former Confederacy; continues until approximately the 1960s
+May 18, 1896
+U.S. Supreme Court issues decision in Plessy v. Ferguson (163 U.S. 537), effectively limiting federal authority over racial desegregation in the states
+April 3, 1944
+U.S. Supreme Court issues decision in Smith v. Allwright (321 U.S. 649), invalidating the "white primary"
+March 7-25, 1965
+Three Selma-to-Montgomery, Alabama, voting rights marches held; March 7 "Bloody Sunday" attack on marchers at Edmund Pettus Bridge in Selma
+March 15, 1965
+President Lyndon B. Johnson (D) addresses joint session of Congress and calls for passage of voting rights legislation
+March 17, 1965
+Representative Emanuel Celler (NY), chairman of the House Judiciary Committee, introduces H.R. 6400, the Voting Rights Act (VRA) of 1965
+March 18, 1965
+Senator Mike Mansfield (MT), majority leader, introduces S. 1564, the Voting Rights Act of 1965
+August 6, 1965
+President Lyndon B. Johnson signs the Voting Rights Act of 1965 (P.L. 89-110)
+March 7, 1966
+U.S. Supreme Court issues decision in South Carolina v. Katzenbach (383 U.S. 301), upholding constitutionality of certain VRA provisions
+June 22, 1970
+President Richard M. Nixon (R) signs VRA amendments ( P.L. 91-285 )
+August 6, 1975
+President Gerald R. Ford (R) signs VRA amendments ( P.L. 94-73 )
+April 22, 1980
+U.S. Supreme Court issues decision in City of Mobile v. Bolden (446 U.S. 55), interpreting VRA §2 to require proof of discriminatory intent; spurs congressional action on 1982 VRA amendments
+June 29, 1982
+President Ronald Reagan (R) signs VRA amendments ( P.L. 97-205 )
+June 30, 1986
+U.S. Supreme Court issues decision in Thornburg v. Gingles (478 U.S. 30), establishing review standards for VRA §2 "vote-dilution" claims in redistricting maps
+August 26, 1992
+President George H.W. Bush (R) signs VRA amendments ( P.L. 102-344 )
+July 27, 2006
+President George W. Bush (R) signs VRA amendments ( P.L. 109-246 )
+June 22, 2009
+U.S. Supreme Court issues decision in Northwest Austin Municipal Utility District Number One v. Holder (557 U.S. 193), addressing certain political subdivisions' eligibility for release from VRA §4 preclearance coverage formula
+February 27, 2013
+U.S. Supreme Court issues decision in Shelby County v. Holder (570 U.S. 529), invalidating VRA §4(b) preclearance coverage formula
+July 1, 2021
+U.S. Supreme Court issues decision in Brnovich v. Democratic National Committee (141 S. Ct. 2321), interpreting VRA §2 in the context of state election administration laws
+April 29, 2026
+U.S. Supreme Court issues decision in Louisiana v. Callais , interpreting VRA §2 in the context of redistricting
+Source: CRS summary relying on various historical sources, including CRS products, the Congressional Record , Proquest Congressional legislative histories, Proquest Historical Newspapers, and National Park Service historical summaries.
+Reconstruction and Continuing Barriers to Voting Despite Post-Civil War Enfranchisement Efforts
+Two post-Civil War constitutional amendments would later prove foundational to the VRA, as noted below. The Jim Crow system of racial discrimination that arose after the Civil War rendered both amendments practically ineffective, thus ultimately providing congressional justification for the VRA almost a century later.
+Section 1 of the Fourteenth Amendment guarantees citizenship to "[a]ll persons born or naturalized in the United States" and precludes states from abridging those rights without due process. Section 2 requires congressional apportionment among the states based, in part, on the "whole number of persons in each State" (as opposed to the now-superseded three-fifths language that applied to slaves in Article 1, Section 2, clause 3). The states ratified the Fourteenth Amendment in 1868. 15
+Section 1 of the Fifteenth Amendment, ratified in 1870, prohibits federal or state denial or abridgement of voting rights based on "race, color, or previous condition of servitude." Section 2 of the amendment authorizes congressional enforcement of those provisions through legislation.
+Federal troops maintained Black men's voting rights in the South during Reconstruction. However, the Fourteenth and Fifteenth Amendments had little practical effect once Reconstruction ended. According to one legal scholar, "the Fifteenth Amendment's most familiar legacy may be its flagrant disregard by the Southern States during Jim Crow" through "facially neutral schemes like literacy tests, poll taxes, and property qualifications" used to disenfranchise Black voters. 16 Brief highlights appear below.
+Reconstruction
+The federal government began preparations for unifying the country well before the end of the Civil War, although these plans did not necessarily include political equality. The 1863 Emancipation Proclamation freed some enslaved Americans but did not confer voting rights. 17 Improved access to the polls among African American men occurred during Reconstruction.
+Reconstruction generally refers to the period between the end of the Civil War in 1865 and the withdrawal of federal troops from the South in 1877. 18 Detailed discussion of Reconstruction is beyond the scope of this report, but the period is noteworthy because it marked dramatic federal intervention in state and local governance to protect voting rights. Although Reconstruction ended what many considered the most egregious forms of racial discrimination in political life, it was short-lived.
+Congress and President Abraham Lincoln (R) pursued competing Reconstruction plans. 19 A faction known as "Radical Republicans" in Congress designed their own, more restrictive alternative to the President's "Ten Percent Plan." After Lincoln's assassination, the Radical Republican vision of strong federal authority, particularly in civil rights, ran counter to new President Andrew Johnson's (D) comparatively passive approach to the federal role in rebuilding the South. 20 In particular, the March 2, 1867, Reconstruction Act (the first of four such laws), championed by Radical Republicans, established military governance in 11 formerly Confederate states.
+Under the new law, Union Army officers served as governors of the affected states and filled public administration roles, sometimes working with local officials, until civilian governments loyal to the Union could be restored. 21 In addition to protecting Black voters from violence and intimidation from groups such as the Ku Klux Klan, federal troops fulfilled some election administration duties. In some cases, the latter function included general-officer policymaking on issues such as voter eligibility and registration. 22 Under the 1867 statute, readmission to the Union depended on states rewriting their constitutions with voter approval (including African Americans) and ratifying the Thirteenth and Fourteenth Amendments to the U.S. Constitution. 23
+This approach also had important political implications. According to one historical analysis,
+[t]he Radical Republican majority in Congress feared that unless blacks were allowed to vote, Democrats and ex-rebels would quickly regain control of the national government. In the presidential election of 1868, in fact, Gen. Ulysses S. Grant defeated his Democratic opponent, Horatio Seymour, by fewer than 305,000 votes; the new black vote probably decided the election. 24
+A congressional agreement to settle the disputed 1876 presidential election between the eventually victorious Rutherford B. Hayes (R) and Samuel Tilden (D) resulted in the end of Reconstruction in 1877. 25 Once U.S. troops withdrew, the federal ability to protect minority voting rights in the South was substantially limited until Congress enacted the VRA in 1965.
+Political Parties and Continuing Disenfranchisement
+Party allegiances might also help explain the ineffectiveness of pre-VRA voter protections. In a significant contrast to the present day, after Reconstruction, the Democratic Party held most political power in the South. 26 African American support for Lincoln's Republican Party began to wane as early as 1928, but the Democratic Party, favored by most Whites, maintained substantial power. 27
+One-party control in many areas, even entire states, meant that the party often wielded at least as much power as the government itself. Even where voter protections were enshrined in law, they could be avoided. 28 These and other voting barriers meant that, practically, African Americans remained disenfranchised throughout much of the South.
+Party-based disenfranchisement took several forms. Selected examples appear below.
+Some states relied on voting methods that exaggerated the influence of sparsely populated rural areas over more heavily populated urban ones. For example, Georgia instituted a "county unit" representation system weighted heavily in favor of rural areas that were controlled by local political bosses. 29
+Primaries that were tantamount to general elections largely excluded African Americans and Republicans. 30 Some state Democratic parties barred non-Whites from participating in primaries—a practice that the U.S. Supreme Court did not invalidate as an equal protection violation until 1944. 31
+Some states, such as South Carolina and Louisiana, instituted "grandfather clauses." These lineage-based options for determining voting eligibility were designed, at least in part, to enfranchise poor Whites who otherwise would have been disqualified by property or literacy requirements. 32
+Democratic parties in southern states also applied poll taxes, generally beginning in the 1880s, ostensibly to raise revenue. However, the poll taxes had widely disparate effects on poor and Black voters, and contributed to the party's dominance across the South. 33
+Congressional Momentum Toward the VRA
+By the 1950s and early 1960s, popular and congressional advocacy for a greater federal role in protecting voting rights began to succeed. 34 In Congress, the House and Senate began developing a substantial legislative history that fostered the VRA. That history shows that House and Senate debate over voting rights has consistently been passionate, often controversial, and always complex.
+As became increasingly obvious outside the South, those seeking to disenfranchise African American voters used various techniques even into the mid-20 th century, many of which were later included in the VRA's prohibitions on registration and voting prerequisites known as "tests" or "devices." In a 1962 Senate Judiciary Committee hearing, Senator Kenneth Keating (R-New York) summarized findings from U.S. Commission on Civil Rights reports that highlighted techniques including
+election registrars being deliberately absent when African Americans attempted to register, or ignoring African Americans when registrars were present;
+requiring a "voucher system," in which other voters in the precinct had to confirm the person's identity—an impossibility in precincts where no African Americans were registered;
+disqualifying African American voters for minor discrepancies on forms, such as underlining rather than circling prefixes;
+requiring substantially different standards for White and for African American voters in interpreting their answers to literacy tests; and
+employing "outright intimidation" for attempting to participate, including "economic reprisals, threats, and official interrogations," and violence. 35
+Some opponents of the VRA and predecessor legislation argued that tests and devices that the VRA later prohibited were state prerogatives, were necessary for an informed electorate, or both. For example, a Georgia attorney told the Senate Judiciary Committee in 1962 that bills prohibiting literacy tests would "seek to establish a government of the ignorant, by the ignorant, and for the ignorant." 36
+Congress also debated the extent to which the Fifteenth Amendment, which prohibits denying suffrage based on race, color, or previous servitude, precluded the federal or state governments from imposing tests or devices. In a precursor to debate over the VRA, for example, Senate Judiciary Committee Chairman Sam Ervin (D-North Carolina) argued that "Congress and the States intended the 15 th amendment to mean exactly what it said. The color of a man cannot be a reason to grant or deny him the right to vote. But, all other qualifications, which have no reasonable relation to race or color, are left entirely to the wisdom of the States." 37 Congress and federal courts, including the Supreme Court, eventually determined that the tests and devices that the VRA prohibited, such as literacy tests, were, in fact, based primarily on race and thus constitutionally impermissible.
+Media coverage was also especially important in rallying political and public support for federal action on voting in the spring of 1965. On March 7, 1965, state and local police, and private citizens, attacked a group of voting-rights activists who were marching from Selma, Alabama, to the state capital at Montgomery. 38 The violent confrontation at the Edmund Pettus Bridge, near the start of the march, attracted national media attention and served as a catalyst for VRA action in Congress. 39
+Development of the 1965 VRA
+The original version of the VRA became P.L. 89-110 on August 6, 1965. President Lyndon B. Johnson signed the act fewer than five months after introduction. Despite objections from some s outhern Democrats, broad support in both chambers facilitated the bill's enactment.
+One of the most noteworthy aspects of the VRA is that it changed the federal approach to ensuring minority voting rights. The VRA was designed, at least in part, to prevent voting discrimination before it happened, by prohibiting certain practices and by requiring some jurisdictions to seek approval through the preclearance process before changing how they administered elections. Other federal statutes at the time, such as the 1957, 1960, and 1964 Civil Rights Acts, enforced their voting protections through after-the-fact litigation—a mechanism that was regarded as largely ineffective by the time Congress considered the VRA. 40 Table 3 below provides an overview of the initial statute. The U.S. Supreme Court upheld the 1965 act's coverage formula and preclearance requirements in South Carolina v. Katzenbach (1966). 41
+Table 3 . Brief Summary of Major Provisions of the 1965 Voting Rights Act, as Enacted
+VRA Section
+Policy Issue
+Brief Summary
+2
+Prohibition on race-based voting practices
+Prohibited states or political subdivisions from imposing race- or color-based qualifications or prerequisites in any voting "standard, practice, or procedure "
+3(c)
+Court supervision/"bail-in" provisions a
+Authorized judicial oversight of states and political subdivisions
+4
+Prohibition on "tests or devices"
+Prohibited race- or color-based tests or devices (e.g., literacy tests) in fede ral, state, or local elections in covered states or jurisdictions ; established criteria for jurisdictions covered under §4(b) to be released from preclearance coverage or "bail out" ( Note: See also the " Preclearance Requirements Affecting Some Jurisdictions " section of this report. )
+4(b)
+Coverage formula for § 5 preclearance
+Applied to jurisdictions that maintained prohibited tests or devices and in which the Census Bureau determined that, in the 1964 presidential election, less than 50% of the voting age population (VAP) was registered to vote or less than 50% of the VAP voted
+5
+Preclearance requirement for proposed voting changes in certain jurisdictions
+For jurisdictions under the §4(b) coverage formula, required preapproval or "preclearance" by U.S. Attorney General or U.S. District Court for the District of Columbia for voting changes
+6, 7, 9
+Election examiners b
+Permitted U.S. Civil Service Commission (now the Office of Personnel Management) "examiners" to maintain registration lists in federal, state, or local elections in certain jurisdictions
+8
+Election observers
+Where examiners were appointed, and at the Attorney General's request, permitted U.S. Civil Service Commission (now Office of Personnel Management) to assign persons "for the purpose of observing whether persons who are entitled to vote are being permitted to vote" and whether votes were "properly tabulated"; observers reported to the examiner and to the Attorney General or a federal court, as applicable
+10
+Poll taxes
+Congressional finding declaring poll taxes were a "precondition to voting" that imposed financial hardship on voters and were unrelated to "any legitimate State interest" in administering elections; directed Attorney General to seek enforcement against poll taxes
+Source: CRS analysis of statutory provisions.
+Notes: Some provisions are discussed in additional detail elsewhere in this report. Some provisions were subsequently amended or affected by litigation.
+a. For discussion of VRA §3(c), see CRS Legal Sidebar LSB10771, Voting Rights Act: Section 3(c) "Bail-In" Provision , by L. Paige Whitaker.
+b. For one brief historical explanation of the distinction between "examiners," "observers," and "monitors," see the House Judiciary Committee report accompanying the 1970 VRA amendments, which notes that the 1965 statute "authorizes the Attorney General to provide for the appointment of Federal examiners to list qualified applicants to vote and Federal election observers to monitor the casting and counting of ballots in such jurisdictions." See U.S. Congress, House Committee on the Judiciary, Extension of the Voting Rights Act of 1965 , 91 st Cong., 1 st sess., July 28, 1969, H.Rept. 91-397, p. 1, note 1; emphasis added. The 2006 VRA amendments repealed examiner authorities and replaced some with references to "observers." As enacted, see P.L. 109-246 .
+President Johnson was heavily involved in developing the VRA, delivering a dramatic speech on March 15, 1965, a week after the March 7 events in Selma. He challenged Congress to enact a new federal law guaranteeing voting rights and prohibiting the tests and devices that had been used to preclude effective implementation of the Fifteenth Amendment. According to Johnson
+[T]he harsh fact is that in many places in this country men and women are kept from voting simply because they are Negroes. Every device of which human ingenuity is capable has been used to deny this right. The Negro citizen may go to register only to be told that the day is wrong, or the hour is late, or the official in charge is absent. And if he persists, and if he manages to present himself to the registrar, he may be disqualified because he did not spell out his middle name or because he abbreviated a word on the application. And if he manages to fill out an application he is given a test. The registrar is the sole judge of whether he passes this test. He may be asked to recite the entire Constitution, or explain the most complex provisions of State law. And even a college degree cannot be used to prove that he can read and write. For the fact is that the only way to pass these barriers is to show a white skin.... No law that we now have on the books ... can ensure the right to vote when local officials are determined to deny it. 42
+Johnson allies in Congress—in this case, largely a combination of Republicans and northern Democrats—moved quickly to advance what became the Voting Rights Act. Legislative activity in both the House and the Senate was extensive. Only a small portion of that activity is discussed below.
+Two days after Johnson's speech, Representative Emanuel Celler, a Brooklyn Democrat and chair of the House Judiciary Committee, introduced H.R. 6400, the Voting Rights Act of 1965. Hearings on the Celler bill, and on several others, began the same week. 43 Senate Majority Leader Mike Mansfield (D-Montana), along with Minority Leader Everett Dirksen (R-Illinois), and several cosponsors, introduced Johnson's proposal in the Senate as S. 1564. 44 Ultimately, S. 1564 served as the legislative vehicle for the enacted version of the VRA.
+Despite overall congressional support for the VRA, the legislation faced immediate opposition from some Members, particularly southern Democrats. Opponents argued that the legislation violated the Constitution by exceeding congressional authority to regulate state election processes, that it penalized only southern states, and that it was being rushed through Congress. On the first day of debate, for example, Senator James Eastland (D-Mississippi), Judiciary Committee chair, argued that the bill
+flies directly in the face of the Constitution of the United States.... Let me make myself clear: I am opposed to every word and every line in the bill. I believe that it is an unheard of thing.... This bill would apply to only five States. It is sectional legislation. It is regional legislation.... [The bill's sponsors] were able to come together only yesterday morning. Then the bill was dropped in the hopper, and it is proposed to refer it to the Judiciary Committee, with only 15 days' time to consider it. I do not see that it is an orderly, legislative process. 45
+VRA supporters countered that the legislation was necessary to implement the Fifteenth Amendment, which the Jim Crow era had rendered ineffective. Responding, in part, to Senator Eastland's comments above, Senator Dirksen argued
+In 1870, when the 15 th amendment was approved, it was asserted that no citizen of the United States—and I emphasize "no citizen of the United States"—shall be deprived of or denied his voting rights or have such voting rights abridged by the United States, or by any State, because of race or color. We could be prepared to come into the Chamber with a thousand cases and show that that is precisely what happened. It is almost astounding, the ruses, the devices, the schemes which were employed to deny that right. After a period of 95 years, we are trying to catch up with the 15 th amendment to the Constitution, which in good faith was ratified by the States and was intended to be enforced, because it is provided in the second section [of the amendment] that Congress shall have the power to implement and to do the necessary things to give effect to the 15 th amendment. Thus on constitutionality and on working time, the Senate should be satisfied. How long do we have to thresh old straw?... [Voting rights] is not a problem in one section of the country. 46
+House legis lative activity also highlighted the majority view that previous efforts to enforce constitutionally guaranteed voting rights had been largely unsuccessful. VRA proponents also argued that existing civil rights laws did too little to protect voters before disenfranchisement occurred, and relied too heavily on afte r-the-fact litigation for enforcement . For example, the House Judiciary Committee report accompanying that chamber's lead proposal, H.R. 6400, lamented that Civil Rights Acts enacted in 1957, 1960, and 1964 had only limited effect on the franch ise. According to the report,
+[p] rogress has been painf ully slow, in part because of t h e intransigence of State and local officials and repeated delays in the judicial process . Judicial relief has had to be gaged [sic.] not in terms of months—but in terms of years .... The judicial process affords those who are determined to resist plentiful opportunity to resist .... Barring one contrivance too often has caused no change in result, only in methods. 47
+Preclearance Requirements Affecting Some Jurisdictions
+Sections 4 and 5 of the 1965 version of the VRA worked together to establish a process known as "preclearance." These provisions were among the act's most noteworthy because they required federal approval for all manner of election administration and voting changes in affected jurisdictions. The Supreme Court's 2013 Shelby County decision invalidated the Section 4(b) preclearance coverage formula. 48 Consequently, even though Shelby County did not directly affect the preclearance process specified in Section 5, the coverage formula to trigger preclearance is inoperable. Therefore, preclearance is inoperable (unless a federal court orders coverage under Section 3 of the VRA). 49 Although the Sections 4 and 5 preclearance process is no longer in effect, these provisions were so substantial that they remain a subject of historical congressional interest and provide important context for ongoing VRA policy discussions.
+Preclearance required certain jurisdictions to obtain DOJ or U.S. District Court for the District of Columbia approval before implementing changes to voting standards, practices, procedures, prerequisites, or qualifications. The Attorney General had 60 days to review proposed changes. 50
+Under the Section 4(b) formula as enacted in 1965, jurisdictions were subject to preclearance if
+the Attorney General determined that the jurisdiction maintained a prohibited "test or device" as of November 1, 1964; and
+the Census Bureau determined that, in the 1964 presidential election, less than 50% of the voting age population (VAP) was registered to vote, or less than 50% of the VAP voted. 51
+Prohibited tests or devices included "any requirement" for voting or registration demonstrating ability to read, write, understand, or interpret any matter (e.g., literacy tests); educational achievement or knowledge; good moral character; or voucher by other voters. 52
+When the VRA was initially enacted in 1965, Section 4(b) covered six states entirely: Alabama, Georgia, Louisiana, Mississippi, South Carolina, and Virginia. In addition, 39 counties in North Carolina were covered in 1965-1966. 53 In subsequent VRA amendments, Congress extended the coverage formula to include data from the 1968 and 1972 presidential elections. 54 These extensions brought new jurisdictions, including some outside the South, under VRA preclearance requirements. Some jurisdictions also "bailed out" of preclearance requirements through Section 4's provisions permitting them to petition the U.S. District Court for the District of Columbia for relief. 55
+After the 1965 VRA was enacted, preclearance became the norm in much of the country for decades. Figure 1 below shows the jurisdictions that were covered by the Section 4(b) coverage formula, and thus subject to Section 5 preclearance, when the Shelby County decision was issued in 2013.
+Figure 1. Jurisdictions Covered by VRA Section 5 Preclearance at the Time of the 2013 Shelby County Decision
+Source: CRS figure from data in U.S. Department of Justice, "Jurisdictions Previously Covered by Section 5," https://www.justice.gov/ crt/ jurisdictions-previously-covered-section-5 .
+Notes: "Year of DOJ Determination" refers to the "Date" column in the cited source, which indicates the year coverage became effective. As discussed in the text of this report, determinations were based on presidential election cycles that preceded determination years (e.g., 1965 determinations based on 1964 data). The figure excludes jurisdictions that were initially determined to be subject to preclearance but subsequently "bailed out" of preclearance under Section 3 of the act.
+Participation After the 1965 VRA
+The 1965 statute had an immediate and substantial impact on political participation among African Americans. 56 Although precise figures vary based on data and methodology, research consistently shows that registration disparities between Whites and racial minorities that had existed for decades began to narrow after the VRA. 57 Table 4 and Figure 2 below show registration figures, compiled by the U.S. Civil Rights Commission based on census and other data, in selected southern states before and after VRA enactment. Congress relied extensively on these and other Civil Rights Commission data when considering the VRA and amendments. 58
+Table 4. Estimated Voter Registration in Selected Southern States Before and After VRA Enactment
+See table notes for additional methodological information
+State
+White Pre-Act Registration Percentage
+Non-White Pre-Act Registration Percentage
+White Post-Act Registration Percentage
+Non-White Post-Act Registration Percentage
+Alabama
+69.2%
+19.3%
+89.6%
+51.6%
+Arkansas
+65.5%
+40.4%
+72.4%
+62.8%
+Florida
+74.8%
+51.2%
+81.4%
+63.6%
+Georgia
+62.6%
+27.4%
+80.3%
+52.6%
+Louisiana
+80.5%
+31.6%
+93.1%
+58.9%
+Mississippi
+69.9%
+6.7%
+91.5%
+59.8%
+North Carolina
+96.8%
+46.8%
+83.0%
+51.3%
+South Carolina
+75.7%
+37.3%
+81.7%
+51.2%
+Tennessee
+72.9%
+69.5%
+80.6%
+71.7%
+Texas
+—
+—
+53.3%
+61.6%
+Virginia
+61.1%
+38.3%
+63.4%
+55.6%
+Total
+73.4 %
+35.5 %
+76.5 %
+57.2 %
+Source: U.S. Commission on Civil Rights, Political Participation: A Study of the Participation by Negroes in the Electoral and Political Process in 10 Southern States Since Passage of the Voting Rights Act of 1965 , report produced pursuant to P.L. 85-315, May 1968, Appendix VII, Table 1, pp. 222-223.
+Notes: "Pre-Act" and "Post-Act" data generally appear to have been published in 1965 and 1967 respectively. The "Total" column in the table refers to the listed states. See methodological and data notes accompanying the cited source for additional information. Note 2 accompanying Table 1 in U.S. Commission on Civil Rights, Political Participation (full citation in table source, above), states that the data rely on various "official and unofficial" sources that "vary widely in their accuracy." The cited source does not list pre-VRA Texas data.
+Figure 2. Estimated Percentage Difference in Voter Registration Between Blacks and Whites in Selected Southern States Before and After VRA Enactment
+Source: CRS figure based on data in written statement of U.S. Commission on Civil Rights Chair Arthur S. Flemming, and commission staff, in U.S. Congress, Senate Committee on the Judiciary, Subcommittee on Constitutional Rights, Extension of the Voting Rights Act of 1965 , hearings on S. 407, S. 903, S. 1297 [Sic. S. 1279], S. 1409, and S. 1443, 94 th Cong., April 8, 9, 10, 22, 29, and 30, and May 1, 1975, Attachment 3, p. 100.
+Notes: See the cited source for additional data and methodological information. The "Total" column in the figure refers to the listed states.
+Development of Major VRA Amendments
+Section 2 of the 1965 VRA prohibits voting discrimination nationwide and remains in effect. However, Congress set expiration dates for some of the law's other provisions. Congress periodically chose to amend the VRA to extend some expiring provisions, among other changes. Table 5 below lists selected legislative-history resources accompanying the VRA's 1965 enactment and subsequent amendments.
+At least three common themes appear in the legislative histories accompanying the VRA amendments, as discussed below the table. First, majorities in Congress consistently agreed that the VRA's temporary provisions needed to be extended to protect minority voting rights consistent with the Fifteenth Amendment. Second, empirical evidence in the legislative record showed dramatic increases in minority political participation after the VRA was enacted. Third, although majorities in Congress supported amending and extending the VRA throughout the act's history, some Members consistently argued that the law unfairly targeted the South.
+Table 5. Selected Legislative History Resources for VRA Enactment and Major Amendments
+Year
+House Bill and Sponsor
+House Report
+House Passage
+Senate Bill and Sponsor
+Senate Report
+Senate Passage
+Conference Report
+Public Law
+1965
+H.R. 6400
+Celler
+H.Rept. 89-439
+333-85
+(07/09/1965)
+S. 1564 Mansfield
+S. Rept. 89-162
+On S. 1564:
+77-19
+(05/26/1965)
+S. Rept. 89-711
+(08/02/1965)
+Voting Rights Act of 1965
+P.L. 89-110
+(08/06/1965)
+1970
+H.R. 4249
+Celler
+H.Rept. 91-397
+234-179
+(12/11/1969)
+—
+—
+On H.R. 4249:
+64-12
+(3/13/1970)
+—
+Voting Rights Act Amendments of 1970
+P.L. 91-285
+(06/22/1970)
+1975
+H.R. 6219
+Edwards
+H.Rept. 94-196
+341-70
+(06/04/1975)
+S. 1279
+Hart
+S.Rept. 94-295
+On H.R. 6219 :
+77-12
+(07/24/1975)
+—
+—
+P.L. 94-73
+(08/06/1975)
+1982
+H.R. 3112
+Rodino
+H.Rept. 97-227
+389-24
+(10/05/1981)
+S. 1992 Mathias
+S.Rept. 97-417
+On H.R. 3112:
+85-8
+(06/18/1982)
+—
+Voting Rights Act Amendments of 1982
+P.L. 97-205
+(06/29/1982)
+1992
+H.R. 4312
+Serrano
+H.Rept. 102-655
+237-125
+(07/24/1992)
+S. 2236
+Simon
+S.Rept. 102-315
+On H.R. 4312 :
+75-20
+(08/07/1992)
+—
+Voting Rights Language Assistance Act of 1992
+P.L. 102-344
+(08/26/1992)
+2006
+H.R. 9
+Sensenbrenner
+H.Rept. 109-478
+390-33
+(07/13/2006)
+S. 2703 Specter
+S.Rept. 109-295
+On H.R. 9 :
+98-0
+(07/20/2006)
+—
+Fannie Lou Hamer, Rosa Parks, and Coretta Scott King Voting Rights Act Reauthorization and Amendments Act of 2006
+P.L. 109-246
+(07/27/2006)
+Source: CRS table based on information obtained from Congress.gov; Congressional Quarterly Almanacs ; Proquest Congressional; Proquest Legislative Insight; and U.S. House of Representatives, Calendars of the United States House of Representatives and History of Legislation .
+Notes: Some of the cited sources vary in related bills and legislative actions compared with the data in the table. See the cited sources for additional legislative documents.
+1970 Amendments: Extending Expiring Provisions
+The 1970 amendments principally extended the timeline contained in the VRA Section 4(a) prohibition on tests or devices. In extending the act's provisions, Congress determined that, despite progress since 1965, disparities between White and non-White registration and voting were still too wide. Congress also feared a return to past discriminatory practices in covered jurisdictions if the act's temporary provisions were permitted to expire. 59
+The original statute permitted jurisdictions to seek exemptions five years after enactment—in August 1970. The 1970 VRA amendments extended expiring provisions to August 1975. The amendments also added another Section 4 preclearance trigger for jurisdictions that maintained tests or devices, and that met the same participation criteria specified in the 1965 act (originally using 1964 data): less than 50% of the VAP was registered to vote, or less than 50% of the VAP voted. In the 1970 amendments, in addition to maintaining the original Section 4(b) coverage formula based on 1964 data, the coverage formula was amended to include 1968 participation data. The new trigger added jurisdictions in 10 states, including parts of California and New York, to Section 5 coverage. However, several jurisdictions "bailed out" through litigation under Section 4 of the act. 60
+1975 Amendments: Extending Expiring Provisions and Adding Language-Minority Provisions
+Because the 1970 amendments set a 1975 expiration date for some VRA provisions, Congress again faced a decision about whether to extend the act. In this case, Congress elected to extend expiring provisions for seven years—to 1982—rather than five in consideration of the 1980 redistricting cycle.
+The 1975 amendments added preclearance protections for some members of language-minority groups, and expanded the prohibition on tests or devices to include providing English-only ballots or English-only voting information or assistance, in jurisdictions that met a new trigger for populations with limited English abilities. Language-minority provisions appear primarily in Section 203 of the VRA. 61 Under these provisions, covered jurisdictions (discussed below) were required to provide the same voting and election information in covered languages as they did in English. This includes, for example, registration materials, candidate qualifying information, voting information, ballots, and other assistance in federal, state, and local elections. 62
+The new language trigger covered jurisdictions in which, as determined by the Census Bureau, more than 5% of the citizen VAP constituted a "single language-minority," were of limited English proficiency, and had depressed literacy rates. 63 Language minorities included "persons who are American Indian, Asian American, Alaskan Natives, or of Spanish heritage." 64 As discussed below, Congress amended the language trigger in 1992. The 1975 language-minority population trigger brought all of Alaska, Arizona, and Texas under Section 5 preclearance, among other jurisdictions. 65 The 1975 amendments also added 1972 participation data to the existing 1964 and 1968 data noted above. 66
+Proponents of the language-minority provisions argued that they were a logical extension of the act's general goals of advancing the franchise, and based on a pattern of historical voting difficulties among minorities. Citing a series of hearings in early 1975, a House Judiciary Committee report explained that
+The Subcommittee [on Constitutional Rights] heard extensive testimony on the question of representation of language-minority citizens, that is, the rules and procedures by which voting strength is translated into political strength. The central problem documented is that of dilution of the vote—arrangements by which the votes of minority electors are made to count less than the votes of the majority. Testimony indicated that racial discrimination against language-minority citizens seems to follow density of minority population.... The way lines are drawn for election districts have a significant effect on the ability of voters to elect the candidate of their choice. 67
+Just as arguments favoring the 1975 amendments generally were similar to previous arguments supporting the VRA, opponents expressed generally similar reservations. For example, similar to previous and then-contemporary objections to the act's preclearance trigger designed to guard against racial discrimination, some opponents of the 1975 amendments questioned whether the new trigger for language minorities was appropriate, and whether jurisdictions that did not display histories of intentional discrimination against language minorities were being unfairly covered under the new preclearance requirements. In urging his colleagues to support a motion to recommit on the 1975 amendments, Representative Robert McClory (R-Illinois) argued that
+It is my feeling that the [VRA] has been very salutary and has been very good.... [T]he act has protected the voting rights of all Americans, giving them the opportunity to serve in public office, and allowing some to serve in the Congress of the United States. The committee bill which we have before us takes on a whole new concept.... It is not based on the subject of race or color.... [T]he basis for including language-minority group is not factual but statistical, with no reference at all to the question of whether or not there is discrimination. 68
+As Table 5 shows, the amendments passed both chambers by wide margins.
+Congress extended the Section 203 protections in 1992. At that time, it also adjusted the coverage trigger from the existing 5% threshold to include an alternative, numerical threshold of 10,000 "limited-English proficient voting age citizens," or some American Indian and Alaska Native populations. Covered jurisdictions must provide non-English language assistance. 69
+1982 Amendments: Extending Expiring Provisions and Clarifying Congressional Intent Regarding Section 2
+In 1982, much of the legislative history argued that the VRA had been largely successful in meeting the act's basic goals of increasing access to registration and voting. However, the House and Senate also determined that the statute needed renewal to guarantee sustained progress and to guard against less overt forms of discrimination. A Senate Judiciary Committee report—which would become an important hallmark of congressional intent—stated that maintaining preclearance was necessary because
+[R]egistration is only the first hurdle to full effective participation in the political process.... [A] broad array of dilution schemes were employed to cancel the impact of the new black vote [after 1965 VRA implementation]. Elective posts were made appointive; election boundaries were gerrymandered; majority runoffs were instituted to prevent victories under a prior plurality system; at-large elections were substituted for election by single-member districts, or combined with other sophisticated rules to prevent an effective minority vote. The ingenuity of such schemes seems endless.... Congress anticipated this response. The preclearance provisions of Section 5 were designed to halt such efforts. 70
+Congress also decided not to alter the existing preclearance process specified in Sections 4 and 5. The Senate report, for example, noted that although some objections to formula-based preclearance remained in Congress, "the suggestion that we should consider 'nationwide' preclearance is misleading. The existing preclearance provision was based on a formula tailored to meet problems of voting discrimination wherever they occur. The provision is not limited to any particular region of the country. To the contrary, it now applies to literally the four corners of America." 71 The report also noted that Section 2 protections already applied nationwide. The 1982 amendments extended the preclearance process for 25 years. 72
+The 1982 amendments also responded to a 1980 Supreme Court decision in City of Mobile v. Bolden that interpreted Section 2 to require proof of discriminatory intent. 73 Congress amended the law to provide that Section 2 is violated if a challenger can prove a discriminatory effect or a discriminatory intent. 74 Furthermore, Congress specified that a Section 2 violation is "established if, based on the totality of the circumstances, it is shown that the political processes leading to nomination or election in the State or political subdivision are not equally open to participation" by voters protected under the act, and that members of the protected class (group) "have less opportunity than other members of the electorate to participate in the political process and to elect representatives of their choice." 75 The Senate report specified that determining the "totality of the circumstances" included several factors (which were not necessarily all required or mutually exclusive), such as historical discrimination in a jurisdiction; the extent of racially polarized voting; use of at-large elections; whether political campaigns were characterized by racial appeals; and the extent to which discrimination affected education or employment, among other factors. As another CRS product explains, this legislative history would later influence the Supreme Court's 1986 holding in Thornburg v. Gingles that "established a three-prong test for proving vote dilution under Section 2 of the VRA." 76 In 2021, in Brnovich , the Supreme Court interpreted Section 2 in the context of state election administration laws. In 2026, in Callais , the Supreme Court interpreted Section 2 in the context of redistricting maps. Other CRS products discuss legal precedent that is beyond the scope of this report. 77
+The 1982 amendments also added protections for blind, illiterate, or disabled voters by specifying that these individuals may receive voting assistance from someone of their choice, except for an employer or union representative. 78 As Table 5 shows, the 1982 amendments passed both chambers by wide margins. They remain the most substantial VRA amendments since that time.
+2006 Amendments: Extending Preclearance, and Final Major Amendments Pre- Shelby County
+The 1982 amendments had extended preclearance requirements for 25 years; Congress did not substantially revisit the VRA until the mid-2000s. (As noted previously, Congress adjusted the language-minority trigger for Section 203 protections in 1992. 79 ) In 2006, Congress again reauthorized the act's Section 4(b) preclearance formula, but did not update the formula with more recent participation data. As noted above, Congress most recently updated the coverage formula to include 1972 election-cycle data, which the Supreme Court criticized in the Shelby County ruling.
+As with previous VRA amendments, the House and Senate relied heavily on empirical evidence from governmental and nongovernmental sources to justify the 2006 amendments. 80 The House Judiciary Committee alone "assembled over 12,000 pages of testimony, documentary evidence and appendices from over 60 groups and individuals, including several Members of Congress." 81 The House and Senate Judiciary Committees also held hearings that included bicameral Member participation and submissions for the record. The House and Senate also considered "identical proposals to renew and amend" the VRA (H.R. 9 and S. 2703, sponsored by Judiciary Committee Chairs Sensenbrenner and Specter, respectively). 82
+Overall, Congress determined that, despite substantial progress in minority-voter participation since 1965, continuing statutory protections were necessary. According to the House Judiciary Committee report accompanying the 2006 reauthorization, "the evidence before Congress reveals that 40 years have not been a sufficient amount of time to eliminate the vestiges of discrimination following nearly 100 years of disregard for the dictates of the 15 th Amendment and to ensure that the right of all citizens to vote is protected as guaranteed by the Constitution." 83 The House Judiciary Committee cited more than 700 DOJ objections to preclearance requests that the department found discriminatory in violation of the VRA's Section 5 preclearance requirements since 1982. 84
+The 2006 amendments extended Section 203 language-minority provisions until 2032. 85 They also repealed authorities in Sections 6, 7, and 9 of the act regarding the appointment of federal examiners, supervised by OPM, to maintain registration lists in some jurisdictions. Congress determined in hearings that the examiner program had not been employed since the early 1980s, and that subsequent National Voter Registration Act (NVRA) provisions made continuing the program unnecessary. 86 DOJ may still deploy election observers in some circumstances. 87
+The preclearance extension did not last long. As another CRS product discusses, the Supreme Court in Shelby County found that the application of the Section 4(b) "coverage formula to the covered states and jurisdictions was unconstitutional because it departed from the 'fundamental principle of equal sovereignty' among the states without justification based on current data." 88
+Recent Legislative Developments and Concluding Comments
+The developments discussed in the preceding pages provide a foundation for understanding the policy challenges Congress tried to address when it enacted the VRA and continued to pursue when it amended the statute. They are, however, by no means the only issues that the House and Senate might consider in the future.
+Since 2013, Congress has debated policy questions such as
+whether state-level voting and elections changes post- Shelby County need additional federal oversight or enforcement, and whether the VRA's Section 2 nationwide protections are adequate to do so compared with the now-inoperable Section 4 coverage formula (and, by extension, Section 5) preclearance provisions; 89
+if a new preclearance mechanism is required, whether it should be based on historical or geographic evidence of discrimination in voting or whether a national standard based on recent or current practices should be developed; 90 and
+how or whether provisions other than Section 2, such as those related to Section 3's court-ordered "bail-in" provisions, and election observers, also might be revised. 91
+Legislative activity is also possible following the Supreme Court's April 2026 decision in Callais .
+Recent Congresses have taken different approaches to addressing the VRA. As the preceding discussion shows, VRA amendments were historically included in legislation devoted to that subject. In recent Congresses, some VRA legislation also has addressed other elections and voting topics. Most legislation addressing the VRA in recent Congresses has not substantially advanced beyond introduction. Some recent legislation that did advance has proposed amendments establishing a new preclearance coverage formula, clarifying congressional intent about what constitutes Section 2 violations, or both.
+In the 116 th Congress, the House passed H.R. 4 , as did the House in the 117 th Congress (a bill also numbered H.R. 4 ). Both bills were titled the Voting Rights Advancement Act (VRAA); the latter was also named for former Representative John Lewis (D), who was beaten and jailed in the 1965 Selma march. The legislation would have, among other things, established an updated "rolling" coverage formula that could be triggered nationwide on an ongoing basis. The Senate did not invoke cloture on the motion to proceed to its companion bill, S. 4 , in November 2021. 92
+Also during fall 2021, the Senate considered, but did not invoke cloture on, the motion to proceed to the Freedom to Vote Act, S. 2747 . That bill primarily concerned other elections, voting, and campaign finance matters, and also included some amendments to the VRA language-minority provisions.
+In January 2022, the House approved the Freedom to Vote: John R. Lewis Act and sent it to the Senate in the form of an amendment between the houses on an unrelated bill, H.R. 5746 . The Senate did not agree to a cloture motion on the text. The legislation combined elements of some of the bills noted above and addressed aspects of campaign finance, election administration, and voting rights.
+In the 118 th and 119 th Congresses, similar legislation to that discussed above (e.g., H.R. 14 and S. 2523 in the 119 th Congress and H.R. 14 and S. 4 in the 118 th Congress) has not substantially advanced beyond introduction. Other recent bills, which are not reflected here, cite the VRA in historical context (e.g., findings sections), in redistricting purposes (which is beyond the scope of this report), or in other references to federal election statutes, but generally do not propose substantial amendments to the topics addressed in this report.
+Despite the VRA's regular renewal through 2006, some have argued that traditional alliances in Congress and across the federal government, which had facilitated support for the VRA, have shifted. For example, some scholars have labeled the VRA a "superstatute" whose dominance, until Shelby County , relied on consensus among the three branches of government that federal intervention was required to protect constitutional rights. 93 This consensus, in turn, relied on a shared understanding of how discrimination had affected—and continued to affect—voting. This consensus, they argue, stands in contrast to the post- Shelby County environment, in which "the discrimination consensus is disintegrating," particularly without an updated coverage formula. 94 The post- Callais period could continue related policy debates.
+As long as Congress considers how or whether to address voting rights policy in the United States—as it has done regularly for more than a century—it likely will need to understand what it has already done, where it agreed and disagreed, and what political and policy factors shaped those debates. Future VRA debates could begin by considering how and to what extent the preceding history remains relevant for policy choices.
+Footnotes
+1 .
+For a short discussion of some of the issues addressed herein, see CRS In Focus IF12284, Voting Rights Act: Brief Policy Overview , by R. Sam Garrett.
+2 .
+The report relies on congressional and other governmental documents, federal statutes, scholarly publications, and media reports produced at different times and using different methodologies. The report generally uses racial and ethnic terms (e.g., African American , Alaska Native , American Indian , Black , White , etc.) as they appear in the cited source, if applicable. In some cases, those sources contain additional information about which specific ethnic or racial groups, or languages, are included in the underlying data. If not using a cited source, the terms African American and Black generally are used interchangeably.
+3 .
+On the VRA and legal issues, see, for example, CRS Legal Sidebar LSB11431, Congressional Redistricting: High Court Narrows Voting Rights Act in Louisiana v. Callais , by L. Paige Whitaker; CRS Legal Sidebar LSB11382, The Voting Rights Act of 1965 at 60 Years: Key Supreme Court Decisions Shaping the Law Today , by L. Paige Whitaker; and CRS Testimony TE10033, History and Enforcement of the Voting Rights Act of 1965 , by L. Paige Whitaker; and CRS Legal Sidebar LSB10624, Voting Rights Act: Supreme Court Provides "Guideposts" for Determining Violations of Section 2 in Brnovich v. DNC , by L. Paige Whitaker. On the relationship between the VRA and redistricting, see, for example, CRS Insight IN11618, Congressional Redistricting Criteria and Considerations , by Sarah J. Eckman; CRS Report R45951, Apportionment and Redistricting Process for the U.S. House of Representatives , by Sarah J. Eckman; CRS In Focus IF12250, Congressional Redistricting: Key Legal and Policy Issues , by L. Paige Whitaker and Sarah J. Eckman; and CRS In Focus IF13082, Mid-Decade Congressional Redistricting: Key Issues , by Sarah J. Eckman and L. Paige Whitaker. CRS podcasts on the 60 th anniversary of the VRA are also available: CRS Report WPD00173, The Voting Rights Act of 1965 at 60 Years: Key Supreme Court Decisions Part 1 , by L. Paige Whitaker and R. Sam Garrett; CRS Report WPD00174, The Voting Rights Act of 1965 at 60 Years: Key Supreme Court Decisions Part 2 , by L. Paige Whitaker and R. Sam Garrett.
+4 .
+On the old and new election-law citations, see U.S. House of Representatives, Office of Law Revision Counsel, "Editorial Reclassification, Title 52, U.S. Code," http://uscode.house.gov/editorialreclassification/t52/index.html .
+5 .
+See U.S. House of Representatives, Office of Law Revision Counsel, "Editorial Reclassification," http://uscode.house.gov/editorialreclassification/reclassification.html .
+6 .
+On consideration of different proposals, see, for example, U.S. Congress, Senate Committee on the Judiciary, From Selma to Shelby County: Working Together to Restore the Protections of the Voting Rights Act , 113 th Cong., 1 st sess., July 17, 2013, S.Hrg. 113-332; and U.S. Congress, House Committee on the Judiciary, Subcommittee on the Constitution, Civil Rights, and Civil Liberties, The Need to Enhance the Voting Rights Act: Preliminary Injunctions, Bail-In Coverage, Election Observers, and Notice , 117 th Cong., 1 st sess., June 29, 2021, Serial No. 117-30.
+7 .
+See, for example, CRS Legal Sidebar LSB10624, Voting Rights Act: Supreme Court Provides "Guideposts" for Determining Violations of Section 2 in Brnovich v. DNC , by L. Paige Whitaker.
+8 .
+The House and Senate parliamentarians provide authoritative advice regarding the referral of legislation and the jurisdiction of committees and should be consulted for guidance on questions on these subjects.
+9 .
+See, for example, U.S. Congress, House Committee on House Administration, Subcommittee on Elections, Voting Rights and Election Administration in America , 116 th Cong., 1 st sess., October 17, 2019; and U.S. Congress, Senate Committee on Rules and Administration, Protecting the Freedom to Vote: Recent Changes to Georgia Voting Laws and the Need for Basic Federal Standards to Make Sure All Americans Can Vote in the Way that Works Best for Them , 117 th Cong., 1 st sess., July 19, 2021, S.Hrg. 117-47.
+10 .
+Other agencies, such as the U.S. Election Assistance Commission (EAC) or the U.S. Commission on Civil Rights, conduct public education, research, or both that can be relevant for VRA policy issues.
+11 .
+See CRS Report R45302, Federal Role in U.S. Campaigns and Elections: An Overview , by R. Sam Garrett.
+12 .
+The Confederacy originally included 11 states: Alabama, Arkansas, Florida, Georgia, Louisiana, Mississippi, North Carolina, South Carolina, Tennessee, Texas, and Virginia. See U.S. House of Representatives, "Reconstruction's New Order," note 6, https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/ .
+13 .
+For an overview of historical, political, and jurisprudential developments during the period, see, for example, Michael J. Klarman, "The Plessy Era," The Supreme Court Review , vol. 1998 (1998), pp. 303-414.
+14 .
+This report generally includes party affiliations for historical reference. Party alignments have varied throughout American history. For an overview of the scholarly literature on party and issue alignments and realignments, see, for example, Edward G. Carmines and Michael W. Wagner, "Political Issues and Party Alignments: Assessing the Issue Evolution Perspective," Annual Review of Political Science , vol. 9 (2006), pp. 67-81; and James L. Sundquist, Dynamics of the Party System: Alignment and Realignment of Political Parties in the United States , Revised ed. (Brookings Institution Press, 1983).
+15 .
+Until ratification of the 19 th and 26 th Amendments, the Constitution did not enfranchise women and those age 18 and older, respectively.
+16 .
+Travis Crum, "The Unabridged Fifteenth Amendment," Washington University in St. Louis Legal Studies Research Paper 23-03-03, posted to Social Science Research Network, forthcoming in Yale Law Journal , vol. 133 (2023), 2023, p. 3, https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4390108 .
+17 .
+For a brief overview of the proclamation, see U.S. National Archives and Records Administration, "The Emancipation Proclamation," https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation .
+18 .
+Historian Eric Foner has noted that some scholars consider Reconstruction as beginning earlier in the 1860s, when the Union Army began occupying parts of the South during the Civil War. According to Foner, "basically, we're talking about the period after the American Civil War. Or another way of putting it is we're talking about the historical process by which the country brings itself together after the Civil War and also tries to come to terms with the consequences of the abolition of slavery." See NPR, "Historian Eric Foner on the 'Unresolved Legacy of Reconstruction,'" Fresh Air transcript, June 5, 2020 (originally broadcast Jan. 9, 2006), https://www.npr.org/2020/06/05/870459750/historian-eric-foner-on-the-unresolved-legacy-of-reconstruction .
+19 .
+For an overview, see James M. McPherson, Battle Cry of Freedom: The Civil War Era (Ballantine, 1988), pp. 689-717. See also U.S. House of Representatives, "Wade-Davis Bill," https://history.house.gov/Records-and-Research/Listing/lfp_011/ .
+20 .
+According to Foner, "[a]t the core of Congressional Radicalism were men whose careers had been shaped by the slavery controversy: Charles Sumner [Massachusetts], Benjamin Wade [Ohio], and Henry Wilson [Massachusetts] in the Senate; Thaddeus Stevens [Pennsylvania], George W. Julian [Indiana], and James M. Ashley [Ohio] in the House.... The driving force of Radical ideology was the utopian vision of a nation whose citizens enjoyed equality of civil and political rights secured by a powerful and beneficent national state." See Eric Foner, A Short History of Reconstruction: 1863-1877 , updated ed. (Harper Perennial, 2014) p. 104.
+21 .
+For an overview focusing on the U.S. Army role in Reconstruction, see Mark L. Bradley, The Army and Reconstruction, 1865-1877 , U.S. Army Center of Military History, CMH Pub 75-18 (2015), https://history.army.mil/catalog/pubs/75/75-18.html .
+22 .
+See, for example, Mark L. Bradley, The Army and Reconstruction, 1865-1877 , U.S. Army Center of Military History, CMH Pub 75-18 (2015), pp. 38-42, https://history.army.mil/catalog/pubs/75/75-18.html .
+23 .
+See, for example, U.S. Senate, "The Civil War: The Senate's Story," https://www.senate.gov/artandhistory/history/common/generic/Civil_War_AdmissionReadmission.htm .
+24 .
+See "The Black Vote: A Long, Painful Struggle," in Guide to U.S. Elections , ed. Deborah Kalb, 7 th ed. (Sage, 2016), https://sk.sagepub.com/cqpress/the-cq-press-guide-to-us-elections-7e/i782.xml?term=Voting%20Rights%20Act .
+25 .
+See, for example, C. Vann Woodward, Reunion and Reaction: The Compromise of 1877 and the End of Reconstruction , revised ed. (Doubleday, 1956); and Edward B. Foley, Ballot Battles: The History of Disputed Elections in the United States (Oxford University Press, 2016), pp. 117-149.
+26 .
+On the absence of two-party competition in the South after the Civil War, see, for example, V.O. Key Jr., Southern Politics in the State and Nation , 1 st ed. (Knopf, 1949), pp. 551-553.
+27 .
+See, for example, John Hope Franklin and Evelyn Brooks Higginbotham, From Slavery to Freedom: A History of African Americans , 10 th ed. (McGraw Hill, 2021), pp. 467-469.
+28 .
+For example, Jimmy Carter, writing of the period between Reconstruction and the 1960s in Georgia, stated that "Whenever the governor and the legislature faced legal challenges to the existing procedures or wished to change them without passing new laws, the simplest solution was for the state Democratic party to amend its rules. Since there was no viable Republican party ... a Democratic nomination for office was tantamount to election." See Jimmy Carter, Turning Point: A Candidate, a State, and a Nation Come of Age (Times Books, 1992), p. 11.
+29 .
+See, for example, Albert B. Saye, "Georgia's County Unit System of Elections," The Journal of Politics , vol. 12, no. 1 (1950), pp. 93-106; Scott E. Buchanan, "The Effects of the Abolition of the Georgia County-Unit System on the 1962 Gubernatorial Election," Southeastern Political Review , vol. 25, no. 4 (1997), pp. 687-704; and Charles S. Bullock III and Jessica L. McClellan, "The County Boss in Statewide Elections: A Multivariate Analysis of Georgia's Bifactional Politics," Politics & Policy , vol. 32, no. 4 (2004), pp. 740-755.
+30 .
+In some cases, Democratic Whites managed to form factional alliances with southern Blacks, although those alliances generally faded over time. See, for example, John Samuel Ezell, The South Since 1865 , 2 nd ed. (Macmillan, 1975), pp. 174-197. In addition, in a few areas, such as the mountain regions of eastern Tennessee and western North Carolina, the Republican Party maintained strong influence. See, for example, V.O. Key Jr., Southern Politics in the State and Nation , 1 st ed. (Knopf, 1949), pp. 280-283; and Gordon B. McKinney, "The Political Uses of Appalachian Identity After the Civil War," Appalachian Journal , vol. 7, no. 3 (1980), pp. 200-209.
+31 .
+Such contests were called "White primaries." See, for example, V.O. Key Jr., Southern Politics in the State and Nation , 1 st ed. (Knopf, 1949), pp. 619-643. On invalidation, see Smith v. Allwright (321 U.S. 649).
+32 .
+See, for example, V.O. Key Jr., Southern Politics in the State and Nation , 1 st ed. (Knopf, 1949), p. 538.
+33 .
+In practice, the poll tax was a required fee for voting. See, for example, V.O. Key Jr., Southern Politics in the State and Nation , 1 st ed. (Knopf, 1949), pp. 578-618.
+34 .
+For a brief overview of the push for federal involvement during the period, see, for example, Richard K. Scher, Politics in the New South: Republicanism, Race and Leadership in the Twentieth Century , 2 nd ed. (M.E. Sharpe, 1997), pp. 240-250.
+35 .
+See Statement of Sen. Kenneth B. Keating in U.S. Congress, Senate Committee on the Judiciary, Subcommittee on Constitutional Rights, Literacy Tests and Voter Requirements in Federal and State Elections , 87 th Cong., 2 nd sess., March 27, 28, and April 5, 6, 10, 11, and 12, 1962, pp. 3-4.
+36 .
+See Statement of Charles J. Bloch in U.S. Congress, Senate Committee on the Judiciary, Subcommittee on Constitutional Rights, Literacy Tests and Voter Requirements in Federal and State Elections , 87 th Cong., 2 nd sess., March 27, 28, and April 5, 6, 10, 11, and 12, 1962, p. 351.
+37 .
+See Statement of Sen. Sam Ervin in U.S. Congress, Senate Committee on the Judiciary, Subcommittee on Constitutional Rights, Literacy Tests and Voter Requirements in Federal and State Elections , 87 th Cong., 2 nd sess., March 27, 28, and April 5, 6, 10, 11, and 12, 1962, p. 19. Ervin, as chair of the Subcommittee on Constitutional Rights, was a prominent opponent of the Johnson Administration's civil rights and voting rights proposals, including during heated exchanges with Attorney General Robert F. Kennedy. For a historical overview, see, for example, Karl E. Campbell, "Claghorn's Hammurabi: Senator Sam Ervin and Civil Rights," The North Carolina Historical Review , vol. 78, no. 4 (2001), pp. 431-456; and Logan Sawyer III, "Originalism from the Soft Southern Strategy to the New Right: The Constitutional Politics of Sam Ervin Jr.," Journal of Policy History , vol. 32, no. 1 (2021), pp. 32-59.
+38 .
+See, for example, Roy Reed, "Alabama Police Use Gas and Clubs to Rout Negroes," The New York Times , March 8, 1965, p. 1. For a brief overview of the early 1960s period, see also, for example, U.S. Congress, Senate Committee on the Judiciary, Fannie Lou Hamer, Rosa Parks, Coretta Scott King, and César E. Chávez Voting Rights Reauthorization and Amendments Act of 2006 , 109 th Cong., 2 nd sess., July 26, 2006, S.Rept. 109-295 , pp. 8-10.
+39 .
+The day's events came to be known as "Bloody Sunday."
+40 .
+See, for example, Charles S. Bullock III et al., The Rise and Fall of the Voting Rights Act (University of Oklahoma Press, 2016), pp. 20-21.
+41 .
+383 U.S. 381. For additional detail, see, for example CRS Testimony TE10033, History and Enforcement of the Voting Rights Act of 1965 , by L. Paige Whitaker; and CRS Legal Sidebar LSB10583, Supreme Court Considers Standard for Voting Rights Act Claims , by L. Paige Whitaker.
+42 .
+U.S. President (Lyndon B. Johnson), "Special Message to Congress: The American Promise," Public Papers of the Presidents of the United States , vol. 1 (GPO, 1966), p. 282.
+43 .
+See U.S. Congress, House Committee on the Judiciary, Subcommittee No. 5, Voting Rights: H.R. 6400 and Other Proposals to Enforce the 15 th Amendment to the Constitute of the United States , 89 th Cong., 1 st sess., March 18, 19, 23, 24, 25, 29, 30, and 31, and April 1, 1965, Serial No. 2.
+44 .
+For an overview of congressional action on the 1965 act, see "Voting Rights Act of 1965," in CQ Almanac 1965 , 21 st ed. (Congressional Quarterly, 1966), pp. 533-566, http://library.cqpress.com/cqalmanac/cqal65-1259649 .
+45 .
+Sen. James Eastland, "Enforcement of the 15 th Amendment to the Constitution of the United States," Debate in the Senate, Congressional Record , daily edition (March 18, 1965), p. 5388.
+46 .
+Sen. Everett Dirksen, "Enforcement of the 15 th Amendment to the Constitution of the United States," Debate in the Senate, Congressional Record , daily edition (March 18, 1965), p. 5394.
+47 .
+U.S. Congress, House Committee on the Judiciary, Voting Rights Act of 1965 , 89 th Cong., 1 st sess., June 1, 1965, pp. 10-11.
+48 .
+570 U.S. 529.
+49 .
+As DOJ has noted, courts could still order preclearance for jurisdictions under VRA Section 3(c). See the introductory text accompanying U.S. Department of Justice, "Jurisdictions Previously Covered by Section 5," https://www.justice.gov/crt/jurisdictions-previously-covered-section-5 .
+50 .
+52 U.S.C. §10304.
+51 .
+52 U.S.C. §10303(b).
+52 .
+52 U.S.C. §10303(c). These provisions appeared in Section 4(c) of the original statute.
+53 .
+See North Carolina determinations in U.S. Department of Justice, "Jurisdictions Previously Covered by Section 5," https://www.justice.gov/crt/jurisdictions-previously-covered-section-5 . Three counties in Arizona, one in Hawaii, and one in Idaho were later determined to trigger the formula. See Charles S. Bullock III et al., The Rise and Fall of the Voting Rights Act (University of Oklahoma Press, 2016), p. 19; and "The Formula for Coverage Under Section 4 of the Voting Rights Act" in U.S. Department of Justice, "Section 4 of the Voting Rights Act," https://www.justice.gov/crt/section-4-voting-rights-act#bailout_list . Alabama, Georgia, Louisiana, Mississippi, South Carolina, and Virginia, and 39 counties in North Carolina are typically the jurisdictions associated with preclearance under the version of the VRA enacted in 1965. Initial preclearance determinations listed some jurisdictions that were not ultimately subject to preclearance, or not as initially indicated. The State of Alaska, for example, "bailed out" of initial preclearance requirements, before being covered again by subsequent VRA amendments. See, for example, U.S. Department of Justice, "Determination of the Attorney General Pursuant to Section 4(b)(1) of the Voting Rights Act of 1965," 30 Federal Register 9897, August 7, 1965; and additional discussion in U.S. Department of Justice, "Section 4 of the Voting Rights Act," https://www.justice.gov/crt/section-4-voting-rights-act#bailout_list ; and U.S. Department of Justice, "Jurisdictions Previously Covered by Section 5," https://www.justice.gov/crt/jurisdictions-previously-covered-section-5 .
+54 .
+See the 1970 and 1975, amendments respectively. These are P.L. 91-285 and P.L. 94-73 .
+55 .
+52 U.S.C. §10303.
+56 .
+On the VRA and participation generally, see, for example, Charles S. Bullock III and Ronald Keith Gaddie, The Triumph of Voting Rights in the South (University of Oklahoma Press, 2009).
+57 .
+Variability in registration and turnout data generally is beyond the scope of this report. In brief, data can vary because of factors such as whether census data (and which variables) or other data (e.g., state voter files, exit polls, or surveys) are analyzed; which population is studied (e.g., the voting-age population, the citizen population, or the voting-eligible population); the accuracy of self-reported survey data and social-desirability bias (i.e., the belief that some responses are more acceptable than others); nonresponse rates; changes in racial and ethnic variable labels and choices for survey respondents; and when different demographic groups or variables were added to time-series survey data. Substantial scholarly literature addresses these and related methodological topics. All these factors, and others, can affect data interpretation and can limit comparability over time and across data sources. See, for example, Stephen Ansolabehere, Bernard L. Fraga, and Brian F. Schaffner, "The Current Population Survey Voting and Registration Supplement Overstates Minority Turnout," The Journal of Politics , vol. 84, no. 3 (2022), pp. 1850-1855; Kurt Bauman, How Well Does the Current Population Survey Measure the Composition of the U.S. Voting Population? U.S. Census Bureau, SEHSD Working Paper 2018-25,2018, https://www.census.gov/content/dam/Census/library/working-papers/2018/demo/SEHSD-WP2018-25.pdf ; Jacob Fabina and Zachary Scherer, Voting and Registration in the Election of November 2020 , U.S. Census Bureau, P20-585, 2022, https://www.census.gov/content/dam/Census/library/publications/2022/demo/p20-585.pdf ; Michael P. McDonald, "The True Electorate: A Cross-Validation of Voter Registration Files and Election Survey Demographics," Public Opinion Quarterly , vol. 71, no. 4 (2007), pp. 588-602; Michael P. McDonald, "Voter Turnout Demographics," United States Elections Project, http://www.electproject.org/home/voter-turnout/demographics ; and the "Measuring Voter Turnout" text box in "Elections: An Expanding Franchise," in Guide to U.S. Elections , ed. Deborah Kalb, 7 th ed. (Sage, 2016), https://sk.sagepub.com/cqpress/the-cq-press-guide-to-us-elections-7e/i782.xml?term=Voting%20Rights%20Act .
+58 .
+See, for example, testimony and written statement of U.S. Commission on Civil Rights Chair Arthur S. Flemming, and commission staff, in U.S. Congress, Senate Committee on the Judiciary, Subcommittee on Constitutional Rights, Extension of the Voting Rights Act of 1965 , hearings on S. 407, S. 903, S. 1297 [Sic. S. 1279 ], S. 1409, and S. 1443, 94 th Cong., April 8, 9, 10, 22, 29, and 30, and May 1, 1975, pp. 73-213.
+59 .
+See, for example, discussion of disparate state experiences and registration data in U.S. Congress, House Committee on the Judiciary, Extension of the Voting Rights Act of 1965 , 91 st Cong., 1 st sess., July 28, 1969, H.Rept. 91-397, pp. 2-7.
+60 .
+See "The Formula for Coverage Under Section 4 of the Voting Rights Act" in U.S. Department of Justice, "Section 4 of the Voting Rights Act," https://www.justice.gov/crt/section-4-voting-rights-act#bailout_list .
+61 .
+Although the preclearance requirements under Section 5 are inoperable post- Shelby County , the Section 203 language-minority provisions do not rely on the coverage formula in Section 4 that the Supreme Court invalidated in Shelby County . The Section 203 provisions are triggered based on the coverage formula that originated in the 1975 VRA amendments. As discussed elsewhere in this report, Congress updated the language trigger again in the 1992 and 2006 VRA amendments. For additional discussion, see, for example, U.S. Department of Justice, "Language-minority Citizens," https://www.justice.gov/crt/language-minority-citizens ; and U.S. Department of Justice, "Fact Sheet on Justice Department's Enforcement Efforts Following Shelby County Decision," https://www.justice.gov/crt/file/876246/download , p. 2.
+62 .
+On the language-minority provisions as enacted, see §203, P.L. 94-73 . As currently codified, see 52 U.S.C. §10503. See also U.S. Department of Justice, "Language-minority Citizens," https://www.justice.gov/crt/language-minority-citizens .
+63 .
+On the language-minority provisions as enacted, see §203, P.L. 94-73 . As currently codified, see 52 U.S.C. §10503. See also U.S. Department of Justice, "Language-minority Citizens," https://www.justice.gov/crt/language-minority-citizens . The amendments defined "illiteracy" to mean "the failure to complete the fifth primary grade."
+64 .
+On the language-minority provisions as enacted, see §207, P.L. 94-73 . As currently codified, see 52 U.S.C. §10503. For additional discussion of legislative history and the development of language terms, see, for example, Rosina Lozano, "Vote Aquí Hoy: The 1975 Extension of the Voting Rights Act and the Creation of Language Minorities," Journal of Policy History , vol. 35, no. 1 (2023), pp. 68-90.
+65 .
+See "The Formula for Coverage Under Section 4 of the Voting Rights Act" in U.S. Department of Justice, "Section 4 of the Voting Rights Act," https://www.justice.gov/crt/section-4-voting-rights-act#bailout_list .
+66 .
+On the 1975 amendments as enacted, see §202, P.L. 94-73 .
+67 .
+U.S. Congress, House Committee on the Judiciary, Voting Rights Act Extension , 94 th Cong., 1 st sess., May 8, 1975, H.Rept. 94-196, pp. 18-19. A substantially similar quotation appears in U.S. Congress, Senate Committee on the Judiciary, Voting Rights Act Extension , 94 th Cong., 1 st sess., July 22, 1975, S. Rept. 94-295, p. 27.
+68 .
+Rep. Robert McClory, "Voting Rights Act Extension," remarks in the House, Congressional Record , vol. 121, part 13, p. 16916.
+69 .
+As enacted, see P.L. 102-344 . As currently codified, see 52 U.S.C. §10503. See discussion in U.S. Congress, House Committee on the Judiciary, Voting Rights Language Assistance Act of 1992 , 102 nd Cong., 2 nd sess., July 8, 1992, H.Rept. 102-655.
+70 .
+U.S. Congress, Senate Committee on the Judiciary, Voting Rights Act Extension , 97 th Cong., 2 nd sess., May 25, 1982, S.Rept. 97-417, p. 6.
+71 .
+See U.S. Congress, Senate Committee on the Judiciary, Voting Rights Act Extension , 97 th Cong., 2 nd sess., May 25, 1982, S.Rept. 97-417, p. 15.
+72 .
+As enacted, see §2, P.L. 97-205 .
+73 .
+446 U.S. 55.
+74 .
+For discussion, see, for example, U.S. Congress, Senate Committee on the Judiciary, Voting Rights Act Extension , 97 th Cong., 2 nd sess., May 25, 1982, S.Rept. 97-417, pp. 16-30; and CRS Legal Sidebar LSB10583, Supreme Court Considers Standard for Voting Rights Act Claims , by L. Paige Whitaker.
+75 .
+As enacted, see §3, P.L. 97-205 . As currently codified, see 52 U.S.C. §10301(b).
+76 .
+478 U.S. 30. See CRS Legal Sidebar LSB10699, Supreme Court Agrees to Hear Voting Rights Act Challenge to Congressional Redistricting Map and Stays Lower Court Ruling: Implications for Congress , by L. Paige Whitaker; and U.S. Congress, Senate Committee on the Judiciary, Voting Rights Act Extension, 97 th Cong., 2 nd sess., May 25, 1982, S.Rept. 97-417, pp. 28-29.
+77 .
+For additional discussion, see CRS Legal Sidebar LSB10583, Supreme Court Considers Standard for Voting Rights Act Claims , by L. Paige Whitaker; and CRS Legal Sidebar LSB11431, Congressional Redistricting: High Court Narrows Voting Rights Act in Louisiana v. Callais , by L. Paige Whitaker.
+78 .
+As enacted, see §5, P.L. 97-205 . As currently codified, see 52 U.S.C. §10508.
+79 .
+As enacted, see P.L. 102-344 . As currently codified, see 52 U.S.C. §10503. The 1992 amendments and accompanying legislative history were limited compared with the other amendments discussed in this report. Hence, this report does not address the 1992 amendments in a separate section.
+80 .
+See, for example, Appendix III, "Comprehensive List of the Evidence Offered Concerning Voting Discrimination Gathered By The House and Senate" in U.S. Congress, Senate Committee on the Judiciary, Fannie Lou Hamer, Rosa Parks Coretta Scott King, and César E. Chávez Voting Rights Act Reauthorization and Amendments Act of 2006 , 109 th Cong., 2 nd sess., July 26, 2006, S.Rept. 109-295 .
+81 .
+U.S. Congress, House Committee on the Judiciary, Fannie Lou Hamer, Rosa Parks, and Coretta Scott King Voting Rights Act Reauthorization and Amendments Act of 2006 , 109 th Cong., 2 nd sess., May 22, 2006, H.Rept. 109-478 , p. 5.
+82 .
+U.S. Congress, Senate Committee on the Judiciary, Fannie Lou Hamer, Rosa Parks Coretta Scott King, and César E. Chávez Voting Rights Act Reauthorization and Amendments Act of 2006, 109 th Cong., 2 nd sess., July 26, 2006, S.Rept. 109-295 , p. 2, which notes that "On April 27, 2006, the Senate Judiciary Committee held a hearing at which members of the House of Representatives submitted the voluminous record it had developed over the previous six months."
+83 .
+U.S. Congress, House Committee on the Judiciary, Fannie Lou Hamer, Rosa Parks, and Coretta Scott King Voting Rights Act Reauthorization and Amendments Act of 2006 , 109 th Cong., 2 nd sess., May 22, 2006, H.Rept. 109-478 , p. 2.
+84 .
+U.S. Congress, House Committee on the Judiciary, Fannie Lou Hamer, Rosa Parks, and Coretta Scott King Voting Rights Act Reauthorization and Amendments Act of 2006 , 109 th Cong., 2 nd sess., May 22, 2006, H.Rept. 109-478 , p. 21.
+85 .
+As enacted, see §7, P.L. 109-246 . As currently codified see 52 U.S.C. §10503(b)(1).
+86 .
+On the NVRA generally, see CRS Report R45030, Federal Role in Voter Registration: The National Voter Registration Act of 1993 (NVRA) and Subsequent Developments , by Sarah J. Eckman.
+87 .
+For additional background, see, for example, Office of Personnel Management, "Voting Rights Program," 73 Federal Register 18715-18716, April 7, 2008; U.S. Department of Justice, "About Federal Observers and Election Monitoring," https://www.justice.gov/crt/about-federal-observers-and-election-monitoring ; and U.S. Department of Justice, "Fact Sheet on Justice Department's Enforcement Efforts Following Shelby County Decision," https://www.justice.gov/crt/file/876246/download .
+88 .
+See CRS In Focus IF12015, The John R. Lewis Voting Rights Advancement Act of 2021, S. 4 (117th Congress): Legal Overview , by L. Paige Whitaker.
+89 .
+See, for example, U.S. Congress, House Committee on the Judiciary, Subcommittee on the Constitution, Civil Rights, and Civil Liberties, Enforcement of the Voting Rights Act in the State of Texas , 116 th Cong., 1 st sess., May 3, 2019, Serial No. 116-18; and U.S. Congress, House Committee on the Judiciary, Subcommittee on the Constitution, Civil Rights, and Civil Liberties, Oversight of the Voting Rights Act: A Continuing Record of Discrimination , 117 th Cong., 1 st sess., May 27, 2021, Serial No. 117-24.
+90 .
+See, for example, U.S. Congress, Senate Committee on the Judiciary, From Selma to Shelby County: Working Together to Restore the Protections of the Voting Rights Act , 113 th Cong., 1 st sess., July 17, 2013, S.Hrg. 113-332; and U.S. Congress, House Committee on the Judiciary, Subcommittee on the Constitution, Civil Rights, and Civil Liberties, The Need to Enhance the Voting Rights Act: Practice-Based Coverage , 117 th Cong., 1 st sess., July 27, 2021, Serial No. 117-37.
+91 .
+See, for example, U.S. Congress, House Committee on the Judiciary, Subcommittee on the Constitution, Civil Rights, and Civil Liberties, The Need to Enhance the Voting Rights Act: Preliminary Injunctions, Bail-In Coverage, Election Observers, and Notice , 117 th Cong., 1 st sess., June 29, 2021, Serial No. 117-30.
+92 .
+For additional discussion of recent legislation, see, for example CRS In Focus IF11908, Voting Rights Act and H.R. 4 (117th Congress): An Overview , by L. Paige Whitaker and R. Sam Garrett; and CRS In Focus IF12015, The John R. Lewis Voting Rights Advancement Act of 2021, S. 4 (117th Congress): Legal Overview , by L. Paige Whitaker.
+93 .
+Guy-Uriel E. Charles and Luis Fuentes-Rowher, "The Voting Rights Act in Winter: The Death of a Superstatute," Iowa Law Review , vol. 100 (2015), pp. 1389-1439.
+94 .
+Guy-Uriel E. Charles and Luis Fuentes-Rowher, "The Voting Rights Act in Winter: The Death of a Superstatute," Iowa Law Review , vol. 100 (2015), pp. 1393, 1422.
+Download PDF
+Download EPUB
+Revision History
+Jun. 3, 2026
+HTML
+·
+PDF
+24% changed
+Apr. 25, 2023
+HTML
+·
+PDF
+Metadata
+Report Type: Reports
+Source: Congress.gov , CRSReports.Congress.gov
+Raw Metadata: JSON
