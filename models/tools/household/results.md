@@ -133,8 +133,8 @@ Net dollars per household per year (benefits minus costs). "Legacy" gives the le
 | Q-SAF | model | +$9,503 | +$5,618 | +$3,482 | −$76 | −$47,677 | −$16,627 | −$637,624 |
 | Q-EDU | legacy | +$9,133 | +$6,462 | +$2,819 | −$1,736 | −$50,430 | −$18,201 | −$662,769 |
 | Q-EDU | model | +$9,894 | +$5,689 | +$2,987 | −$1,335 | −$49,367 | −$18,763 | −$630,830 |
-| Q-H7 | legacy | +$14,308 | +$16,689 | +$19,667 | +$20,213 | −$28,111 | +$4,565 | −$648,947 |
-| Q-H7 | model | +$15,232 | +$15,617 | +$18,179 | +$18,542 | −$26,857 | +$4,423 | −$621,186 |
+| Q-H7 | legacy | +$13,833 | +$14,368 | +$13,822 | +$9,311 | −$59,497 | −$14,850 | −$907,792 |
+| Q-H7 | model | +$14,691 | +$13,293 | +$12,575 | +$8,130 | −$56,461 | −$13,783 | −$867,350 |
 
 ### Reconciliation, scenario Q: from the legacy figures to the model's, one change at a time
 
@@ -254,9 +254,9 @@ The typical state gives the same highest rates: the charge starts above 300% of 
 This section carries the parts of the retired legacy report (`legacy/index/revenue-household-incidence-model.md`, last generated November 13, 2026) that section 5 does not: D3's revenue-mix test, the year-by-year paths, the rows that move the fourth quintile, the open choices, dynamic effects and the limits. D3's test: every income group below the top comes out ahead on net from the agenda's combined taxes, fees and benefits, and new general-fund revenue comes mostly from the top 1% and corporations. The engine is `d3.py`; "legacy" is the typed keys over 140 million households, which the budget model's readers still use, and "model" the measured keys.
 
 - **Scenario Q, the decided package: the household test does not pass.** On the measured keys Q1 to Q4 are +$9,474, +$5,578, +$3,432, −$131 a household a year, FY2030-39 average (legacy keys: +$8,791, +$6,514, +$3,464, −$312). The fourth quintile is the group behind.
-- **The revenue-mix test passes in every scenario:** the top 1% (by incidence) and corporations (statutory) bear 76% of new general-fund revenue on scenario Q (legacy keys 76%; the rule is more than half). The EDU-9B fund's contribution and SAF-R2 are not general-fund revenue and are left out of it.
+- **The revenue-mix test passes in every scenario:** the top 1% (by incidence) and corporations (statutory) bear 76% of new general-fund revenue on scenario Q (legacy keys 76%; the rule is more than half). The EDU-9B fund's contribution and SAF-R2 are not general-fund revenue and are left out of it, and so are health's contributions (`DEC-2026-11-15-29`: the household and employer contributions and the taxes folded into them, as replacements for premiums).
 - **The employer health-exclusion cap is the swing:** at the median premium (C19, the fallback) the fourth quintile reads −$293, against −$131 at the 75th percentile (C19b, decided). Once the employer groups move (2033-35) the exclusion ends (HX), so the cap stops applying; the settlement must take that overlap out.
-- **Health is not in scenario Q on either side.** Scenario Q-H7 adds the single plan's household rows (H7h, H7w), long-term care (H9) and HX's tax, without the plan's financing (the settlement's): the fourth quintile reads +$18,542, a reading before financing, not a pass.
+- **Health is in scenario Q-H7, on its booked path with its financing.** Q-H7 adds to Q the single plan's household rows on the corrected path (premiums and out-of-pocket costs households stop paying, employer premiums that become pay, HX's tax and the worker transition credit), long-term care (H9) and package E: the unified household contribution, the fold-in of the worker's HI, the 0.9% and H1b's wage half, the employer contribution (borne by workers, as premiums are) with the tax it takes from HX, and the four new streams (H1a is a row of Q). On the measured keys Q1 to Q4 are +$14,691, +$13,293, +$12,575, +$8,130 a household a year, FY2030-39 average: every quintile below the top comes out ahead. Its revenue-mix test, health's contributions left out, is 66%. The household record for health stays the cost review's take-home tests (`dossiers/foundations/health-household-contribution.md`); this is the same package on D3's keys and window.
 - **The education fund (EDU-9B, held)** as a closer in place of C19b and C20 gives the fourth quintile −$1,335. Its contribution (about 1.4 points of payroll) is counted entirely on workers.
 - **Averages hide losers inside the fourth quintile**: a household without children, marketplace or Medicare coverage, and with employer coverage above the 75th-percentile premium, gets few of the benefits and most of the costs. Within-quintile spread is the household model's next addition.
 
@@ -269,7 +269,7 @@ This section carries the parts of the retired legacy report (`legacy/index/reven
 | Q-C19 | 75% | 75% |
 | Q-SAF | 76% | 76% |
 | Q-EDU | 79% | 79% |
-| Q-H7 | 51% | 51% |
+| Q-H7 | 66% | 66% |
 
 ### By year
 
@@ -324,7 +324,7 @@ Each row's ten-year total spread over 2030-39 by its phase-in profile (`models/d
 
 ### Open choices this test informs
 
-These are options with their effects, not edits to any canonical file: (1) the early-year dip, by the sequencing levers above; (2) EDU-9B as a closer (a D3 and D4 decision: a middle-reaching contribution and a new dedicated fund); (3) SAF-R2, dropping the alcohol excise (scenario Q-SAF); (4) the Climate Dividend's share of the transition money (CLI-2C), which helps every quintile equally; (5) health's financing, which D3 can be read for only once the settlement's taxes are rowed against scenario Q-H7; (6) the 65-cent ceiling (section 7).
+These are options with their effects, not edits to any canonical file: (1) the early-year dip, by the sequencing levers above; (2) EDU-9B as a closer (a D3 and D4 decision: a middle-reaching contribution and a new dedicated fund); (3) SAF-R2, dropping the alcohol excise (scenario Q-SAF); (4) the Climate Dividend's share of the transition money (CLI-2C), which helps every quintile equally; (5) which rows give way for health's first call on booked revenue (`DEC-2026-11-15-20`), stage G's choice, which scenario Q-H7 does not yet show; (6) the 65-cent ceiling (section 7).
 
 ### Dynamic effects
 

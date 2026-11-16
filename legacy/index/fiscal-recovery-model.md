@@ -61,21 +61,21 @@ Delaying C19b/C20 to a three-year 2033–35 phase-in forgoes $0.360T; these rece
 
 | Case | GF primary 2030–39 ($T) | Extra net receipts needed at maturity (% GDP) | FY2040 GF gap ($B) | Total debt/GDP 2056 | FY2056 extra primary adjustment for flat debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Education reference | 3.398 | 1.788% | 689.9 | 187.8% | 4.38% GDP |
-| Recovery: delay C19b/C20 | 3.758 | 1.788% | 689.9 | 188.9% | 4.39% GDP |
-| Recovery downside | 4.998 | 2.097% | 845.3 | 197.5% | 4.76% GDP |
-| Recovery plus housing/service space | 4.259 | 1.969% | 792.4 | 193.4% | 4.60% GDP |
-| Recovery plus housing/service space downside | 5.499 | 2.278% | 947.7 | 202.0% | 4.97% GDP |
-| Replace C19b/C20 plus housing/service space downside | 5.972 | 2.446% | 1031.8 | 206.1% | 5.17% GDP |
+| Education reference | 3.579 | 1.740% | 704.6 | 187.6% | 4.33% GDP |
+| Recovery: delay C19b/C20 | 3.939 | 1.740% | 704.6 | 188.7% | 4.34% GDP |
+| Recovery downside | 5.179 | 2.049% | 859.9 | 197.2% | 4.71% GDP |
+| Recovery plus housing/service space | 4.440 | 1.921% | 807.0 | 193.2% | 4.55% GDP |
+| Recovery plus housing/service space downside | 5.680 | 2.230% | 962.3 | 201.8% | 4.92% GDP |
+| Replace C19b/C20 plus housing/service space downside | 6.153 | 2.398% | 1046.4 | 205.9% | 5.12% GDP |
 
 | Case | Additional net resources phased 2035–44 (% GDP at maturity) | Debt/GDP 2056 after illustrative adjustment |
 | --- | ---: | ---: |
-| Education reference | 3.87% | 115.3% |
-| Recovery: delay C19b/C20 | 3.88% | 116.2% |
-| Recovery downside | 4.20% | 118.7% |
-| Recovery plus housing/service space | 4.07% | 117.3% |
-| Recovery plus housing/service space downside | 4.39% | 119.8% |
-| Replace C19b/C20 plus housing/service space downside | 4.56% | 120.6% |
+| Education reference | 3.83% | 115.9% |
+| Recovery: delay C19b/C20 | 3.83% | 116.8% |
+| Recovery downside | 4.16% | 119.4% |
+| Recovery plus housing/service space | 4.02% | 117.9% |
+| Recovery plus housing/service space downside | 4.35% | 120.4% |
+| Replace C19b/C20 plus housing/service space downside | 4.52% | 121.2% |
 
 The second table solves for nonincreasing debt/GDP in every year 2045–56, with additional net resources phased 2035–44. These are financing requirements after any offsets and protection, not tax rates or scored receipts; SS/HI reforms are not added again. No behavior, inflation or implementation forecast is implied.
 

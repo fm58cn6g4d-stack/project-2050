@@ -190,13 +190,26 @@
   },
   {
    "id": "Q-H7",
-   "label": "Q-H7. Q with the single plan's household rows (H7h, H7w, H7x) and its long-term care title (H9), before the settlement's new taxes; not a pass or fail",
+   "label": "Q-H7. Q with the single plan as booked: its household rows on the corrected path (H7h, H7w, H7x, H7c), its long-term care title (H9) and its financing (package E: HCU, the fold-in, HEC and HEX, the new streams HS1 to HS4; H1a is in Q)",
    "options": [
     "DEC",
     "H7h",
     "H7w",
     "H7x",
-    "H9"
+    "H7c",
+    "H9",
+    "HCUw",
+    "HCU",
+    "HCW",
+    "HCA",
+    "HCP",
+    "HCH",
+    "HEC",
+    "HEX",
+    "HS1",
+    "HS2",
+    "HS3",
+    "HS4"
    ]
   }
  ]

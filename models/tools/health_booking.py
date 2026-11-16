@@ -42,9 +42,13 @@ health-cost-review.md part 5; test_fiscal_health_financing.py):
   (states-payment) and the worker transition credit (worker-credit, from FY2035);
 - package E's revenue rows with the unified household contribution (financing()): HCU, the fold-in's HCW, HCA, HCP and
   HCH, the employer contribution HEC with HEX (the tax it takes from HX), and the five new streams HS1 to HS4 and H1a.
-  The household contribution, its fold-in and the streams start with the January 2035 endpoint, since part 9,
-  question 9 (the path before it) is open; transition_options() prices the proposals;
+  The fold-in starts with the January 2035 endpoint; the household contribution steps with the waves before it and
+  the streams start in FY2030 (DEC-2026-11-16-01, -02); transition_options() prices the proposals;
 - health's first call on booked revenue (first_call()), a reassignment reported, not booked.
+The booking's follow-up (no decision needed): HLT-7's status-rule component priced on the corrected base
+(status_rule(corrected())); HEC and HEX after the window with the no-offer phase-in's last steps (employer_after(),
+fiscal-after.csv); and the D3 household test's health rows on the corrected, booked path (incidence_booked():
+incidence-rows.csv, incidence-keys.csv, incidence-phase-in.csv and scenario Q-H7 in scenarios.json).
 The financing tools (health_financing.py, health_cost_review.py) read the budget as it stood before this booking
 (health_before_booking.json), so the package is not counted twice; that file is frozen.
 """
@@ -131,14 +135,25 @@ def fiscal():
     return _load("hb_fiscal", os.path.join(HERE, "fiscal-model.py"))
 
 
-def status_rule():
+def status_rule(cor=None):
     """HLT-7's status-rule correction (DEC-2026-11-12-19): people with no immigration status beyond the residual are
     not covered, and Emergency Medicaid and hospitals' DSH-type uncompensated-care share (DEC-2026-11-13-02) keep paying
     for everyone with no status (dossiers/care/tools/status_rule.py,
-    6-cost.md part 2b). Returns the central path and the low and high readings' FY2030-39 totals ($ billion)."""
+    6-cost.md part 2b). Returns the central path and the low and high readings' FY2030-39 totals ($ billion).
+    With `cor` (corrected()), the coverage removed is priced on the corrected base: care's average newly covered
+    person, scaled each year by the cost review's price for the newly covered (people under 65 at private enrollees'
+    repriced claims, correction 2) with D1 and D5 against the model's, at that year's hospital rate. D1 and D5 are
+    priced on everyone the rebuild covers, so pricing the people removed with them on keeps each saving counted once.
+    Emergency Medicaid and the DSH-type share are federal payments outside the plan's prices and stay as they are."""
     SR = _load("hb_status_rule", os.path.join(ROOT, "dossiers", "care", "tools", "status_rule.py"))
-    runs = [SR.health(i)["net"] for i in range(3)]
-    return dict(path=runs[1], window=[sum(r[y] for y in W) for r in runs], fy2040=[r[2040] for r in runs])
+    hs = [SR.health(i) for i in range(3)]
+    scale = {y: 1.0 for y in FY}
+    if cor is not None:
+        pp = cor["newly_pp"]
+        scale = {y: pp["d5"][cor["glide"][y]] / pp["model"][cor["glide"][y]] for y in FY}
+    runs = [{y: h["removed"][y] * scale[y] + h["em_kept"][y] + h["dsh_kept"][y] for y in FY} for h in hs]
+    return dict(path=runs[1], window=[sum(r[y] for y in W) for r in runs], fy2040=[r[2040] for r in runs],
+                care_base=[sum(h["net"][y] for y in W) for h in hs], scale=scale)
 
 
 def hlt6_part_a_share():
@@ -173,7 +188,7 @@ def booking(full=True):
     fedcov = {y: -FEDCOV_SPEND_2032 / xf * hp["excl"][y] for y in W + [2040]}
     # the status rule (DEC-2026-11-12-19): coverage removed for people with no status, Emergency Medicaid kept, and
     # hospitals' DSH-type uncompensated-care share kept for them (DEC-2026-11-13-02)
-    sr = status_rule()
+    sr = status_rule(cor)
     status = {y: sr["path"][y] for y in W + [2040]}
     hx = {y: hp["excl"][y] * (1 - FEDCOV_REVENUE_2032 / xf) for y in W + [2040]}
     terr_shape = {y: spend0[y] for y in W + [2040]}    # the territories phase in on the waves (HLT-7.28)
@@ -216,6 +231,7 @@ def booking(full=True):
         for k in ("admin-4pct", "drug-prices", "national-budget", "states-payment", "worker-credit"):
             years["HLT-7/" + k] = window(hlt7_fy[k])
         after["HLT-7/worker-credit"] = credit_after(fin["credit"][2040])
+        after.update(employer_after(fin, B, F))
         rev_fy = fin["rows"]
         for k, v in rev_fy.items():
             years[k] = window(v)
@@ -388,7 +404,9 @@ def corrected():
     out = dict(model=tot["model"], errors=tot["errors"], d1={y: tot["d1"][y] - tot["errors"][y] for y in FY},
                d5={y: tot["d5"][y] - tot["d1"][y] for y in FY}, hold=hold, states=states, gross_errors=gross,
                state_former_full=r0["state_former"], states_netted_full=netted, glide=glide,
-               full_2032={k: {r: v["net_total"] for r, v in c_.items()} for k, c_ in reb.items()})
+               full_2032={k: {r: v["net_total"] for r, v in c_.items()} for k, c_ in reb.items()},
+               newly_pp={k: {r: v["groups"]["uninsured"]["per_person_2032"] for r, v in c_.items()}
+                         for k, c_ in reb.items()})
     _CACHE["corrected"] = out
     return out
 
@@ -470,6 +488,27 @@ def credit_after(credit_2040, B=None, F=None):
     g = F.growth_index(B, "rev_payroll")
     share = lambda y: 1.0 if y <= CREDIT_LAST_FULL else max(0.0, 1 - (y - CREDIT_LAST_FULL) / (CREDIT_NONE_FROM - CREDIT_LAST_FULL))  # noqa: E731
     return {y: round(credit_2040 * g[y] / g[2040] * (0.25 * share(y - 1) + 0.75 * share(y)), 2) for y in AFTER_YEARS}
+
+
+HEC_AFTER_YEARS = list(range(2040, 2046))   # the no-offer phase-in is full in calendar 2044, so in FY2045
+
+
+def employer_after(fin, B=None, F=None):
+    """The employer contribution (HEC) and the tax it takes from HX (HEX) after the window, FY2040-45, for
+    fiscal-after.csv ($ billion): the gross on the premiums moved, growing with pay (the payroll category), less what
+    employers with no 2028 coverage do not yet pay (DEC-2026-11-15-23 (b): a tenth of the rate in 2035, full in 2044;
+    health_financing.phase_left()), so the phase-in's last steps are counted. From FY2046 the rows grow with their
+    growth index, as before. Signs as fiscal-after.csv keeps them for revenue rows: a gain negative."""
+    HF, _ = _hf()
+    F = F or fiscal()
+    B = B or F.read_baseline(os.path.join(ROOT, "models", "data", "fiscal-baseline.csv"))
+    g = F.growth_index(B, "rev_payroll")
+    p40 = fin["path"][2040]
+    gross40 = p40["employer_gross"] + p40["phase_in"]
+    per_left = p40["phase_in"] / HF.phase_left(2040)          # the uncharged pay at the whole rate, FY2040
+    hec = {y: (gross40 - per_left * HF.phase_left(y)) * g[y] / g[2040] for y in HEC_AFTER_YEARS}
+    # a revenue row's path in fiscal-after.csv is in deficit terms: a gain is negative (as C1T's)
+    return {"HEC": {y: round(-v, 2) for y, v in hec.items()}, "HEX": {y: round(fin["tau"] * v, 2) for y, v in hec.items()}}
 
 
 def booking_base():
@@ -611,8 +650,10 @@ def exclusion_key():
 
 
 def incidence():
-    """HLT-7's household rows on the booked fiscal-year path, FY2030-39 ($ trillion), with their year shapes and the
-    distribution key for household premiums and out-of-pocket costs removed."""
+    """HLT-7's household rows on the care dossier's own fiscal-year path, FY2030-39 ($ trillion), with their year
+    shapes and the distribution key for household premiums and out-of-pocket costs removed. The financing tools
+    (health_financing.py, health_cost_review.py) measure from these; the D3 test's rows are incidence_booked()'s,
+    on the corrected, booked path."""
     hp = health_path()
     HP, gf = hp["HP"], hp["gf"]
     hh = household_removed(hp)
@@ -628,6 +669,7 @@ def incidence():
     shape = lambda d: [round(d.get(y, 0.0) / max(d.get(y2, 0.0) for y2 in W), 3) for y in W]  # noqa: E731
     key, top1 = band_key(hh["bands"])
     return dict(
+        paths={"H7h": h7h, "H7w": wages},
         rows={"H7h": tn(h7h), "H7w": tn(wages), "H7x": tn(hp["excl"])},
         shapes={"H7h": shape(h7h), "H7w": shape(wages), **legacy_shapes()},
         key={"health_hh": (key, top1), "exclusion_end": exclusion_key()},
@@ -643,6 +685,120 @@ def legacy_shapes():
     b = booking(full=False)
     sc = lambda v: [round(x / max(v, key=abs), 3) + 0.0 if max(v, key=abs) else 0.0 for x in v]  # noqa: E731
     return {"H1": sc(b["years"]["HLT-1"]), "H2": sc(b["years"]["HLT-2"]), "MA": sc(b["years"]["HLT-6"])}
+
+
+# ---- the household test (D3) on the corrected, booked path (incidence-rows.csv; scenario Q-H7) ----
+# Each row follows the cost review's household record (health_cost_review.unified_package()'s rows, FY2040) on the
+# booked fiscal-year paths, FY2030-39. Keys the D3 test already holds are used where the base is the same; the
+# contribution's, the employer contribution's and the credit's keys are the household model's measurements that the
+# record uses, typed into incidence-keys.csv (keys.csv marks them kept). Where the record and D3's conventions differ,
+# D3's are kept: HS4's corporate increment on the 25/75 convention, and H1b's wage half (HCH) on H1b's own key, so the
+# two cancel exactly. The 0.9% (HCA) uses the key of wages above $250,000 (the record's own key is measured on the
+# CPS, which top-codes wages).
+D3_FOLD = {"HCW": "wages", "HCA": "above250k_wages", "HCP": "exclusion_end", "HCH": "inv400k"}
+D3_STREAMS = {"HS1": "ftt", "HS2": "billionaires", "HS3": "inv400k", "HS4": "wages 0.25*x; capital 0.75*x"}
+# DEC-2026-11-15-29: health's contributions are counted outside D3's revenue-mix test, as replacements for premiums:
+# the household and employer contributions and the rows that fold into them. HEX stays in, with HX: it is the part of
+# HX's tax on former premiums that never arises because employers pay the contribution instead (models/tools/
+# household/d3.py, HEALTH_CONTRIBUTIONS, holds the same list).
+D3_CONTRIBUTIONS = ("HCU", "HCUw", "HCW", "HCA", "HCP", "HCH", "HEC")
+D3_KEY_NOTES = {
+    "health_contrib": "the unified household contribution from the January 2035 endpoint (DEC-2026-11-15-10 to -13: "
+                      "2.25% of AGI with the exemption from 138% to 250% of poverty, plus the surcharge with H1b's "
+                      "points), its statutory charge on the 2029 households at FY2040's parameters "
+                      "(health_cost_review.py _unified_key(); health_booking.py incidence_booked())",
+    "health_contrib_wave": "the unified household contribution before the endpoint (DEC-2026-11-16-01: the base rate "
+                           "in steps with the waves, at its window-weighted average, and the 5-point surcharge), as "
+                           "health_contrib (health_booking.py incidence_booked())",
+    "health_contrib_avoid": "what avoidance keeps the unified contribution from collecting (the 20% allowance): all in "
+                            "the top quintile, the top 1% scaled as the contribution's own key "
+                            "(health_financing.py avoidance_key(); health_booking.py incidence_booked())",
+    "employer_contrib": "the employer health contribution (DEC-2026-11-15-21 to -23): pay between $20,000 and the "
+                        "wage base, less the no-offer phase-in's uncharged pay, weighted by the booked FY2031-39 path; "
+                        "on workers, as premiums are (health_financing.py wages_band and wages_band_nooffer; "
+                        "health_booking.py incidence_booked())",
+    "health_credit": "the worker transition credit (DEC-2026-11-15-24): band pay of workers with no employer, "
+                     "marketplace or Medicare coverage, phased out from $60,000 to $120,000 of AGI, weighted by the "
+                     "booked FY2035-39 path (health_financing.py credit_key(); health_booking.py incidence_booked())",
+}
+
+
+def _shape(v):
+    """A year path as a phase-in shape (incidence-phase-in.csv, method norm): each year over the largest in size."""
+    m = max(v, key=abs)
+    return [round(x / m, 3) + 0.0 if m else 0.0 for x in v]
+
+
+def _blend(parts):
+    """A key from (weight, (shares, top 1%)) pairs."""
+    tot = sum(w for w, _ in parts)
+    q = [sum(w * k[0][i] for w, k in parts) / tot for i in range(5)]
+    return q, sum(w * k[1] for w, k in parts) / tot
+
+
+def incidence_booked():
+    """The D3 test's health rows on the corrected, booked path (DEC-2026-11-15-05 to -29, DEC-2026-11-16-01 to -03):
+    HLT-7's household rows, the worker transition credit, package E's household-facing rows and the four new streams
+    with their own rows (H1a keeps its package row), FY2030-39 ($ trillion), with their keys and year shapes.
+    - H7h: premiums and out-of-pocket costs households stop paying, less the spending that stays outside the plan
+      (the cost review's correction: nursing and non-durables bought out of pocket), on the groups' moves;
+    - H7w: employer premiums that become pay, without federal coverage (FEHB, TRICARE and the VA), on HX's path;
+    - H7x: HX as booked (already corrected); H7c: the credit (HLT-7/worker-credit);
+    - HCU (from the endpoint) and HCUw (before it) split HCU's booked path; HCW to HCH, HEC, HEX and HS1 to HS4 are
+      their ledger rows."""
+    if "incidence_booked" in _CACHE:
+        return _CACHE["incidence_booked"]
+    HF, CR = _hf()
+    ctx = HF.context()
+    K = ctx["K"]
+    f = financing()
+    b = booking()
+    inc = incidence()
+    f40 = ctx["f40"]
+    k_hh = (f40["households"] - f["case"]["outside"]) / f40["households"]
+    k_emp = f40["employers"] / f40["employers_all"]
+    tn = lambda d: round(sum(d.get(y, 0.0) for y in W) / 1000, 3)  # noqa: E731
+    paths = {"H7h": {y: v * k_hh for y, v in inc["paths"]["H7h"].items()},
+             "H7w": {y: v * k_emp for y, v in inc["paths"]["H7w"].items()},
+             "H7c": f["credit"],
+             "HCUw": f["before_endpoint"],
+             "HCU": {y: f["rows"]["HCU"][y] - f["before_endpoint"][y] for y in FY}}
+    for k in ("HCW", "HCA", "HCP", "HCH", "HEC", "HEX", *D3_STREAMS):
+        paths[k] = f["rows"][k]
+    # keys: the contribution's at FY2040's parameters (financing() registered it), and before the endpoint at the
+    # window-weighted step with the 5-point surcharge
+    u = f["spec"]
+    pre = f["before_endpoint"]
+    step = {y: 0.25 * WAVE_STEPS.get(y - 1, 0.0) + 0.75 * WAVE_STEPS.get(y, 0.0) for y in W}
+    r_wave = sum(pre[y] * step[y] for y in W) / sum(pre[y] for y in W)
+    tag = f["package"]["key"]
+    tag_w = CR._unified_key(ctx, dict(u, R=round(r_wave, 4), S=UNIFIED["S_BASE"]))
+    # the employer contribution: band pay less the no-offer phase-in's uncharged pay, on the booked path
+    HF.no_offer()
+    pp = f["path"]
+    emp = _blend([(pp[y]["employer_gross"] + pp[y]["phase_in"], K["wages_band"]) for y in W if pp[y]["employer_gross"]]
+                 + [(-pp[y]["phase_in"], K["wages_band_nooffer"]) for y in W if pp[y]["phase_in"]])
+    c = HF.WORKER_CREDIT
+    cred = _blend([(f["credit"][y], K[HF.credit_key(c["start"], c["end"], HF.phase_left(y), c["nocov_only"])[0]])
+                   for y in W if f["credit"][y]])
+    keys = {"health_contrib": K[tag], "health_contrib_wave": K[tag_w], "health_contrib_avoid": K["avoid_" + tag],
+            "employer_contrib": emp, "health_credit": cred}
+    keys = {k: (close(q), round(t1, 1)) for k, (q, t1) in keys.items()}
+    h = f["haircut"]
+    contrib = f"{{key}} {round(1 / (1 - h), 6):g}*x; health_contrib_avoid {-round(h / (1 - h), 6):g}*x"
+    rows = {"H7h": tn(paths["H7h"]), "H7w": tn(paths["H7w"]), "H7c": tn(paths["H7c"]), "HCUw": tn(paths["HCUw"])}
+    amounts = {"H7h": rows["H7h"], "H7w": rows["H7w"], "H7x": "[HX]", "H7c": rows["H7c"], "HCUw": rows["HCUw"],
+               "HCU": f"[HCU]-{rows['HCUw']}", **{k: f"[{k}]" for k in ("HCW", "HCA", "HCP", "HCH", "HEC", "HEX")},
+               **{k: f"[{k}]" for k in D3_STREAMS}}
+    parts = {"H7h": "health_hh", "H7w": "employer_cov", "H7x": "exclusion_end", "H7c": "health_credit",
+             "HCU": contrib.format(key="health_contrib"), "HCUw": contrib.format(key="health_contrib_wave"),
+             **D3_FOLD, "HEC": "employer_contrib", "HEX": "employer_contrib", **D3_STREAMS}
+    shapes = {k: _shape([paths[k].get(y, 0.0) for y in W]) for k in paths}
+    out = dict(rows=rows, amounts=amounts, parts=parts, keys=keys, shapes=shapes, paths=paths, r_wave=r_wave,
+               factors=dict(households=k_hh, employers=k_emp), haircut=h,
+               window={k: tn(v) for k, v in paths.items()}, credit_window=sum(b["years"]["HLT-7/worker-credit"]) / 1000)
+    _CACHE["incidence_booked"] = out
+    return out
 
 
 # C19b (Package B's cap on the employer exclusion at the 75th-percentile premium) taxes a base that HX ends: as each

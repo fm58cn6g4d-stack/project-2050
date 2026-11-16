@@ -452,16 +452,28 @@ def d3_markdown(R, A):
       f"year, FY2030-39 average (legacy keys: {', '.join(money(q['legacy'][g]['net']) for g in P.GROUPS[:4])})."
       + ("" if ok["model"] else " The fourth quintile is the group behind."))
     gq = D["model"]["gf"]["Q"]
-    A(f"- **The revenue-mix test passes in every scenario:** the top 1% (by incidence) and corporations (statutory) bear "
-      f"{gq[3]}% of new general-fund revenue on scenario Q (legacy keys {D['legacy']['gf']['Q'][3]}%; the rule is more "
-      "than half). The EDU-9B fund's contribution and SAF-R2 are not general-fund revenue and are left out of it.")
+    every = all(D[v]["gf"][n][3] > 50 for v in ("legacy", "model") for n in D[v]["gf"])
+    A(f"- **The revenue-mix test {'passes in every scenario' if every else 'passes on scenario Q'}:** the top 1% (by "
+      f"incidence) and corporations (statutory) bear {gq[3]}% of new general-fund revenue on scenario Q (legacy keys "
+      f"{D['legacy']['gf']['Q'][3]}%; the rule is more than half). The EDU-9B fund's contribution and SAF-R2 are not "
+      "general-fund revenue and are left out of it, and so are health's contributions (`DEC-2026-11-15-29`: the "
+      "household and employer contributions and the taxes folded into them, as replacements for premiums).")
     A(f"- **The employer health-exclusion cap is the swing:** at the median premium (C19, the fallback) the fourth "
       f"quintile reads {money(sc[next(n for n in sc if n.startswith('Q-C19'))]['model']['Q4']['net'])}, against "
       f"{money(q['model']['Q4']['net'])} at the 75th percentile (C19b, decided). Once the employer groups move (2033-35) "
       "the exclusion ends (HX), so the cap stops applying; the settlement must take that overlap out.")
-    A(f"- **Health is not in scenario Q on either side.** Scenario Q-H7 adds the single plan's household rows (H7h, H7w), "
-      f"long-term care (H9) and HX's tax, without the plan's financing (the settlement's): the fourth quintile reads "
-      f"{money(sc[next(n for n in sc if n.startswith('Q-H7'))]['model']['Q4']['net'])}, a reading before financing, not a pass.")
+    h7 = sc[next(n for n in sc if n.startswith("Q-H7"))]["model"]
+    h7_ok = all(h7[g]["net"] > 0 for g in P.GROUPS[:4])
+    A(f"- **Health is in scenario Q-H7, on its booked path with its financing.** Q-H7 adds to Q the single plan's "
+      "household rows on the corrected path (premiums and out-of-pocket costs households stop paying, employer premiums "
+      "that become pay, HX's tax and the worker transition credit), long-term care (H9) and package E: the unified "
+      "household contribution, the fold-in of the worker's HI, the 0.9% and H1b's wage half, the employer contribution "
+      "(borne by workers, as premiums are) with the tax it takes from HX, and the four new streams (H1a is a row of Q). "
+      f"On the measured keys Q1 to Q4 are {', '.join(money(h7[g]['net']) for g in P.GROUPS[:4])} a household a year, "
+      f"FY2030-39 average: {'every quintile below the top comes out ahead' if h7_ok else 'not every quintile below the top comes out ahead'}. "
+      f"Its revenue-mix test, health's contributions left out, is {D['model']['gf']['Q-H7'][3]}%. The household record "
+      "for health stays the cost review's take-home tests (`dossiers/foundations/health-household-contribution.md`); "
+      "this is the same package on D3's keys and window.")
     A(f"- **The education fund (EDU-9B, held)** as a closer in place of C19b and C20 gives the fourth quintile "
       f"{money(sc[next(n for n in sc if n.startswith('Q-EDU'))]['model']['Q4']['net'])}. Its contribution (about 1.4 "
       "points of payroll) is counted entirely on workers.")
@@ -505,8 +517,9 @@ def d3_markdown(R, A):
     A("These are options with their effects, not edits to any canonical file: (1) the early-year dip, by the "
       "sequencing levers above; (2) EDU-9B as a closer (a D3 and D4 decision: a middle-reaching contribution and a new "
       "dedicated fund); (3) SAF-R2, dropping the alcohol excise (scenario Q-SAF); (4) the Climate Dividend's share of "
-      "the transition money (CLI-2C), which helps every quintile equally; (5) health's financing, which D3 can be read "
-      "for only once the settlement's taxes are rowed against scenario Q-H7; (6) the 65-cent ceiling (section 7).\n")
+      "the transition money (CLI-2C), which helps every quintile equally; (5) which rows give way for health's first "
+      "call on booked revenue (`DEC-2026-11-15-20`), stage G's choice, which scenario Q-H7 does not yet show; (6) the "
+      "65-cent ceiling (section 7).\n")
     A("### Dynamic effects\n")
     A(f"The ledger carries a dynamic sensitivity (not in any total): about {tn(LS['dynamic_mid'])} over 2030-39 "
       f"({tn(LS['dynamic_lo'])} to {tn(LS['dynamic_hi'])}) under CBO/JCT-style conventions, and about "
