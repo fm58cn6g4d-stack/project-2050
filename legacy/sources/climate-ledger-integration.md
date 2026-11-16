@@ -6,11 +6,11 @@ Before: common outputs rebuilt at `ffe461d32dc0f50f58213bcb5347d49343e46611`, be
 
 | Measure | Before the climate package | Now (all changes) |
 | --- | ---: | ---: |
-| DEC FY2040 GF primary gap ($B) | 71.9 | 871.4 |
+| DEC FY2040 GF primary gap ($B) | 71.9 | 871.3 |
 | DEC FY2040 GF primary gap (% GDP) | 0.133 | 1.609 |
-| Recovery mature GF gap (% GDP; negative is headroom) | -0.0083 | 1.2778 |
-| DEC 2056 debt (% GDP) | 155.7 | 201.8 |
-| Mixed reserve-corridor 2056 debt (% GDP) | 115.3 | 170.1 |
+| Recovery mature GF gap (% GDP; negative is headroom) | -0.0083 | 1.2775 |
+| DEC 2056 debt (% GDP) | 155.7 | 194.1 |
+| Mixed reserve-corridor 2056 debt (% GDP) | 115.3 | 161.7 |
 | Scenario Q, Q4 annual average ($) | 1,261 | -312 |
 | Mixed recovery Q4 FY2039 ($) | -2,906 | -4,199 |
 

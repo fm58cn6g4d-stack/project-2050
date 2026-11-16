@@ -301,11 +301,14 @@ def booking(full=True):
 # (-09) with the unified household contribution (-10 to -13), the small-employer allowance (-14), the five new streams
 # (-15 to -19), health's first call on booked revenue (-20), the employer contribution and its rules (-21 to -23), the
 # worker transition credit (-24), the states at 100% (-25), the self-employed (-26), D3 and D4 kept (-27), HLT-7 on
-# CBO's Medicare figure (-28) and counting in the plan's fund (-29). The household contribution's path through the
-# transition (health-financing.md part 9, question 9) is not decided (DEC-2026-11-15-29), so nothing that depends on it
-# is booked: the contribution, its fold-in and the five new streams start with the January 2035 endpoint, when every
-# answer to that question gives the same charge, and transition_options() prices the proposals for FY2031-34.
+# CBO's Medicare figure (-28) and counting in the plan's fund (-29). Espen's answers of November 16 settle the
+# transition: the household contribution steps with the waves from 2031, with the 5-point surcharge, and the fold-in
+# starts with the January 2035 endpoint (DEC-2026-11-16-01); the five new streams start in FY2030 (-02); the
+# small-employer allowance applies to the premium-based contribution in FY2031-34 too (-03).
 FY = W + [2040]
+# DEC-2026-11-16-01: the unified contribution's base rate before the January 2035 endpoint, by calendar year, in steps
+# with the share of people moved (2.25% x 26% in 2031-32, x 44% in 2033, x 63% in 2034; transition_options())
+WAVE_STEPS = {2031: 0.6, 2032: 0.6, 2033: 1.0, 2034: 1.4}
 NEW_HLT7 = ("admin-4pct", "drug-prices", "national-budget", "states-payment", "worker-credit")
 D1_ADMIN, D5_DRUGS = 0.04, 0.25           # DEC-2026-11-15-07, -06
 D2_EXTRA, D2_START = 0.01, 2037           # DEC-2026-11-15-08
@@ -394,11 +397,12 @@ def financing():
     """Package E with the unified household contribution (DEC-2026-11-15-09 to -24), FY2040 from
     health_cost_review.unified_package() and year by year FY2030-40 ($ billion; revenue a gain positive, spending a cost
     positive). The employer contribution follows the waves from 2031 (health_financing.package_path(): on the premiums
-    of the coverage moved, then the payroll-based contribution with the no-offer phase-in from 2035), as the credit
-    does from 2035; the household contribution, its fold-in (the worker's HI, the 0.9% and worker HI on former
-    premiums end; H1b's wage half loses its base, won back in the surcharge) and the five new streams start with the
-    January 2035 endpoint (part 9, question 9 open; DEC-2026-11-15-29). Health's first call on booked revenue is
-    what is left of health's need each year (a reassignment, not a row: it changes no total)."""
+    of the coverage moved, with the small-employer allowance, DEC-2026-11-16-03, then the payroll-based contribution
+    with the no-offer phase-in from 2035), and the credit starts in 2035. The household contribution steps with the
+    waves from 2031 with the 5-point surcharge (DEC-2026-11-16-01), in full from the January 2035 endpoint, when the
+    fold-in starts (the worker's HI, the 0.9% and worker HI on former premiums end; H1b's wage half loses its base, won
+    back in the surcharge). The five new streams start in FY2030 (DEC-2026-11-16-02). Health's first call on booked
+    revenue is what is left of health's need each year (a reassignment, not a row: it changes no total)."""
     if "financing" in _CACHE:
         return _CACHE["financing"]
     HF, CR = _hf()
@@ -432,11 +436,22 @@ def financing():
         "HEC": emp,
         "HEX": {y: -tau * emp[y] for y in FY},
     }
+    # DEC-2026-11-16-01: before the endpoint the base rate steps with the waves (WAVE_STEPS) and the surcharge is 5
+    # points from wave 1 (H1b keeps its own base until the fold-in), with no credit for premiums still paid; the fold-in
+    # rows start with the endpoint. Calendar years on the fiscal-year blend, at each fiscal year's income growth.
+    h = o["haircut"]
+    base40 = CR.unified_statutory_bn(ctx, dict(u, S=0.0), "base") * (1 - h)              # R in full, FY2040
+    sur40 = CR.unified_statutory_bn(ctx, dict(u, S=UNIFIED["S_BASE"]), "surcharge") * (1 - h)   # 5 points, FY2040
+    cal = {c: base40 * WAVE_STEPS[c] / UNIFIED["R"] + sur40 for c in WAVE_STEPS}
+    pre = {y: (0.25 * cal.get(y - 1, 0.0) + 0.75 * cal.get(y, 0.0)) * inc[y] for y in FY}
+    rows["HCU"] = {y: rows["HCU"][y] + pre[y] for y in FY}
+    # DEC-2026-11-16-02: the five streams start with the 2029 act, in FY2030, at their central yields grown with GDP
     for (rid, _, _), (_, v, _, _) in zip(STREAMS, CR.NEW_STREAMS):
-        rows[rid] = {y: v * inc[y] * E[y] for y in FY}
+        rows[rid] = {y: v * inc[y] for y in FY}
     credit = {y: pp[y]["credit"] for y in FY}
     out = dict(rows=rows, credit=credit, package=o, spec=u, tau=tau, allowance_share=allow, path=pp, case=case,
-               h1b=h1b, statutory_2040=o["statutory"], haircut=o["haircut"])
+               h1b=h1b, statutory_2040=o["statutory"], haircut=o["haircut"], before_endpoint=pre,
+               base_2040=base40, surcharge5_2040=sur40)
     _CACHE["financing"] = out
     return out
 
@@ -480,11 +495,12 @@ def first_call(b=None):
 
 
 def transition_options():
-    """Part 9, question 9 for the unified contribution (not decided, DEC-2026-11-15-29): what each path for FY2031-34
-    would collect, and health's first call on booked revenue in those years under each ($ billion by fiscal year).
-    'endpoint': nothing before January 2035, as booked; 'waves': the base rate in steps with the share of people moved
-    (the exemption as decided) and the surcharge at 5 points from wave 1, no fold-in before the endpoint (HI still pays
-    Medicare's claims) and no credit for premiums still paid; 'full': R and S = 5 in full from wave 1."""
+    """Part 9, question 9 for the unified contribution, as priced for Espen (decided November 16: 'waves',
+    DEC-2026-11-16-01): what each path for FY2031-35 collects before the endpoint ($ billion by fiscal year), and the
+    share of people moved that sets the steps. 'endpoint': nothing before January 2035; 'waves': the base rate in steps
+    with the share of people moved (the exemption as decided) and the surcharge at 5 points from wave 1, no fold-in
+    before the endpoint (HI still pays Medicare's claims) and no credit for premiums still paid; 'full': R and S = 5
+    in full from wave 1. first_call is the booked first call less what each option collects beyond the booked one."""
     HF, CR = _hf()
     ctx = HF.context()
     f = financing()
@@ -518,7 +534,8 @@ def transition_options():
                 got[y] = (base40 * mfy[y] + sur40) * inc[y] * on[y] * pre[y]
             else:
                 got[y] = (base40 + sur40) * inc[y] * on[y] * pre[y]
-        out["options"][name] = dict(collected=got, first_call={y: calls[y] - got[y] for y in got},
+        booked = {y: f["before_endpoint"][y] for y in got}
+        out["options"][name] = dict(collected=got, first_call={y: calls[y] - got[y] + booked[y] for y in got},
                                     collected_window=sum(got.values()))
     return out
 

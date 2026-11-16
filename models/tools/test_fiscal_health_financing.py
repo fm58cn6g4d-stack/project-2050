@@ -117,16 +117,34 @@ class HealthFinancingBooking(unittest.TestCase):
         self.assertAlmostEqual(o["reassigned"], 515.7, delta=0.5)
 
     def test_timing(self):
+        """DEC-2026-11-16-01 to -03: the fold-in starts with the January 2035 endpoint; the household contribution steps
+        with the waves from 2031 (5-point surcharge, no fold-in); the streams start in FY2030; the employer contribution
+        follows the moved coverage from 2031, with the allowance."""
         rf = self.b["revenue_fy"]
-        for k in ENDPOINT_ROWS:     # part 9, question 9 is open (DEC-2026-11-15-29): nothing before calendar 2035
+        for k in ("HCW", "HCA", "HCP", "HCH"):
             self.assertTrue(all(rf[k][y] == 0 for y in range(2030, 2035)), k)
             self.assertTrue(0.6 < rf[k][2035] / rf[k][2036] < 0.75, k)     # FY2035: three quarters of a year
+        hcu = rf["HCU"]
+        self.assertEqual(hcu[2030], 0)
+        self.assertEqual(HB.WAVE_STEPS, {2031: 0.6, 2032: 0.6, 2033: 1.0, 2034: 1.4})
+        f = self.fin
+        self.assertTrue(all(hcu[y] > 0 for y in range(2031, 2041)))
+        # FY2032 is calendar 2031-32's 0.6% and the 5-point surcharge, at FY2032's income growth
+        per = {y: HF.per_point(HF.plan_gap(), y)["high_income"] for y in (2032, 2040)}
+        want = (f["base_2040"] * 0.6 / 2.25 + f["surcharge5_2040"]) * per[2032] / per[2040]
+        self.assertAlmostEqual(hcu[2032], want, places=6)
+        self.assertLess(hcu[2034], hcu[2035])
+        g30 = HF.per_point(HF.plan_gap(), 2030)["high_income"] / per[2040]
+        for k, (_, v, _, _) in zip(STREAM_IDS, CR.NEW_STREAMS):     # in full from FY2030, grown with GDP
+            self.assertAlmostEqual(rf[k][2030], v * g30, places=6, msg=k)
+            self.assertTrue(all(rf[k][y] < rf[k][y + 1] for y in range(2030, 2040)), k)
         cr = self.b["hlt7_fy"]["worker-credit"]
         self.assertTrue(all(cr[y] == 0 for y in range(2030, 2035)))
         hec = rf["HEC"]
         self.assertEqual(hec[2030], 0)
         self.assertTrue(all(hec[y] > 0 for y in range(2031, 2041)))     # on the premiums of the coverage moved
         self.assertTrue(hec[2033] > 2.5 * hec[2032])
+        self.assertAlmostEqual(f["allowance_share"], HF.band_share() and CR.SMALL_FIRM_ALLOWANCE_SHARE / HF.band_share())
 
     def test_fiscal_model_books_the_rows(self):
         for k, v in self.b["fy2040"]["revenue"].items():
@@ -177,11 +195,15 @@ class HealthFinancingBooking(unittest.TestCase):
         for y in W:     # the rest of the plan's gap before the booking, plus health's first call
             rest = float(before[y]["agenda_gf_primary_bn"]) - HF.need_path(HF.seam())[y]["booked"]
             self.assertAlmostEqual(paths[y], rest + calls[y], delta=6, msg=y)
+        # with the streams from FY2030 and the steps from 2031, health's own sources exceed its need before 2035
+        self.assertTrue(all(calls[y] < 0 for y in range(2030, 2035)))
 
     def test_transition_options(self):
         t = HB.transition_options()
         o = t["options"]
         self.assertEqual(o["endpoint"]["collected_window"], 0)
+        booked = sum(self.fin["before_endpoint"][y] for y in range(2031, 2036))      # 'waves', at the rounded steps
+        self.assertAlmostEqual(booked, o["waves"]["collected_window"], delta=0.1 * booked)
         self.assertLess(o["waves"]["collected_window"], o["full"]["collected_window"])
         self.assertGreater(o["waves"]["collected_window"], 0)
         for y in range(2031, 2035):

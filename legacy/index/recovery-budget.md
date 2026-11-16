@@ -6,18 +6,18 @@
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
-| mixed | 131.5% | 170.1% | 8.48% | False | 9.40 |
-| larger_payroll | 132.1% | 173.2% | 8.72% | False | 9.78 |
-| mixed_downside | 136.9% | 189.2% | 10.01% | False | 15.11 |
-| mixed_all_debt_rate_plus1 | 139.6% | 206.5% | 11.79% | False | 13.14 |
-| mixed_no_macro_translation | 131.4% | 169.0% | 8.37% | False | — |
-| mixed_leave_admin_high | 131.6% | 170.4% | 8.50% | False | — |
-| mixed_ssa_medicare_all_hi | 131.5% | 170.1% | 8.48% | False | — |
-| mixed_ssa_medicare_all_smi | 131.5% | 170.1% | 8.48% | False | — |
-| mixed_reserve_corridor | 131.5% | 170.1% | 8.48% | False | — |
-| mixed_corridor_downside | 136.9% | 189.2% | 10.01% | False | — |
-| mixed_legacy_education_floor | 131.6% | 170.2% | 8.49% | False | — |
-| mixed_larger_credit | 135.9% | 174.6% | 8.60% | False | — |
+| mixed | 123.8% | 161.7% | 8.14% | False | 9.26 |
+| larger_payroll | 124.4% | 164.8% | 8.38% | False | 9.64 |
+| mixed_downside | 129.2% | 180.8% | 9.68% | False | 14.93 |
+| mixed_all_debt_rate_plus1 | 131.4% | 195.9% | 11.27% | False | 12.76 |
+| mixed_no_macro_translation | 123.7% | 160.7% | 8.03% | False | — |
+| mixed_leave_admin_high | 123.9% | 162.0% | 8.16% | False | — |
+| mixed_ssa_medicare_all_hi | 123.8% | 161.7% | 8.14% | False | — |
+| mixed_ssa_medicare_all_smi | 123.8% | 161.7% | 8.14% | False | — |
+| mixed_reserve_corridor | 123.8% | 161.7% | 8.14% | False | — |
+| mixed_corridor_downside | 129.2% | 180.8% | 9.68% | False | — |
+| mixed_legacy_education_floor | 123.9% | 161.8% | 8.15% | False | — |
+| mixed_larger_credit | 128.2% | 166.2% | 8.26% | False | — |
 
 The last column is the total broad-tier rate required under this static tax-yield proxy, replacing the proposed two-point broad tier, with the high tier unchanged. It is not a tax score.
 
@@ -35,19 +35,19 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | Fixed-grant comparison, FY | Current-law revenue | Current-law primary spending | Total revenue | Total spending | Net interest | Deficit | Debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2029 | 6261 | 7015 | 6261 | 8405 | 1345 | 2144 | 107.5% |
-| 2030 | 6534 | 7364 | 7334 | 9597 | 1456 | 2263 | 109.5% |
-| 2035 | 7898 | 8732 | 12196 | 15213 | 2066 | 3017 | 120.9% |
-| 2039 | 9294 | 10409 | 14979 | 18716 | 2640 | 3736 | 131.5% |
-| 2045 | 11831 | 13205 | 19496 | 24084 | 3663 | 4587 | 143.3% |
-| 2056 | 17910 | 20097 | 29511 | 37624 | 6448 | 8113 | 170.1% |
+| 2030 | 6534 | 7364 | 7640 | 9591 | 1450 | 1950 | 108.7% |
+| 2035 | 7898 | 8732 | 12400 | 15087 | 1940 | 2687 | 113.3% |
+| 2039 | 9294 | 10409 | 14979 | 18559 | 2483 | 3579 | 123.8% |
+| 2045 | 11831 | 13205 | 19497 | 23880 | 3459 | 4384 | 135.5% |
+| 2056 | 17910 | 20097 | 29511 | 37302 | 6126 | 7791 | 161.7% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 
 | Household diagnostic, FY2039 annual net $/household | Q1 | Q2 | Q3 | Q4 | Q5 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| mixed | 12,256 | 8,641 | 3,565 | -4,199 | -75,761 |
-| larger_payroll | 12,132 | 8,270 | 2,906 | -4,887 | -71,666 |
-| mixed_larger_credit | 14,551 | 11,377 | 6,728 | -1,894 | -85,360 |
+| mixed | 12,256 | 8,641 | 3,565 | -4,199 | -76,760 |
+| larger_payroll | 12,132 | 8,270 | 2,906 | -4,887 | -72,665 |
+| mixed_larger_credit | 14,551 | 11,377 | 6,728 | -1,894 | -86,359 |
 
 These are approximate quintile averages including modeled benefits, not a D3 certification or guarantees for individual households. See the assumptions and limits in the assessment.
 
@@ -55,7 +55,7 @@ These are approximate quintile averages including modeled benefits, not a D3 cer
 | --- | --- |
 | Education | Depletion: 2035; terminal reserve/outlays -2.59; rising: True |
 | Combined OASDI | Depletion: 2093; conservative model solvency: False; actuarial balance -0.31% payroll |
-| HI | Depletion: 2035; terminal reserve/cost -5.12; rising: False |
+| HI | Depletion: 2038; terminal reserve/cost -4.60; rising: False |
 | Leave, high take-up | No Treasury loan (peak $0.0B); terminal loan $0.0B |
 
 Combined OASDI has modeled depletion in 2093; its reserve/cost ratio moves from -10.9% in 2095 to -58.0% in 2100. The final-period decline is 47.17 percentage points: the unchanged maximum-decline test of 0.5 points fails. Sustainability also requires no depletion and a terminal ratio of at least 100%. Actuarial balance: -0.311% of payroll. SSA administration is charged to OASDI in this case.
