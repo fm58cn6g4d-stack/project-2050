@@ -1,0 +1,671 @@
+{
+ "archive_sha256": "fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93",
+ "ledger_sha256": "0d6094ffc83248d13daea6ea4e60d10d34888e57ec4b412eab414b96c9d6e637",
+ "max_base_weight_difference": 0.005,
+ "method": "successive difference replication, 160 replicates: SE = sqrt(4/160 x sum (est_r - est_0)^2); 90% interval = estimate +/- 1.645 SE; sampling error only",
+ "metrics": {
+  "d3_net_per_household": {
+   "A_net_Q1": {
+    "half90": 103.0265,
+    "hi90": 9621.0265,
+    "lo90": 9414.9735,
+    "replicate_base": 9518.0,
+    "se": 62.6301,
+    "value": 9518.0
+   },
+   "A_net_Q2": {
+    "half90": 86.8885,
+    "hi90": 5806.8885,
+    "lo90": 5633.1115,
+    "replicate_base": 5720.0,
+    "se": 52.8197,
+    "value": 5720.0
+   },
+   "A_net_Q3": {
+    "half90": 65.4304,
+    "hi90": 3831.4304,
+    "lo90": 3700.5696,
+    "replicate_base": 3766.0,
+    "se": 39.7753,
+    "value": 3766.0
+   },
+   "A_net_Q4": {
+    "half90": 51.2497,
+    "hi90": 704.2497,
+    "lo90": 601.7503,
+    "replicate_base": 653.0,
+    "se": 31.1549,
+    "value": 653.0
+   },
+   "A_net_Q5": {
+    "half90": 217.8217,
+    "hi90": -37903.1783,
+    "lo90": -38338.8217,
+    "replicate_base": -38121.0,
+    "se": 132.4144,
+    "value": -38121.0
+   },
+   "A_net_T1": {
+    "half90": 2920.2601,
+    "hi90": -512772.7399,
+    "lo90": -518613.2601,
+    "replicate_base": -515694.0,
+    "se": 1775.2341,
+    "value": -515693.0
+   },
+   "Q-C19_net_Q1": {
+    "half90": 102.8582,
+    "hi90": 9566.8582,
+    "lo90": 9361.1418,
+    "replicate_base": 9464.0,
+    "se": 62.5278,
+    "value": 9464.0
+   },
+   "Q-C19_net_Q2": {
+    "half90": 86.2692,
+    "hi90": 5614.2692,
+    "lo90": 5441.7308,
+    "replicate_base": 5528.0,
+    "se": 52.4433,
+    "value": 5528.0
+   },
+   "Q-C19_net_Q3": {
+    "half90": 64.3177,
+    "hi90": 3377.3177,
+    "lo90": 3248.6823,
+    "replicate_base": 3313.0,
+    "se": 39.0989,
+    "value": 3313.0
+   },
+   "Q-C19_net_Q4": {
+    "half90": 53.923,
+    "hi90": -239.077,
+    "lo90": -346.923,
+    "replicate_base": -293.0,
+    "se": 32.7799,
+    "value": -293.0
+   },
+   "Q-C19_net_Q5": {
+    "half90": 272.4071,
+    "hi90": -47621.5929,
+    "lo90": -48166.4071,
+    "replicate_base": -47894.0,
+    "se": 165.597,
+    "value": -47894.0
+   },
+   "Q-C19_net_T1": {
+    "half90": 3607.3167,
+    "hi90": -634309.6833,
+    "lo90": -641524.3167,
+    "replicate_base": -637917.0,
+    "se": 2192.8977,
+    "value": -637917.0
+   },
+   "Q-EDU_net_Q1": {
+    "half90": 102.3158,
+    "hi90": 9996.3158,
+    "lo90": 9791.6842,
+    "replicate_base": 9894.0,
+    "se": 62.1981,
+    "value": 9894.0
+   },
+   "Q-EDU_net_Q2": {
+    "half90": 85.4304,
+    "hi90": 5774.4304,
+    "lo90": 5603.5696,
+    "replicate_base": 5689.0,
+    "se": 51.9334,
+    "value": 5689.0
+   },
+   "Q-EDU_net_Q3": {
+    "half90": 65.1703,
+    "hi90": 3052.1703,
+    "lo90": 2921.8297,
+    "replicate_base": 2987.0,
+    "se": 39.6172,
+    "value": 2987.0
+   },
+   "Q-EDU_net_Q4": {
+    "half90": 59.0461,
+    "hi90": -1275.9539,
+    "lo90": -1394.0461,
+    "replicate_base": -1335.0,
+    "se": 35.8943,
+    "value": -1335.0
+   },
+   "Q-EDU_net_Q5": {
+    "half90": 287.9433,
+    "hi90": -49079.0567,
+    "lo90": -49654.9433,
+    "replicate_base": -49367.0,
+    "se": 175.0415,
+    "value": -49367.0
+   },
+   "Q-EDU_net_T1": {
+    "half90": 3567.1056,
+    "hi90": -627262.8944,
+    "lo90": -634397.1056,
+    "replicate_base": -630830.0,
+    "se": 2168.4533,
+    "value": -630830.0
+   },
+   "Q-H7_net_Q1": {
+    "half90": 157.4738,
+    "hi90": 15389.4738,
+    "lo90": 15074.5262,
+    "replicate_base": 15232.0,
+    "se": 95.7288,
+    "value": 15232.0
+   },
+   "Q-H7_net_Q2": {
+    "half90": 211.7596,
+    "hi90": 15828.7596,
+    "lo90": 15405.2404,
+    "replicate_base": 15617.0,
+    "se": 128.7293,
+    "value": 15617.0
+   },
+   "Q-H7_net_Q3": {
+    "half90": 217.6611,
+    "hi90": 18396.6611,
+    "lo90": 17961.3389,
+    "replicate_base": 18179.0,
+    "se": 132.3168,
+    "value": 18179.0
+   },
+   "Q-H7_net_Q4": {
+    "half90": 208.5411,
+    "hi90": 18750.5411,
+    "lo90": 18333.4589,
+    "replicate_base": 18542.0,
+    "se": 126.7727,
+    "value": 18542.0
+   },
+   "Q-H7_net_Q5": {
+    "half90": 237.093,
+    "hi90": -26619.907,
+    "lo90": -27094.093,
+    "replicate_base": -26857.0,
+    "se": 144.1295,
+    "value": -26857.0
+   },
+   "Q-H7_net_T1": {
+    "half90": 3550.443,
+    "hi90": -617635.557,
+    "lo90": -624736.443,
+    "replicate_base": -621186.0,
+    "se": 2158.324,
+    "value": -621186.0
+   },
+   "Q-SAF_net_Q1": {
+    "half90": 103.0008,
+    "hi90": 9606.0008,
+    "lo90": 9399.9992,
+    "replicate_base": 9503.0,
+    "se": 62.6145,
+    "value": 9503.0
+   },
+   "Q-SAF_net_Q2": {
+    "half90": 86.4298,
+    "hi90": 5704.4298,
+    "lo90": 5531.5702,
+    "replicate_base": 5618.0,
+    "se": 52.5409,
+    "value": 5618.0
+   },
+   "Q-SAF_net_Q3": {
+    "half90": 64.7151,
+    "hi90": 3546.7151,
+    "lo90": 3417.2849,
+    "replicate_base": 3482.0,
+    "se": 39.3405,
+    "value": 3482.0
+   },
+   "Q-SAF_net_Q4": {
+    "half90": 54.2382,
+    "hi90": -21.7618,
+    "lo90": -130.2382,
+    "replicate_base": -76.0,
+    "se": 32.9716,
+    "value": -76.0
+   },
+   "Q-SAF_net_Q5": {
+    "half90": 271.2304,
+    "hi90": -47405.7696,
+    "lo90": -47948.2304,
+    "replicate_base": -47677.0,
+    "se": 164.8817,
+    "value": -47677.0
+   },
+   "Q-SAF_net_T1": {
+    "half90": 3605.491,
+    "hi90": -634018.509,
+    "lo90": -641229.491,
+    "replicate_base": -637624.0,
+    "se": 2191.7879,
+    "value": -637624.0
+   },
+   "Q_net_Q1": {
+    "half90": 102.8832,
+    "hi90": 9576.8832,
+    "lo90": 9371.1168,
+    "replicate_base": 9474.0,
+    "se": 62.543,
+    "value": 9474.0
+   },
+   "Q_net_Q2": {
+    "half90": 86.5538,
+    "hi90": 5664.5538,
+    "lo90": 5491.4462,
+    "replicate_base": 5578.0,
+    "se": 52.6163,
+    "value": 5578.0
+   },
+   "Q_net_Q3": {
+    "half90": 64.5571,
+    "hi90": 3496.5571,
+    "lo90": 3367.4429,
+    "replicate_base": 3432.0,
+    "se": 39.2444,
+    "value": 3432.0
+   },
+   "Q_net_Q4": {
+    "half90": 54.3099,
+    "hi90": -76.6901,
+    "lo90": -185.3099,
+    "replicate_base": -131.0,
+    "se": 33.0151,
+    "value": -131.0
+   },
+   "Q_net_Q5": {
+    "half90": 271.6964,
+    "hi90": -47469.3036,
+    "lo90": -48012.6964,
+    "replicate_base": -47741.0,
+    "se": 165.165,
+    "value": -47741.0
+   },
+   "Q_net_T1": {
+    "half90": 3606.2004,
+    "hi90": -634113.7996,
+    "lo90": -641326.2004,
+    "replicate_base": -637720.0,
+    "se": 2192.2191,
+    "value": -637720.0
+   }
+  },
+  "poverty_2025_census": {
+   "gap_bn": {
+    "half90": 9.5367,
+    "hi90": 275.1055,
+    "lo90": 256.0321,
+    "replicate_base": 265.5688,
+    "se": 5.7974,
+    "value": 265.5688
+   },
+   "poor_all_m": {
+    "half90": 1.0347,
+    "hi90": 45.4249,
+    "lo90": 43.3555,
+    "replicate_base": 44.3902,
+    "se": 0.629,
+    "value": 44.3902
+   },
+   "poor_children_m": {
+    "half90": 0.4026,
+    "hi90": 10.0554,
+    "lo90": 9.2502,
+    "replicate_base": 9.6528,
+    "se": 0.2447,
+    "value": 9.6528
+   },
+   "rate_18_64": {
+    "half90": 0.3367,
+    "hi90": 12.614,
+    "lo90": 11.9406,
+    "replicate_base": 12.2773,
+    "se": 0.2047,
+    "value": 12.2773
+   },
+   "rate_65_plus": {
+    "half90": 0.525,
+    "hi90": 15.9029,
+    "lo90": 14.8529,
+    "replicate_base": 15.3779,
+    "se": 0.3191,
+    "value": 15.3779
+   },
+   "rate_all": {
+    "half90": 0.3058,
+    "hi90": 13.4175,
+    "lo90": 12.8059,
+    "replicate_base": 13.1117,
+    "se": 0.1859,
+    "value": 13.1117
+   },
+   "rate_children": {
+    "half90": 0.5634,
+    "hi90": 13.9547,
+    "lo90": 12.8279,
+    "replicate_base": 13.3913,
+    "se": 0.3425,
+    "value": 13.3913
+   }
+  },
+  "poverty_2025_model": {
+   "gap_bn": {
+    "half90": 9.7206,
+    "hi90": 277.0422,
+    "lo90": 257.6009,
+    "replicate_base": 267.3215,
+    "se": 5.9092,
+    "value": 267.3216
+   },
+   "poor_all_m": {
+    "half90": 1.0342,
+    "hi90": 45.5567,
+    "lo90": 43.4882,
+    "replicate_base": 44.5224,
+    "se": 0.6287,
+    "value": 44.5224
+   },
+   "poor_children_m": {
+    "half90": 0.3991,
+    "hi90": 10.0948,
+    "lo90": 9.2967,
+    "replicate_base": 9.6957,
+    "se": 0.2426,
+    "value": 9.6957
+   },
+   "rate_18_64": {
+    "half90": 0.3391,
+    "hi90": 12.66,
+    "lo90": 11.9818,
+    "replicate_base": 12.3209,
+    "se": 0.2061,
+    "value": 12.3209
+   },
+   "rate_65_plus": {
+    "half90": 0.5224,
+    "hi90": 15.9027,
+    "lo90": 14.8578,
+    "replicate_base": 15.3802,
+    "se": 0.3176,
+    "value": 15.3802
+   },
+   "rate_all": {
+    "half90": 0.3057,
+    "hi90": 13.4564,
+    "lo90": 12.845,
+    "replicate_base": 13.1507,
+    "se": 0.1858,
+    "value": 13.1507
+   },
+   "rate_children": {
+    "half90": 0.5584,
+    "hi90": 14.0093,
+    "lo90": 12.8924,
+    "replicate_base": 13.4509,
+    "se": 0.3395,
+    "value": 13.4509
+   }
+  },
+  "poverty_2029_model": {
+   "gap_bn": {
+    "half90": 11.3922,
+    "hi90": 323.0691,
+    "lo90": 300.2847,
+    "replicate_base": 311.6769,
+    "se": 6.9254,
+    "value": 311.6769
+   },
+   "poor_all_m": {
+    "half90": 1.0759,
+    "hi90": 47.6082,
+    "lo90": 45.4564,
+    "replicate_base": 46.5323,
+    "se": 0.654,
+    "value": 46.5323
+   },
+   "poor_children_m": {
+    "half90": 0.4081,
+    "hi90": 10.4376,
+    "lo90": 9.6215,
+    "replicate_base": 10.0295,
+    "se": 0.2481,
+    "value": 10.0295
+   },
+   "rate_18_64": {
+    "half90": 0.3409,
+    "hi90": 12.6585,
+    "lo90": 11.9768,
+    "replicate_base": 12.3176,
+    "se": 0.2072,
+    "value": 12.3176
+   },
+   "rate_65_plus": {
+    "half90": 0.5296,
+    "hi90": 16.526,
+    "lo90": 15.4667,
+    "replicate_base": 15.9963,
+    "se": 0.322,
+    "value": 15.9963
+   },
+   "rate_all": {
+    "half90": 0.3068,
+    "hi90": 13.5689,
+    "lo90": 12.9553,
+    "replicate_base": 13.2621,
+    "se": 0.1865,
+    "value": 13.2621
+   },
+   "rate_children": {
+    "half90": 0.551,
+    "hi90": 13.9767,
+    "lo90": 12.8747,
+    "replicate_base": 13.4257,
+    "se": 0.3349,
+    "value": 13.4257
+   }
+  },
+  "take_home": {
+   "alternative_2.5_others": {
+    "half90": 0.1488,
+    "hi90": 98.6531,
+    "lo90": 98.3555,
+    "replicate_base": 98.5043,
+    "se": 0.0905,
+    "value": 98.5043
+   },
+   "alternative_2.5_workers": {
+    "half90": 0.2982,
+    "hi90": 86.1756,
+    "lo90": 85.5792,
+    "replicate_base": 85.8774,
+    "se": 0.1813,
+    "value": 85.8774
+   },
+   "alternative_2.5_workers_below_200fpl": {
+    "half90": 0.0234,
+    "hi90": 100.004,
+    "lo90": 99.9571,
+    "replicate_base": 99.9806,
+    "se": 0.0142,
+    "value": 99.9806
+   },
+   "alternative_2.5_workers_with_low2": {
+    "half90": 0.4909,
+    "hi90": 67.6697,
+    "lo90": 66.688,
+    "replicate_base": 67.1788,
+    "se": 0.2984,
+    "value": 67.1788
+   },
+   "package_E_workers": {
+    "half90": 0.2581,
+    "hi90": 91.0458,
+    "lo90": 90.5296,
+    "replicate_base": 90.7877,
+    "se": 0.1569,
+    "value": 90.7877
+   },
+   "package_E_workers_below_200fpl": {
+    "half90": 0.0,
+    "hi90": 100.0,
+    "lo90": 100.0,
+    "replicate_base": 100.0,
+    "se": 0.0,
+    "value": 100.0
+   },
+   "recommended_2.25_others": {
+    "half90": 0.1434,
+    "hi90": 98.7396,
+    "lo90": 98.4529,
+    "replicate_base": 98.5963,
+    "se": 0.0872,
+    "value": 98.5963
+   },
+   "recommended_2.25_workers": {
+    "half90": 0.2723,
+    "hi90": 88.9583,
+    "lo90": 88.4138,
+    "replicate_base": 88.6861,
+    "se": 0.1655,
+    "value": 88.6861
+   },
+   "recommended_2.25_workers_below_200fpl": {
+    "half90": 0.0234,
+    "hi90": 100.004,
+    "lo90": 99.9571,
+    "replicate_base": 99.9806,
+    "se": 0.0142,
+    "value": 99.9806
+   },
+   "recommended_2.25_workers_with_low2": {
+    "half90": 0.4505,
+    "hi90": 70.5314,
+    "lo90": 69.6303,
+    "replicate_base": 70.0808,
+    "se": 0.2739,
+    "value": 70.0808
+   }
+  },
+  "tax_rates_2029_d3": {
+   "federal_rate_Q1": {
+    "half90": 0.2988,
+    "hi90": 1.1647,
+    "lo90": 0.567,
+    "replicate_base": 0.8658,
+    "se": 0.1817,
+    "value": 0.8658
+   },
+   "federal_rate_Q2": {
+    "half90": 0.175,
+    "hi90": 10.5256,
+    "lo90": 10.1756,
+    "replicate_base": 10.3506,
+    "se": 0.1064,
+    "value": 10.3506
+   },
+   "federal_rate_Q3": {
+    "half90": 0.1563,
+    "hi90": 16.2114,
+    "lo90": 15.8989,
+    "replicate_base": 16.0551,
+    "se": 0.095,
+    "value": 16.0551
+   },
+   "federal_rate_Q4": {
+    "half90": 0.13,
+    "hi90": 21.0785,
+    "lo90": 20.8185,
+    "replicate_base": 20.9485,
+    "se": 0.079,
+    "value": 20.9485
+   },
+   "federal_rate_Q5": {
+    "half90": 0.1702,
+    "hi90": 27.6908,
+    "lo90": 27.3505,
+    "replicate_base": 27.5207,
+    "se": 0.1034,
+    "value": 27.5207
+   },
+   "federal_rate_T1": {
+    "half90": 0.4613,
+    "hi90": 33.9271,
+    "lo90": 33.0045,
+    "replicate_base": 33.4658,
+    "se": 0.2804,
+    "value": 33.4658
+   },
+   "income_tax_rate_Q1": {
+    "half90": 0.2623,
+    "hi90": -5.2456,
+    "lo90": -5.7701,
+    "replicate_base": -5.5079,
+    "se": 0.1594,
+    "value": -5.5079
+   },
+   "income_tax_rate_Q2": {
+    "half90": 0.1113,
+    "hi90": 1.427,
+    "lo90": 1.2045,
+    "replicate_base": 1.3157,
+    "se": 0.0676,
+    "value": 1.3157
+   },
+   "income_tax_rate_Q3": {
+    "half90": 0.0966,
+    "hi90": 5.4868,
+    "lo90": 5.2937,
+    "replicate_base": 5.3902,
+    "se": 0.0587,
+    "value": 5.3902
+   },
+   "income_tax_rate_Q4": {
+    "half90": 0.1017,
+    "hi90": 9.5223,
+    "lo90": 9.319,
+    "replicate_base": 9.4206,
+    "se": 0.0618,
+    "value": 9.4206
+   },
+   "income_tax_rate_Q5": {
+    "half90": 0.2132,
+    "hi90": 18.4278,
+    "lo90": 18.0015,
+    "replicate_base": 18.2147,
+    "se": 0.1296,
+    "value": 18.2147
+   },
+   "income_tax_rate_T1": {
+    "half90": 0.4238,
+    "hi90": 28.5005,
+    "lo90": 27.6529,
+    "replicate_base": 28.0767,
+    "se": 0.2576,
+    "value": 28.0767
+   }
+  }
+ },
+ "model_commit": "e561ca5",
+ "persons_joined": 134729,
+ "replicate_member": "asec_csv_repwgt_2026.csv",
+ "run_date": "2026-11-16",
+ "source": "https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asecpub26csv.zip",
+ "take_home_specs": {
+  "alternative_2.5": {
+   "R": 2.5,
+   "S": "5 + H1b's fold-in",
+   "form": "linear",
+   "hi": 2.5
+  },
+  "recommended_2.25": {
+   "R": 2.25,
+   "S": "5 + H1b's fold-in",
+   "form": "linear",
+   "hi": 2.5
+  }
+ }
+}

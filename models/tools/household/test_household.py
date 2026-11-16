@@ -305,5 +305,96 @@ class LegacyReproduction(unittest.TestCase):
             self.assertAlmostEqual(sum(D.annual_fraction(rid, amt, y) for y in d3.YRS), amt, places=9, msg=rid)
 
 
+class Intervals(unittest.TestCase):
+    """The replicate-weight step (`intervals.py`) and its committed output, `intervals.json`."""
+
+    @classmethod
+    def setUpClass(cls):
+        import intervals as IV
+        cls.IV = IV
+        cls.I = json.load(open(os.path.join(HERE, "intervals.json")))
+        cls.b = baseline(2029)
+
+    def test_sdr_formula(self):
+        # every replicate 3 away from the base estimate: SE = sqrt(4/160 x 160 x 9) = 6
+        self.assertAlmostEqual(self.IV.sdr(10.0, [13.0] * 80 + [7.0] * 80), 6.0)
+        s = self.IV.summarize(10.0, 10.0, [13.0] * 160)
+        self.assertAlmostEqual(s["hi90"] - s["value"], 1.645 * 6.0)
+
+    def test_groups_match_assign(self):
+        import numpy as np
+        hs = self.b["households"]
+        assign(hs, "size_adjusted")
+        W = np.array([[h["weight"]] for h in hs])
+        G, T = self.IV.groups(np.array([h["size_adjusted"] for h in hs]), W)
+        self.assertEqual(list(G[:, 0]), [h["g5"] for h in hs])
+        self.assertEqual(list(T[:, 0]), [h["top1"] for h in hs])
+
+    def test_poverty_estimator_is_rates(self):
+        import numpy as np
+        spm = self.b["spm"]
+        S = np.array([[s["weight"]] for s in spm])
+        G = np.array([[[s[k]] for k in ("w_people", "w_children", "w_18_64", "w_65")] for s in spm])
+        m = self.IV.poverty_metrics(self.b, S, G, "resources_model")
+        r = rates(spm)
+        for k in ("all", "children", "18_64", "65_plus"):
+            self.assertAlmostEqual(float(m[f"rate_{k}"][0]), r[k]["rate"], places=9)
+
+    def test_committed_intervals_are_complete_and_current(self):
+        I = self.I
+        self.assertEqual(I["persons_joined"], 134729)
+        self.assertLess(I["max_base_weight_difference"], 0.01)
+        for b in ("poverty_2025_census", "poverty_2025_model", "poverty_2029_model", "tax_rates_2029_d3",
+                  "d3_net_per_household", "take_home"):
+            self.assertIn(b, I["metrics"], b)
+        for ms in I["metrics"].values():
+            for m, v in ms.items():
+                self.assertLessEqual(v["lo90"], v["value"], m)
+                self.assertGreaterEqual(v["hi90"], v["value"], m)
+        # the method's check: the Census's published 2025 margins are about 0.3 points (all) and 0.6 (children)
+        p = I["metrics"]["poverty_2025_census"]
+        self.assertTrue(0.2 < p["rate_all"]["half90"] < 0.4)
+        self.assertTrue(0.4 < p["rate_children"]["half90"] < 0.8)
+        # the household model's own outputs at the interval run are this model's (rerun intervals.py if this fails)
+        r = rates(self.b["spm"])
+        for k in ("all", "children", "18_64", "65_plus"):
+            self.assertAlmostEqual(I["metrics"]["poverty_2029_model"][f"rate_{k}"]["value"], r[k]["rate"], places=2)
+        from distribution import average_rates
+        assign(self.b["households"], "size_adjusted")
+        d = average_rates(self.b["households"])
+        for g, lab in ((1, "Q1"), (4, "Q4"), ("T1", "T1")):
+            self.assertAlmostEqual(I["metrics"]["tax_rates_2029_d3"][f"federal_rate_{lab}"]["value"],
+                                   d[g]["federal_rate"], places=2)
+
+
+class CBOConventions(unittest.TestCase):
+    def test_steps(self):
+        import conventions as C
+        build = os.environ.get("BUILD", os.path.join(ROOT, "build"))
+        led = os.path.join(build, "ledger.json")
+        if not os.path.exists(led):
+            self.skipTest("no ledger.json in BUILD")
+        b = baseline(2029)
+        hs = b["households"]
+        assign(hs, "size_adjusted")
+        out = C.steps(b, led)
+        s0, s1 = out["steps"][0], out["steps"][1]
+        self.assertEqual(s0["moved_from_d3_pct"], 0.0)
+        # step 0 is D3 itself: its scenario Q equals the provision interface's (to rounding)
+        KM, _ = P.model_keys(b)
+        pkg, opts = P.rows(P.ledger_values(led))
+        o, drop = P.scenarios()[out["scenario"]]
+        ref = P.run(pkg, opts, o, drop, KM, P.mid_window_households(b), P.model_incomes(b))[0]
+        for g in ("Q1", "Q4", "Q5"):
+            # (each group's own household count against a fifth of all: they differ by a few households)
+            self.assertLessEqual(abs(s0["net_q"][g] - ref[g]["net"]), max(2, 2e-4 * abs(ref[g]["net"])), g)
+        # equal-people groups: each quintile about a fifth of people
+        people = [s1["rates"][f"Q{q}"]["people_m"] for q in range(1, 6)]
+        for p in people:
+            self.assertAlmostEqual(p / sum(people), 0.2, delta=0.002)
+        # the model's own groups are left as they were
+        self.assertTrue(all("cg" not in h for h in hs))
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)
