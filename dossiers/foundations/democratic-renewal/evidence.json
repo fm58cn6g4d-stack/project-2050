@@ -8952,5 +8952,439 @@
    "dossiers/foundations/democratic-renewal/2-what-works.md"
   ],
   "locator": "Paragraphs 2-5, Figure 1"
+ },
+ {
+  "id": "EV-DEM-320",
+  "statement": "CBO's March 2019 estimate for the For the People Act of 2019 (the House's first bill of that Congress) found the bill would authorize the appropriation of about $2.6 billion over 2019-2024 and that implementing those provisions would cost $2.4 billion; election security grants would cost $750 million. CBO did not score the bill's public financing in that estimate.",
+  "claim": "analysis",
+  "figures": [
+   "$2.6 billion",
+   "$2.4 billion",
+   "$750 million"
+  ],
+  "source": "SRC-5379",
+  "anchor": [
+   "would authorize the appropriation of about $2.6 billion over the 2019-2024 period",
+   "CBO estimates that implementing those provisions would cost $2.4 billion over the same period",
+   "those grants would cost $750 million over the 2019-2024 period"
+  ],
+  "grade": "C",
+  "fact_date": "2019-03-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Congressional Budget Office (nonpartisan), estimate of the bill as ordered reported by the Committee on House Administration. Read through search-engine text quoting the CBO estimate and LegiStorm's summary page; cbo.gov returned 403 to direct download, so the quotations need checking against the original. The National Taxpayers Union Foundation (a fiscally conservative group) argued the score was partial, leaving out the public financing title (EV-DEM-321).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "Summary, first page (as quoted)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-321",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-321",
+  "statement": "The National Taxpayers Union Foundation reports that CBO's 2021 score of the For the People Act examined only the direct spending and revenue provisions: $2.2 billion in added spending and $3.2 billion in fines and tax revenue over ten years, a net deficit reduction of $999 million through FY2031; the Foundation counts at least $5.4 billion more spending through FY2026 that CBO did not score, and notes the Freedom From Influence Fund's spending would not start until FY2027.",
+  "claim": "analysis",
+  "figures": [
+   "$2.2 billion",
+   "$3.2 billion",
+   "$999 million",
+   "$5.4 billion"
+  ],
+  "source": "SRC-5380",
+  "anchor": [
+   "only examined the direct spending and revenue provisions included in the proposal",
+   "$2.2 billion in added spending and $3.2 billion in fines and tax revenue over ten years",
+   "net deficit reduction of $999 million through FY 2031",
+   "at least $5.4 billion in additional spending through FY 2026",
+   "its spending does not start until FY 2027"
+  ],
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "National Taxpayers Union Foundation, a fiscally conservative advocacy group that opposed H.R. 1; its own additions are its estimate, not CBO's. Its restatement of CBO's partial score is used here only for CBO's figures. Page read through a fetch tool that summarizes pages, so quotations need checking.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "Introduction and summary table",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-320",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-322",
+  "statement": "CBO and JCT estimated that the Freedom to Vote: John R. Lewis Act, as passed by the House in January 2022, which joined the Freedom to Vote Act's floor and the John Lewis preclearance title, would reduce the deficit on net by $131 million over 2022-2031 and increase net revenues by $3.1 billion.",
+  "claim": "analysis",
+  "figures": [
+   "$131 million",
+   "$3.1 billion"
+  ],
+  "source": "SRC-5381",
+  "anchor": [
+   "reduce the deficit, on net, by $35 million in 2022 and by $131 million over the 2022-2031 period",
+   "Taken together, CBO and JCT estimate enacting H.R. 5746 would increase net revenues by $3.1 billion over the 2022-2031 period"
+  ],
+  "grade": "C",
+  "fact_date": "2022-01-27",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "H.R. 5746 (117th Congress). Congressional Budget Office and Joint Committee on Taxation (nonpartisan). Read through search-engine text quoting the CBO estimate; cbo.gov returned 403, so the quotations need checking. The net revenue and the small net deficit effect together imply spending of roughly the revenue's size (this dossier's arithmetic), mainly the bill's public financing paid from a fines and settlements surcharge; the spending lines themselves were not read (Evidence still needed). The bill did not pass the Senate.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "Summary (as quoted)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-321",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-323",
+  "statement": "For the Voting Rights Advancement Act of 2019, the House Judiciary Committee reported that it had requested but not received a formal cost estimate from the Congressional Budget Office.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5378",
+  "anchor": [
+   "requested but not received a formal cost estimate for this bill"
+  ],
+  "grade": "A",
+  "fact_date": "2019-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "H.R. 4, 116th Congress. Official committee report (H. Rept. 116-317). No CBO estimate of the preclearance bill alone was found; its 2022 successor was scored only inside H.R. 5746 (EV-DEM-322).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "New Budget Authority and Congressional Budget Office Cost Estimate"
+ },
+ {
+  "id": "EV-DEM-324",
+  "statement": "CBO estimated that the JUDGES Act of 2024, as passed by the Senate, which would authorize 63 permanent district judgeships over 2025-2035 and 3 temporary ones, would increase direct spending by $98 million and spending subject to appropriation by $251 million over 2024-2034, mainly for judges' pay and the new courts' operating costs.",
+  "claim": "analysis",
+  "figures": [
+   "63",
+   "3",
+   "$98 million",
+   "$251 million"
+  ],
+  "source": "SRC-5382",
+  "anchor": [
+   "Authorize 63 new permanent federal district court judgeships over the 2025-2035 period and 3 temporary judgeships in 2025",
+   "Direct Spending (Outlays) 0 25 98",
+   "Spending Subject to Appropriation (Outlays) 0 70 251",
+   "Compensating new federal judges",
+   "$98 million",
+   "$251 million",
+   "2024-2034"
+  ],
+  "grade": "C",
+  "fact_date": "2024-08-16",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "S. 4199, 118th Congress. Congressional Budget Office (nonpartisan). Read through LegiStorm's summary page, whose table is flattened (columns 2024, 2024-2029 and 2024-2034, in millions of dollars); the spaced figures are this dossier's reading of the run-together digits, which a search snippet of CBO's page agrees with. cbo.gov returned 403. The bill was vetoed (EV-DEM-044).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "Summary table and description (LegiStorm page)"
+ },
+ {
+  "id": "EV-DEM-325",
+  "statement": "CBO estimated that the ETHICS Act, a ban on members' stock holdings as ordered reported by the Senate Homeland Security and Governmental Affairs Committee on July 24, 2024, would have no direct spending, would reduce revenues by $3 million over 2024-2034, and would cost between zero and $500,000 of appropriated spending.",
+  "claim": "analysis",
+  "figures": [
+   "$3 million",
+   "$500,000"
+  ],
+  "source": "SRC-5383",
+  "anchor": [
+   "Revenues 0 -1 -3",
+   "between zero and $500,000",
+   "As ordered reported by the Senate Committee on Homeland Security and Governmental Affairs on July 24, 2024",
+   "$3 million",
+   "2024-2034"
+  ],
+  "grade": "C",
+  "fact_date": "2024-09-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "S. 1171, 118th Congress. Congressional Budget Office (nonpartisan). Read through LegiStorm's summary page (flattened table, millions of dollars; the spacing is this dossier's reading); cbo.gov returned 403. The revenue loss is consistent with deferral of tax on required sales, but CBO's narrative was not read (Evidence still needed).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "Summary table (LegiStorm page)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-326",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-326",
+  "statement": "CBO estimated that implementing the Stop Insider Trading Act, as reported by the House Administration Committee on February 3, 2026, would increase administrative costs by less than $500,000 over 2026-2031, subject to appropriation.",
+  "claim": "analysis",
+  "figures": [
+   "$500,000"
+  ],
+  "source": "SRC-5384",
+  "anchor": [
+   "As reported by the House Committee on House Administration on February 3, 2026",
+   "would increase administrative costs by less than $500,000 over the 2026-2031 period"
+  ],
+  "grade": "C",
+  "fact_date": "2026-03-19",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "H.R. 7008, 119th Congress. Congressional Budget Office (nonpartisan). Read through search-engine text quoting CBO's page; cbo.gov returned 403. The committee report (H. Rept. 119-479) says the estimate had been requested but not received when it was filed.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "Summary (as quoted)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-325",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-327",
+  "statement": "CBO estimated that implementing S. 359, the Supreme Court Ethics, Recusal, and Transparency Act of 2023, would cost $5 million over 2023-2028, subject to appropriation, about $1 million of it for the provisions on the Supreme Court's code of conduct and disclosure.",
+  "claim": "analysis",
+  "figures": [
+   "$5 million",
+   "$1 million"
+  ],
+  "source": "SRC-5385",
+  "anchor": [
+   "CBO estimates that implementing S. 359 would cost $5 million over the 2023-2028 period",
+   "any spending would be subject to the availability of appropriated funds",
+   "CBO estimates that implementing those provisions would cost about $1 million over the 2023-2028 period"
+  ],
+  "grade": "C",
+  "fact_date": "2023-08-23",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Congressional Budget Office (nonpartisan), estimate of the bill as ordered reported by Senate Judiciary on July 20, 2023. Read through a blog that reposts the estimate (it mislabels the bill S. 539); CBO's 2022 estimate of the House version (H.R. 7647) was also about $5 million over 2022-2027 (LegiStorm summary). cbo.gov returned 403.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "Summary paragraphs (repost)"
+ },
+ {
+  "id": "EV-DEM-328",
+  "statement": "The legacy second-round capacity review put the need of all entities at $59.8 billion of surge (range $31.4-103.3 billion) and $254.6 billion of sustained funding over the ten years (range $160.7-355.1 billion), with a run rate of $33.0 billion at the end, on a midpoint sustained path of 10.4, 18.1, 24.4, 25.9, 26.8, 27.8, 28.8, 29.8, 30.8 and 31.9 billion dollars a year.",
+  "claim": "analysis",
+  "figures": [
+   "59.8",
+   "31.4",
+   "103.3",
+   "254.6",
+   "160.7",
+   "355.1",
+   "33.0"
+  ],
+  "source": "SRC-0073",
+  "anchor": [
+   "| **All** | **59.8 (31.4-103.3)** | **254.6 (160.7-355.1)** | **314.4 (192.1-458.4)** | **33.0** | 1,079 |",
+   "**Midpoint sustained path, $B nominal FY2030-39:** 10.4, 18.1, 24.4, 25.9, 26.8, 27.8, 28.8, 29.8, 30.8, 31.9."
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "Years: FY2030-39 for the decade, FY2040 for the run rate. Project estimate (legacy, October 26, 2026), 'mostly estimates built on sourced baselines' (line 226); its staffing losses often come from press and advocacy reports. Espen resized CAP-7S to about $105 billion and kept CAP-7's $300 billion ceiling on it (legacy governing decisions, lines 506-521). Restated here as evidence, not a default (DEC-2026-11-13-15).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "'All entities' table, last row; midpoint sustained path (lines 181, 191)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-270",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-329",
+  "statement": "The legacy second-round review's entity rows (surge; sustained over the decade; run rate at its end, $ billion) for the agencies the flagships use: IRS 9.8, 95.5, 12.6; CMS 8.0, 17.4, 2.3; HUD 3.3, 11.7, 1.5; SSA, gross and mostly trust-fund financed, 3.9, 31.0, 4.0; USCIS 3.5, 0.3, 0.0; FEMA 10.0, 13.0, 1.7; EPA 0.2, 1.8, 0.2; DOE 0.2, 1.9, 0.2; DOL 0.2, 4.6, 0.6; HHS ACF 1.0, 1.9, 0.2; HRSA 0, 0.6, 0.1; USDA FNS 0, 0.4, 0.0; Treasury Fiscal Service 0.3, 0.6, 0.1; state and local implementation (CAP-13) 8.0, 0, 0; digital service corps 0.5, 3.2, 0.4; inspectors general and GAO 0.6, 0, 0; OPM 0.3, 1.0, 0.1; EAC 0, 0.4, 0.0; FEC 0, 0.5, 0.1; integrity units 0.2, 1.9, 0.2.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0073",
+  "anchor": [
+   "| IRS | 9.8 | 95.5 | 105.3 (65.6-138.1) | 12.6 | 236.2 |",
+   "| CMS | 8.0 | 17.4 | 25.4 (14.3-40.4) | 2.3 | 90.8 |",
+   "| HUD | 3.3 | 11.7 | 15.0 (9.4-23.9) | 1.5 | 81.8 |",
+   "| SSA (gross; mostly trust-fund financed) | 3.9 | 31.0 | 34.9 (19.5-49.8) | 4.0 | 99.9 |",
+   "| USCIS (asylum and refugee processing inside IMM-3) | 3.5 | 0.3 | 3.8 (1.9-6.6) | 0.0 | 83.6 |",
+   "| FEMA (includes flood maps) | 10.0 | 13.0 | 23.0 (12.5-36.8) | 1.7 | 14.5 |",
+   "| EPA | 0.2 | 1.8 | 2.0 (1.1-3.4) | 0.2 | 9.1 |",
+   "| DOE | 0.2 | 1.9 | 2.1 (1.4-3.6) | 0.2 | 7.3 |",
+   "| DOL | 0.2 | 4.6 | 4.8 (2.8-6.7) | 0.6 | 10.9 |",
+   "| HHS ACF | 1.0 | 1.9 | 2.9 (1.5-5.8) | 0.2 | — |",
+   "| HRSA | 0 | 0.6 | 0.6 (0.3-1.3) | 0.1 | — |",
+   "| USDA FNS | 0 | 0.4 | 0.4 (0.1-0.8) | 0.0 | — |",
+   "| Treasury Fiscal Service | 0.3 | 0.6 | 0.9 (0.4-1.9) | 0.1 | — |",
+   "| State and local implementation (CAP-13, residual) | 8.0 | 0 | 8.0 (4.0-15.0) | 0 | in no total |",
+   "| Digital service corps (CAP-12) | 0.5 | 3.2 | 3.7 (2.2-6.1) | 0.4 | — |",
+   "| Inspectors general and GAO oversight | 0.6 | 0 | 0.6 (0.4-1.0) | 0 | — |",
+   "| OPM | 0.3 | 1.0 | 1.3 (0.8-2.1) | 0.1 | 18.2 |",
+   "| EAC | 0 | 0.4 | 0.4 (0.3-0.6) | 0.0 | 5.5 |",
+   "| FEC | 0 | 0.5 | 0.5 (0.3-0.8) | 0.1 | 5.5 |",
+   "| Integrity units | 0.2 | 1.9 | 2.1 (1.1-3.4) | 0.2 | 21.8 |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "Decade FY2030-39; run rate FY2040. Project estimate (legacy round 2). Each row sums restoration of 2025-26 losses, pre-2025 shortfalls and agenda work; the CSV behind it (SRC-0072) gives each component's basis. It predates every flagship's delivery section, so some rows overlap what the flagships booked on their own lines (3-design.md, part G).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "'All entities' table (lines 149-180)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-088",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-105",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-330",
+  "statement": "The legacy second-round review's entity rows for entities outside the specified flagships ($ billion, surge; sustained over the decade; end-of-decade run rate): Education 2.3, 8.3, 1.1; development agency 4.0, 24.7, 3.2; State 0.5, 11.4, 1.5; CDC 1.5, 7.6, 1.0; NOAA 0.9, 7.6, 1.0; FTA 0.15, 0, 0; NLRB 0.05, 1.9, 0.2; FTC and DOJ Antitrust 0, 0.4, 0.0; civil-rights offices 0, 2.3, 0.3; CAISI and DOE labs 0.3, 1.6, 0.2; ATF and NICS 0.1, 0.6, 0.1; Commerce BIS 0, 0.6, 0.1.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0073",
+  "anchor": [
+   "| ED | 2.3 | 8.3 | 10.6 (5.8-15.5) | 1.1 | 72.7 |",
+   "| Development agency (capacity only; programs in DEV-P) | 4.0 | 24.7 | 28.7 (24.0-33.8) | 3.2 | 109.0 |",
+   "| State (diplomacy) | 0.5 | 11.4 | 11.9 (6.6-18.7) | 1.5 | 14.5 |",
+   "| CDC | 1.5 | 7.6 | 9.1 (5.4-15.7) | 1.0 | 27.2 |",
+   "| NOAA | 0.9 | 7.6 | 8.5 (6.2-12.9) | 1.0 | 72.7 |",
+   "| FTA (Moving America funds it from 2031) | 0.15 | 0 | 0.15 | 0 | 54.5 |",
+   "| NLRB | 0.05 | 1.9 | 1.9 (1.3-3.3) | 0.2 | 7.3 |",
+   "| FTC and DOJ Antitrust | 0 | 0.4 | 0.4 (0-1.0) | 0.0 | 5.5 |",
+   "| Civil-rights offices | 0 | 2.3 | 2.3 (1.5-3.3) | 0.3 | 10.9 |",
+   "| CAISI and DOE labs | 0.3 | 1.6 | 1.9 (0.9-3.1) | 0.2 | 10.9 |",
+   "| ATF and NICS | 0.1 | 0.6 | 0.7 (0.4-1.5) | 0.1 | 9.1 |",
+   "| Commerce BIS | 0 | 0.6 | 0.6 (0.3-1.3) | 0.1 | — |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "Decade FY2030-39; run rate FY2040. Project estimate (legacy round 2). These entities serve the education, international, public-health, climate-science, labor, competition, rights, AI and security agendas, whose dossiers have not yet stated their delivery needs.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "'All entities' table (lines 152-177)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-099",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-331",
+  "statement": "The legacy second-round components behind the staffing rows: IRS enforcement +24000 FTE and service +6000 FTE at $212.7K per FTE; SSA +8000 staff restored and +4000 for the pre-2025 shortfall at about $200K per staff year; HUD +2500; CMS 2500 FTE; FEMA +5000; Labor's Wage and Hour +1300 and OSHA +700.",
+  "claim": "analysis",
+  "figures": [
+   "24000",
+   "6000",
+   "$212.7K",
+   "8000",
+   "4000",
+   "$200K",
+   "2500",
+   "5000",
+   "1300",
+   "700"
+  ],
+  "source": "SRC-0072",
+  "anchor": [
+   "Enforcement staffing restored and expanded (+24000 FTE; 18000-28000)",
+   "Taxpayer service and operations restored (+6000 FTE; 4000-8000)",
+   "FTE x $212.7K",
+   "Staff restored (+8000; 6000-9000)",
+   "Pre-2025 shortfall and workload growth (+4000; 2000-6000)",
+   "About $200K per staff year",
+   "Staff restored (+2500; 2000-3000)",
+   "Federal staff increment (2500 FTE; 1500-3500)",
+   "Staff restored and pre-2025 incident-workforce gap (+5000; 4000-6000)",
+   "Wage and Hour investigators and support (+1300; 800-1800)",
+   "OSHA inspectors and support (+700; 400-1000)"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "Project estimates (legacy round 2 components CSV), each on a sourced baseline: the IRS's FY2025 resources per FTE, SSA's administrative budget per staff, staffing losses from agency and press counts. Section 1's staffing data (EV-DEM-088, EV-DEM-096, EV-DEM-105) confirm the scale of the IRS, HUD and SSA losses.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "Rows for IRS, SSA, HUD, CMS, FEMA and DOL (components column)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-088",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-105",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-332",
+  "statement": "The legacy second-round components that the flagships have since booked on their own lines: the IRS's monthly child credit payment operations at 0.15 billion dollars a year and its payment-system build at 1.0 billion dollars; HUD's direct-loan credit office at 0.10 billion dollars a year, its oversight of added vouchers at 0.10 billion dollars a year, and its loan platform build at 0.3 billion dollars.",
+  "claim": "analysis",
+  "figures": [
+   "0.15",
+   "1.0",
+   "0.10",
+   "0.3"
+  ],
+  "source": "SRC-0072",
+  "anchor": [
+   "Monthly Child Tax Credit payment operations",
+   "0.15,$B/yr,0.08,0.30,new,recurring,sustained,budget authority,FAM-1",
+   "Payment-system build for monthly CTC and non-filer access",
+   "1.0,$B lifetime,0.5,2.0,new,temporary,surge,budget authority,FAM-1",
+   "Direct-loan credit office for HOU-3",
+   "0.10,$B/yr,0.06,0.15,new,recurring,sustained,budget authority,HOU-3",
+   "Oversight of about 2M added vouchers",
+   "0.10,$B/yr,0.05,0.20,new,recurring,sustained,budget authority,HOU-4",
+   "Loan platform build for HOU-3",
+   "0.3,$B lifetime,0.15,0.6,new,temporary,surge,budget authority,HOU-3"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "Project estimates (legacy round 2 components). The secure floor counts the child benefit's build and running cost on its own line, about $1-2 billion a year (dossiers/secure-floor/5-delivery.md, line 31), and housing's 0.5% set-aside pays HUD's new program offices, including the lending office (dossiers/home/5-delivery.md, lines 160-170), so these components would be counted twice inside CAP-7S and CAP-7.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/3-design.md"
+  ],
+  "locator": "Components CSV rows 66, 69, 79, 80, 82",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-329",
+    "stance": "supports"
+   }
+  ]
  }
 ]
