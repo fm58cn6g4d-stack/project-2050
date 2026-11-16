@@ -1,6 +1,6 @@
 # Dossier: Fair pay and real power at work (flagship 5)
 
-Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Section 1 is a draft, research only: Espen allowed stage F groundwork before the stage E boundary review on the condition that it makes no design choices (November 16, 2026, about 05:20 UTC: "yes to all your questions and recs"). Level: every item is at **L1** in `agenda/agenda.csv`, unchanged. Nothing is decided, booked or costed here.
+Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Sections 1 and 2 are drafts, research only: Espen allowed stage F groundwork before the stage E boundary review on the condition that it makes no design choices (November 16, 2026, about 05:20 UTC: "yes to all your questions and recs"). Level: every item is at **L1** in `agenda/agenda.csv`, unchanged. Nothing is decided, booked or costed here.
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "Labor law, wage floors, sectoral standards, support when jobs change."
 
@@ -25,27 +25,28 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
 | Section | File | Status |
 | --- | --- | --- |
 | 1. The problem | `1-problem.md`: the wage floor; unions and the labor board; wage theft, misclassification, overtime, safety and heat; job loss, unemployment insurance, notice, the workforce system, apprenticeship and AI; schedules, labor's share and rural places; the January 2029 baseline table; seams; the legacy record weighed | Draft (stage F groundwork) |
-| 2-9 | Not started | — |
+| 2. What works | `2-what-works.md`: wage floors (bite, indexing, phase-ins, prices and poverty, subminimums); unions, Canada's organizing rules, right-to-work and sectoral standards; enforcement, penalties, coverage, heat and pay transparency; unemployment insurance, reemployment services, work sharing, notice, training, wage insurance, job guarantees and service; schedules and non-competes; the legacy designs against the evidence | Draft (stage F) |
+| 3-9 | Not started | — |
 
 ## Evidence and sources
 
-- `evidence.json`: evidence code **EV-WRK**, 238 entries. Blocks:
-  - 001-099 the wage floor (001-049 used);
-  - 100-199 unions, bargaining and the board (100-160 used);
-  - 200-299 enforcement, safety and heat (200-248 used; 214 merged into 019);
-  - 300-399 support when jobs change (300-367 used, with gaps at 320, 334, 346 and 354);
-  - 400-449 schedules, labor's share and rural places (400-406 used);
+- `evidence.json`: evidence code **EV-WRK**, 340 entries (238 from section 1, 102 from section 2). Blocks:
+  - 001-099 the wage floor (001-049 section 1; 050-077 section 2);
+  - 100-199 unions, bargaining and the board (100-160 section 1; 161-188 section 2);
+  - 200-299 enforcement, safety and heat (200-248 section 1, 214 merged into 019; 249-262 section 2);
+  - 300-399 support when jobs change (300-367 section 1, with gaps at 320, 334, 346 and 354; 368-393 section 2);
+  - 400-449 schedules, labor's share and rural places (400-406 section 1; 407-412 section 2);
   - 700-749 legacy figures as grade D entries (700-708 used).
 - The register also cites other dossiers' entries where they already hold a fact: unemployment insurance recipiency (EV-SEC-045 to 047), paid leave access (EV-SEC-300, 302), phase-outs (EV-SEC-537, 538), contract work (EV-SEC-120), AI exposure (EV-SEC-125, 128), apprenticeship and TAA (EV-SEC-144, 147, 148, 640; EV-CAR-633), the care workforce (EV-CAR-614, 616, 618, 621), immigrant workers (EV-IMM-008, 010) and coal workers (EV-CLP-504, 516, 518).
 - Sources: **Source IDs numbered 5500 to 5899 are reserved for the work dossier** (this README, November 16, 2026; `library/reserved-blocks.csv`). The block skips 5100-5499 so the democratic renewal foundation, starting the same night, can take the next free numbers. Sub-blocks:
-  - 5500-5579 the wage floor (5500-5513 and 5520-5536 used; 5510 dropped for the library's existing copy of Pub. L. 119-21, SRC-1374);
-  - 5580-5659 unions and the board (5580-5608 and 5620-5635 used; 5581 dropped for SRC-3971);
+  - 5500-5579 the wage floor (5500-5513 and 5520-5536 section 1; 5510 dropped for the library's existing copy of Pub. L. 119-21, SRC-1374; 5537-5539 section 2);
+  - 5580-5659 unions and the board (5580-5608 and 5620-5635 section 1; 5581 dropped for SRC-3971; 5609-5610 section 2);
   - 5660-5739 enforcement and safety (5660-5700 used; 5670 dropped for SRC-5520);
   - 5740-5819 support when jobs change (5740-5783 used; 5762 dropped for SRC-3975);
-  - 5820-5859 schedules, labor's share and rural places (5820-5825 used);
-  - 5860-5899 spare.
+  - 5820-5859 schedules, labor's share and rural places (5820-5825 section 1; the rest of this sub-block and the old spare block went to section 2, next line);
+  - 5826-5899 section 2, after section 1's highest ID: 5826-5845 wage floors, 5846-5865 power at work, 5866-5881 the rules in practice and schedules, 5882-5899 support when jobs change. The block's remaining spare IDs are the gaps 5514-5519, 5540-5579, 5611-5619, 5636-5659, 5701-5739 and 5784-5819.
 - IDs are assigned by hand inside the block. A citation row whose quotations were read through a search extract says so in its note; the reviewer should spot-check those quotations against the originals. Saved texts are named `library/text/wrk-*.txt`.
 
 ## Open questions for Espen
 
-None in section 1. The questions the evidence raises for section 3 are listed at the end of `1-problem.md`; they are for the memo set, not for now.
+None in sections 1 and 2. The questions the evidence raises for section 3 are listed at the end of `1-problem.md` and `2-what-works.md`; they are for the memo set, not for now.

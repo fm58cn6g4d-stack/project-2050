@@ -6420,7 +6420,7 @@
    "| NLRB | 4 | 0.7% |",
    "| DOL Wage and Hour Division and OSHA | 6 | 1% |"
   ],
-  "context": "Legacy file legacy/domains/domain-capacity.md, lines 118, 137 and 138. The file says every allocation is the author's estimate, not derived from any agency's budget (line 115), and that the proportional table is historical and to be replaced (line 300). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works. The NLRB's whole appropriation is about $294 million a year (EV-WRK-119), so $4 billion over ten years is well above its current base."
+  "context": "Legacy file legacy/domains/domain-capacity.md, lines 118, 137 and 138. The file says every allocation is the author's estimate, not derived from any agency's budget (line 115), and that the proportional table is historical and to be replaced (line 300). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works. The NLRB's whole appropriation is about $294 million a year (EV-WRK-119), so $4 billion over FY2030-39, about $0.4 billion a year and supplementary to baseline funding (line 116), would more than double it; it is a ten-year total, not a yearly figure."
  },
  {
   "id": "EV-WRK-707",
@@ -6475,5 +6475,3381 @@
    "| LAB-4 | Living wage | $17, then two-thirds of the median wage; longer phase-ins for small firms and low-wage counties; tipped, youth and 14(c) subminimums phased out | 0 (indirect effects unscored) |"
   ],
   "context": "Legacy file legacy/domains/domain-labor.md, line 20. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works."
+ },
+ {
+  "id": "EV-WRK-050",
+  "statement": "Dube's 2019 review for the UK government concluded that research from the US, UK and other developed countries points to a very muted effect of minimum wages on employment, and that there is room for a National Living Wage of 60% to two-thirds of median hourly earnings.",
+  "claim": "analysis",
+  "figures": [
+   "60%"
+  ],
+  "source": "SRC-5831",
+  "anchor": [
+   "Overall the most up to date body of research from US, UK and other developed countries points to a very muted effect of minimum wages on employment, while significantly increasing the earnings of low paid workers.",
+   "there is room for exploring a more ambitious NLW remit in the UK in the coming years, in the range of 60% to two-thirds of median hourly earnings."
+  ],
+  "locator": "Executive summary, In brief",
+  "grade": "C",
+  "fact_date": "2019-11-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Independent review by Arindrajit Dube (UMass Amherst) commissioned by HM Treasury and BEIS, published 4 November 2019 under the Open Government Licence; not peer reviewed. A literature review plus new analysis of seven high-minimum-wage US states and the UK National Living Wage; the author has published widely finding small employment effects, and the review itself says the evidence on high minimum wages is still developing. Written for the Conservative government's remit decision, which is relevant to the US two-thirds-of-median target.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-058",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-054",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-059",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-051",
+  "statement": "Dube's review found US state evidence suggests employment effects are small up to around 59% of the median wage, that county-level evidence held at up to 81% of the median, and that in the 7 highest-wage US states, where the minimum binds for around 17% of the workforce, effects were similarly modest.",
+  "claim": "analysis",
+  "figures": [
+   "59%",
+   "81%",
+   "7",
+   "17%"
+  ],
+  "source": "SRC-5831",
+  "anchor": [
+   "Across US states, the best evidence suggests that the employment effects are small up to around 59% of the median wage. Evidence using sub-state county-level variation found this to hold even in lower wage counties where the minimum stood at up to 81% of the median wage.",
+   "in the 7 US states with the highest minimum wage, where the minimum is binding for around 17% of the workforce, employment effects have been similarly modest."
+  ],
+  "locator": "Executive summary, US evidence",
+  "grade": "C",
+  "fact_date": "2019-11-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "HM Treasury and BEIS commissioned review by Arindrajit Dube, November 2019; not peer reviewed. The 59% and 81% figures summarize studies by Dube and co-authors (the 81% county result is Godøy and Reich); the seven-state result is new analysis in Technical Annex A. A two-thirds of median floor would sit above 59% and below 81%, so the review's own evidence for that range rests on the county studies and the seven-state analysis.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-063",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-060",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-052",
+  "statement": "Dube's review recommended pairing a more ambitious National Living Wage with a clear mandate for the Low Pay Commission to pause and reconsider if evidence suggested significant job losses.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5831",
+  "anchor": [
+   "A more ambitious minimum wage policy should be paired with clear guidelines for the LPC to recommend and evaluate changes in the National Living Wage.",
+   "there needs to be a clear mandate for the LPC to pause and reconsider if the evidence suggests significant losses in jobs for those affected by the policy."
+  ],
+  "locator": "Executive summary, closing recommendations",
+  "grade": "C",
+  "fact_date": "2019-11-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "HM Treasury and BEIS commissioned review, November 2019; not peer reviewed. A design recommendation by the reviewer, bearing on a recession or off-ramp mechanism; it also notes that because the nominal wage is unlikely to be lowered, the pause would work by letting inflation erode the value.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-054",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-056",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-064",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-053",
+  "statement": "The Low Pay Commission recommended in its 2025 report a National Living Wage of 12.71 pounds an hour from April 2026, up 4.1 per cent, to meet the government's target of two-thirds of median earnings for workers aged 21 and over in 2026.",
+  "claim": "data",
+  "figures": [
+   "12.71",
+   "4.1",
+   "21",
+   "2026"
+  ],
+  "source": "SRC-5832",
+  "anchor": [
+   "we recommend an NLW increase of 4.1 per cent to £12.71 (a 50 pence per hour increase). This increase meets the Government’s target of two-thirds of median earnings for those aged 21 and over in 2026"
+  ],
+  "locator": "Chapter 11 summary, National Living Wage",
+  "grade": "A",
+  "fact_date": "2025-11-26",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Low Pay Commission, a UK government advisory body with employer, worker and independent members, report published in two parts (advice to government 26 November 2025, full report March 2026); the rate is a recommendation to the Labour government, which sets the final rate. The remit asked it to ensure the rate does not fall below two-thirds of median earnings.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-054",
+  "statement": "The Low Pay Commission judged in 2025 that recent National Living Wage increases had not had a significant negative impact on employment, and that areas with higher coverage generally saw smaller falls in employment.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5832",
+  "anchor": [
+   "our judgement is that recent NLW increases have not had a significant negative impact on employment. Areas with higher NLW coverage have generally seen smaller falls in employment than other parts of the country.",
+   "despite the NLW reaching its highest “bite” (its value as a share of median pay) on record, coverage has fallen."
+  ],
+  "locator": "Executive summary, labour market impacts",
+  "grade": "C",
+  "fact_date": "2025-11-26",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Low Pay Commission, UK government advisory body, 2025 report; a judgement by commissioners from the evidence, not a peer-reviewed estimate. The same report says employers cite weak demand and a national insurance rise alongside the wage, and that hospitality employment fell; the commission found those did not show a clear minimum wage effect. Employer groups dispute the judgement (see the 2026 criteria report).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-050",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-059",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-056",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-055",
+  "statement": "In July 2026 the Low Pay Commission said it modelled hundreds of scenarios for a higher target, expects small impacts on prices and employment but rising risks with more ambitious targets or less time, and noted the UK ranked 7th of 31 OECD countries in 2024, leaving fewer countries to learn from.",
+  "claim": "analysis",
+  "figures": [
+   "7th",
+   "31",
+   "2024"
+  ],
+  "source": "SRC-5833",
+  "anchor": [
+   "We have modelled hundreds of scenarios to understand the potential impact of a higher target: We expect the impact on prices and employment to be small, but the risks increase with more ambitious targets or less time to reach them.",
+   "now we’ve moved near the top (ranking 7th of 31 OECD countries in 2024) there are fewer countries to learn from, diminishing the value of the international evidence base."
+  ],
+  "locator": "Report summary, Potential impacts of the National Living Wage",
+  "grade": "C",
+  "fact_date": "2026-07-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Low Pay Commission report to the UK government, 10 July 2026, written at the government's request on criteria for a target above two-thirds of median earnings; modelled estimates the commission itself calls uncertain. Not peer reviewed. Bears directly on how far above two-thirds of median evidence can be extended.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-050",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-065",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-056",
+  "statement": "The Low Pay Commission reported that between 2016 and 2025 the real weekly pay of National Living Wage workers rose 20 per cent against 4 per cent for the median job without strong evidence of meaningful damage to employment, while employers oppose further targets, fearing job harm.",
+  "claim": "analysis",
+  "figures": [
+   "2016",
+   "2025",
+   "20 per cent",
+   "4 per cent"
+  ],
+  "source": "SRC-5833",
+  "anchor": [
+   "Between 2016 and 2025 the real weekly pay of NLW workers increased by more (20 per cent) than the median job (4 per cent), but without strong evidence of meaningful damage to employment.",
+   "Employers and their representatives are against further targets: They worry that the NLW is rising inexorably and unsustainably, potentially harming jobs, with no clear end point."
+  ],
+  "locator": "Report summary, Credibility and Potential impacts",
+  "grade": "C",
+  "fact_date": "2026-07-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Low Pay Commission, UK government advisory body, July 2026; tripartite body whose summary records both worker backing and employer opposition to a further target. Pay comparison is descriptive; the employment judgement is the commission's reading of the evidence.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-054",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-059",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-050",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-057",
+  "statement": "OECD data for 2025 show statutory minimum wages as a share of median full-time earnings of 24.09 percent in the United States, 61.85 in the United Kingdom, 62.48 in France, 49.56 in Germany and 49.24 in Canada.",
+  "claim": "data",
+  "figures": [
+   "24.09",
+   "61.85",
+   "62.48",
+   "49.56",
+   "49.24"
+  ],
+  "source": "SRC-5830",
+  "anchor": [
+   "I,USA,United States,MR_WG_FT,Minimum relative to average wages of full-time workers,PT_WG_A_SAL_FT,Percentage of average wage of full-time employees,_Z,Not applicable,_Z,Not applicable,MEDIAN,Median,_Z,Not applicable,2025,,24.0863787375415",
+   "I,GBR,United Kingdom,MR_WG_FT,Minimum relative to average wages of full-time workers,PT_WG_A_SAL_FT,Percentage of average wage of full-time employees,_Z,Not applicable,_Z,Not applicable,MEDIAN,Median,_Z,Not applicable,2025,,61.854103343465",
+   "I,FRA,France,MR_WG_FT,Minimum relative to average wages of full-time workers,PT_WG_A_SAL_FT,Percentage of average wage of full-time employees,_Z,Not applicable,_Z,Not applicable,MEDIAN,Median,_Z,Not applicable,2025,,62.4838206379372",
+   "I,DEU,Germany,MR_WG_FT,Minimum relative to average wages of full-time workers,PT_WG_A_SAL_FT,Percentage of average wage of full-time employees,_Z,Not applicable,_Z,Not applicable,MEDIAN,Median,_Z,Not applicable,2025,,49.555057387338",
+   "I,CAN,Canada,MR_WG_FT,Minimum relative to average wages of full-time workers,PT_WG_A_SAL_FT,Percentage of average wage of full-time employees,_Z,Not applicable,_Z,Not applicable,MEDIAN,Median,_Z,Not applicable,2025,,49.2421991084695"
+  ],
+  "locator": "DSD_EARNINGS@MIN2AVE, rows with Median aggregation, TIME_PERIOD 2025",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "OECD Earnings database (CC BY 4.0), retrieved by SDMX query for 2023 onward; values rounded to two decimals in the statement. For the United States the OECD uses the federal minimum of $7.25, not the higher state and local rates, so the US figure understates the effective ratio in high-minimum states. Row spacing preserved from the CSV.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "rounded": [
+   {
+    "figure": "24.09",
+    "value": "24.0863787375415",
+    "scale": 1,
+    "places": 2
+   },
+   {
+    "figure": "61.85",
+    "value": "61.854103343465",
+    "scale": 1,
+    "places": 2
+   },
+   {
+    "figure": "62.48",
+    "value": "62.4838206379372",
+    "scale": 1,
+    "places": 2
+   },
+   {
+    "figure": "49.56",
+    "value": "49.555057387338",
+    "scale": 1,
+    "places": 2
+   },
+   {
+    "figure": "49.24",
+    "value": "49.2421991084695",
+    "scale": 1,
+    "places": 2
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-058",
+  "statement": "Dustmann and co-authors found that Germany's new national minimum wage, which affected 15% of employees, raised wages without lowering employment, moved low-wage workers to larger, higher-paying and more productive establishments, and accounted for up to 17% of the wage increase through that upgrading.",
+  "claim": "analysis",
+  "figures": [
+   "15%",
+   "17%"
+  ],
+  "source": "SRC-5826",
+  "anchor": [
+   "introduction of a nationwide minimum wage in Germany that affected 15% of all employees.",
+   "we find that the minimum wage raised wages but did",
+   "not lower employment. It also led to the reallocation of low-wage workers from",
+   "smaller to larger, from lower- to higher-paying, and from less to more productive",
+   "establishments. This worker upgrading accounts for up to 17% of the wage increase induced by the minimum wage."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Quarterly Journal of Economics 137(1), 2022, peer reviewed, open access (CC BY 4.0); authors at Germany's Institute for Employment Research (IAB) using administrative data, individual and regional designs. The paper's setting is a floor near half of median earnings (EV-WRK-057), below a two-thirds target, and short-run (to 2018).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-050",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-059",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-059",
+  "statement": "Bossler and Gerner found that Germany's new statutory minimum wage, implemented on January 1, 2015, raised average wages 3.8% to 6.3% and cut employment about 1.7% in affected establishments, implying a labor demand elasticity between −0.2 and −0.4.",
+  "claim": "analysis",
+  "figures": [
+   "2015",
+   "3.8%",
+   "6.3%",
+   "1.7%",
+   "−0.2",
+   "−0.4"
+  ],
+  "source": "SRC-5834",
+  "anchor": [
+   "The authors present the first evidence on the consequences of the new statutory minimum wage in Germany, which was implemented on January 1, 2015.",
+   "A difference-in-differences estimation reveals an increase in average wages between 3.8% and 6.3% and an employment loss by approximately 1.7% in establishments affected by the minimum wage. These estimates imply a labor demand elasticity with respect to wages ranging between −0.2 and −0.4."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "ILR Review 73(5), 2020, peer reviewed; establishment-level difference-in-differences using the IAB Establishment Panel, short run to 2015. Contests Dustmann and co-authors on employment: it finds a reduction in hires concentrated in affected establishments, a transitory reduction in hours, and notes effects may be larger in a downturn. The authors are at IAB-linked institutes; the two German studies use different data and units (establishments versus workers and regions).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-058",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-054",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-060",
+  "statement": "Jardim and co-authors found that Seattle's second increase, to $13 in 2016, cut hours worked in low-wage jobs by 6-7 percent while hourly wages rose 3 percent, lowering pay by an average of $74 a month per job, while restaurant employment at all wage levels showed an effect of zero.",
+  "claim": "analysis",
+  "figures": [
+   "$13",
+   "6-7 percent",
+   "3 percent",
+   "$74",
+   "2016",
+   "zero"
+  ],
+  "source": "SRC-5835",
+  "anchor": [
+   "we conclude that the second wage increase to $13 reduced hours worked in low-wage jobs by 6-7 percent, while hourly wages in such jobs increased by 3 percent. Consequently, total payroll for such jobs decreased, implying that the Ordinance lowered the amount paid to workers in low-wage jobs by an average of $74 per month per job in 2016.",
+   "We estimate an effect of zero when analyzing employment in the restaurant industry at all wage levels, comparable to many prior studies."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER Working Paper 23532 (June 2017, revised May 2018) by University of Washington researchers (Seattle Minimum Wage Study, funded by the City of Seattle); this is a working paper, and a later journal version may give different estimates (the revision already lowered the monthly loss figure). Washington administrative payroll and hours data allow all low-wage jobs, not only restaurants, to be tracked, but the sample over-represents smaller single-site employers, and the authors note effects may be non-linear and local rather than general.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-061",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-063",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-033",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-061",
+  "statement": "Reich, Allegretto and Godøy found Seattle's minimum wage up to $13 raised food-service wages without a detectable employment effect, even among limited-service restaurants, while noting Seattle's hot labor market may have raised employment.",
+  "claim": "analysis",
+  "figures": [
+   "$13"
+  ],
+  "source": "SRC-5836",
+  "anchor": [
+   "Employment in food service, however, was not affected, even among the limited-service restaurants, many of them franchisees, for whom the policy was most binding. These findings extend our knowledge of minimum wage effects to policies as high as $13.",
+   "Of course, unobserved factors, such as Seattle’s hot labor market compared to that in Synthetic Seattle (Tu, Lerman and Gates 2017), may have positively affected Seattle’s low-wage employment during this period."
+  ],
+  "locator": "Summary and Conclusion",
+  "grade": "C",
+  "fact_date": "2017-06-19",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "UC Berkeley Center on Wage and Employment Dynamics brief, June 2017, not peer reviewed; synthetic-control method on county and city payroll counts (QCEW), covering the food services industry only, which the authors use as a proxy for low-wage work. Contests the University of Washington finding (EV-WRK-060), which covers all low-wage jobs and hours; critics note restaurants include workers above the wage floor and the tip credit softened the wage increase.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-060",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-063",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-033",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-062",
+  "statement": "Seattle's first phase in April 2015 raised the minimum from $9.47 to $10 or $11 depending on business size, tipped workers and health insurance, and its second phase from January 1, 2016 set four levels from $10.50 to $13 depending on employer size.",
+  "claim": "data",
+  "figures": [
+   "2015",
+   "$9.47",
+   "$10",
+   "$11",
+   "2016",
+   "$10.50",
+   "$13"
+  ],
+  "source": "SRC-5836",
+  "anchor": [
+   "Seattle implemented the first phase of its minimum wage law on April 1, 2015, raising minimum wages from the statewide $9.47 to $10 or $11, depending upon business size, presence of tipped workers and employer provision of health insurance.",
+   "The second phase began on January 1, 2016, further raising the minimum to four different levels, ranging from $10.50 to $13, again depending upon employer size"
+  ],
+  "locator": "Introduction",
+  "grade": "C",
+  "fact_date": "2017-06-19",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "UC Berkeley Center on Wage and Employment Dynamics brief, 2017; a description of the ordinance's size-based phase-in by a research group that studied its effects, not the ordinance text. Seattle's schedule later reached $15 and indexing; the ordinance itself should be cited for design.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-063",
+  "statement": "Godøy and Reich found positive wage effects and no detectable adverse effects on employment, weekly hours or weeks worked in low-wage counties with relative minimum wage ratios as high as 0.82, and substantial declines in household and child poverty in high-impact counties.",
+  "claim": "analysis",
+  "figures": [
+   "0.82"
+  ],
+  "source": "SRC-5837",
+  "anchor": [
+   "In this article, we examine minimum wage effects in low-wage counties, where relative minimum wage ratios reach as high as 0.82, well beyond the state-based ratios in extant studies.",
+   "We find positive wage effects, especially in high-impact counties, but do not detect adverse effects on employment, weekly hours, or annual weeks worked.",
+   "In high-impact counties, we find substantial declines in household and child poverty."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2021-01-22",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Industrial Relations 60(1), 2021, peer reviewed; event-study and difference-in-differences designs on ACS, QWI and QCEW data, by UC Berkeley researchers whose group has long found small employment effects. Written to inform whether a $15 federal minimum should exempt low-wage areas; the ratios refer to minimum to county median, and results rest on the federal and state increases of 2000 to 2016, not on current $15-plus floors in every county.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-051",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-060",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-064",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-064",
+  "statement": "Clemens and Wither found that the 2007 to 2009 federal minimum wage increases had significant negative effects on the employment and income growth of targeted low-skilled workers in states fully bound by them, reducing aggregate employment rates there by at least half of a percentage point.",
+  "claim": "analysis",
+  "figures": [
+   "2007",
+   "2009"
+  ],
+  "source": "SRC-5838",
+  "anchor": [
+   "First, we compare individuals in states that were fully bound by the 2007 to 2009 increases in the federal minimum wage to individuals in states that were not.",
+   "we find that binding minimum wage increases had significant, negative effects on the employment and income growth of targeted workers.",
+   "reduced aggregate employment rates by at least half of a percentage point in states that were bound by the federal minimum wage increases."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Journal of Public Economics 170, 2019, peer reviewed; authors at UC San Diego and the Federal Reserve, Clemens is a frequent critic of large increases. Uses the 2008 SIPP panel and treats the Great Recession as the setting, so it bears on a recession off-ramp; the authors acknowledge important limitations in their research designs and that their estimates are large relative to past research.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-033",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-063",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-052",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-065",
+  "statement": "Renkin, Montialoux and Siegenthaler found that a 10% minimum wage hike raises grocery prices by 0.36%, consistent with full pass-through of cost increases, with prices rising equally for goods bought by low-income and high-income households.",
+  "claim": "analysis",
+  "figures": [
+   "10%",
+   "0.36%"
+  ],
+  "source": "SRC-5839",
+  "anchor": [
+   "We find that a 10% minimum wage hike translates into a 0.36% increase in the prices of grocery products. This magnitude is consistent with a full pass-through of cost increases into consumer prices.",
+   "Prices rise to the same extent for goods consumed by low-income and high-income households.",
+   "Our results suggest that consumers rather than firms bear the cost of minimum wage increases in the retail sector."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2020-10-30",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Review of Economics and Statistics, 2020, peer reviewed; supermarket scanner data across many state increases, 2001 to 2012. Covers grocery and drug stores, not restaurants or services, and state-level increases much smaller than a move to two-thirds of median; effects at larger increases and in labor-intensive sectors may differ.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-055",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-054",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-066",
+  "statement": "Dube found that the long-run elasticity of the non-elderly poverty rate with respect to the minimum wage ranges between −0.220 and −0.459, with income gains from tax credits and transfers about 66 percent as large after a reduction in public assistance.",
+  "claim": "analysis",
+  "figures": [
+   "−0.220",
+   "−0.459",
+   "66 percent"
+  ],
+  "source": "SRC-5840",
+  "anchor": [
+   "The long-run (3 or more years) minimum wage elasticity of the non-elderly poverty rate with respect to the minimum wage ranges between −0.220 and −0.459 across alternative specifications.",
+   "A reduction in public assistance partly offsets these income gains, which are on average 66 percent as large when using an expanded income definition including tax credits and noncash transfers."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2019-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "American Economic Journal: Applied Economics 11(4), 2019, peer reviewed; CPS-based state panel by a UMass Amherst economist who also wrote the HM Treasury review (EV-WRK-050), so the two are not independent. Contested by older work finding minimum wages redistribute among low-income families rather than reduce poverty (Neumark and Wascher 2002), not yet in the register; Neumark and Yen find the same non-targeting for tipped wages (EV-WRK-068).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-063",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-068",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-067",
+  "statement": "Neumark and Yen found that higher tipped minimum wages (smaller tip credits) reduce jobs among tipped restaurant workers without earnings gains large enough to raise total earnings, with an employment elasticity around −.08.",
+  "claim": "analysis",
+  "figures": [
+   "−.08"
+  ],
+  "source": "SRC-5841",
+  "anchor": [
+   "Our evidence points to higher tipped minimum wages (smaller tip credits) reducing jobs among tipped restaurant workers, without earnings effects on those who remain employed sufficiently large to raise total earnings in this sector.",
+   "We find evidence of negative effects on employment, with employment elasticities around −.08."
+  ],
+  "locator": "Abstract; Conclusion",
+  "grade": "B",
+  "fact_date": "2022-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER Working Paper 29213 (September 2021, revised August 2022), by UC Irvine economists long critical of large increases; a working paper using past state variation in tip credits. The Employment Policies Institute, a restaurant-industry funded group, has promoted this paper in its own summaries, which frame the elasticity as up to a 6.1% employment loss per dollar; those summaries were not read as sources here. Cross-state variation in tip credits was mostly modest, so the design says little about full elimination.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-069",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-061",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-063",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-068",
+  "statement": "Neumark and Yen found most of their evidence gave no indication that higher tipped minimum wages would be well targeted to poor or low-income families or reduce the likelihood of being poor or very low income.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5841",
+  "anchor": [
+   "And most of our evidence provides no indication that higher tipped minimum wages would be well targeted to poor or low-income families or reduce the likelihood of being poor or very low income."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER Working Paper 29213 (revised August 2022), UC Irvine economists critical of large increases; working paper, not peer reviewed in this version. A targeting claim about tipped wages, which the Economic Policy Institute's cross-state comparison (EV-WRK-069) appears to contradict on poverty rates, though that comparison is descriptive.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-069",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-066",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-063",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-069",
+  "statement": "The Economic Policy Institute found that tipped workers' poverty was nearly 4 percentage points higher in $2.13 states than in states paying the regular minimum wage as base wage, and nearly 8 points higher for waitstaff and bartenders; Alaska, California, Minnesota, Montana, Nevada, Oregon and Washington then paid the regular wage.",
+  "claim": "analysis",
+  "figures": [
+   "4",
+   "8",
+   "$2.13"
+  ],
+  "source": "SRC-5845",
+  "anchor": [
+   "the poverty rate for tipped workers in $2.13 states is nearly 4 percentage points higher than in “equal treatment” states, where tipped workers get the regular minimum wage as a base wage. Among just waitstaff and bartenders, the poverty rate is nearly 8 percentage points higher in states where tipped workers only get $2.13",
+   "In Alaska, California, Minnesota, Montana, Nevada, Oregon, and Washington, tipped workers receive at least the regular minimum wage as their base wage"
+  ],
+  "locator": "Text below the figure",
+  "grade": "C",
+  "fact_date": "2014-07-16",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Economic Policy Institute, a labor-aligned think tank, 2014 snapshot using 2010 to 2012 CPS data; a descriptive cross-state comparison, not a causal estimate, and the list of equal-treatment states has since changed (Hawaii and others). The Employment Policies Institute (restaurant-industry funded) and Neumark and Yen dispute the inference.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-067",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-068",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-061",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-070",
+  "statement": "The Congressional Research Service reported in October 2024 that 15 states and DC index their minimum wages to a measure of inflation, and another 5 states were scheduled to index in a future year.",
+  "claim": "data",
+  "figures": [
+   "15",
+   "5"
+  ],
+  "source": "SRC-5827",
+  "anchor": [
+   "Currently, 15 states and DC index their minimum wages to a measure of inflation, and another 5 states are scheduled to index state minimum wage rates to a measure of inflation in a future year."
+  ],
+  "locator": "Section on indexing to inflation",
+  "grade": "A",
+  "fact_date": "2024-10-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Congressional Research Service, nonpartisan, report R43792 last updated 3 October 2024; counts drift as states change law (Nevada removed indexing in 2022 and Alaska and Florida pause indexing, per NCSL July 2026), so re-check against the NCSL table.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-071",
+  "statement": "In July 2025 the DC Council adopted an act freezing the tipped minimum wage at $10 an hour until July 1, 2026 and then raising it to 75% of the standard minimum wage by 2034, instead of the 100% by 2027 that Initiative 82 required.",
+  "claim": "data",
+  "figures": [
+   "$10",
+   "July 1, 2026",
+   "75%",
+   "2034",
+   "100%",
+   "2027",
+   "82"
+  ],
+  "source": "SRC-5843",
+  "anchor": [
+   "Initiative 82 eliminated the tip credit by gradually raising the minimum wage for tipped workers to 100% of the standard minimum wage by 2027.",
+   "In July 2025, the Council adopted an act that changes Initiative 82 to freeze the minimum wage for tipped workers at $10/hour until July 1, 2026, then gradually increases those wages to 75% of the standard minimum wage by 2034."
+  ],
+  "locator": "Summary statement of Referendum Measure No. 009",
+  "grade": "A",
+  "fact_date": "2025-10-22",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-31",
+  "context": "District of Columbia Board of Elections notice, 22 October 2025, formulating a referendum on the Council's act; a notice from the elections authority, neutral on merits. A referendum on the act was proposed in October 2025; the outcome and any change since was not confirmed in this research (a new Initiative 87 to end the tipped wage was reported in November 2026 as having delivered petition signatures). Re-check DC law before use.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-072",
+  "statement": "Chicago's City Council approved the One Fair Wage ordinance in October 2023, phasing out the tipped subminimum wage over five years, with the $9.48 tipped wage rising 8 percent a year to reach parity with the $15.80 standard minimum wage.",
+  "claim": "data",
+  "figures": [
+   "$9.48",
+   "8 percent",
+   "$15.80"
+  ],
+  "source": "SRC-5844",
+  "anchor": [
+   "the City Council approved the One Fair Wage ordinance, a proposal to phase out the City’s subminimum wage for tipped workers over a five-year period.",
+   "earn a subminimum wage of $9.48 per hour to increase by 8 percent per year until it reaches parity with Chicago’s standard hourly minimum wage of $15.80."
+  ],
+  "locator": "Press release, paragraphs 1 and 3",
+  "grade": "C",
+  "fact_date": "2023-10-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "City of Chicago Mayor's Press Office, 6 October 2023, an announcement by the administration that backed the ordinance, not the ordinance text. A compromise with the Illinois Restaurant Association stretched the phase-out from two to five years; the ordinance should be cited directly for the dates and the 2028 end point. No outcome data were found.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-073",
+  "statement": "GAO reported that, as of 2023, fewer than half of the roughly 1,000 former 14(c) workers Colorado and Oregon could track had moved to other employment, and 54 to 61 percent were not working but received Medicaid-funded non-employment services.",
+  "claim": "analysis",
+  "figures": [
+   "2023",
+   "1,000",
+   "54",
+   "61"
+  ],
+  "source": "SRC-5829",
+  "anchor": [
+   "GAO’s analysis of data from two selected states that",
+   "eliminated the use of 14(c) certificates—Colorado and Oregon—provides a partial",
+   "picture of outcomes in those states.",
+   "As of 2023 (the most recent data",
+   "available), fewer than half of the approximately 1,000 people these states were",
+   "able to track had moved from 14(c) to some other type of employment.",
+   "The remaining 54 to 61 percent of people the states were able to track were not",
+   "working but were receiving non-employment services funded by Medicaid, such as",
+   "day services to build socialization and daily living skills."
+  ],
+  "locator": "Highlights; question on employment outcomes",
+  "grade": "C",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Government Accountability Office, nonpartisan legislative-branch agency, report GAO-25-106471, April 2025. Partial picture: both states track people mainly through Medicaid records and could not follow those who left Medicaid; Oregon's data cover people with intellectual and developmental disabilities, not all 14(c) workers. The report notes untracked individuals may be working, retired, ineligible or deceased.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-074",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-075",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-074",
+  "statement": "Kakara, Bair and Venkataramani found that repealing Section 14(c) in New Hampshire (2015) was followed by a 5.2 percentage point rise in labor force participation and 7 points in employment for people with cognitive disabilities, while Maryland's (2016) changes were not statistically significant.",
+  "claim": "analysis",
+  "figures": [
+   "2015",
+   "2016",
+   "5.2",
+   "7"
+  ],
+  "source": "SRC-5842",
+  "anchor": [
+   "Repeal of Section 14(c) in New Hampshire (2015) and Maryland (2016).",
+   "In state-specific analyses, New Hampshire’s labor force participation and employment had a statistically significant increase by 5.2 percentage points (β = 0.05; 95% CI, 0-0.10; P = .04) and 7 percentage points (β = 0.07; 95% CI, 0.01-0.13; P = .03), respectively, following Section 14(c) repeal.",
+   "Labor force participation and employment both increased in Maryland, although estimates were not statistically significant."
+  ],
+  "locator": "Key Points; Results",
+  "grade": "B",
+  "fact_date": "2024-11-15",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "JAMA Health Forum, 2024, peer reviewed; synthetic difference-in-differences on ACS 2010 to 2019 for ages 18 to 45 with a cognitive disability, two states only, by University of Pennsylvania researchers. The authors note New Hampshire had no 14(c) workers at repeal and that Maryland phased out over four years, so the effects may reflect state funding and signaling rather than wage floors; hours and wages for the employed did not change significantly.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-073",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-075",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-075",
+  "statement": "The U.S. Commission on Civil Rights majority recommended in 2020 that Congress repeal Section 14(c) with a planned phase-out period and expand funding for supported employment, prioritizing capacity building in states transitioning from 14(c).",
+  "claim": "analysis",
+  "figures": [
+   "14(c)"
+  ],
+  "source": "SRC-5828",
+  "anchor": [
+   "Congress should repeal Section 14(c) with a planned phase-out period to allow transition",
+   "among service providers and people with disabilities to alternative service models prioritizing",
+   "competitive integrated employment.",
+   "Congress should expand funding for supported employment services and prioritize capacity",
+   "building in states transitioning from 14(c) programs."
+  ],
+  "locator": "Statement of the Chair and highlighted recommendations",
+  "grade": "C",
+  "fact_date": "2020-09-17",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "U.S. Commission on Civil Rights, independent bipartisan federal commission, September 2020 (first Trump administration period); a majority report with separate statements, so it is a recommendation of the commission majority, not a finding of causal effects. It drew on testimony, two field visits and public comments both for and against the program; it recommended continued outcome data collection after phase-out.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-074",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-073",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-010",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-161",
+  "statement": "DiNardo and Lee (2004) compared employers where unions barely won or barely lost elections in 1984-1999 and found small impacts of unionization on business survival, employment, output, productivity and wages, with wage estimates close to zero.",
+  "claim": "analysis",
+  "figures": [
+   "1984",
+   "1999"
+  ],
+  "source": "SRC-5846",
+  "anchor": [
+   "Essentially, outcomes for employers where unions barely won the election (e.g., by one vote) are compared with those where the unions barely lost.",
+   "The analysis finds small impacts on all outcomes that we examine; estimates for wages are close to zero.",
+   "establishments that faced organizing drives in the United States during 1984–1999"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2004-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Quarterly Journal of Economics, peer reviewed (Oxford University Press), 2004. Regression discontinuity on close union elections: the estimate applies to establishments near the 50 percent threshold, and the authors say unions were 'somewhat unsuccessful' at winning wage gains in recent decades. Frandsen (EV-WRK-162) finds that close elections show nonrandom selection and reaches different results; Knepper (EV-WRK-163) finds effects on benefits.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-162",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-163",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-167",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-162",
+  "statement": "Frandsen (2021) found that close union elections show substantial nonrandom selection, and that after accounting for it unionization substantially decreases payroll, employment, average worker earnings and establishment survival, with worker-level earnings effects small.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5847",
+  "anchor": [
+   "Estimates accounting for this selection show that unionization substantially decreases payroll, employment, average worker earnings, and establishment survival.",
+   "Payroll and earnings decreases are driven by composition changes, with older and higher-paid workers leaving unionizing establishments and younger workers joining or staying.",
+   "Worker-level effects on earnings are small"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2021-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Journal of Labor Economics, peer reviewed (University of Chicago Press), 2021. Regression discontinuity on matched employer-employee administrative data; the author reports manipulation of close elections, which he addresses with a panel differencing approach that others may dispute. Contests DiNardo and Lee (EV-WRK-161); the establishment-level declines are for marginal elections only and are driven by worker composition, not wage cuts for stayers. Management-aligned groups cite it against unionization.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-161",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-163",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-167",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-163",
+  "statement": "Knepper (2020) used a regression discontinuity in majority-rule union elections with firm-level data and found that after unionization average employee compensation and employer pension contributions rise, which raises the labor share of compensation, arguing that bargaining targets fringe benefits rather than wages.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5848",
+  "anchor": [
+   "Conventional wisdom suggests that labor unions raise worker wages, while the newer empirical literature finds only negligible earnings effects. I reconcile this apparent contradiction by arguing that collective bargaining targets fringe benefits.",
+   "Following unionization, average employee compensation and employer pension contributions increase, which raises the labor share of compensation."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2020-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Review of Economics and Statistics, peer reviewed (MIT Press), 2020. Author at the Bureau of Economic Analysis; uses BEA Multinational Enterprise Survey and Compustat, which cover larger firms, so results may not extend to small employers. Reconciles DiNardo and Lee (EV-WRK-161), which found wages near zero, with a union premium in total compensation.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-161",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-162",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-164",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-164",
+  "statement": "Farber, Herbst, Kuziemko and Naidu (2021) built survey microdata on union membership back to 1936 and found that the household union premium held between 10 and 20 log points despite large changes in density, and that unions reduce inequality, explaining a significant share of the fall in inequality between the mid-1930s and late 1940s.",
+  "claim": "analysis",
+  "figures": [
+   "1936",
+   "980,000",
+   "10",
+   "20"
+  ],
+  "source": "SRC-5849",
+  "anchor": [
+   "We develop a new source of microdata on union membership dating back to 1936, survey data primarily from Gallup (N ≈ 980,000)",
+   "the household union premium holds relatively steady between 10 and 20 log points.",
+   "we find consistent evidence that unions reduce inequality, explaining a significant share of the dramatic fall in inequality between the mid-1930s and late 1940s."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2021-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Quarterly Journal of Economics, peer reviewed (Oxford University Press), 2021. Household union premium from opinion-poll microdata (mostly Gallup), not worker wages; identification uses the 1935 legalization of unions and the World War II War Labor Board, which rests on historical assumptions. The long-run relationship need not carry over to a different labor market today.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-161",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-165",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-165",
+  "statement": "Fortin, Lemieux and Lloyd found that right-to-work laws lower wages and unionization rates, using an event study of adoptions in five U.S. states since 2011 and a differential exposure design; their preferred instrumental-variable estimate of the union wage effect is 0.35 against an OLS estimate of 0.16, which they say suggests right-to-work may also affect wages directly through a weaker union threat effect.",
+  "claim": "analysis",
+  "figures": [
+   "2011",
+   "0.35",
+   "0.16"
+  ],
+  "source": "SRC-5850",
+  "anchor": [
+   "The first approach uses an event study design to analyze the impact of the adoption of RTW laws in five U.S. states since 2011.",
+   "Both approaches indicate that RTW laws lower wages and unionization rates.",
+   "In our preferred specification based on the differential exposure design, the IV estimate of the effect of unions on wages is 0.35, which substantially exceeds the corresponding OLS estimate of 0.16. This large wage effect suggests that RTW may also directly affect wages due to a reduced union threat effect."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER working paper, 2022 (later published in Research in Labor Economics, 2023); quasi-experimental but not peer reviewed in this form. The authors note that right-to-work is not a clean instrument if it also lowers non-union wages. Contested by the Oklahoma synthetic control (EV-WRK-166), which found no wage effect, and by Heritage and Mackinac analyses of cost-of-living-adjusted wages (see notes).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-166",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-164",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-166",
+  "statement": "Eren and Ozbeklik (2016) used a synthetic control for Oklahoma and found that its right-to-work law decreased private-sector unionization rates, while the total employment rate and private-sector average wages were not affected.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5851",
+  "anchor": [
+   "the passage of RTW laws in Oklahoma decreased private sector unionization rates. Several other state outcomes including total employment rate and private sector average wages, on the other hand, were not affected by RTW laws."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2016-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Journal of Policy Analysis and Management, peer reviewed (Wiley), 2016. Single-state case (Oklahoma, 2001 constitutional amendment) with synthetic control weights; one treated unit limits precision, and the wage result differs from Fortin, Lemieux and Lloyd (EV-WRK-165), which uses five later adopters. Often cited by right-to-work proponents for the no-harm-to-wages finding; the unionization result is the same in both.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-165",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-167",
+  "statement": "Hirsch's review concluded that U.S. unionism has highly variable effects on productivity that are almost certainly small and insufficient to offset higher union compensation costs, that union companies have lower profitability, and that unions are associated with slower employment growth but with little difference in business failure or survival.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5852",
+  "anchor": [
+   "Rather, it appears that unionism in the US is associated with highly variable effects on productivity that on average may (or may not) be positive, but are almost certainly small and insufficient to offset higher union compensation costs.",
+   "Evidence on unions and profits is reasonably clear-cut, indicating lower profitability in union than in nonunion companies.",
+   "In short, the rather limited empirical literature that exists finds that US unions are associated with slower employment growth, but appear to exhibit little difference in rates of business failure or survival."
+  ],
+  "locator": "Sections on productivity, profits and business failure",
+  "grade": "C",
+  "fact_date": "2010",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "IZA discussion paper (2010) by Barry Hirsch, later a handbook chapter; a literature review by an economist who is a leading skeptic of union effects on firm performance. The paper says its evidence is dated and arguably unable to identify truly causal effects. It reports that DiNardo and Lee (EV-WRK-161) find negligible survival effects, while Frandsen (EV-WRK-162) later finds lower survival.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-161",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-162",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-163",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-168",
+  "statement": "Riddell (2004) used British Columbia's 1984 introduction of mandatory elections and 1993 return to card check, covering over 6,500 private-sector certifications, and found success rates fell by an average of 19 percentage points under voting and rose by about the same amount when card check returned, with management opposition about twice as effective under elections.",
+  "claim": "analysis",
+  "figures": [
+   "6,500",
+   "1984",
+   "1993",
+   "19"
+  ],
+  "source": "SRC-5853",
+  "anchor": [
+   "using data on over 6,500 private sector certifications from British Columbia over the years 1978–98.",
+   "first, in 1984, the introduction of mandatory elections; and second, in 1993, the repeal of elections and their replacement by the original card-check procedure.",
+   "Success rates declined by an average of 19 percentage points during the voting regime, and then increased by about the same amount when card-checks were re-instituted.",
+   "management opposition was twice as effective under elections as under card-checks."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2004-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "ILR Review, peer reviewed (Cornell ILR School), 2004. Quasi-experimental before-and-after design in one province with two law changes; closest natural experiment for the card-check question, but Canadian unions, employers and enforcement differ from U.S. practice and card check there sits beside other protections. Heritage's reading of NLRB data (EV-WRK-123) puts employer coercion at lower rates than EPI's (EV-WRK-121).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-121",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-123",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-169",
+  "statement": "Johnson (2010) used a panel of Canadian jurisdictions that adopted first contract arbitration at different times and found that the legislation reduces first-agreement work stoppage incidence by at least 50 percent, is used infrequently with first contracts rarely imposed, and has no statistically significant effect on the duration of first-agreement stoppages.",
+  "claim": "analysis",
+  "figures": [
+   "50"
+  ],
+  "source": "SRC-5854",
+  "anchor": [
+   "First, the author finds that the presence of FCA legislation reduces first agreement work stoppage incidence by at least 50 percent. Descriptive measures reveal that FCA is accessed infrequently; it is even rarer for a first contract (in whole or in part) to be imposed.",
+   "Finally, first contract arbitration has no statistically significant impact on the duration of first agreement work stoppages."
+  ],
+  "locator": "Corrected abstract (ILR Review erratum, October 2010)",
+  "grade": "B",
+  "fact_date": "2010-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "ILR Review, peer reviewed (Cornell ILR School), 2010; the quotation is the corrected abstract. Provincial panel, so effects are on stoppages, not on the share of units reaching a first contract or on later contract quality; the finding that FCA 'encourages collective bargaining' is the author's inference from low use. Written when the Employee Free Choice Act was pending. Canadian arbitration design (who may request, standards for imposing terms) differs from the PRO Act's.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-124",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-177",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-170",
+  "statement": "Cramton, Gunderson and Tracy used large Canadian private-sector contract negotiations from January 1967 to March 1993 and found that prohibiting replacement workers during strikes is associated with significantly higher wages and more frequent and longer strikes, and that union workers are better off with a ban because the higher wage more than compensates for the longer strikes.",
+  "claim": "analysis",
+  "figures": [
+   "1967",
+   "1993"
+  ],
+  "source": "SRC-5855",
+  "anchor": [
+   "Using Canadian data on large, private-sector contract negotiations from January 1967 to March 1993, we find that wages and strikes are substantially influenced by labor policy. In particular, we find that prohibiting the use of replacement workers during strikes is associated with significantly higher wages, and more frequent and longer strikes.",
+   "Despite the higher dispute costs, union workers are better off with a ban on replacement workers. The higher wage more than compensates for the more frequent and longer strikes."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "1995-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER working paper, 1995, published in the Review of Economics and Statistics (1999). Provincial variation in anti-replacement laws, contracts of 500 or more workers only. Budd (EV-WRK-171) finds little effect of banning permanent replacements on incidence, duration or wages; Quebec's 1977 law dominates the identification, so results may reflect other Quebec changes.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-171",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-171",
+  "statement": "Budd (1996) used Canadian manufacturing collective-bargaining agreements and found that a general ban on strike replacements is associated with longer strikes, but found little evidence that banning permanent strike replacements significantly influences strike incidence, strike duration or negotiated wages.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5856",
+  "anchor": [
+   "Although a general ban on strike replacements is found to be associated with longer strikes, little evidence is found to suggest that banning permanent strike replacements significantly influences strike incidence, strike duration, or negotiated wages."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "1996-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Industrial Relations, peer reviewed (Wiley), 1996. Manufacturing agreements only. Distinguishes bans on permanent replacements (the U.S. question under the PRO Act) from general bans on any replacement; Cramton, Gunderson and Tracy (EV-WRK-170) pool provincial bans and find higher wages and longer strikes.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-170",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-172",
+  "statement": "Canada's Bill C-58 received royal assent on June 20, 2024 and its amendments to the Canada Labour Code took effect on June 20, 2025; employers in federally regulated workplaces are banned from using contractors or specified other people to do the work of striking or locked-out workers, and a violation can be prosecuted with a fine of up to $100,000 per day.",
+  "claim": "data",
+  "figures": [
+   "June 20, 2024",
+   "June 20, 2025",
+   "$100,000"
+  ],
+  "source": "SRC-5857",
+  "anchor": [
+   "On June 20, 2025, amendments to Part I of the Code and the Canada Industrial Relations Board Regulations, 2012, that were proposed through Bill C-58, An Act to amend the Canada Labour Code and the Canada Industrial Relations Board Regulations, 2012, which received royal assent on June 20, 2024, came into effect.",
+   "Employers are also prohibited from using contractors to fill in and do union work during a strike or lockout, regardless of when they were hired.",
+   "Violating the prohibitions can be made an offence, and, if prosecuted and convicted, an employer can be subject to a fine of up to $100,000 per day."
+  ],
+  "locator": "Description of first component and enforcement",
+  "grade": "A",
+  "fact_date": "2025-06-20",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-20",
+  "context": "Government of Canada backgrounder (Employment and Social Development Canada), June 2025; a summary of the statute, not its text; the government supported the bill. Applies to federally regulated sectors only (air, rail, road and marine transport, banks, telecommunications and postal services), not provincial workplaces; British Columbia and Quebec had older provincial bans. The ban is under 18 months old, so no evaluation of its effects was found.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-173",
+  "statement": "The OECD (2019), using country-level data for 35 OECD countries between 1980 and 2016, found coordinated bargaining systems, including organised decentralisation, linked with higher employment and lower unemployment than fully decentralised systems, wage dispersion smallest among workers covered by sectoral bargaining, and lower productivity growth in centralised systems when coverage is high.",
+  "claim": "analysis",
+  "figures": [
+   "35",
+   "1980",
+   "2016"
+  ],
+  "source": "SRC-5858",
+  "anchor": [
+   "co-ordinated systems – including those characterised by organised decentralisation – are linked with higher employment and lower unemployment (also for young people, women and low-skilled workers) than fully decentralised systems.",
+   "wage dispersion is on average smallest among workers who are covered by sectoral bargaining.",
+   "Centralised bargaining systems tend to be associated with lower productivity growth if coverage of agreements is high.",
+   "using country-level data on labour market outcomes for 35 OECD countries between 1980 and 2016"
+  ],
+  "locator": "Chapter 'The role of collective bargaining systems for labour market performance', main empirical findings and conclusion",
+  "grade": "C",
+  "fact_date": "2019-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "OECD, 2019. Cross-country regressions on 35 countries; associations, not causal estimates, and the sample cannot say what happens when a country with firm-level bargaining like the United States adds sectoral bargaining. Countries with sectoral systems differ in many other institutions. The OECD site blocked download, so the licence was not checked.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-184",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-175",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-174",
+  "statement": "The OECD (2019) said that where sectoral bargaining lacks broad-based representation, administrative extension of agreements can help cover firms and workers who do not take part, and that extension should be limited by representativeness criteria, a public-interest test, and exemptions or opt-outs for firms in serious economic hardship.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5858",
+  "anchor": [
+   "In systems with sectoral bargaining and no broad-based representation, administrative extensions can help cover companies and workers not participating in collective bargaining.",
+   "This can be achieved by subjecting extension requests to reasonable representativeness criteria and a meaningful test of public interest and providing well-defined procedures for exemptions and opt-outs of firms in case of serious economic hardship."
+  ],
+  "locator": "Chapter conclusions on coverage and extension",
+  "grade": "C",
+  "fact_date": "2019-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "OECD secretariat recommendation, 2019, drawn from the experience of continental European countries with extension rules; a design guideline from an international organization, not an evaluation. New Zealand's Fair Pay Agreements (EV-WRK-175) show a case in which a negotiated extension model was repealed before any agreement was finalised.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-175",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-184",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-175",
+  "statement": "The Institute for Government reports that New Zealand's Fair Pay Agreements Act came into force on 1 December 2022 and was swiftly repealed a year later by the new coalition after the 2023 election; six sectors had approval to initiate bargaining but none got far, no pay settlements were finalised, and FPAs faced stiff opposition from employers over cost and flexibility.",
+  "claim": "analysis",
+  "figures": [
+   "1 December 2022",
+   "2023"
+  ],
+  "source": "SRC-5859",
+  "anchor": [
+   "came into force on 1 December 2022. However, the act was swiftly repealed a year later by the new right-wing coalition that came to power after the 2023 general election.",
+   "At the time six sectors, including bus drivers, commercial cleaners and early childhood education workers, had received approval to initiate bargaining under the new system. However, none had got far, and no pay settlements were finalised before the legislation was repealed.",
+   "FPAs faced stiff opposition from the off, particularly from employers due to concerns about cost and flexibility."
+  ],
+  "locator": "Paragraphs 1 and 2",
+  "grade": "C",
+  "fact_date": "2024-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Institute for Government, a UK nonpartisan think tank, July 2024, writing about lessons for a UK Labour plan; a secondary account of New Zealand events. The Act's repeal took effect 20 December 2023 (Employment New Zealand; New Zealand Legislation). Employers, led by BusinessNZ, opposed the system; the unions' side says the repeal ended agreements already near conclusion. A failure-of-durability case: the system lasted about a year and produced no agreement.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-173",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-176",
+  "statement": "CBO estimated that the Protecting the Right to Organize Act as ordered reported in 2019 would let the NLRB assess civil penalties of up to $50,000 for an unfair labor practice and up to $100,000 for discriminatory discharge, imposed in about 120 cases a year, one-quarter at the higher rate, raising revenues by $39 million over 2020-2029.",
+  "claim": "analysis",
+  "figures": [
+   "$50,000",
+   "$100,000",
+   "120",
+   "$39 million",
+   "2020-2029"
+  ],
+  "source": "SRC-5860",
+  "anchor": [
+   "enable the NLRB to assess a civil penalty of up to $50,000 on employers that commit an unfair labor practice as defined by the NLRA and up to $100,000 on employers that specifically discriminate against or discharge an employee because of membership in a labor organization.",
+   "CBO estimates those penalties would be imposed in about 120 cases per year, about one-quarter of which would be subject to the higher penalty.",
+   "CBO estimates that enacting those provisions would increase revenues by $39 million over the 2020-2029 period."
+  ],
+  "locator": "Basis of Estimate, Revenues",
+  "grade": "C",
+  "fact_date": "2019-12-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Congressional Budget Office (nonpartisan), December 2019, for the House committee-reported H.R. 2474; no CBO estimate was found for H.R. 842 (2021) or H.R. 20 (2025). The estimate scores budget effects from existing case counts and does not model how penalties change employer behavior; CBO lists predicting employer responses as a significant uncertainty. Penalty amounts match the introduced text in EV-WRK-142.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-142",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-117",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-177",
+  "statement": "CBO reported that the Federal Mediation and Conciliation Service receives around 500 NLRB notifications a year of newly certified units working toward a first agreement, and mediates only when both parties request it, which occurs in roughly 10 percent of initial collective bargaining cases.",
+  "claim": "data",
+  "figures": [
+   "500",
+   "10 percent"
+  ],
+  "source": "SRC-5860",
+  "anchor": [
+   "Currently, FMCS receives around 500 notifications annually from the NLRB that new bargaining units have been certified and that the parties are working toward an initial collective bargaining agreement. The agency mediates disputes only if both parties request its services, which occurs in roughly 10 percent of initial collective bargaining cases."
+  ],
+  "locator": "Basis of Estimate, Spending Subject to Appropriation, FMCS",
+  "grade": "A",
+  "fact_date": "2019-12-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "CBO (nonpartisan) reporting FMCS figures supplied by the agency, December 2019; the counts predate the 2024-2026 rise in NLRB petitions (EV-WRK-109).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-178",
+  "statement": "EPI's July 2026 inventory reports that Nevada's home care board made recommendations in 2022 that helped pave the way for 2023 legislation setting a $16 minimum wage for home care workers, and that Colorado's Direct Care Workforce Stabilization Board recommended $25 an hour by 2026 in 2024 while 2025 legislation set a $17 minimum wage.",
+  "claim": "analysis",
+  "figures": [
+   "2022",
+   "2023",
+   "$16",
+   "2024",
+   "2025",
+   "$17",
+   "$25",
+   "2026"
+  ],
+  "source": "SRC-5861",
+  "anchor": [
+   "Board recommendations in 2022 helped pave way for 2023 legislation setting $16 min wage for home care workers and increasing Medicaid reimbursement rates.",
+   "2024 board recommendations laid groundwork for 2025 legislation including min wage of $17 for direct care workers (board recommendation was $25/hr by 2026)"
+  ],
+  "locator": "Appendix table, Nevada and Colorado rows, 'Notable outcomes'",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-14",
+  "context": "EPI, July 2026; a labor-aligned think tank that favors sectoral bargaining and wage boards. The table's 'notable outcomes' text is EPI's characterization; the boards were advisory and the legislature set the wages, at $17 against a board recommendation of $25 in Colorado, which shows an advisory board's recommendation can be cut. Primary board reports (Nevada Home Care Employment Standards Board 2022 report) were not catalogued.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-151",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-152",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-179",
+  "statement": "EPI's table describes Minnesota's Nursing Home Workforce Standards Board as nine members, the commissioners of labor, health and human services plus six governor appointees split evenly between worker and employer representatives, whose first rules in 2024 included 1.5x pay for designated holidays and one hour of required 'know your rights' training every two years.",
+  "claim": "data",
+  "figures": [
+   "1.5x",
+   "2024",
+   "one hour"
+  ],
+  "source": "SRC-5861",
+  "anchor": [
+   "Nine-member board, including commissioners of state Dept of Labor, Dept of Health, and Dept of Human Services, plus six members appointed by governor: three representing nursing home workers or worker organizations and three representing nursing home employers or employer organizations",
+   "First set of rules issued by board in 2024 included 1.5x pay for designated holidays, min wage of $19 in 2026 and $20.50 in 2027 (pending federal approval), and one hour of required “know your rights” training every two years."
+  ],
+  "locator": "Appendix table, Minnesota row",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-14",
+  "context": "EPI, July 2026, labor-aligned; its description of the statute and rules. Wages are in EV-CAR-618. Minnesota DLI's pages (read but not catalogued) record that the board voted on the initial wage standards on May 9, 2024, published the adopted rules in the State Register on October 28, 2024 under the expedited rulemaking process, and that the wage standards took effect on September 10, 2026 only after federal approval (CMS, August 11, 2026) of a Medicaid rate increase: the board's wage power depends on public reimbursement.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-180",
+  "statement": "EPI's table describes Seattle's Domestic Workers Standards Board as a 13-member board of domestic workers, hiring entities and a community representative whose power is to consider, analyze and make recommendations to the City on protections, benefits and working conditions.",
+  "claim": "data",
+  "figures": [
+   "13"
+  ],
+  "source": "SRC-5861",
+  "anchor": [
+   "13-member board, including four domestic workers or worker organization representatives, two domestic workers who are not worker organization representatives, four hiring entities or their representatives, two individuals who contract with or hire domestic workers, and one community representative",
+   "Consider, analyze, and make recommendations to City on legal protections, benefits, and working conditions for domestic worker industry standards"
+  ],
+  "locator": "Appendix table, Seattle row",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-14",
+  "context": "EPI, July 2026, labor-aligned. The board is advisory, with no power to set wages; the table lists no notable outcomes for it. City documents (read but not catalogued) say the board was created in 2019 and that the City Council committee must respond to its recommendations within 120 days.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-181",
+  "statement": "EPI's table reports that Detroit's Industry Standards Board ordinance creates a nine-person board once at least 150 workers in an industry petition, with authority to conduct outreach, investigate local conditions and report recommendations to City Council, and that the first board, for sports arena workers, issued recommendations in November 2025.",
+  "claim": "data",
+  "figures": [
+   "150",
+   "2025"
+  ],
+  "source": "SRC-5861",
+  "anchor": [
+   "Once triggered (by petition from at least 150 workers in a given industry), ordinance requires creation of nine-person board",
+   "Boards established for a particular industry have authority to conduct outreach, investigate local working conditions, and report recommendations to City Council.",
+   "The first board created under the ordinance for Sports Arena Workers issued its recommendations to the council in November, 2025."
+  ],
+  "locator": "Appendix table, Detroit row",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-14",
+  "context": "EPI, July 2026, labor-aligned. A worker-petition trigger and advisory powers; the table does not say whether the Council acted on the recommendations.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-182",
+  "statement": "EPI's table reports that New York's Farm Laborers Wage Board, a three-person board with one farm bureau, one state AFL-CIO and one commissioner-appointed member, issued 2022 recommendations that the state adopted in 2023, starting a 10-year phase-in that lowers the farmworker overtime threshold from 60 to 40 hours a week by January 1, 2032.",
+  "claim": "data",
+  "figures": [
+   "2022",
+   "2023",
+   "10",
+   "60",
+   "40",
+   "2032"
+  ],
+  "source": "SRC-5861",
+  "anchor": [
+   "Three-person board, including one representative of farm bureau, one representative of state AFL-CIO, and one representative appointed by state Labor Commissioner",
+   "Board’s 2022 recommendations were adopted by state in 2023, starting 10-year phase in to lower the current 60-hour threshold for farmworker overtime pay to 40 hours per week by January 1, 2032"
+  ],
+  "locator": "Appendix table, New York Farm Laborers Wage Board row",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-14",
+  "context": "EPI, July 2026, labor-aligned. An example of a tripartite board whose recommendation was adopted in full by the state but on a slow phase-in.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-183",
+  "statement": "Australia's Fair Work Commission said in 2025 that approximately 20.7 per cent of all employees are paid the minimum rates in its 121 modern awards, that their wages are only about 10.5 per cent of the national wage bill, and it raised the National Minimum Wage and all modern award minimum rates 3.5 per cent from 1 July 2025.",
+  "claim": "data",
+  "figures": [
+   "20.7",
+   "121",
+   "10.5",
+   "3.5",
+   "1 July 2025"
+  ],
+  "source": "SRC-5862",
+  "anchor": [
+   "Approximately 20.7 per cent of all employees in Australia are paid at the applicable minimum wage rates in the 121 modern industry and occupational awards currently in operation.",
+   "the wages paid to them constitute only about 10.5 per cent of the national ‘wage bill’.",
+   "The decision we have made is to increase the National Minimum Wage and all modern award minimum wage rates by 3.5 per cent, effective from 1 July 2025."
+  ],
+  "locator": "Paragraphs 5, 6 and 10 of the announcement",
+  "grade": "A",
+  "fact_date": "2025-06-03",
+  "checked": "2026-11-16",
+  "recheck": "2026-11-16",
+  "context": "Fair Work Commission Expert Panel, an independent tribunal, June 2025 (Albanese government period). The awards set minimum rates by industry or occupation through a quasi-judicial annual review, a sectoral minimum-standards system separate from enterprise agreements. The 2026 review (2 June 2026) raised award wages 4.75 per cent per the Fair Work Ombudsman; the next review is expected in June 2027.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-184",
+  "statement": "Jäger, Noy and Schoefer (2022) reviewed codetermination, meaning worker representation in firms' governance, and concluded that micro evidence points to zero or small positive effects on worker and firm outcomes, and that new country-level event studies of reforms between the 1960s and 2010s find no effects on aggregate economic outcomes or the quality of industrial relations.",
+  "claim": "analysis",
+  "figures": [
+   "1960s",
+   "2010s"
+  ],
+  "source": "SRC-5863",
+  "anchor": [
+   "The available micro evidence points to zero or small positive effects of codetermination on worker and firm outcomes and leaves room for moderate positive effects on productivity, wages, and job stability.",
+   "The authors also present new country-level, general-equilibrium event studies of codetermination reforms between the 1960s and 2010s, finding no effects on aggregate economic outcomes or the quality of industrial relations."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "ILR Review, peer reviewed (Cornell ILR School), 2022. A review plus new cross-country event studies; board-level codetermination, not bargaining. The authors attribute the limited impact partly to weak worker authority and to interaction with unions and collective bargaining. The companion Germany study (Jager, Schoefer and Heining, QJE 2021) finds no wage effects of the one-third board mandate (read in an Exa extract, not catalogued).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-173",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-185",
+  "statement": "A law-firm blog reported in September 2025 that 12 states had enacted laws to ban or restrict captive audience meetings, that Minnesota's 2023 law gives aggrieved employees a private right of action, and that on September 3 the 8th Circuit reversed the district court and dismissed the challenge to it, leaving the NLRA preemption and First Amendment questions unresolved.",
+  "claim": "data",
+  "figures": [
+   "12",
+   "2023",
+   "September 3"
+  ],
+  "source": "SRC-5864",
+  "anchor": [
+   "There are now 12 states, including Minnesota, which have enacted laws designed to ban or restrict captive audience meetings: Alaska, Connecticut, Hawaii, Illinois, Maine, New Jersey, New York, Oregon, Vermont, Washington, and, most recently, California.",
+   "The Minnesota legislature adopted a law in 2023",
+   "It provides a private right of action for “aggrieved employee[s],”",
+   "In a decision issued on September 3, the 8th Circuit Court of Appeals reversed the district court.",
+   "The issue of whether the law is preempted by the NLRA or the First Amendment remains unresolved."
+  ],
+  "locator": "Paragraphs on the 12 states, the Minnesota Act and the 8th Circuit decision",
+  "grade": "C",
+  "fact_date": "2025-09-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-01",
+  "context": "Employment-law firm blog, September 2025; a secondary legal summary with a management-side perspective. The dismissal turned on sovereign immunity and the state officials' disavowal of enforcement, not on the merits. A Bloomberg Law item of September 2025 counted at least five challenges in four states (California, Connecticut, Illinois, Minnesota); California's SB 399 was preliminarily enjoined on First Amendment and preemption grounds in September 2025 (not catalogued here for lack of a source ID). The NLRB's own Amazon.com Services ruling is in EV-WRK-127.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-186",
+  "statement": "A New York appeals court described the 2015 Fast Food Wage Board as three members, one each for employers, employees and the general public, whose July 2015 report recommended a gradual phase-in reaching full effect on December 31, 2018 in New York City and July 1, 2021 elsewhere, limited to chains with at least 30 establishments nationally, which the Commissioner accepted in full in September 2015.",
+  "claim": "data",
+  "figures": [
+   "2015",
+   "December 31, 2018",
+   "July 1, 2021",
+   "30"
+  ],
+  "source": "SRC-5865",
+  "anchor": [
+   "The Commissioner proceeded to name a three-member wage board with one representative each for the interests of employers, employees and the general public",
+   "The wage board suggested a gradual phase-in of the increase, which would take full effect on December 31, 2018 in New York City and July 1, 2021 elsewhere in the state.",
+   "The recommended increase was additionally limited to fast-food workers employed by fast-food establishments in New York that were part of a chain with at least 30",
+   "In September 2015, the Commissioner accepted the report in full and ordered that the recommended minimum wage increase be implemented"
+  ],
+  "locator": "Opinion, background and first Discussion paragraph",
+  "grade": "A",
+  "fact_date": "2016-06-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Appellate Division, Third Department, June 2016, a court's account of the administrative record; it confirmed the wage order on appeal. The target wage ($15) and the wage-board model were later overtaken by the 2016 statutory $15 minimum, which the court says removed the Commissioner's power to set higher occupational minimums above the new statutory rates. That curtailment of future boards is a durability point; no evaluation of the wage order's employment effects was found.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-249",
+  "statement": "In a natural field experiment, Levine, Toffel and Johnson compared 409 randomly inspected California establishments with 409 matched controls and found a 9.4% decline in injury rates and a 26% reduction in injury cost, with no evidence of losses in employment, sales, credit ratings or firm survival.",
+  "claim": "analysis",
+  "figures": [
+   "409",
+   "9.4%",
+   "26%"
+  ],
+  "source": "SRC-5866",
+  "anchor": [
+   "We compared 409 randomly inspected establishments in California with 409 matched-control establishments that were eligible, but not chosen, for inspection.",
+   "randomly inspected employers experienced a 9.4% decline in injury rates",
+   "a 26% reduction in injury cost",
+   "We find no evidence that these improvements came at the expense of employment, sales, credit ratings, or firm survival."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2012-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Science (AAAS), peer reviewed, May 2012; academic authors (Berkeley, Harvard Business School, Duke), no stakeholder funding noted in the extract. Quasi-experimental: Cal/OSHA's random allocation of some inspections gives a matched-control comparison. Limits stated in the paper's text: a subset of firms in one state, and it ignores any effect of the threat of inspection on uninspected workplaces. Read through an HBS-hosted copy of the article as well as the abstract. No independent publisher's replication is in the register; the same authors' later AEJ: Applied paper (Johnson, Levine and Toffel 2023, not drafted here for lack of a source ID) reports 2.4 fewer serious injuries (9 percent) per inspection over five years.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-250",
+  "statement": "Levine, Toffel and Johnson's point estimates imply the injury reductions in the 5 years after a Cal/OSHA inspection cut medical costs and lost earnings by roughly $355,000 (in 2011 dollars), and they can be 95% certain the mean inspected establishment either grows payroll or loses less than $221,000 over the 5 years.",
+  "claim": "analysis",
+  "figures": [
+   "$355,000",
+   "2011",
+   "95%",
+   "$221,000",
+   "5 years"
+  ],
+  "source": "SRC-5866",
+  "anchor": [
+   "reduced medical costs and lost earnings by roughly $355,000 (in 2011 dollars)",
+   "we can be 95% certain that the mean establishment either grows payroll or experiences a decline of less than $221,000 over the 5 years",
+   "there is substantial uncertainty about our estimated benefits"
+  ],
+  "locator": "Results and discussion (text following Table 2)",
+  "grade": "B",
+  "fact_date": "2012-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Same Science article as EV-WRK-249, same authors, so not independent of it. The paper calls these numbers 'with many assumptions' and notes substantial uncertainty in the benefit estimate; the payroll bound and the benefit are in different units. Single-establishment firms in California only. Quotations read through the HBS-hosted PDF; its text has line-break artifacts, so check against the journal page.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-249",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-251",
+  "statement": "Johnson found that OSHA press releases about violators, begun in 2009, led to 73 percent fewer violations at peer facilities in the same sector within a 5 kilometer radius, and that OSHA would need 210 additional inspections to match the compliance gain from a single press release.",
+  "claim": "analysis",
+  "figures": [
+   "2009",
+   "73 percent",
+   "5 kilometer",
+   "210"
+  ],
+  "source": "SRC-5867",
+  "anchor": [
+   "In 2009, the Occupational Safety and Health Administration (OSHA) began issuing press releases about facilities that violated safety and health regulations.",
+   "A press release leads to 73 percent fewer violations at “peer” facilities in the same sector within a 5 kilometer radius.",
+   "OSHA would need to conduct 210 additional inspections to achieve the same improvement in compliance as achieved with a single press release."
+  ],
+  "locator": "Abstract and Introduction",
+  "grade": "B",
+  "fact_date": "2020-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "American Economic Review, peer reviewed (June 2020); regression discontinuity around a cutoff rule OSHA used for issuing releases (Obama administration policy, 2009 onward). The paper says the injury result is 'substantial, but the estimate is somewhat imprecise', and that compliance gains appeared where unions were strong and not where they were weak, which it reads as employers avoiding costly responses from workers. The 210-inspection comparison depends on the paper's cost assumptions. Same lead author as EV-WRK-249; not independent of it.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-252",
+  "statement": "Galvin's study of state wage-theft laws, summarized in a 2017 policy brief, found that the introduction of treble damages had the greatest deterrent effect, with statistically significant drops in violation rates in five states, and that effective policy needed favorable partisan majorities, determined coalitions of workers' advocates and strong enforcement of penalties.",
+  "claim": "analysis",
+  "figures": [
+   "five"
+  ],
+  "source": "SRC-5868",
+  "anchor": [
+   "the introduction of treble damages has the greatest deterrent effect",
+   "The implementation of “treble damages” in five states led to statistically significant drops in violation rates.",
+   "However, effective policies require three conditions: favorable partisan majorities in state government, determined coalitions of workers’ advocates lobbying for change, and strong enforcement of penalties."
+  ],
+  "locator": "Findings; Policy Takeaways",
+  "grade": "B",
+  "fact_date": "2017-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Northwestern University's Institute for Policy Research (academic), July 2017, summarizing Galvin's peer-reviewed article in Perspectives on Politics 14(2), 2016 (the brief, not the article, was read; the article's abstract reports difference-in-differences analyses of a dozen state laws and that 'the structure of the policy matters a great deal, as does its enforcement'). Violation rates are estimated from Current Population Survey wage data, so they carry measurement error; the five-state treble-damages result is a small-sample difference-in-differences. The brief's own wording is 'five states' while the abstract says a dozen laws were examined. The project brief called this an ILR Review paper; it is Perspectives on Politics.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-253",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-205",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-253",
+  "statement": "Weil and Pyles, analyzing complaint activity under the FLSA and OSHA, found a significant gap between the level of complaint activity and underlying violation rates, and concluded that silence should not be confused with compliance and that enforcement must focus where workers are unlikely to complain.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5869",
+  "anchor": [
+   "We show that there is a significant gap between the level of complaint activity and underlying violation rates.",
+   "silence should not be confused with compliance",
+   "Workplace regulatory policy must focus on workplaces where big problems exist but also where workers are unlikely to complain because of barriers they face."
+  ],
+  "locator": "Sections IV and VI",
+  "grade": "B",
+  "fact_date": "2005",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Comparative Labor Law & Policy Journal 27, 2005; peer reviewed (law and policy journal). Uses survey data on violations and agency data on complaints from before 2005, by industry, so it shows an industry-level mismatch rather than a measured effect of any policy. David Weil later led the Wage and Hour Division (2014-2017, Obama administration) and built its strategic-enforcement approach on this research, so the authors are not neutral about the remedy. Read through the authors' posted PDF.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-254",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-252",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-254",
+  "statement": "In a 2008 survey of 4,387 workers in low-wage industries in Chicago, Los Angeles and New York City, 43 percent of those who had complained or tried to form a union experienced retaliation that the report calls illegal, and another 20 percent who had a serious problem did not complain, half of them for fear of losing their job.",
+  "claim": "data",
+  "figures": [
+   "2008",
+   "4,387",
+   "43 percent",
+   "20 percent"
+  ],
+  "source": "SRC-5870",
+  "anchor": [
+   "In 2008, we conducted a landmark survey of 4,387 workers in low-wage industries in the three largest U.S. cities",
+   "Of those, 43 percent experienced one or more forms of illegal retaliation from their employer or supervisor.",
+   "Another 20 percent of workers reported that they did not make a complaint to their employer during the past 12 months, even though they had experienced a serious problem such as dangerous working conditions or not being paid the minimum wage.",
+   "Half were afraid of losing their job, 10 percent were afraid they would have their hours or wages cut, and 36 percent thought it would not make a difference."
+  ],
+  "locator": "Key findings, illegal employer retaliation",
+  "grade": "C",
+  "fact_date": "2009-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "National Employment Law Project, a worker-advocacy organization, with university researchers; September 2009; not peer reviewed. Respondent-driven sampling of front-line low-wage workers in three cities in 2008, weighted to about 1.64 million workers; the sample is not national. A reanalysis of the raw survey (Alexander and Prasad, Indiana Law Journal 2014) describes the 43 percent as employer reprisal of any kind after a complaint, of which it reads roughly 35 percent as unlawful retaliation, so the 'illegal' label should be checked before the figure is repeated (read only through a search extract of that article).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-255",
+  "statement": "OSHA's August 2024 proposed heat standard estimated annualized costs of 7.8 billion (2 percent discount rate, ten-year period) against total annual benefits of $9.179 billion, preventing 531 of an estimated 559 annual heat fatalities and 16,027 of 24,656 annual heat-related injuries and illnesses.",
+  "claim": "analysis",
+  "figures": [
+   "2 percent",
+   "7.8 billion",
+   "$9.179 billion",
+   "531",
+   "559",
+   "16,027",
+   "24,656"
+  ],
+  "source": "SRC-5874",
+  "anchor": [
+   "OSHA\nestimates that annualized costs, using a 2 percent discount rate over a\nten-year period, would equal 7.8 billion.",
+   "Total benefits each year\nfor avoided heat-related fatalities and HRIs are $9.179 billion.",
+   "proposed standard would prevent 531 heat-related fatalities (of the\nestimated 559 annual fatalities) and 16,027 HRIs per year (of the\nestimated 24,656 annual HRIs).",
+   "The parameters used to\nestimate the magnitude of underreporting of HRIs and the effectiveness\nof the proposed standard have considerable uncertainty."
+  ],
+  "locator": "Preamble, Section VIII (Preliminary Economic Analysis): summary, total costs and benefits",
+  "grade": "C",
+  "fact_date": "2024-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Labor Department (OSHA), Biden administration, proposed rule of August 30, 2024 (89 FR 70698), Preliminary Economic Analysis; a proposal, not a final rule, and the Trump administration's current agenda lists a supplemental notice (see EV-WRK-237). The benefit total rests on OSHA's own undercount adjustment (559 deaths against far fewer reported) and on an assumed effectiveness of the standard, which the proposal itself says carry considerable uncertainty; the dollar split of the $9.179 billion between deaths and injuries was not checked here. Industry commenters contest the analysis (U.S. Chamber of Commerce and the National Association of Home Builders ask for withdrawal; an American Enterprise Institute paper argues the benefit is overstated); those comments were read through search extracts and are listed in the notes, not drafted for lack of source IDs.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-257",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-258",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-230",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-256",
+  "statement": "OSHA's 2024 heat proposal cites existing state heat standards with a plan requirement in California (2005), Washington (2023) and Oregon (2022).",
+  "claim": "data",
+  "figures": [
+   "2005",
+   "2023",
+   "2022"
+  ],
+  "source": "SRC-5874",
+  "anchor": [
+   "California (Cal. Code of Regs. tit. 8, section 3395 (2005)), Washington\n(Wash. Admin. Code sections 296-62-095 through 296-62-09560; 296-307-\n097 through 296-307-09760 (2023)); and Oregon (Or. Admin. R. 437-002-\n0156 (2022);"
+  ],
+  "locator": "Preamble, discussion of the heat injury and illness prevention plan (paragraph (c))",
+  "grade": "A",
+  "fact_date": "2024-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "OSHA's description of state law in its own proposal (Labor Department, Biden administration, 2024); the dates are the citation years of the state rules as OSHA lists them, not necessarily effective dates.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-257",
+  "statement": "Park, Pankratz and Behrer, using the universe of California workers' compensation injury claims for 2001-2018, found that hotter temperature causes approximately 20,000 injuries per year, in indoor as well as outdoor settings and for injury types unrelated to temperature, and that the heat-sensitivity of injuries declined over the period.",
+  "claim": "analysis",
+  "figures": [
+   "2001",
+   "2018",
+   "20,000"
+  ],
+  "source": "SRC-5875",
+  "anchor": [
+   "Using data covering the universe of injury claims from the nation's largest worker's compensation system (2001-2018)",
+   "Hotter temperature increases workplace injuries significantly, causing approximately 20,000 injuries per year.",
+   "The effects persist in both outdoor and indoor settings (e.g. manufacturing, warehousing), and for injury types ostensibly unrelated to temperature (e.g. falling from heights)",
+   "We document a decline in the heat-sensitivity of injuries over the study period, suggesting significant scope for adaptation using existing technologies."
+  ],
+  "locator": "Abstract (IZA Discussion Paper 14560)",
+  "grade": "B",
+  "fact_date": "2021-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "IZA Institute of Labor Economics discussion paper by UCLA and Stanford authors (posted July 2021, last revised May 2025 per the SSRN listing); not shown as peer reviewed in the extract. Identifies effects from day-to-day weather variation within ZIP codes against claims filed, so it counts compensated injuries only; the paper does not separate effects of the 2005 heat standard from other adaptation. Other write-ups of the same paper report a range of 15,000 to 25,000 injuries a year and a 6 to 9 percent higher injury risk above 90 degrees (UCLA and Equitable Growth summaries, not drafted).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-258",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-230",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-258",
+  "statement": "Fomenko, McInerney and Negrusa, using a triple-differences design on workers' compensation data, estimated that California's heat standard, adopted in 2005, reduced injuries on hot days by 15-17 percent in construction, 19-25 percent in transportation and 24-27 percent in agriculture, with the transportation and rate-based estimates more sensitive to specification.",
+  "claim": "analysis",
+  "figures": [
+   "2005",
+   "15",
+   "17",
+   "19",
+   "25",
+   "24",
+   "27"
+  ],
+  "source": "SRC-5876",
+  "anchor": [
+   "we evaluate California’s heat standard – adopted in 2005 - and find that the standard substantially reduces the frequency of work injuries in the construction, agriculture, and transportation industries",
+   "ranging from 15–17 percent in construction, to 19-25 percent in transportation, and to 24–27 percent in agriculture",
+   "Dean and McCallum (2025) provide suggestive evidence that heat-related deaths fell for outdoor workers in California after the heat standard was introduced.",
+   "Specifications that estimate the rate of injuries or rely on an alternative approach are more sensitive, which may reflect changes in the transportation industry or increased noise due to the lower incidence of injury."
+  ],
+  "locator": "Abstract; results; conclusion",
+  "grade": "B",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER Working Paper 35772 (September 2026; 'Cooler Laws, Safer Workers'), not peer reviewed. Hot-versus-cool days, high-risk versus low-risk industries, before versus after the standard; counts of injuries, with the paper reporting rate-based specifications as less stable. California only; the standard was revised in 2010 and 2015 and was made permanent in 2006, so the estimate pools versions. A Health Affairs 2025 study of heat deaths (Dean and McCallum) found no decline in 2005-09 and point estimates of 33 and 51 percent reductions after 2010 and 2015 that were not individually significant (read through an extract; not drafted for lack of a source ID).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-257",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-255",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-259",
+  "statement": "Palagashvili, Suarez, Kaiser and Melo estimated that, after California's AB5 and relative to other states, self-employment fell by 10.5 percent and overall employment by 4.4 percent on average in nonexempt occupations, and found no robust evidence that traditional employment rose.",
+  "claim": "analysis",
+  "figures": [
+   "10.5 percent",
+   "4.4 percent"
+  ],
+  "source": "SRC-5871",
+  "anchor": [
+   "Our estimates indicate that self-employment fell by 10.5 percent on average for nonexempt occupations, while overall employment fell by 4.4 percent on average for nonexempt occupations.",
+   "We find no robust evidence that traditional employment increased post-AB5.",
+   "We employ a simple difference-in-difference strategy to compare labor market outcomes in occupations within California to those outside California before and after AB5 was enacted."
+  ],
+  "locator": "Abstract; Section 1; Table 3",
+  "grade": "C",
+  "fact_date": "2024-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Mercatus Center at George Mason University working paper (January 2024), a market-oriented research center; not peer reviewed in this form. Current Population Survey data by state, occupation and month with other states as controls. Critics quoted by Bloomberg Law (Michael Reich of UC Berkeley, Heidi Shierholz of EPI) say it ignores differing pre-trends and that a fall in traditional employment is hard to explain; the lead author has said the paper cannot be interpreted causally given noisy data and reports associations (Labor Market Matters post, January 2024; read through search extracts). It covers only nonexempt occupations, not all of California. Abstract read through the SSRN listing, results text through a copy of the working paper.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-261",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-260",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-216",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-260",
+  "statement": "In the quartile of occupations with the highest prevalence of self-employment, the same Mercatus study found that reclassification increased traditional employment by 10.2 percent and decreased self-employment by 17.7 percent, with no significant effect on overall employment, and that AB5 may have increased traditional employment only there.",
+  "claim": "analysis",
+  "figures": [
+   "10.2 percent",
+   "17.7 percent"
+  ],
+  "source": "SRC-5871",
+  "anchor": [
+   "Lastly, among occupations in the highest quartile of prevalence of self-employment, we find a statistically insignificant association between worker reclassification and overall employment and labor force participation.",
+   "We find that worker reclassification increased traditional employment by 10.2 percent, while it decreased self-employment by 17.7 percent",
+   "AB5 may have increased traditional employment only among occupations in the highest quartile of prevalence of self-employment while decreasing traditional employment in the remaining quartiles."
+  ],
+  "locator": "Section 4, Table 5 discussion",
+  "grade": "C",
+  "fact_date": "2024-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Same Mercatus working paper as EV-WRK-259 (same authors, so not independent of it); the finding is the paper's own qualification of its headline, in the occupations where misclassification is most likely. Subgroup estimates from one difference-in-differences design; noisy and subject to the pre-trend concerns noted at EV-WRK-259. Read through a copy of the working paper.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-259",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-261",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-261",
+  "statement": "The Economic Policy Institute reports that a 2004 Harvard Labor and Worklife Program study found 14% to 24% of Massachusetts construction employers misclassified workers as independent contractors, costing the state up to $152 million in lost income taxes, up to $35 million in lost unemployment insurance premiums and up to $91 million in unpaid workers' compensation premiums, and that experts in the state think the ABC test signed into law later that year improved compliance and reduced misclassification.",
+  "claim": "analysis",
+  "figures": [
+   "2004",
+   "14%",
+   "24%",
+   "$152 million",
+   "$35 million",
+   "$91 million"
+  ],
+  "source": "SRC-5872",
+  "anchor": [
+   "A major study from the Harvard Labor and Worklife Program in 2004 showed widespread misclassification",
+   "14% to 24% of all construction employers in Massachusetts misclassified construction workers as independent contractors, costing the state up to $152 million in lost income taxes, up to $35 million in lost unemployment insurance premiums, and up to $91 million in unpaid workers’ compensation premiums",
+   "Republican Gov. Mitt Romney signed the bill into law later that year.",
+   "Experts in the state think adoption of the ABC test has improved legal compliance and reduced misclassification."
+  ],
+  "locator": "'The Massachusetts story' section",
+  "grade": "C",
+  "fact_date": "2021-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "EPI, a labor-aligned think tank, June 2021, a policy paper defending the ABC test; the dollar figures are the upper ends of ranges from the 2004 Harvard study (extrapolated from state audits, with an assumed 30 to 50 percent of misclassified workers' income unreported), and the claim that the ABC test reduced misclassification is expert opinion, not a measured effect. It was published before the 2024 Mercatus estimates that ABC tests lowered employment (EV-WRK-259) and does not answer them. Read through a search extract.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-259",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-216",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-215",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-262",
+  "statement": "California's Proposition 22, enacted by voters on November 3, 2020, makes app-based drivers for companies such as Uber, Lyft and DoorDash independent contractors, not employees, when several conditions are met, and on July 25, 2024 the California Supreme Court affirmed that this classification (section 7451) does not conflict with article XIV, section 4 of the state constitution on workers' compensation.",
+  "claim": "data",
+  "figures": [
+   "2020",
+   "3",
+   "25",
+   "2024",
+   "7451",
+   "4"
+  ],
+  "source": "SRC-5873",
+  "anchor": [
+   "enacted by the voters through Proposition 22\n(Gen. Elec. (Nov. 3, 2020))",
+   "a driver for an app-based transportation or\ndelivery company, such as Uber Technologies, Inc. (Uber), Lyft,\nInc. (Lyft), or DoorDash, Inc., is an independent contractor and\nnot an employee of the company as long as several conditions\nare met",
+   "We affirm the judgment of the Court of Appeal insofar as\nit held that Business and Professions Code section 7451 does not\nconflict with article XIV, section 4 of the California Constitution.",
+   "Date Filed: July 25, 2024"
+  ],
+  "locator": "Opinion of the Court by Liu, J., introduction and Conclusion",
+  "grade": "A",
+  "fact_date": "2024-07-25",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-407",
+  "statement": "Arnold, Quach and Taska found, using a difference-in-differences design on state laws requiring salary information in job postings, that employers increased the fraction of postings with salary information by 30 percentage points and that wages rose 1.3-3.6%, with no impacts on pay dispersion, employment, the number of postings, or skill and education requirements.",
+  "claim": "analysis",
+  "figures": [
+   "30 percentage points",
+   "1.3-3.6%"
+  ],
+  "source": "SRC-5877",
+  "anchor": [
+   "employers increased the fraction of postings with salary information by 30 percentage points",
+   "we find consistent evidence of an increase in wages of 1.3-3.6%",
+   "We find no impacts on pay dispersion, employment, the number of postings, or skill and education requirements."
+  ],
+  "locator": "Abstract (NBER Working Paper 34480, November 2025)",
+  "grade": "B",
+  "fact_date": "2025-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER working paper (November 2025 version), not shown as peer reviewed; academic authors with job-posting data from a commercial vendor. The earlier versions and the January 2025 manuscript focus on Colorado's January 2021 posting law (about 30 points more postings with pay information, substantial non-compliance, fines of $500 to $10,000 rarely imposed) and report wage gains of about 1.3 to 3.6 percent from postings, Glassdoor and payroll data; the 2022 version reported a 3.6 percent rise in posted salaries for employers that posted before and after. The wage effects are identified from comparison states and the authors read them as more competition for workers; the mechanism is not directly tested. Opposing evidence: EV-WRK-408 (a different law).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-408",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-408",
+  "statement": "Cullen and Pakzad-Hurson model that transparency reduces workers' individual bargaining power and leads to lower average wages, and find that U.S. state laws protecting workers' right to share salary information lead wages to decline by approximately 2%, with the smallest declines where workers have low individual bargaining power.",
+  "claim": "analysis",
+  "figures": [
+   "2%"
+  ],
+  "source": "SRC-5878",
+  "anchor": [
+   "Our model predicts that transparency reduces the individual bargaining power of workers, leading to lower average wages.",
+   "We test our model with an event‐study analysis of U.S. state‐level laws protecting the right of private sector workers to communicate salary information with their coworkers.",
+   "transparency laws empirically lead wages to decline by approximately 2%, and wage declines are smallest in magnitude when workers have low individual bargaining power"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2023-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Econometrica 91(3), May 2023, peer reviewed; economic theory plus an event study of state laws that protect employees who discuss pay with coworkers, not laws that require employers to post pay ranges, so it does not test the posting mandates that EV-WRK-407 studies; the authors' model implies transparency has a muted effect where individual bargaining power is low. Read through the Econometric Society abstract and the NBER working-paper version.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-407",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-409",
+  "statement": "Using stacked difference-in-differences models and original survey data, Schneider, Harknett and Arbelaez found that Fair Workweek laws increased advance notice of schedules by 13 percentage points and cut clopening shifts by 8 percentage points, with no evidence of hour increases for covered workers and no evidence of compensatory retrenchment in other aspects of job quality.",
+  "claim": "analysis",
+  "figures": [
+   "13 percentage points",
+   "8"
+  ],
+  "source": "SRC-5879",
+  "anchor": [
+   "FWW regulations increased advance notice by 13 percentage points (p.p.) across all models.",
+   "workers covered by these laws experienced an 8-p.p. reduction in clopening shifts (models 2 and 3) compared with their counterparts not covered by these new laws",
+   "we find no evidence of hour increases for covered workers",
+   "We find no evidence of compensatory retrenchment in other aspects of job quality."
+  ],
+  "locator": "Abstract; Results, Table 1",
+  "grade": "B",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Science Advances, peer reviewed (published June 26, 2026). Pools Fair Workweek laws in several large cities and one state against comparison areas using the authors' own worker survey; two of the authors also wrote the Seattle evaluation (EV-WRK-402), so the two are not independent. Survey self-reports; the effect on last-minute timing changes (about 6 points) was less robust; shift cancellations and on-call shifts did not change; hours fell about 0.37 a week but not significantly. Quotations read through a copy of the article with line-break artifacts.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-402",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-403",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-410",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-410",
+  "statement": "In their review of earlier evaluations, Schneider, Harknett and Arbelaez report a 98-interview study concluding that Oregon's statewide scheduling law was broadly ineffective, and that studies of Oregon, New York City and two other jurisdictions found no major unintended effects on employment or hours; they write that average effects disguise substantial heterogeneity across jurisdictions.",
+  "claim": "analysis",
+  "figures": [
+   "98"
+  ],
+  "source": "SRC-5879",
+  "anchor": [
+   "Petrucci et al. (34) draw on 98 in-depth interviews with workers in Oregon to conclude that the law was broadly ineffective.",
+   "that laws in those two jurisdictions and Oregon and New York City did not have major unintended effects on employment and/or number of work hours.",
+   "These average effects disguise substantial heterogeneity across jurisdictions",
+   "Fair Workweek legislation has realized some intended effects on work schedules without unintended consequences, but the potential for more widespread, effective enforcement has not been fully realized."
+  ],
+  "locator": "Introduction (literature review); abstract; discussion",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Secondary summary inside the Science Advances article of EV-WRK-409: the Oregon interview study (Petrucci and co-authors, ILR Review 2021) is a qualitative study of 98 workers and managers after the 2018 law, not an effect estimate, and the null employment findings it cites for Oregon and New York City come from other authors' studies (not read directly). Oregon's law covers retail, hospitality and food service employers with 500 or more employees worldwide and lets workers go on a voluntary standby list that exempts employers from predictability pay (Urban Institute report, read through an extract; not drafted).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-409",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-402",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-411",
+  "statement": "Lipsitz and Starr, exploiting Oregon's 2008 ban on noncompete agreements for hourly-paid workers, found that the ban raised hourly wages by 2%-3% on average, that the effect on workers actually bound by noncompetes may be as great as 14%-21% though likely lower, and that it raised job-to-job mobility without affecting hours worked.",
+  "claim": "analysis",
+  "figures": [
+   "2008",
+   "2%–3%",
+   "14%–21%"
+  ],
+  "source": "SRC-5880",
+  "anchor": [
+   "We exploit the 2008 Oregon ban on noncompete agreements (NCAs) for hourly-paid workers to provide the first evidence on the impact of NCAs on low-wage workers.",
+   "We find that banning NCAs for hourly workers increased hourly wages by 2%–3% on average.",
+   "the effect on employees actually bound by NCAs may be as great as 14%–21%, though the true effect is likely lower due to labor market spillovers onto those not bound by NCAs",
+   "The Oregon low-wage NCA ban also improved average occupational status in Oregon, raised job-to-job mobility, and increased the proportion of salaried workers without affecting hours worked."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Management Science 68(1), January 2022, peer reviewed (online April 2021); one-state quasi-experiment comparing Oregon hourly workers with other states; the 14%-21% figure is a scaling of the average effect by the share of hourly workers bound by noncompetes, which the authors themselves say overstates the effect. One author, Michael Lipsitz, is listed at the Federal Trade Commission, the agency that issued the 2024 noncompete rule (EV-WRK-244). Contested: EV-WRK-412.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-412",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-244",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-412",
+  "statement": "Oh Lam, Lenard and Wallsten argued that the literature the FTC cited shows mixed results on earnings, job creation, firm formation, entrepreneurship, training, investment and firm value, and does not support a ban across all sectors, occupations and industries, while allowing that investigations of noncompete use among low-wage workers may be justified.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5881",
+  "anchor": [
+   "the empirical literature on non-compete agreements cited by the FTC in its Notice for Proposed Rulemaking (“NPRM”) shows mixed results on earnings, job creation, firm formation, entrepreneurship, training, investment, and firm value",
+   "The empirical literature, in its current development, does not support a ban on non-competes in all U.S. labor sectors all-across occupations and industries.",
+   "Investigations into the use of non-competes in certain areas, like among low-wage workers, may be justified, but the research does not support such an extensive prohibition."
+  ],
+  "locator": "Abstract; Conclusion",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Fordham Journal of Corporate & Financial Law (a law-review comment on the FTC's January 2023 proposed rule; the publication date and the authors' institution, understood to be the Technology Policy Institute, a think tank, were not shown in the extract and should be confirmed). A critique of the FTC's cost-benefit analysis, not new estimates; its low-wage concession is consistent with the Oregon evidence in EV-WRK-411.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-411",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-244",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-368",
+  "statement": "Schmieder and von Wachter's review of 18 quasi-experimental studies of how UI benefit levels affect unemployment duration found a median duration elasticity of 0.53 (0.38 for U.S. studies alone, range 0.1 to 1.2), and cautioned that such estimates are imperfect proxies for the full disincentive effect of UI.",
+  "claim": "analysis",
+  "figures": [
+   "18",
+   "0.53",
+   "0.38",
+   "0.1",
+   "1.2"
+  ],
+  "source": "SRC-5882",
+  "anchor": [
+   "Table 2 summarizes estimates from 18 studies from 5 different countries, of which 11 estimates are from the U.S. The duration elasticities vary from 0.1 to 2, with a median of 0.53.",
+   "For the U.S. alone, the median is 0.38, and the range is from 0.1 and 1.2 in the US,",
+   "these estimates are imperfect proxies for the actual disincentive effects."
+  ],
+  "locator": "Section on benefit-level effects (Table 2); abstract",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER Working Paper 22564, published in the Annual Review of Economics 2016 (peer reviewed); the quotations are read from the working-paper PDF, so check page wording against the journal version. Review by two academic labor economists of recent studies using administrative data and kinks in benefit schedules; no advocacy funder. Main limit: elasticities are for UI receipt or nonemployment spells in normal and recession times, not for the pandemic supplements, and the authors say they overstate or understate the social cost depending on the model.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-371",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-372",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-369",
+  "statement": "In the same review, studies of potential benefit duration in Europe had a median marginal effect of 0.13, meaning that one more month of UI raises nonemployment by about 4 days, and a median duration elasticity of 0.37.",
+  "claim": "analysis",
+  "figures": [
+   "0.13",
+   "4 days",
+   "0.37"
+  ],
+  "source": "SRC-5882",
+  "anchor": [
+   "The median of the estimated marginal effects is 0.13, implying that for a one-month increase in UI durations, nonemployment durations rise by about 4 days.",
+   "The median elasticity is 0.37"
+  ],
+  "locator": "Section on potential-duration effects (Table 1, Panel A)",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER Working Paper 22564 / Annual Review of Economics 2016, peer reviewed; European studies of extensions in maximum benefit duration, not U.S. policy. Effects vary by country and economic conditions, and the review stresses these are measures of labor-supply response, not of total welfare cost.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-371",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-374",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-370",
+  "statement": "Ganong, Greig, Noel, Sullivan and Vavra found, using bank-account data on unemployed workers, that the pandemic supplements of $300 to $600 a week had large effects on spending but small effects on job finding, with implied duration elasticities of 0.06 to 0.11 for the $600 supplement and 0.10 to 0.22 for the $300 supplement.",
+  "claim": "analysis",
+  "figures": [
+   "$300",
+   "$600",
+   "0.06",
+   "0.11",
+   "0.10",
+   "0.22"
+  ],
+  "source": "SRC-5883",
+  "anchor": [
+   "Overall, we find that this increase had large effects on spending but small effects on job-finding.",
+   "The implied duration elasticity of the $600 supplements is 0.06-0.11 while for the $300 supplements it is 0.10-0.22."
+  ],
+  "locator": "Introduction (first page and research-design paragraph)",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER Working Paper 30315 (2022), published in the American Economic Review 114(9), September 2024 (peer reviewed). Authors are academics and JPMorgan Chase Institute researchers; the data are Chase customers, which are not nationally representative, and two designs (interrupted time series and dose-response difference-in-differences) give similar results. Workers' job finding was already depressed in the pandemic, which the authors note limits how far the results carry to normal labor markets.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-371",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-368",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-371",
+  "statement": "Coombs and coauthors, comparing states that ended expanded pandemic UI in June 2021 with states that kept it, found that UI receipt fell 36.3 percentage points while employment rose only 6.8 points by early September, with cumulative benefits down $2,529 and cumulative earnings up only $292.",
+  "claim": "analysis",
+  "figures": [
+   "36.3",
+   "6.8",
+   "$2,529",
+   "$292"
+  ],
+  "source": "SRC-5884",
+  "anchor": [
+   "withdrawal of expanded pandemic unemployment benefits in June 2021",
+   "Comparing the difference-in-differences between states withdrawing and retaining expanded UI, we find that UI receipt falls 36.3 p.p., while employment rises by only 6.8 p.p. by early September.",
+   "Average cumulative UI benefits fall by $2,529, while average cumulative earnings increase by only $292."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "American Economic Association, AEA Papers and Proceedings, May 2022 (short peer-reviewed proceedings paper). Academic authors (Columbia, Harvard, Toronto, UMass Amherst); bank data from the Earnin app, whose users are low-income and credit constrained, so effects may overstate those for all claimants. The authors' earlier brief ties most of the job gain to benefits ending outright rather than to the lower amount.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-370",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-372",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-372",
+  "statement": "Ganong and Noel, using bank data, found that monthly nondurable spending drops 6 percent at the start of unemployment and 12 percent when UI benefits are exhausted, and concluded that the consumption-smoothing gains from extending UI benefits are four times larger than from raising benefit levels.",
+  "claim": "analysis",
+  "figures": [
+   "6 percent",
+   "12 percent"
+  ],
+  "source": "SRC-5885",
+  "anchor": [
+   "Monthly spending drops by 6 percent at the start of unemployment, falls by less than one percent per month while receiving UI, and then drops by 12 percent at UI benefit exhaustion.",
+   "consumption-smoothing gains from extending UI benefits are four times larger than from raising UI benefit levels"
+  ],
+  "locator": "Introduction; Section 3 (Figure 2); abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "American Economic Review 109(7), July 2019 (peer reviewed); quotations read from the authors' working-paper copy hosted by the University of Chicago HCEO series. JPMorgan Chase Institute de-identified bank data for Chase account holders; spending outside Chase accounts is not observed, and the welfare conclusion rests on a model of present-biased households, which the authors present as one reading of the data.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-373",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-371",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-370",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-373",
+  "statement": "Ganong and Noel report that Gruber (1997) found food spending falls by 6.8 percent at unemployment, and that their own bank data show spending falling 6.4 percent on all nondurables and 6.2 percent on food, in line with the survey-based benchmark.",
+  "claim": "analysis",
+  "figures": [
+   "6.8 percent",
+   "6.4 percent",
+   "6.2 percent"
+  ],
+  "source": "SRC-5885",
+  "anchor": [
+   "Gruber (1997) reports that food spending falls by 6.8 percent.",
+   "we find that spending drops by 6.4 percent on all nondurables and 6.2 percent on food"
+  ],
+  "locator": "Section 2 robustness discussion (text near footnotes 22-23)",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Secondary report of Gruber's American Economic Review 1997 result (PSID survey data, 1968-1987), read through Ganong and Noel (AER 2019, peer reviewed). Gruber's own NBER abstract (WP 4750) is not catalogued here; it estimates that a 10 percentage point rise in the replacement rate shrinks the consumption fall by 2.7 percent. The measure is food spending, a narrow proxy for consumption.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-372",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-371",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-374",
+  "statement": "Hagedorn, Karahan, Manovskii and Mitman, comparing counties on state borders, found that extending benefits from the usual 26 weeks to as long as 99 weeks raised equilibrium wages, cut vacancy creation and raised unemployment, and estimated that unemployment in 2011 would have been 2 percentage points lower without the extensions.",
+  "claim": "analysis",
+  "figures": [
+   "26 weeks",
+   "99 weeks",
+   "2011",
+   "2 percentage points"
+  ],
+  "source": "SRC-5886",
+  "anchor": [
+   "benefit duration rising from the usual 26 weeks to as long as 99 weeks",
+   "we find that benefit extensions raise equilibrium wages and lead to a sharp contraction in vacancy creation, employment, and a rise in unemployment.",
+   "unemployment in 2011 would have been 2 percentage points lower had benefits not been extended"
+  ],
+  "locator": "Introduction (pp. 1-4)",
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER Working Paper 19499 (October 2013 version read here; a revised version later appeared as a journal and NBER paper). Academic authors; border-county design with an interactive-effects model and an assumption of perfect foresight about future benefits, which the authors say drives the size. Not the same as the Chodorow-Reich, Coglianese and Karabarbounis measurement-error estimate, which finds at most 0.3 point; the two disagree by a factor of about six, and the dossier presents both.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-375",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-375",
+  "statement": "Chodorow-Reich, Coglianese and Karabarbounis, using only the variation in benefit duration that came from measurement error in real-time unemployment data, found that benefit extensions had a limited influence on state macroeconomic outcomes and raised the unemployment rate by at most 0.3 percentage point in the Great Recession.",
+  "claim": "analysis",
+  "figures": [
+   "0.3 percentage point"
+  ],
+  "source": "SRC-5887",
+  "anchor": [
+   "we find that benefit extensions have a limited influence on state-level macroeconomic outcomes.",
+   "increased the unemployment rate by at most 0.3 percentage point."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Quarterly Journal of Economics 134(1), February 2019 (peer reviewed). Authors at Harvard, the Federal Reserve Board and the University of Minnesota/Minneapolis Fed; identification relies on revisions to state unemployment data, and the Federal Reserve authors state their own views, not the Board's. Directly contests the border-county estimate of Hagedorn and coauthors.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-374",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-370",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-376",
+  "statement": "In DOL's evaluation of the recovery act, the Labor Department offered states $7 billion in incentives for UI modernization; 41 of the 53 UI jurisdictions already had or newly adopted an ARRA-conforming alternative base period and 36 had two of the four other modernization provisions.",
+  "claim": "data",
+  "figures": [
+   "$7 billion",
+   "41",
+   "53",
+   "36"
+  ],
+  "source": "SRC-5888",
+  "anchor": [
+   "(DOL) offered financial incentives of $7 billion to states to implement the modernization provisions.",
+   "for each of the 53 UI jurisdictions.",
+   "TUR trigger for EB. In addition, 41 jurisdictions already had or newly adopted an ARRA-conforming",
+   "ABP and 36 already had or newly adopted two of the four other modernization provisions."
+  ],
+  "locator": "Executive summary, Evaluation findings",
+  "grade": "A",
+  "fact_date": "2016-03-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-02",
+  "context": "Final report of Mathematica Policy Research and the Urban Institute for the Labor Department's Chief Evaluation Office, March 2, 2016 (Obama administration); counts of state decisions are from a 96 percent response survey and public sources. The report says the authors' views are not DOL's.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-377",
+  "statement": "The same evaluation's simulations suggested the recovery-act modernization provisions might have raised regular UI first payments by about 6 to 10 percent in 2012, but the authors could not reject the hypothesis that the provisions had no effect.",
+  "claim": "analysis",
+  "figures": [
+   "6 to 10 percent",
+   "2012"
+  ],
+  "source": "SRC-5888",
+  "anchor": [
+   "payments by about 6 to 10 percent in 2012. However, we caution that there is considerable uncertainty",
+   "about this finding given limitations in the analysis, and we could not reject the hypothesis that there"
+  ],
+  "locator": "Executive summary, final paragraph before the findings",
+  "grade": "C",
+  "fact_date": "2016-03-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-02",
+  "context": "Mathematica/Urban Institute simulation for DOL's Chief Evaluation Office, 2016, not peer reviewed; a simulation with admitted uncertainty, in a period when the recession and other federal changes overwhelmed any small effect. A later peer-reviewed difference-in-differences paper (Chang and Hodges, Social Service Review, 2024) reports that adopting an alternative base period raised UI receipt by 4.7 percentage points; it is not catalogued here.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-101",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-045",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-378",
+  "statement": "GAO estimated that fraud in UI programs during the COVID-19 pandemic was likely between $100 billion and $135 billion, about 11 percent to 15 percent of benefits paid; the Labor Department said the estimate was likely overstated, and GAO disagreed.",
+  "claim": "analysis",
+  "figures": [
+   "$100 billion",
+   "$135 billion",
+   "11 percent",
+   "15 percent"
+  ],
+  "source": "SRC-5889",
+  "anchor": [
+   "GAO estimates that the amount of fraud in unemployment insurance (UI) programs during the COVID-19 pandemic was likely between $100 billion and $135 billion. This is about 11 percent and 15 percent, respectively, of the total amount of UI benefits paid during the pandemic.",
+   "stated that the resulting estimate was likely overstated. GAO disagrees"
+  ],
+  "locator": "GAO-23-106696, What GAO Found",
+  "grade": "C",
+  "fact_date": "2023-09-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-09-12",
+  "context": "U.S. Government Accountability Office, nonpartisan legislative-branch auditor, September 12, 2023. Statistical sampling and imputation over 53 states, with a 95 percent confidence interval; the report says the full extent of fraud will likely never be known. DOL (Biden administration) disputed the method. GAO blocks downloads, so the words are read from the GAO product page through an Exa extract, 2026-11-16.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-379",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-379",
+  "statement": "The Labor Department's Inspector General said the federal government distributed more than $888 billion in UI benefits in the pandemic and that at least $191 billion may have been improperly paid, including more than $76 billion stolen by fraudsters.",
+  "claim": "analysis",
+  "figures": [
+   "$888 billion",
+   "$191 billion",
+   "$76 billion"
+  ],
+  "source": "SRC-5890",
+  "anchor": [
+   "During the COVID-19 pandemic, the federal government distributed more than $888 billion in unemployment insurance benefits. The Office of Inspector General (OIG) previously estimated at least $191 billion may have been improperly paid, including more than $76 billion stolen by fraudsters."
+  ],
+  "locator": "Press release, first two paragraphs",
+  "grade": "C",
+  "fact_date": "2026-03-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-05",
+  "context": "DOL Office of Inspector General press release of March 5, 2026, on testimony to a House Ways and Means subcommittee, under Inspector General Anthony D'Esposito, second Trump administration. The OIG figure applies an improper-payment rate to total spending, so it includes errors that are not fraud; the fraud figure applies a rate from DOL's program-year 2021 estimate. Lower and differently defined than the GAO range.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-378",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-380",
+  "statement": "An Abt Associates and Urban Institute review for DOL found that random-assignment evaluations of reemployment and eligibility assessments generally show selection for the program cut UI duration by about one week, raised second-quarter employment by about 2 percentage points and raised first-year earnings by $400 to $500.",
+  "claim": "analysis",
+  "figures": [
+   "one week",
+   "2 percentage points",
+   "$400-500"
+  ],
+  "source": "SRC-5891",
+  "anchor": [
+   "selection for REA programs, on average, decreased UI duration by about one week, increased the probability",
+   "of employment in the second full quarter after the start of a claim by about 2 percentage points, and increased",
+   "earnings by $400-500 in the first year."
+  ],
+  "locator": "Brief 3, individualized services, magnitude of REA impacts",
+  "grade": "B",
+  "fact_date": "2022-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-01",
+  "context": "Evidence brief by Abt Associates and the Urban Institute for DOL's Chief Evaluation Office, April 2022 (Biden administration), a synthesis of several experiments in the REA program, RESEA's predecessor, in Indiana, New York, Washington and Wisconsin and elsewhere. Not peer reviewed as a brief. The underlying studies compare claimants selected for the program with those not selected, so the effects bundle assistance and enforcement.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-382",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-381",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-381",
+  "statement": "The same brief reports that the assistance components of the reemployment program were responsible for some but less than half of its impact on UI duration, roughly one-half of a week, with the rest due to the enforcement of work search and other program rules.",
+  "claim": "analysis",
+  "figures": [
+   "one-half of a week"
+  ],
+  "source": "SRC-5891",
+  "anchor": [
+   "et al., 2019). That study’s results suggest that together, all of the assistance components of REA programs are",
+   "likely responsible for some, but less than half of the impact on UI duration (roughly one-half of a week) and a",
+   "and individualized career services—versus the enforcement of work search and other program rules (Klerman"
+  ],
+  "locator": "Brief 3, discussion of Klerman and others (2019)",
+  "grade": "B",
+  "fact_date": "2022-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-01",
+  "context": "Abt/Urban Institute summary for DOL (April 2022) of the multi-arm randomized REA study of nearly 300,000 claimants in four states. The split between assistance and enforcement comes from one study; the brief notes it cannot separate the contribution of each individual service.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-380",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-392",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-382",
+  "statement": "Manoli, Michaelides and Patel followed Nevada's randomized 2009 reemployment and eligibility assessment trial for eight years of tax records and found that it increased employment and earnings and reduced short-term UI receipt, while about 40 percent of the sample was estimated to have negative effects on long-term employment, matched by increased entry into disability insurance.",
+  "claim": "analysis",
+  "figures": [
+   "eight",
+   "2009",
+   "40 percent"
+  ],
+  "source": "SRC-5892",
+  "anchor": [
+   "Over the eight-year follow-up period, the program increased participants’ employment and earnings, reduced short-term UI receipt, reduced loss of homeownership, and increased Federal tax filing and tax receipts.",
+   "roughly 40 percent of the sample is estimated to have negative treatment effects on long-term employment which are corroborated by accompanying positive treatment effects on entry into disability insurance.",
+   "an experimental job-search assistance program that operated in Nevada from July through December 2009"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER Working Paper 24422, March 2018 (a working paper; randomized trial, with administrative and IRS tax data). Academic authors, one at Treasury when the work was done; data from a DOL-funded IMPAQ evaluation; funded in part by Arnold Ventures. The heterogeneous-effects result rests on a statistical model of individual effects, not on observed subgroups, and many outcomes were tested without adjustment for multiple tests (per DOL's CLEAR review).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-380",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-392",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-383",
+  "statement": "Giupponi and Landais, using Italian social security data and quasi-experimental variation in short-time work rules during the Great Recession, found that short-time work sharply cut hours but raised headcount employment, that its insurance value vanished for low-productivity firms, and that it reduced employment growth in untreated firms.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5893",
+  "anchor": [
+   "Our results show large and significant negative effects of STW treatment on hours, but large and positive effects on headcount employment.",
+   "the long run effects of STW were null for the low productivity firms",
+   "STW significantly decreases employment growth and inflow rates in non-treated firms, and has a significant negative impact on TFP growth in the labour market."
+  ],
+  "locator": "Abstract; introduction (long-run and reallocation results)",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Review of Economic Studies 90(4), 2023 (peer reviewed). Academic authors at Bocconi and LSE; Italy's Cassa Integrazione Guadagni Straordinaria, a program with an employer-size threshold used as a regression discontinuity. Italy had a double-dip recession, so the reallocation findings concern a persistent shock; the authors say short-time work is desirable for temporary shocks. German and French evidence on the other side is not catalogued here (see notes).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-312",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-384",
+  "statement": "New Jersey's WARN statute covers a termination or transfer of operations that ends employment of 50 or more employees in a 30-day period, requires employers with 100 or more employees to give not less than 90 days' notice, and requires severance of one week of pay for each full year of employment, plus four more weeks if the notice is short.",
+  "claim": "data",
+  "figures": [
+   "50",
+   "30 days",
+   "100",
+   "90 days",
+   "one week",
+   "four weeks"
+  ],
+  "source": "SRC-5894",
+  "anchor": [
+   "any continuous period of not more than 30 days, in the termination of employment of 50 or more",
+   "in the case of an employer who employs 100 or more employees, not less than 90 days, or",
+   "severance pay equal to one week of",
+   "pay for each full year of employment. If the employer provides any employee with less than the number",
+   "employee with an additional four weeks of pay. The rate of severance pay provided by the employer"
+  ],
+  "locator": "N.J.S.A. 34:21-2(a) and (b), as amended",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Primary state law, text published by the New Jersey Department of Labor and Workforce Development (PDF of the 2023 law). The state's business site and law-firm summaries give April 10, 2023 as the effective date of the amendments; that date is not in the saved text. Federal WARN requires 60 days and no severance (EV-WRK-325). New York's 90-day law covers employers of 50 or more full-time workers (NYS DOL fact sheet, not catalogued here).",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-385",
+  "statement": "The Labor Department's national randomized evaluation of the WIA Adult and Dislocated Worker programs in 28 local areas found that intensive services raised earnings by $3,300 to $7,100 per customer (7 to 20 percent) over the 30-month follow-up and were cost-effective for customers, taxpayers and society.",
+  "claim": "analysis",
+  "figures": [
+   "28",
+   "$3,300",
+   "$7,100",
+   "7 to 20 percent",
+   "30"
+  ],
+  "source": "SRC-5895",
+  "anchor": [
+   "Providing intensive services increased earnings over the follow-up period by $3,300 to $7,100 (7 to 20 percent) per customer depending on the data source.",
+   "this evaluation of 28 randomly selected local workforce investment areas",
+   "providing intensive services is cost-effective from the perspectives of customers, taxpayers, and society as a whole",
+   "30-Month Impact Findings on the WIA Adult and Dislocated Worker Programs"
+  ],
+  "locator": "Key findings",
+  "grade": "B",
+  "fact_date": "2017-05-30",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Mathematica Policy Research for DOL's Employment and Training Administration, May 30, 2017 (first Trump administration release; evaluation commissioned in 2008). Experimental design with more than 34,000 job seekers assigned at random. Follow-up covers the 30 months after enrollment in a weak labor market; the report says findings might differ in a stronger economy or with more funding.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-380",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-143",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-386",
+  "statement": "The same evaluation found, though not conclusively, that WIA-funded training did not have positive impacts in the 30 months after enrollment, because training was offered to only a minority of customers and many others got funding elsewhere.",
+  "claim": "analysis",
+  "figures": [
+   "30"
+  ],
+  "source": "SRC-5895",
+  "anchor": [
+   "Though not conclusive, the evidence suggests that training funded by the Adult and Dislocated Worker programs does not have positive impacts in the 30 months after study enrollment.",
+   "the Adult and Dislocated Worker programs offered funding for training to only a minority of their customers and many study participants who were not offered training from the Adult and Dislocated Worker programs received funding from other sources."
+  ],
+  "locator": "Key findings",
+  "grade": "B",
+  "fact_date": "2017-05-30",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Mathematica for DOL (2017). The evaluators call the training result inconclusive: differences in training enrollment between groups were small and disappeared by the second year. It conflicts with randomized evaluations of sector-focused training in the secure floor register (EV-SEC-143), which find gains, and with Registered Apprenticeship estimates (EV-SEC-144); the dossier presents both.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-143",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-147",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-387",
+  "statement": "England's National Audit Office reported that apprenticeship starts were 375,800 in 2017/18, 26 percent below the 509,400 in 2015/16, after a levy of 0.5 percent of pay bills began in 2017, and that levy-paying employers used 9 percent of available funds in 2017-18.",
+  "claim": "data",
+  "figures": [
+   "375,800",
+   "26",
+   "509,400",
+   "0.5",
+   "9",
+   "2017"
+  ],
+  "source": "SRC-5896",
+  "anchor": [
+   "The number of starts in 2017/18 was 375,800, 26% lower than the 509,400 starts in 2015/16.",
+   "a levy scheme whereby larger employers pay 0.5% of their annual pay bill",
+   "levy-paying employers used 9% of the funds available to them to support new apprenticeships"
+  ],
+  "locator": "Press release, key findings",
+  "grade": "A",
+  "fact_date": "2019-03-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "UK National Audit Office, nonpartisan auditor of government spending, press release of March 6, 2019 on a Department for Education program; counts come from the Department's published data. The levy and the UK program differ from U.S. Registered Apprenticeship; use as a design failure case, not a forecast.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-388",
+  "statement": "The National Audit Office wrote that the levy changed the pattern of apprenticeship starts, which fell after a spike before it took effect and had not recovered to previous levels, and that some of the fall may reflect a move away from apprenticeships that did not meet quality requirements.",
+  "claim": "analysis",
+  "figures": [
+   "20%"
+  ],
+  "source": "SRC-5896",
+  "anchor": [
+   "the number of starts fell after this and has not recovered to previous levels.",
+   "Some of this change may be explained as indicating a move away from apprenticeships that do not meet quality requirements such as apprentices spending at least 20% of their time doing off-the-job training."
+  ],
+  "locator": "Press release, summary of findings",
+  "grade": "C",
+  "fact_date": "2019-03-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "UK National Audit Office (2019), a government audit body; its causal reading is a hedged suggestion, not an estimate. Commons Library briefings (not catalogued here) list other suggested causes: complexity, inflexibility of levy funds, the 10 percent employer co-payment for small firms and the off-the-job training rule.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-645",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-387",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-389",
+  "statement": "Kasy and Lehner evaluated a job guarantee for long-term unemployed residents of the Austrian town of Gramatneusiedl (2020 to 2024) using matched randomization and a synthetic control, and found positive effects on economic and non-economic well-being, a reduction in long-term unemployment, and no negative employment spillovers.",
+  "claim": "analysis",
+  "figures": [
+   "2020",
+   "2024"
+  ],
+  "source": "SRC-5897",
+  "anchor": [
+   "We evaluate a guaranteed job program in Austria in 2020-2024.",
+   "We find positive impacts on economic and non-economic wellbeing. At the municipality level, we find a reduction of long-term unemployment and no negative employment spillovers."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Working paper (authors' site), published in American Economic Journal: Economic Policy; academic authors who co-designed the pilot with the Austrian public employment service. A small voluntary pilot in one municipality, so spillover estimates may not carry to a national program; the synthetic control is pre-registered.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-390",
+  "statement": "The Austrian pilot enrolled 107 people over 3.5 years, with estimated program costs of 237 euros per participant per month against a rise in participant income of 102 euros.",
+  "claim": "analysis",
+  "figures": [
+   "107",
+   "3.5",
+   "237",
+   "102"
+  ],
+  "source": "SRC-5897",
+  "anchor": [
+   "In total, 107 people participated in MAGMA over the 3.5 year duration of the program.",
+   "We estimate program costs of 237 Euro per participant and month. Participant income increased by 102 Euro."
+  ],
+  "locator": "Abstract; Section 1 (program description)",
+  "grade": "B",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Same working paper as EV-WRK-389. The cost figure is the authors' estimate of net public cost; participants were paid the collectively bargained wage floor, and the income gain is relative to unemployment benefits. Costs in euros at Austrian wage levels do not convert directly to U.S. costs.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-389",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-391",
+  "statement": "Abt Associates' longitudinal study for the Corporation for National and Community Service compared more than 2,000 AmeriCorps members with similar non-members and found significant positive effects on civic engagement and on the choice of public service careers for State and National members, but no significant short-term effects on education.",
+  "claim": "analysis",
+  "figures": [
+   "2,000"
+  ],
+  "source": "SRC-5898",
+  "anchor": [
+   "The study sample comprises a nationally representative sample of more than 2,000 AmeriCorps",
+   "AmeriCorps*NCCC resulted in statistically significant positive impacts on members’ connection to",
+   "The study found that in the short term, AmeriCorps participation had no significant impacts on",
+   "Most notably, participants in AmeriCorps*State and National programs were significantly more likely",
+   "to choose careers in public service compared to the comparison group. While AmeriCorps*NCCC"
+  ],
+  "locator": "Overview of Findings, Key Findings",
+  "grade": "C",
+  "fact_date": "2004-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Early findings report (December 2004, updated April 2007) by Abt Associates, an independent contractor, for the federal agency that ran AmeriCorps; matched comparison of members against individuals interested in service but not enrolled, controlling for interest and demographics, not a randomized trial. Reports attitudes and short-term outcomes, not earnings; the agency's later eight-year report (not catalogued here) found longer-run civic effects.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-392",
+  "statement": "Graversen and van Ours found, in a Danish experiment where about half of workers who became unemployed from November 2005 to March 2006 were randomly assigned to a mandatory activation program, that the job finding rate in the treatment group was 30 percent higher, mainly through more intensive contact with the public employment service.",
+  "claim": "analysis",
+  "figures": [
+   "2005",
+   "2006",
+   "30%"
+  ],
+  "source": "SRC-5899",
+  "anchor": [
+   "about half of the workers who became unemployed in the period from November 2005 to March 2006 were randomly assigned to the program while the other half was not.",
+   "the job finding rate in the treatment group is 30% higher than in the control group. This result is mainly driven by the more intensive contacts between the unemployed and the public employment service."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2008",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Journal of Public Economics 92(10-11), 2008 (peer reviewed); randomized trial in Denmark, a generous-UI, high-activation setting, so the result may not carry to a system with lower benefits and less activation capacity. The result is read from the EconPapers abstract, not the full paper; the authors attribute it to contact and monitoring rather than training.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-380",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-382",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-076",
+  "statement": "Neumark and Wascher found, in matched March CPS data, that minimum wage increases raise both the chance that poor families escape poverty and the chance that non-poor families fall into it, with the second larger but not significantly so, and concluded that the effects more closely resemble redistribution among low-income families.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5537",
+  "anchor": [
+   "minimum wages increase both the probability that poor families escape poverty and the probability that previously non-poor families fall into poverty",
+   "The estimated increase in the number of non-poor families that fall into poverty is larger than the estimated increase in the number of poor families that escape poverty, though this difference is not statistically significant.",
+   "more closely resemble income redistribution among low-income families than income redistribution from high- to low-income families"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "1997-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER working paper, published in Economic Inquiry (2002), peer reviewed. The authors are long-standing critics of large minimum wage increases. Data from the 1980s and 1990s, at much lower minimum-to-median ratios than today's bills; Dube's later work with longer panels and more controls finds poverty falls (EV-WRK-066). The older, contrasting view in the poverty debate.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-066",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-034",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-077",
+  "statement": "Brummund and Strain found that the immediate disemployment effect of a minimum wage increase in a state that indexes to inflation is around 3 times that of a nominal increase, concentrated in the first 14 quarters after indexing begins, though the finding does not hold in their most restrictive specification.",
+  "claim": "analysis",
+  "figures": [
+   "3",
+   "14"
+  ],
+  "source": "SRC-5538",
+  "anchor": [
+   "the immediate disemployment effect of an increase in the minimum wage in a state that indexes its minimum wages to inflation is around 3 times the magnitude of the disemployment effect associated with a nominal increase in the minimum wage",
+   "though it does not hold in our most restrictive specification",
+   "concentrated in the first 14 quarters after a state begins indexing"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Journal of Human Resources (2020), peer reviewed; quoted from the accepted version's abstract (July 2018). The authors call it the first empirical study of indexing. Strain is at AEI, a right-of-center think tank. The result rests on few indexing states and is not robust to the most restrictive specification; it measures the effect of indexing on top of a level, not whether indexing avoids the erosion that a fixed floor suffers (EV-WRK-023). No study in the register finds that indexing has its own benefits.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-070",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-033",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-187",
+  "statement": "Hicks and LaFaive, for the Mackinac Center, estimated that a right-to-work law lifted personal income growth by 0.8 percentage points and population growth by 0.5 points over 1947-2011, with little impact in the early years.",
+  "claim": "analysis",
+  "figures": [
+   "0.8",
+   "0.5",
+   "1947",
+   "2011"
+  ],
+  "source": "SRC-5609",
+  "anchor": [
+   "the presence of a right-to-work law lifted personal income by 0.8 percentage points and population by 0.5 percentage points from 1947-2011, on average.",
+   "The early years showed little impact from right-to-work laws"
+  ],
+  "locator": "IMPACT newsletter, study summary, paragraphs 2-3",
+  "grade": "C",
+  "fact_date": "2013-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Mackinac Center for Public Policy, a free-market think tank that campaigned for Michigan's 2012 right-to-work law; not peer reviewed. State-level growth regressions over 64 years; the design cannot separate the law from other differences between states (a Michigan State University summary names endogeneity). Wage-level studies with stronger designs find lower wages or no effect (EV-WRK-165, EV-WRK-166). Presented as the pro-right-to-work side.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-165",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-166",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-188",
+  "statement": "Feigenbaum, Hertel-Fernandez and Williamson, comparing counties on either side of state borders over 1980-2016, found that right-to-work laws reduce Democratic presidential vote shares by 3.5 percentage points and turnout by 2 points, and that fewer working-class candidates serve in legislatures afterward.",
+  "claim": "analysis",
+  "figures": [
+   "1980",
+   "2016",
+   "3.5",
+   "2"
+  ],
+  "source": "SRC-5610",
+  "anchor": [
+   "to estimate the effect of unions on politics and policy from 1980-2016",
+   "Comparing counties on either side of a state and right-to-work border to causally identify the effects of the state laws, we find that right-to-work laws reduce Democratic Presidential vote shares by 3.5 percentage points.",
+   "Turnout is also 2 percentage points lower in right-to-work counties after passage.",
+   "fewer working-class candidates serve in state legislatures and Congress"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2018-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "NBER working paper, later published in the Journal of Politics. Border-county design, 1980-2016. It measures unions' political role, not wages; it bears on why fair-share rules are contested politically. One author (Hertel-Fernandez) later served in the Biden Labor Department.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-165",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-393",
+  "statement": "The national randomized evaluation of Job Corps, on 15,400 treatment and control youths, found that participation raised educational attainment, reduced crime and raised earnings for several years after the program, but on tax data the earnings gains were not sustained except for the oldest participants.",
+  "claim": "analysis",
+  "figures": [
+   "15,400"
+  ],
+  "source": "SRC-5539",
+  "anchor": [
+   "a nationwide sample of 15,400 treatments and controls",
+   "program participation increases educational attainment, reduces criminal activity, and increases earnings for several postprogram years",
+   "Based on tax data, however, the earnings gains were not sustained except for the oldest participants."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2008-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "American Economic Review, peer reviewed; the Labor Department's randomized evaluation (Mathematica), on youths applying in the mid-1990s. The program's current cost per enrollee is in the secure floor's register (EV-SEC-639). The authors call it the only federal training program shown to raise earnings for disadvantaged youths; the fade-out on tax data qualifies that.",
+  "supports": [
+   "dossiers/work/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-639",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-386",
+    "stance": "qualifies"
+   }
+  ]
  }
 ]

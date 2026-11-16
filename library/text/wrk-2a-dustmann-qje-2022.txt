@@ -1,0 +1,3634 @@
+Source: https://christiandustmann.com/content/4-research/114-https-doi-org-10-1093-qje-qjab028/reallocation-and-minimum-wages.pdf
+Publisher: Quarterly Journal of Economics (Oxford University Press) (2022)
+Retrieved: 2026-11-16
+Original SHA-256: a1e84c8b44d61f8efd484158a4b2ceba3ef0afa0624a390942004189d56430b5
+Rights: CC BY 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+REALLOCATION EFFECTS OF THE MINIMUM WAGE∗
+
+We investigate the wage, employment, and reallocation effects of the introduction of a nationwide minimum wage in Germany that affected 15% of all employees. Based on identification designs that exploit variation in exposure across
+individuals and local areas, we find that the minimum wage raised wages but did
+not lower employment. It also led to the reallocation of low-wage workers from
+smaller to larger, from lower- to higher-paying, and from less to more productive
+establishments. This worker upgrading accounts for up to 17% of the wage increase induced by the minimum wage. Moreover, at the regional level, average
+establishment quality increased in more affected areas in the years following the
+introduction of the minimum wage. JEL Codes: J23, J38, J88.
+
+I. INTRODUCTION
+Despite being one of the most controversial labor market
+policies, the popularity of the minimum wage is rising. Many
+U.S. states have recently increased the minimum wage, and some
+∗We thank David Card, Charlie Brown, Arindrajit Dube, Bernd Fitzenberger,
+Patrick Kline, Steve Machin, Magne Mogstad, Johannes Schmieder, Isaac Sorkin,
+and participants at Arizona State University, Chicago FED, Columbia University,
+CReAM 2017 conference, DFG SPP 1764 Workshop, DIW Berlin, EALE-SOLEAASLE World Conference 2020, Harris School of Public Policy, NIESR, NBER
+Summer Institute, SITE Workshop, Stanford University, UCL IoE QSS Seminar,
+University of California Berkeley, University of Chicago, University of Michigan,
+University of Zurich, and University of Oslo for helpful comments. We acknowledge
+financial support from Deutsche Forschungsgemeinschaft (DFG, grant numbers
+BE 6283/5-1 and DU 1024/1-2) and from the European Research Council under the
+European Union’s Horizon 2020 research and innovation program (grant agreement no. 818992 for Uta Schönberg; no. 833861 for Christian Dustmann, and
+949995 for Attila Lindner).
+
+
+C The Author(s) 2021. Published by Oxford University Press on behalf of President and
+Fellows of Harvard College. This is an Open Access article distributed under the terms
+of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/),
+which permits unrestricted reuse, distribution, and reproduction in any medium, provided the
+original work is properly cited.
+The Quarterly Journal of Economics (2022), 267–328. https://doi.org/10.1093/qje/qjab028.
+Advance Access publication on August 20, 2021.
+
+267
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+CHRISTIAN DUSTMANN
+ATTILA LINDNER
+UTA SCHÖNBERG
+MATTHIAS UMKEHRER
+PHILIPP VOM BERGE
+
+268
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+1. California, Connecticut, Florida, Illinois, Maryland, Massachusetts, New
+Jersey, and New York have all passed legislation to eventually increase minimum
+wages to $15/hour. On January 1, 2021, there were 27 cities and counties in the
+United States where the minimum wage reached or surpassed $15/hour. By the
+end of 2021, 13 additional cities and counties will have met or exceeded a $15
+minimum wage; see Lathrop (2020) for details.
+2. In 2019, Italy’s former coalition government led by Prime Minister Giuseppe
+Conte had announced plans to introduce a nationwide minimum wage. In the same
+year, the Polish government announced its plans to increase the minimum wage by
+73% by 2023. The former chancellor of the United Kingdom, Sajid Javid, declared
+in 2019 that he sought to raise the minimum wage to two-thirds of median earnings
+within five years, which would have made it the highest wage floor in the developed
+world.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+have passed legislation that foresees increases to up to $15/hour.1
+Similarly, many European countries have enacted or plan
+substantial increases in the minimum wage.2 A prime example
+of these trends can be found in Germany. Against the backdrop
+of falling wages at the bottom of the wage distribution and the
+dwindling importance of trade unions, the German government
+introduced a national minimum wage in January 2015 for the
+first time in the history of the country. Set at €8.50/hour, it cuts
+deep into the wage distribution, with 15% of workers earning an
+hourly wage below €8.50/hour six months before the minimum
+wage came into effect. Moreover, despite the large variation in
+wage levels across local areas, the minimum wage is set at a
+uniform national level. As a result, it was much more binding in
+some areas than in others, with more than one in three workers
+being affected in the most exposed areas. The introduction of the
+minimum wage at €8.50 was viewed critically by many economists
+(e.g., Der Spiegel 2013; FAZ 2013; Sachverständigenrat 2013;
+Die Welt 2014), with two early studies predicting up to 900,000
+job losses because of the nationwide minimum wage (Müller and
+Steiner 2013; Knabe, Schönherr, and Thum 2014).
+In this article, we examine the labor market effects of this
+first-time introduction of the minimum wage, drawing on highquality register data and exploiting variation in exposure across
+workers and local areas. As a first step, we investigate the wage
+and employment effects of the policy by comparing workers who
+earned less than the minimum wage (treated group) and those
+who earned considerably more and should therefore be largely
+unaffected (control group) before and after its introduction. While
+being similar to empirical strategies used by Linnemann (1982),
+Currie and Fallick (1996) and Clemens and Wither (2019), we
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+269
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+introduce two important extensions. First, where previous studies relied on survey data, we leverage rich and high-quality administrative data on hourly wages, which addresses measurement issues and improves the precision of our estimates. Second,
+we carefully deal with the potential problems with the research
+design. As emphasized by Ashenfelter and Card (1982), low-wage
+workers typically experience higher wage growth but are less
+likely to remain employed than high-wage workers, irrespective of
+the minimum wage policy. Our research design therefore contrasts
+wage growth and employment changes in periods before the introduction of the minimum wage with those after its introduction,
+for both low- and high-wage workers. We find that the minimum
+wage significantly increased wages of low-wage workers, relative
+to wages of high-wage workers located further up the wage distribution. At the same time, there is no indication that it lowered
+the employment prospects of low-wage workers. Findings from an
+analysis that exploits variation in the exposure to the minimum
+wage across 401 local areas (similar to Card 1992) corroborate our
+findings from the individual-level analysis: the minimum wage
+boosted wages but did not reduce employment in heavily affected
+areas relative to less affected. Our findings therefore do not confirm the fears of many economists that the minimum wage would
+cause substantial job losses. Rather, our findings support the idea
+that the minimum wage helped reduce wage inequality without
+reducing employment across individuals and across local areas.
+In the second part of the article, we address the question
+of how the labor market absorbs wage increases induced by the
+minimum wage. The hypothesis that we put forward and directly
+test is that the minimum wage improves the average quality of establishments that operate in the market, by reallocating workers
+from smaller, lower-paying establishments to larger, higherpaying ones. The idea that a minimum wage affects the allocation
+of workers between establishments is not new. For example, the
+introduction of the very first minimum wage in modern times in
+the 1890s in New Zealand was motivated by helping “worthwhile
+companies” that employ “working-class breadwinners” against
+“sweatshops” that gained market shares by undercutting those
+“worthwhile” companies (Nordlund 1997). The minimum wage,
+according to advocates of the policy, sought to reverse these trends.
+The reallocation of workers to better establishments, and hence
+an improvement in the quality of establishments in the economy,
+is also the core idea behind the Swedish model of centralized
+bargaining: higher wages, it is argued, will drive low-performing
+
+270
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+establishments out of the market (e.g., Agell and Lommerud 1993;
+Edin and Topel 1997; Erixon 2017). Yet no empirical evidence
+exists to date that such minimum-wage induced reallocation
+effects are present in the labor market.
+We present evidence consistent with reallocation at the
+individual and regional levels. Most important, at the individual
+level, we show that low-wage workers (but not high-wage workers)
+are more likely to upgrade to “better” establishments after the
+introduction of the minimum wage. This “upgrading” takes different forms. First, the minimum wage induces low-wage workers to
+move to establishments that pay a higher daily wage on average.
+This effect is quantitatively important and can account for
+around 17% of the overall increase in daily wages that low-wage
+workers experience following the introduction of the minimum
+wage. The improvement in average daily wages primarily reflects
+a movement to establishments that offer more full-time jobs,
+but also a movement to establishments that pay a higher wage
+premium to the same type of worker. Second, we find that the
+minimum wage induces low-wage workers to move to larger and
+more stable establishments with a lower churning rate. Low-wage
+workers further reallocate to establishments that poach a larger
+share of workers from other establishments—that is, establishments that workers consider as superior based on their revealed
+preferences (Bagger and Lentz 2018; Sorkin 2018)—in response
+to the minimum wage. Even though our main data source does
+not include direct measures of establishment productivity, our
+findings further highlight that the minimum wage induced a
+reallocation of low-wage workers to establishments that are
+predicted to have higher revenues per worker based on, for
+example, their industry affiliation, size, and the wage they pay
+to their full-time workers. In sum, given that the minimum wage
+policy did not lower employment, our findings suggest that the
+minimum wage increased allocational efficiency of workers.
+We provide further evidence in support of worker reallocation
+based on our regional approach. Specifically, we show that in
+the years following the introduction of the minimum wage, small
+businesses with fewer than three employees are more likely to
+exit the market and average establishment size increased in local
+areas more exposed to the minimum wage. Moreover, we find that
+the minimum wage increased the establishment wage premium,
+measured as a fixed establishment effect in an AKM-style wage
+regression estimated using only prepolicy data, in more relative to
+less exposed local areas, suggesting a compositional shift toward
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+271
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+higher-paying establishments. Consistent with these findings, we
+show that the minimum wage induced an increase in the average
+predicted productivity of establishments in more relative to less
+exposed areas, once again driven by the reallocation of workers
+toward more productive establishments.
+We provide several pieces of evidence that the findings
+highlighted here reflect the causal impact of the minimum wage,
+rather than macroeconomic shifts in the economy. First, individual
+and regional effects of the minimum wage emerge exactly when
+the policy was introduced. Second, the impact of the minimum
+wage is concentrated among low-wage workers at the bottom of
+the wage distribution who are most affected by it. Trajectories of
+high-wage workers, in contrast, barely change in response to the
+minimum wage, underscoring that the overall macroeconomic environment was stable around its introduction. Third, our results
+from the individual-level approach are robust to controlling in a
+flexible manner for individual and regional characteristics, such
+as the local unemployment rate.
+In the final step of the analysis, we provide suggestive evidence on the potential mechanisms underlying the reallocation
+effects, focusing on models of monopsonistic competition in the labor market. Building on Card et al. (2018), we set up a simple yet
+insightful model (discussed in detail in Online Appendix D) where
+nonpecuniary preferences toward a workplace—such as distance
+to home—give establishments the power to set wages. Importantly, in this set-up, establishments are heterogeneous in terms
+of their marginal costs of producing one unit of output. Whereas
+a single market wage (for the same type of worker) would prevail
+in a fully competitive labor market, wages are increasing in firms’
+efficiency levels under monopsonistic competition. We show that
+in this environment, a minimum wage will drive the least efficient
+firms out of the market. According to the model, workers in these
+firms are at least partially absorbed by more efficient—and hence
+larger and higher-paying—firms that raise their wages and expand employment in response to the minimum wage. Our model
+also highlights that not all minimum wage workers are necessarily better off after the minimum wage policy, as workers who
+reallocate to a more efficient establishment may trade off higher
+wages with lower utility from nonpecuniary job characteristics. In
+line with this idea, we find that commuting time—an important
+nonpecuniary job characteristic—increases for low-wage workers
+following the introduction of the minimum wage. Even though
+there may be some minimum wage workers who lose out because
+of the policy despite earning a higher wage, our model also
+
+272
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+emphasizes that on average workers will be better off after the
+introduction of the minimum wage, provided that the minimum
+wage does not lower employment. Overall, our empirical findings
+therefore suggest, if viewed through the lens of our model, that
+the minimum wage improved the welfare of workers on average.
+Our article relates to several strands of literature. First, we
+contribute to the large empirical literature that examines the
+effects of minimum wage increases on employment and wages
+(see Card and Krueger 1995; Neumark and Wascher 2010), by
+exploiting a first-time introduction of a minimum wage that cuts
+deep into the wage distribution and that was persistent as the
+minimum wage has been increased twice above the inflation
+rate after its introduction (similarly to Harasztosi and Lindner
+2019). The sharp bite and the high persistence of the minimum
+wage, combined with exceptionally high-quality administrative
+data on the universe of workers and establishments, allow us to
+investigate reallocation responses, which is not possible in the
+context of minor, temporary minimum wage shocks.
+Second, our article puts a new spin on the recent findings
+by Luca and Luca (2018) and Chava, Oettl, and Singh (2019) by
+suggesting that increases in the minimum wage in the United
+States drove small, distressed businesses out of the market.
+Our theoretical model illustrates, and our empirical findings
+corroborate, that increased exits of small businesses following a
+minimum wage hike may not necessarily be a reason for concern
+but may instead reflect the upgrading of workers from less to
+more efficient establishments.
+Third, our study is related to the large theoretical literature
+on how low-wage labor markets react to minimum wage shocks.
+Economists have long argued whether low-wage labor markets are
+best characterized as highly competitive, implying that the minimum wage will cause displacement of workers (e.g., Stigler 1946),
+or whether firms’ behavior is inconsistent with competitive labor
+markets, implying limited employment effects of the minimum
+wage (e.g., Lester 1960). Williamson (1968) was the first to formalize the idea that a minimum wage may drive small businesses that
+use more labor-intensive technologies out of the market. More recently, Acemoglu (2001), Bhaskar, Manning, and To (2002), Flinn
+(2006), Berger, Herkenhoff, and Mongey (2019), and Mayneris,
+Poncet, and Zhang (2018), among others, show that in the presence
+of search frictions, product market frictions, or monopsonistic competition, minimum wage policies may have limited employment
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+273
+
+3. Aaronson et al. (2018) make a related point and argue that a minimum wage
+policy induces less efficient and more labor-intensive firms to exit the market and
+more efficient and more capital-intensive firms to enter.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+effects. Instead, they may improve establishment quality and ultimately aggregate total factor productivity, by shifting workers
+from less efficient to more efficient establishments.3 Our article
+provides, for the first time in the literature, direct empirical support of this prediction. In addition to that, while we acknowledge
+that search frictions or product market frictions may drive the
+reallocation of workers toward more efficient establishments, we
+show that monopsonistic competition in the labor market, due to
+the presence of nonpecuniary job characteristics, provides a natural explanation behind the worker upgrading that we observe.
+Fourth, our article contributes to the macroeconomic literature on re- and misallocation of resources across firms. One strand
+of this literature has documented large shifts in reallocation over
+the business cycle (e.g., Davis and Haltiwanger 1992; Moscarini
+and Postel-Vinay 2012). Reallocation also plays a key role in
+understanding productivity growth (e.g., Foster, Haltiwanger,
+and Syverson 2008). Another strand of this literature highlights
+that the misallocation of resources (such as labor) can be induced
+by policies such as state ownership and size restrictions (Hsieh
+and Klenow 2009), firm-level taxes or subsidies (Restuccia and
+Rogerson 2008), or state taxes (Fajgelbaum et al. 2019). Our
+article is one of the few that exploit an exogenous shock or policy
+(in our case, the introduction of a minimum wage) to directly
+investigate the reallocation of workers across establishments,
+without relying on the structure of a model.
+Finally, our study complements recent papers that evaluate
+the labor market effects of Germany’s minimum wage policy. By
+exploiting variation in the exposure to the minimum wage across
+individuals and districts, combined with high-quality register
+data, we provide the cleanest evidence to date that the minimum
+wage raised wages but did not reduce employment. We would like
+to stress that the absence of a negative employment effect of the
+minimum wage based on our individual and regional approaches
+is consistent with a recent finding by Bossler and Gerner (2020)
+that the German minimum wage slightly reduced employment
+in low-wage establishments heavily exposed to the minimum
+wage relative to high-wage, less-exposed establishments. Our
+findings suggests that the small negative employment effects
+uncovered by Bossler and Gerner (2020) at the establishment
+
+274
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+II. BACKGROUND AND DATA
+II.A. The Minimum Wage Policy and Macroeconomic
+Environment
+1. Recent Trends in Wage Inequality. Germany experienced a
+dramatic increase in wage inequality throughout the 1990s and
+2000s (see Dustmann, Ludsteck, and Schönberg 2009; Antonczyk,
+Fitzenberger, and Sommerfeld 2010; Card, Heining, and Kline
+2013). While real wages increased between 1995 and 2010 by
+more than 10% at the 90th percentile, they remained roughly
+constant at the median and declined by more than 10% at the
+10th percentile (Kügler, Schönberg, and Schreiner 2018). Wage
+inequality started to decline after 2010, in the years immediately
+before the introduction of the minimum wage, although this trend
+went unnoticed among academics and policy makers until after
+the minimum wage was implemented. Up until the mid-1990s,
+union wages, negotiated between trade unions and employer
+federations at the sectoral level and varying by worker skill and
+experience, acted as wage floors, but the share of workers covered
+and protected by union agreements (at the sectoral or firm level)
+decreased steadily, from nearly 80% in 1995 to about 55% in
+2015 (Kügler, Schönberg, and Schreiner 2018). Against this
+backdrop of rising wage inequality and the dwindling importance
+of trade unions, the German government introduced a nationwide
+minimum wage of €8.50/hour.5
+2. The Minimum Wage Policy. The Minimum Wage Law
+was passed by the German Parliament on July 3, 2014, with
+4. Exploiting variation in the exposure to the minimum wage solely across
+local areas, Caliendo et al. (2018) and Ahlfeldt, Roth, and Seidel (2018) conclude
+that the minimum wage policy led to spatial wage convergence without reducing
+employment in low-wage relative to high-wage areas.
+5. Minimum wages specific to certain industries, including construction, painting and varnishing, waste management, and nursing care, have been in place
+before that date; the earliest was introduced in 1997.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+level in part capture the reallocation of (low-wage) workers from
+low- to high-wage establishments.4 Where other studies have
+investigated the effect of Germany’s minimum wage policy on
+outcomes such as product prices (Link 2019), welfare dependency
+(Schmitz 2019), and within-plant productivity increases (Bossler
+et al. 2020), our work is the first to highlight the reallocation
+effects of minimum wage policies.
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+275
+
+3. Who Are the Minimum Wage Workers? Table I provides
+some descriptive evidence on the characteristics of minimum wage
+workers (i.e., workers who in 2014 earned an hourly wage of less
+than €8.50; see Online Appendix A.2 for more details). Compared
+with workers who earn more than €12.50/hour, minimum wage
+workers are more likely to reside in East Germany and be of immigrant origin, female, low-skilled, and younger than 24; they are
+also more likely to have been unemployed in the past year, less
+likely to be employed full-time, and more likely to be marginally
+employed (i.e., working few hours and earning less than
+€450/month). Minimum wage workers are furthermore overrepresented in small establishments with up to four employees and
+in the transportation, accommodation, and food services sector.
+4. Preliminary Descriptive Evidence: The Hourly Wage Distribution before and after the Introduction of the Minimum Wage. A
+report by the German Minimum Wage Commission (2018) studies
+in detail the effects of the minimum wage hike on the hourly wage
+distribution in Germany (see Online Appendix A.1 for details).
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+the minimum wage coming into effect on January 1, 2015. It
+was subsequently raised to €8.84 in October 2017 and €9.19
+in January 2019. At the time of the initial introduction of the
+minimum wage, almost 15% of workers in Germany earned an
+hourly wage of less than €8.50, implying that around 4 million
+jobs were directly affected (Destatis 2016). With a ratio of 0.48
+between the minimum and median wage in 2015, the German
+minimum wage did not cut as deep into the wage distribution as
+did the French minimum wage (with minimum wage-to-median
+ratio of 0.61) but was considerably more binding than the federal
+minimum wage in the United States (minimum wage-to-median
+ratio of 0.36; OECD Statistics 2019).
+Workers younger than 18 years, apprentices, interns, and
+voluntary workers, as well as the long-term unemployed, were
+exempt from the minimum wage (see Umkehrer and vom Berge
+2020 for an evaluation of the exemption for the long-term unemployed). Temporary exemptions also existed in the hairdressing
+and meat industries and in agriculture and forestry, where until
+December 31, 2016, firms were allowed to pay the lower union
+wage agreed between trade unions and employer federations.
+These industries make up only a relatively small fraction of total
+employment (5%).
+
+0.30
+0.14
+0.66
+0.23
+0.70
+0.07
+0.17
+0.44
+0.39
+0.22
+0.31
+0.28
+0.42
+
+By education
+Share low skilled
+Share medium skilled
+Share high skilled
+
+By age
+Share less than 24
+Share 24–44
+Share 45–59
+
+By unemployment and working time status
+Unemployed in previous year
+Share full-time
+Share part-time
+Share marginally employed
+
+0.15
+0.57
+0.27
+0.17
+
+0.13
+0.48
+0.39
+
+0.15
+0.79
+0.07
+
+0.27
+0.12
+0.57
+
+8.5 < Wt−2 ⩽ 12.50
+
+0.06
+0.72
+0.25
+0.03
+
+0.08
+0.51
+0.42
+
+0.08
+0.83
+0.10
+
+0.17
+0.07
+0.48
+
+12.50 < Wt−2 ⩽ 20.50
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+East Germany
+Non-German citizen
+Women
+
+4.5 < Wt−2 ⩽ 8.5
+
+Wage bin in 2014
+
+TABLE I
+WHICH INDIVIDUALS ARE HEAVILY AFFECTED BY THE MINIMUM WAGE?
+
+276
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+0.22
+0.31
+0.17
+0.30
+1,107,304
+
+By establishment size
+1–4 employees
+5–19 employees
+20–49 employees
+50+ employees
+
+Number of observations
+
+2,170,353
+
+0.14
+0.28
+0.18
+0.40
+
+0.00
+0.15
+0.26
+0.14
+0.03
+0.21
+0.17
+0.04
+
+8.5 < Wt−2 ⩽ 12.50
+
+Wage bin in 2014
+
+3,791,061
+
+0.07
+0.22
+0.18
+0.53
+
+0.00
+0.23
+0.29
+0.09
+0.04
+0.11
+0.21
+0.03
+
+12.50 < Wt−2 ⩽ 20.50
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Notes. The table compares individuals located at different parts of the hourly wage distribution in terms of location, education, age, unemployment and working time status,
+industry affiliation, and establishment size in June 2014, six months prior to the introduction of the hourly minimum wage of €8.50/hour in January 2015. “Low skilled” refers to
+individuals without vocational training, “medium skilled” to individuals with vocational training, and “high skilled” to individuals with academic education. Marginally employed
+are individuals who are employed in marginal part-time jobs (so-called mini- or €450 jobs).
+
+0.00
+0.10
+0.24
+0.23
+0.04
+0.21
+0.11
+0.08
+
+By industry structure
+Agriculture; mining
+Manufacturing; electricity; waste management
+Construction; wholesale and retail
+Transportation; accommodation; food services
+Information; finance; real estate
+Professional, administrative, support services
+Public administration; education; human health
+Arts, entertainment; other services
+
+4.5 < Wt−2 ⩽ 8.5
+
+TABLE I
+CONTINUED
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+277
+
+278
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+5. The Macroeconomic Environment. Our empirical findings
+have to be interpreted in the particular macroeconomic context
+in which the minimum wage policy was introduced. The German
+economy was characterized by robust economic growth in the
+years surrounding the implementation of the minimum wage
+policy. Between 2011 and 2016, nominal GDP grew by 15% (see
+Figure I, Panel A), while unemployment fell from 7.1% in 2011 to
+6.1% in 2016 (Panel B). The stock of employed workers steadily
+increased from 41.58 million in 2011 to 43.64 million in 2016
+(Panel C).
+
+II.B. Data and Sample Selection
+We base our analysis on individual-level German administrative records taken from source data of the Federal Employment
+Agency’s Statistics Department and processed for research
+purposes (vom Berge et al. 2016a, 2016b). These data comprise
+not only all workers covered by the social security system but
+also “marginal workers” who earn no more than €450/month
+and are therefore exempt from social security contributions. The
+data contain information on whether the worker is employed,
+unemployed, or nonemployed, her working time status (i.e.,
+full-time, part-time, or marginal employment), the establishment the worker works for, and a number of sociodemographic
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+The report highlights that the number of jobs below €8.50 decreased immediately after the introduction of the minimum wage,
+a trend that was accompanied by an increase in the number of jobs
+at or slightly above the minimum wage of €8.50 of roughly equal
+size. These findings thus provide some first evidence that the overall job losses due to the minimum wage were limited. In line with
+existing evidence (e.g., Brochu et al. 2015; Autor, Manning, and
+Smith 2016; Cengiz et al. 2019), the findings by the German Minimum Wage Commission (2018) further suggest spillover effects
+of the minimum wage on jobs paying up to €11 but not beyond.
+Although wage inequality started to decline even before
+the introduction of the minimum wage in 2015, the evidence
+of the German Minimum Wage Commission suggests that the
+minimum wage helped further reduce wage inequality. In line
+with this evidence, Bossler and Schank (2020) conclude that the
+introduction of the minimum wage can account for about half of
+the recent decrease in wage inequality.
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+(B) Unemployment Rate
+
+(C) Employment
+
+FIGURE I
+Macroeconomic Conditions, 2011–2016
+The figure provides an overview of the macroeconomic conditions at the time of
+the introduction of the minimum wage in January 2015. Panel (a) shows nominal
+GDP growth; panel (b) shows the unemployment rate, and panel (c) shows total
+employment between 2011 and 2016.
+
+characteristics such as age, gender, nationality, education, place
+of residence and work, and industry of employment.
+To this first data source, we merge information on earnings
+and hours worked from the Employee Histories of the Institute
+for Employment Research in Nuremberg (Beschäftigtenhistorik,
+BeH). The BeH contains information on earnings and working
+hours (the latter only from 2011 to 2014) for each job at least
+once a year, along with its start and end dates. While roughly
+6% of earnings in the BeH are top-coded at the upper limits for
+compulsory social insurance, this does not affect our analysis
+because the minimum wage does not affect wages this high up in
+the wage distribution.6
+6. When we calculate establishment fixed effects from an AKM-type regression, we stochastically impute the censored part of the wage distribution similarly to Dustmann, Ludsteck, and Schönberg (2009) and Card, Heining, and Kline
+(2013); see Online Appendix B.3 for details.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+(A) Nominal GDP
+
+279
+
+280
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+7. Both vom Berge et al. (2014) and Doerr and Fitzenberger (2016) emphasize
+that lack of information on working hours may lead to a downward bias in the effect
+of the introduction of the minimum wage on employment and wages and could
+therefore be one reason some existing studies have failed to detect perceptible
+employment and wage effects of the minimum wage.
+8. Because we do not have access to hourly wage data postreform, we cannot
+apply the distribution-based approach as in Cengiz et al. (2019) and Harasztosi
+and Lindner (2019).
+9. Average daily (including weekends) working hours for each working time
+status category are computed for 2013 (5.28 for full-time workers, 3.30 for parttime workers, and 1.18 for marginal workers).
+10. Caliendo et al. (2017) estimate that actual hours dropped by 3.1% (p-value
+.06) in the year after the minimum wage was introduced (2015 versus 2014), an
+effect that is not statistically different from the placebo estimate for the 2013
+versus 2014 prepolicy period which suggests a drop of 1.8% (p-value .22). Burauel
+et al. (2020) find a 2.5% reduction of actual hours, an effect that is not statistically
+significant.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+An important advantage of our data source compared to existing studies on the minimum wage in Germany is that we observe
+working hours until 2014, allowing us to calculate precise hourly
+wages for the years before the introduction of the minimum wage
+and therefore obtain reliable measures for how a single worker or
+a local area are affected by its introduction.7 Unfortunately, information on working hours is not available after the introduction of
+the minimum wage in 2015.8 To study the effect of the minimum
+wage on hourly wages, we proxy hourly wages as the daily wage
+divided by the average number of working hours in each working
+time status category.9 This approximation assumes that actual
+hours worked in each working time status category are not
+significantly affected by the minimum wage, an assumption that
+is in line with the empirical evidence from other data sources.10
+A drawback of the data on working hours is that some
+employers report actual working hours and others report contractual working time. We compute a harmonized measure for
+working hours following an imputation procedure described in
+detail in Online Appendix B.1. After the imputation, weekly
+working hours in the BeH closely follow those from the Structure
+of Earnings Survey of the German Statistical Office and the
+German Socio-Economic Panel, the two main survey data sets
+available in Germany. We further impute missing values in the
+worker’s working time status using the procedure described in
+Online Appendix B.2. Missing values in the education variable
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+281
+
+11. Establishment fixed effects are available only for establishments that employ at least one full-time employee and belong to the largest connected set. Rather
+than dropping establishments with missing fixed effects, we replace missing values with predicted values obtained from a regression of establishment fixed effects
+on establishment characteristics such as size and industry affiliation; see Online
+Appendix B.5 for details.
+12. Rules for data privacy and data parsimony require us to avoid working
+with full populations of individual-level microdata and confine our analysis to
+samples when possible.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+are imputed using the imputation procedure suggested by
+Fitzenberger, Osikominu, and Völter (2005).
+Our empirical analysis focuses on the years 2011 to 2016 due
+to a sharp break in how several key variables are coded between
+2010 and 2011 (for example, the worker’s working time status and
+her education). We create a yearly panel and select all job spells
+referring to June 30. In case an individual holds more than one
+job, we keep her main job, defined as the job with the highest daily
+wage or, in case of multiple jobs with identical wages, the full-time
+job (or part-time job if the other job is a marginal job). We drop job
+spells in apprenticeship training and where the worker is younger
+than 18 from our sample. We further focus on prime-age workers
+and exclude job spells of workers close to retirement (i.e., workers
+aged 60 and older). As demonstrated in Online Appendix A.11, our
+findings are robust to alternative sample restrictions. We refer to
+this sample as the “full sample.” We use this sample to compute
+various measures of establishment quality, such as the establishment’s employment size, average wage, or a fixed effect obtained
+from a regression that includes worker fixed effects in addition to
+establishment fixed effects (see Online Appendix B.3 for details).11
+Our analysis involves two main empirical approaches. The
+first empirical approach compares the career trajectories of
+workers who earned less than the minimum wage prior to its
+introduction with the career trajectories of workers who earned
+a wage higher than the minimum wage, similar to Currie and
+Fallick (1996) and Clemens and Wither (2019). To implement
+this approach, we select all individuals from the full sample who
+earned an hourly wage between €4.50 and €20.50 (as of June 30)
+at least once between 2011 to 2014. We follow these individuals
+over the entire 2011 to 2016 period, even if they earn more than
+€20.50/hour. We then draw a 50% random sample of individuals.12
+Our second approach compares local areas that, due to their
+lower wage levels before the introduction of the minimum wage,
+
+282
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+III. LABOR MARKET EFFECTS OF THE MINIMUM WAGE: INDIVIDUAL
+APPROACH
+III.A. Method
+Our data allow us to follow workers over time. The key idea
+of the individual approach is to compare individuals’ changes
+in outcomes, such as wage growth, changes in the employment
+probability, or changes in establishment quality, over two-year
+windows (between t − 2 and t) along the distribution of wages in
+the baseline period t − 2.14 We describe our approach here with
+wage growth as the dependent variable, but the same arguments
+apply for other outcome variables. We assign workers to 15 small
+(typically €1) wage bins k (where the first wage bin k = 1 refers
+to hourly wages between €4.50 and €6.50, the second wage bin to
+hourly wages between €6.50 and €7.50, . . . , and the 15th wage bin
+to hourly wages between €19.50 and €20.50) based on their hourly
+wages in t − 2.15 We regress individual wage growth yit − yit−2
+of worker i between periods t − 2 and t on indicator variables
+1[bk−1 < wit−2 ⩽ bk] equal to 1 if worker i falls into wage bin k in t
+− 2 (where b0 = 4.50, b1 = 6.50, b2 = 7.50, . . . , b15 = 20.50):
+
+1 [bk−1 < wit−2 ⩽ bk] γkt + β Xi,t−2 + eit .
+(1) yit − yit−2 =
+k
+
+In this equation, the coefficients γkt simply measure average
+wage growth between t − 2 and t of workers in wage bin k in
+the baseline period conditional on a vector of individual baseline
+characteristics Xi,t−2 measured at t − 2. We allow wage growth by
+baseline wage bin to differ across four periods: two prepolicy periods (2011 versus 2013; 2012 versus 2014) and two postpolicy periods (2013 versus 2015; 2014 versus 2016). In the two postpolicy
+13. There are 401 districts (Kreise) in Germany with on average 207,000
+inhabitants.
+14. In Online Appendix A.8, we also study one-year (as opposed to two-year)
+changes in outcomes before and after the introduction of the minimum wage.
+15. We pool individuals earning between €4.50 and €6.50 together into one
+bin since few individuals fall into this group.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+were heavily affected by the minimum wage with areas that were
+largely unaffected by the minimum wage. To implement this
+approach, we collapse the full sample to the local district (there
+are 401 districts in Germany) and year level.13
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+283
+
+yit − yit−2 =
+
+
+(1[bk−1 < wit−2 ⩽ bk]γk2013
+k
+
+(2)
+
++1[bk−1 < wit−2 ⩽ bk]δkt ) + β Xi,t−2 + eit ,
+
+where the coefficients δkt = γkt − γk2013 now trace out, for each
+initial (prepolicy) wage bin k, workers’ two-year wage growth in
+the postpolicy years relative to two-year wage growth in the 2011
+versus 2013 prepolicy period, given by coefficients γk2013 . The coefficients δkt identify the causal effect of the minimum wage on wage
+growth under the assumption that mean reversion and macroeconomic time effects are stable over time. We can assess the plausibility of the assumption of stable macroeconomic time effects by investigating whether estimates for δkt are close to zero for wage bins
+considerably higher than the minimum wage of €8.50/hour (e.g.,
+€12.50/hour and up). We find this to be the case for most outcomes.
+To account for the possibility that macroeconomic time effects
+in the postpolicy periods are different from those in the 2011 versus 2013 prepolicy period, we construct difference-in-differences
+estimates. We subtract δkt coefficients averaged over wage bins
+high up in the wage distribution—which are unaffected by the
+minimum wage and hence capture changes in the macroeconomic environment—from δkt coefficients averaged over wage
+bins below the minimum wage. These difference-in-differences
+estimates eliminate any possible changes in the macroeconomic
+environment between the post- and prepolicy periods under the
+assumption that these changes affect all wage bins the same way.
+In practice, we divide workers into three groups based on
+their location in the wage distribution at baseline. The first group
+are workers who earn a wage below the minimum wage prior to
+its introduction (i.e., workers in wage bins (4.5,6.5], (6.5,7.5] and
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+periods, the coefficients γkt capture the effect of the minimum
+wage along the wage bin distribution k on two-year wage growth,
+subject to two potential confounding factors: mean reversion and
+macroeconomic time effects. We would typically expect workers
+who earn a low wage in t − 2 to experience higher wage growth
+than workers who earn a high wage in t − 2 because of mean
+reversion. At the same time, wages are likely to grow over a twoyear period simply because the economy is growing. To eliminate
+mean reversion and macroeconomic time effects, we estimate in
+a second step a reparameterized version of equation (1):
+
+284
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+(7.5,8.5]). These are the workers who should be primarily affected
+by the minimum wage policy, and we refer to this group as the
+treated group accordingly. The minimum wage may also spill
+over to workers who earn more than but close to the minimum
+wage before its introduction (i.e., workers in wage bins (8.5,9.5],
+(9.5,10.5], and (10.5,11.5], (11.5,12.5])—the partially treated
+group. The third group comprises all workers higher up in the
+initial wage distribution (i.e., workers in wage bins (12.5,13.5]
+and higher), which we refer to as the control group. We then
+average δkt coefficients over the eight highest-wage bins (weighted
+by bin size) in the control group and subtract them from the
+δkt coefficients averaged over the three lowest-wage bins in the
+treated group. These corrected estimates are for most outcomes
+very similar to the noncorrected estimates for δkt , suggesting that
+macroeconomic conditions were stable during the period under
+consideration, in line with the evidence presented in Section II.A.
+To summarize, the key identifying assumptions behind
+the difference-in-differences estimates are that (i) the mean
+reversion effect for each wage bin remains constant over time,
+and (ii) macroeconomic time effects do not vary across wage bins.
+Although we cannot test these assumptions directly, there are
+several pieces of evidence that support them. First, as highlighted,
+coefficient estimates of δkt are close to zero for wage bins beyond
+€12.50/hour (see for example Figures II and III). Second, even
+though coefficient estimates for the 2012 versus 2014 prepolicy
+period (δk2014 ) are sometimes statistically significant (which is not
+surprising given our large sample size), they are substantially
+smaller in magnitude than for the 2013 versus 2015 and 2014
+versus 2016 postpolicy periods for wage bins below the minimum
+wage for all outcomes. Hence, the effects of the minimum wage
+on wage bins below the minimum emerge exactly when the
+minimum wage is introduced, supporting a causal interpretation
+of our findings. Third, controlling for the local unemployment
+rate interacted with wage bins in equation (2)—thus allowing
+for local macroeconomic conditions to differentially impact wage
+bins over time—barely changes our estimates (see Table VI
+later). Fourth, the wage, employment, and reallocation effects
+of the minimum wage are similar in districts with stable and
+declining unemployment rates between 2010 and 2016 (see
+Online Appendix A.6) and districts more and less exposed to the
+minimum wage (see Online Appendix A.7), further underscoring
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+285
+
+(B) Two-Year Hourly Wage Growth by Initial Wage Bin, relative to 2011 vs 2013
+
+FIGURE II
+Wage Effects of the Minimum Wage: Individual Approach
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+(A) Two-Year Hourly Wage Growth by Initial Wage Bin
+
+286
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+FIGURE II
+(CONTINUED)
+
+that our estimated effects reflect causal effects of the minimum
+wage, and not changing macroeconomic conditions.
+III.B. Wage and Employment Effects of the Minimum Wage
+1. Wage Effects. Figure II, Panel A provides a first indication
+that the minimum wage increased wages for low-wage workers.
+In the figure, we plot the two-year “proxied hourly wage growth”
+separately for 2011 versus 2013 to 2014 versus 2016, obtained
+from regression equation (1), where we proxy hourly wages as
+daily wages divided by the average number of working hours in
+each working time status category (i.e., full-time, part-time, and
+marginal employment, see Section II.B). As expected, workers
+with wages at baseline (in t − 2) below the minimum wage experience substantially higher hourly wage growth than workers
+earning wages above the minimum wage at baseline even before
+the minimum wage was introduced (18%–30% versus 5%–10%).
+Yet Figure II, Panel A clearly highlights that the minimum wage
+did indeed raise hourly wages for low-wage workers: hourly wage
+growth in wage bins below the minimum wage is considerably
+larger in the 2013 versus 2015 and 2014 versus 2016 postpolicy
+periods than in the 2011 versus 2013 and 2012 versus 2014
+prepolicy periods. This is not true for wage bins higher up in the
+distribution.
+We investigate this in more detail in Figure II, Panel B, where
+we plot two-year hourly wage growth by wage bin separately for
+the 2012 versus 2014 prepolicy period and the two postpolicy periods relative to the 2011 versus 2013 prepolicy period, obtained
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+In Panel A, we plot two-year hourly wage growth of individuals who were employed in t − 2 and t against their initial wage bin, separately for the periods 2011
+versus 2013 (green dot-dashed line; color version available online) to 2014 versus
+2016 (black solid line), while controlling for individual characteristics at baseline
+(age, education, sex, nationality, working time status, district fixed effects, and
+industry fixed effects). Estimates refer to coefficients γ kt in equation (1) in the
+text. In Panel B, we plot two-year excess wage growth by initial wage bin in the
+periods 2012 versus 2014 to 2014 versus 2016 relative to the 2011 versus 2013
+prepolicy period, once again controlling for individual characteristics at baseline.
+Estimates refer to coefficients δ kt in equation (2), and correspond to the differences
+between the solid black, dashed blue, and double-dot-dashed red lines and the dotdashed green line in Panel A. The black vertical line indicates the minimum wage
+of €8.50/hour. We also show the 95% confidence interval based on standard errors
+that are clustered at the district level.
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+287
+
+(B) Employment Probablity in Year t by Initial Wage Bin, relative to 2011 versus 2013
+
+FIGURE III
+Employment Effects of the Minimum Wage: Individual Approach
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+(A) Employment Probablity in Year t by Initial Wage Bin
+
+288
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+FIGURE III
+(CONTINUED)
+
+from regression equation (2). In line with the figure in Panel A,
+the figure in Panel B highlights that hourly wage growth in the
+postpolicy periods considerably surpasses hourly wage growth
+over the 2011 versus 2013 period for wage bins below the hourly
+minimum wage of €8.50, by about 10% for workers in the lowestwage bin. Postpolicy hourly wage growth also exceeds prepolicy
+(2011 versus 2013) hourly wage growth for wage bins slightly
+above the minimum wage, up to €12.50, in line with spillover
+effects of the minimum wage to higher-wage bins. In contrast, for
+wage bins higher than €12.50, hourly wage growth in the 2013
+versus 2015 and 2014 versus 2016 periods is not higher than over
+the 2011 versus 2013 period (i.e., coefficient estimates are close
+to zero), suggesting that macroeconomic conditions were largely
+stable during our study period. This pattern suggests that the
+minimum wage indeed causally raised wages for workers who
+earned a wage below the minimum wage at baseline, with some
+possible spillover effects to workers who earned a wage just above
+the minimum wage. This causal interpretation of our findings
+is further corroborated by the placebo estimates for 2012 versus
+2014 that, although statistically significant, are much smaller
+in magnitude than for the postpolicy periods. The wage effects
+of the minimum wage therefore emerge exactly in the year when
+the minimum wage came into effect.
+We summarize our key findings in Table II, Panel A, where
+we report in the first three columns estimates based on regression
+equation (2), but for more aggregated wage bins: [4.50, 8.50),
+[8.50, 12.50), and [12.50, 20.50). The table shows that workers
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+In Panel A, we plot the probability that a worker who was employed in period t
+− 2 remains employed in period t against her initial wage bin, separately for the
+periods 2011 versus 2013 (green dot-dashed line) to 2014 versus 2016 (solid black
+line), while controlling for individual characteristics at baseline (age, education,
+sex, nationality, working time status, district fixed effects, and industry fixed effects). Estimates refer to coefficients γ kt in equation (1). In Panel B, we plot the
+probability that an employed worker is employed two years later against her initial
+wage bin for the periods 2012 versus 2014 to 2014 versus 2016 relative to the 2011
+versus 2013 prepolicy period, once again controlling for individual characteristics
+at baseline. Estimates refer to coefficients δ kt in equation (2), and correspond to
+the differences between the solid black, dashed blue, and double-dot-dashed red
+lines and the dot-dashed green line in Panel A. The black vertical line indicates
+the minimum wage of €8.50/hour. We also show the 95% confidence interval based
+on standard errors that are clustered at the district level.
+
+0.011
+(0.0005)
+0.004
+(0.0004)
+− 0.211
+
+0.099
+(0.0022)
+0.016
+(0.0008)
+0.242
+
+0.060
+(0.0021)
+0.015
+(0.0005)
+0.150
+
+[4.5,8.5)
+(1)
+
+0.005
+(0.0003)
+0.001
+(0.0002)
+− 0.135
+
+0.031
+(0.0008)
+0.008
+(0.0004)
+0.105
+
+0.021
+(0.0007)
+0.008
+(0.0003)
+0.086
+
+[8.5,12.5)
+(2)
+
+0.003
+(0.0002)
+0.001
+(0.0001)
+− 0.083
+
+0.006
+(0.0005)
+0.005
+(0.0002)
+0.053
+
+0.006
+(0.0004)
+0.006
+(0.0002)
+0.057
+
+[12.5,20.5)
+(3)
+
+Changes relative to 2011 versus 2013
+
+0.008
+(0.0005)
+0.002
+(0.0004)
+
+0.093
+(0.0020)
+0.011
+(0.0009)
+
+0.054
+(0.0019)
+0.009
+(0.0005)
+
+Col. (1) minus col. (3)
+(4)
+
+0.002
+(0.0003)
+0.000
+(0.0003)
+
+0.025
+(0.0007)
+0.003
+(0.0005)
+
+0.015
+(0.0005)
+0.002
+(0.0003)
+
+Col. (2) minus col. (3)
+(5)
+
+Difference-in-differences
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Baseline change (2011 versus 2013)
+
+2012 versus 2014 (placebo)
+
+Panel C: Employment (1 if employed)
+2014 versus 2016
+
+Baseline change (2011 versus 2013)
+
+2012 versus 2014 (placebo)
+
+Panel B: Daily wages
+2014 versus 2016
+
+Baseline change (2011 versus 2013)
+
+2012 versus 2014 (placebo)
+
+Panel A: Hourly wages
+2014 versus 2016
+
+Wage bin in t − 2
+
+TABLE II
+
+THE EFFECTS OF THE MINIMUM WAGE ON WAGES AND EMPLOYMENT: INDIVIDUAL APPROACH
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+289
+
+0.009
+(0.000)
+0.002
+(0.0002)
+− 0.093
+
+Panel D: Employment (full-time equivalents)
+2014 versus 2016
+0.025
+(0.0007)
+2012 versus 2014 (placebo)
+0.007
+(0.0004)
+Baseline change (2011 versus 2013)
+− 0.084
+0.002
+(0.0003)
+0.001
+(0.0002)
+− 0.072
+
+[12.5,20.5)
+(3)
+0.023
+(0.0008)
+0.006
+(0.0005)
+
+Col. (1) minus col. (3)
+(4)
+
+0.007
+(0.0004)
+0.002
+(0.0003)
+
+Col. (2) minus col. (3)
+(5)
+
+Difference-in-differences
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Notes. In Panel A, we report the excess hourly wage growth in the 2014 versus 2016 postpolicy period and the 2012 versus 2014 placebo period relative to the 2011 versus 2013
+prepolicy period for three groups of workers: workers who earned less than the minimum wage at baseline ([4.5,8.5), column (1)), workers who earn more but close to the minimum
+wage at baseline ([8.5,12.50), column (2)), and workers who earn more than €12.50 at baseline (column (3)). Estimates refer to coefficients δ kt in equation (2), where workers are
+grouped into three bins only. Columns (4) and (5) report difference-in-differences estimates that compare the excess wage growth of workers who earn less or close to the minimum
+wage at baseline with the excess wage growth of workers who earn more than €12.50 at baseline (i.e., estimates in columns (1) and (2) minus estimates in column (3)). In Panel B,
+we repeat the analysis, but now use the change in daily wages as the dependent variable. In both Panels A and B, the sample is restricted to individuals who are employed both in
+period t − 2 and t. In Panel C, we report corresponding estimates using employment as the dependent variable. (All workers are employed in t − 2). In Panel D, we instead use the
+change in full-time equivalents, where we assign values of 1, 0.5, 0.2, and 0 to full-time, part-time, marginally employed, and nonemployed workers, as the dependent variable. All
+regressions control for individual characteristics at baseline (age, education, sex, nationality, working time status, district fixed effects, industry fixed effects) and standard errors
+(in parentheses) are clustered at the district level.
+
+[8.5,12.5)
+(2)
+
+[4.5,8.5)
+(1)
+
+Wage bin in t − 2
+
+Changes relative to 2011 versus 2013
+
+TABLE II
+CONTINUED
+
+290
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+291
+
+2. Employment Effects. Our findings in Figure II and
+Table II indicate that the introduction of the minimum wage in
+2015 pushed up wages for workers at the lower end of the wage
+distribution. We now investigate how the minimum wage affected
+their employment prospects. Recall that the individual approach
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+directly exposed to the minimum wage—that is, workers who
+earned a wage of less than €8.50/hour at baseline (the treated
+group)—experience a 6.0% higher hourly wage growth over the
+2014 versus 2016 postpolicy period (26.6%) than over the 2011
+versus 2013 prepolicy period (20.6%). Hourly wage growth of
+workers earning slightly above the minimum wage at baseline—
+between €8.50 and €12.50/hour (the partially treated group)—is
+2.1% higher in the postpolicy (14.8%) than in the prepolicy
+period (12.7%). In contrast, postpolicy wage growth is very
+close to prepolicy wage growth for workers earning more than
+€12.50/hour at baseline (the control group). To net out possible
+macroeconomic time effects, Table II, columns (4) and (5) report
+difference-in-differences estimates that compare the excess wage
+growth (in the 2014 versus 2016 postpolicy period relative to
+the 2011 versus 2013 prepolicy period) for the two lower wage
+bins ((4.50, 8.50] and (8.50, 12.50]) to the excess wage growth
+for the highest wage bin ((12.50, 20.50]). This corresponds to the
+differences in estimates in columns (1) and (2), and columns (1)
+and (3). Because hourly wage growth in the upper parts of the
+wage distribution between 2011 and 2013 was very similar to that
+between 2014 and 2016, the difference-in-differences estimates
+are close to the estimates based on equation (2), reported in
+the first two columns. Reassuringly, in line with our findings in
+Figure II, estimates are considerably smaller in magnitude in
+the placebo period 2012 versus 2014, supporting the view that
+the estimates in Table II reflect the causal effect of the minimum
+wage on wages, rather than changes in macroeconomic conditions.
+In Table II, Panel B, we use the change in daily wages,
+unadjusted for the worker’s working time status in period t, as
+the dependent variable. The findings suggest that the minimum
+wage had a stronger effect on daily wages than on hourly wages
+of minimum wage workers (9.3% versus 5.4% according to the
+difference-in-differences estimates in column (4)). This suggests
+that the minimum wage induced some minimum wage workers
+to move from marginal or part-time employment to full-time
+employment, a finding we confirm below.
+
+292
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+16. To be precise, our dependent variable is equal to −1 if a worker employed
+in t − 2 is no longer employed in t, and 0 otherwise.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+focuses on workers who were employed at the baseline period.
+In a first step, we compare the probabilities that workers remain
+employed in period t along workers’ hourly wage distribution in
+t − 2, separately for two prepolicy and two postpolicy periods
+(Figure III, Panel A).16 Reported estimates refer to coefficients γkt
+in equation (1). The graph highlights that workers at the bottom
+of the wage distribution have a lower probability of remaining
+employed than workers higher up the wage distribution even
+in the prepolicy periods, in line with less stable employment
+relationships for low-wage workers. According to the green
+dot-dashed 2011 versus 2013 prepolicy line, about 23% of workers
+in the €6.50–€7.50 wage bin are no longer employed in period t,
+compared with 13% of workers in the €19.50–€20.50 wage bin.
+At the same time, the relationship between the probability of
+remaining employed and the worker’s baseline wage appears to
+be similar in the pre- and postpolicy periods, suggesting that
+the minimum wage had no discernible negative effect on the
+employment prospects of low-wage workers.
+Figure III, Panel B provides a more detailed investigation.
+The figure shows the probability of remaining employed in year
+t by worker’s wage bin in t − 2 for one prepolicy period and two
+postpolicy periods relative to the 2011 versus 2013 period, where
+estimates are obtained from equation (2). The figure suggests
+that workers directly exposed to the minimum wage—that is,
+workers who earn less than €8.50/hour at baseline—are slightly
+more likely to remain employed after (i.e., in 2015 and 2016),
+relative to before (i.e., in 2013) the introduction of the minimum
+wage. In contrast, employment prospects of workers earning
+more than €12.50/hour at baseline are similar in the postpolicy
+periods and the 2011 versus 2013 prepolicy period. Coefficient
+estimates for the placebo period 2012 versus 2014 are also close
+to zero, confirming once more that macroeconomic conditions
+have been largely stable over our study period.
+We report the corresponding estimates based on
+equation (2) averaged over three aggregated wage bins and
+difference-in-differences estimates in Table II, Panel C. Both
+sets of estimates suggest that the minimum wage increased the
+probability that a worker who earned less than the minimum
+wage in period t − 2 remains employed in period t by about
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+293
+
+III.C. Reallocation Effects of the Minimum Wage
+We now turn to investigating the potential role of worker
+reallocation in explaining these findings. Specifically, we investigate whether the minimum wage increased upward mobility from
+small or lower-paying establishments to larger or higher-paying
+establishments among workers directly affected by it. We measure
+the change in establishment quality over a two-year period as
+l=t−2
+l
+ql=t−2
+j(i,t) − q j(i,t−2) , where q j(i,t) denote the time l characteristics of establishment j at which worker i is employed in year t. That is, the
+“quality” of the establishment refers to the baseline period t − 2
+in both periods. This way, any changes in establishment quality
+induced by the minimum wage reflect compositional changes
+only, rather than improvements in quality over time (possibly
+caused by the minimum wage itself) in the same establishment.
+By construction, this measure of establishment quality is zero for
+workers who remain employed at their baseline establishment. A
+drawback of this measure is that it is defined only for establishments that existed in both t − 2 and t. In the subsequent analysis,
+we drop workers who move to establishments that entered the
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+1 percentage point. Point estimates are larger in magnitude
+(about 2.5 percentage points) when we use changes in full-time
+equivalents, where we assign 1 to full-time employment, 0.5 to
+part-time employment, 0.2 to marginal employment, and 0 to
+nonemployment, as the dependent variable (Panel D). This is in
+line with our finding that the minimum wage raised daily wages
+more than hourly wages (Panels A and B) and suggests that some
+minimum wage workers in marginal employment or part-time
+work switched to full-time work.
+The employment estimates in Panels C and D rule out the possibility that the minimum wage reduced employment prospects
+of workers who were employed at baseline. The absence of a
+displacement effect of the minimum wage implies that its positive
+wage effect for low-wage workers is not driven by a policy-induced
+change in the selection of workers into work. The small positive
+employment effects are consistent with the idea that employment
+has become a more attractive option for low-wage workers. Our
+findings based on the individual approach therefore show that
+the minimum wage raised wages for minimum-wage workers,
+without lowering their employment prospects. Consequently, the
+minimum wage policy reduced wage inequality, as intended.
+
+294
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+(B) Establishment's High-Skilled Employment Share
+
+(C) Establishment's Full-Time Employment Share
+
+(D) Establishment's Marginal Employment Share
+
+FIGURE IV
+Reallocation Effects of the Minimum Wage I: Individual Approach
+The figure investigates the effect of the minimum wage on the reallocation of
+low-wage workers to establishments of higher quality. Establishment quality is
+measured before the minimum wage came into effect and only changes for workers
+who switch establishments. In Panel A, we plot the change in the establishment’s
+(log) average daily wage against the worker’s initial wage bin for the periods
+2012 versus 2014 to 2014 versus 2016, relative to the 2011 versus 2013 prepolicy
+period, controlling for individual characteristics at baseline (age, education, sex,
+nationality, working time status, district fixed effects, and industry fixed effects).
+In Panels B–D, we repeat the analysis, using the change in the establishment’s
+employment share of high-skilled workers (i.e., workers with a university degree;
+Panel B) and the change in the establishment’s employment share of full-time
+(Panel C) and share of marginal employment (Panel D) as dependent variables.
+Estimates refer to coefficients δ kt in equation (2). The black vertical line indicates
+the minimum wage of €8.50/hour. We also show the 95% confidence interval based
+on standard errors that are clustered at the district level.
+
+market after t − 2 from our sample. Table V, Panel D (shown
+later) illustrates that the minimum wage did not have a clear-cut
+effect on the probability that a worker moves to a newly founded
+establishment, so that this sample restriction is unlikely to affect
+our findings.
+1. Establishments’ Average Daily Wage. In Figure IV, Panel
+A, we use the establishment’s average daily wage (in logs) as a
+measure for establishment quality. We plot the change in average
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+(A) Establishment's Average Daily Wage
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+295
+
+17. It is worth highlighting that the reallocation of minimum wage workers to higher-paying establishments does not necessarily cause higher individual
+daily wage growth. For example, suppose a worker earns €6.50/hour at her baseline establishment and then reallocates, because of the minimum wage, to an
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+l=t−2
+daily wage (ql=t−2
+j(i,t) − q j(i,t−2) ) along the workers’ wage distribution
+at baseline (in t − 2) relative to changes over the 2011 versus 2013
+prepolicy period. Estimates refer to the coefficients δkt in equation
+(2) and account for possible effects of mean reversion. The figure
+clearly illustrates that minimum wage workers experience an
+improvement in establishment quality, measured as the change in
+the establishment’s average daily wage, in the postpolicy periods
+(2013 versus 2015 and 2014 versus 2016) relative to the 2011
+versus 2013 prepolicy years. This effect fades out for workers
+higher up the wage distribution and turns to nearly zero for
+workers earning more than €12.50/hour at baseline. A similar improvement in establishment quality for minimum wage workers
+is not observed in the 2012 versus 2014 prepolicy period (relative
+to the 2011 versus 2013 period), which supports the hypothesis
+that the improvement in establishment quality is caused by
+the minimum wage. The corresponding difference-in-differences
+estimates in Table III (Panel B) confirm these findings: minimum
+wage workers reallocate to establishments that pay 1.8% higher
+average daily wages in response to the minimum wage.
+To put these estimates into perspective, recall that minimum
+wage workers experienced an excess daily wage growth of 9.3%
+in the 2014 versus 2016 postpolicy period (Table II, Panel B, repeated for convenience in Table III, Panel A). In Online Appendix
+A.9, we show that low-wage workers who between 2011 and 2013
+switched to an establishment with a 10% higher average daily
+wage experienced a 7.3% increase in their individual daily wages.
+This association increases to 8.7% for minimum wage workers
+who upgrade to establishments that pay higher average daily
+wages than their previous establishment, a group of workers that
+is particularly relevant in our context. Assuming that a similar
+association between average establishment and individual wages
+holds for those workers who switch establishments because of the
+minimum wage hike, our estimate of 0.018 implies that between
+0.73
+0.87
+) and 16.8% (0.018 × 0.093
+) of the overall daily
+14.1% (0.018 × 0.093
+wage increase can be attributed to reallocation. The remaining
+83%–86% of the individual daily wage growth induced by the
+minimum wage occurs in establishments, in compliance with the
+minimum wage law.17
+
+TABLE III
+
+0.018
+(0.0011)
+
+0.093
+(0.0020)
+
+[4.5,8.5)
+(1)
+
+0.054
+(0.0019)
+
+0.015
+(0.0005)
+
+14.6%
+17.4%
+
+0.005
+(0.0004)
+
+0.025
+(0.0007)
+
+[8.5,12.5)
+(2)
+
+0.009
+(0.0005)
+
+0.003
+(0.0007)
+
+0.011
+(0.0009)
+
+[4.5,8.5)
+(3)
+
+0.002
+(0.0003)
+
+0.000
+(0.0004)
+
+0.003
+(0.0005)
+
+[8.5,12.5)
+(4)
+
+Placebo effects (2012 versus 2014)
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Panel C: Hourly wages
+Estimated effect
+
+Daily wage growth due to reallocation (% of total effect)
+Calculated using all switchers
+14.1%
+Calculated using upward switchers
+16.8%
+
+Panel B: Establishment’s average daily wage
+Estimated effect
+
+Panel A: Daily wages
+Estimated effect
+
+Wage bin in t − 2
+
+Main effects (2014 versus 2016)
+
+REALLOCATION TO HIGHER-PAYING ESTABLISHMENTS: INDIVIDUAL APPROACH (DIFFERENCE-IN-DIFFERENCES ESTIMATES)
+
+296
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+0.004
+(0.0004)
+
+[4.5,8.5)
+(1)
+
+0.003
+(0.0004)
+5.3%
+7.5%
+
+0.001
+(0.0002)
+
+8.1%
+9.3%
+
+0.002
+(0.0003)
+
+[8.5,12.5)
+(2)
+
+0.000
+(0.0003)
+
+0.001
+(0.0003)
+
+[4.5,8.5)
+(3)
+
+0.000
+(0.0001)
+
+0.000
+(0.0002)
+
+[8.5,12.5)
+(4)
+
+Placebo effects (2012 versus 2014)
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Notes. The table investigates the effect of the minimum wage on the reallocation of low-wage workers to establishments that pay higher wages. Establishment wages are
+measured before the minimum wage came into effect and only change for workers who switch establishments. In Panel B, we use the change in the establishment’s average
+daily wage as the dependent variable. In Panel D, the dependent variable is the change in the establishment’s wage premium, calculated as the residual from an individual
+daily wage regression that controls for workers’ working time status (full-time, part-time, and marginally employed) in addition to worker age, skill, and nationality, aggregated
+to the establishment level. In Panel E, the dependent variable is the change in the establishment’s fixed effect, obtained from an individual daily wage regression for full-time
+workers that controls for worker age and worker, establishment and year fixed effects and is estimated over a seven-year period prior to the baseline year. The table reports
+difference-in-differences estimates for the 2014 versus 2016 postpolicy period (columns (1) and (2)) and the 2012 versus 2014 placebo prepolicy period (columns (3) and (4)); see
+columns (4) and (5) in Table II. All regressions control for individual characteristics at baseline (age, education, sex, nationality, working time status, district fixed effects, and
+industry fixed effects) and standard errors (in parentheses) are clustered at the district level. The table further reports the fraction of the overall improvement in daily or hourly
+wages (displayed again for convenience in Panels A and C) that can be attributed to the reallocation of workers to higher-paying establishments in bold; see Section III.C for how
+these are computed.
+
+Hourly wage growth due to reallocation (% of total effect)
+Calculated using all switchers
+4.4%
+Calculated using upward switchers
+6.3%
+
+Panel E: AKM establishment effects
+Estimated effect
+
+Hourly wage growth due to reallocation (% of total effect)
+Calculated using all switchers
+4.5%
+Calculated using upward switchers
+5.2%
+
+Panel D: Establishment’s average wage premium
+Estimated effect
+
+Wage bin in t − 2
+
+Main effects (2014 versus 2016)
+
+TABLE III
+CONTINUED
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+297
+
+298
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+establishment where she would earn €7.50/hour in the absence of the minimum
+wage policy. In response to the minimum wage policy, both her previous and new
+establishment pay her €8.50/hour, in compliance with the policy. Nevertheless, in
+this example, 50% of the (hourly) wage increase takes place through reallocation
+and 50% through changes in establishments’ wage-setting behavior.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+2. Average Establishment Characteristics versus Establishment Wage Premium. The reallocation of minimum wage
+workers to establishments that pay higher daily wages could
+reflect a switch to (i) establishments that offer more full-time
+and fewer part-time (or marginal) jobs, (ii) establishments that
+employ a more skilled workforce, or (iii) establishments that pay
+higher hourly wages to the same worker type. We investigate the
+importance of each of these in the remaining panels of Figure IV
+and Figure V, Panels A and B. The findings in Figure IV, Panel
+B suggest that the improvement in the establishments’ average
+daily wage is partly driven by workers moving to establishments
+that employ a higher share of high-skilled workers (i.e., workers
+with a university degree). The difference-in-differences estimates
+presented in Table IV, Panel A indicate that the minimum wage
+induced an improvement in the establishments’ employment
+share of high-skilled workers by 0.2 percentage points or, because
+the average share of high-skilled workers in the establishments
+is 6.9%, by 2.9%.
+The findings in Figure IV, Panels C and D further highlight
+that the improvement in the establishment’s average daily wage
+is partially driven by workers moving to establishments that
+generally employ more full-time workers and fewer marginally
+employed workers. The corresponding difference-in-differences
+estimates presented in Table IV, Panels B and C reveal that
+minimum wage workers experienced through reallocation an
+increase in the establishment’s full-time employment share of
+0.7 percentage points (3%), and a decline in the establishments’
+marginal employment share of 0.6 percentage points (2%) in
+response to the minimum wage.
+Figure V, Panels A and B illustrate that the minimum wage
+also induced some upgrading of minimum wage workers to establishments that pay higher hourly wages to the same worker type.
+In Panel A, we use the establishments’ wage premium, calculated
+as the average daily wage residual in the establishment obtained
+from an individual-level wage regression that controls for workers’ demographic characteristics (age, sex, education, and German
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+(C) Establishment Size
+
+(B) Establishment's AKM Eﬀects
+
+(D) Establishment's Churning Rate
+
+(E) Establishment's Poaching Index
+
+(F) Establishment's Revenue per Worker
+
+FIGURE V
+Reallocation Effects of the Minimum Wage II: Individual Approach
+In the figure, we plot the change in establishment quality between periods t − 2
+and t for workers who are employed in both periods against their initial wage bin
+for the periods 2012 versus 2014 to 2014 versus 2016, relative to the 2011 versus
+2013 prepolicy period. Regressions control for individual characteristics at baseline (age, education, sex, nationality, working time status, district fixed effects, and
+industry fixed effects). Estimates refer to coefficients δ kt in equation (2). Establishment quality is measured before the minimum wage came into effect, and only
+changes for workers who switch establishments. In Panel A, establishment quality is measured as the establishment’s wage premium, calculated as the average
+wage residual in the establishment obtained from an individual (log) wage regression that controls for workers’ demographic characteristics (age, education, sex,
+nationality) and working time status (full-time, part-time, marginally employed).
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+(A) Establishment's Wage Premium
+
+299
+
+300
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+FIGURE V
+(CONTINUED)
+
+citizenship) as well as their working time status as a measure for
+establishment quality. The pattern is the same as when we use
+the establishments’ average daily wage as a quality measure: lowwage workers, but not workers higher up the wage distribution,
+are more likely to move to establishments that pay a higher wage
+premium even before the introduction of the minimum wage. The
+magnitude of this effect is, however, smaller than for the establishments’ average daily wage (0.4% versus 1.8%; see Table III, Panels
+B and D). Using the establishments’ fixed effect as a measure for
+establishment quality produces coefficient estimates that are very
+similar in magnitude to those when the establishment wage premium is used as a measure for establishment quality (compare
+Figure V, Panels A and B and Table III, Panels D and E).18
+To put these estimates into perspective, recall that minimum
+wage workers experienced an excess hourly wage growth of 5.4%
+in the 2014 versus the 2016 postpolicy period (see Table II, Panel
+A, column (4), repeated for convenience in Table III, Panel C). In
+Online Appendices A.9 and A.10, we show that among prepolicy
+low-wage workers who switch establishments, a 10% increase in
+the establishment’s wage premium or fixed effect is associated
+with an increase in individual hourly wages of 6.1% and 8.0%,
+respectively. These associations increase to 7.0% and 11.3% when
+we focus on minimum wage workers who upgrade to establishments with higher wage premia or fixed effects. Assuming that
+similar relationships hold for minimum wage workers induced
+18. We estimated AKM establishment wage premia over seven-year rolling
+windows including only years prior to the introduction of the minimum wage on a
+sample of full-time workers (see Online Appendices B.3 and B.5 for details).
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+In Panel B, establishment quality is measured as the establishment’s fixed effect,
+estimated in an AKM-style (log) wage regression that controls for worker and
+establishment fixed effects over a seven-year prebaseline window. In Panel C, we
+use (log) establishment size as a measure for establishment quality. In Panel D, the
+dependent variable is the change in the establishment’s churning rate, calculated
+as the sum of workers who leave and join the establishment, divided by the number
+of employees at baseline. Panel E shows the change in the establishment’s poaching
+index, computed as the share of new hires that come from employment rather than
+unemployment, while in Panel F we report the change in (log) revenues per worker,
+where we predict revenue per worker based on establishment’s state, industry,
+size, and the average earning of full-time workers (see Online Appendix B.4). The
+black vertical line indicates the minimum wage of €8.50/hour. We also show the
+95% confidence interval based on standard errors that are clustered at the district
+level.
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+301
+
+TABLE IV
+REALLOCATION TO ESTABLISHMENTS OF HIGHER QUALITY: INDIVIDUAL APPROACH
+(DIFFERENCE-IN-DIFFERENCES ESTIMATES)
+
+[4.5,8.5)
+(1)
+
+[8.5,12.5)
+(2)
+
+Placebo effects (2012 versus 2014)
+[4.5,8.5)
+(3)
+
+[8.5,12.5)
+(4)
+
+Panel A: Establishment’s high-skilled employment share
+Estimated effect
+0.002
+0.000
+(0.0002)
+(0.0001)
+
+0.001
+(0.0001)
+
+0.000
+(0.0001)
+
+Panel B: Establishment’s full-time employment share
+Estimated effect
+0.007
+0.001
+(0.0005)
+(0.0003)
+
+0.001
+(0.0003)
+
+0.000
+(0.0002)
+
+Panel C: Establishment’s marginal employment share
+Estimated effect
+− 0.006
+− 0.001
+(0.0004)
+(0.0001)
+
+− 0.001
+(0.0002)
+
+0.000
+(0.0001)
+
+Panel D: Establishment size
+Estimated effect
+0.038
+(0.0039)
+
+0.011
+(0.0023)
+
+0.010
+(0.0022)
+
+0.003
+(0.0015)
+
+Panel E: Establishment’s churning rate
+Estimated effect
+− 0.008
+(0.0010)
+
+− 0.002
+(0.0006)
+
+0.001
+(0.0007)
+
+0.002
+(0.0005)
+
+Panel F: Establishment’s poaching index
+Estimated effect
+0.005
+(0.0004)
+
+0.003
+(0.0002)
+
+0.001
+(0.0003)
+
+0.000
+(0.0002)
+
+Panel G: Establishment’s revenue per worker
+Estimated effect
+0.013
+0.002
+(0.0010)
+(0.0005)
+
+0.002
+(0.0006)
+
+− 0.001
+(0.0004)
+
+Notes. The table investigates the effect of the minimum wage on the reallocation of low-wage workers to
+establishments of higher quality. Establishment quality is measured before the minimum wage came into
+effect and only changes for workers who switch establishments. In Panels A–C, we use changes in the share of
+high-skilled workers (i.e., workers with a university education), full-time workers, and marginally employed
+workers as dependent variables. In Panel D, establishment quality is measured as establishment size (i.e.,
+(log) number of employees in full-time equivalents). In Panel E, the dependent variable is the change in the
+establishment’s churning rate, measured as the sum of workers who leave and join the establishment, divided
+by the number of workers at baseline. The dependent variable in Panel F is the change in the establishment’s
+poaching index, computed as the share of new hires that come from employment rather than unemployment.
+In Panel G the dependent variable is the change in the establishment’s revenue per worker, where we predict
+revenue per worker based on an establishment’s state, industry, size and the average earnings of full-time
+workers (see Online Appendix B.4). The table reports difference-in-differences estimates for the 2014 versus
+2016 postpolicy period (columns (1) and (2)) and the 2012 versus 2014 placebo prepolicy period (columns (3)
+and (4)), as in columns (4) and (5) in Table II. All regressions control for individual characteristics at baseline
+(age, education, sex, nationality, working time status, district fixed effects, and industry fixed effects) and
+standard errors (in parentheses) are clustered at the district level.
+
+to reallocate because of the minimum wage, our estimates imply
+that between 4.5% and 5.2% of the overall hourly wage increase
+caused by the minimum wage can be attributed to the reallocation
+of minimum wage workers to establishments that pay a higher
+wage premium to their workers; between 4.4% to 6.3% can
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Main effects (2014 versus 2016)
+Wage bin in t − 2
+
+302
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+3. Alternative Measures of Establishment Quality. The
+findings in the remaining panels of Figure V and Table IV
+further corroborate our finding that the minimum wage induced
+low-wage workers to reallocate to establishments of higher
+quality. Motivated by models of heterogeneous establishments
+such as Melitz (2003) (or our model of monopsonistic competition
+outlined in Online Appendix D) that predict that more productive
+establishments employ more workers, we use establishment size
+as a measure for establishment quality in Figure V, Panel C
+(Table IV, Panel D). The results suggest that the minimum wage
+induces low-wage workers to reallocate to larger establishments.
+The difference-in-differences estimate reported in Table IV, Panel
+D indicates that relative to the prepolicy period, establishment
+size (measured prior to the introduction of the minimum wage)
+increases by 3.8% for minimum wage workers (relative to workers
+higher up the wage distribution) in the postpolicy period.
+The findings in Figure V, Panel D (Table IV, Panel E)
+further show that low-wage workers move to establishments
+characterized by generally more stable employment relationships in response to the minimum wage, as measured by the
+(inverse of) the establishment’s churning rate. The churning
+rate is the combined number of workers who leave and join the
+establishment, divided by the number of employees at baseline.
+The churning rate as a measure of (inverse) establishment
+quality is motivated by equilibrium models with search frictions
+(e.g., Burdett and Mortensen, 1998; Cahuc, Postel-Vinay, and
+Robin 2006). These models predict that more productive, larger
+establishments set higher wages and have lower separation
+and hiring rates in equilibrium. These results highlight that
+the increase in job stability following a minimum wage hike
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+be attributed to the reallocation of minimum wage workers to
+establishments that pay higher establishment fixed effects.
+Contrasting the reallocation estimates for establishments’ average daily wages (1.8%) and establishments’ wage premia (0.3%),
+) × 100) of the increase in
+we further find that about 83% ((1 − 0.3%
+1.8%
+the establishment’s average daily wage is due to workers moving
+to establishments that offer more full-time jobs and employ more
+skilled workers, while the remaining 17% reflect an increase in the
+wage premium that establishments pay to the same worker type.
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+303
+
+19. Hashimoto (1982) provides a classic analysis on the effect of the minimum
+wage on nonwage benefits, while Clemens, Kahn, and Meer (2018) and Phelan
+(2019) present more recent evidence.
+20. In line with the findings by Lochner and Schulz (2020), we find that establishment size, wages, and establishment fixed effects, among other establishment
+characteristics, are strong predictors for establishment productivity.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+documented in the previous literature (e.g., Cardoso and Portugal
+2006; Brochu and Green 2013; Dube, Lester, and Reich 2016) may
+partly be driven by reallocation of workers toward more stable
+establishments.
+The reallocation of low-wage workers toward higher-paying
+establishments after the introduction of the minimum wage might
+simply reflect a shift toward establishments with less desirable
+nonwage amenities.19 In Figure V, Panel E (Table IV, Panel F), we
+use the establishment’s poaching index as a parsimonious measure for establishment quality that reflects not only the establishment wage premium but also workers’ preferences over nonwage
+amenities, as suggested by Bagger and Lentz (2018) (see Online
+Appendix B.5 for a detailed description of how the poaching index
+is computed). The poaching index captures the share of new hires
+whom the establishment recruits directly from other establishments, as opposed to new hires who join the establishment from
+unemployment. A higher poaching index indicates a higher establishment quality, as establishments are able to “steal” workers
+from other establishments only if they offer a superior job in terms
+of wages and nonwage amenities. Our findings for the poaching
+index further corroborate our previous findings that the minimum
+wage induced an upgrading of low-wage workers to higher-quality
+establishments.
+Our final measure for establishment quality is the establishment’s productivity, computed as the (log of) total revenues
+divided by the number of employees in the establishment (Figure V, Panel F and Table IV, Panel G). Although our main data
+source does not include information on the total revenues, we use
+results derived from the IAB Establishment Panel survey to compute a measure of predicted productivity (see Online Appendix
+B.4 for details).20 The results show a clear upgrading of minimum
+wage workers to establishments with a higher productivity. The
+difference-in-differences estimate in Table IV, Panel G indicates
+that for minimum wage workers (relative to workers higher up
+the wage distribution) predicted productivity (measured prior to
+
+304
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+the introduction of the minimum wage) increases by 1.3% in the
+postpolicy period (relative to the prepolicy period).
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+4. Worker Reallocation within versus between Local Areas and
+Industries. The upgrading of low-wage workers to establishments
+that pay higher average daily wages may occur within or between
+districts. We investigate this in Table V, Panel A, where we
+display difference-in-differences and placebo estimates using the
+change in the worker’s average daily wage in the district where
+the establishment is located as the dependent variable. Estimates
+are close to zero, indicating that the minimum wage–induced
+reallocation of workers to establishments that pay higher daily
+wages is not driven by workers relocating to districts where daily
+wages are generally higher. Instead, the upgrading takes place
+almost entirely within districts.
+In Panel B of the table, we repeat the analysis using the
+change in the worker’s average daily wage in the three-digit
+industry as the dependent variable. Although the coefficient
+estimate is positive, it is considerably smaller in magnitude
+than the coefficient estimate for establishments’ average daily
+wages. Minimum wage workers experience an increase in the
+industry-specific average daily wage of 0.64% following the
+introduction of the minimum wage, compared with an increase
+in the average daily wage in the establishment of 1.8% (Table III,
+Panel B). Thus, roughly two-thirds of the upgrading of low-wage
+workers to establishments that pay higher daily wages occurs
+within industries and one-third between industries.
+The findings in Table V, Panel C further show that the
+minimum wage had little effect on the probability that minimum
+wage workers switch establishments. Therefore, upgrading
+minimum wage workers to better establishments in response to
+the introduction of the minimum wage arises chiefly because of
+movements to better establishments conditional on switching
+establishments, rather than because of a higher probability
+of switching establishments. The findings in Table V, Panel D
+further highlight that the minimum wage had no effect on the
+probability that low-wage workers reallocate to newly founded
+establishments; neither is there any indication that minimum
+wage workers move to industries that were temporarily exempt
+from the minimum wage policy (Table V, Panel E; see Online
+Appendix A.11 for more details). At the same time, the minimum
+
+305
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+TABLE V
+ADDITIONAL EFFECTS OF THE MINIMUM WAGE: INDIVIDUAL APPROACH
+(DIFFERENCE-IN-DIFFERENCES ESTIMATES)
+
+[4.5,8.5)
+(1)
+
+Placebo effects (2012 versus 2014)
+
+[8.5,12.5)
+(2)
+
+[4.5,8.5)
+(3)
+
+[8.5,12.5)
+(4)
+
+Panel A: Average daily wage in the district
+Estimated effect
+− 0.0001
+0.0000
+(0.00008)
+(0.00003)
+
+− 0.0001
+(0.00004)
+
+0.0000
+(0.00003)
+
+Panel B: Average daily wage in the industry (three-digit)
+Estimated effect
+0.0064
+− 0.0002
+(0.00068)
+(0.00040)
+
+0.0009
+(0.00041)
+
+− 0.0014
+(0.00027)
+
+Panel C: Probability of switching establishments
+Estimated effect
+0.0004
+0.0066
+(0.00162)
+(0.00111)
+
+− 0.0021
+(0.00115)
+
+0.0013
+(0.00092)
+
+Panel D: Probability of switching to an establishment born after t − 2
+Estimated effect
+− 0.0011
+− 0.0012
+− 0.0009
+(0.00107)
+(0.00097)
+(0.00088)
+
+− 0.0008
+(0.00070)
+
+Panel E: Probability of switching to an exempted industry
+Estimated effect
+− 0.0001
+0.0009
+(0.00021)
+(0.00014)
+
+0.0001
+(0.00020)
+
+0.0005
+(0.00012)
+
+Panel F: Probability of having more than one job
+Estimated effect
+0.0051
+0.0018
+(0.00066)
+(0.00048)
+
+0.0015
+(0.00051)
+
+0.0003
+(0.00036)
+
+Notes. The table first investigates potential channels through which the minimum wage-induced reallocation of low-wage workers to establishments of higher quality may occur. In Panel A, we investigate whether
+low-wage workers reallocate to districts that pay higher wages following the introduction of the minimum
+wage. The dependent variable here is the change in the (log) mean daily wage in the district, measured prior to
+the introduction of the minimum wage. In Panel B, we use the change in the (log) daily wage in the (three-digit)
+industry as the dependent variable to examine whether low-wage workers move to higher-paying industries
+in response to the minimum wage. In Panel C, we investigate whether the minimum wage increased the
+probability that low-wage workers leave their baseline establishment; the dependent variable here is equal
+to 1 if the worker is employed in the same establishment in period t as in period t − 2, and 0 otherwise. In
+Panel D we investigate whether the probability of moving to a newly founded establishment is affected by the
+minimum wage. In Panel E we assess whether the minimum wage increased the probability that a low-wage
+worker moves to an industry temporarily exempted from the minimum wage. In Panel F, we study the effects
+of the minimum wage on the probability that low-wage workers hold more than one job. The table reports
+difference-in-differences estimates for the 2014 versus 2016 postpolicy period (columns (1) and (2)) and the
+2012 versus 2014 “placebo” prepolicy period (columns (3) and (4)), as in columns (4) and (5) in Table II. All
+regressions control for individual characteristics at baseline (age, education, sex, nationality, working time
+status, district fixed effects, and industry fixed effects) and standard errors (in parentheses) are clustered at
+the district level.
+
+wage appears to have slightly increased the probability that
+low-wage workers hold more than one job (Table V, Panel F).
+5. Robustness. In Table VI, we probe the robustness of our
+results to the inclusion of various control variables, focusing on
+employment, (proxied) hourly wage growth, and four measures of
+establishment quality (the establishment’s average daily wage, establishment size, the poaching index, and predicted establishment
+productivity). In column (1), we report difference-in-differences
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Main effects (2014 versus 2016)
+Wage bin in t − 2
+
+TABLE VI
+
+2012 versus 2014 (placebo)
+
+Panel D: Establishment size
+2014 versus 2016
+0.051
+(0.0045)
+0.016
+(0.0025)
+
+0.038
+(0.0040)
+0.010
+(0.0022)
+
+0.018
+(0.0011)
+0.003
+(0.0007)
+
+0.008
+(0.0005)
+0.002
+(0.0004)
+
+0.054
+(0.0019)
+0.009
+(0.0005)
+
+[4.5,8.5)
+(3)
+
+0.048
+(0.0044)
+0.015
+(0.0024)
+
+0.013
+(0.0012)
+0.001
+(0.0007)
+
+0.011
+(0.0006)
+0.003
+(0.0004)
+
+0.052
+(0.0020)
+0.008
+(0.0006)
+
+[4.5,8.5)
+(4)
+
+0.038
+(0.0039)
+0.010
+(0.0022)
+
+0.018
+(0.0011)
+0.003
+(0.0007)
+
+0.008
+(0.0005)
+0.002
+(0.0004)
+
+0.054
+(0.0019)
+0.009
+(0.0005)
+
+[4.5,8.5)
+(5)
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+0.050
+(0.0045)
+0.015
+(0.0025)
+
+0.016
+(0.0013)
+0.002
+(0.0007)
+
+2012 versus 2014 (placebo)
+
+Panel C: Establishment’s average daily wage
+2014 versus 2016
+0.016
+(0.0013)
+2012 versus 2014 (placebo)
+0.002
+(0.0007)
+
+0.053
+(0.0020)
+0.008
+(0.0006)
+
+[4.5,8.5)
+(2)
+
+0.010
+(0.0006)
+0.003
+(0.0005)
+
+0.051
+(0.0020)
+0.007
+(0.0006)
+
+[4.5,8.5)
+(1)
+
+0.004
+(0.0006)
+0.001
+(0.0005)
+
+Panel B: Employment (1 if employed)
+2014 versus 2016
+
+2012 versus 2014 (placebo)
+
+Panel A: Hourly wages
+2014 versus 2016
+
+Wage bin in t − 2
+
+0.036
+(0.0040)
+0.010
+(0.0023)
+
+0.017
+(0.0012)
+0.002
+(0.0007)
+
+0.008
+(0.0006)
+0.002
+(0.0005)
+
+0.051
+(0.0018)
+0.008
+(0.0006)
+
+[4.5,8.5)
+(6)
+
+WAGE, EMPLOYMENT, AND REALLOCATION EFFECTS OF THE MINIMUM WAGE: ROBUSTNESS CHECKS (DIFFERENCE-IN-DIFFERENCES ESTIMATES)
+
+306
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+no
+no
+no
+no
+
+0.0037
+(0.00133)
+− 0.0014
+(0.00070)
+
+0.0040
+(0.00045)
+0.0005
+(0.00037)
+
+[4.5,8.5)
+(1)
+
+yes
+no
+no
+no
+
+0.0025
+(0.00133)
+− 0.0016
+(0.00069)
+
+0.0039
+(0.00044)
+0.0005
+(0.00036)
+
+[4.5,8.5)
+(2)
+
+yes
+yes
+no
+no
+
+0.0125
+(0.00103)
+0.0017
+(0.00065)
+
+0.0047
+(0.00043)
+0.0007
+(0.00036)
+
+[4.5,8.5)
+(3)
+
+yes
+no
+yes
+no
+
+0.0025
+(0.00131)
+− 0.0016
+(0.00069)
+
+0.0039
+(0.00044)
+0.0005
+(0.00036)
+
+[4.5,8.5)
+(4)
+
+yes
+yes
+yes
+no
+
+0.0127
+(0.00105)
+0.0018
+(0.00065)
+
+0.0047
+(0.00043)
+0.0007
+(0.00036)
+
+[4.5,8.5)
+(5)
+
+yes
+yes
+yes
+yes
+
+0.0116
+(0.00107)
+0.0013
+(0.00066)
+
+0.0047
+(0.00044)
+0.0007
+(0.00036)
+
+[4.5,8.5)
+(6)
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Notes. The table shows the robustness of our key results with respect to the inclusion of various control variables. The table reports difference-in-differences estimates (as in
+column (4) of Table II). In column (1), we do not include any baseline controls. In column (2), we add demographic controls (education, age, and nationality) and working time status
+(full-time, part-time, and marginally employed). In column (3), we control for industry affiliation (at the three-digit level) in addition to demographic and working time status
+controls. In column (4), we control for district fixed effects instead of industry affiliation. In column (5), we control for demographic characteristics, working time status as well as
+industry and district fixed effects, as in our baseline specification. In column (6), we further add the unemployment rate in the district interacted with wage bins as a control, to
+account for potential business cycle effects that differentially affect workers at different parts of the wage distribution. Standard errors clustered at the district level are reported
+in parentheses.
+
+Demographic controls and working time status
+Industry FEs
+District FEs
+District UR × wage bin
+
+2012 versus 2014 (placebo)
+
+Panel F: Establishment’s revenue per worker
+2014 versus 2016
+
+2012 versus 2014 (placebo)
+
+Panel E: Establishment’s poaching index
+2014 versus 2016
+
+Wage bin in t − 2
+
+TABLE VI
+CONTINUED
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+307
+
+308
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+6. Heterogeneous Effects of the Minimum Wage. Online Appendices A.6 and A.7 highlight that the wage, employment, and
+reallocation effects of the minimum wage are roughly similar in
+districts with stable and declining unemployment rates, and in
+districts heavily and barely exposed to the minimum wage. The
+positive effects of the minimum wage that we uncover are therefore not restricted to workers in prospering areas. The findings described in Online Appendix A.16 further show that the minimum
+wage did not lead to displacement effects for any of the subgroups
+of low-wage workers that we considered, even though it substantially increased their hourly wages (we considered men versus
+women; East versus West Germans; workers in tradable and nontradable industries21 ; workers in specific industries such as retail
+and construction; and workers in food, cleaning, security, and logistics services (FCSL) occupations that are the target of domestic
+outsourcing (Goldschmidt and Schmieder 2017)). The reallocation
+effects of the minimum wage are more pronounced in the nontradable sector where product prices are set locally rather than nationally or internationally, as in the tradable sector. Reallocation effects are also particularly strong in FCSL occupations, suggesting
+that minimum wages can potentially reverse trends in domestic
+21. When classifying industries into nontradable and tradable, we follow Mian
+and Sufi (2014) and classify retail- and restaurant-related industries as nontradable and industries listed in global trade data as tradable, as in their method 1.
+Our findings are similar when we classify industries as nontradable and tradable
+using their method 2.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+estimates based on equation (2) without any control variables. In
+columns (2)–(4), we successively add individual-level demographic
+control variables and industry and location fixed effects (referring
+to the baseline period), respectively. Estimates in column (5)
+correspond to our baseline specification that controls for those
+three sets of control variables jointly. In column (6), we include the
+local unemployment rate interacted with wage bins as additional
+controls, to account for the possibility that the (local) business
+cycle differentially affects workers along the wage distribution.
+In all specifications, estimated effects are very similar to those
+in our baseline specification, providing additional reassurance
+that they are driven by the minimum wage, rather than business
+cycle effects that vary across workers located in different wage
+bins.
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+309
+
+outsourcing, as the benefits of outsourcing to lower-wage establishments are more limited when minimum wages are higher.
+
+Our findings in the last section show that the minimum
+wage increased wages of low-wage workers without reducing
+their employment prospects. At the same time, the minimum
+wage induced low-wage workers to reallocate to establishments
+of higher quality. The minimum wage thereby helped lower
+wage inequality, as intended, not just directly but also indirectly
+through reducing the degree of assortative matching between
+workers and establishments. The latter has been emphasized as
+an important driver of the increase in wage inequality (Card,
+Heining, and Kline 2013; Song et al. 2019).22
+We now provide complementary evidence on the wage,
+employment, and reallocation effects of the minimum wage by
+exploiting variation in exposure to the minimum wage across local
+areas. An advantage of this regional analysis over the individual
+approach is that any wage, employment, and reallocation effects
+of the minimum wage will not be driven only by workers who
+were employed when the minimum wage was introduced and who
+were possibly partially shielded from potentially harmful effects
+of the policy, but also by those who were not in employment
+prior to the introduction of the minimum wage. For example,
+if establishments primarily respond to the introduction of the
+minimum wage by reducing hiring of unemployed workers, without displacing their incumbent workforce, the regional approach
+will uncover negative employment effects that the individual
+approach would miss.
+IV.A. Method
+1. The Gap Measure. In our regional approach, we compute
+for each of the 401 districts a continuous measure for its exposure
+22. We have directly investigated the link between the minimum wage and
+assortative matching between workers and establishments exploiting variation
+in the exposure to the minimum wage across districts, as described below. The
+findings in Online Appendix A.13 show that assortative matching, measured as the
+covariance between worker and establishment fixed effects, declined in districts
+more exposed to the minimum wage (relative to less exposed districts) in the years
+following the introduction of the minimum wage.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+IV. LABOR MARKET EFFECTS OF THE MINIMUM WAGE: REGIONAL
+APPROACH
+
+310
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+to the minimum wage that has often been used in the minimum
+wage literature (e.g., Card and Krueger 1994; Draca, Machin,
+and Van Reenen 2011):
+GAPrt =
+
+i∈r hit max {0, MW − wit }
+
+
+
+i∈r hit wit
+
+,
+
+where hit denotes the weekly hours worked of worker i (employed
+in district r), MW is the minimum wage, and wit refers to her
+hourly wage. This measure depends not only on the share of
+individuals in the district who earn less than the minimum wage
+but also on how much a worker’s wage is below the minimum
+wage. The measure (if multiplied by 100) reflects the percent
+wage increase necessary to bring all workers in the district up to
+the minimum wage.
+We average the yearly gap measure over three prepolicy
+years (2011–2014) to obtain a time-constant gap measure for
+each district:
+
+(3)
+
+GAPr =
+
+2014
+
+
+GAPrt.
+
+t=2011
+
+The gap measure, averaged across districts, equals 0.017,
+with a standard deviation of 0.01, implying that if hourly wages of
+all workers who previously earned less than the minimum wage
+would be brought up to the minimum wage, hourly wages in the
+district would increase by 1.7% on average. The gap measure is
+lowest in the district of Wolfsburg, the hometown of Volkswagen
+(0.002), and highest in the district of Mansfeld-Südharz, a rural
+district in East Germany (0.039). Figure VI shows a map of the
+401 districts, where darker colors indicate a stronger exposure to
+the minimum wage according to the average gap measure. The
+figure highlights that districts in East and North Germany are
+more heavily affected by the minimum wage than districts in
+South Germany.
+We then relate our continuous measure for the exposure
+of region r to the minimum wage given by equation (3) to
+outcomes in the district, such as the local (log) wage, local (log)
+employment, or local establishment quality. Specifically, in a
+first step, we estimate event-study regressions of the following
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+311
+
+The figure shows the exposure to the minimum wage across 401 German districts
+(Kreise). District-level exposure to the minimum wage is measured using the gap
+C GeoBasis-DE / BKG 2017.
+measure, as in equation (3). 
+
+type:
+(4)
+
+Yrt = αr + ζt +
+
+2016
+
+
+γτ GAP r + rt ,
+
+τ=2011,τ =2014
+
+where Yrt denotes the outcome of interest, αr are district fixed effects, and ζt are year fixed effects. The coefficients γτ trace out how
+outcomes in districts more affected by the minimum wage evolve
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+FIGURE VI
+Exposure to the Minimum Wage across German Districts
+
+312
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+(B) Detrended Proxied Hourly Wages
+
+(C) Employment
+
+(D) Detrended Employment
+
+FIGURE VII
+Wage and Employment Effects of the Minimum Wage: Regional Approach
+Panels A and C trace out how (log) local average hourly wages (average proxied
+hourly wage in the the district, Panel A) and (log) local employment (the number of
+employed workers in the district, Panel C) evolve in regions differentially exposed
+to the minimum wage, relative to the prepolicy year 2014 (the dashed blue line).
+Plotted effects refer to coefficients γ τ in equation (4). The figures also plot a linear
+time trend estimated for the 2011–2014 prepolicy years and then updated for
+later years (the solid black line). Panels B and D display the deviations between
+the coefficient estimates and the linear time trend.
+
+in comparison to districts less affected by the minimum wage, relative to the prepolicy year 2014. We present coefficient estimates
+for γτ in Figure VII, to best visualize the possible labor market
+effects of the minimum wage policy. For the postpolicy years
+τ > 2014, coefficient estimates γτ in equation (4) yield causal
+estimates of the minimum wage policy under the assumption that
+outcomes in more and less affected districts would have developed
+at the same rate in the absence of the minimum wage policy.23 This
+23. Another important assumption for the validity of the empirical design is
+that there are no geographic spillovers. Our worker-level analysis suggests that
+most reallocation takes place within districts (see Table V, Panel A) at least for
+previously employed individuals, which suggests that geographic spillovers are
+small.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+(A) Proxied Hourly Wages
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+313
+
+(5)
+
+Yrt = αr + ζt + δ post GAP r × Postt + βr timet + rt .
+
+Here, Postt is an indicator variable equal to 1 for the postpolicy
+years (t = 2015, 2016), and timet is a linear time trend that is
+allowed to vary across districts. Both approaches rely on the
+assumption that any preexisting trends in outcomes between
+heavily and barely exposed regions have been linear and would
+have continued at the same rate in the absence of the introduction
+of the minimum wage. We further probe the robustness of our
+estimates by estimating regressions based on equation (5) that
+include fully flexible time effects interacted with local characteristics at baseline as additional regressors. We weight our regressions by average local employment over the 2011–2014 period,
+and cluster standard errors at the regional level to allow for an
+arbitrary correlation of error terms within regions over time.
+Although we report estimates that exploit variation in the
+exposure to the minimum wage across 401 districts below, the
+findings in Online Appendix A.12 highlight that our results
+continue to hold when we distinguish between 141 commuting
+zones instead (Kosfeld and Werner 2012).24
+IV.B. Wage and Employment Effects of the Minimum Wage
+1. Wage Effects. Figure VII, Panel A provides a first visual
+impression of how wages in districts heavily affected by the
+24. A commuting zone is a spatial unit with on average 589,000 inhabitants.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+assumption can be partially assessed by investigating whether
+more and less exposed districts exhibit similar trends in outcome
+variables prior to the introduction of the minimum wage. This
+corresponds to the coefficient estimates γτ being statistically
+and economically indistinguishable from zero for the prepolicy
+years (i.e., for τ < 2014). To deal with the possibility that highly
+and barely exposed districts evolved differentially prior to the
+introduction of the minimum wage, we first use our estimates
+of γτ for the prepolicy years 2011–2014 to fit a linear time
+trend. We plot the deviations between the estimates of γτ and
+the linear time trend updated for the postpolicy years, thereby
+visualizing any trend breaks in outcomes at the time of the
+introduction of the minimum wage. We also report results from a
+continuous difference-in-differences regression that accounts for
+district-specific linear time trends:
+
+314
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+2. Employment Effects. Figure VII, Panels C and D and
+Table VII, Panel B provide a corresponding analysis for the
+employment effects of the minimum wage. Figure VII, Panel C
+illustrates that local employment, measured as the number of
+workers employed in the district (in logs), fell at a nearly linear
+rate in more (relative to less) exposed districts throughout the
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+minimum wage evolve relative to wages in districts less exposed
+to the minimum wage, where we plot the coefficient estimates
+for γτ from regression equation (4), using the (log) average wage
+in the district as the dependent variable. The figure suggests
+that districts more exposed to the minimum wage experienced
+similar wage growth compared to less exposed districts prior
+to the introduction of the minimum wage, over the 2011–2014
+period. However, after the introduction of the minimum wage
+in 2015, wage growth in highly affected districts strongly picks
+up relative to wage growth in less affected districts. Thus, in
+line with results from the individual approach, these findings
+strongly suggest that the minimum wage pushed up wages. By
+2016, the coefficient estimate (γ2016 ) approaches 1, as we would
+expect under full compliance with the minimum wage law. In
+Panel A, we further display a linear time trend, calculated based
+on the 2011–2014 prepolicy years (the black solid line in the
+figure). Panel B depicts the deviations between the coefficient
+estimates for γτ (the dashed blue line) and the linear trend (the
+solid black line). Because the trend line is basically a horizontal
+line at zero, deviations from the trend line evolve very similarly
+to the coefficient estimates for γτ . In sum, the figures in Panels A
+and B show a very clear trend break in local wage growth starting
+in 2015, exactly the year the minimum wage was first introduced.
+We provide additional estimates of the wage effects of the
+minimum wage in Table VII, Panel A. In the first column,
+we display simple difference-in-differences estimates based on
+equation (5) but excluding linear district-specific time trends
+(βr timet ). In column (2), we include district-specific linear time
+trends in the regression, as in equation (5). In columns (3) and
+(4), we add controls for district baseline characteristics interacted
+with a linear time trend or with fully flexible year effects, rather
+than a district-specific linear time trend. All specifications clearly
+indicate that the minimum wage raised wages: a 1 percentage
+point increase in the gap measure leads to an increase in average
+local wages by 0.685% to 0.798%, depending on the specification.
+
+315
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+TABLE VII
+
+WAGE, EMPLOYMENT, AND REALLOCATION EFFECTS OF THE MINIMUM WAGE: REGIONAL
+APPROACH
+Controls for
+differential pretrends
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+0.795
+(0.0540)
+
+0.685
+(0.0652)
+
+0.754
+(0.0652)
+
+0.798
+(0.119)
+
+− 1.513
+(0.211)
+
+0.0176
+(0.0811)
+
+0.131
+(0.114)
+
+0.375
+(0.269)
+
+Wage and employment effects
+Panel A: Hourly wages
+GAPr ×Postt
+Panel B: Employment (number of workers)
+GAPr ×Postt
+
+Reallocation effects: Improvement of establishment quality in the district
+Panel C: Number of establishments
+GAPr ×Postt
+
+− 1.458
+(0.180)
+
+− 0.188
+(0.0526)
+
+− 0.216
+(0.0786)
+
+− 0.243
+(0.178)
+
+Panel D: Number of small businesses (1–2 employees)
+GAPr ×Postt
+− 1.479
+(0.152)
+
+− 0.271
+(0.121)
+
+− 0.318
+(0.130)
+
+− 0.350
+(0.264)
+
+0.154
+(0.0772)
+
+0.220
+(0.0918)
+
+0.307
+(0.168)
+
+0.087
+(0.0453)
+
+0.291
+(0.0685)
+
+0.544
+(0.142)
+
+0.410
+(0.140)
+
+0.314
+(0.128)
+
+0.541
+(0.141)
+
+1.038
+(0.173)
+
+yes
+yes
+no
+
+yes
+yes
+no
+
+yes
+yes
+yes
+
+yes
+yes
+no
+
+no
+no
+
+yes
+no
+
+no
+no
+
+no
+yes
+
+Panel E: Average establishment size
+GAPr ×Postt
+
+− 0.0428
+(0.101)
+Panel F: Average AKM establishment fixed effects
+GAPr ×Postt
+0.468
+(0.0698)
+Panel G: Average revenue per worker
+GAPr ×Postt
+District fixed effects
+Year fixed effects
+District baseline characteristics
+interacted with linear time trend
+District-specific linear time trends
+District baseline characteristics
+interacted with year fixed effects
+
+Notes. In column (1), we report difference-in-differences estimates for the impact of the district’s exposure to
+the minimum wage, measured as the average gap measure for the 2011 to 2014 prepolicy years (equation (3)),
+on the (log) mean hourly wage (Panel A); (log) employment (number of workers in full-time equivalents, Panel
+B); (log) number of establishments (Panel C); (log) number of small businesses with one or two employees
+(Panel D); (log) mean establishment size (Panel E); the average (weighted by establishment size) establishment
+fixed effect (obtained from an AKM style log wage regression estimated over the prepolicy period, Panel F);
+and (log) mean revenues per worker in the district (Panel G), where we predict revenue per worker based on
+an establishment’s state, industry, size, and the average earning of full-time workers (see Online Appendix
+B.4). Estimates in column (1) are based on equation (5) but do not include district-specific linear time trends
+and thus do not allow for possibly divergent pretrends in districts heavily and barely affected by the minimum
+wage. In columns (2)–(4), we account for such differential pretrends by including, as in equation (5), a districtspecific linear time trend (column (2)); by including baseline district characteristics interacted with a linear
+time trend (column (3)); or by including baseline district characteristics interacted with fully flexible year
+fixed effects (column (4)). Regressions are weighted by district employment averaged over the 2011–2013
+prepolicy period. Standard errors clustered at the district level are in parentheses.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+No controls for
+differential pretrends
+
+316
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+IV.C. Reallocation Effects of the Minimum Wage
+The wage and employment effects from the regional approach confirm the findings from the individual approach: the
+introduction of the minimum wage raised wages but did not lower
+25. The slope implies that districts at the 10th percentile of the exposure
+measure experienced a 4% higher employment growth between 2011 and 2014
+than districts at the 90th percentile.
+26. In Online Appendix A.14, we implement the “honest approach” to parallel trends proposed by Rambachan and Roth (2020) to probe the robustness of
+our finding of no minimum wage–induced disemployment effects to alternative
+assumptions about different trends in more versus less exposed districts.
+27. Dividing estimates in column (2) of Panel B by estimates in column (2)
+Panel A provides us a 0.03 (s.e. 0.12) employment elasticity with respect to the
+own wage. We compute standard errors using the delta method (assuming zero
+covariance between the estimates).
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+entire 2011–2016 period.25 Panel D depicts the deviations of the
+coefficient estimates γτ (the blue dashed line in Panel C) from
+the linear trend (the black solid line in Panel C), estimated for
+the prepolicy period 2011–2014 and updated for the postpolicy
+period. These deviations are all close to zero, suggesting that the
+minimum wage had no discernible impact on local employment,
+in line with our findings from the individual analysis.
+We report corresponding difference-in-differences estimates
+based on variants of regression equation (5) in Table VII, Panel B.
+In line with the evidence presented in the figure, the differencein-differences estimates indicate that the minimum wage did
+not reduce local employment once we account for differential
+pretrends in various ways (columns (2)–(4)).26 The estimate from
+our preferred specification in the second column implies that
+we can reject the hypothesis that employment in the 10% most
+exposed districts (with a gap measure of 0.033) declined relative
+to the 10% least exposed districts (with a gap measure of 0.009) by
+more than 0.3% ((0.018 − 1.96 × 0.08) × (0.033 − 0.009)) at a 5%
+confidence level. Putting it differently, the estimates for the local
+wage and employment responses to the minimum wage presented
+in Panels A and B rule out an employment elasticity with respect
+to the wage that is larger (in absolute magnitude) than −0.21 at
+a 5% confidence level.27 The absence of a negative employment
+effect at the individual level and the regional level further suggests that employment prospects of unemployed workers are not
+substantially harmed by the introduction of the minimum wage.
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+317
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+employment. The minimum wage thus helped reduce wage inequality not only across individuals but also across districts, without causing job losses among disadvantaged individuals or in disadvantaged districts. In a next step, we provide evidence that the
+upgrading of low-wage workers to better establishments induced
+by the minimum wage translated into an improvement in
+establishment quality in more relative to less exposed districts.
+We first investigate whether the minimum wage decreased
+the number of establishments that are operating in the district.
+We find evidence in line with this hypothesis in Figure VIII, Panel
+A. In the figure, we plot the deviations between the coefficient estimates γτ obtained from equation (4) and a linear time trend
+estimated for the prepolicy years 2011–2014 and updated for the
+postpolicy years, as in Figure VII, Panels B and D. The figure is
+suggestive of a trend break around the introduction of the minimum wage and supports the view that a greater exposure to the
+minimum wage led to a decline in the number of establishments
+in the district. The corresponding regression estimate, presented
+in Table VII, Panel C (column (2)), indicates that the number of
+establishments declined by 0.45% ((0.033 − 0.009) × 0.188) in
+the 10% of districts most hit by the minimum wage relative to the
+10% of districts least hit by the minimum wage. The decline in the
+number of very small businesses with no more than two employees is even more pronounced (0.65% = (0.033 − 0.009) × 0.271;
+Table VII, Panel D and Figure VIII, Panel B), in line with the hypothesis that the minimum wage drives some of the smallest establishments out of the market. We investigate establishment exit
+directly in Figure VIII, Panel E. The figure provides clear evidence
+of increased exit of small businesses after the introduction of the
+minimum wage in districts heavily exposed to the minimum wage.
+Since the minimum wage has little effect on overall local employment, the decline in the number of establishments induced by
+the minimum wage implies an increase in average establishment
+size in the district. Indeed, we find an increase by 0.37% ((0.033
+− 0.009) × 0.154) in the 10% of districts most exposed relative
+to the 10% of districts least exposed to the minimum wage
+(Table VII, Panel E and Figure VIII, Panel C). Figure VIII, Panels
+D and F further highlight that the minimum wage increased the
+average establishment fixed effect, estimated using only prepolicy
+data, and predicted establishment productivity, measured at
+baseline in t − 2, in heavily exposed relative to barely exposed
+districts. To put these numbers in perspective, the average AKM
+
+318
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+(C) Average Establishment Size
+
+(B) Number of Small Businesses (1-2 Employees)
+
+(D) Average AKM Establishment Fixed Effects
+
+(E) Exit of Small Businesses (1-2 Employees)
+
+(F) Revenue per Worker
+
+FIGURE VIII
+Reallocation Effects of the Minimum Wage: Regional Approach
+This figure depicts the detrended relationship between the district-level exposure to the minimum wage, measured by the gap measure as in equation (3), and
+the (log) number of establishments in the district (Panel A); the (log) number of
+small businesses with one or two employees in the district (Panel B); (log) mean
+establishment size in the district (Panel C); the average AKM establishment fixed
+effect in the district (estimated using AKM style wage regressions that control for
+worker and establishment effects and are estimated using seven-year prebaseline
+windows, Panel D); the (log) of the number of small businesses that exited the
+market (Panel E); and the (log) mean revenue per worker, where we predict revenue per worker based on the establishment’s state, industry, size and the average
+earning of full-time workers (Panel F). We plot the deviations between coefficients
+γ τ in equation (4) and the linear time trend estimated for the 2011–2014 prepolicy
+period and updated for later years (as in Figure VII, Panels B and D).
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+(A) Number of Establishments
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+319
+
+1. Establishment-Level Results. The finding that small businesses face an increased risk of exit following the introduction of
+the minimum wage suggests that some establishments lost out
+because of the minimum wage policy. In Online Appendix C, we
+investigate in more detail which establishments were the winners
+and losers of the policy, by exploiting variation in the exposure
+to the minimum wage across establishments, similarly to Draca,
+Machin, and Van Reenen (2011) and Harasztosi and Lindner
+(2019). We establish four sets of results. First, wages clearly
+increased in more versus less exposed establishments after the
+introduction of the minimum wage. Second, employment in more
+exposed establishments slightly declined relative to employment
+in less exposed establishments. Our wage and employment estimates combined imply a demand elasticity of −0.31 (unweighted)
+or −0.26 (weighted), estimates that are similar in magnitude
+to those found by Harasztosi and Lindner (2019) for Hungary
+or Bossler and Gerner (2020) for Germany. The small negative
+employment effect at the establishment level does not contradict
+the evidence on the absence of a disemployment effect at the
+regional or individual levels if low-wage workers reallocate from
+more exposed (and hence low-paying) to less exposed (and hence
+higher-paying) establishments in response to the minimum wage.
+Third, when breaking down the effects of the exposure to the
+minimum wage by establishment size, we find that very small establishments with up to four employees are more likely to exit the
+market following the minimum wage hike. Furthermore, whereas
+employment shrinks in establishments with up to 35 employees,
+employment in larger establishments expands in response to the
+minimum wage. Therefore, the findings from the establishmentlevel analysis further underscore that the minimum wage drives
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+establishment fixed effect in 2014 was about 19.4% higher in the
+10% of districts least exposed to the minimum wage compared to
+the 10% of districts most exposed, meaning that the gap in AKM
+establishment fixed effects between the most and least exposed
+). It should be noted
+districts declined by 1.1% ( (0.033−0.009)×0.087
+0.194
+that as the establishment fixed effect and establishment productivity are measured at baseline, these effects purely capture
+compositional changes of establishments in the districts, driven by
+the reallocation of workers toward more productive and toward
+higher-paying establishments, and not within-establishment
+changes possibly induced by the minimum wage.
+
+320
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+some of the smallest businesses out of the market and reallocates
+workers from smaller to larger establishments.
+
+We briefly sketch a simple model that provides a natural
+explanation of the three key findings: a minimum wage raises
+wages, does not lower employment, and induces a reallocation
+to larger, higher-paying firms.28 We refer the reader to Online
+Appendix D for details and a formal analysis. While we focus
+here on a model of monopsonistic competition with heterogeneous
+firms, we acknowledge that search frictions in the labor market
+(Acemoglu 2001) or frictions in the product market (Luca and
+Luca 2018; Mayneris, Poncet, and Zhang 2018) may provide
+complementary explanations for our findings.
+Building on Manning (2003), Bhaskar, Manning, and To
+(2002), and more recently Card et al. (2018), a worker in our
+set-up cares not only about wages but also about nonpecuniary
+aspects of the job, capturing for example commuting time, how
+well she gets along with her coworkers or boss, or her preferences
+for the working schedule the firm provides. Although we assume
+workers to be of the same type for simplicity, establishments are
+heterogeneous in terms of their marginal costs of producing one
+unit of output. In a perfectly competitive labor market in which
+workers derive utility only from wages, all firms would set the
+same wage—because they will not be able to attract any worker
+even if they offered a wage just below the prevailing market
+wage. Firms thus face an infinitely elastic labor supply curve. In
+contrast, in a monopsonistic labor market in which workers value
+nonpecuniary job amenities in addition to wages, firms face an
+upward-sloping labor supply curve and will be able to hire some
+workers even if they offer lower wages than their competitors.
+Nonpecuniary job characteristics thus give firms wage-setting
+power in the labor market and allow them to set wages below
+workers’ marginal productivity. We show that in this environment, more efficient firms will be larger, pay higher wages (to
+the same worker type), and be more profitable than less efficient
+firms (see Lemma 1 in Online Appendix C and Manning 2003).
+28. To follow the terminology of the theoretical literature, in this section we
+refer to “firms” instead of “establishments” whereas the latter is what we observe
+in our empirical analysis.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+V. DISCUSSION
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+321
+
+29. Findings from our establishment-level analysis in Online Appendix C further corroborate this prediction from the model. Although the minimum wage
+increases the probability that small establishments with no more than four employees exit the market, this is not the case for larger establishments.
+30. This prediction is in line with our findings from the establishment-level
+analysis that medium-sized firms expand employment in response to the minimum
+wage (Online Appendix C).
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Now suppose a minimum wage comes into effect. Consider
+first less efficient firms in the market that paid wages below
+the minimum wage before its introduction. The minimum wage
+forces these firms to increase their wages to comply with the
+minimum wage law. The least efficient firms will now no longer
+be profitable and hence exit the market (see Lemma 2.1). This
+prediction is consistent with our empirical finding that the
+minimum wage increases closures of small businesses in districts
+heavily exposed to it (e.g., Figure VIII, Panel B).29 On the other
+hand, more efficient firms that paid wages below the minimum
+wage before its introduction continue to be profitable and will
+stay in business after the minimum wage comes into effect.
+These firms pay the minimum wage to their workers, which
+reduces the gap between the marginal product of labor and wages
+and increases employment (see Lemma 2.2 and Chapter 12 in
+Manning 2003).30 Next, consider even more efficient firms that
+paid wages above the minimum wage before its introduction. It
+is ambiguous what happens to the employment choices and wage
+offers of these firms. On the one hand, some firms have exited
+the market, which reduces competition in the labor market and
+ceteris paribus allows surviving firms to pay lower wages and yet
+attract the same number of workers. On the other hand, some
+surviving firms raise wages in response to the minimum wage,
+which ceteris paribus forces more-efficient firms to also increase
+their wage offers in order to attract the same number of workers
+(see Lemma 2.3). The model is therefore consistent with our
+findings that the minimum wage did not reduce the employment
+prospects of low-wage workers; neither did it lower employment
+in districts heavily exposed to the minimum wage.
+In sum, in this monopsonistic model of the labor market, a
+minimum wage will unambiguously raise wages, whereas the
+overall employment effects are unclear. A minimum wage will
+further lead to the reallocation of workers from less efficient—
+and hence smaller and lower-paying—to more efficient firms.
+
+322
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+TABLE VIII
+EFFECT OF THE MINIMUM WAGE ON COMMUTING DISTANCE
+(DIFFERENCE-IN-DIFFERENCES ESTIMATES)
+Placebo effects (2012 versus 2014)
+
+[4.5,8.5)
+(1)
+
+[8.5,12.5)
+(2)
+
+[4.5,8.5)
+(3)
+
+[8.5,12.5)
+(4)
+
+Panel A: Driving distance
+Estimated effect
+1.774
+(0.2189)
+
+0.566
+(0.1434)
+
+0.533
+(0.1181)
+
+0.013
+(0.0884)
+
+Panel B: Driving distance, men versus women
+Men
+3.328
+0.614
+(0.2872)
+(0.2309)
+Women
+0.762
+0.381
+(0.2127)
+(0.1138)
+
+1.062
+(0.1827)
+0.130
+(0.1207)
+
+− 0.045
+(0.1270)
+− 0.011
+(0.0832)
+
+Notes. The table investigates whether the reallocation of low-wage workers to better establishments in
+response to the minimum wage comes at the expense of increased commuting distance. The dependent variable
+is the change in the driving distance in kilometers between the center of the municipality of residence and
+the municipality of work. While we report estimates for men and women combined in Panel A, we examine
+whether the minimum wage–induced change in commuting distance differs for men or women in Panel B.
+The table reports difference-in-differences estimates for the 2014 versus 2016 postpolicy period (columns (1)
+and (2)) and the 2012 versus 2014 placebo prepolicy period (columns (3) and (4)), as in columns (4) and (5)
+in Table II. All regressions control for individual characteristics at baseline (age, education, sex, nationality,
+working time status, location fixed effects, and industry fixed effects) and standard errors (in parentheses)
+are clustered at the district level.
+
+According to the model, the least efficient firms close down after
+the introduction of the minimum wage and workers in these firms
+are at least partially absorbed by more efficient firms that raise
+their wages and expand employment in response to the minimum
+wage—in line with the empirical evidence that we provide. Yet
+the model also highlights that not all minimum wage workers are
+necessarily better off after the minimum wage policy, as workers
+who reallocate to a more efficient firm may trade off higher wages
+with lower utility from nonpecuniary job characteristics.
+We explore the possibility that the reallocation of low-wage
+workers to higher-paying establishments comes at the expense of
+lower utility from nonpecuniary job characteristics in Table VIII.
+We focus on commuting time (which we compute as the distance
+between the centroids of the municipalities of residence and work)
+as one important nonwage amenity. The difference-in-differences
+estimates in Table VIII are consistent with a trade-off between
+wages and commuting time: commuting distance increased
+by 1.8 km (or 10%) for low-wage workers relative to high-wage
+workers after the introduction of the minimum wage. The increase
+in commuting time induced by the minimum wage is considerably
+larger for men than for women, in line with the hypothesis that
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Main effects (2014 versus 2016)
+Wage bin in t − 2
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+323
+
+VI. CONCLUSION
+This article investigates the labor market responses to
+Germany’s first-time introduction of a nationwide minimum
+wage. We find that the minimum wage policy pushed up wages
+without lowering employment. The lack of employment responses,
+however, masks some important structural shifts in the economy:
+the minimum wage led to a reallocation of workers from smaller
+to larger, from lower-paying to higher-paying, and from less to
+more productive establishments, and thereby helped improve the
+quality of establishments in the economy. These findings suggest
+that minimum wages increased allocational efficiency of workers.
+These findings are hard to reconcile with a perfectly competitive labor market where a minimum wage unambiguously reduces
+employment, efficiency, and welfare. However, the reallocation of
+labor toward higher-paying and more productive establishments,
+coupled with the absence of disemployment effects, naturally
+emerges in a monopsonistic model of the labor market in which
+firms have some wage-setting power as workers care not just
+about wages but also about nonpecuniary job amenities such as
+commuting time.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+women have a particularly strong preference to work close to home
+(e.g., Hanson and Johnston 1985; Caldwell and Danieli 2021).
+Although these findings suggest that there may be some
+minimum wage workers who have lost out because of the policy
+despite earning a higher wage, our model also emphasizes that
+workers will on average be no worse off after the introduction
+of the minimum wage, provided that the minimum wage does
+not lower employment. Overall, our empirical findings (e.g., the
+point estimates on employment from the individual or regional
+approach) therefore suggest that the minimum wage improved
+welfare of low-wage workers on average.
+In the theoretical model, we assumed that product markets
+are perfectly competitive and that firms produce the same homogeneous product. We acknowledge that in a set-up where firms
+produce differentiated products and consumers value variety,
+as in Melitz (2003), the exit of inefficient firms may leave some
+consumers worse off despite being able to purchase similar products at a lower price. For example, some consumers may prefer
+nearby restaurants and shops even if they charge higher prices
+than restaurants and shops further away, but some of these small
+businesses close down after the minimum wage is implemented.
+
+324
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+UNIVERSITY COLLEGE LONDON AND CENTRE FOR RESEARCH AND ANALYSIS OF MIGRATION, UNITED KINGDOM
+UNIVERSITY COLLEGE LONDON, CENTRE FOR RESEARCH AND ANALYSIS OF MIGRATION, CENTRE FOR ECONOMIC PERFORMANCE, INSTITUTE
+FOR FISCAL STUDIES, AND CENTRE FOR ECONOMIC POLICY RESEARCH,
+UNITED KINGDOM, AND CENTRE FOR ECONOMIC AND REGIONAL STUDIES AND INSTITUTE OF ECONOMICS, HUNGARY
+UNIVERSITY COLLEGE LONDON, CENTRE FOR RESEARCH AND ANALYSIS OF MIGRATION, AND CENTRE FOR ECONOMIC POLICY RESEARCH,
+UNITED KINGDOM, AND INSTITUTE FOR EMPLOYMENT RESEARCH AND
+INSTITUTE OF LABOR ECONOMICS, GERMANY
+INSTITUTE FOR EMPLOYMENT RESEARCH, GERMANY
+INSTITUTE FOR EMPLOYMENT RESEARCH, GERMANY
+SUPPLEMENTARY MATERIAL
+Supplementary
+material
+is
+Quarterly Journal of Economics online.
+
+available
+
+at
+
+The
+
+DATA AVAILABILITY
+Code replicating the tables and figures in this article can
+be found in Dustmann et al. (2021) in the Harvard Dataverse,
+https://doi.org/10.7910/DVN/V01YTM.
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Even though we did not detect any obviously concerning effects of the minimum wage, such as reduced employment
+prospects of low-wage workers, our results do not imply that there
+are no establishments or workers who lost out as a result of the introduction of the minimum wage. We find that the minimum wage
+caused some small businesses to exit the market. As Williamson
+(1968) highlighted, increased exits may lead to increased market
+concentration and reduced competition among firms in the
+product market, which can lead to higher prices. We further
+find that the reallocation of low-wage workers to higher-paying
+establishments came at the expense of increased commuting time,
+which might have left some workers worse off despite earning
+a higher wage. Yet if viewed through the lens of our model,
+our empirical findings suggest that low-wage workers’ welfare
+improved on average after the introduction of the minimum
+wage.
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+325
+
+REFERENCES
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Aaronson, Daniel, Eric French, Isaac Sorkin, and Ted To, “Industry Dynamics and
+the Minimum Wage: A Putty-Clay Approach,” International Economic Review,
+59 (2018), 51–84.
+Acemoglu, Daron, “Good Jobs versus Bad Jobs,” Journal of Labor Economics, 19
+(2001), 1–21.
+Agell, Jonas, and Kjell E. Lommerud, “Egalitarianism and Growth,” Scandinavian
+Journal of Economics, 95 (1993), 559–579.
+Ahlfeldt, Gabriel M., Duncan Roth, and Tobias Seidel, “The Regional Effects of
+Germany’s National Minimum Wage,” Economics Letters, 172 (2018), 127–
+130.
+Antonczyk, Dirk, Bernd Fitzenberger, and Katrin Sommerfeld, “Rising Wage Inequality, the Decline of Collective Bargaining, and the Gender Wage Gap,”
+Labour Economics, 17 (2010), 835–847.
+Ashenfelter, Orley, and David Card, “Time Series Representations of Economic
+Variables and Alternative Models of the Labour Market,” Review of Economic
+Studies, 49 (1982), 761–782.
+Autor, David H., Alan Manning, and Christopher L. Smith, “The Contribution of
+the Minimum Wage to US Wage Inequality over Three Decades: A Reassessment,” American Economic Journal: Applied Economics, 8 (2016), 58–99.
+Bagger, Jesper, and Rasmus Lentz, “An Empirical Model of Wage Dispersion with
+Sorting,” Review of Economic Studies, 86 (2018), 153–190.
+Berger, David W., Kyle F. Herkenhoff, and Simon Mongey, “Labor Market Power,”
+NBER Working Paper no. w25719, 2019.
+Bhaskar, V., Alan Manning, and Ted To, “Oligopsony and Monopsonistic Competition in Labor Markets,” Journal of Economic Perspectives, 16 (2002), 155–174.
+Bossler, Mario, and Hans-Dieter Gerner, “Employment Effects of the New German
+Minimum Wage: Evidence from Establishment-Level Microdata,” ILR Review,
+73 (2020), 1071–1094.
+Bossler, Mario, Nicole Gürtzgen, Benjamin Lochner, Ute Betzl, and Lisa Feist,
+“The German Minimum Wage: Effects on Business Expectations, Profitability, and Investments,” Jahrbücher für Nationalökonomie und Statistik, 240
+(2020), 321–350.
+Bossler, Mario, and Thorsten Schank, “Wage Inequality in Germany after the
+Minimum Wage Introduction,” IZA Discussion Paper no. 13003, 2020.
+Brochu, Pierre, and David A. Green, “The Impact of Minimum Wages on Labour
+Market Transitions,” Economic Journal, 123 (2013), 1203–1235.
+Brochu, Pierre, David A. Green, Thomas Lemieux, and James Townsend, “The
+Minimum Wage, Turnover, and the Shape of the Wage Distribution,” Unpublished manuscript, 2015.
+Burauel, Patrick, Marco Caliendo, Markus M. Grabka, Cosima Obst, Malte Preuss,
+and Carsten Schröder, “The Impact of the Minimum Wage on Working Hours,”
+Jahrbücher für Nationalökonomie und Statistik, 240 (2020), 233–267.
+Burdett, Kenneth, and Dale T. Mortensen, “Wage Differentials, Employer
+Size, and Unemployment,” International Economic Review, 39 (1998), 257–
+273.
+Cahuc, Pierre, Fabien Postel-Vinay, and Jean-Marc Robin, “Wage Bargaining with
+On-the-job Search: Theory and Evidence,” Econometrica, 74 (2006), 323–364.
+Caldwell, Sydnee, and Oren Danieli, “Outside Options in the Labor Market,” Working Paper, Harvard University, 2021.
+Caliendo, Marco, Alexandra Fedorets, Malte Preuss, Carsten Schröder, and Linda
+Wittbrodt, “The Short-Run Distributional Effects of the German Minimum
+Wage Reform,” IZA Discussion Paper no. 11246, 2017.
+———, “The Short-Run Employment Effects of the German Minimum Wage Reform,” Labour Economics, 53 (2018), 46–62.
+Card, David, “Using Regional Variation in Wages to Measure the Effects of the
+Federal Minimum Wage,” Industrial and Labor Relations Review, 46 (1992),
+22–37.
+
+326
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Card, David, Ana Rute Cardoso, Joerg Heining, and Patrick Kline, “Firms and
+Labor Market Inequality: Evidence and Some Theory,” Journal of Labor Economics, 36 (2018), 13–70.
+Card, David, Jörg Heining, and Patrick Kline, “Workplace Heterogeneity and the
+Rise of West German Wage Inequality,” Quarterly Journal of Economics, 128
+(2013), 967–1015.
+Card, David, and Alan B. Krueger, “Minimum Wages and Employment: A Case
+Study of the Fast-Food Industry in New Jersey and Pennsylvania,” American
+Economic Review, 84 (1994), 772–793.
+———, Myth and Measurement: The New Economics of the Minimum Wage (Princeton, NJ: Princeton University Press, 1995).
+Cardoso, Ana Rute, and Pedro Portugal, “Disentangling the Minimum Wage Puzzle: An Analysis of Worker Accessions and Separations,” Journal of the European Economic Association, 4 (2006), 988–1013.
+Cengiz, Doruk, Arindrajit Dube, Attila Lindner, and Ben Zipperer, “The Effect of
+Minimum Wages on Low-Wage Jobs: Evidence from the United States Using a
+Bunching Estimator,” Quarterly Journal of Economics, 134 (2019), 1405–1454.
+Chava, Sudheer, Alexander Oettl, and Manpreet Singh, “Does a One-Size-Fits-All
+Minimum Wage Cause Financial Stress for Small Businesses?,” Georgia Tech
+Scheller College of Business Research Paper no. 19-13, 2019.
+Clemens, Jeffrey, Lisa B. Kahn, and Jonathan Meer, “The Minimum Wage, Fringe
+Benefits, and Worker Welfare,” NBER Working Paper no. 24635, 2018.
+Clemens, Jeffrey, and Michael Wither, “The Minimum Wage and the Great Recession: Evidence of Effects on the Employment and Income Trajectories of
+Low-Skilled Workers,” Journal of Public Economics, 170 (2019), 53–67.
+Currie, Janet, and Bruce C. Fallick, “The Minimum Wage and the Employment
+of Youth: Evidence from the NLSY,” Journal of Human Resources, 31 (1996),
+404–428.
+Davis, Steven J., and John Haltiwanger, “Gross Job Creation, Gross Job Destruction, and Employment Reallocation,” Quarterly Journal of Economics, 107
+(1992), 819–863.
+Destatis, “4 Millionen Jobs vom Mindestlohn betroffen,” Statistisches Bundesamt
+Press Release, no. 121, April 6, 2016.
+Der Spiegel, “Ökonomen warnen vor zu hohem Mindestlohn,” October 20, 2013,
+https://www.spiegel.de/spiegel/vorab/oekonomen-warnen-vor-zu-hohemmindestlohn-a-928791.html.
+Die Welt, “Mindestlohn bedroht Hunderttausende Jobs im Osten,” December 3,
+2014, https//www.welt.de/politik/deutschland/article134996180/Mindestlohnbedroht-Hunderttausende-Jobs-im-Osten.html.
+Doerr, Annabelle, and Bernd Fitzenberger, “Konzeptionelle Lehren aus der ersten
+Evaluationsrunde der Branchenmindestlöhne in Deutschland,” Journal for
+Labour Market Research, 49 (2016), 329–347.
+Draca, Mirco, Stephen Machin, and John van Reenen, “Minimum Wages and Firm
+Profitability,” American Economic Journal: Applied Economics, 3 (2011), 129–
+151.
+Dube, Arindrajit, William T. Lester, and Michael Reich, “Minimum Wage Shocks,
+Employment Flows, and Labor Market Frictions,” Journal of Labor Economics, 34 (2016), 663–704.
+Dustmann,
+Christian,
+Attila
+Lindner,
+Uta
+Schönberg,
+Matthias
+Umkehrer, and Philipp vom Berge, “Replication Data for: ‘Reallocation Effects of the Minimum Wage’,” (2021), Harvard Dataverse,
+https://doi.org/10.7910/DVN/V01YTM.
+Dustmann, Christian, Johannes Ludsteck, and Uta Schönberg, “Revisiting the
+German Wage Structure,” Quarterly Journal of Economics, 124 (2009), 843–
+881.
+Edin, Per-Anders, and Robert H. Topel, “Wage Policy and Restructuring: The
+Swedish Labor Market since 1960,” in The Welfare State in Transition: Reforming the Swedish Model, Richard B. Freeman, Robert H. Topel, and Brigitta
+Swedenborg, eds. (Chicago: University of Chicago Press, 1997), 155–201.
+
+REALLOCATION EFFECTS OF MINIMUM WAGE
+
+327
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Erixon, Lennart, “Progressive Supply-Side Economics: An Explanation and Update of the Rehn-Meidner Model,” Cambridge Journal of Economics, 42 (2017),
+653–697.
+Fajgelbaum, Pablo D., Eduardo Morales, Juan Carlos Suárez Serrato, and Owen
+Zidar, “State Taxes and Spatial Misallocation,” Review of Economic Studies,
+86 (2019), 333–376.
+FAZ, “Aufruf von Wirtschaftsprofessoren: Ökonomen fürchten Mindestlohn
+ohne Sachverstand,” December 19, 2013, https://www.faz.net/aktuell/
+wirtschaft/wirtschaftspolitik/aufruf-von-wirtschaftsprofessoren-oekonomenfuerchten-mindestlohn-ohne-sachverstand-12717302.html.
+Fitzenberger, Bernd, Aderonke Osikominu, and Robert Völter, “Imputation Rules
+to Improve the Education Variable in the IAB Employment Subsample,”
+Schmollers Jahrbuch: Journal of Applied Social Science Studies, 126 (2005),
+405–436.
+Flinn, Christopher J., “Minimum Wage Effects on Labor Market Outcomes Under
+Search, Matching, and Endogenous Contact Rates,” Econometrica, 74 (2006),
+1013–1062.
+Foster, Lucia, John Haltiwanger, and Chad Syverson, “Reallocation, Firm
+Turnover, and Efficiency: Selection on Productivity or Profitability?,” American Economic Review, 98 (2008). 394–425.
+German Minimum Wage Commission – Mindestlohnkommission, “Second Evaluation Report,” Berlin, 2018.
+Goldschmidt, Deborah, and Johannes F. Schmieder, “The Rise of Domestic Outsourcing and the Evolution of the German Wage Structure,” Quarterly Journal
+of Economics, 132 (2017), 1165–1217.
+Hanson, Susan, and Ibipo Johnston, “Gender Differences in Work-Trip
+Length: Explanations and Implications,” Urban Geography, 6 (1985),
+193–219.
+Harasztosi, Peter, and Attila Lindner, “Who Pays for the Minimum Wage?,” American Economic Review, 109 (2019), 2693–2727.
+Hashimoto, Masanori, “Minimum Wage Effects on Training on the Job,” American
+Economic Review, 72 (1982), 1070–1087.
+Hsieh, Chang-Tai, and Peter J. Klenow, “Misallocation and Manufacturing TFP in
+China and India,” Quarterly Journal of Economics, 124 (2009), 1403–1448.
+Knabe, Andreas, Ronnie Schöb, and Marcel Thum, “Der flächendeckende Mindestlohn,” Perspektiven der Wirtschaftspolitik, 15 (2014), 133–157.
+Kosfeld, Reinhold, and Alexander Werner, “Deutsche Arbeitsmarktregionen –
+Neuabgrenzung nach den Kreisgebietsreformen 2007–2011,” Raumforschung
+und Raumordnung, 70 (2012), 49–64.
+Kügler, Alice, Uta Schönberg, and Ragnhild Schreiner, “Productivity Growth,
+Wage Growth and Unions,” in Proceedings of ECB Forum on Central Banking,
+European Central Bank, Frankfurt, June 20, 2018.
+Lathrop, Yannet, “Raises from Coast to Coast in 2021: Workers’ Wages Will Increase in 52 Cities, Counties, and States on January 1,” National Employment
+Law Project (NELP), 2020.
+Lester, Richard A., “Employment Effects of Minimum Wages,” ILR Review, 13
+(1960), 254–264.
+Link, Sebastian, “The Price and Employment Response of Firms to the Introduction of Minimum Wages,” CESifo Working Paper Series no. 7575, 2019.
+Linneman, Peter, “The Economic Impact of Minimum Wage Laws: A New Look at
+an Old Question,” Journal of Political Economy, 90 (1982), 443–469.
+Lochner, Benjamin, and Bastian Schulz, “Firm Productivity, Wages, and Sorting,”
+IAB Discussion Paper no. 4, 2020.
+Luca, Dara Lee, and Michael Luca, “Survival of the Fittest: The Impact of the
+Minimum Wage on Firm Exit,” Harvard Business School NOM Unit Working
+Paper 17-088, 2018.
+Manning, Alan, “The Real Thin Theory: Monopsony in Modern Labour Markets,”
+Labour Economics, 10 (2003), 105–131.
+
+328
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+Downloaded from https://academic.oup.com/qje/article/137/1/267/6355463 by Catherine Sharp user on 14 March 2024
+
+Mayneris, Florian, Sandra Poncet, and Tao Zhang, “Improving or Disappearing:
+Firm-level Adjustments to Minimum Wages in China,” Journal of Development
+Economics, 135 (2018), 20–42.
+Melitz, Marc J., “The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity,” Econometrica, 71 (2003), 1695–1725.
+Mian, A., and Sufi“What Explains the 2007–2009 Drop in Employment?,” Econometrica, 82 (2014), 2197–2223.
+Moscarini, Giuseppe, and Fabien Postel-Vinay, “The Contribution of Large and
+Small Employers to Job Creation in Times of High and Low Unemployment,”
+American Economic Review, 102 (2012), 2509–2539.
+Müller, Kai-Uwe, and Viktor Steiner, “Distributional Effects of a Minimum Wage
+in a Welfare State: The Case of Germany,” SOEP Papers on Multidisciplinary
+Panel Data Research 617, 2013.
+Neumark, David, and William L. Wascher, Minimum Wages and Employment
+(Cambridge, MA: MIT Press, 2010).
+Nordlund, Willis J., The Quest for a Living Wage: The History of the Federal Minimum Wage Program (Westport, CT.: Greenwood Press, 1997).
+OECD Statistics, “Minimum Relative to Average Wages of Full-Time Workers,”
+2019, https://stats.oecd.org/Index.aspx?DataSetCode=MIN2AVE.
+Phelan, Brian J., “Hedonic-Based Labor Supply Substitution and the Ripple Effect
+of Minimum Wages,” Journal of Labor Economics, 37 (2019), 905–948.
+Rambachan, Ashesh, and Jonathan Roth, “An Honest Approach to Parallel
+Trends,” Brown University Working Paper, 2020.
+Restuccia, Diego, and Richard Rogerson, “Policy Distortions and Aggregate Productivity with Heterogeneous Establishments,” Review of Economic Dynamics, 11 (2008), 707–720.
+Sachverständigenrat,
+“Jahresgutachten
+2013/2014.
+Gegen
+eine
+rückwärtsgewandte Wirtschaftspolitik,” Wiesbaden, 2013.
+Schmitz, Sebastian, “The Effects of Germany’s Statutory Minimum Wage on Employment and Welfare Dependency,” German Economic Review, 20 (2019),
+330–355.
+Song, Jae, and David J. Price, Fatih Guvenen, Nicholas Bloom, and Till von
+Wachter, “Firming Up Inequality,” Quarterly Journal of Economics, 134 (2019),
+1–50.
+Sorkin, Isaac, “Ranking Firms Using Revealed Preference,” Quarterly Journal of
+Economics, 133 (2018), 1331–1393.
+Stigler, George J., “The Economics of Minimum Wage Legislation,” American Economic Review, 36 (1946), 358–365.
+Umkehrer, Matthias, and Philipp vom Berge, “Evaluating the Minimum-Wage Exemption of the Long-Term Unemployed in Germany,” ILR Review, 73 (2020),
+1095–1118.
+vom Berge, Philipp, Steffen Kaimer, Silvina Copestake, Johanna Eberle, Wolfram
+Klosterhuber, Jonas Krüger, Simon Trenkle, and Veronika Zakrocki, “Arbeitsmarktspiegel: Entwicklungen nach Einführung des Mindestlohns (Ausgabe
+1),” IAB-Forschungsbericht no. 1, 2016a.
+vom Berge, Philipp, Steffen Kaimer, Johanne Eberle, Wolfram Klosterhuber, and
+Claudia Lehnert, “Machbarkeitsstudie zur Erstellung eines Arbeitsmarktmonitors Mindestlohn (MoMiLo),” IAB-Forschungsbericht no. 0, 2016b.
+vom Berge, Philipp, Hans Verbeek, Matthias Umkehrer, Michael Fertig, and
+Stefan Bender, “Vorbereitende Forschung für die zweite Evaluationsrunde
+Mindestlöhne: Erschließung neuer Datenquellen,” FDZ-Methodenreport no.
+3, 2014.
+Williamson, Oliver E., “Wage Rates as a Barrier to Entry: The Pennington Case
+in Perspective,” Quarterly Journal of Economics, 82 (1968), 85–116.
+
+
