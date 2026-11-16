@@ -1,0 +1,23 @@
+# Democratic renewal decision memos: the batch
+
+Role: the democratic renewal foundation's decision memos, sent together so Espen can decide them in one round (`../3-design.md`). Status: **awaiting Espen's decisions** (stage F, step 3). Each memo is decided on its own; `../3-design.md` also has 50 yes-or-no points, the forks-at-a-glance table, part G's bottom-up capacity sizing, and the table of where each of the 118 rows homed here is decided.
+
+| Memo | Question | Options | Recommended |
+| --- | --- | --- | --- |
+| [1](1-voting-floor.md) | What every state must offer voters, and who registers them | A legacy Freedom to Vote floor; B records-first floor; C narrow floor; D money only | **B**: registration from records, broad ID or a signed statement, no documentary proof of citizenship, ballot cure; DEM-11 at about $2 billion a year (working assumption) |
+| [2](2-voting-rights-act.md) | What answers *Shelby County* and *Callais*; one bill or several | A one bill; B one bill, severable modules; C split Title III; D floor only | **B**, with a separate intent module; no DEM-1D |
+| [3](3-redistricting.md) | How DEM-2 is written | A commission mandate; B severable mandate; C two bills; D criteria, three-judge backstop, commission safe harbor | **D**, with the ban from enactment |
+| [4](4-money-in-politics.md) | Public financing; corporate political spending | 1: A 6:1 with caps; B 6:1, no cap, indexed; C vouchers; D none. 2: A S. 530 statute; B SEC rule; C states; D disclosure only | **1 B; 2 A, severable** |
+| [5](5-election-regulators.md) | The FEC and EAC after *Slaughter* | A six members; B five members, citizen suit, staff continuity; C enforcement bureau; D court enforcement | **B** |
+| [6](6-ethics-stock-ban.md) | The stock ban and its enforcement | A ownership ban with the executive; B trading only; C Congress only | **A, with automatic published penalties** |
+| [7](7-supreme-court-terms.md) | Supreme Court terms; the judiciary bills' order; judgeships | A statute plus amendment; B sitting Justices; C amendment only; D H.R. 1074. P1 to P4. 71 or 66 | **A; P2 with P4; 71** |
+| [8](8-judicial-ethics.md) | Judicial ethics and recusal | A binding code (with or without an inspector general); B outside review; C investigative counsel; D disclosure only | **A with an inspector general** |
+| [9](9-immigration-court-counsel.md) | The immigration court; the added judges' terms; civil counsel | A Article I; B review only; C Article III. Regular or backlog terms. None, LSC growth, eviction right | **A; backlog terms; LSC growth tied to capacity** |
+| [10](10-capacity-size-and-pace.md) | The agency rebuild's size and pace | Size A, B, C; pace A, B, C, D | **Size B (allocate bottom-up, name a contingency); pace B (released against hiring paths)** |
+| [11](11-verification-and-remedies.md) | Shared rule 5: verification and remedies | A each program; B one records-first rule; C documents at the door; D B plus an ombudsman | **B** |
+| [12](12-civil-service-and-continuity.md) | Civil service protection; funding lapses | Civil service A, B, C; lapses A, B, C | **B; B** |
+| [13](13-long-run-representation.md) | House size, multi-member districts, the presidential method | A direction now, parameters in 2031; B decide now; C enlargement alone; D drop | **A** |
+
+**What each memo carries** (`dossiers/TEMPLATE.md`, "Decision memos in one batch"): two to four options with a recommendation; costs against outside scores (CBO on the For the People Act of 2019 and 2021, the Freedom to Vote: John R. Lewis Act, the JUDGES Act, the ETHICS Act, the Stop Insider Trading Act and the Supreme Court ethics bill; and a plain statement where none exists, as for the John Lewis bill alone and every term-limit bill); a bill-by-bill comparison; what it means for people; and the legacy assumptions it inherits, each marked as not decided by Espen as a design (`DEC-2026-10-30-03`) unless the legacy record shows Espen's decision.
+
+**Read with the batch:** CBO's estimates could not be downloaded (cbo.gov returns 403, and Exa and Firecrawl were out of credits); their quotations were read through search results, LegiStorm's summaries and a repost, and each catalog note says so (`library/catalog.csv`, SRC-5379 to 5385). They are for the reviewer to check against the originals.

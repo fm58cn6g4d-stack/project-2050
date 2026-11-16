@@ -1,6 +1,6 @@
 # Foundation: democratic renewal
 
-Role: the democratic renewal foundation (`charter/PLAN.md` 3.1): "a democracy and a government that work for the 21st century". Status: **draft, stage F, step 2 (sections 1 and 2)**. Research only so far: Espen allowed stage F groundwork on the condition that it makes no design choices (November 16), and stage E has since closed (`DEC-2026-11-16-04`). Nothing here recommends, decides or changes a level or status. Level: every item homed here is **L1** in `agenda/agenda.csv`, as the legacy files left it (`DEC-2026-10-30-03`).
+Role: the democratic renewal foundation (`charter/PLAN.md` 3.1): "a democracy and a government that work for the 21st century". Status: **draft, stage F, step 3 (sections 1 to 3)**. Sections 1 and 2 are research only. Section 3 recommends, in thirteen memos and 50 yes-or-no points, and **awaits Espen's decisions**: nothing is decided or booked, and no level or status changes until Espen answers (stage E closed, `DEC-2026-11-16-04`). Level: every item homed here is **L1** in `agenda/agenda.csv`, as the legacy files left it (`DEC-2026-10-30-03`).
 
 **What it covers** (`charter/PLAN.md` 3.1, exactly): "The voting floor, money in politics, ethics, courts, participation, long-run institutional reform, and a government that delivers: agency capacity, payment systems, and remedies when delivery fails. Each flagship's delivery section states its own needs; this foundation owns the cross-cutting state capacity." Stage F sizes that capacity "to the specified flagships" (`charter/PLAN.md` 6, stage F).
 
@@ -31,9 +31,11 @@ One file per section, each with a part per subject, as the immigration and secur
 | --- | --- | --- |
 | 1. The problem | `1-problem.md`: parts A (voting floor and election administration), B (money in politics), C (ethics), D (courts), E (participation and civic life), F (long-run institutional reform), G (a government that delivers), with the flagships' stated state-capacity needs in G.6; the January 2029 baseline; inherited assumptions traced; evidence still needed | Draft (#397) |
 | Capacity inventory | `capacity-needs-inventory.md`: every state-capacity need the flagships' delivery sections specify (about 190), with file and line, the hand-offs to this foundation and the agencies shared across flagships; the source of section 1, G.6 | Draft (#397) |
-| 2. What works | `2-what-works.md`: the research, programs at home and abroad, and failures to avoid, part by part (A to G), with each claim's evidence strength, both views where contested, the legacy designs weighed against the evidence, and the questions it leaves for section 3 | Draft (this PR) |
-| 3-9 | Not started | Later stage F steps |
-| Evidence register | `evidence.json`, `EV-DEM-001` to `EV-DEM-319` (187 to 189 unused): 316 entries, 185 data and 131 analysis; graded A 102, B 46, C 167, D 1. Section 1 added `EV-DEM-001` to 144 (sources `SRC-5100` to 5206), section 2 `EV-DEM-145` to 319 (sources `SRC-5207` to 5377). Each entry is labelled data or analysis and graded (`DEC-2026-10-28-07`, `DEC-2026-10-30-01`) | Draft (sections 1 and 2) |
+| 2. What works | `2-what-works.md`: the research, programs at home and abroad, and failures to avoid, part by part (A to G), with each claim's evidence strength, both views where contested, the legacy designs weighed against the evidence, and the questions it leaves for section 3 | Draft (#409) |
+| 3. Design | `3-design.md`: the forks at a glance, section 2's thirteen questions answered or routed, costs against outside scores, part G's first bottom-up sizing of the cross-cutting state capacity by agency (staff, money, timing), 50 yes-or-no points, and where each of the 118 rows is decided | Draft, awaiting Espen |
+| Decision memos | `memos/README.md` and memos 1 to 13: the voting floor, the Voting Rights Act, redistricting (DEM-2's structure), money in politics, the election regulators, the stock ban, Supreme Court terms, judicial ethics, the immigration court and civil counsel, capacity size and pace, shared rule 5, the civil service and funding lapses, long-run representation | Awaiting Espen |
+| 4-9 | Not started | Later stage F steps, drafted on the recommendations and revised for Espen's answers |
+| Evidence register | `evidence.json`, `EV-DEM-001` to `EV-DEM-332` (187 to 189 unused): 329 entries, 186 data and 143 analysis; graded A 103, B 46, C 174, D 6. Section 1 added `EV-DEM-001` to 144 (sources `SRC-5100` to 5206), section 2 `EV-DEM-145` to 319 (sources `SRC-5207` to 5377), section 3 `EV-DEM-320` to 332 (outside cost scores, sources `SRC-5378` to 5385, and the legacy capacity figures as grade D entries on `SRC-0072` and `SRC-0073`). Each entry is labelled data or analysis and graded (`DEC-2026-10-28-07`, `DEC-2026-10-30-01`) | Draft (sections 1 to 3) |
 
 ## IDs reserved
 
@@ -42,9 +44,9 @@ One file per section, each with a part per subject, as the immigration and secur
 
 ## Directions for later stages (recorded, not acted on)
 
-- **DEM-2's structure** (one provision, a severable bill, two bills, or the legacy DEM-2E: criteria and a three-judge backstop with commissions as a voluntary safe harbor) goes to this dossier's memo set (`charter/PROGRESS.md`, "Directions for later stages"; `dossiers/scenario/memo-defense-baseline-and-dem2.md`, choice b). Section 1 gathers the facts it will need (part F) and decides nothing.
+- **DEM-2's structure** (one provision, a severable bill, two bills, or the legacy DEM-2E: criteria and a three-judge backstop with commissions as a voluntary safe harbor) is memo 3 (`memos/3-redistricting.md`; from `charter/PROGRESS.md`, "Directions for later stages", and `dossiers/scenario/memo-defense-baseline-and-dem2.md`, choice b).
 - **D2, the Senate rules question**, stays with the scenario's 2027-28 questions (`dossiers/scenario/3-framework-2027-28.md`, question 4) and the legacy decision (F, graduated cloture; `legacy/governing/project-2050-governing-decisions.md`, D2). Section 1 records why it decides which of these items can pass, without reopening it.
 
 ## Open questions for Espen
 
-None from section 1 itself; the questions it surfaces are listed in the PR's "For the board" and are not asked as decisions here.
+The section 3 batch: thirteen memos (`memos/README.md`) and 50 yes-or-no points (`3-design.md`), each decided on its own.
