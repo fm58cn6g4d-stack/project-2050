@@ -1,0 +1,1920 @@
+Source: https://www.oig.dol.gov/public/reports/oa/2021/19-21-004-03-315.pdf
+Publisher: U.S. Department of Labor, Office of Inspector General
+Retrieved: 2026-11-16
+Original SHA-256: d954394e2475405c01ca2dae05253a0677e4cfe786d7babcc34ce05798774e67
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+REPORT TO THE EMPLOYMENT
+AND TRAINING ADMINISTRATION
+
+COVID-19: STATES STRUGGLED TO
+IMPLEMENT CARES ACT
+UNEMPLOYMENT INSURANCE
+PROGRAMS
+
+DATE ISSUED: MAY 28, 2021
+REPORT NUMBER: 19-21-004-03-315
+
+U.S. Department of Labor
+Office of Inspector General
+Audit
+
+BRIEFLY…
+COVID-19: STATES STRUGGLED TO
+IMPLEMENT CARES ACT UNEMPLOYMENT
+INSURANCE PROGRAMS
+May 28, 2021
+WHY OIG CONDUCTED THE AUDIT
+On March 27, 2020, Congress passed the
+Coronavirus Aid, Relief, and Economic Security
+(CARES) Act with the intent of providing
+expanded Unemployment Insurance (UI) benefits
+to workers who were unable to work as a direct
+result of the COVID-19 pandemic. The expanded
+UI benefits required the Employment and Training
+Administration (ETA) to implement major changes
+to the existing UI system.
+This audit focused on the Department of Labor’s
+(DOL) and states’ implementation of the three key
+new UI programs that posed the greatest risk for
+fraud, waste, and abuse: Pandemic
+Unemployment Assistance (PUA), Pandemic
+Emergency Unemployment Compensation
+(PEUC), and Federal Pandemic Unemployment
+Compensation (FPUC). As of January 2, 2021,
+federal funding to states for these three UI
+programs was $392 billion.
+WHAT OIG DID
+We conducted this performance audit to answer
+the following question:
+How did DOL and states implement the key UI
+programs of the CARES Act?
+To answer this question, we reviewed the states’
+initial and continued eligibility determinations,
+improper payment detection strategies, and
+compliance with ETA oversight requirements.
+READ THE FULL REPORT
+https://www.oig.dol.gov/public/reports/oa/2021/1921-004-03-315.pdf
+
+WHAT OIG FOUND
+DOL and states struggled to implement the three
+key CARES Act UI programs. Specifically, DOL’s
+guidance and oversight did not ensure states
+implemented the programs and paid benefits
+promptly; performed required and recommended
+improper payment detection and recovery
+activities; and reported accurate and complete
+program activities. This occurred primarily
+because states’ information technology systems
+were not modernized, staffing resources were
+insufficient to manage the increased number of
+new claims, and according to state officials,
+guidance from ETA was untimely and unclear. We
+based this on the following:
+States had difficulty ensuring programs were
+implemented and claimants were paid promptly.
+From passage of the CARES Act to the first
+payment of a claim it took on average: 50 days for
+the PEUC program, 38 days for the PUA program,
+and 25 days for the FPUC program. The 12 states
+we selected for in-depth analysis were generally
+unable to demonstrate they met the payment
+promptness standard ETA established for regular
+UI payments – pay 87 percent of claimants within
+14 or 21 days.
+Moreover, many states did not perform required
+and recommended improper payment detection
+and recovery activities: 40 percent of states did
+not perform required cross-matches and 38
+percent did not perform required recovery
+activities.
+Furthermore, 42 percent of states did not report
+CARES Act UI program overpayments to ETA as
+required. States that did report overpayments,
+understated the total amount reported by an
+estimated 89 percent.
+As a result, unemployed individuals experienced
+financial hardships due to delays in receiving
+benefits. As of January 2, 2021, we estimated at
+least $39.2 billion in improper payments, including
+fraud, were at risk of not being detected and
+recovered, and could have been put to better use.
+WHAT OIG RECOMMENDED
+We made four recommendations to ETA to improve
+management oversight of the UI program. ETA
+agreed with our recommendations and indicated the
+agency has already taken action to implement some
+of the recommendations.
+
+U.S. Department of Labor – Office of Inspector General
+
+TABLE OF CONTENTS
+
+INSPECTOR GENERAL’S REPORT .................................................................... 1
+RESULTS ............................................................................................................. 3
+STATES FACED CHALLENGES ENSURING PROGRAMS WERE
+IMPLEMENTED AND CLAIMANTS WERE PAID TIMELY ........................ 4
+STATES DID NOT PERFORM REQUIRED AND RECOMMENDED
+IMPROPER PAYMENT DETECTION AND RECOVERY
+ACTIVITIES................................................................................................ 8
+STATES REPORTED INACCURATE AND INCOMPLETE
+OVERPAYMENT, FRAUDULENT PAYMENT, AND CLAIMS DATA ....... 12
+CONCLUSION .................................................................................................... 20
+OIG’S RECOMMENDATIONS ............................................................................ 20
+SUMMARY OF ETA’S RESPONSE ......................................................... 21
+EXHIBIT 1: STATES SELECTED FOR IN-DEPTH ANALYSIS .......................... 22
+EXHIBIT 2: CARES ACT IMPLEMENTATION BY STATE ................................. 23
+EXHIBIT 3: REQUIRED AND RECOMMENDED BENEFIT PAYMENT
+CONTROL ACTIVITIES ...................................................................................... 25
+EXHIBIT 4: REPORTNG INSTRUCTION FOR THE FPUC, PUA, AND PEUC .. 26
+EXHIBIT 5: STATE REPORTED BENEFITS, OVERPAYMENTS, FRAUD,
+OVERPAYMENT RATE, AND FRAUD RATE .................................................... 27
+EXHIBIT 6: FUNDS FOR BETTER USE ............................................................. 28
+APPENDIX A: SCOPE, METHODOLOGY, & CRITERIA .................................... 29
+APPENDIX B: AGENCY’S RESPONSE TO THE REPORT ............................... 32
+APPENDIX C: ACKNOWLEDGEMENTS ........................................................... 37
+
+-i-
+
+U.S. Department of Labor
+
+Office of Inspector General
+Washington, D.C. 20210
+
+INSPECTOR GENERAL’S REPORT
+
+Suzan G. LeVine
+Principal Deputy Assistant Secretary
+for Employment and Training
+U.S. Department of Labor
+200 Constitution Ave, NW
+Washington, DC 20210
+This report presents the results of the Office of Inspector General’s (OIG) audit of
+the Employment and Training Administration’s (ETA) oversight and
+administration of states’ initial implementation of the Coronavirus Aid, Relief, and
+Economic Security (CARES) Act’s Unemployment Insurance (UI) programs.
+On March 27, 2020, Congress passed the CARES Act with the intent of providing
+expanded UI benefits to workers who were unable to work as a direct result of
+the COVID-19 pandemic, including the creation of the Pandemic Unemployment
+Assistance (PUA) program for individuals not traditionally eligible for such
+benefits. The expanded UI benefits required the ETA to implement major
+changes to the existing UI system.
+This audit focused on the Department of Labor’s (DOL) and states’
+implementation of the three new key UI programs that posed the greatest risk for
+fraud, waste, and abuse: PUA, Pandemic Emergency Unemployment
+Compensation (PEUC), and Federal Pandemic Unemployment Compensation
+(FPUC). As of January 2, 2021, federal funding to states for these three UI
+programs was $392 billion.
+We conducted this performance audit to answer the following question:
+How did DOL and states implement the key UI programs of the CARES
+Act?
+
+-1-
+
+CARES ACT UI IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+To answer this question, of the 59 states 1 designated as such by the CARES Act,
+we selected 12 high-risk states for in-depth analysis. See Exhibit 1 for a list of the
+selected states. The other 47 states not selected were asked to complete survey
+questionnaires. We assessed the states’ efforts to implement the new UI
+programs, determine initial and continued eligibility, detect improper payments,
+and comply with ETA oversight requirements from March 27, 2020, to July 31,
+2020. Specifically, we examined states’ agreements, program funding, UI
+payment data, fraud prevention and detection plans, and implementation
+challenges. We also examined and assessed ETA’s guidance, plans for
+information technology (IT) assistance, and oversight.
+Background
+Each state administers a separate UI program under its laws, but within
+guidelines established under federal law. DOL’s ETA is responsible for providing
+direction and oversight for the UI system nationwide. The CARES Act created
+major changes to existing UI coverage, including establishing three new key
+programs.
+•
+
+The PUA program extended UI benefits to individuals who were not
+traditionally eligible for UI benefits until December 31, 2020. This includes
+self-employed workers, independent contractors, those with limited work
+history, and others.
+
+•
+
+The PEUC program provided up to an additional 13 weeks of
+unemployment compensation to individuals who had exhausted their
+regular unemployment benefits until December 31, 2020.
+
+•
+
+The FPUC program provided a supplemental payment of $600 per week
+to individuals receiving traditional and non-traditional UI benefits until July
+31, 2020.
+
+The COVID-19 pandemic was historic in its impact on the UI system. This report
+reflects states’ experiences and situations during the audit period and focuses
+specifically on the challenges states faced in implementing the CARES Act. ETA
+officials reported that states faced the combined challenges of (1) managing and
+processing an unprecedented increase in claims volume at an unprecedented
+pace, (2) making the statutory changes to existing UI programs, and (3)
+implementing the three new key CARES Act UI programs. In addition, states had
+to develop new systems in order to implement the new programs that resulted in
+backlogs in processing claims for weeks and, in some cases, months.
+According to the CARES Act, the term “state” includes the District of Columbia, the
+Commonwealth of Puerto Rico, the Virgin Islands, Guam, America Samoa, the Commonwealth of
+the Northern Mariana Islands, the Federated States of Micronesia, the Republic of the Marshall
+Islands, and the Republic of Palau.
+1
+
+-2-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Furthermore, states reported being particularly challenged with the
+implementation of the PUA program that served claimants not traditionally
+eligible for regular UI benefits, with new eligibility requirements.
+Prior to the pandemic, the UI programs saw historically low unemployment
+claims. Initial claims for federal and state programs rose to 10 times prepandemic levels within two to three weeks, far higher than state systems were
+designed to handle.
+As of July 31, 2020, states had drawn down a total of $284 billion to pay UI
+benefits for the three new programs. As of January 2, 2021, that amount had
+grown to approximately $392 billion, which was 98 percent of the total funding
+drawn down and reported for all CARES Act programs as shown in Table 1.
+Table 1: Programs with Highest To Lowest Cares Act Funding Drawn Down
+Through January 2, 2021
+
+Source: ETA reported data.
+
+RESULTS
+DOL and states struggled to implement the three key CARES Act UI programs.
+Specifically, DOL’s guidance and oversight did not ensure states implemented
+the programs and paid benefits promptly; performed required and recommended
+improper payment detection and recovery activities; and reported accurate and
+complete program activities. This occurred primarily because states’ IT systems
+were not modernized, staffing resources were insufficient to manage the
+increased number of new claims, and according to state officials, guidance from
+ETA was untimely and unclear. We based this on the following:
+•
+
+States had difficulty ensuring programs were implemented and claimants
+were paid promptly. From passage of the CARES Act to the first payment
+of a claim it took on average:
+-3-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+o 50 days for the PEUC program,
+o 38 days for the PUA program, and
+o 25 days for the FPUC program.
+•
+
+The 12 states we selected for in-depth analysis were generally unable to
+demonstrate they met the payment promptness standard ETA established
+for regular UI payments – pay 87 percent of claimants within 14 or 21
+days.
+
+•
+
+Many states did not perform required and recommended improper
+payment detection and recovery activities: 40 percent of states did not
+perform required cross-matches and 38 percent did not perform required
+recovery activities.
+
+•
+
+Forty-two percent of states did not report CARES Act UI program
+overpayments to ETA as required. States that did report overpayments,
+understated the total amount reported by an estimated 89 percent.
+
+As a result, unemployed individuals experienced financial hardships due to
+delays in receiving benefits. As of January 2, 2021, based on a conservative
+improper payment 2 rate of 10 percent, we estimated, at least $39.2 billion in UI
+improper payments – including fraud – was at risk of not being detected and
+recovered, and could have been put to better use. Estimates for the CARES Act
+and its related extensions 3 range up to $872.5 billion 4; therefore by program end,
+$87.3 billion in UI benefits could be paid improperly.
+STATES FACED CHALLENGES ENSURING
+PROGRAMS WERE IMPLEMENTED AND
+CLAIMANTS WERE PAID TIMELY
+Fifty-three of the 59 states signed an agreement with DOL to participate in PUA,
+PEUC, and FPUC within two days of the CARES Act’s passage. The other six
+states entered into agreements to participate in PUA and FPUC by April 10,
+The statutory definition of an improper payment is “any payment that should not have been
+made or that was made in an incorrect amount under statutory, contractual, administrative, or
+other legally applicable requirements; and includes any payment to an ineligible recipient ....”
+3
+Presidential Memorandum Authorizing the Other Needs Assistance Program for Major Disaster
+Declarations Related to Coronavirus Disease 2019 (COVID19) - Lost Wages Assistance (LWA),
+Consolidated Appropriations Act, 2021, specifically Division N, Title II, Subtitle A, the Continued
+Assistance for Unemployed Workers Act of 2020, and American Rescue Plan Act of 2021 (ARPA)
+(Public Law 117-2), specifically Title IX, Subtitle A, Crisis Support for Unemployed Workers.
+4
+Estimate is for UI benefits only and does not include funding provided for program
+administration.
+2
+
+-4-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+2020. However, standing up the new programs to rapidly deliver COVID-19 relief
+funds and promptly getting the first UI benefit payment to individuals in need was
+challenging for states.
+STATES WERE CHALLENGED TO IMPLEMENT THE
+NEW UI PROGRAMS RAPIDLY
+Federal guidance issued by the Office of Management and Budget (OMB) on
+April 10, 2020, required agencies to prioritize expediency, which OMB defined as
+the rapid issuance of awards to meet crucial needs. 5 However, 52 states 6
+reported that from passage of the Act to the first payment of a claim took on
+average 38 days for the PUA program and 25 days for the FPUC program.
+Additionally, 49 states 7 reported payment took on average 50 days for the PEUC
+program, which was not available in all states.
+More specifically, the days that states took to implement a CARES Act program
+ranged from 3 days to 111 days. Table 2 groups the number of states for each
+respective program from passage of the CARES Act to the first payment of a
+claim.
+Table 2: Days to Implement CARES Act Programs
+
+Source: OIG analysis of information provided by state officials.
+
+Most states took more than 30 days to implement the PUA and PEUC programs
+or more than a typical billing cycle, which is an unreasonable length of time for UI
+claimants experiencing financial hardships as they struggled to pay bills and
+satisfy basic needs, such as food and housing. See Exhibit 2 for details as to
+CARES Act implementation by states.
+
+OMB Memorandum 20-21, Implementation Guidance for Supplemental Funding Provided in
+Response to the Coronavirus Disease 2019 (April 10, 2020).
+6
+Based on 59 states sampled or surveyed: 52 of 59 (88 percent) responded for PUA and FPUC.
+7
+Based on 59 states sampled or surveyed: 49 of 59 (83 percent) responded for PEUC.
+5
+
+-5-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+STATES WERE CHALLENGED TO PAY CLAIMANTS
+PROMPTLY
+ETA’s performance standard 8 for the regular UI program requires states to
+ensure 87 percent of regular UI claimants receive their initial benefit payments
+within 14 days in states with a waiting week, 9 and no more than 21 days in states
+with no waiting week. We used this performance standard as a basis to analyze
+the timeliness of benefits payments for the CARES Act UI programs. Our 12
+sampled states did not have a waiting week. 10
+For the 9.5 million PUA claims approved for payment by our 12 sampled states, 9
+states were not able to pay 87 percent of the initial claims within 21 days, while 3
+states – Georgia, New Jersey, and Texas 11 – were unable to provide supporting
+data – for the period of March 27, 2020, through July 31, 2020 (see Chart 1).
+Chart 1: Sampled States That Met the 21-Day Payment Standard
+
+Source: OIG analysis of data provided by state officials.
+
+As the CARES Act programs are temporary, ETA did not apply the 14-day or 21-day standard to
+them. However, since this is the standard DOL uses for the timeliness of regular UI payments, we
+used it for our analysis to provide context as to the performance of states.
+9
+Most states require that an individual, who is otherwise eligible for UI benefits, must first serve a
+waiting period (generally one week) prior to receiving benefits in a particular benefit year.
+Therefore, the second week claimed is the first week of payment.
+10
+Almost all states have a waiting week, but during the COVID-19 pandemic, states waived the
+waiting week.
+11
+Texas provided data, however, due to the format of the data set, we were unable to readily test
+the state’s timeliness.
+8
+
+-6-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+For the PEUC program, only 2 of the 12 sampled states – Illinois and New York –
+paid 87 percent of their claimants within the 21-day timeframe. Four sampled
+states – Georgia, New Jersey, Texas, and Washington – were unable to provide
+data to support the timeliness of payments for PEUC.
+Further, for the FPUC program ($600 per payment) that was primarily delivered
+under the regular UI program (26.8 million claims or $283 billion), only one of our
+12 sampled states – Illinois – met the timeliness standard. Three sampled states
+– Georgia, New Jersey, and Texas 12 – were unable to provide data to support
+the timeliness of payments for FPUC.
+DELAYS IN PAYMENTS DETRIMENTALLY
+AFFECTED MILLIONS OF CLAIMAINTS
+The delays in implementing CARES Act UI programs and untimely UI benefit
+payments resulted in millions of Americans waiting weeks to months for their first
+unemployment checks. Numerous news media outlets reported on the impact
+these delays had on UI claimants, as shown in Figure 1.
+Figure 1: Issues Caused by Delays in Providing Unemployment Benefits
+
+Source: Aggregated information from media reports.
+
+Specific examples include a news report where a claimant lost his home and car
+by the time he received payment. 13 Another news agency reported that a
+
+Texas provided data, however, due to the format of the data set, we were unable to readily test
+the state’s timeliness.
+13
+Henderson, Tim. "Unemployment Payments Weeks Late in Nearly Every State." Stateline, an
+initiative of The Pew Charitable Trusts. The Pew Charitable Trusts, December 2, 2020.
+12
+
+-7-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+claimant said the delay in UI payments meant his family could only afford to eat
+the “bare minimum” needed to sustain themselves. 14
+STATES DID NOT PERFORM REQUIRED AND
+RECOMMENDED IMPROPER PAYMENT
+DETECTION AND RECOVERY ACTIVITIES
+In our CARES Act UI Advisory Report of April 21, 2020, 15 we underscored how
+states needed to establish controls to detect improper payments if preventative
+controls failed, as well as processes to ensure they recovered any overpayments
+detected. The results of the current audit confirmed that the issues we had raised
+in the Advisory Report were cause for concern. ETA requires states to perform
+certain Benefit Payment Control (BPC) activities and recommends they perform
+other activities to detect and recover improper payments for CARES Act UI
+programs. However, responses from 50 states 16 revealed that states did not
+perform the required or recommended cross-matches and recovery activities,
+which could have prevented improper payments, including fraud.
+STATES DID NOT PERFORM REQUIRED AND
+RECOMMEDED BPC CROSS-MATCHES
+In May 2020, ETA issued Unemployment Insurance Program Letter (UIPL) 23-20
+which provides the required BPC cross-matches. Specifically, the following three
+activities are required for the PUA and PEUC programs (in the same manner as
+for the regular UI program).
+•
+
+•
+
+•
+
+National Directory of New Hires (NDNH) Cross-match – Cross-matches
+against employer reported “new hires,” including wage information,
+against UI benefit payment records to identify claimants who have failed to
+report earnings and, therefore, may have been overpaid UI benefits;
+Quarterly Wage Records Cross-match – Compares state agency benefit
+payment records with wage records created from quarterly reports
+submitted by employers to determine if benefits were overpaid due to
+failure to report earnings; and
+Systematic Alien Verification for Entitlement – Automated and manual
+procedures by which states obtain information about an individual’s
+
+KMOV News, “Frustration Builds For Those Having Trouble Getting Unemployment Benefits In
+Missouri,” April 28, 2020.
+15
+DOL OIG, “CARES Act: Initial Areas of Concern Regarding Implementation of Unemployment
+Insurance Provisions,” (April 21, 2020; Report No. 19-20-001-03-315).
+https://www.oig.dol.gov/public/reports/oa/viewpdf.php?r=19-20-001-03-315&y=2020.
+16
+Based on 53 states sampled or surveyed: 50 of 53 (94 percent) responded. Six states were not
+included since they responded not having established UI systems or UI programs and thus,
+cross-matches were either not applicable or not performed.
+14
+
+-8-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+immigration status that will allow the state to determine his/her eligibility
+for unemployment compensation.
+Based on information provided by all 50 states, we found that 20 of the states (40
+percent) did not perform all the required BPC cross-matches. In addition, UIPL
+23-20 also provided eight strongly recommended BPC cross-matches. These
+included the State Directory of New Hires (SDNH), Identity Verification, and
+Incarceration cross-matches. We found that 44 of the 50 states (88 percent) did
+not perform all the recommended BPC cross-matches – as depicted in Figure 2.
+Figure 2: States’ Performance of BPC Activities
+
+Source: OIG analysis of information provided by state officials.
+
+See Exhibit 3 for a full list of required and recommended BPC activities.
+STATES DID NOT PERFORM REQUIRED
+RECOVERY ACTIVITIES
+UIPL 23-20 requires states to perform the following overpayment recovery
+activities.
+•
+•
+•
+
+•
+
+Benefit Offsets – Benefits withheld by the state agency to satisfy the
+requirement for a claimant to repay an overpayment;
+Treasury Offset Program – A Department of the Treasury centralized
+offset program, by which payments are offset to collect delinquent debts
+owed to federal agencies and states, including UI debts;
+Cross Program Offset Recovery Agreement – A recovering state offsets
+benefits payable under a state unemployment compensation program to
+recover any benefits overpaid under a federal unemployment
+compensation program and vice versa; and
+Interstate Reciprocal Offset Recovery Arrangement – Provides methods
+for the recovery of improper payments of state and federal unemployment
+compensation benefits from individuals filing under the Interstate Benefit
+
+-9-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Payment Plan, the Interstate Arrangement for the Combining of
+Employment and Wages, or intrastate under any state's law.
+We found that 19 of the 50 states (38 percent) did not perform the required
+recovery activities – as depicted in Figure 3.
+Figure 3: States’ Performance of Recovery Activities
+
+Source: OIG analysis of information provided by state officials.
+
+Once states have established overpayments, it is essential that recovery
+activities be completed to mitigate the risk of financial loss as a result of
+overpaid claims.
+AN ESTIMATED $39 BILLION IN CARES ACT
+IMPROPER PAYMENTS MAY NOT BE SUBJECT TO
+IMPROPER PAYMENT DETECTION OR RECOVERY
+ACTIVITIES
+The UI program had an estimated improper payment rate 17 of over 10 percent
+since 2008. 18 If the UI program continues to maintain an improper payment rate
+that exceeds 10 percent, we estimate of the $392 billion drawn down as of
+
+The improper payment rate is an estimate based on results of State Benefit Accuracy
+Measurement (BAM) survey samples (random audits) of paid and denied claims in three major UI
+programs: State UI, Unemployment Compensation for Federal Employees (UCFE), and
+Unemployment Compensation for Ex-Service Members (UCX).
+18
+This excludes 2013 since the rate that year included an offset for recovered overpayments.
+17
+
+-10-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+January 2, 2021, at least $39.2 billion 19 in CARES Act funds will have been
+improperly paid and wasted, instead of benefitting those for whom the new UI
+programs were intended. In comparison, for program year (PY) July 1, 2018,
+through June 30, 2019, 20 ETA estimated $2.9 billion in improper payments for the
+regular UI program, for an improper payment rate of 10.6 percent, 21 (see Chart
+2).
+Chart 2: Growth In Estimated UI Improper Payments
+
+Source: Based on OIG estimate and DOL 2019 Agency Financial Report.
+
+The improper payment rate for PY 2021 will likely be much higher since prior to
+COVID-19, the rate was 10.6 percent. Since March 27, 2020, states’ efforts have
+been primarily focused on paying claimants and implementing CARES Act
+programs. Additionally, the estimated improper payment rate for PY 2019 was
+the lowest 22 since PY 2009.
+Furthermore, detection cross-matches were needed to detect and prevent
+payments to criminals that targeted the higher weekly benefits available under
+19
+These costs and improper payments will grow since PUA, FPUC, and PEUC were extended to
+September 6, 2021, by the American Rescue Plan Act of 2021.
+20
+In FY 2020, ETA reported an improper payment rate of 9.17 percent. However, due to the
+COVID-19 pandemic, states suspended BAM operations beginning in April 2020.
+21
+ETA’s PY 2019 estimated improper payment rate of 10.61 percent was 10.21 percent in
+overpayments and 0.4 percent in underpayments. Our audit is primarily concerned with
+overpayments since they are the majority of improper payments and present the greater risk to
+the integrity of the UI program.
+22
+This excludes 2013 since the rate that year included an offset for recovered overpayments.
+
+-11-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+CARES Act programs. Across the country, news and law enforcement agencies
+have reported unprecedented levels of UI fraud. In our CARES Act Alert
+Memorandum of February 22, 2021, 23 we estimated potential fraud could range
+into the tens of billions of dollars. Specifically, our collaboration with OIG’s Office
+of Investigations revealed more than $5.4 billion of potentially fraudulent UI
+benefits in the four areas shown in Figure 4. 24
+Figure 4: Potential Fraudulent Activities
+
+Source: OIG data analysis of state data.
+
+To combat fraudulent payments and protect the integrity of the UI system, ETA
+and states must continue to work together to complete the required and
+recommended BPC activities.
+STATES REPORTED INACCURATE AND
+INCOMPLETE OVERPAYMENT, FRAUDULENT
+PAYMENT, AND CLAIMS DATA
+In our CARES Act UI Advisory Report, 25 we stated that ETA must ensure that
+program monitoring over the use of the stimulus funding be sufficiently designed
+and executed and benefit outlays be accurately tracked and reported at both the
+state and federal level. Despite our guidance, ETA did not provide adequate
+oversight to prevent states from inaccurately reporting overpayments and
+fraudulent payments. Without this critical oversight and transparency, ETA could
+not ensure its management of billions of dollars in supplemental program funding
+achieved the desired outcome and sufficiently met the requirements of the
+DOL OIG, “Alert Memorandum: The Employment and Training Administration (ETA) Needs to
+Ensure State Workforce Agencies (SWA) Implement Effective Unemployment Insurance Program
+Fraud Controls for High Risk Areas,” (February 22, 2021; Report No. 19-21-002-03-315).
+https://www.oig.dol.gov/public/reports/oa/viewpdf.php?r=19-21-002-03-315&y=2021.
+24
+The $5.4 billion covers the period March 2020 through October 2020. To prevent double
+counting, over $313 million in UI claims filed using two or more of the methods noted in this report
+were counted only once.
+25
+DOL OIG, “CARES Act: Initial Areas of Concern Regarding Implementation of Unemployment
+Insurance Provisions,” (April 21, 2020; Report No. 19-20-001-03-315).
+https://www.oig.dol.gov/public/reports/oa/viewpdf.php?r=19-20-001-03-315&y=2020.
+23
+
+-12-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+CARES Act. During April 2020, ETA issued three UIPLs 26 that in part required
+states to report on overpayments, fraudulent payments, and the volume of claims
+for the PUA, FPUC, and PEUC programs. See Exhibit 4 for the reporting
+instructions regarding the three programs.
+STATES EITHER DID NOT REPORT OR
+INACCURATELY REPORTED OVERPAYMENTS AND
+FRAUDULENT PAYMENTS
+For regular UI, FPUC, and PEUC, the states’ accomplishments in principal
+detection areas of BPC are reported on the ETA 227 Overpayment Detection and
+Recovery Activities Report. For the PUA program, overpayments and recoveries
+are reported on the ETA 902P Pandemic Unemployment Assistance Activities
+Report. The ETA and state agencies need this information to monitor the integrity
+of the benefit payment processes in the UI system. Data are provided for the
+establishment of overpayments, recoveries of overpayments, criminal and civil
+actions involving overpayments obtained fraudulently, and an aging schedule of
+outstanding benefit overpayment accounts.
+STATES DID NOT REPORT OVERPAYMENTS AND
+FRAUDULENT PAYMENTS
+We found that many states did not report overpayments and fraudulent payments
+as required.
+•
+
+•
+
+•
+
+For PUA, 50 of 59 states (85 percent) were listed on ETA’s website as
+submitting the required ETA 902P report. 27 However, 16 of the 50 (32
+percent) reported no overpayments and 30 of the 50 (60 percent) reported
+no fraudulent payments.
+For FPUC, 37 of the 53 states (70 percent) were listed on ETA’s website
+as submitting the required ETA 227 report. 28 However, 9 of the 37 (24
+percent) reported no overpayments and 14 of the 37 (38 percent) reported
+no fraudulent payments.
+For PEUC, 40 of the 53 states (75 percent) were listed on ETA’s website
+as submitting the required ETA 227 report. However, 7 of the 40 (18
+percent) reported no overpayments and 18 of the 40 (45 percent) reported
+no fraudulent payments.
+
+UIPLs 15-20 (FPUC reporting instructions), 16-20 (PUA reporting instructions), and 17-20
+(PEUC reporting instructions).
+27
+Fifty-nine states were required to report PUA overpayments on the ETA 902P report.
+28
+Fifty-three states were required to report overpayment for PEUC and FPUC on the ETA 227
+report.
+26
+
+-13-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Overall, for the period of March 27, 2020 to September 30, 2020, 29 42 percent of
+states did not complete the required reporting for overpayments and 60 percent
+did not for fraudulent payments.
+STATES INACCURATELY REPORTED
+OVERPAYMENTS AND FRAUDULENT PAYMENTS
+States reported less than expected and unreliable overpayment amounts. To
+illustrate, Chart 3 shows overpayments for the new CARES Act UI programs
+were reportedly 0.4 percent for CY 2020 – 89 percent less than the rate (3.6
+percent) reported for regular UI for CY 2019. Fraudulent overpayments for the
+new CARES Act UI programs were reportedly even less – 0.03 percent – 98
+percent less than the 1.4 percent reported for CY 2019. See Exhibit 5 for
+amounts related to percentages for each CARES Act UI Program.
+Chart 3: States Reported a Fraction of Expected Overpayments
+and Fraud
+
+*Based on ETA reporting through September 30, 2020.
+Source: OIG generated and based on ETA Overpayment Reports
+
+Our analysis in Chart 3 also shows that states reported less than expected and
+unreliable amounts of overpayment and fraudulent payments for the regular UI
+program. The rate of overpayments reported for the regular UI program
+(CY 2020) was 1.4 percent, which was 61 percent less than the 3.6 percent
+September 30, 2020 exceeds the end of our audit scope of July 31, 2020. However, these
+reports are completed quarterly. Therefore to provide the clearest possible information, we
+included the later report date.
+29
+
+-14-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+reported for CY 2019. Additionally, the rate of fraudulent overpayments reported
+for the regular UI program (CY 2020) was 0.1 percent – 91 percent less than the
+1.4 percent reported for CY 2019.
+STATES REPORTED INACCURATE AND
+INCOMPLETE CLAIMS DATA
+As previously noted, states are required to report the volume of claims for the
+PUA, FPUC, and PEUC programs. However, from March 27, 2020, to August 1,
+2020, ETA’s website did not include any PUA and PEUC claims for the states of
+Florida, Georgia, Oklahoma, Virgin Islands, and West Virginia – indicating that
+these states did not report the required claims data. Moreover, for states that did
+report, we determined that they reported inaccurate claims data. For example, 4
+of our 12 sampled states (33 percent) identified the following issues regarding
+their reported claims data:
+•
+•
+•
+•
+
+Did not track initial and continued claims data for the separate CARES Act
+programs.
+Could not differentiate between initial claims and continued claims.
+Could not support PUA initial claims or PUA continued claims despite
+claims reported to ETA.
+Could not support PUA initial claims, PUA continued claims, or PEUC
+continued claims despite claims reported to ETA.
+
+Initial claims measure emerging unemployment and continued claims measure
+the number of individuals claiming UI benefits. UI claims data is also used to
+identify unemployment trends – nationwide and for each state. As such, accurate
+claims data is important for the effective oversight of CARES Act UI programs.
+ETA COULD NOT PERFORM NECESSARY
+OVERSIGHT TO MONITOR OVERPAYMENTS
+Without complete and accurate reporting, ETA could not adequately monitor if
+states were using improper payment detection and recovery tools to identify and
+recover overpayments and fraudulent payments. Nor could ETA adequately
+monitor criminal and civil actions involving fraudulent payments, including the
+age of outstanding overpayments. In addition, ETA may not be able to accurately
+identify trends, weaknesses, or vulnerabilities in the CARES Act UI programs.
+Furthermore, ETA and Congress will be challenged to gauge the size, breadth,
+and related overpayments of CARES Act UI programs. ETA must assist states
+with their reporting and then prioritize states by the severity of overpayments to
+mitigate the risk of federal funds being lost to improper payments including fraud.
+
+-15-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+In our Alert Memorandum of February 22, 2021, 30 we identified that ETA could
+have put $5.4 billion to better use if effective internal controls were established.
+ETA concurred with the two recommendations in the Alert Memo and stated the
+agency will continue to work with states to establish and strengthen anti-fraud
+measures implemented as soon as possible; and work with Congress to consider
+a wide range of opportunities for improving program integrity.
+If ETA had established sufficient internal controls over states’ IT systems,
+reporting requirements, overpayment detection and recovery, and standards for
+unexpected events, CARES Act UI funds paid improperly (estimated $39.2 billion
+as of January 2, 2021) could have been put to better use instead. See Exhibit 6
+for a breakdown of funds put to better use.
+PRIMARY CAUSES FOR CARES ACT ISSUES:
+ANTIQUATED IT SYSTEMS, INSUFFICIENT STAFFING, AND UNCLEAR
+GUIDANCE FROM ETA HINDERED STATES’ ABILITY TO IMPLEMENT
+CARES ACT UI PROGRAMS MORE EFFECTIVELY
+There were three common causes for the audit issues we identified: antiquated
+IT systems, insufficient staffing, and sometimes unclear and untimely guidance
+from ETA to address issues related to an unprecedented volume of new UI
+claims. From March 28, 2020, to August 1, 2020, DOL reported more than 57
+million workers filed an initial jobless claim for PUA or regular UI. In addition, 502
+million continued claims were submitted for PUA, regular UI, or PEUC. 31 For the
+FPUC program, which added $600 to other UI program claims and ended July
+31, 2020, there were approximately 472 million claims. In contrast, DOL reported
+11 million initial claims and 89 million continued claims for regular UI for all of
+calendar year (CY) 2019.
+ANTIQUATED IT SYSTEMS
+While states reported many difficulties with initializing and executing CARES Act
+UI programs, one of the causes echoed among states was the use of antiquated
+IT systems. In our CARES Act UI Advisory Report of April 21, 2020, we raised
+
+DOL OIG, “Alert Memorandum: The Employment and Training Administration (ETA) Needs to
+Ensure State Workforce Agencies (SWA) Implement Effective Unemployment Insurance Program
+Fraud Controls for High Risk Areas,” (February 22, 2021, Report No. 19-21-002-03-315).
+https://www.oig.dol.gov/public/reports/oa/viewpdf.php?r=19-21-002-03-315&y=2021.
+31
+DOL did not track initial claims for PEUC since claimants were not required to file a PEUC
+application.
+30
+
+-16-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+concerns that states’ legacy IT systems would impede the management and
+oversight of UI benefits. 32
+IMPLEMENTING NEW UI PROGRAMS AND PAYING CLAIMANTS
+States with modernized IT systems implemented CARES Act programs
+significantly faster than those using antiquated IT systems. The results of our
+analysis demonstrate a clear correlation between states’ IT modernization status
+and the time needed to implement new PEUC and PUA programs. For example,
+states that completed IT modernization started the PEUC program 15 days faster
+and the PUA program 8 days faster (on average) than those still planning IT
+modernization. 33 Officials in 17 of 50 states (34 percent) 34 said their IT systems
+were not sufficient to implement provisions of the CARES Act. See Exhibit 2 for
+state-by-state details on IT modernization status and days it took to make the first
+payment.
+DETECTING AND RECOVERING OVERPAYMENTS
+Four of 12 sampled states (33 percent) reported that IT systems did not allow
+them to complete improper payment detection and recovery. States reported that
+the Social Security system froze up; Interstate Connection hub slowed down;
+their IT system did not have the mainframe capacity to perform cross-matches for
+such a large volume of claims; vendor-purchased systems did not include
+detection and recovery functionality; and batch processing cross-matches slowed
+the claimant identification process.
+REPORTING CARES ACT UI PROGRAM ACTIVITIES
+State officials said they were unable to program the newly required reports in
+their IT systems or lacked the programming to extract the required data. States
+also cited that ETA’s guidance lacked clarity and timeliness to implement
+required reporting and they wanted ETA to have developed a programming script
+for each of the CARES Act UI programs. States also said this programming script
+could then have been adapted to each state’s system to ensure compliance and
+consistency. Furthermore, states said that staffing and resources were focused
+more on implementing the programs rather than programming new reports.
+
+DOL OIG, “CARES Act: Initial Areas of Concern Regarding Implementation of Unemployment
+Insurance Provisions,” (April 21, 2020; Report No. 19-20-001-03-315).
+https://www.oig.dol.gov/public/reports/oa/viewpdf.php?r=19-20-001-03-315&y=2020.
+33
+For FPUC, states that had completed IT modernization started the program no faster (on
+average) than those that were still planning. However, the first FPUC payment was to supplement
+a PUA, PEUC, or regular UI program payment.
+34
+Arkansas, Idaho, and Vermont are not included among the states.
+32
+
+-17-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+INSUFFICIENT STAFFING LEVELS
+Officials in the 12 sampled states reported they were not able to hire staff quickly
+enough, find enough qualified staff, or increase their staff sufficiently to process
+in a timely manner the sudden spike in UI claims. Adding to the challenge was
+the need to conduct hiring and onboarding remotely, with social distancing being
+highly advised during the pandemic. Fifty-five states 35 hired additional staff in
+response to the COVID-19 pandemic. The 12 states, selected for in-depth
+analysis, reported on average they employed 816 full-time equivalent (FTE)
+employees for UI programs prior to the CARES Act. As of July 31, 2020, the 12
+sampled states reported that an average of 1,539 FTEs and 1,444 contract staff
+were assigned to UI programs.
+UNTIMELY AND UNCLEAR GUIDANCE FROM ETA
+States cited ETA’s guidance as untimely and unclear to enable states to process
+the increased volume of new UI claims and make decisions about initial and
+continued eligibility. State officials in the 12 sampled states said that:
+•
+•
+•
+•
+•
+
+Newer guidance from ETA reinterpreted matters that states thought had
+been finalized.
+Clearer, earlier, and more detailed guidance from ETA might have
+rendered a more efficient implementation process and would have
+prevented significant overpayments.
+PUA eligibility requirements were evolving as states were building
+programs from scratch, and needed a good way to handle eligibility
+ambiguity.
+Insufficient time to get up to speed on new PUA program requirements
+made it hard to put in sufficient controls ahead of the program launch.
+Implementation of new and concurrent federal programs was complex.
+
+Four of 12 states (33 percent) reported that ETA’s guidance was not timely or
+complete enough to prevent overpayments. The four states reported that ETA did
+not provide sufficient proactive detection tools; its PUA application process did
+not contain enough details; it did not respond quickly enough to states’ inquiries;
+and the guidance it did provide was incomplete. States also cited that the PUA
+program self-certification process did not allow for proper fraud prevention
+procedures to take place.
+
+35
+
+Based on a total of 59 states sampled or surveyed, of which 55 (93 percent) responded.
+
+-18-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+In our CARES Act report issued on August 7, 2020, 36 we commended ETA for
+the amount of guidance they were able to issue quickly. ETA officials stated,
+during our audit scope, they published 20 pieces of guidance and conducted 15
+webinars. However, ETA did not set forth clear timeframes for implementing the
+CARES Act UI programs and beginning payment to claimants. The CARES Act
+UI programs went into effect as soon as the law was passed, and suddenly,
+states were under pressure to pay claimants. Since there were no
+implementation dates conveyed, claimants expected payment to be arriving
+sooner rather than later during a crisis situation.
+At the same time, states had to attempt to initiate these programs before their
+implementation-related questions had been resolved. Setting clear
+implementation dates and payment timeframes for temporary programs would
+decrease the burden on ETA to issue guidance in quick succession, and would
+provide clear messaging for states to communicate to claimants. Furthermore, it
+would allow ETA and states the critical time needed to set up proper controls to
+mitigate losses.
+The guidance that states receive through ETA’s monitoring was also delayed.
+The CARES Act UI programs operated for six months without formal monitoring
+by ETA. Instead, ETA officials stated they provided technical assistance to states
+to support their implementation of CARES Act programs. As part of that technical
+assistance, ETA performed scans and developed monitoring tools to identify
+major issues for corrective action. However, despite these scans and monitoring
+tools, ETA did not ensure that states performed overpayment detection and
+recovery activities or reported overpayments and fraudulent payments.
+INSUFFICIENT IMPLEMENTATION FUNDING
+Twelve of the 55 states (22 percent) that we received responses from cited
+federal funding as insufficient to perform necessary IT updates, implement new
+programs, or hire a sufficient number of staff to handle the high volume of claims.
+Despite opportunities for states to receive implementation funding, state officials’
+reported all implementation costs were not covered or that the additional funding
+was not adequate to cover the years of underfunding. One state official said that
+the state received an initial grant of approximately $350,000 to implement the
+PUA program, but in reality the implementation cost was well over $4 million.
+
+DOL OIG, “COVID-19: More Can Be Done To Mitigate Risk To Unemployment
+Compensation Under The Cares Act,” (August 7, 2020; Report No. 19-20-008-03-315).
+https://www.oig.dol.gov/public/reports/oa/viewpdf.php?r=19-20-008-03-315&y=2020.
+36
+
+-19-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+CONCLUSION
+We recognize the unprecedented effect the COVID-19 pandemic has had on the
+UI system. With varying degrees of success, states implemented the new
+CARES Act UI programs, paid claimants, detected and recovered improper
+payments (including fraud), and submitted required reports – all under ETA’s
+management oversight and guidance. However, as we identified in this report,
+states still struggled to pay claimants, protect funds from improper payments, and
+to submit complete or accurate reporting – due to insufficient IT systems, staffing
+resources, and guidance from ETA.
+To prevent similar problems in the future, ETA must reassess the needs of the UI
+system nationwide – including IT systems, staffing levels, and the quality of
+guidance provided to states. We believe that modular 37 technological capabilities
+would help ETA to address these three common risk areas that we identified.
+Specifically, modular technological capabilities could alleviate the pressure on
+ETA to get guidance out to states and mitigate the need for states to add large
+amounts of staff. These capabilities could also enhance the ability of states to
+manage and process sudden increases in claims volume during emergencies or
+high unemployment. Furthermore, they could allow ETA and states to implement
+new programs quickly and meet the needs of claimants, while simultaneously
+protecting federal and state funds from fraudulent activities. By being prepared in
+advance, ETA would then be better positioned to support states in future crisis
+situations, such as the COVID-19 pandemic.
+OIG’S RECOMMENDATIONS
+We recommend the following to the Principal Deputy Assistant Secretary for
+Employment and Training:
+1. Conduct a study to assess the technological needs of the UI programs to
+determine the capabilities that need to be upgraded or replaced; the
+features necessary to effectively respond to rapid changes in the volume
+of claims in times of emergency or high unemployment; the capabilities
+needed to ensure effective and equitable delivery of benefits; and the
+capabilities to minimize fraudulent activities.
+2. Continue to work with states to develop, operate, and maintain a modular
+set of technological capabilities to modernize the delivery of UI benefits
+A Modular Open Systems Approach can be defined as a technical and business strategy for
+designing an affordable and adaptable system.
+37
+
+-20-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+that is sufficient to manage and process sudden spikes in claims volume
+during emergencies or high unemployment.
+3. Assist states with claims, overpayment, and fraud reporting to create clear
+and accurate information. Then use the overpayment and fraud reporting
+to prioritize and assist states with fraud detection and recovery.
+4. Develop standards for providing clear and reasonable timeframes to
+implement temporary programs to establish expectations for prompt
+benefit payments to claimants.
+SUMMARY OF ETA’S RESPONSE
+ETA agreed with our recommendations and indicated the agency has already
+taken action to implement some of the recommendations.
+We appreciate the cooperation and courtesies ETA extended us during this audit.
+OIG personnel who made major contributions to this report are listed in
+Appendix C.
+
+Carolyn R. Hantz
+Assistant Inspector General for Audit
+
+-21-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT 1: STATES SELECTED FOR IN-DEPTH ANALYSIS
+
+Name of States
+1. California
+2. Florida
+3. Georgia
+4. Illinois
+5. Michigan
+6. New Jersey
+7. New York
+8. North Carolina
+9. Ohio
+10. Pennsylvania
+11. Texas
+12. Washington
+
+Source: OIG generated based on analysis.
+
+-22-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT 2: CARES ACT IMPLEMENTATION BY STATE
+
+State
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+
+IMPLEMENTATION BY STATE
+Days until First Payment*
+UI IT Modernization**
+PEUC
+PUA
+FPUC
+Benefits
+Tax
+21
+45
+45
+32
+31
+28
+63
+33
+33
+28
+48
+48
+42
+19
+61
+6
+17
+40
+43
+27
+26
+28
+28
+26
+31
+31
+60
+3
+28
+
+13
+17
+17
+16
+31
+41
+10
+24
+15
+15
+18
+10
+42
+19
+27
+9
+17
+19
+21
+53
+13
+12
+14
+17
+16
+17
+18
+21
+21
+
+27
+84
+73
+61
+34
+61
+31
+40
+60
+76
+53
+25
+21
+61
+66
+20
+49
+94
+43
+12
+26
+19
+34
+38
+37
+55
+45
+44
+28
+-23-
+
+Completed
+Planning
+Planning
+Planning
+Planning
+Development
+Development
+Planning
+Planning
+Completed
+Planning
+Planning
+Completed
+Completed
+Completed
+Planning
+Planning
+Planning
+Completed
+Completed
+Completed
+Completed
+Completed
+Completed
+Completed
+Completed
+Planning
+Development
+Completed
+Completed
+Planning
+Completed
+
+Completed
+Planning
+Planning
+Completed
+Completed
+Development
+Development
+Planning
+Development
+Completed
+Development
+Planning
+Completed
+Completed
+Completed
+Completed
+Planning
+Planning
+Planning
+Completed
+Completed
+Completed
+Completed
+Completed
+Completed
+Completed
+Completed
+Development
+Completed
+Planning
+Planning
+Completed
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+State
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Puerto Rico
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virgin Islands
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+American Samoa
+Commonwealth of
+the Northern
+Mariana Islands
+
+IMPLEMENTATION BY STATE
+Days until First Payment*
+UI IT Modernization**
+PEUC
+PUA
+FPUC
+Benefits
+Tax
+10
+28
+33
+52
+31
+31
+42
+24
+17
+28
+34
+26
+18
+29
+101
+38
+24
+49
+56
+38
+-
+
+10
+18
+19
+26
+10
+17
+15
+26
+14
+15
+12
+17
+17
+15
+61
+25
+24
+10
+33
+20
+-
+
+17
+56
+49
+38
+52
+49
+50
+66
+45
+61
+53
+46
+45
+57
+101
+101
+24
+42
+90
+80
+-
+
+Development
+Completed
+Planning
+Development
+Development
+Planning
+Development
+Planning
+Planning
+Completed
+Planning
+Completed
+Planning
+Completed
+Planning
+Planning
+Development
+Completed
+Planning
+Planning
+Completed
+-
+
+Development
+Planning
+Planning
+Development
+Development
+Planning
+Completed
+Planning
+Planning
+Completed
+Completed
+Planning
+Planning
+Completed
+Planning
+Planning
+Completed
+Completed
+Planning
+Completed
+Completed
+-
+
+111
+
+111
+
+-
+
+-
+
+-
+
+Federated States
+of Micronesia
+Guam
+Republic of Palau
+
+108
+89
+
+108
+89
+
+-
+
+-
+
+-
+
+Republic of the
+Marshall Islands
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Source: OIG generated based on information from analysis and surveys.
+*States without numbers did not comply with data request or did not have data to report.
+**Information from National Association of State Workforce Agencies (NASWA) UI Information
+Technology Support Center.
+
+-24-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT 3: REQUIRED AND RECOMMENDED BENEFIT
+PAYMENT CONTROL ACTIVITIES
+
+REQUIRED CROSS-MATCHES
+•
+•
+•
+
+National Directory of New Hires (NDNH) Cross-match
+Quarterly Wage Records Cross-match
+Systematic Alien Verification for Entitlement (SAVE)
+RECOMMENDED CROSS-MATCHES
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+State Directory of New Hires (SDNH) Cross-match
+Social Security Administration (SSA) Cross-match
+Interstate Benefits (IB) Cross-match
+State Identification Inquiry (SID) and IB8606 enhancements made
+to the Interstate Connection (ICON) network cross-match to prevent
+concurrent claim filing in multiple states
+State Information Data Exchange System (SIDES)
+Identity Verification
+Incarceration Cross-match
+UI Integrity Center’s Integrity Data Hub (IDH) tools, including the
+Suspicious Actor Repository (SAR), Suspicious E-Mail Domains,
+Multi-State Cross-Match (MSCM), Foreign Internet Protocol (IP)
+Address Detection, and Fraud Alert application
+
+-25-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT 4: REPORTNG INSTRUCTION FOR THE FPUC, PUA,
+AND PEUC
+
+•
+
+On April 4, 2020, ETA issued UIPL 15-20 to State Workforce Agencies to
+provide states with operating, financial, and reporting instructions for the FPUC
+program. This UIPL informs states they are to do the following:
+− ETA 227. (OMB No. 1205-0173). States will report FPUC overpayments
+(established and recovered) in the comments section of the ETA 227
+report.
+
+•
+
+On April 5, 2020, ETA issued UIPL 16-20 to State Workforce Agencies to
+provide states with operating, financial, and reporting instructions for the PUA
+program. This UIPL informs states they are to do the following:
+− ETA 538. Total PUA initial claims processed during the report period and
+total PUA continued claims reflecting unemployment for the previous week
+will be reported in the comments section and labeled as “PUA IC” and
+“PUA CC” followed by the number…
+− ETA 539. Total PUA initial claims processed during the report period and
+total PUA continued claims reflecting unemployment for the previous week
+will be reported in the comments section and labeled as “PUA IC” and
+“PUA CC” followed by the number…
+− ETA 902P report contains monthly data on Pandemic Unemployment
+Assistance (PUA) activities provided by the CARES Act, enacted on March
+27, 2020. Section C. Overpayment Activity.
+
+•
+
+On April 10, 2020, ETA issued UIPL 17-20 to State Workforce Agencies to
+provide states with operating, financial, and reporting instructions for the
+PEUC program. This UIPL informs states they are to do the following:
+− ETA 227. Report Section A, Overpayments Established - Causes, lines 101
+and 103 through 110 for columns 2 through 5 and line 102 for columns 1
+through 5. Report all of Section B, Overpayments Established…
+− ETA 5159. Report Section A, Claims Activities, report initial claims
+information for columns 2 through 5 and column 7 for lines 101 through
+103…
+
+-26-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT 5: STATE REPORTED BENEFITS, OVERPAYMENTS,
+FRAUD, OVERPAYMENT RATE, AND FRAUD RATE
+
+Year
+
+Total Benefits
+
+Overpayments
+
+Fraud
+
+Overpayment
+Rate
+
+Fraud
+Rate
+
+2019
+2020
+
+$25,454,163,963
+
+$909,450,065
+
+$364,351,881
+
+3.6%
+
+1.4%
+
+123,867,305,700
+
+1,761,061,158
+
+157,523,403
+
+1.4%
+
+0.1%
+
+39
+
+64,752,553,903
+
+786,926,897
+
+71,888,641
+
+1.2%
+
+0.1%
+
+2020
+
+16,446,158,119
+
+11,173,216
+
+742,182
+
+0.1%
+
+0.0%
+
+FPUC
+2020
+279,223,369,004
+654,249,548
+Three Key
+CARES
+Act
+Programs 2020
+$360,422,081,026 $1,452,349,661
+Source: OIG analysis of ETA reported data.
+
+29,799,572
+
+0.2%
+
+0.0%
+
+$102,430,395
+
+0.4%
+
+0.0%
+
+Program
+Regular
+UI
+Regular
+UI
+PUA
+PEUC
+
+38
+39
+
+38
+
+2020
+
+For the period: January 1, 2020, through September 30, 2020.
+For the period: March 27, 2020, through September 30, 2020.
+
+-27-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT 6: FUNDS FOR BETTER USE
+
+Description
+
+Amount
+
+Area of Issue
+
+Total and Net Funds for Better Use: 40
+
+Total Funds for Better Use
+
+$39,155,643,774
+
+Less Duplicative Funds for Better
+Use 41
+
+$5,409,966,198
+
+Net Funds for Better Use
+
+$33,745,677,576
+
+ETA/SWA Controls
+
+Source: OIG generated based on analysis.
+
+As defined by the Inspector General Act, “funds for better use” means funds that could be used
+more efficiently or achieve greater program effectiveness if management took certain actions.
+These actions include reduction in future outlays and deobligation of funds from programs or
+operations.
+41
+Duplicative funds for better use are amounts identified in DOL OIG’s, “Alert Memorandum: The
+Employment and Training Administration (ETA) Needs to Ensure State Workforce Agencies
+(SWA) Implement Effective Unemployment Insurance Program Fraud Controls for High Risk
+Areas,” (February 22, 2021, Report No. 19-21-002-03-315).
+https://www.oig.dol.gov/public/reports/oa/viewpdf.php?r=19-21-002-03-315&y=2021.
+40
+
+-28-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+APPENDIX A: SCOPE, METHODOLOGY, & CRITERIA
+SCOPE
+The audit covered DOL’s and states’ implementation of three key CARES Act UI
+programs from March 27, 2020, to July 31, 2020. However, we did report the
+most current funding and overpayment data as December 31, 2020, for
+informational purposes and to estimate potential improper payments. Specifically,
+our audit focused on PUA, FPUC, and PEUC. These programs were selected
+due to their size and risk potential.
+METHODOLOGY
+This performance audit was conducted remotely and covered 12 states. In
+addition, survey questionnaires were sent to an additional 47 states not selected
+for more intense audit work. We completed this audit in accordance with
+Generally Accepted Government Auditing Standards (GAGAS).
+To answer our audit objective, we reviewed the CARES Act, ETA guidance, state
+agreements, program funding, and IT assistance. We reviewed the states’ status
+of implementation of the CARES Act, preparedness, initial eligibility
+determinations, continued eligibility determinations, improper payment detection
+and recovery, and states’ compliance with ETA’s oversight requirements.
+Surveyed states and Pacific Islands answered questions as to key
+implementation dates, unique claimants, total paid, total claims, overpayments,
+implemented controls, control activities, and applicable cross-matches.
+Furthermore, we analyzed summary data available from the states on UI claims
+and funding. We did not use sampling for this audit.
+SELECTION OF 12 STATES
+To perform our audit, we judgmentally selected 12 states for more intense
+analysis. To determine which states would be selected for more intense analysis,
+we performed a risk assessment using several risk factors.
+We determined the potential fraudulent payment and improper payments by
+obtaining claims data and calculating the percent of claims each state had filed
+for March 28, 2020, through May 30, 2020. That information was then multiplied
+by the estimated costs of the CARES Act UI provisions to identify the estimated
+cost by state. The estimated cost by state was then multiplied by the estimated
+fraud rate published in the Benefit Accuracy Measurement State Data Summary
+Improper Payment Information Act Performance Year 2019 Report. The
+-29-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+estimated cost by state was also multiplied by the estimated improper payment
+rate for each state in the yearly improper payment data reported to the OMB for
+Fiscal Year 2019, as required by the Improper Payments Information Act.
+In addition, we obtained and evaluated prior issues for State Workforce Agencies
+identified in OIG audits, the number of fraud reports, investigations reported by
+the Office of Investigations – Labor Racketeering and Fraud, and Congressional
+interest. This information was then weighted and evaluated by the team to
+determine the states where analysis would be the most impactful. The 12 states
+selected were California, Florida, Georgia, Illinois, Michigan, New Jersey, New
+York, North Carolina, Ohio, Pennsylvania, Texas, and Washington.
+STATES SURVEYED
+The audit team administered 47 survey questionnaires to states not included in
+in-depth analysis and received 43 responses.
+RELIABILITY ASSESSMENT
+We assessed the reliability of computerized data. We summarized the
+information provided by states and analyzed if the data was determined reliable
+for our purposes. We found that nine of the 12 states' data was reliable based on
+IT assessments, information reviews, interviews, inspections, comparisons,
+observations, walkthroughs, tracing, and policy reviews. We found that three of
+the 12 states’ data was unreliable; therefore, we did not use that information in
+our analysis or reporting.
+INTERNAL CONTROLS
+A performance audit includes an understanding of internal controls considered
+significant to the audit objective and testing compliance with significant laws,
+regulations, and other requirements. In planning and performing our audit, we
+considered whether internal controls significant to the audit objective were
+properly designed and placed in operation. This included reviewing policies and
+procedures. We confirmed our understanding of these controls and procedures
+through interviews and the review and analysis of documentation. We evaluated
+internal controls used for reasonable assurance. Our consideration of internal
+controls for administering key CARES Act UI programs would not necessarily
+disclose all matters that might be reportable conditions.
+CRITERIA
+•
+
+Coronavirus Aid, Relief, and Economic Security (CARES) Act, Public Law
+116-136 (March 27, 2020)
+
+-30-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+•
+•
+•
+•
+•
+•
+
+OMB Memorandum 20-21, Implementation Guidance for Supplemental
+Funding Provided in Response to the Coronavirus Disease 2019 (April 10,
+2020)
+GAO-14-704G, Standards for Internal Control in the Federal Government
+(September 2014)
+Unemployment Insurance Program Letter 15-20, CARES Act of 2020 Federal Pandemic Unemployment Compensation (FPUC) Program
+Operating, Financial, and Reporting Instructions (April 4, 2020)
+Unemployment Insurance Program Letter 16-20, CARES Act of 2020 –
+Pandemic Unemployment Assistance (PUA) Program Operating,
+Financial, and Reporting Instructions (April 5, 2020)
+Unemployment Insurance Program Letter 17-20, CARES Act of 2020Pandemic Emergency Unemployment Compensation (PEUC) Program
+Operating, Financial, and Reporting Instructions (April 10, 2020)
+Unemployment Insurance Program Letter 23-20, Program Integrity for the
+Unemployment Insurance (UI) Program and the UI Programs Authorized
+by the CARES Act of 2020 - Federal Pandemic Unemployment
+Compensation (FPUC), Pandemic Unemployment Assistance (PUA), and
+Pandemic Emergency Unemployment Compensation (PEUC) Programs
+(May 11, 2020)
+
+-31-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+APPENDIX B: AGENCY’S RESPONSE TO THE REPORT
+
+-32-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+-33-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+-34-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+-35-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+-36-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+APPENDIX C: ACKNOWLEDGEMENTS
+
+Key Contributors to this report were:
+Nick Cumby, Lead-Auditor
+Dwight Gates, Audit Director
+Hilda Gil, Auditor
+Sharon Newby, Auditor
+Betty Norwood, Lead-Audit Manager
+Christy Powell, Auditor
+Thomas Price, Auditor
+Jaimie Richardson, Audit Manager
+Michael Roberts, Auditor
+Mark Sanderson, Audit Manager
+Lynda Sanford, Audit Manager
+Lorenzo Thornton, Auditor
+Travis Williams, Auditor
+
+-37-
+
+CARES ACT IMPLEMENTATION
+NO. 19-21-004-03-315
+
+

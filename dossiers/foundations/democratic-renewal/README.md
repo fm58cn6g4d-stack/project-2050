@@ -1,6 +1,6 @@
 # Foundation: democratic renewal
 
-Role: the democratic renewal foundation (`charter/PLAN.md` 3.1): "a democracy and a government that work for the 21st century". Status: **draft, stage F, step 1 (section 1, the problem)**. Research only: Espen allowed stage F groundwork before the stage E boundary review on the condition that it makes no design choices (November 16). Nothing here recommends, decides or changes a level or status. Level: every item homed here is **L1** in `agenda/agenda.csv`, as the legacy files left it (`DEC-2026-10-30-03`).
+Role: the democratic renewal foundation (`charter/PLAN.md` 3.1): "a democracy and a government that work for the 21st century". Status: **draft, stage F, step 2 (sections 1 and 2)**. Research only so far: Espen allowed stage F groundwork on the condition that it makes no design choices (November 16), and stage E has since closed (`DEC-2026-11-16-04`). Nothing here recommends, decides or changes a level or status. Level: every item homed here is **L1** in `agenda/agenda.csv`, as the legacy files left it (`DEC-2026-10-30-03`).
 
 **What it covers** (`charter/PLAN.md` 3.1, exactly): "The voting floor, money in politics, ethics, courts, participation, long-run institutional reform, and a government that delivers: agency capacity, payment systems, and remedies when delivery fails. Each flagship's delivery section states its own needs; this foundation owns the cross-cutting state capacity." Stage F sizes that capacity "to the specified flagships" (`charter/PLAN.md` 6, stage F).
 
@@ -29,10 +29,11 @@ One file per section, each with a part per subject, as the immigration and secur
 
 | Section | File | Status |
 | --- | --- | --- |
-| 1. The problem | `1-problem.md`: parts A (voting floor and election administration), B (money in politics), C (ethics), D (courts), E (participation and civic life), F (long-run institutional reform), G (a government that delivers), with the flagships' stated state-capacity needs in G.6; the January 2029 baseline; inherited assumptions traced; evidence still needed | Draft (this PR) |
-| Capacity inventory | `capacity-needs-inventory.md`: every state-capacity need the flagships' delivery sections specify (about 190), with file and line, the hand-offs to this foundation and the agencies shared across flagships; the source of section 1, G.6 | Draft (this PR) |
-| 2-9 | Not started | Later stage F steps |
-| Evidence register | `evidence.json`, `EV-DEM-001` to `EV-DEM-144` (119 data, 25 analysis; graded A 62, B 4, C 77, D 1); each entry labelled data or analysis and graded (`DEC-2026-10-28-07`, `DEC-2026-10-30-01`); sources `SRC-5100` to 5206 in `library/catalog.csv` | Draft (this PR) |
+| 1. The problem | `1-problem.md`: parts A (voting floor and election administration), B (money in politics), C (ethics), D (courts), E (participation and civic life), F (long-run institutional reform), G (a government that delivers), with the flagships' stated state-capacity needs in G.6; the January 2029 baseline; inherited assumptions traced; evidence still needed | Draft (#397) |
+| Capacity inventory | `capacity-needs-inventory.md`: every state-capacity need the flagships' delivery sections specify (about 190), with file and line, the hand-offs to this foundation and the agencies shared across flagships; the source of section 1, G.6 | Draft (#397) |
+| 2. What works | `2-what-works.md`: the research, programs at home and abroad, and failures to avoid, part by part (A to G), with each claim's evidence strength, both views where contested, the legacy designs weighed against the evidence, and the questions it leaves for section 3 | Draft (this PR) |
+| 3-9 | Not started | Later stage F steps |
+| Evidence register | `evidence.json`, `EV-DEM-001` to `EV-DEM-319` (187 to 189 unused): 316 entries, 185 data and 131 analysis; graded A 102, B 46, C 167, D 1. Section 1 added `EV-DEM-001` to 144 (sources `SRC-5100` to 5206), section 2 `EV-DEM-145` to 319 (sources `SRC-5207` to 5377). Each entry is labelled data or analysis and graded (`DEC-2026-10-28-07`, `DEC-2026-10-30-01`) | Draft (sections 1 and 2) |
 
 ## IDs reserved
 

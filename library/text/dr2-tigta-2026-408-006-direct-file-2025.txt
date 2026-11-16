@@ -1,0 +1,1265 @@
+Source: https://www.tigta.gov/sites/default/files/reports/2026-03/2026408006fr.pdf
+Publisher: Treasury Inspector General for Tax Administration
+Retrieved: 2026-11-16
+Original SHA-256: 5323fc548546df8f1a5c6ff553f500f835c216f3bb903f1d604b5dd3270dead9
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+TREASURY INSPECTOR GENERAL FOR TAX ADMINISTRATION
+
+Direct File Activity for the 2025 Filing Season
+March 19, 2026
+Report Number: 2026-408-006
+
+TIGTACommunications@tigta.treas.gov | www.tigta.gov
+
+1
+
+HIGHLIGHTS: Direct File Activity for the 2025 Filing Season
+Final Audit Report issued on March 19, 2026
+
+Report Number 2026-408-006
+
+Why TIGTA Did This Audit
+
+What TIGTA Found
+
+The Inflation Reduction Act of
+2022 provided the IRS with
+$15 million to establish a task force
+to design an IRS-run, free direct
+electronic filing (e-file) system. In
+May 2023, the IRS provided its
+report to Congress, as required by
+the legislation. The IRS piloted a
+Direct File option for the
+2024 Filing Season.
+
+The One Big Beautiful Bill Act, enacted in July 2025, appropriated
+$15 million to the Department of the Treasury to deliver a report to
+Congress on the potential replacement of any direct e-file program
+run by the IRS. In October 2025, following the 2025 Filing Season, the
+Department of the Treasury reported to Congress that the IRS will
+suspend Direct File and recommended that the IRS refocus efforts on
+strengthening existing free filing programs, particularly Free File. The
+concerns discussed throughout this report should be considered as
+the IRS explores how to strengthen existing free filing programs.
+
+In May 2024, the IRS announced
+that Direct File would be a
+permanent option for filing tax
+returns beginning with the
+2025 Filing Season. In
+January 2025, the incoming
+Secretary of the Treasury also
+stated that Direct File would
+remain available for the 2025 Filing
+Season. However, in October 2025,
+the Department of the Treasury
+published a report announcing
+that the IRS would suspend Direct
+File.
+This audit provides the results of
+our assessment of the IRS’s
+expansion of Direct File during the
+2025 Filing Season and offers
+insights from our prior work that
+may be valuable as the IRS
+considers strengthening Free File.
+
+During the 2025 Filing Season, the IRS estimated that 32 million
+taxpayers would be eligible for Direct File. However, only
+751,000 taxpayers registered with Direct File. This was a 78 percent
+increase from 423,000 registered taxpayers during the 2024 Filing
+Season. Direct File management attributed the lower than expected
+usage to confusion in media coverage about availability and a lack of
+outreach. Additionally, 59 percent of the 751,000 Direct File users did
+not submit a tax return through the system during the 2025 Filing
+Season.
+Improvements were made to significantly reduce the number of
+rejected tax returns filed through Direct File. However, there are
+opportunities to further reduce this number. Direct File was not
+identifying and alerting the taxpayer of errors before the submission
+of the tax return. Doing so would allow the taxpayer to correct the
+issue and submit a correct tax return.
+Direct File also began importing some information returns during the
+2025 Filing Season to reduce human error and improve the
+taxpayer’s experience. We found that opportunities exist to expand
+the import of information returns, e.g., tax forms for secondary filers,
+corrected tax forms, and additional tax forms available to taxpayers
+through their Individual Online Account.
+While the IRS estimated that Direct File would cost $61.2 million for
+
+Impact on Tax Administration Fiscal Year 2025, the IRS’s actual cost for Fiscal Year 2025 totaled
+The IRS expanded Direct File for
+the 2025 Filing Season to include
+additional income, deductions, and
+credits. The IRS estimated that
+more than 32 million taxpayers,
+from 25 participating states, were
+potentially eligible to use it. This is
+an increase from the estimated
+19 million potentially eligible
+taxpayers from 12 participating
+states for the 2024 Filing Season
+pilot.
+
+$16.2 million as of May 2025. However, the IRS’s reported cost for
+Fiscal Year 2025 continued to exclude the costs from all IRS support
+functions. For example, Direct File did not include costs for
+employees detailed to the IRS by another federal agency to help
+develop and pilot Direct File, costs for other IRS functions’ employees
+who supported the program, and authentication costs.
+
+What TIGTA Recommended
+In January 2025, we recommended the IRS implement programming
+to ensure that Direct File did not allow submission of tax returns with
+errors that it could alert the taxpayer to fix.
+The IRS partially agreed and corrected programming for seven of the
+business rules as of April 20, 2025. However, Direct File will not be
+operational for a taxpayer to submit their 2025 tax return.
+
+Treasury Inspector General for tax administration seal.
+
+U.S. DEPARTMENT OF THE TREASURY
+WASHINGTON, D.C. 20024
+
+TREASURY INSPECTOR GENERAL
+FOR TAX ADMINISTRATION
+
+March 19, 2026
+MEMORANDUM FOR: COMMISSIONER OF INTERNAL REVENUE
+
+FROM:
+
+Diana M. Tengesdal
+Deputy Inspector General for Audit
+
+SUBJECT:
+
+Final Audit Report – Direct File Activity for the 2025 Filing Season
+(Audit No.: 2025408009)
+
+This report presents the results of our review to assess the Internal Revenue Service’s expansion
+of Direct File for the 2025 Filing Season. This review was included in our Fiscal Year 2025 Annual
+Audit Plan and addressed the major management and performance challenges of Improving
+Taxpayer Service and Protecting Taxpayer Rights.
+Management’s complete response to the draft report is included as Appendix III. If you have any
+questions, please contact me or Deann L. Baiza, Assistant Inspector General for Audit (Returns
+Processing and Account Services).
+
+Direct File Activity for the 2025 Filing Season
+
+Table of Contents
+Background .....................................................................................................................................Page 1
+Results of Review .......................................................................................................................Page 4
+A Limited Number of Taxpayers Created a Direct File Account, and
+Less Than Half of These Taxpayers Used it to Submit a Tax Return .................Page 4
+Improvements Were Made to Significantly Reduce the Number of
+Rejected Tax Returns, but Additional Actions Could Further Reduce
+This Number...........................................................................................................................Page 6
+Recommendation 1: ........................................................................... Page 7
+
+Direct File Began Importing Some Information Returns, but There
+Are Opportunities for Expansion....................................................................................Page 7
+Costs to Operate Direct File Were Significantly Less Than
+Estimated.................................................................................................................................Page 9
+Management Improved Direct File Customer Support .........................................Page 11
+Previous TIGTA Findings Could Help Inform Future Efforts to
+Improve the Existing Free File Program.......................................................................Page 12
+
+Appendices
+Appendix I – Detailed Objective, Scope, and Methodology................................Page 13
+Appendix II – Outcome Measure ...................................................................................Page 15
+Appendix III – Management’s Response to the Draft Report .............................Page 16
+Appendix IV – Glossary of Terms ...................................................................................Page 18
+Appendix V – Abbreviations.............................................................................................Page 20
+
+Direct File Activity for the 2025 Filing Season
+
+Background
+The Inflation Reduction Act of 2022 Section 10301(1)(B) provided the Internal Revenue Service
+(IRS) with $15 million to establish a task force to design an IRS-run, free direct electronic filing
+(e-file) system (commonly referred to as “Direct File”).1 In May 2023, the IRS provided its report
+to Congress as required by the legislation, which summarized:2
+·
+
+The cost of developing and running a free direct e-file tax return system with mobile
+friendly features and safeguards for taxpayer data.
+
+·
+
+Taxpayers’ opinions, expectations, and level of trust, based on surveys, for such a free
+direct e-file system.
+
+·
+
+The opinions of an independent third party of the overall feasibility, approach, schedule,
+cost, organizational design, and IRS capacity to deliver such a direct e-file tax return
+system.
+
+On the same day the report was issued, the Deputy Secretary of the Treasury issued a letter to
+the IRS requesting that it pilot a Direct File option for the 2024 Filing Season, which it did. In
+May 2024, the IRS announced that Direct File would be a permanent tax filing option beginning
+with the 2025 Filing Season. In January 2025, the incoming Secretary of the Treasury also stated
+that Direct File would remain available for the 2025 Filing Season.
+
+Additional filing criteria for Direct File
+The IRS expanded the tax scope for the 2025 Filing Season. Figure 1 shows the tax scope during
+the Direct File Pilot and the expansion for the 2025 Filing Season identified in blue text.
+
+1
+
+Pub. L. No. 117-169, 136 Stat. 1818. See Appendix IV for a glossary of terms.
+
+2
+
+Publication 5788, IRS Report to Congress: Inflation Reduction Act §10301(1)(B) IRS-run Direct e-File Tax Return
+System (May 2023).
+
+Page 1
+
+Direct File Activity for the 2025 Filing Season
+
+Figure 1: Expansion of Direct File Tax Scope for 2025 Filing Season
+Basics
+·
+
+Must Be a U.S. resident
+18 years or older
+
+·
+
+Wages
+
+·
+
+Interest (up to $1,500)
+
+·
+
+Any filing status
+
+·
+
+·
+
+Dependents, except
+those claimed by a noncustodial parent
+Language and
+accessibility preference
+supported
+
+·
+
+Deductions, Adjustments, and
+Credits
+
+Income
+·
+
+Child Tax Credit/
+Additional Child Tax Credit
+
+Interest (over $1,500)
+
+·
+
+Credit for other Dependents
+
+·
+
+Unemployment compensation
+
+·
+
+Earned Income Tax Credit
+
+·
+
+Social Security Benefits
+
+·
+
+Standard deduction only
+
+Alaska Permanent Fund
+Dividend
+Starting March 5, 2025:
+
+·
+
+Student loan interest
+deduction
+
+·
+
+Educator expense deduction
+
+·
+
+Retirement Income
+
+·
+
+·
+
+Contributions to and most
+distributions form employersponsored retirement plans
+
+Child and Dependent Care
+Credit
+
+·
+
+Premium Tax Credit
+
+·
+
+Direct rollovers from one
+employer-sponsored retirement
+plan to another, or to an
+Individual Retirement Account
+
+Credit for the Elderly and
+Disabled
+
+·
+
+Retirement Saving
+Contribution Credit
+
+·
+
+Health Savings Account
+Deduction
+
+·
+
+·
+
+Source: Summary of IRS Direct File Pilot Program Filing Season 2024 After Action Report – Table 1
+(May 2024), IRS News IR2024-13 (October 2024), and IRS News FS-2025-02 (March 2025).
+
+Taxpayers must also live in a participating state for the entire calendar year, without income
+attributable to another state, to use Direct File. Taxpayers cannot use Direct File if they would
+otherwise be required to file additional tax forms because of earned income exceeding certain
+thresholds, or they received income from multiple employers that exceeded $168,600.
+
+Estimated participation for Direct File
+For the 2025 Filing Season, the IRS estimated that more than 32 million taxpayers from
+25 participating states were potentially eligible to use Direct File. This increased from the
+estimated 19 million potentially eligible taxpayers from 12 participating states for the pilot
+during the 2024 Filing Season. The 12 states that participated in the 2024 Filing Season
+continued to participate in the 2025 Filing Season. Figure 2 is a map reflecting the states that
+participated in Direct File for the 2025 Filing Season.
+
+Page 2
+
+Direct File Activity for the 2025 Filing Season
+
+Figure 2: 25 States Participated in Direct File for the 2025 Filing Season
+
+Source: Summary of IRS News IR-2025-08 (January 2025).
+
+Customer service provided to Direct File users
+When using Direct File, taxpayers could click on available links for additional information that
+would explain tax concepts in more detail. However, if a taxpayer decided they needed more
+help, they could live chat with an IRS assistor. IRS assistors could provide technical support and
+answer basic tax law questions related to the tax scope. New for the 2025 Filing Season, IRS
+assistors could authenticate a taxpayer and obtain access to the taxpayer’s IRS account data, if
+needed. Assistors were generally available from 7 a.m. to 10 p.m. Eastern Standard Time Monday
+through Friday. Additionally, the IRS offered hours on selected weekends and extended hours in
+the final days of the filing season.
+
+Direct File was suspended after the 2025 Filing Season
+In July 2025, the President signed into law the One Big Beautiful Bill Act.3 The Act appropriated
+$15 million for the Department of the Treasury to deliver a report to Congress by October 2025
+on the potential replacement of any direct e-file program run by the IRS, among other topics.
+In October 2025, following the 2025 Filing Season, the Department of the Treasury reported to
+Congress announcing that the IRS would suspend Direct File, citing low overall participation,
+relatively high costs, and burdens compared to other free filing options.4 The report
+recommends that the IRS refocus efforts on modernizing, promoting, and strengthening existing
+free filing programs, particularly Free File. Additionally, the report announces that the
+Department of the Treasury and the IRS will:
+
+3
+
+Pub. L. No. 119-21, 139 Stat. 289.
+
+4
+
+Department of Treasury Report to Congress: Report on the Replacement of Direct File (October 2025).
+
+Page 3
+
+Direct File Activity for the 2025 Filing Season
+
+·
+
+Conduct an updated taxpayer survey of preferences over different filing options.
+
+·
+
+Convene a Free Filing Modernization Summit.
+
+·
+
+Create a common understanding of a “free return” across all filing options.
+
+·
+
+Collect more robust usage data from software providers.
+
+·
+
+Develop a supplemental report to Congress that includes updates based on the actions
+listed above.
+
+Per the Department of the Treasury, this approach aims to increase awareness of, and access to,
+free file services in a cost-effective way. According to the IRS’s Direct File web page, the tool is
+no longer available. Additionally, the web page states that users can access their prior Direct File
+tax return information by filing Form 4506, Request for Copy of Tax Return.
+The information presented in this report is specific to our assessment of the IRS’s expansion of
+Direct File during the 2025 Filing Season and offers insight from our prior work that may be
+valuable as the IRS considers strengthening Free File.
+
+Results of Review
+A Limited Number of Taxpayers Created a Direct File Account, and Less Than
+Half of These Taxpayers Used it to Submit a Tax Return
+During the 2025 Filing Season, the IRS estimated that 32 million taxpayers would be eligible for
+Direct File but only 751,000 taxpayers registered with Direct File. This was a 78 percent increase
+from 423,000 registered taxpayers during the 2024 Filing Season. Direct File management
+attributed the lower than expected usage to confusion in media coverage about the availability
+of Direct File. For example, in February 2025, media outlets reported that Direct File had been
+eliminated. Management also stated that a lack of outreach affected usage.
+For the second straight filing season less than half of those who registered submitted a tax
+return. Figure 3 shows that many taxpayers who created an account or signed into Direct File
+during the 2024 and 2025 Filing Seasons continue to not submit a tax return through Direct File.
+Specifically, 59 percent of the 751,000 Direct File users who accessed Direct File during the
+2025 Filing Season did not submit a tax return through the system.
+
+Page 4
+
+Direct File Activity for the 2025 Filing Season
+
+Figure 3: Direct File Usage Increased for the 2025 Filing Season
+
+Source: Direct File reports and our analysis of Modernized Tax Return Database data as of
+April 22, 2024, and April 20, 2025. Figures are rounded to the nearest thousand and may not
+add up due to rounding.
+
+There are multiple reasons why a taxpayer that created a Direct File account may not submit a
+tax return through it, including:
+·
+
+Eligibility: Taxpayers may have logged into Direct File, only to later determine that they
+were ineligible to use it. For example, a taxpayer may have created an account but later
+found out that they lived in a state that did not participate in Direct File. In addition,
+taxpayers could only file tax returns with certain types of income, deductions,
+adjustments, and tax credits (see Figure 1).
+
+·
+
+Technical issues: Direct File experienced limited technical issues that prevented
+taxpayers from submitting their tax return. In these instances, taxpayers were directed to
+use an alternative filing method.
+
+According to Direct File management, the system allowed users to opt in to a survey at the start
+of creating their tax return. However, management stated that they did not send surveys to
+taxpayers who did not complete their tax return with Direct File, as only a limited number of
+those users opted in to the survey. Although Direct File has been suspended, the IRS could
+consider obtaining feedback from taxpayers that signed into but did not submit a tax return to
+Page 5
+
+Direct File Activity for the 2025 Filing Season
+
+help inform their work on strengthening and modernizing existing free filing programs. This will
+help the IRS better understand the user experience and determine what additional system
+enhancements might be needed.
+
+Improvements Were Made to Significantly Reduce the Number of Rejected
+Tax Returns, but Additional Actions Could Further Reduce This Number
+The IRS uses e-file business rules to identify specific criteria on tax returns and send the tax
+return back to the taxpayer, e.g., the taxpayer does not report an expected tax form. When this
+occurs, the taxpayer fixes the error and resubmits their corrected tax return for processing. As of
+April 2025, the IRS rejected more than 41,000 tax return submissions (12 percent) filed through
+Direct File. This was an improvement from the pilot, where the IRS rejected 27 percent of Direct
+File submissions. However, additional opportunities existed to further reduce the number of
+rejected Direct File tax returns.
+
+Improvements were made based upon our prior recommendation
+The IRS requires taxpayers who e-file their tax return to verify their identity using either last
+year’s adjusted gross income (AGI) or a five-digit Personal Identification Number that is chosen
+when e-filing the prior year tax return, and their date of birth. We previously reported that a
+system error prevented some Direct File users from receiving their prior year AGI and
+recommended that the IRS determine the cause.5
+For the 2025 Filing Season, Direct File made improvements to allow users with filing statuses
+other than Married Filing Jointly to forego reporting their prior year AGI and instead
+authenticate using an electronic signature process. Users with a filing status of Married Filing
+Jointly could still have their prior year AGI imported from their Individual Online Account. As of
+January 31, 2025, there were 3,735 Direct File tax returns with a filing status of Married Filing
+Jointly. We were able to systemically review 1,579 tax returns (42 percent) and determined that
+the prior year AGI amounts appeared to import correctly. For the remaining 2,156 tax returns
+(58 percent), we were unable to systemically analyze the tax returns due to IRS database issues.
+As a result, we reviewed a randomly selected judgmental sample of 20 tax returns and
+determined that the prior year AGI appeared to import correctly.6 Overall, the IRS’s
+improvements resulted in fewer rejections of Direct File tax returns during the 2025 Filing
+Season.
+
+Additional actions could have further reduced the number of tax returns rejected
+Direct File management had not implemented programming to prevent taxpayers from
+submitting tax returns with errors that would be rejected by IRS e-file business rules. For
+example, the IRS has business rules that check values on a tax form to ensure that they do not
+exceed a certain amount. If the value exceeds that amount, then the tax return is rejected back
+to the taxpayer to correct their submission. However, Direct File allowed taxpayers to submit
+their tax return with the errors instead of alerting them to the error before they submitted it.
+This resulted in tax returns being rejected by the IRS, which burdens taxpayers. Taxpayers whose
+
+5
+
+TIGTA, Report No. 2025-408-015, Inflation Reduction Act: Results of the Direct File Pilot, p. 10 (March 2025).
+
+6
+
+A judgmental sample is a nonprobability sample, the results of which cannot be used to project to the population.
+
+Page 6
+
+Direct File Activity for the 2025 Filing Season
+
+tax return was rejected had to access Direct File through their online account to correct the
+errors and resubmit their tax return. Further, it delays the processing of their tax return and
+issuance of any refund due.
+In January 2025, we alerted Direct File management of our concern and recommended that they
+immediately implement programming to prevent taxpayers from submitting tax returns with
+errors. At the end of the filing season, we identified all rejected Direct File tax returns and the
+applicable unique business rule conditions. We identified 41 business rules that Direct File could
+have implemented to alert taxpayers of potential errors to fix before their tax return was
+submitted for processing. We determined that 2,037 taxpayers filed 3,144 tax returns that were
+rejected for these 41 business rules.
+Recommendation 1: In January 2025, we alerted the Chief, Direct File, to our concern that
+taxpayers were allowed to submit incorrect tax returns through Direct File. We recommended
+that Direct File immediately implement programming to ensure that it did not submit tax returns
+with errors that it could alert the taxpayer to fix, based upon information readily available.
+Management’s Response: IRS management partially agreed. As of April 20, 2025, Direct
+File has corrected programming for seven of the cited business rules. A decision has
+been reached that Direct File will not be operational for a taxpayer to submit their
+2025 tax return.
+
+Direct File Began Importing Some Information Returns, but There Are
+Opportunities for Expansion
+For the 2025 Filing Season, Direct File began importing certain information returns for the
+primary taxpayer only. The goal was to pilot the import of wage information from the Form W-2,
+Wage and Tax Statement, which would reduce human error and improve a taxpayer’s
+experience. The IRS expanded Direct File’s import option to include other information returns
+later in the filing season. For example, Direct File notified users with Health Insurance
+Marketplace coverage of the existence of the Form 1095-A, Health Insurance Marketplace
+Statement, and directed them to their Individual Online Account to view the tax form. Previously,
+many Direct File users had their tax returns rejected by the IRS for failure to reconcile their
+Health Insurance Marketplace coverage. By notifying users of their coverage, Direct File
+increased the chances of the taxpayer submitting an accurate tax return and reduced taxpayer
+burden by preventing a tax return from being rejected.
+While the IRS expanded importing of information returns, there remains limitations to those
+features. For example, taxpayers have to manually enter information on their Form W-2 despite
+the majority of the form being populated systemically. Figure 4 shows the information returns
+that Direct File imported for the 2025 Filing Season and any limitations with the import of the
+data.
+
+Page 7
+
+Direct File Activity for the 2025 Filing Season
+
+Figure 4: Direct File’s Import of Information Returns
+Information Return
+
+Date
+Started
+
+Limitations of Import
+
+Form W-2, Wage and
+Tax Statement
+
+1/31/2025
+
+Taxpayers had to manually enter Boxes 12-14
+(Miscellaneous Codes) and
+Boxes 15-20 (State and Local Information).
+
+Form 1099-INT, Interest
+Income
+
+4/3/2025
+
+Taxpayers with state withholdings were unable to
+use Direct File.
+
+Form 1095-A, Health
+Insurance Marketplace
+Statement
+
+4/3/2025
+
+Taxpayers only obtained an indicator noting the
+presence of the tax form.
+
+Source: Summary of information provided by Direct File management.
+
+Our analysis of 31,742 Forms W-2 imported by Direct File through March 13, 2025, found that
+the federal wages and withholding amounts matched the Forms W-2 received by the IRS.
+However, we were unable to systemically analyze the import of an additional 18,169 Forms W-2
+because the IRS’s audit trail database (not specific to Direct File) did not capture the imported
+Form W-2 information. According to Information Technology management, the audit trail
+database issue was resolved on April 7, 2025.
+
+Opportunities exist to import additional information returns
+We identified additional opportunities to expand the importing of information returns. For
+example, Direct File could import:
+·
+
+Information returns for secondary filers. Direct File does not import a secondary
+taxpayer’s information returns since the secondary taxpayer does not authenticate
+through the Credential Service Provider. IRS Chief Counsel stated that a secondary
+taxpayer’s information return is protected by Internal Revenue Code Section 6103 and
+therefore the IRS cannot import their information to the primary taxpayer’s account. As a
+result, there was too much complexity involved in implementing this for the 2025 Filing
+Season.
+
+·
+
+Corrected information returns. Direct File does not import corrected information
+returns, e.g., Forms W-2. While not common, we found examples where the IRS had
+corrected Form W-2 information on file at the time taxpayers submitted their tax return
+using Direct File. By not including the corrected Form W-2, taxpayers could potentially
+file an inaccurate tax return, i.e., one that does not report all federal wages or
+withholdings. This could create a burden for the taxpayer by having to file an amended
+tax return and result in an inefficient use of IRS resources to manually process that tax
+return.
+
+·
+
+Additional information returns. Direct File does not import, or provide a presence
+indicator, for all available information returns. During Calendar Year 2025, the IRS added
+numerous information returns to the Individual Online Account. Taxpayers with an online
+
+Page 8
+
+Direct File Activity for the 2025 Filing Season
+
+account could view six additional information returns that Direct File does not import.7
+Importing these information returns or providing an indicator to notify Direct File users
+of their presence could increase the accuracy of Direct File tax returns. It could also result
+in potential cost savings because the IRS would need fewer resources to address
+post-filing compliance. For example, there could be fewer discrepancies identified by the
+Automated Underreporter Program because the taxpayer was alerted to an information
+return in their Individual Online Account. However, many of these forms are often not
+required to be filed with the IRS until after most taxpayers begin filing their tax return. To
+fully realize this feature, the IRS would need to work with Congress to adjust the due
+dates for submitting various information returns.
+The IRS should consider the benefit to taxpayers of importing information returns, including the
+scenarios noted above, as it evaluates how to strengthen the existing Free File program.
+
+Costs to Operate Direct File Were Significantly Less Than Estimated
+The IRS estimated Direct File costs of $61.2 million for Fiscal Year (FY) 2025 but spent
+$16 million. Actual costs were less than the estimate because:
+·
+
+The IRS overestimated the number of Direct File users and IRS assistors needed to
+support them.
+
+·
+
+The IRS did not use some of their engineering and design contracts. For example, the IRS
+expected it would need $30 million for engineering and design contracts (see categories
+of information technology non-labor and other labor). However, Direct File management
+stated that this cost would not be realized since Direct File was told to halt development
+in mid-March 2025.
+
+Figure 5 shows the IRS’s FY 2025 cost estimates and its actual disbursements.
+
+7
+
+These six forms include Form 1099-NEC, Nonemployee Compensation; Form 1099-DIV, Dividends and Distributions;
+Form 1099-SA, Distributions from an HSA, Archer MSA or Medicare Advantage MSA; Form W-2 G, Certain Gambling
+Winnings; Form 1099-MISC, Miscellaneous Information; and Form 1099-R, Distributions from Pensions, Annuities,
+Retirement or Profit-Sharing Plans, IRAs, Insurance Contracts, etc.
+
+Page 9
+
+Direct File Activity for the 2025 Filing Season
+
+Figure 5: Direct File’s Reported Disbursements Were Less Than Estimates
+Estimate
+
+Disbursements
+
+Difference
+
+Customer Service
+
+$15.1M
+
+$3.5M
+
+$11.6M
+
+Labor
+
+$9.9M
+
+$3.5M
+
+$6.4M
+
+Corporate Costs8
+
+$5.2M
+
+$0.0M
+
+$5.2M
+
+Technology and Product
+
+$40.4M
+
+$12.7M
+
+$27.7M
+
+Information Technology Labor
+
+$9.9M
+
+$3.8M
+
+$6.1M
+
+Information Technology Non-Labor
+
+$23.0M
+
+$4.6M
+
+$18.4M
+
+Other Labor
+
+$6.8M
+
+$4.3M
+
+$2.5M
+
+Corporate Costs
+
+$0.7M
+
+$0.0M
+
+$0.7M
+
+Authentication/Credential Service Provider Costs
+
+$5.7M
+
+$0.0M
+
+$5.7M
+
+Totals
+
+$61.2M
+
+$16.2M
+
+$45.0M
+
+Source: IRS Chief Financial Officer data as of May 31, 2025. M = millions.
+
+Certain expenses continued to be excluded from Direct File’s reported costs
+We previously reported that the IRS’s Direct File costs for FYs 2023 and 2024 did not include an
+estimated $8.8 million in costs incurred by the government.9 For example, Direct File did not
+include costs for employees detailed to the IRS by another federal agency to help develop and
+pilot Direct File, costs for other IRS functions’ employees who supported the program, and
+authentication costs. The costs of detailed employees and other IRS employees are largely
+unknown since the IRS did not generally track the time associated with these employees, as we
+previously recommended. As a result, the IRS’s reported costs for FY 2025 continue to exclude
+the costs from all support functions.
+According to the IRS, Direct File’s costs depend on the number of users. However, management
+did not report the cost for taxpayers to authenticate to use the Direct File system. To create a
+Direct File account, users had to authenticate through a Credential Service Provider if they had
+not previously authenticated to access another IRS system. Management stated that they are
+unable to determine how Direct File users first authenticated themselves i.e., did they
+authenticate using Direct File or another IRS system. If all new Direct File users first
+authenticated using Direct File, we estimate that the IRS would have spent an estimated
+$2.5 million on Direct File.10
+
+8
+
+The estimated corporate costs includes support functions, e.g., communications and Office of Chief Counsel services.
+However, there are no cost disbursements because the IRS does not track these costs specifically to a program, i.e.,
+Direct File.
+9
+
+TIGTA, Report No. 2025-408-015, Inflation Reduction Act: Results of the Direct File Pilot, p. 6 (March 2025).
+
+10
+
+According to the IRS, the average costs for a new Credential Service Provider account is $3.64 and a returning user
+is $1.35. Our analysis of Direct File users during the 2025 Filing Season found that 88 percent were new users and
+12 percent were returning users. Therefore, based upon the 751,000 Direct File users, we estimate that the actual
+unreported costs were $2.5 million.
+
+Page 10
+
+Direct File Activity for the 2025 Filing Season
+
+Management Improved Direct File Customer Support
+The IRS received more than 47,000 live chats from taxpayers during the 2025 Filing Season with
+questions about Direct File. Nearly all these chats (96 percent) were answered within two
+minutes and the duration of the average chat time improved by one minute compared to the
+previous year. General questions about Direct File, eligibility questions, and other miscellaneous
+questions remained the top three reasons for a chat.
+Figure 6 compares Direct File live chat statistics from the 2024 and 2025 Filing Seasons.
+
+Figure 6: Average Chat Time Improved Despite More Chats
+2024
+Filing Season
+
+2025
+Filing Season
+
+Live Chats
+
+38,506
+
+47,499
+
+Abandoned Chats
+
+1,418
+
+1,802
+
+4%
+
+4%
+
+37,088
+
+45,697
+
+% Answered (Total)
+
+96%
+
+96%
+
+% Answered (2 Minutes)
+
+94%
+
+96%
+
+Average Chat Time
+
+9 minutes
+
+8 minutes
+
+% Abandoned
+Answered Chats
+
+Source: Chat Volume by Queue reports as of April 22, 2024, and April 22, 2025.
+
+During the 2025 Filing Season, Direct File management made improvements to Direct File
+customer support, including implementing our prior recommendations.11 These improvements
+allowed the taxpayer’s authentication from the Credential Service Provider to be used for Direct
+File chats, improved the scheduling and monitoring of assistors to ensure that the efficient use
+of resources, and improved chat technology to systemically queue up chats for assistors.
+Direct File also implemented a chatbot to respond to eligibility questions instead of having an
+IRS assistor provide a response. According to the IRS, as of April 2025, taxpayers interacted with
+the chatbot more than 16,000 times and the chatbot resolved 68 percent of the interactions
+without the need for a live chat. This demonstrates the effectiveness of the chatbot feature to
+resolve taxpayer questions and free up IRS assistors to respond to other, more complicated
+
+11
+
+TIGTA, Report No. 2025-408-015, Inflation Reduction Act: Results of the Direct File Pilot, p. 15 (March 2025).
+
+Page 11
+
+Direct File Activity for the 2025 Filing Season
+
+questions. We have an ongoing review of IRS’s use of chatbots to improve customer service
+more broadly.
+
+Previous TIGTA Findings Could Help Inform Future Efforts to Improve the
+Existing Free File Program
+As previously mentioned, the Department of the Treasury’s report recommends that the IRS
+refocus efforts on modernizing, promoting, and strengthening existing free filing programs,
+particularly Free File. Previous reports we issued about Free File may help inform this effort by
+increasing awareness of key issues that limit Free File’s reach and data security. We previously
+reported that:
+·
+
+Most taxpayers that are eligible for Free File do not use it. For Tax Year 2024, the
+Department of the Treasury estimates that 2.8 percent of eligible tax units filed tax
+returns through Free File as of August 2025. We previously surveyed taxpayers that were
+eligible for Free File but instead paid to use a Free File member’s commercial software.12
+We found that many taxpayers were unaware of the option or were unsure how to
+access it to obtain a guaranteed free filing. In addition, the process taxpayers must follow
+to participate in Free File was obscure and complex. Adding to the confusion was that
+some Free File members hid their Free File web page from internet search engines.
+
+·
+
+Improved oversight of Free File can help ensure that tax return data are protected
+from authorized disclosure. We also previously reported that the IRS does not have
+sufficient oversight of Free File members to ensure that they are meeting all
+requirements to protect tax return data from unauthorized disclosure.13 Several
+companies were sanctioned by the Federal Trade Commission for an unauthorized
+disclosure of taxpayer information while participating in the IRS Free File program. In
+addition, the IRS's oversight actions relating to privacy and security are limited. In
+response to our recommendation, the IRS committed to reviewing participating partners’
+privacy disclosures each filing season to determine if those disclosures comply with what
+is authorized by the Internal Revenue Code.
+
+As the IRS looks for opportunities to strengthen and expand existing free filing programs, it
+should remain mindful of prior findings and incorporate lessons learned from Direct File to
+strengthen oversight and mitigate previously identified risks.
+
+12
+
+TIGTA, Report No. 2020-40-009, Complexity and Insufficient Oversight of the Free File Program Result in Low
+Taxpayer Participation (February 2020).
+13
+
+TIGTA, Report No. 2024-400-067, Improvements Are Needed to Ensure Oversight of and Increase Participation in
+the Free File Program (September 2024).
+
+Page 12
+
+Direct File Activity for the 2025 Filing Season
+
+Appendix I
+Detailed Objective, Scope, and Methodology
+The overall objective of this audit was to assess the IRS’s expansion of Direct File for the
+2025 Filing Season. To accomplish our objective, we:
+·
+
+Monitored taxpayers’ usage of Direct File for the 2025 Filing Season and compared to
+the 2024 Filing Season. We also determined the number of tax returns filed that were
+rejected or accepted.
+
+·
+
+Monitored rejection reasons and determined whether improvements were made to
+reduce rejections during the 2025 Filing Season and whether additional actions could be
+taken to further reduce rejections. We also completed data analysis to determine the
+accuracy of the AGI import feature. We reviewed a judgmental sample of 20 of 2,156 tax
+returns we were unable to systemically analyze due to IRS audit trail database issues.1
+These e-filed tax returns were filed through Direct File during the 2025 Filing Season
+using the AGI import feature. We limited our sample to 20 tax returns based upon
+available IRS resources.
+
+·
+
+Monitored Direct File’s new importing of information returns, including determining
+whether additional importing would be helpful, and completed data analysis to
+determine whether Forms W-2 information was importing accurately.
+
+·
+
+Compared Direct File’s cost estimates for FY 2025 to actual costs reported. We also
+determined whether prior recommendations to include all costs were implemented or
+whether costs were still missing from what the IRS reported.
+
+·
+
+Followed up on prior audit recommendations to improve customer service to determine
+if they were implemented. We also monitored customer support usage.
+
+Performance of This Review
+This review was performed with information obtained from the Office of the Chief, Direct File,
+located in Washington, D.C., and the Cybersecurity function located in Chamblee, Georgia,
+during the period November 2024 through June 2025. We conducted this performance audit in
+accordance with generally accepted government auditing standards. Those standards require
+that we plan and perform the audit to obtain sufficient, appropriate evidence to provide a
+reasonable basis for our findings and conclusions based on our audit objective. We believe that
+the evidence obtained provides a reasonable basis for our findings and conclusions based on
+our audit objective.
+
+Data Validation Methodology
+We performed tests to assess the reliability of data that we pulled from the following sources:
+
+1
+
+·
+
+Modernized Tax Return Database.
+
+·
+
+Individual Return Transaction File.
+
+A judgmental sample is a nonprobability sample, the results of which cannot be used to project to the population.
+
+Page 13
+
+Direct File Activity for the 2025 Filing Season
+
+·
+
+Information Return Master File.
+
+·
+
+Direct File and Online Account audit trail logs.
+
+We evaluated the data by (1) performing electronic testing of required data elements, and/or
+(2) reviewing existing information about the data and the system that produced them. We
+determined that the data were sufficiently reliable for purposes of this report.
+We also performed applicable tests to assess the accuracy and completeness of the following
+data that was provided by the IRS:
+·
+
+Estimates of the number of taxpayers potentially eligible for Direct File during the
+2024 and 2025 Filing Seasons.
+
+·
+
+Number of taxpayers who created/signed-in to Direct File during the 2024 and
+2025 Filing Seasons.
+
+·
+
+FY 2025 Direct File cost estimates and actual costs through April 30, 2025.
+
+·
+
+Direct File live chat statistics for the 2024 and 2025 Filing Seasons.
+
+·
+
+Direct File chat bot statistics for the 2025 Filing Season.
+
+We determined that the data were sufficiently reliable for purposes of this report.
+
+Internal Controls Methodology
+Internal controls relate to management’s plans, methods, and procedures used to meet their
+mission, goals, and objectives. Internal controls include the processes and procedures for
+planning, organizing, directing, and controlling program operations. They include the systems
+for measuring, reporting, and monitoring program performance. We determined that the
+following internal controls were relevant to our audit objective: planning documents identifying
+the scope of Direct File for the 2025 Filing Season and the IRS’s plans for implementing and
+monitoring the 2025 Filing Season. We evaluated these controls by reviewing the planning
+documents for reasonableness and discussing with IRS management, as applicable. We also
+reviewed returns filed through Direct File.
+Additionally, we determined that the following internal controls were relevant to our audit
+objective: IRS’s product development guidance and cloud computing security policies. We
+evaluated these controls by reviewing product development artifacts and continuous monitoring
+reports.
+
+Page 14
+
+Direct File Activity for the 2025 Filing Season
+
+Appendix II
+Outcome Measure
+This appendix presents detailed information on the measurable impact that our recommended
+corrective action will have on tax administration. This benefit will be incorporated into our
+Semiannual Report to Congress.
+
+Type and Value of Outcome Measure:
+·
+
+Taxpayers Impacted – Potential; 2,037 taxpayers whose Direct File tax return rejected
+based upon errors that it could alert the taxpayer to fix (see Recommendation 1).
+
+Methodology Used to Measure the Reported Benefit:
+We identified tax returns that were rejected with errors that we believed Direct File could alert
+the taxpayer to fix based upon information readily available. In January 2025, we alerted Direct
+File management of our concerns and recommended that Direct File immediately implement
+programming to prevent this from happening on other tax returns. At the end of the filing
+season, we analyzed Modernized Tax Return Database data to identify all Direct File tax returns
+that were rejected and the business rules used. We reviewed all of the identified business rule
+conditions to assess whether the condition was something that Direct File could have alerted the
+taxpayer to fix before the return was submitted for processing. We identified 41 business rules.
+We determined that 2,037 taxpayers filed 3,144 tax returns that were rejected for these
+41 business rules.
+
+Page 15
+
+Direct File Activity for the 2025 Filing Season
+
+Appendix III
+Management’s Response to the Draft Report
+
+Page 16
+
+Direct File Activity for the 2025 Filing Season
+
+Page 17
+
+Direct File Activity for the 2025 Filing Season
+
+Appendix IV
+Glossary of Terms
+Term
+
+Definition
+
+Automated
+Underreporter
+Program
+
+Matches items reported on an individual’s income tax return to information
+supplied to the IRS from outside sources, e.g., employers, banks, credit unions,
+to determine if the taxpayer’s tax return reflected the correct amounts, thereby
+ensuring that the tax amount is correct.
+
+Business Rule
+
+Business rules are used to validate information included on e-filed tax returns
+for acceptance into tax return processing. The IRS will reject e-filed tax returns
+from processing when the tax return does not meet a business rule.
+
+Calendar Year
+
+Twelve consecutive months ending December 31.
+
+Credential Service
+Provider
+
+A trusted entity that issues or registers subscriber authenticators and issues
+electronic credentials to subscribers. A Credential Service Provider may be an
+independent third party or may issue credentials for its own use.
+
+Electronic Filing
+
+The transmission of tax information directly to the IRS using mobile devices or
+computers. E-filing options include (1) online self-prepared using a mobile
+device or personal computer and tax preparation software or (2) using a tax
+professional.
+
+Filing Season
+
+The period from January 1 through mid-April when most individual income tax
+returns are filed.
+
+Fiscal Year
+
+Any yearly accounting period, regardless of its relationship to a calendar year.
+The federal government’s fiscal year begins on October 1 and ends on
+September 30.
+
+Free File Program
+
+A free Federal tax preparation and electronic filing program for eligible
+taxpayers developed through a partnership between the IRS and the Free File
+Alliance LLC. The Alliance is a group of private sector tax software companies.
+
+Governance Board
+
+Exists to ensure that the program goals are achieved and that the program and
+component projects are delivered within their defined scope, schedule, and
+budget. In addition, the governance board approves risk response plans and
+milestone exits and resolves escalated issues.
+
+Individual Online
+Account
+
+An online system that allows taxpayers to securely access their individual
+account information through IRS.gov/account.
+
+Individual Return
+Transaction File
+
+A database maintained by the IRS that contains information on the individual
+tax returns it receives.
+
+Information Return
+Documents
+
+Information return documents include Form 1099 series and Form W-2
+documents.
+
+Internal Revenue Code
+
+The body of law that codifies all Federal tax laws. These laws constitute Title 26
+of the United States Code, which is a consolidation and codification by subject
+matter of the general and permanent laws of the United States.
+
+Page 18
+
+Direct File Activity for the 2025 Filing Season
+
+Term
+
+Definition
+
+Marketplace
+
+The place for people without health insurance to find information about health
+insurance options and to purchase health insurance. It is also known as the
+Health Insurance Marketplace or Health Insurance Exchange.
+
+Modernized Tax
+Return Database
+
+The official repository of all electronic returns processed through the
+Modernized e-file system.
+
+Personal Identification
+Number
+
+A five-digit number the taxpayer chooses to enter as their electronic signature.
+
+Tax Unit
+
+A tax unit is the individual or group of people who filed an income tax return
+with the IRS together. It is comprised of the primary filer, the secondary filer (if
+Married Filing Jointly), and dependents claimed by the filer(s).
+
+Page 19
+
+Direct File Activity for the 2025 Filing Season
+
+Appendix V
+Abbreviations
+AGI
+
+Adjusted Gross Income
+
+e-file
+
+Electronic Filing
+
+FY
+
+Fiscal Year
+
+IRS
+
+Internal Revenue Service
+
+TIGTA
+
+Treasury Inspector General for Tax Administration
+
+Page 20
+
+To report fraud, waste, or abuse,
+contact our hotline on the web at
+https://www.tigta.gov/reportcrime-misconduct.
+
+To make suggestions to improve IRS policies, processes, or systems
+affecting taxpayers, contact us at
+TIGTACommunications@tigta.treas.gov.
+
+Information you provide is confidential, and you may remain anonymous.
+
+
