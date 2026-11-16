@@ -91,6 +91,11 @@ def nii_base(T, t):
     """Net investment income above an unindexed threshold T, % of payroll per point (F11 at $400K, power law to F9)."""
     return sinc("run263", max(t, 2028)) / 12.4 * (T / 400000) ** (-K_NII)
 
+# A revenue change given directly as a dated series, % of payroll (funds-ss-offbudget.csv): E-Verify's off-budget payroll
+# loss (IMM-EV-SS; PR #328's write-up). Held at its last year's share of payroll after the series ends.
+OFFB = {int(r["year"]): float(r["loss_pct_payroll"]) for r in read("funds-ss-offbudget.csv")}
+def direct_loss(t): return OFFB.get(t, OFFB[max(OFFB)]) if t >= min(OFFB) else 0.0
+
 def provision_path(p):
     """(income change, cost change) by year, % of payroll."""
     s, rt, T = p["start"], p["rate"], p["threshold"]
@@ -107,6 +112,7 @@ def provision_path(p):
         if p["kind"] == "passthrough": return rt / 12.4 * sinc("run259", max(t, run_start("run259"))) * keep, 0.0
         if p["kind"] == "cola": return 0.0, shifted_cost("run116", t, s) * p["cola_bump"] / P["ss_cpie_ssa_bump"]
         if p["kind"] == "minbenefit": return 0.0, shifted_cost(P["ss_minben_run"], t, s)
+        if p["kind"] == "direct": return -direct_loss(t), 0.0
         raise ValueError(p["kind"])
     return f
 
@@ -117,7 +123,8 @@ for r in read("funds-ss-provisions.csv"):
                         credit_factor=g("credit_factor"), extra_haircut=g("extra_haircut"), cola_bump=g("cola_bump"),
                         ledger=r["ledger_rows"], basis=r["basis"])
 SSF = {i: provision_path(p) for i, p in SSP.items()}
-SS_SCEN = {"Current law": [], "D8 baseline": ["SS-1", "SS-2", "SS-3", "SS-4"], "D8 + SS-5": ["SS-1", "SS-2", "SS-3", "SS-4", "SS-5"]}
+# IMM-EV-SS is a decided, booked plan element (the immigration booking), so it rides with the plan's scenarios, not current law
+SS_SCEN = {"Current law": [], "D8 baseline": ["SS-1", "SS-2", "SS-3", "SS-4", "IMM-EV-SS"], "D8 + SS-5": ["SS-1", "SS-2", "SS-3", "SS-4", "SS-5", "IMM-EV-SS"]}
 
 PV = {t: 1 / ifac(t) for t in range(2025, 2102)}
 PVPAY = sum(payroll(t) * PV[t] for t in YEARS)
