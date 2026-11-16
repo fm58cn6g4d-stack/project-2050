@@ -1,0 +1,376 @@
+Source: https://www.frontiersin.org/articles/10.3389/fphy.2020.614596/pdf
+Publisher: Frontiers Media (Frontiers in Physics)
+Retrieved: 2026-11-16
+Original SHA-256: 0c3c00b0802e560fba37fc216880f79735b5d94c954253fc95c1050454c400f8
+Rights: CC BY 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+BRIEF RESEARCH REPORT
+published: 15 January 2021
+doi: 10.3389/fphy.2020.614596
+
+Size of National Assemblies: The
+Classic Derivation of the Cube-Root
+Law is Conceptually Flawed
+Giorgio Margaritondo *
+Faculté des Sciences de Base, Ecole Polytechnique Fédérale de Lausanne, EPFL SB IPHYS LQM, Lausanne, Switzerland
+
+For half a century, the analysis of the size of national assemblies was dominated by the
+famous cube-root relation with the population. However, a revisitation of that historical
+work with a physicist’s approach reveals basic conceptual problems that fatally undermine
+its conclusions. Furthermore, the assembly size evaluation exceeds the accuracy of all
+power equations, which cannot be reliably used for political analysis.
+Keywords: cube-root law, assembly size, members of parliament, representatives, optimal parliament, Taagepera
+
+Edited by:
+Haroldo V. Ribeiro,
+State University of Maringá, Brazil
+Reviewed by:
+Matjaž Perc,
+University of Maribor, Slovenia
+Angel Akio Tateishi,
+Federal Technological University of
+Paraná, Brazil
+Eszter Bokanyi,
+Corvinus University of Budapest,
+Hungary
+*Correspondence:
+Giorgio Margaritondo
+giorgio.margaritondo@epﬂ.ch
+Specialty section:
+This article was submitted to
+Social Physics,
+a section of the journal
+Frontiers in Physics
+Received: 06 October 2020
+Accepted: 24 November 2020
+Published: 15 January 2021
+Citation:
+Margaritondo G (2021) Size of National
+Assemblies: The Classic Derivation of
+the Cube-Root Law is
+Conceptually Flawed.
+Front. Phys. 8:614596.
+doi: 10.3389/fphy.2020.614596
+
+Frontiers in Physics | www.frontiersin.org
+
+INTRODUCTION
+Could the “optimal” size for the national assembly of a country be evaluated with methods similar to
+physics research? This is a timely question: the debate about insufﬁcient representation at the federal
+and state levels is raging in the USA. On the other side, there were recent initiatives to reduce the
+number of representatives in the national parliaments of many countries, including France, Hungary,
+Ireland, Japan, Mexico, the Netherlands, Portugal, Romania and the United Kingdom. And Italy just
+emerged from a referendum on this issue.
+The classic reference is the 1972 work of Taagepera [1], who introduced the well-known cube-root
+formula to link A, the number of parliament members, and Po, the population:
+A  aPo1/3 ,
+
+(1)
+
+where a is a constant.
+Alternate approaches were later presented [2–5]. In particular, Auriol and Gary-Bobo [2] derived
+a square-root law and then empirically obtained a 0.4 exponent from recent data for 100 countries.
+And the foundations of the cube-root law were criticized: notably, Jacobs and Otjes [6] questioned
+the cause-effect sequence that supposedly leads to it.
+The relation between A and Po size must be appreciated in a more general context [7–9]. Indeed,
+scaling power-law relations with the population were empirically and/or formally derived for other
+quantities like the number of election candidates [7, 8], patent production, personal income and the
+electrical cable length [9]. The general notion is that “similarly to large-scale physical thermodynamic
+systems, large groups of interacting humans may exhibit universal statistical properties” [7]. It is
+certainly not our scope here to challenge this notion, which is supported by a variety of facts and led
+to important contributions to the understanding of collective human phenomena. Our focused scope
+is to show that in the speciﬁc case of the cube-root relation for parliament members and population
+the derivation of Ref. [1] was ﬂawed.
+Furthermore, cube-root scaling laws have alternate mathematical explanations [10] with respect
+to [1] and were known as early as (at least) 1909 [11]. Therefore, our challenge of the classic
+derivation of Ref. [1] does not necessarily imply that the law itself is wrong.
+
+1
+
+January 2021 | Volume 8 | Article 614596
+
+Margaritondo
+
+The Illusory Optimal Parliament Size
+
+RESULTS
+We analyzed the consequences of the above argument by
+applying the same ﬁtting procedure as Ref. [1] to the data of
+its Table 1, i.e., a least-square ﬁt of the logarithms. Using Eq. 2
+instead of Eq. 1, i.e., an unrestricted ﬁt (the solid line in Figure 1),
+we got:
+A  0.10 Po0.45 ± 0.03
+
+(3)
+
+The exponent n  0.45 is actually closer to 0.5, the square-root law
+proposed by Auriol and Gary-Bobo [2], and to their empirical
+value 0.4.
+If one forces the same data set to be ﬁtted by a cube-root law,
+the result is:
+A  0.66 Po1/3 ;
+
+The corresponding ﬁt (Figure 1, dashed line) is statistically
+inferior: the standard deviation, 250, is larger than for Eq.
+3, 209.
+To present the second and third of the problems affecting Ref.
+[1], we must consider the key steps in its derivation of the cuberoot law. In a nutshell, the time spent in communications was
+considered as the essential factor in parliament effectiveness. And
+this time was linked to the number of communication channels.
+Two kinds of channels were considered: ﬁrst, those between
+each parliament member and his/her active constituency. The
+average number of such channels per member is:
+
+FIGURE. 1 | Log-log plot of the original data of Taagepera [1]. The solid
+line is the best ﬁt given by Eq. 3, whereas the dashed line is the (forced) ﬁt with
+a cube-root law, leading to Eq. 4.
+
+METHOD
+Taagepera’s work [1] remains a milestone in many experts’ view,
+is known by a broad public and is often used in political debates.
+For example, it was publicized by the media as “scientiﬁc” support
+for one of the sides in the recent Italian referendum [4]. We thus
+decided to directly look at its derivation from a physicist’s
+prospective, and surprisingly found that the original work [1]
+is affected by four critical problems:
+
+CC ≈ kPo /A,
+
+CA  (12)A(A − 1),
+
+(6)
+
+Which, except for unrealistically small assemblies, can be
+approximated as:
+CA ≈ A2 2
+
+Concerning the ﬁrst problem, the original article [1] did
+mention a power law more general than Eq. 1:
+
+(7)
+
+What is the relation between CC and CA? Ref. [1] simply
+assumed that for maximum effectiveness CC  CA, leading to:
+
+(2)
+
+A  (2k)1/3 Po1/3
+
+However, it surprisingly argued against using it to ﬁt the data:
+“The actual best ﬁt of the data to an expression of the form A 
+aPon . . . could be worked out, but this would be a dead end. . . It is
+more fruitful to look for a plausible theoretical model which would
+ﬁt the observed general trend”. This argument is fundamentally
+ﬂawed from a physicist’s point of view: it considers only one
+hypothesis, renouncing a priori to demonstrate its superiority
+with respect to others.
+
+Frontiers in Physics | www.frontiersin.org
+
+(5)
+
+Where kPo is the fraction of the population that is politically
+involved.
+The second type of communication channels connects
+different members of the assembly, to discuss and implement
+the measures identiﬁed by the ﬁrst type of channels. While
+communicating between them, two assembly members share
+the same channel, and it was argued in [1] that the total
+number of channels is in this case:
+
+(1) The cube-root law was not derived from its data and the
+corresponding ﬁt was arbitrarily forced.
+(2) The theoretical steps that were used to derive Eq. 1
+incorrectly evaluated one of its key factors.
+(3) The model assumed that each representative spends on the
+average equal times for communications inside and outside
+the parliament, an arbitrary hypothesis that has unrealistic
+consequences.
+(4) No evaluation of the “optimal” size based on a power law,
+including the cube-root one, can reach a meaningful
+accuracy.
+
+A  aPon .
+
+(4)
+
+(8)
+
+That is, to the cube-root law of Eq. 1, with a  (2k)1/3.
+However, this logic frame is affected by two conceptual
+problems. First, Eq. 5 applies to the channels between one
+member of the assembly and the corresponding constituency,
+whereas Eqs. 6 and 7 give the number of inter-assembly channels
+for all members. For one member, instead of Eqs. 6 and 7 one
+must use:
+
+2
+
+January 2021 | Volume 8 | Article 614596
+
+Margaritondo
+
+The Illusory Optimal Parliament Size
+
+CA  (12)(A − 1) ≈ A2
+
+However, not even ﬁltering could solve the fourth problem
+affecting Ref. [1]: accuracy. In fact, any evaluation of A with a
+power law is very sensitive to the exponent. Taking the derivative
+of Eq. 2 one obtains:
+
+(9)
+
+Which, assuming again that CC  CA, leads to:
+A  (2k)1/2 Po1/2
+
+(10)
+
+(dA/dn)  aPon ln(Po)  A ln(Po) ,
+
+Not a cube-root law but a square-root law [2].
+To better understand why Eq. 9 is correct and Eqs. 6 and 7 are
+not, imagine that the inter-assembly “communication channels”
+are only used for speeches. A single assembly member shares with
+each speaker one channel, and the total number of his/her
+channels corresponds to the number of speakers, i.e., of
+representatives, and not to its square. This changes the cuberoot law into a square-root law.
+The other ﬂaw in the above logic frame is that there is
+absolutely no evidence supporting its hypothesis that CC  CA.
+On the contrary, this assumption causes problems. In the original
+work of Ref. [1], it led to Eq. 8, and the corresponding forced best
+ﬁt of Eq. 4 would give k ≈ 14%, which hopefully is too low. And
+would become a catastrophic 0.3% with the unrestricted best ﬁt
+of Eq. 3.
+The balance between different types of communications can
+actually change from country to country and evolves with time.
+For example, modern communication instruments can reduce
+CC. Symmetrically, effective negotiators can decrease CA. Thus,
+assuming a priori that CC  CA is arbitrary.
+Supposing instead that CC/CA  x, Eqs. 8 and 10 become:
+A  (2k/x)1/3 P1/3
+o
+
+(11)
+
+A  (2k/x)1/2 P1/2
+o
+
+(12)
+
+dAA  1n(Po )dn
+since Po is large, an uncertainty dn, however small, is multiplied
+by a big factor ln(Po) and produces a large relative uncertainty
+dA/A. For example, the dn uncertainty ±0.03 from Eq. 3, with a
+population of just ≈617,000, would bring dA/A to ≈40%, large
+enough to accommodate most political preferences.
+In short, accurately evaluating the “optimal” size of a national
+assembly is illusory. And trying to inject additional factors besides
+the population cannot solve the above problems.
+At most, this kind of approach can identify the countries that
+strongly deviate from the “average”, as Ref. [2] did for France, the
+USA and Italy. However, without ﬁltering the “average” is for a
+mix of “good” and “bad” countries, thus a deviation from it is not
+necessarily negative . . .and could even be positive!
+In conclusion, we surprisingly found that the historical and
+very inﬂuential work of Taagepera [1] used a wrong equation to
+derive its famous cube-root law and arbitrarily assumed time
+equipartition between inter-assembly and assembly-constituency
+communications. An unrestricted best ﬁt of the original data does
+not support the cube-root law and would favor instead a power
+law with an exponent larger than 1/3. These ﬂaws fatally
+undermine the foundations of the cube-root law and disqualify
+- also for other reasons - its popular use to evaluate the “optimal”
+parliament size for a country.
+
+In both cases, the multiplication factor is a combination of k
+and x, which cannot be disentangled from each other by bestﬁtting the data. One could perhaps estimate k from independent
+information like literacy, party membership and voter
+participation. But evaluating x is extremely difﬁcult because of
+its multiple, competing and evolving causes and the lack of data.
+
+DATA AVAILABILITY STATEMENT
+Publicly available datasets were analyzed in this study. This data
+can be found here: Reference 1 in the manuscript.
+
+DISCUSSION
+The difﬁculties in evaluating x and k negatively impact the use of a
+power law to identify the “optimal” size of a national assembly.
+And other problems affect this approach.
+Note that Ref. [1] tried to link the populations not to the
+“optimal” parliament sizes but to the real sizes, using data for
+countries of all kinds. Of these, many if not most were plagued by
+corruption, ineffective bureaucracy and/or authoritarian regimes.
+Thus, they could hardly lead to “optimal” values of A.
+Hypothetically, one could try to extract an “optimal” value by
+using a subset of “good” countries, perhaps those with low
+indexes for corruption and bureaucratic ineffectiveness.
+
+Frontiers in Physics | www.frontiersin.org
+
+AUTHOR CONTRIBUTIONS
+The author conﬁrms being the sole contributor of this work and
+has approved it for publication.
+
+FUNDING
+Work supported in kind by the Ecole Polytechnique Fédérale de
+Lausanne (EPFL).
+
+3
+
+January 2021 | Volume 8 | Article 614596
+
+Margaritondo
+
+The Illusory Optimal Parliament Size
+
+REFERENCES
+
+8. Mantovani MC, Ribeiro HV, Lenzi EK, Picoli S, Mendes RS. Engagement in the
+electoral process: scaling laws and the role of political positions. Phys Rev. E
+(2013) 88:024802. doi:10.1103/PhysRevE.88.024802
+9. Bettencourt LMA, Lobo HD, Kühnert C, West GB. Growth, innovation, scaling,
+and the pace of life in cities. Proc Natl Acad Sci Unit States Am (2007) 104:
+7301–7306. doi:10.1073/pnas.0610172104
+10. Kendall MG, Stuart A. The law of the cubic proportion in election results. Br
+J Sociol (1950) 1:183–196. doi:10.2307/588113
+11. Gudgin G, Graham PJ (2012). Seats, votes, and the spatial organisation of
+elections. London, UK: ECPR Press, Chapter 3.
+
+1. Taagepera R. The size of national assemblies. Soc Sci Res (1972) 1:385–401. The
+data extracted from this article and used here can be found in https://
+sciencehistory.epﬂ.ch/physics-and-sociology/
+2. Auriol E, Gary-Bobo RJ. On the optimal number of representatives. Publ Choice
+(2012) 153:419–445. doi:10.1007/s11127-011-9801-3
+3. Auriol E, Gary-Bobo RJ. The More the Merrier? Choosing the optimal number of
+representatives in modern democracies. Available at: https://voxeu.org/optimalnumber-representatives-democracy (2007).
+4. De Sio L, Angelucci G. 945 sono troppi? 600 sono pochi? Qual è il numero
+“ottimale” di parlamentari?. Available at: https://cise.luiss.it/cise/2019/10/09/945sono-troppi-600-sono-pochi-quale-e-il-numero-ottimale-di-parlamentari (2019).
+5. Jacobs K, Otjes S. Explaining reforms of assembly sizes. Available at: https://ecpr.
+eu/Filestore/PaperProposal/3bc100be-56fe-4efc-8d8c-a1f0b85e7f24.pdf (2014)
+6. Jacobs K, Otjes S. Explaining the size of assemblies. A longitudinal analysis of
+the design and reform of assembly sizes in democracies around the world. Elect
+Stud (2015) 40:280–292. doi:10.1016/j.electstud.2015.10.001
+7. Mantovani MC, Ribeiro HV, Moro MV, Picoli S, jr, Mendes RS. Scaling laws
+and universality in the choice of election candidates. European Phys. Letters
+(2011) 96:48001. doi:10.1209/0295-5075/96/48001
+
+Frontiers in Physics | www.frontiersin.org
+
+Conﬂict of Interest: The author declares that the research was conducted in the
+absence of any commercial or ﬁnancial relationships that could be construed as a
+potential conﬂict of interest.
+Copyright © 2021 Margaritondo. This is an open-access article distributed under
+the terms of the Creative Commons Attribution License (CC BY). The use,
+distribution or reproduction in other forums is permitted, provided the
+original author(s) and the copyright owner(s) are credited and that the
+original publication in this journal is cited, in accordance with accepted
+academic practice. No use, distribution or reproduction is permitted which
+does not comply with these terms.
+
+4
+
+January 2021 | Volume 8 | Article 614596
+
+
