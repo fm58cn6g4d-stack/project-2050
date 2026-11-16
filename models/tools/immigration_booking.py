@@ -154,7 +154,8 @@ if __name__ == "__main__":
         print(json.dumps(b, indent=1, default=str))
     else:
         for k, v in b["years"].items():
-            print(f"{k:24s} {sum(v)/1000:8.4f}T  FY2040 {b['fy2040'][k]:7.2f}  {v}")
+            # CAP-7S is a FY2030-39 cash proxy with no FY2040 figure, so it has no fy2040 key: print 0.00
+            print(f"{k:24s} {sum(v)/1000:8.4f}T  FY2040 {b['fy2040'].get(k, 0.0):7.2f}  {v}")
         print("ledger", b["ledger"])
         print("components", [(n, a, round(pm, 6)) for n, a, pm in b["components"]["IMM-1"]])
         print("revenue", b["revenue"], {k: round(v, 6) for k, v in b["revenue_perms"].items()})
