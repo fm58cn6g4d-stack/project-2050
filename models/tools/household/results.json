@@ -3628,8 +3628,8 @@
    "dynamic_lo": -1.36,
    "dynamic_mid": -0.33,
    "dynamic_optimistic": 1.12,
-   "gap_after_accepted": 2.74,
-   "gap_mid": 7.25
+   "gap_after_accepted": 2.92,
+   "gap_mid": 7.43
   },
   "legacy": {
    "gf": {
@@ -3658,10 +3658,10 @@
      79
     ],
     "Q-H7": [
-     14.41,
-     4.94,
+     14.06,
+     6.81,
      2.46,
-     51
+     66
     ],
     "Q-SAF": [
      9.58,
@@ -4069,10 +4069,10 @@
      79
     ],
     "Q-H7": [
-     14.41,
-     4.94,
+     14.06,
+     6.81,
      2.46,
-     51
+     66
     ],
     "Q-SAF": [
      9.58,
@@ -5646,8 +5646,8 @@
      "value": -630830.0
     },
     "Q-H7_net_Q1": {
-     "current": 15232,
-     "drifted": false,
+     "current": 14691,
+     "drifted": true,
      "half90": 157.4738,
      "hi90": 15389.4738,
      "lo90": 15074.5262,
@@ -5656,8 +5656,8 @@
      "value": 15232.0
     },
     "Q-H7_net_Q2": {
-     "current": 15617,
-     "drifted": false,
+     "current": 13293,
+     "drifted": true,
      "half90": 211.7596,
      "hi90": 15828.7596,
      "lo90": 15405.2404,
@@ -5666,8 +5666,8 @@
      "value": 15617.0
     },
     "Q-H7_net_Q3": {
-     "current": 18179,
-     "drifted": false,
+     "current": 12575,
+     "drifted": true,
      "half90": 217.6611,
      "hi90": 18396.6611,
      "lo90": 17961.3389,
@@ -5676,8 +5676,8 @@
      "value": 18179.0
     },
     "Q-H7_net_Q4": {
-     "current": 18542,
-     "drifted": false,
+     "current": 8130,
+     "drifted": true,
      "half90": 208.5411,
      "hi90": 18750.5411,
      "lo90": 18333.4589,
@@ -5686,8 +5686,8 @@
      "value": 18542.0
     },
     "Q-H7_net_Q5": {
-     "current": -26857,
-     "drifted": false,
+     "current": -56461,
+     "drifted": true,
      "half90": 237.093,
      "hi90": -26619.907,
      "lo90": -27094.093,
@@ -5696,8 +5696,8 @@
      "value": -26857.0
     },
     "Q-H7_net_T1": {
-     "current": -621186,
-     "drifted": false,
+     "current": -867350,
+     "drifted": true,
      "half90": 3550.443,
      "hi90": -617635.557,
      "lo90": -624736.443,
@@ -6622,6 +6622,25 @@
     "source": "micro",
     "top1": 0.3
    },
+   "employer_contrib": {
+    "legacy": [
+     0.7,
+     5.3,
+     13.7,
+     27.4,
+     52.9
+    ],
+    "legacy_top1": 3.4,
+    "shares": [
+     0.7,
+     5.3,
+     13.7,
+     27.4,
+     52.9
+    ],
+    "source": "legacy",
+    "top1": 3.4
+   },
    "employer_cov": {
     "legacy": [
      3,
@@ -6773,6 +6792,82 @@
     ],
     "source": "legacy",
     "top1": 1.5
+   },
+   "health_contrib": {
+    "legacy": [
+     0.3,
+     3.6,
+     8.9,
+     15.5,
+     71.7
+    ],
+    "legacy_top1": 39.2,
+    "shares": [
+     0.3,
+     3.6,
+     8.9,
+     15.5,
+     71.7
+    ],
+    "source": "legacy",
+    "top1": 39.2
+   },
+   "health_contrib_avoid": {
+    "legacy": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "legacy_top1": 54.7,
+    "shares": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "source": "legacy",
+    "top1": 54.7
+   },
+   "health_contrib_wave": {
+    "legacy": [
+     0.2,
+     2.5,
+     6.2,
+     11,
+     80.1
+    ],
+    "legacy_top1": 51.8,
+    "shares": [
+     0.2,
+     2.5,
+     6.2,
+     11,
+     80.1
+    ],
+    "source": "legacy",
+    "top1": 51.8
+   },
+   "health_credit": {
+    "legacy": [
+     7.1,
+     27.3,
+     35,
+     23.9,
+     6.7
+    ],
+    "legacy_top1": 0.1,
+    "shares": [
+     7.1,
+     27.3,
+     35,
+     23.9,
+     6.7
+    ],
+    "source": "legacy",
+    "top1": 0.1
    },
    "health_hh": {
     "legacy": [
@@ -7797,93 +7892,93 @@
      }
     }
    },
-   "Q-H7. Q with the single plan's household rows (H7h, H7w, H7x) and its long-term care title (H9), before the settlement's new taxes; not a pass or fail": {
+   "Q-H7. Q with the single plan as booked: its household rows on the corrected path (H7h, H7w, H7x, H7c), its long-term care title (H9) and its financing (package E: HCU, the fold-in, HEC and HEX, the new streams HS1 to HS4; H1a is in Q)": {
     "legacy": {
      "Q1": {
-      "benefit": 15664,
-      "cost": 1355,
-      "net": 14308,
-      "pct": 62.2
+      "benefit": 15309,
+      "cost": 1475,
+      "net": 13833,
+      "pct": 60.1
      },
      "Q2": {
-      "benefit": 20471,
-      "cost": 3782,
-      "net": 16689,
-      "pct": 27.8
+      "benefit": 19747,
+      "cost": 5379,
+      "net": 14368,
+      "pct": 23.9
      },
      "Q3": {
-      "benefit": 26895,
-      "cost": 7228,
-      "net": 19667,
-      "pct": 18.7
+      "benefit": 25383,
+      "cost": 11561,
+      "net": 13822,
+      "pct": 13.2
      },
      "Q4": {
-      "benefit": 31066,
-      "cost": 10854,
-      "net": 20213,
-      "pct": 11.2
+      "benefit": 28690,
+      "cost": 19379,
+      "net": 9311,
+      "pct": 5.2
      },
      "Q5": {
-      "benefit": 30706,
-      "cost": 58817,
-      "net": -28111,
-      "pct": -5.4
+      "benefit": 27823,
+      "cost": 87320,
+      "net": -59497,
+      "pct": -11.4
      },
      "Q5x": {
-      "benefit": 30625,
-      "cost": 26060,
-      "net": 4565,
+      "benefit": 27745,
+      "cost": 42595,
+      "net": -14850,
       "pct": null
      },
      "T1": {
-      "benefit": 32259,
-      "cost": 681206,
-      "net": -648947,
-      "pct": -15.1
+      "benefit": 29305,
+      "cost": 937098,
+      "net": -907792,
+      "pct": -21.1
      }
     },
     "model": {
      "Q1": {
-      "benefit": 16522,
-      "cost": 1290,
-      "net": 15232,
-      "pct": 54.0
+      "benefit": 16147,
+      "cost": 1455,
+      "net": 14691,
+      "pct": 52.1
      },
      "Q2": {
-      "benefit": 19104,
-      "cost": 3487,
-      "net": 15617,
-      "pct": 20.3
+      "benefit": 18389,
+      "cost": 5096,
+      "net": 13293,
+      "pct": 17.3
      },
      "Q3": {
-      "benefit": 24897,
-      "cost": 6717,
-      "net": 18179,
-      "pct": 13.9
+      "benefit": 23507,
+      "cost": 10932,
+      "net": 12575,
+      "pct": 9.6
      },
      "Q4": {
-      "benefit": 28679,
-      "cost": 10137,
-      "net": 18542,
-      "pct": 9.0
+      "benefit": 26480,
+      "cost": 18350,
+      "net": 8130,
+      "pct": 3.9
      },
      "Q5": {
-      "benefit": 29611,
-      "cost": 56468,
-      "net": -26857,
-      "pct": -5.7
+      "benefit": 26815,
+      "cost": 83277,
+      "net": -56461,
+      "pct": -12.0
      },
      "Q5x": {
-      "benefit": 29736,
-      "cost": 25313,
-      "net": 4423,
+      "benefit": 26928,
+      "cost": 40711,
+      "net": -13783,
       "pct": null
      },
      "T1": {
-      "benefit": 27229,
-      "cost": 648415,
-      "net": -621186,
-      "pct": -39.5
+      "benefit": 24675,
+      "cost": 892026,
+      "net": -867350,
+      "pct": -55.1
      }
     }
    },

@@ -49,3 +49,8 @@ snap_earn,micro,snap_earn,micro,"Earnings of SNAP-receiving SPM units on the rul
 ssi,micro,ssi+ssi_dep,micro,"SSI received, adults' and children's: INC-3.01's new and kept eligibles and INC-3.03's territory residents (not in the CPS) stand in as today's recipients"
 ssi_exclusions,micro,rule:ssi_exclusions_indexed,micro,"INC-3.02's indexed exclusions, recipient by recipient (rules.py)"
 cdctc,micro,rule:cdctc_refundable,micro,"INC-4's refundable dependent care credit, rescoped to care no other program pays for (Espen, November 13), tax unit by tax unit, on the CPS's out-of-pocket child care spending (already net of the school-age block grant, CCDF) net of the child care guarantee (rules.py); care for a disabled adult is not in the CPS"
+health_contrib,legacy,,,kept: the health financing tools' own key on these households (health_booking.py incidence_booked())
+health_contrib_wave,legacy,,,kept: the health financing tools' own key on these households (health_booking.py incidence_booked())
+health_contrib_avoid,legacy,,,kept: the health financing tools' own key (health_booking.py incidence_booked())
+employer_contrib,legacy,,,kept: the health financing tools' own key on these households (health_booking.py incidence_booked())
+health_credit,legacy,,,kept: the health financing tools' own key on these households (health_booking.py incidence_booked())

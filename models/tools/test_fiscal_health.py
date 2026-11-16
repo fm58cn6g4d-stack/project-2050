@@ -14,8 +14,10 @@ only, plus the dossier's own path script through health_booking.py. Checks that:
 - the package's revenue rows are general-fund base revenue, HX among them, and none is netted in HLT-7;
 - HLT-3 and HLT-5 are retired, HLT-1, HLT-2 and HLT-6 end with the 2035 endpoint, and HLT-4's retired parts end
   with their waves while its safety-net part continues (its long-term care is care_booking.py's, test_fiscal_care.py);
-- the household test's health rows (incidence-rows.csv H7h, H7w, H7x, with PB, H2 and H5p; their keys and phase-in
-  shapes) equal health_booking.py's incidence() derivation (care follow-up 2).
+- the household test's health rows (incidence-rows.csv H7h, H7w, H7x, H7c and package E's HCUw, HCU, HCW to HCH, HEC,
+  HEX and HS1 to HS4, with PB, H2 and H5p; their keys and phase-in shapes) equal health_booking.py's incidence_booked()
+  derivation on the corrected, booked path, and scenario Q-H7 carries them with health's contributions outside the
+  revenue-mix test (DEC-2026-11-15-29).
 """
 import csv
 import importlib.util
@@ -127,7 +129,12 @@ class HealthBooking(unittest.TestCase):
         sr = self.part("HLT-7", "status-rule")
         self.assertAlmostEqual(t(sr), self.b["totals"]["status_rule_window"], delta=0.0005)
         self.assertAlmostEqual(sr[2040], self.b["fy2040"]["status_rule"], delta=0.5)
-        self.assertAlmostEqual(self.b["totals"]["status_rule_window"], -0.4105, delta=0.0005)   # part 2b
+        # part 2b's -$0.41T on care's base; on the corrected base the people removed cost the cost review's price for
+        # the newly covered, with D1 and D5 (health_booking.status_rule(); #394's follow-up)
+        sr_ = HB.status_rule(HB.corrected())
+        self.assertAlmostEqual(sr_["care_base"][1] / 1000, -0.4105, delta=0.0005)
+        self.assertAlmostEqual(self.b["totals"]["status_rule_window"], -0.2293, delta=0.0005)
+        self.assertTrue(all(0.5 < sr_["scale"][y] < 0.7 for y in range(2031, 2041)))
         self.assertTrue(all(sr[y] < 0 for y in range(2031, 2041)))     # a saving from wave 1
         self.assertEqual(sr[2030], 0)
         lo, mid, hi = self.b["totals"]["status_rule_range"]
@@ -177,30 +184,57 @@ class HealthIncidence(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.inc = HB.incidence()
+        cls.ib = HB.incidence_booked()
         cls.rows = {r["id"]: r for r in rows("incidence-rows.csv")}
         cls.keys = {r["key"]: r for r in rows("incidence-keys.csv")}
         cls.phase = {r["id"]: r for r in rows("incidence-phase-in.csv")}
 
     def test_rows_equal_the_derivation(self):
-        for rid in ("H7h", "H7w"):
-            self.assertEqual(float(self.rows[rid]["amount"]), self.inc["rows"][rid], rid)
-        self.assertEqual(self.rows["H7x"]["amount"], "[HX]")
-        self.assertEqual((self.rows["H7x"]["side"], self.rows["H7h"]["side"], self.rows["H7w"]["side"]),
-                         ("cost", "benefit", "benefit"))
+        """The D3 rows are on the corrected, booked path (#394's follow-up): HLT-7's household rows with the cost
+        review's correction, the credit, and package E's household-facing rows with the four new streams."""
+        ib = self.ib
+        for rid, amount in ib["amounts"].items():
+            r = self.rows[rid]
+            self.assertEqual(r["set"], "option", rid)
+            self.assertEqual(r["amount"], str(amount), rid)
+            self.assertEqual(r["parts"], ib["parts"][rid], rid)
+            self.assertEqual(r["side"], "benefit" if rid in ("H7h", "H7w", "H7c") else "cost", rid)
+        # each row's ten-year amount is its booked path's: the ledger's for the package's rows, HCU split in two
+        led = {r["id"]: r["mid"] for r in json.load(open(BUILD / "ledger.json"))["revenue"]}
+        for rid in ("HCW", "HCA", "HCP", "HCH", "HEC", "HEX", "HS1", "HS2", "HS3", "HS4"):
+            self.assertAlmostEqual(led[rid], ib["window"][rid], delta=0.0015, msg=rid)
+        self.assertAlmostEqual(ib["window"]["HCU"] + ib["window"]["HCUw"], led["HCU"], delta=0.0015)
+        self.assertAlmostEqual(ib["rows"]["H7c"], ib["credit_window"], delta=0.0005)
+        # the corrections against the care path: the spending that stays outside the plan, and federal coverage
+        self.assertLess(ib["rows"]["H7h"], self.inc["rows"]["H7h"])
+        self.assertAlmostEqual(ib["rows"]["H7w"] / self.inc["rows"]["H7w"], 1 - HB.FEDCOV_REVENUE_2032 / 680.0, delta=0.001)
+        self.assertEqual(self.rows["H1a"]["set"], "package")          # H1a has been a row of Q since before health
         self.assertEqual(self.rows["H5p"]["amount"], "0")
         self.assertEqual((self.rows["PB"]["amount"], self.rows["H2"]["amount"]), ("0.28*[HLT-2]", "1.28*[HLT-2]"))
 
     def test_keys_and_shapes_equal_the_derivation(self):
-        for key, (q, t1) in self.inc["key"].items():
+        for key, (q, t1) in list(self.inc["key"].items()) + list(self.ib["keys"].items()):
             k = self.keys[key]
             self.assertEqual([float(k[c]) for c in ("q1", "q2", "q3", "q4", "q5")], q, key)
             self.assertEqual(float(k["top1"]), t1, key)
             self.assertAlmostEqual(sum(q), 100, places=6)
-        for rid, v in self.inc["shapes"].items():
+        shapes = {**{k: v for k, v in self.inc["shapes"].items() if k not in ("H7h", "H7w")}, **self.ib["shapes"]}
+        for rid, v in shapes.items():
             r = self.phase[rid]
             self.assertEqual(r["method"], "norm", rid)
             self.assertEqual([float(r["y%d" % y]) for y in W], v, rid)
         self.assertEqual((self.phase["PB"]["same_as"], self.phase["H7x"]["same_as"]), ("H2", "H7w"))
+
+    def test_scenario_and_revenue_mix(self):
+        """Scenario Q-H7 carries every health row; DEC-2026-11-15-29 leaves health's contributions out of D3's
+        revenue-mix test, in d3.py as in health_booking.py."""
+        S = json.load(open(INPUTS / "scenarios.json"))
+        q = next(s for s in S["incidence"] if s["id"] == "Q-H7")
+        self.assertEqual(set(q["options"]) - {"DEC"}, set(self.ib["amounts"]) | {"H9"})
+        D3 = load("t_d3", HERE / "household" / "d3.py")
+        self.assertEqual(D3.HEALTH_CONTRIBUTIONS, HB.D3_CONTRIBUTIONS)
+        self.assertTrue(set(HB.D3_CONTRIBUTIONS) <= set(self.ib["amounts"]))
+        self.assertNotIn("HEX", HB.D3_CONTRIBUTIONS)
 
     def test_exclusion_caps_end_with_the_exclusion(self):
         """C19b and C19 cap a base HX ends: their inputs equal health_booking.c19b() and they collect nothing once
