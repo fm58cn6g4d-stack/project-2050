@@ -1,0 +1,174 @@
+Source: https://www.fns.usda.gov/sites/default/files/media/file/SNAP-State-Variation-Admin-Costs-Summary.pdf
+Publisher: U.S. Department of Agriculture, Food and Nutrition Service
+Retrieved: 2026-11-16
+Original SHA-256: 3ea8e08a6f5f90b6a2984488b5c5902d0ed943c1048fece5d07b78c1640a1077
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Food and Nutrition Service
+
+June 2019
+
+Exploring the Causes of State Variation in Supplemental Nutrition Assistance Program
+(SNAP) Administrative Costs (SUMMARY)
+Background
+The United States Department of Agriculture’s
+Food and Nutrition Service (FNS) administers
+the Supplemental Nutrition Assistance Program
+(SNAP) nationally while State and local agencies
+operate the program locally. The Federal
+Government fully funds SNAP benefits, but FNS
+and State agencies share administrative
+expenses, with each paying about 50 percent.
+This study explores extant data looking for
+causes of State variation in SNAP administrative
+expenses (SAE) per case.
+SAE per case varies widely by State. In Fiscal
+Year (FY) 2016, the SAE per case ranged from
+$89 in Florida to $848 in Wyoming. There has
+been a widespread decline in administrative costs
+over time: the average SAE per case in FY 2016
+was less than half the FY 1999 amount, after
+adjusting for inflation ($348 compared to $714),
+with costs per case dropping in all but two States.
+This study explores the following factors to try to
+explain the variation in State SAE per case:
+• State economic conditions,
+• SNAP caseload characteristics, and
+• State SNAP policies (e.g. certification
+periods, modernization efforts).
+Methods
+This study included data from FY 1999 to FY
+2016 for the 50 States and the District of
+Columbia (DC). Total SAE and SAE per case–
+total annual SAE costs divided by the average
+monthly number of households receiving SNAP
+benefits–were calculated from State reported
+data. Two main models are presented in the
+study: the preferred model focusing on a key set
+of variables and an expanded model with a fuller
+set of economic, caseload, and policy variables.
+
+Both models include State fixed effects and year
+fixed effects. State fixed effects account for
+differences in unobservable determinants of SAE
+that are constant within States over the years. Year
+fixed effects account for nationwide changes in
+SNAP and macroeconomic conditions during the
+period of analysis (e.g., the Great Recession). A
+third model tests a SNAP policy index, which
+collapses six of the policy variables that were not
+found significant in the expanded model. A fourth
+model estimates impacts without State fixed effects.
+State economic condition variables in the preferred
+model are average monthly wages of public welfare
+workers, State revenue per capita, and lagged State
+unemployment rates. The expanded model added
+average annual wages for all occupations, a housing
+price index, and the change in the unemployment
+rate from the prior year.
+SNAP caseload characteristic variables in the
+preferred model are average SNAP household size,
+share of SNAP households with earnings, and share
+of SNAP households with Temporary Assistance for
+Needy Families (TANF) benefits. The expanded
+model added variables on the share of SNAP
+households with the elderly or persons with
+disabilities, the share of SNAP households in rural
+areas, and the share of SNAP households with at
+least one non-citizen eligible for SNAP.
+State policy variables in the preferred model are the
+use of broad-based categorical eligibility; use of
+simplified reporting; average certification period (in
+months) for nonelderly SNAP households without
+earnings; use of a waiver of face-to-face interviews
+at initial certification; and required fingerprinting of
+SNAP applicants. The expanded model added
+variables on the average certification period for
+SNAP households with earnings, operation of a
+Combined Application Project for receipt of
+
+Supplemental Security Income benefits,
+exclusion of all vehicles from the SNAP asset
+test, operation of call centers, use of an online
+application, offer of transitional SNAP benefits
+to families leaving TANF, and Medicaid
+expansion under the Affordable Care Act.
+Findings
+Economic differences across States explained
+about 10 to 12 percent of the variation in SAE
+per case. SAE was higher in States with higher
+average wages of public welfare workers; a 10percent increase in wages was associated with a
+5-percent increase in SAE per case. An increase
+in the unemployment rate (lagged 1 year) by 1
+percentage point led to a 5-percent reduction in
+SAE per case – primarily through its effect on the
+caseload, not on aggregate SAE. A 10-percent
+decline in State revenue per capita led to a 0.6percent decline in SAE per case.
+The characteristics of the SNAP caseload had
+relatively little effect on SAE per case,
+explaining only about 4 to 8 percent of the
+variation. SAE per case did decrease with
+declines in average household size. Other
+demographic factors had less effect. An increase
+in the share of SNAP households with earnings
+led to a decrease in SAE per case, an unexpected
+result. This result may be due to the Great
+Recession
+when
+caseloads
+increased
+dramatically, the share of SNAP recipients with
+earnings increased and SAE per case fell, all at
+the same time.
+
+About 72 percent of the variation in SAE per case
+across States is explained by State fixed effects
+which are differences between States that could
+not be captured in the model. These may include
+persistent differences in State cost of living,
+budgeting practices, statutory and regulatory
+policies outside of SNAP, and operational practices
+other than those captured in databases of SNAP
+policy options and modernization efforts. In
+contrast, year fixed effects, which capture the
+nationwide decline in SAE per case during the time
+period covered by the models, explained only about
+12 percent of the variation in SAE per case.
+Although the 10 States with county-administered
+SNAP have higher average SAE per case than the
+remaining States with State-administered SNAP,
+the models were unable to determine whether
+this is due to county administration per se or to
+other time invariant characteristics of the
+county-administered States. It was not possible to
+include this variable in the models because no State
+changed county-administered status between FY
+1999 and FY 2016.
+For More Information
+Geller, D., Isaacs, J., Braga, B., and Zic, B. (2019).
+Exploring the Causes of State Variation in SNAP
+Administrative Costs. Prepared by Manhattan
+Strategy Group and the Urban Institute for the U.S.
+Department of Agriculture, Food and Nutrition
+Service,
+2019.
+Available
+online
+at:
+https://www.fns.usda.gov/research-analysis.
+
+State policy options were similar to caseload
+characteristics in explaining the variation.
+Two of the modeled policies – adoption of
+Broad-Based Categorical Eligibility (BBCE)
+and simplified reporting – reduced SAE per
+case by about 7 percent when either policy was
+introduced. The model including a SNAP
+policy index found that SAE per case decreased
+3.4 percent as States adopted an additional
+streamlining policy or modernization practice.
+
+USDA is an equal opportunity provider, employer, and lender.
+
+

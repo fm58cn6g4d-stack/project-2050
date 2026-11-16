@@ -1,0 +1,1807 @@
+Source: https://cogitatiopress.com/politicsandgovernance/article/download/3914/2153
+Publisher: Cogitatio Press (Politics and Governance)
+Retrieved: 2026-11-16
+Original SHA-256: 36de698155a9f9b7e2a5c0ccfb41174a924bfa5bb32ae055600fc8a660870e2e
+Rights: CC BY 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Politics and Governance (ISSN: 2183–2463)
+2021, Volume 9, Issue 2, Pages 319–331
+DOI: 10.17645/pag.v9i2.3914
+Article
+
+Ranked Choice Voting and Youth Voter Turnout: The Roles of Campaign
+Civility and Candidate Contact
+Courtney L. Juelich 1 and Joseph A. Coll 2, *
+1
+
+Department of Political Science, University of Wisconsin‐Stout, Menomonie, WI 54751, USA;
+E‐Mail: juelichc@uwstout.edu
+2
+Department of Political Science, University of Iowa, Iowa City, IA 52242, USA; E‐Mail: joseph‐coll@uiowa.edu
+
+* Corresponding author
+Submitted: 14 December 2020 | Accepted: 15 March 2021 | Published: 15 June 2021
+Abstract
+Ranked choice voting (RCV) has become increasing popular in the United States as more cities and states begin allowing
+voters to rank candidates in order of preference. This change in election system has been linked to increased campaign
+civility and mobilization, but with little evidence suggesting these benefits lead to increased voter turnout in the general
+population. This study argues that RCV elections may not increase overall voting but will increase youth voting. Considering
+young Americans, who have become increasingly pessimistic towards politics and are also heavily reliant on mobilization
+for participation, this study argues that increased campaign civility and mobilization may work to offset the negative feel‐
+ings and lack of political engagement that plague young Americans. Using a matched study of individual level voter turnout
+for seven RCV and fourteen non‐RCV local elections from 2013 and 2014, we find that there is no statistical difference in
+voting rates between RCV and plurality cities for the general public. Yet, in line with our hypotheses, younger voters are
+more likely to vote in RCV cities. Further, we find that increased contact in RCV elections accounts for a larger portion of the
+increased voter turnout compared to perceptions of campaign civility. Findings suggest RCV acts as a positive mobilizing
+force for youth voting through increasing campaign contact.
+Keywords
+campaign civility; mobilization; ranked choice voting; voter turnout; youth voting
+Issue
+This article is part of the issue “The Politics, Promise and Peril of Ranked Choice Voting” edited by Caroline Tolbert
+(University of Iowa, USA).
+© 2021 by the authors; licensee Cogitatio (Lisbon, Portugal). This article is licensed under a Creative Commons Attribu‐
+tion 4.0 International License (CC BY).
+
+1. Introduction
+United States federalism gives wide latitude to state and
+local governments for the administration of their elec‐
+tions. Because of this, the structure of elections can
+vary drastically across states, counties, and even cities.
+One such variation is whether elections are conducted
+under plurality, majority, or preferential voting rules.
+Most elections conducted in the United States oper‐
+ate under plurality or majority rules. For plurality elec‐
+tions, the candidate with the most votes wins. In major‐
+ity elections, candidates must be awarded a majority of
+the votes cast in a single round. If no candidate meets
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+the threshold, runoff elections are held at a later date,
+in which the top two candidates compete for a simple
+majority of votes. Preferential voting systems, on the
+other hand, require the winner receive a majority of
+votes while not requiring follow up elections. Instead,
+voters rank candidates for a single office in order of
+preference at a single time at the voting booth. If no
+candidate receives a majority, the least popular can‐
+didate is eliminated, and all votes cast for that candi‐
+date automatically go to the respective voter’s second
+choice (cf. Grofman & Feld, 2004). This continues until
+a candidate receives a majority of the votes cast in
+a round.
+319
+
+Preferential voting systems have been gaining pop‐
+ularity in recent years, including in the United States
+(Fortin, 2020), as more US cities and states reform their
+elections to incorporate systems such as ranked choice
+voting (RCV). In 2018, Maine used RCV for the first time
+for midterm elections. Yet, Maine is just one example
+of RCV in the United States. Five states used RCV for
+their Democratic primary, six use RCV for overseas vot‐
+ers, and several large cities utilize RCV for local elec‐
+tions (e.g., San Francisco, CA; St. Paul, MN). According to
+FairVote, a nonprofit, non‐partisan RCV advocacy organi‐
+zation, approximately ten million voting age Americans
+reside in jurisdictions that have adopted RCV, and nearly
+four hundred RCV elections have been conducted as of
+September 2020 (FairVote, 2020).
+Despite the increased popularity of preferential elec‐
+tions, few studies have investigated the effects of such
+systems on voter turnout comparatively, and even less so
+in the context of the United States. Previous studies have
+found that US elections conducted under preferential
+voting rules result in more civil campaigning (Donovan,
+Tolbert, & Gracey, 2016) and greater campaign mobi‐
+lization efforts (Bowler, Donovan, & Brockington, 2003;
+Smith, 2016). However, only a handful of studies have
+tested whether this leads to increased voting. Of those
+that investigate turnout effects, most find no evidence of
+increased turnout (e.g., McDaniel, 2016), though none
+have investigated potentially differential affects based
+on age. Yet, age may be an important demographic worth
+directly assessing when investigating the participatory
+effects of preferential elections. Stark differences exist
+in perceptions of politics and reliance on mobilization
+efforts by age and generation, with younger, Millennial
+(born 1981–1996), and Generation Z (1997–2012) voters
+possessing more pessimistic political outlooks (Dermody
+& Hanmer‐Lloyd, 2004; Lawless & Fox, 2015) and a larger
+reliance on campaign outreach (Dalton, 2015) while less
+likely to be contacted by campaigns (Nickerson, 2006;
+Rosenstone & Hansen, 2003). Because of these factors,
+it could be that the increased civility and mobilization
+may be more beneficial for young voters than their older
+counterparts. That is, preferential elections may offset
+the pessimistic perceptions of politics among young vot‐
+ers while increasing the chances of being contacted,
+resulting in increased youth voter turnout.
+This study proposes that institutional changes to the
+electoral system as a result of replacing plurality and
+majority elections with preferential electoral systems
+should reduce the incivility of campaigns while increas‐
+ing campaign contact. As such, switching to preferential
+elections should increase the rates of political participa‐
+tion among young voters who are particularly disaffected
+and less likely to be contacted by campaigns. To test
+whether preferential elections increase youth turnout,
+and whether increased civility or mobilization are key
+mechanisms through which preferential elections do
+so, we leverage the natural variation in electoral sys‐
+tems across cities in the United States. We compare
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+voter turnout, perceptions of civility, and candidate con‐
+tact efforts between preferential and plurality cities
+matched on key demographics to determine the extent
+to which preferential elections increase youth voting and
+whether civility or mobilization are key mechanisms of
+that increased turnout.
+The remainder of this study will proceed as follows:
+First, we review the literature surrounding preferential
+voting. Then we discuss who young voters are and why
+we expect preferential voting to impact their voting
+behavior, after which we form our hypotheses regard‐
+ing the mechanisms and effects of preferential elections.
+Data, method, and analyses follow. The article ends with
+a summary of the results.
+2. Preferential Voting Systems: Function and Effects
+Most research on preferential voting draws from
+European, African, and Asian politics, given the histori‐
+cally limited use of the process in the United States. Reilly
+(2002) uses case studies from ‘divided societies’ like
+Papua New Guinea, Northern Ireland, Sri Lanka, Estonia,
+and Fiji and compares them to ‘non‐divided’ societies
+like Australia, parts of Europe and North America. Reilly
+finds preferential voting better represents the interests
+of a larger amount of people and leads these interests
+to becoming a part of major parties’ platforms more
+often than plurality systems. In the context of divided
+or disaffected societies that Reilly investigates, this is
+an important electoral and democratic feature of pref‐
+erential elections which allows those with less political
+power to become more involved and have more influ‐
+ence within the political process. By giving citizens the
+chance to rank candidates in order of preference, prefer‐
+ential voting may decrease the chances that one’s vote
+becomes wasted, providing greater individual influence
+in elections and satisfaction with the process. Reilly’s
+results echoed those of Horowitz (2000) who finds politi‐
+cal systems that allow voters to cast multiple preferences
+promote bargaining, alliances, and inclusion among rival
+political groups and political elites, leading to better citi‐
+zen representation.
+Farrell and McAllister (2006) assess the satisfaction
+with democracy across 29 nations, mostly from west‐
+ern Europe with the addition of Australia, New Zealand,
+Taiwan, and the United States. Their survey results show
+that preferential voting systems promote a greater sense
+of fairness about the election and also increase the pub‐
+lic’s satisfaction with the democratic system as a whole.
+Farrell and McAllister (2006) also find that preferential
+elections work to bring together diverse and divided
+populations, create a more inclusive and cooperative
+government and party system, and help increase the
+public’s perceptions of external efficacy of their govern‐
+ment; giving modern support to the theories outlined
+by Reilly (2002) and Horowitz (2000). Greater campaign
+civility and citizen perceptions of fairness in preferential
+elections has also been observed at the local level in
+
+320
+
+the United States. Donovan et al. (2016) and John and
+Douglas (2017), find that voters in RCV cities rated cam‐
+paigns as less negative, were more satisfied with cam‐
+paign conduct, and perceived less criticizing between
+the candidates (but see Nielson, 2017). Related, using
+text analysis, a working paper by McGinn (2020) finds
+that candidate debates are more civil with less negativ‐
+ity under RCV elections. The theoretical story outlined in
+these articles suggests that preferential voting systems
+increase civility of campaigns, as candidates now have
+an incentive to campaign for second and third place and
+do so by actively not attacking their political opponents
+or risk alienating their opponents’ supporters (see also
+Drutman, 2020).
+Not only has research shown RCV elections to be
+more civil, but others have shown RCV candidates to
+engage in more campaign outreach efforts in an attempt
+to court new or non‐supportive voters and expand their
+base. In support of this, Bowler et al. (2003) find that can‐
+didates in preferential voting systems were more likely
+to try to mobilize voters than those in plurality systems.
+A report by FairVote shows that citizens of RCV juris‐
+dictions were more likely to be contacted by a cam‐
+paign, and this contact was also more likely to include
+in‐person contact (Smith, 2016), the most effective form
+of mobilization (Gerber & Green, 2000; Green, Gerber, &
+Nickerson, 2003a).
+Despite the increased mobilization and campaign
+civility, few articles have demonstrated participatory
+effects of preferential elections. A working paper by
+McGinn (2020) suggests that preferential elections may
+increase voter turnout. In their unpublished study of
+RCV mobilization effects, Kimball and Anthony (2016)
+show that RCV does not increase voting but does retain
+voters between the primary and general elections. Still,
+others have charged RCV with potentially decreasing
+turnout or increasing the frequency of under/over votes.
+Ranking multiple candidates is more difficult and cogni‐
+tively demanding than selecting only a single preference
+(Bowler & Farrell, 1995; Donovan et al., 2019; Kimball
+& Kropf, 2016). As such, people may abstain from vot‐
+ing or, when voting, accidentally over/under vote due
+to not understanding the ranking process. Using sur‐
+vey data, Donovan et al. (2019) find that voters in RCV
+cities perceived greater difficulty with the voting pro‐
+cess than did their counterparts in plurality cities, though
+not by large margins. Burnett and Kogan (2015) use
+ballots cast in four California RCV elections and find
+that 8 to 12 percent of ballots marked the same candi‐
+date multiple times. Looking at aggregate turnout data
+in San Francisco mayoral elections from 1995 to 2011,
+McDaniel (2016) finds that Black and white individuals
+vote less in RCV elections.
+The evidence presented thus far suggests that prefer‐
+ential elections are more likely to result in the preferred
+candidate being elected, are more civil, have greater can‐
+didate contact, but may not increase voting in the gen‐
+eral public and potentially decrease voting for the certain
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+subgroups. Do these results to extend to youth voters?
+Or will the increased campaign civility and candidate con‐
+tact under preferential elections increase youth turnout,
+as we theorize?
+3. Youth Participation and RVC
+Scholars analyzing youth voter turnout in the United
+States and comparatively have generally agreed that the
+percentage of young individuals voting has been declin‐
+ing. In studying the period between 1972 (the first year
+that 18–20‐year‐olds could vote in the United States)
+and 2002, Levine and Lopez (2002) find that American
+youth participation in presidential elections declined in
+the aggregate by 13 to 15 percentage points. Franklin
+(2004) argues that lowering the voting age has had the
+effect of decreasing generational voting across multi‐
+ple advanced democracies. Related, Holbein and Hillygus
+(2020, p.3) note that the turnout gap between genera‐
+tions has widened over time, particularly in the United
+States, with today’s youths less likely to become voters
+compared to earlier generations. Confronted with low
+youth turnout rates, many argue that that younger gen‐
+erations abstain from voting due to being politically apa‐
+thetic, lacking a sense of civic duty, being unaware of the
+political process, and most damningly, are ignorant and
+indifferent by choice (e.g., Putnam, 2000).
+Other scholars argue today’s youths are not vot‐
+ing at the same rates as older Americans or earlier
+cohorts because of perceptions of the political system
+being unresponsive or corrupt. The end of the 20th cen‐
+tury gave rise to increased partisan loyalty and nega‐
+tive media influence that paved the road for increased
+polarization, Congressional gridlock, and negative par‐
+tisanship (Abramowitz & Webster, 2016; Grossmann
+& Hopkins, 2016; Mason, 2018). Related, trust in the
+Government to do the right thing and approval of
+Congress have been declining rapidly in past decades and
+are at all‐time lows (Pew Research Center, 2019). These
+stark change in political discourse, trust, and approval
+directly coincide temporally with the years in which
+Millennials began developing their political selves. This
+has resulted in today’s youths maturing in an era of
+intense political polarization, dysfunction, and negativity,
+resulting in lower levels of political trust and efficacy that
+has bled over into decreased voting.
+Dermody and Hanmer‐Lloyd (2004) review evidence
+of declining political participation among British youths
+and determine that trust, distrust, and cynicism all fea‐
+ture strongly in determining political engagement. They
+advocate for youth targeted marketing campaigns that
+help to increase trust and reduce distrust, which, they
+argue, should increase the likelihood of youth voting.
+In the United States, Lawless and Fox (2015) find that the
+mean‐spirited and dysfunctional nature and portrayal
+of the American political system has led to youths not
+believing in the ability of elected officials or government
+to be an effective entity for promoting positive change.
+
+321
+
+Young people identified dishonesty, self‐centeredness,
+being argumentative, and being only out for themselves
+as the most common negative attributes about American
+politicians. They also find that the youth feel alienated
+from contemporary American politics. The authors sug‐
+gest the prevalence of negative campaigning and lack of
+civil discourse may be especially destructive to youth par‐
+ticipation in politics.
+Not all scholars are satisfied with the conclusion that
+younger citizens simply abstain from political participa‐
+tion out of apathy or pessimism. Instead, others began
+investigating alternative explanations for the youth’s
+apparent apathy. Looking at participation more broadly
+to include actions such as protesting and petition sign‐
+ing, Dalton (2015) finds that younger members of the
+electorate are participating, just doing so outside of the
+institutionalized ways that older generations have partic‐
+ipated. Dalton argues older citizens are more likely to be
+‘duty‐based citizens,’ defined as one’s participation being
+driven by a sense of needing to perform basic democratic
+and civic duties, while today’s youths are more likely
+to be ‘engaged citizens,’ whose participation is based
+on activism, passion, and campaign mobilization (Dalton,
+2008, 2015). Young people vote in elections not out of
+duty, but when they are engaged by the issues, cam‐
+paigns, or candidates (Dalton, 2015; LaCombe & Juelich,
+2019; Lawless & Fox, 2015; Sloam, 2014). This could be
+why mobilization and contact efforts can have such a
+large influence on young voters (Green & Gerber, 2001),
+and why youth turnout has declined as parties expend
+less efforts attracting young voters or engaging with the
+political issues that young voters support (Endres & Kelly,
+2018; Green et al., 2003b). Because young voters are
+less likely to vote, candidates and campaigns view them
+as not worth mobilizing. Additionally, even if campaigns
+wanted to contact youth voters, their increased mobil‐
+ity and lower homeownership rates makes it more dif‐
+ficult to do so (Nickerson, 2006; Rosenstone & Hansen,
+2003). This literature agrees that the youth see the elec‐
+toral process as corrupt, non‐responsive, and unproduc‐
+tive, but add that, as a result they focus their civic ener‐
+gies from voting to other means of participating absent
+proper mobilization.
+Still, other scholars have turned their focus from
+internal feelings to political resources and external
+institutions. Younger Americans have lower levels of
+resources and voter habituation (Plutzer, 2002), and as
+such, may be more susceptible to the influences of
+changes in the electoral environment. In support of this
+assertion, Holbein and Hillygus (2020) test the effects
+of pre‐registration, same‐day registration, and other per‐
+missive electoral reforms on youth turnout, finding that
+young individuals are especially sensitive to changing
+costs to vote and are more likely to vote when the voting
+process, particularly registration, is made easier (see also
+Hanmer, 2009; Leighley & Nagler, 2013). Coming from
+the opposite angle, Juelich and Coll (2020) use an index
+of electoral reforms (Li, Pomante, & Schraufnagel, 2018)
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+to estimate the effect of more restrictive environments
+on youth voting and find that younger Americans vote
+less when electoral reforms are designed in more restric‐
+tive ways. This third line of literature acknowledges
+that young voters have lower efficacy and resources,
+while demonstrating how altering the rules of the game
+can alter the extent to which those barriers hinder
+youth voting.
+Although evidence for RCV turnout effects on the
+general public is mixed, we hypothesize that RCV elec‐
+tions should increase youth voting by decreasing the neg‐
+ativity of elections and increasing candidate contact—
+two issues that plague young voters more than their
+older counterparts—and also because youth behavior is
+influenced to a greater extent by changes in electoral
+environments than that of older individuals.
+In this article we will propose the following
+hypotheses:
+• Hypothesis 1: Younger voters in RCV cities will be
+more likely to vote than younger voters in plurality
+cities.
+• Hypothesis 2: The effects of RCV will increase
+younger voter propensities more than older voter
+propensities.
+• Hypothesis 3: Increased civility will account for
+part of the increase in youth voter turnout in RCV
+cities.
+• Hypothesis 4: Increased mobilization will account
+for part of the increase in youth voter turnout in
+RCV cities.
+To visually lay out our hypotheses, Figure 1 shows the
+expected relationship between electoral systems, civility
+and mobilization, and youth voter turnout. We expect
+that preferential voting elections will lead to increased
+campaign civility and mobilization, which will in turn lead
+to increased youth voter turnout; while first‐past‐the‐
+post elections will have less civility and mobilization, and
+thus, lower youth turnout.
+4. Data and Research Design
+The data used in this study come from two surveys con‐
+ducted immediately after the 2013 and 2014 November
+elections in several US cities. Following both elections,
+telephone interviews were conducted in English and
+Spanish through random digit dialing via landlines and
+cellphones by the Rutgers‐Eagleton Institute of Politics.
+The survey was conducted on samples of registered vot‐
+ers in both RCV and plurality cities in the United States.
+Respondents were chosen randomly within each city,
+not based on RCV‐plurality groupings (i.e., respondents
+from one city are independently drawn from respon‐
+dents in other cities). In each survey‐year, roughly 2,400
+respondents were sampled for a total of roughly 4,800
+respondents. Half of survey respondents reside in RCV
+cities, the other half in plurality cities. The cities and
+
+322
+
+Elecon System
+
+Campaign Environment
+
+Turnout Eﬀects
+
+Higher Campaign Contact
+Higher Youth Voter Turnout
+Higher Campaign Civility
+Preferenal Vong System
+
+Plurality Vong System
+Lower Campaign Contact
+Lower Youth Voter Turnout
+Lower Campaign Civility
+
+Figure 1. Theoretical diagram.
+their RCV/plurality designation can be seen in Table 1.
+In parentheses beneath each city is the number of
+respondents from that city, as well as the city’s popula‐
+tion for comparability (for a more complete list of city
+demographics, see the Supplementary File, Appendix C,
+Table C3).
+The chosen RCV cities represent some of the largest
+local election districts that used RCV in the United States
+(during the 2013–2014 elections, when data were col‐
+lected), as well as some of the most frequently studied
+RCV jurisdictions (e.g., Burnett & Kogan, 2015; Donovan
+et al., 2016, 2019; McDaniel, 2016). To find compa‐
+rable control cases, plurality cities were matched on
+population size, racial and ethnic composition, politi‐
+cal characteristics, US region, and socio‐economic condi‐
+tions. Though there are undoubtedly some differences
+
+between the treatment and control cities, we believe
+that this approach can help mitigate concerns of non‐
+comparability between treatment (RCV) and control (plu‐
+rality) cities for three key reasons.
+First, most RCV cities have multiple control cities,
+allowing for greater leverage in the control group.
+Second, with the exception of the two RCV cities in
+Minnesota, all RCV cities are in the same state as their
+plurality counterparts, with many in the same county.
+Though between‐city differences may remain, most local‐
+ities are operating under the same county and state
+level influences (e.g., county and state level participa‐
+tory culture, election resources and regulations). As such,
+comparing voter turnout in RCV cities to plurality cities
+matched on important characteristics and that are oper‐
+ating in similar electoral environments helps control
+
+Table 1. RCV cities and their plurality matches.
+RCV Cities
+
+Matched Plurality Cities
+
+Berkeley, CA
+(112, 116k)
+
+Alameda, CA
+(101, 76k)
+
+Cambridge, MA
+(190, 107k)
+
+Lowell, MA
+(99, 108k)
+
+Worcester, MA
+(94, 119k)
+
+Minneapolis, MN
+(790, 394k)
+
+Boston, MA
+(255, 640k)
+
+Seattle, WA
+(249, 648k)
+
+Tulsa, OK
+(261, 396k)
+
+Oakland, CA
+(670, 402k)
+
+Anaheim, CA
+(99, 343k)
+
+Santa Clara, CA
+(144, 120k)
+
+Santa Ana, CA
+(99, 331k)
+
+San Francisco, CA
+(149, 829k)
+
+San Jose, CA
+(197, 986k)
+
+San Leandro, CA
+(383, 87k)
+
+Richmond, CA
+(338, 106k)
+
+St. Paul, MN
+(196, 292k)
+
+Cedar Rapids, IA
+(106, 128k)
+
+Total RCV:2,490
+
+Total Plurality: 2,241
+
+Stockton, CA
+(109, 297k)
+
+Des Moines, IA
+(90, 207k)
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+Grand Total:4,731
+
+323
+
+for unobserved factors influencing turnout. Taking this
+within‐country (and usually within‐state, if not within‐
+county) approach provides a stronger set of control cases
+and claim to causality than would taking a cross‐national
+approach where treatment and control cases may differ
+drastically on unobservable characteristics. Last, though
+the type of preferential voting differs by city, the data
+at hand do not allow us to differentiate by preferen‐
+tial style. However, this should not be an issue for our
+analyses, as increased civility and mobilization has been
+found across different preferential election types (e.g.,
+Donovan et al., 2016; John & Douglas, 2017; Kimball &
+Kropf, 2016; McGinn, 2020; Smith, 2016). For brevity,
+we use RCV to denote preferential cities and plurality to
+denote plurality cities.
+Using individual level data provides three advantages
+over aggregate data for this study. First, studies using
+aggregate data often assume that the presence of an
+electoral reform being correlated with increased propor‐
+tions of demographic group participation means that
+individuals from that group are more likely to partici‐
+pate due to that reform. However, inferring individual
+behavior from aggregate patterns may result in an eco‐
+logical fallacy; just because a group average may be
+higher or lower than others does not conclude that ran‐
+dom individuals in that group are more or less likely to
+be affected. Second, using individual level data allows
+us to further control for individual factors that may
+affect whether someone decides to vote. When using
+aggregate data, researchers cannot control for individ‐
+ual differences in characteristics that may lead individ‐
+uals of a demographic group to participate at different
+rates than members of a different demographic group
+or those in the same group. Third, being able to control
+for individual level differences helps mitigate concerns of
+non‐comparability across treatment and control groups.
+Comparing individual level voting behavior in cities cho‐
+sen to control for aggregate level factors while also con‐
+trolling for individual level factors helps mitigate con‐
+cerns of non‐comparability across cases, even if the cities
+chosen are not perfect control cases.
+With that being said, there are a few limitations to
+the data. First, the data is several years old at this point.
+Thus, it is worth considering the extent to which these
+findings can be generalized to today. Yet, it is still worth
+documenting whether RCV affects youth voting behav‐
+ior and why, particularly considering its rising popularity.
+Second, the survey is of only registered voters and asks
+respondents to self‐report voting. Potentially because of
+this, average voter turnout in the sample is substantially
+higher than would usually be expected, at 83 percent for
+the full sample, 85 percent for RCV cities, and 82 percent
+for plurality cities (p = 0.002). Turnout in these elections
+typically ranged 33 to 45 percent. While this turnout is
+substantially higher than expected, working with a sam‐
+ple with such high self‐reported turnout may make find‐
+ing any effects for RCV on youth voting more difficult
+due to high turnout rates essentially ‘capping’ potential
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+effects. Thus, this higher‐than‐actual turnout may bias
+against finding any evidence of RCV effects. Third, only
+RCV cities from three states (California, Massachusetts,
+and Minnesota) were used as treatment groups, with
+the control groups intentionally being similar in politi‐
+cal, demographic, and geographic features. Though the
+city‐as‐cases approach is beneficial in controlling for
+unobserved factors, it also limits the generalizability of
+this study.
+5. Results
+First, to evaluate the effect of RCV on overall turnout,
+we turn to Table 2. Table 2 reports a series of logis‐
+tic regression models, where the dependent variable
+is whether the respondent voted in their local elec‐
+tion. Respondents were asked: “Did you vote in the
+local election last Tuesday in [CITY]?” Possible answers
+were “no,” “yes,” “don’t know,” and “refused” (miss‐
+ing recoded to not having voted to retain statistical
+precision, results robust to alternative coding schemes,
+available at request). Each model includes two mea‐
+sures of socio‐economic status: Income (1 = less than
+$10,000, 9 = greater than $150,000) and Education
+(1 = high school graduate or less, 4 = post‐graduate
+degree); a variable denoting whether the respondent
+is a Female (1 = female, 0 = male); two variables
+for race, whether the respondent is Black (1 = Black,
+non‐Hispanic, 0 = not Black) or is another race besides
+white or Black, non‐Hispanic (Other, 1 = other race,
+0 = not another race) with white, non‐Hispanic respon‐
+dents as the reference group; a variable denoting ethnic‐
+ity (Hispanic, 1 = Hispanic, 0 = non‐Hispanic); two mea‐
+sures for partisanship, whether the respondent identifies
+as a Democrat (1 = Democrat, 0 = other) or Republican
+(1 = Republican, 0 = other), with independents as the
+reference group; and a measure of interest in local pol‐
+itics (Political Interest, 1 = high interest, 0 = low interest).
+To deal with heterogeneity and spatial dependence, each
+estimation is computed with robust standard errors clus‐
+tered by city. Results are robust to the inclusion of city
+fixed effects (available at request). Last, an indicator for
+which survey‐year is included to control for potential dif‐
+ferences across surveys and years.
+Past the basic specifications, we alter each model to
+test our hypotheses. Models 2, 4, and 5 include an indi‐
+cator for whether the respondent lives in a RCV jurisdic‐
+tion (RCV, 1 = RCV city, 0 = plurality city). Models 1 and
+2 include a covariate for Age (18–99) and Age Squared
+(324–9801). To more precisely test whether RCV elec‐
+tions encourage participation of today’s youths, models
+3 and 4 swap the covariates of age and age squared
+for an indicator variable of whether the respondent is
+above/below 35 and model 5 subsamples only those
+individuals below the age of 35 as a robustness check.
+We use 35 as the age cutoff to capture the genera‐
+tional effects that have altered today’s youth participa‐
+tion (e.g., their increased political cynicism as a result of
+
+324
+
+the negative and hyper‐partisan political circumstances
+during their upbringing, as discussed earlier), as well as
+to ensure a large enough group of young Americans to
+compare to older Americans. This age cutoff captures
+all those in the Millennial and Generation Z generations,
+with ‘youths’/‘young’ used for brevity to refer to this
+group. Additional robustness checks using a continuous
+measure of age, using alternative generational cutoffs,
+and varying age categories all further support our find‐
+
+ings (see Supplementary File, Appendix B, Tables B1 and
+B2, and Figure B1; summary statistics for all variables pre‐
+sented in this study are shown in the Supplementary File,
+Appendix C, Table C1).
+Model 1 in Table 2 acts a baseline voter turnout
+model for reference. Model 2 tests whether rank choice
+voting elections increase turnout by including a covari‐
+ate for whether the election is conducted using RCV. The
+coefficient is positive but insignificant at conventional
+
+Table 2. Age, election type, and self‐reported turnout.
+Model 1
+Base model
+b/se
+
+Model 2
+RCV
+b/se
+
+Model 3
+Youth + RCV
+b/se
+
+Model 4
+Youth × RCV
+b/se
+
+Model 5
+Youth subsample
+b/se
+
+0.306
+(0.220)
+
+0.331
+(0.222)
+
+0.155
+(0.218)
+
+0.604**
+(0.291)
+
+−1.117***
+(0.123)
+
+−1.334***
+(0.136)
+
+Voted
+RCV
+Youth
+Youth × RCV
+
+0.445*
+(0.230)
+
+Age
+
+0.103***
+(0.009)
+
+0.102***
+(0.010)
+
+Age Squared
+
+−0.001***
+(0.000)
+
+−0.001***
+(0.000)
+
+Education
+
+0.299***
+(0.055)
+
+0.277***
+(0.054)
+
+0.284***
+(0.054)
+
+0.282***
+(0.055)
+
+0.195
+(0.162)
+
+Female
+
+0.096
+(0.104)
+0.038
+(0.033)
+
+0.098
+(0.103)
+0.041
+(0.032)
+
+0.085
+(0.107)
+0.031
+(0.032)
+
+0.087
+(0.107)
+0.033
+(0.032)
+
+0.190
+(0.184)
+0.055
+(0.049)
+
+Employed
+
+0.049
+(0.144)
+
+0.043
+(0.142)
+
+−0.060
+(0.144)
+
+−0.061
+(0.144)
+
+0.136
+(0.363)
+
+Black
+
+0.046
+(0.158)
+
+0.032
+(0.157)
+
+−0.038
+(0.154)
+
+−0.041
+(0.156)
+
+0.086
+(0.291)
+
+Asian
+
+−0.159
+(0.149)
+
+−0.168
+(0.152)
+
+−0.312**
+(0.151)
+
+−0.338**
+(0.153)
+
+−0.290
+(0.323)
+
+Other
+
+−0.274
+(0.257)
+
+−0.280
+(0.253)
+
+−0.351
+(0.229)
+
+−0.330
+(0.230)
+
+−0.852
+(0.555)
+
+Hispanic
+
+−0.163
+(0.311)
+
+−0.128
+(0.308)
+
+−0.261
+(0.293)
+
+−0.244
+(0.295)
+
+−0.295
+(0.407)
+
+Democrat
+
+0.141
+(0.108)
+
+0.125
+(0.108)
+
+0.186*
+(0.110)
+
+0.177
+(0.109)
+
+0.275
+(0.237)
+
+Republican
+
+0.036
+(0.200)
+1.187***
+(0.110)
+
+0.065
+(0.200)
+
+0.120
+(0.209)
+
+1.208***
+(0.111)
+
+0.125
+(0.208)
+1.298***
+(0.114)
+
+1.305***
+(0.113)
+
+0.309
+(0.537)
+1.320***
+(0.238)
+
+−3.998***
+(0.388)
+
+−4.078***
+(0.341)
+
+−0.586***
+(0.214)
+
+−0.507**
+(0.216)
+
+−2.041***
+(0.579)
+
+4731
+
+4731
+
+4731
+
+4731
+
+473
+
+Income
+
+Political Interest
+Constant
+Observations
+
+Notes: Logistic regression with robust and clustered(city) standard errors; * 0.1 ** 0.05 ***0.01. Year fixed effects included but omitted
+for space.
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+325
+
+levels, doing little to solve the debate over the partici‐
+patory effects of rank choice voting.
+Absent any general population effects, we move on
+to test our first hypothesis of RCV increasing youth voting.
+Model 3 in Table 2 changes the age covariates for an indi‐
+cator whether the individual is under 35. Unsurprisingly,
+younger individuals are less likely to vote compared
+to older individuals (Franklin, 2004). When we interact
+whether the respondent is under 35 with whether they
+live in an RCV city (model 4), a different story emerges.
+Though younger individuals are less likely to vote in both
+RCV and non‐RCV cities than older individuals, they are
+significantly more likely to vote in RCV cities compared to
+younger individuals in plurality elections. These results
+are graphically depicted in Figure 2, which is a coeffi‐
+cient plot displaying the probability of voting across elec‐
+tion type and age group with confidence intervals varying
+from 90 to 99 percent levels. The probability of voting
+increases from 77 to 86 percent between non‐RCV and
+RCV cities for young voters, a difference of nine percent‐
+age points. These results are further supported when
+we subsample only young voters (model 5). For older
+individuals, no statistically significant difference in voting
+propensities across election type is found. These results
+confirm hypotheses 1 and 2, that younger individuals will
+vote more in RCV elections than youths under plurality
+elections and gain a larger increase to voting in RCV elec‐
+tions than older individuals. With younger voters more
+likely to vote in RCV elections, but older individuals not
+affected, this evidence also suggests that RCV may work
+to lessen the age gap in voter turnout. But are more civil
+campaigns and greater candidate contact the forces that
+separate youths between RCV and plurality elections, as
+theorized here?
+
+To determine the mediational impact of civil cam‐
+paigning and candidate contact on the relationship
+between youth turnout and preferential voting systems,
+this study uses the causal steps approach popularized
+by Baron and Kenny (1986). The causal steps approach
+uses three equations to establish a mediating relation‐
+ship. The first tests for a relationship between the inde‐
+pendent variable and the dependent variable (direct
+effect) to determine if there exists a relationship to be
+mediated. This relationship was established in models 4
+and 5 in Table 2. The second tests for a relationship
+between the independent variable and the mediator to
+establish a mediation pathway. The third equation reex‐
+amines the relationship between the independent and
+dependent variables while including the mediator vari‐
+able, with differences in the effect of the independent
+variable assumed to be caused by the mediator variable
+(indirect effect). If the effect of the independent variable
+is decreased or rendered insignificant, the relationship is
+said to partially or fully mediated.
+This study uses three proxy measures for campaign
+(in)civility—candidate‐to‐candidate criticism, dissatisfac‐
+tion with the candidates, and campaign negativity—
+and one for campaign contact—whether the respon‐
+dent was contacted by a campaign. To measure the
+degree of Criticism in the election, respondents were
+asked: “Thinking about the [CITY] election, how much
+time would you say the candidates spent criticizing their
+opponent?” The proposed answers were: “A great deal
+of time,” “some of the time,” “not too much,” “not at
+all.” The variable is coded so that higher values represent
+greater levels of criticism. For Dissatisfaction, respon‐
+dents were asked: “How satisfied were you with the
+choices of candidates for mayor in this recent [CITY]
+
+Probability of Vo ng
+
+1
+
+.9
+
+.8
+
+.7
+
+.6
+Plurality × Older Plurality × Younger
+99
+
+RCV × Older
+95
+
+RCV × Younger
+90
+
+Figure 2. Effect of election type on self‐reported voting. Notes: Estimations of logistic coefficients calculated with all
+other variables held at their means/respective values; robust and clustered(city) errors and year fixed effects employed;
+90–99 percent confidence intervals shown.
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+326
+
+election?” The proposed answers were: “Very satisfied,”
+“fairly satisfied,” “not very satisfied,” “not at all satisfied.”
+Voluntary answers were: “No opinion” and “refusal.”
+The variable was reverse coded so that higher values rep‐
+resent greater Dissatisfaction.
+The third measure of campaign civility—
+Negativity—is constructed from three related questions.
+Respondents were first asked: “Do you believe the cam‐
+paigns this year were more negative, less negative, or
+about the same compared to other recent political con‐
+tests?” The proposed answers were: “more,” “less,”
+and “about the same.” Two follow‐up questions were
+asked: “Was it a lot more negative, or just a little more
+negative?” and “Was it a lot less negative, or a just a
+little less negative?” Their options were: “a lot” and
+“a little.” Respondents could also respond “don’t know”
+and “refuse.” Because few respondents reported the
+election being a lot less(more) negative, answers were
+coded into a single variable ranging from Less Negative,
+About the Same, More Negative, with higher values rep‐
+resenting more negativity. Results are robust to using
+the five‐point version that results from distinguishing
+between those who saw elections are somewhat and a
+lot less(more) negative (available upon request).
+
+The measure of campaign contact is derived from
+a question that asked: “During the recent local elec‐
+tion, did a candidate or anyone from a local city
+campaign contact you to persuade you how to vote
+either by phone, mail, in person or over the Internet?”
+Respondents could answer “yes” or “no,” or volunteer
+“don’t know” or “refusal.” The question asks whether a
+candidate/campaign contacted the respondent by any
+of the above means to persuade them how to vote.
+To the extent that respondents were contacted for non‐
+vote‐persuasion reasons (e.g., direct mobilization with‐
+out attempting to change the voters intended vote
+choice) and answered no on the contact question, this
+potentially biases the study against finding any effects
+of contact. Contacted voters are more likely to vote
+(Gerber & Green, 2000; Rosenstone & Hansen, 2003). If a
+voter is contacted for non‐persuasion reasons, answered
+“no” for contact due to it asking about persuasion
+of vote choice, but still voted, the result will be an
+under‐estimation of the effect of candidate contact on
+voter turnout.
+Tables 3 and 4 show the results of the causal
+steps approach. In each table, the first model repli‐
+cates model 4 from Table 2 for reference of the effect
+
+Table 3. Age, election type, and self‐reported turnout: The roles of civility and contact (1/2).
+1
+Base model
+
+2
+Predicting
+perceived
+criticism
+
+3
+Predicting turnout
+controlling for
+perceived criticism
+
+4
+Predicting
+perceived
+dissatisfaction
+
+5
+Predicting turnout
+controlling for
+perceived
+dissatisfaction
+
+b/se
+
+b/se
+
+b/se
+
+b/se
+
+b/se
+
+RCV
+
+0.155
+(0.218)
+
+−0.431
+(0.275)
+
+0.245
+(0.220)
+
+−0.066
+(0.333)
+
+0.096
+(0.217)
+
+Youth
+
+−1.334***
+(0.136)
+
+0.192
+(0.135)
+
+−1.323***
+(0.151)
+
+−0.178
+(0.184)
+
+−1.332***
+(0.135)
+
+Youth × RCV
+
+0.445*
+(0.230)
+
+0.224
+(0.143)
+
+0.503**
+(0.235)
+
+0.281
+(0.262)
+
+0.487**
+(0.211)
+
+Criticism of other candidates
+
+0.134**
+(0.067)
+−0.195***
+(0.069)
+
+Satisfaction of campaign
+Controls
+
+√
+
+Constant
+
+−0.507**
+(0.216)
+
+√
+
+√
+
+√
+
+−0.635**
+(0.289)
+
+0.095
+(0.325)
+
+Constant
+Cut 1
+
+−0.655*
+(0.376)
+
+−1.444***
+(0.501)
+
+Constant
+Cut 2
+
+0.490
+(0.361)
+
+1.070**
+(0.507)
+
+Constant
+Cut 3
+
+2.058***
+(0.489)
+
+2.623***
+(0.581)
+
+Observations
+
+4731
+
+4338
+
+4338
+
+√
+
+4505
+
+4505
+
+Notes: Logistic (models 1, 3, and 5) and ordered logistic regression (models 2 and 4) with robust and clustered(city) standard errors.
+* 0.1 ** 0.05 ***0.01. Year/survey fixed effects employed. Control variables omitted to save space.
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+327
+
+Table 4. Age, election type, and self‐reported turnout: The roles of civility and contact (2/2).
+1
+Base model
+
+2
+Predicting
+perceived
+negativity
+
+3
+Predicting turnout
+controlling for
+perceived negativity
+
+4
+Predicting
+mobilization
+
+5
+Predicting turnout
+controlling for
+mobilization
+
+b/se
+
+b/se
+
+b/se
+
+b/se
+
+b/se
+
+RCV
+
+0.155
+(0.218)
+
+−1.040***
+(0.339)
+
+0.111
+(0.203)
+
+0.076
+(0.237)
+
+0.117
+(0.190)
+
+Youth
+
+−1.334***
+(0.136)
+
+−0.367**
+(0.164)
+
+−1.352***
+(0.139)
+
+−0.773***
+(0.182)
+
+−1.246***
+(0.153)
+
+Youth × RCV
+
+0.445*
+(0.230)
+
+0.708***
+(0.207)
+
+0.473**
+(0.237)
+
+0.555**
+(0.243)
+
+0.370
+(0.237)
+
+main
+
+−0.184
+(0.150)
+
+Campaign negativity
+Contacted
+
+0.939***
+(0.154)
+
+Controls
+
+√
+
+Constant
+
+−0.507**
+(0.216)
+
+√
+
+Constant
+Cut 1
+
+−1.558***
+(0.282)
+
+Constant
+Cut 2
+
+1.749***
+(0.326)
+
+Observations
+
+4731
+
+4731
+
+√
+
+√
+
+√
+
+−0.149
+(0.416)
+
+−0.798***
+(0.247)
+
+−0.822***
+(0.194)
+
+4731
+
+4689
+
+4689
+
+Notes: Logistic (models 1, 3, and 5) and ordered logistic regression (models 2 and 4) with robust and clustered(city) standard errors.
+* 0.1 ** 0.05 ***0.01. Year/survey fixed effects employed. Control variables omitted to save space.
+
+of RCV on youth voting behavior. Following this, each
+subsequent model either tests whether RCV is related
+to the mediating variables (models 2 and 4 in both
+tables) or how the inclusion of the mediator affects
+the relationship between RCV and youth voting (mod‐
+els 3 and 5 in both tables). In the models predicting
+the relationship between RCV and the respondent’s per‐
+ception of candidate‐candidate criticism, campaign neg‐
+ativity, and their dissatisfaction with candidates, ordered
+logistic regression is used given the dependent variables
+of Criticism and Satisfaction range from 1 to 4, and
+Negativity ranges from 1 to 3 (results robust to the use of
+ordinary least squares regression and multinomial logis‐
+tic regression, available upon request). The models that
+predict turnout controlling for the different mediators
+use logistic regression, as does the model predicting can‐
+didate contact. Otherwise, all model specifications are
+the same as used in Table 2. For space concerns, con‐
+trol variables are omitted (see Tables B3.1 and B3.2 in
+Appendix B, Supplementary File).
+Starting with Table 3, the interactions between resid‐
+ing in an RCV jurisdiction and being under the age
+of 35 are not significantly related to feelings of criti‐
+cism (model 2) or dissatisfaction (model 4), suggesting
+younger voters do not perceive more criticism or dissat‐
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+isfaction than older votes in RCV elections or younger
+voters in plurality areas, as well as suggesting a lack
+of a mediation pathway. Controlling for level of criti‐
+cism (model 3) and dissatisfaction (model 5) increases
+the effects of RCV elections on youth voting, though by
+unsubstantial amounts.
+The last measure of campaign civility, campaign neg‐
+ativity, is reported in models 2 and 3 in Table 4. Unlike
+the previous measures, the interaction term is statisti‐
+cally significant, suggesting a relationship between RCV
+elections, young or old voters, and perceptions of cam‐
+paign negativity. Further analyses reveal that young vot‐
+ers do not change their perceptions of campaign nega‐
+tivity across election jurisdictions. However, older voters
+find RCV elections less negative, though by an unsub‐
+stantial amount, providing some evidence against the
+argument that the more civil nature of RCV elections
+may be attracting young voters (see Supplementary File,
+Appendix B, Figure B2). Does negativity moderate the
+relationship between election type, age, and voting?
+Model 3, which includes the interaction term and the
+measure of campaign negativity to predict voter turnout,
+suggests not. The covariate for negativity is statistically
+insignificant and the relationship between the interac‐
+tion term and the dependent variable is strengthened.
+
+328
+
+Why is the relationship of interest related to campaign
+negativity, but negativity does not mediate the rela‐
+tionship? Further analyses reveal that negativity is not
+related to the likelihood one votes in the elections under
+study (see Supplementary File, Appendix B, Tables B4
+and B5). The evidence presented thus far suggests that
+increased civility in RCV elections does not account for
+increased youth voting in RCV elections.
+Besides campaign civility, RCV elections have also
+been found to have increased contact efforts (Bowler et
+al., 2003). Is this increased contact leading more youths
+to the polls in RCV localities? Model 4 in Table 4 sug‐
+gests that there may be relationship between RCV elec‐
+tions, young or old voters, and increased campaign con‐
+tact. Young voters are twelve percentage points more
+likely to be contacted if they reside in an RCV jurisdic‐
+tion than youths in plurality areas, while no significant
+effect was found for older voters (see Supplementary
+File, Appendix B, Figure B3). Does this increased youth
+contact account for increased youth voting? Model 5 sug‐
+gests that campaign contact may substantially reduce
+the relationship between RCV elections, young vot‐
+ers, and voter turnout. The interaction coefficient has
+decreased by nearly 17 percent and is now insignificant,
+while the contact covariate is statistically significant. This
+suggests that mobilization may account for a substantial
+portion of the increased youth turnout in RCV elections.
+Though popular, the causal step approach has been
+criticized as a procedure for establishing mediation, par‐
+tially due to its strong but untested assumptions and
+difficulties being extended to non‐linear models (Imai,
+Keele, Tingley, & Yamamoto, 2011). As an additional
+robustness check, models were re‐estimated using the
+non‐parametric approach established by Imai and col‐
+leagues (e.g., Imai et al., 2011). This approach allows for
+the total effect of RCV to be decomposed into its direct
+(X → Y) and indirect (X → mediator → Y) effects, as well
+as sensitivity analyses to be conducted. Results (reported
+in the Supplementary File, Appendix B, Table B6 and
+Figure B4) support the conclusion that only candidate
+contact mediates the relationship between RCV elec‐
+tions and increased youth turnout. The inclusion of
+the candidate contact covariate renders the interaction
+insignificant and, according to the decomposed RCV total
+effect, the indirect effect of RCV through candidate con‐
+tact is roughly 12 percent of the full effect.
+As additional robustness checks, all models from
+Tables 3 and 4 (and Table B6 in Appendix B) were
+re‐estimated subsampling only those respondents under
+the age of 35 (see the Supplementary File, Appendix B,
+Tables B7.1 and B8, and Figure B5). Results strongly
+support the evidence provided here. There is no rela‐
+tionship between young voters, RCV elections, and can‐
+didate criticism or dissatisfaction with the candidates.
+Additionally, there is no link between campaign negativ‐
+ity and RCV elections. However, young voters in RCV elec‐
+tions are more likely to be contacted by candidates or
+campaigns than youths in plurality elections. Controlling
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+for candidate contact reduces the RCV coefficient by
+nearly a third, though it remains statistically significant
+(p = 0.075). Further analyses using the non‐parametric
+approach suggest the indirect effect of RCV through con‐
+tact accounts for nearly a quarter of the total effect of
+RCV elections on youth voting. These results underscore
+the importance of candidate contact on mobilizing young
+voters in RCV elections.
+6. Summary and Conclusion
+Current literature suggests that preferential elections are
+less negative, with candidates less likely to criticize their
+opponents, more likely to reach out to voters, and citi‐
+zens more likely to approve of campaigns (Bowler et al.,
+2003; Donovan et al., 2016; McGinn, 2020). At the same
+time, younger citizens are less likely to participate in poli‐
+tics due to their pessimistic political attitude and low lev‐
+els of engagement (Dalton, 2015; Lawless & Fox, 2015).
+Can RCV elections be the uplifting and mobilizing force
+young individuals need to push them into voting? The evi‐
+dence presented here suggests so.
+Comparing self‐reported turnout between preferen‐
+tial and plurality cities matched on important demo‐
+graphics, we find strong evidence that younger individu‐
+als are more likely to vote in RCV cities compared to their
+younger counterparts in plurality cities. Further, the age
+gap in voting is much smaller in RCV cities, suggesting
+that RCV has the potential to decrease age inequality in
+the American electorate.
+When it comes to why RCV elections motivate young
+voters to hit the booths, we find little support for any civil‐
+ity effects but strong support for potential mobilization
+effects. Little differences in perceived campaign civility
+were found, but young voters are significantly more likely
+to be contacted by a candidate/campaign than younger
+individuals in plurality cities. Further analyses reveal that
+candidate contact accounts for a substantial portion of
+the effect of RCV elections on youth voting, suggesting
+that increased candidate contact is a contributing factor
+behind increased youth voting in RCV elections. Last, it is
+worth mentioning that, across all models, the probability
+of older individuals voting rarely changes by more than a
+percentage point and is never statistically different from
+the probability of voting in plurality elections, providing
+further evidence that these effects may be more impact‐
+ful on younger Americans.
+Acknowledgments
+We would like to thank the editors and reviewers for their
+constructive feedback.
+Conflict of Interests
+The authors declare no conflict of interests.
+
+329
+
+Supplementary Material
+Supplementary material for this article is available online
+in the format provided by the author (unedited).
+References
+Abramowitz, A. I., & Webster, S. (2016). The rise of neg‐
+ative partisanship and the nationalization of US elec‐
+tions in the 21st century. Electoral Studies, 41, 12–22.
+Baron, R. M., & Kenny, D. A. (1986). The moderator‐
+mediator variable distinction in social psychological
+research: Conceptual, strategic, and statistical con‐
+siderations. Journal of Personality and Social Psychol‐
+ogy, 51(6), 1173–1182.
+Bowler, S., & Farrell, D. M. (1995). Voter strategies under
+preferential electoral systems: A single transferable
+vote mock ballot survey of London voters. British Elec‐
+tions and Parties Yearbook, 5(1), 14–31.
+Bowler, S., Donovan, T., & Brockington, D. (2003).
+Electoral reform and minority representation: Local
+experiments with alternative elections. Columbus,
+OH: Ohio State University Press.
+Burnett, C. M., & Kogan, V. (2015). Ballot (and voter)
+‘exhaustion’ under instant runoff voting: An examina‐
+tion of four ranked‐choice elections. Electoral Stud‐
+ies, 37, 41–49.
+Dalton, R. J. (2008). Citizenship norms and the expan‐
+sion of political participation. Political Studies, 56(1),
+76–98.
+Dalton, R. J. (2015). The good citizen: How a younger gen‐
+eration is reshaping American politics. Washington,
+DC: CQ press.
+Dermody, J., & Hanmer‐Lloyd, S. (2004). Segment‐
+ing youth voting behaviour through trusting—
+Distrusting relationships: A conceptual approach.
+International Journal of Nonprofit and Voluntary
+Sector Marketing, 9(3), 202–217.
+Donovan, T., Tolbert, C., & Gracey, K. (2016). Campaign
+civility under preferential and plurality voting. Elec‐
+toral Studies, 42, 157–163.
+Donovan, T., Tolbert, C., & Gracey, K. (2019). Self‐
+reported understanding of ranked‐choice voting.
+Social Science Quarterly, 100(5), 1768–1776.
+Drutman, L. (2020). Breaking the two‐party doom loop:
+The case for multiparty democracy in America.
+Oxford: Oxford University Press.
+Endres, K., & Kelly, K. J. (2018). Does microtargeting mat‐
+ter? campaign contact strategies and young voters.
+Journal of Elections, Public Opinion and Parties, 28(1),
+1–18.
+FairVote. (2020). Data on ranked choice voting. FairVote.
+Retrieved from https://www.fairvote.org/data_on_
+rcv#research_snapshot
+Farrell, D. M., & McAllister, I. (2006). Voter satisfaction
+and electoral systems: Does preferential voting in
+candidate‐centred systems make a difference? Euro‐
+pean Journal of Political Research, 45(5), 723–749.
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+Fortin, J. (2020). Why ranked‐choice voting is having
+a moment. The New York Times. https://www.
+nytimes.com/2020/02/10/us/politics/ranked‐
+choice‐voting.html
+Franklin, M. N. (2004). Voter turnout and the dynamics
+of electoral competition in established democracies
+since 1945. Cambridge: Cambridge University Press.
+Gerber, A. S., & Green, D. P. (2000). The effects of can‐
+vassing, telephone calls, and direct mail on voter
+turnout: A field experiment. American Political Sci‐
+ence Review, 94(3), 653–663.
+Green, D. P., & Gerber, A. S. (2001). Getting out the youth
+vote: Results from randomized field experiments.
+Unpublished manuscript. Retrieved from http://
+s3.amazonaws.com/fieldexperiments‐papers2/
+papers/00260.pdf
+Green, D. P., Gerber, A. S., & Nickerson, D. W. (2003a).
+Getting out the vote in local elections: Results from
+six door‐to‐door canvassing experiments. The Journal
+of Politics, 65(4), 1083–1096.
+Green, D. P., Gerber, A. S., & Nickerson, D. W. (2003b).
+The challenge of bringing voter mobilization ‘to scale’:
+An evaluation of youth vote’s 2002 phone banking
+campaigns. New Haven, CT: Yale University, Institu‐
+tion for Social and Policy Studies.
+Grofman, B., & Feld, S. L. (2004). If you like the alterna‐
+tive vote (aka the instant runoff), then you ought to
+know about the coombs rule. Electoral Studies, 23(4),
+641–659.
+Grossmann, M., & Hopkins, D. A. (2016). Asymmetric
+politics: Ideological Republicans and group interest
+Democrats. Oxford: Oxford University Press.
+Hanmer, M. J. (2009). Discount voting: Voter registration
+reforms and their effects. Cambridge: Cambridge Uni‐
+versity Press.
+Holbein, J. B., & Hillygus, D. S. (2020). Making young vot‐
+ers: Converting civic attitudes into civic action. Cam‐
+bridge: Cambridge University Press.
+Horowitz, D. L. (2000). Ethnic groups in conflict, updated
+edition with a new preface. Berkeley, CA: University
+of California Press.
+Imai, K., Keele, L., Tingley, D., & Yamamoto, T. (2011).
+Unpacking the black box of causality: Learning about
+causal mechanisms from experimental and obser‐
+vational studies. American Political Science Review,
+105(4), 765–789.
+John, S., & Douglas, A. (2017). Candidate civility and
+voter engagement in seven cities with ranked choice
+voting. National Civic Review, 106(1), 25–29.
+Juelich, C. L., & Coll, J. A. (2020). Rock the vote or block
+the vote? How the cost of voting affects the vot‐
+ing behavior of American youth. American Politics
+Research, 48(6), 719–724.
+Kimball, D. C., & Anthony, J. (2016). Voter participation
+with ranked choice voting in the united states. Paper
+presented at the Annual Meeting of the American
+Political Science Association, Philadelphia, United
+States.
+
+330
+
+Kimball, D. C., & Kropf, M. (2016). Voter competence with
+cumulative voting. Social Science Quarterly, 97(3),
+619–635.
+LaCombe, S. J., & Juelich, C. (2019). Salient ballot mea‐
+sures and the millennial vote. Politics and Gover‐
+nance, 7(2), 198–212.
+Lawless, J. L., & Fox, R. L. (2015). Running from office:
+Why young Americans are turned off to politics.
+Oxford: Oxford University Press.
+Leighley, J. E., & Nagler, J. (2013). Who votes now? Demo‐
+graphics, issues, inequality, and turnout in the United
+States. Princeton, NJ: Princeton University Press.
+Levine, P., & Lopez, M. H. (2002). Youth voter turnout has
+declined, by any measure. College Park, MD: Center
+for Information and Research on Civic Learning and
+Engagement.
+Li, Q., Pomante, M. J., & Schraufnagel, S. (2018). Cost of
+voting in the American states. Election Law Journal:
+Rules, Politics, and Policy, 17(3), 234–247.
+Mason, L. (2018). Uncivil agreement: How politics
+became our identity. Chicago, IL: University of
+Chicago Press.
+McDaniel, J. A. (2016). Writing the rules to rank the can‐
+didates: Examining the impact of instant runoff vot‐
+ing on racial group turnout in San Francisco mayoral
+elections. Journal of Urban Affairs, 38(3), 387–408.
+McGinn, E. (2020). Rating rankings: Effect of instant run‐
+off voting on participation and civility. Unpublished
+manuscript. Retrieved from http://eamonmcginn.
+com/papers/IRV_in_Minneapolis.pdf
+
+Nickerson, D. W. (2006). Hunting the elusive young voter.
+Journal of Political Marketing, 5(3), 47–69.
+Nielson, L. (2017). Ranked choice voting and attitudes
+toward democracy in the united states: Results
+from a survey experiment. Politics & Policy, 45(4),
+535–570.
+Pew Research Center. (2019). Public trust in government:
+1958–2019. Washington, DC: Pew Research Center.
+Retrieved from https://www.pewresearch.org/
+politics/2019/04/11/public‐trust‐in‐government‐
+1958‐2019
+Plutzer, E. (2002). Becoming a habitual voter: Inertia,
+resources, and growth in young adulthood. American
+Political Science Review, 96(1), 41–56.
+Putnam, R. D. (2000). Bowling alone: The collapse and
+revival of American community. New York, NY: Simon
+and Schuster.
+Reilly, B. (2002). Electoral systems for divided societies.
+Journal of Democracy, 13(2), 156–170.
+Rosenstone, S. J., & Hansen, J. M. (2003). Mobilization,
+participation, and democracy in America. Harlow:
+Longman Publishing Group.
+Sloam, J. (2014). New voice, less equal: The civic and
+political engagement of young people in the united
+states and Europe. Comparative Political Studies,
+47(5), 663–688.
+Smith, H. (2016). FairVote civility report 7. FairVote.
+Retrieved from https://www.fairvote.org/rcv_and_
+deliberative_engagement
+
+About the Authors
+Courtney L. Juelich is an Assistant Professor of Political Science at the University of Wisconsin at Stout
+in the Department of Applied Social Science. Her research takes a unique approach to reassessing
+established theories of political participation and how they differ for the modern era and for younger
+citizens. In studying youth politics, her published papers and working papers look at how both insti‐
+tutional features like electoral systems, electoral laws, ballot initiatives, and behavioral features like
+gender, race, economic insecurity, and implicit biases shape people’s political behavior. Her work
+has appeared in American Politics Research, Politics and Governance, and the Journal of Elections,
+Public Opinion and Parties. She received her PhD from the University of Iowa, and an M.A. in Political
+Psychology from Stony Brook University.
+Joseph A. Coll is a Doctoral Candidate and instructor in the Political Science Department at the
+University of Iowa. His research focuses on how election rules and administration shape the elec‐
+toral behavior and representation of voters, primarily defined along age, ethnic, racial, and socio‐
+economic lines. His research interests also include political methodology, public policy, and public
+opinion. He has earned several awards and fellowships and his work has recently been published in
+American Politics Research, with works currently under review elsewhere.
+
+Politics and Governance, 2021, Volume 9, Issue 2, Pages 319–331
+
+331
+
+

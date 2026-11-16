@@ -1,0 +1,1359 @@
+Source: https://www.oig.dol.gov/public/reports/oa/2025/19-25-006-03-315.pdf
+Publisher: U.S. Department of Labor, Office of Inspector General
+Retrieved: 2026-11-16
+Original SHA-256: e244eb929653706e9b7a325c0749eaa7032fb8c1d90a2f93bd6d89f6f69a7c70
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+REPORT TO THE
+EMPLOYMENT AND TRAINING
+ADMINISTRATION
+
+ETA DID NOT ENSURE ARPA GRANTS
+DEMONSTRATED IMPROVEMENTS IN
+ACCESS TO UNEMPLOYMENT BENEFITS
+
+DATE ISSUED: AUGUST 28, 2025
+REPORT NUMBER: 19-25-006-03-315
+
+What We Found
+
+BRIEFLY…
+ETA DID NOT ENSURE
+ARPA GRANTS DEMONSTRATED
+IMPROVEMENTS IN ACCESS TO
+UNEMPLOYMENT BENEFITS
+Why We Did the Audit
+The American Rescue Plan Act of
+2021 (ARPA) provided DOL $1 billion in
+funding to prevent and detect fraud,
+promote equitable access, and ensure
+timely payment of unemployment
+insurance (UI) benefits. Subsequently,
+the Employment and Training
+Administration (ETA) awarded
+$219 million in first-of-their-kind grants
+to 45 states and the District of
+Columbia (states) to promote equitable
+access to UI programs.
+We are aware Executive Order 14151
+may impact the future of this specific
+grant program. However, because our
+audit focused on grant implementation
+and performance measurement, our
+results are not isolated to these grants
+and can help inform ETA’s grant
+governance practices agencywide.
+Based on prior OIG audits, we were
+concerned about ETA’s ability to deploy
+this grant funding. Therefore, we
+performed an audit to determine:
+To what extent did ETA administer
+these grants in accordance with
+ARPA and DOL’s objectives for UI
+access, and are grant recipients on
+target to achieve performance
+outcomes?
+Read the Full Report
+For more information, go to:
+https://www.oig.dol.gov/public/reports/o
+a/2025/19-25-006-03-315.pdf.
+
+While ETA designed these grants in accordance with ARPA and
+DOL goals and objectives, we found ETA did not ensure the grants
+demonstrated improvements in access to UI benefits nor were they
+awarded in a way that would maximize impact of the funding. This
+was inconsistent with ETA guidance and federal law on government
+performance and results. Specifically, ETA awarded more than
+$20.7 million in ARPA funding for 16 projects that failed to provide
+evidence of the existence of a UI access issue in their state’s grant
+application. We identified those monies as funds for better use. This
+occurred because ETA did not establish effective criteria for
+reviewing grant applications. Consequently, a risk exists that
+completed and ongoing state projects may demonstrate limited to
+no impact on improving access to UI benefits.
+In addition, ETA did not ensure states reported complete and
+accurate outcome metrics and status updates in quarterly progress
+reports. Of 10 sampled states with closed-out grants, 3 did not
+achieve all expected outcomes; we are claiming a total of more than
+$2.8 million as questioned costs and recommend recovery. Further,
+based on the latest quarterly progress reports reviewed, two
+sampled states with active grants (still within their period of
+performance) were either not on target to achieve all project goals
+or their status was unknown. These problems occurred because
+ETA did not effectively monitor grant reporting and performance.
+Incomplete reporting of outcome metrics and inaccurate status
+updates can hinder ETA’s ability to perform real-time monitoring,
+provide timely interventions, and demonstrate the grants achieved
+their goals.
+Finally, ETA’s grant rollout was inefficient and the design was
+duplicative of another program. Specifically, ETA announced these
+grants and subsequently announced another ARPA grant
+opportunity—Tiger Team grants. Both programs had similar goals
+and required separate assessments of the same UI environment to
+inform grant activities. However, ETA did not coordinate the two
+opportunities in a way that would maximize the impact of the grant
+funding. This prevented synergies between the two programs where
+Tiger Team recommendations could have informed grant projects,
+mitigated duplication of efforts, and increased project effectiveness.
+What We Recommended
+We made four recommendations to ETA to improve grant
+governance in the areas of awarding, monitoring, and planning as
+well as funds recovery. Specifically, we recommended ETA:
+establish a policy requiring evaluation criteria to ensure grant
+applications include appropriate evidence; develop additional
+guidance and staff training to improve monitoring; review and
+recover $2.8 million in questioned costs; and develop guidance for
+the planning of new discretionary grant programs. ETA agreed with
+and provided corrective action information in response to all four
+recommendations.
+
+U.S. Department of Labor – Office of Inspector General
+
+TABLE OF CONTENTS
+
+INSPECTOR GENERAL’S REPORT .................................................................... 1
+RESULTS ............................................................................................................. 2
+ETA Did Not Ensure States Provided Evidence of UI Access Issues
+in Grant Applications .................................................................................. 3
+ETA Did Not Ensure Projects Reported Complete and Accurate
+Information ................................................................................................. 6
+ETA Did Not Effectively Administer ARPA Funding to Maximize
+Impact ...................................................................................................... 11
+CONCLUSION .................................................................................................... 13
+OIG’S RECOMMENDATIONS ............................................................................ 14
+Analysis of ETA’s Comments ................................................................... 14
+EXHIBIT 1: GRANT AWARDS ............................................................................ 16
+EXHIBIT 2: FUNDS FOR BETTER USE............................................................. 17
+EXHIBIT 3: QUESTIONED COSTS .................................................................... 18
+APPENDIX A: SCOPE AND METHODOLOGY .................................................. 19
+APPENDIX B: AGENCY’S RESPONSE TO THE REPORT ............................... 23
+
+-i-
+
+U.S. Department of Labor
+
+Office of Inspector General
+Washington, DC 20210
+
+INSPECTOR GENERAL’S REPORT
+Lori Frazier Bearden
+Acting Assistant Secretary
+for Employment and Training
+U.S. Department of Labor
+200 Constitution Avenue NW
+Washington, DC 20210
+This report presents the results of the U.S. Department of Labor (Department or
+DOL) Office of Inspector General’s (OIG) audit of the Employment and Training
+Administration’s (ETA) American Rescue Plan Act of 2021 (ARPA) grants,
+specifically those intended to improve equitable access to unemployment
+insurance (UI) benefits. ARPA provided $2 billion 1 in funding to the Secretary of
+Labor to prevent and detect fraud, promote equitable access, and ensure timely
+payment of benefits. ETA subsequently awarded $219 million in first-of-their-kind
+“equity” grants (grants) to 46 states2 to promote equitable access to UI programs.
+The intended grant outcomes included more UI applications, improved service
+delivery so claimants receive initial benefits in a timely manner, and a better
+understanding of access challenges.
+Based on prior OIG pandemic and grant audits, we were concerned about ETA’s
+ability to deploy the $219 million provided for the first-of-their-kind grants.
+Therefore, we conducted a performance audit to determine:
+To what extent did ETA administer these grants in accordance with ARPA
+and DOL’s objectives for UI access, and are grant recipients on target to
+achieve performance outcomes?
+To answer this question, we reviewed ETA’s design of the grant requirements in
+Unemployment Insurance Program Letter (UIPL) 23-21 and ETA’s approval
+process for awarding the grants. We also judgmentally selected a sample of
+10 states based on state size to determine if ETA ensured states met its
+requirements to receive funds. In those 10 states, we reviewed a total of
+36 projects during the grant approval phase and 37 projects during the period of
+1 The Fiscal Responsibility Act of 2023 established new discretionary spending limits, rescinded
+
+unobligated funds, and expanded work requirements for federal programs. As a result, ARPA
+funding to DOL was reduced from an initial $2 billion to $1 billion.
+2 This number includes the District of Columbia as a recipient as does our sample. See Exhibit 1.
+
+-1-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+performance phase (see Exhibit 1). 3 We also reviewed quarterly progress reports
+for six quarters 4 to determine whether states reported on their performance
+metrics and were on target to achieve the outcomes in their grant agreements.
+Additionally, we interviewed ETA national and regional staff. See Appendix A for
+more details on scope and methodology.
+We are aware a recent executive order 5 may impact the future of this specific
+grant program. However, because our audit focused on implementation and
+performance measurement of the grants, our results are not isolated to these
+grants and can help inform ETA’s grant governance practices agencywide.
+RESULTS
+While ETA designed these grants in accordance with ARPA and DOL goals and
+objectives, we found ETA did not ensure the grants demonstrated improvements
+in access to UI benefits nor were the grants awarded in a way that would
+maximize impact of the funding. This was inconsistent with ETA guidance and
+federal law on government performance and results.
+Specifically, ETA awarded more than $20.7 million in ARPA funding for
+16 projects that failed to provide evidence demonstrating the existence of a UI
+access issue in their state’s grant application. We identified those monies as
+funds for better use (see Exhibit 2). This occurred because ETA did not establish
+effective criteria for reviewing grant applications. Consequently, a risk exists that
+completed and ongoing state projects may demonstrate limited to no impact on
+improving access to UI benefits.
+In addition, ETA did not ensure states reported complete and accurate outcome
+metrics and status updates in quarterly progress reports. Of 10 sampled states
+with closed-out grants, 3 did not achieve all expected outcomes; we are claiming
+a total of more than $2.8 million as questioned costs and recommend recovery
+(see Exhibit 3). Further, based on the latest quarterly progress reports reviewed, 6
+two of the seven remaining sampled states with active grants (still within their
+3 After grant award, Texas cancelled one project and added two, expanding the total project count
+from 36 to 37.
+4 The audit team reviewed the quarterly progress reports for 6 quarters over a 2-year period of
+performance for the grants in our sample, for quarters ending: June 2023, September 2023,
+December 2023, March 2024, June 2024, and September 2024.
+5 Executive Office of the President, Executive Order 14151 of January 20, 2025: Ending Radical
+and Wasteful Government DEI Programs and Preferencing, available at:
+https://www.federalregister.gov/executive-order/14151
+6 Quarterly Performance Report dated September 2024
+
+-2-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+period of performance) were either not on target to achieve all project goals or
+their status was unknown. These problems occurred because ETA did not
+effectively monitor grant reporting and performance. Incomplete reporting of
+outcome metrics and inaccurate status updates can hinder ETA’s ability to
+perform real-time monitoring, provide timely interventions, and demonstrate the
+grants achieved their goals.
+Finally, ETA’s rollout of these grants was inefficient and its grant design was
+duplicative of another grant program. Specifically, ETA announced these grants
+and subsequently announced another ARPA grant opportunity—Tiger Team
+grants. Both grant programs had similar goals and required separate
+assessments of the same UI environment to inform grant activities. However,
+ETA did not coordinate the two grant opportunities in a way that would maximize
+the impact of this funding. This prevented synergies between the two programs
+where Tiger Team recommendations could have informed grant projects,
+mitigated duplication of efforts, and increased project effectiveness.
+ETA Did Not Ensure States Provided
+Evidence of UI Access Issues in Grant
+Applications
+In 7 of the 10 states, we found ETA approved funding for 16 projects where the
+grant application did not include evidence demonstrating the existence of the UI
+issue they proposed to address. ETA required states to provide an assessment
+within their grant applications of specific issues or problems that each project
+would address. However, during its grant application review, ETA did not ensure
+the states’ assessments included such evidence of the issues or problems.
+Consequently, ARPA funds may have been spent on projects that did not
+address actual issues or improve access for underserved claimant populations.
+Overall, as a result, we determined more than $20.7 million in funding could have
+been put to better use.
+UIPL 23-21 included the requirement for that assessment and an explanation of
+how their proposed use of funds would address the problem or issue.
+Specifically, the UIPL specified states should provide evidence of a thorough
+analysis of current operations and show the strategic design of each project
+would meet state needs in promoting equitable access to UI programs.
+In response to our audit observations, ETA officials clarified that:
+providing specific U.S. Census information or data from other
+government agencies or reputable sources (i.e., university or
+
+-3-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+publication) was not required to receive an equity grant award
+[and]
+states were required to provide information or minimally sufficient
+justification on current operations to improve/promote access to the
+[UI] program.
+For the 10 states we sampled, we found grant applications for 16 of 36 projects
+(44 percent) did not contain evidence to demonstrate the existence of the specific
+access-related issue(s) the project intended to address in the state. Despite the
+lack of evidence of an assessment for these 16 projects, ETA awarded more
+than $20.7 million in ARPA funding to 7 states for these projects.
+For example, Pennsylvania received $4.9 million to hire in-person staff and
+acquire iPads to improve in-person services. Pennsylvania’s grant application
+stated it believed individuals at risk of not receiving equal service included
+claimants:
+•
+•
+•
+•
+•
+
+living in rural areas with limited internet infrastructure,
+with low income or facing poverty,
+without technological skills (limited education or older claimants),
+with limited literacy skills, and
+with limited English proficiency.
+
+However, Pennsylvania provided no evidence—such as UI claimant data or
+population or employment surveys available through the U.S. Census Bureau or
+the Bureau of Labor and Statistics—to demonstrate the presence of these
+populations or that these populations were underserved by the Pennsylvania UI
+system.
+We found this lack of evidence in grant applications from other states, also. For
+example, Texas received $4.7 million to upgrade its legacy UI systems. In its
+application, Texas stated:
+The new UI system will be mobile responsive, making it easier to
+service customers who only have a mobile phone or small tablet,
+versus a computer. The system will provide all services in English
+and Spanish, with limited services in other languages, while
+providing customers information on how to obtain additional
+services in their preferred language.
+
+-4-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+The new UI system will provide more interactive access to
+individuals by expanding the number of self-service options
+available to them versus our current internet-based system. The
+mobile responsiveness and ability to obtain services in other
+languages are expected to increase the percentage of Limited
+English Proficiency and lower-income groups using internet
+services, who now prefer interacting…by telephone.
+Like Pennsylvania, Texas did not provide any evidence indicating the populations
+it was targeting were experiencing barriers to accessing UI programs. Without
+this evidence, ETA could not ensure ARPA funds were correctly allotted to meet
+the goals of its grant program.
+ETA indicated it analyzed state assessments during the grant application review
+process. However, its analysis was not effective in ensuring the states’
+assessments included evidence supporting the issues the grants were intended
+to address. This occurred because ETA did not establish criteria to ensure
+reviewers sufficiently considered states’ assessments during the review process.
+Neither ETA’s UIPLs nor its grants management guidance contained:
+(1) language establishing criteria or quality standards related to assessments for
+grant applications or (2) procedures for analyzing assessments provided by state
+applicants. Further, while review teams met bi-weekly to discuss application
+statuses, ETA provided only one formal training for reviewers and the training did
+not detail how to determine the quality of a state assessment.
+ETA stated that, in reviewing grant applications, it considered qualitative data in
+addition to the limited quantitative data available, a compelling rationale, and / or
+broader state data as sufficient for purposes of demonstrating suitability of an
+equity grant activity. ETA also stated that:
+requir[ing] a standardized assessment likely would have resulted in
+significantly fewer states participating and that would have reduced
+the impact of these grants. The Department had to pursue and
+promote these grants to an exhausted system in the midst of a
+global pandemic and had to meet states where they were.
+While we recognize the circumstances in which these grants were issued, ETA
+could have been more diligent in reviewing grant applications by requiring states
+to provide evidence supporting the populations they intended to target for UI
+program improvements using ARPA funds.
+These grants were created to improve the delivery of UI services to people who
+faced obstacles in accessing state systems and benefits. States that did not use
+
+-5-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+a thorough, data-driven assessment of their UI operations to determine the
+underlying causes or even the existence of access issues risked implementing
+solutions with no demonstrated positive impact towards improving claimant
+access. As a result, states’ efforts may not achieve the intended outcomes of the
+grant program.
+ETA Did Not Ensure Projects Reported
+Complete and Accurate Information
+During our review of quarterly progress reports, we found ETA did not ensure
+states consistently reported all outcome metrics as required by their grant
+agreements. Additionally, states reported inaccurate project status information,
+which could hinder ETA’s ability to effectively assess the status of project
+activities and overall grant progress. Without enforcement of complete and
+accurate reporting, ETA faced significant challenges in determining whether
+projects were meeting intended outcomes. This was evidenced by our review of
+three states that were in the grant close-out phase as of March 2024. We found
+these states did not achieve six of the goals outlined in their grant agreements,
+aimed at resolving issues like claim backlogs, timeliness, and accessibility.
+Further, we found two of the seven remaining states with active projects were in
+danger of not meeting their goals.
+UIPL 23-21 required states, in their grant applications, to identify outcome
+metrics to demonstrate quantifiable improvements expected in their UI programs.
+The UIPL also required each state to report on these metrics in quarterly
+progress reports, which ETA would use to monitor each state’s progress towards
+achieving the timelines and outcome metrics and completing the deliverables
+established in the grant application. ETA would also use these reports to ensure
+a state’s use of funds was consistent with permissible activities that the UIPL
+outlined. States were required to submit a quarterly progress report for each
+project funded through their grant.
+Incomplete Reporting of Outcome Metrics
+To determine whether states provided quarterly updates on projects and
+outcome metrics as required by their grant agreements, we reviewed the
+quarterly progress reports submitted by the 10 states, comprising a total of
+37 projects. 7 We found, on average, 92 percent of these projects did not report
+on all required outcome metrics (see Table 1).
+7 During the period of performance, Texas cancelled one project and added two, expanding the
+
+total project count from 36 to 37 during the performance phase.
+
+-6-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Table 1: Percent of Active Projects Reporting Incomplete Outcome Metrics,
+Quarters Ending June 2023–September 2024
+Number of
+Active Projects
+
+Number of Projects
+Reporting Incomplete
+Outcome Metrics
+
+Percentage
+
+June 2023
+
+18
+
+16
+
+89%
+
+September 2023
+
+20
+
+17
+
+85%
+
+December 2023
+
+20
+
+19
+
+95%
+
+March 2024
+
+23
+
+22
+
+96%
+
+June 2024
+
+22
+
+20
+
+91%
+
+September 2024
+
+21
+
+20
+
+95%
+
+Totals
+
+124
+
+114
+
+92%
+
+Quarter Ending
+
+Source: OIG analysis of quarterly progress reports
+
+For example, Nevada’s grant agreement identified two outcome metrics for its
+chatbot 8 project: (1) reducing wait times for non-English speaking callers and
+(2) reducing claimant errors. According to the project’s quarterly progress
+reports, the chatbot went live on July 25, 2023. In addition, as of the
+September 2024 progress report, this project was completed with all funds
+expended. Although the project reported some general usage statistics, it had not
+reported any metrics related to reducing wait times for non-English speaking
+callers or claimant errors as required by its grant agreement.
+In addition to the incomplete reporting, we also found one state, Texas, reported
+outcome metrics for three projects that were inconsistent with the metrics
+identified and approved in its grant application. These projects were required by
+the grant agreement to report outcome metrics for “timeliness of first payment for
+the limited English proficient” and “timeliness of first payment for lower-income
+groups.” Instead of reporting these timeliness metrics, the projects instead
+reported metrics for updating forms, callback options, and chat services. Two of
+these metrics—for forms and chat services—were especially problematic
+because they did not measure the impact on targeted populations.
+Outcome metrics were necessary for measuring program improvements. These
+metrics were incorporated into grant agreements to ensure states were
+8 A chatbot is a computer program designed to simulate conversation with human users,
+especially over the internet.
+
+-7-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+accountable for tracking specific outcomes and improving their UI programs.
+Incomplete reporting of outcome metrics can hinder ETA’s ability to perform
+real-time monitoring and provide timely interventions.
+Inaccurate Reporting of Project Status
+To determine if states reported accurate information regarding project status, we
+reviewed the quarterly progress reports submitted by the 10 states. We
+compared each state’s self-assessment of project status—on schedule, behind
+schedule, or complete—with the detailed narrative provided and found
+discrepancies for 5 of the 10 states. Specifically, we identified nine instances
+where states reported projects were on schedule, but the detailed report
+narrative indicated they were behind schedule.
+For example, Kansas reported a project to modernize its computer systems was
+on schedule in its December 2023 quarterly progress report. However, the report
+narrative indicated application development had fallen behind schedule. Kansas
+was estimating a 4-month delay in completing updates to its benefits system and
+a 4- to 6-month delay in completing updates to its tax system. On
+December 11, 2023, Kansas requested a grant modification to extend its period
+of performance end date from March 31, 2024, to August 31, 2024.
+Similarly, Texas reported a project to improve its claimant “callback” system was
+on schedule in its June 2023 quarterly progress report. However, the project was
+originally planned to be completed 6 months earlier in January 2023. The project
+was later updated to end in August 2023, but was still ongoing and behind
+schedule in the September 2024 performance report. In January 2024, Texas
+also requested a 1-year extension for all its projects, to March 31, 2025.
+ETA needed to ensure states’ quarterly progress reports contained accurate
+information, particularly project status information. This could help prevent
+unnecessary delays, minimize extensions, and allow for intervention to ensure
+states stayed on target with their goals. ETA officials stated the agency reviews
+the quarterly progress reports and follows up with states, but the communications
+are informal and not documented. However, these efforts were ineffective in
+improving the quality of reported data or overall recipient performance.
+Status of Closed-Out and Active Grants
+In our review of the final or most recent quarterly progress reports for grants, we
+found projects that failed to meet their goals or were in danger of not meeting
+their goals. Notably, three states with closed-out grants did not achieve many of
+
+-8-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+the objectives outlined in their grant agreements, underscoring the importance of
+ensuring complete and accurate reporting for monitoring grant recipient
+performance. We also found, as of September 2024, two of seven remaining
+sampled grants were either not on target to achieve all project goals or their
+status was not determinable due to insufficient data.
+Closed-Out Grants
+Three states had entered the grant close-out phase as of March 2024. We
+reviewed the final quarterly progress reports for the 3 states and found 6 of the
+10 total projects did not achieve or report achievement of project goals outlined in
+their grant agreements. We are claiming more than $2.8 million in costs
+associated with these projects as questioned costs and recommend recovery.
+Details follow.
+New Mexico
+New Mexico received more than $1.65 million for two projects to eliminate a UI
+workflow backlog and improve the timeliness and accuracy of claimant
+information for Spanish-speaking and low literacy claimants who were submitting
+claim information via phone calls. However, the projects’ final progress reports
+did not state the workflow backlog had been eliminated nor did they include
+specific, quantifiable data to measure an actual improvement for the targeted
+populations.
+District of Columbia
+The District of Columbia received $1.8 million for three projects to improve
+claimant communications through the implementation and evaluation of audit
+recommendations, improve customer service through system upgrades, and
+expand customer collection and demographics data through outreach and staff
+training. However, the projects’ final progress reports did not state audit
+recommendations had been implemented and evaluated, did not describe how
+the system upgrades had improved customer service to targeted populations,
+and did not indicate if staff had received training. Of this total, we are claiming
+$654,000 for one project as funds for better use 9 and the remaining
+$1,176,000 as questioned costs.
+
+9 This project was included in the “funds for better use” previously identified in this report. To
+prevent double counting, we are not claiming questioned costs for this project.
+
+-9-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Pennsylvania
+Pennsylvania received $1.9 million to eliminate a backlog of Pandemic
+Unemployment Assistance appeals and improve timeliness. However, the
+project’s March 2024 final progress report stated timeliness did not improve.
+Although this project did not report achievement of its timeliness goal, we are not
+claiming or recommending recovery of questioned costs because the state
+successfully eliminated its backlog and only spent $231,080 toward this project
+before it modified its grant to move the remaining funds to another project.
+Active Grants
+Of the remaining seven states, two states—Nevada and Texas—were in danger
+of not meeting all the goals of their grants as of September 2024. Overall, we
+identified that 3 of 14 projects in these 2 states were not on track to meet goals
+or did not report sufficient information to determine if they were on track. Details
+follow.
+Nevada
+In Nevada, the status of one project appeared to be behind schedule and lacked
+measurable outcomes. The purpose of this project was to add nine additional
+languages to claimant resources on the state’s website to reduce call center
+volume and requests. Only the Spanish translation was reported complete, but
+there were no reports on its impact, such as reducing claimant wait times or
+improving call center efficiency. Also, Nevada’s September 2024 report stated
+the other translations for the new UI system were still in testing and would not go
+live until mid-2025. A request for an additional extension for the project was
+pending due to ongoing delays and challenges.
+Texas
+The status of two projects in Texas was unclear. One project, focused on data
+gathering and analysis, reported the same status for four consecutive quarters,
+from June 2023 through March 2024, indicating the project was not on track. A
+second project to improve the callback system had not updated its metrics from
+September 2023 through September 2024. Accordingly, the project status was
+unclear. The period of performance for the Texas grant was scheduled to end on
+March 31, 2025.
+While ETA officials informed us that they were in regular communication with
+states regarding their performance outcomes, ETA’s efforts were ineffective in
+improving the quality of reported data or overall recipient performance. ETA did
+not ensure outcome metrics were consistently reported to demonstrate intended
+
+-10-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+improvements. Additionally, inaccurate performance reports hindered ETA’s
+ability to adequately assess project progress and outcomes.
+ETA officials stated grant progress is not linear and they expect states to
+complete requirements by the end of the grant period. Additionally, according to
+ETA, states were dealing with other pandemic-related grants, initiatives, and
+programs; capacity issues; and the impact of natural disasters.
+However, we identified projects in our sample that had been closed during our
+audit and had not achieved desired outcomes by the grant’s end. If ETA does not
+ensure accurate, complete, and consistent reporting from grant recipients during
+the period of performance, it will be unable to assess progress or provide timely
+technical assistance or other mitigating actions. These ETA mitigating actions
+can be crucial to ensure states quickly get back on track and accomplish the
+goals and achieve improvements outlined in their grant agreements. Further,
+without such reporting, ETA is unable to demonstrate improvements in UI access
+for claimants.
+ETA Did Not Effectively Administer ARPA
+Funding to Maximize Impact
+ETA did not effectively plan the rollout of two ARPA grant opportunities.
+Specifically, ETA issued two grant opportunities with similar goals that required
+separate assessments of the same UI environment. This occurred because ETA
+did not coordinate the two grant opportunities in a way that would maximize the
+impact of the funding. ETA stated it had endeavored to ensure states did not use
+funds from both grants for the same types of projects, but its lack of coordination
+between the two grants may have inhibited states from applying maximum effort
+and funding toward the most significant issues.
+Passed in March 2021, ARPA appropriated $2 billion 10 to the Secretary of Labor
+“to detect and prevent fraud, promote equitable access, and ensure the timely
+payment of benefits with respect to unemployment compensation programs.”
+This was the first time the Department received major resources to work
+collaboratively with states to improve UI systems and processes to address
+disparities in access to UI benefits that, according to ETA, have historically
+delayed delivery of needed financial support to claimants. ETA used the money
+to fund several grant opportunities for state workforce agencies, which included
+$219 million for the equity grants and up to $200 million for Tiger Team grants.
+10 The Fiscal Responsibility Act of 2023 established new discretionary spending limits, rescinded
+
+unobligated funds, and expanded work requirements for federal programs. As a result, ARPA
+funding to DOL was reduced from an initial $2 billion to $1 billion.
+
+-11-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+In August 2021, ETA issued UIPL 23-21, announcing grants for states to promote
+equitable access to UI programs, which included (1) eliminating administrative
+barriers to benefit applications; (2) reducing state workload backlogs;
+(3) improving the timeliness of UI payments to eligible individuals; and
+(4) ensuring equity in fraud prevention, detection, and recovery activities.
+Approximately 2 months later, via UIPL 02-22, ETA announced its Tiger Team
+grants to support states in improving UI systems and processes. These grants
+had similar goals: (1) promoting equitable access and (2) ensuring the timely
+payment of benefits as well as activities to reduce workload backlogs. The
+Tiger Team grants also added a goal of preventing, detecting, and recovering
+funds from fraud. Both grant opportunities required an assessment of a state’s UI
+environment, creating a duplication of efforts. Overall, 46 states received equity
+funds and 34 of those 46 also received Tiger Team funds.
+To support the Tiger Team grants, DOL established multi­disciplinary teams of
+experts, Tiger Teams, who conducted assessments of state UI systems and
+processes and then made recommendations to help inform states’ use of grant
+funding. However, since the notice for equity grants had already been issued,
+states had to perform an independent assessment of their UI operations for use
+in their applications. Additionally, Tiger Teams could only assess six states at a
+time. This prevented states from using Tiger Teams’ recommendations to inform
+their equity grant activities and created a duplication of efforts to assess UI
+environments.
+ETA officials stated the reason the Tiger Team grants were rolled out later is
+because it needed time to develop the Tiger Team infrastructure, which included:
+1. recruiting and hiring staff to support the Tiger Team initiative,
+2. soliciting and acquiring contract support that would form the expert teams
+to conduct the assessments and work with staff in developing
+recommendations, and
+3. establishing workflow processes for these engagements.
+According to ETA officials, the timing and overall direction of the design of the
+grants was led by DOL’s Office of UI Modernization and ETA was charged with
+implementing the grants according to that direction. Moreover, ETA also stated it
+faced significant external pressure to obligate the funds quickly.
+However, the ARPA funds were available until expended, with no time limit on
+the use of the funds. Additionally, as indicated by ETA, states were challenged in
+dealing with other pandemic-related grants, initiatives, and programs; capacity
+issues; and the impact of natural disasters. Because there was no time limitation,
+
+-12-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+ETA could have dedicated more time to planning these grants. This might have
+helped reduce duplication and improve efficiency in the rollout. Additionally, it
+might have allowed states more time to address other challenges they faced.
+ETA further stated, as equity grants were awarded, it endeavored to ensure no
+duplication of work between the two types of grants. However, we found 34 of the
+36 states that received funds for Tiger Team assessments had already
+undertaken their state assessments as part of the equity grant application and
+29 states had completed their assessments prior to engaging with the
+Tiger Teams.
+According to ETA, the data available to states to undertake an assessment of
+their UI environment varied greatly, with ETA stating the UI system “lacks
+significant and universal data on the issue of impacts on equity.” ETA also noted
+the newness of the equity program was a major challenge. Accordingly,
+Tiger Teams’ analyses of state UI systems and access challenges could have
+been a critical tool for states to ensure equity grant funds targeted existing issues
+within their states.
+The Government Performance and Results Act states waste and inefficiency in
+federal programs undermines the confidence of the American people in the
+government and reduces the general government’s ability to adequately address
+vital public needs. By issuing equity grants prior to Tiger Team grants, ETA did
+not fully leverage its Tiger Teams to the best extent possible. In a data-lacking
+environment, the Tiger Teams’ analysis could have helped inform states’ grant
+actions. Tiger Teams were intended to aid states in assessing and understanding
+underlying causes of inequitable access to UI so that states could then efficiently
+use ARPA funds for maximum benefit toward the most significant issues.
+Further, by creating two grant opportunities that required UI assessments, ETA
+inefficiently deployed ARPA funds and facilitated the potential for duplication of
+effort by states. Ultimately, ETA’s planning of these two grant opportunities may
+have inhibited states from applying maximum effort and funding toward the most
+significant issues.
+CONCLUSION
+In our audit of these grants, we identified areas where ETA can strengthen its
+grant awarding, monitoring, and planning processes. We found ETA did not
+effectively monitor the grants to ensure approved projects demonstrated
+measurable improvements in access to UI benefits nor were the grants awarded
+in a way that would maximize the impact of the funding. Overall, we identified
+
+-13-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+more than $20.7 million in funds for better use plus more than $2.8 million in
+questioned costs. Although a recent executive order may impact the future of this
+specific grant program, our audit results can be used to help inform ETA’s grant
+governance practices agencywide.
+OIG’S RECOMMENDATIONS
+We recommend the Assistant Secretary for Employment and Training:
+1. Establish a policy that requires evaluation criteria or standards to be used
+to ensure grant applications include evidence of a specific issue prior to
+awarding a grant intended to address said issue.
+2. Develop additional guidance and staff training to improve monitoring of
+grant recipients, including a focus on reviewing progress reports to ensure
+reporting complies with requirements and grant recipients are on target to
+achieve grant goals as identified in the grant agreement.
+3. Review $2,827,736 in costs for grant projects that did not achieve project
+goals and recover funds where appropriate.
+4. Develop guidance for planning new discretionary grant programs to
+ensure better coordination, minimize duplication of effort, and promote
+more efficient use of grant funds.
+Analysis of ETA’s Comments
+In response to a draft of this report, ETA agreed with our four recommendations,
+which are intended to improve grant governance in the areas of awarding,
+monitoring, and planning as well as funds recovery. ETA also stated it is already
+taking corrective action as follows:
+•
+
+For Recommendations 1 and 4, ETA communicated it had updated its
+template language for future funding opportunity announcements.
+Specifically, ETA added language to ensure grant applications include
+evidence of specific issues and to improve efficiency and coordination
+while reducing potential duplication of efforts;
+
+•
+
+For Recommendation 2, ETA intends to incorporate the report
+recommendations into future training for Federal Project Officers; and
+
+-14-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+•
+
+For Recommendation 3, on funds recovery, ETA requested a slight
+revision to the language, asserting its first step would be to review the
+information we provided and then to recover any disallowed amounts.
+
+We carefully reviewed ETA’s response. We also slightly adjusted the wording of
+Recommendation 3 for clarity, as ETA’s suggestion was aligned with the
+recommendation’s intent.
+We look forward to working with ETA personnel to ensure the intent of all four
+recommendations is addressed. The agency’s response to the draft report is
+included in its entirety in Appendix B.
+We appreciate the cooperation and courtesies ETA extended to us during this
+audit.
+
+Laura B. Nicolosi
+Assistant Inspector General for Audit
+
+-15-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT 1: GRANT AWARDS
+Table 2: Grants Awarded to 10 Sampled States
+Number of
+Projects
+
+Grant Award
+
+California
+
+2
+
+$9,120,000
+
+Texas*
+
+6
+
+$8,813,350
+
+Colorado
+
+4
+
+$6,840,000
+
+Pennsylvania
+
+2
+
+$6,839,813
+
+Oregon
+
+2
+
+$4,562,000
+
+Nevada
+
+7
+
+$4,562,000
+
+Kansas
+
+1
+
+$4,562,000
+
+District of Columbia
+
+4
+
+$2,283,000
+
+South Dakota
+
+4
+
+$2,283,000
+
+New Mexico
+
+4
+
+$2,258,460
+
+Totals
+
+36
+
+$52,123,623
+
+State
+
+*After grant award, Texas cancelled one project and added two, which expanded
+the total project count from 36 to 37.
+Source: OIG analysis of grant agreements for the sampled states
+
+-16-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT 2: FUNDS FOR BETTER USE
+Table 3: Funds For Better Use 11
+
+State
+
+Number of
+Projects
+
+Dollar Amount Awarded
+(Before Modifications)
+
+Texas
+
+5
+
+$7,524,706
+
+Pennsylvania
+
+1
+
+$4,924,023
+
+Nevada
+
+3
+
+$4,392,913
+
+Colorado
+
+2
+
+$1,987,261
+
+District of Columbia
+
+2
+
+$1,107,000
+
+New Mexico
+
+2
+
+$606,724
+
+Oregon
+
+1
+
+$ 229,863
+
+Totals
+
+16
+
+$20,772,490
+
+Source: OIG analysis of grant agreements for the sampled states
+
+11 As defined by the Inspector General Act of 1978, as amended, “funds for better use” means
+
+funds that could be used more efficiently or achieve greater program effectiveness if
+management took certain actions. These actions include reduction in future outlays and
+deobligation of funds from programs or operations.
+
+-17-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT 3: QUESTIONED COSTS
+Table 4: Questioned Costs 12
+Number of
+Projects
+
+Total
+Questioned
+Costs
+
+Total Claimed
+Questioned
+Costs
+
+New Mexico
+
+2
+
+$1,651,736
+
+$1,651,736
+
+District of Columbia
+
+3
+
+$1,830,000
+
+$1,176,000
+
+Pennsylvania
+
+1
+
+$231,080
+
+0
+
+Totals
+
+6
+
+$3,712,816
+
+$2,827,736
+
+State
+
+Source: OIG analysis of grant performance for sampled states with closed-out grants
+
+This table shows the total questioned costs identified and the total amount
+claimed in this report. During this audit, we identified more than $3.7 million in
+questioned costs. To prevent double counting, we are not claiming questioned
+costs of $654,000 for one District of Columbia project because it was included in
+the “funds for better use” captured in Exhibit 2. Additionally, we are not
+recommending recovery of questioned costs for one Pennsylvania project.
+Although the project did not meet a portion of its original goal of improving
+timeliness, it successfully eliminated the existing backlog, thereby preventing
+timeliness from worsening. After eliminating the backlog, the remaining funds for
+this project were moved to another project. As a result, we are claiming a total of
+more than $2.8 million in questioned costs in this report.
+
+12 As defined by the Inspector General Act of 1978, as amended, questioned costs include
+
+alleged violations of law, regulations, contracts, grants, or agreements; costs not supported by
+adequate documentation; or the expenditure of funds for an intended purpose that was
+unnecessary or unreasonable.
+
+-18-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+APPENDIX A: SCOPE AND METHODOLOGY
+Scope
+This audit covered ETA’s processes for designing and awarding the grants and
+monitoring grant recipients’ performance, from the passing of ARPA in
+March 2021 through September 30, 2024.
+While Executive Order 14151, issued in January 2025, may impact the future of
+this specific grant program, our audit focused on implementation and
+performance measurement of the grants to help inform ETA’s grant governance
+practices agencywide.
+Methodology
+We conducted this performance audit in accordance with generally accepted
+government auditing standards. Those standards require that we plan and
+perform the audit to obtain sufficient, appropriate evidence to provide a
+reasonable basis for our findings and conclusions based on our audit objective.
+We believe that the evidence obtained provides a reasonable basis for our
+findings and conclusions based on our audit objectives.
+To answer our objective, we reviewed ETA’s grant design in UIPL No. 23-21,
+which outlined the equity grant requirements, and ETA’s approval process for
+awarding grants. We selected a sample of 10 of the 46 state grant recipients to
+determine if ETA ensured states met UIPL 23-21 requirements to receive funds.
+The sampling universe comprised 46 states that received grants. We
+judgmentally selected 10 states based on size as defined by ETA in UIPL 23-21,
+ensuring that we selected at least 2 states from each size category: small,
+medium, large, and extra-large.
+We reviewed quarterly progress reports (ETA 9178-ARPA) for the six quarters
+ending June 2023 through September 2024 to determine whether states were on
+target to achieve the outcomes and metrics outlined in their grant agreements.
+We also reviewed relevant aspects of UIPL 02-22, which outlined the Tiger Team
+grants.
+We interviewed ETA national and regional staff. We also coordinated with the
+OIG’s Office of Investigations and three other Office of Audit teams conducting
+ETA audits to ensure our fieldwork remained informed of any emerging issues
+related to our audit objective.
+
+-19-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Reliability Assessment
+In planning and performing the audit, we relied on grant award data provided by
+ETA. We assessed the reliability of this data by: (1) reviewing the various rounds
+of awards displayed on ETA’s website to ensure they coincided with the award
+dates and amounts provided by ETA and (2) confirming the funding awarded to
+each state aligned with the parameters in UIPL 23-21 based on state’s UI
+covered employment in 2020. We determined the data was sufficiently reliable
+for the purposes of this audit report.
+Internal Controls
+A performance audit includes an understanding of internal controls considered
+significant to the audit objective and testing compliance with significant laws,
+regulations, and other requirements. In planning and performing our audit, we
+considered whether internal controls significant to the audit objective were
+properly designed and placed in operation. This included reviewing policies and
+procedures. We confirmed our understanding of these controls and procedures
+through interviews and the review and analysis of documentation. We evaluated
+internal controls used for reasonable assurance. Our consideration of internal
+controls for administering UI equity grants would not necessarily disclose all
+matters that might be reportable conditions.
+Criteria
+•
+•
+•
+
+•
+•
+•
+•
+
+2 C.F.R. Part 200 – Uniform Administrative Requirements, Cost Principles,
+and Audit Requirements for Federal Awards (November 2, 2023)
+American Rescue Plan Act of 2021 (November 16, 2023)
+Employment and Training Order No. 01-23, National Office and Regional
+Office Responsibilities in Managing, Monitoring, and Overseeing State
+Grants for Unemployment Insurance Programs Authorized Under the
+American Rescue Plan Act of 2021 (November 23, 2022)
+Employment and Training Order No. 01-24, Grants Management Policies
+and Responsibilities (December 4, 2023)
+Executive Order 14151, Ending Radical and Wasteful Government DEI
+Programs and Preferencing (January 20, 2025)
+Unemployment Insurance Program Letter No. 10-23, Cancellation of
+American Rescue Plan Act (ARPA) Related Guidance (July 13, 2023)
+Unemployment Insurance Program Letter No. 02-22, Grant Opportunity to
+Support States Following a Consultative Assessment for Fraud Detection
+and Prevention, Promoting Equitable Access, and Ensuring the Timely
+Payment of Benefits, including Backlog Reduction, for all Unemployment
+Compensation (UC) Programs (November 2, 2021)
+
+-20-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+•
+•
+•
+
+Unemployment Insurance Program Letter No. 23-21, Grant Opportunity for
+Promoting Equitable Access to Unemployment Compensation (UC)
+Programs (August 17, 2021)
+U.S. Department of Labor Employment and Training Administration Core
+Monitoring Guide (August 2018)
+Unemployment Insurance Program Letter No. 02-16, State
+Responsibilities for Ensuring Access to Unemployment Insurance Benefits
+(October 1, 2015)
+
+Prior Relevant Coverage
+During the last 4 years, the OIG has issued 7 reports of significant relevance to
+the subject of this report, as follows:
+1. COVID-19: Audit of State Workforce Agencies’ Information Technology
+Systems Capability in Processing Unemployment Insurance Claims,
+Report No.19-23-008-03-315 (September 19, 2023), available at:
+https://www.oig.dol.gov/public/reports/oa/2023/19-23-008-03-315.pdf;
+2. Tracking the Department of Labor’s Unemployment Insurance Response
+to Local Communities during the Pandemic,
+Report No. 19-23-007-03-315 (July 10, 2023), available at:
+https://www.oig.dol.gov/public/reports/oa/2023/19-23-007-03-315.pdf;
+3. “The Greatest Theft of American Tax Dollars: Unchecked Unemployment
+Fraud,” Statement for the Record of Larry D. Turner, Inspector General,
+U.S. Department of Labor, House Committee on Ways and Means,
+Report No. 19-23-003-03-315 (February 8, 2023), available at:
+https://www.oig.dol.gov/public/reports/oa/2023/19-23-003-03-315.pdf;
+4. COVID-19: ETA and States Did Not Protect Pandemic-Related UI Funds
+from Improper Payments Including Fraud or from Payment Delays,
+Report No. 19-22-006-03-315 (September 30, 2022), available at:
+https://www.oig.dol.gov/public/reports/oa/2022/19-22-006-03-315.pdf;
+5. Alert Memorandum: The Employment and Training Administration Needs
+to Ensure State Workforce Agencies Report Activities Related to
+CARES Act Unemployment Insurance Programs,
+Report No. 19-22-004-03-315 (August 2, 2022), available at:
+https://www.oig.dol.gov/public/reports/oa/2022/19-22-004-03-315.pdf;
+
+-21-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+6. Advisory Report: ETA’s Management of Workforce Development Grants:
+Key Concerns, Report No. 09-22-001-03-001 (March 31, 2022),
+available at:
+https://www.oig.dol.gov/public/reports/oa/2022/09-22-001-03-001.pdf; and
+7. ETA Did Not Sufficiently Plan and Execute the American Apprenticeship
+Initiative Grant Program, Report No. 05-21-004-03-375
+(September 30, 2021), available at:
+https://www.oig.dol.gov/public/reports/oa/2021/05-21-004-03-375.pdf.
+
+-22-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+APPENDIX B: AGENCY’S RESPONSE TO THE REPORT
+The agency’s response to our draft report follows.
+
+-23-
+
+ARPA GRANTS—UI ACCESS
+NO. 19-25-006-03-315
+
+U.S. Department of Labor
+
+Employment and Training Administration
+200 Constitution Avenue, N.W.
+Washington, D.C. 20210
+
+August 25, 2025
+MEMORANDUM FOR:
+
+LAURA B. NICOLOSI
+Assistant Inspector General for Audit
+
+FROM:
+
+LORI FRAZIER BEARDEN
+Acting Assistant Secretary for Employment and Training
+
+SUBJECT:
+
+Response to Draft Report – ETA Did Not Ensure ARPA Grants
+Demonstrated Improvements in Access to Unemployment Benefits,
+Report No. 19-25-XXX-03-315
+
+The U.S. Department of Labor’s (Department) Employment and Training Administration (ETA)
+appreciates the opportunity to respond to the above-referenced draft report regarding grants to
+promote equitable access in the Unemployment Insurance (UI) program.
+The report focuses on the extent to which ETA administered these grants in accordance with the
+American Rescue Plan Act (ARPA) and the Department’s objectives for UI access. As a technical
+clarification, ETA notes that the original appropriation under ARPA was for $2 billion and this
+was the context within which these awards were announced. The amount was later reduced to $1
+billion with enactment of the Fiscal Responsibility Act on June 3, 2023.
+Responses to the Recommendations
+ETA has an overarching comment about the recommendations in the draft report.
+The scope of this audit and the work performance by the audit team focused only on the ARPAfunded UI Equity Grants and was limited to the scope of activities occurring under Departmental
+leadership between March 2021 and September 2024. More specifically, the Department
+established the Office of UI Modernization (OUIM) within the Office of the Secretary in 2021 and
+this office was responsible for the strategic direction of all activity occurring under the ARPA
+appropriation, including the overall direction of the design of the UI Equity Grants offering and
+the timing of the roll out. The more expansive application of the recommendations to ETA’s grant
+governance practices agencywide is not based on any review of other ETA grants and is not
+founded on the work conducted under this audit.
+Please find below each of the recommendations contained in the draft report, followed by ETA’s
+response to each of the recommendations.
+
+Recommendation 1: Establish a policy that requires evaluation criteria or standards to be
+used to ensure grant applications include evidence of a specific issue prior to awarding a
+grant intended to address said issue.
+ETA Response: ETA agrees with this recommendation. ETA updated its template language for
+issuing funding opportunity announcements in February 2025 to include details about including
+evidence of specific issues. As appropriate with future funding opportunities, ETA will
+incorporate this language into its grant solicitations and subsequent reviews of grant
+applications.
+ETA respectfully requests the Office of Inspector General (OIG) resolve and close this
+recommendation based on the corrective actions taken.
+Recommendation 2: Develop additional guidance and staff training to improve monitoring
+of grant recipients, including a focus on reviewing progress reports to ensure reporting
+complies with requirements and grant recipients are on target to achieve grant goals as
+identified in the grant agreement.
+ETA Response: ETA agrees with this recommendation. ETA guidance already includes a focus
+on reviewing progress reports; as such, this is something that is best emphasized in training. ETA
+regularly provides tools and training on performance report reviews and monitoring of grant
+performance and goals to all grant management staff through the Federal Project Officer (FPO)
+Academy. These trainings are provided monthly and address the entire set of grant management
+responsibilities. ETA will incorporate the recommendations of this report into the curriculum of
+the FPO Academy that will be developed for future trainings and consider any feedback from this
+training to determine if additional guidance is needed.
+The Director of the Office of Regional Management is responsible for the implementation of this
+recommendation. The anticipated completion date for this recommendation is the end of Fiscal
+Year (FY) 2027.
+Recommendation 3: Recover $2,827,736 in costs for grant projects that did not achieve
+project goals in accordance with the grant agreements.
+ETA Response: ETA agrees with this recommendation but suggests that the recommendation be
+reworded to read: “Review $2,827,736 in costs for grant projects identified in this report and
+recover funds where appropriate.” As part of ETA’s audit resolution process, ETA will review the
+information provided by the OIG. Initial and final determinations will be issued to the grant
+recipient in question, in accordance with the process outlined in the Department of Labor Manual
+Series 8, Chapter 300, to determine if these costs are in fact not allocable to the grant, and, if so,
+the disallowed amounts. Once the audit resolution process is complete, ETA will provide the OIG
+with a copy of the final determinations and evidence of repayment of disallowed costs, if any.
+The Administrator for the Office of Grants Management is responsible for the implementation of
+this recommendation. The anticipated completion date for this recommendation is the end of FY
+2028.
+2
+
+Recommendation 4: Develop guidance for planning new discretionary grant programs to
+ensure better coordination, minimize duplication of effort, and promote efficient use of grant
+funds.
+ETA Response: ETA agrees with this recommendation. ETA’s discretionary grant programs are
+designed based on the policy priorities and at the direction of Departmental leadership. As such,
+ETA updated its template language when issuing funding opportunity announcements, including
+new discretionary grant programs, in February 2025, to improve efficiency and coordination while
+reducing the potential for any duplication of effort. As appropriate with future funding
+opportunities, ETA will incorporate this language and proactive approach into its grant
+solicitations and subsequent reviews of grant applications.
+ETA respectfully requests the OIG resolve and close this recommendation based on the corrective
+actions taken.
+
+3
+
+REPORT FRAUD, WASTE, OR ABUSE
+TO THE DEPARTMENT OF LABOR
+
+Online
+https://www.oig.dol.gov/hotline.htm
+
+Telephone
+(800) 347-3756 or (202) 693-6999
+
+Fax
+(202) 693-7020
+
+Address
+Office of Inspector General
+U.S. Department of Labor
+200 Constitution Avenue NW
+Room S-5506
+Washington, DC 20210
+
+

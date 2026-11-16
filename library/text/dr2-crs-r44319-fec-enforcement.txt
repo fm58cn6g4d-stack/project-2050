@@ -1,0 +1,1120 @@
+Source: https://www.everycrsreport.com/files/20151222_R44319_b63cc6c521577632cca9efd58bad9581a6b7a58d.pdf
+Publisher: Congressional Research Service (via EveryCRSReport)
+Retrieved: 2026-11-16
+Original SHA-256: e413fabd786582bb61d6c19d856932d3baf22d57cf2b12dc1eed87a48d2763b7
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+The Federal Election Commission:
+Enforcement Process and Selected Issues for
+Congress
+name redacted
+Specialist in American National Government
+December 22, 2015
+
+Congressional Research Service
+7-....
+www.crs.gov
+R44319
+
+FEC Enforcement Process and Issues for Congress
+
+Summary
+The Federal Election Commission (FEC) is responsible for civil enforcement of the Federal
+Election Campaign Act (FECA) and other campaign finance statutes. Enforcement, one of the
+FEC’s principal functions, is perhaps the most controversial thing the agency does. Enforcement
+matters not only for encouraging compliance with law and regulation, but also for what it
+represents about the state of campaign finance policy overall. Some agency critics argue that
+modest fines, protracted processes, and deadlocked commission votes demonstrate that the FEC
+cannot effectively enforce campaign finance law. Others contend that Congress designed the
+FEC, which includes six commissioners who typically represent the two major political parties, to
+be deliberate and driven by consensus so that enforcement would not be politicized.
+Enforcement has drawn attention inside and outside the agency. In recent years, commissioners
+have sparred at open meetings and in the media about whether the agency’s enforcement activities
+are inadequate or overzealous. The commission has struggled to staff some senior enforcement
+positions. Through oversight hearings, recent Congresses have monitored the FEC’s enforcement
+activities and, in some cases, criticized the transparency surrounding those processes. Congress
+occasionally has considered legislation to restructure the agency, particularly to change the
+number of commissioners, thereby reducing possibilities for deadlocked votes. H.R. 2931 in the
+114th Congress is the latest such proposal.
+This report provides Congress with a resource for understanding the FEC’s enforcement process
+and context for why enforcement is consequential. Enforcement represents broader debates about
+what the FEC does and what it should do, and what federal campaign finance policy is and should
+be. The FEC can determine how to prioritize enforcement activities and can manage its response
+to ongoing campaign finance policy disagreements. The agency has less or no control over other
+aspects of its environment, such as the enforcement process mandated in FECA. CRS Report
+R44318, The Federal Election Commission: Overview and Selected Issues for Congress, by (na
+me redacted)provides an overview of the FEC generally, including attention to organizational and
+administrative matters that are related to but distinct from the enforcement topics discussed here.
+This report will be updated occasionally as events warrant.
+
+Congressional Research Service
+
+FEC Enforcement Process and Issues for Congress
+
+Contents
+Introduction ..................................................................................................................................... 1
+Scope of the Report ................................................................................................................... 1
+A Note on Terminology ............................................................................................................. 2
+Why Campaign Finance Enforcement Might Matter to Congress .................................................. 2
+Latest Congressional Activity ................................................................................................... 2
+The FEC: A Brief Overview ............................................................................................................ 3
+The Enforcement Process in Brief ................................................................................................... 4
+Overview and Initial Steps ........................................................................................................ 4
+Timing and Votes....................................................................................................................... 4
+Selected Major Topics of Debate in Enforcement ........................................................................... 6
+Transparency and the Enforcement Process .............................................................................. 6
+Recent Congressional Oversight and FEC Enforcement Processes .................................... 6
+Relationships with Other Agencies ..................................................................................... 8
+Enforcement Outreach and FEC Processes ......................................................................... 8
+Deadlocked Votes ...................................................................................................................... 9
+Timing and Penalties ................................................................................................................ 11
+Vacancies Among Senior Enforcement Staff .......................................................................... 12
+Potential Considerations for Congress and Concluding Comments .............................................. 13
+
+Figures
+Figure 1. FEC Civil Penalties in All Closed Enforcement Matters, FY2000-FY2015.................. 12
+Figure 2. Vacant or Acting Senior Staff Positions, Fall 2015 ........................................................ 13
+
+Tables
+Table 1. Current Members of the Federal Election Commission .................................................... 3
+Table 2. Typical Matter Under Review (MUR) Enforcement Process: Major Steps ....................... 5
+
+Contacts
+Author Contact Information .......................................................................................................... 15
+Acknowledgments ......................................................................................................................... 15
+
+Congressional Research Service
+
+FEC Enforcement Process and Issues for Congress
+
+Introduction
+Even as Congress finalized legislation creating the FEC in 1974, some Members of the House and
+Senate disagreed over how the agency should be constituted, what powers it should have, and
+how broad its enforcement authority should be.1 Perhaps unsurprisingly, almost immediately, the
+FEC’s enforcement activities generated controversy. For some, they were too vigorous; for others,
+too lax.2 Partially due to enforcement controversies, Congress has occasionally considered
+restructuring the agency. In the 114th Congress, H.R. 2931 would replace the current six-member
+body with a five-member commission, including a chairperson with enhanced enforcement
+powers. Recent Congresses have also engaged in oversight concerning the FEC’s enforcement
+practices and transparency.
+The controversy surrounding the FEC’s enforcement of campaign finance law and regulation
+continues. During 2015, as the FEC marked its 40th anniversary, prominent media accounts and
+opinion pieces chronicled tense relations among commissioners and stalemates over new
+regulations and enforcement.3 In recent years, commissioners have sparred at open meetings and
+in the media about whether the agency’s enforcement activities are inadequate or overzealous.4
+The debate over enforcement is not merely about internal agency disagreements. Rather, it
+represents broader controversies about what the FEC does and what it should do, and what federal
+campaign finance policy is and should be. Some also contend that enforcement establishes the
+boundaries of permissible campaign behavior.5 This report is not about the FEC’s individual
+enforcement controversies, but, rather, about why controversies surrounding the enforcement
+process might matter to Congress as it provides the agency with overall direction and shapes
+campaign finance policy generally.
+
+Scope of the Report
+This report highlights examples of FEC or congressional attention to enforcement topics, but it is
+not intended to provide comprehensive discussion of particular enforcement matters. Rather, it
+discusses selected major issues that appear to be most consequential for Congress. Other topics
+might be relevant for practitioners or agency officials but are generally not addressed here. Unless
+otherwise noted, the report does not address criminal enforcement handled by the Justice
+
+1
+
+Congress established the FEC in the 1974 Federal Election Campaign Act (FECA) amendments. The agency opened
+its doors on April 14, 1975. For additional historical highlights, see Federal Election Commission, Anniversary
+Timeline, http://fec.gov/pages/40th_anniversary/40th_anniversary.shtml.
+2
+For an overview, see Robert E. Mutch, Campaigns, Congress, and Courts: The Making of Federal Campaign Finance
+Law (New York: Praeger, 1988), pp. 83-117.
+3
+See, for example, Eric Lichtblau, “Paralyzed F.E.C. Can’t Do Its Job, Chairwoman Says,” The New York Times, May
+3, 2015, p. A1; Andy Kroll, “The Chairwoman Who’s At War With Her Own Agency,” National Journal, October 10,
+2015, p. 13; Kenneth P. Doyle, “Goodman: FEC Backlog Mainly Includes Cases Against Republicans,” Daily Report
+for Executives, May 21, 2015, p. A-22; and Kenneth P. Doyle, “Petersen, Hunter Distance Themselves From Goodman
+on Partisanship at FEC,” Daily Report for Executives, June 2, 2015, n.p.
+4
+See, for example, Eric Lichtblau, “Paralyzed F.E.C. Can’t Do Its Job, Chairwoman Says,” The New York Times, May
+3, 2015, p. A1; and Matthew S. Petersen, Caroline C. Hunter, and Lee E. Goodman, “Dissension at the F.E.C.,” The
+New York Times, May 8, 2015, p. A24.
+5
+See, for example, Michelle Conlin and Emily Flitter, “U.S. Authorities Unlikely to Stop 2016 Election Fundraising
+Free-for-All,” Reuters wire report, June 4, 2015, http://www.reuters.com/article/2015/06/04/us-usa-electionenforcement-idUSKBN0OK0CI20150604#dv6GvRtMpw3wVQj1.97.
+
+Congressional Research Service
+
+1
+
+FEC Enforcement Process and Issues for Congress
+
+Department or activities regulated by agencies such as the Internal Revenue Service (IRS).6 The
+report is not a legal analysis of commission activity. Other CRS products cited throughout this
+report provide additional information about related topics. In particular, another CRS product
+provides an overview of the FEC.7 Finally, the report does not provide compliance guidance to
+those regulated by FECA or FEC rules.
+
+A Note on Terminology
+This report uses the terms “FEC,” “commission,” and “agency” interchangeably. Some
+discussions of the FEC’s authority, which are generally beyond the scope of this report, use the
+term “commission” to denote members of the FEC as opposed to agency staff. This distinction is
+not central to this report but is relevant for some material in the “Transparency and the
+Enforcement Process” section.
+
+Why Campaign Finance Enforcement Might Matter
+to Congress
+Members of Congress have a dual stake in campaign finance policy: as regulators and as the
+regulated. By enacting legislation, appropriating funds, and conducting oversight, Congress
+establishes the rules that campaigns—including their own—must follow and provides resources
+for ensuring compliance. More generally, enforcement is one of the most prominent topics in
+federal campaign finance policy. Policy debates often characterize enforcement as an indicator of
+other issues, such as the health of the FEC or the extent of government regulation of political
+speech. Enforcement can also indicate to what extent emerging campaign practices will be
+permitted, as the FEC considers how existing law and regulation might apply to new
+circumstances. Proposals to restructure the FEC typically have enforcement implications. For all
+these reasons, even a basic understanding of enforcement can enhance familiarity with campaign
+finance policy overall. As noted elsewhere in this report, Congress has regularly considered
+legislation and held hearings that could affect the FEC’s enforcement duties.
+
+Latest Congressional Activity
+Congress has considered various campaign finance legislation, and conducted FEC oversight, for
+decades.8 Much of that activity has addressed campaign finance policy generally rather than FEC
+enforcement specifically. The same is true of more current legislation and hearings. Recent
+developments particularly relevant for enforcement include the following.
+
+
+6
+
+In the 114th Congress, H.R. 2931 would replace the current six-member FEC with
+a five-member commission, including a chairperson with enhanced enforcement
+powers.
+
+This includes recent attention to IRS examinations of certain tax-exempt organizations.
+
+7
+
+See CRS Report R44318, The Federal Election Commission: Overview and Selected Issues for Congress, by (name r
+edacted).
+8
+
+See CRS Report R41542, The State of Campaign Finance Policy: Recent Developments and Issues for Congress, by
+(name redacted); and CRS Report R44318,The Federal Election Commission: Overview and Selected Issues for
+Congress, by (name redacted).
+
+Congressional Research Service
+
+2
+
+FEC Enforcement Process and Issues for Congress
+
+
+
+
+
+
+
+The 113th Congress extended until 2018 operating authority for the FEC’s
+Administrative Fine Program (AFP). The legislation also expanded the program
+to cover late reports filed by non-candidate committees and for independent
+expenditures.9
+During the 113th Congress, a Senate Judiciary Committee subcommittee held a
+hearing on criminal enforcement of campaign finance law. The hearing included
+witnesses from the Department of Justice, Internal Revenue Service, and interest
+groups, but did not focus on the FEC.10
+During the 112th Congress, the Committee on House Administration,
+Subcommittee on Elections, examined FEC enforcement through an oversight
+hearing. Subsequently, the FEC released additional information about its
+enforcement activities.11
+
+The FEC: A Brief Overview
+The FEC is a six-member independent regulatory agency. Commissioners are appointed by the
+President and subject to Senate confirmation. The Senate most recently confirmed commissioners
+in 2013 (the 113th Congress), as shown in Table 1. Another CRS report provides additional detail
+about the commission.12
+Table 1. Current Members of the Federal Election Commission
+Commissioner
+
+Term Expires/Expired
+
+Date Confirmed
+
+Party Affiliation
+
+Lee E. Goodman
+
+04/30/2015
+(remains in holdover status)
+
+09/23/2013
+
+Republican
+
+Caroline C. Hunter
+
+04/30/2013
+(remains in holdover status)
+
+06/24/2008
+
+Republican
+
+Matthew S. Petersen
+
+04/30/2011
+(remains in holdover status)
+
+06/24/2008
+
+Republican
+
+Ann M. Ravel
+
+04/30/2017
+
+09/23/2013
+
+Democrat
+
+Steven T. Walther
+
+04/30/2009
+(remains in holdover status)
+
+06/24/2008
+
+Independent
+
+Ellen L. Weintraub
+
+04/30/2007
+(remains in holdover status)
+
+03/12/2003
+
+Democrat
+
+Source: Legislative Information System nominations database. CRS added party affiliation based on FEC seating
+charts.
+9
+
+P.L. 113-72. On political-committee types and independent expenditures, see CRS Report R41542, The State of
+Campaign Finance Policy: Recent Developments and Issues for Congress, by (name redacted).
+10
+See U.S. Congress, Senate Committee on the Judiciary, Subcommittee on Crime and Terrorism, Current Issues in
+Campaign Finance Law Enforcement, hearing, 113th Cong., 1st sess., April 9, 2013, S.Hrg. 113-301 (Washington:
+GPO, 2013).
+11
+U.S. Congress, House Committee on House Administration, Subcommittee on Elections, Federal Election
+Commission: Reviewing Policies, Processes and Procedures, hearing, 112th Cong., 1st sess., November 3, 2011
+(Washington: GPO, 2012).
+12
+
+See CRS Report R44318, The Federal Election Commission: Overview and Selected Issues for Congress, by (name r
+edacted).
+
+Congressional Research Service
+
+3
+
+FEC Enforcement Process and Issues for Congress
+
+The Enforcement Process in Brief
+Three major enforcement options are at the commission’s disposal: (1) what the agency has
+termed the “general enforcement process” established in FECA;13 (2) the Alternative Dispute
+Resolution (ADR) Program; and (3) the Administrative Fine Program (AFP). The first category
+includes the most complex and sometimes controversial matters that the commission might
+handle, designated as “Matters Under Review” (MURs). They may entail lengthy investigations
+or audits, protracted negotiations between the commission and H.R. 3487 respondents, substantial
+civil penalties, or litigation—although the pace can vary depending on individual circumstances.
+By contrast, matters handled under the AFP and ADR programs typically are simpler and less
+controversial. ADR cases can involve various issues; the program is designed to facilitate
+negotiation that leads to relatively speedy resolution of fairly simple matters.14 AFP cases are
+limited to straightforward matters involving late filings.15 A five-year statute of limitations applies
+to campaign finance enforcement matters.16
+
+Overview and Initial Steps
+The enforcement process typically begins when one of four entities files a complaint or makes an
+internal referral to the FEC. These include the following:
+
+
+
+
+
+a complaint from an individual or other group (e.g., an opposing campaign);
+a referral from another government agency (e.g., Department of Justice);
+a referral from the FEC Audit Division or Reports Analysis Division (RAD); or
+a violation that is self-reported by a political committee or other regulated entity
+(a sua sponte submission).17
+
+Timing and Votes
+The details of processing and resolving complaints vary based on whether the matter is handled
+through the MUR, ADR, or AFP methods.18 In general, once complaints or referrals are complete,
+
+
+the commission notifies the respondent (the subject of the complaint or referral)
+of the receipt or referral;
+
+13
+
+On the enforcement authority generally, see 52 U.S.C. § 30109. The quoted material appears in Federal Election
+Commission, Guidebook for Complainants and Respondents of the FEC Enforcement Process, Washington, DC, May
+2012, p. 4, http://fec.gov/em/respondent_guide.pdf. The cited publication references enforcement provisions previously
+codified at 2 U.S.C. § 437g, now codified at 52 U.S.C. § 30109.
+14
+For an overview, see Federal Election Commission, Alternative Dispute Resolution Program, brochure,
+http://www.fec.gov/pages/brochures/adr_brochure.pdf.
+15
+For an overview, see Federal Election Commission, How the Administrative Fine Program Works,
+http://www.fec.gov/pages/brochures/admin_fines.shtml.
+16
+On civil matters, see 28 U.S.C. § 2462. On criminal matters, see 52 U.S.C. § 30145.
+17
+Self-reporting may result in negotiated penalties that are 25%-75% lower than would be assessed “for comparable
+matters arising by other means.” See Federal Election Commission, Guidebook for Complainants and Respondents of
+the FEC Enforcement Process, Washington, DC, May 2012, p. 9, http://fec.gov/em/respondent_guide.pdf. See also
+Federal Election Commission, “Policy Regarding Self-Reporting of Campaign Finance Violations (Sua Sponte
+Submissions),” 72 Federal Register 16695, April 5, 2007.
+18
+For additional detail about how complaints are received, processed, and resolved, see Federal Election Commission,
+Guidebook for Complainants and Respondents of the FEC Enforcement Process, Washington, DC, May 2012.
+
+Congressional Research Service
+
+4
+
+FEC Enforcement Process and Issues for Congress
+
+
+
+
+the respondent has an opportunity to reply to the complaint and may choose to be
+represented by an attorney; and
+the commission determines which enforcement method, if any, to pursue: the
+MUR, ADR, or AFP processes.
+
+Regardless of the enforcement mechanism, FECA dictates much of how the process must unfold
+and how long it takes. In particular, FECA specifies how complaints must be filed and, except for
+AFP cases, that the commission must seek voluntary compliance before imposing a penalty. 19
+FECA also requires commissioners to vote on key enforcement decisions throughout the process.
+In particular, affirmative votes from at least four commissioners are required to
+
+
+
+
+
+find “reason to believe” (RTB) that a violation has occurred or is about to occur,
+which commences additional action (e.g., an investigation);20
+find probable cause that a violation has occurred or is about to occur;21
+resolve a matter (e.g., through a conciliation agreement, penalties, etc.);22 and
+authorize filing a lawsuit if a matter cannot otherwise be resolved.23
+
+Without an affirmative vote from at least four commissioners in each of these instances,
+substantive action stops. The “Deadlocked Votes” section contains additional detail.
+Table 2 below lists the major steps and potential timelines required for cases routed through the
+MUR process, typically the most complex and consequential enforcement cases. The table
+excludes optional steps, such as hearings or presentation of legal questions to the commission,
+which require additional time.
+Table 2. Typical Matter Under Review (MUR) Enforcement Process: Major Steps
+STEP
+* Commission vote required in FECA
+
+MINIMUM
+TIME SPECIFIED IN
+FECA
+
+1
+
+Complaint/referral received
+
+N/A
+
+2
+
+Office of General Counsel (OGC) notifies respondent of complaint
+
+5 days
+
+3
+
+Respondent may reply to complaint
+
+15 days
+
+Commission votes on “reason to believe” (RTB) finding, commencing
+investigation
+
+N/A
+
+5
+
+OGC investigates and/or initial conciliation is attempted
+
+N/A
+
+6
+
+OGC files “probable cause” brief with the commission, copying respondent
+
+15 days for respondent
+
+4
+
+*
+
+19
+
+On the enforcement authority generally, see 52 U.S.C. § 30109.
+See 52 U.S.C. § 30109(a)(2). Importantly, despite the terminology, which is specified in statute, “reason to believe”
+does not necessarily mean that the commission has determined that a violation occurred (or is about to occur). In cases
+in which the commission believes the facts are clear, it might choose to proceed directly to attempt to negotiate a
+conciliation agreement, for example, rather than first conducting an investigation. Therefore, not all RTB findings
+generate investigations. For an overview, see Federal Election Commission, Filing a Complaint, brochure, Washington,
+DC, June 2008, pp. 3-4, http://www.fec.gov/pages/brochures/complaint_brochure.pdf.
+21
+52 U.S.C. § 30109(a)(4).
+22
+52 U.S.C. § 30109(a)(4).
+23
+52 U.S.C. § 30109(a)(4).
+20
+
+Congressional Research Service
+
+5
+
+FEC Enforcement Process and Issues for Congress
+
+STEP
+* Commission vote required in FECA
+
+MINIMUM
+TIME SPECIFIED IN
+FECA
+reply, if applicable
+
+7
+
+*
+
+8
+
+Commission votes on “probable cause to believe” finding
+
+N/A
+
+If probable cause is found, OGC attempts to reach conciliation agreement
+with respondent
+
+30-90 days
+15 days if within 45 days of
+an election
+
+9
+
+*
+
+FEC considers conciliation agreement, if applicable
+
+N/A
+
+10
+
+*
+
+If conciliation is not agreed to, commission may authorize OGC to file suit
+
+N/A
+
+After resolution, MUR is closed and publicly disclosed
+
+30 days after MUR is closed
+
+11
+
+Source: CRS summary based on 52 U.S.C. § 30109 and Federal Election Commission, Guidebook for
+Complainants and Respondents of the FEC Enforcement Process, Washington, DC, May 2012, http://fec.gov/em/
+respondent_guide.pdf.
+Notes: The steps listed above provide a general overview of major elements of a generic MUR process. They do
+not reflect all agency practices, such as an additional step appearing in some commission documentation for a 60day “pre-probable cause conciliation” effort between the investigation and filing the OGC brief. They also do not
+reflect steps such as complainant legal challenges to dismissed cases. For a more detailed discussion, see Federal
+Election Commission, Guidebook for Complainants and Respondents of the FEC Enforcement Process, Washington,
+DC, May 2012, http://fec.gov/em/respondent_guide.pdf.
+
+Selected Major Topics of Debate in Enforcement
+Transparency and the Enforcement Process
+At least two transparency issues are central to the enforcement process. First, FECA bars the FEC
+or its personnel from releasing any information about individual enforcement matters until after
+cases are closed.24 This confidentiality requirement was designed to prevent competing
+campaigns from using complaints as political weapons. Nonetheless, campaigns and other
+political actors routinely publicize complaints they have filed, even if the commission cannot
+comment. Second, Congress has dedicated some recent oversight activities to agency
+transparency concerning enforcement. Apparently both on its own initiative and in response to
+congressional interest, in recent years, the FEC has reexamined how it provides enforcement
+information to the public or those regulated by campaign finance law and commission rules.
+Highlights appear below.
+
+Recent Congressional Oversight and FEC Enforcement Processes
+
+
+As noted previously, in November 2011, during the 112th Congress, the
+Committee on House Administration, Subcommittee on Elections, held an FEC
+oversight hearing.25 Much of that hearing emphasized transparency surrounding
+the FEC’s enforcement process.
+
+24
+
+52 U.S.C. § 30109(a)(12).
+U.S. Congress, House Committee on House Administration, Subcommittee on Elections, Federal Election
+Commission: Reviewing Policies, Processes and Procedures, hearing, 112th Cong., 1st sess., November 3, 2011
+(Washington: GPO, 2012). The hearing record contains extensive FEC responses, submitted July 29, 2011, to written
+questions about topics ranging from administrative matters to enforcement issues. See pp. 107-168.
+25
+
+Congressional Research Service
+
+6
+
+FEC Enforcement Process and Issues for Congress
+
+
+
+
+
+After the November 2011 hearing, negotiations between the committee and
+commission appear to have resulted in the ongoing effort to approve and publicly
+release a new FEC enforcement manual. In May 2012, the FEC released on its
+website more than 1,200 pages of documents concerning its enforcement and
+audit procedures.26
+During the summer of 2013, controversy developed concerning an Office of
+General Counsel (OGC) draft of the enforcement manual and proposed revisions
+to that draft from some commissioners. A major source of controversy appeared
+to be the extent to which OGC staff should be restricted from sharing information
+with other agencies (particularly the Justice Department), or from conducting
+research that might constitute an “investigation” as contemplated in FECA,
+without specific commission authorization. Although the manual was scheduled
+for consideration at FEC open meetings at least as early as June 2013, it was held
+over due to disagreements among commissioners about whether a vote should
+occur, and if so, when. Debate over the matter continued at the FEC, sometimes
+including acrimonious public meetings among commissioners. In a June 17,
+2013, memorandum to the commission, then-FEC General Counsel Anthony
+Herman called aspects of a proposal to restrict staff interactions with other
+agencies without commissioners’ approval “troubling” and “unprecedented.” He
+suggested that proposed additional requirements for subpoenas or commissioner
+approval for information-sharing could “increase administrative burden and legal
+risk for the Commission” and “would expose the Commission to allegations that
+politics and partisanship motivate its case-by-case decisions.”27 Then-Vice
+Chairman Donald McGahn disputed Herman’s characterization and contended
+that FECA vested relevant decisionmaking authority only in the commissioners
+and that, in some cases, “staff viewed the Commission as an obstacle to be
+overcome, and not the deliberative body vested with decision-making authority
+that [FECA] contemplates.”28 Amid apparent stalemate among commissioners,
+Herman resigned as general counsel effective July 5, 2013.29 Proposed changes to
+information-sharing policies reportedly remain under consideration.30 The
+general counsel position remained vacant for more than two years. As noted
+elsewhere in this report, in August 2015 the FEC appointed an acting general
+counsel.
+
+26
+
+See Federal Election Commission, Documents on Enforcement & Compliance Procedures, http://fec.gov/law/
+procedural_materials.shtml. For background, including debate about the release, see Kenneth P. Doyle, “FEC Reveals
+Hundreds of Internal Documents on Enforcement, Audit, Analysis Procedures.” Daily Report for Executives, May 24,
+2012, p. A11.
+27
+Anthony Herman, General Counsel; and Daniel A. Petalas, Associate General Counsel for Enforcement; Information
+Sharing with the Department of Justice, Federal Election Commission, Agenda Document 13-21-D, Washington, DC,
+June 26, 20013, http://fec.gov/agenda/2013/mtgdoc_13-21-d.pdf.
+28
+For an overview, see Matea Gold, “Discord Intensifies at Hobbled FEC,” The Washington Post, July 14, 2013, p. A3.
+On McGahn’s proposal and the quoted language specifically, see Donald F. McGahn, Vice Chairman, Background
+Information Regarding Proposed Enforcement Manual, Memorandum to the Federal Election Commission, p. 1,
+Washington, DC, July 25, 2013, http://www.fec.gov/members/former_members/mcgahn/statements/13-21-k.pdf.
+29
+Federal Election Commission, “FEC General Counsel Announces Departure,” press release, June 5, 2013,
+http://fec.gov/press/press2013/20130605HermanDeparture.shtml.
+30
+See, for example, Kenneth P. Doyle, “Goodman Resurrects Long-Dormant Plan to Limit Enforcement Actions of
+FEC Staff,” Daily Report for Executives, December 8, 2014, p. A-17.
+
+Congressional Research Service
+
+7
+
+FEC Enforcement Process and Issues for Congress
+
+Relationships with Other Agencies
+
+
+The FEC’s relationships with other federal agencies that might share enforcement
+interests appear to have varied over time. The current state of those relationships
+does not appear to be a major component of the public record. In July 2011, the
+FEC submitted written responses to questions from the Committee on House
+Administration, Subcommittee on Elections, explaining that the agency’s
+memorandum of understanding (MOU) with the Justice Department became
+“somewhat outdated” after Congress enacted the 2002 Bipartisan Campaign
+Reform Act (BCRA).31 The commission noted that “[a]lthough several draft
+proposals were exchanged” between the FEC and DOJ, “those negotiations did
+not ultimately lead to a revised MOU, and those discussions have not yet been
+revived.”32 One 2015 media account reported that the MOU had not been updated
+and that commission referrals to DOJ for alleged “knowing and willful” FECA
+violations were rare.33
+
+Enforcement Outreach and FEC Processes
+
+
+
+
+
+
+
+
+The FEC appears to have interpreted its confidentiality obligations differently
+over time. In brief, areas of debate have concerned which documents the
+commission releases and, in particular, whether documents that informed the
+commission’s consideration but were not final (such as interim OGC reports)
+should be released. Litigation, which is beyond the scope of this report, has
+shaped some of the agency’s disclosure policies.
+As of this writing, activity at recent FEC open meetings suggests that
+commissioners are attempting to negotiate mutually agreeable revisions to
+Directive 68, the agency’s internal policy regarding how and when respondents
+and the commission receive status reports on pending cases.34
+In 2007, the FEC established probable cause hearings permitting respondents to
+address findings in certain OGC briefs.35
+The FEC established a pilot program for conducting audit hearings in 2009.36
+The FEC held hearings on its enforcement procedures in 2003 and 2009.37 The
+agency also solicited public comments in 2013.38
+
+31
+
+P.L. 107-155; 116 Stat. 81. BCRA amended FECA. The most significant statutory change since BCRA occurred in
+December 2014, when Congress permitted political parties and political action committees (PACs) to raise additional
+funds and, in some cases, create new accounts to do so. See CRS Report R43825, Increased Campaign Contribution
+Limits in the FY2015 Omnibus Appropriations Law: Frequently Asked Questions, by (name redacted).
+32
+U.S. Congress, House Committee on House Administration, Subcommittee on Elections, Federal Election
+Commission: Reviewing Policies, Processes and Procedures, hearing, 112th Cong., 1st sess., November 3, 2011
+(Washington: GPO, 2012), p. 133.
+33
+Kenneth P. Doyle, “FEC Rarely Votes to Refer Criminal Cases to Justice,” Daily Report for Executives, July 29,
+2015, n.p.
+34
+Proposed revisions to Directive 68 appeared on FEC open meeting agendas throughout the fall of 2015.
+35
+Federal Election Commission, “Procedural Rules for Probable Cause Hearings,” 72 Federal Register 64919,
+November 19, 2007.
+36
+Federal Election Commission, “Procedural Rules for Audit Hearings,” 74 Federal Register 33140, July 10, 2009.
+37
+For transcripts, see Federal Election Commission, Public Hearing on Enforcement Procedures, Washington, DC,
+June 11, 2003, http://fec.gov/agenda/agendas2003/notice2003-09/enforce_trans.pdf; Federal Election Commission,
+Public Hearing on Agency Practices and Procedures, Washington, DC, January 14-15, 2009, http://fec.gov/law/policy/
+(continued...)
+
+Congressional Research Service
+
+8
+
+FEC Enforcement Process and Issues for Congress
+
+
+
+
+
+The FEC has substantially revised its website in recent years to include a variety
+of additional information about the agency’s processes and campaign finance
+data, including some enforcement information.
+Since 2013, the FEC has permitted those with “a material dispute on a question
+of law” arising during Audit Division and Reports Analysis Division referrals to
+ask the commission to consider the disputed legal question before proceeding
+with an enforcement matter.39
+
+Deadlocked Votes
+Throughout its history, the commission has been criticized for failing to reach consensus on some
+key policy and enforcement issues, resulting in what are commonly termed “deadlocked” votes.40
+Affirmative votes from at least four commissioners are required to authorize most consequential
+agency activity, including making, amending, or repealing rules; issuing advisory opinions (AOs);
+and approving enforcement actions and audits.41 Unlike matters that a majority of the commission
+has definitively approved or rejected, actions without at least four votes for or against can have
+the effect of leaving questions of law, regulation, or enforcement unresolved. In these cases,
+deadlocked votes essentially halt substantive commission action on the matters in question.42
+The FEC does not regularly compile and release summary deadlocks data. Most recently, the
+commission appears not to have produced an official, publicly available statistical summary since
+2009. Using those data, CRS found that in 2008-2009, the FEC deadlocked on approximately
+13% of closed MURs.43 A CRS analysis of more recent FEC vote tallies found that in calendar
+(...continued)
+enforcement/2009/01141509hearingtranscript.pdf.
+38
+Federal Election Commission, “Request for Comment on Enforcement Process,” 78 Federal Register 4081, January
+18, 2013.
+39
+Federal Election Commission, “Policy Statement Regarding a Program for Requesting Consideration of Legal
+Questions by the Commission,” 78 Federal Register 63203, October 23, 2013.
+40
+For an overview, see, for example, Michael M. Franz, “The Devil We Know? Evaluating the Federal Election
+Commission as Enforcer,” Election Law Journal, vol. 8, no. 3 (2009), pp. 167-187; Thomas E. Mann, “The FEC:
+Administering and Enforcing Campaign Finance Law,” in The New Campaign Finance Sourcebook, Anthony Corrado,
+Thomas E. Mann, Daniel R. Ortiz, and Trevor Potter (Washington: Brookings Institution Press, 2005), pp. 239-241;
+and Scott E. Thomas and Jeffrey H. Bowman, “Obstacles to Effective Enforcement of the Federal Election Campaign
+Act,” Administrative Law Review, vol. 52, no. 2 (2000), pp. 575-608.
+41
+See 52 U.S.C. § 30106(c); 52 U.S.C. § 30107(a)(6)-52 U.S.C. § 30107(a)(9); and 52 U.S.C. § 30109(a).
+42
+On enforcement items, deadlocks are rarely the final vote on a matter, as the commission usually votes to close the
+file after a deadlock occurs. Campaign lawyers and some former commissioners reportedly have different
+interpretations of deadlocked votes. In enforcement matters, for example, some practitioners reportedly view deadlocks
+as an opportunity to challenge the boundaries of the law (because no violation was found), whereas others regard
+deadlocks as leaving the issue unresolved. See Kenneth P. Doyle, “Increasing Prevalence of Split FEC Votes On Key
+Issues Could Shape Next Campaigns,” Daily Report for Executives, April 9, 2009, p. C-1; Nicholas Confessore,
+“Election Panel Enacts Policies by Not Acting,” The New York Times, August 26, 2014, p. A1; Brad Smith, What does
+it mean when the Federal Election Commission “Deadlocks”, Center for Competitive Politics blog, April 14, 2009,
+http://www.campaignfreedom.org/2009/04/14/what-does-it-mean-when-the-federal-election-commission-deadlocks/;
+and Bob Bauer, ‘Desperate’ at the FEC, Part II: The Risks of Unintended Consequences, More Soft Money Hard Law
+blog, June 11, 2015, http://www.moresoftmoneyhardlaw.com/2015/06/desperate-fec-part-ii-risks-unintendedconsequences/.
+43
+See CRS Report R40779, Deadlocked Votes Among Members of the Federal Election Commission (FEC): Overview
+and Potential Considerations for Congress, by (name redacted). The report is archived but remains available for
+historical reference.
+
+Congressional Research Service
+
+9
+
+FEC Enforcement Process and Issues for Congress
+
+year 2014, commissioners deadlocked on 24.4% of closed MURs.44 Results from other analyses
+vary based on methodology, time period, and the types of votes studied.45
+Deadlocks in some recent matters have fostered debate about what split votes suggest about
+agency enforcement. For some, deadlocks represent a failure to enforce campaign finance law.
+For others, they signal that the commission is carefully considering what the law permits and
+prohibits.
+Overall, deadlocked votes might or might not reflect the overall functioning of the enforcement
+process. In particular, even MURs without deadlocks can be controversial, while those with
+deadlocks can include agreement on some questions. In one 2014 example, MUR 6660, the
+commission avoided deadlock, but commissioners released competing statements explaining the
+implications of their votes. Similarly, in two other MURs closed in 2014 (6722 and 6723), the
+commission considered allegations of impermissible coordination between political committees.
+On February 25, 2014, the commission voted unanimously that there was “no reason to believe”
+that impermissible coordination had occurred. In explaining their votes, however, three
+commissioners stated that “[S]ome activity that is plainly ‘coordination’ under the statute is not
+squarely covered by the Commission’s coordination communications regulation,” suggesting that
+substantive differences remained despite the agreeing votes.46 Finally, particularly when votes
+occur on multiple motions affecting a MUR, substantive decisions can occur on some issues even
+when deadlocks preclude decisions on others.
+Congress appears to have anticipated that the commission might be unable to reach consensus in
+some controversial cases, and perhaps intended for deadlocks to occur. According to one analysis,
+“In order to ensure that the Commission would not become a vehicle for partisan purposes, the
+Congress created an unusual conflict within the FEC” through the six-member structure.47
+Commenting on the four-vote requirement, former Commissioner Scott E. Thomas and his
+executive assistant, Jeffrey H. Bowman, continued, “These provisions were specifically designed
+to ensure that formal action on a matter before the commission could go forward only on the
+affirmative vote of a mixed majority of Commission members.”48 In addition, deadlocks might be
+viewed positively if enforcement actions being considered are perceived as unwarranted or
+excessive. Nonetheless, deadlocks mean that the commission has been unable to reach consensus
+about some element of law or regulation. As a result, at least in specific circumstances, deadlocks
+prevent campaign finance law from being enforced or preclude those seeking guidance from
+44
+
+Using the FEC’s Enforcement Query System (EQS), CRS accessed commission vote certifications for MURs closed
+in calendar year 2014. This analysis defined a deadlock as any matter including a vote without a majority of at least
+four members (e.g., 3-3; 2-3, etc.).
+45
+See, for example, Kenneth P. Doyle, “Campaign Finance: Analysis: Deadlocks Are Only Part of Story at FEC,”
+Daily Report for Executives, August 31, 2015, special report; Michael M. Franz, “The Devil We Know? Evaluating the
+Federal Election Commission as Enforcer,” Election Law Journal, vol. 8, no. 3 (2009), pp. 167-187; Dave Levinthal,
+“How Washington Starves its Election Watchdog,” Center for Public Integrity, December 17, 2013,
+http://www.publicintegrity.org/2013/12/17/13996/how-washington-starves-its-election-watchdog; and Public Citizen,
+“Roiled in Partisan Deadlock, Federal Election Commission is Failing,” press release, n.d. (released 2015),
+http://www.citizen.org/documents/fec-deadlock-update-april-2015.pdf.
+46
+“Statement of Reasons of Vice Chair Ann M. Ravel, Commissioner Steven T. Walther, and Commissioner Ellen L.
+Weintraub,” Statement of Reasons document accompanying Matter Under Review 6722 and 6723, Federal Election
+Commission, April 3, 2014, p. 1. The document may be accessed via the FEC’s Enforcement Query System at
+http://eqs.fec.gov/eqs/searcheqs.
+47
+Scott E. Thomas and Jeffrey H. Bowman. “Obstacles to Effective Enforcement of the Federal Election Campaign
+Act.” Administrative Law Review, vol. 52, no. 2 (2000), pp. 575-608.
+48
+Scott E. Thomas and Jeffrey H. Bowman. “Obstacles to Effective Enforcement of the Federal Election Campaign
+Act.” Administrative Law Review, vol. 52, no. 2 (2000), pp. 575-608.
+
+Congressional Research Service
+
+10
+
+FEC Enforcement Process and Issues for Congress
+
+clearly knowing whether their planned activities will run afoul of the law. Another CRS report
+contains additional analysis of deadlocks generally.49
+
+Timing and Penalties
+As Table 2 above shows, at minimum, resolving a MUR enforcement case could take months. In
+practice, resolution often takes longer. In some cases, the commission may be unable to resolve
+an enforcement action before the five-year statute of limitation expires.
+In March 2015, citing FEC data, one account reported that the FEC had “a backlog of 191 serious
+enforcement cases, with more than a quarter of these still unresolved more than two years after
+allegations of campaign finance violations were first filed.”50 Some protracted enforcement cases
+appear to be the result of disagreement among commissioners—including on whether pending
+enforcement matters constitute a “backlog” or necessary deliberation.51 In other instances, factors
+such as the complexity of the issues in question, the need for comprehensive audits, replies from
+and negotiations with respondents, and other factors explain timing. Recently, some
+commissioners have proposed that the FEC revise its policies concerning how quickly cases are
+handled and when the commission or the public is informed about enforcement progress.52 Some
+commissioners have also proposed meeting more frequently to address enforcement matters.53
+The FEC has noted that, except for AFP matters, the agency “does not impose fines,” but instead
+“seeks the payment of civil penalties through voluntary settlements (called ‘conciliation
+agreements’) with respondents.”54 Those amounts are typically modest, as shown in Figure 1
+below. In 2014, for example, the commission assessed less than $600,000 in penalties in all
+closed enforcement cases—the smallest amount since before FY2000. Financial penalties peaked
+in the mid-2000s, likely the result of large assessments on some organizations that operated under
+Section 527 of the Internal Revenue Code (IRC) in the early 2000s while taking the position that
+they were not political committees subject to FECA. The decline in penalties since that time has
+generated controversy, with some advocates claiming that lower amounts reflect lax enforcement,
+a scenario that is possible. It is also possible that decreased penalty amounts reflect better
+compliance. Particularly amid recent debate about whether the commission should publicize a
+49
+
+See CRS Report R44318, The Federal Election Commission: Overview and Selected Issues for Congress, by (name r
+edacted).
+50
+
+Kenneth P. Doyle, “FEC Backlog of 191 Enforcement Cases Includes Many Matters Pending for Years,” Daily
+Report for Executives, March 4, 2015, pp. A-31.
+51
+Kenneth P. Doyle, “FEC Backlog of 191 Enforcement Cases Includes Many Matters Pending for Years,” Daily
+Report for Executives, March 4, 2015, pp. A-31.
+52
+For example, in 2015, Commissioner Steven Walther offered motions to expedite resolving certain enforcement
+matters pending before the commission for more than one year. For background, see Kenneth P. Doyle, “FEC Eyes
+Petition on Corporate Contributions,” Daily Report for Executives, November 6, 2015, n.p.
+53
+For additional discussion, see, “Statement of Vice Chairman Matthew S. Petersen and Commissioners Caroline C.
+Hunter and Lee E. Goodman on the Timely Resolution of Enforcement Matters,” July 16, 2015, Washington, DC,
+http://fec.gov/members/statements/
+Statement_on_the_Timely_Resolution_of_Enforcement%20Matters_%28MSP%20CCH%20LEG%29.pdf; and
+spring/summer 2015 commission meeting minutes available at http://www.fec.gov/agenda/agendas.shtml regarding
+discussion of amending the FEC’s Directive 74. (Note: The July 16, 2015, date on the Petersen, Hunter, and Goodman
+statement appears on Commissioner Petersen’s collected statements and opinions at http://fec.gov/members/petersen/
+statements.shtml but not on the document itself.) See also Kenneth P. Doyle, “FEC Deadlocks on Expediting
+Enforcement Cases,” Daily Report for Executives, September 18, 2015, n.p.
+54
+Federal Election Commission, Guidebook for Complainants and Respondents of the FEC Enforcement Process,
+Washington, DC, May 2012, p. 5, http://fec.gov/em/respondent_guide.pdf.
+
+Congressional Research Service
+
+11
+
+FEC Enforcement Process and Issues for Congress
+
+penalty schedule, commissioners have debated whether existing penalties are sufficient and
+whether providing more information about how penalties are calculated would essentially
+publicize a “cost of doing business” for violating law or regulation. In addition, although
+monetary penalties are the most prominent component of FEC enforcement tools, the commission
+also could assess other forms of corrective action, such as requiring violators to attend training
+seminars.
+Figure 1. FEC Civil Penalties in All Closed Enforcement Matters, FY2000-FY2015
+
+Source: CRS figure using data in Federal Election Commission, “Federal Election Commission Enforcement
+Statistics 1977-2015,” http://fec.gov/press/bkgnd/EnforcementStatistics.shtml? CRS adjusted original amounts for
+inflation (constant $).
+Notes: The original source notes that the data are being transferred from an older FEC system to a new one
+and are subject to future review and potential modification.
+
+Vacancies Among Senior Enforcement Staff
+As noted in Figure 2 below, high-profile vacancies have occurred in some FEC senior staff
+positions. As of this writing, these include vacancies or acting appointments in the general
+counsel position, as well as the associate general counsel for enforcement. Amid a reported
+stalemate over how to fill the position, and reportedly reflecting other commissioners’ divisions
+over enforcement, the general counsel position was vacant for more than two years between July
+2013 and August 2015.55 The commission appointed FEC attorney Daniel Petalas acting general
+counsel in August 2015.56
+
+55
+
+See, for example, Kenneth P. Doyle, “FEC Slow to Announce New Counsel Following Departure of Anthony
+Herman,” Daily Report for Executives, July 18, 2013, pp. A-1; and Dave Levinthal, “Gridlocked Elections Watchdog
+Goes Two Years Without Top Lawyer,” Center for Public Integrity, June 30, 2015, http://www.publicintegrity.org/
+2013/12/17/13996/how-washington-starves-its-election-watchdog. The commission appoints the general counsel. See
+52 U.S.C. § 30106(f).
+56
+Federal Election Commission, “FEC Announces the Selection of Daniel A. Petalas as Acting General Counsel,”
+press release, August 13, 2015, http://fec.gov/press/press2015/news_releases/20150813release.shtml.
+
+Congressional Research Service
+
+12
+
+FEC Enforcement Process and Issues for Congress
+
+Figure 2. Vacant or Acting Senior Staff Positions, Fall 2015
+
+Source: CRS figure adapted from Federal Election Commission, “FEC Offices,” http://fec.gov/about/offices/
+offices.shtml. Data are current as of November 2015.
+Notes: The Staff Director and Chief Information Officer (CIO) are traditionally separate positions at the FEC.
+As the commission website explains, currently, “the same individual [Alec Palmer] is serving in both the position
+of the Staff Director and the position of the Chief Information Officer ... Accordingly, the organizational chart
+reflects both positions—the Staff Director and the Chief Information Officer—as reporting directly to the
+Commission.” In addition, the Director of Equal Employment Opportunity (EEO) “reports directly to the
+Commission on all EEO matters,” but to the Staff Director on administrative matters. See ibid.
+
+Potential Considerations for Congress and
+Concluding Comments
+Enforcement is important not only for encouraging compliance with law and regulation or
+correcting non-compliance, but also for what it represents about the state of campaign finance
+policy overall. For some, the FEC’s enforcement process is unnecessarily complex and
+insufficiently transparent. For others, it is too lax to be effective. Whether observers prefer more
+vigorous, more limited, or unchanged campaign finance enforcement, there is general consensus
+that a clear, consistent enforcement process matters. Without transparent and consistent
+enforcement, political actors lack guidance about what they can and cannot do, when, and how.
+
+Congressional Research Service
+
+13
+
+FEC Enforcement Process and Issues for Congress
+
+If Congress wants to provide more direction surrounding enforcement, it could pursue legislation
+to clarify those issues on which policy stalemates have occurred. Nonetheless, pursuing
+legislative clarity on controversial issues might not be practically attainable in all circumstances.
+In addition, legislating individual policy issues would not necessarily address the fact that the
+commission routinely deadlocks on a variety of issues, which suggests that structural reform
+could be a more expedient route to curtailing split votes.
+As such, some contend that more vigorous enforcement of campaign finance law requires
+restructuring the FEC. Most prominently, critiques typically propose eliminating the even-number
+commissioner structure to make deadlocks less likely. 57 For some, in choosing the current
+bipartisan structure, Congress intentionally made the FEC “weak” with the agency being
+“designed to promote deadlock along party lines on issues that really mattered.”58 Other observers
+warn that an odd number of commissioners could invite politicized enforcement. As one analysis
+explains, “The FEC’s bipartisan design ... allows its regulations to carry weight. If not for this
+bipartisan design, every FEC action would be tinged with politics and viewed by some as
+illegitimate.”59
+Several questions could be relevant as the House and Senate examine how they want the FEC to
+enforce campaign finance law and regulation—if they choose to make any change at all. Potential
+questions include the following:
+
+
+
+
+
+
+
+
+
+How does Congress want the FEC to prioritize enforcement compared with other
+duties, such as disclosure?60
+What relationships does Congress want the FEC to have with other enforcement
+agencies, and for which areas of law and regulation should the FEC be
+responsible?
+Does the commission have a unified understanding of what the agency’s
+enforcement priorities are and should be? Does Congress want to clarify its
+expectations in these areas through oversight, legislation, or both?
+Does the commission have adequate appropriations to carry out enforcement
+duties?
+Does the commission have adequate personnel to carry out enforcement duties?
+Does the commission have adequate statutory authority to carry out enforcement
+duties?
+
+57
+
+Other occasional proposals include changes such as making the general counsel a tie-breaker in deadlocked votes and
+use of administrative law judges. Analysis of those proposals is beyond the scope of this report. For background, see,
+for example, Amanda S. La Forge, “The Toothless Tiger—Structural, Political and Legal Barriers to Effective FEC
+Enforcement: An Overview and Recommendations,” Administrative Law Journal of American University, vol. 10
+(1996), pp. 351-384; and Bradley A. Smith and Steven M. Hoersting, “A Toothless Anaconda: Innovation, Impotence
+and Overenforcement at the Federal Election Commission,” Election Law Journal, vol. 1, no. 2 (2002), pp. 145-171.
+58
+Campaign Legal Center, Fix the FEC, background memorandum, September 17, 2015,
+http://www.campaignlegalcenter.org/news/publications-speeches/fix-fec-background-memorandum-new-bipartisanlegislation-address-0#_ftn5.
+59
+Scott Blackburn, Delusions about ‘Dysfunction’: Understanding the Federal Election Commission, Center for
+Competitive Politics, issue brief, Alexandria, VA, n.d., p. 2, http://www.campaignfreedom.org/wp-content/uploads/
+2015/10/2015-10-05_Two-Pager_Blackburn_Delusions-About-Dysfunction-Understanding-The-FEC.pdf. Although
+the brief is not dated, it was released in October 2015.
+60
+In campaign finance parlance, “disclosure” is a term of art referring to public reporting of information about
+contributions and expenditures.
+
+Congressional Research Service
+
+14
+
+FEC Enforcement Process and Issues for Congress
+
+
+
+
+
+
+
+
+
+
+To what extent should the commission wait for relevant pending litigation to
+resolve before reaching a determination in enforcement cases? Does Congress
+want to leave that determination to the commission or to specify a standard? If
+so, what?
+Do FECA’s civil-enforcement requirements sufficiently reflect current needs? For
+example:
+ Do prohibitions on sharing information about open enforcement matters limit
+the potential for filing frivolous complaints for publicity; do they limit the
+commission from informing the public about its enforcement activities; or
+neither or both?
+ Do the required time frames (e.g., as shown in Table 2) allow for sufficient
+consideration by the commission and are they reasonable for respondents?
+Do those time frames, commission practices, or both or neither affect what is
+sometimes regarded as long delay in pending enforcement matters?
+ Does the requirement that the commission attempt to negotiate compliance
+undermine enforcement?
+Does Congress want to clarify which investigation and enforcement activities
+FEC staff can initiate versus those that require commissioner actions?
+Specifically, does Congress want to revisit the authorities of the commission
+versus those of the OGC or other enforcement staff?
+Does Congress want to reestablish the FEC’s authority to conduct random
+audits?61
+Does Congress want to amend FECA (or enact another statute) to provide either
+greater flexibility or limitations in the enforcement process?
+
+The FEC can determine how to prioritize enforcement activities, fill relevant staff vacancies, and
+whether or not commissioners can agree on enforcement actions. Much of the enforcement
+process, however, is set in statute and therefore beyond the agency’s control. As long as campaign
+finance policy remains controversial, history suggests that so, too, will be enforcement.
+
+Author Contact Information
+(name redacted)
+Specialist in American National Government
+[redacted]@crs.loc.gov, 7-....
+
+Acknowledgments
+CRS Information Research Specialist (name redacted) contributed to research on deadlocked votes. CRS
+Visual Information Specialist (name redacted) designed
+or adapted the figures.
+
+61
+
+Congress eliminated the FEC’s random-audit authority as part of the 1979 FECA amendments (P.L. 96-187). On
+current audit authority, see 52 U.S.C. 30111(b).
+
+Congressional Research Service
+
+15
+
+EveryCRSReport.com
+The Congressional Research Service (CRS) is a federal legislative branch agency, housed inside the
+Library of Congress, charged with providing the United States Congress non-partisan advice on
+issues that may come before Congress.
+EveryCRSReport.com republishes CRS reports that are available to all Congressional staff. The
+reports are not classified, and Members of Congress routinely make individual reports available to
+the public.
+Prior to our republication, we redacted names, phone numbers and email addresses of analysts
+who produced the reports. We also added this page to the report. We have not intentionally made
+any other changes to any report published on EveryCRSReport.com.
+CRS reports, as a work of the United States government, are not subject to copyright protection in
+the United States. Any CRS report may be reproduced and distributed in its entirety without
+permission from CRS. However, as a CRS report may include copyrighted images or material from a
+third party, you may need to obtain permission of the copyright holder if you wish to copy or
+otherwise use copyrighted material.
+Information in a CRS report should not be relied upon for purposes other than public
+understanding of information that has been provided by CRS to members of Congress in
+connection with CRS' institutional role.
+EveryCRSReport.com is not a government website and is not affiliated with CRS. We do not claim
+copyright on any CRS report we have republished.
+
+
