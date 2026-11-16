@@ -46,7 +46,10 @@ import sys
 import zipfile
 from collections import defaultdict
 
-import numpy as np
+try:
+    import numpy as np          # needed to compute the intervals, not to read them or test the formula
+except ImportError:
+    np = None
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -68,8 +71,8 @@ TAKE_HOME = {
 
 def sdr(theta0, reps):
     """Successive difference replication: the standard error from the base-weight estimate and the 160 replicates."""
-    reps = np.asarray(reps, dtype=float)
-    return math.sqrt(4.0 / len(reps) * float(np.sum((reps - theta0) ** 2)))
+    reps = [float(r) for r in reps]
+    return math.sqrt(4.0 / len(reps) * sum((r - theta0) ** 2 for r in reps))
 
 
 def summarize(value, theta0, reps):
@@ -296,6 +299,8 @@ def _full(B, fn, *args):
 
 
 def run(archive, ledger_path, with_take_home=True):
+    if np is None:
+        raise SystemExit("intervals.py needs numpy to compute the intervals (pip install numpy)")
     from budget import baseline
     RW = replicate_weights(archive)
     res = {"method": "successive difference replication, 160 replicates: SE = sqrt(4/160 x sum (est_r - est_0)^2); "

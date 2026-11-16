@@ -7,6 +7,7 @@ Role: the household model's test suite (`MODEL-CARD.md`, "Tests"). Status: worki
 The legacy-reproduction test needs the budget model's `ledger.json` and the legacy model's `incidence.json`; it looks
 for them in $BUILD (run-all.sh sets it) or `build/`, and is skipped if they are absent.
 """
+import importlib.util
 import json
 import os
 import sys
@@ -321,6 +322,7 @@ class Intervals(unittest.TestCase):
         s = self.IV.summarize(10.0, 10.0, [13.0] * 160)
         self.assertAlmostEqual(s["hi90"] - s["value"], 1.645 * 6.0)
 
+    @unittest.skipIf(importlib.util.find_spec("numpy") is None, "numpy is not installed")
     def test_groups_match_assign(self):
         import numpy as np
         hs = self.b["households"]
@@ -330,6 +332,7 @@ class Intervals(unittest.TestCase):
         self.assertEqual(list(G[:, 0]), [h["g5"] for h in hs])
         self.assertEqual(list(T[:, 0]), [h["top1"] for h in hs])
 
+    @unittest.skipIf(importlib.util.find_spec("numpy") is None, "numpy is not installed")
     def test_poverty_estimator_is_rates(self):
         import numpy as np
         spm = self.b["spm"]
