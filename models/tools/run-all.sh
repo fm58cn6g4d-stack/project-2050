@@ -23,7 +23,6 @@ echo "== 2. floor paths";       python3 ledger-paths.py >/dev/null
 echo "== 2a. scenario calendar"; python3 "$TOOLS/calendar/test_model.py"; python3 "$TOOLS/calendar/build.py"
 echo "== 2b. vote simulation"; cp "$TOOLS"/votes-model.py "$BUILD"/; python3 votes-model.py
 echo "== 2c. calendar checks"; python3 "$TOOLS"/test_calendar.py
-echo "== 3. ledger markdown";   python3 ledger-make-md.py >/dev/null
 echo "== 4. D3 household test (the household model's d3.py; incidence.json for the budget-model readers)"
 python3 "$TOOLS"/household/d3.py ledger.json incidence.json
 echo "== 4a. household model (tests, then results: the D3 report is models/tools/household/results.md)"
@@ -36,7 +35,6 @@ else
 fi
 echo "== 5b. budget data layer"; python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_data.py 2>&1 | tail -1
 echo "== 6. fiscal model";      python3 fiscal-model.py --baseline "$BUILD/fiscal-baseline.csv" > fiscal-model.log; head -1 fiscal-model.log
-python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
 python3 "$TOOLS"/test_climate_integration.py
 echo "== 6. MR6 booking check (transportation offset on the general fund)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_mr6.py 2>&1 | tail -1
 echo "== 6. counting inputs check (board 0q, DEC-2026-11-12-08: Moving America timing, C35, DEM-11, the offset rate)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_counting.py 2>&1 | tail -1
@@ -50,6 +48,10 @@ echo "== 6b2. energy and climate model (MOD-energy: tests, then results)"
 python3 "$TOOLS"/energy/test_energy.py | tail -1
 python3 "$TOOLS"/energy/run.py --out "$BUILD/energy"
 echo "== 6c. dedicated funds";  cp "$TOOLS"/funds-model.py "$BUILD"/; python3 funds-model.py
+BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_funds_model.py 2>&1 | tail -1
+# The ledger and long-term markdown quote the funds model's Social Security shares (funds.json), so they run after it
+echo "== 6c2. ledger and long-term markdown"; python3 ledger-make-md.py >/dev/null
+python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
 echo "== 6d. surge funding";  python3 "$TOOLS"/test_capacity_funding.py
                                cp "$TOOLS"/capacity-funding.py "$BUILD"/; python3 capacity-funding.py
 echo "== 6e. budget benchmarks and model card (budget B4)"
