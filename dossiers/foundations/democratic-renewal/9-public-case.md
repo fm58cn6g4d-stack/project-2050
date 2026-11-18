@@ -224,7 +224,7 @@ None new from this section. The provisional items above are the six listed in th
 | 71 judgeships; tranches 2030, 2033, 2035 | Section 4, CRT-1.01 | EV-DEM-041; working choice |
 | Code within a year; reasons within 30 days | Section 4, CRT-2.01, CRT-4.01 | Working choices |
 | Rule challenges within 60 days of publication | Section 4, CRT-7.01 | Working choice |
-| More mandatory appeals than argued cases in a busy period (no figure stated) | Section 5, part 2; section 7, part 3 (about 25 to 170 a year against 64 argued in OT2024) | EV-DEM-384, EV-DEM-385, EV-DEM-388; working assumptions |
+| More mandatory appeals than argued cases in a busy period (no figure stated) | Section 5, part 2; section 7, part 3 (about 25 to 170 a year against 64 argued cases decided in OT2024) | EV-DEM-384, EV-DEM-385, EV-DEM-388; working assumptions |
 | Eighteen-year terms, two years apart; first statutory term ends about 2047; nine seats | Section 4, CRT-15.01; section 5, part 1 | EV-DEM-343 |
 | Immigration judges: 14-year terms | Section 4, CRT-5.02 | EV-DEM-333 |
 | The court takes over October 1, 2031, about 21 months after the act | Section 4, CRT-5.03; section 5, part 4 | Working choice |

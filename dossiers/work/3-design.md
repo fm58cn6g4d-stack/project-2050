@@ -23,7 +23,7 @@ Espen answered the batch on November 17, 2026 (`DEC-2026-11-17-01` to `-29`), ea
 - **Settled by the follow-up note** (`DEC-2026-11-17-30` to `-36`):
   - point 2's final wording (`-30`);
   - point 3: the 2024 method in statute, never below $1,128 (`-31`);
-  - memo 9: about 200,000 positions by 2034, of which up to 50,000 are service-to-apprenticeship places, gated (`-32`);
+  - memo 9: about 200,000 positions, of which up to 50,000 are service-to-apprenticeship places, gated (`-32` says "by 2034"; on the working ramp 150,000 civic positions are reached in 2034 and the tranche opens in 2035, so 200,000 comes in 2035 at the earliest);
   - memo 8 part 1: the per-completion payment to programs plus supports, with no apprentice cash bonus (`-33`);
   - memo 1 part 2 C's form (`-34`);
   - memo 6 part 3 C in the bill (`-35`);
@@ -50,7 +50,7 @@ Section 1, part F, gives it in full. In brief:
 | 3. Subminimums | 2 | **A** legacy (ended, no transition); **B** one schedule with a funded 14(c) transition; **C** tipped to 70-75%; **D** leave to states | **B** |
 | 4. Organizing rules and enforcement | 3 | **A** the PRO Act through the board; **B** the core in statute, enforced in court; **C** LAB-1C (remedies and first contracts only); **D** B plus card check | **B** |
 | 5. Fair-share fees (Espen's call) | 4 | **A** override (LAB-1A); **B** leave state laws (LAB-1B); **C** members-only bargaining | **A**, as a separable title |
-| 6. Sectoral standards | 5 | **A** legacy boards for home care and fast food; **B** a standing framework, fast food first, home care through the payer; **C** sectoral bargaining (LAB-3B); **D** fund state boards | **B** |
+| 6. Sectoral standards | 5 | **A** legacy boards for home care and fast food; **B** a standing framework, fast food first, home care through the payer; **C** sectoral bargaining (LAB-3B in the legacy file, `domain-labor.md`; no agenda row yet); **D** fund state boards | **B** |
 | 7. Enforcement design | 6, part 1 | **A** legacy (doubled damages, a surge); **B** targeted inspections, staff to 1978's level, treble damages, private right; **C** mostly private suits | **B** |
 | 8. Coverage test | 6, part 2 | **A** ABC for the labor act only; **B** ABC for the labor act and UI, a codified test for wage law; **C** ABC everywhere (LAB-7B); **D** codified test everywhere | **B** |
 | 9. Pay transparency | 6, part 3 | **A** ranges in postings; **B** a right to discuss pay; **C** both | **A** |
@@ -98,7 +98,7 @@ Federal cost against the January 2029 law, in nominal dollars, over FY2030-39 an
 **The basis (judgment, stated so the figures can be checked).**
 - *Wage floor:* CBO's $54 billion over 2021-31 for $15 by 2025 [EV-WRK-032], a floor at about 61% of 2025's all-jobs median of $24.51 [EV-WRK-078]; memo 1 B's floor is about half the median in 2035 on 3.5% a year nominal median growth (range 3-4%), so its indirect budget effect is smaller and later.
 - *Unemployment insurance:* FY2025 outlays of $41.8 billion [EV-WRK-413]; recipiency rising from about 27-29% toward 40% and replacement toward about half [EV-SEC-045] [EV-WRK-302] lifts regular benefits by about 40-60%; Extended Benefits' federal share averaged over a decade with one moderate downturn. [Repriced after the milestone review (fix step 1): "replacement toward about half" is what a 50% replacement rate gives; the decided 75% of high-quarter pay up to two-thirds of the state's average wage lifts regular benefits about 2.1 times, about +$42 billion a year at FY2025 levels (range $25-66 billion), and moves the general fund about +$4 billion a year more by FY2040 (`6-cost.md`, part 2). The cost to employers goes to Espen as a question (`6-cost.md`, "Questions for Espen", item 1).]
-- *Training:* about 300,000 more apprenticeship starts a year at full scale [EV-WRK-349], at $10,000-15,000 in grants and instructor pay, against $5,171 per apprentice in the federal initiative [EV-SEC-640].
+- *Training:* about 300,000 more apprenticeship starts a year at full scale (the 600,000 target less FY2025's 311,035 [EV-WRK-349]; project arithmetic, and the target itself has no feasibility evidence), at $10,000-15,000 in grants and instructor pay, against $5,171 per apprentice in the federal initiative [EV-SEC-640].
 - *Wage insurance:* about 1.1 million long-tenured workers displaced a year [EV-WRK-315], about half reemployed at lower pay [EV-WRK-317], at $4,000-6,000 each. [Repriced in section 6 step by step, with discharges not for misconduct, the pay cap, the 12-month window and take-up: about $2.0 billion a year in steady state (`6-cost.md`, part 1).]
 - *Service:* about $32,600 federal per full-time position [EV-WRK-398] [EV-WRK-399], 150,000 positions by 2034 with a ramp. [Grantees also match 24-30% of program costs under AmeriCorps' rule [EV-WRK-454], about $1.5 billion a year at full scale, non-federal (`6-cost.md`, part 1).]
 - *Growth:* outside scores moved to FY2030-39 at about 2.5-3% a year nominal.
@@ -164,7 +164,7 @@ Each is decided on its own. None is adopted by silence. Costs are judgment unles
 12. **No separate portable-benefits program for contractors;** memo 6's coverage tests reach many of the same workers. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-25`).**
 13. **Propose to the competition topic (COM-4) a ban on non-competes for workers below a pay threshold,** on Oregon's evidence of 2-3% higher hourly wages (Lipsitz and Starr) [EV-WRK-411], which a critique of the wider literature also allows for low-wage workers [EV-WRK-412]. **Recommended: yes, as a proposal.** **Decided: yes, with Espen's direction to the competition topic (`DEC-2026-11-17-26`).**
 14. **Send the agencies' needs to democratic renewal for CAP-7,** built from workload: the board's caseload under memo 3, Wage and Hour back to about 1,200 investigators and OSHA in step under memo 6, the wage commission and boards under memos 1 and 5, against legacy judgment figures [EV-WRK-706]. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-27`).**
-15. **Ask CBO and JCT in 2027-28 to score memo 1 B, memo 3 B and memo 7 B on the 2029 baseline** (preparation). No score of these designs exists. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-28`).**
+15. **Ask CBO and JCT in 2027-28 to score memo 1 B, memo 3 as decided (D) and memo 7 B on the 2029 baseline [memo 3's decided form is D, `DEC-2026-11-17-28`]** (preparation). No score of these designs exists. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-28`).**
 16. **Two vehicles.** The money (memo 7's benefits and tax base where Byrd-eligible, memo 8, memo 9's fallback, memo 2's grant) rides the 2029 reconciliation bill; the rules (memos 1-6, points 1-7) ride one regular-order labor bill under D2's rules, with memo 4's fees as a separable title. The wage mandate is barred from reconciliation (the 2021 parliamentarian ruling; `domain-labor.md`, LAB-4). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-29`).**
 
 ## Shared rules this section relies on
@@ -178,7 +178,7 @@ From `dossiers/shared-rules.md`. Rule 6 is this flagship's.
 | 1. What counts as income | Housing | Wage gains count, as rule 1's working answer does; memo 1's raise is partly offset by phase-outs, which the household model should measure | — |
 | 2. Phase-outs | Secure floor | Not changed here; the interaction is a measurement for section 6 | — |
 
-**Proposed note for rule 6**, for Espen with point 10: "Help in this plan is an offer, not a condition. No program conditions income, housing, health or food help on work, training or service (LAB-10). Unemployment insurance, which insures against losing work, keeps its test that a claimant is able and available for work, shown by attestation and registration with the job service, with reemployment help offered; it adds no weekly contact quotas." The note is written into `dossiers/shared-rules.md` once Espen decides.
+**Proposed note for rule 6** [decided; the note is now in `dossiers/shared-rules.md`], for Espen with point 10: "Help in this plan is an offer, not a condition. No program conditions income, housing, health or food help on work, training or service (LAB-10). Unemployment insurance, which insures against losing work, keeps its test that a claimant is able and available for work, shown by attestation and registration with the job service, with reemployment help offered; it adds no weekly contact quotas." The note is written into `dossiers/shared-rules.md` once Espen decides.
 
 ## Seams with other dossiers (named, not settled)
 

@@ -18,7 +18,7 @@ The labor law's remedies carry no penalty: the board can order a violator to sto
 ## What the evidence says, in five lines
 
 1. **Election rules move outcomes.** British Columbia's switch from card check to mandatory votes cut certification success 19 points; its return restored it (Riddell, peer-reviewed, quasi-experimental) [EV-WRK-168].
-2. **First-contract arbitration works and is rarely used:** first-agreement strikes fell by at least half where Canadian provinces adopted it (Johnson, 2010) [EV-WRK-169]. In the U.S. the mediation service gets about 500 first-contract notices a year (CBO) [EV-WRK-177].
+2. **First-contract arbitration cut first-agreement strikes and is rarely used:** strikes fell by at least half where Canadian provinces adopted it (Johnson, 2010) [EV-WRK-169]; that study measures strikes, not how many units reach a first contract or the contracts' quality. In the U.S. the mediation service gets about 500 first-contract notices a year (CBO) [EV-WRK-177].
 3. **Replacement bans: two views.** A general ban goes with higher wages and longer strikes (Cramton, Gunderson and Tracy) [EV-WRK-170]; banning *permanent* replacement, the PRO Act's rule, shows little effect (Budd, 1996) [EV-WRK-171].
 4. **Penalties:** CBO scored the 2019 PRO Act's penalties at about 120 cases a year and $39 million of revenue over ten years (CBO, 2019) [EV-WRK-176]. No study measures their deterrence.
 5. **What unions do:** over the century they raise pay and narrow inequality (Farber, Herbst, Kuziemko and Naidu, 2021) [EV-WRK-164]; at the margin of a close election, effects on firms split [EV-WRK-161] [EV-WRK-162] [EV-WRK-163].
