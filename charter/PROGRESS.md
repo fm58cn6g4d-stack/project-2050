@@ -63,7 +63,7 @@ Updated November 18, 2026 (about 16:05 UTC) by the lead, session_01UQzgBxMXt5wQi
 
 ## Next, in order
 
-1. **Stage F:** work (flagship 5) and democratic renewal, section by section to their memos and milestone reviews. Sections 1 to 3 of both are merged and both memo batches are decided. Sections 4 to 8 are merged for both, work section 9 is merged (#436) and democratic renewal section 9 is in progress; then the milestone reviews (In motion, item 3). One session per dossier.
+1. **Stage F:** work (flagship 5) and democratic renewal, section by section to their memos and milestone reviews. Sections 1 to 3 of both are merged and both memo batches are decided. Sections 4 to 9 and both milestone reviews are merged, and every L3 blocker is fixed; the remaining fix steps, the L3 re-checks and booking follow (In motion, items 2 and 4). One session per dossier.
 2. **Stage G, the financing settlement:** after stage F completes, a deep-dive full audit of the whole plan's financing, re-checking what the stage E checkpoint settled; the items above and in `checkpoint-financing.md` part D. Re-run as later waves add cost, at each new CBO baseline, and before 2028.
 3. **Maintenance, later:** the small items above. M1 and the immigration small items are done.
 
