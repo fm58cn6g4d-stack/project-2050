@@ -10281,5 +10281,356 @@
    "dossiers/foundations/democratic-renewal/7-validation.md"
   ],
   "locator": "Highlights"
+ },
+ {
+  "id": "EV-DEM-371",
+  "statement": "In Richardson v. Ramirez (1974) the Court upheld California's exclusion of people with felony convictions from voting, holding that the exclusion of felons from the vote has an affirmative sanction in section 2 of the Fourteenth Amendment that other franchise restrictions it had struck down lacked.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5424",
+  "anchor": [
+   "the vote has an affirmative sanction in § 2 of the Fourteenth Amendment, a sanction which was not present in"
+  ],
+  "grade": "A",
+  "fact_date": "1974",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law: Rehnquist for the Court, 6-3 (Marshall, Douglas and Brennan dissenting). The holding answers an equal protection challenge by the people disenfranchised; it does not decide what Congress may do under its enforcement powers, which is the question for DEM-12.01.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "418 U.S. at 54",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-381",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-380",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-372",
+  "statement": "In Hunter v. Underwood (1985) a unanimous Court struck Alabama's provision disenfranchising people convicted of crimes of moral turpitude because discriminatory intent was a motivating factor in its adoption, holding that section 2 of the Fourteenth Amendment was not designed to permit purposeful racial discrimination that otherwise violates section 1.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5425",
+  "anchor": [
+   "holding that under the evidence discriminatory intent was a motivating factor in adopting § 182",
+   "authorization of § 2 to deny the vote to citizens \"for participation in rebellion, or other crime,\" see Richardson v.",
+   "not designed to permit the purposeful racial discrimination",
+   "attending the enactment and operation of § 182 which otherwise violates § 1 of the Fourteenth Amendment. Nothing in"
+  ],
+  "grade": "A",
+  "fact_date": "1985",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law: Rehnquist for a unanimous Court (Powell not participating). It limits Richardson to laws without a discriminatory purpose; proof is law by law, from each provision's own history.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "471 U.S. at 225, 233",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-380",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-373",
+  "statement": "In Oregon v. Mitchell (1970) the Court upheld the 18-year-old voting age for national elections but not for state and local elections, and upheld the nationwide ban on literacy tests under the enforcement clauses of the Fourteenth and Fifteenth Amendments in view of the evidence of racial discrimination Congress found.",
+  "claim": "analysis",
+  "figures": [
+   "18"
+  ],
+  "source": "SRC-5426",
+  "anchor": [
+   "18-year-old minimum-age requirement of the Voting Rights Act",
+   "Amendments is valid for national elections. (2) That requirement is not valid for state and local elections. (3) The literacy",
+   "3. The literacy test ban is constitutional under the Enforcement",
+   "the evidence of racial discrimination that Congress found in various"
+  ],
+  "grade": "A",
+  "fact_date": "1970",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law. No opinion commanded a majority on the voting age: the federal-elections result rested on Justice Black's lone Elections Clause view joined to four Justices' Fourteenth Amendment view (EV-DEM-374). The literacy-test ban, a nationwide rule over a state voter qualification on a record of racial discrimination, was unanimous and is the closest precedent for DEM-12.01's enforcement-clause footing.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, 400 U.S. at 112-114",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-380",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-374",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-374",
+  "statement": "In Arizona v. Inter Tribal Council (2013) the Court said that five Justices in Oregon v. Mitchell had rejected the view that the Elections Clause lets Congress set voter qualifications in federal elections, that this view underlies its own analysis, and that five Justices also agreed the Fourteenth Amendment did not empower Congress to impose the 18-year-old voting mandate.",
+  "claim": "analysis",
+  "figures": [
+   "18"
+  ],
+  "source": "SRC-5411",
+  "anchor": [
+   "nothing in these provisions lends itself to the view that voting qualifcations in federal elections are to be set by Congress.",
+   "This last view, which commanded a majority in Mitchell, underlies our analysis here.",
+   "Five Justices also agreed that the Fourteenth Amendment did not empower Congress to impose the 18-year-old-voting mandate."
+  ],
+  "grade": "A",
+  "fact_date": "2013",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law: Scalia for the Court, footnote 8. A footnote, not the holding, but it states how the Court now reads Mitchell. It is the main weakness of the Elections Clause and of a general section 5 power over who may vote; it leaves the literacy-test ban's race-based enforcement footing untouched.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "570 U.S. at 16-17, n. 8",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-380",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-375",
+  "statement": "In Arizona v. Inter Tribal Council (2013) the Court held that the Elections Clause empowers Congress to regulate how federal elections are held but not who may vote in them, said a state may deny registration based on information in its possession establishing ineligibility, and said it would raise serious constitutional doubts if a federal statute precluded a state from obtaining the information necessary to enforce its voter qualifications.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5411",
+  "anchor": [
+   "to regulate how federal elections are held, but not who may",
+   "information in their possession establishing the applicant's ineligibility.",
+   "doubts if a federal statute precluded a State from obtaining"
+  ],
+  "grade": "A",
+  "fact_date": "2013",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law: Scalia for the Court, 7-2. The passages bound both DEM-12.01 (who may vote is the states' province under the Elections Clause) and DEM-1.08 (a records rule must leave the state able to use the information it holds and to obtain what it needs). EV-DEM-359 records the holding on the federal form.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "570 U.S. at 16-17; Syllabus (b), (c)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-380",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-376",
+  "statement": "In Burroughs v. United States (1934) the Court upheld federal campaign-finance disclosure for elections of presidential electors, holding that Congress's power to protect the election of the President and Vice President from corruption is clear and that the law did not interfere with a state's power under Article II to appoint the electors or with the manner of their appointment.",
+  "claim": "analysis",
+  "figures": [
+   "4"
+  ],
+  "source": "SRC-5427",
+  "anchor": [
+   "4. The power of Congress to protect the election of President and",
+   "Vice-Prisident from corruption being clear, the choice of means",
+   "under § 1, Art. II of the Constitution, to appoint the electors or"
+  ],
+  "grade": "A",
+  "fact_date": "1934",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law: Sutherland for the Court. Supports federal rules that protect the integrity of a presidential election (certification, paper ballots, audits, list maintenance) without displacing the state's choice of how electors are appointed; it says nothing about who may vote for them.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "290 U.S. at 534-535 (syllabus), 544-545",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-380",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-377",
+  "statement": "In City of Boerne v. Flores (1997) the Court held that Congress enforces the Fourteenth Amendment only by remedying or preventing violations, not by changing what the right is, and that there must be congruence and proportionality between the injury to be prevented or remedied and the means adopted.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5428",
+  "anchor": [
+   "said to be enforcing the Clause. Congress does not enforce a constitutional right by changing what the right is.",
+   "congruence and proportionality between the injury to be prevented or",
+   "appears, instead, to attempt a substantive change in constitutional protections, proscribing state conduct that the Fourteenth Amendment itself does not prohibit."
+  ],
+  "grade": "A",
+  "fact_date": "1997",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law: Kennedy for the Court, 6-3. The test any section 5 footing for DEM-12.01 must meet: a record of intentional discrimination in felony disenfranchisement, and a rule proportionate to it.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, 521 U.S. at 508-509",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-381",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-378",
+  "statement": "In Katzenbach v. Morgan (1966) the Court held that section 4(e) of the Voting Rights Act was a proper exercise of Congress's power under section 5 of the Fourteenth Amendment, a positive grant of legislative power, so New York's English literacy requirement could not be enforced to the extent it conflicted with section 4(e).",
+  "claim": "analysis",
+  "figures": [
+   "4",
+   "5"
+  ],
+  "source": "SRC-5429",
+  "anchor": [
+   "the powers under § 5 of the 'Fourteenth -Amendment, and by",
+   "virtue of the Supremacy Clause, New York's English literacy requirement cannot be enforced to the extent it conflicts with § 4 (e).",
+   "(c) Section 5 of the Fourteenth Amendment is a positive grant"
+  ],
+  "grade": "A",
+  "fact_date": "1966",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law: Brennan for the Court, 7-2. Congress set aside a state voter qualification under section 5. Boerne (EV-DEM-377) later confined section 5 to remedial legislation, so Morgan supports DEM-12.01 only as remedial legislation on a record.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, 384 U.S. at 641-642",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-380",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-377",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-379",
+  "statement": "The Democracy Restoration Act of 2023 (introduced in the House) would bar denying the vote in federal elections because of a criminal conviction unless the person is serving a felony sentence in a correctional facility at the time of the election; its findings cite the Elections Clause and the Reconstruction and later voting amendments and state that between 1865 and 1880 at least 14 states enacted or expanded felony disenfranchisement laws.",
+  "claim": "data",
+  "figures": [
+   "1865",
+   "1880",
+   "14",
+   "2",
+   "4"
+  ],
+  "source": "SRC-5423",
+  "anchor": [
+   "vote in any election for Federal office shall not be denied or abridged",
+   "such individual is serving a felony sentence in a correctional",
+   "(2) Article I, section 4, of the Constitution grants",
+   "and Fifteenth Amendments. Between 1865 and 1880, at least 14"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Bill text as introduced (Cardin and others in the Senate as S. 1677; House companion); not enacted. Its findings are a model for DEM-12.01's findings record, not evidence of the history they assert, which the record would have to document state by state.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Secs. 2(2), 2(9), 3"
+ },
+ {
+  "id": "EV-DEM-380",
+  "statement": "The Brennan Center argues that Congress may restore federal voting rights to people with criminal histories under two sources of power, the Elections Clause and the enforcement powers of the Fourteenth and Fifteenth Amendments, that Inter Tribal Council did not squarely decide Congress's power over qualifications, and that reliance on Richardson is misguided so long as the law is framed as remedying racial discrimination in voting.",
+  "claim": "analysis",
+  "figures": [
+   "1",
+   "2",
+   "4"
+  ],
+  "source": "SRC-5430",
+  "anchor": [
+   "there are two sources for Congress’ authority to enact subtitle E: (1) the Election Clause of Article I, section 4; and (2) Congress’ enforcement powers under the Fourteenth and Fifteenth Amendments.",
+   "Unlike in Mitchell, the question of Congress’ power to regulate voter qualifications was not squarely before the Court in ITCA.",
+   "As long as the DRA is securely framed as legislation aimed at remedying past and current racial discrimination in the voting system, reliance on Richardson is misguided."
+  ],
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Brennan Center for Justice, a voting-rights advocacy organization that supports the bill; an undated legal memo on the For the People Act (about 2019), not peer reviewed. Its Elections Clause argument is weaker after Inter Tribal Council's footnote 8 (EV-DEM-374), which it calls dictum; its enforcement-clause argument rests on Hunter and Boerne and is the one this dossier relies on.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Pp. 1, 2, 5",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-372",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-374",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-381",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-381",
+  "statement": "The Eleventh Circuit, sitting en banc in 2005, held that reading Section 2 of the Voting Rights Act to reach Florida's felon disenfranchisement law would raise grave constitutional concerns because it would prohibit a practice the Fourteenth Amendment permits, and that without a record of constitutional violations such a reading would force the question whether Congress exceeded its enforcement powers.",
+  "claim": "analysis",
+  "figures": [
+   "2"
+  ],
+  "source": "SRC-5431",
+  "anchor": [
+   "Without a record of constitutional violations, applying Section 2 of the Voting Rights Act to Florida's felon disenfranchisement law would force us to address whether Congress exceeded its enforcement powers under the Fourteenth and Fifteenth Amendments.",
+   "the plaintiffs' interpretation calls for a reading of the statute which would prohibit a practice that the Fourteenth Amendment permits Florida to maintain."
+  ],
+  "grade": "A",
+  "fact_date": "2005",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law of one circuit, read as analysis of law: en banc, over Judge Barkett's dissent; the Second and Ninth Circuits reached similar results en banc (not in the register). It decided a statute's reach, not DEM-12.01's power, but states the objection a court would raise: a rule on felony disenfranchisement needs a record of constitutional violations to be enforcement legislation.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "405 F.3d at 1229-1232 (CourtListener opinion 76927)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-371",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-377",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-380",
+    "stance": "contests"
+   }
+  ]
  }
 ]
