@@ -11084,5 +11084,300 @@
    "dossiers/foundations/democratic-renewal/8-change-our-minds.md"
   ],
   "locator": "5 U.S.C. 13103(c)"
+ },
+ {
+  "id": "EV-DEM-401",
+  "statement": "In Oregon v. Mitchell (1970) Justice Black concluded that Congress may permit 18-year-old citizens to vote in national elections under the Elections Clause, Article II and the Necessary and Proper Clause, which let it set the qualifications for voters in national elections, but that the states set qualifications for state and local elections.",
+  "claim": "analysis",
+  "figures": [
+   "18"
+  ],
+  "source": "SRC-5426",
+  "anchor": [
+   "1. Congress has the authority to permit 18-year-old citizens to",
+   "national elections, to supervise such elections, and to set the qualifications for voters therein.",
+   "States have the power to set qualifications to vote in state and local elections"
+  ],
+  "grade": "A",
+  "fact_date": "1970",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law: the syllabus's statement of Justice Black's opinion, the vote that decided the federal-elections result. Black wrote for himself on this point; four Justices reached the same result on the Fourteenth Amendment (EV-DEM-402). This is the reading Espen gives the case (DEC-2026-11-18-17). CourtListener cluster 108221 confirms the citation, 400 U.S. 112, decided December 21, 1970.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/memos/1-voting-floor.md"
+  ],
+  "locator": "Syllabus, 400 U.S. at 112-113 (Black, J.)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-403",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-402",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-402",
+  "statement": "In Arizona v. Inter Tribal Council (2013) the Court said that Mitchell's judgment, that Congress could compel the states to permit 18-year-olds to vote in federal elections, lacked a majority rationale and is of minimal precedential value, because of the five Justices in that outcome only Justice Black relied on the Elections Clause.",
+  "claim": "analysis",
+  "figures": [
+   "18"
+  ],
+  "source": "SRC-5411",
+  "anchor": [
+   "In Mitchell, the judgment of the Court was that Congress could compel",
+   "the States to permit 18-year-olds to vote in federal elections.",
+   "only Justice Black was of the view",
+   "a majority rationale, is of minimal precedential value here."
+  ],
+  "grade": "A",
+  "fact_date": "2013",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, read as analysis of law: Scalia for the Court, footnote 8, the same footnote as EV-DEM-374. A majority opinion's reading of Mitchell, not a holding overruling it: the result stood until the Twenty-sixth Amendment made it moot. It is the main reason Mitchell cannot carry DEM-12.01 alone.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/memos/1-voting-floor.md"
+  ],
+  "locator": "570 U.S. at 16-17, n. 8",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-403",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-380",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-403",
+  "statement": "CRS reports that in Oregon v. Mitchell the Court held that Congress was empowered to lower the age qualification in federal elections but voided that part of the 1970 amendments in all other elections, and that, facing two sets of registration books and the expense of separate election systems, many states were receptive to an amendment setting 18 for all elections.",
+  "claim": "data",
+  "figures": [
+   "1970",
+   "18"
+  ],
+  "source": "SRC-5443",
+  "anchor": [
+   "decision in the 1970 case Oregon v. Mitchell, the Supreme Court held that Congress was empowered to",
+   "lower the age qualification in federal elections, but voided the application of Title III of the Act in all",
+   "maintain two sets of registration books and incur the expense of running separate election systems for",
+   "constitutional amendment to establish a minimum age qualification of 18 for all elections."
+  ],
+  "grade": "C",
+  "fact_date": "2025-04",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "CRS LSB11288, April 23, 2025 (nonpartisan): the independent account of Mitchell's result and of the dual-rolls problem Espen describes (DEC-2026-11-18-17). It states the result without the Inter Tribal Council caveat (EV-DEM-402).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/memos/1-voting-floor.md"
+  ],
+  "locator": "LSB11288, p. 2"
+ },
+ {
+  "id": "EV-DEM-404",
+  "statement": "CRS reports that Congress submitted the Twenty-sixth Amendment to the states on March 23, 1971, that it was ratified by three-fourths of the states on July 1, 1971, and that the House debates included the impracticality and expense of maintaining a dual-age voting system.",
+  "claim": "data",
+  "figures": [
+   "23",
+   "1971",
+   "1"
+  ],
+  "source": "SRC-5444",
+  "anchor": [
+   "Congress submitted the proposed Twenty-Sixth Amendment to the states for potential ratification on",
+   "March 23, 1971.",
+   "ratification by the necessary three-fourths of the states on July 1, 1971.",
+   "concerns about the impracticality and expense of",
+   "maintaining a dual-age voting system."
+  ],
+  "grade": "C",
+  "fact_date": "1971-07",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "CRS LSB11290, April 23, 2025 (nonpartisan). About six months from Mitchell (December 21, 1970) to ratification. The register holds no dollar figure for the dual rolls' cost; the CRS text says only that the expense was argued.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/memos/1-voting-floor.md"
+  ],
+  "locator": "LSB11290, pp. 1-2"
+ },
+ {
+  "id": "EV-DEM-405",
+  "statement": "The Alaska Statehood Act (1958) entitled the new state to one Representative until the next reapportionment took effect, in addition to the House's membership as then prescribed by law, and said the temporary increase changes neither the permanent membership nor the basis of apportionment.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5441",
+  "anchor": [
+   "shall be entitled to one Representative until the taking effect of the",
+   "to the membership of the House of Representatives as now prescribed",
+   "shall not operate to either increase or decrease the permanent membership of the House of Representatives as prescribed in the Act",
+   "affect the basis of apportionment established by the Act of November"
+  ],
+  "grade": "A",
+  "fact_date": "1958-07",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, Pub. L. 85-508, sec. 9. With EV-DEM-406, the precedent for DEM-5.01's temporary seats: the House went to 437 until the 1960 census's apportionment (EV-DEM-074, EV-DEM-407).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/memos/13-long-run-representation.md"
+  ],
+  "locator": "Pub. L. 85-508, sec. 9, 72 Stat. 339"
+ },
+ {
+  "id": "EV-DEM-406",
+  "statement": "The Hawaii Statehood Act (1959) entitled the new state to one Representative until the next reapportionment took effect, in addition to the House's membership as then prescribed by law, and said the temporary increase changes neither the permanent membership nor the basis of apportionment.",
+  "claim": "data",
+  "figures": [
+   "15"
+  ],
+  "source": "SRC-5442",
+  "anchor": [
+   "shall be entitled to one Representative until the taking effect of the",
+   "to the membership of the House of Representatives as now prescribed",
+   "shall not operate to either increase or decrease the permanent membership of the House of Representatives as prescribed in the Act of",
+   "the basis of apportionment established by the Act of November 15,"
+  ],
+  "grade": "A",
+  "fact_date": "1959-03",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, Pub. L. 86-3, sec. 8. Hawaii's seat was set by statute, not by a population estimate: one seat, though the 1960 census then gave Hawaii two (judgment from the CRS table, not anchored here).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/memos/13-long-run-representation.md"
+  ],
+  "locator": "Pub. L. 86-3, sec. 8, 73 Stat. 4"
+ },
+ {
+  "id": "EV-DEM-407",
+  "statement": "CRS reports that the 1911 apportionment act set the House at 433 but added one seat each for New Mexico and Arizona if they became states before the next apportionment, which they did, and that the 1960 apportionment was the first to include Alaska and Hawaii, which became states in 1959.",
+  "claim": "data",
+  "figures": [
+   "433",
+   "1911",
+   "1960",
+   "1959"
+  ],
+  "source": "SRC-5152",
+  "anchor": [
+   "The 1910 apportionment act (P.L. 62-5, August 8, 1911, 37 Stat. 13, Ch. 5) set the House size at 433, but provided for the addition of one seat each to New Mexico and Arizona, if they became states before the next apportionment, which they did.",
+   "The 1960 apportionment was the first to include Hawaii and Alaska, which became states in 1959."
+  ],
+  "grade": "C",
+  "fact_date": "2026-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "CRS R45951 (nonpartisan). Two earlier admissions carried seats added for the new state until the next census, as Espen says past admissions did (DEC-2026-11-18-18).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/memos/13-long-run-representation.md"
+  ],
+  "locator": "R45951, notes to Table 1 and n. on the 1910 act"
+ },
+ {
+  "id": "EV-DEM-408",
+  "statement": "The Census Bureau estimates Puerto Rico's resident population at 3184835 and the District of Columbia's at 693645 on July 1, 2025.",
+  "claim": "data",
+  "figures": [
+   "3184835",
+   "693645"
+  ],
+  "source": "SRC-3300",
+  "anchor": [
+   "April 1, 2020 to July 1, 2025 (NST-EST2025-POP)",
+   ".Puerto Rico",
+   "row 62 |  = 3184835",
+   ".District of Columbia",
+   "row 18 |  = 693645"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Vintage 2025 estimates, last column (July 1, 2025). On the 2020 apportionment's average district of 761,169 (EV-DEM-075), about 4.2 and 0.9 districts: four seats and one under DEM-5.01's temporary-seat rule (project arithmetic).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/memos/13-long-run-representation.md"
+  ],
+  "locator": "NST-EST2025-POP, rows 18 and 62, July 1, 2025 column"
+ },
+ {
+  "id": "EV-DEM-409",
+  "statement": "Under the Ethics in Government Act, an officer or employee of Congress who must file public financial disclosure is one who for at least 60 days occupies a position paid at or above 120 percent of the minimum rate of basic pay for GS-15, or a principal assistant designated by a Member with no such employee.",
+  "claim": "data",
+  "figures": [
+   "60",
+   "120"
+  ],
+  "source": "SRC-5445",
+  "anchor": [
+   "each officer or employee of the legislative branch (except any officer or employee of the Government Accountability Office) who, for at least 60 days, occupies a position for which the rate of basic pay is equal to or greater than 120 percent of the minimum rate of basic pay payable for GS–15 of the General Schedule;",
+   "at least one principal assistant designated for purposes of this paragraph by each Member"
+  ],
+  "grade": "A",
+  "fact_date": "2022-12",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, 5 U.S.C. 13101(13). The existing line that INT-1.01 uses to define senior congressional staff for the stock ban (DEC-2026-11-18-16): the same people already file public reports, so the ban adds no new filing.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/memos/6-ethics-stock-ban.md"
+  ],
+  "locator": "5 U.S.C. 13101(13)"
+ },
+ {
+  "id": "EV-DEM-410",
+  "statement": "Verified Voting reported in August 2024 that Louisiana uses paperless pushbutton DRE voting machines statewide on Election Day and paperless touchscreen DREs statewide for early voting, and that implementing its audit law, HB 924, depends on acquiring equipment that produces a voter-verified paper record, which has been delayed.",
+  "claim": "data",
+  "figures": [
+   "924"
+  ],
+  "source": "SRC-5446",
+  "anchor": [
+   "Louisiana uses paperless pushbutton direct recording electronic (DRE) voting machines statewide on Election Day",
+   "and paperless touchscreen DREs statewide for early voting.",
+   "the implementation of HB 924 is dependent upon the state's acquisition of new voting equipment",
+   "capable of producing a voter-verified paper record, which has been delayed"
+  ],
+  "grade": "C",
+  "fact_date": "2024-08",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Verified Voting (nonpartisan advocate for verifiable elections; page updated August 16, 2024). The one case in the register of a system the floor needs that cannot be bought and certified in months: the evidence for D3's one pushback (DEM-1.11). Louisiana's procurement has restarted since 2018 (press accounts, not entered).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/5-delivery.md"
+  ],
+  "locator": "Audit Law Database, Louisiana"
+ },
+ {
+  "id": "EV-DEM-411",
+  "statement": "Under the National Voter Registration Act the Attorney General may sue in district court for declaratory or injunctive relief to carry out the Act, and in a civil action under its enforcement section the court may award a prevailing party other than the United States reasonable attorney fees, litigation expenses and costs.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5405",
+  "anchor": [
+   "The Attorney General may bring a civil action in an appropriate district court for such declaratory or injunctive relief as is necessary to carry out this chapter.",
+   "In a civil action under this section, the court may allow the prevailing party (other than the United States) reasonable attorney fees, including litigation expenses, and costs."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, 52 U.S.C. 20510(a) and (c). With EV-DEM-351 (the notice periods), the model DEM-1.13 copies for the floor's enforcement, explained in plain terms for D2 (DEC-2026-11-18-12).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/5-delivery.md",
+   "dossiers/foundations/democratic-renewal/9-public-case.md"
+  ],
+  "locator": "52 U.S.C. 20510(a), (c)"
  }
 ]
