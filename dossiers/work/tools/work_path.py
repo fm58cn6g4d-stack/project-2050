@@ -8,6 +8,11 @@ Run:  python3 dossiers/work/tools/work_path.py            (tables in Markdown)
       python3 dossiers/work/tools/work_path.py --check    (coverage and sum checks)
       python3 dossiers/work/tools/work_path.py --booking-scenario [--apply <copy root>]
                                                           (section 7 part 1C's model rows)
+      python3 dossiers/work/tools/work_path.py --ui-options
+                                  (the UI standard's options for Espen, 6-cost.md)
+Revised in the milestone review's fix step 1: the UI trust-fund line is derived from
+LAB-11.01's standard (ui_factors), wage insurance from its chain (wi_steady, wi_ramp),
+and the AmeriCorps grantees' match is reported as a non-federal line.
 
 Conventions (6-cost.md, "Counting rules"):
   * nominal $ billion, federal cost against the January 2029 law, a cost positive;
@@ -17,8 +22,8 @@ Conventions (6-cost.md, "Counting rules"):
     not probability intervals, and the lines are not independent;
   * each line carries a `basis` (where it sits): general-fund spending, a revenue effect,
     the indirect effect of the wage floor (CBO's net of spending and revenue), the UI trust
-    funds, Social Security (off budget), agency capacity (CAP-7, democratic renewal's
-    booked lines), and a `kind`: firm, contingent (zero unless an event or a gate occurs)
+    funds, Social Security (off budget), non-federal money (`nonfed`, reported only),
+    agency capacity (CAP-7, democratic renewal's booked lines), and a `kind`: firm, contingent (zero unless an event or a gate occurs)
     or provisional (drafted on the recommendation, for Espen).
 Growth and anchors are labeled judgment (DEC-2026-11-10-07); each line's basis is in its
 comment and in 6-cost.md.
@@ -116,39 +121,114 @@ line("outreach", "Wage and safety outreach grants", ["LAB-7.05"], "gf_disc", "fi
      _outreach, scale(_outreach, 0.5), scale(_outreach, 2.0), "Annual appropriations",
      "Section 4's working assumption")
 
-# 6. Unemployment insurance, the trust funds' side (LAB-11.01-11.03, 11.07): regular
-# benefits up 40-60% in an ordinary year, $15-25B at FY2025 levels [EV-WRK-413], from
-# benefit weeks beginning January 1, 2031; grown 4% a year from FY2025.
+# 6. Unemployment insurance, the trust funds' side (LAB-11.01-11.03, 11.07), derived from
+# LAB-11.01's standard (milestone review O-1). Regular state benefits today are about
+# $38B a year at FY2025 levels: OMB's $41.8B for subfunction 603 [EV-WRK-413] less about
+# $3-4B of state administration [EV-WRK-309] and federal workers' and veterans' benefits
+# that the subfunction also carries (judgment for the second part); DOL's third quarter of
+# 2026, $9.2B, a seasonally light quarter, is consistent [EV-WRK-451]. The standard
+# multiplies them by four factors (bounds in brackets, all judgment unless tagged):
+#  (1) replacement: the weekly benefit becomes 75% of high-quarter weekly pay, capped at
+#      two-thirds of the state average weekly wage (SAWW). Recipients' benefits replace
+#      43% of their wages today [EV-WRK-302]; at a $491 average weekly benefit
+#      [EV-WRK-451] that puts their wage near 0.72 of SAWW ($1,142 against about $1,550-
+#      1,640 [EV-WRK-453]). With recipients' wages lognormal around that mean (log-sd 0.5
+#      [0.4-0.6]) and high-quarter pay 1.05 times average weekly pay [1.0-1.15], the
+#      average replacement becomes about 68% [63-75%], about 1.58 times today's;
+#  (2) more claimants, from part-time coverage, the $1,000 / $1,500 test, the latest
+#      quarter, ABC coverage and compelling-reason quits: first payments +20% [10-25%];
+#      the 2009 modernization incentives moved them 6-10% at most [EV-WRK-377]. New
+#      claimants earn less, so each draws about 70% [60-80%] of the average benefit;
+#  (3) the 26-week floor in the 16 states that pay fewer weeks [EV-SEC-048], about a tenth
+#      of today's weeks: weeks +4% [3-6%];
+#  (4) longer claims as benefits rise: a duration elasticity of 0.25 [0.1-0.38], between
+#      the pandemic-era 0.06-0.22 [EV-WRK-370] and the pre-pandemic U.S. median of 0.38
+#      [EV-WRK-368].
+# Weekly recipients rise about 1.4 times: recipiency from 29% toward 40%, memo 7's figure.
+# Benefits rise about 2.1 times: about +$42B a year at FY2025 levels, from benefit weeks
+# beginning January 1, 2031; grown 4% a year (ui_factors() prints the factors).
+UI_BASE_FY2025 = 38.0
+
+
+def _ui_replacement(rate=0.75, cap=2 / 3, mean=0.72, sigma=0.5, hq=1.05):
+    """Average replacement of recipients' wages under min(rate x high-quarter pay, cap x SAWW)."""
+    from math import exp, log
+    from statistics import NormalDist
+    nd = NormalDist()
+    a = rate * hq
+    mu = log(mean) - sigma ** 2 / 2
+    t = (log(cap / a) - mu) / sigma
+    return (a * exp(mu + sigma ** 2 / 2) * nd.cdf(t - sigma) + cap * (1 - nd.cdf(t))) / mean
+
+
+UI_CASES = {  # replacement inputs; more claimants and their benefit weight; floor; elasticity
+    "central": dict(sigma=0.5, hq=1.05, claims=0.20, weight=0.70, floor=0.04, elast=0.25),
+    "low": dict(sigma=0.6, hq=1.0, claims=0.10, weight=0.60, floor=0.03, elast=0.10),
+    "high": dict(sigma=0.4, hq=1.15, claims=0.25, weight=0.80, floor=0.06, elast=0.38),
+}
+
+
+def ui_factors(case="central", rate=0.75):
+    """(replacement, its ratio to today's 43%, benefit multiplier, weekly-recipient multiplier)."""
+    from math import exp, log
+    c = UI_CASES[case]
+    rep = _ui_replacement(rate, sigma=c["sigma"], hq=c["hq"])
+    r = rep / 0.43
+    dur = (1 + c["floor"]) * exp(c["elast"] * log(r))
+    return rep, r, r * (1 + c["claims"] * c["weight"]) * dur, (1 + c["claims"]) * dur
+
+
+def ui_increase(case="central", rate=0.75):
+    """Added regular benefits a year at FY2025 levels, $B."""
+    return UI_BASE_FY2025 * (ui_factors(case, rate)[2] - 1)
+
+
 def _tf(level):
     return cy_to_fy(grow(level, 2025, UI_G, 2031))
 
 
+_UI = {w: ui_increase(w) for w in ("central", "low", "high")}
+_R = {w: ui_factors(w)[1] for w in ("central", "low", "high")}
 line("ui_tf", "UI regular benefits from the state trust funds (employer-financed)",
      ["LAB-11.01", "LAB-11.02", "LAB-11.03", "LAB-11.07"], "trust", "firm",
-     _tf(20.0), _tf(15.0), _tf(25.0), "R1 (conditions on the FUTA credit)",
+     _tf(_UI["central"]), _tf(_UI["low"]), _tf(_UI["high"]),
+     "R1 (conditions on the FUTA credit)",
      "Matched by employers' state UI taxes over the cycle")
 line("ui_tax", "Employers' state UI taxes on the larger base (receipts, matching the benefits)",
-     ["LAB-11.05"], "trust", "firm", scale(_tf(20.0), -1), scale(_tf(25.0), -1),
-     scale(_tf(15.0), -1), "R1", "A revenue effect inside the trust funds; sign negative")
+     ["LAB-11.05"], "trust", "firm", scale(_tf(_UI["central"]), -1),
+     scale(_tf(_UI["high"]), -1), scale(_tf(_UI["low"]), -1), "R1",
+     "Inside the trust funds; sign negative. The cycle average: in any one year states "
+     "build or draw down reserves, so the two lines match over the cycle, not each year")
 
 # 7. Extended Benefits at 100% federal with the new triggers (LAB-11.04), on the budget
 # model's basis (no recession in the projection): the states whose own three-month rate
 # sits near 5.5% in ordinary years trigger on part of the time (judgment). About $3.0B in
 # CY2031 (range $1.0-6.0B), growing 4%: OMB scored the FY2017 budget's Extended Benefits
 # reform (fully federal, new triggers) at $36.7B over 2017-26 on a path with no
-# recession [EV-WRK-438], about $3.7B a year.
-_eb = cy_to_fy(grow(3.0, 2031, UI_G, 2031))
+# recession [EV-WRK-438], about $3.7B a year. That $3.0B is at today's weekly benefits;
+# each Extended Benefits week pays the regular weekly amount, so the line is scaled by the
+# standard's replacement factor (about 1.58, range 1.46-1.75; line 6). The number of
+# weeks is held (judgment: more claimants and the 26-week floor roughly offset in who
+# reaches Extended Benefits).
+_eb0 = cy_to_fy(grow(3.0, 2031, UI_G, 2031))
+_eb = scale(_eb0, _R["central"])
 line("eb", "Extended Benefits, federal share, ordinary years", ["LAB-11.04"], "gf", "firm",
-     _eb, scale(_eb, 1.0 / 3.0), scale(_eb, 2.0), "R1",
+     _eb, scale(_eb0, _R["low"] / 3.0), scale(_eb0, 2.0 * _R["high"]), "R1",
      "No recession, as in CBO's projection; a downturn is the contingent line")
+# A moderate two-year downturn: about two million exhaustees a year at about 30 weeks, at
+# about $1,000 a week by the late 2030s on the standard's benefit levels (project
+# arithmetic: $491 in 2026 [EV-WRK-451] times about 1.58, grown with wages): about $60B a
+# year, $120B over the downturn, more in a deeper one (judgment).
 line("eb_recession", "Extended Benefits in one moderate two-year downturn (contingent)",
      ["LAB-11.04"], "gf", "contingent", [0.0] * 11, [0.0] * 11,
-     [0.0] * 5 + [0.0, 0.0, 50.0, 50.0, 0.0, 0.0], "R1",
-     "Zero in the projection; up to about $100B if a downturn falls in the window")
+     [0.0] * 5 + [0.0, 0.0, 60.0, 60.0, 0.0, 0.0], "R1",
+     "Zero in the projection; up to about $120B if a downturn falls in the window")
 
 # 8. State UI administration (LAB-11.06, 11.08): the floor restores about $0.38B a year
 # above FY2026's $2.76B [EV-WRK-309] [EV-WRK-308], indexed; plus the larger program's
 # workload above the floor, about $0.4B a year from 2031 (range $0.2-0.8B; judgment).
+# Workload follows claims and weeks, not the benefit's size: weekly recipients rise about
+# 1.4 times on line 6's factors (1.2-1.6), the 40% this line was sized on, so it stands.
 _admin_floor = [0.38 * (1 + PRICE_G) ** (y - 2026) for y in YEARS]
 _admin_work = [0.0] + cy_to_fy(grow(0.4, 2031, UI_G, 2031))[1:]
 _admin = [a + b for a, b in zip(_admin_floor, _admin_work)]
@@ -171,13 +251,56 @@ line("hours", "Hours in state wage records, one-time grant", ["LAB-18.06"], "gf"
      [0.0, 0.1, 0.2, 0.1] + [0.0] * 7, "R1", "Section 5's $0.2-0.5B, less occupation's part")
 
 # 11. Wage insurance benefits (LAB-18.01-18.05, 18.07): separations from January 1, 2031;
-# payments start on reemployment within 12 months and run up to two years. Steady state:
-# about 1.1M long-tenured displaced a year [EV-WRK-315], 88% under the pay cap, about 60%
-# reemployed within a year, about half at a lower hourly wage [EV-WRK-317], take-up about
-# 60% with the automatic offer -> about 0.17M new recipients a year, about 1.6 years each,
-# about $6,000-6,500 a year in 2033 -> about $2.4B in FY2033 (judgment). The $10,000 cap
-# is fixed until 2035, so the path grows about 3% a year.
-_wi = [0.0, 0.2, 1.4, 2.4] + [2.4 * 1.03 ** (y - 2033) for y in range(2034, 2041)]
+# payments start on reemployment within 12 months and run up to two years. The chain
+# (milestone review O-2; each step judgment unless tagged):
+#   about 1.1M long-tenured workers displaced a year [EV-WRK-315] (layoffs only: plant
+#   closings, slack work, abolished positions);
+#   x 1.15 for long-tenured discharges not for misconduct, which LAB-18.03 makes eligible
+#   and the displacement survey does not count (range 1.05-1.30: no register entry counts
+#   them; misconduct is the narrow willful standard [EV-WRK-416]);
+#   x 0.88 under the pay cap; x 0.6 reemployed within a year (66.1% by the survey date
+#   [EV-WRK-315]); x 0.5 paid less [EV-WRK-317]; x 0.6 take-up with the automatic offer
+#   -> about 0.20M new recipients a year; x 1.6 years each -> about 0.32M on the rolls;
+#   x about $6,250 a year in 2033 ($6,000-6,500) -> about $2.0B a year in steady state.
+# The ramp is built from the cohorts (wi_ramp()). The path grows about 3% a year: wages
+# (WAGE_G) plus the labor force (0.5%), less about 1% as more payments reach the $10,000
+# cap, which is fixed until the commission's 2035 report (LAB-18.02); indexing it then
+# would raise growth toward 4% (not assumed).
+WI_CHAIN = dict(displaced=1.1, discharge=1.15, under_cap=0.88, reemployed=0.6, lower=0.5,
+                takeup=0.6, years=1.6, pay_2033=6.25)
+WI_G = WAGE_G + 0.005 - 0.01
+
+
+def wi_steady(chain=WI_CHAIN):
+    """(new recipients a year, on the rolls, $B a year at 2033 payment levels)."""
+    c = chain
+    new = c["displaced"] * c["discharge"] * c["under_cap"] * c["reemployed"] * c["lower"] \
+        * c["takeup"]
+    return new, new * c["years"], new * c["years"] * c["pay_2033"]
+
+
+def wi_ramp():
+    """Share of the steady-state rolls paid in each FY2030-40, from monthly cohorts:
+    separations from January 2031, reemployment spread evenly over 12 months, payments
+    lasting 1.2 to 2.0 years (1.6 on average)."""
+    m0 = 2031 * 12  # January 2031, in months
+    durs = [14.4 + 9.6 * (k + 0.5) / 8 for k in range(8)]  # 1.2-2.0 years, in months
+    flow = {}
+    for m in range(2029 * 12, 2041 * 12):
+        on = 0.0
+        for s in range(m0, m + 1):          # separation month
+            for u in range(12):             # months to reemployment
+                start = s + u + 1
+                on += sum(1.0 for d in durs if start <= m < start + d) / len(durs) / 12
+        flow[m] = on / (WI_CHAIN["years"] * 12)   # share of steady-state rolls
+    out = []
+    for y in YEARS:  # FY y: October y-1 to September y
+        out.append(sum(flow[m] for m in range((y - 1) * 12 + 9, y * 12 + 9)) / 12)
+    return [v / out[-1] for v in out]  # whole months round durations up; steady state = 1
+
+
+_wi_ss = wi_steady()[2]
+_wi = [s * _wi_ss * (1 + WI_G) ** (y - 2033) for s, y in zip(wi_ramp(), YEARS)]
 line("wi", "Wage insurance benefits", ["LAB-18.01", "LAB-18.02", "LAB-18.04", "LAB-18.05",
                                        "LAB-18.07"],
      "gf", "firm", _wi, scale(_wi, 0.5), scale(_wi, 1.6), "R1",
@@ -245,7 +368,35 @@ line("service", "National service: 150,000 more civic positions", ["LAB-9.01", "
      "Authorization (appropriated) or R1's fallback",
      "Memo 9 C at the decided scale; the ramp is section 4's")
 
-# 15. The service-to-apprenticeship tranche (LAB-9.03): opens only when the gate is met,
+# 14b. The grantees' match (LAB-9.01's working assumption; milestone review O-5). The
+# federal $25,200 is a maximum per member service year [EV-WRK-398]; grantees pay the
+# rest of program costs, an overall share of 24% in grant years 1-3, 26%, 28%, then 30%
+# from year 10 [EV-WRK-454]. With the federal share at the maximum, the match per position
+# is the federal grant times s / (1 - s). Each year's 30,000 new positions are counted as
+# new grants that climb the schedule (central); all at 30% (high); a fifth less where
+# rural and distressed communities use the waiver (low). Not federal cost: reported beside
+# LAB-9, never added. Federalizing it for the new positions would add the same amount.
+def _match_share(grant_year):
+    return 0.24 if grant_year <= 3 else 0.26 if grant_year <= 6 else 0.28 if grant_year <= 9 \
+        else 0.30
+
+
+def _match(y, share=None):
+    grant = 25.2 * (1 + PRICE_G) ** (y - 2026)
+    total = 0.0
+    for start in range(2030, min(y, 2034) + 1):  # 30,000 positions added each year
+        s = share if share is not None else _match_share(y - start + 1)
+        total += 30 * grant * s / (1 - s)
+    return total / 1000
+
+
+_svc_match = [_match(y) for y in YEARS]
+line("service_match", "National service: the grantees' match (non-federal, reported only)",
+     ["LAB-9.01"], "nonfed", "firm", _svc_match, scale(_svc_match, 0.8),
+     [_match(y, 0.30) for y in YEARS], "Grantees, states and host organizations",
+     "45 CFR 2521.60's schedule; not a federal cost")
+
+# 15.The service-to-apprenticeship tranche (LAB-9.03): opens only when the gate is met,
 # 2035 on the working ramp; 25,000 in FY2035 and 50,000 from FY2036 at about $35,000-
 # 45,000 a position (2026 dollars; the note's part e).
 def _tranche_per(y, per=40.0):
@@ -274,11 +425,12 @@ line("penalties", "Civil penalties under the labor act and wage law (receipts)",
 # about 5% of the tax increase (range 2-10%) is a general-fund loss. The payroll part,
 # about 8%, falls on Social Security (line 18).
 line("ui_offset", "Income-tax offset on employers' larger UI taxes, net of tax on benefits",
-     ["LAB-11.05"], "revenue", "firm", scale(_tf(20.0), 0.05), scale(_tf(15.0), 0.02),
-     scale(_tf(25.0), 0.10), "R1", "A revenue loss to the general fund")
+     ["LAB-11.05"], "revenue", "firm", scale(_tf(_UI["central"]), 0.05),
+     scale(_tf(_UI["low"]), 0.02), scale(_tf(_UI["high"]), 0.10), "R1",
+     "A revenue loss to the general fund")
 line("ui_offset_ss", "Payroll-tax offset on employers' larger UI taxes (Social Security)",
-     ["LAB-11.05"], "ss", "firm", scale(_tf(20.0), 0.08), scale(_tf(15.0), 0.05),
-     scale(_tf(25.0), 0.10), "R1", "Off budget")
+     ["LAB-11.05"], "ss", "firm", scale(_tf(_UI["central"]), 0.08),
+     scale(_tf(_UI["low"]), 0.05), scale(_tf(_UI["high"]), 0.10), "R1", "Off budget")
 
 # 18. Income tax on wage insurance, which is taxable as wages (INC-5.01): about 10% of
 # payments (8-12%).
@@ -438,7 +590,64 @@ def check():
         for i in range(11):
             lo, hi = sorted([ln["low"][i], ln["high"][i]])
             assert lo - 1e-9 <= ln["central"][i] <= hi + 1e-9, (ln["id"], YEARS[i])
+    # The derivations reproduce the figures section 6 quotes (milestone review O-1, O-2).
+    assert abs(ui_increase() - 41.7) < 0.05 and abs(_R["central"] - 1.58) < 0.005
+    new, rolls, ss = wi_steady()
+    assert abs(new - 0.20) < 0.005 and abs(rolls - 0.32) < 0.005 and abs(ss - 2.0) < 0.01
+    assert abs(_wi[4] / (ss * (1 + WI_G)) - 1) < 1e-3  # FY2034: the first full year
+    assert all(abs(a + b) < 1e-9 for a, b in zip(by_id("ui_tf")["central"],
+                                                  by_id("ui_tax")["central"]))
     print(f"OK: {len(ids)} provisions, {len(LINES)} lines, {len(NO_LINE)} with no line.")
+
+
+def by_id(lid):
+    return next(ln for ln in LINES if ln["id"] == lid)
+
+
+# ---------------------------------------------------------------------------------
+# Question for Espen (6-cost.md, "Questions for Espen", item 1): the 75% replacement
+# rate kept from 2031, phased in, or held lower. Each option on the same basis as the
+# lines above: the trust funds (employer-financed) and the general fund (Extended
+# Benefits in ordinary years, scaled by the option's replacement; the 5% income-tax
+# offset), with Social Security's 8% payroll offset off budget.
+# Run:  python3 dossiers/work/tools/work_path.py --ui-options
+# ---------------------------------------------------------------------------------
+UI_OPTIONS = {
+    "A. 75% from 2031, as decided": {2031: 0.75},
+    "B. 60% in 2031, 65% in 2032, 70% in 2033, 75% from 2034": {2031: 0.60, 2032: 0.65,
+                                                               2033: 0.70, 2034: 0.75},
+    "C. 50% in 2031, rising about 3 points a year to 75% in 2039": {
+        2031 + k: round(0.50 + 0.25 * k / 8, 4) for k in range(9)},
+    "D. 60% from 2031, permanently": {2031: 0.60},
+}
+
+
+def ui_option(rates, case="central"):
+    """(trust-fund benefits, general fund, Social Security) by FY2030-40, $B."""
+    def rate(cy):
+        return rates[max(y for y in rates if y <= cy)] if cy >= min(rates) else None
+    tf_cy, r_cy = {}, {}
+    for cy in range(2031, 2041):
+        tf_cy[cy] = ui_increase(case, rate(cy)) * (1 + UI_G) ** (cy - 2025)
+        r_cy[cy] = ui_factors(case, rate(cy))[1]
+    tf = cy_to_fy(tf_cy)
+    eb3 = {cy: 3.0 * (1 + UI_G) ** (cy - 2031) * r_cy[cy] for cy in range(2031, 2041)}
+    gf = [a + 0.05 * b for a, b in zip(cy_to_fy(eb3), tf)]
+    return tf, gf, scale(tf, 0.08)
+
+
+def print_ui_options():
+    print("| Option | Trust funds FY2031-39 | Trust funds FY2040 | General fund FY2030-39 "
+          "| General fund FY2040 | Social Security FY2030-39 | Permanent, FY2025 levels |")
+    print("| --- | --- | --- | --- | --- | --- | --- |")
+    for name, rates in UI_OPTIONS.items():
+        tf, gf, ss = ui_option(rates)
+        lo, hi = ui_option(rates, "low")[0], ui_option(rates, "high")[0]
+        final = rates[max(rates)]
+        print(f"| {name} | {dec(tf):.0f} ({dec(lo):.0f}-{dec(hi):.0f}) | {tf[10]:.1f} | "
+              f"{dec(gf):.1f} | {gf[10]:.1f} | {dec(ss):.1f} | "
+              f"{ui_increase('central', final):.0f} ({ui_increase('low', final):.0f}-"
+              f"{ui_increase('high', final):.0f}) |")
 
 
 # ---------------------------------------------------------------------------------
@@ -575,6 +784,9 @@ def main():
     if "--check" in sys.argv:
         check()
         return
+    if "--ui-options" in sys.argv:
+        print_ui_options()
+        return
     if "--booking-scenario" in sys.argv:
         root = None
         if "--apply" in sys.argv:
@@ -601,7 +813,8 @@ def main():
           f" with tranche {(f[10]+t[10])/PLAN_GAP_FY2040:.2%}; % GDP {f[10]/GDP_FY2040:.3%}")
     print()
     for r in booking_rows():
-        print(f"{r[0]:32s} {r[1]:.3f} / {r[2]:.3f} / {r[3]:.3f}   FY2040 {r[4]:.2f}")
+        print(f"{r[0]:32s} {r[1] + 0.0:.3f} / {r[2] + 0.0:.3f} / {r[3] + 0.0:.3f}   "
+              f"FY2040 {r[4]:.2f}")
 
 
 if __name__ == "__main__":
