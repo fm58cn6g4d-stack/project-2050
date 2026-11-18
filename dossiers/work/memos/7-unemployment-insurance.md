@@ -1,8 +1,58 @@
 # Memo 7: Unemployment insurance
 
-Role: decision memo for Espen on unemployment insurance, answering section 2's question 9. No legacy agenda row covers it: the secure floor left it to this flagship (`dossiers/work/1-problem.md`, part G), so a new row (ID LAB-11, now decided) is added to `agenda/agenda.csv` once Espen decides. Status: **decided** (`DEC-2026-11-17-10`): **B**, as recommended; the new agenda row is LAB-11. [Repriced after the milestone review (fix step 1): as specified, 75% of high-quarter pay up to two-thirds of the state's average weekly wage raises regular benefits about 2.1 times, **about +$42 billion a year at FY2025 levels (range $25-66 billion)**, not $15-25 billion, which is what a replacement rate near half gives; employers' state UI taxes about double. The general fund rises about +$0.09 trillion over FY2030-39 and +$11.5 billion in FY2040 with the tax offset (`../6-cost.md`, part 2). Whether to keep the 75% from 2031 or phase it in goes to Espen as a provisional question (`../6-cost.md`, "Questions for Espen", item 1). The decision stands; the text below is the memo as sent.] Work-search rules are point 10 in `../3-design.md`; paid leave is the secure floor's (FAM-3) and is not reopened. [Stage F answers, November 18: W8, the cost to employers, is a direction, `DEC-2026-11-18-08`: option A's formula seems reasonable, open to B's or C's phase-in, with questions on state authority, taxation of benefits and the federal share for the revision step; provisional until Espen confirms. B stands.] Sources are named in plain text; bracketed tags point to `../evidence.json`.
+Role: decision memo for Espen on unemployment insurance, answering section 2's question 9. No legacy agenda row covers it: the secure floor left it to this flagship (`dossiers/work/1-problem.md`, part G), so a new row (ID LAB-11, now decided) is added to `agenda/agenda.csv` once Espen decides. Status: **decided** (`DEC-2026-11-17-10`): **B**, as recommended; the new agenda row is LAB-11. [Repriced after the milestone review (fix step 1): as specified, 75% of high-quarter pay up to two-thirds of the state's average weekly wage raises regular benefits about 2.1 times, **about +$42 billion a year at FY2025 levels (range $25-66 billion)**, not $15-25 billion, which is what a replacement rate near half gives; employers' state UI taxes about double. The general fund rises about +$0.09 trillion over FY2030-39 and +$11.5 billion in FY2040 with the tax offset (`../6-cost.md`, part 2). Whether to keep the 75% from 2031 or phase it in goes to Espen as a provisional question (`../6-cost.md`, "Questions for Espen", item 1). The decision stands; the text below is the memo as sent.] Work-search rules are point 10 in `../3-design.md`; paid leave is the secure floor's (FAM-3) and is not reopened. [Stage F answers, November 18: W8, the cost to employers, is a direction, `DEC-2026-11-18-08`: option A's formula seems reasonable, open to B's or C's phase-in, with questions on state authority, taxation of benefits and the federal share for the revision step; provisional until Espen confirms. B stands. Revised for that answer: the part below, "Espen's November 18 questions (W8), answered", says how federal law sets the standards, that benefits are taxable, who pays, the phase-ins and how far the cap varies by state; the phase-in stays provisional.] Sources are named in plain text; bracketed tags point to `../evidence.json`.
 
 **Decision line.** Recommended: **B, federal standards for every state program, on the core of the 2025 Wyden-Bennet bill: at least 26 weeks; weekly benefits of 75% of high-quarter earnings up to a state maximum of at least two-thirds of the state's average weekly wage; coverage of part-time workers and of anyone with $1,000 in a quarter and $1,500 in the base period; the most recent quarter counted; the ABC test (memo 6); work sharing in every state; Extended Benefits paid fully by the federal government and switched on automatically when unemployment rises; identity and wage checks against records the government already holds. The trust funds are rebuilt by raising and indexing the federal taxable wage base, now $7,000 [EV-WRK-310].** Cost: on the general fund about **+$0.03-0.08 trillion over FY2030-39 and +$3-8 billion in FY2040** (the federal Extended Benefits share and administration; judgment); regular benefits rise about **$15-25 billion a year in an ordinary year**, paid from the trust funds and matched by employers' taxes over the cycle (judgment). No CBO score of such a bill exists. Evidence: quasi-experimental studies on benefit generosity, spending and the pandemic supplements; official data on reach and solvency; GAO and the Inspector General on fraud.
+
+## Espen's November 18 questions (W8), answered
+
+Espen's November 18 answer W8 (`DEC-2026-11-18-08`) found option A's formula reasonable, was open to B's or C's phase-in, favored keeping a high share of pay, and asked three questions. This part answers them; the decision (`DEC-2026-11-17-10`) stands, and the phase-in stays **provisional** until Espen confirms this revision.
+
+**1. Can federal law tell states how much to tax and pay?** Not by direct order: it works through a tax credit.
+- Employers owe a federal unemployment tax of 6% on the first $7,000 of each worker's pay. They may credit against it what they pay into their state's fund, up to 5.4%, but only if the Labor Department certifies that the state's law meets federal conditions (26 U.S.C. 3302(a)(1), (b), (c)(1); 3304(a)) [EV-WRK-476] [EV-WRK-477]. In a conforming state the employer pays a net 0.6% federally [EV-WRK-310].
+- So a state may set any law it likes, but if its law fails a condition, its employers lose the credit and pay up to 5.4% more federal tax. No state has chosen that. This is how today's rules on who is covered and how benefits are paid already work, and the Supreme Court upheld the design in 1937 (*Steward Machine Co. v. Davis*; judgment, not in the register).
+- LAB-11.01's standards are new conditions of the same kind. LAB-11.10 adds a conformity reduction and lets Labor pay the difference through the state agency where a state refuses (`../6-cost.md`, part 2).
+
+**2. Are unemployment benefits taxed?** Yes, federally: gross income includes unemployment compensation (26 U.S.C. 85(a)) [EV-WRK-475]. The only exclusion, up to $10,200, was for 2020. Whether a state taxes them is state law, not checked here. The cost lines already count it: the general fund gets back part of the tax it loses on employers' larger UI taxes (the offset line, "net of tax on benefits", `../6-cost.md`, part 1).
+
+**3. Who pays, and how much does the federal government cover?**
+
+| Who | What they pay for | A year, at the 75% standard |
+| --- | --- | --- |
+| **Employers, through state UI taxes** | Every regular benefit week, from the state's account in the trust fund | About **$42 billion more** at FY2025 levels (range $25-66 billion), roughly doubling today's state UI taxes: about $275 more a covered worker, about two-thirds of a percent of pay in all (`../6-cost.md`, part 2) |
+| **Employers, through the federal tax** | Administration, loans and the federal accounts | About $42 a worker today, about $50 at the $25,000 base: almost no change (LAB-11.05) |
+| **The federal general fund** | Extended Benefits at 100% (LAB-11.04), state administration (LAB-11.08), the conformity grant, and income tax lost because employers deduct larger UI taxes, net of tax on benefits | About **$11.5 billion in FY2040** in all ($0.09 trillion over FY2030-39). The part the 75% rate adds, against the replacement near half memo 7 first assumed, is about **$4 billion a year by FY2040** |
+| **Social Security** (off budget) | Payroll tax lost on the same deduction | About $6 billion in FY2040 |
+| **Workers** | Income tax on their benefits (above) | — |
+
+The federal government pays **no regular benefits**. The regular benefit is paid by employers in every state; the general fund pays for recessions, administration and the tax offset.
+
+**Phase-in, B or C** (each priced in `../tools/work_path.py --ui-options`; `../6-cost.md`, "Questions for Espen", item 1):
+
+| Path | 2031 | 2032 | 2033 | 2034 | 2035-38 | 2039 on | Employers, FY2031-39 | General fund, FY2030-39 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A. 75% from 2031 (drafted) | 75% | 75% | 75% | 75% | 75% | 75% | $541 billion | $75.6 billion |
+| B. With the wage base | 60% | 65% | 70% | 75% | 75% | 75% | $506 billion | $72.5 billion |
+| C. Slow | 50% | 53% | 56% | 59% | 63-72% | 75% | $394 billion | $62.5 billion |
+
+Every path ends at 75% of pay, the high share Espen favors. B raises the rate as the taxable wage base rises (LAB-11.05: $13,000 in 2031, $19,000 in 2032, $25,000 in 2033), so each year's larger benefits arrive with each year's larger base. It saves employers about $35 billion over nine years and nothing after 2034, at the cost of states programming the formula four times. C saves about $150 billion but reaches the standard only in 2039. **Recommended: A, with B as a reasonable choice** if Espen prefers a gentler start for the weak trust funds (only 18 states met the solvency standard at the start of 2026 [EV-WRK-304]). The drafted lines use A.
+
+**How far the cap varies by state.** The weekly benefit is 75% of high-quarter weekly pay up to two-thirds of the state's average weekly wage. Two-thirds of BLS's 2025 average weekly wage (project arithmetic, `../tools/ui_cap_by_state.py`, on [EV-WRK-478]; a state's legal figure follows its own law and lags a year or more):
+
+| State | Average weekly wage, 2025 | Cap | Weekly benefit at $17 an hour | At $30 an hour | At $45 an hour |
+| --- | --- | --- | --- | --- | --- |
+| Puerto Rico | $700 | $467 | $467 | $467 | $467 |
+| Mississippi | $1,024 | $683 | $510 | $683 | $683 |
+| Ohio | $1,313 | $875 | $510 | $875 | $875 |
+| United States | $1,514 | $1,009 | $510 | $900 | $1,009 |
+| Maryland | $1,568 | $1,045 | $510 | $900 | $1,045 |
+| Massachusetts | $1,925 | $1,283 | $510 | $900 | $1,283 |
+| District of Columbia | $2,479 | $1,653 | $510 | $900 | $1,350 |
+
+- Across the states and D.C., the cap runs from about $683 (Mississippi) to $1,653 (D.C.); the middle state's is about $903. Mississippi's is about two-thirds of Maryland's.
+- **For low-wage workers the cap does not bind:** a full-time worker at $17 an hour gets $510, 75% of pay, in every state but Puerto Rico. It binds for workers above about 0.89 of the state's average wage: a $30-an-hour worker gets 75% of pay in Maryland and about 57% in Mississippi.
+- Mississippi's maximum today is $235 [EV-WRK-300]; the standard nearly triples it. So the larger lever Espen names works both ways: the cap tracks local wages, which keeps it near the same share of local pay everywhere, but leaves a middle-wage worker in a low-wage state with a lower share of pay.
+- *If Espen wants more,* a national floor under the cap (for example, the higher of two-thirds of the state's average or half the national average, about $757 in 2025) would lift it only in Puerto Rico, Mississippi and the Virgin Islands, at a small cost to employers there (not priced). It is not drafted; it is a question for Espen (`../6-cost.md`, "Questions for Espen", item 1).
 
 ## The question
 

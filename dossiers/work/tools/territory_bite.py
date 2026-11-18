@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """The wage floor's bite in the territories and in low-wage state areas, 2030-36.
 
-Role: the bite tables for LAB-4.10 (`dossiers/work/5-delivery.md`, part 5;
+Role: the bite tables for LAB-4.10, revised for Espen's November 18 answer W9
+(DEC-2026-11-18-09: the national schedule everywhere, slower where an abrupt rise is
+dangerous; slow_floor) (`dossiers/work/5-delivery.md`, part 5;
 `dossiers/work/4-specification.md`, LAB-4.10; question 2 in `3-design.md`). Status:
 draft (stage F, the milestone review's fix step 2). Project arithmetic, not a forecast.
 Run:  python3 dossiers/work/tools/territory_bite.py           (tables in Markdown)
@@ -49,7 +51,8 @@ AREAS = [  # name, median, data year
     ("Northwest Mississippi nonmetro area", 16.50, 2023),
 ]
 YEARS = list(range(2030, 2037))
-CAP = 0.75  # option B's cap: the floor in a territory at most 75% of its median
+CAP = 0.75  # the danger line: the floor at most 75% of the local median in a year
+SLOW_STEP = 1.00  # the slower path's minimum rise a year (Espen's W9, DEC-2026-11-18-09)
 
 
 def median(m0, y0, y, g=G):
@@ -76,6 +79,32 @@ def capped_floor(m0, y0, y, g=G, cap=CAP):
     return min(nat, max(c, STEPS[2030]))
 
 
+def slow_floor(m0, y0, y, g=G, cap=CAP, step=SLOW_STEP):
+    """The national schedule everywhere, slower where the bite is high (W9's draft): each
+    January the jurisdiction's rate is the national rate, unless that is above `cap` of
+    the local median published the spring before; then it is the larger of last year's
+    rate plus a rise (`step`, or from 2036 the national rate's own rise plus $0.25 if that is
+    more, so the gap always closes) and `cap` of that median (rounded down to $0.05), never above the
+    national rate. Once back on the national rate it stays there. Every jurisdiction joins; the rule names no
+    territory, so it reads the same after a territory becomes a state."""
+    rate, slowed = 7.25, False
+    for yy in range(2030, y + 1):
+        nat = national_floor(yy, g)
+        c = int(cap * median(m0, y0, yy - 1, g) * 20) / 20
+        if nat <= c or (slowed and rate >= national_floor(yy - 1, g) - 1e-9):
+            rate = nat  # on the national schedule, and once back on it, it stays
+        else:
+            rise = max(step, nat - national_floor(yy - 1, g) + 0.25) if yy > 2035 else step
+            slowed, rate = True, min(nat, max(rate + rise, c))
+    return rate
+
+
+def join_year(m0, y0, g=G, end=2060):
+    """The first year the slower path is back at the national rate (None if never slower)."""
+    below = [y for y in range(2030, end) if slow_floor(m0, y0, y, g) < national_floor(y, g) - 1e-9]
+    return max(below) + 1 if below else None
+
+
 def table(fn, label, g=G):
     rows = [f"| Area | {' | '.join(str(y) for y in YEARS)} |",
             "| --- |" + " --- |" * len(YEARS)]
@@ -95,6 +124,9 @@ def main():
         # the review's figure: $17 is near Puerto Rico's whole median in 2035
         assert 0.90 < 17 / median(12.09, 2023, 2035) < 0.95
         assert national_floor(2036) == 17.60  # LAB-4.02's "about $17.60 in 2036"
+        assert slow_floor(16.02, 2023, 2035) == 17.00  # Guam: the national schedule
+        assert slow_floor(12.09, 2023, 2035) < 17.00   # Puerto Rico: slower
+        assert slow_floor(12.09, 2023, 2045) == national_floor(2045)  # ... and joins
         print("territory_bite: checks pass")
         return
     nat = lambda m0, y0, y, g: national_floor(y, g)
@@ -112,6 +144,20 @@ def main():
         cells = [f"${capped_floor(m0, y0, y):.2f} ({100 * capped_floor(m0, y0, y) / median(m0, y0, y):.0f}%)"
                  for y in YEARS]
         print(f"| {name} | {' | '.join(cells)} |")
+    print()
+    print("**Drafted (W9): the national schedule everywhere, slower where the bite would pass 75%**\n")
+    yrs = YEARS + [2038, 2040]
+    print(f"| Area | {' | '.join(str(y) for y in yrs)} | Joins the national rate |")
+    print("| --- |" + " --- |" * (len(yrs) + 1))
+    for name, m0, y0 in AREAS[1:2] + AREAS[4:7] + AREAS[7:8]:
+        cells = [f"${slow_floor(m0, y0, y):.2f} ({100 * slow_floor(m0, y0, y) / median(m0, y0, y):.0f}%)"
+                 for y in yrs]
+        j = join_year(m0, y0)
+        print(f"| {name} | {' | '.join(cells)} | {j or 'never slower'} |")
+    print()
+    for g in (G_LO, G_HI):
+        print(f"At {g:.0%} growth: Puerto Rico joins in {join_year(12.09, 2023, g)}, "
+              f"the Northern Mariana Islands in {join_year(9.97, 2021, g)}")
     print()
     print("Option B at 3% and 4% growth, Puerto Rico, 2035:",
           ", ".join(f"{g:.0%}: ${capped_floor(12.09, 2023, 2035, g):.2f}" for g in (G_LO, G_HI)))

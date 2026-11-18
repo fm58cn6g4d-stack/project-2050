@@ -10,6 +10,8 @@ Run:  python3 dossiers/work/tools/work_path.py            (tables in Markdown)
                                                           (section 7 part 1C's model rows)
       python3 dossiers/work/tools/work_path.py --ui-options
                                   (the UI standard's options for Espen, 6-cost.md)
+      python3 dossiers/work/tools/work_path.py --credit-options
+                                  (the credit sized from the need, W7, 6-cost.md)
 Revised in the milestone review's fix step 1: the UI trust-fund line is derived from
 LAB-11.01's standard (ui_factors), wage insurance from its chain (wi_steady, wi_ramp),
 and the AmeriCorps grantees' match is reported as a non-federal line.
@@ -88,17 +90,73 @@ line("floor", "The wage floor's indirect effect on the budget (CBO's net method)
      [v * 80 / sum(_floor[:10]) for v in _floor[:10]] + [8.0],
      "Labor act", "Scaled from CBO's 2021 score; spending and revenue together")
 
-# 2. The small-business credit (LAB-5.01), bottom-up. Each step's added wage cost at
-# employers under 50 workers, for the four quarters after the step (CY, $B): step 1
-# ($9.50) about $1.0B, step 2 ($11.00) $3.5B, step 3 ($12.50) $6.0B (judgment: workers
-# below each step in the states still at $7.25, about 40% of them at small employers),
-# times 50%, 35% and 20%. Claimed on the quarterly Form 941, so CY->FY.
-_credit_cy = {2030: 0.5 * 1.0, 2031: 0.35 * 3.5, 2032: 0.20 * 6.0}
-_credit = cy_to_fy(_credit_cy)
+# 2. The small-business credit (LAB-5.01), sized from the need (Espen's November 18
+# answer W7, DEC-2026-11-18-07): what the floor costs the employers it targets, not the formula.
+# (a) The floor's whole added wage bill, all employers. Anchor: EPI's model puts $17 by
+# 2030 (Raise the Wage Act of 2025, about 58% of 2030's median) at $70.2B a year in
+# 2025 dollars, direct and spillover raises [EV-WRK-479] (an advocate's analysis; CBO's
+# 2019 $15 option is the same order [EV-WRK-029]). LAB-4.01's slower schedule bites
+# less: the bill is scaled by ((bite - 0.30) / (0.584 - 0.30)) ** p, where 0.30 is
+# about where $7.25 sits today, so the federal floor adds almost nothing below it, and
+# p = 2 (range 1.5-2.5; judgment: the count of workers below a floor and their gap both
+# grow as it rises). Nominal, growing with wages. (b) The share at employers under 50:
+# 30% (range 25-45%; judgment: such firms hold about a quarter of private jobs and more
+# of the low-wage ones; Oregon's employers under 50 hold 38% of its jobs and 45% of its
+# minimum-wage jobs [EV-WRK-497]). (c) The credit as drafted to the direction: 50% of
+# that whole added cost (since the worker's 2029 wage) in each of the three step years,
+# CY2030-32, before the $20,000 cap, which trims it about 15% (range 0-30%; judgment).
+NEED_SHARE = (0.30, 0.25, 0.45)    # central, low, high
+NEED_P = (2.0, 2.5, 1.5)
+EPI_BILL, EPI_BITE, B0 = 70.247, 17 / (24.51 * 1.035 ** 5), 0.30
+
+
+def _median(y):
+    return 24.51 * (1 + WAGE_G) ** (y - 2025)   # memo 1's national median [EV-WRK-078]
+
+
+def _floor_rate(y):
+    steps = {2030: 9.5, 2031: 11.0, 2032: 12.5, 2033: 14.0, 2034: 15.5, 2035: 17.0}
+    return steps.get(y, 17.0 * (1 + WAGE_G) ** (y - 2035)) if y >= 2030 else 7.25
+
+
+def floor_bill(y, p=2.0):
+    """The floor's added wage bill in CY y, all employers, nominal $B."""
+    bite = _floor_rate(y) / _median(y)
+    return EPI_BILL * (1 + WAGE_G) ** (y - 2025) * max(0.0, (bite - B0) / (EPI_BITE - B0)) ** p
+
+
+def small_need(y, case=0):
+    """The added wage cost at employers under 50 in CY y (case 0 central, 1 low, 2 high)."""
+    return NEED_SHARE[case] * floor_bill(y, NEED_P[case])
+
+
+CREDIT_CAP = (0.85, 0.70, 1.00)
+CREDIT_OPTIONS = {   # CY -> share; base "whole" (since 2029) or "step" (each step's increment)
+    "A. As first specified: 50%, 35%, 20% of each step's increment, three steps":
+        ({2030: 0.50, 2031: 0.35, 2032: 0.20}, "step"),
+    "B. Sized to the need in the three steps: 50% of the whole added cost, 2030-32":
+        ({2030: 0.50, 2031: 0.50, 2032: 0.50}, "whole"),
+    "C. Through all six steps, tapering: 50% in 2030-31, then 40%, 30%, 20%, 10%":
+        ({2030: 0.50, 2031: 0.50, 2032: 0.40, 2033: 0.30, 2034: 0.20, 2035: 0.10}, "whole"),
+}
+
+
+def credit_path(option, case=0):
+    shares, base = CREDIT_OPTIONS[option]
+    cy = {}
+    for y, sh in shares.items():
+        need = small_need(y, case) - (small_need(y - 1, case) if base == "step" else 0.0)
+        cy[y] = sh * need * CREDIT_CAP[case]
+    return cy_to_fy(cy)
+
+
+_CREDIT = list(CREDIT_OPTIONS)[1]
+_credit = credit_path(_CREDIT)
 line("credit", "Small-business transition credit, first three steps (revenue effect)",
-     ["LAB-5.01"], "revenue", "firm", _credit, scale(_credit, 0.5), scale(_credit, 2.5),
+     ["LAB-5.01"], "revenue", "firm", _credit, credit_path(_CREDIT, 1), credit_path(_CREDIT, 2),
      "R1 (contingent on the labor act's steps)",
-     "Tax credit; the trust funds held harmless by general-fund transfer")
+     "Sized from the need (W7); the trust funds held harmless by general-fund transfer")
+
 
 # 3. The 14(c) transition grant (LAB-4.09): $1-3B over five years, FY2030-34.
 line("14c", "14(c) transition grant to VR and developmental disability agencies", ["LAB-4.09"],
@@ -445,12 +503,38 @@ line("quits", "Wage insurance for work-connected good-cause quits (provisional)"
      ["LAB-18.03"], "gf", "provisional", scale(_wi, 0.07 * 1.1), scale(_wi, 0.03 * 0.5),
      scale(_wi, 0.12 * 1.6 * 1.1), "R1", "LAB-18.03, for Espen")
 
+# 19b. Misuse on the quit route (Espen's November 18 answer W4, DEC-2026-11-18-04): payments to
+# workers whose quit was not in fact work-connected, mainly where the worker never
+# claimed UI, so the former employer has no charge at stake and may not answer the
+# state's separation notice (LAB-18.05). Priced at 20% of the quit route (range 10-50%;
+# judgment: well above the share of UI improper payments due to separation issues in
+# ordinary years, and below the pandemic's 11-15% of all benefits [EV-WRK-378] only in
+# its low case). It is a cost on top of the eligible line, not inside it.
+line("quits_misuse", "Misuse on the quit route: payments not due (provisional)",
+     ["LAB-18.03"], "gf", "provisional", scale(LINES[-1]["central"], 0.20),
+     scale(LINES[-1]["low"], 0.10), scale(LINES[-1]["high"], 0.50), "R1",
+     "W4: the misuse Espen asked to price")
+
+# 19c. Wage insurance offered from the records (the W4 design-lens pass): once a state's
+# wage records hold hours (LAB-18.06, by January 1, 2033), the state writes to each
+# worker the records show was separated and reemployed at a lower hourly wage, and the
+# worker accepts on the portal; no application form. Take-up rises from 0.6 toward 0.7
+# (range 0.65-0.75; judgment) from CY2033: about a sixth more payments.
+_offer_cy = {y: 1.0 for y in range(2033, 2041)}
+_offer = cy_to_fy(_offer_cy)
+line("wi_offer", "Wage insurance offered from wage records from 2033 (provisional)",
+     ["LAB-18.05", "LAB-18.06"], "gf", "provisional",
+     [w * f * (0.7 / 0.6 - 1) for w, f in zip(_wi, _offer)],
+     [w * f * (0.65 / 0.6 - 1) * 0.5 for w, f in zip(_wi, _offer)],
+     [w * f * (0.75 / 0.6 - 1) * 1.6 for w, f in zip(_wi, _offer)], "R1",
+     "W4 design-lens pass: an offer from records replaces the application")
+
 # 20. Memo 10 part 1 C: occupation in wage records (its part of the one-time grant) and
 # BLS's yearly displacement report with an annual survey, about $20-50M a year.
 _bls = [0.0, 0.02, 0.03] + [0.035 * (1 + PRICE_G) ** (y - 2033) for y in range(2033, 2041)]
 _occ = [0.0, 0.05, 0.1, 0.05] + [0.0] * 7
 line("measure", "Displacement measure: occupation field and BLS's report (provisional)",
-     ["LAB-19.01", "LAB-19.02", "LAB-19.03"], "gf", "provisional",
+     ["LAB-19.01", "LAB-19.03"], "gf", "provisional",
      [a + b for a, b in zip(_bls, _occ)],
      [a * 0.6 + b * 0.5 for a, b in zip(_bls, _occ)],
      [a * 1.5 + b * 2.0 for a, b in zip(_bls, _occ)], "R1 and appropriations",
@@ -481,7 +565,7 @@ CAPACITY = [
 # Provisions with no federal budget line of their own, and why (6-cost.md, part 4).
 NO_LINE = {
     "LAB-4.05": "executive action; contractors' costs within agencies' appropriations",
-    "LAB-4.10": "territories' schedules: a mandate, no federal outlay (provisional)",
+    "LAB-4.10": "the national schedule everywhere, slower where the bite is high: a mandate, no federal outlay (provisional)",
     "LAB-1.01": "rules; the Board's workload is CAP-7's (LAB-2.05)",
     "LAB-1.02": "rules", "LAB-1.03": "rules", "LAB-1.04": "rules", "LAB-1.06": "rules",
     "LAB-1.07": "coverage test (labor act)", "LAB-1A.01": "rules (separate title)",
@@ -499,7 +583,8 @@ NO_LINE = {
     "LAB-7.08": "rule on employers", "LAB-7.09": "right",
     "LAB-12.01": "coverage; a Medicaid effect if the 2013 rule is gone by 2029 (part 3)",
     "LAB-12.02": "rule on employers", "LAB-15.01": "rule on employers",
-    "LAB-14.01": "no mandate (provisional)", "LAB-17.01": "no requirement (provisional)",
+    "LAB-14.01": "no mandate (provisional)",
+    "LAB-19.02": "deferred to the AI topic (W1, DEC-2026-11-18-01): no cost here", "LAB-17.01": "no requirement (provisional)",
     "LAB-8.05": "redirects existing WIOA money",
     "LAB-11.10": "self-financed by the reduced credit if authorized; contingent (part 2)",
 }
@@ -634,6 +719,24 @@ def ui_option(rates, case="central"):
     eb3 = {cy: 3.0 * (1 + UI_G) ** (cy - 2031) * r_cy[cy] for cy in range(2031, 2041)}
     gf = [a + 0.05 * b for a, b in zip(cy_to_fy(eb3), tf)]
     return tf, gf, scale(tf, 0.08)
+
+
+def print_credit_options():
+    print("| Calendar year | Floor | Bite | Added wage bill, all employers | At employers under 50 (range) |")
+    print("| --- | --- | --- | --- | --- |")
+    for y in range(2030, 2041):
+        lo, hi = sorted([small_need(y, 1), small_need(y, 2)])
+        print(f"| {y} | ${_floor_rate(y):.2f} | {_floor_rate(y) / _median(y):.0%} | "
+              f"{floor_bill(y):.1f} | {small_need(y):.1f} ({lo:.1f}-{hi:.1f}) |")
+    tot = sum(small_need(y) for y in range(2030, 2033))
+    tot6 = sum(small_need(y) for y in range(2030, 2036))
+    print(f"\nNeed at employers under 50: CY2030-32 {tot:.1f}; CY2030-35 {tot6:.1f}; "
+          f"CY2040 {small_need(2040):.1f}\n")
+    print("| Option | FY2030-39 (range) | Share of the 2030-32 need | Share of the 2030-35 need |")
+    print("| --- | --- | --- | --- |")
+    for o in CREDIT_OPTIONS:
+        c, lo, hi = (sum(credit_path(o, k)) for k in (0, 1, 2))
+        print(f"| {o} | {c:.1f} ({lo:.1f}-{hi:.1f}) | {c / tot:.0%} | {c / tot6:.0%} |")
 
 
 def print_ui_options():
@@ -788,6 +891,9 @@ def main():
     if "--ui-options" in sys.argv:
         print_ui_options()
         return
+    if "--credit-options" in sys.argv:
+        print_credit_options()
+        return
     if "--booking-scenario" in sys.argv:
         root = None
         if "--apply" in sys.argv:
@@ -856,4 +962,4 @@ if __name__ == "__main__" and "--parts" in sys.argv:
     print(); print(subtable(["ui_tf", "ui_tax"], "Trust funds, net"))
     print(subtable(["ui_offset_ss"]))
     print(); print(subtable(["tranche", "eb_recession", "trigger"], "Contingent lines"))
-    print(); print(subtable(["quits", "measure"], "Provisional lines"))
+    print(); print(subtable(["quits", "quits_misuse", "wi_offer", "measure"], "Provisional lines"))
