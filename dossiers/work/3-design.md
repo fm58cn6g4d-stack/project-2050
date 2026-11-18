@@ -89,7 +89,7 @@ Federal cost against the January 2029 law, in nominal dollars, over FY2030-39 an
 | 4 | A | zero | zero | — | — | None needed |
 | 5 | B | about $1-3 billion | about $0.2-0.4 billion | General fund (Labor) | Inside LAB-1 at zero (legacy 0.00-0.01) | None; legacy LAB-3 [EV-WRK-708] |
 | 6 | B, B, A | about zero here | about zero here | Staff in CAP-7: about $0.3-0.5 billion a year more at full strength | CAP-7 (legacy $6 billion for Wage and Hour and OSHA) [EV-WRK-706] | None found |
-| 7 | B | about +$0.03-0.08 trillion; trust-fund benefits +$15-25 billion a year, employer-financed | about +$3-8 billion | General fund (Extended Benefits, administration); trust funds | No | No score of S. 2312 [EV-WRK-394]; FY2025 outlays $41.8 billion [EV-WRK-413] |
+| 7 | B | about +$0.03-0.08 trillion; trust-fund benefits +$15-25 billion a year, employer-financed [repriced: about +$42 billion a year as specified, `6-cost.md`, part 2] | about +$3-8 billion | General fund (Extended Benefits, administration); trust funds | No | No score of S. 2312 [EV-WRK-394]; FY2025 outlays $41.8 billion [EV-WRK-413] |
 | 8 | C and B | about +$0.06-0.11 trillion | about +$6-10 billion | General fund | LAB-8 at $0.03 trillion; AI-4 (R3) | CBO, National Apprenticeship Act of 2020: $3.1 billion over five years [EV-WRK-396]; legacy LAB-8, 8B, AI-4A [EV-WRK-704] [EV-WRK-710] [EV-WRK-711] |
 | 9 | C | about +$0.03-0.05 trillion | about +$5-6 billion | General fund | LAB-9 at $0.12 trillion, **to be lowered** | AmeriCorps' cost rules [EV-WRK-397] [EV-WRK-398] [EV-WRK-399]; legacy 9A, 9B [EV-WRK-705] [EV-WRK-709] |
 
@@ -97,10 +97,10 @@ Federal cost against the January 2029 law, in nominal dollars, over FY2030-39 an
 
 **The basis (judgment, stated so the figures can be checked).**
 - *Wage floor:* CBO's $54 billion over 2021-31 for $15 by 2025 [EV-WRK-032], a floor at about 61% of 2025's all-jobs median of $24.51 [EV-WRK-078]; memo 1 B's floor is about half the median in 2035 on 3.5% a year nominal median growth (range 3-4%), so its indirect budget effect is smaller and later.
-- *Unemployment insurance:* FY2025 outlays of $41.8 billion [EV-WRK-413]; recipiency rising from about 27-29% toward 40% and replacement toward about half [EV-SEC-045] [EV-WRK-302] lifts regular benefits by about 40-60%; Extended Benefits' federal share averaged over a decade with one moderate downturn.
+- *Unemployment insurance:* FY2025 outlays of $41.8 billion [EV-WRK-413]; recipiency rising from about 27-29% toward 40% and replacement toward about half [EV-SEC-045] [EV-WRK-302] lifts regular benefits by about 40-60%; Extended Benefits' federal share averaged over a decade with one moderate downturn. [Repriced after the milestone review (fix step 1): "replacement toward about half" is what a 50% replacement rate gives; the decided 75% of high-quarter pay up to two-thirds of the state's average wage lifts regular benefits about 2.1 times, about +$42 billion a year at FY2025 levels (range $25-66 billion), and moves the general fund about +$4 billion a year more by FY2040 (`6-cost.md`, part 2). The cost to employers goes to Espen as a question (`6-cost.md`, "Questions for Espen", item 1).]
 - *Training:* about 300,000 more apprenticeship starts a year at full scale [EV-WRK-349], at $10,000-15,000 in grants and instructor pay, against $5,171 per apprentice in the federal initiative [EV-SEC-640].
-- *Wage insurance:* about 1.1 million long-tenured workers displaced a year [EV-WRK-315], about half reemployed at lower pay [EV-WRK-317], at $4,000-6,000 each.
-- *Service:* about $32,600 federal per full-time position [EV-WRK-398] [EV-WRK-399], 150,000 positions by 2034 with a ramp.
+- *Wage insurance:* about 1.1 million long-tenured workers displaced a year [EV-WRK-315], about half reemployed at lower pay [EV-WRK-317], at $4,000-6,000 each. [Repriced in section 6 step by step, with discharges not for misconduct, the pay cap, the 12-month window and take-up: about $2.0 billion a year in steady state (`6-cost.md`, part 1).]
+- *Service:* about $32,600 federal per full-time position [EV-WRK-398] [EV-WRK-399], 150,000 positions by 2034 with a ramp. [Grantees also match 24-30% of program costs under AmeriCorps' rule [EV-WRK-454], about $1.5 billion a year at full scale, non-federal (`6-cost.md`, part 1).]
 - *Growth:* outside scores moved to FY2030-39 at about 2.5-3% a year nominal.
 
 ## Against the bills
