@@ -10931,7 +10931,7 @@
  },
  {
   "id": "EV-DEM-394",
-  "statement": "The district courts have original and exclusive jurisdiction of all cases under the Bankruptcy Code, and each district court may refer any or all such cases and proceedings to the bankruptcy judges for the district; the district court may withdraw a referred case or proceeding, in whole or in part, for cause shown.",
+  "statement": "The district courts have original and exclusive jurisdiction of all cases under the Bankruptcy Code.",
   "claim": "data",
   "figures": [],
   "source": "SRC-5437",
@@ -10942,7 +10942,7 @@
   "fact_date": "2024",
   "checked": "2026-11-18",
   "recheck": "2027-11-18",
-  "context": "Primary law, 2024 edition of the U.S. Code on GovInfo; later amendments not checked against the Law Revision Counsel's current release point. The reference and withdrawal are 28 U.S.C. 157(a) and (d) (EV-DEM-395). This structure, with bankruptcy judges as units of the district court (EV-DEM-333), is what Stern (EV-DEM-366) and Wellness (EV-DEM-367) review.",
+  "context": "Primary law, 2024 edition of the U.S. Code on GovInfo; later amendments not checked against the Law Revision Counsel's current release point. The reference to bankruptcy judges and its withdrawal are in 28 U.S.C. 157(a) and (d), not here (EV-DEM-395). This jurisdiction, with bankruptcy judges as units of the district court (EV-DEM-333), is the structure Stern (EV-DEM-366) and Wellness (EV-DEM-367) review.",
   "supports": [
    "dossiers/foundations/democratic-renewal/4-specification.md",
    "dossiers/foundations/democratic-renewal/7-validation.md"
