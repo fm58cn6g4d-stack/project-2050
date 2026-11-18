@@ -12421,5 +12421,26 @@
   "supports": [
    "dossiers/work/6-cost.md"
   ]
+ },
+ {
+  "id": "EV-WRK-498",
+  "statement": "Under the Fair Labor Standards Act's definitions, \"State\" means any State of the United States or the District of Columbia or any Territory or possession of the United States.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5818",
+  "anchor": [
+   "(c) ‘‘State’’ means any State of the United",
+   "States or the District of Columbia or any Territory or possession of the United States."
+  ],
+  "locator": "29 U.S.C. 203(c)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law. Federal wage law already treats Puerto Rico and the other territories as States, so LAB-4.10's slower path, written for any State, reads the same before and after Puerto Rico's admission (Espen's W9, DEC-2026-11-18-09).",
+  "supports": [
+   "dossiers/work/5-delivery.md",
+   "dossiers/work/4-specification.md"
+  ]
  }
 ]
