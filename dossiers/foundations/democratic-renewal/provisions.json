@@ -375,7 +375,7 @@
   "decisions": [
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Each division, title and section of the democracy act is severable, and so is each provision's application to the appointment of presidential electors from its application to elections for Senator and Representative, and DEM-12.01's application to each state (milestone fix 2; the table under \"The floor's legal footing\" below gives the power and the unit for each rule). Challenges seeking relief beyond the parties go to the three-judge courts of CRT-3.02. *Provisional (section 5, part 8, fix 3):* Division A is enforceable in federal court by the Attorney General, or by an aggrieved voter after written notice to the state's chief election official and a period to correct it (shorter close to a federal election), on the National Voter Registration Act's notice-and-cure model, 52 U.S.C. 20510(b): 90 days to correct after written notice, 20 days within 120 days of a federal election, and no notice within 30 days of one [EV-DEM-351]",
+  "parameters": "Each division, title and section of the democracy act is severable, and so is each provision's application to the appointment of presidential electors from its application to elections for Senator and Representative, and DEM-12.01's application to each state (milestone fix 2; the table under \"The floor's legal footing\" below gives the power and the unit for each rule). **Forum (milestone fix 3):** a challenge to the act seeking relief beyond the parties is heard by a three-judge district court that the act itself requires (28 U.S.C. 2284(a), \"when otherwise required by Act of Congress\" [EV-DEM-344]), with direct appeal, so the rule holds whether or not the court integrity act (CRT-3.02) is law when the act passes; a pre-enforcement challenge to a rule the EAC or FEC adopts under the act goes to the court of appeals once CRT-7.01 is law (CRT-3.02's order rule). *Provisional (section 5, part 8, fix 3):* Division A is enforceable in federal court by the Attorney General, or by an aggrieved voter after written notice to the state's chief election official and a period to correct it (shorter close to a federal election), on the National Voter Registration Act's notice-and-cure model, 52 U.S.C. 20510(b): 90 days to correct after written notice, 20 days within 120 days of a federal election, and no notice within 30 days of one [EV-DEM-351]",
   "eligibility": "",
   "vehicle": [
    {
@@ -390,7 +390,8 @@
    "EV-DEM-344",
    "EV-DEM-351",
    "EV-DEM-375",
-   "EV-DEM-376"
+   "EV-DEM-376",
+   "EV-DEM-387"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -2587,7 +2588,7 @@
   "decisions": [
    "DEC-2026-11-17-77"
   ],
-  "parameters": "A civil action seeking to bar or require state or federal action beyond the parties is assigned at random across the whole district, codifying the Judicial Conference's March 2024 policy, which some districts declined (legacy, `domain-courts.md`:88)",
+  "parameters": "A civil action in district court seeking to bar or require state or federal action beyond the parties is assigned at random across the whole district, codifying the Judicial Conference's March 2024 policy, which some districts declined (legacy, `domain-courts.md`:88). It reaches state action; CRT-3.02's panels do not (\"The forum rules together\", below)",
   "eligibility": "",
   "vehicle": [
    {
@@ -2605,13 +2606,13 @@
  },
  {
   "id": "CRT-3.02",
-  "title": "Three-judge courts for those cases",
+  "title": "Three-judge courts for those cases against federal action, with an order rule",
   "agenda": "CRT-3",
-  "status": "decided, point 26",
+  "status": "decided, point 26; scope and order rule, milestone fix 3",
   "decisions": [
    "DEC-2026-11-17-77"
   ],
-  "parameters": "Such an action is heard by a three-judge district court (28 U.S.C. 2284 [EV-DEM-344]), with the judges drawn at random from the circuit (working choice) and direct appeal to the Supreme Court. It is also the forum rule for challenges to this plan's laws: a shift, not a cure (legacy, line 90)",
+  "parameters": "A civil action **in district court** seeking to bar or require **federal** action beyond the parties (a universal injunction, a stay or vacatur that reaches non-parties, or relief for a nationwide class) is heard by a three-judge district court (28 U.S.C. 2284 [EV-DEM-344]), the two added judges drawn at random from the circuit, one of them a circuit judge as 2284 requires (working choice), with direct appeal to the Supreme Court as of right (28 U.S.C. 1253 [EV-DEM-387]). **Order rule:** where an Act of Congress channels review of an agency action to a court of appeals (CRT-7.01; the Hobbs Act; the Clean Air Act's sec. 307(b)), that court hears it, including any relief beyond the parties, and this section does not apply; it covers actions within district-court jurisdiction only. A suit against **state** action seeking relief beyond the parties keeps CRT-3.01's random assignment and one judge (working choice, the review's A-3). No district is fixed as the venue: the legacy's D.C. district court option is dropped. It is also the forum rule for challenges to this plan's laws: a shift, not a cure (legacy, line 90). Load: about 5 to 100 panels and 3 to 90 direct appeals a year (`5-delivery.md`, part 2)",
   "eligibility": "",
   "vehicle": [
    {
@@ -2623,7 +2624,11 @@
   "agency": "Federal courts",
   "current_law": "",
   "evidence": [
-   "EV-DEM-344"
+   "EV-DEM-344",
+   "EV-DEM-383",
+   "EV-DEM-385",
+   "EV-DEM-386",
+   "EV-DEM-387"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -2693,7 +2698,7 @@
   "decisions": [
    "DEC-2026-11-17-77"
   ],
-  "parameters": "Pre-enforcement challenges to a final rule go to the D.C. Circuit, or the circuit a statute names, within a short window (working choice: 60 days from publication, as the Clean Air Act's 307(b) and the Hobbs Act set), with a new window for grounds that arise later; collateral attack in enforcement is barred, except constitutional claims, stated expressly so the *Axon* carve-outs hold (legacy, `domain-courts.md`:128). *Yakus* is the precedent",
+  "parameters": "Pre-enforcement challenges to a final rule go to the D.C. Circuit, or the circuit a statute names, within a short window (working choice: 60 days from publication, as the Clean Air Act's 307(b) and the Hobbs Act set), with a new window for grounds that arise later; collateral attack in enforcement is barred, except constitutional claims, stated expressly so the *Axon* carve-outs hold (legacy, `domain-courts.md`:128). *Yakus* is the precedent. That court may grant relief beyond the parties, vacatur of the rule included (CRT-9.01); CRT-3.02 does not apply to it (its order rule). **Risk named:** concentrating rule review in the D.C. Circuit's 11 judgeships [EV-DEM-389] makes its seats a political prize (legacy, `domain-courts.md`:132; \"The forum rules together\", below)",
   "eligibility": "",
   "vehicle": [
    {
@@ -2704,7 +2709,9 @@
   ],
   "agency": "Federal courts",
   "current_law": "",
-  "evidence": [],
+  "evidence": [
+   "EV-DEM-389"
+  ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
   "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
@@ -2767,7 +2774,7 @@
   "decisions": [
    "DEC-2026-11-17-98"
   ],
-  "parameters": "When courts of appeals have issued conflicting holdings on the meaning of a federal statute, acknowledged in an opinion, a petition raising the split is an appeal the Court must decide, summarily if it chooses, so the same law means the same thing everywhere. The Court decided 56 signed-opinion cases in OT2024, against more than 160 a year in the 1980s (legacy, `domain-courts.md`:156). **Held:** a certiorari screening division and mandatory review of statute invalidations",
+  "parameters": "When courts of appeals have issued conflicting holdings on the meaning of a federal statute, acknowledged in an opinion, a petition raising the split is an appeal the Court must decide, summarily if it chooses, so the same law means the same thing everywhere. In OT2024 the Court heard 73 cases argued and disposed of 64 in 56 signed opinions [EV-DEM-384], against around 150 a year in the 1980s [EV-DEM-388] (legacy, `domain-courts.md`:156, \"more than 160\"). **Load:** with CRT-3.02's direct appeals, about 25 to 170 mandatory cases a year, from below half to between two and three times today's merits docket (`7-validation.md`, part 3). **Held:** a certiorari screening division and mandatory review of statute invalidations",
   "eligibility": "",
   "vehicle": [
    {
@@ -2778,7 +2785,10 @@
   ],
   "agency": "Supreme Court",
   "current_law": "",
-  "evidence": [],
+  "evidence": [
+   "EV-DEM-384",
+   "EV-DEM-388"
+  ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
   "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
@@ -2930,7 +2940,7 @@
   "decisions": [
    "DEC-2026-11-17-98"
   ],
-  "parameters": "In 2031-32: the APA's \"set aside\" means vacatur of the rule; the statute states when relief beyond the parties is available; such cases go to the three-judge courts of CRT-3.02 with expedited review. It binds challenges to any administration's actions alike. Not urgent: CRS finds no systemic shift a year after *CASA* [EV-DEM-246]",
+  "parameters": "In 2031-32: the APA's \"set aside\" means vacatur of the agency action; the statute states when relief beyond the parties is available. A final rule is vacated, if at all, by the court of appeals that reviews it under CRT-7.01; a district-court case seeking vacatur or other relief beyond the parties against any other federal action goes to the three-judge courts of CRT-3.02, with expedited review (milestone fix 3: CRT-3.02's order rule). It binds challenges to any administration's actions alike. Not urgent: CRS finds no systemic shift a year after *CASA* [EV-DEM-246]",
   "eligibility": "",
   "vehicle": [
    {
