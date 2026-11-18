@@ -1,12 +1,12 @@
-year,loss_pct_payroll,basis
-2030,0.0000,"estimate: IMM-EV-SS, E-Verify's off-budget payroll revenue loss, % of OASDI taxable payroll: immigration_path.everify()['off'] ($B; CBO and JCT 2013, scaled; dossiers/immigration/6-cost.md part 2) over funds-ss-economics.csv's taxable payroll, as written up in PR #328; held at the 2040 share after 2040"
-2031,0.0019,
-2032,0.0098,
-2033,0.0190,
-2034,0.0286,
-2035,0.0367,
-2036,0.0368,
-2037,0.0368,
-2038,0.0369,
-2039,0.0370,
-2040,0.0370,
+year,loss_pct_payroll,wrk_ui_pct_payroll,basis
+2030,0.0000,0.0000,"estimate: IMM-EV-SS, E-Verify's off-budget payroll revenue loss, % of OASDI taxable payroll: immigration_path.everify()['off'] ($B; CBO and JCT 2013, scaled; dossiers/immigration/6-cost.md part 2) over funds-ss-economics.csv's taxable payroll, as written up in PR #328; held at the 2040 share after 2040"
+2031,0.0019,0.0229,
+2032,0.0098,0.0301,
+2033,0.0190,0.0300,
+2034,0.0286,0.0298,
+2035,0.0367,0.0297,
+2036,0.0368,0.0298,
+2037,0.0368,0.0298,
+2038,0.0369,0.0299,
+2039,0.0370,0.0299,
+2040,0.0370,0.0300,

@@ -26,9 +26,11 @@ class LedgerPrecision(unittest.TestCase):
         # 10.91 until the health financing booking added package E's rows (HCU, the fold-in's HCW to HCH, HEC and HEX,
         # HS1 to HS4) and moved H1a into the base (DEC-2026-11-15-09 to -24): +9.73;
         # 20.64 until the streams started in FY2030 and the household contribution stepped with the waves from 2031
-        # (DEC-2026-11-16-01, -02): +2.83
-        self.assertEqual(money_sum(values), 23.47)
-        self.assertEqual(money_sum(reversed(values)), 23.47)
+        # (DEC-2026-11-16-01, -02): +2.83;
+        # 23.44 after the work booking added the UI tax offset (LAB-11T, a loss), income tax on wage insurance (LAB-18T)
+        # and civil penalties (LAB-2P) as base-revenue rows: -0.027 + 0.0016 + 0.0004 = -0.025
+        self.assertEqual(money_sum(values), 23.44)
+        self.assertEqual(money_sum(reversed(values)), 23.44)
 
 
 if __name__ == '__main__':
