@@ -6,6 +6,8 @@ arithmetic on the anchors in sections 3 to 5 and the memos, as decided in
 DEC-2026-11-17-01 to -36, -95 and -96; not a score. Nothing here is booked.
 Run:  python3 dossiers/work/tools/work_path.py            (tables in Markdown)
       python3 dossiers/work/tools/work_path.py --check    (coverage and sum checks)
+      python3 dossiers/work/tools/work_path.py --booking-scenario [--apply <copy root>]
+                                                          (section 7 part 1C's model rows)
 
 Conventions (6-cost.md, "Counting rules"):
   * nominal $ billion, federal cost against the January 2029 law, a cost positive;
@@ -439,9 +441,147 @@ def check():
     print(f"OK: {len(ids)} provisions, {len(LINES)} lines, {len(NO_LINE)} with no line.")
 
 
+# ---------------------------------------------------------------------------------
+# The booking scenario: the rows section 7, part 1C ran through the budget model in a
+# scratch copy (the reviewer's second note on #431). Four booked rows change and eight
+# are added, each on its central FY2030-39 path; the tranche (contingent) is left out.
+# Every row is entered as an outlay (out_*), as the scratch run did; at booking the
+# revenue rows go on rev_* lines (7-validation.md, part 1C, "What the run needs").
+# Nothing here writes to models/ unless --apply is given a scratch copy's root.
+# Run:  python3 dossiers/work/tools/work_path.py --booking-scenario
+#       python3 dossiers/work/tools/work_path.py --booking-scenario --apply <copy root>
+# ---------------------------------------------------------------------------------
+SCENARIO = [
+    # (ledger id, lines, change or new, profile cat, ledger label for a new row)
+    ("LAB-1", ["floor"], "change", "out_disc_nondefense", None),
+    ("LAB-5", ["credit"], "change", "out_other_mandatory", None),
+    ("LAB-8", ["apprenticeship"], "change", "out_disc_nondefense", None),
+    ("LAB-9", ["service"], "change", "out_other_mandatory", None),
+    ("LAB-4.09", ["14c"], "new", "out_other_mandatory", "14(c) transition grant (LAB-4.09)"),
+    ("LAB-3", ["boards"], "new", "out_disc_nondefense",
+     "Standards boards office and the wage commission (LAB-3, LAB-4.04)"),
+    ("LAB-7.05", ["outreach"], "new", "out_disc_nondefense",
+     "Wage and safety outreach grants (LAB-7.05)"),
+    ("LAB-11", ["eb", "ui_admin", "conformity"], "new", "out_other_mandatory",
+     "Unemployment insurance on the general fund: Extended Benefits, administration, "
+     "conformity grant (LAB-11)"),
+    ("LAB-11T", ["ui_offset"], "new", "out_other_mandatory",
+     "Income-tax offset on employers' larger UI taxes (LAB-11.05; a revenue row at booking)"),
+    ("LAB-18", ["wi", "wi_admin", "hours"], "new", "out_other_mandatory",
+     "Wage insurance, its administration and the hours field (LAB-18)"),
+    ("LAB-18T", ["wi_tax"], "new", "out_other_mandatory",
+     "Income tax on wage insurance (LAB-18.02; a revenue row at booking)"),
+    ("LAB-2P", ["penalties"], "new", "out_other_mandatory",
+     "Civil penalties under the labor act and wage law (a revenue row at booking)"),
+]
+LEDGER_COLS = ["id", "legacy_id", "bill", "domain", "source", "rail", "channel", "cost_lo",
+               "cost_mid", "cost_hi", "own_revenue_mid", "basis", "note", "floor_days",
+               "felt_months", "durability", "target"]
+PROFILE_COLS = ["table", "id", "kind", "cat", "start", "ramp", "grow", "end", "perm", "fade",
+                "unified_zero", "basis"]
+
+
+def booking_scenario():
+    """(change or new, ledger row, profile row, year row) for each SCENARIO entry."""
+    by = {ln["id"]: ln for ln in LINES}
+    out = []
+    for rid, ids, how, cat, label in SCENARIO:
+        path = {w: [sum(by[i][w][k] for i in ids) for k in range(11)]
+                for w in ("central", "low", "high")}
+        lo, hi = sorted([dec(path["low"]) / 1000, dec(path["high"]) / 1000])
+        mid = dec(path["central"]) / 1000
+        r3 = lambda v: f"{round(v, 3) + 0.0:.3f}"  # no "-0.000"
+        ledger = dict(id=rid, cost_lo=r3(lo), cost_mid=r3(mid), cost_hi=r3(hi))
+        if how == "new":
+            ledger.update(legacy_id="—", bill=label, domain="Labor",
+                          source="dossiers/work/6-cost.md", rail="R2", channel="General fund",
+                          own_revenue_mid="0", basis="estimate",
+                          note="Scratch booking scenario (work_path.py --booking-scenario)",
+                          floor_days="0", felt_months="12", durability="70",
+                          target="2029-summer")
+        nonzero = [k for k in range(10) if abs(path["central"][k]) > 1e-12]
+        ends = bool(nonzero) and max(nonzero) < 9
+        profile = dict(table="bill", id=rid, kind="", cat=cat, start="", ramp="1", grow="gdp",
+                       end=str(2030 + max(nonzero)) if ends else "",
+                       perm="0.0" if ends else "", fade="", unified_zero="",
+                       basis="Scratch booking scenario: section 6's central path")
+        years = {"id": rid, **{f"y{2030 + k}": f"{path['central'][k]:.4f}" for k in range(10)},
+                 "note": "work_path.py --booking-scenario: section 6's central path, $B"}
+        out.append((how, ledger, profile, years))
+    return out
+
+
+def _patch_csv(fn, rows, match=None):
+    """Replace the fields of rows whose id matches (and match's column); append the rest."""
+    import csv
+    with open(fn, newline="") as f:
+        rdr = csv.DictReader(f)
+        cols, old = rdr.fieldnames, list(rdr)
+    todo = {r["id"]: r for r in rows}
+    for r in old:
+        if r["id"] in todo and (match is None or r.get(match[0]) == match[1]):
+            for k, v in todo.pop(r["id"]).items():
+                if k in cols:
+                    r[k] = v
+    for r in todo.values():
+        old.append({c: r.get(c, "") for c in cols})
+    with open(fn, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols, lineterminator="\n")
+        w.writeheader()
+        w.writerows(old)
+
+
+def print_booking_scenario(apply_root=None):
+    import csv
+    rows = booking_scenario()
+    out = csv.writer(sys.stdout, lineterminator="\n")
+    print("# ledger-bills.csv: four rows changed (id and cost columns only) and eight added")
+    out.writerow(LEDGER_COLS)
+    for how, led, _, _ in rows:
+        out.writerow([led.get(c, "(unchanged)" if how == "change" else "") for c in LEDGER_COLS])
+    print("\n# fiscal-profiles.csv (table = bill; replaces the four rows' profiles)")
+    out.writerow(PROFILE_COLS)
+    for _, _, prof, _ in rows:
+        out.writerow([prof[c] for c in PROFILE_COLS])
+    print("\n# fiscal-years.csv ($ billion, FY2030-39; the model then grows FY2040 on with GDP)")
+    ycols = ["id"] + [f"y{y}" for y in WINDOW] + ["note"]
+    out.writerow(ycols)
+    for _, _, _, yr in rows:
+        out.writerow([yr[c] for c in ycols])
+    print("""
+# To rerun section 7, part 1C, in a scratch copy (never in the working tree):
+#   git worktree add --detach <scratch> origin/main
+#   python3 dossiers/work/tools/work_path.py --booking-scenario --apply <scratch>
+#   cd <scratch>
+#   sed -i 's#budget/test_provisions.py 2>&1 | tail -1#& || true#' models/tools/run-all.sh
+#   bash models/tools/run-all.sh
+#   python3 -c "import json; r = json.load(open('build/recovery-budget.json'))['cases']['mixed']['rows']; \\
+#     g = {x['year']: x['agenda_gf_primary_bn'] for x in r}; print(round(g[2040], 1), round(sum(g[y] for y in range(2030, 2040)), 1))"
+# Expected: 609.7 and 3719.4, against main's 602.7 and 3,773.4 ($ billion; +7.0 and -54.0).
+# Two checks fail by design and stop the suite unless step 6a is made non-fatal as above:
+# the provision specs (step 6a; the new rows have none) and health financing's pinned
+# plan-wide gap (step 8c, after build/recovery-budget.json is written).
+# Then remove the copy: git worktree remove --force <scratch>""")
+    if apply_root:
+        inp = os.path.join(apply_root, "models", "data", "inputs")
+        _patch_csv(os.path.join(inp, "ledger-bills.csv"), [r[1] for r in rows])
+        _patch_csv(os.path.join(inp, "fiscal-profiles.csv"), [r[2] for r in rows],
+                   match=("table", "bill"))
+        _patch_csv(os.path.join(inp, "fiscal-years.csv"), [r[3] for r in rows])
+        print(f"\n# applied to {inp}")
+
+
 def main():
     if "--check" in sys.argv:
         check()
+        return
+    if "--booking-scenario" in sys.argv:
+        root = None
+        if "--apply" in sys.argv:
+            root = os.path.abspath(sys.argv[sys.argv.index("--apply") + 1])
+            if root == os.path.abspath(os.path.join(HERE, "..", "..", "..")):
+                sys.exit("--apply writes model inputs: give it a scratch copy, not this tree")
+        print_booking_scenario(root)
         return
     print(table())
     s = summary()
