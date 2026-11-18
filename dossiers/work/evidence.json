@@ -10363,7 +10363,7 @@
  },
  {
   "id": "EV-WRK-420",
-  "statement": "Under 29 CFR 1953.5, when OSHA issues a new permanent federal standard, a State Plan state must adopt it, a more stringent amendment or an at least as effective equivalent within six months of the federal standard's promulgation.",
+  "statement": "Under OSHA's State Plan rules, when OSHA issues a new permanent federal standard, a State Plan state must adopt it, a more stringent amendment or an at least as effective equivalent within six months of the federal standard's promulgation.",
   "claim": "data",
   "figures": [],
   "source": "SRC-5540",
@@ -10382,7 +10382,7 @@
  },
  {
   "id": "EV-WRK-421",
-  "statement": "Under 29 CFR 29.13 the Labor Department may recognize a State Apprenticeship Agency to register apprenticeship programs for federal purposes in its state.",
+  "statement": "Under the Labor Department's apprenticeship rules, the Department may recognize a State Apprenticeship Agency to register apprenticeship programs for federal purposes in its state.",
   "claim": "data",
   "figures": [],
   "source": "SRC-5541",
@@ -10460,7 +10460,7 @@
  },
  {
   "id": "EV-WRK-425",
-  "statement": "Under the 2007 minimum wage law as amended in 2015, American Samoa's industry minimum wages rise by $0.40 an hour on September 30, 2015 and every third year after, until they equal the federal minimum wage.",
+  "statement": "Under federal minimum wage law as amended, American Samoa's industry minimum wages rise by $0.40 an hour beginning September 30, 2015 and every third year after, until they equal the federal minimum wage.",
   "claim": "data",
   "figures": [
    "0.40",
@@ -10505,7 +10505,7 @@
  },
  {
   "id": "EV-WRK-427",
-  "statement": "The Labor inspector general reports that ETA's acceptable level of first-payment performance is at least 87 percent of regular UI payments within 14 or 21 days, and that six sampled states paid only 70 percent of initial claims (3.6 million of 5.2 million) within 21 days from mid-2020 through September 2021.",
+  "statement": "The Labor inspector general reports that ETA's acceptable level of first-payment performance is at least 87 percent of regular UI payments within 14 or 21 days, and that through September 2021 six sampled states paid only 70 percent of initial claims (3.6 million of 5.2 million) within 21 days.",
   "claim": "data",
   "figures": [
    "87",
@@ -10533,7 +10533,7 @@
  },
  {
   "id": "EV-WRK-428",
-  "statement": "Under 26 U.S.C. 3302(c)(2), employers in a state with an outstanding federal unemployment loan balance on a second consecutive January 1 lose 5 percent of the federal unemployment tax as credit, and an additional 5 percent for each later such year.",
+  "statement": "Under the federal unemployment tax's credit rules, employers in a state with an outstanding federal unemployment loan balance at the start of a second consecutive year lose 5 percent of the federal tax as credit, and an additional 5 percent for each later such year.",
   "claim": "data",
   "figures": [
    "5"
