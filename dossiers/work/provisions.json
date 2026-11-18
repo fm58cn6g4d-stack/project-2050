@@ -294,13 +294,13 @@
  },
  {
   "id": "LAB-4.10",
-  "title": "The territories' wage schedules: the Northern Mariana Islands on the federal schedule; American Samoa on its own path, reviewed by the commission",
+  "title": "The territories' wage floor: the national schedule capped at 75% of each territory's median; American Samoa on its own path, reviewed by the commission",
   "agenda": "LAB-4",
-  "status": "provisional, on the recommendation: a delivery addition (section 5, part 5), for Espen",
+  "status": "provisional, on the recommendation: a delivery addition (section 5, part 5), revised in the milestone review's fix step 2 (M-1), for Espen",
   "decisions": [
    "DEC-2026-11-17-01"
   ],
-  "parameters": "The Northern Mariana Islands, at the federal $7.25 since September 30, 2018 [EV-WRK-426], follow LAB-4.01's schedule and LAB-4.02's indexing like the states. American Samoa keeps the schedule in today's law, $0.40 an hour every third year until its industry minimums equal the federal minimum [EV-WRK-425], now measured against LAB-4.01's higher floor; the commission (LAB-4.04) reports on American Samoa each year and may recommend a faster path to Congress. The alternatives are the full federal schedule in American Samoa from 2030 or a faster statutory path set now",
+  "parameters": "In Puerto Rico, Guam, the U.S. Virgin Islands and the Northern Mariana Islands the floor is LAB-4.01's schedule and LAB-4.02's indexing, except that in a year it is no higher than 75% of the territory's median hourly wage as last published before the Secretary's October 1 notice, rounded down to $0.05; it never falls and never goes below the first step's $9.50. The median is BLS's OEWS all-jobs median (Puerto Rico $12.09, Guam $16.02, the Virgin Islands $19.42 in May 2023 [EV-WRK-455] [EV-WRK-458] [EV-WRK-459]) and, for the Northern Mariana Islands until BLS publishes one, the Commonwealth's annual Prevailing Wage Study ($9.97, February 2021 [EV-WRK-460]). When the national rate is under the cap, it applies. On 3.5% median growth Puerto Rico reaches about $13.20 in 2035 (about 72% of its median, against $17.00 and 93% on the national schedule), the Northern Mariana Islands about $11.65, and Guam and the Virgin Islands the full national schedule (project arithmetic, tools/territory_bite.py). Territorial laws may set more (29 U.S.C. 218), as Puerto Rico's $10.50 does [EV-WRK-466] [EV-WRK-468]. American Samoa keeps the schedule in today's law, $0.40 an hour every third year until its industry minimums equal the federal minimum [EV-WRK-425], now measured against LAB-4.01's higher floor. The commission (LAB-4.04) reports on each territory every year and may recommend a different share, or for American Samoa a faster path or the cap once a median is published; any change needs an act of Congress. The alternatives are the national schedule in every territory, the commission's report first with the national schedule resuming January 1, 2034, or a territorial wage committee setting industry rates",
   "eligibility": "",
   "vehicle": [
    {
@@ -310,13 +310,24 @@
    }
   ],
   "agency": "Labor (WHD); the wage commission",
-  "current_law": "American Samoa's industry rates rise $0.40 every third year [EV-WRK-425]; the Northern Mariana Islands at $7.25 [EV-WRK-426]",
+  "current_law": "Federal $7.25 in Puerto Rico, Guam, the Virgin Islands and the Northern Mariana Islands, with territorial floors of $10.50, $9.25, $10.50 and $7.25 [EV-WRK-466]; American Samoa's industry rates rise $0.40 every third year [EV-WRK-425] (garment $5.78, fish canning $6.36 from September 30, 2024 [EV-WRK-467] [EV-WRK-474]); the Northern Mariana Islands at $7.25 since 2018 [EV-WRK-426]",
   "evidence": [
    "EV-WRK-425",
-   "EV-WRK-426"
+   "EV-WRK-426",
+   "EV-WRK-455",
+   "EV-WRK-458",
+   "EV-WRK-459",
+   "EV-WRK-460",
+   "EV-WRK-466",
+   "EV-WRK-467",
+   "EV-WRK-468",
+   "EV-WRK-470",
+   "EV-WRK-471",
+   "EV-WRK-472",
+   "EV-WRK-474"
   ],
   "sources": [],
-  "cost_source": "6-cost.md, part 5 (where priced) and the line it names; tools/work_path.py",
+  "cost_source": "6-cost.md, part 4, item 6 (no federal cost to speak of under any option); tools/territory_bite.py for the bite",
   "spec": "dossiers/work/5-delivery.md"
  },
  {
