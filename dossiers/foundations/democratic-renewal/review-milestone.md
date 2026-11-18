@@ -182,7 +182,7 @@ Severity: **blocker** (blocks L3), **fix** (a later step should do it), **note**
 
 **O-1. The voter card's cost and its photo stations. Fix.** "Well under $0.1 billion a year" (`4-specification.md`:63) for a card mailed to every registrant (about 170 million at 2024's 73.6%) is plausible for printing and postage, but the optional photo is taken free at "an SSA field office" among others, and SSA is the agency part G's dated needs strain first (paid leave by mid-2030; callbacks averaged 108.6 minutes in FY2025, EV-DEM-106). *Fix:* price the card (cards, postage, a photo share; a register entry for a comparable state card) and drop SSA field offices as a photo site, or count the workload in SSA's line. *It would inform:* the `-99` a direction as specified.
 
-**O-2. The 180-day tier and the 2030 election. Note (D3 is provisional).** The barrier-removing rules govern November 2030 only if the act is law by about May 7, 2030 (`5-delivery.md`:228); "spring 2030 the outer date" puts enactment at that edge. A state that must reprint ID rules, mail rules and list-maintenance rules in summer 2030 is exactly the *Purcell* setting section 7 cites (`7-validation.md`:236; EV-DEM-362), though *Purcell* binds courts, not Congress. Section 8 should give the trigger: enactment after a set date moves the first covered election to 2032.
+**O-2. The 180-day tier and the 2030 election. Note (D3 is provisional).** The barrier-removing rules govern November 2030 only if the act is law by May 9, 2030 (the 2030 general election is November 5, so 180 days earlier is May 9) (`5-delivery.md`:228); "spring 2030 the outer date" puts enactment at that edge. A state that must reprint ID rules, mail rules and list-maintenance rules in summer 2030 is exactly the *Purcell* setting section 7 cites (`7-validation.md`:236; EV-DEM-362), though *Purcell* binds courts, not Congress. Section 8 should give the trigger: enactment after a set date moves the first covered election to 2032.
 
 **O-3. The three-judge courts' load.** See L-2.
 
@@ -273,6 +273,8 @@ Each is sized for one later session (Most capable unless marked). None needs a n
 6. **The design lens on the rebuild** (D-1 to D-3, G-2). The release rule's response to a shortfall; one data feed for the reports; the burden table widened. Touches D2's fix 1 and D4, so it follows step 1 and Espen's answers.
 7. **Section 9 pass** (E-2 to E-7, W-3, F-2's wording, C-4). After steps 1 to 6, so the public case follows the fixed sections.
 8. **Record clean-up** (C-1 to C-3, C-5, F-3, W-1, G-3 and G-4). Standard tier. G-1 goes with step 4 and G-2 with step 6.
+Fixes 5 to 8 are done in one close-out PR (the one the L3 re-check runs on); fix 9 is next.
+
 9. **Re-check and booking** (`charter/STANDARDS.md`, "Milestone review"). The L3 re-check on the close-out PR, then the booking step (`6-cost.md` part 9), after Espen's answers to D1 to D5 and the questions below.
 
 ## 4. Questions for Espen

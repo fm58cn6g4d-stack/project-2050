@@ -35,7 +35,7 @@
    "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Each state registers every eligible citizen it finds in its own motor vehicle and benefit records, and in the federal records it receives under CAP-19.02, and mails a notice with a way to decline (working choice: 21 days to decline before the registration takes effect). A decline is confidential. Registration follows a move recorded in those records, with a mailed notice. On the Australian model, where enrolment from records reaches 97.8% [EV-DEM-168] [EV-DEM-169]; Canada's register 96.4% [EV-DEM-170]. Today 28.0 million eligible citizens are not registered [EV-DEM-002]. *What it changes:* the National Voter Registration Act's opt-in agency registration becomes registration by default from records",
+  "parameters": "Each state registers every eligible citizen it finds in its own motor vehicle and benefit records, and in the federal records it receives under CAP-19.02, and mails a notice with a way to decline (working choice: 21 days to decline before the registration takes effect). A decline is confidential. Registration follows a move recorded in those records, with a mailed notice. On the Australian model, where enrolment from records reaches 97.8% [EV-DEM-168] [EV-DEM-169]; Canada's register 96.4% [EV-DEM-170]. Today 28.0 million eligible citizens are not registered [EV-DEM-002]. *What it changes:* the National Voter Registration Act's opt-in agency registration becomes registration by default from records. *Reaching everyone (milestone fix 5):* a voter with no street address gives a description of where they live (a shelter, a street corner, a tribal land parcel), as the federal registration form already allows, and a mailing point (a shelter, a social service agency, a tribal office or the election office) where the registration notice, the voter card and any flag or cure notice are held; a notice returned undeliverable starts no removal (DEM-1.10). Every notice the floor requires (the registration and decline notice, the voter card's mailing, the flag notice and the cure notice) goes out in plain language and in the languages Section 203 of the Voting Rights Act already requires of that jurisdiction (52 U.S.C. 10503; *Callais* did not touch it), and in any other language the office has already translated, on request; and in an accessible format (large print, braille, audio or electronic) on request, as the Americans with Disabilities Act and HAVA's accessibility standards already require of the offices. No new covered language or form is added",
   "eligibility": "",
   "vehicle": [
    {
@@ -152,7 +152,7 @@
    "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Any voter may vote by mail. A ballot postmarked by Election Day and received within the period the act sets counts (working choice: seven days, the Freedom to Vote Act's period, to confirm in drafting). Drop boxes in each county (working choice: at least one per county, more by population). Mail voting raised turnout about 2 points with no partisan effect [EV-DEM-150] [EV-DEM-151]",
+  "parameters": "Any voter may vote by mail. A ballot postmarked by Election Day and received within the period the act sets counts (working choice: seven days, the Freedom to Vote Act's period, to confirm in drafting). Drop boxes in each county (working choice: at least one per county, more by population). Mail voting raised turnout about 2 points with no partisan effect [EV-DEM-150] [EV-DEM-151]. *Overseas and military voters (milestone fix 5):* the Uniformed and Overseas Citizens Absentee Voting Act's own deadlines (ballots out 45 days before the election) and electronic delivery govern where they are more generous than the receipt rule above. *Voters with disabilities:* a state that offers electronic ballot delivery to overseas voters offers the same accessible delivery to a voter with a disability who asks, with no added form",
   "eligibility": "",
   "vehicle": [
    {
@@ -210,7 +210,7 @@
    "DEC-2026-11-17-99",
    "DEC-2026-11-18-13"
   ],
-  "parameters": "Every registrant receives a free voter card by mail from records: new registrants with the registration notice, and every voter already on the rolls by the same single deadline: all cards are mailed no later than 45 days before the first federal general election the floor covers (section 5, part 4), the day overseas ballots go out (working choice), in any order the state chooses before then; later registrants receive theirs with the registration notice. *Provisional (D3, `DEC-2026-11-18-13`):* one deadline for new and existing registrants alike, as Espen directed, because a later schedule for existing voters invites challenge. A photo is optional: taken free at a state motor vehicle office, an SSA field office or the election office (working choice). The card is accepted as identification for every federal election in every state. No fee for any birth certificate or other record a voter needs to get a photo card. **The signed-statement route (DEM-1.06) stays:** the card is an option, never a condition of voting. Paid from DEM-11 (judgment: well under $0.1 billion a year). The national panel found strict ID had no effect on fraud [EV-DEM-154] (its abstract adds perceived fraud), so the card's case is ease and trust, not security alone",
+  "parameters": "Every registrant receives a free voter card by mail from records: new registrants with the registration notice, and every voter already on the rolls by the same single deadline: all cards are mailed no later than 45 days before the first federal general election the floor covers (section 5, part 4), the day overseas ballots go out (working choice), in any order the state chooses before then; later registrants receive theirs with the registration notice. *Confirmed (D3, `DEC-2026-11-18-13`, Espen's confirmation of November 18):* one deadline for new and existing registrants alike, as Espen directed, because a later schedule for existing voters invites challenge. A photo is optional: taken free at a state motor vehicle office, the election office or another site the state chooses (working choice); **SSA's field offices are not a photo site** (milestone fix 5): SSA's role in the floor is an automated data answer under CAP-19.02, so no voter's visit and no workload falls on the agency whose dated needs bind first (part G). A voter outside the United States gets the card electronically or at the ballot address by the same deadline; a voter with no fixed address gets it at the mailing point named in DEM-1.01. The card is accepted as identification for every federal election in every state. No fee for any birth certificate or other record a voter needs to get a photo card. **The signed-statement route (DEM-1.06) stays:** the card is an option, never a condition of voting. Paid from DEM-11. *Priced (milestone fix 5; judgment on [EV-DEM-415] and [EV-DEM-416]):* an unphotographed card in a mailed carrier costs about $0.85-1.50 (printing and insertion about $0.30-0.70, postage about $0.55-0.82, from presort rates to the 82-cent Forever stamp), so one mailing to about 170 million registrants costs **about $0.14-0.26 billion once, in FY2030**, 8% to 14% of that year's $1.8 billion grant; after it, 20 to 30 million cards a year for new registrants and replacements cost about $0.02-0.045 billion, and photos for 2% to 5% of registrants at a motor vehicle office's cost (Nebraska's is $5.50 a card) about $0.02-0.05 billion over the first two years, so **after the first year the card stays well under $0.1 billion a year**. The mailing load is about 1.8 million cards a business day nationwide if the act is law on May 9, 2030 and the deadline is September 21, 2030 (section 5, part 4) The national panel found strict ID had no effect on fraud [EV-DEM-154] (its abstract adds perceived fraud), so the card's case is ease and trust, not security alone",
   "eligibility": "",
   "vehicle": [
    {
@@ -223,7 +223,9 @@
   "current_law": "",
   "evidence": [
    "EV-DEM-154",
-   "EV-DEM-186"
+   "EV-DEM-186",
+   "EV-DEM-415",
+   "EV-DEM-416"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -238,7 +240,7 @@
    "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Citizenship is checked against federal records (SSA's citizenship data, USCIS's verification service, passport records) shared under CAP-19.02, never by documents a voter must bring. A non-match is a flag for review: the voter gets written notice and a chance to respond, and stays registered until a person decides. *Records and evidence (milestone fix 2):* a state may use any record it holds or obtains under CAP-19.02 or its own law to check citizenship, and may deny registration on information in its possession that establishes ineligibility, after the notice and a person's decision; a flagged voter may answer with any evidence, a document included, at the voter's choice. No voter is required to bring a document to register or to vote. This is what keeps the rule inside *Inter Tribal Council*, which kept a state's power to deny registration on information in its possession and said a statute that kept a state from obtaining the information its qualifications need would raise serious constitutional doubts [EV-DEM-375]. The audits find noncitizen registration rare: 20 of 8.2 million in Georgia [EV-DEM-163], 27 of 2,069,640 records in Utah [EV-DEM-164]. *Diverges from* the House-passed SAVE America Act's documentary proof [EV-DEM-015]",
+  "parameters": "Citizenship is checked against federal records shared under CAP-19.02, never by documents a voter must bring, **in this order (milestone fix 5)**: (1) a state record of a citizenship document the agency saw (a birth certificate, a passport or a naturalization certificate) or a match to a state birth record; (2) USCIS's naturalization and citizenship-certificate records and the State Department's passport and Consular Report of Birth Abroad records, matched on the A-number or Social Security number where held and under any prior name in the record; (3) SSA's citizenship indicator, last. A \"citizen\" answer at any step ends the check. **What can flag:** only an affirmative record that the person is not a citizen (a USCIS or DHS record of noncitizen status, or the voter's own signed statement of noncitizenship, signed after the person's last noncitizen status date and after age 18), matched on the A-number or the full Social Security number, never on name and date of birth alone, and dated after any citizenship record. \"No record found\", an SSA non-match and an SSA noncitizen indicator are never a flag. A record showing status granted before age 18 gets a notice that explains derived citizenship and accepts a parent's naturalization record as an answer, and the reviewer checks USCIS for that record before deciding. **A flag is a notice and a person's decision:** the voter gets written notice that names the records used and may answer with any evidence, and stays registered until a person decides; removal needs two notices by every contact the record holds, a person's review and an affirmative record that meets the rules above and is unrebutted, and a missed reply alone never establishes noncitizenship. A new registrant flagged inside DEM-1.01's 21-day window is pending, not removed. No systematic citizenship removal runs inside the NVRA's 90-day quiet period (DEM-1.10; courts have applied the period to citizenship programs, to confirm in drafting). *Why this order:* SSA records citizenship when it issues a number and relies on people to report a later naturalization, so its data lag for naturalized citizens and miss derived ones, and the 2025 run of SAVE on Social Security data flagged citizens [EV-DEM-413] [EV-DEM-414]. *Expected flags (judgment):* Texas's 2025 run flagged 0.015% of its voters [EV-DEM-413], on the old order, with SSA-lag and no-record flags; as an upper bound that is about 26,000 on the 170 million already registered, and with this order about 8,000 to 26,000 (one-third of Texas's rate at the low end), plus up to about 4,000 among the 28 million DEM-1.01 adds [EV-DEM-002], whose motor vehicle records include lawful permanent residents; the rate is from one state and could differ in states with other records, and the first quarterly counts replace it. *Reported:* each state reports each quarter the records checked, flags, flags cleared as citizens, notices unanswered and removals, with how many flagged voters were naturalized or derived citizens, and the EAC publishes them; if in a quarter with at least 100 flags nationally more than a quarter of the resolved flags clear as citizens, or more than half of the notices go unanswered, the EAC and DHS reopen CAP-19.02's agreement within 60 days (working choice). *SAVE as it exists (milestone finding A-1):* DHS's SAVE already queries USCIS, SSA and passport records for election offices, so the floor uses it as the channel, which is existing machinery (`DEC-2026-11-13-08`), on three conditions written into CAP-19.02's agreement and the act: this order, each query logged with a right to see it and no use for immigration or criminal enforcement (CAP-19.02, DEM-1.14), and a second and third step review of any Social Security number match, which DHS's own assessment says the tool does not allow today [EV-DEM-414]. If DHS will not meet them, states query USCIS's verification service directly. SAVE removes part of DEM-11.03's build, but not the registration-from-records feeds, so its range stands *Records and evidence (milestone fix 2):* a state may use any record it holds or obtains under CAP-19.02 or its own law to check citizenship, and may deny registration on information in its possession that establishes ineligibility, after the notice and a person's decision; a flagged voter may answer with any evidence, a document included, at the voter's choice. No voter is required to bring a document to register or to vote. This is what keeps the rule inside *Inter Tribal Council*, which kept a state's power to deny registration on information in its possession and said a statute that kept a state from obtaining the information its qualifications need would raise serious constitutional doubts [EV-DEM-375]. The audits find noncitizen registration rare: 20 of 8.2 million in Georgia [EV-DEM-163], 27 of 2,069,640 records in Utah [EV-DEM-164]. *Diverges from* the House-passed SAVE America Act's documentary proof [EV-DEM-015]",
   "eligibility": "",
   "vehicle": [
    {
@@ -250,11 +252,14 @@
   "agency": "States; SSA; DHS (USCIS)",
   "current_law": "",
   "evidence": [
+   "EV-DEM-002",
    "EV-DEM-015",
    "EV-DEM-162",
    "EV-DEM-163",
    "EV-DEM-164",
-   "EV-DEM-375"
+   "EV-DEM-375",
+   "EV-DEM-413",
+   "EV-DEM-414"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -269,7 +274,7 @@
    "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
-  "parameters": "An election office that finds a defect in a returned mail ballot (signature, missing form) notifies the voter promptly (working choice: within two business days, by every contact the record holds) and lets the voter cure it until the canvass ends (working choice: at least seven days after Election Day). 584,463 mail ballots were rejected in 2024 [EV-DEM-018]; in Pennsylvania a mail voter was 25 points more likely to have the vote counted if told of the error before Election Day, and 10 points more likely with a chance to correct it [EV-DEM-167]",
+  "parameters": "An election office that finds a defect in a returned mail ballot (signature, missing form) notifies the voter promptly (working choice: within two business days, by every contact the record holds) and lets the voter cure it until the canvass ends (working choice: at least seven days after Election Day). The notice goes in the languages, accessible formats and mailing points of DEM-1.01, and for overseas and military voters UOCAVA's rules govern where more generous (milestone fix 5). 584,463 mail ballots were rejected in 2024 [EV-DEM-018]; in Pennsylvania a mail voter was 25 points more likely to have the vote counted if told of the error before Election Day, and 10 points more likely with a chance to correct it [EV-DEM-167]",
   "eligibility": "",
   "vehicle": [
    {
@@ -297,7 +302,7 @@
    "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Removals only on records evidence (death, a move recorded in DEM-1.01's records, or the voter's request), each with a mailed notice; no removal for not voting alone; the NVRA's 90-day quiet period before a federal election kept. Third-party challenges to many voters at once require individual evidence",
+  "parameters": "Removals only on records evidence (death, a move recorded in DEM-1.01's records, the voter's request, or an affirmative record of noncitizenship after the notices and review DEM-1.08 requires), each with a mailed notice; no removal for not voting alone; the NVRA's 90-day quiet period before a federal election kept. Third-party challenges to many voters at once require individual evidence",
   "eligibility": "",
   "vehicle": [
    {
@@ -323,7 +328,7 @@
    "DEC-2026-11-17-42",
    "DEC-2026-11-18-13"
   ],
-  "parameters": "A voter-verified paper ballot for every vote in a federal election; a risk-limiting audit of each federal contest before certification. Equipment replaced through DEM-11.02. *Effective date (provisional, D3, `DEC-2026-11-18-13`):* the first covered general election like every floor rule, with one exception: a jurisdiction that on the date of enactment votes on paperless equipment, as Louisiana did statewide in 2024 [EV-DEM-410], offers a paper ballot on request at every polling place and audits whatever paper it has from that election, and meets the full rule by the 2032 general election at the latest (section 5, part 4)",
+  "parameters": "A voter-verified paper ballot for every vote in a federal election; a risk-limiting audit of each federal contest before certification. Equipment replaced through DEM-11.02. *Effective date (D3, `DEC-2026-11-18-13`, confirmed):* the first covered general election like every floor rule, with one exception: a jurisdiction that on the date of enactment votes on paperless equipment, as Louisiana did statewide in 2024 [EV-DEM-410], offers a paper ballot on request at every polling place and audits whatever paper it has from that election, and meets the full rule by the 2032 general election at the latest (section 5, part 4)",
   "eligibility": "",
   "vehicle": [
    {
@@ -534,7 +539,7 @@
    "DEC-2026-11-17-41",
    "DEC-2026-11-17-94"
   ],
-  "parameters": "About $0.2-0.5 billion once (memo 1, judgment), for state systems to register from records and run the citizenship check, paid from CAP-13's state and local line, which already carries the data agreements memo 11 needs [EV-DEM-329]. Nothing is added to DEM-11",
+  "parameters": "About $0.2-0.5 billion once (memo 1, judgment), for state systems to register from records and run the citizenship check, paid from CAP-13's state and local line, which already carries the data agreements memo 11 needs [EV-DEM-329]. Using SAVE as the citizenship channel (DEM-1.08) trims the build's citizenship half, not its registration feeds, so the range stands until a county cost study. Nothing is added to DEM-11",
   "eligibility": "",
   "vehicle": [
    {
@@ -563,7 +568,7 @@
    "DEC-2026-11-18-13",
    "DEC-2026-11-18-17"
   ],
-  "parameters": "A person convicted of a crime may vote in federal elections once released from prison. *Power:* Congress's power to enforce the Fourteenth Amendment (section 5) and the Fifteenth (section 2), on findings of the racial purpose with which states adopted or expanded these laws and of their racial effect today; **not** the Elections Clause, which reaches how federal elections are held, not who may vote in them [EV-DEM-375]. *Oregon v. Mitchell* (1970) let Congress set 18 as the voting age for federal elections, but with no majority reason: only Justice Black found the power in the Elections Clause [EV-DEM-401], and the Court has since called that result \"of minimal precedential value\" [EV-DEM-402]; how the text uses the case is open question 5 (provisional, D7, `DEC-2026-11-18-17`). The footing is plausible but contested, and section 9 lists it as a court risk (\"The floor's legal footing\", below). *Its own section, severable* from the rest of the act, and its application to each state severable from its application to the others (DEM-1.13): if it falls, DEM-12.02 and the state track, DEM-12.03, stand. About 4 million people were disenfranchised in 2024, one in 22 African Americans of voting age [EV-DEM-159]",
+  "parameters": "A person convicted of a crime may vote in federal elections once released from prison. *Power (`DEC-2026-11-18-26`):* the text names both powers, the enforcement clauses first. Congress's power to enforce the Fourteenth Amendment (section 5) and the Fifteenth (section 2), on findings of the racial purpose with which states adopted or expanded these laws and of their racial effect today; and, in the alternative and severable from the first, the power over federal elections that *Oregon v. Mitchell*'s (1970) result upheld (the Elections Clause, Article II and the Necessary and Proper Clause), read alongside *Inter Tribal Council*, which holds that the Elections Clause reaches how federal elections are held, not who may vote in them [EV-DEM-375]. *Mitchell* let Congress set 18 as the voting age for federal elections but with no majority reason: only Justice Black found the power in the Elections Clause [EV-DEM-401], and the Court has since called that result \"of minimal precedential value\" [EV-DEM-402], so the second ground carries little weight and the text and findings say so. The footing is plausible but contested, and section 9 lists it as a court risk (\"The floor's legal footing\", below). *Its own section, severable* from the rest of the act, and its application to each state severable from its application to the others (DEM-1.13): if it falls, DEM-12.02 and the state track, DEM-12.03, stand. About 4 million people were disenfranchised in 2024, one in 22 African Americans of voting age [EV-DEM-159]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1047,7 +1052,7 @@
    "DEC-2026-11-17-99",
    "DEC-2026-11-18-18"
   ],
-  "parameters": "In 2031, after the census, Congress decides the House's size among DEM-3A (the cube-root rule, about 692 [EV-DEM-249]), 3B (the Wyoming rule) and 3C (a fixed increase), for the 2032 election if the census numbers are in time, otherwise for the 2034 redraw. The yardstick is contested [EV-DEM-250]; the House has had 435 members since 1913 [EV-DEM-074]. Preparation the democracy act directs: the Architect of the Capitol reports the chamber's build cost by 2030 (legacy: plausibly $0.01-0.03 trillion, unscored; `domain-democracy.md`:132); a legal review of a mid-decade reapportionment before 2032 (legacy open item 5). If a new state holds temporary seats under DEM-5.01 when the review's law passes, that law ends them and apportions the new state with the others (provisional, `DEC-2026-11-18-18`)",
+  "parameters": "In 2031, after the census, Congress decides the House's size among DEM-3A (the cube-root rule, about 692 [EV-DEM-249]), 3B (the Wyoming rule) and 3C (a fixed increase), for the 2032 election if the census numbers are in time, otherwise for the 2034 redraw. The yardstick is contested [EV-DEM-250]; the House has had 435 members since 1913 [EV-DEM-074]. Preparation the democracy act directs: the Architect of the Capitol reports the chamber's build cost by 2030 (legacy: plausibly $0.01-0.03 trillion, unscored; `domain-democracy.md`:132); a legal review of a mid-decade reapportionment before 2032 (legacy open item 5). *The chamber (milestone fix 6, G-2):* the legacy figure is that the chamber seats about 448 and that a rebuild \"has to start in the first Congress for a 2034 seating to be physically possible\" (`domain-democracy.md`:132), so a larger House seated for 2032 is physically possible only up to about 448 members or with a temporary arrangement, and the Architect's report in 2030 decides which; If a new state holds temporary seats under DEM-5.01 when the review's law passes, that law ends them and apportions the new state with the others (`DEC-2026-11-18-29`: one seat for D.C., four for Puerto Rico)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1194,7 +1199,7 @@
    "DEC-2026-11-17-66",
    "DEC-2026-11-18-18"
   ],
-  "parameters": "Admits the State of Washington, Douglass Commonwealth on the model of H.R. 51, which the House passed 216 to 208 in 2021 [EV-DEM-268], with a residual federal district around the Capitol, the White House and the Mall. The residual district's electors are directed by statute (to the national popular vote winner, or none appointed), under Congress's power over their manner of appointment; repeal of the 23rd Amendment (AMD-6) becomes hygiene, not a precondition (legacy, `domain-democracy.md`:174). *Court risk, stated plainly (milestone fix 4):* the question is unsettled. CRS finds the Twenty-third Amendment likely keeps operating for the residual district, whose text says it \"shall appoint\" electors in the manner Congress directs, and that standing to challenge an admission act is unclear [EV-DEM-397]; the Justice Department's Office of Legal Policy argued in 1987 that statehood by statute is unconstitutional [EV-DEM-398]. Directing the electors to the popular-vote winner fits \"such manner as the Congress may direct\" better than appointing none, which sits uneasily with \"shall appoint\" (judgment); AMD-6's repeal removes the question. 689,545 residents in 2020, more than Vermont or Wyoming [EV-DEM-267] **Temporary House seats for the new state (provisional, `DEC-2026-11-18-18`; DEM-6.01's admission act for Puerto Rico carries the same rule).** If a new state is admitted before a law enlarges or reapportions the House, its admission act gives it Representatives in addition to the House's size then in law, with no reapportionment of any other state. *Number (working choice):* the new state's population on the Census Bureau's latest estimate, divided by the average district population of the last apportionment, rounded to the nearest whole number, at least one. On the July 2025 estimates that is one seat for Washington, Douglass Commonwealth (693,645 people) and four for Puerto Rico (3,184,835), against the 2020 average of 761,169 [EV-DEM-408] [EV-DEM-075]: a House of 436, 439 or 440. *Duration:* until the first of (a) the apportionment after the next decennial census taking effect, or (b) a law that enlarges or reapportions the House (DEM-3.01's 2031 review would be one); the new state is then apportioned with the others. The temporary increase changes neither the House's permanent size nor the basis of apportionment, in the words of the acts that gave Alaska (1958) and Hawaii (1959) one seat each and took the House to 437 until the 1960 census's apportionment took effect in 1963 [EV-DEM-405] [EV-DEM-406] [EV-DEM-407] [EV-DEM-074]; the 1911 apportionment act did the same for Arizona and New Mexico [EV-DEM-407]. The new state's electors are its Senators plus these Representatives, so the Electoral College grows by the same number for any presidential election before the seats end. Espen adds that it gets the public used to a House of a different size. *Cost:* about $5-10 million a seat a year for a member's pay, office and staff (project arithmetic, scaled from the legacy member-office estimate, `domain-democracy.md`:134, not re-checked), so about $25-50 million a year for five seats; unbooked, a stage G line once an admission act passes. *Legal risk (judgment): low to moderate.* Congress sets the House's size by statute, and seats added for a new state before a census stood unchallenged in 1912 and 1959. The open points: the seats rest on an estimate, not the census enumeration Article I's apportionment uses, which a voter in an existing state could call unequal representation; and four seats for Puerto Rico rather than three or five turns on a rounding rule a court would likely leave to Congress. No existing state loses a seat, which narrows who could sue. Legacy has no temporary-seat rule; its open item on a mid-decade reapportionment (`domain-democracy.md`:146) is a different question, since no state is reapportioned here.",
+  "parameters": "Admits the State of Washington, Douglass Commonwealth on the model of H.R. 51, which the House passed 216 to 208 in 2021 [EV-DEM-268], with a residual federal district around the Capitol, the White House and the Mall. The residual district's electors are directed by statute (to the national popular vote winner, or none appointed), under Congress's power over their manner of appointment; repeal of the 23rd Amendment (AMD-6) becomes hygiene, not a precondition (legacy, `domain-democracy.md`:174). *Court risk, stated plainly (milestone fix 4):* the question is unsettled. CRS finds the Twenty-third Amendment likely keeps operating for the residual district, whose text says it \"shall appoint\" electors in the manner Congress directs, and that standing to challenge an admission act is unclear [EV-DEM-397]; the Justice Department's Office of Legal Policy argued in 1987 that statehood by statute is unconstitutional [EV-DEM-398]. Directing the electors to the popular-vote winner fits \"such manner as the Congress may direct\" better than appointing none, which sits uneasily with \"shall appoint\" (judgment); AMD-6's repeal removes the question. 689,545 residents in 2020, more than Vermont or Wyoming [EV-DEM-267] **Temporary House seats for the new state (confirmed, `DEC-2026-11-18-18`; DEM-6.01's admission act for Puerto Rico carries the same rule).** If a new state is admitted before a law enlarges or reapportions the House, its admission act gives it Representatives in addition to the House's size then in law, with no reapportionment of any other state. *Number (working choice):* the new state's population on the Census Bureau's latest estimate, divided by the average district population of the last apportionment, rounded to the nearest whole number, at least one. On the July 2025 estimates that is one seat for Washington, Douglass Commonwealth (693,645 people) and four for Puerto Rico (3,184,835), against the 2020 average of 761,169 [EV-DEM-408] [EV-DEM-075]: a House of 436, 439 or 440. *Duration:* until the first of (a) the apportionment after the next decennial census taking effect, or (b) a law that enlarges or reapportions the House (DEM-3.01's 2031 review would be one); the new state is then apportioned with the others. The temporary increase changes neither the House's permanent size nor the basis of apportionment, in the words of the acts that gave Alaska (1958) and Hawaii (1959) one seat each and took the House to 437 until the 1960 census's apportionment took effect in 1963 [EV-DEM-405] [EV-DEM-406] [EV-DEM-407] [EV-DEM-074]; the 1911 apportionment act did the same for Arizona and New Mexico [EV-DEM-407]. The new state's electors are its Senators plus these Representatives, so the Electoral College grows by the same number for any presidential election before the seats end. Espen adds that it gets the public used to a House of a different size. *Cost:* about $5-10 million a seat a year for a member's pay, office and staff (project arithmetic, scaled from the legacy member-office estimate, `domain-democracy.md`:134, not re-checked), so about $25-50 million a year for five seats; unbooked, a stage G line once an admission act passes. *Legal risk (judgment): low to moderate.* Congress sets the House's size by statute, and seats added for a new state before a census were seated in 1912 and 1959 (the register holds no court challenge to them). The open points: the seats rest on an estimate, not the census enumeration Article I's apportionment uses, which a voter in an existing state could call unequal representation; and four seats for Puerto Rico rather than three or five turns on a rounding rule a court would likely leave to Congress. No existing state loses a seat, which narrows who could sue. Legacy has no temporary-seat rule; its open item on a mid-decade reapportionment (`domain-democracy.md`:146) is a different question, since no state is reapportioned here.",
   "eligibility": "",
   "vehicle": [
    {
@@ -1230,7 +1235,7 @@
    "DEC-2026-11-17-66",
    "DEC-2026-11-18-18"
   ],
-  "parameters": "A plebiscite among non-territorial options (working choice: the options of the 2022 House-passed Puerto Rico Status Act, to confirm in drafting), with Congress committed in advance to admit or implement the result. Statehood's fiscal effect (full Medicaid and SNAP, tax treatment) is scored by CBO and published before the vote (legacy open item 4). If the vote chooses statehood, the admission act carries DEM-5.01's temporary House seats (provisional, `DEC-2026-11-18-18`): four on the July 2025 estimate of 3,184,835 people [EV-DEM-408], until the next census's apportionment or a law enlarging or reapportioning the House",
+  "parameters": "A plebiscite among non-territorial options (working choice: the options of the 2022 House-passed Puerto Rico Status Act, to confirm in drafting), with Congress committed in advance to admit or implement the result. Statehood's fiscal effect (full Medicaid and SNAP, tax treatment) is scored by CBO and published before the vote (legacy open item 4). If the vote chooses statehood, the admission act carries DEM-5.01's temporary House seats (confirmed, `DEC-2026-11-18-18`): four on the July 2025 estimate of 3,184,835 people [EV-DEM-408], until the next census's apportionment or a law enlarging or reapportioning the House",
   "eligibility": "",
   "vehicle": [
    {
@@ -1415,7 +1420,7 @@
    "DEC-2026-11-17-70",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "Beside the capital fund, a permanent IMLS line of about $0.5-1 billion a year (judgment), indexed, to state library agencies by formula with a pass-through to local libraries, for hours, staff, digital access and maintenance. That is about 2.8 to 5.6 times today's Grants to States, $180.0 million of IMLS's $294.8 million in FY2024 [EV-DEM-338]. About $5-10 billion over FY2030-39 and $0.6-1.2 billion in FY2040. **Unbooked:** as a permanent program it is paid for at maturity, so it goes to stage G. IMLS's dismantling was blocked in court [EV-DEM-071] [EV-DEM-072]",
+  "parameters": "Beside the capital fund, a permanent IMLS line of about $0.5-1 billion a year (judgment), indexed, to state library agencies by formula with a pass-through to local libraries, for hours, staff, digital access and maintenance. That is about 2.8 to 5.6 times today's Grants to States, $180.0 million of IMLS's $294.8 million in FY2024 [EV-DEM-338]. About $7.8 billion (range $5.2-10.5 billion), indexed, over FY2030-39 and $0.6-1.2 billion in FY2040. **Unbooked:** as a permanent program it is paid for at maturity, so it goes to stage G. IMLS's dismantling was blocked in court [EV-DEM-071] [EV-DEM-072]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1600,7 +1605,7 @@
   "decisions": [
    "DEC-2026-11-17-76"
   ],
-  "parameters": "Presidential and vice-presidential candidates file their recent federal tax returns with the FEC, which publishes them, as a condition of filing as a candidate with the FEC or of receiving public financing, as point 24 sets it, not of ballot access (working choice: ten years, as the For the People Act asked, to confirm in drafting). *The sanction (milestone fix 4; provisional, \"Open questions for Espen\", 4):* filing as a candidate is not optional, since anyone who raises or spends more than $5,000 is a candidate [EV-DEM-396], so the duty needs a stated sanction. *Recommended:* the duty rides the financial disclosure report presidential candidates already file within 30 days of becoming candidates [EV-DEM-400]; a candidate who does not file the returns owes a civil penalty, sued for by the Justice Department in district court (CRT-10.01), and the FEC publishes the refusal; a candidate who accepts public financing forfeits it until the returns are filed. No sanction touches ballot access or the right to run, which keeps the qualifications question section 3 names (point 24) out of the provision, though a compelled-disclosure challenge remains possible (judgment)",
+  "parameters": "Presidential and vice-presidential candidates file their recent federal tax returns with the FEC, which publishes them, as a condition of filing as a candidate with the FEC or of receiving public financing, as point 24 sets it, not of ballot access (working choice: ten years, as the For the People Act asked, to confirm in drafting). *The sanction (milestone fix 4; Espen chose option A, November 18; \"Open questions for Espen\", 4):* filing as a candidate is not optional, since anyone who raises or spends more than $5,000 is a candidate [EV-DEM-396], so the duty needs a stated sanction. *Decided (A):* the duty rides the financial disclosure report presidential candidates already file within 30 days of becoming candidates [EV-DEM-400]; a candidate who does not file the returns owes a civil penalty, sued for by the Justice Department in district court (CRT-10.01), and the FEC publishes the refusal; a candidate who accepts public financing forfeits it until the returns are filed. No sanction touches ballot access or the right to run, which keeps the qualifications question section 3 names (point 24) out of the provision, though a compelled-disclosure challenge remains possible (judgment)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1690,7 +1695,7 @@
    "DEC-2026-11-18-11",
    "DEC-2026-11-18-16"
   ],
-  "parameters": "*Covered:* members of Congress, their spouses and dependent children; the President, the Vice President (INT-1.05), Cabinet secretaries and other Senate-confirmed executive officials; and, by `DEC-2026-11-18-16`, **senior congressional staff** and **the governors of the Federal Reserve Board**, each with their spouses and dependent children as members' are. *Senior staff (provisional, the existing line):* an officer or employee of Congress as the Ethics in Government Act already defines one for public financial disclosure: paid at or above 120 percent of the minimum GS-15 rate for at least 60 days, plus the principal assistant a Member with no such employee designates (5 U.S.C. 13101(13)) [EV-DEM-409]. The ban reaches only people who already file public reports, so it adds no new filing. *Federal Reserve (provisional):* the governors, who are Senate-confirmed (memo 6 A had excluded Federal Reserve officials). Reserve Bank presidents, who sit on the Open Market Committee with the governors, and the Board's senior staff keep disclosure under INT-12.02 unless Espen adds them (open question 6). **Judges and Justices get disclosure only** (INT-12.01, CRT-2.01), not the ban; Espen: \"a full ban may be too strict for folks with lifetime tenure\". *Covered holdings:* individual publicly traded securities (stocks, corporate bonds, options, short positions and similar interests in a single issuer) and interests in funds that are not diversified. **Never covered:** diversified mutual funds and exchange-traded funds; U.S. Treasury securities and municipal bonds; the Thrift Savings Plan and other retirement accounts. *Decided (`DEC-2026-11-18-11`):* a new purchase of an individual stock inside a self-directed retirement account after the effective date counts as covered; holdings already in such accounts, and plan-managed accounts (the TSP, 401(k) funds, pensions), are never covered. Private business and farm interests are disclosed as today, not banned. The House passed a narrower trading ban 232-198 on July 22, 2026 [EV-DEM-034] [EV-DEM-035]; if a weaker ban becomes law in 2027-28, this act amends it (legacy open item 1)",
+  "parameters": "*Covered:* members of Congress, their spouses and dependent children; the President, the Vice President (INT-1.05), Cabinet secretaries and other Senate-confirmed executive officials; and, by `DEC-2026-11-18-16`, **senior congressional staff**, **the governors of the Federal Reserve Board** and **the twelve Reserve Bank presidents**, each with their spouses and dependent children as members' are. *Senior staff (defined by the existing public-filer pay line, confirmed):* an officer or employee of Congress as the Ethics in Government Act already defines one for public financial disclosure: paid at or above 120 percent of the minimum GS-15 rate for at least 60 days, plus the principal assistant a Member with no such employee designates (5 U.S.C. 13101(13)) [EV-DEM-409]. The ban reaches only people who already file public reports, so it adds no new filing. *Federal Reserve (confirmed):* the governors, who are Senate-confirmed (memo 6 A had excluded Federal Reserve officials), and the Reserve Bank presidents, who sit on the Open Market Committee with the governors, see the same deliberations and are added at Espen's confirmation. The presidents are employed by the Reserve Banks, not appointed by the President, so the rule reaches them as a condition in the Federal Reserve Act (to confirm in drafting); they already file public disclosure under INT-12.02, so the ban adds no filing. The Board's other senior staff keep disclosure under INT-12.02. **Judges and Justices get disclosure only** (INT-12.01, CRT-2.01), not the ban; Espen: \"a full ban may be too strict for folks with lifetime tenure\". *Covered holdings:* individual publicly traded securities (stocks, corporate bonds, options, short positions and similar interests in a single issuer) and interests in funds that are not diversified. **Never covered:** diversified mutual funds and exchange-traded funds; U.S. Treasury securities and municipal bonds; the Thrift Savings Plan and other retirement accounts. *Decided (`DEC-2026-11-18-11`):* a new purchase of an individual stock inside a self-directed retirement account after the effective date counts as covered; holdings already in such accounts, and plan-managed accounts (the TSP, 401(k) funds, pensions), are never covered. Private business and farm interests are disclosed as today, not banned. The House passed a narrower trading ban 232-198 on July 22, 2026 [EV-DEM-034] [EV-DEM-035]; if a weaker ban becomes law in 2027-28, this act amends it (legacy open item 1)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1779,7 +1784,7 @@
    "DEC-2026-11-17-99",
    "DEC-2026-11-18-16"
   ],
-  "parameters": "A prohibited holding or trade incurs a civil liability under the statute: the gain (or loss avoided) paid back, plus a fine of 10% of the value of the holding or trade (working choice, memo 6), computed from the person's own disclosure filings, with no inquiry into votes or legislative work (so the Speech or Debate Clause is not engaged). *Due process:* written notice of the computed amount; 30 days to contest the computation before the ethics office (working choice); an appeal to the chamber's ethics committee (or, for executive officials, to OGE's director) before collection. *Collection (milestone fix 4):* for a member, by the chamber's ethics office from pay or by payment, under each chamber's power to punish its members (Article I, section 5), with a matching rule in each chamber, as the STOCK Act's late fee works; if unpaid after 90 days (working choice), the Justice Department sues in district court. For anyone else covered (spouses, dependent children, the President and Vice President, executive officials, and the senior congressional staff and Federal Reserve governors `DEC-2026-11-18-16` adds; a staff member's appeal goes to the chamber's ethics committee, a governor's to OGE's director), who are not subject to that power, the ethics office's or OGE's computation is a notice, not a judgment: the penalty is collected only by the Justice Department's suit in district court, with a jury if asked (CRT-10.01), since a civil penalty designed to punish or deter is legal relief [EV-DEM-391]. Each penalty is published. Willful violations are referred to the Justice Department. The usual STOCK Act penalty today is $200 or waived [EV-DEM-220]",
+  "parameters": "A prohibited holding or trade incurs a civil liability under the statute: the gain (or loss avoided) paid back, plus a fine of 10% of the value of the holding or trade (working choice, memo 6), computed from the person's own disclosure filings, with no inquiry into votes or legislative work (so the Speech or Debate Clause is not engaged). *Due process:* written notice of the computed amount; 30 days to contest the computation before the ethics office (working choice); an appeal to the chamber's ethics committee (or, for executive officials, to OGE's director) before collection. *Collection (milestone fix 4):* for a member, by the chamber's ethics office from pay or by payment, under each chamber's power to punish its members (Article I, section 5), with a matching rule in each chamber, as the STOCK Act's late fee works; if unpaid after 90 days (working choice), the Justice Department sues in district court. For anyone else covered (spouses, dependent children, the President and Vice President, executive officials, and the senior congressional staff, Federal Reserve governors and Reserve Bank presidents that `DEC-2026-11-18-16` and Espen's November 18 confirmation add; a staff member's appeal goes to the chamber's ethics committee, a governor's or a president's to OGE's director), who are not subject to that power, the ethics office's or OGE's computation is a notice, not a judgment: the penalty is collected only by the Justice Department's suit in district court, with a jury if asked (CRT-10.01), since a civil penalty designed to punish or deter is legal relief [EV-DEM-391]. Each penalty is published. Willful violations are referred to the Justice Department. The usual STOCK Act penalty today is $200 or waived [EV-DEM-220]",
   "eligibility": "",
   "vehicle": [
    {
@@ -2200,8 +2205,7 @@
   "evidence": [
    "EV-DEM-333",
    "EV-DEM-037",
-   "EV-DEM-399",
-   "EV-IMM-113"
+   "EV-DEM-399"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -2227,10 +2231,7 @@
   ],
   "agency": "DOJ (EOIR), then the judiciary",
   "current_law": "",
-  "evidence": [
-   "EV-IMM-103",
-   "EV-IMM-104"
-  ],
+  "evidence": [],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
   "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
@@ -2307,14 +2308,7 @@
   ],
   "agency": "Federal judiciary; DOJ (EOIR) until the effective date",
   "current_law": "",
-  "evidence": [
-   "EV-IMM-100",
-   "EV-IMM-103",
-   "EV-IMM-105",
-   "EV-IMM-641",
-   "EV-IMM-642",
-   "EV-IMM-646"
-  ],
+  "evidence": [],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
   "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
@@ -2339,10 +2333,7 @@
   ],
   "agency": "Federal judiciary",
   "current_law": "",
-  "evidence": [
-   "EV-IMM-112",
-   "EV-IMM-316"
-  ],
+  "evidence": [],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
   "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
@@ -2367,9 +2358,7 @@
   ],
   "agency": "Federal judiciary (Administrative Office); HHS (ORR)",
   "current_law": "",
-  "evidence": [
-   "EV-IMM-114"
-  ],
+  "evidence": [],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
   "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
@@ -2394,9 +2383,7 @@
   ],
   "agency": "Federal judiciary",
   "current_law": "",
-  "evidence": [
-   "EV-IMM-576"
-  ],
+  "evidence": [],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
   "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
@@ -2436,7 +2423,7 @@
   "decisions": [
    "DEC-2026-11-17-57"
   ],
-  "parameters": "LSC's appropriation rises on a published schedule, each year's step released as grantees report attorney and paralegal hiring against their plans; no new federal right to counsel now. The schedule (working assumption, section 6, part 3): six equal steps to about $0.6 billion a year above the FY2029 level by FY2035 (range $0.3-1.1 billion), then indexed; LSC had $540.0 million in FY2026 [EV-DEM-352]. Low-income Americans get no or not enough help for 92% of their substantial civil legal problems (LSC's survey) [EV-DEM-240]; New York's eviction right outran its lawyers, with representation falling to 30% by March 2025 [EV-DEM-243]",
+  "parameters": "LSC's appropriation rises on a published schedule, each year's step released as grantees report attorney and paralegal hiring against their plans; no new federal right to counsel now. The schedule (working assumption, section 6, part 3): six equal steps to about $0.6 billion a year above the FY2029 level by FY2035 (range $0.3-1.1 billion), then indexed; LSC had $540.0 million in FY2026 [EV-DEM-352] Low-income Americans get no or not enough help for 92% of their substantial civil legal problems (LSC's survey) [EV-DEM-240]; New York's eviction right outran its lawyers, with representation falling to 30% by March 2025 [EV-DEM-243]",
   "eligibility": "",
   "vehicle": [
    {
@@ -2451,8 +2438,7 @@
    "EV-DEM-240",
    "EV-DEM-241",
    "EV-DEM-242",
-   "EV-DEM-243",
-   "EV-DEM-352"
+   "EV-DEM-243"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -2467,7 +2453,7 @@
    "DEC-2026-11-17-52",
    "DEC-2026-11-17-53"
   ],
-  "parameters": "The Judicial Conference's March 2025 request: 2 court of appeals and 69 district judgeships [EV-DEM-041], in three tranches about a third each (working choice: 2030, 2033 and 2035), so no one President fills them all (legacy, `domain-courts.md`:65). Weighted filings exceed 500 a judgeship in 20 of the 25 districts the Conference wants enlarged [EV-DEM-042]. A stand-alone bill aimed at 60 votes; the 2024 bill passed the Senate by unanimous consent before a veto [EV-DEM-044]. About $0.4-0.6 billion over FY2030-39 (section 6, on CBO's per-seat figures [EV-DEM-357] and its score of the 2024 bill: $98 million of direct spending and $251 million subject to appropriation over 2024-2034 for 66 seats, 63 permanent plus 3 temporary [EV-DEM-324]; the per-judge figures are for a new permanent judgeship)",
+  "parameters": "The Judicial Conference's March 2025 request: 2 court of appeals and 69 district judgeships [EV-DEM-041], in three tranches about a third each (working choice: 2030, 2033 and 2035), so no one President fills them all (legacy, `domain-courts.md`:65). Weighted filings exceed 500 a judgeship in 20 of the 25 districts the Conference wants enlarged [EV-DEM-042]. A stand-alone bill aimed at 60 votes; the 2024 bipartisan bill reached the President before a veto [EV-DEM-044]. About $0.4-0.6 billion over FY2030-39 (section 6, on CBO's score of the 2024 bill: $98 million of direct spending and $251 million subject to appropriation over 2024-2034 for 66 seats, 63 permanent plus 3 temporary [EV-DEM-324], and its per-judge figures for a new permanent judgeship [EV-DEM-357])",
   "eligibility": "",
   "vehicle": [
    {
@@ -2486,8 +2472,7 @@
    "EV-DEM-045",
    "EV-DEM-238",
    "EV-DEM-239",
-   "EV-DEM-324",
-   "EV-DEM-357"
+   "EV-DEM-324"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -3115,7 +3100,7 @@
   "decisions": [
    "DEC-2026-11-17-58"
   ],
-  "parameters": "A multi-year direct appropriation in R1, available on enactment and until spent, at the booked $98.0 billion over FY2030-35, plus the $5 billion shifted into FY2029 (`note-cap7-sizes.md`:11-16). It is allocated by part G's bottom-up table, $54.8 billion of surge, agency by agency: the IRS $8.8 billion, FEMA $10.0 billion, CMS $8.0 billion, SSA $3.9 billion, HUD $3.0 billion, ACF $1.0 billion and the rest as part G shows; state and local implementation, the digital service corps and oversight $9.4 billion; this foundation's agencies $0.2 billion; other entities $9.8 billion at the legacy review's figures until their dossiers state needs [EV-DEM-328] [EV-DEM-329] [EV-DEM-330]. The booked size is unchanged; #404's residual ($7.0 billion) is stage G's",
+  "parameters": "A multi-year direct appropriation in R1, available on enactment and until spent, at the booked $98.0 billion over FY2030-35, **finite in what it pays (milestone fix 6, G-2; working choice):** it pays one-time and transition costs (hiring, training, systems, space), not continuing salaries after FY2035. *A last date to obligate is drafted as provisional, open question 8:* September 30, 2036, a year after FY2035 for obligations already contracted, with one extension to September 30, 2037 for a named contract on a published written case and notice to the Appropriations Committees, and a balance still unobligated then returning to the Treasury; until Espen decides, memo 10 B's \"until spent\" stands (the sustained money, CAP-7.01, is permanent and is not affected), plus the $5 billion shifted into FY2029 (`note-cap7-sizes.md`:11-16). It is allocated by part G's bottom-up table, $54.8 billion of surge, agency by agency: the IRS $8.8 billion, FEMA $10.0 billion, CMS $8.0 billion, SSA $3.9 billion, HUD $3.0 billion, ACF $1.0 billion and the rest as part G shows; state and local implementation, the digital service corps and oversight $9.4 billion; this foundation's agencies $0.2 billion; other entities $9.8 billion at the legacy review's figures until their dossiers state needs [EV-DEM-328] [EV-DEM-329] [EV-DEM-330]. The booked size is unchanged; #404's residual ($7.0 billion) is stage G's",
   "eligibility": "",
   "vehicle": [
    {
@@ -3202,7 +3187,7 @@
    "DEC-2026-11-17-58",
    "DEC-2026-11-17-59"
   ],
-  "parameters": "Each agency publishes a hiring path for its line; OMB releases each tranche as hiring follows it, with a quarterly count and a one-year wait for the next tranche when an agency is below 75% of its path (working choice, housing's rule for HUD applied plan-wide; `dossiers/home/5-delivery.md`:171). Money stays available, so a slow year does not lose it. **A program whose agency is behind follows its own statute** (*provisional, section 5, part 8, fix 1*): where the statute lets the start move, the program starts later and does not shrink; where it fixes the date, the date holds, and the delivery unit's corrective plan (CAP-7.03), the contingency (CAP-7S.02) and the flagship's own backstop come first. The working path is the legacy review's midpoint: sustained money of $10.4 billion in FY2030, $26.8 billion by FY2034 and $31.9 billion by FY2039 [EV-DEM-328]. Hiring, not money, sets the pace [EV-DEM-277] [EV-DEM-085]",
+  "parameters": "Each agency publishes a hiring path for its line, set on the working hiring pace (a quarter of each target a year; section 7, part 1.3, D4), not on the booked ramp; OMB and OPM approve it, and an agency may not lower it without publishing the reason in its quarterly report. Booked money above the working pace is held for the agency, released as hiring catches up and counted toward its later amounts, and never moved to the contingency (CAP-7S.02). OMB releases each tranche as hiring follows the path. **Count and shortfall (milestone fix 6, D-1; a working choice that replaces the earlier one-year wait, housing's rule applied plan-wide):** OPM counts net hires from its personnel records, net of departures within 12 months, cumulatively against the path, from the fourth quarter of FY2030. An agency below 75% of its path at a count writes one corrective plan, with the delivery unit's help, within 30 days (one plan for hiring and for delivery measures, CAP-7.03): a cause named, a hiring fix with dates, CAP-11.01's tools used. OPM accepts it against those published criteria, and the delivery unit then releases the tranche at the pace of actual hires plus the plan's next two quarters. Only after two consecutive counts below 75% with no accepted plan does the agency's next tranche wait, until a plan is accepted or a year passes, whichever is first; held money stays available. A second consecutive plan is accepted only if hires rose since the last; otherwise the case goes to GAO's next audit (CAP-7.05) and is published. *Baseline (G-2):* increment money is not released to replace a cut base. Measured against the agency's FY2029 base adjusted by CBO's pay-and-prices index, a fall in the base (not counting rescissions of earlier years' balances, one-time supplementals in the base year, transfers of functions or savings the plan itself produces; a continuing resolution at last year's level is no fall, and a shutdown pauses the count) holds the matching amount of the increment, which stays available and is released when the base is restored, with notice to the Appropriations Committees within 30 days. It is a condition on the appropriation in R1, so it is not an impoundment (EXE-3). **A program whose agency is behind follows its own statute** (*provisional, section 5, part 8, fix 1*): where the statute lets the start move, the program starts later and does not shrink; where it fixes the date, the date holds, and the delivery unit's corrective plan (CAP-7.03), the contingency (CAP-7S.02) and the flagship's own backstop come first. The working path is the legacy review's midpoint: sustained money of $10.4 billion in FY2030, $26.8 billion by FY2034 and $31.9 billion by FY2039 [EV-DEM-328]. Hiring, not money, sets the pace [EV-DEM-277] [EV-DEM-085]",
   "eligibility": "",
   "vehicle": [
    {
@@ -3261,7 +3246,7 @@
    "DEC-2026-11-17-59",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "Each plan program publishes quarterly: time to a decision, error rates, call-wait times and take-up. The next tranche (CAP-7.02) follows these as well as hiring: a program that misses its measures gets a corrective plan reviewed by the delivery unit, not a cut (working choice). States with modern systems started pandemic benefits faster [EV-DEM-294] [EV-DEM-295]",
+  "parameters": "Each plan program publishes quarterly: time to a decision, error rates, call-wait times and take-up. The next tranche (CAP-7.02) follows these as well as hiring: a program that misses its measures gets a corrective plan reviewed by the delivery unit, not a cut (working choice); it is the same plan as CAP-7.02's, one plan for one shortfall. States with modern systems started pandemic benefits faster [EV-DEM-294] [EV-DEM-295]",
   "eligibility": "",
   "vehicle": [
    {
@@ -3293,7 +3278,7 @@
    "DEC-2026-11-17-59",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "A small unit (working choice: about 30 to 50 staff, inside the cross-cutting line) tracks the plan's dated needs, the first that bind being the IRS's monthly payment file by July 2030, SSA's paid leave by mid-2030, HUD's first awards and ACF's state plans in 2030 and CMS's wave 1 on January 1, 2031 (section 3, part G), escalates when an agency slips, and reports to Congress quarterly. Stood up on January 20, 2029",
+  "parameters": "A small unit (working choice: about 30 to 50 staff, inside the cross-cutting line) tracks the plan's dated needs, the first that bind being the IRS's monthly payment file by July 2030, SSA's paid leave by mid-2030, HUD's first awards and ACF's state plans in 2030 and CMS's wave 1 on January 1, 2031 (section 3, part G), escalates when an agency slips, and reports to Congress quarterly. **One data feed (milestone fix 6, D-2):** each agency makes one quarterly submission to the unit (delivery measures and the plan's status; hires come from OPM's personnel records, not from the agency), and the count behind CAP-7.02's release, the quarterly report to Congress, OPM's time-to-hire series (CAP-11.01) and the delivery measures (CAP-7.03) are all drawn from that feed, so agencies report once. Stood up on January 20, 2029",
   "eligibility": "",
   "vehicle": [
    {
@@ -3324,7 +3309,7 @@
    "DEC-2026-11-17-59",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "GAO audits each agency's hiring path and every contingency release once a year and reports to Congress; inspectors general get the staff to follow the money, in the integrity units' line [EV-DEM-329]. In FY2025 about 13,800 inspector general staff reported about $65.6 billion of potential savings, about $17 for each dollar of their budget by the council's count [EV-DEM-223]; returns vary widely by office [EV-DEM-224]",
+  "parameters": "GAO audits each agency's hiring path and every contingency release once a year and reports to Congress, and may use the one data feed (CAP-7.04); GAO's and the inspectors general's audit access under current law is unchanged; inspectors general get the staff to follow the money, in the integrity units' line [EV-DEM-329]. In FY2025 about 13,800 inspector general staff reported about $65.6 billion of potential savings, about $17 for each dollar of their budget by the council's count [EV-DEM-223]; returns vary widely by office [EV-DEM-224]",
   "eligibility": "",
   "vehicle": [
    {
@@ -3369,8 +3354,7 @@
    "EV-DEM-110",
    "EV-DEM-111",
    "EV-DEM-279",
-   "EV-DEM-329",
-   "EV-CAR-311"
+   "EV-DEM-329"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -3803,7 +3787,7 @@
    "DEC-2026-11-17-90",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "Reads every federal court decision that construes a statute, flags those that narrow or misread one, and drafts a fix for the committees, with a published annual report; the institutional form of CRT-14. **About $8 million a year (range $5-12 million):** 20 to 40 lawyers and analysts plus about $1-2 million for case-tracking data and software, indexed; about $0.06-0.12 billion over FY2030-39 and about $10 million in FY2040 (judgment). The House's Office of the Law Revision Counsel, the nearest comparator, had $3.9 million in the FY2024 bill as reported [EV-DEM-339] and asked for $5.048 million for FY2025 [EV-DEM-340]. **Two homes kept:** CRS's legal division, or a joint office reporting to both chambers' legislative counsel; the Legislative Branch appropriations act chooses. Unbooked, for stage G",
+  "parameters": "Reads every federal court decision that construes a statute, flags those that narrow or misread one, and drafts a fix for the committees, with a published annual report; the institutional form of CRT-14. **About $8 million a year (range $5-12 million):** 20 to 40 lawyers and analysts plus about $1-2 million for case-tracking data and software, indexed; about $0.09 billion (range $0.05-0.13 billion), indexed, over FY2030-39 and about $10 million in FY2040 (judgment). The House's Office of the Law Revision Counsel, the nearest comparator, had $3.9 million in the FY2024 bill as reported [EV-DEM-339] and asked for $5.048 million for FY2025 [EV-DEM-340]. **Two homes kept:** CRS's legal division, or a joint office reporting to both chambers' legislative counsel; the Legislative Branch appropriations act chooses. Unbooked, for stage G",
   "eligibility": "",
   "vehicle": [
    {

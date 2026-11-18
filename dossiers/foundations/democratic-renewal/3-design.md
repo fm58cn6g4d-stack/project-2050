@@ -35,6 +35,8 @@ Section 1 sets it out ("The January 2029 baseline"): preclearance inoperable and
 
 ## The forks at a glance
 
+The table is the forks as sent to Espen, with their recommendations; every fork and point is decided (see "Decided" above), and section 4 carries the decided versions (milestone fix 8, C-2).
+
 | Fork | Memo | Options | Recommended |
 | --- | --- | --- | --- |
 | 1. The voting floor | `memos/1-voting-floor.md` | A legacy Freedom to Vote floor with DEM-1E; B records-first floor (registration from records, broad ID or signed statement, no documentary proof of citizenship, ballot cure); C narrow floor; D money only | **B**; DEM-11 at about $2 billion a year as a working assumption |
@@ -81,11 +83,11 @@ Nearly every item homed here is cheap in dollars and expensive in floor time, as
 | Regulators (memo 5) | About $0.9 billion of staff [EV-DEM-329] | None | Inside CAP-7 | None |
 | Stock ban and ethics (memos 6, 8) | Near zero | ETHICS Act: −$3 million of revenue [EV-DEM-325]; H.R. 7008: under $500,000 [EV-DEM-326]; SCERT: $5 million [EV-DEM-327] | INT-1 $0 | None |
 | Terms and judgeships (memo 7) | Judgeships about $0.35 billion over eleven years at the 2024 bill's size [EV-DEM-324] | No score of a term-limit bill exists | CRT-P1 $0.01 trillion | Within it |
-| Immigration court (memo 9) | Structure about $3-10 billion (judgment); added judges on backlog terms about −$5.5 billion over FY2036-39 | None | Judges and counsel in IMM-1; structure unbooked | +$3-10 billion unbooked; −$5.5 billion in IMM-1 if decided (tier 3) |
+| Immigration court (memo 9) | Structure about $3-10 billion (judgment); added judges split between regular and temporary terms (decided with a change, `DEC-2026-11-17-56`): about −$4.3 billion over FY2036-39 (the all-temporary −$5.5 billion is the memo as sent) | None | Judges and counsel in IMM-1; structure unbooked | +$3-10 billion unbooked; −$4.3 billion in IMM-1 as a later tier-3 rebooking (`6-cost.md`, part 5) |
 | Capacity (memo 10) | Inside the booked $98.0 billion and $279.2 billion | Legacy second-round review [EV-DEM-328] | CAP-7S, CAP-7 as booked | None; the residual is stage G's |
 | Verification, civil service, lapses (memos 11, 12) | Small, inside part G's lines | CBO on automatic CRs, as CRS reports [EV-DEM-315] | CAP-8 row $0.04 trillion | None |
 
-**Fiscal-rule effect, for the financing settlement.** The recommended set changes no booked figure by itself. It adds one unbooked line (the court's structure, about $3-10 billion over FY2030-39, under $1 billion a year by FY2040, judgment) and, if Espen takes memo 9's part 2 B, lowers IMM-1 by about $5.5 billion over FY2036-39 and $1.1 billion in FY2040. Both are reported here for stage G, not booked.
+**Fiscal-rule effect, for the financing settlement.** The recommended set changes no booked figure by itself. It adds one unbooked line (the court's structure, about $3-10 billion over FY2030-39, under $1 billion a year by FY2040, judgment) and, with memo 9 part 2 as decided (the split, `DEC-2026-11-17-56`), lowers IMM-1 by about $4.3 billion over FY2036-39 and about $0.9 billion in FY2040 ($5.5 and $1.1 billion as the memo sent it). Both are reported here for stage G, not booked.
 
 ## Part G: a first bottom-up sizing of the cross-cutting state capacity
 
@@ -235,12 +237,14 @@ Each is decided on its own; none is adopted by silence. "Cost" is FY2030-39 unle
 | CRT-3, 4, 6 to 14, 16 to 19 | Points 26 to 39 |
 | CAP-7, CAP-7S, CAP-11 | Memo 10 and part G |
 | CAP-4, CAP-8, CAP-9 | Memo 12 |
+| CAP-19 (shared rule 5) | Memo 11 |
+| CRT-20 (civil legal aid) | Memo 9 part 3 |
 | CAP-1 to 3, 5, 6, 10, 12 to 18 | Points 40 to 50 |
 
 ## Shared rules this section relies on or owns
 
 From `dossiers/shared-rules.md`:
-- **Rule 5, who verifies, pays and answers for mistakes:** owned here; memo 11 is the proposal. Until Espen decides, the flagships' working answers stand (housing's income reuse and consent-based sharing).
+- **Rule 5, who verifies, pays and answers for mistakes:** owned here; memo 11 B on Espen's framing is decided (`DEC-2026-11-17-60`) and section 4 carries it as CAP-19. The flagships' working answers (housing's income reuse and consent-based sharing) are the cases it generalizes.
 - **Rule 4, income lines and households:** the secure floor owns the definitions; rule 5's shared verification uses them.
 - **Rule 3, immigrant eligibility:** owned by immigration; memo 1's records check for citizenship uses the same records without new papers.
 
