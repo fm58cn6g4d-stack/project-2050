@@ -91,3 +91,7 @@ LAB-18,0.15,0.2956,1.162,2.4662,2.8043,2.8891,2.9758,3.065,3.157,3.2517,"work_bo
 LAB-11T,0,1.9809,2.7205,2.8293,2.9425,3.0602,3.1826,3.3099,3.4423,3.58,"work_booking.py: section 6's central path (dossiers/work/tools/work_path.py), $B by federal fiscal year"
 LAB-18T,0,-0.008,-0.0891,-0.1834,-0.2063,-0.2126,-0.219,-0.2255,-0.2323,-0.2393,"work_booking.py: section 6's central path (dossiers/work/tools/work_path.py), $B by federal fiscal year"
 LAB-2P,0,-0.05,-0.05,-0.05,-0.05,-0.05,-0.05,-0.05,-0.05,-0.05,"work_booking.py: section 6's central path (dossiers/work/tools/work_path.py), $B by federal fiscal year"
+DEM-17.02,0.375,0.765,0.7803,0.7959,0.8118,0.8281,0.8446,0.8615,0.8787,0.8963,"democratic_renewal_booking.py: the unbooked lines' paths (democratic_renewal_cost.py) and D4 option B (democratic_renewal_pace.py), $B by federal fiscal year"
+CRT-20.01,0.1,0.2,0.3,0.4,0.5,0.6,0.612,0.6242,0.6367,0.6495,"democratic_renewal_booking.py: the unbooked lines' paths (democratic_renewal_cost.py) and D4 option B (democratic_renewal_pace.py), $B by federal fiscal year"
+CAP-7P,-3.2717,-4.7563,-6.3422,-2.1939,0,0,0,0,0,0,"democratic_renewal_booking.py: the unbooked lines' paths (democratic_renewal_cost.py) and D4 option B (democratic_renewal_pace.py), $B by federal fiscal year"
+G8P,0,3.2727,4.7385,6.2869,2.1359,-0.0785,-0.0794,-0.0787,-0.06,-0.0194,"democratic_renewal_booking.py: the unbooked lines' paths (democratic_renewal_cost.py) and D4 option B (democratic_renewal_pace.py), $B by federal fiscal year"

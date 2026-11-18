@@ -152,6 +152,36 @@ def g8_lag(rate, lag):
     return total(net) * (1 - y_paced / y_booked)
 
 
+def g8_lag_by_year(rate, lag):
+    """The same lag as g8_lag, by the fiscal year the revenue is lost (a positive number is less revenue).
+    Yield in year y+lag comes from staff on board in year y; the booked shape is scaled so that it returns the booked
+    net yield, as in g8_lag. The yearly losses sum to g8_lag(rate, lag)."""
+    net = booked_g8_net()
+    full, _ = full_rate(net, net[2040])
+    b8 = shares(net)
+    f = staffed(rate)
+    years = [y for y in WINDOW if y + lag <= 2039]
+    scale = total(net) / sum(full[y] * b8[y] for y in years)
+    out = {y: 0.0 for y in YEARS}
+    for y in years:
+        out[y + lag] = scale * full[y] * (b8[y] - min(1.0, f[y]))
+    return out
+
+
+def booking_paths(pace="a quarter a year (working)", pay="working (70% pay)", lag=CENTRAL_LAG):
+    """The two yearly effects the booking lays (decision-sheet item D4, `DEC-2026-11-18-14`, option B), at the working
+    pace: the outlay reduction on CAP-7's booked path (part G's allocation on the booked ramp less the same allocation
+    on the hiring pace) and the IRS yield lost with it. Positive numbers are less outlay and less revenue. FY2040 is
+    unchanged in every run."""
+    path = booked_cap7()
+    full, _ = full_rate(path, ALLOC_2040)
+    b = shares(path)
+    alloc_booked = {y: full[y] * b[y] for y in YEARS}
+    x = paced(full, PACES[pace], PAY_SHARES[pay], b)
+    return {"outlay": {y: alloc_booked[y] - x[y] for y in YEARS},
+            "g8_loss": g8_lag_by_year(PACES[pace], lag)}
+
+
 def summary():
     path = booked_cap7()
     full, g = full_rate(path, ALLOC_2040)

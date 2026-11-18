@@ -77,6 +77,8 @@ echo "== 8c. clean power booking check (memo 1 B, CLI-10, CLI-5H, CLI-11, the st
 
 echo "== 8c. work booking check (the floor, the credit, apprenticeship, service, UI, wage insurance, the measure; three revenue rows; Social Security's payroll offset)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_work.py 2>&1 | tail -1
 
+echo "== 8c. democratic renewal booking check (the library line, legal aid, D4 option B's two timing rows; CRT-P1, CAP-8, CAP-7 and CAP-7S labels)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_democratic_renewal.py 2>&1 | tail -1
+
 echo "== 8c. health financing booking check (package E, unified contribution: DEC-2026-11-15-05 to -29)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_health_financing.py 2>&1 | tail -1
 
 echo "== 8d. public story page (claim register and generated page)"
