@@ -1,6 +1,6 @@
 # Work: answers to Espen's questions on the November 17 decisions
 
-Role: a follow-up note for Espen. It answers the questions Espen asked when deciding the work batch (`DEC-2026-11-17-01` to `-29`; `../3-design.md`, "Decided"), from the dossier's evidence and a light new search where the repository had nothing. Status: **approved by Espen except part d** (November 17: "clarify answer d further ... otherwise, your answers and recs to my work dossier questions are approved"; `DEC-2026-11-17-30` to `-36`). Part d, with its clarification on layoffs and firings for cause, waits for Espen's answer. Section 4 carries the decided design and waits until Espen says go.
+Role: a follow-up note for Espen. It answers the questions Espen asked when deciding the work batch (`DEC-2026-11-17-01` to `-29`; `../3-design.md`, "Decided"), from the dossier's evidence and a light new search where the repository had nothing. Status: **approved by Espen except part d** (November 17: "clarify answer d further ... otherwise, your answers and recs to my work dossier questions are approved"; `DEC-2026-11-17-30` to `-36`). Part d, with its clarification on layoffs and firings for cause, settled memo 8 part 2 for now (`DEC-2026-11-17-95`); Espen also directed that later work explore several options for the future labor economy (`-96`). Section 4 carries the decided design and waits until Espen says go.
 
 Sources are named in plain text. Bracketed tags point to `../evidence.json` or another dossier's register. Sources found in this note's search are **not yet in the register**: their addresses are listed at the end, and they need catalogue rows and evidence entries before section 4 relies on them (`DEC-2026-11-12-02`). "Project arithmetic" and "judgment" mark the project's own figures.
 
@@ -149,7 +149,7 @@ Espen asked, on November 17: "clarify answer d further, especially how 'laid off
 - reemployment by the same or a related employer is excluded;
 - an applicant who never claimed can get a determination.
 
-Memo 8 part 2 stays provisional until Espen answers this clarification.
+Espen settled memo 8 part 2 on this clarification, for now (`DEC-2026-11-17-95`).
 
 **Is wage insurance a patch? Partly, yes.**
 - Wage insurance is the best-tested help for one problem: a long-tenured worker who takes a lower-paid job. It raised employment 8-17 points and paid for itself for older trade-displaced workers (Hyman, Kovak and Leive, regression discontinuity) [EV-WRK-365]. Keep it as a base, whatever the cause of job loss.

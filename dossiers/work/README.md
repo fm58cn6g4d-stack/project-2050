@@ -1,6 +1,6 @@
 # Dossier: Fair pay and real power at work (flagship 5)
 
-Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Sections 1 and 2 are drafts, research only (Espen allowed stage F groundwork on the condition that it makes no design choices, November 16, 2026, about 05:20 UTC: "yes to all your questions and recs"). Section 3 and the memo set are **decided** (`DEC-2026-11-17-01` to `-36`, November 17, 2026): as recommended except memo 1 part 2 (C), memo 3 (D) and memo 6 part 3 (C); Espen approved the follow-up note (`notes/espen-questions-2026-11-17.md`) except part d, so memo 8 part 2 and points 5 and 11 remain provisional. Level: the decided items are at **L2** in `agenda/agenda.csv`. Section 4 waits until Espen says go. Nothing is booked in the budget model; costs are reported for stage G.
+Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Sections 1 and 2 are drafts, research only (Espen allowed stage F groundwork on the condition that it makes no design choices, November 16, 2026, about 05:20 UTC: "yes to all your questions and recs"). Section 3 and the memo set are **decided** (`DEC-2026-11-17-01` to `-36`, November 17, 2026): as recommended except memo 1 part 2 (C), memo 3 (D) and memo 6 part 3 (C); Espen approved the follow-up note (`notes/espen-questions-2026-11-17.md`) except part d, so points 5 and 11 remain provisional, and memo 8 part 2 is decided for now (`DEC-2026-11-17-95`, with the direction in `-96`). Level: the decided items are at **L2** in `agenda/agenda.csv`. Section 4 waits until Espen says go. Nothing is booked in the budget model; costs are reported for stage G.
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "Labor law, wage floors, sectoral standards, support when jobs change."
 
@@ -27,7 +27,7 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
 | 1. The problem | `1-problem.md`: the wage floor; unions and the labor board; wage theft, misclassification, overtime, safety and heat; job loss, unemployment insurance, notice, the workforce system, apprenticeship and AI; schedules, labor's share and rural places; the January 2029 baseline table; seams; the legacy record weighed | Draft (stage F groundwork) |
 | 2. What works | `2-what-works.md`: wage floors (bite, indexing, phase-ins, prices and poverty, subminimums); unions, Canada's organizing rules, right-to-work and sectoral standards; enforcement, penalties, coverage, heat and pay transparency; unemployment insurance, reemployment services, work sharing, notice, training, wage insurance, job guarantees and service; schedules and non-competes; the legacy designs against the evidence | Draft (stage F) |
 | 3. Design | `3-design.md`: the forks at a glance, section 2's eleven questions answered or routed, the options' costs against outside scores, the bills, the inherited assumptions traced, sixteen yes-or-no points, shared rules (rule 6 is this flagship's), seams | Decided (`DEC-2026-11-17-01` to `-36`) |
-| Memos | `memos/README.md` (index) and memos 1-9: the wage floor; subminimums; organizing and enforcement; fair-share fees; sectoral standards; enforcement, coverage and pay transparency; unemployment insurance; training and wage insurance; national service | Decided; memo 8 part 2 provisional |
+| Memos | `memos/README.md` (index) and memos 1-9: the wage floor; subminimums; organizing and enforcement; fair-share fees; sectoral standards; enforcement, coverage and pay transparency; unemployment insurance; training and wage insurance; national service | Decided; memo 8 part 2 decided for now (`-95`) |
 | Notes | `notes/espen-questions-2026-11-17.md`: answers to Espen's questions on the November 17 decisions | Approved except part d |
 | 4-9 | Not started; section 4 waits until Espen says go | — |
 
@@ -53,4 +53,4 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
 
 ## Open questions for Espen
 
-The section 3 batch is decided. Still open: memo 8 part 2, waiting on Espen's answer to the clarified part d of `notes/espen-questions-2026-11-17.md`; points 5 and 11, being studied; and the go for section 4.
+The section 3 batch is decided. Memo 8 part 2 is decided for now (`DEC-2026-11-17-95`), with Espen's direction to explore several options for the future labor economy (`-96`). Still open: points 5 and 11, being studied; and the go for section 4.
