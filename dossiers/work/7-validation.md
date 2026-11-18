@@ -60,7 +60,20 @@ Sections 1 and 2 left one question for the household model: how much of a raise 
 
 ### 1C. The budget model run on section 6's booking rows
 
-<!-- filled from the scratch run -->
+Section 6, part 9 lists the rows a booking would change. They were run through the whole model chain (`models/tools/run-all.sh --write`) in a throwaway copy of the repository, which was then discarded; nothing in `models/` is changed by this PR. The run changed four rows: LAB-1 carries the floor's indirect effect; LAB-5 is set to the credit; LAB-8 and LAB-9 (civic positions only, without the tranche) are set to section 6's lines. It added eight rows for the other firm lines (the 14(c) grant, boards and commission, outreach, LAB-11's general-fund spending and tax offset, LAB-18's spending and income tax, penalties). Each row was given section 6's central FY2030-39 path. Plan-wide general-fund primary balance, case `mixed`, a shortfall positive:
+
+| | Main today | With the booking rows | Change | Section 6's arithmetic |
+| --- | --- | --- | --- | --- |
+| FY2040 | $602.7 billion | $609.7 billion | **+$7.0 billion** | +$6.8 billion |
+| FY2030-39 | $3,773.4 billion | $3,719.4 billion | **−$54.0 billion** | −$54.8 billion |
+
+- **The model confirms section 6's report** within $0.2 billion in FY2040 and $0.8 billion over the decade. The work rows come to $27.6 billion in FY2040 in the model, against section 6's $27.4 billion. The difference has two causes. The ledger keeps three decimals in $ trillion, so each row rounds to the nearest $1 billion over the decade (outreach $0.56 to $1.0 billion; penalties −$0.45 billion to zero). And the model grows each row from its 2039 level with GDP, where section 6 builds FY2040 line by line.
+- **D3 moves down a little, for a reason that is the model's, not the policy's.** On the decided scenario (Q-H7, model keys) every quintile below the top stays ahead. Q1 goes from +$14,691 to +$14,632 a household a year and Q4 from +$8,130 to +$8,096 (FY2030-39 average). The fall comes from LAB-9's incidence row, which shrinks with the smaller service line. The new rows (unemployment and wage insurance, the floor) have no incidence rows, so D3 counts none of their benefits. A booking should add them (part 2), or D3 will understate what work gives the lower quintiles.
+- **What the run needs at booking** (tier 3, after the milestone review):
+  - provision specs for the new rows: the budget model's provision test fails without them, as it should;
+  - the rails (R1, point 16), which the run did not set;
+  - the penalties row on a revenue line, not a rounded spending row;
+  - incidence rows for LAB-11 and LAB-18 with measured keys.
 
 ### 1D. The path's own checks
 
@@ -73,6 +86,7 @@ Sections 1 and 2 left one question for the household model: how much of a raise 
 | Missing | Direction | Size or note | What would answer it |
 | --- | --- | --- | --- |
 | **Who earns what, by hour, in the household model** | Distribution only | The extract (`models/data/household/`) has annual earnings but no hours, so it cannot put the floor on real workers by quintile. D3 carries no row for the floor; CBO's 2019 table is the stand-in [EV-WRK-450] | Add usual hours and weeks worked (`HRSWK`, `WKSWORK`, already read by `extract.py` for SNAP's work rule) to the extract, then a rule for the floor's steps. A model change for `MOD-household`, not this dossier |
+| **Incidence rows for the new lines** | D3 understates work's benefits | Only LAB-8 and LAB-9 have incidence rows (`incidence-rows.csv`). In part 1C's run, D3's lower quintiles fall by about $35-60 a household a year because LAB-9 shrinks, while UI, wage insurance and the floor add nothing | Incidence rows for LAB-11 and LAB-18 at booking, on keys the household model measures (UI recipients, displaced workers' earnings) |
 | Job and hours loss | Lower gains, higher income support | CBO: about 0.9% of employment at $15 [EV-WRK-032]; studies at or below 60% of the median find little [EV-WRK-050] [EV-WRK-033]. The floor's indirect effect ($5.5 billion in FY2040) nets CBO's pattern, scaled | CBO's score of memo 1 B (point 15); the commission's county reports (LAB-4.04) |
 | The floor's bite by county | Larger effects where wages are low | $17 in 2035 is about half the national median, but far more in the lowest-wage counties; the register has no county measure (`2-what-works.md`, A.1) | The commission's first task, within 18 months (LAB-4.04) |
 | The floor's indirect effect | Either sign | Scaled from CBO's 2021 $15 score; a smaller bite's sign is not tested. It overlaps the legacy dynamic row DY4 (−$0.07 trillion, never in a total) [EV-WRK-707], so a booking uses one or the other (`6-cost.md`, part 9, step 5) | CBO's score (point 15) |
@@ -96,7 +110,7 @@ Sections 1 and 2 left one question for the household model: how much of a raise 
 - **Immigration.** Retaliation by immigration threat is retaliation (LAB-7.06), with immigration's deferred action and firewall (IMM-4.17, 4.11). This is the labor-standards half of the E-Verify mandate (`DEC-2026-11-12-07`).
 - **Democratic renewal.** CAP-7 carries the agencies' staff (`6-cost.md`, part 3). The NLRB fits inside the legacy row; FMCS, OSHA's high end, apprenticeship registration and the FLRA are claims on the delivery contingency (`dossiers/foundations/democratic-renewal/5-delivery.md`).
 - **The AI topic.** AI-4's booked row ($200 billion over FY2030-39, $29.5 billion in FY2040) overlaps LAB-18 and, if Espen chooses memo 10 C, LAB-19. Re-scoping AI-4 would lower the plan-wide figure by its wage-insurance part, up to about $3 billion in FY2040 (`6-cost.md`, part 8).
-- **Financing (OUT-11).** Work's whole firm general-fund cost is about 4.5% of the plan-wide FY2040 gap. A booking adds about $6.8 billion in FY2040 and lowers the decade by about $55 billion (part 1C runs it). The floor itself puts its cost mostly on employers and consumers, not the general fund. CBO's 2019 table puts the net losses on families above three times poverty [EV-WRK-450], which is the direction D3 asks for.
+- **Financing (OUT-11).** Work's whole firm general-fund cost is about 4.5% of the plan-wide FY2040 gap. A booking adds about $6.8 billion in FY2040 and lowers the decade by about $55 billion; the budget model's own run gives +$7.0 billion and −$54.0 billion (part 1C). The floor itself puts its cost mostly on employers and consumers, not the general fund. CBO's 2019 table puts the net losses on families above three times poverty [EV-WRK-450], which is the direction D3 asks for.
 
 ## 4. Reach: for whom
 
