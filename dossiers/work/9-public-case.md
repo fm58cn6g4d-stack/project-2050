@@ -138,7 +138,7 @@ The claims on statutory labor penalties, strikers and first contracts (`lab1`) a
 
 ## Questions for Espen
 
-None new. The provisional items above are the eight listed in the README (sections 4 to 6 and the milestone review's fix step 1). Section 9 presents the single adult's result as an open finding for the secure floor's owners and stage G.
+None new. The provisional items above are the eight listed in the README (sections 4 to 6 and the milestone review's fix step 1). Section 9 presents the single adult's result as an open finding for the secure floor's owners and stage G. Answered November 18: `DEC-2026-11-18-01` to `DEC-2026-11-18-09`; farmworkers and domestic workers, `DEC-2026-11-18-10`.
 
 ## Source table
 

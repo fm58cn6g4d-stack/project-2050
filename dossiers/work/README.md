@@ -62,23 +62,23 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
 ## Open questions for Espen
 
 The section 3 batch is decided. Memo 8 part 2 is decided for now (`DEC-2026-11-17-95`), with Espen's direction to explore several options for the future labor economy (`-96`). Open, from section 4 (`4-specification.md`, "Questions for Espen"):
-1. Memo 10: measuring displacement (recommended C) and a standby trigger (recommended C), drafted as LAB-19, provisional.
-2. Point 5, severance, provisional: specified on the recommendation, open until the study.
-3. Point 11, codetermination, provisional: specified on the recommendation, still being studied.
-4. Wage insurance and quits for good cause: drafted as a working reading (LAB-18.03), with work-connected good-cause quits in and personal ones out; pending Espen.
+1. Memo 10: measuring displacement (recommended C) and a standby trigger (recommended C), drafted as LAB-19, provisional. **Answered November 18: `DEC-2026-11-18-01` (direction, provisional until revised).**
+2. Point 5, severance, provisional: specified on the recommendation, open until the study. **Answered November 18: `DEC-2026-11-18-02` (decided).**
+3. Point 11, codetermination, provisional: specified on the recommendation, still being studied. **Answered November 18: `DEC-2026-11-18-03` (decided).**
+4. Wage insurance and quits for good cause: drafted as a working reading (LAB-18.03), with work-connected good-cause quits in and personal ones out; pending Espen. **Answered November 18: `DEC-2026-11-18-04` (direction, provisional until revised).**
 
 New from section 5 (`5-delivery.md`, "Questions for Espen"), each drafted on the recommendation:
-5. The territories' wage floor (LAB-4.10; revised in the milestone review's fix step 2, review question 2): the national schedule capped at 75% of each territory's median in Puerto Rico, Guam, the Virgin Islands and the Northern Mariana Islands, about $13.20 in Puerto Rico in 2035 against $17 (93% of its median) on the national schedule; American Samoa on its own path in today's law, with the commission reporting (`4-specification.md`, "Questions for Espen", item 5).
-6. Wage insurance's monthly payment (LAB-18.08): the worker confirms hours each month, checked against employers' quarterly reports, because section 4 pays monthly on quarterly reports.
+5. The territories' wage floor (LAB-4.10; revised in the milestone review's fix step 2, review question 2): the national schedule capped at 75% of each territory's median in Puerto Rico, Guam, the Virgin Islands and the Northern Mariana Islands, about $13.20 in Puerto Rico in 2035 against $17 (93% of its median) on the national schedule; American Samoa on its own path in today's law, with the commission reporting (`4-specification.md`, "Questions for Espen", item 5). **Answered November 18: `DEC-2026-11-18-09` (direction); American Samoa, `DEC-2026-11-18-05` (decided).**
+6. Wage insurance's monthly payment (LAB-18.08): the worker confirms hours each month, checked against employers' quarterly reports, because section 4 pays monthly on quarterly reports. **Answered November 18: `DEC-2026-11-18-06` (decided, with a gut-check request).**
 
 New from section 6 (`6-cost.md`, part 4), mainly about money:
-7. The small-business credit's size (LAB-5.01): as specified it costs about $3 billion, not the $0.02-0.04 trillion memo 1 carried; recommended, keep it as specified (provisional). Section 6 also prices items 1-6 on their recommendations.
+7. The small-business credit's size (LAB-5.01): as specified it costs about $3 billion, not the $0.02-0.04 trillion memo 1 carried; recommended, keep it as specified (provisional). Section 6 also prices items 1-6 on their recommendations. **Answered November 18: `DEC-2026-11-18-07` (direction, provisional until revised).**
 
 New from the milestone review's fix step 1 (`6-cost.md`, "Questions for Espen", item 1), mainly about money:
-8. The unemployment standard's cost to employers (LAB-11.01): as specified, regular benefits rise about $42 billion a year at FY2025 levels, about twice the $15-25 billion memo 7 showed; the general fund moves about $4 billion a year by FY2040. Keep 75% from 2031, phase it in, or hold the rate at 60%? Recommended: keep the decided standard (provisional; four options priced).
+8. The unemployment standard's cost to employers (LAB-11.01): as specified, regular benefits rise about $42 billion a year at FY2025 levels, about twice the $15-25 billion memo 7 showed; the general fund moves about $4 billion a year by FY2040. Keep 75% from 2031, phase it in, or hold the rate at 60%? Recommended: keep the decided standard (provisional; four options priced). **Answered November 18: `DEC-2026-11-18-08` (direction, provisional until revised).**
 
 Section 7 (`7-validation.md`) adds no question. It tests items 1-7 on their recommendations, and they stay provisional.
 
 Section 8 (`8-change-our-minds.md`) adds no question. Its part 7 gives, for items 1-7, the finding that would change each recommendation.
 
-Section 9 (`9-public-case.md`) adds no question. It presents items 1-7 as provisional, and the single adult's result as a finding for the secure floor's owners and stage G.
+Section 9 (`9-public-case.md`) adds no question. It presents items 1-7 as provisional, and the single adult's result as a finding for the secure floor's owners and stage G. Answered November 18: items 1-8 are in `DEC-2026-11-18-01` to `DEC-2026-11-18-09`, and farmworkers and domestic workers, `DEC-2026-11-18-10` (decided: the next work fix step brings options).

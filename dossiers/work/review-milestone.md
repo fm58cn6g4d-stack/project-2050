@@ -195,9 +195,9 @@ Every one of section 9's 61 evidence IDs exists and holds its figure. Every prom
 
 Each is a separate question; none re-argues a decision.
 
-1. **Memo 7's cost to employers** (O-1, after fix step 1 re-derives it). As specified, the unemployment benefit standard (75% of pay up to two-thirds of the state's average wage) looks to cost employers roughly twice what memo 7 showed: about $40-50 billion a year more at FY2025 levels, not $15-25 billion. Keep the standard as decided, or phase the 75% in (for example from 50% over the decade)? The general fund changes by only a few billion dollars a year either way.
-2. **Puerto Rico's minimum wage** (M-1, after fix step 2 drafts options). $17 in 2035 would sit near Puerto Rico's whole median wage outside San Juan. Follow the national schedule, a separate path like American Samoa's (LAB-4.10), or the commission's report first?
-3. **Farmworkers and domestic workers** (M-3). They stay outside the labor act's organizing rights, and farm overtime exemptions stay, in the first bill. Leave that for later work, as the dossier says, or bring options now?
+1. **Memo 7's cost to employers** (O-1, after fix step 1 re-derives it). As specified, the unemployment benefit standard (75% of pay up to two-thirds of the state's average wage) looks to cost employers roughly twice what memo 7 showed: about $40-50 billion a year more at FY2025 levels, not $15-25 billion. Keep the standard as decided, or phase the 75% in (for example from 50% over the decade)? The general fund changes by only a few billion dollars a year either way. **Answered November 18: `DEC-2026-11-18-08` (direction, provisional until revised).**
+2. **Puerto Rico's minimum wage** (M-1, after fix step 2 drafts options). $17 in 2035 would sit near Puerto Rico's whole median wage outside San Juan. Follow the national schedule, a separate path like American Samoa's (LAB-4.10), or the commission's report first? **Answered November 18: `DEC-2026-11-18-09` (direction, provisional until revised).**
+3. **Farmworkers and domestic workers** (M-3). They stay outside the labor act's organizing rights, and farm overtime exemptions stay, in the first bill. Leave that for later work, as the dossier says, or bring options now? **Answered November 18: `DEC-2026-11-18-10` (decided: the next work fix step brings options).**
 
 Espen's open items W1 to W7 are unaffected by this review, except that L-1 adds a simpler form for the credit to W7's alternatives.
 

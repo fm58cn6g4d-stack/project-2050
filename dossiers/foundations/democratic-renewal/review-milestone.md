@@ -279,9 +279,9 @@ Each is sized for one later session (Most capable unless marked). None needs a n
 
 Kept apart from the fixes. Each is a decided choice with a cost or gap the dossier does not show; none argues the choice.
 
-1. **D4 should wait for fix step 1.** The "about $22 billion less" on the decision sheet is on two different bases, may be $17-39 billion on one basis, and leaves out the IRS revenue that lags with it (perhaps $30-40 billion over FY2030-39, unmodeled). *Recommended:* hold D4 until it is restated; nothing is booked meanwhile.
-2. **The stock ban's reach (memo 6 A).** Senior congressional staff, federal judges and Federal Reserve officials are not covered by the ban; judges and Federal Reserve officials get disclosure only. Should a later step weigh adding any of them? (No cost; a scope choice.)
-3. **DEM-12.01 if its power fails.** If the fix step finds no enforcement-clause record strong enough, is a state track (with the notice and pretrial access kept federal) an acceptable fallback, or should the plan carry the federal rule and accept the court risk? *Recommended:* carry the federal rule as a severable section, with the state track behind it.
+1. **D4 should wait for fix step 1.** The "about $22 billion less" on the decision sheet is on two different bases, may be $17-39 billion on one basis, and leaves out the IRS revenue that lags with it (perhaps $30-40 billion over FY2030-39, unmodeled). *Recommended:* hold D4 until it is restated; nothing is booked meanwhile. **Answered November 18: `DEC-2026-11-18-14` (D4 decided, option B, after the restatement in #442).**
+2. **The stock ban's reach (memo 6 A).** Senior congressional staff, federal judges and Federal Reserve officials are not covered by the ban; judges and Federal Reserve officials get disclosure only. Should a later step weigh adding any of them? (No cost; a scope choice.) **Answered November 18: `DEC-2026-11-18-16` (decided: senior staff and Fed governors covered, judges disclosure only).**
+3. **DEM-12.01 if its power fails.** If the fix step finds no enforcement-clause record strong enough, is a state track (with the notice and pretrial access kept federal) an acceptable fallback, or should the plan carry the federal rule and accept the court risk? *Recommended:* carry the federal rule as a severable section, with the state track behind it. **Answered November 18: `DEC-2026-11-18-17` (decided, option A, with a legal direction).**
 
 ## 5. What this review did not do
 
