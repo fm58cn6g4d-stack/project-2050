@@ -179,7 +179,7 @@ The claims on the Voting Rights Act's constitutional risk (`dem1-legal`), the st
 
 ## Questions for Espen
 
-None new from this section. The provisional items above are the six listed in the README (sections 4, 5, 7 and 8; D6 from the milestone review's fix step 2).
+None new from this section. The provisional items above are the six listed in the README (sections 4, 5, 7 and 8; D6 from the milestone review's fix step 2). Answered November 18: `DEC-2026-11-18-11` to `DEC-2026-11-18-17` (D1 to D7).
 
 ## Source table
 
