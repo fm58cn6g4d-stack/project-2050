@@ -9657,5 +9657,152 @@
    "dossiers/foundations/democratic-renewal/4-specification.md"
   ],
   "locator": "28 U.S.C. 2284(a), (b)(1)"
+ },
+ {
+  "id": "EV-DEM-345",
+  "statement": "Federal law requires every state, through its chief election official, to keep a single, uniform, official, centralized, interactive computerized statewide voter registration list, coordinated with other agency databases in the state, with an agreement to match it against the state motor vehicle authority's database and an agreement between that authority and the Commissioner of Social Security.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5401",
+  "anchor": [
+   "shall implement, in a uniform and nondiscriminatory manner, a single, uniform, official, centralized, interactive computerized statewide voter registration list defined, maintained, and administered at the State level",
+   "(iv) The computerized list shall be coordinated with other agency databases within the State.",
+   "The official responsible for the State motor vehicle authority shall enter into an agreement with the Commissioner of Social Security"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-12-31",
+  "context": "Primary law: the Help America Vote Act of 2002, section 303, as codified in the 2024 edition of the U.S. Code. It is the existing machinery the records-first floor (DEM-1.01, 1.08) builds on.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/5-delivery.md"
+  ],
+  "locator": "subsection (a)(1)(A) and (a)(5)(B)"
+ },
+ {
+  "id": "EV-DEM-346",
+  "statement": "In the EAC's 2024 Policy Survey, as CRS summarizes it, the majority of states offered automatic voter registration, just over half allowed same-day registration and voting, two-thirds provided ballot drop boxes and three-quarters offered voters a chance to correct errors on mail ballot envelopes.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5400",
+  "anchor": [
+   "Topline findings from the 2024 Policy Survey included that the majority of states offered automatic voter registration in 2024 and just over half allowed voters to register and vote on the same day",
+   "two-thirds providing ballot drop boxes, and three-quarters offering voters opportunities to correct errors on mail ballot envelopes"
+  ],
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "CRS (nonpartisan) summarizing state-reported data the EAC collected; the EAC published the 2024 report in June 2025, under the second Trump administration, and issued corrections in 2026. CRS cautions that state and local data may be inaccurate or incomplete. Used to show how much of the floor states already run.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/5-delivery.md"
+  ],
+  "locator": "Topline findings"
+ },
+ {
+  "id": "EV-DEM-347",
+  "statement": "In FY2026 enacted appropriations (P.L. 119-75), as CRS tabulates them in millions of dollars, the Election Assistance Commission received 58.9 (27.7 in FY2025), the Federal Election Commission 80.9, the Office of Government Ethics 23.0, the Merit Systems Protection Board 51.5 and the Administrative Office of the U.S. Courts 107.0.",
+  "claim": "data",
+  "figures": [
+   "58.9",
+   "27.7",
+   "80.9",
+   "23.0",
+   "51.5",
+   "107.0"
+  ],
+  "source": "SRC-5399",
+  "anchor": [
+   "Agency\nFY2025 Enacted\nFY2026 Request\nFY2026 House Committee\nFY2026 Senate Introduced\nFY2026 Enacted",
+   "Election Assistance Commission\n27.7\n17.0\n32.0\n48.9\n58.9",
+   "Federal Election Commission\n80.9\n70.9\n76.5\n76.4\n80.9",
+   "Merit Systems Protection Board\n51.5\n46.5\n51.5\n51.5\n51.5",
+   "Office of Government Ethics\n23.0\n23.0\n22.4\n23.0\n23.0",
+   "Administrative Office of the U.S. Courts\n102.7\n110.5\n102.7\n102.7\n107.0",
+   "It was signed by the President as P.L. 119-75 the same day."
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "CRS (nonpartisan) tables, Table 5 (judiciary) and Table 7 (independent agencies). Figures are net budget authority. The EAC's line appears to include the HAVA election security grants ($45 million in FY2026 and $15 million in FY2025, EV-DEM-017), so its own operating budget is much smaller than the line; the table does not split it. The same figures are the FY2026 rows of legacy/sources/capacity-recovery-components.csv (lines 57-59).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/5-delivery.md"
+  ],
+  "locator": "Tables 5 and 7"
+ },
+ {
+  "id": "EV-DEM-348",
+  "statement": "OPM's goal for executive-branch hiring is 80 days; OPM's Time to Hire dashboard showed FY2024 averages of 72.1 days for contracting, 75.5 for human resources management and 94.6 for information technology management, while GAO's own hiring in those occupations took about 103 days.",
+  "claim": "data",
+  "figures": [
+   "80",
+   "72.1",
+   "75.5",
+   "94.6",
+   "103"
+  ],
+  "source": "SRC-5402",
+  "anchor": [
+   "the Office of Personnel Management’s (OPM) target for executive branch\nhiring is 80 days.",
+   "Contracting\n\n110.1\n\n72.1\n\nHuman Resources Management\n\n93.1\n\n75.5",
+   "Information Technology Management\n\n105.4\n\n94.6",
+   "The OIG found that GAO’s hiring of employees in government-wide MCOs took about\n103 days on average in FY 2024"
+  ],
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-09-30",
+  "context": "GAO's Office of Inspector General (legislative branch), August 2026, reproducing OPM's public Time to Hire dashboard as accessed September 26, 2025 (second Trump administration publication of FY2024 data; it covers only Chief Human Capital Officers Act agencies and three government-wide mission critical occupations). The OIG also found GAO's own data unreliable. A partial time-to-hire series, not the agency-by-agency series CAP-11.01 asks OPM to publish.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/5-delivery.md"
+  ],
+  "locator": "Introduction; Results in Brief; Table 1"
+ },
+ {
+  "id": "EV-DEM-349",
+  "statement": "The Legal Services Corporation does not provide legal services itself: it funds local providers, selected competitively since 1996 for designated service areas, and in 2015 funded 134 local programs in 812 offices employing about 4,591 attorneys.",
+  "claim": "data",
+  "figures": [
+   "134",
+   "812",
+   "4,591"
+  ],
+  "source": "SRC-5403",
+  "anchor": [
+   "The LSC does not provide legal services directly. Rather, it funds local legal services providers, referred to by the LSC as \"grantees.\"",
+   "During 2015, the LSC funded 134 local programs in 812 offices employing about 4,591 attorneys.",
+   "Since 1996 ( P.L. 104-134 ), LSC grantees (i.e., legal services agencies/providers/programs) have been selected on a competitive basis.",
+   "legal services providers in every jurisdiction bid to become the LSC grantee for a designated service area in a state"
+  ],
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-11-18",
+  "recheck": "2027-06-30",
+  "context": "CRS (nonpartisan), October 2016; the counts are for 2015 and dated. LSC's current grantee and staffing counts are still needed (section 4, Evidence still needed). Used for the delivery channel, not for sizing.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/5-delivery.md"
+  ],
+  "locator": "Background"
+ },
+ {
+  "id": "EV-DEM-350",
+  "statement": "Under the Criminal Justice Act, each federal district court, with the approval of its circuit's judicial council, operates a plan for furnishing representation to people unable to pay, with counsel selected from a panel of attorneys the court designates or approves, or from a bar association, legal aid agency or defender organization.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5404",
+  "anchor": [
+   "Each United States district court, with the approval of the judicial council of the circuit, shall place in operation throughout the district a plan for furnishing representation for any person financially unable to obtain adequate representation in accordance with this section.",
+   "Counsel furnishing representation under the plan shall be selected from a panel of attorneys designated or approved by the court, or from a bar association, legal aid agency, or defender organization furnishing representation pursuant to the plan."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-12-31",
+  "context": "Primary law, 18 U.S.C. 3006A(a) and (b), 2024 edition of the U.S. Code. The model CRT-5.08 names for adult counsel in the immigration court.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/5-delivery.md"
+  ],
+  "locator": "subsections (a) and (b)"
  }
 ]

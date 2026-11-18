@@ -1072,7 +1072,6 @@ SRC-5509,library/text/wrk-a-dol-eo14026.txt,3692,c598d895b9130be5bc129bd14e05cd8
 SRC-5511,library/text/wrk-a-s2013-hawley-welch.txt,3137,d32eb44cb2fd3f12df40e69eb1c557e12cb8c33d794d80d700850b0606f5308c,2026-11-16,2026-11-16
 SRC-5512,library/text/wrk-a-hr2743-raise-wage.txt,14672,21fb0f89ef1e8a2c10ad7439026ac206a38002a70fc6e8ffa372a7c7ba2b94ee,2026-11-16,2026-11-16
 SRC-5513,library/text/wrk-a-treasury-labor-competition.txt,260078,e0adbea6327f92098f3642dcc96e3606766ff01c0eae3145cd6f5e0a06fc1701,2026-11-16,2026-11-16
-SRC-5515,library/text/wrk-4-ui-law-comparison-2023-nonmonetary.txt,132088,8f6f536cd84fbc609622f937f9b0ea9a5428e47ab4bc79d6d5fadaf98e0fec49,,
 SRC-5620,library/text/wrk-b-nlrb-fy2026-par.txt,202333,6e4b4156a4fa0f02949cea68602d2ec53a3070af35dc8c1e5bca30c899fd0c10,2026-11-16,2026-11-16
 SRC-5621,library/text/wrk-b-nlrb-fy2025-par.txt,239746,fa9a946534b49bc1d8ff57e06afd07758f36e7afb499852647aac08140148c19,2026-11-16,2026-11-16
 SRC-5622,library/text/wrk-b-nlrb-fy2024-intake-release.txt,4531,24946b5b4ca90483c49d20fe0bb4a0764476f20f92a5d757f8a328fcfdcdd38d,2026-11-16,2026-11-16
@@ -1251,6 +1250,7 @@ SRC-5373,library/text/dr2-crs-r41948-automatic-continuing-resolutions.txt,60688,
 SRC-5375,library/text/dr2-fns-snap-admin-costs-summary.txt,7291,9731219629d5e182aa53611bc6ff643b3cfb825c7995cff3a2938849f6619dd9,2026-11-16,2026-11-16
 SRC-5378,library/text/dr3-hrpt-116-317-vraa.txt,323243,f27f26db3668874994e7bad71a985f6289bee693451460a5eab4edbc991183df,,
 SRC-5784,library/text/wrk-3-ui-modernization-act-2025-sxs.txt,11780,5d12c5cbb795e02cd00e8497af3c3308a3a9824244548e79182806a910e85ad4,,
+SRC-5515,library/text/wrk-4-ui-law-comparison-2023-nonmonetary.txt,132088,8f6f536cd84fbc609622f937f9b0ea9a5428e47ab4bc79d6d5fadaf98e0fec49,,
 SRC-5789,library/text/wrk-3-omb-hist-table-3-2-fy2027.txt,184287,a90c6dc3a981c1d6375b0008944f0f21c83f8e76c5233039f99c8362e076681f,,
 SRC-5387,library/text/dr4-usc-28-152-bankruptcy-judges.txt,53617,6c79105a4ad1c7f51051719e8e382571a89f8b2f942834e546e77bf42694f218,,
 SRC-5388,library/text/dr4-usc-26-1043-conflict-sales.txt,7854,12c92d95ce93938d55a7a97c99efd36fb13b40da0e7c80ea46775703c6058a87,,
@@ -1264,3 +1264,9 @@ SRC-5395,library/text/dr4-crs-r41110-impeachment.txt,84304,a0bc32920ba73a90b06f6
 SRC-5396,library/text/dr4-usc-28-42-circuit-allotment.txt,2021,74052ff272dababd79f11569f17000417a904d1e1232629e0fa7c80522270d0a,,
 SRC-5397,library/text/dr4-usc-28-1-supreme-court.txt,26505,1edd85ce2765f3cf0b8cb225faeddb8ef338d4bc1bff7e5991c58b78059ccfd7,,
 SRC-5398,library/text/dr4-usc-28-2284-three-judge-court.txt,7397,97522c9937f18a7bea30d5576e261bc4227b3fbe0258fc91975e0d1b62c15ad4,,
+SRC-5399,library/text/dr5-crs-r49017-fsgg-fy2026.txt,42247,41a9ed814e065231dfcd3a393d2f1409500c745053d4bf82e5a44773eaab1fc3,,
+SRC-5400,library/text/dr5-crs-if13056-eavs-2024.txt,11728,908f06ae11135f5ab03afb8955e0af6ec95b41e71861523d1a660e6395679425,,
+SRC-5401,library/text/dr5-usc-52-21083-statewide-list.txt,16941,3edf32f3197dc414b990d851c5dde6a85f7b05e37df9adc96144981a44cc3578,,
+SRC-5402,library/text/dr5-gao-oig-26-01-time-to-hire.txt,22353,4f465f2b35c5242f0627a2cd32298d3061819a31519b1c9615d2b032103c1c23,,
+SRC-5403,library/text/dr5-crs-rl34016-lsc.txt,78269,e3150a2f6500254636d2a632e9360f7b43f12f65290fcd8194ec22b41edf6301,,
+SRC-5404,library/text/dr5-usc-18-3006a-cja.txt,57831,9c49e04588815cc19cc2755f9c8799dfe038b235429f13f6ea44460def78c3ee,,
