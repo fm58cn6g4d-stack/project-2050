@@ -1,0 +1,199 @@
+# Democratic renewal: what would change our minds
+
+Role: section 8 of the democratic renewal foundation. For each major commitment in sections 3 to 7 it gives the finding that would reverse or resize it, where that finding would come from and when, the review trigger and who acts on it, and what we would do instead. It then covers the political and legal events that would force a fallback, what is left open, the hard stops, and a calendar of when the evidence arrives. Status: **draft** (stage F, step 8), on `DEC-2026-11-17-40` to `-99`. Every provisional item of sections 4, 5 and 7 stays provisional, and this section adds one (part 9). It changes no provision, no cost and no booked figure.
+
+## How to read this section
+
+- **A change to a decided choice goes back to Espen by memo.** The fallbacks below are, wherever one exists, the options the memos already weighed (`memos/1` to `13`), so a trigger reopens a known fork rather than inventing a new one.
+- **"Who acts" has two halves.** *In the project:* the dossier's next session, the booking step (tier 3), stage G (the financing settlement) or Espen. *In government, from 2029:* the body that holds the decision under section 5 (Congress, OMB's delivery unit, the EAC, the FEC, the Attorney General, the Judicial Conference and so on).
+- **A trigger is a review, not a gate** (`DEC-2026-11-09-13`). Crossing one means someone must look and decide; nothing changes automatically. The one exception is CAP-7.02's release rule, which is automatic by design: a tranche waits when an agency is below 75% of its hiring path at mid-year.
+- **Sources** use the register's tags (`evidence.json`). Years are calendar years unless marked FY.
+
+## 1. The voting floor (DEM-1 Division A, DEM-11, DEM-12, DEM-13)
+
+| Choice | What would change it | Where it would come from, and when | Trigger, and who acts | What we would do instead |
+| --- | --- | --- | --- | --- |
+| **The records-first floor** (memo 1 B, `-40`): registration from records, identity by a broad list or a signed statement, citizenship checked against records | Evidence that signed statements are abused at scale | Post-election audits of statement voters against records, each federal election from 2030; state referrals of false statements | A confirmed false-statement rate well above the audits' noncitizen-registration rates (20 in 8.2 million in Georgia [EV-DEM-163]; 27 in 2.07 million in Utah [EV-DEM-164]). *Project:* back to Espen. *Government:* the EAC reports it; Congress acts | A records check after the vote, never a document at the door (memo 1). Espen's voter-ID direction (note, part a) applies only if a design is free, easy to meet and more secure: the free voter card (DEM-1.07) is the first answer |
+| | The citizenship check by records flags many eligible voters | The EAC's survey every cycle [EV-DEM-346]; states' flag-and-clear counts, from the first records match (2031-32) | Flags not cleared in a person's review at a high rate. *Government:* the EAC and the record-holding agencies (SSA, USCIS, State) | Fix the match before any removal; a flag never removes (DEM-1.08). Not documentary proof of citizenship |
+| | Noncitizen registrations found well above the audit rates | The same audits; DOJ prosecutions | *Project:* back to Espen. *Government:* the Attorney General | A stronger records match (more sources, a second check before the roll closes); still not documents for everyone |
+| **DEM-11 at about $2 billion a year** (`-41`, `-94`), range $1-4 billion, a working assumption | A county or state cost study putting the floor's running cost well above or below it | The study section 3 asks for (Evidence still needed); the EAC's survey; counties' first-year spending reports, from FY2030 | A study outside the $1-4 billion range. *Project:* section 6's line resized at booking, reported to stage G. *Government:* Congress, through the authorization | The grant rises or falls; the floor does not shrink (memo 1). The advocates' "more than $50 billion over ten years" [EV-DEM-356] has no method and would not by itself change it |
+| **The effective dates** (*provisional*, section 5, part 4): barrier-removing rules for any federal election 180 days after enactment; systems rules by the 2032 general election | Most states could build registration from records and the citizenship match in a year | The EAC's 2028 policy survey [EV-DEM-346]; states' CAP-13 build plans in 2029-30 | A clear majority of states ready by mid-2030. *Project:* back to Espen before drafting. *Government:* states may already start sooner | Move the systems rules to the first federal election two years after enactment |
+| | Many states cannot be ready even by 2032 | CAP-13's build reports, 2030-31; the 2030 election's launch problems | States missing the build at mid-2031. *Government:* the EAC and the Attorney General (DEM-1.13's suit after notice, provisional) | Keep the date; put CAP-13's money and the EAC's help on the late states first. No waiver: a waiver would leave the voters in the slowest states behind |
+| | The democracy act is law after about early May 2030 | Congress, 2029-30 | Enactment date. *Government:* none needed; the 180-day rule moves the first covered election by itself | The barrier-removing rules first govern the next federal election at least 180 days on; the court-order warning in *Purcell* [EV-DEM-362] is why no shorter period is used |
+| **Enforcement** (DEM-1.13, *provisional* fix 3): the Attorney General or a voter after notice | A state that keeps missing the floor after the notice period | Suits filed and their outcomes, from the first covered election | Repeat suits against the same state. *Government:* the Attorney General | Keep the suit; add a funding condition on DEM-11 only if suits fail, by memo to Espen |
+| **Restored rights on release; paid time to vote** (DEM-12.01, DEM-13.01) | Notices not reaching people released | Corrections agencies' notice counts; registration of the newly eligible (the Connecticut trial's +1.8 points [EV-DEM-161] is the benchmark) | A registration rise far below the trial's. *Government:* the Attorney General with corrections agencies | Fix the notice (timing, form, the records path), not the right |
+
+## 2. The Voting Rights Act titles and the rights-topic pointer (DEM-1 Division B)
+
+| Choice | What would change it | Where it would come from, and when | Trigger, and who acts | What we would do instead |
+| --- | --- | --- | --- | --- |
+| **One bill in severable modules** (memo 2 B, `-42`): preclearance on a rolling record (Title II), the results test restored (III-A), an intent claim that can be won (III-B) | A ruling before 2029 that also narrows intent claims | The Court's 2026-28 terms, after *Callais* [EV-DEM-007] | Any holding that tightens the "strong inference" standard. *Project:* the dossier's next session redrafts III-B; Espen told | III-B's record carries the case for an amendment (AMD-5, wave three) (memo 2) |
+| | A Senate path that can carry the floor but not the Voting Rights titles | The 2028 election and the rules decision (D2) in January 2029 | A whip count in early 2029. *Project:* the lead brings it to Espen | Memo 2 C, the floor alone, with the risk named |
+| | III-A struck after enactment | The first challenges, from 2030, in the three-judge courts (DEM-1.13) | The ruling. *Government:* none: the title falls alone (DEM-1.19) | III-B and Title II stand. Section 4 claims no survival for III-A, so this changes nothing else |
+| | Title II's coverage formula struck | The same courts, 2030-32 | The ruling. *Project:* back to Espen | The practice-based review of listed changes nationwide (DEM-1.16) if it survives; otherwise AMD-5 |
+| | Preclearance swamps DOJ, or covers places with no recent violations | DOJ's submission counts; the yearly coverage list | Submissions far above DOJ's staffing, or coverage set off by stale findings. *Government:* the Attorney General reports to Congress | Adjust the window and thresholds in drafting (the John Lewis Act's 25 years is a working choice, DEM-1.16) |
+| **DEM-1D held; the Title VI effects standard sent to the rights topic** (`-43`, `-99`, b) | The rights topic's own evidence showing the effects standard belongs in the voting bill, or no longer belongs anywhere | The rights topic (`agenda/rights`) when it is started; the scholarly survey the note could not find (note, part b) | That dossier's design section. *Project:* the rights topic decides, by memo to Espen | It rides its own vehicle, never DEM-1 (the voting act does not carry it, `4-specification.md`, Division B) |
+
+## 3. Redistricting and the staged House path (DEM-2, DEM-3, DEM-4, DEM-9)
+
+| Choice | What would change it | Where it would come from, and when | Trigger, and who acts | What we would do instead |
+| --- | --- | --- | --- | --- |
+| **Criteria, a three-judge backstop and commissions as a safe harbor** (memo 3 D, `-44`); the mid-decade ban from enactment through the 2031 cycle (`-45`) | A ruling before 2029 confirming Congress may mandate commissions | The Court, 2026-28 | The holding. *Project:* back to Espen | Memo 3 B, a severable mandate, with Title III effective for the 2041 cycle (memo 3) |
+| | The democracy act is not law before the spring 2031 census data | Congress, 2029-31 | Not enacted by about March 2031 (section 7, part 7). *Government:* none; the ban applies from enactment | The 2031 maps are drawn under current law; the ban and criteria bind from enactment; the next full cycle is 2041 |
+| | The partisan-fairness test (DEM-2.03) struck | The three-judge courts, 2031-32 | The ruling | The neutral criteria stand alone (DEM-2.06) |
+| | The fast track does not settle challenges before filing deadlines | The courts' calendars (CRT-3.02), 2031-32 | Any state's map unresolved at its filing deadline. *Government:* Congress | Shorten the schedule; the remedial map for the cycle stays |
+| | The 2031 maps show no fall in partisan bias | The bias measures each cycle [EV-DEM-261] | Bias at or above the 2021 cycle's. *Project:* back to Espen at the 2033 package | Weigh a stronger fairness test or memo 3 B for 2041; the evidence on commissions with final power [EV-DEM-259] [EV-DEM-260] says the backstop should help |
+| **Step 1, 2029-30: the state option** (DEM-4.01, `-99`, h) | No state takes it up, or only one party's states | State laws, 2030-32; nineteen states had banned ranked-choice voting by March 2026 [EV-DEM-255] | Uptake by 2032. *Project:* reported to the 2033 decision | The 2033 decision rests on city, state-legislative and overseas evidence (New Zealand [EV-DEM-257]) instead; low uptake is expected and does not by itself drop step 3 |
+| **Step 2, the 2031 review: the House's size** (DEM-3.01) | The Architect's chamber cost far above the legacy $0.01-0.03 trillion | The Architect of the Capitol's report, due by 2030 | Cost far above the range. *Project:* priced for stage G; Espen chooses among 3A, 3B and 3C | A smaller increase (3C) or the Wyoming rule (3B) instead of the cube-root rule's about 692 [EV-DEM-249], whose yardstick is contested [EV-DEM-250] |
+| | Census numbers too late for the 2032 election | The Census Bureau, spring 2031 | Data after the states' 2032 filing calendars allow. *Government:* Congress | The larger House takes effect with the 2034 redraw (DEM-3.01) |
+| | A mid-decade reapportionment held outside Congress's power | The legal review the legacy file asks for, 2027-28 (`domain-democracy.md`:146) | The review's conclusion. *Project:* back to Espen | The 2034 redraw becomes 2042 (memo 13) |
+| **Step 3, 2033: nationwide multi-member districts and the presidential method** (DEM-4.02, DEM-9.01) | No second trifecta in 2033 | The 2032 election | Election result. *Project:* back to Espen | The state option stays; steps 1 and 2 stand on their own, which is why the path was staged (note, part h) |
+| | The amendment (DEM-8.02) stalls | Congress and the states after 2033; ratification takes 38 | No two-thirds vote by the end of the 2033-34 Congress | The fallback chosen in the 2031 review, before the 2032 platform: DEM-4C (a statutory presidential ranked-choice vote) or DEM-4D (hold multi-member districts until ratified) (legacy open item 1) |
+| | The rerun Section 2 modeling on the post-*Callais* baseline shows multi-member districts cut minority representation | The modeling the 2033 decision requires (DEM-4.02), 2032-33 | A loss in any state's minority-preferred seats. *Project:* back to Espen | Three-member districts (4B) or the state option only |
+
+## 4. Money in politics, the election regulators and the stock ban (INT)
+
+| Choice | What would change it | Where it would come from, and when | Trigger, and who acts | What we would do instead |
+| --- | --- | --- | --- | --- |
+| **The 6:1 match, no spending cap, limits indexed** (memo 4 part 1 B, `-46`), about $6 billion over FY2030-39 (range $4-8 billion, up to $12 billion) | Payments far above the scaling as limits index | The FEC's payments and participation in the first two matched cycles, 2032 and 2034 (working) | Payments above the legacy high of $0.03 trillion a decade (`domain-integrity.md`:78). *Project:* back to Espen; reported to stage G | Cap the index (memo 4) |
+| | Few candidates opt in, or the match does not widen who gives | The same FEC data; small donors by state (Evidence still needed); New York City's matched donors came from 89% of block groups [EV-DEM-193] | Opt-in or donor reach far below New York's. *Government:* the FEC reports to Congress | Adjust the qualifying test and the payment ceiling's formula, not the ratio |
+| **Shareholder authorization** (memo 4 part 2 A, `-47`) | A ruling against it | The legal review of its First Amendment footing, 2027-28 (section 5, part 4); suits after enactment | An adverse review or ruling. *Project:* back to Espen before drafting if the review is adverse | Part 2 D stands by severability: disclosure and the board vote (memo 4) |
+| **DISCLOSE, the coordination presumption, the foreign-owned ban** (INT-2.01, 8.01, 16.01) | A ruling striking the coordination presumption, or DISCLOSE under *Bonta* [EV-DEM-206] | Suits, 2030-32 | The ruling | Each falls alone; DISCLOSE is the base the others need, so a *Bonta* loss is redrafted to narrower earmarking first |
+| **A five-member FEC and EAC with a citizen suit** (memo 5 B, `-48`) | A reading of *Slaughter* [EV-DEM-037] that reaches career staff authority | Suits against the EAC's executive-director authority or the FEC's staff, from 2030 | The ruling. *Project:* back to Espen | Memo 5 D's private right of action becomes the backstop (memo 5) |
+| | Citizen suits become the main route because the FEC still does not act | Complaints acted on within 120 days, each year; the deadlock record was 13% to 24.4% of closed matters [EV-DEM-209] | Most complaints passing 120 days. *Government:* Congress, through the FEC's staff line | Staff and the quorum first; memo 5 C's enforcement bureau by memo to Espen if that fails |
+| **The stock ban** (memo 6 A, `-49`, `-50`), with Espen's terms: no forced sale; funds, Treasuries, municipal bonds and retirement accounts never covered | A ruling that the President cannot be covered by statute | Suits after enactment | The ruling | The rest stands (INT-1.05 is severable) (memo 6) |
+| | Qualified blind trusts that are not blind in practice | The ethics offices' review of filings, from the first year | Holdings traceable to a covered official's direction. *Government:* the ethics offices report to Congress | Tighten the trust rules; still no forced sale |
+| | *Provisional* (section 4, question 1): new individual-stock purchases inside self-directed retirement accounts count | Espen's answer | Espen, in the morning batch | Leave self-directed accounts out, as other retirement accounts (about zero either way, section 6, part 7) |
+| | The fast track fails: Republican votes for the ethics act do not come | Whip counts in 2029; the vote model puts INT-1 at 55% under F (section 7, part 1.1) | No fast track by mid-2029. *Project:* the lead reports it | The ethics act costs floor days the ledger does not budget (legacy, `domain-integrity.md`:179); the stock ban's dates move with enactment |
+
+## 5. Court reform (CRT)
+
+| Choice | What would change it | Where it would come from, and when | Trigger, and who acts | What we would do instead |
+| --- | --- | --- | --- | --- |
+| **Eighteen-year terms by statute plus an amendment** (memo 7 A, `-51`), sitting Justices in a severable part (CRT-15.02) | A ruling, or a commission of scholars, converging on one reading of "good Behaviour" | Suits after the terms act; scholarship; the Presidential Commission was divided [EV-DEM-233] | A holding on CRT-15.01 or 15.02. *Project:* back to Espen | Drop the weaker track (memo 7): if the statute falls, the amendment (CRT-15.03) carries it; if 15.02 alone falls, 15.01 stands and the first statutory term ends about 2047 |
+| **The term-limits bill moves when the politics allow** (`-52`) | The votes appear, or never do | Whip counts each Congress; the vote model puts CRT-P1 at 31% under F | Each Congress's opening. *Project:* the lead reports it | Not held to 2033 (Espen); otherwise unchanged |
+| **The 13-Justice option stays on the table, not enacted** (`-51` b, `-85`); no automatic trigger | The terms statute not enacted, or struck, while the plan's statutory answers to the Court's rulings are struck too | Section 7's watch list: the Voting Rights titles, the *Corner Post* fix, CRT-9's remedies, CRT-10's penalties (CRT-7.02, 9.01, 10.01) | *Provisional, new (part 9):* the question goes on the 2031 review's agenda with a findings record on circuit workload, and again at any later review Espen calls. *Project:* Espen decides; nothing is pre-committed | If pursued: four seats phased across two presidential terms, tied to the term statute, with the term arithmetic re-solved (a Court of 13 needs an appointment about every 1.4 years or 26-year terms) (note, part d) |
+| **71 judgeships in three tranches** (`-53`; 2030, 2033 and 2035, working) | Weighted filings fall, or vacancies pile up unfilled | The Administrative Office's caseload statistics each year; weighted filings over 500 in 20 of 25 districts [EV-DEM-042] | Filings below the Conference's standard in a district before its tranche, or vacancy months rising. *Government:* the Judicial Conference re-requests; Congress adjusts the later tranches | Later tranches resized to the Conference's next request; the bill stays separate and aimed at 60 votes |
+| **Certiorari limits** (point 33, `-98`; CRT-11.01, 11.02) | Certiorari before judgment still used routinely through certification, or the 90-day hold delays cases | The Court's grants each term, from the act's first full term | A pattern the Court's own statistics show. *Project:* the dossier's next session; Espen | Adjust the 90-day period or the certification route |
+| | Mandatory review of statutory splits floods the docket with summary orders that settle nothing | The Court's dispositions on split appeals | Most split appeals disposed of without reasons. *Project:* back to Espen | Narrow "split" to splits acknowledged by more than one circuit each way; the held screening division stays held |
+| **CRT-9 in the second Congress** (point 31, `-98`) | Nationwide relief against programs returns at scale before 2031 | CRS's tracking (no systemic shift a year on [EV-DEM-246]); the plan's own programs' litigation, 2029-31 | Broad relief blocking a plan program for months. *Project:* back to Espen | Move CRT-9.01 into the first Congress; it stays symmetric |
+| **CRT-10: the plan's penalties written for district court now; existing statutes in the second wave** (point 32, `-98`) | The case law after *Jarkesy* [EV-DEM-365] settles faster or slower than expected | Decisions on agency penalties, 2027-31 | A circuit or the Court defining which penalties need a jury. *Project:* the dossier's next session drafts CRT-10.02 to it | Statute by statute, as now; the drafting rule (CRT-10.01) does not change |
+| **A binding code and a judiciary inspector general** (memo 8 A, `-54`) | The Court enforcing its own code credibly by 2029 | The Court's own practice, 2026-28 | Published recusal reasons and enforcement before 2029. *Project:* back to Espen | Memo 8 D, disclosure only, would suffice (memo 8) |
+
+## 6. The independent immigration court (CRT-5) and civil legal aid
+
+| Choice | What would change it | Where it would come from, and when | Trigger, and who acts | What we would do instead |
+| --- | --- | --- | --- | --- |
+| **A unit of the federal courts on the bankruptcy-court model** (A′, `-97`) | A ruling that a class of immigration cases needs an Article III judge | Suits after the court opens (October 1, 2031, working); *Jarkesy* lists immigration among public rights, with a presumption for Article III courts [EV-DEM-365] | The ruling. *Government:* none: CRT-5.10 sends that class to the district court | The rest of the court stands; full Article III conversion (CRT-5C) stays a long-run aspiration |
+| | A ruling that the judges cannot be appointed by the courts of appeals, or cannot sit in the judicial branch | The same suits; *Freytag* [EV-DEM-368] and the bankruptcy-judge model [EV-DEM-333] support the design | The ruling. *Project:* back to Espen | Memo 9 A, an Article I court, with independence resting on structure, since *Slaughter* removed removal protection [EV-DEM-037] |
+| | The restructuring disrupts hiring, the concern opponents raise [EV-DEM-369] | EOIR's and then the court's hires each quarter, 2029-32 | Hires below 150 a year (the backlog then clears FY2037 or later; section 7, part 1.4). *Government:* the Administrative Office's transition office; Congress | Move the effective date with the hiring, not the design; EOIR keeps hiring under IMM-3.08 until the transfer |
+| **The transfer, with interim appointments** (CRT-5.03, *provisional* fix 2) | Screens not finished within two years | The courts of appeals' screening counts, October 2031 to 2033; about 1,250 judges sit at the transfer | Interim appointments near expiry unscreened. *Government:* the circuits add screening panels | A one-time extension by statute, never an unscreened permanent corps |
+| **The corps: about 1,673 judges, about 950 on regular terms and the rest temporary** (memo 9 part 2 as changed, `-56`) | Completions a judge, receipts after legalization, or counsel's effect on hearing times differ from the model | The court's published completions; receipts; the 2033 reset (CRT-5.06) | The 2033 reset. *Government:* the Judicial Conference recommends; Congress authorizes | Fewer or more temporary judgeships; the regular corps (sized to a long-run need of about 726) moves only if receipts move for good. IMM-1's rebooking (about −$4.3 billion over FY2036-39) moves with it |
+| **The court's structure, about $6.9 billion (range $3.2-9.7 billion), unbooked** | A CBO or judiciary estimate well outside the range | CBO or the Administrative Office, when a bill is drafted (Evidence still needed) | An estimate above $10 billion. *Project:* reported to stage G | The structure line is resized; the form does not change |
+| **LSC growth paced by provider hiring, no new right now** (memo 9 part 3 B, `-57`) | LSC closed before 2029 | Appropriations, FY2027-29 (LSC had $540.0 million in FY2026 and a closure request for FY2027 [EV-DEM-352] [EV-DEM-353]) | Closure enacted. *Project:* section 6's line restated (about $5.5 billion to restore first) and reported to stage G | Restore it first, then the steps |
+| | Grantees cannot hire for the steps | Grantees' hiring reports each year, from FY2030 | A step unreleased for lack of hires. *Government:* LSC | Hold the step (CRT-20.01); a right to counsel would fail the same way New York's eviction right did when providers lagged [EV-DEM-243] |
+| | Evidence that a right to counsel in a category (eviction, say) delivers where funded | City and state programs; LSC's reports | A program that holds representation as funding grows. *Project:* back to Espen | Memo 9 part 3's eviction-right option, by memo |
+
+## 7. The capacity part: CAP-7's pace and memo 10's contingency
+
+### 7.1 The pace (CAP-7.01, 7.02, CAP-11.01)
+
+Section 7 found that the booked CAP-7 path reaches its full run rate in FY2032, which matches hiring about half of each agency's target a year, twice the working pace of a quarter (section 7, part 1.3). At the working pace, about **$22 billion** of part G's allocation (range $13-42 billion) is reached later in FY2030-39, with no change in FY2040. The recommendation (provisional, section 7, question 4) is to lay the allocation on the hiring pace at the booking step and lag the IRS's enforcement yield (G8) with it.
+
+| Finding | Where it would come from, and when | What it would change | Who acts |
+| --- | --- | --- | --- |
+| **Net hiring near half of each target a year in FY2030-31** (about 27,000 a year across the six agencies sized) | OPM's quarterly time-to-hire and net-hiring series, which CAP-11.01 builds from R1 [EV-DEM-348]; agencies' counts against their published paths, from mid-2029 | The booked ramp was right: keep it, and drop question 4's re-laying | The booking step reads the first two years' counts before it lays the path; Espen at booking (tier 3) |
+| **Net hiring near the working pace** (about 13,500 a year; the IRS about 7,500 of it) | The same series | Question 4 stands as recommended | The booking step |
+| **Net hiring below a fifth of each target a year** (below about 10,800), or net losses | The same series; attrition, which rose sharply in 2025 (the IRS lost 28% net in a year [EV-DEM-089]) | Dated needs start to miss (section 5, part 3.1). More of the allocation is reached later; the IRS's yield slips further | *Government:* CAP-7.02's rule acts by itself (below 75% of a path at mid-year, the next tranche waits a year, and the money stays available); OMB's delivery unit sets a corrective plan (CAP-7.03, 7.04); each flagship's own start rule applies (provisional fix 1). *Project:* back to Espen if two agencies miss dated needs |
+| **Gross hiring at the scale needed, but trained staff lagging** | Hiring paths count a hire only once trained (section 5, part 3.2); the IRS's revenue agents take a year or more to become productive | G8's lag lengthens even if outlays keep pace | The booking step lags G8 further; stage G |
+| **A hiring record far faster than the path** | The same series | Release faster (memo 10) | OMB releases; the booking step |
+| **The entities outside the flagships** ($67.0 billion of the allocation, hiring not sized) | Their own dossiers (education, international, labor, rights) as they state needs | Their lines resize; needs above the legacy figures go to the contingency first (memo 10) | Each dossier's section 5; stage G |
+
+The finding that would reverse the design itself, not just the booking, is different: **money released against hiring paths does not produce delivery** (agencies hire to their paths but times to a decision, errors and call waits do not improve). That would come from CAP-7.03's quarterly measures, from FY2030, and GAO's yearly audits (CAP-7.05). It would reopen Espen's memo 10 part 2 question (note, part g: pacing is "necessary, not sufficient") and the memo's other options: staffing floors (C) or contractors for defined builds (D), by memo to Espen.
+
+### 7.2 Memo 10's delivery contingency (CAP-7S.02)
+
+The booking holds **$43.2 billion of surge, $29.7 billion sustained over FY2030-39 and $4.7 billion in FY2040** above part G's allocation, released only against a published written need for an enacted program (section 6, part 1.3). The first known claims are about $0.7-1.1 billion, about 2.5-3.5% of the sustained part. A second, separate allowance, Espen's October 26 delivery contingency of $100 billion over FY2030-39 and $14.0 billion in FY2040, is also booked. Together they hold up to about $173 billion and $19 billion no program has claimed.
+
+| Finding | Where it would come from, and when | What it would change | Who acts |
+| --- | --- | --- | --- |
+| **Claims stay small** once every specified dossier's section 5 has stated its needs | The flagships' and wave-three dossiers' delivery sections, 2026-28; written needs filed with OMB from 2029 | Stage G may shrink memo 10's contingency, or merge it with the October 26 allowance in one lane | **Stage G first** (section 6, part 1.3), then Espen; the contingency is booked until then |
+| **Claims approach the cap** | The same; the education, international, labor and rights dossiers are the likeliest new claimants (memo 10) | The contingency covers them first; above the cap, the October 26 allowance takes health first and the rest goes to Espen as a cost question | Stage G; Espen |
+| **One need claimed against both contingencies** | GAO's yearly audit of every release (CAP-7.05); OMB's published releases | Give each a written lane: memo 10's for agency delivery of enacted programs, the October 26 allowance for unpriced program obligations, health first | Stage G |
+| **Releases without a published need, or money unspent while a dated need is missed** | GAO's audit; the Appropriations Committees' 30-day notices | The release rule is not working | *Government:* GAO reports; Congress tightens the notice. *Project:* back to Espen (memo 10 part 1 C, lowering the booking to the bottom-up need, is the fallback) |
+
+**The start rule** (CAP-7.02, *provisional* fix 1, which amends a sentence of decided memo 10 B): if Espen keeps memo 10 B's sentence as written ("a program whose agency is behind starts later; it does not shrink"), care's and housing's fixed dates would move with their agencies, and those flagships' statutes would need changing. What would change the fix itself: a case where a program's fixed date held and the backstop failed people (care's or housing's first year, 2030-31), which would favor memo 10 B's sentence.
+
+### 7.3 The other capacity choices
+
+| Choice | What would change it | Where it would come from, and when | Trigger, and who acts | What we would do instead |
+| --- | --- | --- | --- | --- |
+| **Shared rule 5: one records-first rule** (memo 11 B, `-60`) | Sample audits showing improper payments well above today's programs | Each program's improper-payment rate before and after (CAP-7.03); agencies attribute about 73% of FY2021-24 overpayments to unused data [EV-DEM-291] | Rates above the program's pre-plan rate for two years. *Government:* OMB; *Project:* back to Espen | Targeted checks for the riskiest cases, not documents for everyone (memo 11) |
+| | Wrongful denials traced to matches | Appeals and their outcomes | Any pattern. *Government:* OMB and the program agency | A match is never a denial (CAP-19.04); the match is fixed |
+| **The civil service statute** (memo 12 part 1 B, `-61`) | The faster performance process (CAP-9.01) overloads MSPB, or does not remove poor performers | MSPB's first-year appeal count and times | Times far above the statute's. *Government:* MSPB claims on the contingency; Congress | Staff first; the design stays |
+| **Payments continue in a lapse** (memo 12 part 2 B, `-62`) | EXE-18's per-program design covering payments fully | The executive power dossier (wave three) | Its section 4. *Project:* back to Espen | Memo 12 part 2 C, with the statute held in reserve (memo 12) |
+| **CAP-7 in R1 as a permanent direct appropriation** (section 4) | The Parliamentarian rules it out under the Byrd rule | 2029 (section 7, part 3) | The ruling. *Project:* the vehicle step | R1 money for FY2030-39, renewed later; R1 with out-year offsets; or annual appropriations at the omnibus's odds (an open question, part 9) |
+
+## 8. Political and legal events
+
+- **No Senate rules change** (D2 fails). Every regular-order bill here is at zero in the vote model (section 7, part 1.1). The surge still rides R1 (in 87% of passed R1 packages). Under the carve-out (G), the democracy act alone passes (91%), so DEM-2, the match and DISCLOSE stay inside it; the ethics, courts and civil service bills need 60 votes, and the judgeships act is the likeliest of them.
+- **R1 is late or the hiring authority is struck.** CAP-11.01 moves to the civil service and delivery act; CAP-7S's money comes through appropriations; each flagship's dates move by its own rule (section 5, part 4).
+- **A ruling before 2029 narrows intent claims, or confirms a commission mandate.** Memo 2's and memo 3's fallbacks (parts 2 and 3).
+- **A hostile administration slows grants.** The 60-day payment clock (provisional fix 4) covers DEM-11 and CAP-13 until EXE-3 exists; the released tranches still depend on OMB.
+- **The EAC or FEC stays without a quorum.** Nominations under current law in 2029 restore both before the democracy act restructures them (section 5, part 4); DEM-1.15 lets the EAC's executive director keep its core functions running meanwhile.
+- **LSC is closed before 2029.** Restoring it comes first (part 6).
+- **A later Congress repeals the civil service statute, the floor or the court.** Rules in statute can be repealed; that is why they are in statute rather than order, and why the immigration court sits with judges who remove judges.
+
+## 9. Left open (not decided)
+
+| Question | Alternatives | What would make it matter |
+| --- | --- | --- |
+| CAP-7's vehicle | R1 for FY2030-39; R1 with offsets; annual appropriations | The Parliamentarian in 2029 |
+| Both delivery contingencies | Keep both with lanes; merge; shrink memo 10's | Claims as the dossiers state needs (part 7.2); stage G |
+| The DEM-9 fallback | DEM-4C or DEM-4D | Chosen in the 2031 review, before the 2032 platform |
+| The House's size | 3A, 3B, 3C | The 2031 review; the Architect's report |
+| The 13-Justice option | On the table, not enacted | *Provisional (new):* placed on the 2031 review's agenda (part 5) |
+| CRT-11's held parts | A screening division; mandatory review of statute invalidations | The Court's docket after CRT-11.01 and 11.02 |
+| CRT-12, a specialized regulatory court | No, for now; kept for particular rules, agencies or programs (`-82`) | A rule or program whose challenges CRT-7's channeling does not settle |
+| INT-5B's payer | General revenue (working) | Stage G |
+| The voter-ID direction | The free card and the statement (decided); a stricter rule only if free, easy and more secure | Audits of statement voting (part 1) |
+| The immigration court's corps after 2033 | As reset | Receipts after legalization |
+
+## 10. Hard stops
+
+- **No use of the records for enforcement.** If a law requires registration or shared rule 5 records to be used for immigration or criminal enforcement, the matching stops (DEM-1.14, CAP-19.02); the plan opposes the change rather than work around it.
+- **No voter turned away for lack of a document.** A finding of statement abuse is answered after the vote, with records (part 1). A stricter ID rule returns only by Espen's decision on the conditions Espen set (note, part a).
+- **A data match is never a denial** (CAP-19.04), for voters and for every plan program.
+- **No automatic response to a ruling.** Court expansion, including 13 Justices, needs a fresh decision (`-85`; the removed CRT-16). No judge is impeached for a ruling (CRT-18.01).
+- **A program never shrinks to fit a late agency.** Its start moves or its backstop acts, by its own statute (memo 10 B; provisional fix 1).
+
+## 11. When the evidence arrives
+
+| When | Evidence | What it informs |
+| --- | --- | --- |
+| 2026-28 | The Court's terms after *Callais*, on intent claims and commission mandates | Memos 2 and 3 (parts 2, 3) |
+| 2026-28 | The specified and wave-three dossiers' delivery sections | Memo 10's contingency (part 7.2); the outside-flagship entities' lines |
+| 2027-28 (preparation) | Legal reviews of INT-15 and of a mid-decade reapportionment; agencies' draft hiring paths | Memo 4 part 2; the 2034 redraw; CAP-7.02 |
+| 2028 | The EAC's policy survey [EV-DEM-346]; the November election and the rules decision (D2) | The effective dates; which bills can pass |
+| FY2027-29 | LSC's appropriations | CRT-20.01's starting point |
+| 2029 | The Parliamentarian on CAP-7 and CAP-11 in R1; hiring paths within 90 days of R1 | The vehicle; the pace |
+| From mid-2029, quarterly | OPM's time-to-hire and net-hiring series; counts against paths | The pace and the booking step (part 7.1) |
+| Mid-2030, then yearly | The first mid-year path counts; GAO's audits of paths and releases | Tranche waits; the contingency |
+| From FY2030, quarterly | CAP-7.03's delivery measures | Whether pacing delivers (part 7.1) |
+| By 2030 | The Architect's chamber report | The 2031 review |
+| November 2030 | The first election under the barrier-removing rules; statement audits | Memo 1; the voter-ID direction |
+| Spring 2031 | Census redistricting data | Whether Divisions B and C bind the 2031 maps; the House's size for 2032 or 2034 |
+| 2031 | The 2031 review: the House's size, the DEM-9 fallback and (provisional) the 13-Justice question | Steps 2 and 3 |
+| 2031-32 | The 2031 maps' bias; the fast track's calendar | Memo 3 |
+| October 2031 to 2033 | The immigration court's screens and hires | The interim appointments; the corps |
+| 2032 and 2034 | The first two matched cycles; the full floor in force | Memo 4; DEM-1's effects (the CPS supplement after each election) |
+| 2033 | The corps reset from receipts; the 2033 package on the state option's evidence | CRT-5.06 and IMM-1; step 3's design |
+| About FY2035 | The backlog cleared, or not | The temporary judgeships' end |
+
+## Changes made here, and the questions for Espen
+
+**Change to section 7 (no figure changes).** Part 1.3 (a) called the 78.8 "part G's own path"; it is the review's midpoint path, which CAP-7.02 names as the working path. Corrected (#432's review nit).
+
+**Questions for Espen.** The four earlier provisional items stay provisional, drafted on their recommendations under the overnight relay (Espen, November 18) and revised for Espen's answers: (1) INT-1.01's self-directed retirement accounts; (2) section 5's four delivery fixes, of which (a) **amends a sentence of decided memo 10 B**; (3) the floor's effective dates; (4) section 7's booking question on CAP-7's pace. One is new here, also drafted on its recommendation and marked provisional:
+
+5. **The 13-Justice option's review point** (part 5). *Recommended:* put the question on the 2031 review's agenda, beside the House's size, with a findings record on circuit workload, and at any later review Espen calls; no automatic trigger and no pre-committed response (`-85`). It changes no provision and costs nothing. *The alternative:* no fixed review point; the option comes back only when Espen raises it.
