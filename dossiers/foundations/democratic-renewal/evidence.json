@@ -10844,5 +10844,245 @@
    "dossiers/foundations/democratic-renewal/7-validation.md"
   ],
   "locator": "28 U.S.C. 44(a), table"
+ },
+ {
+  "id": "EV-DEM-390",
+  "statement": "CRS reports that in Louisiana v. Callais the Court reasoned that legislation enforcing the Fourteenth and Fifteenth Amendments needs congruence and proportionality to the guarantee enforced, and that because the Fifteenth Amendment prohibits only intentional discrimination, the Act's nationwide ban on discriminatory voting practices is congruent and proportional so long as it serves to enforce the ban on intentional discrimination.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0546",
+  "anchor": [
+   "According to the Court, in any legislation enforcing the Fourteenth and Fifteenth Amendments, there needs to be \"a congruence and proportionality\" between the constitutional guarantee sought to be enforced and the law enacted to accomplish that goal.",
+   "the Court reasoned that any law seeking to enforce the Fifteenth Amendment likewise must focus on intentional discrimination"
+  ],
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-18",
+  "recheck": "2027-06-30",
+  "context": "CRS LSB11431, 2026-05-14 (nonpartisan), reporting the opinion; the opinion itself is not saved. The reasoning is constitutional, not only statutory, so it bears on any enforcement statute judged by effect, including a preclearance standard that bars changes by their effect (Title II, DEM-1.16). With EV-DEM-007 (the holding).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md",
+   "dossiers/foundations/democratic-renewal/8-change-our-minds.md"
+  ],
+  "locator": "section 'The Court's Ruling', paragraph on the strong-inference standard"
+ },
+ {
+  "id": "EV-DEM-391",
+  "statement": "In SEC v. Jarkesy (2024) the Court said civil penalties are legal in nature when designed to punish or deter the wrongdoer rather than solely to restore the status quo.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5417",
+  "anchor": [
+   "Such relief is legal in nature when it is designed to punish or deter the"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law (syllabus). With EV-DEM-365 (the public-rights holding). Bears on a civil penalty collected before any court acts (INT-1.04).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "Syllabus, (b)"
+ },
+ {
+  "id": "EV-DEM-392",
+  "statement": "In Buckley v. Valeo (1976) the Court said contribution ceilings prevent attempts to circumvent the Act through prearranged or coordinated expenditures amounting to disguised contributions, while expenditures made totally independently of the candidate may provide little assistance to the candidate.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5415",
+  "anchor": [
+   "contribution ceilings rather than § 608 (e) (1)'s independent expenditure limitation prevent attempts to circumvent the Act through prearranged or coordinated expenditures amounting to disguised contributions. By contrast,",
+   "of candidates made totally independently of the candidate and his campaign. Unlike contributions, such independent expenditures may well provide little assistance"
+  ],
+  "grade": "A",
+  "fact_date": "1976",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law (per curiam). The base for treating coordinated spending as a contribution (INT-8.01); spending that is in fact independent stays outside the limits.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Part I.C.1, the independent expenditure limitation"
+ },
+ {
+  "id": "EV-DEM-393",
+  "statement": "In FEC v. Ted Cruz for Senate (2022) the Court called a prophylaxis-upon-prophylaxis approach a significant indicator that a regulation may not be necessary, and said the government must point to record evidence or legislative findings demonstrating the need to address a special problem.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5416",
+  "anchor": [
+   "357. Such a prophylaxis-upon-prophylaxis approach, we",
+   "have explained, is a significant indicator that the regulation",
+   "must instead point to “record evidence or legislative findings” demonstrating the need to address a special problem."
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law (Roberts for the Court, 6-3). A presumption of coordination layered on contribution limits is the kind of measure this test reaches (INT-8.01). With EV-DEM-364.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Opinion of the Court, Part III"
+ },
+ {
+  "id": "EV-DEM-394",
+  "statement": "The district courts have original and exclusive jurisdiction of all cases under the Bankruptcy Code.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5437",
+  "anchor": [
+   "(a) Except as provided in subsection (b) of this section, the district courts shall have original and exclusive jurisdiction of all cases under title 11."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, 2024 edition of the U.S. Code on GovInfo; later amendments not checked against the Law Revision Counsel's current release point. The reference to bankruptcy judges and its withdrawal are in 28 U.S.C. 157(a) and (d), not here (EV-DEM-395). This jurisdiction, with bankruptcy judges as units of the district court (EV-DEM-333), is the structure Stern (EV-DEM-366) and Wellness (EV-DEM-367) review.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "28 U.S.C. 1334(a)"
+ },
+ {
+  "id": "EV-DEM-395",
+  "statement": "Under the Judicial Code's bankruptcy procedures, each district court may provide that bankruptcy cases and proceedings be referred to the bankruptcy judges for the district, and the district court may withdraw, in whole or in part, any case or proceeding referred, on its own motion or a party's timely motion, for cause shown.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5438",
+  "anchor": [
+   "(a) Each district court may provide that any or all cases under title 11 and any or all proceedings arising under title 11 or arising in or related to a case under title 11 shall be referred to the bankruptcy judges for the district.",
+   "(d) The district court may withdraw, in whole or in part, any case or proceeding referred under this section, on its own motion or on timely motion of any party, for cause shown."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, 2024 edition of the U.S. Code on GovInfo; later amendments not checked. The model for CRT-5.01's reference of removal cases to the immigration court.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "28 U.S.C. 157(a), (d)"
+ },
+ {
+  "id": "EV-DEM-396",
+  "statement": "Under the Federal Election Campaign Act, an individual becomes a candidate for federal office, including President, on receiving contributions or making expenditures above $5,000.",
+  "claim": "data",
+  "figures": [
+   "$5,000"
+  ],
+  "source": "SRC-5439",
+  "anchor": [
+   "(2) The term \"candidate\" means an individual who seeks nomination for election, or election, to Federal office, and for purposes of this paragraph, an individual shall be deemed to seek nomination for election, or election—",
+   "(A) if such individual has received contributions aggregating in excess of $5,000 or has made expenditures aggregating in excess of $5,000; or",
+   "(3) The term \"Federal office\" means the office of President or Vice President, or of Senator or Representative in, or Delegate or Resident Commissioner to, the Congress."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, 2024 edition on GovInfo. Candidacy, and the duty to register with the FEC that follows from it, is not optional above the threshold, so a requirement tied to filing as a candidate needs its own sanction (INT-6.01).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "52 U.S.C. 30101(2), (3)"
+ },
+ {
+  "id": "EV-DEM-397",
+  "statement": "CRS, quoting the Twenty-Third Amendment's text that the seat of government \"shall appoint\" electors \"in such manner as the Congress may direct\", concluded that because the House-passed admission bill would reduce rather than eliminate the federal district, it seems likely that the Twenty-Third Amendment would continue to operate as written, potentially giving state-like electoral power to the reduced district's limited population, and that the bill's fast track for a repeal resolution does not guarantee that Congress would propose the repeal or that three-fourths of the states would promptly ratify it.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5436",
+  "anchor": [
+   "Section 1. The District constituting the seat of Government of the United States shall appoint in such",
+   "manner as the Congress may direct:",
+   "present-day downtown DC, it seems likely that the Twenty-Third Amendment would continue to",
+   "operate as written, potentially giving state-like electoral power to the greatly limited population of",
+   "a proposed amendment, or that three-fourths of states would promptly ratify the repeal.66"
+  ],
+  "grade": "B",
+  "fact_date": "2022-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "CRS R47101 (May 12, 2022), nonpartisan legal analysis with no stake. It also finds standing to challenge an admission act unclear, and cites the Justice Department's 1987 Office of Legal Policy report, which argued that statehood by statute is unconstitutional (EV-DEM-398). Supported, from the other side, by the opposing view CRS reports (Raven-Hansen 1991, a theoretical rather than a realistic problem); the question is untested in court.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md",
+   "dossiers/foundations/democratic-renewal/8-change-our-minds.md"
+  ],
+  "locator": "'The Twenty-Third Amendment'"
+ },
+ {
+  "id": "EV-DEM-398",
+  "statement": "CRS cites a 1987 report to the Attorney General by the Justice Department's Office of Legal Policy, The Question of Statehood for the District of Columbia, among the sources arguing that admitting the District as a state by statute is unconstitutional.",
+  "claim": "analysis",
+  "figures": [
+   "1987"
+  ],
+  "source": "SRC-5436",
+  "anchor": [
+   "STATEHOOD FOR THE DISTRICT OF COLUMBIA 57–58 (Apr. 3, 1987), https://www.ojp.gov/pdffiles1/Digitization/"
+  ],
+  "grade": "C",
+  "fact_date": "1987-04",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Executive-branch analysis (Reagan administration Justice Department), checked as usual; the report itself is not saved, and CRS is the source for its existence and stance. The milestone review called it an Office of Legal Counsel opinion; CRS names the Office of Legal Policy. The review's 1963 opinion was not found in the sources checked here. Contested by the scholarship CRS cites and by H.R. 51's sponsors.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/8-change-our-minds.md"
+  ],
+  "locator": "CRS R47101, note 44"
+ },
+ {
+  "id": "EV-DEM-399",
+  "statement": "CRS reports that in Trump v. Slaughter the Court left for another day the fate of removal protections for non-Article III courts, such as the Tax Court and the Court of Federal Claims, and did not explicitly address the President's power to remove inferior officers.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0547",
+  "anchor": [
+   "The Court also left \"for another day\" the fate of removal protections for non-Article III courts , like the Tax Court and the Court of Federal Claims.",
+   "Finally, the Court did not explicitly address the President's authority to remove \"inferior officers.\""
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-18",
+  "recheck": "2027-06-29",
+  "context": "CRS LSB11448, 2026-07-02 (nonpartisan), reporting the opinion. The immigration court's judges would be inferior officers appointed and removable only by Article III courts (CRT-5.02), a case Slaughter did not decide; the dissent asked what keeps non-Article III courts outside the majority's logic. With EV-DEM-037.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md",
+   "dossiers/foundations/democratic-renewal/8-change-our-minds.md"
+  ],
+  "locator": "sections on what the Court did not decide"
+ },
+ {
+  "id": "EV-DEM-400",
+  "statement": "Under the Ethics in Government Act, an individual who becomes a candidate for President, Vice President or Congress, as the Federal Election Campaign Act defines one, must file a financial disclosure report within 30 days, and each May 15 while a candidate, unless an incumbent.",
+  "claim": "data",
+  "figures": [
+   "30",
+   "May 15"
+  ],
+  "source": "SRC-5440",
+  "anchor": [
+   "(c) Reports for Candidates for Elected Federal Office.— Within 30 days of becoming a candidate as defined in section 301 of the Federal Election Campaign Act of 1971 (52 U.S.C. 30101), in a calendar year for nomination or election to the office of President, Vice President, or Member of Congress, or on or before May 15 of that calendar year, whichever is later, but in no event later than 30 days before the election, and on or before May 15 of each successive year an individual continues to be a candidate, an individual other than an incumbent President, Vice President, or Member of Congress shall file a report containing the information described in section 13104(b) of this title."
+  ],
+  "grade": "A",
+  "fact_date": "2022-12",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law (Pub. L. 117-286 restated the 1978 Act's section 101 in title 5). A disclosure duty tied to candidacy, with no ballot-access condition, already exists for presidential candidates: the model for INT-6.01's sanction. With EV-DEM-396.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/8-change-our-minds.md"
+  ],
+  "locator": "5 U.S.C. 13103(c)"
  }
 ]
