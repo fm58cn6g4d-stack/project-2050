@@ -70,6 +70,8 @@ The legacy design (LAB-4A) is $17, then two-thirds of the national median wage, 
 **How to read it.**
 - The research is strongest up to roughly 60% of the local median, which is about where the legacy circuit breaker starts [EV-WRK-051] [EV-WRK-700]. One county study reaches 0.82 [EV-WRK-063]. Beyond that, the evidence is the United Kingdom's recent experience, on its own commission's reading.
 - A national two-thirds-of-median floor would sit far above two-thirds of the median in low-wage counties. The register has no county-level measure of how far a given floor reaches (section 1, Evidence still needed).
+- **Puerto Rico, where the federal floor once bit hardest.** Castillo-Freeman and Freeman found that the federal minimum, high there relative to average earnings, substantially lowered employment (NBER, 1991) [EV-WRK-470]; Krueger's reanalysis of the same evidence found it "surprisingly fragile" (NBER, 1994) [EV-WRK-471]. Neither tests a floor near the whole local median, which is where $17 would sit in Puerto Rico in 2035 (93% of the median on 3.5% growth; `tools/territory_bite.py`) and in the Northern Mariana Islands (about 105%). So the evidence's reach (about 60% in state studies, 0.82 in one county study) is the guide for the territories too (`5-delivery.md`, part 5, LAB-4.10).
+- **American Samoa.** From 2007 to 2014, as its industry minimums rose, overall employment fell 4% and cannery employment 50%, and workers' average real earnings fell about 11% (GAO) [EV-WRK-472]. GAO reports that minimum wage increases were a factor in cannery closures but not a main one [EV-WRK-473]. These are measured changes, not causal estimates.
 - **The disagreement is real and partly about method.** The studies finding small effects mostly use local comparisons; those finding losses include a recession and one city's hours data [EV-WRK-064] [EV-WRK-060]. Authors on both sides have long-standing positions (section 1, A.4).
 - **Recessions matter.** The one finding of loss specific to a downturn [EV-WRK-064] bears on the legacy recession off-ramp. Dube's review recommends a mandate for the commission to pause if job losses appear [EV-WRK-052]. That is the nearest thing in the evidence to an off-ramp; no study evaluates a trigger.
 
@@ -331,9 +333,9 @@ This table says what the evidence supports, qualifies or leaves untested. It doe
 
 ## Evidence still needed
 
-- Any study of a national floor above 60% of the local median in the United States, and a county-level measure of how far a given floor reaches.
+- Any study of a national floor above 60% of the local median in the United States, and a county-level measure of how far a given floor reaches (state and nonmetro medians are a first measure: `5-delivery.md`, part 5). The full Puerto Rico papers, beyond their abstracts [EV-WRK-470] [EV-WRK-471], and any study of Puerto Rico's own increases since 2022.
 - Evaluations of firm-size or county phase-ins, of a small-business wage credit, and of a recession pause trigger.
-- Studies found but not entered for lack of source IDs: Brummund and Strain's companions on indexing (Miller and others, 2025); Caliendo and others on Germany's mini-jobs; the Puerto Rico studies (Castillo-Freeman and Freeman; Krueger); Japan's prefectural floors (Morikawa); Dube and Lindner on city minimums; the Employment Policies Institute's tipped-wage studies.
+- Studies found but not entered for lack of source IDs: Brummund and Strain's companions on indexing (Miller and others, 2025); Caliendo and others on Germany's mini-jobs; Japan's prefectural floors (Morikawa); Dube and Lindner on city minimums; the Employment Policies Institute's tipped-wage studies.
 - The youth wage's effect; outcomes of DC's and Chicago's tipped-wage changes.
 - Johnson (2002) on card check across nine jurisdictions; Jäger, Schoefer and Heining (2021) on German codetermination; New Zealand's legislation and MBIE's notice on the repeal; the OECD's licence and 2025 coverage data.
 - Any study of how penalties change employer behavior in organizing; CBO or JCT scores of the 2021 and 2025 PRO Act bills.

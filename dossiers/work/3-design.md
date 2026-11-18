@@ -222,3 +222,5 @@ From `dossiers/shared-rules.md`. Rule 6 is this flagship's.
 ## Questions for Espen
 
 The batch is decided (`DEC-2026-11-17-01` to `-36`, `-95`, `-96`). Still open: points 5 and 11, being studied, and memo 10 from section 4 (`4-specification.md`, "Questions for Espen").
+
+New from the milestone review's fix step 2 (provisional, drafted on the recommendation): **the minimum wage in Puerto Rico and the other territories** (LAB-4.10). Memo 1's $17 would sit at about 93% of Puerto Rico's median wage in 2035 and 105% of the Northern Mariana Islands'. Recommended: the national schedule capped at 75% of each territory's median, about $13.20 in Puerto Rico in 2035; the alternatives are the national schedule, the commission's report first with a 2034 backstop, or a territorial wage committee (`4-specification.md`, "Questions for Espen", item 5; `5-delivery.md`, part 5). Memo 1 is not reopened for the states.

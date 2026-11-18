@@ -103,7 +103,7 @@ Each is drafted on its recommendation, so the plan is complete, and revised if E
 | Severance (point 5) | No federal mandate in the first bill; study, then recommend a mandate or a guarantee that states and cities may require it | LAB-14.01 |
 | Worker seats on company boards (point 11) | Not in the first bill; still being studied | LAB-17.01 |
 | Wage insurance after a quit | Quits the state finds were for good cause connected with the work (unpaid wages, unsafe conditions) qualify; personal ones do not | LAB-18.03 |
-| American Samoa's wage path | The Northern Mariana Islands follow the federal schedule; American Samoa keeps its own path, with the commission reporting each year | LAB-4.10 |
+| The minimum wage in the territories | Puerto Rico, Guam, the Virgin Islands and the Northern Mariana Islands follow the national schedule, but never above 75% of their own median wage: about $13.20 in Puerto Rico in 2035, where $17 would be about 93% of the median; American Samoa keeps its own path, with the commission reporting each year | LAB-4.10 |
 | Wage insurance's monthly payment | The worker confirms hours each month, checked against the employer's quarterly report | LAB-18.08 |
 | The small-business credit's size | Keep it as specified, about $3 billion, rather than widen it toward the $0.02-0.04 trillion first estimated | LAB-5.01 |
 | The unemployment standard's cost to employers | Keep 75% of pay up to two-thirds of the state's average wage from 2031, about $42 billion a year more in benefits at 2025 levels paid by employers, rather than phase it in or hold it at 60% | LAB-11.01 |
