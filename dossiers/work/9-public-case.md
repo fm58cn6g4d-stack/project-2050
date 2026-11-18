@@ -8,11 +8,11 @@ Role: section 9 of the work dossier (flagship 5). It gives a plain-language brie
 
 **Pay that keeps up, power that holds, and help when a job ends.**
 
-The federal minimum wage has been $7.25 an hour since July 24, 2009, the longest stretch without a raise in the Labor Department's table (Department of Labor, 2026) [EV-WRK-002] [EV-WRK-003]. A full-time year at $7.25 earns $15,080 (Congressional Research Service, 2021) [EV-WRK-022]. The Economic Policy Institute, a labor-aligned think tank, estimates its real value is 41% below 1968's (Economic Policy Institute, 2025) [EV-WRK-023]. In 20 states $7.25 is still the working floor (the project's count from the Department of Labor's table, 2026) [EV-WRK-012] [EV-WRK-013] [EV-WRK-014]. The tipped cash wage has been $2.13 since 1996 (Congressional Research Service, 2021) [EV-WRK-005].
+The federal minimum wage has been $7.25 an hour since July 24, 2009, the longest stretch without a raise in the Labor Department's table (Department of Labor, 2026) [EV-WRK-002] [EV-WRK-003]. A full-time year at $7.25 earns $15,080 (Congressional Research Service, 2021) [EV-WRK-022]. The Economic Policy Institute, a labor-aligned think tank, estimates its real value is 41% below 1968's (Economic Policy Institute, 2025) [EV-WRK-023]. In 20 states $7.25 is still the working floor (the project's count from the Department of Labor's table, 2026) [EV-WRK-012] [EV-WRK-013] [EV-WRK-014]. The tipped cash wage has been $2.13 since 1996 (the United States Code; Congressional Research Service, 2021) [EV-WRK-004] [EV-WRK-005].
 
 Meanwhile:
 - **Few have a union.** 10.0% of workers were union members in 2025, and 5.9% in the private sector (Bureau of Labor Statistics, 2026) [EV-WRK-100] [EV-WRK-101], while 71% of Americans approve of unions (Gallup, 2026) [EV-WRK-105].
-- **The labor board can't hold its ground.** It had no quorum from the end of January 2025 until January 7, 2026 (NLRB, 2025; Congressional Research Service, 2026) [EV-WRK-115] [EV-WRK-135]. Its remedies carry no civil penalty (the National Labor Relations Act) [EV-WRK-129]. New unions waited an average of 463 days for a first contract in 2026 (Bloomberg Law, 2026) [EV-WRK-126].
+- **The labor board can't hold its ground.** It had no quorum from the end of January 2025 until January 7, 2026 (NLRB, 2025 and 2026; Congressional Research Service, 2026) [EV-WRK-115] [EV-WRK-116] [EV-WRK-135]. Its remedies carry no civil penalty (the National Labor Relations Act) [EV-WRK-129]. New unions waited an average of 463 days for a first contract in 2026 (Bloomberg Law, 2026) [EV-WRK-126].
 - **The rules go unenforced.** The Wage and Hour Division had 611 investigators in May 2025, against 1,232 in 1978 (Economic Policy Institute, 2025) [EV-WRK-207]. It recovered $259 million in FY2025 (Department of Labor, 2026) [EV-WRK-200]. Researchers estimate workers lose more than $13 billion to $15 billion a year to minimum-wage violations alone (Rutgers researchers, 2025; Economic Policy Institute, 2017) [EV-WRK-211] [EV-WRK-210].
 - **Losing a job costs more and is cushioned less.** 3.3 million workers who had held their jobs at least three years were displaced in 2023-25. Of those back in full-time work, only about 49% earned as much as before, and only about 45% of the displaced got written notice (Bureau of Labor Statistics, 2026) [EV-WRK-315] [EV-WRK-317] [EV-WRK-318]. Unemployment insurance reached 27% to 29% of unemployed people (Federal Reserve Bank of Minneapolis, 2025; National Employment Law Project, 2025) [EV-SEC-045] [EV-SEC-046]. Only 18 state trust funds met the solvency standard at the start of 2026 (Department of Labor, 2026) [EV-WRK-304].
 
@@ -76,7 +76,7 @@ The federal minimum wage has been stuck at $7.25 since 2009, the labor board has
 
 - **"Won't $17 kill jobs?"** It may cost some. CBO put $15 by 2025 at 1.3 million to 1.4 million fewer jobs (Congressional Budget Office, 2019 and 2021) [EV-WRK-029] [EV-WRK-032]; other careful studies find little or no loss in the range states have tried (Cengiz and others, 2019) [EV-WRK-033]. The plan's floor reaches $17 in 2035, when on our estimates it is about half the median wage, in five yearly steps, with a pause if unemployment rises and a commission that reports county by county where it bites and can recommend a slower step. A CBO score of this design is asked for in 2027-28.
 - **"Won't a raise just be eaten by lost benefits?"** For most families, no, on our estimates. A full-time single parent moving from $7.25 to the floor keeps 81-98% of the raise under the plan, and a worker starting at $12.00 keeps about half to three-quarters (section 7, part 1B, in 2029 dollars, with hours held fixed). The weak case is the single adult without children on the marketplace in a state that has not expanded Medicaid: from $7.25 to $12.50 in 2032 they keep about 39% under the plan, against 59% under 2029 law, because two of the plan's own supports phase out over the same range. That case goes to the secure floor's owners and the financing settlement to fix, and it ends in 2035 when the single health plan starts, when the share is 52-59%.
-- **"Who pays for the raise?"** Mostly employers and customers, not taxpayers. A peer-reviewed study finds a 10% minimum-wage rise lifts grocery prices about 0.36% (Renkin, Montialoux and Siegenthaler, 2020) [EV-WRK-065]. CBO's 2019 analysis of $15 found real income gains for families below three times the poverty line and losses above six times it, mostly in business income (Congressional Budget Office, 2019) [EV-WRK-450].
+- **"Who pays for the raise?"** Mostly employers and customers, not taxpayers. A peer-reviewed study finds a 10% minimum-wage rise lifts grocery prices about 0.36% (Renkin, Montialoux and Siegenthaler, 2020) [EV-WRK-065]. CBO's 2019 analysis of $15 found real income gains for families below three times the poverty line and losses above it, most of them above six times the line and mostly in business income (Congressional Budget Office, 2019) [EV-WRK-450].
 - **"Doesn't card check end the secret ballot?"** No. A union can still choose an election, held within 20 days, and the board checks every card against payroll within 14 days (LAB-1.01, 1.02). Employers can't hold mandatory anti-union meetings, and violations carry penalties.
 - **"Why override right-to-work states?"** Every study in the register finds right-to-work laws lower unionization (Fortin, Lemieux and Lloyd, 2022; Eren and Ozbeklik, 2016) [EV-WRK-165] [EV-WRK-166]; their effect on wages is contested. The fee title is separate: if it is dropped or struck down, the rest of the act stands.
 - **"Will this crush small business?"** Every employer follows one published schedule, with no size tiers to track. Employers under 50 workers get a temporary credit for the first three steps, about $3 billion on our estimates, and its size is still with Espen. No study shows a credit like this softens job effects, so it is a cushion, not a remedy (section 7, part 6).
@@ -147,11 +147,11 @@ None new. The provisional items above are the eight already listed in the README
 | $15,080 a year full time at $7.25 | Section 1, A.1 | EV-WRK-022 |
 | 41% below 1968 in real terms (EPI) | Section 1, A.1 | EV-WRK-023 |
 | 20 states where $7.25 is the working floor (project count) | Section 1, A.2 | EV-WRK-012, EV-WRK-013, EV-WRK-014 |
-| Tipped cash wage $2.13 since 1996 | Section 1, A.1 | EV-WRK-005 |
+| Tipped cash wage $2.13 since 1996 | Section 1, A.1 | EV-WRK-004, EV-WRK-005 |
 | 10.0% union members; 5.9% in the private sector (2025) | Section 1, B.1 | EV-WRK-100, EV-WRK-101 |
 | 71% approve of unions | Section 1, B.2 | EV-WRK-105 |
 | A 48-52 split when forced to choose; "don't know" leading | Section 1, B.2 | EV-WRK-108 |
-| No quorum from late January 2025 to January 7, 2026 | Section 1, B.3 | EV-WRK-115, EV-WRK-135 |
+| No quorum from late January 2025 to January 7, 2026 | Section 1, B.3 | EV-WRK-115, EV-WRK-116, EV-WRK-135 |
 | No civil penalty in the labor act's remedies | Section 1, B.5 | EV-WRK-129 |
 | 463 days to a first contract (2026) | Section 1, B.4 | EV-WRK-126 |
 | 611 investigators (May 2025) against 1,232 (1978) | Section 1, C.1 | EV-WRK-207 |
@@ -165,8 +165,8 @@ None new. The provisional items above are the eight already listed in the README
 | A signing after June 30, 2029 moves each step | Section 4, LAB-4.01 | Working choice |
 | Recession pause at the October 1 check | Section 4, LAB-4.03 | EV-WRK-395 |
 | Youth wage ends January 1, 2030; tipped wage to the full floor in cash January 1, 2036 (seven steps) | Section 4, LAB-4.06, 4.07 | EV-WRK-006, EV-WRK-005 |
-| 642 employers, 35,534 workers under 14(c) (2025); full floor January 1, 2034 | Section 4, LAB-4.08; section 5, part 3 | EV-WRK-008 |
-| The credit: employers under 50, first three steps (2030-32), about $3 billion; $0.02-0.04 trillion first estimated | Section 4, LAB-5.01; section 6, parts 1 and 4 | Project arithmetic (section 6, part 1); memo 1 judgment (EV-WRK-703) |
+| 642 employers, 35,534 workers under 14(c) (2025); ended over five years; full floor January 1, 2034 | Section 4, LAB-4.08; section 5, part 3 | EV-WRK-008 |
+| The credit: employers under 50, first three steps (2030-32), about $3 billion; $0.02-0.04 trillion first estimated | Section 4, LAB-5.01; section 6, parts 1 and 4 | Project arithmetic (section 6, part 1); memo 1's judgment (section 3, "Decided"; no evidence ID) |
 | Elections within 20 days; cards checked within 14 days | Section 4, LAB-1.01, 1.02 | Working choices |
 | 10, 90 and 30 days to a first contract; passed the House 230 to 193 | Section 4, LAB-1.05 | EV-WRK-145, EV-WRK-144 |
 | Penalties up to $50,000 and $100,000; a private suit after 60 days; the quorum fallback at 90 days | Section 4, LAB-2.01, 2.02, 2.04 | EV-WRK-142; working choices |
@@ -192,10 +192,12 @@ None new. The provisional items above are the eight already listed in the README
 | $17 in 2035 about half the median | Section 3, "What the options cost"; section 7, part 1A | Project arithmetic on EV-WRK-078 |
 | 81-98% kept by full-time parents from $7.25; 48-76% from $12.00 | Section 7, part 1B | Project arithmetic, `tools/floor_household.py` |
 | The single adult: about 39% under the plan against 59% at 2029 law ($7.25 to $12.50 in 2032); about $90 for paid leave; 52-59% from 2035 | Section 7, part 1B; section 8, part 6 | Project arithmetic, `tools/floor_household.py` |
+| 60 Senate votes for the labor act, or the rules reform; 51 for the reconciliation act | Section 4, "The vehicles"; section 5, part 3 | Legacy D2 (section 3, "Inherited assumptions") |
+| CBO and JCT scores asked for in 2027-28 | Section 3, point 15; section 4, "The vehicles" | `DEC-2026-11-17-28` |
 | 13% vote odds for the labor act (legacy) | Section 5, part 3; section 8 | EV-WRK-712 |
 | 17 of 50 states unable to implement the CARES Act | Section 5, part 2 | EV-DEM-295 |
 | 0.36% on groceries for a 10% raise | Section 7, part 6 | EV-WRK-065 |
-| CBO 2019: gains below three times poverty, losses above six times | Section 7, part 1A | EV-WRK-450 |
+| CBO 2019: gains below three times poverty; losses above it, mostly above six times | Section 7, part 1A | EV-WRK-450 |
 | Right-to-work lowers unionization | Section 4, LAB-1A.01; section 7, part 6 | EV-WRK-165, EV-WRK-166 |
 | British Columbia: 19 points | Section 4, LAB-1.01 | EV-WRK-168 |
 | Pandemic fraud $100 billion to $135 billion | Section 4, LAB-11.06 | EV-WRK-378 |

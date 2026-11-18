@@ -76,4 +76,4 @@ Section 7 (`7-validation.md`) adds no question. It tests items 1-7 on their reco
 
 Section 8 (`8-change-our-minds.md`) adds no question. Its part 7 gives, for items 1-7, the finding that would change each recommendation.
 
-Section 9 (`9-public-case.md`) adds no question. It presents items 1-7 and the open quit rule as provisional, and the single adult's result as a finding for the secure floor's owners and stage G.
+Section 9 (`9-public-case.md`) adds no question. It presents items 1-7 as provisional, and the single adult's result as a finding for the secure floor's owners and stage G.
