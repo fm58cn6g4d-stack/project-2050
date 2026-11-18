@@ -109,7 +109,7 @@ Each is drafted on its recommendation, so the plan is complete, and revised if E
 | Wage insurance's monthly payment | The worker confirms hours each month, checked against the employer's quarterly report | LAB-18.08 |
 | The small-business credit's size | Keep it as specified, about $3 billion, rather than widen it toward the $0.02-0.04 trillion first estimated | LAB-5.01 |
 | The unemployment standard's cost to employers | Keep 75% of pay up to two-thirds of the state's average wage from 2031, about $42 billion a year more in benefits at 2025 levels (range about $25-66 billion) paid by employers, about twice the $15-25 billion first shown, rather than phase it in or hold it at 60%; the general fund differs by at most about $2 billion a year among the options | LAB-11.01 |
-| Farmworkers and domestic workers under the labor act | Leave for later work, as sections 7 and 8 do: the labor act's exclusion of them and farm overtime exemptions stay in the first bill; the floor, the heat standard and the right to discuss pay reach them | LAB-7.09; section 4, "Where particular groups fall" |
+| Farmworkers and domestic workers under the labor act | Leave for later work, as sections 7 and 8 do: the labor act's exclusion of them and farm overtime exemptions stay in the first bill; the floor and the right to discuss pay reach both, and the heat standard reaches farmworkers | LAB-7.09; section 4, "Where particular groups fall" |
 
 One more piece is provisional for the milestone review, not for Espen: how the Labor Department pays claimants in a state that will not meet the new unemployment standards. The earlier wording does not work in law; the fix (a separate conformity reduction and authority for Labor to pay through the state agency) is a working choice (LAB-11.10).
 
@@ -129,7 +129,7 @@ One more piece is provisional for the milestone review, not for Espen: how the L
 | Twice as many wage investigators by FY2034, hired from FY2030, if Congress appropriates the money | That enforcement is fixed in 2029: a new investigator takes about two years to carry a full load, so the full effect comes around FY2036 |
 | 71% of Americans approve of unions (Gallup, 2026) [EV-WRK-105] | That most non-union workers want one: when forced to choose, a 2017 survey split 48 to 52, and "don't know" led in three of the four most recent surveys (Economic Policy Institute, 2024) [EV-WRK-108] |
 | Posted pay ranges raised wages 1.3-3.6% with no job loss in one unpublished working paper (Arnold, Quach and Taska, 2025) [EV-WRK-407] | That the right to discuss pay raises wages: one peer-reviewed study finds such laws lowered average wages about 2% (Cullen and Pakzad-Hurson, 2023) [EV-WRK-408]; Espen chose it as a right |
-| The floor, the heat standard and the right to discuss pay reach farmworkers and domestic workers | That they can organize under the labor act: it excludes them in the first bill, and farm overtime exemptions stay (a question for Espen) |
+| The floor and the right to discuss pay reach farmworkers and domestic workers, and the heat standard reaches farmworkers | That they can organize under the labor act: it excludes them in the first bill, and farm overtime exemptions stay (a question for Espen) |
 
 ## What the earlier public story said, and what changed
 
@@ -220,5 +220,5 @@ One is added to the README: item 9, farmworkers and domestic workers (the milest
 | Pay ranges 1.3-3.6% (one unpublished working paper); pay discussion about 2% lower | Section 4, LAB-7.08, 7.09 | EV-WRK-407, EV-WRK-408 |
 | *SEC v. Jarkesy* (2024) | Section 4, LAB-2.01 | EV-WRK-131 |
 | Territories: national schedule capped at 75% of each territory's median; about $13.20 in Puerto Rico in 2035, about 72% of its median, against $17 at about 93%; no federal cost to speak of | Section 5, part 5 (the bite table and options); section 6, part 4, item 6 | EV-WRK-455 (Puerto Rico's median), EV-WRK-466 (today's floors); project arithmetic, `tools/territory_bite.py`; provisional |
-| The labor act's exclusion of farmworkers and domestic workers stays; the floor, heat standard and pay-discussion right reach them | Section 4, "Where particular groups fall", LAB-7.09; section 7; section 8 | Working choices; a question for Espen |
+| The labor act's exclusion of farmworkers and domestic workers stays; the floor and pay-discussion right reach both; the heat standard reaches farmworkers | Section 4, "Where particular groups fall", LAB-7.09; section 7; section 8 | Working choices; a question for Espen |
 | The legacy $17-then-two-thirds design; 450,000 construction apprentices | Section 1, part H | EV-WRK-700, EV-WRK-704 (legacy claim register, SRC-0166) |

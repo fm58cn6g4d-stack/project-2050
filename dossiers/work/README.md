@@ -79,7 +79,7 @@ New from the milestone review's fix step 1 (`6-cost.md`, "Questions for Espen", 
 8. The unemployment standard's cost to employers, the 75% standard (LAB-11.01): as specified, regular benefits rise about $42 billion a year at FY2025 levels, about twice the $15-25 billion memo 7 showed; the general fund moves about $4 billion a year by FY2040. Keep 75% from 2031, phase it in, or hold the rate at 60%? Recommended: keep the decided standard (provisional; four options priced).
 
 New from the milestone review (`review-milestone.md`, "For Espen", question 3; `4-specification.md`, "Where particular groups fall"):
-9. Farmworkers and domestic workers: they stay outside the labor act's organizing rights, and farm overtime exemptions stay, in the first bill; the floor, the heat standard and the right to discuss pay reach them. Leave it for later work, as sections 7 and 8 do (recommended, provisional), or bring options now?
+9. Farmworkers and domestic workers: they stay outside the labor act's organizing rights, and farm overtime exemptions stay, in the first bill; the floor and the right to discuss pay reach both, and the heat standard reaches farmworkers. Leave it for later work, as sections 7 and 8 do (recommended, provisional), or bring options now?
 
 Section 7 (`7-validation.md`) adds no question. It tests items 1-7 on their recommendations, and they stay provisional.
 
