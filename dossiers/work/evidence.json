@@ -10552,5 +10552,610 @@
   "supports": [
    "dossiers/work/5-delivery.md"
   ]
+ },
+ {
+  "id": "EV-WRK-429",
+  "statement": "Federal law directs that 100 percent of the additional federal unemployment tax collected from employers in a state because of the reduced credits is covered into the Treasury for repayment of that state's Title XII advances, and any amount transferred is credited against and reduces the state's balance of advances.",
+  "claim": "data",
+  "figures": [
+   "100"
+  ],
+  "source": "SRC-5790",
+  "anchor": [
+   "(i) 100 per centum of the additional tax received under the Federal Unemployment Tax",
+   "Treasury for the repayment of advances",
+   "operate to reduce, that balance of advances,"
+  ],
+  "locator": "42 U.S.C. 1101(d)(1)(A)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law (Social Security Act sec. 901(d)). The text still cites the reduction as section 3302(c)(3) of the Federal Unemployment Tax Act; the reduction now sits in 26 U.S.C. 3302(c)(2) (EV-WRK-428). So the extra tax is applied to the state's own loan balance, not paid out as benefits or kept by the federal government as new revenue for general use.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-430",
+  "statement": "Federal law transfers any amount of that additional tax that exceeds the state's balance of Title XII advances to the state's own account in the Unemployment Trust Fund.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5790",
+  "anchor": [
+   "(B) To the account (in the Unemployment\nTrust Fund) of the State with respect to which\nemployers paid such additional tax, an\namount equal to the amount by which such\nadditional tax received and covered into the\nTreasury exceeds that balance of advances,"
+  ],
+  "locator": "42 U.S.C. 1101(d)(1)(B)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law. The residual goes back to the same state, so the credit reduction cannot be a source of new money for another state's benefits.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-431",
+  "statement": "Title XII advances are made to a state from the Federal unemployment account and are repayable with interest; the Treasury transfers them to the account of the State in the Unemployment Trust Fund, and 'compensation' is defined as cash benefits payable to individuals with respect to their unemployment, exclusive of administration expenses.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5791",
+  "anchor": [
+   "(a)(1) Advances shall be made to the States\nfrom the Federal unemployment account in the\nUnemployment Trust Fund as provided in this\nsection, and shall be repayable, with interest to",
+   "to the account of the State in the Unemployment Trust Fund the amount certified under",
+   "benefits payable to individuals with respect to\ntheir unemployment, exclusive of expenses of\nadministration."
+  ],
+  "locator": "42 U.S.C. 1321(a)(1), (a)(3)(C), (b)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law (Social Security Act sec. 1201). The section authorizes loans to the state's trust fund account on the governor's application, certified by the Secretary of Labor; it contains no authority for the Labor Department to pay claimants itself. The absence of such authority in this section is a reading, not a quotation; the project did not search the whole Code.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-432",
+  "statement": "A state's unemployment law qualifies for the federal credit only if all money received in the state unemployment fund is paid over to the credit of the Unemployment Trust Fund and money withdrawn from the state fund is used solely to pay unemployment compensation, exclusive of administration expenses.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5794",
+  "anchor": [
+   "(3) all money received in the unemployment\nfund shall (except for refunds of sums erroneously paid into such fund and except for refunds paid in accordance with the provisions\nof section 3305(b)) immediately upon such receipt be paid over to the Secretary of the\nTreasury to the credit of the Unemployment\nTrust Fund",
+   "(4) all money withdrawn from the unemployment fund of the State shall be used solely in\nthe payment of unemployment compensation,\nexclusive of expenses of administration,"
+  ],
+  "locator": "26 U.S.C. 3304(a)(3), (a)(4)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law. Benefits are paid by the state agency under state law out of the state's account; the federal role is the loan, the tax credit conditions and administrative grants.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-433",
+  "statement": "The Recovery Act (2009) reserved $7,000,000,000 in the Federal unemployment account for unemployment compensation modernization incentive payments to states, and transferred $500,000,000 from the employment security administration account to state accounts for administration, each split among states by the same ratio.",
+  "claim": "data",
+  "figures": [
+   "7,000,000,000",
+   "500,000,000"
+  ],
+  "source": "SRC-5793",
+  "anchor": [
+   "be equal to the amount obtained by multiplying $7,000,000,000 by the same ratio as would",
+   "Secretary of the Treasury shall reserve\n$7,000,000,000 for incentive payments under this",
+   "be equal to the amount obtained by multiplying $500,000,000 by the same ratio as determined under subsection (f)(1)(B) with respect to"
+  ],
+  "locator": "42 U.S.C. 1103(f)(1)(B), (f)(6), (g)(2), as added by Pub. L. 111-5, div. B, title II, sec. 2003",
+  "grade": "A",
+  "fact_date": "2009",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition) as amended by the American Recovery and Reinvestment Act of 2009 (Obama administration; Democratic majorities). The $7 billion was available only to states that adopted listed UI reforms and unclaimed amounts reverted to the Federal unemployment account after fiscal 2011; the $500 million was a one-time transfer within 30 days of enactment.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-434",
+  "statement": "The American Rescue Plan Act (2021) appropriated $2,000,000,000 for fiscal year 2021, to remain available until expended, to detect and prevent fraud, promote equitable access, and ensure the timely payment of unemployment benefits.",
+  "claim": "data",
+  "figures": [
+   "2,000,000,000"
+  ],
+  "source": "SRC-5795",
+  "anchor": [
+   "any money in the Treasury not otherwise appropriated, $2,000,000,000, to\nremain available until expended, to detect and prevent fraud, promote\nequitable access, and ensure the timely payment of benefits with respect"
+  ],
+  "locator": "Pub. L. 117-2, sec. 9032, adding CARES Act sec. 2118(a) (15 U.S.C. 9034)",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "Enacted law, March 2021 (Biden administration; Democratic majorities). The law does not use the word modernization for this money; it names fraud prevention, equitable access and timely payment, and allows its use for federal administrative costs and grants to states.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-435",
+  "statement": "CBO estimated that raising the federal unemployment tax wage base from $7,000 to $40,000 in 2019, indexing it to wage growth and cutting the net federal rate from 0.6 to 0.167 percent would raise revenues by $18 billion from 2019 to 2028, mostly through state taxes in the first years.",
+  "claim": "analysis",
+  "figures": [
+   "7,000",
+   "40,000",
+   "0.6",
+   "0.167",
+   "18",
+   "2019",
+   "2028"
+  ],
+  "source": "SRC-5802",
+  "anchor": [
+   "raise the amount of wages subject to the FUTA tax from $7,000 to $40,000 in 2019 and then index that threshold to the growth in future wages",
+   "from 0.6 percent under current law to 0.167 percent",
+   "CBO estimates that this option would raise revenues by $18 billion from 2019 to 2028"
+  ],
+  "locator": "Revenues Option 23, Option and Effects on the Budget (pp. 264-265)",
+  "grade": "C",
+  "fact_date": "2018-12",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Congressional Budget Office (nonpartisan), December 2018, Options for Reducing the Deficit: 2019 to 2028; an illustrative option, not a proposal or CBO's recommendation. Read in a verbatim third-party copy of the report, not on cbo.gov (403); check the quotations against CBO's page. Revenues rise at first mainly from state taxes and fall after 2023, so the 10-year sum hides a larger early gain (CBO table: $27.1 billion over 2019-2023). Nearly all states would have to raise their own wage bases to $40,000.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-436",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-436",
+  "statement": "CBO describes state unemployment tax revenues as deposited into dedicated state accounts that are included in the federal budget, and reported that in 2017 state unemployment tax revenues were $38 billion and federal unemployment tax revenues were $8 billion.",
+  "claim": "data",
+  "figures": [
+   "38",
+   "8",
+   "2017"
+  ],
+  "source": "SRC-5802",
+  "anchor": [
+   "Revenues from SUTA taxes are deposited into dedicated state accounts that are included in the federal budget.",
+   "In 2017, SUTA revenues were $38 billion and FUTA revenues were $8 billion."
+  ],
+  "locator": "Revenues Option 23, Background (p. 264)",
+  "grade": "A",
+  "fact_date": "2017",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Congressional Budget Office (nonpartisan), December 2018. Same copy as EV-WRK-435. Supports treating the trust fund's state accounts as on budget, as in EV-WRK-413.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-437",
+  "statement": "OMB's FY2017 budget scored the Obama administration's wage insurance proposal as a mandatory cost of $11,184 million over 2017-2026, with nothing in 2017, $302 million in its first year of cost, $1,541 million in 2026, and $3,868 million over 2017-2021.",
+  "claim": "analysis",
+  "figures": [
+   "11,184",
+   "3,868",
+   "302",
+   "1,541",
+   "2017",
+   "2026",
+   "2021"
+  ],
+  "source": "SRC-5797",
+  "anchor": [
+   "Create a wage insurance program",
+   "2017–2021 2017–2026\n11,773\n8,003\n891\n3,868\n–680\n\n36,653\n14,111\n1,802\n11,184\n–1,485",
+   "302\n",
+   "1,541\n"
+  ],
+  "locator": "Table S-9, Mandatory and Receipt Proposals, Labor, row 'Create a wage insurance program', 2017-2021 and 2017-2026 total columns",
+  "grade": "C",
+  "fact_date": "2016-02",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Office of Management and Budget, Obama administration, FY2017 budget (February 2016); the administration's own scoring of its proposal, not CBO or JCT, and the proposal was never enacted. Proposal terms are in EV-WRK-440: half the wage loss, up to $10,000 over two years, for displaced workers earning under $50,000 after reemployment. In the saved text the table's columns appear one at a time; the 2017-2026 totals run in row order (Extended Benefits, Modernize UI, short-time compensation, wage insurance, program integrity), and the row's yearly values are 302, 935, 1,293, 1,338, 1,382, 1,422, 1,467, 1,504 and 1,541 for 2018-2026 in pdftotext -layout output; the reviewer should check them on the page.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-441",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-443",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-438",
+  "statement": "OMB's FY2017 budget scored the administration's proposals to improve Unemployment Insurance Extended Benefits at $36,653 million, to modernize UI at $14,111 million and to expand short-time compensation at $1,802 million, each over 2017-2026.",
+  "claim": "analysis",
+  "figures": [
+   "36,653",
+   "14,111",
+   "1,802",
+   "2017",
+   "2026"
+  ],
+  "source": "SRC-5797",
+  "anchor": [
+   "Improve UI Extended Benefits",
+   "2017–2021 2017–2026\n11,773\n8,003\n891\n3,868\n–680\n\n36,653\n14,111\n1,802\n11,184\n–1,485"
+  ],
+  "locator": "Table S-9, Mandatory and Receipt Proposals, Labor, 'Unemployment Insurance Modernization and Reform', 2017-2026 total column",
+  "grade": "C",
+  "fact_date": "2016-02",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Office of Management and Budget, Obama administration, FY2017 budget (February 2016); the administration's own scoring, not enacted. The Extended Benefits proposal would create a permanent program providing up to 52 additional weeks of federally funded benefits in states with rapid job loss or high unemployment (White House fact sheet, EV-WRK-440). Same table-layout caution as EV-WRK-437.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-439",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-439",
+  "statement": "OMB's FY2017 budget scored the administration's UI solvency proposal as raising $46,293 million in receipts over 2017-2026 (net of the 20 percent Treasury offset), and said that with the permanent unemployment insurance surtax the whole UI reform package increases the deficit by $1.1 billion over 10 years.",
+  "claim": "analysis",
+  "figures": [
+   "46,293",
+   "20",
+   "1.1",
+   "10",
+   "2017",
+   "2026"
+  ],
+  "source": "SRC-5797",
+  "anchor": [
+   "–3,128 –3,185 –3,922 –4,303 –5,425 –6,802 –6,068 –6,346 –7,114\n–14,538\n–46,293",
+   "Unemployment insurance reform also includes the proposal to make the unemployment insurance surtax permanent. On net, the package increases the deficit by $1.1\nbillion over 10 years.",
+   "Revenues are net of the 20 percent Treasury offset.",
+   "2017–2021 2017–2026"
+  ],
+  "locator": "Table S-9 (receipt effects: 'Strengthen Unemployment Insurance (UI) system solvency') and footnotes 7 and 8",
+  "grade": "C",
+  "fact_date": "2016-02",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Office of Management and Budget, Obama administration, FY2017 budget (February 2016); the administration's own scoring, not enacted. The Department of Labor's budget summary called the UI reform package 'cost-neutral' (SRC-5800), which differs from OMB's table showing a net $1.1 billion increase. A negative figure in the table is a deficit decrease (here, extra receipts).",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-435",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-440",
+  "statement": "The White House's January 2016 fact sheet described the proposed wage insurance as replacing up to half of lost wages, up to $10,000 over two years, for workers with three or more years at their previous employer who make less than $50,000 in their new job, through a federally funded program administered through state unemployment insurance programs, and a permanent Extended Benefits program of up to 52 additional federally funded weeks.",
+  "claim": "data",
+  "figures": [
+   "10,000",
+   "50,000",
+   "52"
+  ],
+  "source": "SRC-5796",
+  "anchor": [
+   "wage insurance would replace up to half of lost wages for workers who had worked three years or more at their previous employment and make less than $50,000 in their new job. Workers could receive up to $10,000 over two years to help make ends meet through a Federally-funded program administered directly through state unemployment insurance programs.",
+   "up to 52 additional weeks of federally-funded benefits"
+  ],
+  "locator": "Sections 1 and 2 of the fact sheet",
+  "grade": "A",
+  "fact_date": "2016-01",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "The White House, Obama administration, January 16, 2016; a description of the administration's proposal, not an estimate. The numbers of years of tenure (three) and weeks are in the passage; the fact sheet says the proposal 'would be fully paid-for'.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-441",
+  "statement": "CBO estimated that authorizing the Trade Adjustment Assistance wage insurance program (age 50 or older, up to $10,000 over two years) through June 2022 would increase direct spending by $0.4 billion over 2015-2025, against $45 million in 2015 under its baseline.",
+  "claim": "analysis",
+  "figures": [
+   "10,000",
+   "0.4",
+   "45",
+   "50",
+   "2015",
+   "2025",
+   "2022"
+  ],
+  "source": "SRC-5801",
+  "anchor": [
+   "with a maximum of $10,000 paid over a period of up to two\nyears. Under CBO's baseline, the wage insurance program will\ncost $45 million in 2015.",
+   "By authorizing the\nwage insurance program through June 2022, the bill would\nincrease direct spending by $0.4 billion over the 2015-2025\nperiod, CBO estimates.",
+   "pays a wage subsidy to workers who are age 50 or older and do\nnot earn more than $50,000 annually in their new employment if"
+  ],
+  "locator": "CBO cost estimate for S. 1268, 'Extended Wage Insurance' paragraph (S. Rept. 114-44, May 5, 2015)",
+  "grade": "C",
+  "fact_date": "2015-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Congressional Budget Office (nonpartisan), May 5, 2015, printed in a report of the Senate Finance Committee under Chairman Hatch (Republican majority); the program is the wage insurance (Reemployment Trade Adjustment Assistance) for trade-displaced workers. CBO's baseline drops the program after fiscal 2015 by rule, so the $0.4 billion is the cost of keeping a small program running for about seven years. S. 1268 was reworked before enactment (Pub. L. 114-27); its own estimate was not read.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-437",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-365",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-442",
+  "statement": "CBO estimated that the 2015 Trade Adjustment Assistance reauthorization would increase costs for TAA for Workers by $2.7 billion over 2015-2025 relative to its baseline, which assumed spending of $8.9 billion over 2016-2025 on the program continuing at its current level.",
+  "claim": "analysis",
+  "figures": [
+   "2.7",
+   "8.9",
+   "2015",
+   "2025",
+   "2016"
+  ],
+  "source": "SRC-5801",
+  "anchor": [
+   "CBO estimates that the legislation would increase costs for\nTAA for Workers by $7 million in 2015 and $2.7 billion over the\n2015-2025 period, relative to CBO's baseline projections.",
+   "The spending assumed to continue in CBO's\nbaseline totals $8.9 billion over the 2016-2025 period."
+  ],
+  "locator": "CBO cost estimate for S. 1268, 'TAA for Workers' paragraph and Table 2 (S. Rept. 114-44, May 5, 2015)",
+  "grade": "C",
+  "fact_date": "2015-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Congressional Budget Office (nonpartisan), May 5, 2015; direct spending for the whole TAA for Workers program (training, extended unemployment benefits, wage insurance), of which wage insurance is $0.4 billion (EV-WRK-441). Printed by the Senate Finance Committee (Republican majority).",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-441",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-443",
+  "statement": "Kletzer and Litan estimated in 2001 that their wage insurance and health insurance subsidy programs for displaced workers would cost roughly $3 billion to $3.5 billion a year, with a 50 percent replacement rate for workers reemployed at lower pay, which they put at about $2.9 billion in 1999.",
+  "claim": "analysis",
+  "figures": [
+   "3",
+   "3.5",
+   "50",
+   "2.9",
+   "1999"
+  ],
+  "source": "SRC-5803",
+  "anchor": [
+   "the total annual cost of these two programs is projected at roughly $3 billion to $3.5 billion, even if the unemployment rate should rise to the 5 percent range",
+   "Assuming a 50 percent replacement and subsidy rate, the table indicates that our wage insurance and health insurance program would have cost about $2.9 billion in 1999"
+  ],
+  "locator": "Introduction (p. 2) and 'Costs' (p. 6)",
+  "grade": "C",
+  "fact_date": "2001-03",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Institute for International Economics and Brookings Institution joint policy brief, March 2001 (Clinton-to-Bush transition), by Lori Kletzer and Robert Litan; the authors favored open trade and proposed the programs to build support for it. The figure covers wage insurance and a health insurance subsidy together, and costs are in 1997 and 1999 dollars, from the 1997-99 labor market, so they are not a current-dollar benchmark.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-444",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-437",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-444",
+  "statement": "Jacobson, LaLonde and Sullivan wrote in 2011 that a wage insurance program replacing half of the wage difference would cost about $15 billion a year for high-tenured or mid-career displaced workers, and a footnote attributes the same $15 billion a year to LaLonde's own estimate.",
+  "claim": "analysis",
+  "figures": [
+   "15"
+  ],
+  "source": "SRC-5804",
+  "anchor": [
+   "We estimate that such a program would cost about $15 billion\na year for high-tenured or mid-career displaced workers.",
+   "LaLonde contends that an adequately funded wage insurance program would cost about $15 billion\nper year"
+  ],
+  "locator": "Policy discussion and note 3",
+  "grade": "C",
+  "fact_date": "2011-11",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "The Hamilton Project (Brookings; center-left), discussion paper of November 2011. Robert LaLonde is a co-author here and the author of the 2007 wage insurance paper the footnote cites, so the footnote is not independent of the main text. The paper's own subject is retraining, and it says wage insurance is the better policy but did not build the estimate in this paper.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-443",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-437",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-445",
+  "statement": "The Joint Committee on Taxation estimated that the small business tax provisions passed with the 2007 minimum wage increase would reduce revenues by $7,066 million over fiscal years 2007-12 and $4,844 million over 2007-17.",
+  "claim": "analysis",
+  "figures": [
+   "7,066",
+   "4,844",
+   "2007",
+   "12",
+   "17"
+  ],
+  "source": "SRC-5798",
+  "anchor": [
+   "Fiscal Years 2007 - 2017",
+   "2007-12",
+   "2007-17",
+   "-7,066\n\n-4,844",
+   "Total of Small Business Provisions"
+  ],
+  "locator": "JCX-30-07, page 2, row 'Total of Small Business Provisions', 2007-12 and 2007-17 columns",
+  "grade": "C",
+  "fact_date": "2007-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Joint Committee on Taxation (nonpartisan), May 25, 2007; its score of the Small Business and Work Opportunity Tax Act of 2007 in H.R. 2206 as passed by both chambers on May 24, 2007 (Pub. L. 110-28, enacted May 25, 2007; 110th Congress, Democratic majorities, Bush administration). The package is mostly extended work opportunity credit and section 179 expensing, not a credit tied to the minimum wage increase; JCT's footnote says the only revenue effect it gives for the minimum wage itself is the smaller FICA tip credit. Cost is concentrated in 2010 and 2011 (-4,032 and -2,731 million) and later years turn positive. In the saved text the total row's figures precede its label; check them on page 2.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-446",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-446",
+  "statement": "The NonProfit Times reported in March 2009 that CBO estimated the Serve America Act at about $5.7 billion over five years (2010-2014) in the Senate version, with the House legislation estimated at closer to $6 billion.",
+  "claim": "analysis",
+  "figures": [
+   "5.7",
+   "2010",
+   "2014",
+   "6"
+  ],
+  "source": "SRC-5805",
+  "anchor": [
+   "The Congressional Budget Office (CBO) estimates the cost of the legislation at about $5.7 billion over five years (2010-2014)",
+   "while the House legislation was estimated at closer to $6 billion."
+  ],
+  "locator": "Article text, paragraph on the CBO estimate",
+  "grade": "C",
+  "fact_date": "2009-03",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Trade newspaper for nonprofit managers, March 27, 2009, reporting CBO's estimate secondhand; CBO's own estimate (cbo.gov/publication/20520) could not be downloaded or read, so this entry should be replaced by it. The estimate is of authorized appropriations, not outlays: the law authorizes AmeriCorps at 'such sums as may be necessary' (EV-WRK-447), so CBO had to assume levels.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-447",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-447",
+  "statement": "The Edward M. Kennedy Serve America Act (2009) requires the Corporation for National and Community Service to develop a plan to increase approved national service positions from 88,000 in FY2010 to 250,000 in FY2017, and authorizes AmeriCorps and the National Service Trust at such sums as may be necessary for each of FY2010 through FY2014.",
+  "claim": "data",
+  "figures": [
+   "88,000",
+   "2010",
+   "250,000",
+   "2017",
+   "2014"
+  ],
+  "source": "SRC-5799",
+  "anchor": [
+   "increase the number of approved national service positions from 88,000 in FY2010 to 250,000 in FY2017",
+   "authorizes such sums as may be necessary for Title I-C (AmeriCorps) and Title I-D (National Service Trust) together for each of FY2010 through FY2014"
+  ],
+  "locator": "CRS Report R40432 (May 4, 2009), summary of P.L. 111-13 and 'Authorization of Appropriations' for AmeriCorps",
+  "grade": "A",
+  "fact_date": "2009",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Congressional Research Service (nonpartisan), May 4, 2009, summarizing the enacted law; the law, enacted April 21, 2009, was a Democratic-led bipartisan bill. The authorization expired after FY2014 although programs have kept receiving annual appropriations.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-448",
+  "statement": "GAO's 2020 report on American Samoa's minimum wage says it was due April 1, 2020 and that GAO had reported under the mandate in 2010, 2011, 2014 and 2016, with GAO-17-83 (December 2, 2016) also covering alternatives for raising minimum wages to keep pace with the cost of living and eventually equal the federal minimum.",
+  "claim": "data",
+  "figures": [
+   "2020",
+   "2010",
+   "2011",
+   "2014",
+   "2016",
+   "17",
+   "83",
+   "2"
+  ],
+  "source": "SRC-5807",
+  "anchor": [
+   "included a provision for us to review the impact of past\nminimum wage increases on American Samoa, with a report due by April 1, 2020.",
+   "this mandate in 2010, 2011, 2014, and 2016.",
+   "GAO-17-83 (Washington, D.C.: Dec. 2, 2016)"
+  ],
+  "locator": "GAO-20-467, Letter, footnotes 4 and 5",
+  "grade": "A",
+  "fact_date": "2020-06",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Government Accountability Office (nonpartisan, congressional), June 11, 2020. The earlier reports are GAO-10-333 (April 8, 2010), GAO-11-427 (June 23, 2011), GAO-14-381 (March 31, 2014) and GAO-17-83 (December 2, 2016); GAO-17-83 served as the report due April 1, 2017 and the alternatives report due within a year of October 7, 2015. The PDF text was read through a web fetch tool because gao.gov refuses download; check the footnote on the original.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-449",
+  "statement": "The federal note on minimum wage reporting for American Samoa and the other territories requires GAO to transmit to Congress an impact report not later than April 1, 2017 and a subsequent report not later than April 1, 2020, and, not later than one year after October 7, 2015, a report on alternative ways of increasing American Samoa's minimum wage to keep pace with the cost of living there and eventually equal the federal minimum wage.",
+  "claim": "data",
+  "figures": [
+   "2017",
+   "2020",
+   "1",
+   "2015"
+  ],
+  "source": "SRC-5549",
+  "anchor": [
+   "and not later than April 1,\n2017, shall transmit to Congress a report of its findings.",
+   "subsequent report not later than April 1, 2020.",
+   "than 1 year after the date of enactment of ‘An Act to\namend the Fair Minimum Wage Act of 2007 to reduce a\nscheduled increase in the minimum wage applicable to\nAmerican Samoa’ [Pub. L. 114–61, approved Oct. 7, 2015],\nthe Government Accountability Office shall transmit\nto Congress a report on alternative ways of increasing\nthe minimum wage in American Samoa to keep pace\nwith the cost of living in American Samoa and to even-"
+  ],
+  "locator": "29 U.S.C. 206 note, 'Report on the impact of past and future minimum wage increases', subsecs. (a) and (c)",
+  "grade": "A",
+  "fact_date": "2015",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law. Section 8104 of Pub. L. 110-28 as amended by Pub. L. 114-61; the dates April 1, 2017 and April 1, 2020 are in the statute; GAO's reports are in EV-WRK-448.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
  }
 ]
