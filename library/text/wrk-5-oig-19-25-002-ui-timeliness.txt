@@ -1,0 +1,2792 @@
+Source: https://oig.dol.gov/public/reports/oa/2025/19-25-002-03-315.pdf
+Publisher: U.S. Department of Labor, Office of Inspector General
+Retrieved: 2026-11-18
+Original SHA-256: b5438eba85af0b39a52bf41b3a8cd1487c6d528d077a72f223d4920359ca97f1
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+REPORT TO THE
+EMPLOYMENT AND TRAINING
+ADMINISTRATION
+
+COVID-19: ETA COULD HAVE
+DONE MORE TO ENSURE STATES
+HAD SUFFICIENT STAFFING TO
+DELIVER TIMELY PANDEMIC
+UNEMPLOYMENT BENEFITS
+
+This report was prepared by GenTech Associates, Inc. under
+contract with the U.S. Department of Labor, Office of Inspector
+General.
+
+U.S. Department of Labor
+Assistant Inspector General for Audit
+
+DATE ISSUED: NOVEMBER 22, 2024
+REPORT NUMBER: 19-25-002-03-315
+
+WHAT WE FOUND
+GenTech found ETA took several actions toward ensuring states’
+staffing supported the implementation of CARES Act UI programs.
+However, more actions were needed to ensure staffing levels were
+sufficient to afford timely benefits to eligible claimants. Specifically,
+ETA:
+
+BRIEFLY…
+COVID-19: ETA COULD HAVE DONE
+MORE TO ENSURE STATES HAD
+SUFFICIENT STAFFING TO DELIVER
+TIMELY PANDEMIC
+UNEMPLOYMENT BENEFITS
+
+
+
+
+
+
+WHY WE DID THE AUDIT
+On March 27, 2020, Congress passed
+the Coronavirus Aid, Relief, and
+Economic Security (CARES) Act, which
+provided expanded unemployment
+insurance (UI) benefits to workers
+unable to work due to the COVID-19
+pandemic. Section 2106 of the
+CARES Act provided emergency hiring
+flexibility and other temporary actions to
+process unemployment claims quickly.
+Our prior audit work found states’
+staffing was a concern in implementing
+emergency UI programs. Based on
+these risks, we contracted with
+GenTech Associates, Inc. (GenTech) to
+answer the following question:
+Did the Employment and Training
+Administration (ETA) ensure states’
+staffing supported the
+implementation of UI programs
+under the CARES Act and its
+amendments?
+To answer this question, GenTech
+assessed ETA’s oversight, performed
+in-depth testing of 6 OIG-selected
+states, and surveyed an additional
+47 state workforce agencies.
+READ THE FULL REPORT
+For more information, go to:
+https://www.oig.dol.gov/public/reports/
+oa/2025/19-25-002-03-315.pdf.
+
+
+
+provided states funding that could be used to improve staffing
+levels, but did not measure the impact of that funding nor
+determine the sufficiency of increased staffing levels in
+implementing the new UI programs;
+issued guidance for monitoring states’ staffing support, but did
+not do so until October 2020, 6 months after Congress
+passed the CARES Act;
+monitored states’ UI program performance, but did not
+recommend corrective actions to address states’ staffing
+issues; and
+allowed states the flexibility to reassign Benefit Accuracy
+Measurement staff to claims processing, but did not evaluate
+the resulting impairments to measuring improper payments.
+
+These deficiencies occurred because ETA did not prioritize the
+oversight of states’ staffing during the COVID-19 emergency.
+Specifically, ETA: (1) did not establish a benefit payment timeliness
+standard for CARES Act UI programs; (2) did not recognize the
+need for urgency in issuing monitoring guidance for the temporary
+programs; (3) allowed monitoring personnel the discretion to
+classify staffing as an area of concern rather than a compliance
+issue requiring corrective action; and (4) prioritized processing the
+volume of UI claims over measuring the accuracy of UI payments,
+specifically improper payments when suspending the Benefit
+Accuracy Measurement system as a strategy to address states’
+staffing needs.
+As a result, from April 2020 through September 2021, the 6 states
+were only able to pay 70 percent of initial claims (3.6 million of
+5.2 million) within 21 days, compared to the 87 percent standard
+ETA applies to regular UI. The quarterly percentage of claims paid
+within 21 days ranged from 51 percent to 81 percent. Furthermore,
+ETA’s suspension of the Benefit Accuracy Measurement system
+impaired ETA’s ability to assess the integrity of the new UI
+programs with respect to improper payments, including fraud.
+WHAT WE RECOMMENDED
+GenTech made four recommendations to ETA to improve its
+oversight and support of states’ staffing needs during an emergency
+event. ETA did not agree with the four recommendations; however,
+ETA’s proposed corrective action met the intent of one
+recommendation.
+
+U.S. Department of Labor – Office of Inspector General
+
+TABLE OF CONTENTS
+
+INSPECTOR GENERAL’S REPORT.................................................................... 4
+CONTRACTOR PERFORMANCE AUDIT REPORT ............................................ 7
+RESULTS ............................................................................................................. 9
+ETA Did Not Ensure States Had Sufficient Staffing to Deliver
+Timely Unemployment Benefits during Emergency Events...................... 10
+CONCLUSION .................................................................................................... 22
+RECOMMENDATIONS....................................................................................... 23
+Analysis of ETA’s Comments ................................................................... 23
+EXHIBIT: DETAILS ON THE 6 STATES’ PERFORMANCE FOR ETA’S
+87 PERCENT FIRST PAYMENT PROMPTNESS STANDARD.......................... 32
+APPENDIX A: SCOPE AND METHODOLOGY .................................................. 38
+APPENDIX B: ETA’S RESPONSE TO THE REPORT ....................................... 41
+
+-i-
+
+U.S. Department of Labor
+
+Office of Inspector General
+Washington DC 20210
+
+INSPECTOR GENERAL’S REPORT
+José Javier Rodríguez
+Assistant Secretary
+for Employment and Training
+U.S. Department of Labor
+200 Constitution Ave. NW
+Washington DC 20210
+The U.S. Department of Labor Office of Inspector General contracted with the
+independent certified public accounting firm of GenTech Associates, Inc.
+(GenTech) to conduct a performance audit of the Employment and Training
+Administration’s (ETA) oversight of states’ use of staffing to support the
+implementation of unemployment insurance (UI) programs under the Coronavirus
+Aid, Relief, and Economic Security (CARES) Act and its amendments.
+The Office of Inspector General monitored GenTech’s work to ensure it met
+professional standards and contractual requirements. GenTech’s independent
+audit was conducted in accordance with generally accepted government auditing
+standards.
+GenTech was responsible for the auditors’ evaluations and the conclusions
+expressed in the report while the Office of Inspector General was responsible for
+reviewing GenTech’s report and supporting documentation.
+Purpose
+UI is a joint federal-state program that provides temporary benefits to eligible
+workers who become unemployed through no fault of their own. ETA provides
+federal oversight of the UI program. On March 27, 2020, Congress passed the
+CARES Act, which provided expanded UI benefits to individuals who were
+unable to work due to the COVID-19 pandemic. Section 2106 of the CARES Act
+provided states with emergency hiring flexibilities limited to engaging temporary
+staff, re-hiring retirees or former employees on a non-competitive basis, and
+other temporary actions to process unemployment claims quickly.
+We have long reported significant concerns with the Department and states’
+ability to deploy UI benefits expeditiously and efficiently while ensuring integrity
+
+-4-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+and adequate oversight. In our April 2020 UI advisory report,1 we outlined areas
+of concern for ETA and states to consider while implementing CARES Act UI
+provisions. One of those areas was state preparedness, which specifically
+addressed concerns surrounding the sufficiency of states’ staffing levels to
+administer emergency UI benefits. In a May 2021 follow-up report, 2 we found
+states struggled to implement the three key CARES Act UI programs—Pandemic
+Unemployment Assistance, Pandemic Emergency Unemployment
+Compensation, and Federal Pandemic Unemployment Compensation—partially
+as a result of insufficient staffing.
+Based on these risks, we contracted with GenTech to answer the following
+question:
+Did ETA ensure states’ staffing supported the implementation of
+UI programs under the CARES Act and its amendments?
+To answer this question, GenTech conducted a performance audit covering the
+period from March 27, 2020, to September 6, 2021. Specifically, GenTech
+reviewed and assessed ETA’s internal controls design for monitoring federal
+grants, states’ staffing levels, administrative costs, and emergency UI program
+implementation. GenTech performed in-depth analyses of the States of: Arizona,
+Massachusetts, New York, North Carolina, Rhode Island, and Tennessee
+(6 states).
+We judgmentally selected these states based on a risk assessment that
+considered: (1) Office of Inspector General investigative concerns; (2) the
+quantity of additional staffing funded by the CARES Act and stratified into the
+highest, middle, and lowest ranges; (3) the extent to which the states had not
+been selected in previous Office of Inspector General audits; and (4) whether
+states used a combination of new full-time equivalents, contractors, and staffing
+agencies to carry out the UI program provisions under the CARES Act, as
+amended. GenTech also surveyed the remaining 47 state workforce agencies.
+Results
+GenTech found ETA took several actions toward ensuring states’ staffing
+supported the implementation of the CARES Act UI programs. However, more
+1 Advisory Report, CARES Act: Initial Areas of Concern Regarding Implementation of
+
+Unemployment Insurance Provisions, Report No. 19-20-001-03-315 (April 21, 2020),
+https://www.oig.dol.gov/public/reports/oa/2020/19-20-001-03-315.pdf
+2 COVID-19: States Struggled to Implement CARES Act Unemployment Insurance Programs,
+Report No. 19-21-004-03-315 (May 28, 2021),
+https://www.oig.dol.gov/public/reports/oa/2021/19-21-004-03-315.pdf
+
+-5-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+actions were needed to ensure staffing levels were sufficient to afford timely
+benefits to eligible claimants. Specifically, ETA:
+
+
+
+
+
+provided states funding that could be used to improve staffing levels, but
+did not measure the impact of that funding nor determine the sufficiency of
+increased staffing levels in implementing the new UI programs;
+issued guidance for monitoring states’ staffing support, but did not do so
+until October 2020, 6 months after Congress passed the CARES Act;
+monitored states’ UI program performance, but did not recommend
+corrective actions to address states’ staffing issues; and
+allowed states the flexibility to reassign Benefit Accuracy Measurement
+staff to claims processing, but did not evaluate the resulting impairments
+to measuring improper payments.
+
+These deficiencies occurred because ETA did not prioritize the oversight of
+states’ staffing during the COVID-19 emergency. Specifically, ETA: (1) did not
+establish a benefit payment timeliness standard for CARES Act UI programs;
+(2) did not recognize the need for urgency in issuing monitoring guidance for the
+temporary programs, (3) allowed monitoring personnel the discretion to classify
+staffing as an area of concern rather than a compliance issue requiring corrective
+action; and (4) prioritized processing the volume of UI claims over measuring the
+accuracy of UI payments, specifically improper payments, when suspending the
+Benefit Accuracy Measurement system as a strategy to address states’ staffing
+needs.
+As a result, from April 2020 through September 2021, the 6 states were only able
+to pay 70 percent of initial claims (3.6 million of 5.2 million) within 21 days,
+compared to the 87 percent standard ETA applies to regular UI. 3 The quarterly
+percentage of claims paid within 21 days ranged from 51 percent to 81 percent.
+Furthermore, ETA’s suspension of the Benefit Accuracy Measurement system
+impaired ETA’s ability to assess the integrity of new UI programs with respect to
+improper payments, including fraud.
+We appreciate the cooperation and courtesies ETA extended us during this audit.
+
+Carolyn R. Hantz
+Assistant Inspector General for Audit
+
+3 The regular UI program includes: Unemployment Compensation, Unemployment Compensation
+for Federal Employees, and Unemployment Compensation for Ex-Service Members.
+
+-6-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+CONTRACTOR PERFORMANCE AUDIT REPORT
+
+Independent Auditors’ Performance Audit Report on the Employment and
+Training Administration’s Staffing Support for the Implementation of
+Unemployment Insurance programs under the Coronavirus, Relief, and
+Economic Security Act and its Amendments
+José Javier Rodríguez
+Assistant Secretary
+for Employment and Training
+200 Constitution Ave. NW
+Washington DC 20210
+We were engaged by the U.S. Department of Labor Office of Inspector General
+(OIG) to conduct an independent performance audit of the state workforce
+agencies’ (SWA)4 use of staffing to support unemployment insurance (UI)
+programs under the provisions of the Coronavirus Aid Relief and Economic
+Security (CARES) Act and its amendments from March 27, 2020, through
+September 6, 2021.5
+On March 27, 2020, Congress passed the CARES Act, which provided expanded
+UI benefits to individuals who were unable to work due to the COVID-19
+pandemic. The Employment and Training Administration (ETA) is responsible for
+federal oversight of the states’ administration of UI programs, including three key
+CARES Act UI programs: Pandemic Unemployment Assistance, Pandemic
+Emergency Unemployment Compensation, and Federal Pandemic
+Unemployment Compensation.
+
+4 This report uses “state” or “SWA” to refer to the body that administers the UI program within the
+
+state, district, or territory. For the 50 states, as well as the U.S. Virgin Islands, Puerto Rico, and
+the District of Columbia, that administrative body is a SWA. There are, therefore, 53 SWAs.
+5 The CARES Act expanded UI benefits through December 31, 2020. On December 27, 2020, the
+Continued Assistance for Unemployed Workers Act of 2020 extended the CARES Act UI
+programs through March 14, 2021. On March 11, 2021, the American Rescue Plan Act of 2021
+further extended the CARES Act UI programs through September 6, 2021.
+
+-7-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+We conducted the audit to answer the following question:
+Did ETA ensure states’ staffing supported the implementation of
+UI programs under the CARES Act and its amendments?
+To answer this question, we conducted procedures at the ETA and state levels to
+assess ETA’s monitoring of the sufficiency of states’ staffing levels. This included
+reviewing UI claims workload, grant monitoring guidance, state agreements, and
+administrative funding. We performed an in-depth analysis of Arizona,
+Massachusetts, New York, North Carolina, Rhode Island, and Tennessee
+(6 states), including an analysis of states’ staffing levels and timeliness for initial
+payments. We surveyed the remaining 47 SWAs.
+Administrative Grant Funding for States
+Section 2106 of the CARES Act provided states with temporary, limited flexibility
+to hire temporary staff, re-hire former staff, or take other steps to process
+unemployment claims quickly.6 SWAs received $3.9 billion in
+Fiscal Year (FY) 2020 and FY 2021 to fund administrative costs, including but not
+limited to staffing. The administrative grants were available for all SWAs from
+April 1, 2020, through June 30, 2022, except the California SWA, for which the
+grant was available from April 1, 2020, through December 31, 2022. ETA officials
+stated they did not have the authority nor was it within policy to direct grantee
+expenditures.
+According to ETA officials, prior to the pandemic, federal funds had been
+historically insufficient to support states’ administrative activities. Although
+administrative activities are supposed to be fully supported with federal funds,
+ETA officials were aware states were using their own funding to support UI
+program administration. From FY 2017 to FY 2019, according to the National
+Association of State Workforce Agencies’ FY 2019 State Supplemental Survey
+Report, approximately 52 SWAs used state funds ranging from $365.6 million to
+$424.4 million to supplement federal grants for UI administrative costs. 7
+The pandemic exacerbated the states’ previous administrative funding shortfalls
+and had a profound impact on the UI system, presenting states with
+unprecedented challenges. According to ETA officials, these challenges included
+managing an unprecedented surge in claims volume, adapting to remote work
+environments, and implementing new temporary pandemic UI programs,
+6 Section 2106 also allowed for states to hire contractors; however, for this audit, we did not
+
+assess the states’ use of contractors.
+7 Available at:
+https://www.naswa.org/system/files/2022-12/naswastatesupplementalfundingsurveyfy2019.pdf
+
+-8-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+including the three largest programs: Federal Pandemic Unemployment
+Compensation, Pandemic Unemployment Assistance, and Pandemic Emergency
+Unemployment Compensation. The largest increase in UI claims occurred
+between quarters ending March 2020 and June 2020, when initial UI claims
+increased from approximately 1.8 million to almost 5.3 million (199 percent) for
+the 6 states (see Figure 1).
+Figure 1: Total Number of Initial UI Claims for the 6 States,
+Quarters Ending March 2020–September 2021
+6,000,000
+5,292,014
+
+Initial UI Claims
+
+5,000,000
+4,000,000
+3,000,000
+2,000,000
+
+1,877,170
+
+1,767,540
+
+1,499,213
+
+1,524,444
+888,937
+
+1,000,000
+
+556,818
+
+0
+JAN-MAR
+2020
+
+APR-JUN
+2020
+
+JUL-SEP
+2020
+
+OCT-DEC
+2020
+
+JAN-MAR
+2021
+
+APR-JUN
+2021
+
+JUL-SEP
+2021
+
+Source: U.S. Department of Labor Unemployment Insurance Weekly Claims Data8
+
+RESULTS
+We found ETA took several actions toward ensuring states’ staffing supported
+the implementation of the CARES Act UI programs. However, more actions were
+needed to ensure staffing levels were sufficient to afford timely benefits to eligible
+claimants.
+
+8 Available at: https://oui.doleta.gov/unemploy/claims.asp
+
+-9-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Specifically, ETA:
+
+
+
+
+
+provided states funding that could be used to improve staffing levels, but
+did not measure the impact of that funding nor determine the sufficiency of
+increased staffing levels in implementing the new UI programs;
+issued guidance for monitoring states’ staffing support, but did not do so
+until October 2020, 6 months after Congress passed the CARES Act;
+monitored states’ UI program performance, but did not recommend
+corrective actions to address states’ staffing issues; and
+allowed states the flexibility to reassign Benefit Accuracy Measurement
+(BAM) staff to claims processing, but did not evaluate the resulting
+impairments to measuring improper payments.
+
+These deficiencies occurred because ETA did not prioritize the oversight of
+states’ staffing during the COVID-19 emergency. Specifically, ETA: (1) did not
+establish a benefit payment timeliness standard for CARES Act UI programs;
+(2) did not recognize the need for urgency in issuing monitoring guidance for the
+temporary programs; (3) allowed monitoring personnel the discretion to classify
+staffing as an area of concern rather than a compliance issue requiring corrective
+action; and (4) prioritized processing the volume of UI claims over measuring the
+accuracy of UI payments, specifically improper payments. when suspending
+BAM as a strategy to address states’ staffing needs.
+As a result, from April 2020 through September 2021, the 6 states were only able
+to pay 70 percent of initial claims (3.6 million of 5.2 million) within 21 days,
+compared to the 87 percent standard ETA applies to regular UI. 9 The quarterly
+percentage of claims paid within 21 days ranged from 51 percent to 81 percent.
+Furthermore, ETA’s suspension of BAM impaired ETA’s ability to assess the
+integrity of new UI programs with respect to improper payments, including fraud.
+ETA Did Not Ensure States Had Sufficient
+Staffing to Deliver Timely Unemployment
+Benefits during Emergency Events
+As of April 10, 2020, the Office of Management and Budget required agencies to
+prioritize expediency, defined as the rapid issuance of awards to meet crucial
+
+9 The regular UI program includes: Unemployment Compensation, Unemployment Compensation
+for Federal Employees, and Unemployment Compensation for Ex-Service Members.
+
+-10-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+needs.10 In the OIG’s April 2020 UI advisory report,11 it highlighted the sufficiency
+of states’ staffing to administer emergency UI benefits as an area of concern for
+ETA and states to consider while implementing CARES Act UI provisions. In a
+May 2021 follow-up report,12 the OIG found, from March 27, 2020, through
+July 31, 2020, states struggled to implement CARES Act UI programs and pay
+benefits promptly, partially because of insufficient staffing. Sufficiency of states’
+staffing to support the timely delivery of UI benefits continued to be a challenge
+for the rest of the extended CARES Act period through September 2021.
+ETA provides federal oversight of the UI program, including its internal
+control system. The Government Accountability Office’s Standards for Internal
+Control in the Federal Government states the oversight body oversees
+management’s design, implementation, and operation of the entity’s internal
+control system.13 However, we found four deficiencies with ETA’s oversight of
+states’ staffing support.
+Specifically, ETA: (1) provided states funding that could be used to improve
+staffing levels, but neither measured the impact of that funding nor determined
+the sufficiency of states’ increased staffing levels in implementing the new UI
+programs; (2) issued initial guidance for regional offices to monitor states’ staffing
+needs for CARES Act UI programs, but not until October 2020, 6 months after
+Congress passed the CARES Act and 4 months after the surge of pandemic UI
+claims; (3) did not recommend corrective actions to address states’ staffing
+issues when identified; and (4) allowed states to reassign BAM staff to claims
+processing duties, which impaired ETA’s ability to assess the integrity of the new
+UI programs with respect to improper payments, including fraud.
+ETA Did Not Measure the Impact of Federal
+Funding on Improving States’ Staffing nor
+Determine the Sufficiency of Staffing Levels
+From April 1, 2020, through September 30, 2021, ETA awarded grant funds to
+the 6 states totaling $766.9 million to support administrative expenses of the
+pandemic UI programs. However, ETA neither measured the impact of the
+10 Office of Management and Budget Memorandum 20-21, Implementation Guidance for
+
+Supplemental Funding Provided in Response to the Coronavirus Disease 2019 (April 10, 2020)
+11 Advisory Report: CARES Act: Initial Areas of Concern Regarding Implementation of
+
+Unemployment Insurance Provisions, Report No. 19-20-001-03-315 (April 21, 2020),
+https://www.oig.dol.gov/public/reports/oa/2020/19-20-001-03-315.pdf
+12 COVID-19: States Struggled to Implement CARES Act Unemployment Insurance Programs,
+Report No. 19-21-004-03-315 (May 28, 2021),
+https://www.oig.dol.gov/public/reports/oa/2021/19-21-004-03-315.pdf
+13 GAO-14-704G, Standards for Internal Control in the Federal Government (September 2014)
+
+-11-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+administrative grant funding it provided on improving staffing levels nor
+determined the sufficiency of states’ increased staffing levels in implementing the
+programs. The 6 states allocated $540.7 million of the administrative grant funds
+to support staffing efforts (see Table 1).
+Table 1: Administrative Grants Expenditures for the 6 States,
+April 2020–September 2021
+UI Grant Obligated
+Funds
+
+Staffing Costs
+
+Percentage Used
+for Staffing
+
+Arizona
+
+$154,049,022
+
+$83,016,093
+
+54%
+
+Massachusetts
+
+$94,489,965
+
+$53,179,446
+
+56%
+
+New York
+
+$339,902,173
+
+$323,290,271
+
+95%
+
+North Carolina
+
+$108,330,438
+
+$47,573,615
+
+44%
+
+Rhode Island
+
+$35,745,178
+
+$13,430,770
+
+38%
+
+Tennessee
+
+$34,429,493
+
+$20,258,168
+
+59%
+
+$766,946,269
+
+$540,748,362
+
+State
+
+Totals
+
+Source: GenTech analysis of ETA’s funding and expenditure by state
+
+The 6 states’ staffing levels increased from April 2020 through September 2021,
+with the largest increase in average staffing levels occurring between April and
+June 2020, just after the CARES Act passed. During this time, average state
+staffing levels increased from 873 to 2,060 positions (236 percent). However, 5 of
+the 6 states14 considered their staffing levels insufficient to process the volume of
+initial UI claims despite receiving administrative grant funds to implement the
+CARES Act UI programs.
+Also, despite increases in staffing levels, 5 of the 6 states15 generally did not
+meet ETA’s first payment promptness standard (see Exhibit). This ETA UI Core
+Measures standard, used for measuring the timeliness of initial benefit payments,
+established the acceptable level of performance as at least 87 percent of regular
+UI payments being made within 14 or 21 days. 16 However, ETA did not apply the
+14 North Carolina responded its staffing levels were sufficient to implement CARES Act UI
+programs while Arizona, Massachusetts, New York, North Carolina, and Tennessee responded
+their staffing levels were insufficient.
+15 Arizona, Massachusetts, New York, North Carolina, and Tennessee consistently did not meet
+the 87 percent first payment promptness standard. Rhode Island was the only state that generally
+met the standard. See Exhibit.
+16 ETA requires states without a waiting week to pay 87 percent of claimants within 14 days and
+states with a waiting week within 21 days after the week ending date of the first compensable
+week in the benefit year.
+
+-12-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+first payment promptness standard to episodic claims, or claims submitted under
+temporary programs such as the CARES Act UI programs.
+Absent a timeliness standard for the CARES Act programs, we used ETA’s first
+payment promptness standard in our analysis to provide context for performance
+of the 6 states during the pandemic. Our rationale for this is simple—there is no
+greater need for prompt payment of unemployment benefits than during an
+economic crisis. As such, a standard is needed to measure the states’
+performance of delivering payments promptly during such emergencies.
+Despite the increase in staffing levels, from quarters ending June 2020 through
+September 2021, the 6 states were only able to pay 70 percent of initial UI claims
+(3.6 million of 5.2 million) within 21 days, 17 percent less than ETA’s first
+payment promptness standard. The quarterly percentage of initial claims paid
+within 21 days ranged from 51 percent to 81 percent (see Figure 2).
+Figure 2: The 6 States’ Staffing Levels and Initial UI Claim Payments
+Compared to ETA’s First Payment Promptness Standard, Quarters Ending
+March 2020–September 2021*
+
+Number of Staff
+
+11,000
+
+100%
+
+96%
+
+90%
+81%
+
+10,000
+75%
+
+72%
+
+9,000
+
+80%
+74%
+
+64%
+
+8,000
+
+60%
+
+51%
+
+7,000
+
+70%
+
+50%
+
+6,000
+
+40%
+
+5,000
+
+30%
+JAN-MAR
+2020
+
+APR-JUN
+2020
+
+JUL-SEP
+2020
+
+OCT-DEC
+2020
+
+JAN-MAR
+2021
+
+APR-JUN
+2021
+
+JUL-SEP
+2021
+
+Number of Staff
+Quarterly Percentage of Initial Claims Paid within 21 Days
+ETA's First Payment Promptness Standard (87 Percent Paid within 21 Days)
+*ETA calculates initial payment promptness for each state monthly. However, for our testing of
+the 6 states, we calculated first payment promptness quarterly.
+Source: Analysis using staffing data from the 6 states and ETA - Benefits: Timeliness and
+Quality Reports / All First Payment Timeliness 17
+
+17 Available at: https://oui.doleta.gov/unemploy/btq.asp
+
+-13-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+Percentage of Claims Paid
+
+12,000
+
+U.S. Department of Labor – Office of Inspector General
+
+ETA Did Not Establish a Benefit Payment Timeliness Standard for
+CARES Act UI Programs
+According to ETA’s response to a previous OIG report,18 most states had
+challenges meeting the 87 percent standard for regular UI programs due to high
+claims volume prior to the pandemic, let alone meeting such a performance
+standard for the new CARES Act UI programs. Therefore, ETA did not establish
+a benefit payment timeliness standard for CARES Act UI programs. We tested
+ETA’s assertion by analyzing the 6 states’ initial payments for regular UI
+programs before the pandemic. For quarters ending December 2019 through
+March 2020, Arizona, New York, Rhode Island, and Tennessee all met ETA’s
+first payment promptness standard (see Table 2).
+Table 2: Pre-Pandemic Benefit Payment Timeliness for the 6 States,
+Quarters Ending December 2019 and March 2020
+Percentage of
+Initial UI Claims
+Paid within
+21 Days,
+Oct.-Dec. 2019
+
+Percentage of
+Initial UI Claims
+Paid within
+21 Days,
+Jan.-Mar. 2020
+
+Met 87% First
+Payment
+Promptness
+Standard for Both
+Quarters?
+
+Arizona
+
+89%
+
+89%
+
+Yes
+
+New York
+
+93%
+
+93%
+
+Yes
+
+Rhode Island
+
+95%
+
+95%
+
+Yes
+
+Tennessee
+
+95%
+
+96%
+
+Yes
+
+Massachusetts
+
+84%
+
+95%
+
+No
+
+North Carolina
+
+73%
+
+82%
+
+No
+
+State
+
+Source: GenTech’s analysis using data from ETA - Benefits: Timeliness and Quality Reports / All
+First Payment Timeliness
+
+Therefore, with 4 of the 6 states able to meet the standard, we did not find
+supportable justification for ETA not establishing a benefit payment timeliness
+standard for the CARES Act UI programs.
+
+18 COVID-19: States Struggled to Implement CARES Act Unemployment Insurance Programs,
+
+Report No. 19-21-004-03-315 (May 28, 2021),
+https://www.oig.dol.gov/public/reports/oa/2021/19-21-004-03-315.pdf
+
+-14-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+ETA Did Not Issue Guidance for Regional Offices to
+Assess Risks and Monitor States’ Staffing until
+6 Months after Congress Passed the CARES Act
+On February 21, 2020, ETA established guidance in Employment and Training
+Order 1-20 for oversight reviews of regular UI programs but did not provide timely
+guidance for regional offices to assess risks and monitor the states’
+administration of the CARES Act UI programs, including staffing support. The
+CARES Act authorized the temporary emergency UI programs on
+March 27, 2020. However, ETA did not issue the risk assessment and program
+monitoring guidance in Employment and Training Order 1-21 19 until
+October 2, 2020, more than 6 months after the CARES Act passed.
+We acknowledge the challenges faced with establishing guidance to monitor the
+performance of swiftly rolled-out new temporary UI programs; however, 6 months
+was too long. By the time ETA issued the guidance, the total initial UI claims for
+the 6 states had already peaked at almost 5.3 million as of June 2020. Regional
+offices needed monitoring guidance sooner to gather quality staffing
+information from SWAs to allow ETA to make informed decisions and
+evaluate the SWAs’ performance in delivering benefits. According to the
+Government Accountability Office’s Standards for Internal Control in the Federal
+Government, it is management’s responsibility to obtain data on a timely basis so
+that they can be used for effective monitoring.
+ETA Did Not Recognize the Need for Urgency in Issuing Monitoring
+Guidance Specifically for CARES Act UI Programs
+ETA officials stated, while Employment and Training Order 1-21 was very
+important in ETA’s oversight of CARES Act programs, ETA was already engaged
+in significant monitoring and oversight activities prior to its release. Thus, ETA did
+not recognize the need for urgency in issuing such guidance. According to ETA
+officials, ETA actively tracked states’ implementation of the programs and
+identified issues and required corrective actions of states as early as May 2020.
+In addition, in response to a previous OIG report,20 ETA officials stated, during
+the period that the new CARES Act UI programs were initiated, ETA had to issue
+guidance and provide technical assistance to states and states needed time to
+19 Employment and Training Order 1-21 requires regional offices to conduct quarterly desk
+
+reviews in the grant management system to assess potential risk for each states administration of
+grants for programs including Pandemic Unemployment Assistance, Pandemic Emergency
+Unemployment Compensation, and Federal Pandemic Unemployment Compensation.
+20 COVID-19: ETA and States Did Not Protect Pandemic-Related UI Funds from Improper
+Payments Including Fraud or from Payment Delays, Report No. 19-22-006-03-315
+(September 30, 2022), https://www.oig.dol.gov/public/reports/oa/2022/19-22-006-03-315.pdf
+
+-15-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+stand up these major new programs. ETA officials stated it was unrealistic to
+expect ETA to immediately identify all issues with state operations. According to
+ETA, initial oversight activity included gathering information on states’
+implementation of the programs and, in May 2020, starting to provide states with
+information on incidents where states did not properly implement the programs.
+ETA officials asserted ETA was engaged with states throughout the pandemic,
+calling out problems with states’ implementation and operation of the programs
+and providing guidance and technical assistance to address problems as they
+were identified.
+ETA’s assertion that its monitoring activities were sufficient—absent specific
+guidance on monitoring CARES Act UI programs—is questionable. If it
+considered the monitoring activities performed before October 2020 sufficient,
+ETA may not have determined it needed to later issue guidance specifically for
+monitoring the CARES Act UI programs.
+ETA Did Not Recommend Corrective Actions to
+Address States’ Staffing Issues
+ETA’s monitoring reviews are a core aspect of its state oversight framework for
+regular UI. These reviews can lead to ETA providing states technical assistance
+in identified areas of concern for non-compliance issues and recommending
+corrective actions for compliance issues that lead to findings. However, for 5 of
+the 6 states, ETA’s oversight did not result in technical assistance to states nor
+recommendations for corrective actions related to staffing issues identified during
+its monitoring reviews.
+In annual State Quality Service Plans (SQSP) 21 and quarterly desk reviews, the
+6 states informed ETA of challenges with staffing shortages, insufficiently trained
+staff, workload increases, and timeliness concerns associated with UI benefit
+payments. However, ETA regional offices did not consider the states’ issues with
+staffing as indicators of compliance concerns and therefore did not recommend
+any corrective actions. Details regarding the five states’ staffing concerns and the
+respective ETA regional office actions follow.
+ETA Region 1 Office
+ETA’s Region 1 office did not document any corrective actions to address the
+following staffing-related concerns that the Massachusetts, New York, and
+Rhode Island SWAs noted in their SQSPs:
+21 The annual SQSP is the principal vehicle that state UI programs use to plan, record, and
+
+manage improvement efforts. The SQSP serves as the programmatic plan portion of the grant
+document through which states receive federal UI administrative funding.
+
+-16-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+
+
+Massachusetts SWA officials noted in their FY 2019-FY 2020 and
+FY 2021 SQSPs the state did not meet the ETA first payment
+performance standard due to the claimant versus staff ratio. The surge in
+UI claims as a result of the COVID-19 pandemic had a dramatic impact on
+the state’s ability to address workflow volume.
+
+
+
+New York SWA officials noted in their FY 2020 SQSP the state was
+experiencing challenges with effectively administering the UI programs
+due to FY 2020 federal budget shortfalls of $183 million for all states.
+According to New York UI benefit officials, in FY 2020, states in the
+aggregate received $567 million less than what states spent in FY 2019.
+The New York SWA relied on administrative funding for staffing expenses.
+
+
+
+Rhode Island SWA officials noted in their FY 2021 SQSP that adjudication
+staff (those traditionally assigned to BAM) were reassigned to assist in
+processing claims. The state anticipated it would not meet the first
+payment performance standard as a result of staffing resources and the
+increase in workload as a result of the pandemic.
+
+According to ETA Region 1 officials, corrective actions occur when ETA conducts
+monitoring and makes a finding. A finding is a violation of legislation, regulation,
+and/or departmental guidance. Regarding the three states under the oversight of
+ETA’s Region 1 office (Massachusetts, New York, and Rhode Island), ETA
+recommended no corrective actions.
+ETA Region 3 Office
+ETA’s Region 3 office did not document any recommended corrective actions to
+address the staffing-related concerns the Tennessee SWA noted in its SQSPs.
+In SQSPs for FY 2020 and FY 2021, the Director of Employer Accounts noted
+the accounting office had a shortage of staff and inexperienced supervisors and
+staff, which resulted in inaccurate billing statements. Further, the SWA’s director
+noted the need to take a more active role in ensuring errors were resolved before
+issuing monthly billing statements. In a June 30, 2020, desk review, Tennessee
+SWA officials noted the state was experiencing significant delays due to a
+shortage of staff and an unprecedented number of claims.
+According to ETA’s Region 3 office, corrective action plans the Tennessee SWA
+provided each quarter included progress updates regarding hiring, training, and
+promoting staff. Also, Region 3 indicated it held regular meetings with the
+Tennessee SWA to obtain program updates and discuss staffing. However,
+Region 3 did not provide documentation to support this statement.
+
+-17-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+ETA Region 6 Office
+ETA’s Region 6 office did not document any corrective actions needed to
+address the staffing-related concerns the Arizona SWA noted in its SQSPs.
+In the FY 2020 SQSP, the Arizona SWA noted it did not meet ETA’s first
+payment promptness performance standard due to loss of experienced staff. It
+reported it had 34 adjudicators working a full caseload but needed 54.
+We reviewed the SQSPs and quarterly desk reviews for FY 2020 and did not
+identify any corrective actions recommended by Region 6 to address Arizona’s
+staffing deficiencies. According to Region 6 officials, corrective action
+recommendations and follow-up are required when matters of noncompliance are
+identified. Accordingly, Region 6 officials did not identify staffing as a
+noncompliance issue because ETA had not established performance metrics or
+goals for the state’s administrative grant related to staffing.
+ETA’s Guidance Allowed Reviewers Discretion to Classify Staffing as
+an Area of Concern rather than a Compliance Indicator that Required
+Corrective Action
+ETA’s Core Monitoring Guide (August 2018)—a tool for an ETA reviewer to
+assess grant recipients’ core activities—allowed reviewers discretion to classify
+staffing as an area of concern rather than as a compliance indicator, excusing
+reviewers from developing findings and recommending corrective actions.
+Core activities assessed during these monitoring reviews included Service
+Design and Delivery (Core Activity 1). The objective of Core Activity 1 is to
+ensure the grant recipient has implemented service design and delivery activities
+to accomplish all grant activities and goals. ETA reviewers use Designating
+Personnel, Staff, and Hiring as an indicator of whether the objective of
+Core Activity 1 is being met. Specifically, the grant recipient’s ability to have the
+necessary staff to successfully conduct its administrative and operational duties
+under the grant is an indicator the objective is being met. For Core Activity 1,
+reviewers have the discretion to determine whether an indicator is either a
+compliance indicator, effectiveness indicator, or both. Compliance indicators
+must be met, and findings of noncompliance require condition, cause, criteria,
+and corrective action. ETA’s Core Monitoring Guide does not require corrective
+action for areas of concern but instead suggestions for improvements.
+Program effectiveness is determined by the extent to which program objectives
+are achieved and the positive changes they bring about in the target community
+or sector. This encompasses various dimensions, including impact, efficiency,
+relevance, sustainability, and adaptability. Although an effectiveness indicator
+
+-18-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+may not be a compliance violation but rather an area of concern, it may have a
+negative impact on the program or could lead to a finding in the future. For
+example, insufficient staffing levels for 5 of the 6 states generally had a negative
+impact on the timeliness of benefit delivery—almost 1.6 million claimants waited
+longer than 21 days for their first UI payment. If ETA reviewers had developed a
+finding and recommended corrective action to more timely address the states’
+staffing needs, more claimants would likely have received benefit payments
+sooner.
+ETA Allowed States to Reassign BAM Staff to
+Claims Processing, Impairing ETA’s Ability to
+Assess Integrity of New UI Programs with Respect
+to Improper Payments, Including Fraud
+The primary objectives of ETA’s BAM program are to: assess the accuracy of UI
+payments, assess improvements in program accuracy and integrity, and
+encourage more efficient administration of the UI program. BAM provides the
+basis for assessing the accuracy of UI payments, specifically the improper
+payment rate. The improper payment rate is an estimate based on the results of
+states’ representative samples of paid and denied claims for regular UI. ETA and
+SWA staff also use BAM as a diagnostic tool to identify errors and their causes
+and correct and track solutions to these problems.
+According to ETA, upon the President declaring the COVID-19 outbreak as a
+national emergency, many states started experiencing increased levels of claims.
+As a result, states proactively requested flexibility to move all available staff,
+including BAM personnel, to perform claims processing duties. On
+March 18, 2020, with Office of Management and Budget approval, ETA issued
+guidance allowing states, with written justification, to request temporary
+suspension of BAM from April 1, 2020, through June 30, 2020. According to the
+6 states’ justifications, they needed all available staff resources to process the
+high level of initial UI claims during the peak of the pandemic. ETA approved the
+requests to suspend accuracy processing in BAM for paid and denied claims.
+Although ETA provided states operational flexibilities, including the suspension of
+BAM to reassign staff from BAM program integrity duties to UI claims processing
+duties, these actions were not sufficient to address the high volume of claims.
+SWAs still struggled to pay UI benefits in a timely manner. During the BAM
+suspension period for the quarter ending June 2020, we identified 4 of the
+6 states—Arizona, New York, North Carolina, and Massachusetts—did not meet
+ETA’s 87 percent first payment promptness standard. The percentages of initial
+UI benefits paid within 21 days ranged from 59 to 86 percent. Rhode Island and
+
+-19-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Tennessee exceeded the standard by paying 95 percent and 88 percent of initial
+UI benefits within 21 days (see Figure 3).
+Figure 3: The 6 States’ Staffing Levels and Initial UI Claims Payments
+Compared to ETA’s First Payment Promptness Standard during
+BAM Suspension, Quarter Ending June 2020
+
+Number of Staff
+
+5,000
+
+100%
+
+95%
+81%
+
+88%
+
+86%
+
+90%
+80%
+
+78%
+
+70%
+
+4,000
+
+60%
+
+59%
+3,000
+
+50%
+40%
+
+2,000
+
+30%
+20%
+
+1,000
+
+Percentage of Claims Paid
+
+6,000
+
+10%
+
+-
+
+0%
+
+Number of Staff
+Quarterly Percentage of Claims Paid within 21 Days
+ETA's First Payment Promptness Standard (87 Percent Paid within 21 Days)
+Source: Analysis using staffing data from the 6 states and ETA - Benefits: Timeliness and
+Quality Reports / All First Payment Timeliness
+
+ETA’s Emergency Response Prioritized Processing Claims rather than
+Assessing UI Program Integrity
+ETA officials stated ETA identified the temporary suspension of BAM operations
+as one of several strategies to address states’ needs for adequate staffing to
+process the increase in claims.
+When ETA decided to suspend BAM, its emergency response prioritized
+processing UI claims rather than assessing UI program integrity. While ETA’s
+interest in addressing the states’ needs to process the massive volume in claims
+was commendable, ETA did not develop a business case analysis to justify that
+suspending BAM would effectively assist states with managing the claims surge
+
+-20-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+while maintaining ETA’s ability to sufficiently assess the integrity of the new UI
+programs.
+According to ETA officials, in January and February 2020, the UI claims volume
+was the lowest in decades and administrative funding was also historically low.
+ETA officials stated an exponential increase in new claims from March 2020
+through June 2020 created a large staffing deficit in states. According to ETA, the
+largest incremental increase was 17.6 million claims. In addition, ETA officials
+stated, based on BAM investigators’ knowledge and experience with fact-finding
+and assessing states’ UI program compliance, BAM investigators were generally
+able to seamlessly step into the claims processing role and adjudication roles to
+support the SWAs during the pandemic. Although expeditious delivery of UI
+benefits was critical during the claims surge, ETA’s assessments of the CARES
+Act UI programs’ integrity were also necessary as the UI claims and risk of
+fraudulent payments increased.
+In December 2021, ETA reported a FY 2021 estimated improper payment rate of
+18.9 percent,22 which was applied to Federal Pandemic Unemployment
+Compensation. ETA was unable to calculate an estimated improper payment rate
+for Pandemic Unemployment Assistance until August 2023; Ultimately, ETA
+reported a FY 2023 improper payment rate of 35.9 percent.23 Further, for the
+6 states, the OIG previously identified24 almost $3.2 billion in potentially
+fraudulent Pandemic Unemployment Assistance and Federal Pandemic
+Unemployment Compensation benefits paid to individuals with
+Social Security numbers: (1) filed in multiple states, (2) of deceased persons, and
+(3) used to file UI claims with suspicious email accounts (see Table 3).
+
+22 This rate includes an overpayment rate of 17.9 percent, an underpayment rate of 0.8 percent,
+
+and a 0.2 percent rate for benefits whose classification—whether valid, overpaid, or underpaid—
+could not be determined.
+23 This rate includes an overpayment rate of 17 percent, an underpayment rate of 1.5 percent,
+and a 17.4 percent rate for benefits whose classification—whether valid, overpaid, or underpaid—
+could not be determined.
+24 COVID-19: Pandemic Unemployment Assistance for Non-Traditional Claimants Weakened by
+Billions in Overpayments, Including Fraud, Report No. 19-23-015-03-315 (September 27, 2023),
+https://www.oig.dol.gov/public/reports/oa/2023/19-23-014-03-315.pdf
+
+-21-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Table 3: OIG-Identified Potential Fraud for the 6 States,
+April 2020–September 2021
+
+State
+
+Total PUA* and
+FPUC** Benefits
+
+OIG-Identified
+Potentially
+Fraudulent Benefits
+
+Percentage of
+Potentially
+Fraudulent Benefits
+
+Arizona
+
+$7,970,139,262
+
+$1,376,330,363
+
+17.3%
+
+Massachusetts
+
+$9,463,400,031
+
+$311,247,869
+
+3.3%
+
+New York
+
+$36,959,767,657
+
+$1,264,572,705
+
+3.4%
+
+North Carolina
+
+$2,001,465,064
+
+$80,275,568
+
+4.0%
+
+Rhode Island
+
+$1,214,504,366
+
+$93,440,983
+
+7.7%
+
+Tennessee
+
+$792,679,589
+
+$50,470,868
+
+6.4%
+
+$58,401,955,969
+
+$3,176,338,356
+
+Totals
+
+*Pandemic Unemployment Assistance **Federal Pandemic Unemployment Compensation
+Source: OIG analysis of claims data
+
+As demonstrated by the magnitude of potentially fraudulent benefits paid in the
+6 states, sufficient staffing resources to implement and protect the integrity of the
+new UI programs with respect to improper payments, including fraud, was critical.
+CONCLUSION
+Through provisions of CARES Act Section 2106, Congress provided states with
+temporary, limited flexibility to hire temporary staff, re-hire former staff, or take
+other steps to process unemployment claims quickly during the pandemic. To
+this end, ETA awarded $3.9 billion to SWAs in FY 2020 and FY 2021 to fund
+administrative costs associated with the pandemic UI programs, including but not
+limited to staffing. However, given the exponential increase in UI claims and
+associated risks of improper payment, including fraud, coupled with OIG’s
+long-standing concerns about state preparedness—specifically staffing—ETA
+needed to do more.
+ETA took several actions toward ensuring states’ staffing supported the
+implementation of the CARES Act UI programs, but those actions were not
+enough, resulting in the 6 states paying only 70 percent of initial UI claims
+(3.6 million of 5.2 million claims) within 21 days. This is 17 percent less than
+ETA’s first payment promptness standard.
+
+-22-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Striking a balance between ensuring states have sufficient staff to deliver the
+necessary aid to people facing hardships while having measures in place to
+assess UI program integrity against improper payments, including fraud, is a
+challenge. Before the next disaster or mass unemployment event, ETA must be
+prepared to do both without compromise or tradeoff.
+RECOMMENDATIONS
+We recommend the Assistant Secretary for Employment and Training:
+1. Develop performance standards for prompt payment of UI benefits under
+temporary UI programs using lessons learned from the pandemic.
+2. Establish policy that requires officials to issue guidance timely for ETA
+regional offices to monitor and measure the effectiveness of states’ use of
+staffing to support the implementation of temporary UI programs.
+3. Establish policy that requires states to develop corrective action plans to
+address staffing insufficiencies that negatively impact permanent and
+temporary UI programs, as identified by regional offices during monitoring
+reviews.
+4. Establish policy that requires ETA officials to develop a business case
+analysis and supporting justification when considering suspension of any
+UI program integrity functions.
+Analysis of ETA’s Comments
+In response to the draft of this report, ETA did not agree with our four
+recommendations to improve ETA’s oversight and support of states’ staffing
+needs during an emergency event. ETA also expressed concerns regarding the
+findings of our report. We carefully reviewed ETA’s response in full; our report
+was accurate as stated, thus the agency’s response did not result in any changes
+material to our reported results or conclusions. Synopses of ETA’s comments on
+our recommendations and findings along with our corresponding responses
+follow:
+
+
+ETA disagreed with Recommendation 1 and stated it is extremely
+challenging to develop standards for a program that does not exist and for
+which the Department does not know its duration or the program's
+requirements. ETA also stated the Department intends on capturing
+lessons learned from the pandemic experience in the temporary programs
+to help inform actions for similar future programs. ETA stated this
+
+-23-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+approach allows the Department to be proactive in a more meaningful way
+since it cannot speculate on requirements for any program(s) Congress
+may authorize and appropriate funding for in the future. Last, ETA stated it
+is not in a position to commit to developing performance standards for
+temporary programs in the future.
+o Although ETA disagreed with Recommendation 1, we determined
+ETA’s proposed corrective action, to capture lessons learned
+regarding staffing to help inform actions for similar future programs,
+meets the intent of our recommendation.
+
+
+ETA disagreed with Recommendation 2. The agency stated the premise
+for the recommendation was predicated on a lack of understanding of the
+situation within which states and ETA were operating during the pandemic
+and that the report did not consider the complexities. ETA stated it was
+imperative to first issue guidance and technical assistance to states on
+how to implement the new programs before developing monitoring
+guidance for ETA’s Regional Offices. In addition to issuing guidance and
+providing technical assistance, ETA stated it delivered timely monitoring
+tools during the pandemic. Finally, ETA stated it did not have an
+alternative approach to address the recommendation and suggested it be
+excluded from the final report.
+o We agree states needed guidance on how to implement new
+programs. ETA’s efforts to develop implementation guidance for
+newly authorized programs during an unprecedented pandemic is
+commendable. In the draft report, we acknowledged the
+challenging circumstances in which states and ETA were operating
+during the pandemic:
+The pandemic exacerbated the states’ previous
+administrative funding shortfalls and had a profound
+impact on the UI system, presenting states with
+unprecedented challenges. According to ETA officials,
+these challenges included managing an
+unprecedented surge in claims volume, adapting to
+remote work environments, and implementing new
+temporary pandemic UI programs.
+Despite these circumstances, ETA had disbursed almost
+$340 billion in pandemic-related UI benefits through those new
+
+-24-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+programs from April through September 2020.25 Given the
+magnitude of benefits disbursed and Office of Management and
+Budget’s requirement for agencies to prioritize expediency, it was
+critical to issue guidance for monitoring the performance of those
+new programs in a more timely fashion. Our recommendation
+remains.
+ETA also provided a comment to the finding. The agency stated the draft
+report fails to adequately acknowledge the reality of balancing the
+establishment of new programs and monitoring compliance with such
+programs. The agency stated programs must first be operational before
+they can be monitored, and, in 2020, the UI system was intensely focused
+on implementing and administering programs.
+o We agree states need guidance on how to implement new
+programs, but ETA regional offices also need timely guidance on
+how to monitor the performance of those new programs.
+
+
+ETA disagreed with Recommendation 3 and suggested an alternative
+approach. Specifically, it had proposed legislation in the Department’s
+FY 2025 budget submission that would provide the Secretary of Labor
+with new enforcement authority. Such authority, ETA stated, would create
+a new remedy so the Secretary of Labor could require a state that fails to
+meet performance measures or achieve minimum technology standards to
+use a portion of its administrative grant to correct failing performance
+and/or require the state to participate in technical assistance activities
+offered by the Department.
+ETA stated the Secretary currently has limited authority to require state UI
+agencies to take actions to respond to poor performance and high
+improper payment rates. Given ETA already pursued this matter through
+the budget process, which can now only be addressed by Congressional
+action, ETA requested that its action be considered sufficient to address
+and close this recommendation.
+o We disagree that ETA’s proposed corrective action meets the intent
+of our recommendation. We commend ETA for proposing
+legislation that grants the Secretary of Labor new enforcement
+authority to require states to use a portion of its administrative grant
+to correct failing performance. However, to remedy instances of
+
+25 Total disbursements were downloaded on November 6, 2024, from:
+
+https://oui.doleta.gov/unemploy/DataDownloads.asp. The $340 billion in disbursements included
+FPUC-$273.6 billion, PEUC-$9.6 billion, and PUA-$56.7 billion.
+
+-25-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+grant recipients’ failure to meet performance standards, such
+performance standards must first be established and measured.
+ETA did not convey how states’ staffing levels would be factored
+into measuring program performance. Therefore, our
+recommendation remains.
+
+
+ETA disagreed with Recommendation 4. The agency stated the premise
+for the recommendation was predicated on a lack of understanding of the
+situation within which states and ETA were operating during the pandemic
+and a complete misunderstanding of the role of BAM.
+ETA specified that allowing states to temporarily suspend BAM operations
+for one quarter permitted states to repurpose BAM staff with high-level of
+UI experience to help process the huge claims volume at the start of the
+pandemic while new staff could be onboarded and trained. ETA stated this
+action was one of the most logical and common sense actions that could
+have been taken at the time and did not impact fraud prevention activities,
+which are performed by Benefit Payment Control staff outside of a state’s
+BAM operations.
+The agency also stated it has already met the essence of the
+recommendation by issuing very clear guidance in UIPLs 23-20 and
+11-23,26 which required states to continue to use, operate, and maintain
+the required integrity controls and the required overpayment recovery
+activities at all times, including during times of mass unemployment
+events, absent specific statutory authorization allowing suspension of such
+controls or activities. Based on the issuance of the guidance, ETA
+requested this recommendation be closed and excluded from the final
+report.
+o ETA’s issuance of UIPLs 23-20 and 11-23 does not meet the intent
+of our recommendation. In the draft report, we did not imply ETA’s
+suspension of BAM resulted in the suspension of integrity control
+activities designed to detect or prevent fraud. Rather, we stated the
+
+26 DOL, ETA, UIPL No. 23-20, Program Integrity for the Unemployment Insurance (UI) Program
+
+and the UI Programs Authorized by the Coronavirus Aid, Relief, and Economic Security (CARES)
+Act of 2020 - Federal Pandemic Unemployment Compensation (FPUC), Pandemic
+Unemployment Assistance (PUA), and Pandemic Emergency Unemployment Compensation
+(PEUC) Program (May 11, 2020), available at:
+https://www.dol.gov/sites/dolgov/files/ETA/advisories/UIPL/2020/UIPL_23-20.pdf; and DOL, ETA
+UIPL No. 11-23: Announcement of Grant Opportunities and National Identity (ID) Verification
+Offering under the American Rescue Plan Act (ARPA) (July 13, 2023), available at:
+https://www.dol.gov/agencies/eta/advisories/uipl-11-23
+
+-26-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+action impaired ETA’s ability to assess the integrity of the new UI
+programs with respect to the improper payments, including fraud.
+The improper payment rate serves as an indicator for the
+assessment of the accuracy and integrity of the UI program. ETA's
+suspension of BAM also suspended the requirement for states to
+submit representative samples of paid and denied claims for
+regular UI, results of which are used to estimate the improper
+payment rate. While the temporary CARES Act UI claims would be
+excluded from the sample, the improper payment rate was applied
+to all claims, including temporary programs, as an indicator of UI
+program accuracy and integrity. Therefore, the recommendation
+remains.
+ETA also expressed two primary concerns regarding the draft report.
+
+
+ETA’s first concern was that the draft report did not offer actionable items
+to improve the UI system nor recognize the constraints that were put on
+the system during the pandemic. The agency stated, given the
+unprecedented spike in UI claims by 3,000 percent in a relatively short
+time period and the creation of several new and temporary
+pandemic-related unemployment compensation programs under the
+CARES Act, any level of staffing would have been insufficient to handle
+this significant workload. Simply adjusting staffing levels alone would not
+have been enough to address the unprecedented increase in workload.
+Also, ETA stated, as noted in its responses to similar reports from the
+oversight community, but not fully acknowledged in this draft report, that
+states were dealing with the largest UI claims increase in the history of the
+program, while also implementing and administering new temporary,
+pandemic-related unemployment programs. ETA stated the draft report
+recognized that, on April 10, 2020, the Office of Management and Budget
+issued OMB Memorandum 20-21 requiring agencies to prioritize
+expediency, which was defined as the rapid issuance of awards to meet
+crucial needs. The agency stated it is important to reiterate the states’
+remarkable accomplishments, despite challenging circumstances,
+including helping to ensure nearly $880 billion of unemployment benefits
+were provided to over 53 million workers. Furthermore, ETA opined that
+states’ ability to provide benefit payments within 1 to 2 months on average
+for new, temporary UI programs was an impressive achievement given the
+extensive complex requirements and activities that were necessary for
+implementation.
+
+-27-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+o We disagree that the draft report did not offer actionable
+recommendations to improve the UI system nor recognize the
+constraints that were put on the system during the pandemic. In the
+draft report, we acknowledged the states’ administrative funding
+shortfalls exacerbated by the pandemic and the unprecedented
+increase in UI claims:
+The pandemic exacerbated the states’ previous
+administrative funding shortfalls and had a profound
+impact on the UI system, presenting states with
+unprecedented challenges. According to ETA officials,
+these challenges included managing an
+unprecedented surge in claims volume, adapting to
+remote work environments, and implementing new
+temporary pandemic UI programs, including the three
+largest programs: Federal Pandemic Unemployment
+Compensation, Pandemic Unemployment Assistance,
+and Pandemic Emergency Unemployment
+Compensation. The largest increase in UI claims
+occurred between quarters ending March 2020 and
+June 2020, when initial UI claims increased from
+approximately 1.8 million to almost 5.3 million (199
+percent) for the 6 states.
+In addition, we acknowledge ETA’s and states’ efforts to disburse
+$888 billion in pandemic UI benefits under these challenging
+circumstances; however, the OIG estimated that at least
+$191 billion (22 percent) could have been paid improperly, with a
+significant portion attributable to fraud. With acknowledgement of
+these extenuating circumstances, our recommendations for
+performance standards and policy were forward-looking and
+actionable based on lessons learned from the unprecedented
+pandemic.
+
+
+ETA’s second concern was about the validity and soundness of the
+analysis. The agency stated there were numerous factual inaccuracies
+throughout the report that created a false impression about the UI
+program, noted as particularly problematic, considering the realities facing
+states and ETA during the pandemic. ETA summarized this concern as
+follows.
+ETA stated the draft report failed to recognize the distinct roles of the
+Department and Congress in supporting the UI program. ETA noted the
+report included the fact that administrative activities are supposed to be
+
+-28-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+fully supported with federal funds. However, ETA noted, it was aware
+states were using their own state funding. ETA also stated the draft report
+implied ETA failed to take action and did not acknowledge the Department
+has asserted that funding provided by Congress has been insufficient to
+support UI program administration.
+o We disagree that the report failed to recognize roles. We included
+in the draft report ETA’s assertion that federal funds had been
+historically insufficient to support states’ administrative activities.
+See draft report section titled, Administrative Grant Funding for
+States.
+According to ETA officials, prior to the pandemic,
+federal funds had been historically insufficient to
+support states’ administrative activities. Although
+administrative activities are supposed to be fully
+supported with federal funds, ETA officials were
+aware states were using their own funding to support
+UI program administration. From FY 2017 to FY 2019,
+according to the National Association of State
+Workforce Agencies’ FY 2019 State Supplemental
+Survey Report, approximately 52 SWAs used state
+funds ranging from $365.6 million to $424.4 million to
+supplement federal grants for UI administrative cost.
+ETA stated the draft report failed to adequately recognize the foundations
+of a program operated through a federal-state partnership and added little
+value to program performance during the pandemic by evaluating states
+based on pre-pandemic performance standards.
+o We disagree with ETA’s assertion. We did not evaluate the
+performance of the temporary programs based on regular UI
+performance standards. In the draft report, we stated we used
+ETA’s first payment promptness standard in the analysis to provide
+context for the need to measure performance during emergencies.
+ETA stated the draft report noted that while Employment and Training
+Order No. 01-21 addresses monitoring of PUA, PEUC, and FPUC, ETA
+did not issue guidance with respect to monitoring states’ administration of
+other CARES Act provisions that were identified in a footnote to the draft
+report. ETA stated including this statement within the scope of the draft
+report was inappropriate, as monitoring these additional provisions was
+not part of the auditors’ scope or questions, and the OIG has conducted
+separate audits on each of these other CARES Act provisions. Further,
+
+-29-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+ETA stated most of these other pandemic-related provisions provided
+federal reimbursements of payments under previously existing programs
+and did not involve establishing new programs to administer.
+o We acknowledge the additional four CARES Act provisions were
+not part of our scope or questions. Therefore, we have removed the
+following statement from the final report:
+In addition, Employment and Training Order 1-21 was
+limited to monitoring Pandemic Unemployment
+Assistance, Pandemic Emergency Unemployment
+Compensation, and Federal Pandemic
+Unemployment Compensation. ETA did not issue
+guidance for its regional offices to monitor states’
+administration of the remaining four CARES Act UI
+programs.
+ETA stated the draft report attempted to answer a question about state
+staffing that supported implementation of the temporary pandemic-related
+unemployment compensation programs but ignores the hiring flexibility
+afforded by Congress, allowing states to temporarily suspend the merit
+staffing requirements set forth in the Social Security Act 27–a major policy
+change. This action allowed states to onboard “temporary staff, rehiring of
+retirees or former employees on a non-competitive basis, and other
+temporary actions to quickly process applications and claims.” The agency
+stated the premise of the draft report was whether ETA ensured states’
+staffing supported implementation of the temporary pandemic-related
+unemployment compensation programs but offers no assessment of this
+major policy change in the area of staffing.
+o We disagree with ETA’s assertion. In the draft report, we discussed
+CARES Act Section 2106, which authorized the temporary, limited
+hiring flexibilities and other temporary actions to process UI claims
+quickly. In doing so, we acknowledged ETA obtained Office of
+Management and Budget approval to suspend BAM as part of the
+other temporary actions authorized under Section 2106.
+While ETA’s responses lacked a clear plan of action to fully address the
+recommendations, the OIG looks forward to working with ETA to ensure the
+intent of each recommendation is addressed. ETA’s response is included in its
+entirety in Appendix B.
+
+27 Section 303(a)(1), SSA (42 U.S.C. § 503(aa)(1))
+
+-30-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+We appreciate the cooperation and courtesies that ETA extended us during this
+audit.
+
+Juan A. Lasanta Camacho
+Juan A. Lasanta Camacho
+GenTech Director
+GenTech Associates, Inc.
+Zionsville, IN
+November 22, 2024
+
+-31-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+EXHIBIT: DETAILS ON THE 6 STATES’ PERFORMANCE FOR
+ETA’S 87 PERCENT FIRST PAYMENT PROMPTNESS STANDARD
+Arizona
+For quarters ending March 2020 through June 2021, Arizona staffing levels
+increased from 238 to 1,141 full-time equivalents (FTE). Staffing levels
+decreased to 1,049 FTEs in the quarter ending September 2021. Despite overall
+increased staffing levels, for 6 quarters ending from June 2020 through
+September 2021, Arizona was only able to pay 80 percent of initial UI claims
+within 21 days, 7 percent less than ETA’s first payment promptness standard.
+Also, for quarters ending June through December 2020, Arizona’s percentage of
+initial UI claims paid within 21 days ranged from 57 to 84 percent. While Arizona
+paid 95 percent of initial UI claims within 21 days for the quarter ending
+March 2021, the state again fell below ETA’s standard from quarters ending
+June through September 2021, with percentages ranging from 74 to 81 percent
+(see Figure 4).
+
+Number of Staff
+
+1,200
+1,000
+
+100%
+
+95%
+
+92%
+81%
+
+84%
+
+81%
+
+800
+
+74%
+
+57%
+
+600
+
+80%
+60%
+40%
+
+400
+
+20%
+
+200
+-
+
+0%
+
+Percentage of Claims Paid
+
+Figure 4: Arizona Staffing Levels and Initial UI Claim Payments Compared
+to ETA’s First Payment Promptness Standard, Quarters Ending
+March 2020–September 2021
+
+JAN-MAR APR-JUN JUL-SEP OCT-DEC JAN-MAR APR-JUN JUL-SEP
+2020
+2020
+2020
+2020
+2021
+2021
+2021
+Number of Staff
+Quarterly Percentage of Initial Claims Paid within 21 Days
+ETA's First Payment Promptness Standard (87 Percent Paid within 21 Days)
+Source: Analysis using staffing data from the 6 states and ETA - Benefits: Timeliness and
+Quality Reports / All First Payment Timeliness
+
+-32-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Massachusetts
+For quarters ending March through June 2020, Massachusetts staffing levels
+increased from 910 to 2,981 FTEs. Staffing levels decreased to 1,218 FTEs from
+quarters ending September 2020 through September 2021. Despite overall
+increased staffing levels, for the 6 quarters ending from June 2020 through
+September 2021, Massachusetts was only able to pay 78 percent of initial UI
+claims within 21 days, 9 percent less than ETA’s first payment promptness
+standard. For quarters ending June 2020 through September 2021,
+Massachusetts’ percentage of initial UI benefits paid within 21 days continued to
+decrease from 86 to 62 percent, generally trending downward (see Figure 5).
+
+3,500
+
+92%
+
+86%
+
+Number of Staff
+
+3,000
+
+74%
+
+2,500
+
+71%
+
+62%
+
+65%
+
+64%
+
+2,000
+1,500
+1,000
+500
+-
+
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+Percentage of Claims Paid
+
+Figure 5: Massachusetts Staffing Levels and Initial UI Claims Payments
+Compared to ETA’s First Payment Standard, Quarters Ending
+March 2020–September 2021
+
+JAN-MAR APR-JUN JUL-SEP OCT-DEC JAN-MAR APR-JUN JUL-SEP
+2020
+2020
+2020
+2020
+2021
+2021
+2021
+Number of Staff
+Quarterly Percentage of Initial Claims Paid within 21 Days
+ETA's First Payment Promptness Standard (87 Percent Paid within 21 Days)
+Source: Analysis using staffing data from the 6 states and ETA - Benefits: Timeliness and
+Quality Reports / All First Payment Timeliness
+
+-33-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+New York
+For quarters ending March through September 2020, New York staffing levels
+increased from 1,118 to 5,702 FTEs. Staffing levels decreased to 2,944 FTEs
+from quarters ending December 2020 through September 2021. Despite overall
+increased staffing levels, for the 6 quarters ending June 2020 through
+September 2021, New York was only able to pay 65 percent of initial UI benefits
+within 21 days, 22 percent less than ETA’s first payment promptness standard.
+For quarters ending June 2020 through September 2021, New York’s percentage
+of initial UI claims paid within 21 days ranged from 41 to 82 percent
+(see Figure 6).
+
+6,000
+Number of Staff
+
+5,000
+4,000
+3,000
+2,000
+1,000
+-
+
+100%
+90%
+77% 80%
+82%
+70%
+74%
+59%
+60%
+54%
+50%
+40%
+41%
+30%
+20%
+10%
+0%
+JAN-MAR APR-JUN JUL-SEP OCT-DEC JAN-MAR APR-JUN JUL-SEP
+2020
+2020
+2020
+2020
+2021
+2021
+2021
+98%
+
+Percentage of Claims Paid
+
+Figure 6: New York Staffing Levels and Initial UI Claims Payments
+Compared to ETA’s First Payment Promptness Standard, Quarters Ending
+March 2020–September 2021
+
+Number of Staff
+Quarterly Percentage of Initial Claims Paid within 21 Days
+ETA's First Payment Promptness Standard (87 Percent Paid within 21 Days)
+Source: Analysis using staffing data from the 6 states and ETA - Benefits: Timeliness and
+Quality Reports / All First Payment Timeliness
+
+-34-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+North Carolina
+For quarters ending March through June 2020, North Carolina staffing levels
+increased from 2,385 to 2,475 FTEs. Staffing levels subsequently decreased to
+844 FTEs for the 5 quarters from quarters ending September 2020 through
+September 2021. Despite North Carolina responding that its staffing levels were
+sufficient, the SWA was only able to pay 76 percent of initial UI claims within
+21 days, 11 percent less than ETA’s first payment promptness standard. For
+quarters ending June 2020 through September 2021, North Carolina’s
+percentage of initial UI claims paid within 21 days ranged from 63 to 80 percent
+(see Figure 7).
+
+3,000
+Number of Staff
+
+2,500
+2,000
+1,500
+1,000
+500
+-
+
+100%
+90%
+80%
+80%
+78%
+74%
+86%
+80%
+70%
+70%
+63%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+JAN-MAR APR-JUN JUL-SEP OCT-DEC JAN-MAR APR-JUN JUL-SEP
+2020
+2020
+2020
+2020
+2021
+2021
+2021
+
+Percentage of Claims Paid
+
+Figure 7: North Carolina Staffing Levels and Initial UI Claims Payments
+Compared to ETA’s First Payment Promptness Standard, Quarters Ending
+March 2020–September 2021
+
+Number of Staff
+Quarterly Percentage of Initial Claims Paid within 21 Days
+ETA's First Payment Promptness Standard (87 Percent Paid within 21 Days)
+Source: Analysis using staffing data from the 6 states and ETA - Benefits: Timeliness and
+Quality Reports / All First Payment Timeliness
+
+-35-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Tennessee
+For quarters ending March 2020 through March 2021, Tennessee staffing levels
+increased from 350 to 930 FTEs. Staffing levels decreased to 922 FTEs for the
+quarter ending June 2021 and increased to 932 FTEs for the quarter ending
+September 2021. Despite overall increased staffing levels, for the 6 quarters
+ending June 2020 through September 2021, Tennessee was only able to pay
+78 percent of initial UI claims within 21 days, 9 percent less ETA’s first payment
+promptness standard. For the quarter ending June 2020, the state’s percentage
+of initial UI claims paid within 21 days was 88 percent. For quarters ending
+September 2020 through September 2021, Tennessee’s percentage of initial UI
+claims paid within 21 days ranged from 42 to 67 percent (see Figure 8).
+
+1,000
+900
+800
+700
+600
+500
+400
+300
+200
+100
+-
+
+98%
+
+100%
+90%
+88%
+80%
+67%
+70%
+58% 60%
+52%
+50%
+53%
+42%
+40%
+30%
+20%
+10%
+0%
+JAN-MAR APR-JUN JUL-SEP OCT-DEC JAN-MAR APR-JUN JUL-SEP
+2020
+2020
+2020
+2020
+2021
+2021
+2021
+
+Percentage of Claims Paid
+
+Number of Staff
+
+Figure 8: Tennessee Staffing Levels and Initial UI Claims Payments
+Compared to ETA’s First Payment Promptness Standard, Quarters Ending
+March 2020–September 2021
+
+Staffing Levels
+Percentage Claims Paid Within 21 Days
+ETA UI Performance Core Measure - First Payment Promptness Standard
+Source: Analysis using staffing data from the 6 6tates and ETA - Benefits: Timeliness and
+Quality Reports / All First Payment Timeliness
+
+-36-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Rhode Island
+For the quarters ending March 2020 through September 2021, Rhode Island
+staffing levels decreased from 239 to 153 FTEs. However, the state paid
+95 percent of initial UI claims within 21 days, which exceeded ETA’s 87 percent
+first payment promptness standard. For the 5 quarters ending from
+June 2020 through June 2021, Rhode Island’s percentage of initial UI claims paid
+within 21 days ranged from 91 to 97 percent. For the quarter ending
+September 2021, the state’s percentage of initial UI claims paid within 21 days
+was 85 percent, which was the only quarter that Rhode Island fell below the
+standard (see Figure 9).
+
+Number of Staff
+
+300
+
+99%
+
+95%
+
+91%
+
+95%
+
+97%
+
+96%
+
+85%
+
+250
+
+100%
+80%
+
+200
+
+60%
+
+150
+
+40%
+
+100
+
+20%
+
+50
+0
+
+0%
+JAN-MAR APR-JUN
+2020
+2020
+
+JUL-SEP
+2020
+
+OCT-DEC JAN-MAR APR-JUN
+2020
+2021
+2021
+
+Percentage of Claims Paid
+
+Figure 9: Rhode Island Staffing Levels and Initial UI Claims Payments
+Compared to ETA’s First Payment Promptness Standard, Quarters Ending
+March 2020–September 2021
+
+JUL-SEP
+2021
+
+Number of Staff
+Quarterly Percentage of Initial Claims Paid within 21 Days
+ETA's First Payment Promptness Standard (87 Percent Paid within 21 Days)
+Source: Analysis using staffing data from the 6 states and ETA - Benefits: Timeliness and
+Quality Reports / All First Payment Timeliness
+
+-37-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+APPENDIX A: SCOPE AND METHODOLOGY
+Scope
+The audit covered ETA’s oversight of states’ staffing to support the
+implementation of UI programs under the CARES Act and its amendments from
+March 27, 2020, to September 6, 2021. To perform this audit, we reviewed
+states’ staffing levels and UI claim workloads for CARES Act UI programs from
+March 27, 2020, to September 6, 2021. We performed an in-depth analysis for
+six states: Arizona, Massachusetts, New York, North Carolina, Rhode Island, and
+Tennessee. We also surveyed the remaining 47 SWAs to gain an understanding
+of staffing level capabilities during the COVID-19 pandemic.
+Methodology
+We conducted this performance audit in accordance with generally accepted
+government auditing standards. Those standards require that we plan and
+perform the audit to obtain sufficient, appropriate evidence to provide a
+reasonable basis for our findings and conclusions based on our audit objective.
+We believe that the evidence obtained provides a reasonable basis for our
+findings and conclusions based on our audit objective.
+To accomplish our objective, we obtained an understanding of ETA’s process for
+monitoring the sufficiency of SWAs’ staffing levels as related to the
+implementation of CARES Act UI programs. We also reviewed federal laws and
+regulations, reviewed ETA’s policies and procedures, interviewed key
+management and support personnel at ETA, and analyzed and identified key
+control processes for monitoring and reporting staffing sufficiency.
+The OIG selected Arizona, Massachusetts, New York, North Carolina,
+Rhode Island, and Tennessee for review based on a risk assessment that
+considered: OIG investigative concerns; the quantity of additional staffing funded
+by the CARES Act stratified into the highest, middle, and lowest ranges; the
+extent to which the states had not been selected in previous OIG audits; and
+whether states used a combination of new FTEs, contractors, and staffing
+agencies.
+Reliability Assessment
+We did not rely on computer-processed data to conduct this audit. Therefore, we
+did not assess its reliability.
+
+-38-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+Internal Controls
+In planning and performing our audit, we considered ETA’s internal controls
+relevant to our audit objective by obtaining an understanding of those controls
+and assessing control risks to achieve our objective. The objective of our audit
+was not to provide assurance of internal controls; therefore, we did not express
+an opinion on ETA’s internal controls. Our consideration of internal controls for
+overseeing the administrative grants provided to the states by ETA would not
+necessarily disclose all matters that might be significant deficiencies. Because of
+the inherent limitations on internal controls, misstatements, or noncompliance
+may occur and not be detected.
+Criteria
+
+
+
+
+
+
+
+
+Coronavirus Aid, Relief, and Economic Security (CARES) Act,
+Public Law 116-136 (March 27, 2020)
+Consolidated Appropriations Act, 2021, including Division N, Title II,
+Subtitle A, the Continued Assistance for Unemployed Workers Act
+of 2020 (December 27, 2020)
+American Rescue Plan Act of 2021, including Title IX, Subtitle A, Crisis
+Support for Unemployed Workers, Public Law 117-2 (March 11, 2021)
+GAO-14-704G, Standards for Internal Control in the Federal Government
+(September 2014)
+ETA Core Monitoring Guide (August 2018)
+Office of Management and Budget Memorandum 20-21, Implementation
+Guidance for Supplemental Funding Provided in Response to the
+Coronavirus Disease 2019 (April 10, 2020)
+Employment and Training Order No. 1-21, National and Regional
+Office Responsibilities in Managing, Monitoring, and Overseeing State
+Grants for the Unemployment Insurance (UI) Programs Created by the
+Coronavirus Aid, Relief, and Economic Security (CARES) Act of 2020
+(October 2, 2020)
+
+Prior Relevant Coverage
+During the last 4 years, the OIG has issued 6 reports of significant relevance to
+the subject of this report, as follows:
+1. Advisory Report, CARES Act: Initial Areas of Concern Regarding
+Implementation of Unemployment Insurance Provisions,
+Report No. 19-20-001-03-15 (April 21, 2020), available at:
+https://www.oig.dol.gov/public/reports/oa/2020/19-20-001-03-315.pdf;
+
+-39-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+2. COVID-19: States Struggled to Implement Cares Act Unemployment
+Insurance Programs, Report No. 19-21-004-03-315 (May 28, 2021),
+available at:
+https://www.oig.dol.gov/public/reports/oa/2021/19-21-004-03-315.pdf;
+3. Alert Memorandum: The Employment and Training Administration Needs
+to Ensure State Workforce Agencies Report Activities Related to CARES
+Act Unemployment Insurance Programs,
+Report No. 19-22-004-03-315 (August 2, 2022), available at:
+https://www.oig.dol.gov/public/reports/oa/2022/19-22-004-03-315.pdf;
+4. Alert Memorandum: Potentially Fraudulent Unemployment Insurance
+Payments in High-Risk Areas Increased to $45.6 Billion,
+Report No. 19-22-005-03-315 (September 21, 2022), available at:
+https:///www.oig.dol.gov/public/reports/oa/2022/19-22-005-03-315.pdf;
+5. COVID-19: ETA and States Did Not Protect Pandemic-Related UI Funds
+from Improper Payments Including Fraud or from Payment Delays,
+Report No. 19-22-006-03-315 (September 30, 2022),
+https://www.oig.dol.gov/public/reports/oa/2022/19-22-006-03-315.pdf; and
+6. COVID-19: ETA Needs a Plan to Reconcile and Return to the
+U.S. Treasury Nearly $5 Billion Unused by States for a Temporary
+Unemployment Insurance Program,
+Report No. 19-23-015-03-315 (September 28, 2023), available at:
+https://www.oig.dol.gov/public/reports/oa/2023/19-23-015-03-315.pdf.
+
+-40-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor – Office of Inspector General
+
+APPENDIX B: ETA’S RESPONSE TO THE REPORT
+ETA’s response to our report follows.
+
+-41-
+
+STATES’ USE OF STAFFING
+NO. 19-25-002-03-315
+
+U.S. Department of Labor
+
+Assistant Secretary for
+Employment and Training
+Washington, D.C. 20210
+
+MEMORANDUM FOR:
+
+CAROLYN R. HANTZ
+Assistant Inspector General for Audit
+
+FROM:
+
+JOSÉ JAVIER RODRÍGUEZ
+
+SUBJECT:
+
+Response to Draft Report – COVID-19: ETA Could Have
+Done More to Ensure States Had Sufficient Staffing to
+Deliver Timely Pandemic Unemployment Benefits, Report
+No. 19-XX-XXX-03-315
+
+The U.S. Department of Labor's (Department) Employment and Training Administration (ETA)
+appreciates the opportunity to respond to the above-referenced draft report. Below are the
+Department’s observations on the draft report, followed by responses to the draft report’s
+recommendations.
+Overall, ETA believes that this report does not offer actionable items to improve the
+Unemployment Insurance (UI) system, nor recognizes the constraints that were put on the system
+during that time.
+Given the unprecedented spike in UI claims by 3,000 percent in a relatively short time period
+and the creation of several new and temporary pandemic-related unemployment compensation
+(UC) programs set forth in the Coronavirus Aid, Relief, and Economic Security (CARES) Act in
+March 2020, any level of staffing would have been insufficient to handle this significant
+workload. Simply adjusting staffing levels alone would not have been enough to address the
+unprecedented increase in workload.
+As stated in ETA’s responses to similar reports from the oversight community, but not fully
+acknowledged in this draft report, states were dealing with the largest increase in UI claims
+volume in the history of the program, while also implementing and administering new
+temporary, pandemic-related unemployment UC programs. The draft report recognizes that, on
+April 10, 2020, the Office of Management and Budget (OMB) issued OMB Memorandum 20-21,
+requiring agencies to prioritize expediency, which OMB defined as the rapid issuance of awards
+to meet crucial needs. It is important to reiterate the states’ remarkable accomplishments, despite
+challenging circumstances. States helped ensure that nearly $880 billion of unemployment
+benefits were provided to over 53 million workers. Further, states’ ability to provide benefit
+
+payments within one to two months on average for new, temporary UI programs 1 was an
+impressive achievement given the extensive, complex requirements and activities that were
+necessary for implementation. For comparison purposes, a swift rollout of a new government
+benefit program – including the policy, product, and operations – would be 30 to 48 months. 2
+0F
+
+1F
+
+States entered the pandemic after experiencing the lowest level of administrative funding in 50
+years, impacting resources and staffing levels. Simply put, ongoing underinvestment in the UI
+program put states at an incredible disadvantage in responding to the pandemic and its
+subsequent workload impacts.
+ETA was aware of the challenges for states in staffing up to meet the unexpected workloads, as
+well as the impact of delayed benefits for families experiencing COVID-19 job loss and sought
+to support states with the available tools. ETA provided technical assistance and flexibility,
+where permitted by statute, to address the unprecedented conditions of the pandemic. For
+example, the decision to suspend BAM during the summer of 2020 allowed states to put
+experienced staff into claims processing. At this time, states were desperately short of
+experienced staff. The forces that drove the declines in timeliness during this period defied easy
+solutions or standard approaches.
+As described below, ETA did not get any additional resources to assist states with these unique
+challenges. As soon as the American Rescue Plan Act (ARPA) provided such funds in March
+2021, ETA prioritized assistance to states to work through backlogs, especially through the Tiger
+Team initiative, alongside combatting fraud and promoting equitable access. Access to such
+resources would have enabled ETA to do more earlier in the CARES Act program period.
+In recognition of the UI system’s challenges both before and during the pandemic, the U.S.
+Government Accountability Office (GAO) placed the UI system on its High-Risk List 3 in June
+2022, 4 recommending that the Department develop and implement a plan to transform the UI
+system. In response to GAO’s report, the Department published a plan to build a more resilient
+UI program (i.e., UI Transformation Plan). 5 As the first action area identified, the plan
+highlights the importance of adequately funding UI program administration and includes
+proposed legislative reforms.
+2F
+
+3F
+
+4F
+
+1
+
+Office of Inspector General (OIG) Report Number 19-21-004-03-315, COVID-19: States Struggled to Implement
+CARES Act Unemployment Insurance Programs, issued May 28, 2021,
+https://www.oig.dol.gov/public/reports/oa/viewpdf.php?r=19-21-004-03-315&y=2021. The OIG’s final report notes
+the average number of days states took on pages 3 and 4. ETA’s response to the OIG’s draft report (Appendix B)
+describes the impressive achievement.
+2
+OIG Report Number 19-22-006-03-315, COVID-19: ETA and States Did Not Protect Pandemic-Related UI Funds
+from Improper Payments Including Fraud or From Payment Delays, issued September 30, 2022,
+https://www.oig.dol.gov/public/reports/oa/2022/19-22-006-03-315.pdf.
+3
+GAO High Risk List: https://www.gao.gov/high-risk-list.
+4
+GAO-22-105162, Unemployment Insurance: Transformation Needed to Address Program Design, Infrastructure,
+and Integrity Risks, published June 2022, https://www.gao.gov/assets/gao-22-105162.pdf.
+5
+UI Transformation Plan, Building Resilience: A plan for transforming unemployment insurance, issued April
+2024, https://oui.doleta.gov/unemploy/transformation_plan.asp.
+
+2
+
+Although not included in the draft report, ETA believes it important to note the UI program’s
+forward momentum supported through recent one-time investments under ARPA. 6 The
+Department invested over $780 million in ARPA-funded grants to states to prevent and detect
+fraud, promote equitable access to UI benefits, and improve the timely payment of benefits.
+States, with the support of the Department’s Tiger Team initiative, 7 have leveraged these grants
+to make critical system changes, improve processes, and, where appropriate, hire and train new
+employees. 8 However, this one-time investment is not an adequate replacement for sustainable,
+annual funding. Without legislative support and funding from Congress, the Department and
+states will continue to be hamstrung with limited resources and be unable to truly build a resilient
+UI program.
+5F
+
+6F
+
+7F
+
+Based on review of the draft report, ETA has strong concerns about the validity and soundness of
+the analysis. Throughout the draft report, there are numerous factual inaccuracies that create
+false impressions about the UI program, which is particularly problematic, considering the
+realities facing states and ETA during the pandemic. Below is a summary of these concerns.
+The draft report fails to recognize the distinct roles of the Department and Congress in
+supporting the UI program. The draft report indicates that “administrative activities are
+supposed to be fully supported with federal funds,” but ETA was aware that states were
+using their own state funding. 9 The draft report implies ETA failed to take action and
+does not acknowledge that the Department has asserted that funding levels provided by
+Congress have been insufficient to support UI program administration. The chart below
+reflects the declining impact of state UI administrative funding over the past 30 years.
+8F
+
+6
+
+Congress allocated $2.0 billion to the Department with enactment of ARPA in March 2021. This amount was later
+reduced to $1.0 billion with enactment of the Fiscal Responsibility Act in June 2023.
+7
+Using ARPA funds, the Department provided cross-functional teams of experts to partner with states and
+recommend state-specific solutions that include activities such as workflow adjustments, process improvements,
+technology updates, and communication revisions. Additional funds (included in the $780 million figure) were
+provided to states to implement these recommendations. See Unemployment Insurance Program Letter (UIPL) No.
+02-22, Grant Opportunity to Support States Following a Consultative Assessment for Fraud Detection and
+Prevention, Promoting Equitable Access, and Ensuring the Timely Payment of Benefits, including Backlog
+Reduction, for all Unemployment Compensation (UC) Programs, issued November 2, 2021,
+https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-program-letter-no-02-22.
+8
+The Department published a report detailing the use of this ARPA investment and highlighting specific state
+projects included under these grants. See Insights and Successes: American Rescue Plan Act Investments in
+Unemployment Insurance Modernization, published November 2023, https://www.dol.gov/agencies/eta/uimodernization/arpa-success-stories.
+9
+See discussion “Administrative Grant Funding for States” starting on page 9 of the draft report.
+
+3
+
+The draft report fails to adequately recognize the foundations of a program operated
+through a federal-state partnership. The draft report’s analysis appears to advocate for
+the Department to take a more aggressive stance by establishing a timeliness standard for
+the temporary pandemic-related UC programs 10 and requiring states to perform staffingrelated corrective actions. 11
+9F
+
+1 0F
+
+The Department disagrees with the characterization of these actions as available or
+realistic solutions. Simply setting a performance measure is not an effective tool for
+states to then achieve that measure during a crisis. The draft report quotes ETA as saying
+that most states had challenges with timeliness due to the high claim volume and then
+dismisses this statement by comparing states’ timeliness performance from a prepandemic period of historically low claims (see Table 2 in the draft report). This
+comparison fails to acknowledge the administrative lift required of ETA and the states in
+the midst of a global pandemic. Evaluating states in comparison with pre-pandemic
+performance standards adds little value to the discussion of performance during the
+pandemic. States struggled with timeliness because of a confluence of factors resulting
+from an unprecedented increase in workload, simultaneously implementing several new
+programs, and ramping up staffing and information technology (IT) systems, while also
+transitioning to largely remote operations – it is incorrect to report that states struggled
+with timeliness because there were no measures established for these newly created
+pandemic-related programs which had no precedence.
+Table 1 of the draft report provides a summary of state grant obligations, and the
+percentage used for staffing. This table and the surrounding discussion reflect the
+variation in state administrative practices but does nothing to inform the discussion on
+how such funds were used or could have been used effectively in lieu of additional
+10
+
+See discussion “ETA Did Not Establish a Benefit Payment Timeliness Standard for CARES Act UI Programs”
+starting on page 14 of the draft report.
+11
+See discussion “ETA Did Not Recommend Corrective Actions to Address States’ Staffing Issues” starting on
+page 17 of the draft report.
+
+4
+
+staffing (e.g., through updating/implementing IT systems, processes, and
+communications). Further, the auditors cross-reference ETA’s response to a prior OIG
+audit about challenges in providing timely benefit payments. 12 As of July 29, 2021, the
+OIG resolved all four recommendations from this prior audit report. To date, two of
+these four recommendations have been closed. This new draft report provides no
+additional actionable insight on these previous findings to help improve the UI program
+beyond reporting on information already covered in prior OIG audit reports.
+11 F
+
+With respect to corrective actions, requiring states to take corrective action to address
+staffing levels is another example of the draft report ignoring ETA’s repeated assertions
+regarding insufficient funding for UI program administration.
+Given the appropriated level of funding from Congress in recent years, ETA has only
+been able to provide states with about 50 percent of funding for earned above-base
+funding based on states reported workload. It would have been unreasonable for ETA to
+require states to hire more staff as a corrective action when ETA itself was not provided
+with the means to fully fund states’ operations of the program. Also, as stated above,
+without legislative support and funding from Congress, the Department and the states
+will continue to be hamstrung with limited resources that restrain the ability to truly build
+a resilient UI program.
+Additionally, the draft report did not include the basis for the statement regarding
+administrative grant periods of performance, as described on page 9 of the draft report. 13
+As such, ETA is unable to validate the information.
+12 F
+
+The draft report fails to adequately acknowledge the reality of balancing the
+establishment of new programs and monitoring compliance with such programs. The
+draft report asserts that ETA did not adequately perform monitoring activities for
+temporary, pandemic-related UC programs. 14 However, the analysis fails to consider
+that the programs must first be operational before they can be monitored. In 2020, the UI
+system across the country was intensely focused on implementing and administering
+programs.
+13 F
+
+The CARES Act was enacted on March 27, 2020, and ETA published its initial guidance
+on April 2, 2020. 15 Over the next eight days, ETA published additional guidance specific
+to implementing each of the three key programs: Pandemic Unemployment Assistance
+1 4F
+
+12
+
+See footnote 18 on page 14 of the draft report.
+Page 9 of the draft report includes: “SWAs received $3.9 billion in Fiscal Year (FY) 2020 and FY 2021 to fund
+administrative costs, including but not limited to staffing. The administrative grants were available for all SWAs
+from April 1, 2020, through June 30, 2022, except the California SWA, for which the grant was available from April
+1, 2020, through December 31, 2022.”
+14
+See discussion “ETA Did Not Recognize the Need for Urgency in Issuing Monitoring Guidance Specifically for
+CARES Act UI Programs” starting on page 16 of the draft report.
+15
+UIPL No. 14-20, Coronavirus Aid, Relief, and Economic Security (CARES) Act of 2020 - Summary of Key
+Unemployment Insurance (UI) Provisions and Guidance Regarding Temporary Emergency State Staffing
+Flexibility, issued April 2, 2020, https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-programletter-no-14-20.
+13
+
+5
+
+(PUA), 16 Pandemic Emergency Unemployment Compensation (PEUC), 17 and Federal
+Pandemic Unemployment Compensation (FPUC). 18 As states implemented and began
+administering the new programs, new and novel questions were raised and ETA
+continued to be responsive in updating its guidance. Additional and significant changes
+to the programs occurred in December 2020, with enactment of the Continued Assistance
+for Unemployed Workers Act of 2020 (Continued Assistance Act) and in March 2021,
+with the enactment of ARPA. These additional enactments required the creation of
+additional updated guidance, changes to state systems and processes, and resources
+across ETA and the states to implement.
+1 5F
+
+1 6F
+
+17 F
+
+The draft report notes that ETA issued guidance for monitoring states’ staffing support in
+October 2020 and gives no appreciation to the fact that ETA engaged in extensive
+oversight activities in the early months of the pandemic gathering information from states
+and identifying areas where specific states improperly implemented elements of the new
+programs. The draft report notes that if ETA considered monitoring activities performed
+before this time to be sufficient, later guidance would not be necessary. This dismissive
+statement fails to acknowledge the dynamic situation that ETA and the states were
+operating in at this time, the many issues ETA needed to address in a short time and
+assumes that publishing guidance means that prior activities were generally insufficient.
+Between March and October 2020, ETA issued 25 guidance documents and hosted 16
+webinars specific to states’ administration of the temporary pandemic-related UC
+programs. ETA’s regional offices also provided significant technical assistance and
+support as states established these new programs. All of these efforts sought to ensure
+that states were supported in establishing and operating these new temporary programs.
+The draft report also notes that while Employment and Training Order (ETO) No. 01-21
+addresses monitoring of PUA, PEUC, and FPUC, ETA did not issue guidance with
+respect to monitoring states’ administration of other CARES Act provisions that were
+identified in a footnote to the draft report. 19 Including this statement within the scope of
+the draft report is inappropriate, as monitoring these additional provisions was not part of
+the auditors’ scope or questions, and the OIG has conducted separate audits on each of
+these other CARES Act provisions. Further, most of these other pandemic-related
+provisions provided federal reimbursements of payments under previously existing
+programs and did not involve establishing new programs to administer.
+18 F
+
+It is important and relevant to note that much like the states, ETA entered the pandemic
+with very low staffing levels and ETA was not provided additional funding to support
+16
+
+UIPL No. 16-20, Coronavirus Aid, Relief, and Economic Security (CARES) Act of 2020 – Pandemic
+Unemployment Assistance (PUA) Program Operating, Financial, and Reporting Instructions, issued April 5, 2020,
+https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-program-letter-no-16-20.
+17
+UIPL No. 17-20, Coronavirus Aid, Relief, and Economic Security (CARES) Act of 2020 – Pandemic Emergency
+Unemployment Compensation (PEUC) Program Operating, Financial, and Reporting Instructions, issued
+April 10, 2020, https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-program-letter-no-17-20.
+18
+UIPL No. 15-20, Coronavirus Aid, Relief, and Economic Security (CARES) Act of 2020 – Federal Pandemic
+Unemployment Compensation (FPUC) Program Operating, Financial, and Reporting Instructions, issued
+April 4, 2020, https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-program-letter-no-15-20.
+19
+See footnote 20 on page 16 of the draft report.
+
+6
+
+implementation or monitoring of the pandemic programs until enactment of ARPA in
+March 2021. The creation of the guidance, the delivery of technical assistance to states,
+and the initial monitoring and oversight related to these new pandemic UC programs
+were all accomplished by the same level of staffing that ETA had prior to the pandemic.
+Providing a one-quarter suspension of the Benefit Accuracy Measurement (BAM)
+program was necessary for responding to the demands of the workload. The draft
+report incorrectly asserts that ETA’s temporary suspension of the BAM program
+impaired ETA’s ability to assess the integrity of the new UI programs. The narrative in
+the draft report demonstrates an unfamiliarity with the purpose of the BAM program. 20
+BAM is a quality control program that reviews a sample ranging from 360 regular UI
+cases per year in the 10 states with the smallest UI workloads to 480 regular UI cases in
+the remainder of the states each year after they have been processed to validate whether
+the state took correct action in line with state law and policy. BAM only conducts
+crossmatches or investigates potential fraud for this small sample of already-processed
+claims. The results of these case samples are used to create an estimated improper
+payment rate for the regular UI program. In addition, the BAM program does not sample
+claims from episodic programs, such as the temporary pandemic-related UC programs. 21
+1 9F
+
+2 0F
+
+The draft report claims that when ETA decided to suspend BAM, its emergency response
+prioritized processing UI claims rather than assessing UI program integrity and that ETA
+did not develop a sufficient business case. 22 ETA’s operational decision to suspend
+BAM from April to June 2020 – implemented after consulting with and receiving OMB’s
+support – was one of the few flexibilities available to help states with the huge influx of
+claims and was frankly a matter of commonsense. 23 BAM staff are highly trained UI
+program staff that could most reasonably transition to supporting claims intake and
+whose expertise was urgently needed – rather than having such staff continue, during this
+critical three-month period at the start of the pandemic, to sample and conduct
+investigations of a limited number of claims after they had already been processed.
+During this crisis, it was of paramount importance to get benefits out as quickly and
+21 F
+
+22 F
+
+20
+
+See discussion “ETA Allowed States to Reassign BAM Staff to Claims Processing, Impairing ETA’s Ability to
+Assess Integrity of New UI Programs with Respect to Improper Payments, Including Fraud” starting on page 20 of
+the draft report.
+21
+ETA later elected to apply the BAM estimates to program outlays for the PEUC and FPUC program. However,
+due to the structural differences between the regular UI program and the PUA program, BAM estimates could not be
+applied to PUA. ETA developed a separate methodology to estimate PUA improper payments. See the OIG Report
+Number 19-20-008-03-315, COVID-19: More Can Be Done to Mitigate Risk to Unemployment Compensation
+under the CARES Act, issued August 7, 2020, https://www.oig.dol.gov/public/reports/oa/2020/19-20-008-03315.pdf and see PUA Improper Payment Rate Report at:
+https://oui.doleta.gov/unemploy/pdf/Pandemic_Unemployment_Assistance_Improper_Payment_Rate_Report.pdf.
+22
+See discussion “ETA’s Emergency Response Prioritized Processing Claims rather than Assessing UI Program
+Integrity” starting on page 21 of the draft report.
+23
+ETA was fully transparent in this decision with the publication of UIPL No. 25-20, Benefit Accuracy
+Measurement (BAM) Program Operations in Response to the Coronavirus Disease of 2019 (COVID-19) Pandemic,
+issued June 15, 2020, https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-program-letter-no-2520. This document was also reviewed by OMB prior to publication. ETA also provided communications to states
+twice regarding operational flexibilities, both of which are publicly available at:
+https://oui.doleta.gov/unemploy/pdf/pandemicflexibilities2.pdf and
+https://oui.doleta.gov/unemploy/pdf/pandemicflexibilities_06122020.pdf.
+
+7
+
+accurately as possible. ETA considers this a meaningful and necessary operational
+decision.
+Further, the draft report appears to confuse BAM with staff performing integrity controls
+and investigations, often referred to as Benefit Payment Control (BPC) in states’
+operations. ETA did not suspend BPC activities, and in fact, issued several
+communications, including guidance, 24 to states advising of the importance to continue
+integrity activities.
+23 F
+
+The draft report attempts to answer a question about state staffing that supported
+implementation of the temporary pandemic-related UC programs but ignores a major
+flexibility afforded by Congress to support states’ implementation. Congress took the
+unprecedented step of allowing states to temporarily suspend the merit staffing
+requirement set forth in the Social Security Act 25 – a major policy change. This action
+allowed states to onboard “temporary staff, rehiring of retirees or former employees on a
+non-competitive basis, and other temporary actions to quickly process applications and
+claims.” 26
+24 F
+
+25 F
+
+The premise of this draft report is whether ETA ensured that states’ staffing supported
+implementation of the temporary pandemic-related UC programs. However, the draft
+report ignores this flexibility afforded by Congress and offers no assessment of this major
+policy change in the area of staffing. Instead, this flexibility is mentioned in a passing
+footnote that the use of such flexibility is not within the scope of this analysis, with little
+to no actional value on the topic of staffing. 27
+26 F
+
+Responses to the Recommendations
+Please find below each of the recommendations contained in the draft report, followed by ETA’s
+response to each of the recommendations.
+Recommendation 1: Develop performance standards for prompt payment of UI benefits
+under temporary UI programs using lessons learned from the pandemic.
+ETA Response: ETA disagrees with this recommendation. It is extremely challenging to
+develop standards for a program that does not exist and for which the Department does not know
+its duration or the program’s requirements.
+
+24
+
+UIPL No. 23-20, Program Integrity for the Unemployment Insurance (UI) Program and the UI Programs
+Authorized by the Coronavirus Aid, Relief, and Economic Security (CARES) Act of 2020 – Federal Pandemic
+Unemployment Compensation (FPUC), Pandemic Unemployment Assistance (PUA), and Pandemic Emergency
+Unemployment Compensation (PEUC) Programs, issued May 11, 2020,
+https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-program-letter-no-23-20.
+25
+See Section 303(a)(1), SSA (42 U.S.C. § 503( )(1)).
+26
+See Section 2106 of the CARES Act, as well as further amendments under Section 205 of the Continued
+Assistance for Unemployed Workers Act of 2020 and Section 9015 of the American Rescue Plan Act.
+27
+See footnote 6 on page 9 of the draft report.
+
+8
+
+The Department intends to capture lessons learned from the pandemic experience in the
+temporary programs to help inform actions for similar future programs. This approach allows
+the Department to be proactive in a more meaningful way, since it cannot speculate on
+requirements for any program(s) Congress may authorize and appropriate funding for in the
+future. ETA is not in a position to commit to developing performance standards for temporary
+programs in the future.
+Recommendation 2: Establish policy that requires officials to issue guidance timely for
+ETA regional offices to monitor and measure the effectiveness of states’ use of staffing to
+support the implementation of temporary UI programs.
+ETA Response: ETA disagrees with this recommendation. The premise for this
+recommendation is predicated on a lack of understanding of the situation within which states and
+ETA were operating during the pandemic. The draft report does not take into account the
+complexities of an unprecedented pandemic. It was imperative that ETA first issue guidance and
+technical assistance to states on how to implement these new programs before monitoring
+guidance for ETA’s Regional Offices was developed. ETA delivered timely monitoring tools
+during the pandemic in addition to issuing guidance and providing technical assistance regarding
+temporary pandemic-related UC programs.
+ETA does not have an alternative approach to address this recommendation and suggests this
+recommendation be excluded from the final report.
+Recommendation 3: Establish policy that requires states to develop corrective action plans
+to address staffing insufficiencies that negatively impact permanent and temporary UI
+programs, as identified by regional offices during monitoring reviews.
+ETA Response: ETA disagrees with this recommendation. This recommendation is predicated
+on a lack of understanding of the UI program and does not account for longstanding factors, such
+as the insufficient funding for UI program administration.
+As an alternative to this recommendation, ETA notes that it has been seeking legislation to
+provide the Secretary of Labor (Secretary) with new enforcement authority. This proposal would
+create a new remedy so that instead of withholding a state’s entire administrative grant for failing
+to meet the performance measures or achieve minimum technology standards, the Secretary can
+require a portion of the state’s administrative grant be used to correct failing performance and/or
+have the state participate in required technical assistance activities offered by the Department.
+Currently, the Secretary has very limited options to require state UI agencies to take actions to
+respond to poor performance and high improper payment rates. This proposal is part of the UI
+Integrity legislative package included in the Department’s Fiscal Year 2025 budget submission.
+Given that ETA already pursued this matter through the budget process, which can now only be
+addressed by Congressional action, ETA requests that this be considered sufficient action to
+address and close this recommendation/this recommendation be excluded from the final report.
+
+9
+
+Recommendation 4: Establish policy that requires ETA officials to develop a business case
+analysis and supporting justification when considering suspension of any UI program
+integrity functions.
+ETA Response: ETA disagrees with this recommendation. The premise for this
+recommendation is predicated on a lack of understanding of the situation within which the states
+and ETA were operating during the pandemic and a complete misunderstanding of the role of
+BAM. Allowing states to temporarily suspend the BAM operations for one quarter permitted
+states to repurpose BAM staff with a high-level of UI experience to help process the huge claims
+volume at the start of the pandemic while new staff could be onboarded and trained. It was one
+of the most logical and commonsense actions that could have been taken at the time. Such action
+did not impact fraud prevention activities, which are performed by BPC staff outside of a state’s
+BAM operations.
+Moreover, ETA has already met the essence of this recommendation. ETA issued very clear
+guidance that states must continue to use, operate, and maintain the required integrity controls
+and the required overpayment recovery activities at all times, including during times of mass
+unemployment events, absent specific statutory authorization allowing suspension of such
+controls or activities. 28 Based on the issuance of these UIPLs, ETA requests that this be
+considered sufficient action to address and close this recommendation/this recommendation be
+excluded from the final report.
+2 7F
+
+28
+
+See page 10, Section 4.b.ii of UIPL No. 11-23, Announcement of Grant Opportunities and National Identity (ID)
+Verification Offering under the American Rescue Plan Act (ARPA), issued July 13, 2023,
+https://www.dol.gov/agencies/eta/advisories/uipl-11-23. ETA also issued similar guidance early in the pandemic.
+See UIPL No. 23-20, Program Integrity for the Unemployment Insurance (UI) Program and the UI Programs
+Authorized by the Coronavirus Aid, Relief, and Economic Security (CARES) Act of 2020 - Federal Pandemic
+Unemployment Compensation (FPUC), Pandemic Unemployment Assistance (PUA), and Pandemic Emergency
+Unemployment Compensation (PEUC) Program, issued on May 11, 2020,
+https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-program-letter-no-2320#:~:text=Purpose.%20To%20remind%20states%20of%20program%20integrity%20functions%20required%20for
+, pages 8-10.
+
+10
+
+REPORT FRAUD, WASTE, OR ABUSE
+TO THE DEPARTMENT OF LABOR
+
+Online
+https://www.oig.dol.gov/hotline.htm
+
+Telephone
+(800) 347-3756 or (202) 693-6999
+
+Fax
+(202) 693-7020
+
+Address
+Office of Inspector General
+U.S. Department of Labor
+200 Constitution Avenue NW
+Room S-5506
+Washington DC 20210
+
+
