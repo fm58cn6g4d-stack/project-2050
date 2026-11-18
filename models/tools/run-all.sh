@@ -54,6 +54,8 @@ echo "== 6c2. ledger and long-term markdown"; python3 ledger-make-md.py >/dev/nu
 python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
 echo "== 6d. surge funding";  python3 "$TOOLS"/test_capacity_funding.py
                                cp "$TOOLS"/capacity-funding.py "$BUILD"/; python3 capacity-funding.py
+echo "== 6d2. democratic renewal cost and pace tools (sections 6 and 7; review C-6)"
+python3 -B -W ignore::ResourceWarning "$TOOLS"/test_democratic_renewal.py 2>&1 | tail -1
 echo "== 6e. budget benchmarks and model card (budget B4)"
 P2050_BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_benchmarks.py 2>&1 | tail -1
 echo "== 6f. health coverage model (tests, then results and model card)"
