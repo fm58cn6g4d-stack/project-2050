@@ -1,6 +1,6 @@
 # Dossier: Fair pay and real power at work (flagship 5)
 
-Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Sections 1 and 2 are drafts, research only (Espen allowed stage F groundwork on the condition that it makes no design choices, November 16, 2026, about 05:20 UTC: "yes to all your questions and recs"). Section 3 and the memo set are **decided** (`DEC-2026-11-17-01` to `-36`, `-95` and `-96`, November 17, 2026): as recommended except memo 1 part 2 (C), memo 3 (D) and memo 6 part 3 (C); Espen approved the follow-up note (`notes/espen-questions-2026-11-17.md`) except part d, so points 5 and 11 remain provisional, and memo 8 part 2 is decided for now (`DEC-2026-11-17-95`, with the direction in `-96`). Level: the decided items are at **L2** in `agenda/agenda.csv`. Section 4 waits until Espen says go. Nothing is booked in the budget model; costs are reported for stage G.
+Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Sections 1 and 2 are drafts, research only (Espen allowed stage F groundwork on the condition that it makes no design choices, November 16, 2026, about 05:20 UTC: "yes to all your questions and recs"). Section 3 and the memo set are **decided** (`DEC-2026-11-17-01` to `-36`, `-95` and `-96`, November 17, 2026): as recommended except memo 1 part 2 (C), memo 3 (D) and memo 6 part 3 (C); Espen approved the follow-up note (`notes/espen-questions-2026-11-17.md`) except part d, so points 5 and 11 remain provisional, and memo 8 part 2 is decided for now (`DEC-2026-11-17-95`, with the direction in `-96`). Section 4, the specification, is a **draft** (Espen's go, November 17: "feel free to proceed to section 4"): 74 provisions in `provisions.json`, and memo 10 (measuring displacement and a standby trigger), open for Espen as `-96` directs. Level: the decided items are at **L2** in `agenda/agenda.csv`, with new rows LAB-12 to LAB-18 for the points and wage insurance; they reach L3 after sections 5-9 and the milestone review. Nothing is booked in the budget model; the decided set, about +$0.18-0.38 trillion over FY2030-39 and +$19-35 billion in FY2040 on the general fund, is reported for stage G.
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "Labor law, wage floors, sectoral standards, support when jobs change."
 
@@ -27,18 +27,19 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
 | 1. The problem | `1-problem.md`: the wage floor; unions and the labor board; wage theft, misclassification, overtime, safety and heat; job loss, unemployment insurance, notice, the workforce system, apprenticeship and AI; schedules, labor's share and rural places; the January 2029 baseline table; seams; the legacy record weighed | Draft (stage F groundwork) |
 | 2. What works | `2-what-works.md`: wage floors (bite, indexing, phase-ins, prices and poverty, subminimums); unions, Canada's organizing rules, right-to-work and sectoral standards; enforcement, penalties, coverage, heat and pay transparency; unemployment insurance, reemployment services, work sharing, notice, training, wage insurance, job guarantees and service; schedules and non-competes; the legacy designs against the evidence | Draft (stage F) |
 | 3. Design | `3-design.md`: the forks at a glance, section 2's eleven questions answered or routed, the options' costs against outside scores, the bills, the inherited assumptions traced, sixteen yes-or-no points, shared rules (rule 6 is this flagship's), seams | Decided (`DEC-2026-11-17-01` to `-36`) |
-| Memos | `memos/README.md` (index) and memos 1-9: the wage floor; subminimums; organizing and enforcement; fair-share fees; sectoral standards; enforcement, coverage and pay transparency; unemployment insurance; training and wage insurance; national service | Decided; memo 8 part 2 decided for now (`-95`) |
+| Memos | `memos/README.md` (index) and memos 1-10: the wage floor; subminimums; organizing and enforcement; fair-share fees; sectoral standards; enforcement, coverage and pay transparency; unemployment insurance; training and wage insurance; national service; measuring displacement and a standby trigger | Memos 1-9 decided, memo 8 part 2 for now (`-95`); memo 10 open, for Espen (`-96`) |
+| 4. Specification | `4-specification.md`: the vehicles; provisions LAB-1 to LAB-18 by part (pay, power at work, the rules in practice, support when jobs change); memo 10's options (part E); the agencies' needs for CAP-7 (part F); groups; shared rules; design lens; costs for stage G; the consistency table. `provisions.json`: 74 provisions | Draft |
 | Notes | `notes/espen-questions-2026-11-17.md`: answers to Espen's questions on the November 17 decisions | Approved except part d |
-| 4-9 | Not started; section 4 waits until Espen says go | — |
+| 5-9 | Not started | — |
 
 ## Evidence and sources
 
-- `evidence.json`: evidence code **EV-WRK**, 353 entries (238 from section 1, 102 from section 2, 13 from section 3). Blocks:
+- `evidence.json`: evidence code **EV-WRK**, 358 entries (238 from section 1, 102 from section 2, 13 from section 3, 5 from section 4). Blocks:
   - 001-099 the wage floor (001-049 section 1; 050-077 section 2; 078 section 3);
   - 100-199 unions, bargaining and the board (100-160 section 1; 161-188 section 2; 189 section 3);
   - 200-299 enforcement, safety and heat (200-248 section 1, 214 merged into 019; 249-262 section 2);
   - 300-399 support when jobs change (300-367 section 1, with gaps at 320, 334, 346 and 354; 368-393 section 2; 394-399 section 3);
-  - 400-449 schedules, labor's share and rural places (400-406 section 1; 407-412 section 2); 413, unemployment insurance outlays (section 3), placed here because the 300 block was full;
+  - 400-449 schedules, labor's share and rural places (400-406 section 1; 407-412 section 2); 413, unemployment insurance outlays (section 3), and 414-418, state separation law and the 2025 UI bill's quit, waiting-week, dependents' and Extended Benefits sections (section 4), placed here because the 300 block was full;
   - 700-749 legacy figures as grade D entries (700-708 section 1; 709-712 section 3).
 - The register also cites other dossiers' entries where they already hold a fact: unemployment insurance recipiency (EV-SEC-045 to 047), paid leave access (EV-SEC-300, 302), phase-outs (EV-SEC-537, 538), contract work (EV-SEC-120), AI exposure (EV-SEC-125, 128), apprenticeship and TAA (EV-SEC-144, 147, 148, 640; EV-CAR-633), the care workforce (EV-CAR-614, 616, 618, 621), immigrant workers (EV-IMM-008, 010) and coal workers (EV-CLP-504, 516, 518).
 - Sources: **Source IDs numbered 5500 to 5899 are reserved for the work dossier** (this README, November 16, 2026; `library/reserved-blocks.csv`). The block skips 5100-5499 so the democratic renewal foundation, starting the same night, can take the next free numbers. Sub-blocks:
@@ -48,9 +49,13 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
   - 5740-5819 support when jobs change (5740-5783 used; 5762 dropped for SRC-3975);
   - 5820-5859 schedules, labor's share and rural places (5820-5825 section 1; the rest of this sub-block and the old spare block went to section 2, next line);
   - 5826-5899 section 2, after section 1's highest ID: 5826-5845 wage floors, 5846-5865 power at work, 5866-5881 the rules in practice and schedules, 5882-5899 support when jobs change.
-  - Section 3 used 5514 (BLS wages), 5611 (CBO on S. 567) and 5784-5789 (the 2025 UI bill, AmeriCorps' rules and funding, the Pell maximum, CBO on the 2020 apprenticeship bill, OMB's Table 3.2). The block's remaining spare IDs are the gaps 5515-5519, 5540-5579, 5612-5619, 5636-5659, 5701-5739 and 5790-5819.
+  - Section 3 used 5514 (BLS wages), 5611 (CBO on S. 567) and 5784-5789 (the 2025 UI bill, AmeriCorps' rules and funding, the Pell maximum, CBO on the 2020 apprenticeship bill, OMB's Table 3.2). Section 4 used 5515 (the Labor Department's comparison of state UI law, chapter 5). The block's remaining spare IDs are the gaps 5516-5519, 5540-5579, 5612-5619, 5636-5659, 5701-5739 and 5790-5819.
 - IDs are assigned by hand inside the block. A citation row whose quotations were read through a search extract says so in its note; the reviewer should spot-check those quotations against the originals. Saved texts are named `library/text/wrk-*.txt`.
 
 ## Open questions for Espen
 
-The section 3 batch is decided. Memo 8 part 2 is decided for now (`DEC-2026-11-17-95`), with Espen's direction to explore several options for the future labor economy (`-96`). Still open: points 5 and 11, being studied; and the go for section 4.
+The section 3 batch is decided. Memo 8 part 2 is decided for now (`DEC-2026-11-17-95`), with Espen's direction to explore several options for the future labor economy (`-96`). Open, from section 4 (`4-specification.md`, "Questions for Espen"):
+1. Memo 10: measuring displacement (recommended C) and a standby trigger (recommended C).
+2. Point 5, severance, provisional: specified on the recommendation, open until the study.
+3. Point 11, codetermination, provisional: specified on the recommendation, still being studied.
+4. For information: under `-95`'s option A, quits for good cause qualify for wage insurance (LAB-18.03).

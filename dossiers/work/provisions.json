@@ -1,0 +1,2172 @@
+[
+ {
+  "id": "LAB-4.01",
+  "title": "The federal minimum wage reaches $17 in five annual steps from January 1, 2030",
+  "agenda": "LAB-4",
+  "status": "decided, memo 1 part 1 B",
+  "decisions": [
+   "DEC-2026-11-17-01"
+  ],
+  "parameters": "29 U.S.C. 206(a)(1) is amended to $9.50 an hour on January 1, 2030, then $11.00 (2031), $12.50 (2032), $14.00 (2033), $15.50 (2034) and $17.00 (January 1, 2035), Raise the Wage's schedule [EV-WRK-042]. If the act is signed after June 30, 2029, the first step is the first January 1 at least six months after signature and each later step moves with it (working choice). A step may wait a year under the recession pause (LAB-4.03); the floor never falls. States and cities keep higher floors (29 U.S.C. 218, unchanged). A full-time worker at $17 earns $35,360 a year (project arithmetic, 2,080 hours)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "$7.25 since July 24, 2009 [EV-WRK-002]; 20 states at $7.25 [EV-WRK-013]",
+  "evidence": [
+   "EV-WRK-042",
+   "EV-WRK-001",
+   "EV-WRK-013",
+   "EV-WRK-032",
+   "EV-WRK-033",
+   "EV-WRK-034"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-4.02",
+  "title": "From 2036, the floor rises each year with the median wage",
+  "agenda": "LAB-4",
+  "status": "decided, memo 1 part 1 B; the measure and timing are working choices",
+  "decisions": [
+   "DEC-2026-11-17-01"
+  ],
+  "parameters": "From January 1, 2036 (the year after the last step), the floor rises each January 1 by the percentage growth of the national median hourly wage over the latest year of published data, rounded up to the next $0.05; it never falls, and a year in which the median falls leaves it unchanged. *Measure (working choice):* BLS's all-occupation median hourly wage from the Occupational Employment and Wage Statistics survey, the measure memo 1 benchmarks against ($24.51 in May 2025) [EV-WRK-078]. The Secretary publishes the new rate by October 1 for the following January. The commission (LAB-4.04) may recommend a different BLS median by report; changing the measure needs a vote. On 3.5% a year median growth (range 3-4%), the floor stays near half the all-jobs median: about $17.60 in 2036 (project arithmetic)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD); BLS publishes the median",
+  "current_law": "No indexing [EV-WRK-001]; 15 states and DC index to prices [EV-WRK-070]",
+  "evidence": [
+   "EV-WRK-078",
+   "EV-WRK-042",
+   "EV-WRK-077",
+   "EV-WRK-070"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-4.03",
+  "title": "A recession pause written into the schedule",
+  "agenda": "LAB-4",
+  "status": "decided, memo 1 part 2 (B within C); the date of the test is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-01",
+   "DEC-2026-11-17-02"
+  ],
+  "parameters": "On October 1 before each scheduled step (LAB-4.01), the Secretary checks the national unemployment rate: if its three-month average (seasonally adjusted) is at least 0.5 percentage point above its lowest three-month average in the preceding 12 months, the trigger shape in the 2025 UI bill [EV-WRK-395], the next step waits one year and every later step moves back a year. The check is repeated the next October 1. Indexing from 2036 (LAB-4.02) is not paused: it follows wages, which a recession already slows. The floor never falls. *Why:* the one finding of recession job loss is the 2007-09 federal steps [EV-WRK-064]; Dube's review recommends a mandate to pause [EV-WRK-052]. No trigger of this kind has been evaluated",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD); BLS publishes the rate",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-395",
+   "EV-WRK-064",
+   "EV-WRK-052"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-4.04",
+  "title": "A standing wage commission that reports the floor's reach and may recommend more",
+  "agenda": "LAB-4",
+  "status": "decided, memo 1 part 1 B; membership and terms are working choices",
+  "decisions": [
+   "DEC-2026-11-17-01"
+  ],
+  "parameters": "Nine members appointed by the Secretary of Labor: three nominated by worker organizations, three by employer organizations and three independent economists, one of whom chairs; staggered six-year terms (working choice, on the U.K. Low Pay Commission's model [EV-WRK-053] [EV-WRK-054]). It advises and holds no power to set the floor, so removal protection is not relied on. *Each spring it publishes:* the floor's ratio to the national, state and county medians; employment, hours and prices where it bites most; the tipped schedule's effect on restaurant jobs (LAB-4.07) and the 14(c) transition (LAB-4.09, 4.10); and how much of a raise families keep after phase-outs, with the household model (shared rule 2). *First task, within 18 months of enactment:* a county-level measure of the floor's reach, rural counties first [EV-WRK-405]. *May recommend* a higher target or a slower step for counties where the floor passes about 60% of the local median [EV-WRK-051]; any change needs an act of Congress. Uses data BLS, Census and state UI agencies already hold (QCEW, OEWS, quarterly wage records); no new employer survey. Staff in Labor's budget (point 14)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (an independent commission, staffed by the Secretary); BLS",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-053",
+   "EV-WRK-054",
+   "EV-WRK-055",
+   "EV-WRK-051",
+   "EV-WRK-052",
+   "EV-WRK-405"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-5.01",
+  "title": "A small, temporary payroll credit for employers under 50 workers in the first three steps",
+  "agenda": "LAB-5",
+  "status": "decided, memo 1 part 2 C, its form `DEC-2026-11-17-34`; the shares and cap are working choices",
+  "decisions": [
+   "DEC-2026-11-17-02",
+   "DEC-2026-11-17-34"
+  ],
+  "parameters": "A refundable credit against the employer's share of payroll tax, claimed on the quarterly Form 941. *Who:* an employer with fewer than 50 employees in the prior calendar year, counted across a controlled group (26 U.S.C. 414(b), (c), (m), (o)) so a large firm cannot split. *What:* for each worker paid below a new step's rate in the quarter before the step, a share of the added wage cost (the new rate less the worker's old hourly wage, times hours paid) for the four quarters after the step: 50% in the first step's year, 35% in the second and 20% in the third (working choice). *Cap:* $20,000 per employer per year (working choice), so the credit stays inside the decided range. *Ends* after the third step's year: wages paid after December 31, 2032 on the working timeline (later if the pause, LAB-4.03, delays a step). *Contingent:* it pays only for steps the labor act enacts, as the legacy credit was designed [EV-WRK-703]. Cost about $0.02-0.04 trillion over FY2030-39 (judgment, a third of the legacy credit's range); JCT scores it (point 15). It replaces the budget model's LAB-5 row ($0.10 trillion) at booking, not here. *The 2007 package* (P.L. 110-28) is a political precedent, not evidence that a credit softens job effects (`notes/espen-questions-2026-11-17.md`, part a)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "revenue",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "The legacy LAB-5 credit, booked at $0.10 trillion [EV-WRK-703]",
+  "evidence": [
+   "EV-WRK-703",
+   "EV-WRK-002"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-4.05",
+  "title": "Federal contractors' minimum wage restored on day one",
+  "agenda": "LAB-4",
+  "status": "decided, point 8 (executive action, not law)",
+  "decisions": [
+   "DEC-2026-11-17-21"
+  ],
+  "parameters": "In January 2029 the President reissues Executive Order 14026's contractor minimum wage, with its indexing, and the Labor Department reinstates its rule (29 CFR part 23) for new contracts and options. Labeled executive action: a later president can revoke it, as Executive Order 14236 did [EV-WRK-038] [EV-WRK-039]. Once LAB-4.01's floor passes the contractor rate, the higher of the two applies",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "EXEC",
+    "kind": "executive",
+    "note": "executive action, January 2029"
+   }
+  ],
+  "agency": "The President; Labor (WHD)",
+  "current_law": "Revoked March 14, 2025; not enforced [EV-WRK-038] [EV-WRK-039]",
+  "evidence": [
+   "EV-WRK-038",
+   "EV-WRK-039"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-4.06",
+  "title": "The youth wage ends with the first step",
+  "agenda": "LAB-4",
+  "status": "decided, memo 2 B",
+  "decisions": [
+   "DEC-2026-11-17-03"
+  ],
+  "parameters": "29 U.S.C. 206(g), the $4.25 rate for workers under 20 in their first 90 days [EV-WRK-006], is repealed effective January 1, 2030, the first step. No study of the youth wage's effect was found (section 2, A.5)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "$4.25 for 90 days under age 20 [EV-WRK-006]",
+  "evidence": [
+   "EV-WRK-006",
+   "EV-WRK-043"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-4.07",
+  "title": "The tipped cash wage reaches the full floor in seven equal steps",
+  "agenda": "LAB-4",
+  "status": "decided, memo 2 B; the step formula is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-03"
+  ],
+  "parameters": "Each January 1 from 2030 to 2036, the cash wage an employer must pay a tipped worker (29 U.S.C. 203(m)) is at least $2.13 plus one-seventh, two-sevenths and so on of the gap between $2.13 and that year's full floor; from January 1, 2036 the tip credit ends and tipped workers get the full floor in cash. On the working timeline that is about $3.20 in 2030 and $17.60 in 2036 (project arithmetic). Tips stay the worker's property; employers and managers may not keep them, and tip pools among non-managers stay lawful, as today's 203(m)(2)(B) provides (working choice: the 2018 rule kept). The commission reports each year on tipped employment (LAB-4.04); option C (70-75%, the District's path [EV-WRK-071]) is the fallback if those reports show tipped jobs falling. The tips income-tax deduction ends after tax year 2028 under current law [EV-WRK-047]; renewing it is stage G's",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "$2.13 cash wage, tip credit up to $5.12 [EV-WRK-005]",
+  "evidence": [
+   "EV-WRK-005",
+   "EV-WRK-067",
+   "EV-WRK-069",
+   "EV-WRK-071",
+   "EV-WRK-072",
+   "EV-WRK-047"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-4.08",
+  "title": "14(c) certificates end over five years",
+  "agenda": "LAB-4",
+  "status": "decided, memo 2 B",
+  "decisions": [
+   "DEC-2026-11-17-03"
+  ],
+  "parameters": "No new or renewed certificate under 29 U.S.C. 214(c) after enactment. Holders pay at least $5.00 an hour from the first step, rising in equal steps to the full floor on the fifth January 1, when 214(c) is repealed: the Raise the Wage Act's path [EV-WRK-043]. 642 employers paid 35,534 workers under certificates on October 1, 2025 [EV-WRK-008]; 16 states have ended them [EV-WRK-011]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "Certificates continue; the phase-out proposal was withdrawn [EV-WRK-010]",
+  "evidence": [
+   "EV-WRK-043",
+   "EV-WRK-008",
+   "EV-WRK-010",
+   "EV-WRK-011",
+   "EV-WRK-074",
+   "EV-WRK-075"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-4.09",
+  "title": "A funded move into supported jobs, and no loss of day services",
+  "agenda": "LAB-4",
+  "status": "decided, memo 2 B; the formula is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-03"
+  ],
+  "parameters": "*Grant:* $1-3 billion over five years, about $0.2-0.6 billion a year (judgment), to state vocational rehabilitation agencies (Education's Rehabilitation Services Administration) and state developmental disability agencies (HHS's Administration for Community Living), shared by each state's count of 14(c) workers on Labor's certificate list [EV-WRK-008] with a small-state minimum (working choice). It pays for supported and customized employment, benefits counseling, and providers' conversion of sheltered programs to integrated jobs. *Protection:* no one loses Medicaid coverage or Medicaid-funded day or employment services because a certificate ends; a state keeps a person's services at least at the prior level until a person-centered plan offers integrated work or another service the person chooses (working choice carrying out memo 2 B). From 2035 the care dossier's home and community care benefit pays day services (`dossiers/care/memos/6-home-care-guarantee.md`). *Why:* GAO found fewer than half of tracked former 14(c) workers in two states moved to other jobs [EV-WRK-073]; repeal raised employment in New Hampshire, not in Maryland [EV-WRK-074]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Education (RSA); HHS (ACL); Labor; states",
+  "current_law": "None",
+  "evidence": [
+   "EV-WRK-073",
+   "EV-WRK-074",
+   "EV-WRK-075",
+   "EV-WRK-008"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-1.01",
+  "title": "A union is certified on a majority of signed cards",
+  "agenda": "LAB-1",
+  "status": "decided, memo 3 D (card check)",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "29 U.S.C. 159 is amended: when a union shows the Board valid authorization cards signed by a majority of the employees in an appropriate unit, the Board certifies it as the bargaining representative without an election. *Cards:* signed or electronically signed within the 12 months before the filing, naming the union and the wish to be represented (working choice). *Check:* the Board compares the cards with the employer's payroll list for the unit within 14 days of filing (working choice); the employer may not demand an election. *Unit disputes* go to the Board's expedited hearing; a dispute over a few names does not delay certification if the majority holds without them (working choice). A union may still choose an election (LAB-1.02). The model is the Employee Free Choice Act of 2009. *Evidence:* British Columbia's move from card check to mandatory votes cut certification success 19 points, and its return restored it [EV-WRK-168]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "NLRB",
+  "current_law": "Elections on petition; recognition on cards only if the employer agrees, or by bargaining order [EV-WRK-138] [EV-WRK-140]",
+  "evidence": [
+   "EV-WRK-168",
+   "EV-WRK-109",
+   "EV-WRK-159"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-1.02",
+  "title": "Fast elections when a union chooses one",
+  "agenda": "LAB-1",
+  "status": "decided, memo 3 B within D; the deadline is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "Where the union petitions for an election instead, the Board holds it within 20 days of the petition unless the union agrees to a later date (working choice; the FY2026 median was 33 days [EV-WRK-113]); mail and electronic voting are allowed. Challenges to individual voters are resolved after the count, and only if they could change the result",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "NLRB",
+  "current_law": "Median 33 days in FY2026 [EV-WRK-113]",
+  "evidence": [
+   "EV-WRK-113",
+   "EV-WRK-114"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-1.03",
+  "title": "No mandatory captive-audience meetings",
+  "agenda": "LAB-1",
+  "status": "decided, memo 3 B within D",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "It is an unfair labor practice to require, or to discipline a worker for refusing, attendance at a meeting or communication whose primary purpose is the employer's view on unionization; the Board's 2024 *Amazon* rule is written into the act [EV-WRK-127], so a later Board cannot reverse it [EV-WRK-128]. 12 states have their own bans or limits [EV-WRK-185]; state laws that protect more are not preempted",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "NLRB; courts",
+  "current_law": "Board doctrine since 2024, under challenge by the General Counsel [EV-WRK-128]",
+  "evidence": [
+   "EV-WRK-127",
+   "EV-WRK-128",
+   "EV-WRK-185"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-1.04",
+  "title": "Bargaining orders when an employer's violations taint an election",
+  "agenda": "LAB-1",
+  "status": "decided, memo 3 B within D",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "If an employer's unfair labor practice would require setting aside an election, the Board orders the employer to recognize and bargain with the union, the *Cemex* standard written into the act, so no Board or circuit can undo it by reading the statute [EV-WRK-138] [EV-WRK-160]. With card check (LAB-1.01) the order matters mainly where a union chose an election",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "NLRB; courts",
+  "current_law": "*Cemex* rejected by the Sixth Circuit, left in place by the Supreme Court in one case [EV-WRK-138] [EV-WRK-160]",
+  "evidence": [
+   "EV-WRK-138",
+   "EV-WRK-139",
+   "EV-WRK-140",
+   "EV-WRK-160"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-1.05",
+  "title": "First contracts: 10 days to bargain, mediation at 90, binding arbitration at 30 more",
+  "agenda": "LAB-1",
+  "status": "decided, memo 3 B within D; the award's term and factors are working choices",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "After certification or recognition, bargaining begins within 10 days of a written request; after 90 days without agreement either side may request mediation by the Federal Mediation and Conciliation Service; if mediation fails within 30 days, a three-member arbitration panel decides, the Faster Labor Contracts Act's timetable [EV-WRK-145], which passed the House 230 to 193 [EV-WRK-144]. The award binds both sides for two years unless they agree otherwise (working choice, the PRO Act's term). The panel weighs the employer's finances, wages and benefits at comparable employers, and the cost of living (working choice). About 500 new units a year reach FMCS today [EV-WRK-177]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "FMCS; NLRB",
+  "current_law": "No deadline or arbitration; 463 days on average to a first contract [EV-WRK-126]",
+  "evidence": [
+   "EV-WRK-145",
+   "EV-WRK-144",
+   "EV-WRK-169",
+   "EV-WRK-177",
+   "EV-WRK-126"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-1.06",
+  "title": "No permanent replacement of strikers",
+  "agenda": "LAB-1",
+  "status": "decided, memo 3 B within D",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "An employer may not permanently replace, or give hiring preference over, workers who strike, the PRO Act's rule. Temporary replacements stay lawful. The evidence on bans is split: a general ban goes with higher wages and longer strikes [EV-WRK-170], a ban on permanent replacement alone shows little effect [EV-WRK-171], so this part rests on judgment",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "NLRB; courts",
+  "current_law": "Permanent replacement allowed (*Mackay Radio*, 1938; no register entry)",
+  "evidence": [
+   "EV-WRK-170",
+   "EV-WRK-171",
+   "EV-WRK-172"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-1.07",
+  "title": "Who is covered by the labor act: the ABC test and joint employers",
+  "agenda": "LAB-1",
+  "status": "decided, memo 6 part 2 B",
+  "decisions": [
+   "DEC-2026-11-17-08"
+  ],
+  "parameters": "A worker is an employee under 29 U.S.C. 152(3) unless (A) free from the hiring entity's control in the work, (B) the work is outside the usual course of its business, and (C) the worker is customarily engaged in an independently established trade of the same kind. A hiring entity is a joint employer when it holds or exercises control, direct or indirect, reserved or used, over essential terms (the PRO Act's standard). 11.9 million independent contractors were counted in 2023 [EV-WRK-158]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "NLRB",
+  "current_law": "Common-law agency test",
+  "evidence": [
+   "EV-WRK-142",
+   "EV-WRK-158",
+   "EV-WRK-216",
+   "EV-WRK-259"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-1A.01",
+  "title": "Fair-share fees allowed notwithstanding state right-to-work laws, in a separate title",
+  "agenda": "LAB-1A",
+  "status": "decided, memo 4 A",
+  "decisions": [
+   "DEC-2026-11-17-05"
+  ],
+  "parameters": "A separate title amends 29 U.S.C. 164(b) so that a private-sector contract may require each worker a union represents to pay a fee for representation, whatever state law says; members-only dues stay voluntary. Public-sector fees are barred by *Janus* (2018; not yet in the register) and are untouched. The title is severable: if it is struck from the bill or by a court, the rest of the act stands. It overrides the laws of 26 states [EV-WRK-141]. Every study in the register finds right-to-work lowers unionization [EV-WRK-165] [EV-WRK-166]; the wage effect is contested",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act, a separate title (regular order)"
+   }
+  ],
+  "agency": "NLRB; courts",
+  "current_law": "26 states and Guam ban fees [EV-WRK-141]",
+  "evidence": [
+   "EV-WRK-141",
+   "EV-WRK-165",
+   "EV-WRK-166",
+   "EV-WRK-187",
+   "EV-WRK-188"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-2.01",
+  "title": "Civil penalties in federal court, with a jury available",
+  "agenda": "LAB-2",
+  "status": "decided, memo 3 B within D; indexing is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "An employer that commits an unfair labor practice is liable for a civil penalty of up to $50,000 per violation, and up to $100,000 for a repeat violation within five years or one that causes a discharge or serious economic harm [EV-WRK-142], indexed to prices from 2030 (working choice). Directors and officers who directed or knowingly allowed the violation are personally liable. The General Counsel sues in federal district court, where either side may demand a jury, so the penalties hold under *SEC v. Jarkesy* [EV-WRK-131]. CBO put the 2019 bill's penalties at about 120 cases a year [EV-WRK-176]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "NLRB (General Counsel); federal courts",
+  "current_law": "No penalties: cease-and-desist orders and back pay [EV-WRK-129]",
+  "evidence": [
+   "EV-WRK-142",
+   "EV-WRK-176",
+   "EV-WRK-131",
+   "EV-WRK-132",
+   "EV-WRK-129"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-2.02",
+  "title": "A private right of action for workers and unions",
+  "agenda": "LAB-2",
+  "status": "decided, memo 3 B within D; the waiting period and remedies are working choices",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "A worker or union that has filed a charge may sue the employer in federal district court if the General Counsel has not filed a complaint within 60 days, or at once for a discharge during an organizing campaign (working choices). The court may award back pay without reduction for interim earnings, front pay, consequential damages, liquidated damages equal to back pay for a willful violation, injunctions and reasonable fees (working choices following the legacy LAB-2 and the PRO Act). Pre-dispute agreements that waive this right or bar collective or class claims under the act are unenforceable (working choice: otherwise arbitration clauses block many suits, as memo 6 notes). Minnesota's captive-audience law uses a private right [EV-WRK-185]. *Durability:* the law does not depend on who controls the Board [EV-WRK-136]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "Only the General Counsel may bring a case [EV-WRK-129]",
+  "evidence": [
+   "EV-WRK-185",
+   "EV-WRK-136",
+   "EV-WRK-134"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-2.03",
+  "title": "Injunctions on reasonable cause",
+  "agenda": "LAB-2",
+  "status": "decided, memo 3 B within D",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "A district court grants a section 10(j) injunction where the Board's regional director shows reasonable cause to believe an unfair labor practice occurred and relief is just and proper, reversing *Starbucks v. McKinney*'s four-factor test [EV-WRK-130]. The Board must seek one when a worker is fired during an organizing campaign or first-contract bargaining (working choice, the PRO Act's rule)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "NLRB; federal courts",
+  "current_law": "Four-factor *Winter* test since 2024 [EV-WRK-130]",
+  "evidence": [
+   "EV-WRK-130"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-2.04",
+  "title": "A board that works without removal protection, and a fallback when it has no quorum",
+  "agenda": "LAB-2",
+  "status": "decided, memo 3 B within D; the quorum fallback is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-04"
+  ],
+  "parameters": "Five members, no more than three from one party, staggered five-year terms. The act does not rely on protection from removal, which *Trump v. Slaughter* and two circuits have undone in practice [EV-WRK-136] [EV-WRK-134] [EV-WRK-137]. *If the Board lacks a quorum for 90 days,* a charging party may take any case pending before it to district court under LAB-2.02, and regional directors' certifications under LAB-1.01 take effect without Board review (working choice: the Board lacked a quorum for most of 2025 [EV-WRK-135])",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "NLRB",
+  "current_law": "Members removable in practice; no quorum for most of 2025 [EV-WRK-135]",
+  "evidence": [
+   "EV-WRK-136",
+   "EV-WRK-134",
+   "EV-WRK-137",
+   "EV-WRK-135",
+   "EV-WRK-115"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-2.05",
+  "title": "The board's staff rebuilt from workload",
+  "agenda": "LAB-2",
+  "status": "decided, point 14 (the need goes to CAP-7); the size is a working assumption",
+  "decisions": [
+   "DEC-2026-11-17-27"
+  ],
+  "parameters": "Regional field staff back to at least FY2014's 1,067 FTE [EV-WRK-118] by FY2032, plus staff for card checks, penalty and injunction cases: about 400-600 FTE above FY2026's 1,151 [EV-WRK-119], about $0.10-0.15 billion a year at FY2026's cost per FTE (project arithmetic: $294 million / 1,151 FTE, about $256,000 each [EV-WRK-119]), about $1.0-1.4 billion over FY2030-39 with the ramp, against the legacy $4 billion by judgment [EV-WRK-706]. FMCS adds arbitration panels for first contracts (LAB-1.05), about $10-20 million a year (judgment). Sent to democratic renewal for CAP-7 (part F of this section); appropriated, not booked here",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "annual appropriations, with the agency rebuild (CAP-7)"
+   }
+  ],
+  "agency": "NLRB; FMCS",
+  "current_law": "$294 million and 1,151 FTE in FY2026 [EV-WRK-119]",
+  "evidence": [
+   "EV-WRK-118",
+   "EV-WRK-119",
+   "EV-WRK-109",
+   "EV-WRK-706",
+   "EV-WRK-177"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-2.06",
+  "title": "Day-one steps at the labor board",
+  "agenda": "LAB-2",
+  "status": "decided, point 8 (executive action, not law)",
+  "decisions": [
+   "DEC-2026-11-17-21"
+  ],
+  "parameters": "In January 2029 the President nominates members to give the Board a working quorum and names a General Counsel who withdraws the 2026 memos urging reversal of *Cemex* and the captive-audience rule [EV-WRK-128], while the labor act moves. Labeled executive action",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "EXEC",
+    "kind": "executive",
+    "note": "executive action, January 2029"
+   }
+  ],
+  "agency": "The President; NLRB (General Counsel)",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-128",
+   "EV-WRK-116"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-3.01",
+  "title": "A standing framework for binding industry standards boards",
+  "agenda": "LAB-3",
+  "status": "decided, memo 5 B; the petition threshold is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-06"
+  ],
+  "parameters": "The Secretary of Labor convenes a board for an industry on a petition from at least 1,000 workers in it, or from an organization representing at least that many (working choice; Detroit's local ordinance uses 150 [EV-WRK-181]), or on her own finding that pay in the industry is low. Nine members: three for workers, three for employers, three for the public, one of whom chairs. A board holds hearings and sets floors for wages, benefits, scheduling and training. *Binding by rule:* a standard takes effect as a rule unless the Secretary rejects it, with reasons, within 60 days; the Secretary may not amend it, and a rejected standard returns to the board. Each standard is reviewed every three years. It is a floor: higher state or local standards are not preempted. Enforced by Wage and Hour as wage-law violations, with LAB-7's remedies",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (Wage and Hour; a standards boards office)",
+  "current_law": "No federal boards; California's council loses its powers on January 1, 2029 [EV-WRK-151]",
+  "evidence": [
+   "EV-WRK-181",
+   "EV-WRK-178",
+   "EV-WRK-179",
+   "EV-WRK-182",
+   "EV-WRK-173",
+   "EV-WRK-175"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-3.02",
+  "title": "The first board, for fast food, with an 18-month deadline",
+  "agenda": "LAB-3",
+  "status": "decided, memo 5 B",
+  "decisions": [
+   "DEC-2026-11-17-06"
+  ],
+  "parameters": "The act names a board for fast-food and other limited-service restaurants belonging to chains (working choice: 30 or more locations nationally, New York's 2015 line [EV-WRK-186]). It is appointed within 90 days of enactment and must issue its first standard within 18 months, so a standard exists before a later election can stop it [EV-WRK-175] [EV-WRK-152]. If it misses the deadline, the Secretary issues a standard on the board's record within 90 days (working choice)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor",
+  "current_law": "California's Fast Food Council, stalled and expiring [EV-WRK-151] [EV-WRK-152]",
+  "evidence": [
+   "EV-WRK-186",
+   "EV-WRK-151",
+   "EV-WRK-152",
+   "EV-WRK-153",
+   "EV-WRK-155",
+   "EV-WRK-175"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-3.03",
+  "title": "Home care through the care payer, not a separate board",
+  "agenda": "LAB-3",
+  "status": "decided, memo 5 B (a seam with HLT-10, not a reopening)",
+  "decisions": [
+   "DEC-2026-11-17-06"
+  ],
+  "parameters": "No federal home care board. A board for any care industry may recommend pay above the care wage floor ($20 in 2026 dollars, indexed, HLT-10.01); its recommendation goes to CMS's and the single plan's rate setting, where a state board's or agreement's higher wage is already an allowable cost (HLT-10.04, care's, decided `DEC-2026-11-11-04`). Minnesota's nursing-home board is the model for the payer route [EV-WRK-179] [EV-CAR-618]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor; HHS (CMS)",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-179",
+   "EV-CAR-618",
+   "EV-WRK-178"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-3.04",
+  "title": "A report on sectoral bargaining, the direction for later",
+  "agenda": "LAB-3",
+  "status": "decided direction, memo 5 (`DEC-2026-11-17-06`); the report is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-06"
+  ],
+  "parameters": "Espen's direction is to pursue measures like sectoral bargaining (LAB-3B) over time; it is not in the first bill. The act asks the Secretary to report to Congress in 2034, after the first boards' reviews, on extending sector agreements: which industries have representative unions and employer associations, and how the OECD's conditions (representativeness, a public-interest test, exemptions) would apply [EV-WRK-174], with New Zealand's repeal as the risk to design against [EV-WRK-175]. No new authority until Congress acts on it",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-174",
+   "EV-WRK-173",
+   "EV-WRK-175"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-16.01",
+  "title": "Federal workers' bargaining restored",
+  "agenda": "LAB-16",
+  "status": "decided, point 7",
+  "decisions": [
+   "DEC-2026-11-17-20"
+  ],
+  "parameters": "*January 2029, executive:* the President revokes Executive Order 14251 [EV-WRK-148] and restores the agencies' prior coverage under chapter 71 of title 5. *Law:* the labor act carries the Protect America's Workforce Act, which nullifies the 2025 order and restores contracts it cancelled [EV-WRK-146]; it passed the House 231 to 195 [EV-WRK-146]. The national-security exclusion in 5 U.S.C. 7103(b) stays, limited to agencies whose primary function is intelligence or security work (working choice)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "EXEC",
+    "kind": "executive",
+    "note": "executive action, January 2029"
+   },
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "The President; OPM; FLRA",
+  "current_law": "Executive Order 14251 in force unless stopped [EV-WRK-148]",
+  "evidence": [
+   "EV-WRK-148",
+   "EV-WRK-146",
+   "EV-WRK-147",
+   "EV-WRK-149",
+   "EV-WRK-150"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-6.01",
+  "title": "A heat standard in statute, with a floor states cannot lower",
+  "agenda": "LAB-6",
+  "status": "decided, point 1",
+  "decisions": [
+   "DEC-2026-11-17-14"
+  ],
+  "parameters": "The act directs OSHA to issue within one year a final standard with California's elements: a written plan, water, shade, rest breaks and acclimatization above heat triggers, indoors and outdoors, with records [EV-WRK-235] [EV-WRK-256]. Until it issues, the act's own minimums apply from 180 days after enactment (working choice): a plan, water, shade and rest breaks above the 2024 proposal's initial heat trigger (working choice; the final rule sets the triggers and the high-heat rules). No state or locality may require less, and no state may bar its localities from requiring more, which overrides Florida's 2024 preemption of local heat rules [EV-WRK-241] [EV-WRK-242]. *Evidence:* California's standard cut injuries on hot days 15-27% by industry [EV-WRK-258]; OSHA's 2024 analysis, the Biden administration's, put costs at $7.8 billion a year against $9.18 billion of benefits [EV-WRK-255]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (OSHA)",
+  "current_law": "No standard unless OSHA finishes in October 2027 [EV-WRK-237]",
+  "evidence": [
+   "EV-WRK-235",
+   "EV-WRK-256",
+   "EV-WRK-258",
+   "EV-WRK-255",
+   "EV-WRK-241",
+   "EV-WRK-242",
+   "EV-WRK-243"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-6.02",
+  "title": "Finish the heat rule in January 2029 if OSHA has not",
+  "agenda": "LAB-6",
+  "status": "decided, point 1 (executive action, legacy EXE-17)",
+  "decisions": [
+   "DEC-2026-11-17-14"
+  ],
+  "parameters": "If no final rule exists on January 20, 2029, OSHA finalizes it from the 2024 record and the supplemental proposal [EV-WRK-237], so workers are covered before the act's deadline. Executive action",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "EXEC",
+    "kind": "executive",
+    "note": "executive action, January 2029"
+   }
+  ],
+  "agency": "Labor (OSHA)",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-237",
+   "EV-WRK-236"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-7.01",
+  "title": "Inspectors back to their 1978 number, written as a staffing floor",
+  "agenda": "LAB-7",
+  "status": "decided, memo 6 part 1 B; OSHA's number is a working assumption",
+  "decisions": [
+   "DEC-2026-11-17-07",
+   "DEC-2026-11-17-27"
+  ],
+  "parameters": "Wage and Hour investigators rise from 611 (May 2025) to at least 1,200 by FY2034, about 1978's 1,232 [EV-WRK-207], with a statutory floor below which appropriations may not fall without a report to Congress. Federal OSHA inspectors grow in step, from 618 [EV-WRK-232] to about 1,200 (working assumption). About $0.3-0.5 billion a year more at full strength (judgment, memo 6), sent to CAP-7 (part F), where democratic renewal's bottom-up table carries Labor's inspection staff (Wage and Hour about +1,300, OSHA about +700 [EV-DEM-331]) at about $4.6 billion over FY2030-39 and $0.6 billion in FY2040 [EV-DEM-329]; the need here is consistent with it",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "annual appropriations, with the agency rebuild (CAP-7)"
+   }
+  ],
+  "agency": "Labor (WHD, OSHA)",
+  "current_law": "611 investigators; 618 federal OSHA inspectors [EV-WRK-207] [EV-WRK-232]",
+  "evidence": [
+   "EV-WRK-207",
+   "EV-WRK-208",
+   "EV-WRK-232",
+   "EV-WRK-201",
+   "EV-WRK-706",
+   "EV-DEM-331",
+   "EV-DEM-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-7.02",
+  "title": "Inspections aimed where violations are, not where complaints are",
+  "agenda": "LAB-7",
+  "status": "decided, memo 6 part 1 B; the share is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-07"
+  ],
+  "parameters": "At least half of Wage and Hour's and OSHA's inspections each year are directed, not complaint-driven, in the industries with the highest violation rates on the agencies' own data (back wages, past findings, injury records), with immigration's working list as the start (agriculture, construction, care, food processing, hospitality and cleaning; IMM-4.16). The list is published each year. *Why:* complaints track violations poorly [EV-WRK-253]; random inspections cut injuries 9.4% with no loss of jobs [EV-WRK-249]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD, OSHA)",
+  "current_law": "Mostly complaint-driven",
+  "evidence": [
+   "EV-WRK-253",
+   "EV-WRK-249",
+   "EV-WRK-250",
+   "EV-WRK-254"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-7.03",
+  "title": "Violators published",
+  "agenda": "LAB-7",
+  "status": "decided, memo 6 part 1 B",
+  "decisions": [
+   "DEC-2026-11-17-07"
+  ],
+  "parameters": "Wage and Hour and OSHA publish each final finding of a violation, with the employer's name, the amount owed or penalty and the workers affected, within 30 days (working choice), as OSHA's press releases did from 2009: one release cut violations at nearby peers 73%, as much as 210 inspections [EV-WRK-251]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD, OSHA)",
+  "current_law": "At the agencies' discretion",
+  "evidence": [
+   "EV-WRK-251"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-7.04",
+  "title": "Treble damages for willful wage theft, and higher penalties",
+  "agenda": "LAB-7",
+  "status": "decided, memo 6 part 1 B; penalty amounts are working choices",
+  "decisions": [
+   "DEC-2026-11-17-07"
+  ],
+  "parameters": "*Damages:* for a willful violation of the minimum wage, overtime or a board standard, liquidated damages of twice the unpaid wages, so the worker recovers three times what was owed [EV-WRK-205] [EV-WRK-252]. *Penalties:* the civil penalty for repeated or willful violations rises from up to $1,100 [EV-WRK-206] to up to $5,000 per violation, and up to $10,000 for a repeat within five years (working choices), indexed to prices; child-labor penalties rise in proportion (5,272 minors in violation in FY2025 [EV-WRK-203]). *Why:* treble damages had the largest deterrent effect in state panels [EV-WRK-252]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD); courts",
+  "current_law": "Unpaid wages plus an equal amount; penalties up to $1,100 [EV-WRK-205] [EV-WRK-206]",
+  "evidence": [
+   "EV-WRK-205",
+   "EV-WRK-206",
+   "EV-WRK-252",
+   "EV-WRK-203",
+   "EV-WRK-204"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-7.05",
+  "title": "Private enforcement that works: class actions, no forced arbitration, outreach grants",
+  "agenda": "LAB-7",
+  "status": "decided, memo 6 part 1 B; the forms are working choices",
+  "decisions": [
+   "DEC-2026-11-17-07"
+  ],
+  "parameters": "Workers keep the right to sue with fees (29 U.S.C. 216(b)). Wage claims may proceed as ordinary class actions, not only by opt-in collective action, and pre-dispute agreements that waive wage, board-standard or retaliation claims or bar class claims are unenforceable (working choices, so the decided private right reaches workers who fear to sue alone [EV-WRK-254]). *Outreach grants:* about $50 million a year (working assumption) to community organizations and unions that help workers file and that Wage and Hour may partner with on investigations (co-enforcement, unevaluated; section 2, C.2)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   },
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "annual appropriations, with the agency rebuild (CAP-7)"
+   }
+  ],
+  "agency": "Labor (WHD); courts",
+  "current_law": "Opt-in collective actions; arbitration clauses enforceable",
+  "evidence": [
+   "EV-WRK-254",
+   "EV-WRK-248",
+   "EV-WRK-212"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-7.06",
+  "title": "Retaliation remedies that cover immigration threats",
+  "agenda": "LAB-7",
+  "status": "decided, memo 6 part 1 B (the labor-standards half of `DEC-2026-11-12-07`)",
+  "decisions": [
+   "DEC-2026-11-17-07"
+  ],
+  "parameters": "A worker who suffers retaliation for a wage, safety, board-standard, pay-discussion (LAB-7.09) or labor-act complaint is entitled to reinstatement, back pay, compensatory and punitive damages and fees. A threat to report a worker's immigration status, or a report to DHS, in retaliation is retaliation. Deferred action and a work permit for the complaint's duration, and the firewall for complaint files, are immigration's provisions (IMM-4.17, IMM-4.11), cited here and not restated. 43% of low-wage workers who complained faced retaliation in a three-city survey [EV-WRK-254]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD, OSHA); DHS for IMM-4.17",
+  "current_law": "Back pay and reinstatement; no immigration-threat rule",
+  "evidence": [
+   "EV-WRK-254",
+   "EV-IMM-237"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-7.07",
+  "title": "Who is covered by wage law: the economic-realities test in statute",
+  "agenda": "LAB-7",
+  "status": "decided, memo 6 part 2 B",
+  "decisions": [
+   "DEC-2026-11-17-08"
+  ],
+  "parameters": "The Fair Labor Standards Act's definition of employee (29 U.S.C. 203(e)) includes the 2024 rule's six-factor economic-realities test [EV-WRK-217]: opportunity for profit or loss from managerial skill; the parties' investments; permanence; control; whether the work is integral to the business; and skill and initiative, weighed as a whole, with no factor decisive. A rule cannot replace it [EV-WRK-219]. The ABC test governs the labor act (LAB-1.07) and unemployment insurance (LAB-11.02), not wage law, given the contested AB 5 evidence [EV-WRK-259] [EV-WRK-260]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "The 2021 test likely restored by rule [EV-WRK-219]",
+  "evidence": [
+   "EV-WRK-217",
+   "EV-WRK-218",
+   "EV-WRK-219",
+   "EV-WRK-220",
+   "EV-WRK-259",
+   "EV-WRK-260"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-7.08",
+  "title": "Pay ranges in every job posting",
+  "agenda": "LAB-7",
+  "status": "decided, memo 6 part 3 C (`DEC-2026-11-17-35`)",
+  "decisions": [
+   "DEC-2026-11-17-09",
+   "DEC-2026-11-17-35"
+  ],
+  "parameters": "An employer with 15 or more employees states a good-faith pay range (or fixed pay) and the general benefits in every posting for a job, promotion or transfer, internal or external, and tells an applicant the range on request (working choice: Colorado's model). Enforced by Wage and Hour with a civil penalty per posting and LAB-7.05's private right. *Evidence:* posting laws raised wages 1.3-3.6% with no loss of jobs [EV-WRK-407]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "State laws only",
+  "evidence": [
+   "EV-WRK-407"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-7.09",
+  "title": "A right to ask about, discuss and disclose one's own pay",
+  "agenda": "LAB-7",
+  "status": "decided, memo 6 part 3 C (`DEC-2026-11-17-35`)",
+  "decisions": [
+   "DEC-2026-11-17-09",
+   "DEC-2026-11-17-35"
+  ],
+  "parameters": "Every worker the wage law covers may ask about, discuss and disclose their own pay, with no retaliation and no pay-secrecy rule in a contract, handbook or policy; enforced with LAB-7.06's remedies and LAB-7.05's private right. It reaches workers the labor act leaves out, such as supervisors, managers, farm workers and domestic workers. *One exception:* staff whose job gives them access to others' pay records may be barred from disclosing others' pay, never their own. *Evidence, stated plainly:* one peer-reviewed study finds state laws protecting this right lowered average wages about 2%, least where workers have little individual bargaining power [EV-WRK-408]; Espen chose it as a right whatever its average wage effect",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "Protected for most private-sector workers by the labor act's concerted-activity rule (no register entry)",
+  "evidence": [
+   "EV-WRK-408",
+   "EV-WRK-407"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-12.01",
+  "title": "Home care workers stay under federal minimum wage and overtime law",
+  "agenda": "LAB-12",
+  "status": "decided, point 2 (final wording `DEC-2026-11-17-30`)",
+  "decisions": [
+   "DEC-2026-11-17-15",
+   "DEC-2026-11-17-30"
+  ],
+  "parameters": "\"Home care workers employed by agencies and other third parties are covered by the federal minimum wage and overtime law. The labor bill writes the 2013 rule's coverage into the Fair Labor Standards Act: the companionship and live-in exemptions do not apply to third-party employers, whoever pays for the care. The care wage floor ($20 in 2026 dollars, indexed) is a higher rate for publicly paid care that sits on top of this coverage and does not replace it.\" (29 U.S.C. 213(a)(15) and (b)(21) amended accordingly.) Overtime, travel time between clients and a worker's own right to sue come from this coverage, not from the care floor (note, part f)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "Coverage suspended in enforcement; the 1975 exemptions likely restored by rule [EV-WRK-225] [EV-WRK-226]",
+  "evidence": [
+   "EV-WRK-225",
+   "EV-WRK-226",
+   "EV-CAR-616"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-12.02",
+  "title": "The overtime salary threshold set by the 2024 method in statute, never below $1,128",
+  "agenda": "LAB-12",
+  "status": "decided, point 3 (`DEC-2026-11-17-31`)",
+  "decisions": [
+   "DEC-2026-11-17-16",
+   "DEC-2026-11-17-31"
+  ],
+  "parameters": "The salary level below which a salaried worker is owed overtime is the 35th percentile of weekly earnings of full-time salaried workers in the lowest-wage Census region, computed from the latest data at enactment and updated every three years by the same method, and never below $1,128 a week, the 2024 rule's level [EV-WRK-221]. About $1,310-1,370 a week in 2030 on 3-4% wage growth (project arithmetic, note part g). The highly compensated threshold is updated with it (working choice). Because Congress sets the test, the court's objection that salary displaced duties [EV-WRK-222] does not apply",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD); BLS",
+  "current_law": "$684 a week, the 2019 level [EV-WRK-223]",
+  "evidence": [
+   "EV-WRK-221",
+   "EV-WRK-222",
+   "EV-WRK-223",
+   "EV-WRK-224"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-15.01",
+  "title": "Predictable schedules at large retail, food-service and warehouse employers",
+  "agenda": "LAB-15",
+  "status": "decided, point 6; the thresholds are working choices",
+  "decisions": [
+   "DEC-2026-11-17-19"
+  ],
+  "parameters": "*Who:* employers with 500 or more employees nationally in retail, restaurants and food service, and warehousing (working choice, near the city laws' lines). *Rules:* a good-faith estimate of hours at hire; schedules posted 14 days ahead; one hour's extra pay for each change with less notice, and half pay for hours cut, except for changes a worker asks for or swaps; a right to decline shifts added with less notice. Enforced by Wage and Hour with LAB-7.05's private right. *Evidence:* Fair Workweek laws raised two weeks' notice 13 points with no fall in hours [EV-WRK-409]; results depend on enforcement [EV-WRK-410]; stable scheduling raised sales at Gap stores [EV-WRK-403]. Higher state and city standards are not preempted",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "No federal rule; city and state laws",
+  "evidence": [
+   "EV-WRK-409",
+   "EV-WRK-410",
+   "EV-WRK-400",
+   "EV-WRK-402",
+   "EV-WRK-403"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-13.01",
+  "title": "Layoff notice that works: 90 days, counted across sites, enforced by the Labor Department",
+  "agenda": "LAB-13",
+  "status": "decided, point 4; thresholds and penalties are working choices",
+  "decisions": [
+   "DEC-2026-11-17-17"
+  ],
+  "parameters": "The WARN Act is amended: an employer with 100 or more employees (counting part-time workers, working choice) gives 90 days' written notice before a closing or a layoff of 50 or more employees within 30 days, counted across all its sites, as New Jersey's 2023 law does [EV-WRK-384], to each worker, the state's rapid-response unit and UI agency, and the local government. The notice lists site contractors' workers, as clean power's guarantee needs (CLI-11.01). *Enforcement:* Wage and Hour investigates and orders back pay and benefits for each day of notice short, plus a civil penalty of up to $1,000 a day (working choice); the private suit stays. Today only about 45% of displaced workers got written notice [EV-WRK-318] and no agency enforces WARN [EV-WRK-329]. The faltering-company and unforeseeable-business exceptions stay, narrowed to what the employer shows in writing [EV-WRK-327]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD, ETA); state rapid-response units",
+  "current_law": "60 days; single-site counts; enforced only by private suit [EV-WRK-325] [EV-WRK-329]",
+  "evidence": [
+   "EV-WRK-384",
+   "EV-WRK-318",
+   "EV-WRK-325",
+   "EV-WRK-326",
+   "EV-WRK-327",
+   "EV-WRK-328",
+   "EV-WRK-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-14.01",
+  "title": "No federal severance mandate in the first bill; study, then recommend",
+  "agenda": "LAB-14",
+  "status": "provisional, point 5 (`DEC-2026-11-17-18`); specified on the recommendation, for Espen",
+  "decisions": [
+   "DEC-2026-11-17-18"
+  ],
+  "parameters": "The labor act carries no severance mandate. The project's later work studies New Jersey's one week of pay per year of service, plus four weeks if notice is short [EV-WRK-384], once its record allows, and then recommends either (a) a federal requirement or (b) a statutory guarantee that states and localities may require severance, which is the question of whether federal benefits law preempts such laws (judgment; no register entry). The 90-day notice (LAB-13.01) applies either way. No cost here",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "none",
+    "kind": "proposal",
+    "note": "not in the first bill; provisional"
+   }
+  ],
+  "agency": "Labor",
+  "current_law": "No federal severance rule",
+  "evidence": [
+   "EV-WRK-384"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-11.01",
+  "title": "Federal standards for every state unemployment program",
+  "agenda": "LAB-11",
+  "status": "decided, memo 7 B; the effective date and the quit rule are working choices",
+  "decisions": [
+   "DEC-2026-11-17-10"
+  ],
+  "parameters": "Conditions for employers' federal unemployment tax credit, as the system works today, on the 2025 bill's core [EV-WRK-394]: at least 26 weeks of benefits; a weekly benefit of 75% of high-quarter weekly earnings up to a state maximum of at least two-thirds of the state's average weekly wage; part-time workers covered, and earnings up to a third of the weekly benefit disregarded in partial weeks; anyone with $1,000 in the high quarter and $1,500 in the base period covered; a base period that counts the most recent completed quarter. *Quits for compelling reasons* (working choice, the bill's secs. 206-207 [EV-WRK-417]): no denial for leaving because of a family member's illness, a relocation, loss of child care, an unusual risk to health or safety, the employer's breach of law, harassment or domestic violence. *Effective* for benefit weeks from January 1, 2031, or earlier when a state conforms (working choice, giving legislatures a session). The waiting week and the bill's $25 dependents' allowance [EV-WRK-418] are left out (working choices: the first is a state choice with no evidence in the register, the second overlaps the child benefit, FAM-1). P.L. 119-21's bar on benefits for people with more than $1 million of wages stays [EV-WRK-311]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   },
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies",
+  "current_law": "Benefits, weeks and coverage set by each state; 12 to 26 weeks; recipiency 27-29% [EV-WRK-300] [EV-WRK-314] [EV-SEC-045]",
+  "evidence": [
+   "EV-WRK-394",
+   "EV-WRK-417",
+   "EV-WRK-418",
+   "EV-WRK-300",
+   "EV-WRK-302",
+   "EV-WRK-303",
+   "EV-WRK-314",
+   "EV-WRK-372",
+   "EV-WRK-368",
+   "EV-SEC-045"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-11.02",
+  "title": "The ABC test decides who unemployment insurance covers",
+  "agenda": "LAB-11",
+  "status": "decided, memo 6 part 2 B",
+  "decisions": [
+   "DEC-2026-11-17-08",
+   "DEC-2026-11-17-10"
+  ],
+  "parameters": "As a condition of the tax credit, states use the ABC test (LAB-1.07's wording) for UI coverage, as the 2025 bill would [EV-WRK-394]. Misclassification costs the funds revenue; 10-30% of audited employers misclassified in nine states [EV-WRK-216]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   },
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies",
+  "current_law": "State tests vary",
+  "evidence": [
+   "EV-WRK-394",
+   "EV-WRK-216",
+   "EV-WRK-215"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-11.03",
+  "title": "Work sharing in every state, filed by employers",
+  "agenda": "LAB-11",
+  "status": "decided, memo 7 B",
+  "decisions": [
+   "DEC-2026-11-17-10"
+  ],
+  "parameters": "Each state runs a short-time compensation program in which an employer that cuts hours by 10% to 80% instead of laying off files the claims for its workers, who receive the same share of their weekly benefit [EV-WRK-394]. 33 states have such laws today and about 1% of claimants use them [EV-WRK-312] [EV-WRK-313]. A plan must show the cut is temporary; it can prop up firms that would shrink [EV-WRK-383], so a firm may use it for at most 52 weeks in five years (working choice)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   },
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies",
+  "current_law": "33 states [EV-WRK-312]",
+  "evidence": [
+   "EV-WRK-312",
+   "EV-WRK-313",
+   "EV-WRK-383",
+   "EV-WRK-394"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-11.04",
+  "title": "Extended Benefits paid fully by the federal government and switched on automatically",
+  "agenda": "LAB-11",
+  "status": "decided, memo 7 B",
+  "decisions": [
+   "DEC-2026-11-17-10"
+  ],
+  "parameters": "The federal share of Extended Benefits rises from 50% to 100%, paid from the general fund where the federal unemployment account cannot (working choice following memo 7's cost line). A state is in an extended period when its own or the national three-month unemployment rate is at or above 5.5%, or the national rate is at least 0.5 point above its low of the previous 12 months, or its insured unemployment rate is at least 5% [EV-WRK-395]: 13 more weeks, 26 at 6.5%, 39 at 7.5% and 52 at 8.5% [EV-WRK-418]; no 13-week off period; exempt from sequestration. *Evidence:* extended benefits' effect on unemployment is disputed, from 2 points [EV-WRK-374] to at most 0.3 [EV-WRK-375]; benefit length protects spending most [EV-WRK-372]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies",
+  "current_law": "50% federal; triggers rarely fire",
+  "evidence": [
+   "EV-WRK-395",
+   "EV-WRK-418",
+   "EV-WRK-372",
+   "EV-WRK-374",
+   "EV-WRK-375"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-11.05",
+  "title": "Trust funds rebuilt: the taxable wage base raised and indexed",
+  "agenda": "LAB-11",
+  "status": "decided, memo 7 B; the schedule is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-10"
+  ],
+  "parameters": "The federal taxable wage base rises from $7,000 [EV-WRK-310] to $13,000 in 2031, $19,000 in 2032 and $25,000 in 2033, then rises each year with average wages (working choice); a state's base must be at least the federal base for its employers to keep the credit, as today. The net federal rate falls from 0.6% to 0.2% at the $25,000 base, so the federal tax per worker rises from $42 to $50 (project arithmetic). States set their own rates on the larger base, and a state that meets the solvency standard [EV-WRK-304] keeps interest-free borrowing [EV-WRK-306]. Regular benefits rise about $15-25 billion a year in an ordinary year, from the trust funds and matched by employers' taxes over the cycle (judgment, memo 7). JCT and CBO score the schedule (point 15)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "revenue",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS); Labor (ETA); state UI agencies",
+  "current_law": "0.6% on the first $7,000; 18 solvent state funds [EV-WRK-310] [EV-WRK-304]",
+  "evidence": [
+   "EV-WRK-310",
+   "EV-WRK-304",
+   "EV-WRK-305",
+   "EV-WRK-306",
+   "EV-WRK-413"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-11.06",
+  "title": "Identity and wage checks against records the government holds",
+  "agenda": "LAB-11",
+  "status": "decided, memo 7 B",
+  "decisions": [
+   "DEC-2026-11-17-10"
+  ],
+  "parameters": "States verify identity and wages through SSA's and the IRS's records and the National Directory of New Hires, which already holds employers' quarterly wage reports, and cross-match claims against new-hire reports; no new document from claimants. Funded in state administration (LAB-11.08); a data agreement is prepared in 2027-28. *Why:* fast expansion through weak checks invited fraud of $100-135 billion in the pandemic [EV-WRK-378] [EV-WRK-379]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   },
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (ETA); SSA; Treasury (IRS); HHS (OCSE, the directory); states",
+  "current_law": "Uneven across states",
+  "evidence": [
+   "EV-WRK-378",
+   "EV-WRK-379"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-11.07",
+  "title": "Able and available by attestation; registration and an offered session, no contact counts",
+  "agenda": "LAB-11",
+  "status": "decided, point 10 (shared rule 6; `DEC-2026-11-17-36` on administrative time)",
+  "decisions": [
+   "DEC-2026-11-17-23",
+   "DEC-2026-11-17-36"
+  ],
+  "parameters": "A claimant attests each week that they are able to work and available for it, registers with the state job service once, and is offered a reemployment session with an adviser; states may no longer require a set number of employer contacts a week. Declining the session does not end benefits (working choice: point 10 makes the session an offer). Shared rule 6's note is recorded (`dossiers/shared-rules.md`). *Cost in outcomes:* claims about a week longer for some [EV-WRK-380] [EV-WRK-381]; Nevada's trial showed some claimants pushed onto disability insurance when search was enforced [EV-WRK-382]. The administrative saving is studied in implementation from claim and quality-control data states already report (`DEC-2026-11-17-36`)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies",
+  "current_law": "Weekly contact counts in most states",
+  "evidence": [
+   "EV-WRK-380",
+   "EV-WRK-381",
+   "EV-WRK-382",
+   "EV-WRK-392"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-11.08",
+  "title": "State administration funded, and separation findings checked for accuracy",
+  "agenda": "LAB-11",
+  "status": "decided, memo 7 B; the level and the accuracy measure are working choices",
+  "decisions": [
+   "DEC-2026-11-17-10",
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "State administration grants at least FY2024's $3.14 billion [EV-WRK-309], indexed, against $2.76 billion requested for FY2027 [EV-WRK-308]. Labor's performance measures add the accuracy of separation determinations, from a sample states already draw for quality review, to the 21-day timeliness target (working choice following the note's part d: wage insurance relies on these findings, LAB-18.03)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   },
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "annual appropriations, with the agency rebuild (CAP-7)"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies",
+  "current_law": "$2.76 billion requested for FY2027 [EV-WRK-308]",
+  "evidence": [
+   "EV-WRK-309",
+   "EV-WRK-308"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-18.01",
+  "title": "Wage insurance for displaced workers: who qualifies",
+  "agenda": "LAB-18",
+  "status": "decided for now, memo 8 part 2 B (`DEC-2026-11-17-95`)",
+  "decisions": [
+   "DEC-2026-11-17-12",
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "A worker qualifies who (1) was separated from a job for a reason the state's unemployment finding treats as not disqualifying (LAB-18.03); (2) had at least three years with that employer, read from 12 quarters of the state's wage records (working choice: earnings with that employer in each of the 12 quarters before the quarter of separation); (3) is reemployed, by another employer (LAB-18.04), at a lower hourly wage; and (4) earned at the old job no more than twice the national median wage, clean power's cap (CLI-11.02). The cause of the job loss is never asked, so no one must show that trade, AI or anything else caused it [EV-WRK-711]. About 1.1 million long-tenured workers are displaced a year [EV-WRK-315], and only 49% of those back in full-time work earned as much as before [EV-WRK-317]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies as Labor's agents",
+  "current_law": "None since TAA closed in July 2022 [EV-WRK-330]",
+  "evidence": [
+   "EV-WRK-315",
+   "EV-WRK-317",
+   "EV-WRK-711",
+   "EV-WRK-365"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-18.02",
+  "title": "Half the hourly drop, for the hours worked, up to $10,000 a year for two years",
+  "agenda": "LAB-18",
+  "status": "decided for now, memo 8 part 2 B (`DEC-2026-11-17-95`); timing rules are working choices",
+  "decisions": [
+   "DEC-2026-11-17-12",
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "Each month the worker receives half the difference between the old and new hourly wage for each hour worked in the new job or jobs, up to $10,000 in each of the two years after reemployment begins. Reemployment must begin within 52 weeks of the separation (working choice). The $10,000 is not indexed before 2035; the commission's report that year (LAB-4.04) covers it (working choice). It replaces wages, so other programs count it as wages (INC-5.01). TAA's version paid half the gap up to $10,000 over two years for workers 50 and over [EV-WRK-331]; it raised employment 8-17 points and paid for itself [EV-WRK-365]. *For a household:* a machinist laid off at $32 an hour who takes a $24 job gets $4 for every hour worked, up to $10,000 a year, for two years. Cost about $2-4 billion a year, $0.02-0.04 trillion over FY2030-39 (judgment, memo 8)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies",
+  "current_law": "None",
+  "evidence": [
+   "EV-WRK-331",
+   "EV-WRK-365",
+   "EV-WRK-366",
+   "EV-WRK-367"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-18.03",
+  "title": "The separation test is the state's unemployment finding",
+  "agenda": "LAB-18",
+  "status": "decided for now, `DEC-2026-11-17-95`, rule 1 (option A of the note's part d); quits for good cause follow from it",
+  "decisions": [
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "Wage insurance makes no finding of its own. It reads the state's final separation determination for the job that ended: *eligible* if the separation was for lack of work (a layoff, closure or abolished position), a discharge the state found was not for misconduct, or a quit the state found was for good cause; *not eligible* if the state found a discharge for misconduct or a quit without good cause. Under state law the program pays for a separation \"for which the individual is not at fault or has good cause for leaving\" [EV-WRK-414]; many states limit good cause to causes connected with the work or the employer [EV-WRK-415], and LAB-11.01 adds the compelling reasons nationally [EV-WRK-417]. Misconduct is the narrow, willful standard most states use [EV-WRK-416], so a worker fired for poor performance qualifies. If an appeal reverses the finding, wage insurance follows it: back payments if the worker wins, repayment if they lose, waived where the worker was not at fault",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "State UI agencies",
+  "current_law": "The same finding is made on every unemployment claim [EV-WRK-414]",
+  "evidence": [
+   "EV-WRK-414",
+   "EV-WRK-415",
+   "EV-WRK-416",
+   "EV-WRK-417"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-18.04",
+  "title": "Not charged to the employer; no reemployment by the same or a related employer",
+  "agenda": "LAB-18",
+  "status": "decided for now, `DEC-2026-11-17-95`, rules 2 and 3; the one-year window is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "*Rule 2:* wage insurance is paid from federal funds and is never charged to the former employer's experience-rating account, so it adds no reason for an employer to contest a separation (note, part d). *Rule 3:* a new job with the same employer, or with an employer in its controlled group (26 U.S.C. 414(b), (c), (m), (o), the test the plan's health financing rules use), within 12 months of the separation does not qualify (working choice: one year), so a firm cannot lay off and rehire at lower pay. Memo 6's penalties for false statements apply to employers' separation accounts as to claimants'",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "State UI agencies; Treasury (controlled-group rules)",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-416"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-18.05",
+  "title": "A determination for workers who never claimed unemployment",
+  "agenda": "LAB-18",
+  "status": "decided for now, `DEC-2026-11-17-95`, rule 4; the window is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "A worker who found a lower-paid job without claiming unemployment insurance applies for wage insurance at the state UI agency within 52 weeks of the separation (working choice), and the same adjudicator decides the separation under the same rules, with the same appeal rights. The unemployment claim form offers wage insurance to everyone who files, the way to lift TAA's low take-up [EV-WRK-332]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "State UI agencies",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-332",
+   "EV-WRK-414"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-18.06",
+  "title": "Hourly pay from employers at first, from wage records within a few years",
+  "agenda": "LAB-18",
+  "status": "decided for now, `DEC-2026-11-17-95` (way i, with way iii alongside); dates are working choices",
+  "decisions": [
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "*At first (way i):* the former employer reports the worker's last hourly rate and usual weekly hours in its separation response, which states already request; the new employer reports the hourly rate and hours worked each quarter on a short form through the state's employer portal; a pay stub serves where an employer does not report. *Alongside (way iii):* every state's quarterly wage report adds hours worked and occupation, through memo 7's data agreement, by January 1, 2033 (working choice); once a state's records hold them, payments in that state are figured from the records without a form. Most states' records hold earnings, not hours (note, part d; no register entry), and only 11% of TAA participants collected its wage insurance, which needed documents [EV-WRK-332]. The same records feed the displacement measure Espen is asked about (memo 10)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   },
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies; employers",
+  "current_law": "Quarterly earnings only in most states",
+  "evidence": [
+   "EV-WRK-332"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-18.07",
+  "title": "Clean power's guarantee comes first for its workers",
+  "agenda": "LAB-18",
+  "status": "decided for now, memo 8 part 2 B; clean power's terms are decided there",
+  "decisions": [
+   "DEC-2026-11-17-12",
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "A worker covered by the transition guarantee (CLI-11.01) receives its 90% top-up (CLI-11.02), not both; wage insurance never reduces it. Memo 7's higher unemployment benefits count toward the guarantee's 90%, so they lower its top-up (`DEC-2026-11-13-06`)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-516"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-8.01",
+  "title": "One apprenticeship line built with employers, paid per apprentice started and completed",
+  "agenda": "LAB-8",
+  "status": "decided, memo 8 part 1 C, completion detail `DEC-2026-11-17-33`; the amount is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-11",
+   "DEC-2026-11-17-33"
+  ],
+  "parameters": "Grants to sponsors of registered apprenticeship programs (joint labor-management programs, community colleges and sector partnerships that place trainees in paid jobs before training starts) in four sectors: construction; energy; care, with a line for home care aides, nursing assistants and child care staff; and advanced manufacturing. Up to $12,000 per apprentice (2030 dollars, indexed; working choice inside memo 8's $10,000-15,000): about two-thirds paid in instalments over the first two years of training and about a third at completion (`DEC-2026-11-17-33`). The same programs' completion counts in the federal apprenticeship system trigger payment; no new report. About $4-7 billion a year at full scale, $0.04-0.07 trillion over FY2030-39 (judgment), against $5,171 per apprentice in the federal initiative [EV-SEC-640] and CBO's $3.1 billion over five years for the 2020 bill [EV-WRK-396]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (Office of Apprenticeship, ETA)",
+  "current_law": "311,035 new apprentices in FY2025 [EV-WRK-349]; no per-apprentice grant",
+  "evidence": [
+   "EV-SEC-640",
+   "EV-SEC-144",
+   "EV-SEC-143",
+   "EV-WRK-349",
+   "EV-WRK-350",
+   "EV-WRK-396"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-8.02",
+  "title": "Instructors paid near industry wages, inside the line",
+  "agenda": "LAB-8",
+  "status": "decided, memo 8 part 1 C (LAB-8B folded in)",
+  "decisions": [
+   "DEC-2026-11-17-11"
+  ],
+  "parameters": "A sponsor may use up to a quarter of its grants (working choice) to pay technical instructors (industrial controls, electrical, heating and heat pumps, transmission, care) near industry wages, including journey-level workers who teach while working [EV-WRK-710]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (Office of Apprenticeship)",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-710"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-8.03",
+  "title": "Supports instead of a cash bonus: child care, tools, transport, mentors",
+  "agenda": "LAB-8",
+  "status": "decided, `DEC-2026-11-17-33`",
+  "decisions": [
+   "DEC-2026-11-17-33"
+  ],
+  "parameters": "At least 15% of each grant (working choice) pays for apprentices' child care, tools, transport and mentors; no separate cash bonus is paid to apprentices. Where LAB-10.03 (secure floor) already pays a participant's child care or transport, this line does not pay it again. *Evidence:* in Oregon's highway program, supports and child care were each linked to higher completion [EV-SEC-643]; Canada's completion grant showed gaps it could not credit to the grant (note, part c; not yet in the register)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (Office of Apprenticeship)",
+  "current_law": "",
+  "evidence": [
+   "EV-SEC-643",
+   "EV-WRK-350"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-8.04",
+  "title": "A published target of 600,000 new apprentices a year by 2034",
+  "agenda": "LAB-8",
+  "status": "decided, memo 8 part 1 C",
+  "decisions": [
+   "DEC-2026-11-17-11"
+  ],
+  "parameters": "The act sets a target of 600,000 new registered apprentices a year by FY2034, about double FY2025's 311,035 [EV-WRK-349]. Labor publishes each year starts, completions and completion rates by sector, state, sex, race and age from the federal apprenticeship records programs already file. A service-to-apprenticeship member (LAB-9.03) counts only when an apprenticeship starts (`DEC-2026-11-17-32`). If completion rates fall as starts grow, Labor funds more mentors before slowing the target (memo 8). The target is a report, not a quota on any program",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   },
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (Office of Apprenticeship)",
+  "current_law": "Executive Order 14278's goal, reversible [EV-WRK-351]",
+  "evidence": [
+   "EV-WRK-349",
+   "EV-WRK-347",
+   "EV-WRK-350",
+   "EV-WRK-351"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-8.05",
+  "title": "Workforce training money moves toward sector programs",
+  "agenda": "LAB-8",
+  "status": "decided, memo 8 part 1 C; the share is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-11"
+  ],
+  "parameters": "At least half of the WIOA Adult and Dislocated Worker funds a local board spends on training goes to sector partnerships and apprenticeship pathways (working choice), given the randomized evidence: sector training raised earnings 11-40% [EV-SEC-143], while general vouchers showed no near-term gain [EV-WRK-386] and job-search help did raise earnings [EV-WRK-385]. No new money; the WIOA lines are $0.88 billion and $1.40 billion in PY2026 [EV-SEC-638]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (ETA); state and local workforce boards",
+  "current_law": "",
+  "evidence": [
+   "EV-SEC-143",
+   "EV-WRK-385",
+   "EV-WRK-386",
+   "EV-SEC-638"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-8.06",
+  "title": "A worker-side completion bonus tested in a randomized pilot",
+  "agenda": "LAB-8",
+  "status": "decided, `DEC-2026-11-17-33` (study in implementation)",
+  "decisions": [
+   "DEC-2026-11-17-33"
+  ],
+  "parameters": "Labor runs a randomized pilot of a cash bonus to apprentices at completion in a few states, inside LAB-8.01's money, measured from the completion records programs already file, with results published before 2034",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (Office of Apprenticeship; Chief Evaluation Office)",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-350"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-8.07",
+  "title": "The care line and care's training money pay once",
+  "agenda": "LAB-8",
+  "status": "seam with HLT-10.06 (care, decided `DEC-2026-11-11-04`); working choice",
+  "decisions": [
+   "DEC-2026-11-17-11"
+  ],
+  "parameters": "Care's free entry-level training for aides, nursing assistants and child care staff (HLT-10.06, about $1-2 billion a year) pays for the training; LAB-8.01 pays the apprenticeship grant only for the same people who enter a registered care apprenticeship, less any HLT-10.06 payment for the same instruction. This answers care's point 5",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); HHS (HRSA, CMS)",
+  "current_law": "",
+  "evidence": [
+   "EV-CAR-633"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-9.01",
+  "title": "National service: 150,000 more full-time civic positions a year by 2034, authorized first",
+  "agenda": "LAB-9",
+  "status": "decided, memo 9 C, scale `DEC-2026-11-17-32`",
+  "decisions": [
+   "DEC-2026-11-17-13",
+   "DEC-2026-11-17-32"
+  ],
+  "parameters": "A bipartisan authorization amends the national service laws to fund about 150,000 more full-time-equivalent AmeriCorps positions a year by 2034, ramped with the agency's capacity (working ramp: about 30,000 more each year from 2030, reaching 150,000 in 2034). Placements serve the plan's needs: child care and pre-K classrooms, disaster recovery and resilience, public health and election administration. Run through the national service agency, State and National, NCCC and VISTA. About $5 billion a year at full scale (project arithmetic: 150,000 at about $32,600 federal each [EV-WRK-398] [EV-WRK-399], plus health and child care)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the national service act (bipartisan, regular order)"
+   }
+  ],
+  "agency": "AmeriCorps (the national service agency); state service commissions",
+  "current_law": "$1.254 billion in FY2026 [EV-WRK-397]",
+  "evidence": [
+   "EV-WRK-397",
+   "EV-WRK-398",
+   "EV-WRK-399",
+   "EV-WRK-391",
+   "EV-WRK-712"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-9.02",
+  "title": "What a member gets",
+  "agenda": "LAB-9",
+  "status": "decided, memo 9 C",
+  "decisions": [
+   "DEC-2026-11-17-13"
+  ],
+  "parameters": "A living allowance of at least AmeriCorps' full-time minimum ($20,400 in FY2026 [EV-WRK-398]), indexed; health coverage; child care where needed; and on completion an education award equal to the maximum Pell grant ($7,395 for 2025-26 [EV-WRK-399]), usable for college or for a registered apprenticeship's costs (LAB-8). Members are not employees under the wage or labor acts, as AmeriCorps works now",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the national service act (bipartisan, regular order)"
+   }
+  ],
+  "agency": "AmeriCorps",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-398",
+   "EV-WRK-399"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-9.03",
+  "title": "Up to 50,000 service-to-apprenticeship places, opened only when the first 150,000 are placed well",
+  "agenda": "LAB-9",
+  "status": "decided, `DEC-2026-11-17-32`; the gate's test is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-32"
+  ],
+  "parameters": "A service year in construction, energy retrofits, disaster recovery or care, run with LAB-8's registered programs as pre-apprenticeship and ending in an apprenticeship offer. *The gate:* the tranche opens once the agency's published report shows, for two years running, at least 90% of the 150,000 authorized positions filled and member completion at or above its 2030 rate (working choice), certified by the agency's Inspector General; on the working ramp, from about 2033. *Lottery:* where places are oversubscribed, they are assigned by lottery so the track can be evaluated. About $35,000-45,000 a position, $1.8-2.3 billion a year at 50,000 (judgment, note part e)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the national service act (bipartisan, regular order)"
+   }
+  ],
+  "agency": "AmeriCorps; Labor (Office of Apprenticeship)",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-398",
+   "EV-SEC-643",
+   "EV-SEC-144"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-9.04",
+  "title": "Mixing as a published target, not a quota",
+  "agenda": "LAB-9",
+  "status": "decided, memo 9 C",
+  "decisions": [
+   "DEC-2026-11-17-13"
+  ],
+  "parameters": "The agency sets and publishes a target share of members serving outside their home region and of teams that mix income bands (working figures: a third outside the home Census division; every team drawing from at least two income bands), reports each year by program and state, and reviews any program that falls short; no individual placement must meet a quota (`DEC-2026-11-09-13`)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the national service act (bipartisan, regular order)"
+   }
+  ],
+  "agency": "AmeriCorps",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-391"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-9.05",
+  "title": "No displacement of paid workers",
+  "agenda": "LAB-9",
+  "status": "decided, memo 9 C",
+  "decisions": [
+   "DEC-2026-11-17-13"
+  ],
+  "parameters": "A member may not fill a position of a paid worker who was laid off, is on strike or is on leave, or a position vacated for those reasons, nor displace paid staff or replace funded positions; the existing AmeriCorps rule made stricter, with complaints heard by the agency's Inspector General within 60 days (working choice)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the national service act (bipartisan, regular order)"
+   }
+  ],
+  "agency": "AmeriCorps",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-9.06",
+  "title": "A same-scale fallback in the 2029 reconciliation act",
+  "agenda": "LAB-9",
+  "status": "decided, memo 9 C; the contingent form is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-13",
+   "DEC-2026-11-17-32"
+  ],
+  "parameters": "If no authorization is enacted by December 31, 2030, direct spending in the 2029 reconciliation act funds the same scale (LAB-9.01 to 9.03) as formula grants to state service commissions and the agency's national programs from FY2031, with the placement and mixing rules as conditions on the money. Written as contingent spending, as the legacy credit's trigger was; Byrd eligibility to check (`legacy/domains/domain-labor.md`, LAB-9). About +$0.04-0.065 trillion over FY2030-39 and about +$7-8.5 billion in FY2040 (judgment, `DEC-2026-11-17-32`), whichever route funds it",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act, contingent: pays only if no authorization is enacted by December 31, 2030"
+   }
+  ],
+  "agency": "AmeriCorps; state service commissions",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-709",
+   "EV-WRK-705",
+   "EV-WRK-712"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-17.01",
+  "title": "No worker seats on corporate boards in the first bill; codetermination studied further",
+  "agenda": "LAB-17",
+  "status": "provisional, point 11 (`DEC-2026-11-17-24`); specified on the recommendation, for Espen",
+  "decisions": [
+   "DEC-2026-11-17-24"
+  ],
+  "parameters": "The labor act carries no requirement for worker representation on boards. The project keeps studying codetermination before recommending for or against it: its micro effects on workers and firms are zero or small (Jäger, Noy and Schoefer, 2022) [EV-WRK-184], and the question for a later recommendation is whether board seats add to what memo 3's bargaining rights and memo 5's boards already give workers. No cost",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "none",
+    "kind": "proposal",
+    "note": "not in the first bill; provisional"
+   }
+  ],
+  "agency": "—",
+  "current_law": "None",
+  "evidence": [
+   "EV-WRK-184"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ }
+]
