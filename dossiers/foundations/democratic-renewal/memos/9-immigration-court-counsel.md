@@ -6,7 +6,7 @@ Role: decision memo for Espen, fork 9 of the democratic renewal foundation (`../
 
 ## The question
 
-The court the plan creates must decide 3.3 million pending cases [EV-IMM-100] with a corps that fell from 735 judges to 557 [EV-IMM-104], under a law that caps it at 800 from November 1, 2028 [EV-IMM-105]. What form does it take, and does the plan fund counsel in civil cases outside it?
+The court the plan creates must decide 3.3 million pending cases [EV-IMM-100] with a corps that fell from 735 judges at the end of FY2024 to 557 at the end of December 2025 (CRS) [EV-IMM-104], then rose to 753 on board by September 30, 2026 after 312 hires in FY2026, counting reemployed annuitants and not the 36 temporary judges (EOIR) [EV-IMM-103], under a law that caps it at 800 from November 1, 2028 [EV-IMM-105]. What form does it take, and does the plan fund counsel in civil cases outside it?
 
 ## Part 1: the court's form
 
@@ -24,7 +24,7 @@ The court the plan creates must decide 3.3 million pending cases [EV-IMM-100] wi
 
 ## Part 2: the judges added for the backlog
 
-The immigration model needs about 1,670 judges, 920 above today's 753, at about $1.5 million a team, $13.2 billion over FY2030-39 (booked in IMM-3.08; `dossiers/immigration/6-cost.md`, line 56). After the backlog clears in FY2035, receipts need about 730 judges.
+The immigration model needs about 1,670 judges, 920 above the 753 on board on September 30, 2026 [EV-IMM-103], at about $1.5 million a team, $13.2 billion over FY2030-39 (booked in IMM-3.08; `dossiers/immigration/6-cost.md`, line 56). After the backlog clears in FY2035, receipts need about 730 judges.
 - **A. All judges on regular 15-year terms.** The surplus leaves by attrition, as booked.
 - **B. The increment on terms that end when the backlog clears (recommended).** Saves about $5.5 billion over FY2036-39 and $1.1 billion in FY2040 on the immigration model (same line, a proposal it sends here). *Against:* shorter terms attract fewer experienced lawyers; a judge whose term ends is a judge with less independence late in it.
 
