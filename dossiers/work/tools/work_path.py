@@ -91,7 +91,7 @@ line("floor", "The wage floor's indirect effect on the budget (CBO's net method)
      "Labor act", "Scaled from CBO's 2021 score; spending and revenue together")
 
 # 2. The small-business credit (LAB-5.01), sized from the need (Espen's November 18
-# answer W7, #450): what the floor costs the employers it targets, not the formula.
+# answer W7, DEC-2026-11-18-07): what the floor costs the employers it targets, not the formula.
 # (a) The floor's whole added wage bill, all employers. Anchor: EPI's model puts $17 by
 # 2030 (Raise the Wage Act of 2025, about 58% of 2030's median) at $70.2B a year in
 # 2025 dollars, direct and spillover raises [EV-WRK-479] (an advocate's analysis; CBO's
@@ -503,7 +503,7 @@ line("quits", "Wage insurance for work-connected good-cause quits (provisional)"
      ["LAB-18.03"], "gf", "provisional", scale(_wi, 0.07 * 1.1), scale(_wi, 0.03 * 0.5),
      scale(_wi, 0.12 * 1.6 * 1.1), "R1", "LAB-18.03, for Espen")
 
-# 19b. Misuse on the quit route (Espen's November 18 answer W4, #450): payments to
+# 19b. Misuse on the quit route (Espen's November 18 answer W4, DEC-2026-11-18-04): payments to
 # workers whose quit was not in fact work-connected, mainly where the worker never
 # claimed UI, so the former employer has no charge at stake and may not answer the
 # state's separation notice (LAB-18.05). Priced at 20% of the quit route (range 10-50%;
@@ -584,7 +584,7 @@ NO_LINE = {
     "LAB-12.01": "coverage; a Medicaid effect if the 2013 rule is gone by 2029 (part 3)",
     "LAB-12.02": "rule on employers", "LAB-15.01": "rule on employers",
     "LAB-14.01": "no mandate (provisional)",
-    "LAB-19.02": "deferred to the AI topic (W1, #450): no cost here", "LAB-17.01": "no requirement (provisional)",
+    "LAB-19.02": "deferred to the AI topic (W1, DEC-2026-11-18-01): no cost here", "LAB-17.01": "no requirement (provisional)",
     "LAB-8.05": "redirects existing WIOA money",
     "LAB-11.10": "self-financed by the reduced credit if authorized; contingent (part 2)",
 }
