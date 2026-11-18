@@ -1,0 +1,2535 @@
+Source: https://www.congress.gov/crs_external_products/R/PDF/R47077/R47077.3.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-11-18
+Original SHA-256: 19f1e4aa90dae2fcf8509c9b275b868355a33bfca847a16b92b2af19349621e9
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+U.S. Immigration Courts and the Pending
+Cases Backlog
+April 25, 2022
+
+Congressional Research Service
+https://crsreports.congress.gov
+R47077
+
+SUMMARY
+
+U.S. Immigration Courts and the Pending Cases
+Backlog
+
+R47077
+April 25, 2022
+Holly Straut
+
+Analyst in Immigration
+U.S. immigration courts adjudicate cases according to immigration laws enumerated in the
+Policy
+Immigration and Nationality Act. Congress’s interest in immigration courts has been heightened
+by lawmakers’ concerns over executive branch agencies’ capacity to secure the border and
+provide due process and humanitarian protection for foreign nationals seeking to enter or remain
+in the United States. During removal proceedings in immigration courts, immigration judges (IJs)
+determine whether noncitizens who have been charged with violations of immigration law by the
+Department of Homeland Security (DHS) are removable and, if so, whether they qualify for forms of relief from removal
+such as asylum. Immigration courts are part of the executive branch, within the Department of Justice’s Executive Office for
+Immigration Review (EOIR)—they are not within the federal judiciary.
+
+Removal proceedings in immigration courts begin when DHS files a Notice to Appear with the court. EOIR has become
+increasingly unable to adjudicate in a timely manner the hundreds of thousands of cases it receives from DHS each year and,
+as a result, immigration courts have a large and growing backlog of pending cases. At the end of the first quarter of FY2022,
+the backlog reached an all-time high of 1.5 million cases, with 578 IJs on staff to adjudicate them.
+Because of the backlog, some individuals must wait years to have their cases adjudicated. Some lawmakers have raised
+concerns about whether the backlog encourages unauthorized migration and the extent to which those awaiting removal
+proceedings fail to appear for their hearings. Others have questioned whether noncitizens in removal proceedings—
+particularly those without legal representation—receive due process. Those in removal proceedings may secure
+representation at their own expense but they do not have the right to government-provided counsel.
+Factors associated with the growth in the immigration courts backlog are both internal and external to EOIR. These include
+immigration court resources and staffing, increased DHS interior and border enforcement, changing migrant arrival patterns
+at the U.S.-Mexico border, and impacts from the COVID-19 pandemic. EOIR has responded to its growing caseload by
+increasing IJ hiring substantially in recent years. Nevertheless, CRS analysis projects that at current staffing levels, the
+backlog will continue to grow.
+Lawmakers, EOIR leadership, IJs, immigration attorneys, and other interested parties have implemented and proposed a
+range of solutions to reduce the backlog, some of which have been subject to debate. These include hiring additional IJs,
+using docket management tools, changing IJ performance standards, accelerating dockets for certain populations, and
+changing the defensive asylum system.
+Long-standing debates center on the independence of courts and autonomy of IJs, who are attorneys appointed by the
+Attorney General as administrative judges. Opponents of the current courts structure contend that courts—specifically,
+agency policies impacting IJs—are subject to politicization under the political leadership of a law enforcement agency within
+the executive branch. Many stakeholders have advocated for a courts system independent of the executive branch under
+Article I of the Constitution (legislative powers). Some proponents believe such a change would help alleviate the backlog.
+Others observers believe that restructuring courts would be a costly measure that would not effectively solve the immediate
+problem of the backlog.
+
+Congressional Research Service
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Contents
+Introduction ..................................................................................................................................... 1
+EOIR’s Adjudicatory Components .................................................................................................. 2
+Office of the Chief Immigration Judge (OCIJ) ......................................................................... 2
+Board of Immigration Appeals (BIA) ....................................................................................... 4
+Office of the Chief Administrative Hearing Officer (OCAHO) ................................................ 5
+Removal Proceedings in Immigration Courts ................................................................................. 5
+DHS Components and Notice to Appear Issuances .................................................................. 6
+Master Calendar Hearing .......................................................................................................... 8
+Merits Hearing and IJ Decision................................................................................................. 9
+Options for Appeal and Motions to Reconsider or Reopen...................................................... 11
+Detention and Bond Proceedings ............................................................................................. 11
+Removal Proceedings: Selected Policy Issues ........................................................................ 12
+Access to Counsel ............................................................................................................. 13
+In Absentia Removal Orders ............................................................................................. 15
+Pending Cases Backlog ................................................................................................................. 16
+Factors Associated with the Backlog ...................................................................................... 19
+Funding Disparities Between EOIR and DHS Enforcement Agencies ............................. 20
+IJ Staffing and Productivity .............................................................................................. 21
+Interior and Border Enforcement ...................................................................................... 24
+COVID-19 and Temporary Court Closures ...................................................................... 29
+Proposed Solutions to the Backlog ......................................................................................... 30
+Hiring More Immigration Judges and Court Staff ............................................................ 31
+Docket Management and Administrative Closure ............................................................ 33
+IJ Quotas and Performance Measures ............................................................................... 35
+Accelerated Dockets ......................................................................................................... 36
+Migrant Protection Protocols (Remain in Mexico) ........................................................... 38
+Proposals to Change the Defensive Asylum Process ........................................................ 39
+Proposals for an Article I Court System .................................................................................. 41
+Conclusion ..................................................................................................................................... 42
+
+Figures
+Figure 1. Map of Immigration Courts and Immigrant Adjudication Centers (IACs) ...................... 4
+Figure 2. Immigration Judge Decisions (Initial Case Completions), FY2017-FY2021 ................ 10
+Figure 3. Bond Hearing Outcomes, FY2012-FY2021 .................................................................. 12
+Figure 4. Initial Cases Received, Completed, and Pending (Backlog),
+FY2002-FY2022(Q1) ................................................................................................................. 17
+Figure 5. BIA Case Appeals Filed, Completed, and Pending, FY2012-FY2021 .......................... 18
+Figure 6. OCIJ Case Completions as a Percentage of Case Receipts by Fiscal Year,
+FY2002-FY2021 ........................................................................................................................ 19
+Figure 7. Average Annual Case Completions per Immigration Judge, FY2002-FY2021 ............. 23
+Figure 8. DHS NTA Issuances and Pending Immigration Court Cases, FY2011-FY2020 ........... 25
+Figure 9. Defensive Asylum Applications Filed and Pending, FY2013-FY2022(Q1) .................. 26
+Figure 10. NTA Issuances by DHS Component, FY2011-FY2020 ............................................... 29
+
+Congressional Research Service
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Figure 11. Immigration Judges Hired, Departed, and On Board, FY2011-FY2021...................... 31
+Figure 12. Estimated Pending Cases Backlog under Different Immigration Judge Hiring
+Scenarios .................................................................................................................................... 33
+Figure 13. Administrative Closures by Fiscal Year, FY2002-FY2021 .......................................... 34
+
+Tables
+Table 1. Types of Immigration Court Hearings ............................................................................... 2
+Table 2. Common Types of Protection and Relief from Removal ................................................... 8
+Table 3. EOIR Annual Appropriations .......................................................................................... 20
+Table 4. Estimated Impact of Immigration Judge Hiring on Pending Cases Backlog................... 32
+Table A-1. Acronyms ..................................................................................................................... 43
+
+Appendixes
+Appendix. ...................................................................................................................................... 43
+
+Contacts
+Author Information........................................................................................................................ 44
+
+Congressional Research Service
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Introduction
+Immigration court proceedings, appellate reviews, and administrative hearings are adjudicated by
+the Executive Office for Immigration Review (EOIR), an agency within the U.S. Department of
+Justice (DOJ), under authority delegated by the Attorney General. Immigration courts are not part
+of the federal judiciary. EOIR was established in 1983 as a new agency within DOJ when the
+Board of Immigration Appeals (BIA) merged with the immigration judge function that was
+previously part of the Immigration and Naturalization Service (INS)1.2 Moving immigration
+courts from INS to a new agency within DOJ separated the adjudication of immigration cases
+from immigration enforcement.
+Immigration courts adjudicate cases according to immigration laws enumerated in the
+Immigration and Nationality Act (INA). The most common immigration court proceedings are
+removal proceedings, under INA Section 240, which commence when a noncitizen is charged
+with an immigration violation by the Department of Homeland Security (DHS)—the federal
+agency responsible for enforcing immigration laws. Individuals may be charged at the U.S.
+border or within the interior of the country with grounds of inadmissibility3 or deportability.4
+Individuals in removal proceedings include both recent arrivals and people who already are
+residing in the United States.
+During removal proceedings, EOIR’s immigration judges (IJs) determine whether a foreign
+national, referred to as a respondent, is removable. If so, the IJ will determine whether the
+respondent is eligible for forms of protection or relief from removal (e.g., asylum) for which the
+respondent has applied. IJs are attorneys appointed by the Attorney General as administrative
+judges.5 Removal cases are prosecuted by attorneys from the Office of the Principal Legal
+Advisor (OPLA), part of DHS’s Immigration and Customs Enforcement (ICE). Respondents may
+retain counsel at their own expense; however, a high proportion are unrepresented (47% of
+pending cases were unrepresented by counsel as of the first quarter of FY2022).6
+Immigration courts have been increasingly unable to adjudicate in a timely manner the volume of
+cases they receive from DHS. The number of cases received annually by immigration courts has
+fluctuated over the past two decades, ranging from a low of 176,111 in FY2001 to a peak of
+547,234 in FY2019. The number of cases pending in the courts has increased every fiscal year for
+the past 15 years, from 168,827 in FY2006 to an all-time high of approximately 1.5 million in the
+first quarter of FY2022.7 This backlog is associated with a range of factors, including insufficient
+IJ staffing; DHS enforcement levels—particularly, increased apprehensions of migrants at the
+Southwest border, including those seeking humanitarian protection; and, since 2020, hearing
+postponements associated with the COVID-19 pandemic.
+As a result of this backlog, some individuals must wait years to have their cases adjudicated. A
+range of policy options to address the pending case backlog have been proposed by EOIR and
+other executive branch agencies, Congress, immigration attorneys, IJs, and others. These include
+1 INS was formerly a DOJ component and the precursor agency to the U.S. Department of Homeland Security (DHS).
+2 For information about the pre-1983 history of immigration courts, see EOIR, “Evolution of the U.S. Immigration
+
+Court System: Pre-1983,” at https://www.justice.gov/eoir/evolution-pre-1983.
+3 INA §212; 8 U.S.C. §1182.
+4 INA §237; 8 U.S.C. §1227.
+5 INA §101(b)(4); 8 U.S.C. §1101(b)(4).
+6 EOIR, “Current Representation Rates,” Adjudication Statistics, January 19, 2022.
+7 EOIR, “Pending Cases, New Cases, and Total Completions,” Adjudication Statistics, January 19, 2022.
+
+Congressional Research Service
+
+1
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+increasing resources for EOIR, particularly to augment IJ hiring and court staffing, increasing IJs’
+discretion to manage their caseloads, implementing performance measures and quotas for IJs,
+prioritizing particular cases, changing the defensive asylum process, and reorganizing the
+immigration courts system to be independent of DOJ and the executive branch.
+This report begins by outlining EOIR’s adjudicatory components. It then describes the process for
+removal proceedings, which are the most common proceedings in immigration courts. It also
+describes bond proceedings for individuals detained during removal proceedings. Next, the report
+discusses key policy topics related to removal proceedings, including respondents’ access to legal
+representation and in absentia removal orders. The second half of the report focuses on the
+backlog of pending cases, factors associated with the backlog, proposed solutions for addressing
+it, and related debates.
+
+EOIR’s Adjudicatory Components
+EOIR operates under the leadership of its Director, who is appointed by the Attorney General and
+reports to the Deputy Attorney General. The agency consists of three adjudicatory bodies: the
+Office of the Chief Immigration Judge (OCIJ), the BIA, and the Office of the Chief
+Administrative Hearing Officer (OCAHO).
+
+Office of the Chief Immigration Judge (OCIJ)
+The first-line adjudication of immigration cases occurs in OCIJ. Within OCIJ, which is headed by
+EOIR’s Chief Immigration Judge, IJs adjudicate removal proceedings and other administrative
+hearings as outlined in Table 1. As noted above, immigration courts are part of the executive
+branch. Consequently, IJs are attorneys appointed by the Attorney General as administrative
+judges who “act as the Attorney General’s delegates in the cases that come before them”8—they
+are not confirmed by the Senate and do not have lifetime appointments. They are career
+employees with no fixed terms.
+Table 1. Types of Immigration Court Hearings
+Hearing Type
+
+Description
+
+Removal hearings
+
+Proceedings for individuals whom DHS alleges have
+violated immigration laws. They determine removability
+and eligibility for protection or relief from removal and
+are the most common type of immigration court
+proceedings. Removal proceedings replaced
+deportation and exclusion proceedings on April 1,
+1997.
+
+Deportation and exclusion hearings
+
+Proceedings for deportation or exclusion cases from
+before April 1, 1997, which may still be pending in
+immigration courts. Procedures are similar to those in
+removal proceedings.a
+
+Bond proceedings
+
+Proceedings for those seeking release from detention
+upon the payment of bond, or to determine or change
+a bond amount.b
+
+8 8 C.F.R. §1003.10.
+
+Congressional Research Service
+
+2
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Hearing Type
+
+Description
+
+Asylum-only proceedings
+
+Limited proceedings for asylum applicants who are
+ineligible for removal proceedings, such as
+crewmembers, stowaways, and those who have
+entered under the Visa Waiver Program.c
+
+Withholding-only proceedings
+
+Proceedings for those who do not qualify for asylumd
+and apply for withholding of removal relief under INA
+Section 241(b)(3), which prohibits the removal of an
+individual to a country where their life or freedom
+would be threatened based on race, religion,
+nationality, membership in a particular social group, or
+political opinion; or under Article 3 of the United
+Nations Convention Against Torture (CAT), which
+prevents individuals from being returned to countries
+where they would be in danger of being subjected to
+torture.
+
+Review cases
+
+Proceedings for the review of DHS asylum officers’
+credible fear and reasonable fear decisionse and claimed
+status review cases for individuals ordered removed
+whose immigration status has not been verified and
+who claim to be lawful permanent residents, refugees,
+asylees, or U.S. citizens.
+
+Other proceedings
+
+Additional proceedings include those for qualifying for
+non-removal Nicaraguan Adjustment, and Central
+American Relief Act (NACARA) and continued
+detention review cases.f
+
+Source: EOIR, “Executive Office for Immigration Review: An Agency Guide,” fact sheet, December 2017.INA
+§240; 8 U.S.C. §1229a.
+a. See EOIR Policy Manual, Part II- OCIJ Practice Manual, Chapter 7.2, “Deportation Proceedings and
+Exclusion Proceedings”; and CRS Report R45314, Expedited Removal of Aliens: Legal Framework.
+b. 8 C.F.R. §1003.19
+c. 8 C.F.R. §208.2. For more information about asylum and withholding of removal, see CRS Report R45539,
+Immigration: U.S. Asylum Policy. For information about the Visa Waiver Program, see CRS Report RL32221,
+Visa Waiver Program.
+d. Certain individuals do not qualify for asylum, including individuals who unlawfully reenter the United States
+after being removed (reinstatement of removal cases) and aliens convicted of an aggravated felony and
+subject to expedited removal under INA Section 238(b). See CRS In Focus IF11736, Reinstatement of
+Removal: An Introduction.
+e. Credible fear is a screening process for asylum; reasonable fear is a screening for protection under CAT.
+f.
+Rescission hearings determine whether a respondent’s status as a lawful permanent resident should be
+revoked. NACARA hearings determine eligibility for suspension of deportation or special rule cancellation
+of removal pursuant to Section 203 of P.L. 105-100. In continued detention review hearings, IJs review DHS
+determinations that a respondent should remain in custody because DHS has determined that their release
+poses a “special danger” to the public under criteria specified in 8 C.F.R. Section 1241.14(f).
+
+During the last five fiscal years (FY2017-FY2021), immigration courts received an average of
+353,761 cases annually, varying from a low of 240,567 (FY2021) to a high of 547,234
+(FY2019).9 EOIR’s 578 IJs currently adjudicate cases in 69 civil immigration courts and 3
+immigration adjudication centers (IACs)10 located in 27 U.S. states, Puerto Rico, and the
+9 Includes removal, deportation, exclusions, asylum-only, and withholding-only cases for FY2017-FY2021.
+10 Immigration adjudication centers (IACs) are locations at which IJs adjudicate cases solely using video
+
+teleconferencing. As of the cover date of this report, there are three IACs. They are located in Falls Church, VA;
+Richmond, VA; and Forth Worth, TX.
+
+Congressional Research Service
+
+3
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Northern Mariana Islands (Figure 1). Immigration courts range in size. For example, the New
+York–Federal Plaza immigration court has 39 IJs while the Batavia, NY, court has 1 IJ.11 Some
+courts are located within DHS detention facilities and other correctional facilities.12
+Figure 1. Map of Immigration Courts and Immigrant Adjudication Centers (IACs)
+
+Source: EOIR, “EOIR Immigration Court Listing,” March 3, 2022, at https://www.justice.gov/eoir/eoirimmigration-court-listing.
+Notes: The Sterling, VA, court is scheduled to open in May 2022.
+
+Board of Immigration Appeals (BIA)
+The BIA is EOIR’s appellate component and the “highest administrative body for interpreting and
+applying immigration laws.”13 It is authorized for 23 Appellate Immigration Judges (known as
+BIA or board members), including a Chief Appellate Immigration Judge. All are attorneys
+appointed by the Attorney General. The BIA operates out of EOIR’s headquarters in Falls Church,
+VA.
+Board members review appealed IJ decisions, including decisions on removal cases and
+applications for relief from removal, among others (see the “Options for Appeal and Motions to
+Reconsider or Reopen” section below).14 The BIA typically conducts paper reviews of proceeding
+
+11 EOIR, “Immigration Court Listing,” March 9, 2022, at https://www.justice.gov/eoir/eoir-immigration-court-listing.
+12 Under the Institutional Hearing Program—a collaboration between EOIR, the Bureau of Prisons (BOP), and ICE—
+
+inmates serving a criminal sentence who may be removable undergo removal proceedings before an IJ so that their
+immigration case may be adjudicated prior to their release from prison. Hearings are held at a number of BOP facilities
+throughout the United States. See EOIR, “Institutional Hearing Program,” January 2018.
+13 EOIR, EOIR Policy Manual, Part II, Chapter 1.2.
+14 For more information on BIA jurisdiction, see EOIR Policy Manual, Part III, Chapter 1.4 and 8 C.F.R. Section
+1003.1.
+
+Congressional Research Service
+
+4
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+transcripts and related documents rather than in-person hearings. BIA decisions are binding
+unless they are appealed and overruled by a federal court or the Attorney General.15
+
+Office of the Chief Administrative Hearing Officer (OCAHO)
+OCAHO is a relatively small EOIR component.16 Unlike OCIJ and the BIA, OCAHO does not
+adjudicate removal cases. OCAHO adjudicates cases under provisions of the INA related to
+employer sanctions, including unlawful hiring and employment of unauthorized workers and
+failure to verify new hires’ identities and work authorization;17 unfair immigration-related
+employment practices, including discrimination in hiring or firing or retaliation against an
+individual because of their national origin or citizenship status;18 and immigration-related
+document fraud.19
+OCAHO receives its cases from DHS and DOJ. DHS enforces employer sanctions and
+immigration-related document fraud; the Immigrant and Employee Rights Section in DOJ’s Civil
+Rights Division enforces unfair immigration-related employment practices. Three OCAHO
+Administrative Law Judges, under the supervision of the Chief Administrative Hearing Officer,
+review these cases. Parties may file appeals with the U.S. Circuit Court of Appeals.20 OCAHO
+case levels are relatively low: from FY2017 through FY2021, OCAHO received an average of 80
+cases annually.21
+
+Removal Proceedings in Immigration Courts22
+During formal removal proceedings under INA Section 240, IJs make two key determinations: (1)
+whether respondents are subject to grounds of inadmissibility or deportability23 and (2) if so,
+whether respondents are eligible for forms of relief or protection from removal that would allow
+them to remain in the United States (see Table 2).
+During proceedings, IJs administer oaths, receive evidence, and examine and cross-examine
+respondents and witnesses.24 Respondents have the right to legal representation that they acquire
+at their own expense or they may elect to proceed without counsel;25 they are not entitled to court-
+
+15 EOIR, “Board of Immigration Appeals,” December 7, 2020.
+16 The Immigration Reform and Control Act of 1986 (P.L. 99-603) established OCAHO, which started hearing cases in
+
+1987.
+17 INA §274A; 8 U.S.C. §1324a.
+18 INA §274B; 8 U.S.C. §1324b.
+19 INA §274C; 8 U.S.C. §1324c.
+20 EOIR, “EOIR’s Office of the Chief Administrative Hearing Officer,” fact sheet, July 2017.
+21 EOIR, “OCAHO Receipts,” Adjudication Statistics, October 19, 2021.
+22 For more information, see CRS In Focus IF11536, Formal Removal Proceedings: An Introduction.
+23 INA §240(a); 8 U.S.C. §1229a. Grounds of inadmissibility are enumerated in INA Section 212; 8 U.S.C. §1182.
+Grounds of deportability are specified in INA Section 237; 8 U.S.C. §1227.
+24 INA §240(b)(1); 8 U.S.C. §1229a(b)(1).
+25 Under 8 C.F.R. Section 1291.1, respondents may be represented by attorneys registered to practice with EOIR, law
+students and graduates not yet admitted to the bar, reputable individuals of good moral character appearing without
+remuneration (e.g., relatives, neighbors, clergy, business associates, or friends), or an accredited representative or
+official.
+
+Congressional Research Service
+
+5
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+appointed counsel (see the “Access to Counsel” section below).26 OPLA attorneys represent the
+U.S. government.
+At any time, a respondent may request voluntary departure to leave the United States at their own
+expense. A respondent who misses a court hearing after being given written notice must be
+ordered removed in absentia by an IJ if DHS establishes clear, unequivocal, and convincing
+evidence that notice was provided and the respondent is removable (see the “In Absentia Removal
+Orders” section below).27
+EOIR has designated certain removal cases as priorities for completion:
+1. individuals who are detained or in federal custody (see the “Detention and Bond
+Proceedings” section below), including juveniles in the custody of the U.S.
+Department of Health and Human Services (HHS);
+2. cases subject to a statutory or regulatory deadline; and
+3. cases subject to a federal court-ordered deadline.28
+Absent “exceptional circumstances,” the INA mandates that EOIR adjudicate asylum applications
+within 180 days of filing.29
+
+DHS Components and Notice to Appear Issuances
+Removal proceedings begin when a DHS component—ICE, Customs and Border Protection
+(CBP), or U.S. Citizenship and Immigration Services (USCIS)—issues a Notice to Appear
+(NTA), Form I-862, to a noncitizen, charging them with an immigration violation, and files it
+with EOIR.
+What is an NTA?
+A Notice to Appear (NTA), Form I-862, is a charging document that DHS serves an individual, instructing them to
+appear before an IJ, and files with EOIR. An NTA issuance initiates the removals process. Under INA Section 239,
+an NTA must contain the following information:
+•
+
+the nature of the proceedings—whether the respondent is being charged as (1) an “arriving alien” who
+attempted to enter the United States and was not admitted (includes applicants for admission coming or
+attempting to come into the United States at a port of entry [POE], those seeking transit through the United
+States at a POE, and those interdicted in international or U.S. waters and brought into the United States),30
+(2) an individual present in the United States who has not been admitted or paroled, or (3) an individual who
+has been admitted to the United States and is removable;
+
+•
+
+legal authority for the proceedings;
+
+•
+
+the acts or conduct alleged to be in violation of law;
+
+•
+
+DHS’s charges against the respondent, including the statutory provisions alleged to have been violated;
+
+•
+
+the respondent’s right to legal representation and a period of time to secure counsel;
+
+•
+
+instructions for the respondent to provide a written record of address and telephone number where they
+may be contacted regarding the proceedings;
+
+•
+
+the time and place of the proceedings; and
+
+26 INA §240(b)(4)(A); 8 U.S.C. §1229a(b)(4)(A).
+27 INA §240(b)(5); 8 U.S.C. §1229a(b)(5).
+28 James R. McHenry III, EOIR Director, “Case Priorities and Immigration Court Performance Measures,”
+
+memorandum, January 17, 2018.
+29 INA §208(d)(5)(A)(iii); 8 U.S.C. §1158(d)(5)(A)(iii).
+30 Includes those paroled under INA Section 212(d)(5); see 8 C.F.R. §1.2.
+
+Congressional Research Service
+
+6
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+•
+
+consequences for failure to appear at these proceedings under INA Section 240(b)(5).
+
+In addition to the NTA, the respondent will typically also be served a separate hearing notice, which contains
+information about the time and location of the hearing.
+
+Any individual who is not a U.S. citizen, including those with lawful status,31 may be issued an
+NTA based on grounds of inadmissibility or deportability. At ports of entry (POEs), noncitizens
+who seek admission may be issued an NTA if, upon inspection by a CBP Office of Field
+Operations (OFO) officer, they are determined to be inadmissible. Between POEs, U.S. Border
+Patrol (USBP) agents are responsible for apprehending noncitizens who enter the United States
+without inspection. CBP officers and agents have discretion over whether to place apprehended
+migrants into expedited removal proceedings or to issue an NTA and refer them to an IJ for
+formal removal proceedings.32 Individuals may also be permitted to return voluntarily to their
+home country after being inspected at a POE and deemed inadmissible or after being apprehended
+between POEs.
+Those placed in expedited removal may be removed by DHS without proceedings before an IJ.
+However, individuals subject to expedited removal who express an intent to apply for asylum or a
+fear of persecution if they are returned to their countries may have their claim reviewed by a
+USCIS asylum officer. Individuals who receive a negative credible fear determination are subject
+to expedited removal. They may request that an IJ review the determination. Currently, those
+determined to have a credible fear of persecution33 are placed in formal removal proceedings to
+pursue applications for relief from removal before an IJ.34 However, under an interim final
+regulation, beginning May 31, 2022, initial adjudications of relief applications for those placed in
+expedited removal will be conducted by USCIS asylum officers, rather than IJs (see the
+“Proposals to Change the Defensive Asylum Process” section below).
+In the interior of the country, ICE’s Enforcement and Removal Operations (ERO) conducts
+administrative arrests and detains noncitizens who are unlawfully present or are lawfully present
+and subject to removal. During this process, they may be issued an NTA.35
+Individuals may also be placed in removal proceedings by USCIS, which processes applications
+and petitions for immigration benefits including the ability to reside in the United States
+permanently, gain U.S. work authorization, and naturalize as a U.S. citizen. USCIS issues NTAs
+for applicants determined to be inadmissible or removable under circumstances required by
+statute or regulation. These include termination of conditional permanent resident status, denials
+of petitions to remove conditions of residence, and termination of refugee or asylee status, among
+others. USCIS also issues NTAs in fraud cases with a statement of findings substantiating fraud
+31 Noncitizens who are lawfully present may be deportable based on a number of criteria enumerated in INA Section
+
+237, including violating one’s status or condition of entry, committing certain criminal offenses, national security
+violations, becoming a “public charge” within five years of entry, falsification of documents, and unlawful voting.
+32 INA §235(b)(1); 8 U.S.C. §1225(b)(1). For more information, see CRS Report R46755, The Law of Asylum
+Procedure at the Border: Statutes and Agency Implementation; and CRS In Focus IF11357, Expedited Removal of
+Aliens: An Introduction. CBP officers may also grant port-of-entry parole in certain situations; see CRS Report
+R46570, Immigration Parole.
+33 The individual must establish a “significant possibility” that they could establish before an IJ persecution or a wellfounded fear of persecution or harm on account of race, religion, nationality, membership in a particular social group,
+or political opinion.
+34 See CRS In Focus IF11357, Expedited Removal of Aliens: An Introduction.
+35 For more information on interior enforcement, see CRS Legal Sidebar LSB10362, Immigration Arrests in the
+Interior of the United States: A Primer.
+
+Congressional Research Service
+
+7
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+as well as naturalization cases for deportable individuals. In other situations, such as “egregious
+public safety” cases, USCIS refers cases to ICE for possible NTA issuance.36
+
+Master Calendar Hearing
+After DHS files an NTA, the court schedules an initial master calendar hearing, during which the
+IJ explains the respondent’s rights, the charges against them, and the nature of the proceedings;
+verifies the respondent’s contact information; and provides information about legal
+representation, including a list of free and low-cost legal services. For some cases, there may be
+multiple master calendar hearings.
+At the master calendar hearing, the respondent must admit to or deny the factual allegations and
+charges under the law outlined in the NTA and may state which application(s) for relief from
+removal they intend to file (see Table 2). The court may provide an interpreter for the respondent
+as necessary, at government expense.37 Those without counsel may request a continuance of the
+hearing to have an opportunity to obtain representation at their own expense. Respondents may
+also waive their right to counsel. The OPLA attorney must provide DHS’s position on legal and
+factual issues, file documents supporting charges on the NTA, and designate a country of removal
+for the respondent.38 The IJ schedules filing dates for applications and written documents. For
+non-detained respondents with counsel, master calendar hearing procedures may be handled
+entirely in writing and do not require an in-person hearing.39
+Table 2. Common Types of Protection and Relief from Removal
+Form of Protection or Relief
+
+Description
+
+Asyluma
+
+Asylum may be granted to a respondent who is unable or unwilling to return
+to their country of nationality because of persecution or a well-founded fear
+of persecution on account of race, religion, nationality, membership in a
+particular social group, or political opinion. Those granted asylum, and their
+spouses and children, are permitted to remain in the United States, apply for
+work authorization, and adjust to lawful permanent resident (LPR) status
+after one year of physical presence in the United States.
+
+Withholding of Removal
+
+Those who do not qualify for asylum may apply for withholding of removal
+under INA Section 241(b)(3). Withholding of removal carries a higher
+standard of proof than asylum and prohibits the removal of an individual to a
+country where their life or freedom would be threatened on account of a
+protected ground, but it allows possible removal to a third country. Unlike
+asylum, withholding of removal applies only to the applicant (not their family
+members) and does not lead to LPR status.
+
+36 USCIS issued new guidance in 2018 that expanded the circumstances under which USCIS issued NTAs; however,
+
+that guidance was rescinded in January 2021 and the agency reverted to 2011 guidance. See USCIS, “Revised
+Guidance for the Referral of Cases and Issuances of Notices to Appear (NTAs) in Cases Involving Inadmissible and
+Removable Aliens,” policy memorandum, November 7, 2011.
+37 EOIR, EOIR Policy Manual, Part II, Chapter 4.11, “Interpreters.”
+38 EOIR, EOIR Policy Manual, Part II, Chapter 4.15, “Master Calendar Hearing.”
+39 Representation must be filed via Form EOIR-28 at least 15 days before a master calendar hearing; otherwise, the
+representative and respondent must appear at the scheduled hearing. See Tracy Short, EOIR Chief Immigration Judge,
+“Revised Case Flow Processing Before the Immigration Courts,” PM 21-18, April 2, 2021.
+
+Congressional Research Service
+
+8
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Form of Protection or Relief
+
+Description
+
+Convention Against Torture
+(CAT)
+
+Article 3 of the United Nations Convention Against Torture and Other
+Cruel, Inhuman or Degrading Treatment or Punishment protects individuals
+from return to countries where it is more likely than not that they would be
+tortured (non-refoulement). Respondents may qualify for withholding or
+deferral of removal under the convention.
+
+Cancellation of Removal
+
+Discretionary relief under INA Section 240A is available to (1) LPRs with at
+least five years in LPR status and seven years of continuous residence after
+being admitted in any status, who have not been convicted of an aggravated
+felony and (2) non-LPRs who have been continuously physically present in
+the United States for at least 10 years, have been persons of good moral
+character during the statutory period,b have not been convicted of certain
+enumerated criminal offenses, and whose removal would result in
+exceptional and extremely unusual hardship to a U.S. citizen or LPR parent,
+spouse, or child. Non-LPRs granted cancellation of removal may adjust to
+LPR status.c
+
+Adjustment of Status
+
+Respondents in removal proceedings may adjust status if they have been
+inspected and admitted or paroled into the United States, are deemed
+admissible, and have a visa number or priority date immediately available.
+Most commonly, adjustment of status is based on a qualifying relationship
+with a U.S. citizen or LPR family member under INA 245(a).
+
+Voluntary Departure
+
+A grant of voluntary departure allows respondents to leave the United
+States, at their own expense, within a prescribed timeframe. Respondents
+who request it give up their rights to apply for other forms of relief and to
+appeal a removal decision.
+
+Termination
+
+Proceedings may be terminated under a joint agreement between the parties
+or if an IJ finds that a respondent is not removable or is eligible for
+citizenship. Termination does not exempt the respondent from future
+proceedings under a new charging document and does not confer any
+immigration status.
+
+Source: EOIR, “Executive Office for Immigration Review: An Agency Guide,” December 2017, at
+https://www.justice.gov/eoir/page/file/eoir_an_agency_guide/download.
+a. There are two types of asylum. Defensive asylum refers to asylum applied for during formal removal
+proceedings as a form of defense against removal. Defensive asylum applications are adjudicated by EOIR.
+Affirmative asylum refers to applications from individuals physically present in the United States who have not
+been placed in removal proceedings. Affirmative asylum applications are adjudicated by USCIS. For more
+information, see CRS Report R45539, Immigration: U.S. Asylum Policy.
+b. As defined in INA Section 101(f).
+c. The number of non-LPRs who can receive cancellation of removal is capped at 4,000 annually (INA
+§240A(e)). There is no cap for LPRs.
+
+Merits Hearing and IJ Decision
+In the next stage of removal proceedings, the IJ schedules a merits hearing (or individual calendar
+hearing), an evidentiary hearing that considers challenges to removability and the respondent’s
+application(s) for relief. During the merits hearing, parties may present testimony, evidence, and
+witnesses. The respondent and any witnesses may be examined and cross-examined, respectively,
+by their counsel (if applicable) and DHS counsel, as well as questioned by the IJ. Based on the
+testimony and evidence presented, the IJ issues a decision on the respondent’s removability, and if
+applicable, their application for relief.
+If the IJ determines that the respondent is not removable, the case is terminated. If the respondent
+is determined to be removable, the IJ will decide whether they are eligible for relief that allows
+
+Congressional Research Service
+
+9
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+them to remain in the United States or ineligible for relief or protection, in which case the IJ will
+order them to be removed. The decision may be rendered orally at the hearing’s conclusion or
+issued in writing at a later date.40
+The most commonly issued decision is removal. From FY2017 through FY2021, almost twothirds of outcomes at the initial case completion stage were removal orders (Figure 2).41
+Outcomes were relatively consistent across fiscal years with the exception of FY2021, when
+terminations (42,766) exceeded removal orders (35,577).42 IJ decisions are final unless they are
+appealed by either party to the BIA or if the IJ asks the BIA to review, or certify, the decision.
+Figure 2. Immigration Judge Decisions (Initial Case Completions), FY2017-FY2021
+
+Source: FY2019-FY2021: EOIR, “Decision Outcomes,” Adjudication Statistics; FY2017-FY2018: EOIR, Statistics
+Yearbook FY2018.
+Note: Initial case completions are an IJ’s first dispositive decision.
+
+IJs may also temporarily remove cases from their active dockets through administrative closure.43
+Administrative closure allows respondents the opportunity to have their applications for
+immigration relief resolved by other agencies, such as USCIS (see the “Docket Management”
+section below).
+
+40 EOIR, EOIR Policy Manual, Part II, Chapter 4.16, “Individual Calendar Hearing.”
+41 An initial case completion is an IJ’s first dispositive decision. Most commonly, cases are completed by removal
+
+orders, relief grants, voluntary departure, or termination.
+42 EOIR, “Decision Outcomes,” Adjudication Statistics, January 19, 2022.
+43 Administrative closure is not considered a completion.
+
+Congressional Research Service
+
+10
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Options for Appeal and Motions to Reconsider or Reopen
+Parties to a removal case have 30 days from the date of an IJ’s decision to file an appeal, at which
+point jurisdiction of the case transfers from the IJ to the BIA. The BIA typically conducts paper
+reviews of cases, which do not require respondents to appear in court. If requested by a party, it
+may allow oral arguments to be presented to the panel.
+If the BIA rules against the respondent (i.e., affirms an IJ’s order of removal), the respondent may
+file a petition for judicial review with a federal circuit court of appeals within 30 days.44 In
+federal circuit courts, attorneys with DOJ’s Office of Immigration Litigation represent the U.S.
+government. Under authority known as certification, the Attorney General may also review and
+overrule BIA decisions.
+Either party may also file a motion to reconsider or motion to reopen an IJ’s decision (if the case
+has not been appealed to the BIA) or a BIA decision. Motions to reconsider or reopen are
+generally referred to as MTRs. A motion to reconsider is based on errors of law or fact in the
+previous order and must be filed within 30 days from the date of a final removal order. A motion
+to reopen is based on new facts that must be proven at a hearing and supported by evidence; it
+must be filed within 90 days of the removal order.45 Motions to reopen are more common than
+motions to reconsider. During the last five fiscal years (FY2017-FY2021), immigration courts
+received 82,177 motions to reopen and 6,685 motions to reconsider.46
+
+Detention and Bond Proceedings
+Some respondents are detained by DHS during their removal proceedings.47 DHS generally has
+responsibility for apprehension and detention, including ensuring that detained respondents
+appear at all hearings.
+In certain cases, detention is mandatory: respondents convicted of specified criminal offenses or
+terrorist activity enumerated in the INA must be detained during removal proceedings.48 These
+individuals do not have the right to a bond hearing and may be released only under special
+circumstances, including if their release is necessary to protect a witness, a potential witness, or a
+person cooperating with an investigation into major criminal activity; and if the individual will
+not pose a safety risk and is likely to appear for their proceedings.
+In cases where detention is discretionary, DHS may choose to continue detaining the respondent
+or release them on bond or on their own recognizance subject to certain conditions (conditional
+parole). Certain individuals may be subject to enhanced monitoring under ICE’s Alternatives to
+Detention program as a condition of their release.49
+IJs may review custody determinations of detained respondents upon their request during bond
+proceedings.50 During such proceedings, the IJ determines whether the respondent is eligible for
+bond, their release would pose a danger to property or persons, they are a national security threat,
+44 INA §242; 8 U.S.C. §1252.
+45 INA §240(c)(6-7); 8 U.S.C. §1229a(c)(6-7).
+46 EOIR, “Motions,” Adjudication Statistics, October 19, 2021.
+47 For more information about immigrant detention, see CRS Report R45915, Immigration Detention: A Legal
+
+Overview.
+48 INA §236(c); 8 U.S.C. §1226(c).
+49 See CRS Report R45804, Immigration: Alternatives to Detention (ATD) Programs.
+50 8 C.F.R. §1003.19.
+
+Congressional Research Service
+
+11
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+and they are likely to appear for future hearings. The IJ issues a decision based on information
+presented by both parties. Either party may appeal the bond decision to the BIA.51
+From FY2012 to FY2021, the annual number of bond hearings ranged from 75,883 (FY2019) to
+22,261 (FY2021), as shown in Figure 3. During that period, IJs granted bond in about 48% of
+cases, with grant rates ranging from a high of 56% (FY2016) to a low of 31% (FY2021).
+Figure 3. Bond Hearing Outcomes, FY2012-FY2021
+
+Source: Transactional Records Access Clearinghouse (TRAC), “Immigration Court Bond Hearings and Related
+Case Decisions,” data tool, at https://trac.syr.edu/phptools/immigration/bond/.
+Notes: TRAC analyzes data obtained from EOIR using the Freedom of Information Act.
+
+As mentioned previously, detained cases are an EOIR priority for completion. Over the past 10
+fiscal years, the median pending time for detained cases has ranged from a low of 58 days
+(FY2021) to a high of 216 days (FY2020).52 According to EOIR, in FY2021, 91% of DHS
+detained cases were completed within six months.53
+
+Removal Proceedings: Selected Policy Issues
+In addition to the pending cases backlog and its associated factors (discussed in depth below),
+additional policy issues related to removal proceedings may be of interest to Congress, including
+access to representation and the rate at which respondents appear for their hearings.
+
+51 EOIR, EOIR Policy Manual, Part II, Chapter 9.3, “Bond Proceedings,” at https://www.justice.gov/eoir/eoir-policy-
+
+manual/9/3.
+52 Excludes mental competency/Franco litigation, Institutional Hearing Program, Migrant Protection Protocol, HHSdetained unaccompanied alien child, and juvenile cases. EOIR, “Median Times for Pending Detained Cases,”
+Adjudication Statistics, October 19, 2021.
+53 EOIR, “Percentage of DHS-Detained Cases Completed within Six Months,” Adjudication Statistics January 19,
+2022.
+
+Congressional Research Service
+
+12
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Access to Counsel
+According to EOIR, 53% of respondents with pending cases had legal representation as of the
+first quarter of FY2022.54 Under INA Section 240(b)(4), respondents in removal proceedings
+have the right to counsel but not at government expense. EOIR’s Office of Legal Access
+Programs (OLAP) houses programs that provide legal orientation and facilitate access to
+representation for certain populations. The Vera Institute of Justice (Vera), a national nonprofit
+organization, and a network of immigrant legal service providers administer several of these
+programs.
+OLAP programs include the Legal Orientation Program (LOP), Legal Orientation Program for
+Custodians of Unaccompanied Alien Children (LOPC), and the National Qualified Representative
+Program (NRQP). LOP provides legal orientations to unrepresented, detained respondents. LOPC
+provides legal orientations to the caregivers of unaccompanied children in removal proceedings.
+NQRP provides legal representation to detained respondents with mental health disorders who are
+determined by an IJ or the BIA “to be incompetent to represent themselves in immigration
+proceedings.”55 OLAP also maintains a list of pro bono legal service providers.
+Like adults, juveniles have the right to representation but generally do not receive court-appointed
+counsel.56 However, the William Wilberforce Trafficking Victims Protection Reauthorization Act
+(TVPRA) requires HHS, to the greatest extent possible, to ensure that all unaccompanied
+juveniles in its custody have counsel to represent them in proceedings.57 Since 2005, HHS’s
+Office of Refugee Resettlement, which has responsibility for the care of unaccompanied children
+during their removal proceedings, has funded pro bono legal services (but not direct
+representation) for children through a network of providers coordinated by Vera.
+In September 2021, EOIR announced a new “Counsel for Children Initiative,” to provide
+representation to unaccompanied children “in the eight immigration courts in which Governmentfunded counsel for children will have the greatest impact.”58 According to EOIR, 54% of
+unaccompanied children with pending cases had counsel as of the first quarter of FY2022.59
+A 2015 study of access to counsel in immigration courts, which analyzed data from more than 1.2
+million removal cases from 2007 through 2012, showed that respondents with counsel were more
+likely to have their cases terminated or be granted relief from removal (case success). The odds of
+case success for respondents with counsel compared with those without it were particularly high
+among detained respondents, who were 10.5 times more likely to succeed in their case (neverdetained respondents were 3.5 times more likely to succeed).60
+The study’s authors also found that respondents with counsel bring fewer unmeritorious claims
+and were more likely than those without representation to be released from detention and to
+appear at their hearings. The study identified barriers to representation, including being detained
+54 Includes removal, deportation, exclusion, and asylum-only proceedings. EOIR, “Current Representation Rates,”
+
+Adjudication Statistics, January 19, 2022.
+55 EOIR Policy Manual, Part V, Chapter 1.7, “National Qualified Representative Program.”
+56 For more information on unaccompanied children, see CRS Report R43599, Unaccompanied Alien Children: An
+Overview.
+57 P.L. 110-457, §235(c)(5).
+58 EOIR, “EOIR Announces ‘Access EOIR’ Initiative,” September 28, 2021. The eight courts listed are Atlanta,
+Houston, Los Angeles, New York, San Diego, San Francisco, Seattle, and Portland.
+59 EOIR, “Current Representation Rates,” Adjudication Statistics, January 19, 2022.
+60 Ingrid V. Eagly and Steven Shafer, “A National Study of Access to Counsel in Immigration Court,” University of
+Pennsylvania Law Review, vol. 164, no. 1, December 2015.
+
+Congressional Research Service
+
+13
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+and living in a rural area or small city. Representation also varied by respondents’ national
+origins, which the authors suggest may be related to differences in economic status or social
+networks.61
+Some groups have widely supported greater access to legal representation in removal
+proceedings.62 Some lawmakers have also advocated to expand federal programs for
+representation and introduced legislation to provide government-funded access to counsel for
+certain individuals in removal proceedings, including unaccompanied children, those in detention,
+people with disabilities, and those with low incomes.63 Others argue that these groups should
+have access to counsel but not at government expense. Arguments against government-funded
+counsel include that U.S. citizens do not receive government-appointed representation in civil
+matters and providing counsel for noncitizens would be a disproportionate benefit for
+noncitizens.64
+Some states and localities have established legal services programs that provide governmentfunded counsel for certain respondents, such as those in detention. Some refer to this movement
+as universal representation.65 Some legal advocates have also called for greater funding for DOJ’s
+Recognition and Accreditation Program to increase access to qualified, non-attorney Accredited
+Representatives,66 who are permitted by federal regulation to represent individuals in removal
+proceedings.67 Accredited Representatives must provide legal services through DOJ-designated
+nonprofit organizations (Recognized Organizations).68
+Others have opposed state and local funding for counsel, for example, arguing that it places the
+burden on those governments when immigration law is a federal issue.69 Some have raised
+objections to funding counsel for certain noncitizens, such as those with a criminal history.70
+
+61 Ibid.
+62 For example, see Karen Berberich et al., “Advancing Universal Representation, Module 1: The Case for Universal
+
+Representation,” Center for Popular Democracy, National Immigration Law Center, and Vera Institute of Justice,
+December 2018; American Immigration Lawyers Association, “AILA and Partners Urge Congress to Provide Funding
+for Appointed Counsel for Individuals Facing Removal,” November 17, 2021; National Association of Immigration
+Judges, “NAIJ Position on Legal Representation in Immigration Court,” May 4, 2021.
+63 For example, in the 117th Congress, see S. 901 and H.R. 530; in the 116th Congress, see S. 662 and H.R. 4155; and in
+the 115th Congress, see S. 3263. See also, Letter from Senators Kirsten Gillibrand, Edward J. Markey, Richard
+Blumenthal, Jeffrey A. Merkley, Kyrsten Sinema, Cory A. Booker, Alex Padilla, Bernard Sanders, Robert Menendez,
+Ron Wyden, Tammy Baldwin, Elizabeth Warren, Amy Klobuchar, Mark Kelly, Maria Cantwell, Thomas R. Carper,
+Tammy Duckworth, Tina Smith, Sherrod Brown, and Raphael Warnock to Senator Jeanne Shaheen, Chair, and Senator
+Jerry Moran, Ranking Member, Senate Subcommittee on Appropriations for Commerce, Justice, Science, and Related
+Agencies, May 6, 2021.
+64 Lora Ries, “U.S. Taxpayers Should Not Pay for Legal Counsel for Illegal Aliens,” The Heritage Foundation, March
+24, 2020.
+65 For a map of state and local publicly funded defense programs, see Vera Institute, “SAFE Initiative,” at
+https://www.vera.org/initiatives/safe-initiative.
+66 Karen Sullivan, “CLINIC Policy Brief: The Severely Under-Resources R&A Program is an Essential Tool to Meet
+Growing Needs for Affordable Immigration Legal Services,” Catholic Legal Immigration Network, Inc., September 29,
+2021.
+67 8 C.F.R. §1292.1(a)(4).
+68 EOIR, “Recognition & Accreditation (R&A) Program,” April 14, 2021, at https://www.justice.gov/eoir/recognitionand-accreditation-program.
+69 Leslie Berestein Rojas, “$3 Million to Defend Immigrants Fighting Deportation Approved by LA County,” 89.3
+KPCC, December 20, 2016; Conor McCormick-Cavanagh, “Colorado House Committee Approves Immigrant Legal
+Defense Fund,” Westworld, March 31, 2021.
+70 Maura Ewing, “Should Taxpayers Sponsor Attorneys for Undocumented Immigrants?,” The Atlantic, May 4, 2017.
+
+Congressional Research Service
+
+14
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+In Absentia Removal Orders71
+Respondents in formal removal proceedings who are not detained or who have been released
+from detention are generally permitted to wait in the United States for their court hearings.
+During this time, they are required to check in regularly with ICE and may be monitored under an
+Alternatives to Detention Program.72 Empirical data show that a majority of respondents appear
+for their removal proceedings and suggest that failure to appear for court is associated with
+factors like access to counsel.73 Nevertheless, because some individuals must wait months or
+years to have their cases adjudicated, some lawmakers and other observers have expressed
+concerns that these respondents will fail to appear for court hearings and abscond.74 As such,
+appearance rates for removal proceedings have been the subject of considerable discussion and
+debate.
+If respondents fail to attend any of their hearings, INA Section 240(b)(5) requires IJs to order a
+respondent removed in absentia (i.e., in the respondent’s absence). In such cases, DHS must
+present “clear, unequivocal, and convincing evidence” that the respondent received written notice
+of the hearing and is removable. Respondents may file a motion to reopen requesting to rescind
+an in absentia removal order if they can demonstrate that their failure to appear was due to
+exceptional circumstances,75 not having received proper notice, or being held in custody, and the
+failure to appear was through no fault of their own.76 If the motion is based on exceptional
+circumstances, it must be filed within 180 days from the issuance of the in absentia order.
+Otherwise, it may be filed at any time.77
+EOIR data on in absentia removal orders issued have been used to determine an in absentia rate,
+or the rate at which noncitizens fail to attend their removal proceedings. This rate has been
+debated; differences in the reported percentages have primarily been due to different methods of
+calculation.78
+EOIR calculates the in absentia rate by dividing the number of in absentia removal orders issued
+at the initial case completion stage in a fiscal year by the total number of initial IJ decisions
+
+71 For more information about the in absentia rate, see CRS In Focus IF11892, At What Rate Do Noncitizens Appear for
+
+Their Removal Hearings? Measuring In Absentia Removal Order Rates.
+72 Except for persons subject to the Migrant Protection Protocols, first implemented in 2019; see the “Accelerated
+Dockets” section below. For more information about Alternatives to Detention, see CRS Report R45804, Immigration:
+Alternatives to Detention (ATD) Programs.
+73 Ingrid V. Eagly and Steven Shafer, “Measuring In Absentia Removal in Immigration Court,” University of
+Pennsylvania Law Review, vol. 168, no. 4 (March 2020) (hereinafter, “Eagly and Shafer 2020”); TRAC, “Most
+Released Families Attend Immigration Court Hearings,” June 18, 2019.
+74 For example, see U.S. Senate Committee on Homeland Security & Governmental Affairs, “On Senate Floor,
+Portman Discusses Recent Trip to U.S. Southern Border to See Migrant Crisis Firsthand,” Minority Media, March 22,
+2021; Tom Davis, “Congressman Hern Visits Bartlesville, Talks Immigration Bill and Flood Remedy,” Bartlesville
+Radio, news, August 3, 2019; PBS NewsHour, “Sen. Flake: Obama’s Proposal Would Allow Migrant Children to
+‘Disappear into the Population’,” July 8, 2014.
+75 Under INA Section 240(e)(1), exceptional circumstances may refer to “battery or extreme cruelty to the alien or any
+child or parent of the alien, serious illness of the alien, or serious illness or death of the spouse, child, or parent of the
+alien, but not including less compelling circumstances.”
+76 EOIR, EOIR Policy Manual, Part II, Chapter 5.9, “Motions to Reopen In Absentia Orders.”
+77 8 C.F.R. §1003.23(b)(4)(iii).
+78 For example, see Salvador Rizzo, “How Many Migrants Show Up for Immigration Court Hearings,” The Washington
+Post, June 26, 2019; Aaron Reichlin-Melnick, “Trump’s Bad Immigration Math,” The Wall Street Journal (opinion),
+July 30, 2019; Andrew R. Arthur, “Report Understates No-Show Rates in Immigration Court,” Center for Immigration
+Studies, February 9, 2021 (hereinafter, “Arthur 2021”).
+
+Congressional Research Service
+
+15
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+during that same fiscal year.79 During the last 10 fiscal years (FY2012-FY2021), EOIR’s in
+absentia rate has ranged from a high of 49.5% in FY2020 to a low of 9.8% in FY2021. The
+average annual in absentia rate was 34.4%.80 The FY2021 in absentia rate was substantially lower
+than the rate in previous years, potentially reflecting impacts from the COVID-19 pandemic,
+which resulted in many hearing postponements and a possible selection effect among those who
+did have hearings.
+Some observers claim that EOIR’s method overstates the prevalence of in absentia orders. Critics
+of EOIR’s methodology have argued that it measures only the percentage of cases that were
+completed because a respondent failed to appear for a hearing. They contend it does not account
+for individuals whose cases have not yet been completed—a process that may take years, given
+the backlog of pending cases—but have attended their hearings in the meantime.81
+An alternative approach calculates the in absentia rate as the number of in absentia removal
+orders divided by all IJ decisions, plus other IJ completions (such as administrative closures), plus
+pending cases. Using this method, a 2020 study published in the University of Pennsylvania Law
+Review found an in absentia rate of 17% among non-detained respondents over the period of
+FY2008 through FY2018.82 Using EOIR’s method over the same period yielded an in absentia
+rate of 34%. Some observers have been critical of the alternative approach, arguing that it
+understates the rate.83
+The 2020 study also found that whether or not an in absentia order was issued depended heavily
+on whether a respondent had counsel and was applying for relief from removal.84 The authors
+found that respondents with counsel “rarely received in absentia removal orders”85 and that most
+cases in which an in absentia order was issued were unrepresented (85%) by counsel. With regard
+to applications for relief, the authors found that 95% of respondents with completed or pending
+applications for relief attended all their hearings. They also noted disparities in in absentia
+removal orders across courts of jurisdiction.
+
+Pending Cases Backlog
+The number of pending cases in immigration courts exceeded 1 million for the first time in
+FY2019 and has since continued to increase. According to EOIR, 1,405,386 million cases were
+pending in immigration courts at the end of FY2021. In the first quarter of FY2022, pending
+cases increased to more than 1.5 million.86 Independent analysts at the Transactional Records
+Access Clearinghouse (TRAC), a research center at Syracuse University, placed the backlog at
+approximately 1.6 million as of December 2021.87
+
+79 For example, see EOIR, Statistics Yearbook FY2017, p. 33; and EOIR, “Comparison of In Absentia Rates,”
+
+Adjudication Statistics, October 19, 2021. Data are for I-862 removal, deportation, and exclusion cases.
+80 EOIR, “Comparison of In Absentia Rates,” Adjudication Statistics, October 19, 2021.
+81 Aaron Reichlin-Melnick, Policy Counsel, American Immigration Council, “This Week in Immigration,” podcast by
+Bipartisan Policy Center, Episode 91, April 5, 2021.
+82 Eagly and Shafer 2020.
+83 Arthur 2021.
+84 Eagly and Shafer 2020.
+85 Ibid., p. 859.
+86 EOIR, “Pending Cases, New Cases, and Total Completions,” Adjudication Statistics, January 19, 2022.
+87 TRAC, “Immigration Court Backlog Tool,” at https://trac.syr.edu/phptools/immigration/court_backlog/.
+
+Congressional Research Service
+
+16
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Since FY2002, the annual numbers of cases received and completed in immigration courts have
+remained relatively consistent (with the exception of FY2019) compared with the number of
+pending cases (Figure 4). Since FY2006, the number of pending cases has increased every year.
+Figure 4. Initial Cases Received, Completed, and Pending (Backlog),
+FY2002-FY2022(Q1)
+
+Source: Cases received and completed: EOIR, “New Cases and Total Completions – Historical,” Adjudication
+Statistics, October 19, 2021. Cases pending (FY2008-FY2022): EOIR, “Pending Cases, New Cases, and Total
+Completions,” Adjudication Statistics, January 19, 2022; cases pending (FY2001-FY2007): TRAC, “Immigration
+Court Backlog Tool,” at https://trac.syr.edu/phptools/immigration/court_backlog/.
+Note: *FY2022 current through first quarter only.
+
+The BIA’s pending appeals caseload has also increased: after declining consistently from FY2011
+(30,335, not pictured) to FY2016 (13,970), the number of pending appeals increased through
+FY2020, reflecting increases in the number of appeals filed in recent years (see Figure 5 below).
+Pending appeals reached 91,973 in the first quarter of FY2022.88
+
+88 EOIR, “All Appeals Filed, Completed, and Pending,” Adjudication Statistics, January 19, 2022.
+
+Congressional Research Service
+
+17
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Figure 5. BIA Case Appeals Filed, Completed, and Pending, FY2012-FY2021
+
+Source: EOIR, “Case Appeals Filed, Completed, and Pending,” Adjudication Statistics, January 19, 2022.
+
+OCIJ’s completions as a percentage of cases received in a given fiscal year have generally
+declined since FY2007, which suggests that IJs have been increasingly unable to adjudicate the
+volume of cases they receive from DHS (Figure 6). From FY2001 through FY2012, completed
+cases averaged about 98% of cases received each fiscal year. After FY2012, however, the
+proportion dropped, with completed cases averaging about 62% of cases received each year from
+FY2013 through FY2021. This trend has occurred even as the number of IJs has increased
+substantially in recent years (see the “Hiring More Immigration Judges and Court Staff” section
+below).
+
+Congressional Research Service
+
+18
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Figure 6. OCIJ Case Completions as a Percentage of Case Receipts by Fiscal Year,
+FY2002-FY2021
+
+Source: EOIR, “New Cases and Total Completions – Historical,” Adjudication Statistics, January 19, 2022.
+Note: Percentages exceed 100% in situations where the number of case completions is greater than the number
+of cases received in a given fiscal year.
+
+TRAC estimated that the average pending time for removal cases—that is, the length of time
+respondents have already been waiting to have their cases adjudicated—was 933 days as of
+October 2021.89 The number of days pending varies by court. Courts that adjudicate primarily
+detained cases have much shorter pending times.
+The backlog has become a considerable concern for some lawmakers and immigration court
+stakeholders, raising questions about due process for respondents and their counsel,90 IJ and
+immigration court staff workloads,91 and the length of time removable respondents may spend in
+the country before being deported. Some observers question whether the backlog and the length
+of time respondents might spend in the United States waiting to have their cases adjudicated
+encourages unauthorized migration and overstays.
+
+Factors Associated with the Backlog
+A number of factors are associated with the growth in pending cases, including immigration
+enforcement in the interior and at the border leading to increased issuances of NTAs, higher
+numbers of asylum-seekers at the U.S.-Mexico border, and external factors causing court
+closures—particularly pandemic-related hearing postponements. At the same time, IJ staffing has
+been widely regarded to be inadequate to handle the current caseload brought on by these factors.
+
+89 TRAC, “Immigration Court Backlog Tool,” at https://trac.syr.edu/phptools/immigration/court_backlog/.
+90 American Bar Association Commission on Immigration, Reforming the Immigration System: Proposals to Promote
+
+Independence, Fairness, Efficiency, and Professionalism in the Adjudication of Removal Cases, March 2019
+(hereinafter, “ABA 2019”).
+91 Dana Leigh Marks, “Opinion: I’m an Immigration Judge. Here’s How We Can Fix Our Courts,” The Washington
+Post, April 12, 2019.
+
+Congressional Research Service
+
+19
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Some observers point to funding for immigration enforcement agencies as being
+disproportionately high relative to funding for immigration courts.
+
+Funding Disparities Between EOIR and DHS Enforcement Agencies
+Some observers have argued that funding disparities between EOIR and DHS enforcement
+agencies have exacerbated the backlog.92 They contend that DHS’s relatively higher levels of
+funding for immigration enforcement far exceed courts’ resources to adjudicate those cases.
+In recent years, Congress has appropriated increasingly higher levels of funding for EOIR.
+During the last 10 fiscal years, EOIR’s appropriations increased approximately 150% (from $304
+million in FY2013 to $760 million in FY2022; see Table 3). Over the same 10-year period, ICE’s
+budget increased 47% and CBP’s increased 23%.93
+In FY2021, funding for ICE and CBP, the primary enforcement components within DHS, totaled
+approximately $8 billion and $16 billion, respectively.94 EOIR’s FY2021 appropriations were
+$734 million (Table 3). However, it is difficult to meaningfully compare funding for ICE and
+CBP with EOIR’s appropriations given differences in the scopes and sizes of those agencies.
+Table 3. EOIR Annual Appropriations
+FY2013-FY2022
+Fiscal Year
+
+Enacted
+
+FY2013
+
+$304,124,000
+
+FY2014
+
+$312,200,000
+
+FY2015
+
+$347,200,000
+
+FY2016
+
+$422,295,000
+
+FY2017
+
+$440,000,000
+
+FY2018
+
+$504,500,000
+
+FY2019
+
+$563,407,000
+
+FY2020
+
+$672,966,000
+
+FY2021
+
+$734,000,000
+
+FY2022
+
+$760,000,000
+
+Source: FY2022: Consolidated Appropriations Act, 2022 (P.L. 117-103), Division B, Title II. FY2015-FY2021:
+DOJ, EOIR, Budget and Performance Summary, multiple years, at https://www.justice.gov/doj/budget-andperformance. FY2013-FY2014: DOJ, Budget and Performance Summary, Justice Management Division Archive, at
+https://www.justice.gov/archives/jmd/justice-management-division-archive.
+
+92 Representative Zoe Lofgren, “Lofgren Statement at EOIR Oversight Hearing,” press release, November 1, 2017;
+
+American Immigration Council, Empty Benches: Underfunding of Immigration Courts Undermines Justice, May 2015;
+Marissa Esthimer, Crisis in the Courts: Is the Backlogged U.S. Immigration Court System at Its Breaking Point?,
+Migration Policy Institute, Migration Information Source, October 3, 2019.
+93 Based on total enacted funding for FY2013 as reported in DHS, Budget-in-Brief: Fiscal Year 2015 and for FY2022
+as reported in Consolidated Appropriations Act, 2022 (P.L. 117-103), Division B, Title II.
+94 DHS, Budget-in-Brief: Fiscal Year 2022.
+
+Congressional Research Service
+
+20
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+IJ Staffing and Productivity
+EOIR’s most commonly identified resource shortage is its IJ corps, which has recently grown, but
+had previously fluctuated. During a DOJ-wide hiring freeze from FY2011 to FY2014, the number
+of IJs dropped from 273 to 249. Pending cases grew 44% during that period, from approximately
+298,000 to 430,000, even though the annual number of cases filed did not increase (refer to
+Figure 4, “pending” and “received”). DOJ has increased IJ hiring in recent years, more than
+doubling the number of IJs from FY2014 (249) through FY2021 (559) (see the “Hiring More
+Immigration Judges and Court Staff” section below).
+EOIR has identified challenges with IJ hiring. The hiring process is time intensive; EOIR has
+stated that vetting (e.g., background investigations) and hiring IJs has historically taken more than
+one year.95 A 2017 U.S. Government Accountability Office (GAO) analysis found that the
+process—from posting a vacancy on USAJobs to the extension of an official offer—took on
+average nearly two years to complete.96 Recently, however, EOIR has stated that it has improved
+its process and reduced its hiring time “to generally six months or less” as the result of a plan
+implemented in 2017. This process allows IJs to be appointed temporarily pending full
+background investigations, which can take upward of a year to complete. As a result, EOIR stated
+it “has been able to clear a new IJ to start in as little as 150 days and to onboard a new IJ in as
+little as 195 days.”97
+In recent years, even as EOIR hired more IJs, the attrition rate for IJs doubled.98 During the last
+10 fiscal years (FY2012-FY2021), an estimated 203 IJs departed (see Figure 11).99 Some
+observers have associated IJ departures with policies implemented during the Trump
+Administration, including implementing quotas requiring 700 case completions per year (see the
+“IJ Quotas and Performance Measures” section below), as well as other concerns about judicial
+independence and general burnout.100 EOIR has noted that IJ retirements and separations have
+been higher in recent years and estimates that approximately one-third of IJs are currently eligible
+to retire.101
+Despite the agency’s focus on hiring in recent years, caseloads remain high and unevenly
+distributed among immigration courts. As of February 2022, 10 immigration courts were
+
+95 EOIR, “FY2021 Congressional Budget Submission,” February 2020.
+96 GAO, Immigration Courts: Actions Needed to Reduce Case Backlog and Address Long-Standing Management and
+
+Operational Challenges, GAO-17-438, 2017.
+97 EOIR, “FY2022 Performance Budget: Congressional Budget Submission,” May 2021, p. 21.
+98 EOIR, “FY2022 Congressional Budget Submission,” May 2021.
+99 EOIR, “Immigration Judge Hiring,” Adjudication Statistics, October 2021. Number of departed immigration judges
+imputed based on the number of immigration judges hired and total on board.
+100 For example, see Molly Hennessy-Fiske, “Immigration Judges Calling it Quits under Trump; Many Say They Are
+Leaving because of ‘Unbearable’ Pressure to Rush through Cases,” Los Angeles Times, January 26, 2020; and Priscilla
+Alvarez, “Immigration Judges Quit in Response to Administration Policies,” CNN Politics, December 27, 2019.
+101 EOIR, “FY2021 Congressional Budget Submission,” February 2020; and “FY2022 Congressional Budget
+Submission,” May 2021.
+
+Congressional Research Service
+
+21
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+responsible for 47% of all pending cases.102 Some IJs have had as many as 5,000 pending cases
+on their dockets103 and have reported hearing more than 80 cases per day.104
+Some observers have raised concerns about the qualifications and comportment of IJs hired in
+recent years, including lack of immigration experience, inappropriate courtroom behavior,
+disparities in asylum grant rates, inadequate vetting during the hiring process, and concerns about
+politicized hiring.105
+EOIR has also indicated that its IJs have been hampered by a “fragmented, paper-based” case
+management system and that its planned transition to an electronic platform was delayed by the
+COVID-19 pandemic. An estimated 1 million cases exist in a paper format, which EOIR has
+associated with case scheduling and adjudication inefficiencies. Unlike paper files, electronic
+files, for example, allow for adjudication from any location and for easier transfer from OCIJ to
+the BIA. Paper files must now be scanned to be converted to electronic format, which EOIR
+estimated would take five years.106
+The number of case completions per IJ has generally declined since the mid-2000s, with the
+exception of FY2019 (Figure 7). In FY2021, immigration courts had the lowest numbers of total
+case completions since FY1994,107 despite a record high number of IJs, likely reflecting, in large
+part, impacts of court closures from the COVID-19 pandemic (see the “COVID-19 and
+Temporary Court Closures” section below). Average case completions per month in FY2021
+(9,612) were about half the levels of completions in FY2020 (19,340). However, the decline in
+case completions per IJ preceded the pandemic.108
+
+102 Miami (128,449 pending cases), New York (113,664), Newark (91,429), Boston (87,474), Orlando (85,543), San
+
+Francisco (82,291), Los Angeles (71,734), Dallas (77,364), Arlington, VA (72,106), and Chicago (69,049). TRAC,
+“Immigration Court Backlog Tool,” at https://trac.syr.edu/phptools/immigration/court_backlog/.
+103 Statement of National Association of Immigration Judges President A. Ashley Tabbador, in House Committee on
+the Judiciary, Subcommittee on Immigration and Citizenship, The State of Judicial Independence and Due Process in
+U.S. Immigration Courts, hearing, 116th Cong., 2nd sess., January 29, 2020 (hereinafter, “Tabbador 2020”).
+104 Eric Katz, “‘Conveyer Belt’ Justice: An Inside Look at Immigration Courts,” Government Executive, January 23,
+2019 (hereinafter, “Katz 2019”).
+105
+For example, see ABA 2019; Kate Morrissey and Lauryn Schroeder, “Who Gets Asylum? Even Before Trump,
+System was Riddled with Bias and Disparities,” San Diego Union-Tribune, August 24, 2020; Tal Kopan, “Bad
+Conduct, Leering ‘Jokes’—Immigration Judges Stay on Bench,” San Francisco Chronicle, January 22, 2021; and
+Reade Levinson, Kristina Cooke, and Mica Rosenberg, “Special Report: How Trump Administration Left Indelible
+Mark on U.S. Immigration Courts,” Reuters, March 8, 2021.
+106 EOIR, “FY2022 Congressional Budget Submission,” May 2021, p. 6.
+107 EOIR, “New Cases and Total Completions – Historical,” Adjudication Statistics, October 19, 2021.
+108 See David J. Bier, “Immigration Courts’ Lower Productivity Explains Backlog of Cases,” Cato at Liberty blog,
+August 9, 2016 (hereinafter, “Bier 2016”); and GAO, Immigration Courts: Actions Needed to Reduce Case Backlog
+and Address Long-Standing Management and Operational Challenges, GAO-17-438, June 2017 (hereinafter, “GAO
+2017”).
+
+Congressional Research Service
+
+22
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Figure 7. Average Annual Case Completions per Immigration Judge, FY2002-FY2021
+
+Source: Computed as the annual number of total case completions divided by the number of IJs on staff at the
+end of each fiscal year. Case completions: EOIR, “New Cases and Total Completions – Historical,” Adjudication
+Statistics, January 19, 2022; IJs: FY2002-FY2009: Data provided to CRS by EOIR on November 22, 2021; FY2010FY2021: EOIR, “Immigration Judge (IJ) Hiring,” Adjudication Statistics, October 2021.
+
+In addition to the recent impacts of COVID-19 pandemic-related court closures, a number of
+factors may be associated with declines in case completions. For example, GAO reported that
+case completions decline during periods of hiring because new judges complete fewer cases “as
+they are learning on the job.”109 The National Association of Immigration Judges (NAIJ) has
+stated that EOIR’s hiring has been “lopsided,” and overly focused on Assistant Chief Immigration
+Judges (ACIJs), managerial judges who oversee the operations of specific immigration courts and
+who balance their dockets with supervisory responsibilities.110 FY2022 appropriations for EOIR
+include a directive to the Attorney General that IJs hired during the fiscal year should “adjudicate
+cases as their primary function.”111
+
+109 GAO 2017, p. 24.
+110 NAIJ, “The Immigration Court – In Crisis and in Need of Reform,” August 2019.
+111 H.R. 2471 Joint Explanatory Statement—Division B: Commerce, Justice, Science, and Related Agencies
+
+Appropriations Act, 2022, p. 67.
+
+Congressional Research Service
+
+23
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+NAIJ also reported a lack of adequate support staff and that hiring of support staff has not kept
+pace with IJ hiring. In 2020 congressional testimony, NAIJ stated:
+EOIR’s hiring practices have ignored congressional directives for effective use of funds
+and is primarily hiring judges and supervisory judges, rather than focusing on the required
+support team and concomitant resources such as contract interpreters. In the past three
+fiscal years, EOIR has hired over 200 immigration judges but failed to adequately budget
+for and hire the necessary clerical and support staff required for the successful
+administration of the court.112
+
+EOIR’s recent budget requests have included funding for support staff, including attorneys, legal
+assistants, and interpreters.113 The agency has also pointed to a need for more courtroom space to
+accommodate its new hires.114
+Administrative closures may also be impacting case completion rates—administratively closed
+cases are not considered case completions. Such cases are temporarily closed and moved to a
+pending docket until they are re-calendared. There were relatively high numbers of administrative
+closures between FY2012 and FY2017, during which case completion rates dropped
+substantially. If administrative closures were considered case completions, the decline in
+productivity is somewhat attenuated for those years. For example, when considering case
+completions only, productivity per IJ declined 14.6% between FY2012 and FY2013. When
+administrative closures are factored into the total number of cases completed, the decline was
+8.7% (for further discussion of administrative closures, see the “Docket Management” section
+below).
+Some observers have posited that net productivity has been impacted by increased numbers of
+unaccompanied children and family units seeking humanitarian protection at the Southwest
+border (see the “Interior and Border Enforcement” section below). These cases are typically more
+complex and take longer to adjudicate. However, analysts have noted that a decline in
+productivity preceded the increase in arrivals of these groups.115
+
+Interior and Border Enforcement
+Because NTAs are an enforcement outcome issued by DHS components (CBP, ICE, and USCIS),
+the number of cases before immigration courts are linked to immigration enforcement, including
+CBP apprehensions at the U.S. border, ICE enforcement priorities, and DHS-wide agency
+policies.
+The relationship between combined NTA issuances for all three DHS immigration agencies and
+the pending cases backlog has not been consistently linear (see Figure 8). From FY2011 through
+FY2013 and again from FY2014 to FY2015, the number of pending cases increased even as NTA
+issuances decreased. From FY2017 through FY2019, the number of pending cases grew as NTA
+issuances increased. NTA issuances dropped in FY2020 with the onset of the COVID-19
+pandemic.116 NTA issuances by each DHS immigration agency are discussed below.
+
+112 Tabbador 2020. See also GAO 2017.
+113 See, for example, EOIR, “FY2022 Performance Budget, Congressional Budget Submission,” May 2021, p. 23.
+114 Ibid., p. 6.
+115 Bier 2016.
+116 See CRS Insight IN11335, COVID-19’s Effect on Interior Immigration Enforcement and Detention; and CRS
+
+Insight IN11741, U.S. Customs and Border Protection (CBP) COVID-19 Policies and Protocols at the Southwest
+Border.
+
+Congressional Research Service
+
+24
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Figure 8. DHS NTA Issuances and Pending Immigration Court Cases,
+FY2011-FY2020
+
+Source: NTAs issued: Alan Moskowitz and James Lee, Immigration Enforcement Actions: 2020, Table 4, DHS
+Office of Immigration Statistics. Pending cases: EOIR, “Pending Cases, New Cases, and Total Completions,”
+Adjudication Statistics, October 19, 2021.
+Note: NTA data for FY2021 are not yet available.
+
+CBP
+With the exception of FY2021, enforcement encounters between POEs at the U.S.-Mexico border
+have been lower over the last decade than in previous decades.117 However, the circumstances of
+these encounters have changed. In recent years, increasing numbers of Central American families
+and unaccompanied minors have sought asylum between POEs. This affects immigration courts
+because, under the INA, individuals who request asylum must be placed in formal removal
+proceedings before an IJ rather than undergoing an expedited removal process with DHS.118
+These changing circumstances are reflected in higher numbers of defensive asylum applications
+filed with and pending in immigration courts (Figure 9). Defensive asylum applications increased
+nearly 700% from FY2012 to FY2020. In FY2021, the number of applications filed declined
+considerably,119 likely reflecting the pandemic-related Centers for Disease Control and Prevention
+
+117 For more information, see CRS Report R46999, Immigration: Apprehensions and Expulsions at the Southwest
+
+Border.
+118 INA §235(b)(1); 8 U.S.C. §235(b)(1).
+119 Independent analysts at TRAC at have alleged that there are problems with the quality of EOIR’s asylum data. For
+example, TRAC has identified more than 13,000 asylum applications that have “disappeared from EOIR data during
+FY2019-FY2022” and stated that they “uncovered a second issue where EOIR lost track in its database that an asylum
+application had been filed.” See TRAC, “About the Data on Asylum,” at https://trac.syr.edu/phptools/immigration/
+asylumbl/about_data.html, and “Immigration Court Asylum Backlog,” at https://trac.syr.edu/phptools/immigration/
+asylumbl/.
+
+Congressional Research Service
+
+25
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Title 42 order that has led to many migrants being expelled without an asylum screening.120 At the
+end of the first quarter of FY2022, there were 431,837 pending defensive asylum applications.121
+Figure 9. Defensive Asylum Applications Filed and Pending, FY2013-FY2022(Q1)
+
+Source: EOIR, “Defensive Asylum Applications,” Adjudication Statistics, January 19, 2022.
+Note: FY2022 data is for the first quarter only.
+
+The most NTAs issued in a fiscal year by USBP over the last decade was 521,894 in FY2019.
+NTAs issued by OFO in FY2019 (61,892) were at their highest level since FY2005 (Figure 10).
+FY2019 saw the largest number of apprehensions at the Southwest border since FY2007; these
+apprehensions were disproportionately made up of family units (54% of the total), primarily from
+Central America.122
+
+120 There were 4 million USBP apprehensions from FY2011 to FY2020, compared with 9 million from FY2001
+
+through FY2010. CBP documented high rates of USBP encounters at the Southwest border in FY2021 (approximately
+1.66); however, the majority of these (about 63%) were expulsions under Title 42 (public health) of the U.S. code—not
+Title 8 (immigration) apprehensions. Individuals who are expelled under Title 42 are not placed in formal removal
+proceedings. See CRS Report R46999, Immigration: Apprehensions and Expulsions at the Southwest Border; and CRS
+Insight IN11741, U.S. Customs and Border Protection (CBP) COVID-19 Policies and Protocols at the Southwest
+Border.
+121 EOIR also receives affirmative asylum applications for individuals who file an affirmative asylum application with
+USCIS. If USCIS fails to approve the application, it may issue an NTA and refer the case to EOIR for a new hearing. In
+the first quarter of FY2022, EOIR had 196,714 pending affirmative asylum applications; EOIR, “Affirmative Asylum
+Applications,” Adjudication Statistics, January 19, 2022.
+122 CBP, “Southwest Land Border Encounters,” May 10, 2021, at https://www.cbp.gov/newsroom/stats/southwest-landborder-encounters.
+
+Congressional Research Service
+
+26
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+ICE
+When ICE apprehends an unauthorized alien as part of its interior enforcement mission, that
+individual will typically be issued an NTA and put into formal removal proceedings. The
+executive branch has discretion to determine who among the estimated 11 million unauthorized
+noncitizens residing in the United States should be prioritized for immigration enforcement.123
+Interior enforcement expanded during the 2000s, leading to increased apprehensions and NTA
+issuances. The Obama Administration narrowed its enforcement priorities in 2011124 and again in
+2014125 to focus on noncitizens deemed threats to national security and those convicted of serious
+criminal offenses. In 2017, the Trump Administration expanded enforcement priorities.126
+Guidance issued to DHS personnel, accompanying President Trump’s Executive Order, stated,
+“Department personnel shall faithfully execute the immigration laws of the United States against
+all removable aliens.”127 NTA issuances reflect these policy changes in fiscal years 2017 and 2018
+(Figure 10). In FY2019 and FY2020, NTAs issued by ICE ERO declined as the agency
+reallocated resources to the Southwest border and narrowed enforcement efforts in response to
+the COVID-19 pandemic.128
+In FY2021, under the Biden Administration, ICE issued new guidance narrowing removal
+priorities to noncitizens who present threats to national security, border security, and public
+safety.129 The ICE guidance also specified parameters for prosecutorial discretion, which allows
+DHS to decide on a case-by-case basis whether or how to prosecute an individual. This includes
+whether to issue an NTA, agree to administrative closure or continuances, or dismiss
+proceedings.130 ICE guidance to OPLA attorneys acknowledged the immigration courts backlog
+and delays in case completions, stating they “impede the interests of justice for both the
+government and respondents alike and undermine public confidence in this important pillar of the
+administration of the nation’s immigration laws.”
+EOIR issued related guidance stating:
+123 See CRS Legal Sidebar LSB10578, The Biden Administration’s Immigration Enforcement Priorities: Background
+
+and Legal Considerations.
+124 John Morton, ICE Director, “Civil Immigration Enforcement: Priorities for the Apprehension, Detention, and
+Removal of Aliens,” memorandum, March 2, 2011.
+125 Jeh Charles Johnson, DHS Secretary, “Policies for the Apprehension, Detention and Removal of Undocumented
+Immigrants,” memorandum, November 20, 2014.
+126 Executive Order 13768, “Enhancing Public Safety in the Interior of the United States,” 82 Federal Register 87998803, January 25, 2017.
+127 John Kelly, DHS Secretary, “Enforcement of the Immigration Laws to Serve the National Interest,” memorandum,
+February 20, 2017.
+128 ICE ERO, U.S. Immigration and Customs Enforcement Fiscal Year 2019 Enforcement and Removal Operations
+Report, no date; ICE ERO, U.S. Immigration and Customs Enforcement Fiscal Year 2020 Enforcement and Removal
+Operations Report, no date.
+129 Tae D. Johnson, ICE Acting Director, “Interim Guidance: Civil Immigration Enforcement and Removal Priorities,”
+memorandum, February 18, 2021; and Alejandro N. Mayorkas, DHS Secretary, “Guidelines for the Enforcement of
+Civil Immigration Law,” memorandum, September 30, 2021.
+130 ICE stated that prosecutors should consider mitigating factors including a noncitizen’s length of U.S. residence,
+military service, family or community ties, immigration history, work history, current immigration status, status as a
+victim, potential options for relief, community contributions, and humanitarian factors. Aggravating factors for
+consideration include criminal history, persecution and human rights violations, fraud, and extent and seriousness of
+immigration violations. See John D. Trasviña, ICE Principal Legal Advisor, “Interim Guidance to OPLA Attorneys
+Regarding Civil Immigration Enforcement and Removal Policies and Priorities,” memorandum, May 27, 2021; and
+Kerry Doyle, ICE Principal Legal Advisor, “Guidance to OPLA Attorneys Regarding the Enforcement of Civil
+Immigration Laws and the Exercise of Prosecutorial Discretion,” memorandum, April 3, 2021.
+
+Congressional Research Service
+
+27
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Immigration judges should be prepared to inquire, on the record, of the parties appearing
+before them at scheduled hearings as to whether the case remains a removal priority for
+ICE and whether ICE intends to exercise some form of prosecutorial discretion, for
+example by requesting that the case be terminated or dismissed, by stipulating to eligibility
+for relief, or, where permitted by case law, by agreeing to the administrative closure of the
+case. The judge should ask the respondent or his or her representative for the respondent’s
+position on these matters, and take that position into account, before taking any action. 131
+
+USCIS
+USCIS can issue NTAs for a variety of reasons.132 Guidance issued in 2011 specified
+circumstances under which USCIS would issue NTAs directly or refer cases to ICE to decide
+whether to issue an NTA.133 In June 2018, USCIS issued new guidance substantially expanding
+the circumstances under which it directly filed NTAs with EOIR.134 The 2018 guidance was
+subsequently rescinded in January 2021. A report by the USCIS Ombudsman stated that the June
+2018 guidance “exposed pervasive problems such as: a misalignment between prosecutorial
+discretion practices and finite government resources; ineffective coordination resulting in
+agencies working at cross purposes; and persistent jurisdictional issues hindering administrative
+efficiency.” Characterizing the impact of the June 2018 policy, the report stated, “The expected
+increase in NTAs that never materialized suggests that individual officers were unable to take on
+this added responsibility.”135
+
+131 Jean King, EOIR Acting Director, “Effect of Department of Homeland Security Enforcement Priorities,”
+
+memorandum, PM 21-25, June 11, 2021.
+132 These include cases where an individual is removable because of fraud or misrepresentation, or abuse of public
+benefits; criminal cases; or cases where USCIS denying a petition or application leads to unlawful presence.
+133 Under the 2011 guidance, USCIS issues NTAs for termination of conditional permanent resident status and denials
+of Form I-751, Petition to Remove the Conditions of Residence; denials of Form I-829, Petition by Entrepreneur to
+Remove Conditions; termination of refugee status by the District Director; denials of NACARA 202 and Haitian
+Refugee Immigrant Fairness Act (HRIFA) adjustments; and asylum referrals, termination of asylum or termination of
+withholding of removal or deportation, positive credible fear findings, and NACARA 203 cases where suspension of
+deportation or cancellation of removal is not granted, and the applicant does not have asylum status, or lawful
+immigrant or non-immigrant status. USCIS, PM-602-0050, November 7, 2011.
+134 Under the 2018 guidance, USCIS expanded the circumstances under which it issues NTAs to include the following:
+cases where fraud or misrepresentation is substantiated or where an applicant abused any public benefits program;
+criminal cases where applicants are convicted of/charged with a criminal offense, or committed acts chargeable as a
+criminal offense, even if the conduct was not the basis for denial or a ground of removability; applications for
+naturalization denied on good moral character grounds because of a criminal offense; and cases in which applicants are
+unlawfully present after the denial of an application or petition. USCIS, PM-602-0050.1, June 28, 2018.
+135 Office of the Citizenship and Immigration Services Ombudsman, Annual Report 2021, June 30, 2021, p. 16.
+
+Congressional Research Service
+
+28
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Figure 10. NTA Issuances by DHS Component, FY2011-FY2020
+
+Source: Alan Moskowitz and James Lee, Immigration Enforcement Actions: 2020, Table 4, DHS Office of
+Immigration Statistics.
+
+COVID-19 and Temporary Court Closures
+The pending cases backlog has been exacerbated by external events that have resulted in
+temporary closures of immigration courts. During an appropriations lapse that caused a partial
+government shutdown from December 2018 through January 2019, EOIR proceeded with cases
+on the detained docket but postponed hearings for non-detained cases.136 Approximately 60,000
+non-detained hearings were cancelled during the shutdown.137
+More recently, hearings have been substantially impacted by the COVID-19 pandemic. In March
+2020, groups representing IJs, immigration attorneys, DHS prosecutors, and some Members of
+Congress called on EOIR to postpone all court appearances and close all courts out of concern for
+potential exposure to the virus.138 EOIR closed certain immigration courts in areas with high
+infection rates in early March.139 EOIR then postponed all hearings for non-detained respondents
+as of March 18, 2020, and closed certain additional immigration courts, but proceeded with
+hearings for detained respondents.140 Migrant Protection Protocol (MPP) cases for individuals
+136 EOIR, “Immigration Court Operating Status During Lapse in Appropriations,” December 26, 2018.
+137 U.S. Congress, Senate Committee on Homeland Security and Governmental Affairs, Permanent Subcommittee on
+
+Investigations, The True Cost of Government Shutdowns, staff report, 116th Cong., 1st sess., September 17, 2019, p. 7.
+138 Suzanne Monyak, “Chaos, Confusion Reign as Immigration Courts Stay Open,” Law360, March 27, 2020.
+139 Dorothy Atkins, “Coronavirus ‘Exposure’ Shuts Seattle Immigration Court,” Law360, March 11, 2020; Suzanne
+Monyak, “DOJ Scales Back Immigration Court Hearings in 6 Cities,” Law360, March 14, 2020.
+140 EOIR stated that it proceeded with detained hearings out of concerns regarding Fifth Amendment due process
+requirements and the potential for overcrowding in detention facilities, and because of statutory deadlines for
+adjudication in certain cases. The detained docket grew during the pandemic, as ICE continued to arrest noncitizens
+and place them in detention centers. See DOJ, Office of Inspector General, Limited-Scope Review of the Executive
+(continued...)
+
+Congressional Research Service
+
+29
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+being held in Mexico were repeatedly postponed and then indefinitely suspended in July 2020
+(see the “Accelerated Dockets” section below).141 Some stakeholders and lawmakers continued to
+express concern about in-person hearings.142
+EOIR began resuming hearings for non-detained respondents in June 2020.143 Sporadic, shortterm closures have continued throughout the pandemic due to possible COVID-19 exposure in
+courts. Closures have often been announced with little notice, typically via EOIR’s Twitter
+account. In January 2022, EOIR again postponed most hearings for non-detained respondents
+amid a surge of the Omicron variant.
+During the pandemic, the backlog of pending cases has grown as case completions have declined.
+According to an analysis by TRAC, case completions in July 2020 had dropped 85% compared to
+February 2020.144 GAO identified approximately 600,000 hearings postponements from March to
+October 2020 due to court closures.145
+For cases involving a detained respondent, however, the number of pending cases has declined.
+GAO suggested that this may be due to the decreased number of individuals detained during the
+pandemic and the use of video teleconference for hearings involving detained respondents.146
+
+Proposed Solutions to the Backlog
+Lawmakers and stakeholders generally agree that the pending cases backlog must be addressed.
+Proposals to resolve it vary. One approach with relatively broad support centers on greater
+resources for EOIR and increasing the number of IJs available to adjudicate cases. Other
+approaches have been more contested. For example, IJs have requested more independence to
+manage dockets and administratively close cases. Others, including DOJ leadership under the
+Trump Administration, have pushed for greater oversight of IJs by adding quotas and
+performance measures.
+Different Administrations—including the Obama, Trump, and Biden Administrations—have also
+attempted to reduce the backlog by implementing accelerated dockets for certain populations—a
+practice that has raised objections from some IJs and immigrant advocates. The implementation
+and subsequent reversals of certain EOIR policies across Administrations indicate that the
+conditions under which IJs adjudicate cases are subject to changing political leadership, which is
+a concern for many IJs.
+Other proposals involve more-structural changes to immigration courts. Some propose to change
+the defensive asylum process entirely by having DHS officers serve as first-line adjudicators of
+Office for Immigration Review’s Response to the Coronavirus Disease 2019 Pandemic, Pandemic Response Report 21063, April 2021.
+141 DHS and DOJ announced certain criteria for restarting MPP hearings, tied to reopening stages in U.S. and Mexican
+border states and Department of State and Centers for Disease Control health advisories. DHS and DOJ, “Department
+of Homeland Security and Department of Justice Announce Plan to Restart MPP Hearings,” news release, July 17,
+2020.
+142 For example, see Letter from Sens. Blumenthal, Markey, Hirono, Harris, Kaine, Booker, Wyden, Warren,
+Klobuchar, and Rosen to William P. Barr, Attorney General, and James McHenry, EOIR Director, March 27, 2020.
+143 EOIR, “EOIR to Resume Hearings in Non-Detained Cases at Certain Immigration Courts,” news release, June 24,
+2020; American Immigration Lawyers Association, “AILA tracks EOIR’s Historical Operational Status During
+Coronavirus Pandemic,” AILA Doc. No. 20051400, March 5, 2021.
+144 TRAC, “Immigration Court Completions Remain at Historic Lows through July 2020,” August 20, 2020.
+145 GAO, COVID-19: Improvements Needed in Guidance and Stakeholder Engagement for Immigration Courts, GAO21-104404, August 21, 2010.
+146 Ibid.
+
+Congressional Research Service
+
+30
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+asylum claims to reduce the burden on courts—the Biden Administration plans to soon
+implement this approach via an interim final rule. In addition, an ongoing debate considers
+whether immigration courts should operate as independent courts under Article I of the U.S.
+Constitution or remain within DOJ.
+
+Hiring More Immigration Judges and Court Staff
+In recent years, DOJ has prioritized hiring IJs to address the pending case backlog and replace
+judges who have departed. From FY2014 to FY2021, the number of IJs more than doubled, from
+249 to 559, as EOIR hired 477 new IJs (Figure 11).147 At the end of the first quarter of FY2022,
+there were 578 IJs on board.148
+Figure 11. Immigration Judges Hired, Departed, and On Board, FY2011-FY2021
+
+Source: EOIR, “Immigration Judge (IJ) Hiring,” Adjudication Statistics, October 2021.
+Notes: Departures have been imputed by CRS.
+
+Even with substantial investments in hiring, it would likely take several years to adjudicate the
+pending cases backlog (Table 4).
+
+147 For FY2022, EOIR sought funding to hire 100 new IJs and associated support personnel at an estimated cost of $1.6
+
+million per IJ. According to EOIR, support personnel per IJ include “one attorney position, one legal assistant; and two
+other FTEs comprised of a combination of the following positions on an as-needed basis: additional legal assistant,
+interpreter, and/or other EOIR mission support staff. Some support positions may also go to headquarters to support the
+growth of immigration courts.” The $1.6 million estimate includes salaries and associated expenses, such as office
+space, for a full year. EOIR also requested funding for 100 attorney advisors to support IJs and appellate judges,
+stating, “With a higher ratio of attorneys to IJs, EOIR will be able to issue more written decisions rather than relying on
+oral decisions, which can require more time in court and can increase the time it takes to close a case.” See EOIR,
+FY2022 Performance Budget: Congressional Budget Submission¸ May 2021.
+148 EOIR, “Immigration Judge (IJ) Hiring,” Adjudication Statistics, January 2022.
+
+Congressional Research Service
+
+31
+
+Table 4. Estimated Impact of Immigration Judge Hiring on Pending Cases Backlog
+Scenarios based on hiring 0, 100, 200, 300, 400, or 500 additional IJs and holding average cases completed and average new cases constant
+Annual backlog change, based on number of additional judges
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+578
+
+678
+
+778
+
+878
+
+978
+
+1,078
+
+294,607
+
+345,577
+
+396,547
+
+447,517
+
+498,487
+
+549,457
+
+56,732
+
+5,762
+
+(45,208)
+
+(96,178)
+
+(147,148)
+
+(198,118)
+
+Number of additional judges
+Total number of judges, with additional
+Each judge completes an average of 509.7 cases annually
+Estimated number of cases completed annually by total number of judges (total
+number of judges x 509.7 cases)
+The average number of new cases each year is 351,339
+Estimated annual change to backlog
+(351,339 cases—estimated number of cases completed)
+
+Expected total backlog (starting backlog + estimated annual change to backlog)
+Starting backlog (actual size of backlog as of FY2022 Q1)
+
+1,503,931
+
+1,503,931
+
+1,503,931
+
+1,503,931
+
+1,503,931
+
+1,503,931
+
+Estimated size of backlog in FY2023
+
+1,560,663
+
+1,509,693
+
+1,458,723
+
+1,407,753
+
+1,356,783
+
+1,305,813
+
+Estimated size of backlog in FY2024
+
+1,617,395
+
+1,515,455
+
+1,413,515
+
+1,311,575
+
+1,209,635
+
+1,107,695
+
+Estimated size of backlog in FY2025
+
+1,674,127
+
+1,521,217
+
+1,368,307
+
+1,215,397
+
+1,062,487
+
+909,577
+
+Estimated size of backlog in FY2026
+
+1,730,859
+
+1,526,979
+
+1,323,099
+
+1,119,219
+
+915,339
+
+711,459
+
+Estimated size of backlog in FY2027
+
+1,787,591
+
+1,532,741
+
+1,277,891
+
+1,023,041
+
+768,191
+
+513,341
+
+Estimated size of backlog in FY2028
+
+1,844,323
+
+1,538,503
+
+1,232,683
+
+926,863
+
+621,043
+
+315,223
+
+Estimated size of backlog in FY2029
+
+1,901,055
+
+1,544,265
+
+1,187,475
+
+830,685
+
+473,895
+
+117,105
+
+Estimated size of backlog in FY2030
+
+1,957,787
+
+1,550,027
+
+1,142,267
+
+734,507
+
+326,747
+
+(81,013)
+
+Estimated size of backlog in FY2031
+
+2,014,519
+
+1,555,789
+
+1,097,059
+
+638,329
+
+179,599
+
+(279,131)
+
+Sources: Average cases completed annually per IJ: five-year average of case completions per IJ, FY2016-FY2020 (see Figure 7). Excludes FY2021 due to abnormally low case completions
+related to the COVID-19 pandemic. Average annual new cases: five-year average of case receipts, FY2016-FY2020 (see Figure 4). Actual size of backlog as of FY2022, Q1: see Figure 2.
+Notes: IJ values are based on the number of IJs on staff in the first quarter of FY2022. Backlog values under different IJ hiring scenarios are best estimates based on recent data. It is possible
+that annual case receipts could decline to a level lower than the current five-year average, for example, under the new asylum rule if DHS issues fewer NTAs due to new prosecutorial
+discretion priorities, or if IJ productivity increases in the case that more attorney advisors and support staff are hired. In such cases, these figures would underestimate the impact of IJ hiring.
+Conversely, if DHS were to issue more NTAs than average or if IJ productivity were to decline, these figures would overestimate the impact of IJ hiring. Projections do not take into account IJ
+departures.
+
+CRS-32
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+As shown in Table 4, even with hiring 100 additional IJs, the pending cases backlog would be
+expected to grow. Hiring an additional 200 IJs would reduce the backlog, a scenario under which
+CRS estimates pending cases would decline to just under 1.1 million by FY2031. With 300
+additional IJs, the backlog would decline to an estimated 638,329 cases by FY2031.
+Higher levels of IJ hiring would have more substantial impacts in reducing the backlog: with an
+additional 400 IJs, the backlog would drop to an estimated 180,000 cases by FY2031. In the
+highest hiring scenario presented, it is expected that an additional 500 IJs would eliminate the
+backlog entirely by FY2030, holding all else equal.
+These scenarios are depicted graphically in Figure 12.
+Figure 12. Estimated Pending Cases Backlog under Different Immigration Judge
+Hiring Scenarios
+Estimates for 0, 100, 200, 300, 400, and 500 additional IJs
+
+Source: CRS analysis; see Table 4 for sources.
+
+Docket Management and Administrative Closure
+Immigration judges and other observers have advocated for IJs to maintain authority to manage
+their dockets through practices such as administrative closure. This authority had been curtailed
+in recent years.
+When a case is administratively closed, it moves from the pending active docket to an inactive
+docket. IJs and EOIR leadership under some administrations have stated that administrative
+closure allows judges to prioritize cases that are enforcement priorities while allowing lowpriority respondents time to pursue applications for relief outside of immigration courts, (e.g.,
+those pursuing a family-sponsored green card petition or a U visa for certain crime victims with
+USCIS).
+Administrative closure has been available to IJs since the 1980s.149 Examining the last 20 fiscal
+years reveals a substantially higher number of administrative closures from FY2011 through
+
+149 Elizabeth Montano, “The Rise and Fall of Administrative Closure in Immigration Courts,” The Yale Law Journal
+
+vol. 129 (2020) (hereinafter, “Montano 2020”).
+
+Congressional Research Service
+
+33
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+FY2016, after the Obama Administration issued guidance for DHS and DOJ to prioritize cases for
+individuals convicted of crimes or posing security risks (Figure 13).150
+Figure 13. Administrative Closures by Fiscal Year, FY2002-FY2021
+
+Source: EOIR, “Inactive But Pending Cases by FY of Administrative Closure,” Adjudication Statistics, October
+19, 2021.
+
+During the Trump Administration, DOJ leadership restricted IJs’ ability to administratively close
+cases. In 2018, then-Attorney General Jeff Sessions, in his review of a BIA decision, determined
+that IJs and the BIA “do not have the general authority to suspend indefinitely immigration
+proceedings by administrative closure.”151 In 2020, EOIR published a final rule in the Federal
+Register stating that IJs and BIA members do not have freestanding authority to administratively
+close cases.152
+These changes were subsequently reversed. Federal courts of appeals overruled Sessions’
+decision, finding that the BIA and IJs do have the authority to administratively close cases.153 In
+March 2021, a federal district court issued a preliminary injunction of the regulation.154 In July
+2021, a ruling issued by Attorney General Merrick Garland overturned Sessions’ decision,
+
+150 Looking back farther, TRAC has noted a previous peak in administrative closures during the late 1980s and early
+
+1990s during the Reagan and George H.W. Bush Administrations. TRAC, The Life and Death of Administrative
+Closure, September 2020.
+151 Matter of Castro Tum, 27 I&N Dec. 271 (A.G. 2018).
+152 EOIR, “Appellate Procedures and Decisional Finality in Immigration Proceedings; Administrative Closure,” 85
+Federal Register 81588, December 16, 2020; 8 C.F.R. §1003.1(d)(iii).
+153 Three circuit courts have overruled Matter of Castro Tum: the Third, Fourth, and Seventh Circuits; Jeannie
+O’Sullivan, “3rd Circ. Says BIA Can Close Cases, Contrary to 2018 Rule,” Law360, May 5, 2021.
+154 Holly Barker, “Federal Court Halts Enforcement of Sweeping New Immigration Rule,” Bloomberg Law, March 11,
+2021.
+
+Congressional Research Service
+
+34
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+restoring the ability of most IJs and the BIA to administratively close cases.155 In a November
+2021 memorandum, EOIR Director David Neal, citing EOIR’s “finite resources and a daunting
+caseload,” encouraged IJs to administratively close cases deemed low priorities by DHS.156
+Critics of this practice have claimed that administratively closing cases obscures the true scope of
+the pending cases backlog.157 If the approximately 286,000 inactive pending cases were added to
+the backlog of active cases, total pending cases would have increased from 1.4 million to 1.7
+million by the end of FY2021. Proponents have argued that restricting IJs’ ability to
+administratively close cases undermines judges’ autonomy, reduces the efficiency of courts, and
+exacerbates the backlog.158
+A 2020 TRAC analysis examined cases that were administratively closed and re-calendared from
+FY1986 through July 2020. Among those, approximately 60% of respondents were able to remain
+in the United States once their cases were re-calendared and decided either because the court
+found no grounds for removal and their cases were terminated (44%) or they were granted relief
+from removal (16%). Thirty percent of respondents were ordered removed and 10% departed
+voluntarily.159
+Other observers have argued for a different form of docket management to reduce the backlog:
+the power to dismiss so-called meritless cases early in removal proceedings.160 Part of an
+expansive 2020 federal regulation would have allowed IJs to deny applications for relief without
+a merits hearing if the respondent did not establish a prima facie (based on the first impression)
+claim for relief or protection.161 The regulation was blocked by a federal district court before it
+took effect.162
+
+IJ Quotas and Performance Measures
+Under the Trump Administration, EOIR implemented new IJ performance metrics as a method to
+reduce the backlog. These included expected completion timelines for detained cases, nondetained cases, motions, custody redeterminations, and credible fear reviews. A 2018 memo
+stated that implementation of the measures was “vital to ensure that the immigration court system
+is performing strongly, that EOIR is adjudicating cases fairly, expeditiously, and uniformly
+consistent with its mission, and that it is addressing its pending caseload in support of the
+principles established by the Attorney General.” 163
+
+155 Matter of Cruz-Valdez, 28 I. & N. Dec. 326 (A.G. 2021). Administrative closure may still be restricted in the Sixth
+
+Circuit; see Alyssa Aquino, “Garland Restores Courts’ Power to Pause Deportation Cases,” Law360, July 15, 2021.
+156 David L. Neal, EOIR Director, “Administrative Closure,” DM 22-03, November 22, 2021.
+157 Andrew R. Arthur, “Attorney General Orders Review of Administrative Closure,” blog, Center for Immigration
+Studies, January 9, 2018.
+158 Montano 2020; TRAC, The Life and Death of Administrative Closure, September 2020.
+159 TRAC, The Life and Death of Administrative Closure, September 2020.
+160 Charles Stimson and GianCarlo Canaparo, “Expanding the Toolkit: Giving Immigration Judges Authority to
+Summarily Dispose of Meritless Cases,” Heritage Foundation, July 18, 2019.
+161 EOIR, “Procedures for Asylum and Withholding of Removal; Credible Fear and Reasonable Fear Review,” 85
+Federal Register 80280, December 11, 2020.
+162 Edvard Pettersson, “Trump’s ‘Death to Asylum’ Overhaul Is Halted by U.S. Judge,” Bloomberg Law, January 8,
+2021.
+163 James R. McHenry III, EOIR Director, “Case Priorities and Immigration Court Performance Measures,”
+memorandum, January 17, 2018.
+
+Congressional Research Service
+
+35
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+To achieve satisfactory performance each year, IJs were expected to meet at least half of these
+benchmarks, as well as complete 700 cases and have a remand rate (i.e., rate of decisions
+overturned on appeal by the BIA or the circuit court) of less than 15%.
+NAIJ and some immigration attorneys objected to these measures based on due process and
+judicial independence concerns.164 For example, IJs stated that such a system creates an incentive
+to quickly terminate cases or grant relief in the interest of meeting one’s quota, rather than taking
+the time needed to review the merits of a case or grant attorneys additional time to gather
+paperwork.165 NAIJ characterized the measures as “unrealistic and ill-conceived,” failing to
+consider variation across cases and dockets, and lacking a sound basis.166 In October 2021, EOIR
+suspended those case completion quotas, stating in a memo to IJs that it was “in the process of
+developing new performance measures ... that will accurately reflect the workload of an
+immigration judge.”167
+EOIR also sought to address the backlog in its 2019 “No Dark Courtrooms” memorandum, which
+identifies unused immigration courtrooms as a factor exacerbating the size of the backlog and the
+agency’s ability to reduce it. The memo requires courts to use all blocks of available immigration
+court time each day, “unless there is absolutely no immigration judge available, including by
+[video teleconferencing].”168 Immigration attorneys have argued that the policy undermines due
+process, stating that counsel have been given inadequate notice when judges advance hearings to
+fill these slots.169
+
+Accelerated Dockets
+In response to greater numbers of individuals and families seeking humanitarian protection at the
+U.S.-Mexico border, EOIR has, at various times, implemented procedures to prioritize and fast
+track cases for unaccompanied children and families seeking asylum.170 The Obama, Trump, and
+Biden Administrations implemented accelerated dockets to adjudicate cases more quickly for
+certain arriving migrants and prevent them from remaining in the United States for long periods
+while they wait for their cases to be adjudicated. Across those Administrations, opponents of
+accelerated dockets have argued that they present due process concerns for respondents,
+undermine IJs’ ability to control their dockets, and disadvantage those in the backlog waiting to
+have their cases completed.171
+
+164 Laura Meckler, “New Quotas for Immigration Judges as Trump Administration Seeks Faster Deportations,” Wall
+
+Street Journal, April 2, 2018.
+165 Katz 2019.
+166 Tabbador 2020.
+167 Suzanne Monyak, “Immigration Judges No Longer to be Evaluated by Case Numbers,” CQ News, October 20,
+2021.
+168 James R. McHenry III, EOIR Director, “No Dark Courtrooms,” PM 19-11, March 29, 2019.
+169 Statement of American Immigration Lawyers Association Second Vice President Jeremy McKinney, in House
+Committee on the Judiciary, Subcommittee on Immigration and Citizenship, The State of Judicial Independence and
+Due Process in U.S. Immigration Courts, hearing, 116th Cong., 2nd sess., January 29, 2020 (hereinafter, “McKinney
+2020”); Kevin Penton, “FOIA Documents Shed Light on EOIR Case Management,” Law360, June 6, 2018.
+170 For more information about policies for processing migrants at the Southwest border in recent years, see CRS In
+Focus IF11363, Processing Aliens at the U.S.-Mexico Border: Recent Policy Changes. For information about
+unaccompanied children, see CRS Report R43599, Unaccompanied Alien Children: An Overview.
+171 For example, see Vera Institute of Justice, “Vera Institute of Justice Voices Opposition to ‘Rocket Docket’ Court
+Proceedings,” press release, May 29, 2021; McKinney 2020; Beth Fertig, “Fast-Tracking Families through Immigration
+Court,” WNYC News, April 2, 2019; and American Immigration Council, A Guide to Children Arriving at the Border:
+Laws Policies, and Responses, special report, June 2015.
+
+Congressional Research Service
+
+36
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+From 2014 through 2017, EOIR implemented guidance to place unaccompanied children and
+families with children on accelerated dockets (colloquially referred to as rocket dockets). The
+guidance required master calendar hearings to be held within 21 days of an NTA filing for
+unaccompanied children and within 28 days for families with children.172 Advocates opposed to
+the accelerated docket argued that respondents were not given enough time to obtain counsel.173
+TRAC found that among cases involving adults with children that were closed from July 2014
+through September 2016, 70% of respondents were unrepresented. Those who were
+unrepresented were unlikely to win their cases compared with those who had counsel.174 EOIR
+later stated that the prioritization “coincided with some of the lowest levels of case completion
+productivity in EOIR’s history and, thus, did not produce significant results.”175
+In 2018, EOIR again implemented accelerated dockets in 10 immigration courts, requiring judges
+to complete cases for family units within one year.176 Analysts noted a high rate of in absentia
+removal orders for these cases, which some attributed to a rushed, error-prone process (e.g.,
+sending hearing notices to the wrong addresses) and insufficient time to prepare for or travel to
+hearings.177 EOIR ceased fast-tracking those cases during the pandemic.178
+In May 2021, EOIR announced a Dedicated Docket for the expedited adjudication of cases for
+families apprehended between POEs and placed in removal proceedings.179 Respondents are
+enrolled in Alternatives to Detention programs.180 IJs must generally aim to issue decisions for
+cases on the Dedicated Docket within 300 days of the master calendar hearing. Cases have been
+assigned to 10 immigration courts.181 EOIR stated it “will only schedule these cases before
+immigration judges who generally have docket time available to manage a case on that timeline.”
+EOIR also stated that respondents on the Dedicated Docket will be provided with referrals for
+legal services and that the 10 cities in which immigration courts will hear these cases have
+established pro bono networks. DHS Secretary Alejandro Mayorkas and Attorney General
+Garland stated that the process will allow for more efficient and fair hearings.182 As of December
+172 Brian M. O’Leary, Chief Immigration Judge, “Docketing Practices Relating to Unaccompanied Children Cases in
+
+Light of the New Priorities,” September 10, 2014; Brian M. O’Leary, Chief Immigration Judge, “Docketing Practices
+Relating to Unaccompanied Children Cases and Adults with Children Released on Alternatives to Detention Cases in
+Light of the New Priorities,” March 24, 2015; and Sarah Pierce, “As the Trump Administration Seeks to Remove
+families, Due-Process Questions over Rocket Dockets Abound,” Migration Policy Institute, July 2019, (hereinafter,
+“Pierce 2019”).
+173 Safia Samee Ali, “Obama’s ‘Rocket Docket’ Immigration Hearings Violate Due Process, Experts Say,” NBC News,
+October 27, 2016.
+174 TRAC, With the Immigration Court’s Rocket Docket Many Unrepresented Families Quickly Ordered Deported,
+October 18, 2016.
+175 James R. McHenry III, EOIR Director, “Tracking and Expedition of ‘Family Unit’ Cases,” PM 19-04, November
+16, 2018.
+176 Locations included Atlanta, Baltimore, Chicago, Denver, Houston, Los Angeles, Miami, New Orleans, New York
+City, and San Francisco. James R. McHenry III, EOIR Director, “Tracking and Expedition of ‘Family Unit’ Cases,”
+PM 19-04, November 16, 2018.
+177 Pierce 2019; and Katy Murdza, “Rushing Immigration Court Cases through ‘Rocket Dockets’ Deprives Families of
+Due Process,” Immigration Impact blog, American Immigration Council, August 9, 2019.
+178 Jean C. King, EOIR Acting Director, “Dedicated Docket,” PM 21-23, May 27, 2021.
+179 Ibid.
+180 Alternatives to Detention programs provide supervised release and enhanced monitoring for certain non-detained
+migrants. For information about Alternatives to Detention, see CRS Report R45804, Immigration: Alternatives to
+Detention (ATD) Programs.
+181 Denver, Detroit, El Paso, Los Angeles, Miami, Newark, New York City, San Diego, San Francisco, and Seattle.
+182 Department of Justice Office of Public Affairs, “DHS and DOJ Announce Dedicated Docket Process for More
+Efficient Immigration Hearings,” news release, May 28, 2021.
+
+Congressional Research Service
+
+37
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+31, 2021, there were 54,250 cases on the Dedicated Docket; most were still pending, and there
+were 1,838 initial case completions.183
+Immigrant advocacy organizations and immigration attorneys expressed opposition to the
+Dedicated Docket announcement over concerns about due process, such as whether the
+accelerated timeline will allow respondents enough time to secure counsel and prepare a case.184
+As of December 31, 2021, 80% of respondents on Dedicated Dockets did not have legal
+representation.185
+
+Migrant Protection Protocols (Remain in Mexico)
+In addition to these recent iterations of accelerated dockets, DHS implemented the Migrant
+Protection Protocols program (MPP, or Remain in Mexico) in 2019 to process certain Southwest
+border arrivals. Under MPP, certain migrants seeking asylum are returned to Mexico while they
+await their court dates.186 As part of MPP, EOIR opened so-called tent courts in certain Southwest
+border cities. IJs have typically heard cases held in tent facilities via videoconference technology.
+Some Members of Congress, advocates, immigration attorneys, and IJs raised due process
+concerns over MPP and tent courts.187 Despite plans to schedule first hearings within 30-45 days
+of enrollment, according to DHS, “enrollment quickly outpaced EOIR’s capacity to hear cases ...
+even initial hearings were scheduled many months after enrollment.”188 Analysts found that under
+MPP, backlogs increased more quickly for courts along the border—San Diego, CA, and El Paso,
+San Antonio, and Harlingen in Texas—than for other immigration courts.189
+DHS and EOIR suspended MPP hearings in response to the COVID-19 pandemic in March 2020,
+announced the dismantling of MPP in February 2021, and formally ended the program in June
+2021.190 Explaining the decision, DHS Secretary Mayorkas stated, “some removal proceedings
+conducted pursuant to MPP were completed more expeditiously than is typical for non-detained
+cases, but this came with certain significant drawbacks that are cause for concern.” Secretary
+Mayorkas noted that MPP enrollees had high rates of in absentia removal orders (44%) and
+questioned “whether the process provided enrollees an adequate opportunity to appear for
+proceedings to present their claims for relief, and whether conditions faced by some MPP
+enrollees in Mexico, including the lack of stable access to housing, income, and safety, resulted in
+183 EOIR, “Dedicated Docket Summary by Hearing Location,” Adjudication Statistics, January 2, 2022.
+184 Sarah Betancourt, “DHS Launches Expedited Dockets for Recent Asylum-Seekers,” Law360, May 28, 2021; and
+
+Amy Taxin and Elliot Spagat, “U.S. to Expedite Immigration Cases of Families on Border,” Associated Press, May 28,
+2021.
+185 EOIR, “Dedicated Docket Summary by Hearing Location,” Adjudication Statistics, September 20, 2021.
+186 Some individuals were exempt from MPP, including unaccompanied children and Mexican nationals, and CBP
+generally did not return non-Spanish speakers to Mexico.
+187 For example, see Suzanne Monyak, “Border ‘Tent Courts’ Need Greater Oversight, Congress Told,” Law360,
+October 8, 2019; Priscilla Alvarez, “More Immigration Judges to be Assigned to Cases at Tent Facilities,” CNN
+Politics, December 6, 2019; Michelle Hackman, “U.S. Opens Immigration ‘Tent Courts’ to Public, The Wall Street
+Journal, December 29, 2019; The Honorable Jimmy Panetta, “Congressman Panetta Travels to U.S.-Mexico Border to
+Investigate Administration’s Migrant Protection Protocol,” press release, January 21, 2020; and Letter from Jerrold
+Nadler et al., House Committee on the Judiciary, to Chad Wolf, Department of Homeland Security Acting Secretary,
+January 14, 2020.
+188 DHS, “Explanation of the Decision to Terminate the Migrant Protection Protocols,” memorandum, October 29,
+2021.
+189 Muzaffar Chisti and Jessica Bolter, “Court-Ordered Relaunch of Remain in Mexico Policy Tweaks Predecessor
+Program, but Faces Similar Challenges,” Policy Beat, Migration Policy Institute, December 2, 2021.
+190 American Immigration Lawyers Association, “Featured Issue: Migrant Protection Protocols (MPP),” AILA Doc.
+No. 19091660, May 3, 2021.
+
+Congressional Research Service
+
+38
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+the abandonment of potentially meritorious protection claims.”191 A DHS Office of Inspector
+General report found that out of a sample of 106 NTAs issued to respondents in MPP, 20
+contained errors or did not meet statutory, regulatory, or DHS legal sufficiency standards.192 In
+June 2021, EOIR issued guidance authorizing IJs and the BIA to reopen cases for respondents
+who were in MPP “in a wide variety of circumstances, including circumstances presenting
+fairness concerns.”193
+In August 2021, however, a federal court ruled that DHS’s termination of MPP violated the
+Administrative Procedure Act and ordered DHS to re-implement the program.194 In October 2021,
+DHS announced it would restart the program to comply with the court order, including hiring
+contractors to rebuild tent courts in Texas.195 In December 2021, DHS announced it had reached
+an agreement with the Mexican government to restart the program, with a goal of having cases
+completed within 180 days. Individuals returned to Mexico under the new iteration of MPP will
+have their hearings heard in immigration courts in San Diego and El Paso, and in new
+Immigration Hearing Facilities (IHFs) in Laredo and Brownsville, Texas, exclusively dedicated to
+MPP cases.196 Twenty-two IJs have been assigned to hear MPP cases. The re-implementation of
+the program has resurfaced humanitarian and due process concerns raised by advocates and the
+United Nations High Commissioner for Refugees.197 From December 2021 through February
+2022, CBP enrolled 1,569 individuals in MPP.198
+
+Proposals to Change the Defensive Asylum Process
+Some proposals seek structural changes to the asylum system as a way to reduce backlogs. One
+involves overhauling the defensive asylum process. For years, observers have proposed
+regulatory changes to the defensive asylum process that would channel adjudications through
+USCIS asylum officers in non-adversarial settings at the time of the credible fear interview,
+instead of immediately referring cases with positive credible fear findings to immigration courts.
+Proponents maintain that USCIS asylum officers would be able to adjudicate cases more
+expediently, reduce court workloads, minimize time respondents spend in detention, and reduce
+detention costs.199
+191 Alejandro N. Mayorkas, DHS Secretary, “Termination of the Migrant Protection Protocols Program,” memorandum,
+
+June 1, 2021, p. 4.
+192 DHS Office of Inspector General, CBP Generally Provided Accurate Notices to Appear to Migrant Protection
+Protocols Enrollees, but Could Improve Procedures to Reduce Future Errors, OIG-21-45, July 14, 2021.
+193 EOIR, “Migrant Protection Protocols and Motions to Reopen,” PM 21-26, June 24, 2021.
+194 Grace Dixon, “Texas Judge Reinstates Trump-Era ‘Remain in Mexico’ Policy,” Law360, August 16, 2021.
+195 Camilo Montoya-Galvez, “U.S. Prepared to Restart ‘Remain in Mexico’ Border Policy in November,” CBS News,
+October 15, 2021; and Sandra Sanchez, “Construction Underway on ‘Remain in Mexico’ Court Facility in Laredo,”
+Border Report, October 19, 2021.
+196 The new guidance states, “Inadmissible noncitizens encountered at the Southwest Border at ports of entry or within
+96 hours of crossing between ports of entry are subject to placement in MPP if they are nationals of any country in the
+Western Hemisphere other than Mexico.” As with the previous iteration of MPP, unaccompanied children are exempt
+from processing under the new version of MPP, along with certain other persons, including those with “particular
+vulnerabilities” related to mental or physical health, age, sexual orientation, and gender identity. See Robert Silver,
+DHS Under Secretary, Office of Strategy, Policy, and Plans, “Guidance Regarding the Court-Ordered
+Reimplementation of the Migrant Protection Protocols,” memorandum, December 2, 2021.
+197 Ted Hesson and Dave Graham, “U.S. to Restart Trump-era Border Program Forcing Asylum Seekers to Wait in
+Mexico,” Reuters, December 2, 2021.
+198 DHS Office of Immigration Statistics, Migrant Protection Protocols Cohort Report, March 2022.
+199 United States Commission on International Religious Freedom, Report on Asylum Seekers in Expedited Removal,
+(continued...)
+
+Congressional Research Service
+
+39
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+In August 2021, USCIS and EOIR published a joint notice of proposed rulemaking (NPRM) that
+would implement such a system.200 The agencies issued an interim final rule (IFR) in March 2022
+with a May 31, 2022, effective date.201 Under the IFR, upon the effective date, individuals with a
+positive credible fear determination will have their defensive application for relief adjudicated by
+a USCIS asylum officer rather than an IJ. The written record of a credible fear interview will
+serve as an application for asylum. IJs will only review cases on appeal (i.e., those cases that are
+denied by an asylum officer) rather than adjudicating asylum claims in the first instance. The IFR
+states that this system will allow EOIR “to focus efforts on other priority work and reduce its
+substantial current backlog” and address concerns related to long wait times:
+The ability to stay in the United States for years waiting for an initial decision may motivate
+unauthorized border crossings by individuals who otherwise would not have sought to enter
+the United States and who lack a meritorious protection claim. This delay creates additional
+stress for those ultimately determined to merit asylum and other forms of humanitarian
+protection, as they are left in limbo as to whether they might still be removed and unable
+to petition for qualified family members, some of whom may still be at risk of harm.
+
+Many observers have raised concerns about this revised asylum process. Immigrant advocates
+and attorneys, including the American Bar Association (ABA), have raised due process
+concerns—including whether respondents would be detained, have access to counsel, or retain
+their right to a full hearing before an IJ—and have challenged the proposed rule’s claims that such
+a system would be more efficient.202 NAIJ was similarly critical of allowing USCIS asylum
+officers to deny asylum applications, stating that although asylum officers are well positioned to
+“find and grant those cases that are clearly meritorious” without full hearings, respondents would
+be denied important protections such as the right to cross examine witnesses or to file objections
+against evidence used against them.203 Some legal scholars argued that respondents’ inability to
+have a full hearing is counter to congressional intent to protect asylum seekers from an expedited
+removal process.204
+Some immigration enforcement advocates also voiced opposition to the NPRM, arguing in part
+that it would transfer an adjudicatory burden from EOIR to USCIS, which already has a backlog
+
+Vol. I, 2005, p. 66; Doris Meissner, Faye Hipsman, and T. Alexander Aleinikoff, The U.S. Asylum System in Crisis:
+Charting a Way Forward, Migration Policy Institute, September 2018; and ABA 2019, pp. 1-61–1-62.
+200 DHS and DOJ, “Procedures for Credible Fear Screening and Consideration of Asylum, Withholding of Removal,
+and CAT Protection Claims by Asylum Officers,” 159 Federal Register 46924, 46909, August 20, 2021.
+201 DHS and DOJ, “Procedures for Credible Fear Screening and Consideration of Asylum, Withholding of Removal,
+and CAT Protection Claims by Asylum Officers,” 87 Federal Register 18078-18226, March 29, 2022.
+202 Ellen M. Gilmer, “Biden Moves to Reshape Path for Migrants Seeking Asylum,” Bloomberg Law, July 7, 2021;
+Anna Gallagher, Executive Director, Catholic Legal Immigration Network, Inc., October 18, 2021, public comment on
+Department of Homeland Security and Department of Justice, “Procedures for Credible Fear Screening and
+Consideration of Asylum, Withholding of Removal, and CAT Protection Claims by Asylum Officers,” 159 Federal
+Register 46906, August 20, 2021; Reginald M. Turner, ABA, October 19, 2021, public comment on DHS and DOJ,
+“Procedures for Credible Fear Screening and Consideration of Asylum, Withholding of Removal, and CAT Protection
+Claims by Asylum Officers,” 159 Federal Register 46906, August 20, 2021.
+203 Mimi Tsankov, NAIJ President, October 19, 2021, public comment on DHS and DOJ, “Procedures for Credible
+Fear Screening and Consideration of Asylum, Withholding of Removal, and CAT Protection Claims by Asylum
+Officers,” 159 Federal Register 46906, August 20, 2021.
+204 Michele R. Pistone, Professor of Law, Villanova University Charles Widger School of Law, October 21, 2021,
+public comment on DHS and DOJ, “Procedures for Credible Fear Screening and Consideration of Asylum,
+Withholding of Removal, and CAT Protection Claims by Asylum Officers,” 159 Federal Register 46906, August 20,
+2021.
+
+Congressional Research Service
+
+40
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+of affirmative asylum applications and that it would incentivize unlawful migration. 205 Some
+Members of Congress have claimed that the executive branch lacks jurisdiction to shift asylum
+processing from EOIR to USCIS.206
+
+Proposals for an Article I Court System
+A number of stakeholders have advocated for Congress to move immigration courts out of DOJ
+and create an independent Article I court (i.e., a court established under Article I of the U.S.
+Constitution) within the legislative branch. Article I courts are not part of the federal judiciary but
+were designed by Congress to operate without political influence.207
+The American Immigration Lawyers Association (AILA), Federal Bar Association, ABA, NAIJ,
+and other entities argue that the placement of the immigration courts system within DOJ and
+under the authority of the Attorney General makes it susceptible to politicization and interference,
+thereby undermining judicial independence and due process in the adjudications process and
+creating conditions under which the backlog has grown substantially.208 In the 117th Congress, the
+Real Courts, Rule of Law Act of 2022 (H.R. 6577) proposes to restructure immigration courts as
+Article I courts.209
+Opponents of independent immigration courts have raised concerns about constitutional
+implications related to the executive branch’s authority over foreign policy, restructuring slowing
+IJ hiring, and the potential for funding disputes that could leave the courts under-resourced.210
+Other observers, while not opposed to independent courts, have posited that restructuring alone is
+insufficient to solve the backlog.211
+In 2017, GAO reviewed EOIR’s management of immigration courts and interviewed experts and
+stakeholders about establishing an independent immigration court. Its report states:
+Six of the ten experts and stakeholders we interviewed, including individuals affiliated with
+professional legal organizations, academia, and the private immigration bar, supported
+restructuring the immigration court system into a court independent of the executive
+branch. Two of the experts and stakeholders we contacted supported a new independent
+administrative agency within the executive branch. One of the experts and stakeholders
+205 Andrew Arthur, Robert Law, and Julie Axelrod, Center for Immigration Studies, October 18, 2021, public comment
+
+on DHS and DOJ, “Procedures for Credible Fear Screening and Consideration of Asylum, Withholding of Removal,
+and CAT Protection Claims by Asylum Officers,” 159 Federal Register 46906, August 20, 2021.
+206 Mike LaSusa, “Biden Asylum Rule Spurs Criticism, Even from Supporters,” Law360, October 22, 2021.
+207 Administrative Office of the U.S. Courts, Understanding the Federal Courts, at https://www.uscourts.gov/sites/
+default/files/understanding-federal-courts.pdf. Currently, Article I courts include the U.S. Court of Appeals for
+Veterans Claims, the U.S. Court of Appeals for the Armed Forces, and the U.S. Tax Court.
+208 See, for example, ABA 2019; AILA, “AILA Policy Brief: Restoring Integrity and Independence to America’s
+Immigration Courts,” January 24, 2020; Tabbador 2020; Letter from Robert Carlson, ABA President, Marketa Lindt,
+AILA President, Maria Vathis, Federal Bar Association President, and A. Ashley Tabaddor, NAIJ President, to
+Members of Congress, July 11, 2019.
+209 The bill’s sponsor has stated that she does not believe an independent court would necessarily have an impact on the
+backlog. Theresa Cardinal Brown (Host), This Week in Immigration, podcast, Bipartisan Policy Center, Episode 117,
+April 4, 2022.
+210 Suzanne Monyak, “Congress Mulls Independent Immigration Courts as Backlog Soars,” Roll Call, January 19,
+2022; Testimony of Andrew R. Arthur, Center for Immigration Studies, in U.S. Congress, House Judiciary Committee,
+Subcommittee on Immigration and Citizenship, For the Rule of Law, An Independent Immigration Court, hearing, 117th
+Cong., 2nd sess. January 20, 2022.
+211 For example, see Bipartisan Policy Center, “Submission for the Hearing Record,” U.S. Congress, House Judiciary
+Committee, Subcommittee on Immigration and Citizenship, For the Rule of Law, An Independent Immigration Court,
+hearing, 117th Cong., 2nd sess. January 20, 2022.
+
+Congressional Research Service
+
+41
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+supported the hybrid scenario, placing trial-level immigration judges in an independent,
+administrative agency within the executive branch, and an appellate-level tribunal outside
+of the executive branch.212
+
+Reasons cited in favor of such restructuring included increasing the public’s perception of the
+courts’ independence, providing IJs and BIA members greater judicial autonomy, improving the
+professionalism or credibility of court representatives, and improving organizational capacity or
+accountability. Reasons for opposing restructuring included that it would not address systemic
+management challenges—including the backlog of pending cases, potential hiring delays, and
+administrative challenges. GAO did not take a position on restructuring proposals.
+
+Conclusion
+In removal proceedings, IJs are the neutral arbiters who determine whether noncitizens are
+removable from the United States and eligible for relief from removal. Immigration courts are
+inextricably intertwined with other elements of the immigration system; particularly, interior and
+border enforcement. Each year, DHS files hundreds of thousands of cases with the immigration
+courts, which must be adjudicated by fewer than 600 IJs.
+Currently, a growing backlog of pending cases presents a considerable challenge for immigration
+courts. As a result, decisions regarding whether noncitizens may remain in the United States or
+must be removed from the country may be delayed for years. This raises concerns about whether
+migrants will appear for their hearings in the meantime and if respondents being allowed to
+remain in the United States while their cases make their way through the process encourages
+unauthorized migration. It also presents questions of due process for those respondents, many of
+whom are unrepresented.
+A number of factors have led immigration courts to be stretched beyond their adjudicatory
+capacity: an inadequate corps of IJs relative to levels of migration to the border and related
+immigration enforcement; claims for humanitarian protection among arriving migrants, which
+require formal removal proceedings; and a pandemic that has forced the suspension of hundreds
+of thousands of hearings in recent years.
+Proposed solutions to the backlog are multiple and wide-ranging. Some have broad support;
+particularly, hiring more IJs. EOIR has increased its hiring substantially in recent years and
+Congress has appropriated funding for this purpose. Despite record levels of IJ hiring, CRS
+projects that, holding current trends constant, staffing levels will be insufficient for adjudicating
+the existing backlog and the cases DHS will continue to file in coming years. Additional
+approaches are more contested. At the IJ level, proposals range from allowing judges to
+administratively close low-priority cases to holding IJs accountable to case completion quotas and
+other performance measures. At the agency level, there have been debates over whether it is
+efficient to prioritize certain cases on specified dockets and accelerate proceedings for
+respondents held in Mexico under the MPP. System-wide approaches include changing the
+defensive asylum system to engage USCIS asylum officers in first-line defensive asylum
+adjudications and proposals to create Article I immigration courts independent of the executive
+branch, which would require congressional action.
+
+212 GAO, Immigration Courts: Actions Needed to Reduce Case Backlog and Address Long-Standing Management and
+
+Operational Challenges, GAO-17-438, June 2017, p. 80.
+
+Congressional Research Service
+
+42
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Appendix.
+Table A-1. Acronyms
+Acronym
+
+Definition
+
+ABA
+
+American Bar Association
+
+BIA
+
+Board of Immigration Appeals
+
+CAT
+
+Convention Against Torture
+
+CBP
+
+Customs and Border Protection
+
+DHS
+
+Department of Homeland Security
+
+DOJ
+
+Department of Justice
+
+EOIR
+
+Executive Office for Immigration Review
+
+ERO
+
+Enforcement and Removal Operations (ICE)
+
+GAO
+
+U.S. Government Accountability Office
+
+HHS
+
+Department of Health and Human Services
+
+ICE
+
+Immigration and Customs Enforcement
+
+IFR
+
+Interim Final Rule
+
+IJ
+
+Immigration Judge
+
+INA
+
+Immigration and Nationality Act
+
+LPR
+
+Lawful Permanent Resident
+
+MTR
+
+Motion to Reopen or Motion to Reconsider
+
+NAIJ
+
+National Association of Immigration Judges
+
+NPRM
+
+Notice of Proposed Rulemaking
+
+NTA
+
+Notice to Appear
+
+OCAHO
+
+Office of the Chief Administrative Hearing Officer
+
+OCIJ
+
+Office of the Chief Immigration Judge
+
+OFO
+
+Office of Field Operations (CBP)
+
+OPLA
+
+Office of the Principal Legal Advisor (ICE)
+
+POE
+
+Port of entry
+
+TVPRA
+
+Trafficking Victims Protection Reauthorization Act
+
+USBP
+
+U.S. Border Patrol (CBP)
+
+USCIS
+
+U.S. Citizenship and Immigration Services
+
+Congressional Research Service
+
+43
+
+U.S. Immigration Courts and the Pending Cases Backlog
+
+Author Information
+Holly Straut
+Analyst in Immigration Policy
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+R47077 · VERSION 3 · NEW
+
+44
+
+
