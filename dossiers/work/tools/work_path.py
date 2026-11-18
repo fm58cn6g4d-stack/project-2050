@@ -216,7 +216,7 @@ line("eb", "Extended Benefits, federal share, ordinary years", ["LAB-11.04"], "g
      _eb, scale(_eb0, _R["low"] / 3.0), scale(_eb0, 2.0 * _R["high"]), "R1",
      "No recession, as in CBO's projection; a downturn is the contingent line")
 # A moderate two-year downturn: about two million exhaustees a year at about 30 weeks, at
-# about $1,000 a week by the late 2030s on the standard's benefit levels (project
+# about $1,000-1,150 a week in the mid-to-late 2030s on the standard's benefit levels (project
 # arithmetic: $491 in 2026 [EV-WRK-451] times about 1.58, grown with wages): about $60B a
 # year, $120B over the downturn, more in a deeper one (judgment).
 line("eb_recession", "Extended Benefits in one moderate two-year downturn (contingent)",
@@ -766,7 +766,8 @@ def print_booking_scenario(apply_root=None):
 #   bash models/tools/run-all.sh
 #   python3 -c "import json; r = json.load(open('build/recovery-budget.json'))['cases']['mixed']['rows']; \\
 #     g = {x['year']: x['agenda_gf_primary_bn'] for x in r}; print(round(g[2040], 1), round(sum(g[y] for y in range(2030, 2040)), 1))"
-# Expected: 609.7 and 3719.4, against main's 602.7 and 3,773.4 ($ billion; +7.0 and -54.0).
+# Expected: 613.5 and 3747.4, against main's 602.7 and 3,773.4 ($ billion; +10.85 and -26.0;
+# before the milestone fix 609.7 and 3719.4).
 # Two checks fail by design and stop the suite unless step 6a is made non-fatal as above:
 # the provision specs (step 6a; the new rows have none) and health financing's pinned
 # plan-wide gap (step 8c, after build/recovery-budget.json is written).
