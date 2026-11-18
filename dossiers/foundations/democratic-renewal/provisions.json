@@ -721,7 +721,7 @@
   "decisions": [
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Coverage turns on voting-rights violations found in a recent rolling window (working choice: the John Lewis Voting Rights Advancement Act's 25 years and thresholds, to confirm in drafting), recalculated each year, so coverage is current and violation-based, answering *Shelby County*'s objection to a frozen formula [EV-DEM-011]. Covered jurisdictions submit changes to the Justice Department or the D.C. district court. Practice-based review nationwide for listed changes in diverse places (polling place closures, list purges, redistricting), as that bill provides. Preclearance raised long-run turnout 4 to 8 points [EV-DEM-157]",
+  "parameters": "Coverage turns on voting-rights violations found in a recent rolling window (working choice: the John Lewis Voting Rights Advancement Act's 25 years and thresholds, to confirm in drafting), recalculated each year, so coverage is current and violation-based, written to meet *Shelby County*'s objection to a frozen formula [EV-DEM-011]. **No survival is claimed** (milestone fix 4): the record must be contemporaneous, violation-based and non-formulaic, and nothing guarantees a court accepts it (legacy, `domain-democracy.md`:84); and preclearance bars a change by its effect, a standard *Callais*'s constitutional reasoning puts in doubt, since the Court read enforcement legislation under the Fifteenth Amendment as having to focus on intentional discrimination [EV-DEM-390]. The fallback is in DEM-1.19. Covered jurisdictions submit changes to the Justice Department or the D.C. district court. Practice-based review nationwide for listed changes in diverse places (polling place closures, list purges, redistricting), as that bill provides. Preclearance raised long-run turnout 4 to 8 points [EV-DEM-157]",
   "eligibility": "",
   "vehicle": [
    {
@@ -735,7 +735,8 @@
   "evidence": [
    "EV-DEM-011",
    "EV-DEM-157",
-   "EV-DEM-323"
+   "EV-DEM-323",
+   "EV-DEM-390"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -749,7 +750,7 @@
   "decisions": [
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Section 2 reaches practices that result in a denial or abridgment on account of race, with findings on the current record; race-conscious remedial districting authorized where needed. Written knowing *Callais* limits Section 2 to a strong inference of intent on constitutional as well as statutory grounds [EV-DEM-007], so no survival is claimed (legacy, `domain-democracy.md`:84)",
+  "parameters": "Section 2 reaches practices that result in a denial or abridgment on account of race, with findings on the current record; race-conscious remedial districting authorized where needed. Written knowing *Callais* limits Section 2 to a strong inference of intent [EV-DEM-007] on constitutional reasoning: enforcement legislation must be congruent and proportional, and the Fifteenth Amendment bars only intentional discrimination [EV-DEM-390]; so no survival is claimed (legacy, `domain-democracy.md`:84). *Brnovich*'s guideposts, by contrast, are a reading of the statute's text, which this title may change [EV-DEM-360]",
   "eligibility": "",
   "vehicle": [
    {
@@ -764,7 +765,9 @@
    "EV-DEM-007",
    "EV-DEM-008",
    "EV-DEM-009",
-   "EV-DEM-010"
+   "EV-DEM-010",
+   "EV-DEM-360",
+   "EV-DEM-390"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -778,7 +781,7 @@
   "decisions": [
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Standing alone if III-A falls: rules of proof for the \"strong inference\" *Callais* requires (a pattern of departures from normal procedure, foreseeable and known effects, the sequence of events, history), discovery of map-drawers' data and communications, and a shift of the burden to the state once a prima facie case is made. Drafted with specialist review; new and untested",
+  "parameters": "Standing alone if III-A falls: rules of proof for the \"strong inference\" *Callais* requires (a pattern of departures from normal procedure, foreseeable and known effects, the sequence of events, history), discovery of map-drawers' data and communications, and a shift of the burden to the state once a prima facie case is made. Drafted with specialist review; new and untested. The burden shift is the part most exposed to *Callais*'s reasoning [EV-DEM-390], since a shift on less than a strong inference lets liability rest on effect; it shifts the burden of producing the state's reasons, not the burden of persuasion (working choice, milestone fix 4), and is severable from the rules of proof",
   "eligibility": "",
   "vehicle": [
    {
@@ -791,7 +794,8 @@
   "current_law": "",
   "evidence": [
    "EV-DEM-007",
-   "EV-DEM-009"
+   "EV-DEM-009",
+   "EV-DEM-390"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -805,7 +809,7 @@
   "decisions": [
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Title II, III-A and III-B each stand alone. If a ruling before 2029 also narrows intent claims, III-B's record carries the case for an amendment (AMD-5, wave three)",
+  "parameters": "Title II, III-A and III-B each stand alone. If a ruling before 2029 also narrows intent claims, III-B's record carries the case for an amendment (AMD-5, wave three). If Title II's effect standard is struck on *Callais*'s reasoning, the fallback is preclearance on an intent standard (a covered change is denied where the submission record supports the strong inference of discriminatory purpose *Callais* accepts), or AMD-5 (milestone fix 4; section 8, part 2)",
   "eligibility": "",
   "vehicle": [
    {
@@ -817,7 +821,8 @@
   "agency": "—",
   "current_law": "",
   "evidence": [
-   "EV-DEM-007"
+   "EV-DEM-007",
+   "EV-DEM-390"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -1176,7 +1181,7 @@
   "decisions": [
    "DEC-2026-11-17-66"
   ],
-  "parameters": "Admits the State of Washington, Douglass Commonwealth on the model of H.R. 51, which the House passed 216 to 208 in 2021 [EV-DEM-268], with a residual federal district around the Capitol, the White House and the Mall. The residual district's electors are directed by statute (to the national popular vote winner, or none appointed), under Congress's power over their manner of appointment; repeal of the 23rd Amendment (AMD-6) becomes hygiene, not a precondition (legacy, `domain-democracy.md`:174). 689,545 residents in 2020, more than Vermont or Wyoming [EV-DEM-267]",
+  "parameters": "Admits the State of Washington, Douglass Commonwealth on the model of H.R. 51, which the House passed 216 to 208 in 2021 [EV-DEM-268], with a residual federal district around the Capitol, the White House and the Mall. The residual district's electors are directed by statute (to the national popular vote winner, or none appointed), under Congress's power over their manner of appointment; repeal of the 23rd Amendment (AMD-6) becomes hygiene, not a precondition (legacy, `domain-democracy.md`:174). *Court risk, stated plainly (milestone fix 4):* the question is unsettled. CRS finds the Twenty-third Amendment likely keeps operating for the residual district, whose text says it \"shall appoint\" electors in the manner Congress directs, and that standing to challenge an admission act is unclear [EV-DEM-397]; the Justice Department's Office of Legal Policy argued in 1987 that statehood by statute is unconstitutional [EV-DEM-398]. Directing the electors to the popular-vote winner fits \"such manner as the Congress may direct\" better than appointing none, which sits uneasily with \"shall appoint\" (judgment); AMD-6's repeal removes the question. 689,545 residents in 2020, more than Vermont or Wyoming [EV-DEM-267]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1189,7 +1194,9 @@
   "current_law": "",
   "evidence": [
    "EV-DEM-267",
-   "EV-DEM-268"
+   "EV-DEM-268",
+   "EV-DEM-397",
+   "EV-DEM-398"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -1517,7 +1524,7 @@
   "decisions": [
    "DEC-2026-11-17-98"
   ],
-  "parameters": "A political committee that meets objective tests is presumed coordinated with a candidate, and its spending counts as contributions to the campaign, subject to the limits. The tests (working choice: any two): it supports one candidate; it is run by the candidate's recent campaign staff or family; the candidate raised money for it; it shares vendors with the campaign. The presumption is rebuttable and the section severable. Stays inside what *NRSC* left standing, which struck only party coordination limits [EV-DEM-027] [EV-DEM-028]. Super PACs and hybrid PACs spent more than $4.1 billion of 2024's $4.5 billion of outside spending [EV-DEM-024]",
+  "parameters": "A political committee that meets objective tests is presumed coordinated with a candidate, and its spending counts as contributions to the campaign, subject to the limits. The tests: it supports one candidate; it is run by the candidate's recent campaign staff or family; the candidate raised money for it; it shares vendors with the campaign. *Working choice (milestone fix 4):* any two, at least one of which is the staff-or-family test or the fundraising test, so the presumption rests on conduct linking the committee to the candidate; supporting one candidate plus shared vendors does not trigger it. The presumption is rebuttable and the section severable. *Footing, calibrated:* *Buckley* treats \"prearranged or coordinated\" spending as a disguised contribution, while spending made \"totally independently\" stays outside the limits [EV-DEM-392]; *NRSC* struck party coordination limits and vouches for nothing else [EV-DEM-027] [EV-DEM-028]. *Cruz* calls a prophylaxis-upon-prophylaxis measure a sign it may not be necessary and requires \"record evidence or legislative findings\" [EV-DEM-393], and a presumption layered on contribution limits is that kind of measure, so the act carries findings on single-candidate committees' coordination in practice (built in 2027-28 preparation from FEC enforcement files and hearings, no new cost). Staff or family plus candidate fundraising is the pair likeliest to hold; one candidate plus shared vendors, the least, which is why it no longer triggers the presumption. A court may still strike the section (section 7, 6.4). Super PACs and hybrid PACs spent more than $4.1 billion of 2024's $4.5 billion of outside spending [EV-DEM-024]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1531,7 +1538,9 @@
   "evidence": [
    "EV-DEM-024",
    "EV-DEM-027",
-   "EV-DEM-028"
+   "EV-DEM-028",
+   "EV-DEM-392",
+   "EV-DEM-393"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -1565,11 +1574,11 @@
   "id": "INT-6.01",
   "title": "Tax returns from presidential candidates",
   "agenda": "INT-6",
-  "status": "decided, point 24",
+  "status": "decided, point 24; the sanction provisional, open question 4",
   "decisions": [
    "DEC-2026-11-17-76"
   ],
-  "parameters": "Presidential and vice-presidential candidates file their recent federal tax returns with the FEC, which publishes them, as a condition of filing as a candidate with the FEC or of receiving public financing, as point 24 sets it, not of ballot access (working choice: ten years, as the For the People Act asked, to confirm in drafting)",
+  "parameters": "Presidential and vice-presidential candidates file their recent federal tax returns with the FEC, which publishes them, as a condition of filing as a candidate with the FEC or of receiving public financing, as point 24 sets it, not of ballot access (working choice: ten years, as the For the People Act asked, to confirm in drafting). *The sanction (milestone fix 4; provisional, \"Open questions for Espen\", 4):* filing as a candidate is not optional, since anyone who raises or spends more than $5,000 is a candidate [EV-DEM-396], so the duty needs a stated sanction. *Recommended:* the duty rides the financial disclosure report presidential candidates already file within 30 days of becoming candidates [EV-DEM-400]; a candidate who does not file the returns owes a civil penalty, sued for by the Justice Department in district court (CRT-10.01), and the FEC publishes the refusal; a candidate who accepts public financing forfeits it until the returns are filed. No sanction touches ballot access or the right to run, which keeps the qualifications question section 3 names (point 24) out of the provision, though a compelled-disclosure challenge remains possible (judgment)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1578,9 +1587,12 @@
     "note": "the 2029 democracy act (regular order)"
    }
   ],
-  "agency": "FEC",
+  "agency": "FEC; DOJ",
   "current_law": "",
-  "evidence": [],
+  "evidence": [
+   "EV-DEM-396",
+   "EV-DEM-400"
+  ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
   "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
@@ -1741,7 +1753,7 @@
    "DEC-2026-11-17-50",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "A prohibited holding or trade incurs a civil liability under the statute: the gain (or loss avoided) paid back, plus a fine of 10% of the value of the holding or trade (working choice, memo 6), computed from the person's own disclosure filings, with no inquiry into votes or legislative work (so the Speech or Debate Clause is not engaged). *Due process:* written notice of the computed amount; 30 days to contest the computation before the ethics office (working choice); an appeal to the chamber's ethics committee (or, for executive officials, to OGE's director) before collection. *Collection:* by the chamber's ethics office from pay or by payment; if unpaid after 90 days (working choice), the Justice Department sues in district court, which also answers *Jarkesy* (CRT-10.01). Each chamber adopts a matching rule (Article I, section 5), as the STOCK Act's late fee works. Each penalty is published. Willful violations are referred to the Justice Department. The usual STOCK Act penalty today is $200 or waived [EV-DEM-220]",
+  "parameters": "A prohibited holding or trade incurs a civil liability under the statute: the gain (or loss avoided) paid back, plus a fine of 10% of the value of the holding or trade (working choice, memo 6), computed from the person's own disclosure filings, with no inquiry into votes or legislative work (so the Speech or Debate Clause is not engaged). *Due process:* written notice of the computed amount; 30 days to contest the computation before the ethics office (working choice); an appeal to the chamber's ethics committee (or, for executive officials, to OGE's director) before collection. *Collection (milestone fix 4):* for a member, by the chamber's ethics office from pay or by payment, under each chamber's power to punish its members (Article I, section 5), with a matching rule in each chamber, as the STOCK Act's late fee works; if unpaid after 90 days (working choice), the Justice Department sues in district court. For anyone else covered (spouses, dependent children, the President and Vice President, executive officials, and anyone else the ban reaches, such as the staff `DEC-2026-11-18-16` adds), who are not subject to that power, the ethics office's or OGE's computation is a notice, not a judgment: the penalty is collected only by the Justice Department's suit in district court, with a jury if asked (CRT-10.01), since a civil penalty designed to punish or deter is legal relief [EV-DEM-391]. Each penalty is published. Willful violations are referred to the Justice Department. The usual STOCK Act penalty today is $200 or waived [EV-DEM-220]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1755,7 +1767,8 @@
   "evidence": [
    "EV-DEM-220",
    "EV-DEM-226",
-   "EV-DEM-227"
+   "EV-DEM-227",
+   "EV-DEM-391"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -2113,7 +2126,7 @@
    "DEC-2026-11-17-56",
    "DEC-2026-11-17-97"
   ],
-  "parameters": "The immigration judges in regular active service in each judicial district form a unit of the district court known as the immigration court, as bankruptcy courts are units of the district courts. It is outside the executive: it is not an agency of the Justice Department, and the Attorney General's review of decisions ends. Judgeships are authorized by circuit in the act, on the Judicial Conference's recommendation, and may sit across districts in a circuit where the caseload is concentrated",
+  "parameters": "The immigration judges in regular active service in each judicial district form a unit of the district court known as the immigration court, as bankruptcy courts are units of the district courts. *Jurisdiction and reference (milestone fix 4), copying the structure that carries the bankruptcy courts:* the district courts receive original jurisdiction of removal proceedings and the other matters the immigration act now gives immigration judges, as they hold bankruptcy cases (28 U.S.C. 1334) [EV-DEM-394]; each district court refers them to its immigration court by standing order, and may withdraw a case or proceeding, in whole or in part, for cause, as 28 U.S.C. 157(d) provides [EV-DEM-395]; it must also withdraw any proceeding whose resolution needs an Article III judge (working choice, following *Stern*; 157(d)'s own mandatory withdrawal covers a different case, bankruptcy matters that also turn on federal laws regulating interstate commerce). Immigration judges enter final orders in removal cases, a public-rights category [EV-DEM-365]; *Stern*'s limit on final judgments by non-Article III judges [EV-DEM-366] is met by withdrawal or, as *Wellness* allows, the parties' consent [EV-DEM-367]. It is outside the executive: it is not an agency of the Justice Department, and the Attorney General's review of decisions ends. Judgeships are authorized by circuit in the act, on the Judicial Conference's recommendation, and may sit across districts in a circuit where the caseload is concentrated",
   "eligibility": "",
   "vehicle": [
    {
@@ -2127,7 +2140,12 @@
   "evidence": [
    "EV-DEM-333",
    "EV-DEM-244",
-   "EV-DEM-245"
+   "EV-DEM-245",
+   "EV-DEM-365",
+   "EV-DEM-366",
+   "EV-DEM-367",
+   "EV-DEM-394",
+   "EV-DEM-395"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -2142,7 +2160,7 @@
    "DEC-2026-11-17-56",
    "DEC-2026-11-17-97"
   ],
-  "parameters": "Immigration judges are appointed by the court of appeals for the circuit for terms of 14 years and may be removed during the term only by the circuit's judicial council, for incompetence, misconduct, neglect of duty or physical or mental disability, as 28 U.S.C. 152 provides for bankruptcy judges [EV-DEM-333]. No Senate confirmation. Each circuit uses a merit screening panel with a public vacancy notice (working choice, after the bankruptcy courts' practice). Because the judges sit in the judicial branch and are removable only by judges, *Slaughter*'s holding on executive removal [EV-DEM-037] does not reach them. This meets the flagship's independence requirement (IMM-3.11)",
+  "parameters": "Immigration judges are appointed by the court of appeals for the circuit for terms of 14 years and may be removed during the term only by the circuit's judicial council, for incompetence, misconduct, neglect of duty or physical or mental disability, as 28 U.S.C. 152 provides for bankruptcy judges [EV-DEM-333]. No Senate confirmation. Each circuit uses a merit screening panel with a public vacancy notice (working choice, after the bankruptcy courts' practice). Because the judges sit in the judicial branch and are removable only by judges, *Slaughter*'s holding on executive removal [EV-DEM-037] likely does not reach them; the Court left open removal protections for non-Article III courts and did not decide the case of inferior officers [EV-DEM-399], so this is a judgment, not a holding (milestone fix 4; legacy, `domain-courts.md`:104, calls removal protection \"the vulnerable point\"). This meets the flagship's independence requirement (IMM-3.11)",
   "eligibility": "",
   "vehicle": [
    {
@@ -2156,6 +2174,7 @@
   "evidence": [
    "EV-DEM-333",
    "EV-DEM-037",
+   "EV-DEM-399",
    "EV-IMM-113"
   ],
   "sources": [],
@@ -2365,7 +2384,7 @@
    "DEC-2026-11-17-56",
    "DEC-2026-11-17-97"
   ],
-  "parameters": "The exposed point is the public-rights limit on judges outside Article III, which the legacy file finds covers immigration (legacy, `domain-courts.md`:104). The act is severable: if a court holds that a class of cases needs an Article III judge, those cases go to the district court, and the rest of the court stands. Full Article III conversion (CRT-5C) stays a long-run aspiration, not this act",
+  "parameters": "The public-rights risk is lower than the structure's: *Jarkesy* lists immigration law among the recognized public-rights categories [EV-DEM-365], as the legacy file found (legacy, `domain-courts.md`:104). The exposed point is the structure, the district court's jurisdiction and reference that keep the bankruptcy courts inside *Northern Pipeline* and *Stern* (CRT-5.01) [EV-DEM-366], which this act copies for the first time outside bankruptcy (milestone fix 4). The act is severable: if a court holds that a class of cases needs an Article III judge, those cases are withdrawn to the district court, and the rest of the court stands. Memo 9 A's Article I court is not a safe fallback: removal protection for non-Article III courts is the question *Slaughter* left open [EV-DEM-399]. Full Article III conversion (CRT-5C) stays a long-run aspiration, not this act",
   "eligibility": "",
   "vehicle": [
    {
@@ -2802,7 +2821,7 @@
    "DEC-2026-11-17-51",
    "DEC-2026-11-17-52"
   ],
-  "parameters": "Each Justice appointed after enactment serves 18 years in regular active service, then holds the office as a senior Justice, with Article III pay and tenure kept (the 28 U.S.C. 371 analogy), sitting by designation on lower courts and on the Court when it lacks a quorum. **Nine seats, two years apart:** the Court stays at nine (28 U.S.C. 1 [EV-DEM-343]); each seat has an end year so that one active term ends in each odd-numbered year, and a Justice appointed to a seat vacated early serves out that seat's term (working choice). Actual Senate consent is required; no deemed consent, the weakest link under the Appointments Clause (legacy, `domain-courts.md`:180). Prospective only, the first statutory term ends about 2047",
+  "parameters": "Each Justice appointed after enactment serves 18 years in regular active service, then holds the office as a senior Justice, with Article III pay and tenure kept (the 28 U.S.C. 371 analogy), sitting by designation on lower courts and on the Court when it lacks a quorum. **Nine seats, two years apart:** the Court stays at nine active Justices. Because senior Justices still hold the office, the act amends 28 U.S.C. 1's \"a Chief Justice ... and eight associate justices\" [EV-DEM-343] to count Justices in regular active service, with the quorum of six counted among them (milestone fix 4); each seat has an end year so that one active term ends in each odd-numbered year, and a Justice appointed to a seat vacated early serves out that seat's term (working choice). Actual Senate consent is required; no deemed consent, the weakest link under the Appointments Clause (legacy, `domain-courts.md`:180). Prospective only, the first statutory term ends about 2047; each President gets two appointments a term only once the transition ends, which needs CRT-15.02 or the sitting Justices' departures",
   "eligibility": "",
   "vehicle": [
    {

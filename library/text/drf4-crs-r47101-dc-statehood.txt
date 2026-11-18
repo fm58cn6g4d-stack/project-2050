@@ -1,0 +1,791 @@
+Source: https://www.congress.gov/crs_external_products/R/PDF/R47101/R47101.2.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-11-18 (downloaded by the session from the address above and saved with --file)
+Original SHA-256: 5e753a571a1b794b8786b7b7e4a69c27ea4bb2736df3b999719bd00863691c9b
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+DC Statehood: Constitutional Considerations
+for Proposed Legislation
+May 12, 2022
+
+Congressional Research Service
+https://crsreports.congress.gov
+R47101
+
+SUMMARY
+
+DC Statehood: Constitutional Considerations
+for Proposed Legislation
+Legislative proposals to create a new state from land previously designated as the seat of federal
+government raise constitutional questions that have not been directly answered by the judicial
+branch. The District Clause—Article 1, Section 8, clause 17 of the Constitution—gives Congress
+the authority “[t]o exercise exclusive Legislation in all Cases whatsoever, over such District (not
+exceeding ten Miles square), as may, by Cession of particular States, and the Acceptance of
+Congress, become the Seat of the Government of the United States.”
+
+R47101
+May 12, 2022
+Mainon A. Schwartz
+Legislative Attorney
+
+Scholars disagree over whether the District Clause poses a constitutional barrier to Congress’s ability to exercise its
+Admissions Clause powers—the powers that enable Congress to admit new states to the Union—over a portion of the District
+of Columbia. Some argue, for example, that once the District has been established, it should be permanent, and that a
+minimum size is necessary to carry out the functions the Framers envisioned. Others point out that those restrictions are not
+found in the Constitution’s text, and may reflect policy judgments rather than constitutional objections. Another challenge
+may arise under the Twenty-Third Amendment, ratified in 1961, which directs “the District constituting the seat of
+Government of the United States” to appoint electors that will be considered as “electors appointed by a State” for the
+purpose of electing the President and Vice President in the Electoral College.
+Novel legislation is likely to invite legal challenges raising issues of first impression. The interplay among these
+constitutional provisions has rarely been raised in federal court, so there is little judicial guidance ; the most relevant Supreme
+Court decision is almost 150 years old. The outcome of any constitutional challenges to District statehood cannot be
+predicted with any certainty. There is also a possibility that courts would decline to hear such a challenge altogether under
+justiciability doctrines.
+This report discusses the constitutional provisions that would be implicated by legislative efforts to change the District’s
+political status. Using H.R. 51 (the Washington, D.C. Admission Act, which passed the U.S. House of Representatives in
+June 2020) as a case study, this report analyzes constitutional considerations related to District statehood proposals,
+identifying legal issues Congress may consider when evaluating legislative proposals affecting the District’s status.
+
+Congressional Research Service
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+Contents
+The Constitution’s Admissions Clause .....................................................................................3
+The District Clause .................................................................................................................4
+The Twenty-Third Amendment ................................................................................................9
+The Justiciability of a Constitutional Challenge ...................................................................... 10
+Conclusion ........................................................................................................................... 12
+
+Contacts
+Author Information ............................................................................................................... 13
+
+Congressional Research Service
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+he District of Columbia (District) is an entity like no other; in legal terms, it is sui
+generis—literally “of its own kind.”1 Beyond its unique position as the United States’
+capital city and seat of government, the District is also constitutionally distinct from other
+U.S. states and territories. In practical terms, this means that when Congress considers changes
+affecting the District’s political status, the extent of Congress’s powers has not been well-defined
+by judicial precedent.
+
+T
+
+Congress has considered various proposals affecting the District’s political status with some
+regularity since the District was first established, including proposals to (1) reincorporate (legally,
+retrocede) part of the District into the State of Maryland (retrocession), (2) allow District
+residents to vote in Maryland for representatives to the House and Senate (semi-retrocession),
+(3) define the District as a congressional district for the purpose of voting representation in the
+House of Representatives, (4) provide voting rights to the District by means of a constitutional
+amendment, and (5) admit the District or parts of the District into the Union as the 51st state.2
+In June 2020, the U.S. House of Representatives voted to pass the Washington, D.C. Admission
+Act, H.R. 51. That vote marked the first time in history that either house of Congress passed a bill
+that would confer statehood on a portion of the District. Given H.R. 51’s recency, and the
+magnitude of the legal changes it proposed, it provides a salient case study for examining
+constitutional implications of changes to the District’s political status.
+Specifically, H.R. 51 would
+
+
+
+
+
+
+grant admission of Washington, Douglass Commonwealth (Douglass
+Commonwealth) into the United States as the 51st state, on equal footing with the
+other states;3
+provide for the Mayor of the District of Columbia to issue a proclamation for the
+first elections to Congress of two Senators and one Representative for Douglass
+Commonwealth;4
+apply current District of Columbia laws to Douglass Commonwealth and
+continue pending judicial proceedings;5
+
+
+
+specify that Douglass Commonwealth consists of all current District of Columbia
+territory, with specified exclusions for federal buildings and monuments,
+including the White House, the Capitol Building, the U.S. Supreme Court
+Building, principal federal monuments, and the federal executive, legislative, and
+judicial office buildings located adjacent to the National Mall and the Capitol
+Building;6
+
+
+
+designate current District of Columbia territory that is excluded from Douglass
+Commonwealth as the Capital and the seat of the federal government; 7
+
+1 Sui generis, BLACK’S LAW DICTIONARY (11th ed. 2019).
+2 For a summary of recent legislative efforts to afford District residents voting representation in Congress, see CRS In
+
+Focus IF11443, District of Columbia Statehood and Voting Representation, by Joseph V. Jaroscak.
+3 Washington, D.C. Admission Act, H.R. 51, 117th Congress § 101(a) (2021).
+4 Id. § 102(a)(1).
+5 Id. § 114.
+6 Id. § 112.
+7 Id. § 111(b).
+
+Congressional Research Service
+
+1
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+
+
+
+prohibit Douglass Commonwealth from imposing taxes on federal property
+except as Congress permits;8
+maintain federal authority over military lands and certain other property within
+Douglass Commonwealth;9
+
+
+
+provide for expedited consideration of a joint resolution to repeal the TwentyThird Amendment to the Constitution;10
+
+
+
+continue certain federal authorities and responsibilities, including employee
+benefits, agencies, courts, and college tuition assistance, until Douglass
+Commonwealth certifies that it is prepared to take over those authorities and
+responsibilities;11 and
+
+
+
+establish a Statehood Transition Commission to advise the President, Congress,
+District, and Commonwealth leaders on the transition. 12
+
+To comport with the Constitution, H.R. 51 or any District statehood bill must fall within
+Congress’s constitutional powers. If the conferral of statehood on a portion of the District through
+legislation is outside the scope of powers granted to Congress, 13 or if implementation of such
+legislation would violate a constitutional provision, constitutional challenges to its enactment
+would likely be upheld by the courts. As a general matter, courts have been guided by this
+principle: “Let the end be legitimate, let it be within the scope of the constitution, and all means
+which are appropriate, which are plainly adapted to that end, which are not prohibited, but consist
+with the letter and spirit of the constitution, are constitutional.”14
+H.R. 51 appears to rely principally on two constitutional provisions for support: the Admissions
+Clause (also known as the New States Clause) in Article IV, Section 3, clause 1; and the Enclave
+
+8 Id. § 123.
+9 Id. § 201(a).
+10 Id. § 224. The Twenty-Third Amendment provides:
+
+Section 1. The District constituting the seat of Government of the United States shall appoint in such
+manner as the Congress may direct:
+A number of electors of President and Vice President equal to the whole number of Senators and
+Representatives in Congress to which the District would be entitled if it were a State, but in no event
+more than the least populous State; they shall be in addition to those appointed by the States, but they
+shall be considered, for the purposes of the election of President and Vice President, to be electors
+appointed by a State; and they shall meet in the District and perform such duties as provided by the
+twelfth article of amendment.
+Section 2. The Congress shall have power to enforce this article by appropriate legislation.
+U.S. CONST. amend. XXIII. See also Cong. Rsch. Serv., Twenty-Third Amendment: Presidential Electors for District of
+Columbia, CONSTITUTION ANNOTATED, https://constitution.congress.gov/browse/amendment-23/ (last visited May 11,
+2022).
+11 H.R. 51, 117th Cong. §§ 301–326.
+12 Id. § 402.
+13 This includes powers expressly enumerated in the Constitution as well as those that are necessary for the exercise
+thereof. The Necessary and Proper Clause, U.S. CONST. art. I, § 8, cl. 18, supplements Congress’s enumerated powers
+and provides the legislative branch the power to adopt measures that assist in the achievement of ends contemplated by
+other constitutional provisions. See McCulloch v. Maryland (M’Culloch v. State), 17 U.S. 316, 405, 411–12 (1819);
+United States v. Comstock, 560 U.S. 126, 133–34 (2010) (describing the Necessary and Proper Clause as giving
+Congress the “broad power to enact laws that are ‘convenient, or useful’ or ‘conducive’ to” a more specific
+constitutional authority’s “beneficial exercise” (quoting McCulloch, 17 U.S. at 413, 418)).
+14 McCulloch, 17 U.S. at 421.
+
+Congressional Research Service
+
+2
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+Clause (also known as the District Clause) in Article I, Section 8, clause 17.15 It is likely that
+other District statehood proposals would invoke the same constitutional authorities. The TwentyThird Amendment, which in some ways is premised on a state-like Federal District, may pose an
+independent consideration in deliberations over any District statehood proposals.
+This report discusses these constitutional provisions that would be implicated by legislative
+efforts to change the District’s political status. Using H.R. 51 as a case study, the report analyzes
+constitutional considerations related to District statehood proposals, identifying legal issues
+Congress may consider when evaluating legislative proposals affecting the District’s status. The
+report concludes with a discussion of the justiciability of potential legal challenges to legislative
+proposals in this area.
+
+The Constitution’s Admissions Clause
+The Admissions Clause provides that:
+New States may be admitted by the Congress into this Union; but no new State shall be
+formed or erected within the Jurisdiction of any other State; nor any State be formed by the
+Junction of two or more States, or Parts of States, without the Consent of the Legislatures
+of the States concerned as well as of the Congress.16
+
+This commits to Congress the process of admitting new states to the Union, a power that
+Congress has exercised through legislation 37 times.17
+Some commentators have posited that conferring statehood upon part of the current District of
+Columbia would violate the Admissions Clause because the District of Columbia comprises land
+that was once part of the State of Maryland, and the consent of Maryland’s legislature has not
+been obtained.18 Using H.R. 51 as an example, the primary rebuttal to this argument might be that
+Douglass Commonwealth would not be formed “within the Jurisdiction of any other State,”
+because no part of the District of Columbia is presently within Maryland’s jurisdiction. Congress
+currently retains plenary legislative authority over the District of Columbia. 19
+
+15 167 CONG. REC. H52 (daily ed. Jan. 4, 2021) (establishing constitutional authority for H.R. 51).
+16 U.S. CONST. art. IV, § 3, cl. 1. See also Cong. Rsch. Serv., ArtI.S8.C17.1.1 Power over the Seat of Government:
+
+Historical Background, CONSTITUTION ANNOTATED, https://constitution.congress.gov/browse/essay/artI-S8-C17-11/ALDE_00001079/ (last visited May 11, 2022).
+17 See, e.g., Keaukaha-Panaewa Cmty. Ass’n v. Hawaiian Homes Comm’n, 588 F.2d 1216, 1223 (9th Cir. 1978)
+
+(noting “[t]hirty-seven States have previously been admitted to the Union by action of Congress”). Much of this
+enabling legislation imposes criteria that a would-be state must satisfy before admission. However, the U.S. Supreme
+Court has ruled that the Constitution prohibits enforcing such criteria after statehood if they would result in the new
+state being on an unequal footing with her sister states. E.g., Coyle v. Smith, 221 U.S. 559, 573 (1911) (declining to
+enforce a restriction on the location of the new state’s capital found in the enabling legislation) (“[W]hen a new state is
+admitted into the Union, it is so admitted with all of the powers of sovereignty and jurisdiction which pertain to the
+original states, and that such powers may not be constitutionally diminished . . . by any conditions, compacts, or
+stipulations embraced in the act under which the new state came into the Union, which would not be valid and effectual
+if the subject of congressional legislation after admission.”).
+18 See, e.g., R. HEWITT P ATE, T HE HERITAGE LECT URES NO. 461, D.C. STATEHOOD : NOT WITHOUT A CONSTITUTIONAL
+AMENDMENT 5 (1993), http://thf_media.s3.amazonaws.com/1993/pdf/hl461.pdf (last visited Mar. 15, 2021) (discussing
+the New Columbia Admission Act, H.R. 51, 103d Cong. (1993)).
+19 See U.S. CONST . art. I, § 8, cl. 17. See also Cong. Rsch. Serv., ArtIV.S3.C1.1.1.1 Admission of and the Rights of New
+States: Historical Background, CONSTITUTION ANNOTATED, https://constitution.congress.gov/browse/essay/artIV-S3C1-1-1-1/ALDE_00001170/ (last visited May 11, 2022).
+
+Congressional Research Service
+
+3
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+The District Clause
+In relevant part, the District Clause provides that Congress has the power:
+To exercise exclusive Legislation in all Cases whatsoever, over such District (not
+exceeding ten Miles square) as may, by Cession of particular States, and the Acceptance
+of Congress, become the Seat of Government of the United States . . . . 20
+
+The original Federal District comprised 10 miles square,21 chosen by President George
+Washington to encompass the ports of Georgetown and Alexandria, duly ceded by Virginia and
+Maryland,22 and accepted by Congress as the seat of government. 23
+Congress later reduced the size (and changed the shape) of the Federal District. By the 1840s, a
+move for retrocession peaked among the District of Columbia residents south of the Potomac
+(that is, on the land previously ceded by Virginia). 24 On July 9, 1846, Congress determined it did
+not require the land ceded by Virginia for the seat of government. 25 Congress authorized the
+land’s retrocession to Virginia, contingent on first obtaining “the assent of the people of the
+county and town of Alexandria”26—that is, of the individual residents who would be affected by
+retrocession—notwithstanding that the Commonwealth of Virginia had already given its
+consent. 27 The voters of Alexandria County assented; President James K. Polk proclaimed the
+retrocession shortly thereafter. 28
+
+20 Id.; Palmore v. United States, 411 U.S. 389, 397 (1973) (“Not only may statutes of Congress of otherwise nationwide
+
+application be applied to the District of Columbia, but Congress may also exercise all the police and regulatory powers
+which a state legislature or municipal government would have in legislating for state or local purposes. Congress ‘may
+exercise within the District all legislative powers that the legislature of a state might exercise within the State . . . so
+long as it does not contravene any provision of the constitution of the United States.’” (quoting Capital Traction Co. v.
+Hof, 174 U.S. 1, 5 (1899))).
+21 Ten miles square is 100 square miles. See, e.g., Memorandum from Thomas Jefferson (Aug. 29,
+1790), https://founders.archives.gov/documents/Washington/05-06-02-0176 (noting Jefferson’s presumption that
+legislation enabling selection of “a territory not exceeding 10 miles square” meant “100 square miles in any form”).
+22 1798 Md. Acts, ch. 2, ratified by 1791 Md. Acts ch. 45, § 2 (quoted in Adams v. Clinton, 90 F. Supp. 2d 35, 58
+
+(D.D.C.) (2000)); 13 William W. Hening, L AWS OF VIRGINIA 43, ch. XXXII (1789).
+23 See Residence Act, 1 Stat. 130 (1790) (authorizing the President of the United States to appoint and direct
+commissioners to survey and acquire land for the Federal District).
+24 See Amos B. Casselman, The Virginia Portion of the District of Columbia, 12 RECORDS COLUMBIA HIST . SOC’Y,
+WASH., D.C. 115, 123–34 (1909), https://www.jstor.org/stable/40066996; Mark David Richards, The Debates Over the
+Retrocession of the District of Columbia, 1801–2004, 16 WASH. HIST. 55, 59–62, 66–68 (2004),
+http://www.dchistory.org/wp-content/uploads/2020/03/10-Debates-Over-Retrocession-by-Mark-David-Richards-161.pdf/.
+25 Act of July 9, 1846, ch. XXXV, 9 Stat. 35. The Act provided:
+Whereas, no more territory ought to be held under the exclusive legislation given to Congress over
+the District which is the seat of the General Government than may be necessary and proper for the
+purposes of such a seat; and whereas, experience hath shown that the portion of the District of
+Columbia ceded to the United States by the State of Virginia has not been, nor is ever likely to be,
+necessary for that purpose . . . .
+26 Id. § 4 (“And be it further enacted, That this act shall not be in force until after the assent of the people of the county
+and town of Alexandria shall be given to it in the mode hereinafter provided.”).
+27 Id. pmbl. (“[W]hereas, the State of Virginia, by an act passed on the third day of February, eighteen hundred and
+
+forty-six, entitled ‘An act accepting by the State of Virginia the County of Alexandria, in the District of Columbia,
+when the same shall be receded by the Congress of the United States,’ hath signified her willingness to take back the
+said territory ceded as aforesaid . . . .”).
+28 Announcement of Vote to Retrocede the County of Alexandria to the State of Virginia, Proclamation No. 48 (Sept. 7,
+
+Congressional Research Service
+
+4
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+A case presenting a constitutional challenge to the 1846 retrocession, Phillips v. Payne, eventually
+made its way to the U.S. Supreme Court in 1875, 29 but was dismissed without an examination of
+the merits of the constitutional arguments. Central to the Court’s holding was the fact that after
+retrocession, both Virginia and the federal government uniformly treated Alexandria County as
+once again a part of Virginia for all intents and purposes. The Court stated: “A government de
+facto, in firm possession of any country, is clothed, while it exists, with the same rights, powers,
+and duties, both at home and abroad, as a government de jure.”30 Noting that more than 25 years
+had elapsed, and neither Virginia nor the United States had complained of the retrocession, the
+Court held that the displeased resident of Alexandria County who raised the constitutional
+challenge was estopped from doing so:
+He cannot, under the circumstances, vicariously raise a question, nor force upon the parties
+to the compact an issue which neither of them desires to make.
+In this litigation we are constrained to regard the de facto condition of things which exists
+with reference to the county of Alexandria as conclusive of the rights of the parties before
+us. 31
+
+This case, however, pre-dated the development of modern justiciability doctrine (discussed
+below), and it is therefore difficult to imagine the present-day Supreme Court using the same line
+of reasoning if faced with a challenge to H.R. 51. Accordingly, the precedential value of Phillips
+v. Payne’s central holding seems limited, especially given the nearly 30-year delay in that case’s
+resolution and the factual distinctions of retrocession in contrast to statehood.
+Constitutional challenges to H.R. 51 may still arise from the District Clause, which some
+commentators read as limiting Congress’s power to change the seat of government once it is
+established. For example, some argue that “[t]he plain meaning of Article I is that ‘the Seat of
+Government of the United States’ comprises all the land supplied for that purpose,”32 but this
+understanding is not specified in the Constitution’s text and appears inconsistent with historical
+practice. As noted, the current District of Columbia is already substantially smaller than the
+original Federal District, because much of “the land supplied for [the] purpose” of the District
+was retroceded to Virginia more than a century ago. If the Clause is read to include all land
+supplied for use as the seat of government, the District of Columbia would seemingly still include
+Alexandria County.
+Congress’s anticipated power to fix the seat of government “permanently” was raised by Charles
+Pinckney, a South Carolina delegate to the Constitutional Convention, but no such wording was
+incorporated into the Constitution’s final text.33 The Framers chose to set a maximum size for the
+Federal District, but no other size-related restrictions. 34 The Federal District’s precise size and
+location remained unsettled for some time after the constitutional text was sent to the states for
+1846).
+29 Phillips v. Payne, 92 U.S. 130 (1875).
+30 Id. at 133.
+31 Id. at 134.
+32 E.g., Jeff Jacoby, Opinion, The Constitution Says No to DC Statehood, BOS. GLOBE, (June 21, 2020),
+
+https://www.bostonglobe.com/2020/06/21/opinion/constitution-says-no-dc-statehood/.
+33 “There is also an authority to the National Legislature, permanently to fix the seat of the general Government . . . .”
+Charles Pinckney, Letter to the Federal Convention, in Philadelphia, on the 28th of May, 1787, in 3 T HE RECORDS OF
+THE FEDERAL CONVENTION OF 1787, at 122 (Max Farrand ed., 1911), https://oll.libertyfund.org/title/farrand-the-recordsof-the-federal-convention-of-1787-vol-3 .
+34 U.S. CONST. art. I, § 8, cl. 17.
+
+Congressional Research Service
+
+5
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+ratification. At least two states besides Maryland and Virginia (Delaware and New Jersey) passed
+resolutions authorizing Congress to choose an appropriate site (also “not exceeding ten miles
+square”) for the seat of government from within their borders.35 It is therefore conceivable that
+the Federal District could have been much smaller and located in Delaware or New Jersey had
+Congress chosen to accept one of those states’ offers.36 During the Virginia ratification debates,
+James Madison—who played a significant role in the drafting of the Constitution while a delegate
+to the Constitutional Convention—noted that the District Clause grants Congress “the power of
+legislating over a small district, which cannot exceed ten miles square, and may not be more than
+one mile.”37
+A different but related argument is that the seat of government became permanently fixed not by
+the Constitution in Article I, but by Congress’s legislative acceptance of Maryland’s and
+Virginia’s cession for that purpose. The Residence Act of 1790 used terms of permanence,
+providing:
+a district of territory, not exceeding ten miles square, to be located as hereafter directed on
+the river Potomac, at some place between the mouths of the Eastern Branch and
+Connogochegue, be, and the same is hereby accepted for the permanent seat of the
+government of the United States. 38
+
+This view is reflected, to some extent, in an opinion arguing against the constitutionality of the
+1846 Alexandria County retrocession, memorialized in a letter submitted by a legal scholar to the
+Senate in January 1910. 39 The letter avers that the Federal District, once created, could not be
+altered. Accordingly, “[t]he nation can only be protected against” an annulment of the entire
+Federal District “by a judgment of the Supreme Court of the United States declaring the act of
+retrocession of 1846 to be null and void.”40 Whatever merit this argument might have in theory,
+
+35 Delaware Convention Proceedings, MD. J., (Dec. 14, 1787), https://www.consource.org/document/delaware-
+
+convention-proceedings-maryland-journal-1787-12-14/; New Jersey Convention Proceedings, T RENTON MERCURY,
+(Dec. 20, 1787), https://www.consource.org/document/new-jersey-convention-proceedings-trenton-mercury-1787-1220/.
+36 See also Speech of the Hon. R. M. T. Hunter, of Virginia, On the Subject of the Retrocession of Alexandria to
+
+Virginia (May 8, 1846), https://hdl.handle.net/2027/hvd.hne9lw?urlappend=%3Bseq=12:
+The constitution provides that the territory ceded for [the seat of government] shall not exceed ten
+miles square. Mr. Madison, in the debates upon the Federal Constitution in the Virginia Convention,
+said that Congress might take one square mile or ten miles square, as they saw best. . . . Now suppose,
+Mr. Chairman, that they had taken at first only one square mile, and that had proved insufficient, will
+any man doubt but that they might have taken more by a subsequent cession, provided they did not
+exceed the quantity limited by the constitution[?]
+37 Proceedings of the Virginia Convention, June 14, 1788, in 3 T HE DEBATES IN THE SEVERAL STATE CONVENTIONS ON
+THE ADOPTION OF THE FEDERAL CONSTITUTION (Jonathan Elliot ed., 2d ed. 1836), https://oll.libertyfund.org/title/elliotthe-debates-in-the-several-state-conventions-vol-3/ [hereinafter Proceedings of the Virginia Convention].
+38 Residence Act, 1 Stat. 130 (1790) (emphasis added).
+39 Letter From Hannis Taylor to Hon. Thomas H. Carter, U.S. Sen., Rendering an Opinion as to the Constitutionality of
+the Act of Retrocession of 1846 (Jan. 17, 1910), https://hdl.handle.net/2027/loc.ark:/13960/t1gh9s15c?urlappend=
+%3Bseq=3 (referred to the Committee on the District of Columbia). Mr. Taylor opined that the 1846 retrocession,
+together with the cessions from Virginia and Maryland and 19 individual landowners, created a quadrilateral contract
+foreclosing any possibility of altering the Federal District once established. Id. at 12–13.
+40 Id. (applying principles of contract law to reach this conclusion). “If that attempted recession upon the part of the
+
+United States and Virginia is valid, then the contract as a whole fails. Neither party is bound unless all are bound. If the
+United States and Virginia, as a matter of law, actually annuled [sic] the quadrilateral contract, then Maryland and the
+representatives of the 19 proprietors can justly and legally claim every foot of land embraced in the limits of the
+District as now defined.” Id.
+
+Congressional Research Service
+
+6
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+however, the continued recognition of the Federal District since the act of retrocession some 175
+years ago undercuts its persuasive authority.41
+To a certain extent, then, the retrocession of Alexandria County to Virginia may provide a
+historical blueprint for H.R. 51. Congress evidently determined on that occasion that shrinking
+the Federal District’s physical size was not inconsistent with either the constitutional form or the
+practical function of the seat of government. 42 However, the 1846 retrocession was subject to
+decades of debate, and its constitutionality has never been subject to final judicial
+determination. 43
+Some commentators have framed their constitutional objections to statehood somewhat
+differently, objecting to a reduction in the Federal District’s size because the District’s diminished
+size would make it impracticable for what they view as the District’s intended purpose.44 The
+drafting of the District Clause was likely informed by the Continental Congress’s experience in
+Philadelphia just a few years before the Constitutional Convention. 45 Though the British
+surrendered at Yorktown in 1781, the 1783 Treaty of Paris would not formally end the war
+between Britain and the former colonies until its ratification in 1784. 46 The Continental Army and
+associated state militias were still deployed, but many were owed back pay.47 On June 21, 1783,
+as many as 400 disgruntled militia members gathered outside the Pennsylvania state house, which
+was both the usual meeting place of the Continental Congress and the chambers of
+Pennsylvania’s state leaders.48 That evening, the Continental Congress, “having been . . . grossly
+insulted by the disorderly and menacing appearance of a body of armed soldiers” at the
+Congress’s meeting place, demanded that Pennsylvania take immediate action to protect the
+peace.49 If Congress was not assured it could expect “adequate and prompt exertions of
+41 Opponents of proposals involving retroceding the District of Columbia’s residential portions to Maryland (see, e.g.,
+
+District of Columbia-Maryland Reunion Act, H.R. 472, 11th Cong. (2021)) may note that Congress’s action to
+retrocede Alexandria County followed—and expressly cited—the Virginia legislature’s prior affirmative act to accept
+retrocession. Act of July 9, 1846, ch. XXXV, pmbl., 9 Stat. 35 (“[W]hereas, the State of Virginia, by an act passed on
+the third day of February, eighteen hundred and forty-six, entitled ‘An act accepting by the State of Virginia the County
+of Alexandria, in the District of Columbia, when the same shall be receded by the Congress of the United States,’ hath
+signified her willingness to take back the said territory ceded as aforesaid . . . .”).
+42 Act of July 9, 1846, 9 Stat. 35 (concluding the “portion of the District of Columbia ceded to the United States by the
+State of Virginia has not been, nor is ever likely to be, necessary” for use as the seat of government).
+43 See supra note 29 and accompanying text (discussion of Phillips v. Payne, 92 U.S. 130 (1875)).
+44 E.g., U.S. DEP’T OF JUSTICE, OFF. OF LEGAL P OL’Y, REPORT TO THE ATTORNEY GENERAL : T HE Q UESTION OF
+STATEHOOD FOR THE DISTRICT OF COLUMBIA 57–58 (Apr. 3, 1987), https://www.ojp.gov/pdffiles1/Digitization/
+115093NCJRS.pdf.
+45 Id. at 53 (“In explaining the genesis of the District[,] reference is inevitably made to the Philadelphia Mutiny which
+
+took place in June of 1783.”).
+46 Definitive Treaty of Peace Between the United States of America and His Britannic Majesty, 8 Stat. 80 (1783); see
+also 26 JOURNALS OF THE CONTINENT AL CONGRESS 23 (1784), https://memory.loc.gov/cgi-bin/.ampage?collId=
+lljc&fileName=026/lljc026.db&recNum=28.
+47 See Whereas: Stories from the People’s House: Chasing Congress Away, U.S. HOUSE OF REPRESENTATIVES HISTORY,
+ART & ARCHIVES (June 1, 2015), https://history.house.gov/Blog/2015/June/6-1-Chasing-Congress/ [hereinafter Chasing
+Congress Away]; see also generally Kenneth R. Bowling, New Light on the Philadelphia Mutiny of 1783: FederalState Confrontation at the Close of the War for Independence, 101 P A. MAG. OF HIST. & BIOGRAPHY 419 (1977),
+https://journals.psu.edu/pmhb/article/view/43383/43104.
+48 Chasing Congress Away, supra note 47. It is unclear whether the militia members chose that location because of
+Congress’s presence; at least some of the militia leaders were apparently meeting with the state leaders, who were more
+directly responsible for promised financial payments.
+49 24 JOURNALS OF THE CONTINENT AL CONGRESS 410 (1783), https://memory.loc.gov/cgi-bin/ampage?collId=
+lljc&fileName=024/lljc024.db&recNum=417.
+
+Congressional Research Service
+
+7
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+[Pennsylvania] for supporting the dignity of the federal government,” Congress authorized its
+next meeting to be held in New Jersey.50
+Based on these historical events, one might argue that the Federal District’s size was intended to
+be large enough to sustain its own police force or other security. This argument is supported by
+James Madison’s writings in The Federalist No. 43, wherein he emphasizes “[t]he indispensable
+necessity of complete authority at the seat of government,” stating:
+Without it, not only the public authority might be insulted and its proceedings interrupted
+with impunity; but a dependence of the members of the general government on the State
+comprehending the seat of the government, for protection in the exercise of their duty,
+might bring on the national councils an imputation of awe or influence, equally
+dishonorable to the government and dissatisfactory to the other members of the
+Confederacy. 51
+
+Madison believed his argument extended equally to federal buildings throughout the United
+States: “The necessity of a like authority over forts, magazines, etc., established by the general
+government, is not less evident.”52 Those federal enclaves, however, seem not to have prompted
+arguments that they must be a minimum size, nor objections to their reliance on state resources
+for power and other resources. Accordingly, Madison’s concern appears more relevant to the
+federal government’s independent authority to provide security for federal areas, rather than a
+concern over size or physical independence.
+Whether a smaller-sized Federal District would raise new or different security concerns than the
+current Federal District, however, is subject to debate. The Pentagon is already located in
+Virginia, and many federal troops are stationed outside the District’s boundaries. Nor is there any
+current statutory requirement that members of the Capitol Police or D.C. National Guard live in
+the District of Columbia rather than in Maryland or Virginia. 53 Nonetheless, it is possible that
+there is some size of Federal District too small to carry out the essential functions of government,
+but drawing the line between “sufficient” and “too small” would seem to depend on policy
+judgments rather than constitutional text—judgments that the District Clause seems to commit to
+Congress when setting forth its “exclusive” legislative authority over the nation’s seat of
+government. 54
+In the modern era, arguments that Congress lacks constitutional authority to reduce the Federal
+District’s size seem targeted at preserving the Federal District’s current size following the 1846
+reduction. 55 There seem to be few suggestions that the District of Columbia must be restored to its
+original dimensions to comply with the Constitution. Current objections appear related to a
+potential reduction’s scale, rather than to an alleged lack of underlying power to effect that
+reduction. 56 Given the Constitution offers no specific guidelines for the Federal District’s size—
+50 Id.
+51 T HE FEDERALIST NO. 43 (James Madison).
+52 Id.
+53 But see Zach Smith, Commentary, D.C. Statehood Bill is Constitutionally Dubious and Pragmatically Flawed,
+
+HERITAGE FOUND. (July 5, 2020), https://www.heritage.org/the-constitution/commentary/dc-statehood-billconstitutionally-dubious-and-pragmatically-flawed (“The federal government shouldn’t be dependent on local
+authorities for its safety and security.”).
+54 U.S. CONST. art. I, § 8, cl. 17.
+55 See, e.g., Smith, supra note 53; Roger Pilon, Testimony Re: H.R. 51: Making DC the 51st State, CATO INST . (Sept.
+19, 2019), https://www.cato.org/testimony/testimony-re-hr-51-making-dc-51st-state/.
+56 E.g., Roger Pilon, Commentary, D.C. Statehood is a Fool’s Errand, CATO INST . (June 5, 2016),
+
+https://www.cato.org/commentary/dc-statehood-fools-errand/ (citing the mention of “ten Miles square” and subsequent
+
+Congressional Research Service
+
+8
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+other than to set a 10-mile-square maximum size—it is difficult to find a textual basis in the
+Clause to distinguish between permissible and impermissible reductions in size. 57
+
+The Twenty-Third Amendment
+Congress passed a Joint Resolution proposing the Twenty-Third Amendment in June 1960. 58 The
+Amendment permits the “District constituting the seat of Government of the United States” to
+appoint electors for President and Vice President “in such manner as the Congress may direct”
+with no more electors than the least populous state, but otherwise the number of electors to which
+it would be entitled if it were a state.59 Approximately nine months later, 38 of the 50 states had
+ratified the Amendment, 60 thereby fulfilling the Constitution’s Article V requirement that
+amendments or repeals must be ratified by three-fourths of the states.61 Six months after
+ratification, Congress exercised its power under Section 2 of the Twenty-Third Amendment to
+enact Public Law No. 87-389, establishing the mechanics of voting for President and Vice
+President in the District of Columbia. 62
+In the context of H.R. 51, because it would reduce (rather than eliminate) the “District
+constituting the seat of Government of the United States” primarily to the federal buildings in
+present-day downtown DC, it seems likely that the Twenty-Third Amendment would continue to
+operate as written, potentially giving state-like electoral power to the greatly limited population of
+the reduced Federal District, should there be any such population and should those residents
+choose to exercise that power.63
+
+establishment of a ten-square-mile district as “strong evidence” against an “enclave scheme” similar to H.R. 51’s
+establishment of Douglass Commonwealth, but not suggesting that the District of Columbia’s current size is
+unconstitutional).
+57 James Madison explained during the Virginia constitutional ratification debates that the Federal District could be as
+
+small as one mile square. Proceedings of the Virginia Convention, supra note 37.
+58 Joint Resolution Proposing an Amendment to the Constitution of the United States, S.J. Res. 39, 74 Stat. 1057
+(1960).
+59 U.S. CONST. amend XXIII.
+60 Thirty-nine state legislatures ratified the Twenty-Third Amendment in the following order: Hawaii, June 23, 1960;
+Massachusetts, August 22, 1960; New Jersey, December 19, 1960; New York, January 17, 1961; California, January
+19, 1961; Oregon, January 27, 1961; Maryland, January 30, 1961; Idaho, January 31, 1961; Maine, January 31, 1961;
+Minnesota, January 31, 1961; New Mexico, February 1, 1961; Nevada, February 2, 1961; Montana, February 6, 1961;
+Colorado, February 8, 1961; Washington, February 9, 1961; West Virginia, February 1961; Alaska, February 10, 1961;
+Wyoming, February 13, 1961; South Dakota, February 14, 1961; Delaware, February 20, 1961; Utah, February 21,
+1961; Wisconsin, February 21, 1961; Pennsylvania, February 28, 1961; Indiana, March 3, 1961; North Dakota, March
+3, 1961; Tennessee, March 6, 1961; Michigan, March 8, 1961; Connecticut, March 9, 1961; Arizona, March 10, 1961;
+Illinois, March 14, 1961; Nebraska, March 15, 1961; Vermont, March 15, 1961; Iowa, March 16, 1961; Missouri,
+March 20, 1961; Oklahoma, March 21, 1961; Rhode Island, March 22, 1961; Kansas, March 29, 1961; Ohio, March
+29, 1961; and New Hampshire, March 30, 1961. Cong. Rsch. Serv., Ratification of Amendments to the Constitution,
+CONSTITUTION ANNOTATED, https://constitution.congress.gov/browse/essay/intro.5/ALDE_00001236/ (last visited Mar.
+17, 2021). Arkansas rejected the Amendment; the remaining states took no action. See Senate Committee on Rules and
+Administration, U.S. SENATE MANUAL 582 n.14, 116th Congress (2020), https://www.govinfo.gov/content/pkg/SMAN116/pdf/SMAN-116.pdf.
+61 U.S. CONST. art. V. (providing, in pertinent part, that “Amendments . . . shall be valid to all Intents and Purposes, as
+Part of this Constitution, when ratified by the Legislatures of three fourths of the several States”).
+62 An Act to Amend the Act of August 12, 1955, Pub. L. No. 87-389, 75 Stat. 817 (Oct. 4, 1961).
+63 See, e.g., Peter Raven-Hansen, The Constitutionality of D.C. Statehood, 60 GEO. WASH. L. REV. 160, 189 (1991)
+
+(arguing that this presents more of a theoretical problem than a realistic one, and challenging whether anyone would
+have standing to lodge a legal objection); but see Adam H. Kurland, Partisan Rhetoric, Constitutional Reality and
+
+Congressional Research Service
+
+9
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+H.R. 51 appears to address the likelihood of this outcome by providing for expedited
+consideration in both the House and Senate of a joint resolution proposing repeal of the TwentyThird Amendment. 64 The expedited consideration includes calendaring immediately upon
+introduction, as well as waived points of order against the joint resolution and consideration
+thereof. 65 That said, the Bill’s provision for fast-track consideration of a resolution to repeal the
+Twenty-Third Amendment does not guarantee that both houses would ultimately vote in favor of
+a proposed amendment, or that three-fourths of states would promptly ratify the repeal.66
+
+The Justiciability of a Constitutional Challenge
+Should H.R. 51 or similar legislation be enacted, there are at least two legal scenarios in which
+courts might find a constitutional challenge to the implementation of such legislation
+nonjusticiable, thereby declining to consider or resolve the challenge on the merits.
+First, a party bringing such a challenge would need to satisfy standing requirements. The
+Supreme Court has articulated a three-part test for meeting the constitutionally rooted “standing”
+doctrine. 67 To establish standing, a party must show it has a genuine stake in the relief sought
+because it has personally suffered, or will suffer, (1) a concrete, particularized, actual or imminent
+injury-in-fact that (2) is traceable to the allegedly unlawful actions of the opposing party and
+(3) is redressable by a favorable judicial decision.68
+In the context of H.R. 51, it is unclear whether conferring statehood on Douglass Commonwealth
+would necessarily result in a cognizable injury-in-fact to, for example, other states.69 The
+Supreme Court has in other cases dismissed for lack of standing cases brought by individual
+congressional representatives who “have not been singled out for specially unfavorable treatment
+as opposed to other Members of their respective bodies,” but claim that an “Act causes a type of
+institutional injury . . . which necessarily damages all Members of Congress . . . equally.”70 Such
+claims are also “based on a loss of political power, not loss of any private right.”71 Similarly, a
+Political Responsibility: The Troubling Constitutional Consequences of Achieving D.C. Statehood by Simple
+Legislation, 60 GEO. WASH. L. REV. 475, 479 (1991) (stating that “obtaining D.C. statehood without a constitutional
+amendment would require that the remaining, drastically reduced District of Columbia be entitled to its
+constitutionally-mandated three electoral votes for president. However, this result is politically and civically
+irresponsible”).
+64 H.R. 51, 117th Cong. § 224 (2021).
+65 Id.
+66 See, e.g., Meagan Flynn, In Faraway State Houses, A Battle Brews Over Making D.C. the 51st State, WASH. P OST
+
+(Feb. 26, 2021) (noting both South Dakota and Arizona had, at the time of the article’s publication, passed resolutions
+opposing D.C. statehood).
+67 See, e.g., Lujan v. Defs. of Wildlife, 504 U.S. 555, 560–61 (1992).
+68 Id.
+69 Texas v. Pennsylvania, 141 S. Ct. 1230, 1230 (2020) (denying, for lack of standing, the State of Texas’s motion for
+
+leave to file a bill of complaint against Pennsylvania). This denial issued notwithstanding Texas’s claim that its
+standing derived from threats to its constitutional guarantee of “equal suffrage in the Senate” and to “its citizens’ rights
+of suffrage in presidential elections.” Plaintiffs’ Reply in Support of Motion for Preliminary Injunction and Temporary
+Restraining Order 7–8, Texas v. Pennsylvania, No. 22O155 (Dec. 11, 2020),
+https://www.supremecourt.gov/DocketPDF/22/22O155/163498/20201211111125165_TX-v-State-MPI-Reply-202012-11.pdf.
+70 Raines v. Byrd, 521 U.S. 811, 821 (1997) (dismissing constitutional challenge brought by Members of Congress who
+voted against the Line Item Veto Act).
+71 Id.; but see Clinton v. City of New York, 524 U.S. 417, 429–36 (1998) (holding that city and health care providers
+
+suffered sufficiently immediate and concrete injury from President’s exercise of line item veto against certain tax
+
+Congressional Research Service
+
+10
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+claim brought by individual Members who oppose H.R. 51 would likely involve allegations of
+generalized institutional harm. 72 That said, determination of standing would ultimately depend on
+the plaintiff’s identity and the articulation of alleged harm in a particular case. For instance, a
+private individual could potentially allege an injury caused by a law or measure of the new state
+that would not have occurred if the District remained under federal jurisdiction. But whether the
+case would compel a court to reach the constitutional question—or whether, as in Phillips v.
+Payne, the court would have a basis to resolve the case without reaching the constitutional
+issues—is difficult to predict.73
+Perhaps more significantly, courts could determine that a change in the District’s political status
+is a “political question” unsuited for resolution by the judicial branch. The concept of the political
+question doctrine has been described as “more amenable to description by infinite itemization
+than by generalization,” 74 but one of the classic characteristics of a political question is “a
+textually demonstrable constitutional commitment of the issue to a coordinate political
+department”—that is, a power constitutionally granted to one of the nonjudicial branches of
+government. 75 As discussed, both the admission of new states and the power of exclusive
+legislation over the District of Columbia are textually committed to Congress in the Admissions
+and District Clauses, respectively. Thus, courts arguably could refuse to resolve a challenge to the
+District’s statehood on the ground that it represents a political question textually committed to
+Congress.76
+On one hand, there is some support for the argument that a constitutional challenge to District
+statehood is likely to present a nonjusticiable political question. First, although Congress has
+extended statehood to new states 37 times since the Constitution’s ratification,77 the federal courts
+have never upheld a constitutional challenge to the exercise of Congress’s powers under the
+Admission Clause. Second, the case most directly analogous to a challenge to District statehood,
+Phillips v. Payne,78 arguably suggests—albeit in dictum—that Congress’s retrocession of
+Alexandria County to Virginia may have presented what would today be considered a political
+waivers to have standing to challenge constitutionality of Line Item Veto Act).
+72 See Raines, 521 U.S. at 829 (“[A]ppellees have alleged no injury to themselves as individuals . . . [and] the
+
+institutional injury they allege is wholly abstract and widely dispersed . . . and their attempt to litigate this dispute at
+this time and in this form is contrary to historical experience. We attach some importance to the fact that appellees have
+not been authorized to represent their respective Houses of Congress in this action, and indeed both Houses actively
+oppose their suit.”).
+73 If a statute can be fairly construed so that its validity can be sustained against a constitutional attack, a rule of
+prudence is that it should be so construed. E.g., Crowell v. Benson, 285 U.S. 22, 62 (1932) (“When the validity of an
+act of the Congress is drawn in question, and even if a serious doubt of constitutionality is raised, it is a cardinal
+principle that this Court will first ascertain whether a construction of the statute is fairly possible by which the question
+may be avoided.”).
+74 Comm. of U.S. Citizens Living in Nicar. v. Reagan, 859 F.2d 929, 933 (D.C. Cir. 1988) (quoting C HARLES A.
+WRIGHT, T HE LAW OF FEDERAL COURTS 75 (4th ed. 1983)).
+75 Baker v. Carr, 369 U.S. 186, 217 (1962); see also LAWRENCE T RIBE, AMERICAN CONSTITUTIONAL LAW 96 (2d ed.
+1988) (distinguishing the textual commitment rationale as the “classical” version of the political question doctrine).
+76 For more detailed analysis of how applicability of the political question doctrine appears to have waxed and waned
+over the past several decades, see Cong. Rsch. Serv., Political Question Doctrine: Current Doctrine, CONSTITUTION
+ANNOT ATED, https://constitution.congress.gov/browse/essay/artIII-S2-C1-2-8-3/ALDE_00001209/ (last visited Mar.
+15, 2021).
+77 See supra note 17. The first of these was Vermont in 1791. See An Act for the Admission of the State of Vermont
+Into This Union, ch. VII, 1 Stat. 191, 1st Congress (1791). The last was Hawaii in 1959. See An Act to Provide for the
+Admission of the State of Hawaii Into the Union, Pub. L. No. 86-3, 73 Stat. 4, 86th Congress (1959).
+78 Phillips v. Payne, 92 U.S. 130 (1875).
+
+Congressional Research Service
+
+11
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+question. In that case, the Supreme Court noted: “In cases involving the action of the political
+departments of the government, the judiciary is bound by such action,”79 citing several previous
+cases in which the judiciary declined to second-guess a determination by the political branches.80
+As recently as 2019, the Supreme Court has invoked the political question doctrine to refuse
+merits review of constitutional challenges to certain voting and representation issues.81
+On the other hand, none of these points is definitive. Congress has never before conferred
+independent statehood on a portion of the Federal District, so any attempt to do so would
+necessarily be novel legislation to some extent, and it is impossible to predict with any certainty
+how courts may decide issues of first impression. The Phillips v. Payne dictum is not binding.
+Other recent decisions may indicate that the Supreme Court is sometimes willing to render
+decisions in cases that arguably presented political questions.82 As the Court recently reaffirmed:
+“No policy underlying the political question doctrine suggests that Congress or the Executive . . .
+can decide the constitutionality of a statute; that is a decision for the courts.”83
+Nevertheless, if a District statehood bill were enacted and faced legal challenges, but courts either
+determined that challengers lacked standing or their claims presented nonjusticiable political
+questions, Congress itself would have the final word.
+
+Conclusion
+To date, no legislation has ever conferred statehood on a portion of land previously dedicated as
+the seat of federal government. Novel legislation is intrinsically likely to invite legal challenges
+raising issues of first impression. Many of the constitutional questions discussed in this report
+have not yet been raised in federal court, and even fewer have proceeded to a binding resolution
+on the merits. Accordingly, this report is intended to inform legislative debate, rather than predict
+any particular outcome. 84 Congress may desire to consider the constitutional implications of
+District statehood or other proposals that would affect the District’s political status, and to weigh
+those implications along with appropriate policy considerations when evaluating legislative
+action.
+
+79 Id. at 132 (concluding, however, that the Court need not “invoke [the] aid” of that principle).
+80 E.g., Williams v. Suffolk Ins. Co., 38 U.S. 415, 422 (1839) (holding, insofar as the American Executive concluded
+
+“that the Falkland islands do not constitute any part of the dominions within the sovereignty of the government of
+Buenos Ayres [sic],” the courts lacked authority to consider any claim to the contrary).
+81 Rucho v. Common Cause, 139 S. Ct. 2484, 2506–07 (2019) (holding “partisan gerrymandering claims present
+political questions beyond the reach of the federal courts”). The Court also quoted from a previous case: “Sometimes,
+however, ‘the law is that the judicial department has no business entertaining the claim of unlawfulness—because the
+question is entrusted to one of the political branches or involves no judicially enforceable rights.’” Id. at 2494 (quoting
+Vieth v. Jubelirer, 541 U.S. 267, 277, (2004) (plurality opinion)).
+82 E.g., Zivotofsky ex rel. Zivotofsky v. Clinton, 566 U.S. 189 (2012); Bush v. Gore, 531 U.S. 98 (2000).
+83 Zivotofsky, 566 U.S. at 196–97 (alteration in original) (overturning two lower courts’ rulings that the case presented a
+
+nonjusticiable political question) (quoting INS v. Chadha, 462 U.S. 919, 941–42 (1983)).
+84 Compare Letter from 39 Law Professors to Congress Regarding Washington, D.C. Admission Act (May 22, 2021),
+
+https://www.dropbox.com/s/ghtdagoapnlzowf/Letter%20to%20Congressional%20Leaders%20on%20Constitutionality
+%20of%20Statehood%20for%20Washington%20D.C.%20May%2022%202021.pdf?dl=0 (concluding no
+constitutional barriers to H.R. 51), with Letter from 22 State Attorneys General to the President and Congress (April 13,
+2021), https://ago.wv.gov/Documents/DC%20Statehood%20letter%20as%20sent%20(02539672xD2C78).PDF
+(concluding that District statehood may be established only by constitutional amendment).
+
+Congressional Research Service
+
+12
+
+DC Statehood: Constitutional Considerations for Proposed Legislation
+
+Author Information
+Mainon A. Schwartz
+Legislative Attorney
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+R47101 · VERSION 2 · NEW
+
+13
+
+
