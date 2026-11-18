@@ -10632,5 +10632,217 @@
     "stance": "contests"
    }
   ]
+ },
+ {
+  "id": "EV-DEM-382",
+  "statement": "In the 12 months to September 30, 2025, the district courts received 13980 civil cases in the Administrative Office's \"Other Statutory Actions\" category (10282 a year earlier), 1970 of them with the United States as defendant; the category is where suits for review of agency action under the Administrative Procedure Act are counted, as the table gives the Act no row of its own.",
+  "claim": "data",
+  "figures": [
+   "13980",
+   "10282",
+   "1970"
+  ],
+  "source": "SRC-5432",
+  "anchor": [
+   "During the 12-Month Periods Ending September 30, 2024 and 2025",
+   "row 109 |  = Other Statutory Actions",
+   "row 109 |  = 10282",
+   "row 109 |  = 13980",
+   "row 109 |  = 1970"
+  ],
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-18",
+  "recheck": "2027-03-15",
+  "context": "The judiciary's official caseload table (Judicial Business 2025, Table C-2), one cell per line in the saved text; columns are 2024 total, 2025 total, U.S. plaintiff, U.S. defendant, federal question, diversity, local. The table has no row for the Administrative Procedure Act (nature-of-suit code 899 falls under the statutory catch-all), so 1970 is a ceiling on federal-defendant agency-review suits outside immigration, Social Security, FOIA and environmental matters, not a count of suits seeking relief beyond the parties. Most such suits seek relief for the plaintiff alone.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/5-delivery.md"
+  ],
+  "locator": "Table C-2, row 109 (Other Statutory Actions)"
+ },
+ {
+  "id": "EV-DEM-383",
+  "statement": "In the 12 months to September 30, 2025, the district courts received 303563 civil cases, 46426 with the United States as defendant; 145 environmental-matters cases had the United States as defendant, and 487 cases challenged the constitutionality of state statutes.",
+  "claim": "data",
+  "figures": [
+   "303563",
+   "46426",
+   "145",
+   "487"
+  ],
+  "source": "SRC-5432",
+  "anchor": [
+   "During the 12-Month Periods Ending September 30, 2024 and 2025",
+   "row 7 |  =      Total Cases",
+   "row 7 |  = 303563",
+   "row 7 |  = 46426",
+   "row 60 |  = Environmental Matters",
+   "row 60 |  = 145",
+   "row 108 |  = Constitutionality of State Statutes",
+   "row 108 |  = 487"
+  ],
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-18",
+  "recheck": "2027-03-15",
+  "context": "Same table as EV-DEM-382. The state-statute row counts filings by nature of suit, whatever the relief sought; it bounds the suits a three-judge rule reaching state action would add.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/5-delivery.md"
+  ],
+  "locator": "Table C-2, rows 7, 60 and 108"
+ },
+ {
+  "id": "EV-DEM-384",
+  "statement": "In the Supreme Court's 2024 Term, 73 cases were argued and 64 disposed of in 56 signed opinions (69 argued and 64 disposed of in 55 signed opinions in the 2023 Term); 1,329 cases were filed on the paid docket.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "73",
+   "64",
+   "56",
+   "69",
+   "55",
+   "2023",
+   "1,329"
+  ],
+  "source": "SRC-5433",
+  "anchor": [
+   "Term to 1,329 filings in the 2024 Term. During the 2024 Term, 73 cases were argued and\n64 were disposed of in 56 signed opinions,\ncompared with 69 cases argued and 64 disposed of in 55 signed opinions in the 2023"
+  ],
+  "grade": "A",
+  "fact_date": "2025-12",
+  "checked": "2026-11-18",
+  "recheck": "2026-12-31",
+  "context": "The Chief Justice's year-end report, appendix on the workload of the courts; the Court's own statistics. Confirms the 56 signed opinions the legacy file took from SCOTUSblog (domain-courts.md:156).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "2025 Year-End Report, Appendix, The Supreme Court of the United States"
+ },
+ {
+  "id": "EV-DEM-385",
+  "statement": "CRS identified 86 nationwide injunction cases from the first Trump administration and 28 from the four years of the Biden administration; the Harvard Law Review counted six under the George W. Bush administration and 12 under the Obama administration.",
+  "claim": "data",
+  "figures": [
+   "86",
+   "28",
+   "six",
+   "12"
+  ],
+  "source": "SRC-5133",
+  "anchor": [
+   "A March 2025 CRS report identified 86 nationwide injunction cases from the first Trump Administration and 28 from the Biden Administration.",
+   "CRS identified 28 nationwide injunctions issued during the four years of the Biden Administration, 88 and the Harvard Law Review identified six nationwide injunctions issued under the George W. Bush Administration and 12 under the Obama Administration."
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-07",
+  "context": "CRS's own tallies with its stated method (EV-DEM-386); the Harvard Law Review figures are CRS's report of that count. Counts injunctions issued, not suits that asked for one. With EV-DEM-048 (50 under the second Trump administration to the first anniversary of CASA).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/5-delivery.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "CRS R49022, \"Identifying and Counting Nationwide Injunctions\" and the comparison after Table 1"
+ },
+ {
+  "id": "EV-DEM-386",
+  "statement": "CRS's nationwide-injunction counts include only injunctions against the federal government and exclude certified class actions and stays or vacatur of agency actions that were not also expressly enjoined.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5133",
+  "anchor": [
+   "included only injunctions against the federal government or federal officials, not injunctions that bind states, state officials, or private parties;",
+   "excluded any class action certified at or before the time of the injunction's issuance, including provisional class certification;",
+   "excluded stays and vacatur of agency actions unless the agencies were also expressly enjoined from implementing the stayed or vacated actions."
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-07",
+  "context": "CRS's method, which makes its counts a floor for suits that win relief beyond the parties: nationwide-class relief and APA vacatur are outside them.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/5-delivery.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "CRS R49022, \"Methodology\""
+ },
+ {
+  "id": "EV-DEM-387",
+  "statement": "Three-judge district courts are rare today; they were more common before 1976, when they were required for injunctions against state statutes on constitutional grounds, and their decisions could, then as now, be appealed as of right directly to the Supreme Court. In 1976 Congress substantially curtailed when a three-judge court is required.",
+  "claim": "data",
+  "figures": [
+   "1976"
+  ],
+  "source": "SRC-5434",
+  "anchor": [
+   "Rare today, three-judge district courts were more common\nin the decades before 1976, when they were required for various adjudications, including the grant of an “interlocutory",
+   "three-judge courts could, then as now, be appealed as of right\ndirectly to this Court. 28 U. S. C. § 1253.",
+   "In 1976, Congress substantially curtailed the circumstances under which a three-judge court is required."
+  ],
+  "grade": "A",
+  "fact_date": "2015-12",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, a unanimous Court (Scalia), stating the statute's history as background to its holding; the repeal of 28 U.S.C. 2281 and 2282 by Pub. L. 94-381 is also in the statute's notes (EV-DEM-344's source).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/5-delivery.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "577 U.S. at 40-41"
+ },
+ {
+  "id": "EV-DEM-388",
+  "statement": "The Presidential Commission on the Supreme Court reported that the Court decided around 150 cases a year in the 1980s and seventy or eighty in recent years, and cited testimony that between 2018 and 2021, while certiorari was granted in 217 cases, only 4 cases arose from the Court's mandatory appellate jurisdiction.",
+  "claim": "data",
+  "figures": [
+   "1980",
+   "150",
+   "217",
+   "2018",
+   "2021",
+   "4"
+  ],
+  "source": "SRC-5292",
+  "anchor": [
+   "In the 1980s, the Court decided around 150 cases",
+   "noting that between 2018 and 2021, while certiorari was granted in 217 cases,\nonly 4 cases arose from the Court’s mandatory appellate jurisdiction"
+  ],
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "A bipartisan commission appointed by President Biden (2021), executive-branch, checked as usual; the figures are counts it compiled (the four-case figure from Judith Resnik's written testimony). The 1980s figure agrees with the legacy's 'more than 160 a year' (domain-courts.md:156, Chemerinsky via SCOTUSblog) in order of size.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Final Report, ch. 2 (p. 78) and ch. 5 n. 4"
+ },
+ {
+  "id": "EV-DEM-389",
+  "statement": "The Court of Appeals for the District of Columbia Circuit has 11 authorized circuit judgeships, filled by the President with the Senate's consent.",
+  "claim": "data",
+  "figures": [
+   "11"
+  ],
+  "source": "SRC-5435",
+  "anchor": [
+   "(a) The President shall appoint, by and with the advice and consent of the Senate, circuit judges for the several circuits as follows:",
+   "District of Columbia\n11"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, 2024 edition of the U.S. Code on GovInfo; later amendments not checked against the Law Revision Counsel's current release point.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "28 U.S.C. 44(a), table"
  }
 ]
