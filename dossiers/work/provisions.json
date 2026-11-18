@@ -529,7 +529,7 @@
   "decisions": [
    "DEC-2026-11-17-04"
   ],
-  "parameters": "An employer that commits an unfair labor practice is liable for a civil penalty of up to $50,000 per violation, and up to $100,000 for a repeat violation within five years or one that causes a discharge or serious economic harm [EV-WRK-142], indexed to prices from 2030 (working choice). Directors and officers who directed or knowingly allowed the violation are personally liable. The General Counsel sues in federal district court, where either side may demand a jury, so the penalties hold under *SEC v. Jarkesy* [EV-WRK-131]. CBO put the 2019 bill's penalties at about 120 cases a year [EV-WRK-176]",
+  "parameters": "An employer that commits an unfair labor practice is liable for a civil penalty of up to $50,000 per violation, and up to $100,000 for a repeat discharge or serious-harm violation within five years [EV-WRK-142]; CBO's reading of the 2019 bill applies the higher rate to discriminatory discharge [EV-WRK-176], as memo 3 B does; indexed to prices from 2030 (working choice). Directors and officers who directed or knowingly allowed the violation are personally liable. The General Counsel sues in federal district court, where either side may demand a jury, so the penalties hold under *SEC v. Jarkesy* [EV-WRK-131]. CBO put the 2019 bill's penalties at about 120 cases a year [EV-WRK-176]",
   "eligibility": "",
   "vehicle": [
    {
@@ -913,7 +913,7 @@
    "DEC-2026-11-17-07",
    "DEC-2026-11-17-27"
   ],
-  "parameters": "Wage and Hour investigators rise from 611 (May 2025) to at least 1,200 by FY2034, about 1978's 1,232 [EV-WRK-207], with a statutory floor below which appropriations may not fall without a report to Congress. Federal OSHA inspectors grow in step, from 618 [EV-WRK-232] to about 1,200 (working assumption). About $0.3-0.5 billion a year more at full strength (judgment, memo 6), sent to CAP-7 (part F), where democratic renewal's bottom-up table carries Labor's inspection staff (Wage and Hour about +1,300, OSHA about +700 [EV-DEM-331]) at about $4.6 billion over FY2030-39 and $0.6 billion in FY2040 [EV-DEM-329]; the need here is consistent with it",
+  "parameters": "Wage and Hour investigators rise from 611 (May 2025) to at least 1,200 by FY2034, about 1978's 1,232 [EV-WRK-207], with a statutory floor below which appropriations may not fall without a report to Congress. Federal OSHA inspectors grow in step, from 618 [EV-WRK-232] to about 1,200 (working assumption). About $0.3-0.5 billion a year more at full strength (judgment, memo 6), sent to CAP-7 (part F), where democratic renewal's bottom-up table carries Labor's inspection staff (Wage and Hour about +1,300, OSHA about +700 [EV-DEM-331]) at about $4.6 billion over FY2030-39 and $0.6 billion in FY2040 [EV-DEM-329]; that table's +1,300 Wage and Hour staff would carry the +590 investigators here with support staff, and its +700 for OSHA is below the roughly +1,100 staff that about +580 more inspectors with support would need (judgment)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1030,7 +1030,7 @@
   "decisions": [
    "DEC-2026-11-17-07"
   ],
-  "parameters": "Workers keep the right to sue with fees (29 U.S.C. 216(b)). Wage claims may proceed as ordinary class actions, not only by opt-in collective action, and pre-dispute agreements that waive wage, board-standard or retaliation claims or bar class claims are unenforceable (working choices, so the decided private right reaches workers who fear to sue alone [EV-WRK-254]). *Outreach grants:* about $50 million a year (working assumption) to community organizations and unions that help workers file and that Wage and Hour may partner with on investigations (co-enforcement, unevaluated; section 2, C.2)",
+  "parameters": "Workers keep the right to sue with fees (29 U.S.C. 216(b)). Wage claims may proceed as ordinary class actions, not only by opt-in collective action (working choice; opt-out class suits were a feature of memo 6 part 1 C, which was not chosen, and are kept here only as the means to the decided private right), and pre-dispute agreements that waive wage, board-standard or retaliation claims or bar class claims are unenforceable (working choices, so the decided private right reaches workers who fear to sue alone [EV-WRK-254]). *Outreach grants:* about $50 million a year (working assumption) to community organizations and unions that help workers file and that Wage and Hour may partner with on investigations (co-enforcement, unevaluated; section 2, C.2)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1323,7 +1323,7 @@
   "decisions": [
    "DEC-2026-11-17-10"
   ],
-  "parameters": "Conditions for employers' federal unemployment tax credit, as the system works today, on the 2025 bill's core [EV-WRK-394]: at least 26 weeks of benefits; a weekly benefit of 75% of high-quarter weekly earnings up to a state maximum of at least two-thirds of the state's average weekly wage; part-time workers covered, and earnings up to a third of the weekly benefit disregarded in partial weeks; anyone with $1,000 in the high quarter and $1,500 in the base period covered; a base period that counts the most recent completed quarter. *Quits for compelling reasons* (working choice, the bill's secs. 206-207 [EV-WRK-417]): no denial for leaving because of a family member's illness, a relocation, loss of child care, an unusual risk to health or safety, the employer's breach of law, harassment or domestic violence. *Effective* for benefit weeks from January 1, 2031, or earlier when a state conforms (working choice, giving legislatures a session). The waiting week and the bill's $25 dependents' allowance [EV-WRK-418] are left out (working choices: the first is a state choice with no evidence in the register, the second overlaps the child benefit, FAM-1). P.L. 119-21's bar on benefits for people with more than $1 million of wages stays [EV-WRK-311]",
+  "parameters": "Conditions for employers' federal unemployment tax credit, as the system works today, on the 2025 bill's core [EV-WRK-394]: at least 26 weeks of benefits; a weekly benefit of 75% of high-quarter weekly earnings up to a state maximum of at least two-thirds of the state's average weekly wage; part-time workers covered; in partial weeks, earnings of at least a third of the weekly benefit disregarded (working choice: the bill's sec. 204 [EV-WRK-419], beyond memo 7's listed core); anyone with $1,000 in the high quarter and $1,500 in the base period covered; a base period that counts the most recent completed quarter. *Quits for compelling reasons* (working choice, the bill's secs. 206-207 [EV-WRK-417]): no denial for leaving because of a family member's illness, a relocation, loss of child care, an unusual risk to health or safety, the employer's breach of law, harassment or domestic violence. *Effective* for benefit weeks from January 1, 2031, or earlier when a state conforms (working choice, giving legislatures a session). The waiting week and the bill's $25 dependents' allowance [EV-WRK-418] are left out (working choices: the first is a state choice with no evidence in the register, the second overlaps the child benefit, FAM-1). P.L. 119-21's bar on benefits for people with more than $1 million of wages stays [EV-WRK-311]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1341,6 +1341,7 @@
   "current_law": "Benefits, weeks and coverage set by each state; 12 to 26 weeks; recipiency 27-29% [EV-WRK-300] [EV-WRK-314] [EV-SEC-045]",
   "evidence": [
    "EV-WRK-394",
+   "EV-WRK-419",
    "EV-WRK-417",
    "EV-WRK-418",
    "EV-WRK-300",
@@ -1397,7 +1398,7 @@
   "decisions": [
    "DEC-2026-11-17-10"
   ],
-  "parameters": "Each state runs a short-time compensation program in which an employer that cuts hours by 10% to 80% instead of laying off files the claims for its workers, who receive the same share of their weekly benefit [EV-WRK-394]. 33 states have such laws today and about 1% of claimants use them [EV-WRK-312] [EV-WRK-313]. A plan must show the cut is temporary; it can prop up firms that would shrink [EV-WRK-383], so a firm may use it for at most 52 weeks in five years (working choice)",
+  "parameters": "Each state runs a short-time compensation program in which an employer that cuts hours instead of laying off files the claims for its workers, who receive the same share of their weekly benefit; cuts of up to 80% qualify [EV-WRK-419] (a 10% minimum is a working choice). 33 states have such laws today and about 1% of claimants use them [EV-WRK-312] [EV-WRK-313]. A plan must show the cut is temporary; it can prop up firms that would shrink [EV-WRK-383], so a firm may use it for at most 52 weeks in five years (working choice)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1417,7 +1418,7 @@
    "EV-WRK-312",
    "EV-WRK-313",
    "EV-WRK-383",
-   "EV-WRK-394"
+   "EV-WRK-419"
   ],
   "sources": [],
   "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
@@ -1431,7 +1432,7 @@
   "decisions": [
    "DEC-2026-11-17-10"
   ],
-  "parameters": "The federal share of Extended Benefits rises from 50% to 100%, paid from the general fund where the federal unemployment account cannot (working choice following memo 7's cost line). A state is in an extended period when its own or the national three-month unemployment rate is at or above 5.5%, or the national rate is at least 0.5 point above its low of the previous 12 months, or its insured unemployment rate is at least 5% [EV-WRK-395]: 13 more weeks, 26 at 6.5%, 39 at 7.5% and 52 at 8.5% [EV-WRK-418]; no 13-week off period; exempt from sequestration. *Evidence:* extended benefits' effect on unemployment is disputed, from 2 points [EV-WRK-374] to at most 0.3 [EV-WRK-375]; benefit length protects spending most [EV-WRK-372]",
+  "parameters": "The federal share of Extended Benefits rises from 50% to 100%, paid from the general fund where the federal unemployment account cannot (working choice following memo 7's cost line). A state is in an extended period when its own or the national three-month unemployment rate is at or above 5.5% [EV-WRK-419], or the national rate is at least 0.5 point above its low of the previous 12 months [EV-WRK-395], or its insured unemployment rate is at least 5%: 13 more weeks, 26 at 6.5%, 39 at 7.5% and 52 at 8.5% [EV-WRK-418]; no 13-week off period; exempt from sequestration [EV-WRK-419]. *Evidence:* extended benefits' effect on unemployment is disputed, from 2 points [EV-WRK-374] to at most 0.3 [EV-WRK-375]; benefit length protects spending most [EV-WRK-372]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1445,6 +1446,7 @@
   "evidence": [
    "EV-WRK-395",
    "EV-WRK-418",
+   "EV-WRK-419",
    "EV-WRK-372",
    "EV-WRK-374",
    "EV-WRK-375"
@@ -1461,7 +1463,7 @@
   "decisions": [
    "DEC-2026-11-17-10"
   ],
-  "parameters": "The federal taxable wage base rises from $7,000 [EV-WRK-310] to $13,000 in 2031, $19,000 in 2032 and $25,000 in 2033, then rises each year with average wages (working choice); a state's base must be at least the federal base for its employers to keep the credit, as today. The net federal rate falls from 0.6% to 0.2% at the $25,000 base, so the federal tax per worker rises from $42 to $50 (project arithmetic). States set their own rates on the larger base, and a state that meets the solvency standard [EV-WRK-304] keeps interest-free borrowing [EV-WRK-306]. Regular benefits rise about $15-25 billion a year in an ordinary year, from the trust funds and matched by employers' taxes over the cycle (judgment, memo 7). JCT and CBO score the schedule (point 15)",
+  "parameters": "The federal taxable wage base rises from $7,000 [EV-WRK-310] to $13,000 in 2031, $19,000 in 2032 and $25,000 in 2033, then rises each year with average wages (working choice); a state's base must be at least the federal base for its employers to keep the credit, as today. The net federal rate falls from 0.6% to 0.35% at $13,000, 0.26% at $19,000 and 0.2% at $25,000 (working choice), so the federal tax per worker rises gradually from $42 to about $46, $49 and $50 (project arithmetic). States set their own rates on the larger base, and a state that meets the solvency standard [EV-WRK-304] keeps interest-free borrowing [EV-WRK-306]. Regular benefits rise about $15-25 billion a year in an ordinary year, from the trust funds and matched by employers' taxes over the cycle (judgment, memo 7). JCT and CBO score the schedule (point 15)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1587,7 +1589,7 @@
    "DEC-2026-11-17-12",
    "DEC-2026-11-17-95"
   ],
-  "parameters": "A worker qualifies who (1) was separated from a job for a reason the state's unemployment finding treats as not disqualifying (LAB-18.03); (2) had at least three years with that employer, read from 12 quarters of the state's wage records (working choice: earnings with that employer in each of the 12 quarters before the quarter of separation); (3) is reemployed, by another employer (LAB-18.04), at a lower hourly wage; and (4) earned at the old job no more than twice the national median wage, clean power's cap (CLI-11.02). The cause of the job loss is never asked, so no one must show that trade, AI or anything else caused it [EV-WRK-711]. About 1.1 million long-tenured workers are displaced a year [EV-WRK-315], and only 49% of those back in full-time work earned as much as before [EV-WRK-317]",
+  "parameters": "A worker qualifies who (1) was separated from a job for a reason the state's unemployment finding treats as not disqualifying (LAB-18.03); (2) had at least three years with that employer, read from 12 quarters of the state's wage records (working choice: earnings with that employer in each of the 12 quarters before the quarter of separation); (3) is reemployed at a lower hourly wage by an employer other than the former one or one in its controlled group within 12 months (LAB-18.04); and (4) earned at the old job no more than twice the national median wage, clean power's cap (CLI-11.02). The cause of the job loss is never asked, so no one must show that trade, AI or anything else caused it [EV-WRK-711]. About 1.1 million long-tenured workers are displaced a year (project arithmetic: 3.3 million over 2023-25 [EV-WRK-315]), and only 49% of those back in full-time work earned as much as before [EV-WRK-317]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1642,11 +1644,11 @@
   "id": "LAB-18.03",
   "title": "The separation test is the state's unemployment finding",
   "agenda": "LAB-18",
-  "status": "decided for now, `DEC-2026-11-17-95`, rule 1 (option A of the note's part d); quits for good cause follow from it",
+  "status": "decided for now, `DEC-2026-11-17-95`, rule 1; the treatment of quits for good cause is a working reading, pending Espen",
   "decisions": [
    "DEC-2026-11-17-95"
   ],
-  "parameters": "Wage insurance makes no finding of its own. It reads the state's final separation determination for the job that ended: *eligible* if the separation was for lack of work (a layoff, closure or abolished position), a discharge the state found was not for misconduct, or a quit the state found was for good cause; *not eligible* if the state found a discharge for misconduct or a quit without good cause. Under state law the program pays for a separation \"for which the individual is not at fault or has good cause for leaving\" [EV-WRK-414]; many states limit good cause to causes connected with the work or the employer [EV-WRK-415], and LAB-11.01 adds the compelling reasons nationally [EV-WRK-417]. Misconduct is the narrow, willful standard most states use [EV-WRK-416], so a worker fired for poor performance qualifies. If an appeal reverses the finding, wage insurance follows it: back payments if the worker wins, repayment if they lose, waived where the worker was not at fault",
+  "parameters": "Wage insurance makes no finding of its own. It reads the state's final separation determination for the job that ended. *Eligible (decided):* a separation for lack of work (a layoff, closure or abolished position) or a discharge the state found was not for misconduct, the note's eligible list under `-95`'s definition, \"separated against one's will for a reason other than misconduct\". Misconduct is the narrow, willful standard most states use [EV-WRK-416], so a worker fired for poor performance qualifies. *Not eligible:* a discharge for misconduct, or a quit without good cause. *Quits for good cause (working reading, pending Espen):* a quit the state found was for good cause connected with the work or attributable to the employer, such as unpaid wages, a large pay cut or unsafe conditions, is treated as a separation against the worker's will and qualifies; a quit for personal good cause (for example following a spouse's move, one of LAB-11.01's compelling reasons [EV-WRK-417]) does not. States already sort every separation into lack of work, a quit or a discharge, and many already limit good cause to the work or the employer [EV-WRK-414] [EV-WRK-415], so either reading uses the state's finding with no new adjudication. Memo 8 B's cost basis counts layoffs only [EV-WRK-315]; including work-connected quits adds a small cost outside it (judgment). If an appeal reverses the finding, wage insurance follows it: back payments if the worker wins, repayment if they lose, waived where the worker was not at fault",
   "eligibility": "",
   "vehicle": [
    {
@@ -1661,7 +1663,8 @@
    "EV-WRK-414",
    "EV-WRK-415",
    "EV-WRK-416",
-   "EV-WRK-417"
+   "EV-WRK-417",
+   "EV-WRK-315"
   ],
   "sources": [],
   "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
@@ -2044,7 +2047,7 @@
   "decisions": [
    "DEC-2026-11-17-32"
   ],
-  "parameters": "A service year in construction, energy retrofits, disaster recovery or care, run with LAB-8's registered programs as pre-apprenticeship and ending in an apprenticeship offer. *The gate:* the tranche opens once the agency's published report shows, for two years running, at least 90% of the 150,000 authorized positions filled and member completion at or above its 2030 rate (working choice), certified by the agency's Inspector General; on the working ramp, from about 2033. *Lottery:* where places are oversubscribed, they are assigned by lottery so the track can be evaluated. About $35,000-45,000 a position, $1.8-2.3 billion a year at 50,000 (judgment, note part e)",
+  "parameters": "A service year in construction, energy retrofits, disaster recovery or care, run with LAB-8's registered programs as pre-apprenticeship and ending in an apprenticeship offer. *The gate:* the tranche opens once the agency's published report shows, for two years running, at least 90% of each year's authorized civic positions filled and member completion at or above its 2030 rate, with the second of those years at the full 150,000 (working choice), certified by the agency's Inspector General. On the working ramp (LAB-9.01, 150,000 in 2034) it opens in 2035, not about 2033 as the note assumed (part e), unless the agency ramps faster. *Lottery:* where places are oversubscribed, they are assigned by lottery so the track can be evaluated. About $35,000-45,000 a position, $1.8-2.3 billion a year at 50,000 (judgment, note part e)",
   "eligibility": "",
   "vehicle": [
    {
@@ -2123,7 +2126,7 @@
    "DEC-2026-11-17-13",
    "DEC-2026-11-17-32"
   ],
-  "parameters": "If no authorization is enacted by December 31, 2030, direct spending in the 2029 reconciliation act funds the same scale (LAB-9.01 to 9.03) as formula grants to state service commissions and the agency's national programs from FY2031, with the placement and mixing rules as conditions on the money. Written as contingent spending, as the legacy credit's trigger was; Byrd eligibility to check (`legacy/domains/domain-labor.md`, LAB-9). About +$0.04-0.065 trillion over FY2030-39 and about +$7-8.5 billion in FY2040 (judgment, `DEC-2026-11-17-32`), whichever route funds it",
+  "parameters": "If no authorization is enacted by December 31, 2030, direct spending in the 2029 reconciliation act funds the same scale (LAB-9.01 to 9.03) as formula grants to state service commissions and the agency's national programs from FY2031, with the placement and mixing rules as conditions on the money. Written as contingent spending, as the legacy credit's trigger was; Byrd eligibility to check (`legacy/domains/domain-labor.md`, LAB-9). About +$0.04-0.06 trillion over FY2030-39 with the tranche from 2035, and about +$7-8.5 billion in FY2040 (judgment; `DEC-2026-11-17-32`'s +$0.04-0.065 trillion assumed the tranche from about 2033), whichever route funds it",
   "eligibility": "",
   "vehicle": [
    {

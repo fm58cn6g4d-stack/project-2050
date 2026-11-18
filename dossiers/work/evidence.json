@@ -10328,5 +10328,37 @@
   "supports": [
    "dossiers/work/4-specification.md"
   ]
+ },
+ {
+  "id": "EV-WRK-419",
+  "statement": "The same bill would put a state in an Extended Benefits period when the state or national three-month average unemployment rate is at or above 5.5 percent or the insured unemployment rate is at least 5 percent, end the 13-week off period, exempt Extended Benefits from sequestration, disregard partial earnings of at least a third of the weekly benefit, and make workers who lose up to 80 percent of their hours eligible for work sharing, with employers allowed to file the claims.",
+  "claim": "data",
+  "figures": [
+   "5.5",
+   "5",
+   "13",
+   "1/3",
+   "80%"
+  ],
+  "source": "SRC-5784",
+  "anchor": [
+   "A. When the state or national three-month average total unemployment rate (seasonally",
+   "adjusted) is at or above 5.5 percent.",
+   "C. When the insured unemployment rate (IUR) trigger is at least 5 percent. The insured",
+   "(b) Eliminates the mandatory 13-week off period that prohibits a state from triggering a new",
+   "Sec. 109. Exempts EB from sequestration, effective as of date of enactment.",
+   "equal to at least 1/3 of the individual’s benefit amount when calculating partial unemployment",
+   "workers who have lost up to 80% of their hours potentially eligible for short-time compensation.",
+   "Also requires states to allow employers to file short-time compensation claims on behalf of their"
+  ],
+  "locator": "Title I, secs. 102, 108(b), 109; Title II, secs. 204, 211",
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-18",
+  "recheck": "2027-01-04",
+  "context": "Sponsors' summary of a bill (S. 2312), not law, as EV-WRK-394.",
+  "supports": [
+   "dossiers/work/4-specification.md"
+  ]
  }
 ]

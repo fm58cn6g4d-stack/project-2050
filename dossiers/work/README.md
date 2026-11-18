@@ -34,12 +34,12 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
 
 ## Evidence and sources
 
-- `evidence.json`: evidence code **EV-WRK**, 358 entries (238 from section 1, 102 from section 2, 13 from section 3, 5 from section 4). Blocks:
+- `evidence.json`: evidence code **EV-WRK**, 359 entries (238 from section 1, 102 from section 2, 13 from section 3, 6 from section 4). Blocks:
   - 001-099 the wage floor (001-049 section 1; 050-077 section 2; 078 section 3);
   - 100-199 unions, bargaining and the board (100-160 section 1; 161-188 section 2; 189 section 3);
   - 200-299 enforcement, safety and heat (200-248 section 1, 214 merged into 019; 249-262 section 2);
   - 300-399 support when jobs change (300-367 section 1, with gaps at 320, 334, 346 and 354; 368-393 section 2; 394-399 section 3);
-  - 400-449 schedules, labor's share and rural places (400-406 section 1; 407-412 section 2); 413, unemployment insurance outlays (section 3), and 414-418, state separation law and the 2025 UI bill's quit, waiting-week, dependents' and Extended Benefits sections (section 4), placed here because the 300 block was full;
+  - 400-449 schedules, labor's share and rural places (400-406 section 1; 407-412 section 2); 413, unemployment insurance outlays (section 3), and 414-419, state separation law and the 2025 UI bill's quit, waiting-week, dependents', Extended Benefits and work-sharing terms (section 4), placed here because the 300 block was full;
   - 700-749 legacy figures as grade D entries (700-708 section 1; 709-712 section 3).
 - The register also cites other dossiers' entries where they already hold a fact: unemployment insurance recipiency (EV-SEC-045 to 047), paid leave access (EV-SEC-300, 302), phase-outs (EV-SEC-537, 538), contract work (EV-SEC-120), AI exposure (EV-SEC-125, 128), apprenticeship and TAA (EV-SEC-144, 147, 148, 640; EV-CAR-633), the care workforce (EV-CAR-614, 616, 618, 621), immigrant workers (EV-IMM-008, 010) and coal workers (EV-CLP-504, 516, 518).
 - Sources: **Source IDs numbered 5500 to 5899 are reserved for the work dossier** (this README, November 16, 2026; `library/reserved-blocks.csv`). The block skips 5100-5499 so the democratic renewal foundation, starting the same night, can take the next free numbers. Sub-blocks:
@@ -58,4 +58,4 @@ The section 3 batch is decided. Memo 8 part 2 is decided for now (`DEC-2026-11-1
 1. Memo 10: measuring displacement (recommended C) and a standby trigger (recommended C), drafted as LAB-19, provisional.
 2. Point 5, severance, provisional: specified on the recommendation, open until the study.
 3. Point 11, codetermination, provisional: specified on the recommendation, still being studied.
-4. For information: under `-95`'s option A, quits for good cause qualify for wage insurance (LAB-18.03).
+4. Wage insurance and quits for good cause: drafted as a working reading (LAB-18.03), with work-connected good-cause quits in and personal ones out; pending Espen.
