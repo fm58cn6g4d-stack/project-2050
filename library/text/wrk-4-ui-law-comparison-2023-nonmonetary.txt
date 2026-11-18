@@ -1,0 +1,7764 @@
+Source: https://oui.doleta.gov/unemploy/pdf/uilawcompar/2023/nonmonetary.pdf
+Publisher: U.S. Department of Labor, Employment and Training Administration
+Retrieved: 2026-11-18
+Original SHA-256: a3fef13b9ba48228d44a5a8846fd425a4d55b190ac3b882657d2332f9ea0a61f
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+CHAPTER 5
+NONMONETARY ELIGIBILITY
+IN GENERAL
+In addition to the monetary requirements in state unemployment compensation (UC) law discussed in
+Chapter 3, Monetary Entitlement, federal law requires individuals meet certain nonmonetary requirements.
+State UC laws also include various nonmonetary requirements that are not mandated by federal law. Generally,
+individuals must have separated from work through no fault of their own and they must maintain an ongoing
+attachment to the labor force. Federal law also requires that an individual be able to work, available to work,
+and actively seeking work each week for which benefits are claimed.
+This chapter is organized from the perspective of an individual experiencing the claims process. First,
+the state will verify the identity of the individual filing the claim when it is filed or shortly thereafter. Second,
+the state will determine if there are any issues related to the individual becoming unemployed. Third, the state
+will explore any issues concerning week-to-week eligibility. Finally, the state will examine whether the
+individual received any “deductible income” causing a reduction in benefits payable. The impact of earnings
+from part-time work while collecting benefits (i.e., Benefits for Partial Unemployment) is addressed in Chapter
+3, Monetary Entitlement.
+Usage Note: There is a distinction between issues that result in disqualification and issues that result in weeks
+of ineligibility. A disqualified individual has no right to benefits until the individual requalifies, usually by
+obtaining new work or by serving a set disqualification period. In some cases, benefits and wage credits may
+be reduced. An ineligible individual is prohibited from receiving benefits until the issue causing the
+ineligibility ceases to exist. Eligibility issues are generally determined on a week-to-week basis.
+
+IDENTITY VERIFICATION
+States must have a system to reasonably ensure that the name and Social Security Number (SSN) used
+to establish eligibility for UC belong to the individual filing the claim. States use a variety of methods to
+accomplish this task, for example data cross matches, third-party vendor services, and other internally developed
+tools are used by states to reasonably ensure the individual filing a claim is the owner of the SSN provided for
+that claim.
+The outcome of identity verification differs depending on the circumstances of each case. For example,
+if during a state’s investigation it requests more information from the individual, and that individual fails to
+provide the requested information, the individual may be found ineligible, and that individual will remain
+ineligible until the requested information is provided to the state. However, if a state concludes based upon its
+evidence that the SSN does not belong to the individual who filed the claim, then the state will deny the claim.
+States also have means to protect victims of identity theft. For example, some states transfer the
+identified fraudulent activity to pseudo claim records, thus preserving the fraudulent claim activity record while
+still allowing the owner of the SSN to file a valid claim. For additional information on reporting unemployment
+identity theft, visit https://www.dol.gov/fraud.
+5-1
+
+NONMONETARY ELIGIBILITY
+SEPARATIONS FROM EMPLOYMENT
+States determine nonmonetary eligibility by examining many factors related to a claim, including the
+circumstances surrounding an individual’s separation from work. For example, an individual who left work
+because of illness or to take care of a family member who is ill may have a qualifying job separation under state
+law, however, the individual may not be able to work or available to work. In this example, the individual may
+be ineligible because the individual is not able to work or available to work, but the ineligibility would last only
+until the individual was again able and available. Generally, separations from employment are grouped into two
+categories: Voluntary and Involuntary. Below we will explore the differences between the two types under
+various state laws.
+VOLUNTARILY SEPARATIONS—The UC program is designed to compensate wage loss due to a
+separation from work for which the individual is not at fault or has good cause for leaving. Voluntarily leaving
+work without good cause is a reason for disqualification from benefits under all states’ laws, though the
+definition of “good cause” varies by state.
+Good Cause for Voluntarily Leaving—In all states, individuals who leave work voluntarily must have had
+good cause to do so in order to avoid being disqualified from receiving benefits. The following tables are
+intended to provide a general overview of various good cause for voluntary leaving provisions in the states, but
+they are not meant to be exhaustive. Consult the appropriate state statute, regulation, or policy for more specific
+information.
+In many states, good cause is explicitly restricted to good cause connected with the work, attributable to
+the employer, or involving fault on the part of the employer. However, a state may also interpret its law to
+include good personal cause for voluntarily leaving work. Because a state law limiting good cause to the work
+is more restrictive, it may contain specific exceptions that are not necessary in states that recognize good
+personal cause. For example, an explicit provision not disqualifying an individual who quits to accompany a
+spouse to a new job might not be necessary in a state that recognizes good personal cause, but it would be
+necessary in a state restricting good cause to that which is related to the work.
+The following table reflects states that have provisions allowing good cause for voluntarily leaving work
+due to reasons connected to the work.
+TABLE 5-1: STATES WITH WORK-CONNECTED GOOD CAUSE PROVISIONS
+State
+
+Basis
+
+State
+
+Basis
+
+State
+
+Basis
+
+State
+
+Basis
+
+AL
+
+L
+
+AZ
+
+L, R
+
+AR
+
+L
+
+CO
+
+L
+
+CT
+
+L
+
+DE
+
+L
+
+DC
+
+L
+
+FL
+
+L
+
+GA
+
+L
+
+ID
+
+L, R
+
+IL
+
+L
+
+IN
+
+L
+
+IA
+
+L
+
+KS
+
+L
+
+KY
+
+L
+
+LA
+
+L
+
+ME
+
+L, R
+
+MD
+
+I
+
+MA
+
+L
+
+MI
+
+L
+
+MN
+
+L
+
+MO
+
+L
+
+MT
+
+L, R
+
+NE
+
+L
+
+NH
+
+L
+
+NJ
+
+L, R
+
+NM
+
+L
+
+NC
+
+L
+
+ND
+
+L
+
+OK
+
+L
+
+PR
+
+I
+
+SC
+
+I
+
+SD
+
+I
+
+TN
+
+L
+
+TX
+
+L
+
+VT
+
+L
+
+WA
+
+L
+
+WV
+
+L
+
+WI
+
+I
+
+WY
+
+L
+
+KEY:
+
+L = law, R = regulation, I = interpretation or policy
+
+5-2
+
+NONMONETARY ELIGIBILITY
+The following tables indicate common good cause provisions for non-work-related circumstances.
+North Carolina is the only state that does not include any of these provisions in its state law. Note that “Sexual
+or Other Harassment” in Table 5-2 does not include issues related to domestic violence—those are covered in
+Table 5-3.
+TABLE 5-2: STATES WITH PERSONAL GOOD CAUSE - GENERAL PROVISIONS
+Sexual or Other
+Harassment
+
+Individual’s Illness
+
+L1
+
+L
+
+I
+
+I
+
+I
+
+R
+
+R
+
+R
+
+L
+
+L
+
+L
+
+R
+
+L
+
+L4
+
+R
+
+R, I3
+
+DE
+
+I
+
+L, R
+
+DC
+
+R
+
+R3
+
+State
+
+To Accept Other Work
+
+AL
+
+L
+
+AK
+
+L2
+
+AZ
+
+R
+
+Join the Armed Forces
+
+AR
+CA
+
+R
+
+CO
+
+L2
+
+CT
+
+L2
+
+FL
+
+I
+
+L2
+
+L
+
+GA
+
+I
+
+I
+
+R4
+
+HI
+
+R
+
+I
+
+L, R
+
+I
+
+ID
+
+R
+
+L
+
+R
+
+R
+
+IL
+
+L
+
+L
+
+L3
+
+IN
+
+L
+
+L
+
+L
+
+L
+
+IA
+
+L
+
+R
+
+I
+
+L
+
+KS
+
+L2
+
+L
+
+L
+
+L
+
+KY
+
+L
+
+I1
+
+I3
+
+LA
+
+I2
+
+I
+
+ME
+
+L, R
+
+I
+
+MD
+
+R3, 4
+
+R
+
+L, R3
+
+I
+
+L3
+
+MA
+
+L
+
+I
+
+L
+
+I
+
+MI
+
+L
+
+I
+
+I
+
+L3
+
+MN
+
+L
+
+I
+
+L
+
+L4
+
+MS
+
+I
+
+L
+
+I
+
+MO
+
+L2
+
+I
+
+I
+
+MT
+
+L
+
+L, R5
+
+L, R
+
+NE
+
+L2
+
+L
+
+L
+
+NV
+
+L
+
+I
+
+I
+
+NH
+
+L, R2
+
+I
+
+L3, R
+
+NJ
+
+R
+
+I
+
+L, R
+
+NM
+
+L
+
+L, R
+
+L, R
+
+L
+
+NY
+
+I
+
+I
+
+I
+
+I
+
+I7
+
+I
+
+5-3
+
+NONMONETARY ELIGIBILITY
+TABLE 5-2: STATES WITH PERSONAL GOOD CAUSE - GENERAL PROVISIONS
+Join the Armed Forces
+
+Sexual or Other
+Harassment
+
+Individual’s Illness
+
+L
+
+L
+
+I
+
+I
+
+State
+
+To Accept Other Work
+
+ND
+
+L2
+
+OH
+
+L2
+
+L7
+
+I
+
+L
+
+OR
+
+R2
+
+I7
+
+I4
+
+I3, 4
+
+PA
+
+I
+
+I
+
+I4
+
+I4
+
+PR
+
+I
+
+I
+
+I
+
+RI
+
+I
+
+L
+
+I
+
+OK
+
+I
+
+SC
+
+I
+L2
+
+SD
+TN
+
+L
+
+I
+
+L
+
+L
+
+L3
+
+L
+
+L
+
+R
+
+R
+
+TX
+
+L
+
+UT
+
+R
+
+VT
+
+I6
+
+I
+
+VA
+
+L2
+
+L4
+
+L4
+
+VI
+
+I
+
+I
+
+I
+
+I
+
+WA
+
+L
+
+L
+
+L, R
+
+L3
+
+I
+
+L
+
+L
+
+L
+
+I
+
+WV
+WI
+
+L
+
+WY
+KEY:
+
+L
+L = law, R = regulation, I = interpretation or policy
+
+1 Only if the sexual harassment occurred on the job.
+
+2 State has specific requirements related to the pay, hours, or type of work the individual quit to accept; when new work must begin; or
+
+other requirements related to either the new or old job.
+
+3 Requires illness be related to work; physician recommendation/certification and/or failure of the employer to provide
+
+accommodations; or other specific limitation.
+
+4 Requires employer notification or pursuit of reasonable alternatives/adaptations prior to leaving.
+
+5 If individual or individual’s child is a victim of sexual assault or stalking, and individual quit to protect self or child from sexual assault
+
+or stalking.
+
+6 Only if the new job never materializes due to lack of work.
+
+7 The military service must be considered better work, based on wages, hours, and/or permanency; and/or the service must begin within
+
+a specific period of time after the separation.
+
+Separations caused by domestic and/or sexual violence commonly arise in the context of a voluntary
+separation from work, and many states address such separations within their voluntary separation provisions.
+However, it is important to note that domestic and sexual violence may also be the basis for an involuntary
+separation from work. For example, an individual who has violated an employer’s attendance policy, resulting
+in their termination, may have done so because of domestic or sexual violence issues.
+State UC laws differ in how they apply provisions related to domestic and sexual violence. For
+example, a state may include casual dating relationships, whereas another state may not. Some limit the
+application of the provision to the claimant, others cover others in a family relationship (i.e. child).
+Additionally, states differ in the type of proof an individual may present to show domestic or sexual violence.
+5-4
+
+NONMONETARY ELIGIBILITY
+For example, some states may permit sworn statements from the victim whereas others may require
+documentation or statements from counselors or law enforcement. Some states also have unique confidentiality
+rules that apply to domestic and/or sexual violence survivors. The following table shows states that provide
+good cause for separation due to circumstances surrounding domestic violence.
+TABLE 5-3: STATES WITH PERSONAL GOOD CAUSE RELATED TO DOMESTIC VIOLENCE
+AK
+
+L
+
+AZ
+
+L
+
+AR
+
+L
+
+CA
+
+L
+
+CO
+
+L1
+
+CT
+
+L
+
+DE
+
+L
+
+DC
+
+L, R1, 2
+
+FL
+
+L
+
+GA
+
+L, R
+
+HI
+
+L1
+
+IL
+
+L
+
+IN
+
+L
+
+IA
+
+I
+
+KS
+
+L1
+
+ME
+
+L, R
+
+MD
+
+L
+
+MA
+
+L
+
+MN
+
+L1
+
+MS
+
+R
+
+MT
+
+L
+
+NE
+
+L
+
+NV
+
+L
+
+NH
+
+L, R
+
+NC
+
+L
+
+NJ
+
+L, R
+
+NM
+
+L, R
+
+NY
+
+L1
+
+ND
+
+L
+
+OK
+
+L
+
+OR
+
+L, R
+
+PA
+
+I
+
+PR
+
+I
+
+RI
+
+L
+
+SC
+
+L1
+
+SD
+
+L
+
+TX
+
+L
+
+UT
+
+I
+
+VI
+
+L
+
+WA
+
+L, R
+
+L
+
+WY
+
+L
+
+WI
+KEY:
+
+L = law, R = regulation, I = interpretation or policy
+
+1 Includes immediate family member
+
+2 This law also applies to discharge separations from employment
+
+The following table shows states that provide good cause for separation to perform marital, domestic, or
+other family obligations.
+TABLE 5-4: STATES WITH PERSONAL GOOD CAUSE TO PERFORM MARITAL, DOMESTIC, OR FAMILY
+OBLIGATIONS
+State
+
+Basis
+
+Includes Illness or Disability of
+Family Member
+
+State
+
+Basis
+
+AK
+
+R
+
+X
+
+AZ
+
+R
+
+AR
+
+L1
+
+X
+
+CA
+
+L, R2
+
+X
+
+CO
+
+L3
+
+X
+
+CT
+
+L
+
+X
+
+DE
+
+L
+
+X
+
+DC
+
+L
+
+X
+
+IL
+
+L2
+
+X
+
+KS
+
+I
+
+HI
+
+L
+
+IA
+
+L
+
+ME6
+
+L, R2
+
+X
+
+MA
+
+I
+
+X
+
+MN
+
+L2, 4
+
+X
+
+NE
+
+L4
+
+X
+
+NV
+
+L4
+
+X
+
+NH
+
+L
+
+X
+
+NY4
+
+L, I5
+
+X
+
+OH
+
+L
+
+OK
+
+L
+
+X
+
+OR
+
+L, R4
+
+X
+
+PA
+
+I4
+
+X
+
+RI
+
+L
+
+X
+
+SC
+
+L
+
+X
+
+TX
+
+L
+
+VA
+
+I2, 4
+
+UT
+
+X
+
+Includes Illness or Disability of
+Family Member
+
+I
+
+5-5
+
+X
+
+NONMONETARY ELIGIBILITY
+TABLE 5-4: STATES WITH PERSONAL GOOD CAUSE TO PERFORM MARITAL, DOMESTIC, OR FAMILY
+OBLIGATIONS
+State
+
+Basis
+
+Includes Illness or Disability of
+Family Member
+
+L
+
+WA
+
+L2, 4
+
+X
+
+L
+
+WI
+
+L2
+
+X
+
+State
+
+Basis
+
+VI
+WV6
+KEY:
+
+Includes Illness or Disability of
+Family Member
+
+L = law, R = regulation, I = interpretation or policy
+
+1 Includes pregnancy.
+
+2 Must discuss quit with employer and attempt to retain employment relationship; see state laws for more specific requirements.
+3 Includes provisions regarding employer’s medical leave policies and the Family Medical Leave Act.
+4 All reasonable alternatives to quitting must have been pursued.
+
+5 Quit is acceptable if individual is unable to accept a particular shift as a result of undue family hardship.
+
+6 Quit is acceptable if due to shift change resulting in loss of childcare (individual must be available for full-time work on original
+
+shift).
+
+Good Cause – Voluntarily Leaving Work to Follow Spouse—Many states have provisions of law that allow
+benefits to individuals who quit work to accompany a spouse due to a change in the spouse’s employment
+location. In those states, it is considered good cause to quit if the new employment location is impractical to
+commute. Some states define an impractical commute, while others do not. Several states have provisions
+related to military spouses relocating, but state laws vary regarding the circumstances when the spouse of a
+service member is eligible for benefits. See a state’s law for specific eligibility factors.
+Good Cause – Other Provisions—In addition to the items described in Tables 5-1 through 5-4, some states
+include a more general reference to “good cause” in their laws, while several states provide other specific
+circumstances under which an individual may have good cause. Examples of reasons that may constitute good
+cause include the following:
+•
+
+transportation difficulties;
+
+•
+
+a permanent change in the work conditions that have a negative impact on the employee, including a
+reduction in pay or a requirement to relocate;
+
+•
+
+accepting a voluntary lay off when an employer announces a planned layoff;
+
+•
+
+certain circumstances related to part-time employment;
+
+•
+
+compulsory retirement (some states treat as voluntary separation, while other treat as involuntary);
+
+•
+
+circumstances caused by a declared state or national public health emergency, including the need to
+quarantine or care for dependents;
+
+•
+
+to attend approved training; or
+
+•
+
+leaving due to a violation of the work agreement or a change in the work conditions that are less
+favorable.
+
+Good Cause – Its Relation to Other Laws—Some states define good cause provisions related to other state and
+federal laws. Examples of these types of provisions include leaving work as a result of:
+•
+
+hazardous work conditions;
+
+•
+
+being asked to perform an illegal act or to violate an ordinance or statute; or
+
+•
+
+being deprived of equal employment opportunities based on bona fide occupational qualifications.
+5-6
+
+NONMONETARY ELIGIBILITY
+Good Cause – Labor Arrangements—Several state laws explicitly address separations that occur under
+collective bargaining agreements. Separation situations where individuals would not be disqualified under a
+collective bargaining agreement vary by state, but may include the following:
+•
+
+accepting a layoff under certain circumstances;
+
+•
+
+electing to be laid off in place of a worker with less seniority;
+
+•
+
+being placed on a referral list or accepting a referral to another employer from the individual’s hiring
+hall; or
+
+•
+
+an employer’s breach of a collective bargaining agreement.
+
+Good Cause – Suitable Work—Under federal law, an individual is not required to accept work that is less
+favorable in terms of wages, hours, or other conditions than those prevailing for similar work in the locality.
+But, if an individual does accept work that is deemed unsuitable and decides to voluntarily leave that work, then
+some states will not disqualify the individual if, for example, the individual leaves the job within a specified
+number of days or weeks. Additional considerations are discussed later in this chapter under the heading
+“Criteria for Suitable Work.”
+Good Cause – Temporary Service Employers—Several states provide that an employee of a temporary service
+employer voluntarily leaves work if the employee, upon completion of an assignment, fails to contact the
+employer for additional assignments if required by the employer. These states require the temporary service
+employer to provide employees with notice that the employee must contact the temporary service employer
+upon the completion of an assignment and that failure to do so may result in benefit denial. Some states have
+specific provisions regarding the frequency of contact with the temporary service employer in order to remain
+eligible for unemployment insurance benefits. Please see a state’s law for specific requirements. If it is
+determined that the claimant’s separation from a temporary service employer is voluntary, then the state will
+evaluate whether the individual had good cause to voluntarily leave work.
+TABLE 5-5: STATES WHERE FAILURE TO CONTACT EMPLOYER UPON COMPLETION OF ASSIGNMENT IS
+CONSIDERED VOLUNTARY SEPARATION
+AL
+
+R
+
+AZ
+
+R
+
+AR
+
+L
+
+CO
+
+L
+
+DE
+
+L
+
+FL
+
+L
+
+GA
+
+L, R
+
+HI
+
+I
+
+ID
+
+L, R
+
+IN
+
+L
+
+IA
+
+L
+
+KS
+
+L
+
+KY
+
+L
+
+LA
+
+L, I
+
+MA
+
+L
+
+MI
+
+L
+
+MN
+
+L
+
+MO
+
+L
+
+NE
+
+L
+
+NJ
+
+L, R
+
+NY
+
+I
+
+ND
+
+L
+
+OK
+
+L
+
+PA
+
+I
+
+PR
+
+I
+
+RI
+
+L
+
+SC
+
+R
+
+SD
+
+I
+
+TN
+
+I
+
+TX
+
+L
+
+UT
+
+L, I
+
+WV
+
+I
+
+KEY:
+
+L = law, R = regulation, I = interpretation or policy
+
+5-7
+
+NONMONETARY ELIGIBILITY
+Period and Terms of Disqualification—In most states, a disqualification for voluntarily leaving work without
+good cause lasts until the individual is again employed and earns a specified amount of wages. A few states also
+have provisions disqualifying an individual for a fixed number of weeks, and a couple states apply fixed
+duration disqualifications based on certain circumstances. In some states, benefit rights are reduced in addition
+to the postponement of benefits.
+TABLE 5-6: DISQUALIFICATION TERMS—VOLUNTARILY LEAVING WORK WITHOUT GOOD CAUSE
+State
+
+Benefits Postponed for:
+Number of Weeks
+
+AL
+AK
+
+Minimum Weeks and/or Wages to Requalify
+10 x WBA1
+
+3-9 x WBA
+
+WS + 51, 2
+
+3 x WBA
+
+AZ
+
+5 x WBA
+
+AR
+
+At least 30 days of covered work
+
+CA
+
+5 x WBA
+
+CO
+
+Wage credits from employer removed from
+the claim (applies to all BP employers)
+
+WF + 10
+
+CT
+
+10 x WBA3
+
+DE
+
+4 weeks of work and 4 x WBA
+
+DC
+
+10 weeks of work and wages equal to 10 x WBA
+
+FL
+
+17 x WBA1
+
+GA
+
+10 x WBA4
+
+HI
+
+5 x WBA
+
+ID
+
+14 x WBA
+
+IL
+
+Wages equal to WBA in each of 4 weeks
+
+IN
+
+Wages in each of 8 weeks and wages ≥ 8 x WBA
+
+IA
+
+10 x WBA1
+
+KS
+
+3 x WBA
+
+KY
+
+10 weeks of covered work and wages equal to 10 x
+WBA1
+
+LA
+
+10 x WBA1
+
+ME
+
+4 x WBA1, 3
+
+MD
+
+WS + 5-101, 2
+
+15 x WBA1, 2
+
+MA
+
+X1
+
+8 weeks of work and wages of 8 x WBA
+
+MI
+
+Amount of Benefits Reduced
+
+12 x WBA
+
+5-8
+
+By 25%
+
+NONMONETARY ELIGIBILITY
+TABLE 5-6: DISQUALIFICATION TERMS—VOLUNTARILY LEAVING WORK WITHOUT GOOD CAUSE
+State
+
+Benefits Postponed for:
+Number of Weeks
+
+Minimum Weeks and/or Wages to Requalify
+
+MN
+
+One-half of amount required to establish benefit
+account (See Table 3-3, Base Period Wage and
+Employment Requirements for Benefits)
+
+MS
+
+8 x WBA
+
+MO
+
+10 x WBA1
+
+MT
+
+Wages equal to 6 x WBA2
+
+NE
+
+131, 5
+
+4 x WBA
+
+Equal5
+
+NV
+
+Wages equal to WBA in each of 10 weeks3
+
+NH
+
+5 weeks of work in each of which earned 20% more
+than WBA6
+
+NJ
+
+8 weeks of work and wages equal to 10 x WBA
+
+NM
+
+5 x WBA in covered work
+
+NY
+
+3 days work in each of 5 weeks and 10 x WBA
+
+NC
+
+X2
+
+10 x WBA earned in at least 5 weeks2
+
+ND
+
+8 x WBA
+
+OH
+
+6 weeks in covered work and wages equal to 27.5%
+of AWW1, 7
+
+OK
+
+10 x WBA
+
+OR
+
+4 x WBA
+
+PA
+
+6 x WBA
+
+PR
+
+4 weeks of work and wages equal to 10 x WBA
+
+RI
+
+8 x WBA
+
+SC
+
+8 x WBA
+
+SD
+
+6 weeks in covered work and wages equal to WBA
+in each week1
+
+TN
+
+10 x WBA1
+
+TX
+
+6 weeks of work or wages equal to 6 x WBA5
+
+UT
+
+6 x WBA1
+
+VT
+
+X8
+
+Amount of Benefits Reduced
+
+X2
+
+8 x WBA
+
+Equal
+
+6 x WBA
+
+VA
+
+30 days or 240 hours of work1
+
+VI
+
+4 weeks of work and 4 x WBA
+
+WA
+
+7 weeks and earnings in bona fide work of 7 x
+WBA
+
+5-9
+
+NONMONETARY ELIGIBILITY
+TABLE 5-6: DISQUALIFICATION TERMS—VOLUNTARILY LEAVING WORK WITHOUT GOOD CAUSE
+State
+
+Benefits Postponed for:
+Number of Weeks
+
+WV
+WI
+WY
+
+Amount of Benefits Reduced
+
+Minimum Weeks and/or Wages to Requalify
+At least 30 working days of covered employment
+
+X8
+
+7 weeks and 14 x WBA
+
+Wage credits from employer removed from
+the claim
+
+8 x WBA
+
+KEY:
+WS = Week of separation
+WF = Week of filing
+“Equal” indicates reduction equal to WBA multiplied by number of weeks of disqualification.
+AL - if last employment not
+considered bona fide work; AK, FL, IA, MD, MA, MO, OH, and UT - when employment or time period subsequent to separation
+does not satisfy potential disqualification; LA - disqualification applicable to base period or last employer; ME - disqualification
+applicable to most recent previous separation if last work was a voluntary quit and was not in usual trade or was intermittent; VA disqualification applicable to last 30-day or 240-hour employer; DC, SD, and WV - if employment was less than 30 days unless on
+an additional claim; KY and NE - reduction or forfeiture of benefits applicable to separations from any base-period employer; TN any employer with whom the individual earned 10 x WBA (disqualification does not apply if individual quit to join the armed
+forces).
+2 AK - disqualification is terminated if individual returns to work and earns at least 8 x WBA; MT - disqualification is terminated
+after individual attends school for three consecutive months and is otherwise eligible; MD - the duration disqualification imposed
+unless a valid compelling or necessitous circumstance exists; NC - the agency may reduce permanent disqualification to five weeks,
+with a corresponding reduction in total benefits; if an employer gives notice of future work separation, disqualification of four
+weeks imposed if individual establishes good cause for the individual’s failure to work out the notice.
+3 ME - disqualified for duration of unemployment and until individual earns 6 x WBA if voluntarily retired; NV - disqualified for
+W+4 to enter self-employment, and for 10 weeks to seek better employment; CT - voluntary retiree disqualified for the duration of
+unemployment and until 40 x WBA is earned.
+4 Individual must work for a liable employer and become unemployed through no fault of their own.
+5 NE - a disqualification for the week of separation plus two weeks if individual leaves to accept a better job; TX - disqualification
+begins with week following filing of claim.
+6 Requirement to earn requalifying wages does not apply to individuals who become unemployed after leaving work to accept better
+employment.
+7 If individual left work for compelling domestic circumstances, can requalify by earning the lesser of ½ of AWW or $60 in covered
+employment.
+8 VT - disqualified for 1-6 weeks if individual left work due to health reasons; in WI - disqualification for week of termination + 4
+weeks if individual refuses transfer to a job paying less than 2/3 of wage rate.
+1 Separation preceding the most recent separation may be considered under the following circumstances.
+
+INVOLUNTARY SEPARATIONS—A separation is considered involuntary in cases where there is a lack of
+work or reduction in force, or when an employer terminates the employment of an individual. In terminations
+from employment, the state looks to whether the individual engaged in misconduct to determine if the individual
+is eligible for UC. If a separation was not caused by any action or conduct of the individual, benefits would not
+be denied.
+Discharge for Misconduct Connected with the Work—The disqualification provisions for a discharge for
+misconduct (which may be called a discharge for “just cause” or “a disqualifying act”) follow a pattern similar
+to that for voluntary leaving. Many states provide for greater disqualification in the case of discharge for
+dishonesty or a criminal act, or other acts of aggravated misconduct.
+
+5-10
+
+NONMONETARY ELIGIBILITY
+Historical Note: In determining what constitutes misconduct, many states rely on the definition established in
+the 1941 Wisconsin Supreme Court Case, Boynton Cab Co. v. Neubeck, 237 Wis. 249, 296 N.W. 636 (1941):
+“Misconduct . . . is limited to conduct evincing such willful or wanton disregard of standards of behavior
+which the employer has the right to expect of his employee, or in carelessness or negligence of such degree as
+to manifest an equal culpability, wrongful intent or evil design, or to show an intentional and substantial
+disregard of the employer’s interest or of the employee’s duties and obligations to his employer.”
+
+such as:
+
+In some states, the definition of misconduct is expanded to include specific offenses or circumstances,
+
+•
+
+violations related to an attendance policy, or chronic or excessive absenteeism or tardiness;
+
+•
+
+violations of an employer rule or policy;
+
+•
+
+participation in an illegal strike as determined under state or federal laws, without good cause or
+notice to the employer;
+
+•
+
+damage to an employer’s or a customer’s property;
+
+•
+
+conduct that neglects or endangers the health and safety of others;
+
+•
+
+violation of a state standard or regulation, loss or failure to obtain or maintain a license or
+certification that is a requirement of the position, or failure to maintain standards of the
+profession;
+
+•
+
+falsification of an employment application or any other documentation provided to the employer;
+or
+
+•
+
+absence from work due to incarceration or violation of a law related to employment.
+
+Misconduct Related to Illegal Drug and Alcohol Use—The following table includes information about states
+with provisions in their UC law dealing specifically with alcohol and/or illegal drugs, and testing for alcohol or
+illegal drugs.
+TABLE 5-7: STATES WITH DRUG AND/OR ALCOHOL RELATED DISCHARGE PROVISIONS
+AL
+
+Testing positive for illegal drugs after being warned of possible dismissal, for refusing to undergo drug testing, or for
+knowingly altering a blood or urine specimen
+
+AK
+
+Reporting to work under the influence of drugs/alcohol, consumption on the employer’s premises during work hours, or
+violation of employer’s policy as long as policy meets statutory requirements
+
+AZ
+
+Refusing to undergo drug or alcohol testing, or having tested positive for drugs or alcohol
+
+AR
+
+Drinking on the job or reporting for work while under the influence of intoxicants, including a controlled substance; if
+discharged for testing positive for an illegal drug
+
+CA
+
+Chronic absenteeism due to intoxication, reporting to work while intoxicated, using intoxicants on the job, or gross neglect
+of duty while intoxicated, when any of these incidents is caused by an irresistible compulsion to use intoxicants; also
+disqualified if individual quit for reasons caused by an irresistible compulsion to use intoxicants
+
+CT
+
+If discharged or suspended due to being disqualified from performing work under state or federal law for which hired as a
+result of a drug or alcohol testing program mandated and conducted by such law. If by medical or professional evidence or
+testimony an individual is found to be physically addicted to alcohol or drugs, the misconduct is not deemed intentional, or
+deliberate, or reckless, and therefore not willful misconduct.
+
+FL
+
+Drug use, as evidenced by a positive, confirmed drug test
+
+5-11
+
+NONMONETARY ELIGIBILITY
+TABLE 5-7: STATES WITH DRUG AND/OR ALCOHOL RELATED DISCHARGE PROVISIONS
+GA
+
+Violating an employer’s drug-free workplace policy
+
+IL
+
+Consuming alcohol or illegal drugs, non-prescribed prescription drugs, or using an impairing substance in an off-label
+manner on the employer’s premises during working hours in violation of the employer’s policies, or showing up to work
+impaired during normal working hours
+
+KS
+
+Use or Impairment while working; testing positive under limited circumstances and requiring an on-the-job impact (by court
+decision); refusing to test; tampering with the test or diluting the test sample.
+
+KY
+
+Reporting to work under the influence of drugs/alcohol, or consuming them on employer’s premises during working hours
+
+LA
+
+Using illegal drugs and nonprescribed controlled substances, on or off the job, and refusing to submit to drug testing
+pursuant to a written rule or policy on substance abuse
+
+MI
+
+Illegally ingesting a controlled substance on the employer’s premises, for refusing to submit to a drug test that was required
+to be administered in a nondiscriminatory manner, or for testing positive on a drug test that was administered in a
+nondiscriminatory manner
+
+MO
+
+Any drug/alcohol use; positive pre-employment drug/alcohol test is considered misconduct
+
+MT
+NE
+
+Testing positive or refusal to provide a test sample, in accordance with a written drug test policy that has been conveyed to
+employees. Excludes positive tests of marijuana and marijuana products by registered MT card holders.
+Being under the influence of an intoxicating beverage or controlled substance (non-prescribed) while on the worksite or
+engaged in work
+
+NH
+
+Intoxication or use of drugs that interferes with work
+
+NJ
+
+Testing positive or refusal to provide a test sample, in accordance with a written drug test policy that has been conveyed to
+employees
+
+OK
+
+Refusing to undergo drug or alcohol testing, or having tested positive for drugs or alcohol
+
+OR
+
+Failing or refusing to take a drug or alcohol test as required by employer’s written policy; being under the influence of
+intoxicants while performing services for the employer; possessing a drug unlawfully; testing positive for alcohol or an
+unlawful drug in connection with employment; or refusing to enter into/violating terms of a last-chance agreement with
+employer; not disqualified if participating in a recognized rehabilitation program within 10 days of separation
+
+PA
+
+Failing to submit to and/or pass a drug test conducted pursuant to an employer’s established substance abuse policy,
+provided that the drug test is not requested or implemented in violation of the law or of a collective bargaining agreement
+
+SC
+
+Failing or refusing to take a drug test or submitting to a drug test which tests positive for illegal drugs or legal drugs used
+unlawfully
+
+TN
+
+Failing to submit to and/or pass a drug or alcohol test
+
+UT
+
+A positive alcohol test result or refusal to provide a sample (drug or alcohol) consistent with the employer’s written drug and
+alcohol policy
+
+WV
+
+Reporting to work in an intoxicated condition or under the influence of any controlled substance without a valid prescription;
+for being intoxicated or under the influence of any controlled substance without a valid prescription while at work; for
+manipulating a sample or specimen to thwart a lawfully required drug or alcohol test; for refusal to submit to random drug
+testing for employees in safety-sensitive positions
+
+VA
+
+A positive test for a nonprescribed controlled substance, confirmed by a qualified drug screen conducted in accordance with
+the employer’s bona fide drug policy
+
+Period and Terms of Disqualification—Disqualification for discharge for misconduct, as for voluntary
+leaving, is usually based on the circumstances of separation from the most recent employment. However, as
+indicated in the following table, a few states’ laws require consideration of the reasons for separation from
+employment other than the most recent. Some states provide for disqualification for disciplinary suspensions.
+In most states, the disqualification lasts until the individual is again employed and earns a specified
+amount of wages. A few states also have provisions disqualifying an individual for a fixed number of weeks,
+and some states apply fixed duration disqualifications based on certain circumstances. Additionally, some
+states reduce or cancel all of the individual’s benefit rights, and some cancel an individual’s wage credits.
+5-12
+
+NONMONETARY ELIGIBILITY
+Federal law permits cancellation of wage credits for only three reasons:
+•
+
+Misconduct in connection with the work;
+
+•
+
+Fraud in connection with a claim; or
+
+•
+
+Receipt of disqualifying income.
+
+The severity of the cancellation penalty depends mainly on the presence or absence of additional wage
+credits during the base period. If the wage credits canceled extend beyond the base period for the current benefit
+year, the individual may not be monetarily eligible in the subsequent benefit year.
+TABLE 5-8: DISQUALIFICATION TERMS—DISCHARGE FOR MISCONDUCT
+State
+
+Includes Other
+Than Last
+Employer
+
+AL
+
+X1
+
+AK
+
+Benefits Postponed for:
+Number of
+Weeks
+
+Minimum Weeks and/or Wages
+to Requalify
+10 x WBA
+
+WS + 51, 2
+
+AZ
+
+5 x WBA
+
+AR
+
+30 days covered employment
+
+CA
+
+5 x WBA
+
+CO
+
+WF + 10
+10 x WBA
+
+DE
+
+4 weeks of work and 4 x WBA
+
+DC
+
+X1
+
+82
+
+8 weeks of work and 8 x WBA
+
+FL
+
+X1
+
+WS + 1-522
+
+17 x WBA
+
+GA
+
+10 x WBA
+
+HI
+
+5 x WBA
+X1
+
+Disqualification for
+Disciplinary
+Suspension
+
+Equal
+
+WS + 1-3
+
+3 x WBA
+
+Same as discharge
+for misconduct
+Lesser of duration of
+suspension or 8
+weeks
+
+Equal
+
+CT
+
+ID
+
+Amount of Benefits
+Reduced or Canceled
+
+Same as discharge
+for misconduct
+
+8 x WBA
+Duration
+Equal
+
+Same as discharge
+for misconduct
+
+14 x WBA
+
+IL
+
+Wages equal to WBA in each of 4
+weeks
+
+IN
+
+Wages in each of 8 weeks and
+wages ≥ 8 x WBA
+
+IA
+
+10 x WBA
+
+KS
+
+3 x WBA
+
+KY
+
+10 weeks of covered work and
+wages equal to 10 x WBA
+
+LA
+
+10 WBA
+
+5-13
+
+Same as discharge
+for misconduct
+
+25%, only one reduction
+during benefit year
+Same as discharge
+for misconduct
+
+NONMONETARY ELIGIBILITY
+TABLE 5-8: DISQUALIFICATION TERMS—DISCHARGE FOR MISCONDUCT
+State
+
+Includes Other
+Than Last
+Employer
+
+Benefits Postponed for:
+Number of
+Weeks
+
+ME
+
+Minimum Weeks and/or Wages
+to Requalify
+
+X1
+
+MA
+
+X1
+
+Same as discharge
+for misconduct
+
+WS + 10-15
+8 weeks of work and wages of 8 x
+WBA
+
+MI
+
+17 x WBA
+
+MN
+
+One-half of amount required to
+establish benefit account
+(See Table 3-3, Base Period Wage
+and Employment Requirement for
+Benefits)
+
+MS
+
+8 x WBA
+Same as discharge
+for misconduct
+
+Wages equal to 8 x WBA
+X1
+
+14
+
+Equal
+
+NV
+
+Wages equal to WBA in each of 15
+weeks
+
+NH
+
+5 weeks work in each of which
+earned 20% more than WBA
+
+NJ
+
+Duration
+
+6 x WBA for each disqualifying
+separation
+
+X1
+
+MT
+NE
+
+Disqualification for
+Disciplinary
+Suspension
+Duration or until
+earns 8 x WBA
+
+8 x WBA
+
+MD
+
+MO
+
+Amount of Benefits
+Reduced or Canceled
+
+X1
+
+Same as discharge
+for misconduct
+
+WS + 5
+
+NM
+
+5 x WBA in covered work
+
+NY
+
+10 x WBA
+
+NC
+
+Duration
+
+X2
+
+10 x WBA in at least 5 weeks
+
+X2
+
+ND
+
+X1
+
+10 x WBA
+
+Duration
+
+OH
+
+X1
+
+6 weeks in covered work plus wages
+equal to 27.5% of state AWW
+
+Duration
+
+OK
+
+10 x WBA
+
+OR
+
+4 x WBA
+
+PA
+
+6 x WBA
+
+Same as discharge
+for misconduct
+
+PR
+
+4 weeks of work and wages equal
+to 10 x WBA
+
+Same as discharge
+for misconduct
+
+8 x WBA
+
+Same as discharge
+for misconduct
+
+RI
+SC
+
+X1
+WF + 204
+
+8 x WBA
+
+Equal
+
+5-14
+
+Same as discharge
+for misconduct
+
+NONMONETARY ELIGIBILITY
+TABLE 5-8: DISQUALIFICATION TERMS—DISCHARGE FOR MISCONDUCT
+State
+
+Includes Other
+Than Last
+Employer
+
+SD
+
+X1
+
+TN
+
+X1
+
+Benefits Postponed for:
+Number of
+Weeks
+
+Same as discharge
+for misconduct
+
+6 weeks of work or wages equal to
+6 x WBA
+X1
+
+VT
+VA
+
+Disqualification for
+Disciplinary
+Suspension
+
+10 x WBA
+
+TX
+UT
+
+Minimum Weeks and/or Wages
+to Requalify
+6 weeks in covered work and
+wages equal to WBA each week
+
+Amount of Benefits
+Reduced or Canceled
+
+6 x WBA in covered work
+WF + 6-15
+30 days or 240 hours of work
+
+Duration
+
+VI
+
+4 weeks of work and 4 x WBA
+
+Same as discharge
+for misconduct
+
+WA
+
+10 weeks and earnings in bona fide
+work 10 x WBA
+
+Same as discharge
+for misconduct
+
+WV
+
+X1
+
+X1
+
+WS + 6
+
+Equal5
+
+WI
+
+7 weeks elapsed and 14 x WBA
+
+WY
+
+12 x WBA
+
+Benefit rights based on
+any work involved
+canceled
+
+KEY: WS = Week of separation
+WF = Week of filing
+“Equal” indicates a reduction equal to the WBA multiplied by the number of weeks of disqualification.
+AL - the preceding separation may be considered if last
+employment is not considered bona fide work; FL, ID, MD, MA, MO, OH, RI, and UT - a previous employer may be considered if
+the work with the separating employer does not satisfy a potential disqualification; VA - disqualification is applicable to last
+employing unit for which individual has worked 30 days or 240 hours and all subsequent employers; DC, SD, and WV disqualification is applicable to last 30-day employing unit on new claims and to most recent employer on additional claims; ND any employer with whom the individual earned 8 x WBA; NE - reduction or forfeiture of benefits applicable to separations from any
+base-period employer; NJ - provided the period of disqualification has not elapsed prior to the date of claim.
+2 AK - the disqualification is terminated if individual returns to work and earns 8 x WBA; DC - disqualification ends if individual
+meets either the number of week or the work and earning requirements; FL - both the number of weeks and the requalifying wage
+requirements are imposed; NC - the agency may reduce permanent disqualification to time certain, but not less than five weeks;
+when permanent disqualification changed to time certain, benefits are reduced by an amount equal to the number of weeks of
+disqualification x WBA. Also, an individual will be disqualified for substantial fault on the part of the individual that is connected
+with work but not rising to the level of misconduct. The disqualification will vary from 4-13 weeks depending on the circumstances.
+3 Partial ineligibility of 5 to 19 weeks, plus waiting week, if individual is discharged for cause other than misconduct. Duration of
+ineligibility period determined in each case according to the seriousness of the cause for discharge.
+4 Benefit reduction is restored if individual returns to covered employment for at least 30 days within BY.
+1 Disqualification pertains only to last separation unless indicated.
+
+Gross Misconduct—Some states provide greater disqualifications for certain types of misconduct. For
+purposes of this section, all of these greater disqualifications will be considered disqualifications for “gross
+misconduct” even if the state’s law does not specifically use this term. States define gross misconduct in terms
+such as:
+•
+
+Discharge for dishonesty or an act constituting a crime or a felony in connection with the work, if
+the individual is convicted or signs a statement admitting the act;
+
+•
+
+Discharge for a dishonest or criminal act in connection with the work;
+5-15
+
+NONMONETARY ELIGIBILITY
+•
+
+Discharge for dishonesty, intoxication (including a controlled substance), or willful violation of
+bona fide written rules or customs of the employer including those pertaining to safety,
+harassment, unprofessional conduct, or insubordination;
+
+•
+
+Assault or threatened assault upon supervisors, coworkers, or others at the work site;
+
+•
+
+Assault, bodily injury, property loss or damage amounting to at least $2,000, theft, sabotage,
+embezzlement, or falsification of employer’s records;
+
+•
+
+Being placed on a disciplinary suspension;
+
+•
+
+Any act that would constitute a gross misdemeanor or felony;
+
+•
+
+Theft, fraud, intentional damage to property, intentional infliction of personal injury, or any
+conduct that constitutes a felony. Gross misconduct also includes the use of, or impairment from,
+alcohol or drugs by an individual while working, or a positive breath alcohol test or chemical test
+administered pursuant to specific requirements;
+
+•
+
+Conviction of a felony or misdemeanor in connection with work; and
+
+•
+
+Assault, theft, or willful destruction of property.
+TABLE 5-9: DISQUALIFICATION TERMS—GROSS MISCONDUCT
+
+State
+
+Includes
+Other Than
+Last
+Employer
+
+AL
+
+X1
+
+AK
+
+Benefits Postponed For:
+Fixed
+Number of
+Weeks
+
+Variable
+Number of
+Weeks
+
+Minimum Weeks and/or Wages to
+Requalify
+10 x WBA1
+
+52
+
+Amount of Benefits Reduced or
+Canceled
+Wages earned from employer
+involved canceled
+
+20 x WBA
+Wages in 2 quarters for insured work
+totaling not less than 35 x WBA
+
+AR
+CO
+
+26
+
+Equal
+10 weeks of work and wages equal
+to 10 x WBA
+
+DC
+FL
+
+Up to 52
+
+17 x WBA
+12 x WBA for physical injury/bodily
+harm or theft of $100 or less
+
+GA
+
+16 x WBA for Property loss or
+damage of $2000 or more, or theft of
+$100 or more
+
+IL
+
+All prior wage credits canceled2
+
+IN
+
+All prior wage credits canceled2
+
+IA
+
+All prior wage credits canceled
+
+KS
+LA
+
+X1
+
+8 x WBA
+
+All prior wage credits canceled
+
+10 x WBA1
+
+Wages earned from employer
+involved canceled1
+
+ME
+
+Greater of $600 or 8 x WBA
+
+MD
+
+25 x WBA3
+
+5-16
+
+NONMONETARY ELIGIBILITY
+TABLE 5-9: DISQUALIFICATION TERMS—GROSS MISCONDUCT
+Benefits Postponed For:
+
+State
+
+Includes
+Other Than
+Last
+Employer
+
+Fixed
+Number of
+Weeks
+
+MI
+
+X1
+
+261
+
+Variable
+Number of
+Weeks
+
+Minimum Weeks and/or Wages to
+Requalify
+In each of 13 weeks, earnings at
+least 1/13 of minimum qualifying
+high quarter amount4
+8 x WBA
+
+Wages earned from employer
+involved canceled
+
+6 x WBA for each disqualifying
+separation1, 5
+
+Optional5
+
+MN
+MO
+
+X1
+
+MT
+
+Amount of Benefits Reduced or
+Canceled
+
+12 months
+
+Equal
+
+NE
+
+All prior wage credits canceled
+
+NV
+
+Benefit rights based on any work
+involved canceled6
+
+NH
+
+WS + 4-266
+
+NJ
+
+X1
+
+NY
+
+X1
+
+ND
+OH
+
+5 weeks work in each of which
+earned 20% more than WBA
+
+All prior wage credits canceled
+
+8 weeks of covered work and wages
+equal to 10 x WBA
+
+Wages earned from employer
+involved canceled
+Wages earned from employer
+involved canceled
+
+12 months1
+12 months
+
+Benefit rights based on any work
+involved canceled1
+
+X1
+
+OR
+
+All prior wage credits canceled
+
+SC
+UT
+
+8 x WBA
+
+Optional equal
+
+6 x WBA
+
+All wage credits from the
+separating employer are canceled
+Wages earned from employer
+canceled
+Greater of all hourly wage credits
+from employer involved or 680
+hours of wage credits, canceled
+
+WS + 51
+
+VT
+WA
+WV
+
+X1
+
+KEY: WS = Week of separation
+
+30 days in covered work
+WF = Week of filing
+
+1 AL - disqualification applies to other than most recent separation from bona fide work only if employer files timely notice alleging
+
+disqualifying act; LA, MI, and MO - disqualification is applicable for all base-period employers; OH - applies if unemployed
+because of dishonesty or felony in connection with employment; NY - no days of unemployment deemed to occur for following 12
+months if individual is convicted or signs statement admitting felonious act in connection with employment; WV - reduction or
+forfeiture of benefits is applicable to either most recent work or last 30-day employing unit; NJ - any base period employer.
+2 IL - wage credits are cancelled if gross misconduct constitutes a felony or theft and is admitted by the individual or has resulted in
+conviction in a court of competent jurisdiction; IN - same applies if gross misconduct constitutes a felony or misdemeanor.
+3 Has provision for aggravated misconduct, which consists of either physical assault, property loss, or damage so serious and with
+malice that the gross misconduct penalty is not sufficient. Disqualification is duration of unemployment and earnings of at least 30
+x WBA.
+4 Or individual must file a continued claim in each of 13 weeks and certify as to satisfaction of all usual weekly eligibility
+requirements.
+5
+Option taken by the agency to cancel all or part of wages depends on seriousness of misconduct. The only wage credits canceled are
+those based on work-connected misconduct.
+6 NH - if discharged for arson, sabotage, felony, assault causing bodily injury, criminal threatening, or theft equal to or greater than
+$250, all prior wage credits are canceled; NV - if individual is discharged and admits in writing or under oath, or is convicted for
+assault, arson, sabotage, grand larceny, embezzlement, or wanton destruction of property in connection with work, wage credits
+from that employer are canceled.
+
+5-17
+
+NONMONETARY ELIGIBILITY
+DISQUALIFICATION FOR UC FRAUD AND MISREPRESENTATION
+In addition to monetary penalties and prosecution, an individual committing fraud when applying for
+UC may also be disqualified from receiving benefits. In a few states there is a more severe disqualification
+when the fraudulent act results in payment of benefits. In other states, it is more severe when the individual is
+convicted (see Table 6-3).
+In a few states, the disqualification is not imposed unless the individual is convicted. In other states, the
+individual is not subject to an administrative disqualification if penal procedures have been undertaken or if the
+benefits are being or have been recovered.
+Some states include a statutory limitation on the period within which a disqualification for fraudulent
+misrepresentation may be imposed (see states with footnote 3 in Table 5-10). The length of the disqualification
+period varies but is generally a year. In a few states, the disqualification period runs from the date of the offense
+to the filing of a claim for benefits. In these states, the disqualification can be imposed only if the individual
+files a claim for benefits within two years of the date of the fraudulent act. In many states, the penalty for
+disqualification for fraud or misrepresentation is more severe than the ordinary disqualification provisions.
+Some disqualifications start with the date of the fraudulent act, while others begin with the discovery of
+the act, the determination of fraud, the date on which the individual is notified to repay the sum so received, or
+the date of conviction by a court. Some begin with the filing of a first claim, while others are for weeks that
+would otherwise be compensable.
+As the following table shows, the cancellation of wage credits in many states means the denial of
+benefits for the current benefit year or longer. A disqualification for a year means that wage credits will have
+expired, in whole or in part, depending on the end of the benefit year and the amount of wage credits
+accumulated for another benefit year before the fraudulent act. Thus, future benefits are reduced as if there had
+been a provision for cancellation. In other states with discretionary provisions or shorter disqualification
+periods, the same result will occur for some individuals.
+In many states, as noted in the table below, the agency may deny benefits until the benefits obtained
+through fraud are repaid although some states impose a time limit for the denial. In some states, an individual
+may qualify after a specified period of time and repayment is made through an offset of the benefits.
+TABLE 5-10: DISQUALIFICATION TERMS—UC FRAUD AND MISREPRESENTATION
+State
+
+Duration of Disqualification
+
+Benefits Reduced or Canceled
+
+AL
+
+52 weeks for 1st offense and 104 weeks for 2nd and subsequent offenses
+
+4 x WBA to maximum benefit amount
+payable in BY1
+
+AK
+
+W + 6 – 52
+
+X1
+
+AZ
+
+Until total amount of overpayment and all penalties and interest have been
+recovered or otherwise satisfied in compliance with a civil judgment2, 3
+
+X1
+
+AR
+
+W + 13; additional 3 weeks for each week of fraud2, 3
+
+Benefits canceled in BY in which
+fraud occurred
+
+CA
+
+If convicted, 52 weeks2, 3, 4
+
+X1
+
+CO
+
+4 – 104 weeks
+
+X1
+
+CT
+
+Full amount of overpayment must be repaid
+
+Mandatory equal reduction
+
+DE
+
+W + 51
+
+X1
+
+DC
+
+All or part of remainder of BY and for 1 year commencing with the end of such
+BY1, 2
+
+X1
+
+FL
+
+1 – 52 weeks and until fraudulent overpayments are repaid in full2
+
+X1
+
+5-18
+
+NONMONETARY ELIGIBILITY
+TABLE 5-10: DISQUALIFICATION TERMS—UC FRAUD AND MISREPRESENTATION
+State
+
+Duration of Disqualification
+
+Benefits Reduced or Canceled
+
+GA
+
+Remainder of current quarter and next 4 quarters3
+
+Mandatory equal reduction3
+
+HI
+
+24 months2, 3
+
+X1
+
+ID
+
+W + 52; amounts fraudulently received, plus penalty and interest, must be
+repaid2, 3
+
+X1
+
+IL
+
+W + 6 weeks; if additional offenses, up to2, 3
+
+IN
+
+Up to current BY
+
+All wage credits prior to act canceled
+
+IA
+
+Up to current BY2
+
+Mandatory equal reduction
+
+KS
+
+After all overpaid benefits, interest, penalties, costs, and fees are repaid, 1 year
+for first occurrence, 5 years any subsequent occurrence
+
+X1
+
+KY
+
+Unreported earnings: W + additional weeks based on amount of unreported
+earnings (up to 52 W); nondisclosure of info other than wages: W + 262
+
+X1
+
+LA
+
+For remainder of BY after commission of fraudulent act and then continuing for
+52 weeks following determination of fraud
+
+X1
+
+ME
+
+6 months - 1 year; for 3rd occurrence disqualification determined by the
+Commissioner2
+
+MD
+
+All benefits and interest repaid2
+
+X1
+
+MA
+
+A compensable week for each week overpaid
+
+25% of WBA
+
+MI
+
+Current BY and until such amounts are repaid or withheld2, 3
+
+All base period wages canceled;
+benefits canceled in BY in which fraud
+occurred
+
+MN
+
+13 – 104 weeks
+
+X1
+
+MS
+
+W + up to 52 weeks; first overpayment results in 6 weeks for each fraudulent
+week; any additional overpayment results in 12 weeks for each fraudulent week
+
+X
+
+MO
+
+Up to current benefit year +5
+
+All or part of wage credits prior to act
+canceled
+
+MT
+
+1 – 52 weeks and until benefits are repaid2
+
+NE
+
+Up to current benefit year +5
+
+NV
+NH
+
+W + 1 – 52 or until sum equal to all benefits received or paid plus any interest,
+penalties, or costs related to that sum is repaid, whichever is longer; period of
+disqualification will be fixed according to the circumstances in each case6
+4 – 52 weeks; if convicted, 1 year after conviction; and until benefits are repaid
+or withheld2
+
+All or part of wage credits prior to act
+canceled
+X1
+Mandatory equal reduction
+
+NJ
+
+1 year2
+
+X1
+
+NM
+
+Not more than 52 weeks2
+
+X1
+
+NY
+
+4 – 80 days for which otherwise eligible2, 3
+
+Mandatory equal reduction
+
+NC
+
+52 weeks2
+
+X1
+
+ND
+
+W + 51
+
+X1
+
+OH
+
+Amount of fraudulent benefits must be repaid, and individual held ineligible for
+2 otherwise valid weekly claims for each weekly claim canceled
+
+2 penalty weeks are served for each
+week in which fraud occurred
+
+OK
+
+W + 512, 3
+
+BP or BY may not be established
+during period
+
+OR
+
+52 weeks; if convicted, until benefits are repaid or withheld2, 3, 5
+
+If convicted, all wage credits prior to
+conviction canceled6
+
+PA
+
+2 weeks plus 1 week for each week of fraud or, if convicted of illegal receipt of
+benefits, 1 year after conviction and until benefits are withheld or repaid3
+
+X1
+
+PR
+
+W + 51 provided that criminal procedures have not been filed against
+individual2, 3
+
+5-19
+
+NONMONETARY ELIGIBILITY
+TABLE 5-10: DISQUALIFICATION TERMS—UC FRAUD AND MISREPRESENTATION
+State
+
+Duration of Disqualification
+
+Benefits Reduced or Canceled
+
+RI
+
+If convicted, 1 year after conviction
+
+X1
+
+SC
+
+W + 10 – 522
+
+X1
+
+SD
+
+Benefits denied for weeks of compensable unemployment from and after the
+discovery date of fraud, until benefits are repaid
+
+X1
+
+TN
+
+W + 4 – 522
+
+X1
+
+TX
+
+Current BY
+
+Benefits or remainder of BY canceled
+
+UT
+
+W + 13 – 49, and until benefits received fraudulently are repaid
+
+X1
+
+VT
+
+If not prosecuted, until amount of fraudulent benefits are repaid or withheld +
+1 - 26 weeks2, 3
+
+X1
+
+VA
+
+W + 52; if convicted, 1 year after conviction, or until repaid2, 3
+
+X1
+
+VI
+
+W + 512, 3
+
+X1
+
+Week of fraudulent act + 26 weeks following filing of 1st claim after
+
+WA
+
+determination of fraud for 1st offense; plus additional 52 weeks for 2nd offense;
+plus additional 104 weeks for 3rd and subsequent offenses3
+
+WV
+
+W + 522
+
+WI
+
+Each week of fraud
+
+WY
+
+W + 512
+
+KEY:
+
+X1
+
+1 - 4 x WBA1
+
+W = week in which act occurs.
+
+1 Before disqualification period ends, wage credits may or will have expired in whole or in part depending on disqualification
+
+imposed and/or end of BY.
+
+2 DC, HI, ID, IL, IA, MD, MT, NH, NM, OK, PR, SC, VA, and WV - period of disqualification is measured from date of
+
+determination of fraud; ME and NC - mailing date of determination; VT - date of redetermination of fraud; AR - date of delivery or
+mailing of determination; AZ - date of claim or registration for work; CA - week determination is mailed or served, or any
+subsequent week for which individual is first otherwise eligible for benefits, or if convicted, week in which criminal complaint is
+filed; FL, NY, and TN - waiting or compensable week after its discovery; OR - as determined by agency; KY, MI, and NJ - date of
+discovery of fraud; VI - determination mailed or delivered; WY - week of fraud or week following the date notice is mailed.
+3 Has a statutory limitation.
+4 Disqualification of 2 - 15 weeks if no benefits paid; 5 - 15 weeks if benefits received. Director may extend the period of ineligibility
+for an additional period not to exceed eight additional weeks for successive disqualification; disqualification may be served
+concurrently with a disqualification imposed for any of the three major causes if individual registers for work for such week as
+required under latter disqualifications.
+5 MO, NE, and OR - cancellation of all wage credits means that period of disqualification will extend into second BY, depending on
+amount of wage credits for such year accumulated before fraudulent claim.
+6 May be waived for good cause, or if the individual adheres to an authorized repayment schedule designed to repay benefits,
+penalties, and interest within 18 months.
+
+DRUG TESTING AS A CONDITION OF ELIGIBILITY
+Federal law permits states to conduct drug testing on individuals applying for benefits if the individual
+was discharged from employment for unlawful drug use, or if the only suitable work available to the individual
+is in an occupation that regularly conducts drug testing. States are permitted to deny benefits to individuals who
+test positive for drugs under these circumstances. Three states have enacted such laws, the implementation of
+which is subject to applicable federal law.
+Mississippi permits drug testing on individuals as a condition of eligibility for benefits if the individual
+was discharged because of unlawful drug use or is seeking suitable work only in an occupation that requires
+drug testing. Individuals may be denied benefits based on the results of these drug tests, but may end the
+disqualification period early by submitting acceptable proof of a negative drug test result from an approved
+5-20
+
+NONMONETARY ELIGIBILITY
+testing facility. Texas permits drug testing, as a condition of eligibility for benefits, on individuals for whom
+suitable work is available only in an occupation that regularly conducts pre-employment drug testing. Wisconsin
+enacted legislation requiring the establishment of rules for a drug testing program for controlled substances,
+including rules identifying occupations for which drug testing is regularly conducted in the state.
+
+LABOR DISPUTES
+Provisions related to labor disputes do not question whether the unemployment is incurred through fault
+on the part of the individual worker. The denial is always a postponement of benefits; there is no reduction or
+cancellation of benefit rights. In almost all states, the denial period is indefinite and based on the continuation
+of the dispute-induced work stoppage or to the progress of the dispute.
+DEFINITION OF LABOR DISPUTE—State laws use different terms to describe labor disputes. In addition
+to labor dispute, these terms include trade dispute, strike, “strike and lockout,” or “strike or other bona fide labor
+dispute.” Except for Alabama, Arizona, Colorado, and Minnesota, state laws do not define these terms. Some
+states exclude the following from their denials:
+•
+
+Employer lockouts;
+
+•
+
+Disputes resulting from the employer’s failure to conform to the provisions of a labor contract;
+
+•
+
+Disputes caused by the employer’s failure to conform to any state or federal law relating to
+wages, hours, working conditions, or collective bargaining; and
+
+•
+
+Disputes where the employees are protesting substandard working conditions.
+
+LOCATION OF THE DISPUTE—Generally, an individual is not denied benefits unless the labor dispute is in
+the establishment in which the individual was last employed. A few states deny individuals under certain
+circumstances at any other premises operated by the employer.
+PERIOD AND TERMS OF DISQUALIFICATION—In most states, the denial period ends when the
+“stoppage of work because of a labor dispute” ends or the stoppage ceases to be caused by the labor dispute. In
+some states, the denial period lasts while the labor dispute is in “active progress.” In others, the denial period
+lasts while the individual’s unemployment is a result of a labor dispute.
+TABLE 5-11: DISQUALIFICATION TERMS—LABOR DISPUTES
+State
+
+During Stoppage of Work
+
+While Dispute Is in Active Progress
+
+AL
+AK
+
+X
+X
+
+AZ
+
+X
+
+CA
+
+X
+
+CT
+DE
+
+X
+X
+
+DC
+
+X
+
+FL
+
+X
+
+GA
+
+Unemployment Caused by
+Existence of a Labor Dispute
+
+X1
+
+5-21
+
+NONMONETARY ELIGIBILITY
+TABLE 5-11: DISQUALIFICATION TERMS—LABOR DISPUTES
+State
+
+During Stoppage of Work
+
+HI
+
+X
+
+While Dispute Is in Active Progress
+
+ID
+
+X
+
+IL
+
+X
+
+IA
+
+X
+
+KS
+
+X
+
+KY
+
+X
+
+LA
+
+X
+
+ME
+
+X
+
+MD
+
+X
+
+MA
+
+X2
+
+MN
+
+X
+
+MS
+
+X
+
+MO
+
+X
+
+MT
+NE
+
+Unemployment Caused by
+Existence of a Labor Dispute
+
+X
+X
+
+NV
+
+X
+
+NH
+
+X
+
+NJ
+
+X1
+
+NM
+
+X
+
+ND
+
+X
+
+OH
+
+X
+
+OK
+
+X
+
+OR
+
+X
+
+PA
+
+X
+
+PR
+
+X
+
+RI
+
+X
+
+SC
+
+X
+
+SD
+
+X
+
+TN
+
+X
+
+TX
+
+X2
+
+UT
+
+X
+
+VT
+
+X
+
+VA
+
+X
+
+VI
+
+X
+
+5-22
+
+NONMONETARY ELIGIBILITY
+TABLE 5-11: DISQUALIFICATION TERMS—LABOR DISPUTES
+State
+
+During Stoppage of Work
+
+While Dispute Is in Active Progress
+
+WA
+WV
+
+X
+X1
+
+WI
+WY
+
+Unemployment Caused by
+Existence of a Labor Dispute
+
+X
+X
+
+GA - when operations have been resumed but individual has not been reemployed; MA - within one week
+following termination of dispute if individual is not recalled to work; NJ – unless the employer hires a replacement and does not
+allow employee to return during 30-day waiting period; WV - if the stoppage of work continues longer than four weeks after the
+termination of the labor dispute, there is a rebuttable presumption that the stoppage is not due to the labor dispute and the burden is
+on the employer to show otherwise.
+2 IN and TX - as long as unemployment is caused by work stoppage that exists because of labor dispute; failure or refusal to cross
+picket line or to accept and perform available and customary work in the establishment constitutes participation and interest.
+1 Disqualification ceases:
+
+A few states allow individuals to terminate the denial period by showing that the labor dispute (or the
+stoppage of work) is no longer the cause of their unemployment:
+•
+
+In Indiana, the denial ends following termination of employment with the employer involved in
+the dispute.
+
+•
+
+In Michigan, the denial ends if an individual works in at least two consecutive calendar weeks
+and earns wages in each week of at least the weekly benefit amount based on employment with
+the employer involved in the labor dispute.
+
+•
+
+In Missouri, the denial ends following the bona fide employment of the individual for at least the
+major part of each of two weeks.
+
+•
+
+In New Hampshire, the denial ends two weeks after the dispute has ended even if the stoppage of
+work continues.
+
+•
+
+In Maine, Massachusetts, New Hampshire, and Utah, an individual may receive benefits if,
+during a stoppage of work resulting from a labor dispute, the individual obtains employment with
+another employer and earns a specified amount of wages. However, wages earned with the
+employer involved in the dispute cannot be used to determine eligibility while the stoppage of
+work continues.
+
+In contrast, some states’ laws extend the denial for the period of time necessary for the employer
+to resume normal operations (Arkansas, Colorado, North Carolina, and Tennessee). Others extend the
+denial period to shutdown and start-up operations (Michigan and Virginia).
+In New York, an individual is denied for two consecutive weeks due to unemployment because of a
+strike, lockout, or concerted activity not authorized or sanctioned by the collective bargaining unit in the
+establishment where such individual was employed.
+EXCLUSION OF INDIVIDUAL WORKERS—Most states provide that individual workers are not denied
+benefits under the labor dispute provisions if they, and others of the same grade or class, are not participating in
+the dispute, financing it, or directly interested in it. The following table provides information regarding denials
+related to labor disputes. Alabama and North Carolina do not have laws regarding labor disputes as they relate
+to unemployment insurance eligibility.
+5-23
+
+NONMONETARY ELIGIBILITY
+TABLE 5-12: STATES WITH LABOR DISPUTES – EXCLUSIONS
+Disputes Excluded if Caused by:
+
+Workers are Excluded from Disqualification if Those in the Same
+Grade or Class are not:
+
+Employer’s Failure to Conform to:
+Lockout
+
+Participating In
+Dispute
+
+State
+
+Contract
+
+Labor Law
+
+AK
+
+X
+
+X
+
+X
+
+AZ
+
+X
+
+X
+
+X
+
+Financing Dispute
+
+Directly
+Interested in
+Dispute
+X
+
+X
+
+X
+
+X
+
+AR
+
+X
+
+CA
+
+X
+
+CO
+
+X1
+
+X
+
+X
+
+X
+
+CT
+
+X
+
+X
+
+X
+
+X
+
+DE
+
+X
+
+DC
+
+X
+
+X
+
+FL
+
+X
+
+X
+
+X
+
+X
+
+GA
+
+X
+
+X
+
+X
+
+X
+
+HI
+
+X
+
+X
+
+X
+
+ID
+
+X
+
+X
+
+X2
+
+X
+
+X
+
+X
+
+X
+
+IN
+
+X
+
+X
+
+X
+
+IA
+
+X
+
+X
+
+X
+
+KS
+
+X3
+
+X
+
+X3
+
+X1
+
+IL
+
+KY
+
+X
+
+LA
+
+X
+
+X2
+
+X
+
+X
+
+X
+
+X
+
+MD
+
+X
+
+X
+
+X
+
+X
+
+MA
+
+X
+
+X
+
+X
+
+X
+
+MI
+
+X4
+
+ME
+
+MN
+
+X
+
+X
+
+X
+
+X
+
+MS
+
+X2
+
+X
+
+X5
+
+X5
+
+X
+
+X
+
+X
+
+MO
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+NE
+
+X
+
+X
+
+X
+
+NV
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+MT
+
+X
+
+NH
+
+X
+
+NJ
+
+X
+
+X
+X6
+
+NM
+NY
+ND
+OH
+
+X
+
+X
+
+X
+
+X
+
+X7
+X1
+
+X1
+
+5-24
+
+NONMONETARY ELIGIBILITY
+TABLE 5-12: STATES WITH LABOR DISPUTES – EXCLUSIONS
+Disputes Excluded if Caused by:
+
+Workers are Excluded from Disqualification if Those in the Same
+Grade or Class are not:
+
+Employer’s Failure to Conform to:
+State
+
+Contract
+
+Labor Law
+
+OK
+OR
+
+X
+
+PA
+
+Participating In
+Dispute
+
+X
+
+X
+
+X
+
+X1
+
+X
+
+X
+
+X
+
+X
+
+X
+
+PR
+RI
+
+Directly
+Interested in
+Dispute
+
+Lockout
+
+X
+
+Financing Dispute
+
+X
+X
+
+X
+
+X2
+
+X2
+
+X2
+
+X
+
+X2
+
+X
+
+X
+
+X
+
+X
+
+X
+
+TN
+
+X
+
+X1
+
+TX
+
+X
+
+X3
+
+X3
+
+X3
+
+SC
+SD
+
+UT
+
+X1
+
+VT
+
+X
+
+X
+
+X1
+
+VA
+VI
+
+X
+X
+
+WI
+
+X2
+
+X2
+
+X
+
+X
+
+X
+
+X
+
+WA
+WV
+
+X2
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+WY
+
+CO - unless the lockout results from demands of employees, as distinguished from an employer effort
+to deprive the employees of some advantage they already possess; OH - if the individual was laid off and not recalled prior to the
+dispute, if separated prior to the dispute, or if obtained bona fide job with another employer while the dispute was in progress; IL - if
+the recognized or certified collective bargaining representative of the locked out employees refuses to meet under reasonable
+conditions with the employer to discuss the lockout issues, or there is a final adjudication under the NLRA that during the lockout
+period such representative has refused to bargain in good faith with the employer over the lockout issues, or if the lockout resulted as
+a direct consequence of a violation by such representative of the provisions of an existing collective bargaining agreement; OR - if
+the individual was laid off prior to the dispute and did not work more than seven days during the 21 calendar days immediately prior
+to the dispute, or if the individual’s position was filled and the individual unilaterally abandons the dispute to seek reemployment
+with the employer; TN - if the individual was indefinitely separated prior to the dispute and otherwise eligible; UT - if the employer
+was involved in fomenting the strike; VT - if the employer brought about the lockout to gain concessions from the employees.
+2 Applies only to individual, not to other workers of the same grade or class.
+3 As long as unemployment is caused by work stoppage that exists because of labor dispute; failure or refusal to cross picket line or to
+accept and perform available and customary work in the establishment constitutes participation and interest.
+4 Only if unemployment is caused by lockout in another, functionally integrated U.S. establishment of the same employer.
+5 Disqualification limited to one week for individuals neither participating in nor directly interested in dispute.
+6 Individuals locked out of employment by their employer can collect benefits if they were not on strike immediately prior to the
+lockout and are directed by their union leadership to work under the preexisting terms and conditions of employment.
+7 If not participating and not employed by an employer that is involved in the industrial controversy that caused their unemployment,
+or not in a bargaining unit involved in the industrial controversy that caused their unemployment.
+1 Dispute is not disqualifying:
+
+5-25
+
+NONMONETARY ELIGIBILITY
+NONSEPARATIONS
+Aside from separations, there are a number of additional eligibility questions that are evaluated for each
+claim. The remainder of the chapter discusses these situations, such as unique eligibility rules that apply only to
+special groups and deductible income. This section on nonseparations details the core eligibility requirements
+for individuals each week of a claim, including being able to work, available to work, actively seeking work,
+and not refusing suitable offers of work.
+ABILITY TO WORK—Federal law requires that an individual is able to work for any given week. Only
+minor variations exist in state laws setting forth the requirements concerning ability to work. A few states
+specify that an individual must be physically able, or mentally and physically able to work.
+Several states have added a provision that no individual who has filed a claim and has registered for
+work shall be considered ineligible during an uninterrupted period of unemployment because of illness or
+disability, provided no work, which is suitable but for the disability, is offered and refused. These provisions are
+not to be confused with the special programs in six states for temporary disability benefits, which is discussed in
+Chapter 8, Temporary Disability Insurance.
+AVAILABILITY TO WORK—Federal law requires that an individual is available to work for any given
+week. Availability to work is often translated to mean being ready, willing, and able to accept work. Meeting
+the requirement of registration for work at a public employment office is considered as some evidence of
+availability. An individual may demonstrate that they are not available to work by placing substantial
+restrictions on the kind of conditions of otherwise suitable work that they can or will accept or by refusing either
+the state workforce agency’s referral to suitable work or an employer’s offer of suitable work.
+State provisions regarding an individual’s availability to work are more varied than those regarding an
+individual’s ability to work. Some states provide that an individual must be available to work; some for suitable
+work; and others for work in the individual’s usual occupation or for which the individual is reasonably fitted by
+training and experience.
+Nine states—Alaska, Delaware, Hawaii, Idaho, Massachusetts, Nevada, North Dakota, Tennessee, and
+Vermont—have provisions which allow an individual to be considered available to work during a period of
+illness or disability occurring during the benefit year provided the individual has not refused suitable work.
+Alaska limits this provision to six consecutive weeks. Idaho limits this provision to not more than four weeks
+during a claim period and requires that no suitable work that pays more than one-half of the weekly benefit
+amount is available. Massachusetts allows for its use only three weeks during a benefit year. North Dakota
+applies this provision only if the illness cannot be covered by workers’ compensation. In all cases, registration
+for work is still required.
+Vacation—The following states specify conditions under which individuals on vacation may be deemed
+available to work:
+•
+
+In Nebraska and New Jersey, no individual is deemed unavailable to work solely because the individual
+is on vacation without pay if the vacation is not the result of the individual’s own action as distinguished
+from any collective bargaining or other action beyond the individual’s control.
+
+•
+
+Under New York law, an agreement by an individual or the individual’s union or representative to a
+shutdown for vacation purposes is not in itself considered a withdrawal from the labor market or
+unavailability during the time of such vacation shutdown.
+
+5-26
+
+NONMONETARY ELIGIBILITY
+The following states specify the conditions under which individuals on vacation are deemed unavailable
+or unemployed:
+•
+
+In Georgia, a period of unavailability is limited to two weeks in any calendar year, when an individual is
+on an unpaid vacation period provided for in an employment contract or by an employer established
+custom.
+
+•
+
+In Indiana, an individual is not considered unemployed if the individual is on a vacation week and is
+receiving, or has received, remuneration from the employer for that week. In addition, Indiana
+considers individuals to be employed if they are on a vacation week and have not received remuneration
+from the employer for that week because of a written contract between the employer and its workers, or
+because of the employer’s regular vacation policy and practice (this provision applies only if the
+individual has reasonable assurance of employment available with the employer after the vacation
+period ends).
+
+•
+
+In Mississippi an individual is considered unavailable to work during a holiday or vacation period.
+
+•
+
+In North Carolina, no individual shall be considered available to work for any week, not to exceed two
+weeks in any calendar year, in which the unemployment is due to a vacation.
+
+The following states include other provisions relating to eligibility during vacation periods, although not
+specifically stated in terms of availability:
+•
+
+Tennessee does not deny benefits during unemployment caused by a plant shutdown for vacation,
+provided the individual does not receive vacation pay. However, individuals who receive regular wages
+for a vacation under terms of a labor-management agreement will have their weekly benefit amount
+reduced by the amount of the wages received, but only if work will be available for the individuals with
+the employer at the end of the vacation period.
+
+•
+
+Individuals in Virginia are eligible for benefits only if they are not on a bona fide paid vacation.
+
+•
+
+Washington provides that a cessation of operations by an employer for the purpose of granting vacations
+shall not be construed to be a voluntary quit or voluntary unemployment.
+
+For information on how state provisions around deductible income apply to vacation pay, see Table 520, States with Holiday Pay, Back Pay, and Vacation Pay Provisions.
+Locality—Alabama, Michigan, Ohio, and South Carolina require individuals be available to work in the locality
+where their base-period wages were earned, or in a locality where similar work is available or where suitable
+work is normally performed. Illinois and Utah consider individuals to be unavailable if, after separation from
+their most recent work, they move to and remain in a locality where opportunities for work are substantially less
+favorable than those in the locality they left. Oregon, Utah, and Virginia consider individuals unavailable to
+work if they leave their normal labor market area for the majority of a week unless the individuals can establish
+that they conducted a bona fide search for work in the labor market area where they spent the majority of the
+week. Idaho permits temporary departures from the local area under certain circumstances but requires
+individuals to be in locations covered by the Interstate Benefit Payment Plan in order to be eligible for UC.
+Some states explicitly address an individual’s availability status when the individual is in a foreign
+country. For example, in Wisconsin, an individual is not considered available to work in any week they are in a
+country other than the United States or Canada for more than 48 hours, unless the individual has authorization to
+work in that country and there is a reciprocal agreement with that country concerning the payment of
+unemployment benefits. In Utah, an individual located in a foreign country for three or more days of a week
+and who is otherwise eligible for benefits is only eligible to receive benefits for that week if the individual is
+5-27
+
+NONMONETARY ELIGIBILITY
+legally authorized to work in the foreign country, and the state and the foreign country have entered into a
+reciprocal agreement concerning the payment of unemployment benefits. Washington permits an individual to
+be located outside the United States and its territories provided the person is either legally authorized to work in
+whichever country they are in, immediately available to work in the United States, or a military spouse
+authorized to work on base where their spouse is stationed.
+Training—FUTA requires, as a condition for employers in a state to receive credit against the federal tax, that
+all state laws provide that compensation shall not be denied to an otherwise eligible individual for any week
+during which the individual is attending a training course with the approval of the state agency. In addition,
+state laws must provide that individuals in approved training not be held ineligible or disqualified for being
+unavailable to work, for failing to make an active search for work, or for failing to accept an offer of suitable
+work. All state laws must also provide that trade allowances not be denied to an otherwise eligible individual
+for any week during which the individual is in training approved under the Trade Act of 1974 because of leaving
+unsuitable employment to enter such training.
+Federal law does not specify the criteria that states must use to approve training. Although some state
+laws have set forth the standards to be used, many do not specify approved training programs beyond those
+required by federal law. Generally, approved training is limited to vocational or basic education training,
+thereby excluding regularly enrolled students from collecting benefits under the approved training provision.
+Some states, in addition to providing regular benefits while the individual attends an industrial
+retraining or other vocational training course, provide for an extended duration of benefits while the individual
+remains in training/retraining. See Chapter 4, Extensions and Special Programs.
+In most states, participation in approved training is voluntary. However, in the District of Columbia and
+Washington an individual may be required to attend such training under certain circumstances.
+Part-time Work—Many states require individuals to be available for full-time work. Other states allow
+individuals to be available for part-time work under certain conditions. The following table indicates those
+states paying benefits to workers who seek only part-time employment.
+TABLE 5-13: STATES ALLOWING THOSE SEEKING ONLY PART-TIME WORK TO BE ELIGIBLE FOR UC
+State
+
+If Otherwise
+Eligible
+
+Claim Based on Part-Time
+Work, or History of PartTime Work
+
+AR
+
+I
+
+L
+
+CA
+
+L
+
+CO
+
+L, R
+
+Medical Restrictions or
+Restrictions Due to
+Disabilities
+
+CT
+DE
+
+Other
+
+L, R
+L1
+
+Good Cause – I
+
+DC
+
+Good Cause – I
+
+FL
+
+I
+
+GA
+
+L1
+
+HI
+
+L
+
+5-28
+
+NONMONETARY ELIGIBILITY
+TABLE 5-13: STATES ALLOWING THOSE SEEKING ONLY PART-TIME WORK TO BE ELIGIBLE FOR UC
+State
+
+If Otherwise
+Eligible
+
+Claim Based on Part-Time
+Work, or History of PartTime Work
+
+Medical Restrictions or
+Restrictions Due to
+Disabilities
+
+Other
+
+R
+
+Suitable if circumstances beyond
+individual’s control – R
+
+L, R2
+
+L, R2
+
+IL
+ID
+
+L1
+
+IA
+
+L, R
+
+KS
+
+L1, I
+
+LA
+
+I
+
+ME
+
+L, R
+
+MD
+
+L1
+
+MA
+
+R
+
+MN
+
+L
+
+MT
+
+L
+
+NE
+
+L1
+
+NV
+
+R
+
+I
+
+I3
+
+NH
+
+L
+
+L
+
+R4
+
+NJ
+
+L, R
+
+NM
+
+R
+
+R
+
+L, R3
+
+L, R5
+
+NY
+
+L
+
+ND
+
+I
+
+OH
+
+I
+
+OK
+
+L1
+
+OR
+PA
+
+R
+I6
+
+PR
+
+I
+
+SC
+
+L1
+
+SD
+
+L1
+
+UT
+VT
+
+R
+I
+
+VA
+
+I
+
+5-29
+
+NONMONETARY ELIGIBILITY
+TABLE 5-13: STATES ALLOWING THOSE SEEKING ONLY PART-TIME WORK TO BE ELIGIBLE FOR UC
+State
+
+If Otherwise
+Eligible
+
+VI
+
+L
+
+Claim Based on Part-Time
+Work, or History of PartTime Work
+
+WA
+
+L, R
+
+WY
+
+R
+
+KEY:
+
+Medical Restrictions or
+Restrictions Due to
+Disabilities
+
+Other
+
+R
+
+L = law, R = regulation, I = interpretation or policy
+
+1 DE - if individual is willing to work at least 20 hours per week, is available for the number of hours comparable to part-time work in
+
+base period, or is available for the hours comparable to the individual’s work at the time of most recent separation; GA, ID, and
+NM - if individual is willing to work at least 20 hours per week; KS and OK - provided the individual is available for the
+
+number of hours per week that are comparable to part-time work experience in base period; MD - provided that the individual
+worked at least 20 hours per week in part-time work for a majority of the weeks of work in the base period and is in a labor
+market in which a reasonable demand exists for part-time work; NE - provided that the majority of weeks of work in the base
+period included part-time work and that the individual is available for at least 20 hours of work per week; SC and SD - provided the
+majority of weeks of work in the base period include part-time work.
+2 When majority of weeks in base period were full-time but individual is only able, available and seeking part-time work due
+to own or immediate family member’s illness or disability, or when necessary for safety or protection of individual or immediate
+family member, including protection from domestic abuse.
+3 Student provision applies to high school students who can only work part-time while attending school.
+4 In certain circumstances, if individual is the only adult suitable to care for a child.
+5 Only for individuals who attend school full time and are actively seeking at least part-time work, and for whom school attendance
+was not a factor in separation from work.
+6 The Superior Court has stated that the availability requirement is met as long as an individual is ready, willing, and able to accept
+some substantial and suitable work.
+
+ACTIVELY SEEKING WORK—Federal law requires that an individual actively seek work each week UC is
+claimed. The following table contains information on work search requirements, by state. In some states, the
+required number of work search activities may vary under certain circumstances, for example, during an
+Extended Benefits (EB) period or depending on rural or urban area.
+Because states may not deny benefits to an individual in approved training, all states provide an
+exemption from the requirement to conduct an active work search for any week the individual is in approved
+training. In addition, most states allow work search exemptions if the worker is union-attached and finds work
+through the union hiring hall, though some states place a time limit on this exemption. Most states allow a work
+search exemption if a separation is classified as a temporary lay-off and there is a reasonable expectation that the
+worker will return to work soon. Other work search exemptions include that the worker has a specified start
+date for new employment, has jury duty, or is participating in a Short Time Compensation (STC) program.
+Please note that this table is intended to provide a general overview of work search requirements in the
+states; it is not meant to be exhaustive. Consult the appropriate state statute, regulation, or policy for more
+specific information on work search requirements.
+TABLE 5-14: WORK SEARCH REQUIREMENTS
+State
+
+Basis
+
+Minimum Number of Work Search Activities
+Required per Week
+
+AL
+
+L&R
+
+3
+
+AK
+
+L, R, & I
+
+1 – 21
+
+AZ
+
+L, R, & I
+
+42
+
+AR
+
+L&R
+
+21
+
+5-30
+
+Part-Time Work Search
+Acceptable
+X
+X3
+
+NONMONETARY ELIGIBILITY
+TABLE 5-14: WORK SEARCH REQUIREMENTS
+State
+
+Basis
+
+Minimum Number of Work Search Activities
+Required per Week
+
+CA
+
+L, R, & I
+
+Unspecified
+
+CO7
+
+L, R, & I
+
+Unspecified4
+
+CT
+
+L, R, & I
+
+3
+
+DE
+
+L&R
+
+1 new
+
+X2
+
+DC
+
+L&R
+
+2
+
+X
+
+FL
+
+L&R
+
+3 - rural area, 5 - urban area4
+
+X3
+
+GA
+
+L, R, & I
+
+3 new
+
+X3
+
+HI
+
+L&R
+
+3
+
+X3
+
+ID
+
+L&R
+
+24
+
+X3
+
+IL
+
+L, R, & I
+
+Quality not quantity
+
+X3
+
+IN
+
+L&I
+
+3
+
+IA
+
+L, R, & I
+
+21
+
+X3
+
+KS
+
+L, R, & I
+
+34
+
+X3
+
+KY
+
+L&I
+
+5
+
+LA
+
+L, R, & I
+
+3 - new, 1 - union members
+
+ME
+
+L&R
+
+Unspecified
+
+MD
+
+L, R, & I
+
+3
+
+X3
+
+MA
+
+L&I
+
+35
+
+X2
+
+MI
+
+L&I
+
+2
+
+MN
+
+L, R, & I
+
+Unspecified
+
+MS
+
+L&R
+
+3
+
+MO
+
+L&I
+
+36
+
+MT
+
+L&R
+
+1 new2
+
+NE
+
+R&I
+
+52, 4
+
+X3
+
+NV
+
+L&I
+
+Unspecified
+
+X3
+
+NH
+
+L, R, & I
+
+Unspecified – reasonable person
+
+X3
+
+NJ
+
+R
+
+34
+
+X3
+
+NM7
+
+L&R
+
+2
+
+X3
+
+NY
+
+L&R
+
+34
+
+X3
+
+NC
+
+L
+
+34
+
+ND
+
+L
+
+4
+
+X3
+
+OH
+
+L&I
+
+2
+
+X3
+
+OK
+
+L, R, & I
+
+24, 6
+
+X3
+
+OR
+
+L, R, & I
+
+52, 6
+
+X
+
+PA
+
+L&R
+
+2 applications and 1 search activity
+
+X2
+
+PR
+
+L
+
+Unspecified
+
+X3
+
+RI
+
+L, R, & I
+
+3
+
+5-31
+
+Part-Time Work Search
+Acceptable
+X3
+
+X3
+
+NONMONETARY ELIGIBILITY
+TABLE 5-14: WORK SEARCH REQUIREMENTS
+
+KEY:
+
+State
+
+Basis
+
+Minimum Number of Work Search Activities
+Required per Week
+
+Part-Time Work Search
+Acceptable
+
+SC
+
+L&R
+
+22, 4
+
+X3
+
+SD
+
+L, R, & I
+
+24
+
+X3
+
+TN
+
+L&R
+
+34
+
+TX
+
+L, R, & I
+
+36
+
+UT
+
+L, R, & I
+
+4
+
+VT
+
+L, R, & I
+
+3
+
+X
+
+VA
+
+L, R, & I
+
+21
+
+X
+
+VI
+
+R
+
+3
+
+WA
+
+L&R
+
+34
+
+WV
+
+L, R, & I
+
+Unspecified1
+
+WI
+
+L&R
+
+46
+
+WY
+
+L&R
+
+2
+
+X3
+
+X3
+
+L = law, R = regulation, I = interpretation or policy
+
+1 Dependent on geography, labor market, union hall membership, or other factor.
+2 Limitations or specific requirements apply.
+3 Part-time work history required.
+
+4 May use employment services registration, access reemployment services, jobseeking workshop, or participate in job search
+
+activities. NE requires at least one contact through the state system; SC requires 2. NC allows a verified reemployment activity
+through a local career center to count as one of its weekly require work search contacts.
+5 Domestic violence accommodations.
+6 Agency may increase or direct.
+7 During declared emergency Agency may waive or broaden work search criteria.
+
+Acceptable work search activities vary by state and may include, among others, making direct contacts
+with an employer, creating a resume, using online career tools, using reemployment services in American Job
+Centers or completing similar online or self-service activities, participating in work-related networking events,
+and any other work search activities prescribed by the state. In some states, union members are required to
+register with their appropriate local union hall.
+All states monitor compliance with work search requirements through the Benefit Accuracy
+Measurement (BAM) program and during an individual’s participation with Reemployment Services and
+Eligibility Assessment (RESEA). A number of states also perform various other work search verifications. The
+following table provides details of how states monitor compliance with work search requirements in addition to
+BAM and RESEA.
+TABLE 5-15: WORK SEARCH REPORTING AND MONITORING
+State
+
+Basis
+
+AL
+
+L&R
+
+AK
+
+L, R, & I
+
+AZ
+
+L, R, & I
+
+Claimant Reporting of
+Work Search Activities
+Method of
+Frequency
+Reporting
+Eligibility
+Weekly
+review
+Paper, phone,
+Weekly
+or internet
+Paper or
+Weekly
+internet
+
+Reviews done in addition to BAM & RESEA
+Random eligibility review
+
+Each weekly claim
+
+5-32
+
+NONMONETARY ELIGIBILITY
+TABLE 5-15: WORK SEARCH REPORTING AND MONITORING
+Claimant Reporting of
+Work Search Activities
+Method of
+Frequency
+Reporting
+Phone or
+Weekly
+paper
+
+State
+
+Basis
+
+AR
+
+L&R
+
+CA
+
+L, R, & I
+
+Upon request
+
+Interview
+
+Eligibility review
+
+CO
+
+L&R
+
+Bi-weekly
+
+Part of
+continued
+claim process
+
+Random or targeted audit
+
+CT
+
+L, R, & I
+
+Weekly
+
+Part of audit
+
+Random or targeted audit
+
+DE
+
+L&R
+
+Weekly
+
+DC
+
+L&R
+
+With
+continued
+claim
+
+FL
+
+L&R
+
+Bi-weekly
+
+GA
+
+L, R, & I
+
+Weekly
+
+HI
+
+L&R
+
+Weekly
+
+ID
+
+L&R
+
+Weekly
+
+IL
+
+L, R, & I
+
+Upon request
+
+In writing
+
+Random or targeted audit
+
+IN
+
+L&I
+
+Weekly
+
+With weekly
+claim
+
+Incomplete work search triggers eligibility review
+
+IA
+
+L, R, & I
+
+Weekly
+
+Upon request
+
+KS
+
+L, R, & I
+
+Weekly
+
+Upon request
+
+KY
+
+L&I
+
+Weekly
+
+Upon request
+
+Random weekly audit
+
+LA
+
+L, R, & I
+
+Upon request
+
+Eligibility review every 6 weeks
+
+ME
+
+L&R
+
+Mandatory
+contact log
+upon request
+
+Random audit
+
+MD
+
+L, R, & I
+
+Weekly
+
+Upon request
+
+Random telephone interview
+
+MA
+
+L&I
+
+Weekly
+
+Upon request
+
+Random audit
+
+MI
+
+L&I
+
+At least biweekly
+
+Online, mail,
+in-person
+
+MN
+
+L, R, & I
+
+Upon request
+
+Online
+
+Random audit/worker profiling
+
+MS
+
+L&R
+
+Weekly
+
+Online
+
+Random audit
+Weekly and random eligibility review
+
+Eligibility
+review every
+6 weeks
+Mandatory
+contact log
+upon request
+
+Reviews done in addition to BAM & RESEA
+Random audit
+
+Part of
+weekly claim
+Part of
+continued
+claim
+Part of
+continued
+claim
+
+Random audit
+
+Random weekly audit
+
+Online or fax
+
+Unspecified
+
+Telephone
+survey
+questions
+Online with
+continued
+claim
+
+Random or targeted audit
+
+MO
+
+L&I
+
+Weekly
+
+Online,
+phone, or
+mail
+
+MT
+
+L&R
+
+Weekly
+
+Weekly claim
+
+Random audit
+
+NE
+
+R&I
+
+Weekly
+
+Online
+
+Random audit
+
+NV
+
+L&I
+
+Weekly
+
+Contact log
+
+Random audit
+
+NH
+
+L, R, & I
+
+Weekly
+
+Part of
+weekly claim
+
+Eligibility review
+
+5-33
+
+NONMONETARY ELIGIBILITY
+TABLE 5-15: WORK SEARCH REPORTING AND MONITORING
+Claimant Reporting of
+Work Search Activities
+Method of
+Frequency
+Reporting
+Telephone,
+Bi-weekly
+online, or by
+mail.
+
+State
+
+Basis
+
+Reviews done in addition to BAM & RESEA
+
+NJ
+
+R
+
+NM
+
+L&R
+
+Weekly
+
+Upon request
+
+Random audit
+
+NY
+
+L&R
+
+Weekly
+
+Upon request
+
+Random audit
+
+NC
+
+L
+
+Weekly
+
+Upon request
+
+Unspecified
+
+ND
+
+L
+
+Weekly
+(online)
+monthly (by
+other means)
+
+OH
+
+L&I
+
+Weekly
+
+OK
+
+L, R, & I
+
+Weekly
+
+OR
+
+L, R, & I
+
+Weekly
+
+PA
+
+L&R
+
+Weekly
+
+Upon request
+
+Random audit
+
+PR
+
+L
+
+Weekly
+
+Upon request
+
+Unspecified
+
+RI
+
+L, R, & I
+
+Weekly
+
+Upon request
+
+Random audit
+
+SC
+
+L
+
+Weekly
+
+Upon request
+
+Eligibility review
+
+SD
+
+L, R, & I
+
+Weekly
+
+With
+continued
+claim
+
+Random weekly audit
+
+TN
+
+L&R
+
+Weekly
+
+Upon request
+
+Random weekly audit
+
+TX
+
+L, R, & I
+
+Weekly
+
+Upon request
+
+Random audit
+
+Random audit
+
+Online or in
+event of
+eligibility
+review every
+4 weeks
+With
+continued
+claim
+Upon request
+by mail, fax,
+or online
+With
+continued
+claim
+
+Random audit
+
+Random audit
+Random audit
+
+With weekly
+continued
+claim
+With weekly
+continued
+claim, online
+With weekly
+continued
+claim
+
+UT
+
+L, R, & I
+
+Weekly
+
+VT
+
+L, R, & I
+
+Weekly
+
+VA
+
+L&R
+
+Weekly
+
+VI
+
+R
+
+Weekly
+
+Upon request
+
+Random audit
+
+WA
+
+L&R
+
+Weekly
+
+Upon request
+
+Random audit and upon request
+
+WV
+
+L, R, & I
+
+Weekly
+
+Upon request
+
+Random audit
+
+WI
+
+L&R
+
+Weekly
+
+Upon request
+
+Random audit
+
+WY
+
+L&R
+
+Weekly
+
+Upon request
+
+State reviews a randomly chosen 2-week log of the first 4 weeks claimed
+
+KEY:
+
+Random audit
+Random audit
+Random audit
+
+L = law, R = regulation, I = interpretation or policy
+
+5-34
+
+NONMONETARY ELIGIBILITY
+REFUSAL OF WORK—All state laws address refusal of suitable work, though states vary concerning the
+extent of the disqualification imposed. Under federal law, an individual is not required to accept work that is
+less favorable in terms of wages, hours, or other conditions than those prevailing for similar work in the locality.
+Specifically, benefits will not be denied to an otherwise eligible individual for refusing to accept new work
+under the following circumstances:
+•
+
+the position offered is vacant due directly to a strike, lockout, or other labor dispute;
+
+•
+
+the wages, hours, or other conditions of the work offered are substantially less favorable to the
+individual than those prevailing for similar work in the locality; or
+
+•
+
+as a condition of being employed the individual would be required to join a company union, or to
+resign from or refrain from joining any bona fide labor organization.
+
+Criteria for Suitable Work—Most state laws include criteria for evaluating the suitability of work in addition
+to the requirements of federal law. Such provisions generally include the degree of risk to an individual’s
+health, safety, and morals; the individual’s physical fitness, prior training, experience, and earnings; the length
+of unemployment and prospects for securing local work in a customary occupation; and the distance of the
+available work from the individual’s residence.
+While Delaware and New York make no reference to the suitability of work offered, they provide for
+disqualification for refusals of work for which an individual is reasonably fitted. South Carolina specifies that
+the decision of whether work is suitable must be based on a standard of reasonableness as it relates to the
+particular individual involved.
+Connecticut does not deem work suitable if, as a condition of being employed, the individual would be
+required to agree not to leave the position if recalled by their previous employer. In Wisconsin, an individual
+has good cause during the first six weeks of unemployment for refusing work at a lower grade or skill or
+significantly lower rate of pay than one or more recent jobs.
+Earnings—In some states the earnings for a new job are compared to other factors when determining whether
+an individual had good cause to refuse an offer of suitable work. For example, in Louisiana, an individual may
+refuse work if the remuneration from the employer is below 60 percent of the individual’s highest rate of pay in
+the base period. New Hampshire requires that for work to be deemed suitable, the hourly rate when multiplied
+by 40 must be equal to or greater than 150 percent of the individual’s weekly benefit amount.
+Distance—In Alabama and West Virginia, no work is unsuitable because of distance if it is in substantially the
+same locality as the last regular employment which the individual left voluntarily without good cause connected
+with the employment. In Indiana, work under substantially the same terms and conditions under which the
+individual was employed by a base-period employer, which is within the individual’s prior training, experience,
+and physical capacity to perform, is suitable work unless a bona fide change in residence makes such work
+unsuitable because of the distance involved. Delaware, New York, and Ohio provide that no refusal to accept
+employment shall be disqualifying if it is at an unreasonable distance from the individual’s residence or the
+expense of travel to and from work is substantially greater than that in the former employment, unless provision
+is made for such expense.
+Personal/Family Reasons—Maine does not impose a disqualification for refusal of suitable work if an
+individual refuses a position on a shift, the greater part of which falls between midnight and 5 a.m., and the
+individual is prevented from accepting the job because of family obligations. Maine also excludes from suitable
+work a job the individual previously vacated if the reasons for leaving have not been removed or changed; in
+addition, if an individual has refused work for a compelling reason, the disqualification will be terminated when
+the individual is again able and available for work. New Hampshire does not disqualify an individual who is
+unable to accept or unavailable for suitable, permanent full-time work in a given shift if the individual is the
+5-35
+
+NONMONETARY ELIGIBILITY
+only available adult to care for an ill, infirm, or physically or mentally disabled family member. In addition,
+New Hampshire does not impose a disqualification for refusing to accept new work if the individual is unable to
+accept work during the hours of a particular shift because of the family obligations previously described.
+Union/Collective Bargaining Issues—Ohio and New York do not consider suitable any work that an individual
+is not required to accept pursuant to a labor-management agreement. Illinois does not disqualify an individual
+for refusing new work if the position offered is a transfer to other work offered to the individual by the
+employing unit under the terms of a collective bargaining agreement or pursuant to an established employer
+plan, program, or policy, when the acceptance of such other work by the individual would require the separation
+from that work of another individual currently performing it. Iowa does not disqualify an individual for failure
+to apply for or accept suitable work if the individual left work in lieu of exercising a right to bump or oust an
+employee with less seniority. In Oregon, an individual will not be disqualified for refusal of suitable work if the
+employer unilaterally modified the amount of wages agreed upon by the individual’s collective bargaining unit
+and the employer. In Pennsylvania, an individual will not be disqualified for refusal of suitable work when the
+work is offered by the individual’s employer, and the individual is not required to accept the offer pursuant to
+terms of a union contract, agreement, or an established employer plan, program, or policy.
+Drug Testing Issues—In a few states, an individual is considered to have refused an offer of suitable work if an
+employer withdraws an offer of work after the individual tests positive for drugs after a drug test given on behalf
+of the prospective employer as a condition of an offer of employment, or if the individual refuses, without good
+cause, to submit to a drug test required by the prospective employer as a condition of an offer of employment.
+For additional information, see Table 5-7.
+Duration of Unemployment—Several states amend the definition of suitable work as the individual’s
+unemployment duration grows:
+•
+
+Florida law specifies that, after an individual has received 25 weeks of benefits in a single year, suitable
+work will be a job that pays the minimum wage and is 120 percent or more of the individual’s weekly
+benefit amount.
+
+•
+
+Georgia specifies that, after an individual has received 10 weeks of benefits, no work will be considered
+unsuitable if it pays wages equal to at least 66 percent of the individual’s highest quarter earnings in the
+base period and is at least equal to the federal or state minimum wage.
+
+•
+
+Idaho requires individuals to be willing to expand their job search beyond their normal trade or
+occupation and to accept work at a lower rate of pay to remain eligible for benefits as the length of their
+unemployment grows.
+
+•
+
+Iowa law specifies that work is suitable if it meets the other criteria in the law and the gross weekly
+wage of the offered work bears the following relationship to the individual’s high-quarter average
+weekly wage: 1) 100 percent during the first week of unemployment; 2) 90 percent from the 2nd
+through the 3rd week of unemployment; 3) 80 percent from the 4th through the 5th week of
+unemployment; 4) 70 percent from the 6th through the 8th week of unemployment; and 5) 60 percent
+after the 8th week of unemployment. No individual, however, is required to accept a job paying below
+the federal minimum wage.
+
+•
+
+Maine no longer considers the individual’s prior wage in determining whether work is suitable after 10
+weeks of unemployment.
+
+•
+
+Michigan provides that an individual will be denied benefits for refusing an offer of suitable work
+paying at least 70 percent of the gross pay rate received immediately before becoming unemployed, but,
+after an individual has received 50 percent of their benefit entitlement for the year, work will not be
+considered unsuitable because it is outside the individual’s training or experience, or because of pay rate
+5-36
+
+NONMONETARY ELIGIBILITY
+as long as the pay rate meets or exceeds the minimum wage, is at least the prevailing mean wage for
+similar work in the locality, and the pay rate is 120 percent or more of the individual’s weekly benefit
+amount.
+•
+
+Mississippi law specifies that work is suitable after eight weeks of unemployment if the offered
+employment pays the minimum wage or higher and the wage is that prevailing for the individual’s
+customary occupation or similar work in the locality.
+
+•
+
+Montana, after 13 weeks of unemployment, specifies that a suitable work offer need only include wages
+equal to 75 percent of the individual’s earnings in previous customary insured work, but not less than
+the federal minimum wage.
+
+•
+
+New York provides an individual not subject to recall or who does not obtain employment through a
+union hall and is still unemployed after receiving 10 weeks of benefits is required to accept employment
+that the individual is capable of doing, provided the employment would result in a quarterly wage not
+less than 80 percent of the high quarter in the base period or the wages prevailing for similar work in the
+locality, whichever is less.
+
+•
+
+North Carolina considers any employment offer paying 120 percent of the individual’s weekly benefit
+amount to be suitable work after 10 weeks of unemployment.
+
+•
+
+North Dakota law specifies that after an individual has received 18 weeks of benefits, suitable work will
+be any work that pays wages equal to the maximum weekly benefit amount, providing that
+consideration is given to the degree of risk involved to the individual’s health, safety, morals, and
+physical fitness, and the distance of the work from their residence.
+
+•
+
+Tennessee uses a similar percentage reduction system to Iowa for suitable wage but the numbers of
+weeks required for each period of unemployment are different.
+
+•
+
+Utah considers all earnings in the base year, not just earnings from the most recent employer, in the
+determination of suitable work and specifies that the agency will be more prone to consider work
+suitable the longer the individual is unemployed and less likely to secure local work in the individual’s
+customary occupation.
+
+•
+
+Wyoming applies the refusal-of-suitable work disqualification if, after four weeks of unemployment, the
+individual fails to apply for and accept suitable work other than in the individual’s customary
+occupation offering at least 50 percent of the compensation earned in previous occupation.
+
+Period and Terms of Disqualification—In most states, the disqualification lasts until the individual is again
+employed and earns a specified amount of wages. Some states impose a disqualification for a specified number
+of weeks for any individual who refuses suitable work. Of the states that reduce potential benefits for refusal of
+suitable work, the majority provide for reduction by an amount equal to the number of weeks of benefits
+postponed.
+TABLE 5-16: DISQUALIFICATION TERMS—REFUSAL OF SUITABLE WORK
+State
+
+Benefits Postponed for:
+Number of Weeks
+
+AL
+
+WR + 1 – 5
+
+AK
+
+WR + 5
+
+Minimum Weeks and/or Wages to Requalify
+
+Amount of Benefits Reduced
+
+3 x WBA
+
+AZ
+
+8 x WBA
+
+AR
+
+At least 30 days of covered work
+
+5-37
+
+NONMONETARY ELIGIBILITY
+TABLE 5-16: DISQUALIFICATION TERMS—REFUSAL OF SUITABLE WORK
+State
+
+Benefits Postponed for:
+Number of Weeks
+
+CA
+
+WR + 1 – 91
+
+CO
+
+WR + 20
+
+Minimum Weeks and/or Wages to Requalify
+
+Equal
+
+CT
+
+6 x WBA
+
+DE
+
+4 weeks of work and 4 x WBA
+
+DC
+
+10 weeks of work and wages equal to 10 x WBA
+
+FL
+
+WR + 1 – 52
+
+17 x WBA2
+
+GA
+
+10 x WBA3
+
+HI
+
+5 x WBA
+
+ID
+
+14 x WBA
+
+IL
+
+Wages equal to WBA in each of 4 weeks
+
+IN
+
+Wages in each of 8 weeks and wages ≥ 8 x WBA
+
+IA
+
+10 x WBA
+
+KS
+
+3 x WBA
+
+KY
+
+10 weeks of covered work plus 10 x WBA
+
+LA
+
+10 x WBA
+
+ME
+
+Amount of Benefits Reduced
+
+Optional
+
+1st refusal - 75%;
+2nd - 85%; 3rd - 90%
+
+10 x WBA
+
+MD
+
+WR + 5 – 102
+
+10 x WBA
+
+MA
+
+WR + 7
+
+Up to 8 weeks
+
+MI
+
+WR + 13
+
+Equal in current BY2
+
+MN
+
+WR + 7
+
+MS
+
+WR + 1 – 12
+
+MO
+
+10 x WBA
+
+MT
+
+6 x WBA
+
+NE
+
+12
+
+Equal
+
+NV
+
+Wages equal to WBA in each week up to 15
+
+NH
+
+5 weeks of covered work with earnings equal to 20%
+more than WBA in each week
+
+NJ
+
+WR + 3
+
+NM
+
+5 x WBA
+
+NY
+NC
+ND
+OH
+
+Equal
+
+Equal
+
+10 x WBA
+X5
+
+10 x WBA earned in at least 5 weeks
+
+X4
+
+10 x WBA
+6 weeks in covered work + wages equal to
+27.5% of state AWW
+
+OK
+
+10 x WBA5
+
+OR
+
+4 x WBA
+
+PA
+
+X6
+
+5-38
+
+8 x WBA
+
+NONMONETARY ELIGIBILITY
+TABLE 5-16: DISQUALIFICATION TERMS—REFUSAL OF SUITABLE WORK
+State
+
+Benefits Postponed for:
+Number of Weeks
+
+Minimum Weeks and/or Wages to Requalify
+
+PR
+
+4 weeks of work and wages equal to 10 x WBA
+
+RI
+
+8 x WBA
+
+SC
+
+8 x WBA
+6 weeks of covered work and wages equal to
+WBA in each week
+
+SD
+TN
+
+10 x WBA in covered work
+6 weeks of work or wages equal to 6 x WBA
+(applies to any refusal within BY)
+
+TX
+UT
+
+6 x WBA
+
+VT
+
+6 x WBA
+
+VA
+
+30 days or 240 hours of work
+
+VI
+
+4 weeks of work and 4 x WBA
+
+WA
+WV
+
+Amount of Benefits Reduced
+
+7 weeks and earnings in bona fide work of 7 x WBA
+WR + 47
+
+Equal
+
+WI
+
+6 x WBA
+
+WY
+
+8 x WBA
+
+KEY: WR = Week of refusal “Equal” indicates reduction equal to WBA multiplied by number of weeks of disqualification.
+1 CA - must be weeks in which individual meets reporting and registration requirements.
+
+Also, agency may add 1-8 weeks for
+successive disqualification.
+2 FL - both number of weeks and minimum wages to requalify are imposed. Aliens who refuse resettlement or relocation employment
+are disqualified 1-17 weeks, or reduction by not more than five weeks. MI - individual may be eligible for benefits in subsequent
+benefit year based on base period wages earned subsequent to refusal. MD - either disqualification may be imposed at discretion of
+agency.
+3 Individual must work for a liable employer and become unemployed through no fault of their own.
+4 Disqualification may run into next benefit year which begins within 12 months after end of current year. Also, a permanent
+disqualification may be reduced to a time certain disqualification, but not less than five weeks, with a corresponding reduction in
+benefits (weeks of disqualification x WBA).
+5 An individual who refuses an offer of work due to illness, death of a family member, or other circumstances beyond the individual’s
+control will be disqualified for the week of occurrence.
+6 Until an individual obtains work not of a casual or temporary nature; however, if work refused was casual or temporary, then
+disqualification lasts for the period of time that the offered work would have been available.
+7 Plus such additional weeks as offer remains open.
+
+SPECIAL GROUPS
+FUTA requires the denial of benefits under certain circumstances to professional athletes, certain school
+personnel, and some aliens. FUTA also prohibits states from denying benefits solely on the basis of pregnancy
+or the termination of pregnancy. All state laws contain provisions addressing these special groups of workers.
+STUDENTS—Most states exclude from coverage service performed by students for educational institutions, for
+more information see Table 1-6. In addition, many states have special provisions limiting the benefit rights of
+students who have had covered employment. In some of these states, the disqualification is for the duration of
+the unemployment; in other states, it is during school attendance or during the school term. Some states extend
+the disqualification to vacation periods.
+
+5-39
+
+NONMONETARY ELIGIBILITY
+TABLE 5-17: STATES’ TREATMENT OF STUDENTS
+State
+
+Disqualified for
+Leaving Work to
+Attend School
+
+AL
+
+Yes
+
+AZ
+
+Yes, unless leaving
+to resume approved
+training or if work
+hinders the student
+from making
+satisfactory
+progress in
+approved training
+
+CA
+
+Yes, except if
+attending union
+apprenticeship
+school or approved
+for training
+benefits
+
+Disqualified or Ineligible While
+Attending School
+
+Yes, if school hours overlap
+normal work hours
+
+State
+
+AK
+
+Disqualified for
+Leaving Work to
+Attend School
+
+Disqualified or Ineligible While
+Attending School
+
+Yes, if leaving
+skilled work or not
+attending approved
+training
+
+Yes, unless student pursued an
+academic education for a school
+term and worked 30 hours a week,
+and the academic schedule did not
+preclude full-time work in the
+student’s occupation, and if the
+student was laid off1
+
+Yes, unless there is a pattern of
+concurrent, full-time work and
+full-time school attendance for the
+nine-month period before the
+filing of an initial claim for UI
+benefits, and the student has not
+left or refused full-time work, or
+reduced the hours of work to parttime to attend school
+
+AR
+
+Yes
+
+Yes, except while attending a
+vocational school for a demand
+occupation and other training as
+long as the student is making
+reasonable efforts to obtain
+employment and doesn’t refuse
+suitable work
+
+Yes, unless student has a part-time
+seek-work plan or is available for
+full-time work in labor market
+during school1
+
+CO
+
+Yes1
+
+No, provided school attendance
+does not interfere with ability to
+accept suitable work1
+
+DE
+
+Yes
+
+No, if student determined to be
+primarily a worker who happens
+to attend school
+
+CT
+
+Yes1
+
+Yes, except student who becomes
+unemployed while attending
+school if work search is restricted
+to employment that does not
+conflict with regular class hours
+and if student was employed on a
+full-time basis during the 2 years
+prior to separation while in
+school1
+
+DC
+
+Yes
+
+No, provided school is not an
+undue restriction on availability
+
+FL
+
+Yes
+
+No, provided school attendance
+does not interfere with availability
+to accept suitable work
+
+GA
+
+Yes, unless Trade
+Act training
+
+No, provided school attendance
+does not interfere with availability
+to work, and the student is
+actively seeking work
+
+HI
+
+Yes
+
+Yes, must be available for work
+and willing to quit school, except
+for approved training.
+
+ID
+
+Yes
+
+Yes, unless attending approved
+training1
+
+IL
+
+Yes, unless Trade
+Act training
+
+Yes, when principal occupation is
+student unless attends approved
+training1
+
+IN
+
+Yes, unless Trade
+Act training
+
+IA
+
+Yes
+
+No, if school attendance does not
+interfere with ability to accept
+suitable work
+
+KS
+
+Yes, unless Trade
+Act training
+
+KY
+
+Yes
+
+No, provided school attendance
+does not interfere with ability to
+accept suitable work
+
+Yes
+
+Yes, unless student is available for
+full-time work while in school, or
+would leave school for full-time
+work, or is in approved training
+
+LA
+
+No
+
+No, provided school attendance
+does not interfere with availability
+to accept work, and the student is
+actively seeking work
+Yes, including vacation periods,
+unless full-time work is
+concurrent with school
+attendance, or school schedule
+does not affect availability for
+work1
+Yes, including vacation periods,
+unless student loses job while in
+school and is available for suitable
+work1
+
+ME
+
+5-40
+
+NONMONETARY ELIGIBILITY
+TABLE 5-17: STATES’ TREATMENT OF STUDENTS
+State
+
+Disqualified for
+Leaving Work to
+Attend School
+
+MD
+
+Yes1
+
+MI
+
+Yes1
+
+MS
+
+Disqualified or Ineligible While
+Attending School
+
+State
+
+Disqualified for
+Leaving Work to
+Attend School
+
+MA
+
+Yes
+
+Yes, unless student agrees to quit
+school/change class schedule to
+accept work, or is in approved
+training
+
+MN
+
+Yes, unless
+entering approved
+training
+
+Yes
+
+No, provided school hours do not
+interfere with availability for fulltime work
+
+MO
+
+Yes
+
+MT
+
+No
+
+NE
+
+Yes
+
+NV
+
+Yes, unless
+approved training
+or high school
+student who must
+legally attend
+school
+
+No, provided that student can
+demonstrate that general
+eligibility requirements are met
+No, if school attendance does not
+interfere with ability to seek and
+accept suitable work
+
+NH
+
+Yes
+
+Yes, except for
+approved training
+
+Yes, including vacation periods,
+unless student earned wages
+sufficient to qualify for benefits
+while attending school1
+
+NM
+
+Yes
+
+NY
+
+No
+
+No, provided school attendance
+does not interfere with availability
+to accept work, and the student is
+actively seeking work
+
+NC
+
+No
+
+ND
+
+No
+
+Yes, unless major part of BPW
+were for services performed while
+attending school1
+
+OH
+
+Yes, unless Trade
+Act training
+
+OK
+
+No
+
+OR
+
+Yes, unless
+required by law to
+attend school1
+
+PA
+
+Yes, unless Trade
+Act training and
+job paid less than
+80% of Trade Act
+job and was at
+lesser skill level
+
+No, provided student offers to quit
+school, adjust class hours, or
+change shifts to secure
+employment1
+No, provided able and available
+for suitable work (does not have
+to be full-time work)
+
+PR
+
+NJ
+
+RI
+
+Yes, unless Trade
+Act training
+
+SD
+
+Yes
+
+Yes, unless hours of school do not
+interfere with hours of work in
+student’s occupation
+
+SC
+
+Yes
+
+Yes, if determined principally
+occupied as a student
+
+TN
+
+No
+
+5-41
+
+Disqualified or Ineligible While
+Attending School
+No, provided industrial or
+vocational training is found to be
+necessary to obtain suitable work;
+must be full-time and less than
+one year in length1
+No, unemployed individual not
+necessarily unavailable for or
+unable to work while attending
+school and not ineligible solely on
+basis of attending school
+Yes, if there is a significant
+restriction on availability; some
+part-time students may be eligible;
+does not apply to Trade Act
+Yes, unless major part of BPW
+were for services performed while
+attending school1
+No, provided student is available
+for and seeking permanent fulltime work during all the shifts and
+all the hours there is a market for
+the student’s services
+Yes, unless the student is able,
+available, and seeking at least
+part-time work, or in approved
+training1 or approved
+apprenticeship program
+No, unemployed individual not
+necessarily unavailable for or
+unable to work while attending
+school and not ineligible solely on
+basis of attending school
+No, if becomes unemployed while
+attending school, BPW were at
+least partially earned while
+attending school, meets
+availability and work search
+requirements, and if available for
+suitable employment on any shift1
+No, provided school attendance
+does not interfere with availability
+to seek and accept suitable work
+
+No, if student offers to quit
+school, adjust class hours or
+change shifts to secure
+employment; must make a work
+search each week
+No, unless school attendance
+interferes with availability for
+suitable work
+
+NONMONETARY ELIGIBILITY
+TABLE 5-17: STATES’ TREATMENT OF STUDENTS
+State
+
+Disqualified for
+Leaving Work to
+Attend School
+
+Disqualified or Ineligible While
+Attending School
+
+TX
+
+Yes1
+
+Yes
+
+VT
+
+State
+
+Disqualified for
+Leaving Work to
+Attend School
+
+Yes, but eligible if willing to quit
+school or change class schedule to
+accommodate full-time work1
+
+UT
+
+Yes1
+
+Yes, if claim is based on part-time
+employment and student remains
+available for part-time work while
+attending school
+
+No, when school attendance is a
+restriction to availability for fulltime suitable work, unless in an
+approved training program1
+
+VA
+
+Yes2
+
+Yes, unless attendance would
+limit availability for only one of
+multiple shifts in usual occupation
+
+Yes, unless
+approved
+apprentice training
+or Trade Act
+training
+
+Yes, if registered at a school that
+provides instruction of 12 or more
+hours per week, unless in
+approved training or demonstrates
+evidence of availability for work1
+
+Yes, unless Trade
+Act training
+
+Yes, unless student is available for
+full-time first shift work
+
+VI
+
+No
+
+No
+
+WV
+
+Yes, unless
+previously enrolled
+in approved
+training1
+
+No, provided student is in
+approved vocational training or if
+student is willing to drop or
+rearrange classes if suitable work
+were offered
+
+WA
+
+WI
+
+Disqualified or Ineligible While
+Attending School
+
+Yes, unless
+Yes, unless major part of BPW
+previously enrolled
+WY
+were for services performed while
+in approved
+attending school
+training
+NOTE: Unless otherwise indicated, state is applying its voluntary quit or availability provisions
+1 State statutes or regulations specifically mention students.
+
+2 Based upon case law; includes rebuttable presumption that graduate students working only between semesters quit to return to
+
+school.
+
+EDUCATION EMPLOYEES BETWEEN AND WITHIN TERMS—FUTA requires states to deny benefits
+based on services in educational employment to instructional, research, or principal administrative employees of
+educational institutions between successive academic years or terms if the individual performed such
+instructional, research, or administrative services in the first year or term and has a contract or reasonable
+assurance of performing such services in the second year or term.
+FUTA also requires states to deny benefits based on services in educational employment to
+instructional, research, or principal administrative employees of educational institutions who perform services in
+regular but non-successive years or terms (for example, only the first semester of each academic year). These
+individuals are not eligible for compensation based on such services during the entire period between the regular
+but non-successive academic years or terms. This denial also applies to periods within terms, such as vacation
+or holiday periods.
+FUTA permits a state, at its option, to deny benefits based on services in educational employment
+between successive academic years or terms to other employees of a school or of an educational service agency
+who perform services for or on behalf of an educational institution if the individual performed services (other
+than in an instructional, research, or administrative capacity) during the year or term and has a reasonable
+assurance or a contract to perform services in the second year or term. The option for denial of benefits also
+applies to vacation or holiday periods within school years or terms. However, FUTA requires states to pay
+benefits retroactively to school personnel performing these other services if they were given reasonable
+assurances of reemployment but were not, in fact, rehired when the new school term or year began.
+
+5-42
+
+NONMONETARY ELIGIBILITY
+PROFESSIONAL ATHLETES—FUTA requires states to deny benefits based on services as a professional
+athlete to an individual between two successive sport seasons if substantially all of the individual’s services in
+the first season consist of participating in or preparing to participate in sports or athletic events and the
+individual has a reasonable assurance of performing similar services in the second season. States have the option
+to include ancillary personnel involved with the team or event such as managers, coaches, and trainers employed
+by professional teams, and referees and umpires employed by professional leagues or associations in the
+definition of “athlete.”
+ALIENS—Federal law requires that benefits not be paid based on service performed by an alien unless the
+individual: 1) was lawfully admitted for permanent residence at the time the services were performed and for
+which the wages paid are used as wage credits; 2) was lawfully present in the United States to perform the
+services for which the wages paid are used as wage credits; or 3) was permanently residing in the United States
+“under color of law,” including one lawfully present in the United States under provisions of the Immigration
+and Nationality Act. (Note that aliens must also be legally authorized to work to be considered available for
+work.) As such, federal law requires that states obtain information about an individual’s authorization to work
+from all applicants for compensation.
+
+DEDUCTIBLE INCOME
+All state laws provide that an individual will not receive UC for any week during which the individual is
+also receiving or is seeking benefits under any federal or other state UC law. A few states specifically mention
+benefits under the Federal Railroad Unemployment Insurance Act. The intent is to prevent duplicate payment of
+benefits for the same week. These disqualifications apply only to the week in which or for which the other
+payment is received.
+Federal law requires that all states deduct money received from a pension or other similar payment
+which is based on the previous work of the individual and maintained by a base period employer or chargeable
+employer. Additionally, an individual must be considered “unemployed” or “partially unemployed” in order to
+collect benefits. Most states include provisions that an individual is ineligible for any week during which the
+individual receives or has received certain other types of remuneration, such as wages in lieu of notice, dismissal
+wages, worker’s compensation, holiday and vacation pay, back pay, and benefits under a supplemental
+unemployment benefit plan. In many states, if the payment is less than the weekly benefit amount, the
+individual receives the difference; in other states, no benefits are payable for a week of such payments
+regardless of the amount of payment. A few states provide for rounding the resultant benefits, like payments for
+weeks of partial unemployment, to half dollar or full dollar amounts. Note: This section includes only nonearned wages that are deductible as income. Earnings during the benefit year and their impact on the weekly
+benefit amount, i.e. benefits for partial unemployment, are covered in Chapter 3, Monetary Entitlement.
+WAGES IN LIEU OF NOTICE AND DISMISSAL PAYMENTS—Many states consider wages in lieu of
+notice and dismissal payments to be deductible income, and these laws use a variety of terms such as dismissal
+allowance, dismissal payments, dismissal wages, separation allowances, termination allowances, severance
+payments, or some combination of these terms. In many states, all dismissal payments are included as wages for
+contribution purposes, as they are under FUTA. Other states exclude dismissal payments that the employer is
+not legally required to make. Individuals receiving such payments may be considered not unemployed, or not
+totally unemployed, for the weeks concerned. Some states consider these payments to be made with respect to
+an individual’s prior service, rather than for the period following their separation from work. As such, these
+states would not treat dismissal payments as deductible income.
+
+5-43
+
+NONMONETARY ELIGIBILITY
+TABLE 5-18: STATES WITH WAGES IN LIEU OF NOTICE AND DISMISSAL PAYMENT PROVISIONS
+State
+
+Wages in
+Lieu of
+Notice
+
+Dismissal
+Payments
+
+State
+
+Wages in
+Lieu of Notice
+
+Dismissal
+Payments
+
+State
+
+Wages in Lieu
+of Notice
+
+Dismissal
+Payments
+
+AK
+
+P
+
+P
+
+AZ
+
+A (not
+considered
+unemployed)
+
+A (not
+considered
+unemployed)
+
+AR
+
+A
+
+A
+
+P
+
+A: Benefits
+postponed for
+number of
+weeks equal to
+total amount of
+additional
+remuneration
+divided by
+usual weekly
+wage
+
+CT
+
+A
+
+A: Not applicable
+to severance or
+accrued leave pay
+based on service
+for the Armed
+Forces
+
+P
+
+FL
+
+P
+
+A1
+
+P: Excludes
+greater of first $3
+or 1/5 WBA from
+other than baseperiod employer
+
+R: Excludes
+greater of first $3
+or 1/5 WBA from
+other than baseperiod employer
+
+CA
+
+P
+
+DE
+
+CO
+
+P
+
+DC
+
+GA
+
+A
+
+A
+
+IL
+
+IA
+
+P
+
+P
+
+KS
+
+LA
+
+P
+
+MA
+
+P: But not less
+than 1 week
+for each week
+a base-period
+employer
+provided
+severance pay
+equaling or
+exceeding
+WBA
+
+P
+
+IN
+
+P
+
+KY
+
+P
+
+ME
+
+P
+
+P
+
+MD
+
+P
+
+P
+
+A
+
+MI
+
+P
+
+P
+
+MN
+
+P
+
+P
+
+MO
+
+P
+
+NE
+
+A
+
+A
+
+NV
+
+A
+
+A
+
+NH
+
+P
+
+NJ
+
+A
+
+NM
+
+P
+
+P
+
+P
+
+NY
+
+P2
+
+NC
+
+PA
+
+P3
+
+RI
+
+A5
+
+TX
+
+TN
+
+A
+
+A
+
+A
+
+5-44
+
+A
+
+OH
+
+P
+
+P: Not applicable
+to severance or
+accrued leave pay
+based on service
+for the Armed
+Forces
+
+A4
+
+SD
+
+P
+
+P
+
+A
+
+UT
+
+P
+
+P
+
+NONMONETARY ELIGIBILITY
+TABLE 5-18: STATES WITH WAGES IN LIEU OF NOTICE AND DISMISSAL PAYMENT PROVISIONS
+State
+
+VT
+
+WV
+
+Wages in
+Lieu of
+Notice
+
+Dismissal
+Payments
+
+A
+
+A
+
+A
+
+State
+
+Wages in
+Lieu of Notice
+
+Dismissal
+Payments
+
+State
+
+Wages in Lieu
+of Notice
+
+Dismissal
+Payments
+
+P
+
+P: Only when
+allocated by the
+employer to
+specific pay
+periods
+
+WA
+
+P
+
+P6
+
+P: Only when
+allocated by
+close of week,
+payable at full
+applicable
+wage rate, and
+individual had
+notice of
+allocation7
+
+WY
+
+A
+
+A
+
+VA
+
+WI
+
+KEY: A = all benefits denied for the week of receipt
+
+P = weekly benefit reduced by weekly prorated amount of the payment
+
+1 Number of weeks of disqualification equals amount of severance pay divided by individual’s AWW received from employer that
+
+paid severance pay, rounded down to nearest whole number, beginning with week of separation.
+
+2 Does not apply during any weeks in which the initial payment of dismissal pay is made more than 30 days from the last day of the
+
+individual’s employment.
+
+3 WBA reduced by amount of severance pay attributed to the week.
+
+Amount of severance pay attributed shall be an amount not less
+than zero determined by subtracting, from total amount of severance pay, 40% of AAW as calculated as of June 30 immediately
+preceding calendar year in which benefit year begins.
+4 Severance pay shall be allocated on a weekly basis from last day worked for a period not to exceed 26 weeks. If employer does not
+specify set number of weeks, severance pay shall be allocated using individual’s WBA.
+5 Benefits denied if severance package from employer is equal to the salary individual would have received if individual was working.
+6 Previously accrued compensation except severance pay, when assigned to a period of time by collective bargaining or trade
+practices; negotiated settlements or proceeds given for early termination of an employment contract.
+7 Individual is ineligible for benefits for any week in which the individual receives 32 hours or more of termination pay totaling over
+$500, by itself or in combination with wages.
+
+WORKERS’ COMPENSATION PAYMENTS—Nearly half of the states list workers’ compensation
+payments under any state or federal law as disqualifying income. Some states disqualify for the week
+concerned; other states consider workers’ compensation to be deductible income and reduce unemployment
+benefits payable by the amount of the workers’ compensation payments. A few states reduce the unemployment
+benefit only if the workers’ compensation payment is for temporary partial disability.
+TABLE 5-19: STATES WITH WORKERS’ COMPENSATION PROVISIONS
+AL
+
+P
+
+CA
+
+P
+
+CO
+
+P
+
+CT
+
+A
+
+DE
+
+P
+
+FL
+KS
+MT
+OH
+
+P
+A
+A
+P
+
+GA
+LA
+NE
+RI
+
+A
+P
+P
+P
+
+ID
+MA
+NV
+SD
+
+P
+A
+A
+P
+
+IL
+MN
+NH
+TN
+
+P
+P
+P
+A
+
+IA
+MO
+NY
+TX
+
+P
+P
+P
+A
+
+UT
+
+A
+
+VT
+
+A
+
+VA
+
+P
+
+WA
+
+A
+
+WV
+
+A
+
+WI
+
+P
+
+KEY: A = all benefits denied for the week of receipt
+
+P = weekly benefit reduced by weekly prorated amount of the payment
+
+5-45
+
+NONMONETARY ELIGIBILITY
+HOLIDAY PAY, BACK PAY, AND VACATION PAY—In most states, vacation pay is considered wages
+for employer tax purposes. Thus, an individual receiving vacation pay equal to their weekly benefit amount
+would, by definition, not be unemployed and would not be eligible for benefits. Some of the explanations point
+out that vacation pay is considered wages because the employment relationship is not discontinued, and others
+emphasize that an individual on vacation is not available for work. Vacation payments made at the time of
+severance of the employment relationship, rather than during a regular vacation shutdown, are considered
+disqualifying income in some states only if such payments are required under contract and are allocated to
+specified weeks; in other states, such payments, made voluntarily or in accordance with a contract, are not
+considered disqualifying income.
+TABLE 5-20: STATES WITH HOLIDAY PAY, BACK PAY, AND VACATION PAY PROVISIONS
+State
+
+Holiday
+
+AL
+
+AR
+
+CO
+
+Treated as
+wages in the
+week in which
+the holiday
+occurred
+
+DC
+
+IL
+
+IA
+
+Vacation
+
+State
+
+Holiday
+
+Back Pay
+
+Vacation
+
+AK
+
+P
+
+P
+
+P: WBA minus
+vacation pay in
+excess of 40% of
+WBA
+
+P: Employer
+withholds amount
+of benefits paid
+and remits to UI
+agency
+
+CA
+
+P
+
+P
+
+A
+
+DE
+
+P
+
+GA
+
+Employer
+withholds amount
+of benefits paid
+and remits to UI
+agency
+
+A
+
+P
+
+P
+
+A
+
+P: Excludes
+greater of first $3
+or 1/5 WBA from
+other than BP
+employer;
+employer withholds amount of
+benefits paid and
+remits to UI
+agency
+
+P: Excludes
+greater of first
+$3 or 1/5 WBA
+from other than
+BP employer
+
+A
+
+P
+
+A
+P: WBA minus
+holiday pay in
+excess of 40%
+of WBA
+
+HI
+
+Back Pay
+
+P: Employer
+withholds
+amount of
+benefits paid and
+remits to UI
+agency
+Employer
+withholds
+amount of
+benefits paid and
+remits to UI
+agency
+
+P
+
+P
+
+P
+
+P: When
+individual is
+reinstated after
+suspension/discharge and
+receives full
+compensation
+for period if
+charges reversed
+
+P: If continued
+attachment to
+employer
+
+ID
+
+P
+
+IN
+
+P: Excludes
+greater of first
+$3 or 1/5 WBA
+from other than
+BP employer
+
+P: If employer
+designates a
+specific vacation
+period, benefits
+are reduced for
+that period of
+time; if not,
+reduction is
+limited to 1
+week
+
+KS
+
+P
+
+5-46
+
+NONMONETARY ELIGIBILITY
+TABLE 5-20: STATES WITH HOLIDAY PAY, BACK PAY, AND VACATION PAY PROVISIONS
+State
+
+Holiday
+
+Back Pay
+
+Vacation
+
+State
+
+P: Benefits will
+be reduced
+100% for
+overpayments
+caused by back
+pay award
+
+KY
+
+ME
+
+P
+
+MA
+
+A
+
+MN
+
+P: 55% deducted
+as long as
+amount is less
+than WBA
+
+MO
+
+Reportable
+during week of
+holiday
+
+NV
+
+Treated as
+wages the week
+in which it is
+paid
+
+NM
+
+P1
+
+P
+P: Employer
+withholds
+amount of
+benefits paid and
+remits to UI
+agency
+A: Employer
+withholds
+amount of
+benefits paid and
+remits to UI
+agency
+
+ND
+
+Not reportable
+
+OR
+
+May be
+deductible
+depending on
+circumstances
+
+Considered
+earnings when
+calculating
+weekly benefit
+amount
+
+PR
+SD
+
+P
+
+UT
+
+P
+
+P
+
+Back Pay
+
+LA
+
+P2
+
+MD
+
+MI
+
+P
+
+MS
+
+P
+
+NE
+
+A
+
+NY
+
+Vacation
+
+P
+
+P: Not
+applicable to pay
+attributable to
+any period
+outside the terms
+of an
+employment
+agreement,
+which specifies
+scheduled
+vacation or
+holiday periods
+
+P: Only applies
+if temporary or
+seasonal layoff,
+not if permanent
+separation
+
+P
+
+Reportable
+during week of
+holiday
+
+Holiday
+
+P: Not
+applicable to
+pay attributable
+to any period
+outside the
+terms of an
+employment
+agreement,
+which specifies
+scheduled
+vacation or
+holiday periods
+P
+
+P
+
+A: Employer
+withholds amount
+of benefits paid
+and remits to UI
+agency
+
+A4
+
+A
+
+P
+
+A
+
+A: Employer
+withholds amount
+of benefits paid
+and remits to UI
+agency
+
+NC
+Reportable when
+received unless
+individual takes
+vacation prior to
+layoff
+
+OH
+
+P
+
+May be
+deductible
+depending on
+circumstances
+
+PA
+
+P: Only
+deductible if
+individual has a
+return to work
+date
+
+P
+
+RI
+
+P
+
+P
+
+P
+
+P
+
+TN
+
+P
+
+VT
+
+P
+
+5-47
+
+P
+
+NONMONETARY ELIGIBILITY
+TABLE 5-20: STATES WITH HOLIDAY PAY, BACK PAY, AND VACATION PAY PROVISIONS
+State
+VA
+
+WV
+
+Holiday
+
+Back Pay
+
+Reportable
+during week of
+holiday
+
+A
+
+Vacation
+
+State
+
+P
+
+P
+
+A
+
+A: Except if
+individual is
+totally
+unemployed and
+if pay is
+accumulated
+prior to
+unemployment
+
+A: Allocated to
+week the
+P
+holiday occurs
+KEY: A = benefits denied for the week of receipt
+WY
+
+Holiday
+
+Back Pay
+
+Vacation
+
+WA
+
+P: If assigned to
+the week
+claimed rather
+than accrued
+
+Employer
+withholds amount
+of benefits paid
+and remits to UI
+agency
+
+P: If assigned
+to the week
+claimed rather
+than accrued
+
+WI
+
+P: Only when
+allocated by
+close of such
+week, payable at
+full wage rate,
+and individual
+has notice2
+
+P: Only when
+allocated by
+close of such
+week, payable
+at full wage
+rate, and
+individual has
+notice3
+
+A
+P = weekly benefit reduced by weekly prorated amount of the payment
+
+1 If a payment, which is awarded or authorized by the National Labor Relations Board, a court, or any other administrative agency of
+
+government for any settlement of a dispute, is for, or equivalent to, wages for a specific period of time, then that payment will be
+considered wages with respect to the week or weeks covered by the award, providing the individual receives the back payment.
+2 Individual is ineligible for benefits for any week in which the individual receives 32 hours or more of sick pay, holiday pay, or
+vacation pay totaling over $500, by itself or in combination with wages.
+3 Individual is ineligible for benefits for any week in which the individual receives vacation pay in an amount exceeding the
+equivalent of four weeks’ wages. However, if total amount of vacation pay is less than WBA, WBA will be reduced by the amount
+of vacation pay received.
+4 Nebraska provides that an individual is considered employed when wages are received for a specific time in which the vacation is
+actually taken during a time of temporary layoff or plant shutdown; vacation pay is prorated in an amount reasonably attributable to
+each week claimed and considered payable with respect to that week.
+
+RETIREMENT PAYMENTS—FUTA requires all states to deduct money received from a pension or other
+similar payment which is based on the previous work of the individual and which is maintained by a base period
+employer or chargeable employer. The requirement applies only to those payments made on a periodic (as
+opposed to lump-sum) basis. FUTA prohibits reductions for pensions, retirement or retired pay, annuity, or
+other similar payment not includible in the gross income of the individual because it was part of a rollover
+distribution.
+Although FUTA provides a baseline requirement, states may implement additional retirement pay
+provisions. States are permitted to reduce benefits on less than a dollar-for-dollar basis by taking into account
+the contributions made by the individual to the plan in question. Some states only deduct retirement payments
+when the account was one to which the employer contributed 100% of the funds, but most states deduct pension
+and retirement payments proportionally based on the rate of contributions made by each the claimant and the
+employer. A few states also exempt pension and retirement deductions in cases of emergency beyond the
+individual’s control. Lump sum payouts following a layoff are also exempted by some states.
+TABLE 5-21: EFFECT OF RETIREMENT PAYMENTS
+State
+
+Considers Employee
+Contributions
+
+Excludes Retirement
+Payments Not Affected
+By BP Work
+
+State
+
+Considers Employee
+Contributions
+
+Excludes Retirement
+Payments Not Affected
+By BP Work
+
+AL
+
+X
+
+X
+
+AK
+
+X
+
+X
+
+AZ
+
+X
+
+X
+
+AR
+
+X
+
+CA
+
+X
+
+X
+
+CO
+
+5-48
+
+NONMONETARY ELIGIBILITY
+TABLE 5-21: EFFECT OF RETIREMENT PAYMENTS
+State
+
+Considers Employee
+Contributions
+
+Excludes Retirement
+Payments Not Affected
+By BP Work
+
+State
+
+Considers Employee
+Contributions
+
+CT
+
+X
+
+X
+
+DE
+
+X
+
+DC
+
+X
+
+X
+
+FL
+
+X
+
+X
+
+GA
+
+X
+
+X
+
+HI
+
+X
+
+X
+
+ID
+
+X
+
+X
+
+IL
+
+X
+
+X
+
+IA
+
+X
+
+X
+
+X
+
+KY
+
+X
+
+X
+
+ME
+
+X
+
+X
+
+MA
+
+X
+
+X
+
+IN
+KS
+
+X
+
+LA
+MD
+
+X
+
+MI
+
+X
+
+X
+
+MN
+
+MS
+
+MO
+
+X
+
+MT
+
+X
+
+X
+
+NE
+
+X
+
+NV
+
+X
+
+X
+
+NH
+
+X
+
+NJ
+
+X
+
+X
+
+NM
+
+X
+
+NY
+
+X
+
+X
+
+NC
+
+ND
+
+X
+
+X
+
+OH
+
+X
+
+OR
+
+X
+
+OK
+PA
+
+X
+
+X
+
+PR
+
+X
+
+RI
+
+X
+
+X
+
+SC
+
+X
+
+SD
+
+X
+
+TN
+
+X
+
+TX
+
+X
+
+UT
+
+VT
+
+X
+
+VA
+
+VI
+WV
+WY
+
+Excludes Retirement
+Payments Not Affected
+By BP Work
+
+X
+
+X
+
+X
+X
+X
+
+WA
+
+X
+
+X
+
+WI
+
+X
+
+X
+
+X
+
+SOCIAL SECURITY PAYMENTS—Social Security payments are not considered deductible income; this
+differs from other types of retirement payments.
+Note that Social Security Disability Insurance (SSDI) is sometimes treated differently than other Social
+Security payments. In some states, individuals that receive SSDI are held ineligible or have those payments
+treated as deductible income.
+SUPPLEMENTAL UNEMPLOYMENT BENEFIT PAYMENTS (SUB PAY)—A supplemental
+unemployment payment plan is a system whereby, under a contract, unemployed individuals receive payments
+from an employer-financed trust fund. The purpose is to provide the individual, while unemployed, with a
+combined UC and supplemental unemployment benefit payment amounting to a specified proportion of the
+individual’s weekly earnings while employed.
+
+5-49
+
+NONMONETARY ELIGIBILITY
+There are two major types of such plans: 1) those under which the individual has no vested interest and
+is eligible for payments only if the individual is laid off by the company; and 2) those under which the
+individual has a vested interest and may collect if the individual is out of work for other reasons, such as illness
+or permanent separation.
+Supplementation of the first type, without impacting UC, is permitted by all states except New Mexico,
+Puerto Rico, South Carolina, and South Dakota. In 48 states, the authority to do so is based on an interpretive
+ruling by the state attorney general (27 states), by the employment security agency (10 states), or by Court
+decision (one state). 10 states permit supplementation of the first type by state statutes.
+Some supplemental unemployment benefit plans of the first type provide for alternative payments or
+substitute private payments in a state in which a ruling not permitting supplementation is issued. These
+payments may be made in amounts equal to three or four times the regular weekly private benefit after two or
+three weekly payments of state UC benefits without supplementation; in lump sums when the layoff ends or the
+state benefits are exhausted (whichever is earlier); or through alternative payment arrangements to be worked
+out, depending on the particular supplemental unemployment benefit plan.
+RELATIONSHIP WITH OTHER STATUTORY PROVISIONS—Some states have no provision for any
+type of disqualifying income except the federally-required deduction for pensions, whereas others have only two
+or three types. This does not necessarily allow benefits to all individuals in receipt of the types of payments
+concerned. An individual must still be able to work and available for work, as well as meeting the state’s
+definition of being unemployed or partially unemployed. Many individuals receiving workers’ compensation,
+other than those receiving weekly allowances for dismemberment, are not able to work in terms of the UC law.
+However, receipt of workers’ compensation for injuries in employment does not automatically
+disqualify an unemployed individual for unemployment benefits. Many states consider that evidence of injury
+with loss of employment is relevant only as it serves notice that a condition of ineligibility may exist and that an
+individual may not be able to work and may not be available for work. Similarly, individuals receiving SSDI
+payments may not be able to work.
+
+5-50
+
+
