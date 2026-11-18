@@ -11357,5 +11357,27 @@
    "dossiers/foundations/democratic-renewal/5-delivery.md"
   ],
   "locator": "Audit Law Database, Louisiana"
+ },
+ {
+  "id": "EV-DEM-411",
+  "statement": "Under the National Voter Registration Act the Attorney General may sue in district court for declaratory or injunctive relief to carry out the Act, and in a civil action under its enforcement section the court may award a prevailing party other than the United States reasonable attorney fees, litigation expenses and costs.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5405",
+  "anchor": [
+   "The Attorney General may bring a civil action in an appropriate district court for such declaratory or injunctive relief as is necessary to carry out this chapter.",
+   "In a civil action under this section, the court may allow the prevailing party (other than the United States) reasonable attorney fees, including litigation expenses, and costs."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, 52 U.S.C. 20510(a) and (c). With EV-DEM-351 (the notice periods), the model DEM-1.13 copies for the floor's enforcement, explained in plain terms for D2 (DEC-2026-11-18-12).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md",
+   "dossiers/foundations/democratic-renewal/5-delivery.md",
+   "dossiers/foundations/democratic-renewal/9-public-case.md"
+  ],
+  "locator": "52 U.S.C. 20510(a), (c)"
  }
 ]
