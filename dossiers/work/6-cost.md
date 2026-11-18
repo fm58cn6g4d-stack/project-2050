@@ -1,6 +1,6 @@
 # Fair pay and real power at work: cost
 
-Role: section 6 of the work dossier (flagship 5). It prices every provision of `4-specification.md` and `5-delivery.md` (87 in `provisions.json`) on federal fiscal years against the January 2029 law. It reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`). Status: **draft** (stage F), on `DEC-2026-11-17-01` to `-36`, `-95` and `-96`; revised in the milestone review's fix step 1 (the unemployment and wage insurance lines and the AmeriCorps match, review O-1, O-2, O-4 and O-5). Every figure is project arithmetic or judgment on outside anchors, not an official score; point 15 (`DEC-2026-11-17-28`) asks CBO and JCT for scores in 2027-28. **Nothing is booked here.** Booking follows the milestone review (`charter/STANDARDS.md`, "Milestone review"), and part 9 lists the ledger rows a booking would change. Items still with Espen are priced on their recommendations and marked **provisional** (part 4).
+Role: section 6 of the work dossier (flagship 5). It prices every provision of `4-specification.md` and `5-delivery.md` (87 in `provisions.json`) on federal fiscal years against the January 2029 law. It reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`). Status: **draft** (stage F), on `DEC-2026-11-17-01` to `-36`, `-95` and `-96`; revised in the milestone review's fix step 1 (the unemployment and wage insurance lines and the AmeriCorps match, review O-1, O-2, O-4 and O-5). Every figure is project arithmetic or judgment on outside anchors, not an official score; point 15 (`DEC-2026-11-17-28`) asks CBO and JCT for scores in 2027-28. **Booked** (part 9, tier 3): part 9 lists the ledger rows and the model's results. The figures in parts 1 to 8 are the dossier's own arithmetic, before the booking. The lines Espen decided on November 18 (W1, W4) are priced apart in part 4 and are in the booked rows.
 
 ## Counting rules
 
@@ -303,36 +303,41 @@ One basis: federal fiscal years, $ billion, a cost positive, the general fund's 
 - **The test years.** Nothing sunsets after FY2034, and the floor's indirect effect, unemployment insurance and wage insurance grow with wages. Without the floor's indirect effect, which is CBO's net and the least certain line, FY2040 is about $25.8 billion.
 - **Report, don't gate** (`DEC-2026-11-10-05`). Work's FY2040 share is a figure for the financing settlement, not a defect to fix. Two choices here are mainly about money, so they go to Espen: the credit's size (part 4, item 1) and, after the milestone fix, the unemployment standard's cost to employers ("Questions for Espen", item 1). The second moves the general fund by only a few billion dollars a year; it is a money question because the cost to employers is about twice what memo 7 showed.
 
-## 9. What a booking would change (proposed, not made)
+## 9. The booking (booked)
 
-Tier 3, for the lead after the milestone review (`charter/STANDARDS.md`, "Milestone review": book once, after the fixes). This PR changes nothing in `models/data/inputs/`. The rows below are low / mid / high over FY2030-39 in $ trillion, from `tools/work_path.py` (`booking_rows()`), with FY2040 in $ billion. Year shapes go in `fiscal-years.csv` from the same tool.
+Tier 3. Booked once, after the milestone review's fixes and Espen's November 18 confirmations (`charter/STANDARDS.md`, "Milestone review"). `models/tools/work_booking.py` derives every row below from `tools/work_path.py` and writes the inputs in `models/data/inputs/` (`ledger-bills.csv`, `ledger-revenue.csv`, `fiscal-years.csv`, `fiscal-profiles.csv`, `funds-ss-offbudget.csv`, `funds-ss-provisions.csv`, `incidence-rows.csv`, `incidence-keys.csv`) and the provision specs (`models/data/budget/provisions.csv`); `models/tools/test_fiscal_work.py` holds them equal, so a change to the path shows up as a failing test. Low / mid / high over FY2030-39 in $ trillion, FY2040 in $ billion, cost positive; the ledger keeps $1 billion, so each row rounds.
 
 | Row | Lines | Low / mid / high, FY2030-39 ($T) | FY2040 ($B) |
 | --- | --- | --- | --- |
-| LAB-4 indirect (DY4 or LAB-1) | The floor's indirect effect | 0.000 / 0.032 / 0.080 | 5.5 |
-| LAB-5 | The credit (revenue row) | 0.001 / 0.002 / 0.007 | 0.0 |
+| LAB-1 (changed) | The floor's indirect effect (CBO's net) | 0.000 / 0.032 / 0.080 | 5.5 |
+| LAB-5 (changed) | The credit, about $2.1 billion (`DEC-2026-11-18-22`) | 0.001 / 0.002 / 0.007 | 0.0 |
+| LAB-8 (changed) | Apprenticeship | 0.024 / 0.034 / 0.054 | 4.9 |
+| LAB-9 (changed) | Civic service, without the gated tranche | 0.042 / 0.049 / 0.056 | 6.7 |
 | LAB-4.09 | 14(c) grant | 0.001 / 0.002 / 0.003 | 0.0 |
-| LAB-3 and 4.04 | Boards and commission (appropriated) | 0.001 / 0.001 / 0.003 | 0.15 |
-| LAB-7.05 | Outreach (appropriated) | 0.000 / 0.001 / 0.001 | 0.06 |
-| LAB-11 (general-fund spending) | Extended Benefits, administration, conformity grant | 0.023 / 0.059 / 0.122 | 7.8 |
-| LAB-11 tax offset (revenue row) | The UI tax offset | 0.006 / 0.027 / 0.086 | 3.7 |
-| LAB-18 (spending) | Wage insurance, its administration, the hours field | 0.009 / 0.018 / 0.030 | 2.7 |
-| LAB-18 income tax (revenue row) | Income tax on wage insurance | -0.003 / -0.002 / -0.001 | -0.25 |
-| Penalties (revenue row) | Civil penalties | -0.001 / 0.000 / 0.000 | -0.05 |
-| LAB-8 | Apprenticeship | 0.024 / 0.034 / 0.054 | 4.9 |
-| LAB-9 | Civic service | 0.042 / 0.049 / 0.056 | 6.7 |
-| LAB-9.03 (contingent) | The tranche | 0.000 / 0.011 / 0.013 | 2.7 |
+| LAB-3 | Boards office and wage commission (appropriated) | 0.001 / 0.001 / 0.003 | 0.15 |
+| LAB-7.05 | Outreach grants (appropriated) | 0.000 / 0.001 / 0.001 | 0.06 |
+| LAB-11 | Extended Benefits in ordinary years, administration, conformity grant | 0.023 / 0.059 / 0.122 | 7.8 |
+| LAB-18 | Wage insurance, administration, hours field, good-cause quits and misuse, the records-based offer (W4) | 0.010 / 0.022 / 0.041 | 3.4 |
+| LAB-19 | Displacement measure (W1) | 0.000 / 0.001 / 0.001 | 0.04 |
+| LAB-11T (revenue row) | The UI income-tax offset, a loss | -0.086 / -0.027 / -0.007 (a gain positive) | 3.7 |
+| LAB-18T (revenue row) | Income tax on wage insurance, a gain | 0.001 / 0.002 / 0.003 | -0.25 |
+| LAB-2P (revenue row) | Civil penalties, a gain | 0.000 / 0.000 / 0.001 | -0.05 |
+| WRK-UI-SS (Social Security's funds) | Payroll tax lost on the UI deduction, % of taxable payroll (`funds-ss-offbudget.csv`) | about $43.3 billion over FY2030-39 | $6.0 billion |
 
-Further steps:
-1. **`ledger-bills.csv`, line 38 (LAB-5, 0.05 / 0.10 / 0.15):** replace with LAB-5.01 at about 0.001 / 0.002 / 0.007 (decided, part 4, item 1), as a revenue row with the trust funds made whole.
-2. **Line 39 (LAB-8, 0.02 / 0.03 / 0.05):** to 0.024 / 0.034 / 0.054.
-3. **Line 40 (LAB-9, 0.06 / 0.12 / 0.20):** to the civic line, 0.042 / 0.049 / 0.056, with the tranche as a contingent component (0 / 0.011 / 0.013). Move its rail from R2 to R1 (point 16), with the authorization as the regular-order route.
-4. **New rows:** LAB-11's general-fund spending, LAB-18 with its administration and the hours field, the 14(c) grant, the boards and outreach (appropriated), and the revenue rows (the UI tax offset, income tax on wage insurance, penalties). Each goes on its own line, with spending and revenue apart.
-5. **The floor's indirect effect:** a component of LAB-1, or a replacement for DY4's distributional row [EV-WRK-707], not both.
-6. **The UI trust funds:** the funds model's state accounts and the federal accounts, if the model carries them. They stay off the general fund, and Social Security's payroll offset (about −$43 billion) goes on the funds model's payroll line.
-7. **AI-4:** for the AI topic. Its row's wage-insurance part (wage insurance is "AI-4A's benefit", memo 8) is carried by LAB-18 and LAB-19 (memo 10 C, decided). The rest (training accounts) stays the AI topic's.
-8. **CAP-7:** democratic renewal's section 5 has answered work's seven items: the NLRB fits inside the legacy row, which narrows to work's figure at stage G; FMCS, OSHA's high end, the apprenticeship registration staff and the FLRA are claims on the delivery contingency; the conformity grant stays on work's own R1 line, counted once there (part 1); the UI identity match (LAB-11.06) is a data agreement that may draw on CAP-13 for the state side. Nothing to book here.
-9. **Rails:** the money moves to R1 (point 16). The budget model books LAB-5, LAB-8 and LAB-9 on R2 today.
+**Not booked:** the gated service tranche (LAB-9.03), the standby displacement trigger (LAB-19.04, 19.05), Extended Benefits in a downturn (all contingent, zero unless an event occurs); the UI trust funds' own lines (employer-financed, net zero on the general fund); the AmeriCorps grantees' match (not federal); the three W10 provisions (no federal line). **Counting rules:** spending and revenue are on separate lines, with the three revenue effects as base-revenue rows of their own; the credit is an outlay row (a refundable credit), made whole for the trust funds in the dossier's design.
+
+**Rails** stay as the ledger has them (R2 for LAB-5, LAB-8, LAB-9 and the new money rows; FLOOR for the rules bill, LAB-1; APPROPS for LAB-3, LAB-7.05 and LAB-19). The dossier's "R1" (`DEC-2026-11-17-29`'s money act of mid-2029) is its own name for what the ledger calls R2 (summer 2029), so no rail, vote or calendar row moves. **Incidence:** LAB-11 and LAB-18 have incidence rows on a new key, `ui` (unemployment compensation received, measured on the CPS by the household model), beside LAB-8's and LAB-9's. **DY4** (the legacy living-wage dynamic row, `ledger-dynamic.csv`) stays as it is: the floor's indirect effect is booked in LAB-1 (a dynamic row is not part of the gap).
+
+**What it changed** (budget model, case `mixed`, plan-wide general-fund primary balance, a shortfall positive; before is main after #458):
+
+| | Before | After | Change | Section 6's arithmetic |
+| --- | --- | --- | --- | --- |
+| FY2040 | $602.7 billion | $614.0 billion | **+$11.3 billion** | +$11.4 billion (firm +$10.7 and decided-apart +$0.7) |
+| FY2030-39 | $3,773.4 billion | $3,751.4 billion | **−$22.0 billion** | about −$23 billion (firm −$27.5, decided-apart +$4.5) |
+
+The gap falls through FY2036 (by $8 to $11 billion a year from FY2031) and rises from FY2037 (by $10.6 to $11.3 billion), because the booked legacy credit, apprenticeship and service rows run larger early and the decided designs' permanent lines (unemployment and wage insurance, the floor's effect) grow. **Social Security** (funds model, D8 baseline): depletion moves from 2061 to 2060 and the share of the 75-year gap closed stays 63% (−$1.63 to −$1.66 of payroll); D8 plus SS-5: depletion 2080 to 2079 and 83% to 82%. **Household quintiles** (D3, the decided scenario Q-H7, model keys, FY2030-39 average a household a year): Q1 +$14,691 to +$14,663, Q2 +$13,293 to +$13,279, Q3 +$12,575 to +$12,587, Q4 +$8,130 to +$8,171; every quintile below the top stays ahead. The incidence rows for LAB-11 and LAB-18 add what the part 1C run lacked; LAB-9's smaller line takes part away.
+
+**Pins moved with it** (each a check on the plan-wide gap): `test_ledger_rounding.py` (the base-revenue headline, 23.47 to 23.44), `test_fiscal_health_financing.py` (the gap by year, with work's change shown), `democratic_renewal_cost.py` and its test (the FY2040 gap, 602.7 to 614.0, and the shares of it). Democratic renewal's dossier text that quotes $603 billion is that dossier's to update.
 
 ## 10. What each figure is
 

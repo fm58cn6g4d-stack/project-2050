@@ -71,7 +71,7 @@ Section 4 left both "a gap for later work, not a decision". The floor and the en
 
 ## The board and the care payer floor (the home care link)
 
-Memo 5 B (`DEC-2026-11-17-06`) decided a standing federal framework for binding industry standards boards, fast food first with an 18-month deadline and **home care through the care payer floor**; `DEC-2026-11-17-30` puts home care workers employed by agencies and other third parties under minimum wage and overtime law, with the care wage floor ($20 in 2026 dollars, indexed) on top for publicly paid care. Espen half-recalled care workers sharing the fast-food route (`DEC-2026-11-18-25`); they do, through the payer. The domestic workers' board relates to them this way (a working choice, LAB-3.05):
+Memo 5 B (`DEC-2026-11-17-06`) decided a standing federal framework for binding industry standards boards, fast food first with an 18-month deadline and **home care through the care payer floor**; `DEC-2026-11-17-30` puts home care workers employed by agencies and other third parties under minimum wage and overtime law, with the care wage floor ($20 in 2026 dollars, indexed) on top for publicly paid care. Espen half-recalled care workers sharing the fast-food route (`DEC-2026-11-18-25`); they do, through the payer. The domestic workers' board relates to them this way (confirmed by Espen, `DEC-2026-11-18-31`, LAB-3.05):
 
 | Who | Wage floor | Standards above it |
 | --- | --- | --- |

@@ -12267,19 +12267,19 @@
    "88.8",
    "42.4"
   ],
-  "source": "SRC-5576",
+  "source": "SRC-5900",
   "anchor": [
    "Private households",
    "580",
    "88.8",
    "42.4"
   ],
-  "locator": "BLS, 'Employed people by detailed industry, sex, race, and Hispanic or Latino ethnicity' (CPS table 18), row 'Private households' (cells read in order: 580, 88.8, 82.0, 8.3, 5.7, 42.4), in thousands for the first",
+  "locator": "CPS table 18, row 'Private households' (cells in order: 580, 88.8, 82.0, 8.3, 5.7, 42.4; in thousands for the first), in the saved text",
   "grade": "A",
   "fact_date": "2025",
   "checked": "2026-11-18",
   "recheck": "2027-02-15",
-  "context": "BLS, official household survey; public domain but not saved because bls.gov refused the library's download (HTTP 403); the cells were read through a page-fetch tool, so the quotes are as read, not from a saved file. The table notes that 2025 annual estimates are 11-month averages that exclude October (no data collected in the federal shutdown). The private-households industry counts people employed directly by households; it omits domestic workers employed through agencies (classified under services industries) and undercounts informal work.",
+  "context": "BLS, official household survey; public domain. Saved as library/text/wrk-r18-bls-cpsaat18-employed-by-industry.txt from Espen's uploaded copy (SRC-5900; the text is verbatim, one cell per line). The table notes that 2025 annual estimates are 11-month averages that exclude October (no data collected in the federal shutdown). The private-households industry counts people employed directly by households; it omits domestic workers employed through agencies (classified under services industries) and undercounts informal work.",
   "supports": [
    "dossiers/work/memos/11-farm-domestic-workers.md"
   ]
