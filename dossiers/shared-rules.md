@@ -101,6 +101,7 @@ A rule is added here only when two dossiers actually depend on it. Every other c
   - Work half: no work conditions on the guarantee. This departs from the public housing service requirement above, which the housing dossier would have to address in section 4.
   - Treatment half: a range, because housing memo 5 is still open. It runs from no treatment condition (memo 5 options A and B, where services and recovery housing are offered, never required) to treatment as a condition of help (option C, the July 2025 executive order's approach) at the other.
 - **Owner:** the work flagship (flagship 5) records the cross-program principle; each flagship applies it. If Espen decides otherwise in any dossier, the others are reviewed.
+- **Decided** (`DEC-2026-11-17-23`, work point 10): "Help in this plan is an offer, not a condition. No program conditions income, housing, health or food help on work, training or service (LAB-10). Unemployment insurance, which insures against losing work, keeps its test that a claimant is able and available for work, shown by attestation and registration with the job service, with reemployment help offered; it adds no weekly contact quotas." The treatment half is housing's (its fork 5).
 
 ### 7. Services that make housing work
 

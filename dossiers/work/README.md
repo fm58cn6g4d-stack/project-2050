@@ -1,6 +1,6 @@
 # Dossier: Fair pay and real power at work (flagship 5)
 
-Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Sections 1 and 2 are drafts, research only (Espen allowed stage F groundwork on the condition that it makes no design choices, November 16, 2026, about 05:20 UTC: "yes to all your questions and recs"). Section 3 and the memo set are drafted and **proposed for Espen's decision**; nothing is decided. Level: every item is at **L1** in `agenda/agenda.csv`, unchanged until Espen decides. Nothing is booked in the budget model; costs are reported for stage G.
+Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Sections 1 and 2 are drafts, research only (Espen allowed stage F groundwork on the condition that it makes no design choices, November 16, 2026, about 05:20 UTC: "yes to all your questions and recs"). Section 3 and the memo set are **decided** (`DEC-2026-11-17-01` to `-29`, November 17, 2026): as recommended except memo 1 part 2 (C), memo 3 (D) and memo 6 part 3 (C); memo 8 part 2, memo 9 and points 2, 3, 5 and 11 are provisional, with Espen's questions answered in `notes/espen-questions-2026-11-17.md`. Level: the decided items are at **L2** in `agenda/agenda.csv`. Section 4 waits until Espen says go. Nothing is booked in the budget model; costs are reported for stage G.
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "Labor law, wage floors, sectoral standards, support when jobs change."
 
@@ -26,9 +26,10 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
 | --- | --- | --- |
 | 1. The problem | `1-problem.md`: the wage floor; unions and the labor board; wage theft, misclassification, overtime, safety and heat; job loss, unemployment insurance, notice, the workforce system, apprenticeship and AI; schedules, labor's share and rural places; the January 2029 baseline table; seams; the legacy record weighed | Draft (stage F groundwork) |
 | 2. What works | `2-what-works.md`: wage floors (bite, indexing, phase-ins, prices and poverty, subminimums); unions, Canada's organizing rules, right-to-work and sectoral standards; enforcement, penalties, coverage, heat and pay transparency; unemployment insurance, reemployment services, work sharing, notice, training, wage insurance, job guarantees and service; schedules and non-competes; the legacy designs against the evidence | Draft (stage F) |
-| 3. Design | `3-design.md`: the forks at a glance, section 2's eleven questions answered or routed, the options' costs against outside scores, the bills, the inherited assumptions traced, sixteen yes-or-no points, shared rules (rule 6 is this flagship's), seams | Draft, proposed for Espen |
-| Memos | `memos/README.md` (index) and memos 1-9: the wage floor; subminimums; organizing and enforcement; fair-share fees; sectoral standards; enforcement, coverage and pay transparency; unemployment insurance; training and wage insurance; national service | Proposed, for Espen's decision in one round |
-| 4-9 | Not started | — |
+| 3. Design | `3-design.md`: the forks at a glance, section 2's eleven questions answered or routed, the options' costs against outside scores, the bills, the inherited assumptions traced, sixteen yes-or-no points, shared rules (rule 6 is this flagship's), seams | Decided (`DEC-2026-11-17-01` to `-29`) |
+| Memos | `memos/README.md` (index) and memos 1-9: the wage floor; subminimums; organizing and enforcement; fair-share fees; sectoral standards; enforcement, coverage and pay transparency; unemployment insurance; training and wage insurance; national service | Decided; memo 8 part 2 and memo 9 provisional |
+| Notes | `notes/espen-questions-2026-11-17.md`: answers to Espen's questions on the November 17 decisions | For Espen |
+| 4-9 | Not started; section 4 waits until Espen says go | — |
 
 ## Evidence and sources
 
@@ -52,4 +53,4 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
 
 ## Open questions for Espen
 
-The section 3 batch: memos 1-9 and points 1-16 (`memos/README.md`, `3-design.md`), each decided on its own. Memo 4, the fair-share override, is the one the legacy files left to Espen by name.
+The section 3 batch is decided. Still open: the provisional answers (memo 8 part 2, memo 9, points 2, 3, 5 and 11) and memo 8 part 1's completion bonuses, with recommendations in `notes/espen-questions-2026-11-17.md`; and the go for section 4.
