@@ -207,9 +207,10 @@
   "status": "decided as a direction, `-99`, a",
   "decisions": [
    "DEC-2026-11-17-40",
-   "DEC-2026-11-17-99"
+   "DEC-2026-11-17-99",
+   "DEC-2026-11-18-13"
   ],
-  "parameters": "Every registrant receives a free voter card by mail from records: new registrants with the registration notice, and voters already on the rolls in a mailing phased over the first two federal election cycles after enactment, largest counties last (working choice, so offices are not swamped). A photo is optional: taken free at a state motor vehicle office, an SSA field office or the election office (working choice). The card is accepted as identification for every federal election in every state. No fee for any birth certificate or other record a voter needs to get a photo card. **The signed-statement route (DEM-1.06) stays:** the card is an option, never a condition of voting. Paid from DEM-11 (judgment: well under $0.1 billion a year). The national panel found strict ID had no effect on fraud [EV-DEM-154] (its abstract adds perceived fraud), so the card's case is ease and trust, not security alone",
+  "parameters": "Every registrant receives a free voter card by mail from records: new registrants with the registration notice, and every voter already on the rolls by the same single deadline: all cards are mailed no later than 45 days before the first federal general election the floor covers (section 5, part 4), the day overseas ballots go out (working choice), in any order the state chooses before then; later registrants receive theirs with the registration notice. *Provisional (D3, `DEC-2026-11-18-13`):* one deadline for new and existing registrants alike, as Espen directed, because a later schedule for existing voters invites challenge. A photo is optional: taken free at a state motor vehicle office, an SSA field office or the election office (working choice). The card is accepted as identification for every federal election in every state. No fee for any birth certificate or other record a voter needs to get a photo card. **The signed-statement route (DEM-1.06) stays:** the card is an option, never a condition of voting. Paid from DEM-11 (judgment: well under $0.1 billion a year). The national panel found strict ID had no effect on fraud [EV-DEM-154] (its abstract adds perceived fraud), so the card's case is ease and trust, not security alone",
   "eligibility": "",
   "vehicle": [
    {
@@ -319,9 +320,10 @@
   "status": "decided, memo 1 B: the floor",
   "decisions": [
    "DEC-2026-11-17-40",
-   "DEC-2026-11-17-42"
+   "DEC-2026-11-17-42",
+   "DEC-2026-11-18-13"
   ],
-  "parameters": "A voter-verified paper ballot for every vote in a federal election; a risk-limiting audit of each federal contest before certification. Equipment replaced through DEM-11.02",
+  "parameters": "A voter-verified paper ballot for every vote in a federal election; a risk-limiting audit of each federal contest before certification. Equipment replaced through DEM-11.02. *Effective date (provisional, D3, `DEC-2026-11-18-13`):* the first covered general election like every floor rule, with one exception: a jurisdiction that on the date of enactment votes on paperless equipment, as Louisiana did statewide in 2024 [EV-DEM-410], offers a paper ballot on request at every polling place and audits whatever paper it has from that election, and meets the full rule by the 2032 general election at the latest (section 5, part 4)",
   "eligibility": "",
   "vehicle": [
    {
@@ -333,7 +335,8 @@
   "agency": "States; EAC",
   "current_law": "",
   "evidence": [
-   "EV-DEM-171"
+   "EV-DEM-171",
+   "EV-DEM-410"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -371,11 +374,12 @@
   "id": "DEM-1.13",
   "title": "Severability, forum and enforcement",
   "agenda": "DEM-1",
-  "status": "decided, memo 2 B; enforcement provisional, section 5",
+  "status": "decided, memo 2 B; enforcement decided, `DEC-2026-11-18-12`",
   "decisions": [
-   "DEC-2026-11-17-42"
+   "DEC-2026-11-17-42",
+   "DEC-2026-11-18-12"
   ],
-  "parameters": "Each division, title and section of the democracy act is severable, and so is each provision's application to the appointment of presidential electors from its application to elections for Senator and Representative, and DEM-12.01's application to each state (milestone fix 2; the table under \"The floor's legal footing\" below gives the power and the unit for each rule). **Forum (milestone fix 3):** a challenge to the act seeking relief beyond the parties is heard by a three-judge district court that the act itself requires (28 U.S.C. 2284(a), \"when otherwise required by Act of Congress\" [EV-DEM-344]), with direct appeal, so the rule holds whether or not the court integrity act (CRT-3.02) is law when the act passes; a pre-enforcement challenge to a rule the EAC or FEC adopts under the act goes to the court of appeals once CRT-7.01 is law (CRT-3.02's order rule). *Provisional (section 5, part 8, fix 3):* Division A is enforceable in federal court by the Attorney General, or by an aggrieved voter after written notice to the state's chief election official and a period to correct it (shorter close to a federal election), on the National Voter Registration Act's notice-and-cure model, 52 U.S.C. 20510(b): 90 days to correct after written notice, 20 days within 120 days of a federal election, and no notice within 30 days of one [EV-DEM-351]",
+  "parameters": "Each division, title and section of the democracy act is severable, and so is each provision's application to the appointment of presidential electors from its application to elections for Senator and Representative, and DEM-12.01's application to each state (milestone fix 2; the table under \"The floor's legal footing\" below gives the power and the unit for each rule). **Forum (milestone fix 3):** a challenge to the act seeking relief beyond the parties is heard by a three-judge district court that the act itself requires (28 U.S.C. 2284(a), \"when otherwise required by Act of Congress\" [EV-DEM-344]), with direct appeal, so the rule holds whether or not the court integrity act (CRT-3.02) is law when the act passes; a pre-enforcement challenge to a rule the EAC or FEC adopts under the act goes to the court of appeals once CRT-7.01 is law (CRT-3.02's order rule). *Enforcement (decided, `DEC-2026-11-18-12`; section 5, part 8, fix 3; explained in plain terms under \"How the floor is enforced\" below):* Division A is enforceable in federal court by the Attorney General, or by an aggrieved voter after written notice to the state's chief election official and a period to correct it (shorter close to a federal election), on the National Voter Registration Act's notice-and-cure model, 52 U.S.C. 20510(b): 90 days to correct after written notice, 20 days within 120 days of a federal election, and no notice within 30 days of one [EV-DEM-351]. The Attorney General needs no notice, and a voter who wins recovers reasonable attorney fees and costs, as under the NVRA, 52 U.S.C. 20510(a) and (c) [EV-DEM-411]",
   "eligibility": "",
   "vehicle": [
    {
@@ -389,6 +393,7 @@
   "evidence": [
    "EV-DEM-344",
    "EV-DEM-351",
+   "EV-DEM-411",
    "EV-DEM-375",
    "EV-DEM-376",
    "EV-DEM-387"
@@ -554,9 +559,11 @@
   "agenda": "DEM-12",
   "status": "decided, point 1; its power, findings and severability, milestone fix 2; a court risk",
   "decisions": [
-   "DEC-2026-11-17-64"
+   "DEC-2026-11-17-64",
+   "DEC-2026-11-18-13",
+   "DEC-2026-11-18-17"
   ],
-  "parameters": "A person convicted of a crime may vote in federal elections once released from prison. *Power:* Congress's power to enforce the Fourteenth Amendment (section 5) and the Fifteenth (section 2), on findings of the racial purpose with which states adopted or expanded these laws and of their racial effect today; **not** the Elections Clause, which reaches how federal elections are held, not who may vote in them [EV-DEM-375]. The footing is plausible but contested, and section 9 lists it as a court risk (\"The floor's legal footing\", below). *Its own section, severable* from the rest of the act, and its application to each state severable from its application to the others (DEM-1.13): if it falls, DEM-12.02 and the state track, DEM-12.03, stand. About 4 million people were disenfranchised in 2024, one in 22 African Americans of voting age [EV-DEM-159]",
+  "parameters": "A person convicted of a crime may vote in federal elections once released from prison. *Power:* Congress's power to enforce the Fourteenth Amendment (section 5) and the Fifteenth (section 2), on findings of the racial purpose with which states adopted or expanded these laws and of their racial effect today; **not** the Elections Clause, which reaches how federal elections are held, not who may vote in them [EV-DEM-375]. *Oregon v. Mitchell* (1970) let Congress set 18 as the voting age for federal elections, but with no majority reason: only Justice Black found the power in the Elections Clause [EV-DEM-401], and the Court has since called that result \"of minimal precedential value\" [EV-DEM-402]; how the text uses the case is open question 5 (provisional, D7, `DEC-2026-11-18-17`). The footing is plausible but contested, and section 9 lists it as a court risk (\"The floor's legal footing\", below). *Its own section, severable* from the rest of the act, and its application to each state severable from its application to the others (DEM-1.13): if it falls, DEM-12.02 and the state track, DEM-12.03, stand. About 4 million people were disenfranchised in 2024, one in 22 African Americans of voting age [EV-DEM-159]",
   "eligibility": "",
   "vehicle": [
    {
@@ -579,7 +586,11 @@
    "EV-DEM-378",
    "EV-DEM-379",
    "EV-DEM-380",
-   "EV-DEM-381"
+   "EV-DEM-381",
+   "EV-DEM-401",
+   "EV-DEM-402",
+   "EV-DEM-403",
+   "EV-DEM-404"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -1033,9 +1044,10 @@
   "status": "decided as a direction, `-99`, h: step 2",
   "decisions": [
    "DEC-2026-11-17-63",
-   "DEC-2026-11-17-99"
+   "DEC-2026-11-17-99",
+   "DEC-2026-11-18-18"
   ],
-  "parameters": "In 2031, after the census, Congress decides the House's size among DEM-3A (the cube-root rule, about 692 [EV-DEM-249]), 3B (the Wyoming rule) and 3C (a fixed increase), for the 2032 election if the census numbers are in time, otherwise for the 2034 redraw. The yardstick is contested [EV-DEM-250]; the House has had 435 members since 1913 [EV-DEM-074]. Preparation the democracy act directs: the Architect of the Capitol reports the chamber's build cost by 2030 (legacy: plausibly $0.01-0.03 trillion, unscored; `domain-democracy.md`:132); a legal review of a mid-decade reapportionment before 2032 (legacy open item 5)",
+  "parameters": "In 2031, after the census, Congress decides the House's size among DEM-3A (the cube-root rule, about 692 [EV-DEM-249]), 3B (the Wyoming rule) and 3C (a fixed increase), for the 2032 election if the census numbers are in time, otherwise for the 2034 redraw. The yardstick is contested [EV-DEM-250]; the House has had 435 members since 1913 [EV-DEM-074]. Preparation the democracy act directs: the Architect of the Capitol reports the chamber's build cost by 2030 (legacy: plausibly $0.01-0.03 trillion, unscored; `domain-democracy.md`:132); a legal review of a mid-decade reapportionment before 2032 (legacy open item 5). If a new state holds temporary seats under DEM-5.01 when the review's law passes, that law ends them and apportions the new state with the others (provisional, `DEC-2026-11-18-18`)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1179,9 +1191,10 @@
   "agenda": "DEM-5",
   "status": "decided, point 5",
   "decisions": [
-   "DEC-2026-11-17-66"
+   "DEC-2026-11-17-66",
+   "DEC-2026-11-18-18"
   ],
-  "parameters": "Admits the State of Washington, Douglass Commonwealth on the model of H.R. 51, which the House passed 216 to 208 in 2021 [EV-DEM-268], with a residual federal district around the Capitol, the White House and the Mall. The residual district's electors are directed by statute (to the national popular vote winner, or none appointed), under Congress's power over their manner of appointment; repeal of the 23rd Amendment (AMD-6) becomes hygiene, not a precondition (legacy, `domain-democracy.md`:174). *Court risk, stated plainly (milestone fix 4):* the question is unsettled. CRS finds the Twenty-third Amendment likely keeps operating for the residual district, whose text says it \"shall appoint\" electors in the manner Congress directs, and that standing to challenge an admission act is unclear [EV-DEM-397]; the Justice Department's Office of Legal Policy argued in 1987 that statehood by statute is unconstitutional [EV-DEM-398]. Directing the electors to the popular-vote winner fits \"such manner as the Congress may direct\" better than appointing none, which sits uneasily with \"shall appoint\" (judgment); AMD-6's repeal removes the question. 689,545 residents in 2020, more than Vermont or Wyoming [EV-DEM-267]",
+  "parameters": "Admits the State of Washington, Douglass Commonwealth on the model of H.R. 51, which the House passed 216 to 208 in 2021 [EV-DEM-268], with a residual federal district around the Capitol, the White House and the Mall. The residual district's electors are directed by statute (to the national popular vote winner, or none appointed), under Congress's power over their manner of appointment; repeal of the 23rd Amendment (AMD-6) becomes hygiene, not a precondition (legacy, `domain-democracy.md`:174). *Court risk, stated plainly (milestone fix 4):* the question is unsettled. CRS finds the Twenty-third Amendment likely keeps operating for the residual district, whose text says it \"shall appoint\" electors in the manner Congress directs, and that standing to challenge an admission act is unclear [EV-DEM-397]; the Justice Department's Office of Legal Policy argued in 1987 that statehood by statute is unconstitutional [EV-DEM-398]. Directing the electors to the popular-vote winner fits \"such manner as the Congress may direct\" better than appointing none, which sits uneasily with \"shall appoint\" (judgment); AMD-6's repeal removes the question. 689,545 residents in 2020, more than Vermont or Wyoming [EV-DEM-267] **Temporary House seats for the new state (provisional, `DEC-2026-11-18-18`; DEM-6.01's admission act for Puerto Rico carries the same rule).** If a new state is admitted before a law enlarges or reapportions the House, its admission act gives it Representatives in addition to the House's size then in law, with no reapportionment of any other state. *Number (working choice):* the new state's population on the Census Bureau's latest estimate, divided by the average district population of the last apportionment, rounded to the nearest whole number, at least one. On the July 2025 estimates that is one seat for Washington, Douglass Commonwealth (693,645 people) and four for Puerto Rico (3,184,835), against the 2020 average of 761,169 [EV-DEM-408] [EV-DEM-075]: a House of 436, 439 or 440. *Duration:* until the first of (a) the apportionment after the next decennial census taking effect, or (b) a law that enlarges or reapportions the House (DEM-3.01's 2031 review would be one); the new state is then apportioned with the others. The temporary increase changes neither the House's permanent size nor the basis of apportionment, in the words of the acts that gave Alaska (1958) and Hawaii (1959) one seat each and took the House to 437 until the 1960 census's apportionment took effect in 1963 [EV-DEM-405] [EV-DEM-406] [EV-DEM-407] [EV-DEM-074]; the 1911 apportionment act did the same for Arizona and New Mexico [EV-DEM-407]. The new state's electors are its Senators plus these Representatives, so the Electoral College grows by the same number for any presidential election before the seats end. Espen adds that it gets the public used to a House of a different size. *Cost:* about $5-10 million a seat a year for a member's pay, office and staff (project arithmetic, scaled from the legacy member-office estimate, `domain-democracy.md`:134, not re-checked), so about $25-50 million a year for five seats; unbooked, a stage G line once an admission act passes. *Legal risk (judgment): low to moderate.* Congress sets the House's size by statute, and seats added for a new state before a census stood unchallenged in 1912 and 1959. The open points: the seats rest on an estimate, not the census enumeration Article I's apportionment uses, which a voter in an existing state could call unequal representation; and four seats for Puerto Rico rather than three or five turns on a rounding rule a court would likely leave to Congress. No existing state loses a seat, which narrows who could sue. Legacy has no temporary-seat rule; its open item on a mid-decade reapportionment (`domain-democracy.md`:146) is a different question, since no state is reapportioned here.",
   "eligibility": "",
   "vehicle": [
    {
@@ -1196,7 +1209,13 @@
    "EV-DEM-267",
    "EV-DEM-268",
    "EV-DEM-397",
-   "EV-DEM-398"
+   "EV-DEM-398",
+   "EV-DEM-074",
+   "EV-DEM-075",
+   "EV-DEM-405",
+   "EV-DEM-406",
+   "EV-DEM-407",
+   "EV-DEM-408"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -1208,9 +1227,10 @@
   "agenda": "DEM-6",
   "status": "decided, point 6",
   "decisions": [
-   "DEC-2026-11-17-66"
+   "DEC-2026-11-17-66",
+   "DEC-2026-11-18-18"
   ],
-  "parameters": "A plebiscite among non-territorial options (working choice: the options of the 2022 House-passed Puerto Rico Status Act, to confirm in drafting), with Congress committed in advance to admit or implement the result. Statehood's fiscal effect (full Medicaid and SNAP, tax treatment) is scored by CBO and published before the vote (legacy open item 4)",
+  "parameters": "A plebiscite among non-territorial options (working choice: the options of the 2022 House-passed Puerto Rico Status Act, to confirm in drafting), with Congress committed in advance to admit or implement the result. Statehood's fiscal effect (full Medicaid and SNAP, tax treatment) is scored by CBO and published before the vote (legacy open item 4). If the vote chooses statehood, the admission act carries DEM-5.01's temporary House seats (provisional, `DEC-2026-11-18-18`): four on the July 2025 estimate of 3,184,835 people [EV-DEM-408], until the next census's apportionment or a law enlarging or reapportioning the House",
   "eligibility": "",
   "vehicle": [
    {
@@ -1221,7 +1241,9 @@
   ],
   "agency": "Congress; Puerto Rico's election commission",
   "current_law": "",
-  "evidence": [],
+  "evidence": [
+   "EV-DEM-408"
+  ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
   "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
@@ -1661,12 +1683,14 @@
   "id": "INT-1.01",
   "title": "Who is covered and what they may not own",
   "agenda": "INT-1",
-  "status": "decided, memo 6 A; Espen's terms, `-99`, c; one element provisional, open question 1",
+  "status": "decided, memo 6 A; Espen's terms, `-99`, c; `DEC-2026-11-18-11`; `-16`, its definitions provisional",
   "decisions": [
    "DEC-2026-11-17-49",
-   "DEC-2026-11-17-99"
+   "DEC-2026-11-17-99",
+   "DEC-2026-11-18-11",
+   "DEC-2026-11-18-16"
   ],
-  "parameters": "*Covered:* members of Congress, their spouses and dependent children; the President, the Vice President (INT-1.05), Cabinet secretaries and other Senate-confirmed officials. *Covered holdings:* individual publicly traded securities (stocks, corporate bonds, options, short positions and similar interests in a single issuer) and interests in funds that are not diversified. **Never covered:** diversified mutual funds and exchange-traded funds; U.S. Treasury securities and municipal bonds; the Thrift Savings Plan and other retirement accounts. *Provisional, pending Espen (\"Open questions for Espen\", 1):* a new purchase of an individual stock inside a self-directed retirement account after the effective date counts as covered; holdings already in such accounts, and plan-managed accounts (the TSP, 401(k) funds, pensions), are never covered. Private business and farm interests are disclosed as today, not banned. The House passed a narrower trading ban 232-198 on July 22, 2026 [EV-DEM-034] [EV-DEM-035]; if a weaker ban becomes law in 2027-28, this act amends it (legacy open item 1)",
+  "parameters": "*Covered:* members of Congress, their spouses and dependent children; the President, the Vice President (INT-1.05), Cabinet secretaries and other Senate-confirmed executive officials; and, by `DEC-2026-11-18-16`, **senior congressional staff** and **the governors of the Federal Reserve Board**, each with their spouses and dependent children as members' are. *Senior staff (provisional, the existing line):* an officer or employee of Congress as the Ethics in Government Act already defines one for public financial disclosure: paid at or above 120 percent of the minimum GS-15 rate for at least 60 days, plus the principal assistant a Member with no such employee designates (5 U.S.C. 13101(13)) [EV-DEM-409]. The ban reaches only people who already file public reports, so it adds no new filing. *Federal Reserve (provisional):* the governors, who are Senate-confirmed (memo 6 A had excluded Federal Reserve officials). Reserve Bank presidents, who sit on the Open Market Committee with the governors, and the Board's senior staff keep disclosure under INT-12.02 unless Espen adds them (open question 6). **Judges and Justices get disclosure only** (INT-12.01, CRT-2.01), not the ban; Espen: \"a full ban may be too strict for folks with lifetime tenure\". *Covered holdings:* individual publicly traded securities (stocks, corporate bonds, options, short positions and similar interests in a single issuer) and interests in funds that are not diversified. **Never covered:** diversified mutual funds and exchange-traded funds; U.S. Treasury securities and municipal bonds; the Thrift Savings Plan and other retirement accounts. *Decided (`DEC-2026-11-18-11`):* a new purchase of an individual stock inside a self-directed retirement account after the effective date counts as covered; holdings already in such accounts, and plan-managed accounts (the TSP, 401(k) funds, pensions), are never covered. Private business and farm interests are disclosed as today, not banned. The House passed a narrower trading ban 232-198 on July 22, 2026 [EV-DEM-034] [EV-DEM-035]; if a weaker ban becomes law in 2027-28, this act amends it (legacy open item 1)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1683,7 +1707,8 @@
    "EV-DEM-215",
    "EV-DEM-216",
    "EV-DEM-217",
-   "EV-DEM-219"
+   "EV-DEM-219",
+   "EV-DEM-409"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -1751,9 +1776,10 @@
   "status": "decided, memo 6 part 2, `-50`; `-99`, c",
   "decisions": [
    "DEC-2026-11-17-50",
-   "DEC-2026-11-17-99"
+   "DEC-2026-11-17-99",
+   "DEC-2026-11-18-16"
   ],
-  "parameters": "A prohibited holding or trade incurs a civil liability under the statute: the gain (or loss avoided) paid back, plus a fine of 10% of the value of the holding or trade (working choice, memo 6), computed from the person's own disclosure filings, with no inquiry into votes or legislative work (so the Speech or Debate Clause is not engaged). *Due process:* written notice of the computed amount; 30 days to contest the computation before the ethics office (working choice); an appeal to the chamber's ethics committee (or, for executive officials, to OGE's director) before collection. *Collection (milestone fix 4):* for a member, by the chamber's ethics office from pay or by payment, under each chamber's power to punish its members (Article I, section 5), with a matching rule in each chamber, as the STOCK Act's late fee works; if unpaid after 90 days (working choice), the Justice Department sues in district court. For anyone else covered (spouses, dependent children, the President and Vice President, executive officials, and anyone else the ban reaches, such as the staff `DEC-2026-11-18-16` adds), who are not subject to that power, the ethics office's or OGE's computation is a notice, not a judgment: the penalty is collected only by the Justice Department's suit in district court, with a jury if asked (CRT-10.01), since a civil penalty designed to punish or deter is legal relief [EV-DEM-391]. Each penalty is published. Willful violations are referred to the Justice Department. The usual STOCK Act penalty today is $200 or waived [EV-DEM-220]",
+  "parameters": "A prohibited holding or trade incurs a civil liability under the statute: the gain (or loss avoided) paid back, plus a fine of 10% of the value of the holding or trade (working choice, memo 6), computed from the person's own disclosure filings, with no inquiry into votes or legislative work (so the Speech or Debate Clause is not engaged). *Due process:* written notice of the computed amount; 30 days to contest the computation before the ethics office (working choice); an appeal to the chamber's ethics committee (or, for executive officials, to OGE's director) before collection. *Collection (milestone fix 4):* for a member, by the chamber's ethics office from pay or by payment, under each chamber's power to punish its members (Article I, section 5), with a matching rule in each chamber, as the STOCK Act's late fee works; if unpaid after 90 days (working choice), the Justice Department sues in district court. For anyone else covered (spouses, dependent children, the President and Vice President, executive officials, and the senior congressional staff and Federal Reserve governors `DEC-2026-11-18-16` adds; a staff member's appeal goes to the chamber's ethics committee, a governor's to OGE's director), who are not subject to that power, the ethics office's or OGE's computation is a notice, not a judgment: the penalty is collected only by the Justice Department's suit in district court, with a jury if asked (CRT-10.01), since a civil penalty designed to punish or deter is legal relief [EV-DEM-391]. Each penalty is published. Willful violations are referred to the Justice Department. The usual STOCK Act penalty today is $200 or waived [EV-DEM-220]",
   "eligibility": "",
   "vehicle": [
    {
