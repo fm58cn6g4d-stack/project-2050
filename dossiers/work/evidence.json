@@ -11312,5 +11312,541 @@
   "supports": [
    "dossiers/work/6-cost.md"
   ]
+ },
+ {
+  "id": "EV-WRK-455",
+  "statement": "BLS reports a median hourly wage of $12.09 for all occupations in Puerto Rico in May 2023, across 928,240 jobs, against a mean of $16.40; fast food and counter workers' median was $9.64 and cashiers' $9.62.",
+  "claim": "data",
+  "figures": [
+   "$12.09",
+   "928,240",
+   "$16.40",
+   "$9.64",
+   "$9.62"
+  ],
+  "source": "SRC-5552",
+  "anchor": [
+   "| 00-0000 | All Occupations | total | 928,240 | 0.0% | 1000.000 | 1.00 | $12.09 | $16.40 | $34,120 | 0.6% |",
+   "| 35-3023 | Fast Food and Counter Workers | detail | 20,810 | 5.9% | 22.423 | 0.93 | $9.64 | $9.76 | $20,290 | 1.1% |",
+   "| 41-2011 | Cashiers | detail | 32,380 | 2.6% | 34.884 | 1.61 | $9.62 | $10.59 | $22,030 | 0.8% |"
+  ],
+  "locator": "Rows 00-0000, 35-3023 and 41-2011 (columns: employment, RSE, per 1,000, location quotient, median hourly, mean hourly, annual mean, wage RSE)",
+  "grade": "A",
+  "fact_date": "2023-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the Biden administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/4-specification.md",
+   "dossiers/work/5-delivery.md",
+   "dossiers/work/memos/1-wage-floor.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-456",
+  "statement": "BLS reports a median hourly wage of $12.74 for all occupations in the San Juan-Carolina-Caguas metropolitan area in May 2023, across 686,970 jobs.",
+  "claim": "data",
+  "figures": [
+   "$12.74",
+   "686,970"
+  ],
+  "source": "SRC-5553",
+  "anchor": [
+   "| 00-0000 | All Occupations | total | 686,970 | 0.0% | 1000.000 | 1.00 | $12.74 | $17.03 | $35,410 | 0.5% |"
+  ],
+  "locator": "Row 00-0000",
+  "grade": "A",
+  "fact_date": "2023-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the Biden administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-457",
+  "statement": "BLS reports a median hourly wage of $11.42 for all occupations in Puerto Rico's nonmetropolitan area in May 2023, across 20,480 jobs.",
+  "claim": "data",
+  "figures": [
+   "$11.42",
+   "20,480"
+  ],
+  "source": "SRC-5554",
+  "anchor": [
+   "| 00-0000 | All Occupations | total | 20,480 | 0.0% | 1000.000 | 1.00 | $11.42 | $14.60 | $30,370 | 0.7% |"
+  ],
+  "locator": "Row 00-0000",
+  "grade": "A",
+  "fact_date": "2023-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the Biden administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download. The nonmetro area holds about 2% of Puerto Rico's jobs; the territory-wide median (EV-WRK-455) is the measure for the territory.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-458",
+  "statement": "BLS reports a median hourly wage of $16.02 for all occupations in Guam in May 2023, across 64,680 jobs.",
+  "claim": "data",
+  "figures": [
+   "$16.02",
+   "64,680"
+  ],
+  "source": "SRC-5555",
+  "anchor": [
+   "| 00-0000 | All Occupations | total | 64,680 | 0.0% | 1000.000 | 1.00 | $16.02 | $20.29 | $42,210 | 0.4% |"
+  ],
+  "locator": "Row 00-0000",
+  "grade": "A",
+  "fact_date": "2023-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the Biden administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-459",
+  "statement": "BLS reports a median hourly wage of $19.42 for all occupations in the U.S. Virgin Islands in May 2023, across 33,700 jobs.",
+  "claim": "data",
+  "figures": [
+   "$19.42",
+   "33,700"
+  ],
+  "source": "SRC-5556",
+  "anchor": [
+   "00-0000 | All Occupations | total | 33,700 | 0.1% | 1000.000 | 1.00 | $19.42 | $24.34 | $50,620 | 0.8%"
+  ],
+  "locator": "Row 00-0000",
+  "grade": "A",
+  "fact_date": "2023-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the Biden administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-460",
+  "statement": "The Northern Mariana Islands' 2021 Prevailing Wage Study, a census of employers covering 11,935 employees, put the overall mean hourly wage at $13.53 and the median at $9.97 (February 2021).",
+  "claim": "data",
+  "figures": [
+   "11,935",
+   "$13.53",
+   "$9.97",
+   "2021"
+  ],
+  "source": "SRC-5557",
+  "anchor": [
+   "THE 2021 PREVAILING WAGE STUDY",
+   "The clean dataset contained 528 total employers and 11,935 total employees",
+   "The CNMI’s overall mean hourly wage was $13.53\nwhile the median was $9.97."
+  ],
+  "locator": "Results, \"Number of employers and employees used in producing hourly wage statistics\", page 3",
+  "grade": "B",
+  "fact_date": "2021-02",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "The Commonwealth government's own annual survey (CNMI Department of Commerce, Central Statistics Division); BLS does not survey the Northern Mariana Islands. Graded B: participation fell during the pandemic, which GAO says removed many low-wage workers from the count (EV-WRK-469), so the median is more likely too high than too low. February 2021 is a pandemic month in a tourism economy.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/4-specification.md",
+   "dossiers/work/5-delivery.md",
+   "dossiers/work/memos/1-wage-floor.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-461",
+  "statement": "BLS reports a median hourly wage of $23.11 for all occupations nationally in May 2023, across 151,853,870 jobs.",
+  "claim": "data",
+  "figures": [
+   "$23.11",
+   "151,853,870"
+  ],
+  "source": "SRC-5558",
+  "anchor": [
+   "| 00-0000 | All Occupations | total | 151,853,870 | 0.0% | 1000.000 | $23.11 | $31.48 | $65,470 | 0.3% |"
+  ],
+  "locator": "Row 00-0000",
+  "grade": "A",
+  "fact_date": "2023-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the Biden administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download. The same year as the territories' figures, so ratios between them are like for like; memo 1's anchor is May 2025's $24.51 (EV-WRK-078).",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-462",
+  "statement": "BLS reports a median hourly wage of $18.03 for all occupations in Mississippi in May 2023, across 1,149,950 jobs.",
+  "claim": "data",
+  "figures": [
+   "$18.03",
+   "1,149,950"
+  ],
+  "source": "SRC-5561",
+  "anchor": [
+   "| 00-0000 | All Occupations | total | 1,149,950 | 0.0% | 1000.000 | 1.00 | $18.03 | $22.87 | $47,570 | 0.3% |"
+  ],
+  "locator": "Row 00-0000",
+  "grade": "A",
+  "fact_date": "2023-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the Biden administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download. A low-wage state for comparison; not established here as the lowest.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/5-delivery.md",
+   "dossiers/work/7-validation.md",
+   "dossiers/work/memos/1-wage-floor.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-463",
+  "statement": "BLS reports a median hourly wage of $16.50 for all occupations in the Northwest Mississippi nonmetropolitan area in May 2023, across 86,550 jobs.",
+  "claim": "data",
+  "figures": [
+   "$16.50",
+   "86,550"
+  ],
+  "source": "SRC-5562",
+  "anchor": [
+   "| 00-0000 | All Occupations | total | 86,550 | 0.0% | 1000.000 | 1.00 | $16.50 | $20.42 | $42,470 | 0.5% |"
+  ],
+  "locator": "Row 00-0000",
+  "grade": "A",
+  "fact_date": "2023-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the Biden administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download. One low-wage nonmetro area for comparison, chosen from a search, not a ranking of all areas; Mississippi's other nonmetro areas read $17.31 and $17.50.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/5-delivery.md",
+   "dossiers/work/7-validation.md",
+   "dossiers/work/memos/1-wage-floor.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-464",
+  "statement": "BLS reported a median hourly wage of $10.13 for all occupations in Puerto Rico in May 2019, across 865,160 jobs.",
+  "claim": "data",
+  "figures": [
+   "$10.13",
+   "865,160"
+  ],
+  "source": "SRC-5559",
+  "anchor": [
+   "| 00-0000 | All Occupations | total | 865,160 | 0.5% | 1000.000 | 1.00 | $10.13 | $14.27 | $29,670 | 1.1% |"
+  ],
+  "locator": "Row 00-0000",
+  "grade": "A",
+  "fact_date": "2019-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the first Trump administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download. With EV-WRK-455 it gives Puerto Rico's median growth of about 4.5% a year over 2019-23 (project arithmetic), a period that includes Puerto Rico's own minimum wage rising from $7.25.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-465",
+  "statement": "BLS reported a median hourly wage of $19.14 for all occupations nationally in May 2019, across 146,875,480 jobs.",
+  "claim": "data",
+  "figures": [
+   "$19.14",
+   "146,875,480"
+  ],
+  "source": "SRC-5560",
+  "anchor": [
+   "| 00-0000 | All Occupations | total | 146,875,480 | 0.1% | 1000.000 | $19.14 | $25.72 | $53,490 | 0.1% |"
+  ],
+  "locator": "Row 00-0000",
+  "grade": "A",
+  "fact_date": "2019-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Official BLS data from the OEWS survey of employers, released under the first Trump administration; medians count all jobs, part-time included, as EV-WRK-078 does. Read through a web fetch of the table page because bls.gov refused a direct download. With EV-WRK-461 it gives national median growth of about 4.8% a year over 2019-23 (project arithmetic).",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-466",
+  "statement": "The Labor Department lists basic minimum wages of $10.50 an hour in Puerto Rico, $9.25 in Guam, $10.50 in the U.S. Virgin Islands and $7.25 in the Northern Mariana Islands; employers covered by the FLSA but not subject to the Puerto Rico Minimum Wage Act must pay at least $7.25.",
+  "claim": "data",
+  "figures": [
+   "$10.50",
+   "$9.25",
+   "$10.50",
+   "$7.25"
+  ],
+  "source": "SRC-5563",
+  "anchor": [
+   "Basic Minimum Rate (per hour): $10.50",
+   "Basic Minimum Rate (per hour): $9.25",
+   "Employers covered by the FLSA but who are not subject to the Puerto Rico Minimum Wage Act must pay at least the federal minimum wage of $7.25 per hour.",
+   "Basic Minimum Rate (per hour): $7.25"
+  ],
+  "locator": "Rows for Guam, Puerto Rico, U.S. Virgin Islands and Northern Mariana Islands",
+  "grade": "A",
+  "fact_date": "2026-11-05",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Wage and Hour Division's table, updated November 5, 2026 (second Trump administration); descriptive. Each territory's own law sets its rate above $7.25, as states' laws do.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/4-specification.md",
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-467",
+  "statement": "The Labor Department gives American Samoa's garment manufacturing minimum wage as $5.38 an hour from September 30, 2021 and $5.78 from September 30, 2024, the lowest of the industry rates read.",
+  "claim": "data",
+  "figures": [
+   "$5.38",
+   "$5.78",
+   "2021",
+   "2024"
+  ],
+  "source": "SRC-5564",
+  "anchor": [
+   "Garment Manufacturing Industry Minimum Hourly Wage Rates in American Samoa",
+   "September 30, 2021",
+   "September 30, 2024",
+   "$5.38",
+   "$5.78"
+  ],
+  "locator": "Rate table, September 30, 2021 and 2024 columns",
+  "grade": "A",
+  "fact_date": "2024-09-30",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Wage and Hour Division rate page; descriptive. The rates follow the statute's $0.40 every third year (EV-WRK-425). No median wage is published for American Samoa: BLS's OEWS does not survey it. The anchors are the page's title, dates and rates as read through a web fetch tool, which returned the table's cells separately.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-468",
+  "statement": "Puerto Rico's minimum wage rose from $9.50 to $10.50 an hour on July 1, 2024, an automatic increase under Act 47-2021 unless the Minimum Wage Review Commission provided otherwise; the Commission approved it by majority, supported by an economic report by Abexus Analytics of June 7, 2024.",
+  "claim": "data",
+  "figures": [
+   "$9.50",
+   "$10.50",
+   "2024",
+   "47",
+   "2021",
+   "7"
+  ],
+  "source": "SRC-5566",
+  "anchor": [
+   "Puerto Rico's minimum wage will increase to $10.50 per hour from $9.50 per hour effective July 1, 2024.",
+   "This increase was adopted by Act No. 47-2021 as an automatic increase unless the Commission provided otherwise.",
+   "The Commission's approval was supported by an economic report issued by Abexus Analytics on June 7, 2024."
+  ],
+  "locator": "Client alert text",
+  "grade": "B",
+  "fact_date": "2024-07-01",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "An employer-side law firm's report of the law (June 13, 2024); graded B as a secondary report of primary law. The rate matches the Labor Department's table (EV-WRK-466). Puerto Rico's own commission, created by Act 47-2021, is existing machinery that already weighs the territory's minimum against economic studies; whether it has raised the rate again after 2024 was not found.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/4-specification.md",
+   "dossiers/work/5-delivery.md",
+   "dossiers/work/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-469",
+  "statement": "GAO found that 94 percent of Northern Mariana Islands workers in the Prevailing Wage Study earned above the federal $7.25, up from 73 percent in 2019, largely because pandemic hardship and lower participation cut the number of low-wage workers counted; a minimum wage of $10 could directly affect 50 percent of workers in the study.",
+  "claim": "data",
+  "figures": [
+   "94",
+   "7.25",
+   "73",
+   "2019",
+   "10",
+   "50"
+  ],
+  "source": "SRC-5567",
+  "anchor": [
+   "94 percent of CNMI workers in the PWS currently earn above the",
+   "federal minimum wage of $7.25 per hour, an increase from 73 percent in 2019.",
+   "a minimum wage increase to $10",
+   "per hour could directly affect 50 percent of workers included in the PWS."
+  ],
+  "locator": "Highlights, \"What GAO Found\"",
+  "grade": "A",
+  "fact_date": "2022-02",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "GAO (nonpartisan, congressional), February 2022, from the Commonwealth's Prevailing Wage Study. Its $10 finding is consistent with a median near $10 (EV-WRK-460). Read through a web fetch of the highlights PDF.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-470",
+  "statement": "Castillo-Freeman and Freeman, using time series and cross-industry data for Puerto Rico, found that the U.S. minimum wage has a large effect on the earnings distribution there and has substantially lowered employment, mainly because the minimum is high relative to average earnings or productivity, a case of the minimum's 'real bite'.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5568",
+  "anchor": [
+   "it has substantially lowered employment",
+   "the minimum has a high level relative to average earnings or productivity",
+   "real bite"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "1991-06",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "NBER working paper (June 1991), by Harvard-based economists, later in Card and Freeman's NBER volume (1993); the evidence is Puerto Rico's experience as federal minimums were extended to it, when the floor was high relative to local pay. Contested by Krueger's reanalysis (EV-WRK-471). The full paper and its ratios were not read, so no bite level is taken from it.",
+  "supports": [
+   "dossiers/work/2-what-works.md",
+   "dossiers/work/4-specification.md",
+   "dossiers/work/5-delivery.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-471",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-WRK-064",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-471",
+  "statement": "Krueger's reexamination of the Puerto Rico evidence finds the strongest sign of job loss in an aggregate time series and the weakest in cross-industry analyses, and concludes that the statistical evidence of a negative employment effect in Puerto Rico is surprisingly fragile.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5569",
+  "anchor": [
+   "This paper reinvestigates the evidence on the impact of the minimum wage on employment in Puerto Rico.",
+   "surprisingly fragile"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "1994-06",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "NBER working paper (June 1994) by a Princeton economist whose work with Card found small effects in New Jersey; a reanalysis of the same data, not new data. Neither study tests a floor near the whole local median, the range at issue here.",
+  "supports": [
+   "dossiers/work/2-what-works.md",
+   "dossiers/work/4-specification.md",
+   "dossiers/work/5-delivery.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-470",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-472",
+  "statement": "GAO found that the scheduled increases would raise all American Samoa minimum wages to the federal $7.25 by 2036, that any new federal increase would lengthen the time to convergence, and that from 2007 to 2014 overall employment fell 4 percent, cannery employment 50 percent, and workers' average inflation-adjusted earnings about 11 percent.",
+  "claim": "data",
+  "figures": [
+   "7.25",
+   "2036",
+   "2007",
+   "2014",
+   "4",
+   "50",
+   "11"
+  ],
+  "source": "SRC-5806",
+  "anchor": [
+   "The current schedule of increases would raise all American Samoa minimum wages to the current federal hourly rate of $7.25 by 2036.",
+   "However, any new increase in the federal rate will lengthen the time required to achieve convergence.",
+   "From 2007 to 2014, overall employment fell by 4 percent.",
+   "During the same period, cannery employment decreased by 50 percent.",
+   "workers' average inflation-adjusted earnings fell by about 11 percent"
+  ],
+  "locator": "Product page, \"What GAO Found\"",
+  "grade": "A",
+  "fact_date": "2016-12-02",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "GAO (nonpartisan, congressional), GAO-17-83. The employment and earnings changes are measured facts; GAO does not attribute them to the minimum wage alone (cannery closures had several causes, GAO-20-467). Read through a web fetch of the product page.",
+  "supports": [
+   "dossiers/work/2-what-works.md",
+   "dossiers/work/5-delivery.md",
+   "dossiers/work/6-cost.md",
+   "dossiers/work/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-473",
+  "statement": "GAO's later report on American Samoa (GAO-20-467) says minimum wage increases were a factor in cannery closures but not a main factor, and that some stakeholders suggested creating a committee to set minimum wages in the territory and a moratorium on increases until the committee is established.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5807",
+  "anchor": [
+   "View GAO-20-467.",
+   "explained that minimum wage increases were a factor in the closures, but not a",
+   "suggested creating a committee to set",
+   "minimum wages in the territory and a",
+   "moratorium on minimum wage"
+  ],
+  "locator": "Highlights, \"What GAO Found\" and \"What GAO Recommends\" (two-column layout; the anchors are line fragments)",
+  "grade": "A",
+  "fact_date": "2020-06-11",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "GAO (nonpartisan, congressional), GAO-20-467, reporting interviews; whether a committee would work was 'beyond the scope of this report'. Read through a web fetch of the highlights PDF and pdftotext.",
+  "supports": [
+   "dossiers/work/2-what-works.md",
+   "dossiers/work/4-specification.md",
+   "dossiers/work/5-delivery.md",
+   "dossiers/work/6-cost.md",
+   "dossiers/work/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-474",
+  "statement": "The Labor Department gives American Samoa's fish canning and processing minimum wage as $5.96 an hour from September 30, 2021 and $6.36 from September 30, 2024.",
+  "claim": "data",
+  "figures": [
+   "$5.96",
+   "$6.36",
+   "2021",
+   "2024"
+  ],
+  "source": "SRC-5565",
+  "anchor": [
+   "Fish Canning and Processing Industry Minimum Hourly Wage Rates in American Samoa",
+   "September 30, 2021",
+   "September 30, 2024",
+   "$5.96",
+   "$6.36"
+  ],
+  "locator": "Rate table, September 30, 2021 and 2024 columns",
+  "grade": "A",
+  "fact_date": "2024-09-30",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Wage and Hour Division rate page; descriptive. The tuna canneries are American Samoa's largest private employer (GAO-20-467). The anchors are the page's title, dates and rates as read through a web fetch tool, which returned the table's cells separately.",
+  "supports": [
+   "dossiers/work/1-problem.md",
+   "dossiers/work/5-delivery.md"
+  ]
  }
 ]
