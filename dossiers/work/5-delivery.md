@@ -192,13 +192,14 @@ Not booked (`DEC-2026-11-10-05`). Section 6 prices them; part F of section 4 car
 
 *Wage insurance's administration* is about 10% of benefits (judgment: state UI administration, $3.14 billion [EV-WRK-309], ran near 10% of pre-pandemic unemployment outlays of $29.9 billion [EV-WRK-413]), on memo 8's $2-4 billion a year from FY2031.
 
-**Sent to democratic renewal for CAP-7** (its section 4 is being written in another session; listed here and in this PR for it to take up, not edited there):
-1. The NLRB at about $1.0-1.4 billion over FY2030-39, from workload, below the review's $1.9 billion [EV-DEM-330].
-2. FMCS at about $0.1-0.2 billion, not in its table.
-3. OSHA's need at the high end, about +1,100 staff against its +700 [EV-DEM-331].
-4. The Office of Apprenticeship's registration staff for the doubling of starts, not yet sized.
-5. The FLRA's restored caseload, small.
-6. State UI agencies' systems: CAP-13's state and local implementation line ($8.0 billion of surge in the review [EV-DEM-329]) may be the better home for LAB-11.09's grant than R1; democratic renewal decides, and the grant is counted once.
+**Sent to democratic renewal for CAP-7.** Its section 4 allocates CAP-7 agency by agency, keeps the NLRB among "other entities at the legacy review's figures until their dossiers state needs" (CAP-7S.01, CAP-7.01), and holds a delivery contingency of about $43 billion of surge and $30 billion sustained that OMB releases only against a published written need from a flagship's delivery section (CAP-7S.02). This part is work's written need, for democratic renewal to take up (this PR does not edit its files):
+1. **The NLRB's line** at about $1.0-1.4 billion over FY2030-39 and $0.10-0.15 billion in FY2040, from workload, in place of the review's $1.9 billion [EV-DEM-330].
+2. **FMCS,** about $0.1-0.2 billion, not in the table: a written need against CAP-7S.02.
+3. **OSHA at the high end,** about +1,100 staff against the table's +700 [EV-DEM-331], about $0.08 billion a year more at full strength: a written need against the contingency, released as CAP-7.02's hiring path shows it is needed.
+4. **The Office of Apprenticeship's registration staff** for the doubling of starts: not yet sized; a written need once Labor's 2027-28 staffing plan sizes it.
+5. **The FLRA's restored caseload:** small.
+6. **State UI systems:** CAP-13's state and local grants (CAP-13.01) may be a better home for LAB-11.09 than its own R1 line; the grant is counted once, wherever democratic renewal places it.
+7. **Published measures.** Wage and Hour's and OSHA's inspections, the Board's case times and the state UI agencies' first-payment timeliness [EV-WRK-427] are the delivery measures CAP-7.03 asks every program to publish; they need no new report.
 
 ## 8. What delivery leaves open
 

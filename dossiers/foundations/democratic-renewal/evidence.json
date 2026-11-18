@@ -9386,5 +9386,276 @@
     "stance": "supports"
    }
   ]
+ },
+ {
+  "id": "EV-DEM-333",
+  "statement": "Federal bankruptcy judges are appointed by the court of appeals of their circuit for terms of fourteen years, and may be removed during the term only for incompetence, misconduct, neglect of duty, or physical or mental disability, and only by the judicial council of the circuit.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5387",
+  "anchor": [
+   "shall be appointed by the court of appeals of the United States for the circuit in which such district is located.",
+   "Each bankruptcy judge shall be appointed for a term of fourteen years, subject to the provisions of subsection (e).",
+   "A bankruptcy judge may be removed during the term for which such bankruptcy judge is appointed, only for incompetence, misconduct, neglect of duty, or physical or mental disability and only by the judicial council of the circuit in which the judge's official duty station is located."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, as in the 2024 edition of the U.S. Code on GovInfo (fetched 2026-11-18); amendments after that edition are not checked against the Law Revision Counsel's current release point. Subsection (e) also requires a majority of all the judges of the council to concur and a full specification of charges with a hearing.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "28 U.S.C. 152(a)(1) and (e)"
+ },
+ {
+  "id": "EV-DEM-334",
+  "statement": "A federal executive-branch officer or employee (other than a special Government employee) or a judicial officer who sells property under a certificate of divestiture may elect to have gain recognized only to the extent the proceeds exceed the cost of permitted property bought within 60 days of the sale; permitted property is any obligation of the United States or any diversified investment fund approved by Office of Government Ethics regulations.",
+  "claim": "data",
+  "figures": [
+   "60"
+  ],
+  "source": "SRC-5388",
+  "anchor": [
+   "If an eligible person sells any property pursuant to a certificate of divestiture, at the election of the taxpayer, gain from such sale shall be recognized only to the extent that the amount realized on such sale exceeds the cost (to the extent not previously taken into account under this subsection) of any permitted property purchased by the taxpayer during the 60-day period beginning on the date of such sale.",
+   "an officer or employee of the executive branch, or a judicial officer, of the Federal Government, but does not mean a special Government employee as defined in section 202 of title 18, United States Code",
+   "The term \"permitted property\" means any obligation of the United States or any diversified investment fund approved by regulations issued by the Office of Government Ethics."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, as in the 2024 edition of the U.S. Code on GovInfo (fetched 2026-11-18); amendments after that edition are not checked against the Law Revision Counsel's current release point. Eligible persons also include a spouse or minor or dependent child whose property is attributed to the officer; certificates are issued by the President or the Director of the Office of Government Ethics (executive branch) or by the Judicial Conference (judicial officers). Section 1043(c), not anchored here, sets the basis of the permitted property.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "26 U.S.C. 1043(a), (b)(1)(A), (b)(3)"
+ },
+ {
+  "id": "EV-DEM-335",
+  "statement": "Each State entitled to more than one Representative must establish by law a number of districts equal to its number of Representatives, Representatives are to be elected only from the districts so established, and no district may elect more than one Representative.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5389",
+  "anchor": [
+   "there shall be established by law a number of districts equal to the number of Representatives to which such State is so entitled, and Representatives shall be elected only from districts so established, no district to elect more than one Representative"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, as in the 2024 edition of the U.S. Code on GovInfo (fetched 2026-11-18); amendments after that edition are not checked against the Law Revision Counsel's current release point. The section carries a one-time exception for States that had always elected at large, for the Ninety-first Congress only (1969-71). Congress has enacted exceptions to the single-member rule in apportionment acts (not read here).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "2 U.S.C. 2c"
+ },
+ {
+  "id": "EV-DEM-336",
+  "statement": "A person who contracts with the United States for services, supplies, equipment, land or buildings paid for in whole or part from appropriated funds may not make or promise a contribution to a political party, committee, candidate or any person for a political purpose from the commencement of negotiations until the later of completion of performance or termination of negotiations; the section does not prohibit a corporation, labor organization or similar body from establishing, administering or soliciting contributions to a separate segregated fund (a PAC), unless the corporate and union contribution provisions prohibit it.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5390",
+  "anchor": [
+   "if payment for the performance of such contract or payment for such material, supplies, equipment, land, or building is to be made in whole or in part from funds appropriated by the Congress, at any time between the commencement of negotiations for and the later of (A) the completion of performance under; or (B) the termination of negotiations for, such contract",
+   "directly or indirectly to make any contribution of money or other things of value, or to promise expressly or impliedly to make any such contribution to any political party, committee, or candidate for public office or to any person for any political purpose or use",
+   "This section does not prohibit or make unlawful the establishment or administration of, or the solicitation of contributions to, any separate segregated fund by any corporation, labor organization, membership organization, cooperative, or corporation without capital stock"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, as in the 2024 edition of the U.S. Code on GovInfo (fetched 2026-11-18); amendments after that edition are not checked against the Law Revision Counsel's current release point. Subsection (a) is the prohibition (also covering knowing solicitation of such contributions); subsection (b) is the separate-segregated-fund provision. The Federal Election Commission's regulations (11 CFR part 115) were not read.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "52 U.S.C. 30119(a)(1), (b)"
+ },
+ {
+  "id": "EV-DEM-337",
+  "statement": "The SEC's pay-to-play rule bars a registered (or required-to-be-registered) investment adviser, or an exempt reporting adviser, from providing advisory services for compensation to a government entity for two years after the adviser or a covered associate makes a contribution to an official of that entity; a covered associate's contributions are excepted if they total no more than $350 per election to an official the associate could vote for, or $150 per election to an official the associate could not vote for.",
+  "claim": "data",
+  "figures": [
+   "$350",
+   "$150"
+  ],
+  "source": "SRC-5391",
+  "anchor": [
+   "to provide investment advisory services for compensation to a government entity within two years after a contribution to an official of the government entity is made by the investment adviser or any covered associate of the investment adviser (including a person who becomes a covered associate within two years after the contribution is made)",
+   "which in the aggregate do not exceed $350 to any one official, per election, or to officials for whom the covered associate was not entitled to vote at the time of the contributions and which in the aggregate do not exceed $150 to any one official, per election"
+  ],
+  "grade": "A",
+  "fact_date": "2026-11-18",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Regulation, eCFR text current on the retrieval date (fact_date is that date). The de minimis exception applies to a covered associate who is a natural person; the rule also has an exception for returned contributions and other provisions not anchored here.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "17 CFR 275.206(4)-5(a)(1), (b)(1)"
+ },
+ {
+  "id": "EV-DEM-338",
+  "statement": "For FY2024 the Institute of Museum and Library Services received an appropriation of $294.8 million, equal to its FY2023 appropriation, of which $180.0 million was for Library Grants to States.",
+  "claim": "data",
+  "figures": [
+   "$294.8 million",
+   "$180.0 million",
+   "2024",
+   "2023"
+  ],
+  "source": "SRC-5392",
+  "anchor": [
+   "In FY2024, IMLS appropriations totaled $294.8 million, equivalent to FY2023 appropriations.",
+   "Both FY2024 and FY2023 appropriations included $180.0 million for these formula grants.",
+   "Library Grants to States 168,803 168,803 180,000 180,000"
+  ],
+  "grade": "A",
+  "fact_date": "2024-11-06",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "CRS R48255 (November 6, 2024), summarizing P.L. 118-47; appropriations law, not a later year. Amounts for FY2025 and after are not in this report and need a newer source (Evidence still needed).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "Introduction and 'Institute of Museum and Library Services'; Table 1"
+ },
+ {
+  "id": "EV-DEM-339",
+  "statement": "The FY2024 Legislative Branch Appropriations bill as reported in the House (H.R. 4364) provided $3,900,000 for salaries and expenses of the House Office of the Law Revision Counsel.",
+  "claim": "data",
+  "figures": [
+   "4364",
+   "2024",
+   "$3,900,000"
+  ],
+  "source": "SRC-5393",
+  "anchor": [
+   "H. R. 4364",
+   "Making appropriations for the Legislative Branch for the fiscal year",
+   "ending September 30, 2024, and for other purposes.",
+   "salaries and expenses of the Office of the Law Revision Counsel of the",
+   "House, $3,900,000; for salaries and expenses of the Office of the"
+  ],
+  "grade": "A",
+  "fact_date": "2023-06-27",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Bill as reported, not as enacted; the Office's FY2025 testimony puts its FY2024 enacted amount (P.L. 118-47) at the base from which its $4,048,000 is a 3.79 percent increase, which is consistent with $3.9 million (EV-DEM-340).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "Title I, House of Representatives, 'Salaries and Expenses'"
+ },
+ {
+  "id": "EV-DEM-340",
+  "statement": "The House Office of the Law Revision Counsel requested $5,048,000 for fiscal year 2025: $4,048,000 for continuing operations, a 3.79 percent increase over its amount in the Further Consolidated Appropriations Act, 2024, and $1,000,000 of no-year money for a new website.",
+  "claim": "data",
+  "figures": [
+   "$5,048,000",
+   "$4,048,000",
+   "$1,000,000",
+   "3.79",
+   "2025",
+   "2024"
+  ],
+  "source": "SRC-5394",
+  "anchor": [
+   "For fiscal year 2025, I am requesting a budget of $5,048,000. Of that amount, $4,048,000",
+   "needs. The remaining $1,000,000 of this request is for No-Year money to begin work on a new",
+   "Continuing Operations.--The amount of $4,048,000 represents a 3.79 percent increase",
+   "over the amount appropriated by the Further Consolidated Appropriations Act, 2024, Public Law"
+  ],
+  "grade": "A",
+  "fact_date": "2024-04-17",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Agency budget request to the House Legislative Branch Subcommittee (118th Congress), a request and not an appropriation; the Office has a stake in its own budget. Shows the scale of the Office that prepares the U.S. Code.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "Statement, 'Budget Request' and 'Continuing Operations'"
+ },
+ {
+  "id": "EV-DEM-341",
+  "statement": "CRS reports that the House impeached Judge G. Thomas Porteous, Jr. of the Eastern District of Louisiana on March 11, 2010, for, among other things, accepting kickbacks, soliciting favors, and falsifying bankruptcy documents, and that he was removed by the Senate in 2010.",
+  "claim": "data",
+  "figures": [
+   "2010"
+  ],
+  "source": "SRC-5395",
+  "anchor": [
+   "On March 11, 2010, the House impeached Judge Porteous for, among other things, accepting kickbacks, soliciting favors, and falsifying bankruptcy documents.",
+   "G. Thomas Porteous, Jr., impeached by the House and removed by the Senate in 2010",
+   "solicited and accepted numerous things of value, including means, trips, home repairs, and car repairs."
+  ],
+  "grade": "C",
+  "fact_date": "2010-03-11",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "CRS narrative (April 2011 version). It does not give the number of articles of impeachment or the date of the Senate conviction (December 2010), so neither is recorded here (Evidence still needed: the Senate or House record). Its description of the \"things of value\" is quoted from the House Judiciary Committee's report as CRS cites it.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "Executive summary; section on offenses charged in impeachment inquiries"
+ },
+ {
+  "id": "EV-DEM-342",
+  "statement": "The Chief Justice and the associate justices are allotted as circuit justices among the circuits by order of the Supreme Court, and a justice may be assigned to more than one circuit and two or more justices to the same circuit.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5396",
+  "anchor": [
+   "The Chief Justice of the United States and the associate justices of the Supreme Court shall from time to time be allotted as circuit justices among the circuits by order of the Supreme Court.",
+   "A justice may be assigned to more than one circuit, and two or more justices may be assigned to the same circuit."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, as in the 2024 edition of the U.S. Code on GovInfo (fetched 2026-11-18); amendments after that edition are not checked against the Law Revision Counsel's current release point. Pairs with EV-DEM-343.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "28 U.S.C. 42"
+ },
+ {
+  "id": "EV-DEM-343",
+  "statement": "The Supreme Court consists of a Chief Justice of the United States and eight associate justices, any six of whom constitute a quorum.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5397",
+  "anchor": [
+   "The Supreme Court of the United States shall consist of a Chief Justice of the United States and eight associate justices, any six of whom shall constitute a quorum."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, as in the 2024 edition of the U.S. Code on GovInfo (fetched 2026-11-18); amendments after that edition are not checked against the Law Revision Counsel's current release point. Pairs with EV-DEM-342.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "28 U.S.C. 1"
+ },
+ {
+  "id": "EV-DEM-344",
+  "statement": "A three-judge district court is convened when an Act of Congress requires it or when an action challenges the constitutionality of the apportionment of congressional districts or of any statewide legislative body; the judge to whom the request is presented notifies the chief judge of the circuit, who designates two other judges, at least one a circuit judge.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5398",
+  "anchor": [
+   "A district court of three judges shall be convened when otherwise required by Act of Congress, or when an action is filed challenging the constitutionality of the apportionment of congressional districts or the apportionment of any statewide legislative body.",
+   "immediately notify the chief judge of the circuit, who shall designate two other judges, at least one of whom shall be a circuit judge. The judges so designated, and the judge to whom the request was presented, shall serve as members of the court"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law, as in the 2024 edition of the U.S. Code on GovInfo (fetched 2026-11-18); amendments after that edition are not checked against the Law Revision Counsel's current release point. Subsection (b)(3) lets a single judge conduct all proceedings except the trial but bars a single judge from granting a preliminary or permanent injunction or entering judgment on the merits.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/4-specification.md"
+  ],
+  "locator": "28 U.S.C. 2284(a), (b)(1)"
  }
 ]
