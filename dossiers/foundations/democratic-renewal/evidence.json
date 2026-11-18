@@ -9804,5 +9804,208 @@
    "dossiers/foundations/democratic-renewal/5-delivery.md"
   ],
   "locator": "subsections (a) and (b)"
+ },
+ {
+  "id": "EV-DEM-351",
+  "statement": "Under the National Voter Registration Act, a person aggrieved by a violation may notify the State's chief election official in writing, and may sue for declaratory or injunctive relief if the violation is not corrected within 90 days of the notice (20 days if the violation occurred within 120 days before a federal election); within 30 days before a federal election no notice is needed.",
+  "claim": "data",
+  "figures": [
+   "90",
+   "20",
+   "120",
+   "30"
+  ],
+  "source": "SRC-5405",
+  "anchor": [
+   "(b) Private right of action\n(1) A person who is aggrieved by a violation of this chapter may provide written notice of the violation to the chief election official of the State involved.",
+   "(2) If the violation is not corrected within 90 days after receipt of a notice under paragraph (1), or within 20 days after receipt of the notice if the violation occurred within 120 days before the date of an election for Federal office, the aggrieved person may bring a civil action in an appropriate district court for declaratory or injunctive relief with respect to the violation.",
+   "(3) If the violation occurred within 30 days before the date of an election for Federal office, the aggrieved person need not provide notice to the chief election official of the State under paragraph (1) before bringing a civil action under paragraph (2)."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-12-31",
+  "context": "Primary law, 52 U.S.C. 20510(b), 2024 edition of the U.S. Code. Subsection (a) separately lets the Attorney General sue.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "subsection (b)(1)-(3)"
+ },
+ {
+  "id": "EV-DEM-352",
+  "statement": "As CRS tabulates enacted appropriations, the Legal Services Corporation received $529.0 million in FY2022, $580.0 million in FY2023, $560.0 million in FY2024, $560.0 million in FY2025 and $540.0 million in FY2026; the Administration's FY2027 request is $21.0 million.",
+  "claim": "data",
+  "figures": [
+   "529.0",
+   "580.0",
+   "560.0",
+   "540.0",
+   "21.0"
+  ],
+  "source": "SRC-5406",
+  "anchor": [
+   "Bureau or Agency\n\nFY2017\n\nFY2018\n\nFY2019\n\nFY2020\n\nFY2021\n\nFY2022\n\nFY2023\n\nFY2024\n\nFY2025\n\nFY2026",
+   "Legal Services Corporation\n\n385.0\n\n425.0\n\n430.0\n\n490.0\n\n465.0\n\n529.0\n\n580.0\n\n560.0\n\n560.0\n\n540.0",
+   "FY2027\nAdministration’s\nRequest",
+   "Legal Services Corporation\n\n540.0\n\n21.0"
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "CRS (nonpartisan), April 30, 2026; Table A-1 (millions of dollars, nominal) and Table 1. The FY2027 request is for an orderly closure of the corporation (EV-DEM-353). The FY2025 amount was taken by CRS from the Senate committee report, not an enacted-bill table.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Table A-1; Table 1"
+ },
+ {
+  "id": "EV-DEM-353",
+  "statement": "CRS reports that the Administration's FY2027 budget requests funding for the Legal Services Corporation and the Marine Mammal Commission, but the funding is for an orderly closure of both agencies.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5406",
+  "anchor": [
+   "Services Corporation and the Marine Mammal Commission in its FY2027 budget, but the\nfunding is for an orderly closure of both agencies."
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "CRS (nonpartisan) describing the request of the second Trump administration. The $21.0 million request is in EV-DEM-352.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Related agencies discussion, page 6"
+ },
+ {
+  "id": "EV-DEM-354",
+  "statement": "As CRS tabulates it, the Executive Office for Immigration Review (a Justice Department account) received $840.0 million in FY2025 and $790.0 million in FY2026, and the Administration's FY2027 request is $889.0 million.",
+  "claim": "data",
+  "figures": [
+   "840.0",
+   "790.0",
+   "889.0"
+  ],
+  "source": "SRC-5406",
+  "anchor": [
+   "Executive Office for\nImmigration Review\n\n(436.0)\n\n(500.5)\n\n(624.4)\n\n(669.0)\n\n(730.0)\n\n(756.0)\n\n(856.0)\n\n(840.0)\n\n(840.0)\n\n(790.0)",
+   "Executive Office of\nImmigration Review\n\n(790.0)\n\n(889.0)",
+   "FY2027\nAdministration’s\nRequest",
+   "FY2024\n\nFY2025\n\nFY2026"
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "CRS (nonpartisan), April 30, 2026; amounts are a subaccount of Justice Operations, Management, and Accountability, in millions of dollars. FY2025 and FY2026 are enacted (P.L. 119-4 as extended, and P.L. 119-74); FY2027 is the second Trump administration's request.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Table A-1; Table 1"
+ },
+ {
+  "id": "EV-DEM-355",
+  "statement": "CBO estimated in March 2021 that the House small-dollar match in H.R. 1 (up to $6 for every $1 raised from donors giving $200 or less) would cost about $620 million for the 2028 election and about $850 million for the 2030 election, and about $1.6 billion over 2021-2031.",
+  "claim": "analysis",
+  "figures": [
+   "6",
+   "1",
+   "200",
+   "620",
+   "850",
+   "1.6"
+  ],
+  "source": "SRC-5407",
+  "anchor": [
+   "candidates who accept campaign contributions of $200 or less from individual donors would be eligible to receive federal matching funds at a rate of up to $6 for every $1 raised from donors",
+   "CBO estimates that spending under this program would total about $620 million for the 2028 election",
+   "and about $850 million for the 2030 election",
+   "enacting this provision would increase direct spending by about $1.6 billion over the 2021-2031 period."
+  ],
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-18",
+  "recheck": "2027-12-31",
+  "context": "CBO (nonpartisan), cost estimate of H.R. 1, For the People Act of 2021, as posted by the House Rules Committee on February 25, 2021 (Biden-era). A projection under CBO's assumptions: about 400 House candidates raise more with the match than they raised in total in 2020, and a per-candidate cap of $5 million. House candidates only; the same estimate puts the presidential match change at $905 million and the My Voice Voucher pilot at $60 million over 2021-2031. Spending is limited to the amounts in the Freedom From Influence Fund. The 2019 H.R. 1 estimate did not cover the match (noted in a press statement, not read in full), and no per-cycle figure from the Campaign Finance Institute or Brennan Center was found. Citation row because the cbo.gov PDF cannot be downloaded by an agent.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Direct spending: Small Dollar Financing of Congressional Election Campaigns"
+ },
+ {
+  "id": "EV-DEM-356",
+  "statement": "The Institute for Responsive Government and the Project for Election Infrastructure estimate that more than $50 billion is needed over 10 years to fund election administration and operations, cybersecurity, voting machine replacement, voter registration system updates and post-election audits; Responsive Gov also says an average federal election year costs between $4 and $6 billion.",
+  "claim": "analysis",
+  "figures": [
+   "50",
+   "10",
+   "4",
+   "6"
+  ],
+  "source": "SRC-5408",
+  "anchor": [
+   "estimate that more than $50 billion is needed over 10 years to fund election administration and operations, cybersecurity, replace voting machines, update voter registration systems, and strengthen post-election audits.",
+   "An average federal election year costs between $4 and $6 billion."
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "Advocacy estimate: the Institute for Responsive Government (a nonprofit that works for election funding) with the Project for Election Infrastructure, the campaign of local election officials seeking federal funding (the Election Infrastructure Initiative). Its earlier 50 States of Need report (2021-22) put the need at $53 billion, as the press repeats; the PDF could not be downloaded, so the figure here is the group's own current policy-page wording, with no stated method on the page. Not corroborated by an independent publisher; the Brennan Center and Issue One estimates were not found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "How the Policy Works; The Gap"
+ },
+ {
+  "id": "EV-DEM-357",
+  "statement": "For the Senate-passed JUDGES Act of 2024, which authorized 63 new permanent district court judgeships, CBO, using information from the Administrative Office of the U.S. Courts, estimated compensation per new judge of $275,000 in 2025 rising to $340,000 by 2034 (average $270,000 in 2024), and administrative costs averaging $750,000 in the first year of a new court and about $700,000 a year once established.",
+  "claim": "analysis",
+  "figures": [
+   "63",
+   "270,000",
+   "275,000",
+   "340,000",
+   "750,000",
+   "700,000"
+  ],
+  "source": "SRC-5409",
+  "anchor": [
+   "Authorize 63 new permanent federal district court judgeships over the 2025-2035 period",
+   "In 2024, the average compensation for each judge was $270,000.",
+   "the cost to compensate each new judge would be $275,000 in 2025 and would rise to $340,000 by 2034.",
+   "the cost of the first year of operation for a new court would average $750,000, and that, once fully established, each new court would operate at an annual cost of about $700,000"
+  ],
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-12-31",
+  "context": "CBO (nonpartisan), August 16, 2024, drawing on Administrative Office of the U.S. Courts (AOUSC) cost information; this is CBO's figure, not the judiciary's own published per-judgeship cost, which was not found (a 2011 CBO estimate of about $1 million start-up and $770,000 a year in support, reported secondhand, was also not verified). CBO's totals: about $100 million direct spending (compensation) and about $250 million administrative costs over 2024-2034, before inflation-based authorization of $335 million. Citation row because cbo.gov PDFs cannot be downloaded by an agent.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Basis of estimate: Direct Spending; Spending Subject to Appropriation"
+ },
+ {
+  "id": "EV-DEM-358",
+  "statement": "The Legal Services Corporation reports that its grantees operate with over 900 offices in every state, U.S. territory and the District of Columbia.",
+  "claim": "data",
+  "figures": [
+   "900"
+  ],
+  "source": "SRC-5410",
+  "anchor": [
+   "With over 900 offices, LSC grantees operate in every state, U.S. territory, and the District of Columbia."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-18",
+  "recheck": "2027-06-30",
+  "context": "LSC (a federally funded private nonprofit corporation, not a federal agency) reporting its own grantees' network in its 2025 By the Numbers report (2024 activity). The page quoted gives no count of grantees or attorneys; current counts are still needed (the 2023 edition is reported secondhand at 131 grantees and 909 offices; not verified).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "2025 By the Numbers page, introduction"
  }
 ]
