@@ -1652,7 +1652,7 @@
  {
   "id": "CRT-P1",
   "legacy": "DEM7",
-  "bill": "Courts package: term limits, phased judgeships, random assignment, ethics (DEM6 merged, C11), and the Article I immigration court's structure (CRT-5.09)",
+  "bill": "Courts package: term limits, phased judgeships, random assignment, ethics (DEM6 merged, C11), and room for the Article I immigration court's structure (CRT-5.09)",
   "domain": "Courts",
   "source": "domain-courts.md",
   "rail": "FLOOR",
@@ -1664,7 +1664,7 @@
   "own_revenue": 0,
   "net_mid": 0.01,
   "basis": "estimate",
-  "basis_note": "Democratic renewal booking (dossiers/foundations/democratic-renewal/6-cost.md part 4): the row's contents (CRT-1 to CRT-4, CRT-6 to CRT-15) cost about $0.5-0.7B over FY2030-39; CRT-5.09, the court's structure, about $6.9B (range $3.2-9.7B), fits inside the rest, so the amount is unchanged. The judge teams and counsel are in IMM-1 (immigration booking)",
+  "basis_note": "Democratic renewal booking (dossiers/foundations/democratic-renewal/6-cost.md part 4): the row's contents (CRT-1 to CRT-4, CRT-6 to CRT-15) cost about $0.5-0.7B over FY2030-39; CRT-5.09, the court's structure, about $6.9B (range $3.2-9.7B), fits inside the rest, so the amount is unchanged; CRT-5.09 stays unbooked as a line (DEC-2026-11-17-97) and its reading (a) or (b) is stage G's. The judge teams and counsel are in IMM-1 (immigration booking)",
   "floor_days": 6,
   "felt_months": 12,
   "durability": 50,

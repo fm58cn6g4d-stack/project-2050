@@ -85,7 +85,7 @@ def legal_aid(step_2035):
 
 def imm1_split(total_3639):
     """CRT-5.06's regular and temporary split against IMM-1: about 78% of the -$5.5 billion all-temporary saving
-    over FY2036-39 (-$4.3 billion), shaped as the immigration model's term increment (rising to FY2040)."""
+    over FY2036-39 (-$4.3 billion), with an illustrative year shape (the immigration model's own saving falls with attrition after FY2036; only the totals come from it)."""
     shape = {2036: 0.12, 2037: 0.21, 2038: 0.30, 2039: 0.37}
     p = {y: 0.0 for y in YEARS}
     for y, s in shape.items():

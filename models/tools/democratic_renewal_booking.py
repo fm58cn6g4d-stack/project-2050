@@ -21,8 +21,8 @@ What is booked ($ billion by federal fiscal year, a cost positive):
   negative spending row: less CAP-7 outlay in FY2030-33) and G8P (a base-revenue row: the yield lost with it). Both
   are zero in FY2040. They are timing rows against the booked ramp, not savings: the booking's ceiling is unchanged
   (memo 10's contingency stays inside CAP-7's $279.2B, as decided).
-- Labels and notes only (no amount): CRT-P1 carries CRT-5.09, the immigration court's structure (reading (a) of
-  6-cost.md part 4: it fits inside the row's room), CAP-8 carries CAP-6.01 (statute tracking, about $0.09B), and the
+- Labels and notes only (no amount): CRT-P1 names its room for CRT-5.09, the immigration court's structure (reading (a)
+  of 6-cost.md part 4; the line stays unbooked, DEC-2026-11-17-97), CAP-8 carries CAP-6.01 (statute tracking, about $0.09B), and the
   CAP-7S and CAP-7 notes say memo 10's delivery contingency is inside the booked amount, not added.
 - Not booked: IMM-1's rebooking for memo 9 part 2 (about -$4.3B over FY2036-39; `DEC-2026-11-17-56` says any change to
   IMM-1's booking is a later tier-3 change and no DEC row decides it), the House seats for a new state (contingent on
@@ -68,11 +68,12 @@ RAIL = "APPROPS"
 # The existing rows that take a label or note and no amount.
 LABELS = {
     "CRT-P1": dict(bill="Courts package: term limits, phased judgeships, random assignment, ethics (DEM6 merged, C11), "
-                        "and the Article I immigration court's structure (CRT-5.09)",
+                        "and room for the Article I immigration court's structure (CRT-5.09)",
                    note="Democratic renewal booking (dossiers/foundations/democratic-renewal/6-cost.md part 4): the row's "
                         "contents (CRT-1 to CRT-4, CRT-6 to CRT-15) cost about $0.5-0.7B over FY2030-39; CRT-5.09, the "
                         "court's structure, about $6.9B (range $3.2-9.7B), fits inside the rest, so the amount is "
-                        "unchanged. The judge teams and counsel are in IMM-1 (immigration booking)"),
+                        "unchanged; CRT-5.09 stays unbooked as a line (DEC-2026-11-17-97) and its reading (a) or (b) is "
+                        "stage G's. The judge teams and counsel are in IMM-1 (immigration booking)"),
 }
 NOTES_ADD = {
     "CAP-8": "Democratic renewal booking: CAP-6.01 (statute tracking, about $0.09B over FY2030-39) rides this row with "
