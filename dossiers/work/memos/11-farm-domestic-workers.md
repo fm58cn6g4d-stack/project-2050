@@ -1,8 +1,8 @@
 # Memo 11: Farmworkers and domestic workers
 
-Role: decision memo for Espen on whether the first bill brings farmworkers and domestic workers inside the labor act's organizing rights and ends their overtime exemptions. It answers the milestone review's question 3 (M-3, `../review-milestone.md`), which Espen sent back with "the next work fix should bring me options now" (`DEC-2026-11-18-10`). Status: **decided** (`DEC-2026-11-18-25`, option C with a change; see the bracket at the end of this paragraph); drafted in the revision for the November 18 answers. Nothing in sections 4 to 9 is redrafted on it yet: section 4 records the gap ("Where particular groups fall"), and if Espen chooses an option, the next step writes its provisions. Memo 3's design as decided (`DEC-2026-11-17-04`, D: the PRO Act core plus card check) is what any option extends; it is not reopened. Sources are named in plain text; bracketed tags point to `../evidence.json`. [Decided November 18 (batch of about 17:30 UTC): W10, option C, with a change, `DEC-2026-11-18-25`: the domestic work standards board for workers in private homes goes into the standing industry standards board framework of `DEC-2026-11-17-06` (memo 5 B), not a separate board. The text below, and sections 4 to 9, are redrafted to that in the next work step.]
+Role: decision memo for Espen on whether the first bill brings farmworkers and domestic workers inside the labor act's organizing rights and ends their overtime exemptions. It answers the milestone review's question 3 (M-3, `../review-milestone.md`), which Espen sent back with "the next work fix should bring me options now" (`DEC-2026-11-18-10`). Status: **decided** (`DEC-2026-11-18-25`, option C with a change; see the bracket at the end of this paragraph); drafted in the revision for the November 18 answers. Section 4 now carries the decided option as LAB-1.08, LAB-3.05 and LAB-12.03 ("Where particular groups fall"), with sections 5 to 9 redrafted to match. Memo 3's design as decided (`DEC-2026-11-17-04`, D: the PRO Act core plus card check) is what any option extends; it is not reopened. Sources are named in plain text; bracketed tags point to `../evidence.json`. [Decided November 18 (batch of about 17:30 UTC): W10, option C, with a change, `DEC-2026-11-18-25`: the domestic work standards board for workers in private homes goes into the standing industry standards board framework of `DEC-2026-11-17-06` (memo 5 B), not a separate board. The text below is redrafted to that, and sections 4 to 9 follow; the home care link is set out under "The board and the care payer floor".]
 
-**Decision line.** Recommended: **C. End the overtime exemptions on the Fairness for Farm Workers Act's phase-in (overtime after 55 hours in the first year, down to 40 in the fourth, small farms three years later), end the live-in domestic exemption, and bring both groups inside the labor act, with domestic workers in private homes reached through a national domestic work standards board rather than workplace-by-workplace bargaining.** Cost to the federal budget: about **zero to slightly positive** (higher wages raise payroll and income tax; judgment, no score exists); the cost falls on farm and household employers. Evidence: statute text; official counts and wages; state laws in California and New York; one unpublished study of California's farm overtime law, which found hours and weekly earnings down. No CBO score of either federal bill was found.
+**Decision line.** Recommended: **C. End the overtime exemptions on the Fairness for Farm Workers Act's phase-in (overtime after 55 hours in the first year, down to 40 in the fourth, small farms three years later), end the live-in domestic exemption, and bring both groups inside the labor act, with domestic workers in private homes reached through the standards board for their sector, which sits inside the standing industry standards board framework of `DEC-2026-11-17-06` (memo 5 B), rather than through workplace-by-workplace bargaining or a separate board.** Cost to the federal budget: about **zero to slightly positive** (higher wages raise payroll and income tax; judgment, no score exists); the cost falls on farm and household employers. Evidence: statute text; official counts and wages; state laws in California and New York; one unpublished study of California's farm overtime law, which found hours and weekly earnings down. No CBO score of either federal bill was found.
 
 ## The question
 
@@ -38,7 +38,7 @@ Section 4 left both "a gap for later work, not a decision". The floor and the en
 - *Burden:* farms and households track weekly hours, which wage law already requires for the minimum wage.
 
 **C. B plus organizing rights (recommended).**
-- *What it adds:* strike "agricultural laborer" and "domestic service" from 152(3), so the labor act as decided (card check, penalties in court, first-contract arbitration) reaches farmworkers, farm labor contractors' crews included. For domestic workers in private homes, where bargaining with one household is impractical, the Secretary sets up a **national domestic work standards board** under memo 5's framework (LAB-3), with workers, household employers and agencies, to recommend minimum terms (working choice). Agency-employed domestic workers organize under the act like anyone else.
+- *What it adds:* strike "agricultural laborer" and "domestic service" from 152(3), so the labor act as decided (card check, penalties in court, first-contract arbitration) reaches farmworkers, farm labor contractors' crews included. For domestic workers in private homes, where bargaining with one household is impractical, the sector's standards board is **a board under memo 5 B's standing framework** (LAB-3.01; **not a separate body**, `DEC-2026-11-18-25`): convened on a petition or the Secretary's finding, nine members (three for workers, three for household employers and agencies, three public), binding by rule, and enforced by Wage and Hour (LAB-3.05). The first board under the framework is fast food's (LAB-3.02). Agency-employed domestic workers organize under the act like anyone else.
 - *Seasons and retaliation:* a farm election or card check runs on the payroll of the peak-season week (working choice), and the immigration firewall covers retaliation by immigration threat (LAB-7.06; IMM-4.11).
 - *Cost:* about zero to slightly positive for the federal budget (judgment). The labor board's added workload (perhaps a few hundred farm units a year; judgment) sits inside CAP-7's NLRB line (LAB-2.05).
 - *Burden:* the board and the new units; employers face organizing campaigns as other employers do.
@@ -54,7 +54,7 @@ Section 4 left both "a gap for later work, not a decision". The floor and the en
 | Farm overtime after 40 hours | No | Year four (small farms year seven) | As B | As B |
 | Live-in domestic overtime | No | Yes | Yes | Yes |
 | Farmworkers' right to organize under the labor act | No | No | Yes, with card check | Yes |
-| Domestic workers in homes | No | Overtime only | Overtime and a standards board | As C |
+| Domestic workers in homes | No | Overtime only | Overtime and a standards board inside memo 5's framework | As C |
 | Federal cost | Zero | About zero | About zero | About $0.5-1 billion a year in the phase-in |
 | Risk | The gap stays | Hours cut in peak season [EV-WRK-496] | As B, plus organizing conflict on farms | As C |
 
@@ -62,18 +62,30 @@ Section 4 left both "a gap for later work, not a decision". The floor and the en
 
 - **The plan's labor design is universal everywhere else.** Leaving out the two groups the 1930s laws left out keeps the plan's largest coverage gap, and the decided card check and penalties are most needed where workers are poorest and least protected.
 - **The states show it can work:** California since 1975, New York since 2020 [EV-WRK-494] [EV-WRK-495].
-- **A board, not bargaining, for household workers** follows memo 5's decided framework and Seattle's practice [EV-WRK-180].
+- **A board, not bargaining, for household workers** follows memo 5's decided framework and Seattle's practice [EV-WRK-180]; Espen's change (`DEC-2026-11-18-25`) puts it inside that framework as one more board, not a separate body.
 - **The phase-in** follows the one federal bill and gives farms four years (seven for small ones).
 - **What it costs in burden:** hours records farms and households already keep for the minimum wage; a board's hearings; the labor board's farm cases.
 - **Against C:** the one study of farm overtime finds hours and weekly pay down, not up [EV-WRK-496]; if later evidence confirms it, the overtime part should slow, not the organizing part. D is held back until that evidence shows a credit is needed.
 
 **What would change this:** peer-reviewed evidence that farm overtime cuts annual earnings (slow the phase-in, or take D's credit); a large shift to H-2A workers, whose wage rules follow the decided floors (immigration, shared rule 8).
 
-## If you decide
+## The board and the care payer floor (the home care link)
 
-- The next work step writes the provisions (new rows under LAB-1, LAB-3 and LAB-7, or a new agenda row), the cost line and the delivery (the labor board's farm cases; the standards board's office), and revises sections 4 to 9.
+Memo 5 B (`DEC-2026-11-17-06`) decided a standing federal framework for binding industry standards boards, fast food first with an 18-month deadline and **home care through the care payer floor**; `DEC-2026-11-17-30` puts home care workers employed by agencies and other third parties under minimum wage and overtime law, with the care wage floor ($20 in 2026 dollars, indexed) on top for publicly paid care. Espen half-recalled care workers sharing the fast-food route (`DEC-2026-11-18-25`); they do, through the payer. The domestic workers' board relates to them this way (a working choice, LAB-3.05):
+
+| Who | Wage floor | Standards above it |
+| --- | --- | --- |
+| Home care workers employed by agencies and other third parties | Minimum wage and overtime (LAB-12.01); the care floor where a public payer pays | The payer route: the board's recommendation goes to CMS's and the single plan's rate setting (LAB-3.03; HLT-10.04); no federal home care board |
+| Domestic workers employed directly by a household, publicly paid care included (for example, a state program's consumer-directed worker) | Minimum wage and, for live-in workers, overtime (LAB-12.03); the care floor where a public payer pays | Same: through the payer where public money pays; as a binding standard where it does not |
+| Domestic workers employed directly by a household and paid privately (nannies, housekeepers) | Minimum wage and overtime (LAB-12.03) | The board's standards bind as under LAB-3.01, with the household as employer, enforced by Wage and Hour |
+
+The board may not set a wage below the federal floor, LAB-12.01's coverage or, for publicly paid care, the care floor. It adds no federal home care board and no second wage-setting route for care: one framework, one payer route.
+
+## As decided
+
+- **Provisions:** LAB-1.08 (inside the labor act), LAB-3.05 (the board, inside the framework) and LAB-12.03 (farm and live-in overtime), with LAB-3.03's payer route cross-referenced; delivery (the labor board's farm cases, the standards boards office) is in `../5-delivery.md`; costs are in `../6-cost.md` (no federal line; about zero to slightly positive, judgment).
 - **Vehicle:** the labor act (regular order), with memo 3's core.
-- **Seams:** immigration (the firewall, H-2A wage rules, shared rule 8); care (agency-employed home care workers, LAB-12.01).
+- **Seams:** immigration (the firewall, H-2A wage rules, shared rule 8); care (agency-employed home care workers, LAB-12.01; the care payer floor, HLT-10.01 and HLT-10.04).
 
 ## Evidence still needed
 

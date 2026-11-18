@@ -26,7 +26,7 @@ Conventions (6-cost.md, "Counting rules"):
     the indirect effect of the wage floor (CBO's net of spending and revenue), the UI trust
     funds, Social Security (off budget), non-federal money (`nonfed`, reported only),
     agency capacity (CAP-7, democratic renewal's booked lines), and a `kind`: firm, contingent (zero unless an event or a gate occurs)
-    or provisional (drafted on the recommendation, for Espen).
+    or decided apart (decided by Espen on November 18, priced here outside the firm total until it is booked).
 Growth and anchors are labeled judgment (DEC-2026-11-10-07); each line's basis is in its
 comment and in 6-cost.md.
 """
@@ -373,7 +373,7 @@ line("wi_admin", "Wage insurance administration, including the monthly statement
      ["LAB-18.08"], "gf", "firm", _wi_admin,
      [0.1, 0.1 + 0.08 * _wi[1] * 0.5] + [0.08 * v * 0.5 for v in _wi[2:]],
      [0.2, 0.2 + 0.12 * _wi[1] * 1.6] + [0.12 * v * 1.6 for v in _wi[2:]], "R1",
-     "Section 5's new line; the statement itself is LAB-18.08 (provisional)")
+     "Section 5's new line; the statement itself is LAB-18.08 (decided, W6)")
 
 # 13. Apprenticeship grants (LAB-8.01-8.07): new starts rise from 311,035 (FY2025)
 # [EV-WRK-349], held there through FY2029, to 600,000 by FY2034 (LAB-8.04), then grow
@@ -496,11 +496,11 @@ line("wi_tax", "Income tax on wage insurance payments (receipts)", ["LAB-18.02"]
      "firm", scale(_wi, -0.10), scale(_wi, -0.12 * 1.6), scale(_wi, -0.08 * 0.5), "R1",
      "A revenue gain")
 
-# ---- Provisional items, priced on their recommendations (for Espen) ----------------
-# 19. Work-connected good-cause quits in wage insurance (LAB-18.03's working reading):
+# ---- Items Espen decided on November 18, priced apart until they are booked ----------
+# 19. Work-connected good-cause quits in wage insurance (LAB-18.03, decided as W4):
 # about 7% more recipients (3-12%), with administration.
-line("quits", "Wage insurance for work-connected good-cause quits (provisional)",
-     ["LAB-18.03"], "gf", "provisional", scale(_wi, 0.07 * 1.1), scale(_wi, 0.03 * 0.5),
+line("quits", "Wage insurance for work-connected good-cause quits (decided, W4)",
+     ["LAB-18.03"], "gf", "decided-apart", scale(_wi, 0.07 * 1.1), scale(_wi, 0.03 * 0.5),
      scale(_wi, 0.12 * 1.6 * 1.1), "R1", "LAB-18.03, for Espen")
 
 # 19b. Misuse on the quit route (Espen's November 18 answer W4, DEC-2026-11-18-04): payments to
@@ -510,8 +510,8 @@ line("quits", "Wage insurance for work-connected good-cause quits (provisional)"
 # judgment: well above the share of UI improper payments due to separation issues in
 # ordinary years, and below the pandemic's 11-15% of all benefits [EV-WRK-378] only in
 # its low case). It is a cost on top of the eligible line, not inside it.
-line("quits_misuse", "Misuse on the quit route: payments not due (provisional)",
-     ["LAB-18.03"], "gf", "provisional", scale(LINES[-1]["central"], 0.20),
+line("quits_misuse", "Misuse on the quit route: payments not due (decided, W4)",
+     ["LAB-18.03"], "gf", "decided-apart", scale(LINES[-1]["central"], 0.20),
      scale(LINES[-1]["low"], 0.10), scale(LINES[-1]["high"], 0.50), "R1",
      "W4: the misuse Espen asked to price")
 
@@ -522,8 +522,8 @@ line("quits_misuse", "Misuse on the quit route: payments not due (provisional)",
 # (range 0.65-0.75; judgment) from CY2033: about a sixth more payments.
 _offer_cy = {y: 1.0 for y in range(2033, 2041)}
 _offer = cy_to_fy(_offer_cy)
-line("wi_offer", "Wage insurance offered from wage records from 2033 (provisional)",
-     ["LAB-18.05", "LAB-18.06"], "gf", "provisional",
+line("wi_offer", "Wage insurance offered from wage records from 2033 (decided, W4)",
+     ["LAB-18.05", "LAB-18.06"], "gf", "decided-apart",
      [w * f * (0.7 / 0.6 - 1) for w, f in zip(_wi, _offer)],
      [w * f * (0.65 / 0.6 - 1) * 0.5 for w, f in zip(_wi, _offer)],
      [w * f * (0.75 / 0.6 - 1) * 1.6 for w, f in zip(_wi, _offer)], "R1",
@@ -533,17 +533,17 @@ line("wi_offer", "Wage insurance offered from wage records from 2033 (provisiona
 # BLS's yearly displacement report with an annual survey, about $20-50M a year.
 _bls = [0.0, 0.02, 0.03] + [0.035 * (1 + PRICE_G) ** (y - 2033) for y in range(2033, 2041)]
 _occ = [0.0, 0.05, 0.1, 0.05] + [0.0] * 7
-line("measure", "Displacement measure: occupation field and BLS's report (provisional)",
-     ["LAB-19.01", "LAB-19.03"], "gf", "provisional",
+line("measure", "Displacement measure: occupation field and BLS's report (decided, W1)",
+     ["LAB-19.01", "LAB-19.03"], "gf", "decided-apart",
      [a + b for a, b in zip(_bls, _occ)],
      [a * 0.6 + b * 0.5 for a, b in zip(_bls, _occ)],
      [a * 1.5 + b * 2.0 for a, b in zip(_bls, _occ)], "R1 and appropriations",
      "Memo 10 part 1 C, for Espen")
 
 # 21. Memo 10 part 2 C: the standby trigger, zero while off, capped at $5B a year, from
-# about 2035 (contingent and provisional).
-line("trigger", "Standby displacement trigger (contingent and provisional)",
-     ["LAB-19.04", "LAB-19.05"], "gf", "contingent-provisional", [0.0] * 11, [0.0] * 11,
+# about 2035 (contingent; decided as W1).
+line("trigger", "Standby displacement trigger (contingent; decided, W1)",
+     ["LAB-19.04", "LAB-19.05"], "gf", "contingent-decided", [0.0] * 11, [0.0] * 11,
      [0.0] * 5 + [5.0] * 6, "R1", "Zero while off; up to the cap when on")
 
 # ---- Agency capacity: democratic renewal's booked CAP-7 lines (reported, not added) --
@@ -565,7 +565,7 @@ CAPACITY = [
 # Provisions with no federal budget line of their own, and why (6-cost.md, part 4).
 NO_LINE = {
     "LAB-4.05": "executive action; contractors' costs within agencies' appropriations",
-    "LAB-4.10": "the national schedule everywhere, slower where the bite is high: a mandate, no federal outlay (provisional)",
+    "LAB-4.10": "the national schedule everywhere, slower where the bite is high: a mandate, no federal outlay (decided, W9)",
     "LAB-1.01": "rules; the Board's workload is CAP-7's (LAB-2.05)",
     "LAB-1.02": "rules", "LAB-1.03": "rules", "LAB-1.04": "rules", "LAB-1.06": "rules",
     "LAB-1.07": "coverage test (labor act)", "LAB-1A.01": "rules (separate title)",
@@ -581,10 +581,13 @@ NO_LINE = {
     "LAB-7.02": "inside CAP-7's staff", "LAB-7.03": "inside CAP-7's staff",
     "LAB-7.06": "remedies", "LAB-7.07": "coverage test (wage law)",
     "LAB-7.08": "rule on employers", "LAB-7.09": "right",
+    "LAB-1.08": "coverage (labor act); the board's farm cases are CAP-7's (LAB-2.05)",
+    "LAB-3.05": "a board inside LAB-3.01's framework; publicly paid care rates are booked in care (HLT-10.04)",
+    "LAB-12.03": "rule on employers; about zero to slightly positive (judgment, memo 11), not priced",
     "LAB-12.01": "coverage; a Medicaid effect if the 2013 rule is gone by 2029 (part 3)",
     "LAB-12.02": "rule on employers", "LAB-15.01": "rule on employers",
-    "LAB-14.01": "no mandate (provisional)",
-    "LAB-19.02": "deferred to the AI topic (W1, DEC-2026-11-18-01): no cost here", "LAB-17.01": "no requirement (provisional)",
+    "LAB-14.01": "no mandate (decided: study first)",
+    "LAB-19.02": "deferred to the AI topic (W1, DEC-2026-11-18-01): no cost here", "LAB-17.01": "no requirement (decided: study further)",
     "LAB-8.05": "redirects existing WIOA money",
     "LAB-11.10": "self-financed by the reduced credit if authorized; contingent (part 2)",
 }
@@ -628,8 +631,8 @@ def summary():
     gf_b = ("gf", "gf_disc", "revenue", "indirect")
     for name, kinds in [("firm", ("firm",)),
                         ("contingent", ("contingent",)),
-                        ("provisional", ("provisional",)),
-                        ("contingent_provisional", ("contingent-provisional",))]:
+                        ("decided_apart", ("decided-apart",)),
+                        ("contingent_decided", ("contingent-decided",))]:
         s[name] = {w: totals(kinds, gf_b, w) for w in ("central", "low", "high")}
     for name, bases in [("spending", ("gf", "gf_disc")), ("revenue", ("revenue",)),
                         ("indirect", ("indirect",)), ("trust", ("trust",)), ("ss", ("ss",))]:
@@ -670,7 +673,7 @@ def check():
     missing, stray = ids - covered, covered - ids
     assert not missing, f"provisions with no line: {sorted(missing)}"
     assert not stray, f"unknown provisions: {sorted(stray)}"
-    assert len(ids) == 84, len(ids)
+    assert len(ids) == 87, len(ids)
     for ln in LINES:  # every central inside its range
         for i in range(11):
             lo, hi = sorted([ln["low"][i], ln["high"][i]])
@@ -905,8 +908,8 @@ def main():
     print(table())
     s = summary()
     print()
-    for k in ("spending", "revenue", "indirect", "firm", "contingent", "provisional",
-              "contingent_provisional", "trust", "ss"):
+    for k in ("spending", "revenue", "indirect", "firm", "contingent", "decided_apart",
+              "contingent_decided", "trust", "ss"):
         c, lo, hi = s[k]["central"], s[k]["low"], s[k]["high"]
         print(f"{k:24s} FY2030-39 {dec(c):8.1f} ({min(dec(lo),dec(hi)):.1f} to "
               f"{max(dec(lo),dec(hi)):.1f})  FY2040 {c[10]:7.2f} ({min(lo[10],hi[10]):.1f} to "
@@ -962,4 +965,4 @@ if __name__ == "__main__" and "--parts" in sys.argv:
     print(); print(subtable(["ui_tf", "ui_tax"], "Trust funds, net"))
     print(subtable(["ui_offset_ss"]))
     print(); print(subtable(["tranche", "eb_recession", "trigger"], "Contingent lines"))
-    print(); print(subtable(["quits", "quits_misuse", "wi_offer", "measure"], "Provisional lines"))
+    print(); print(subtable(["quits", "quits_misuse", "wi_offer", "measure"], "Decided, priced apart"))
