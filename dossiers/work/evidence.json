@@ -11859,5 +11859,588 @@
   "supports": [
    "dossiers/work/5-delivery.md"
   ]
+ },
+ {
+  "id": "EV-WRK-475",
+  "statement": "Under the Internal Revenue Code, an individual's gross income includes unemployment compensation, meaning any amount received under a law of the United States or of a State which is in the nature of unemployment compensation; the section's only exclusion, up to $10,200, applied to taxable years beginning in 2020.",
+  "claim": "data",
+  "figures": [
+   "10,200"
+  ],
+  "source": "SRC-5814",
+  "anchor": [
+   "In the case of an individual, gross income includes unemployment compensation.",
+   "each spouse) as does not exceed $10,200.",
+   "(c) Special rule for 2020"
+  ],
+  "locator": "26 U.S.C. 85(a), (b); (c) is the 2020-only rule",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law, confirmed on November 18, 2026 against the tax-law connector's current text (last amended by Pub. L. 117-2, 2021). Answers Espen's November 18 question W8(2): unemployment benefits are taxable federal income. Whether a state taxes them is state law, not checked here.",
+  "supports": [
+   "dossiers/work/memos/7-unemployment-insurance.md",
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-476",
+  "statement": "Under the federal unemployment tax's credit rules, employers may credit against the federal tax the contributions they pay into the unemployment fund of a State certified as provided in section 3304, plus an additional credit up to a rate of 5.4 percent; total credits may not exceed 90 percent of the tax, figured at a deemed rate of 6 percent.",
+  "claim": "data",
+  "figures": [
+   "90",
+   "6",
+   "5.4"
+  ],
+  "source": "SRC-5550",
+  "anchor": [
+   "under this section shall not exceed 90 percent of\nthe tax against which such credits are allowable.",
+   "(1) Rate of tax deemed to be 6 percent",
+   "in his employ, or to a rate of 5.4 percent, whichever rate is lower.",
+   "of a State which is certified as provided in section 3304 for the 12-month period ending on October 31 of such year."
+  ],
+  "locator": "26 U.S.C. 3302(a)(1), (b), (c)(1), (d)(1)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law, confirmed against the tax-law connector's current text on November 18, 2026. An employer in a conforming state therefore pays a net federal rate of 0.6 percent, project arithmetic (6 percent less the 5.4 percent credit), matching EV-WRK-310. This is the lever by which federal law sets UI standards: a state law that fails the conditions in section 3304 loses its employers' credit, so federal law conditions the credit rather than ordering states directly (Espen's November 18 question W8(1)).",
+  "supports": [
+   "dossiers/work/memos/7-unemployment-insurance.md",
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-477",
+  "statement": "Federal law directs the Secretary of Labor to approve any state unemployment law that the Secretary finds meets the conditions listed in section 3304(a), and a state's certification under section 3304 is what lets its employers take the federal credit.",
+  "claim": "data",
+  "figures": [
+   "30"
+  ],
+  "source": "SRC-5794",
+  "anchor": [
+   "§ 3304. Approval of State laws",
+   "The Secretary of Labor shall approve any\nState law submitted to him, within 30 days of\nsuch submission, which he finds provides that—"
+  ],
+  "locator": "26 U.S.C. 3304(a), opening clause",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law. With 3302(a)(1) (EV-WRK-476) it is the conditions-on-the-credit structure LAB-11.01 uses. The Supreme Court upheld the tax-credit design in Steward Machine Co. v. Davis (1937) (judgment; not in the register).",
+  "supports": [
+   "dossiers/work/memos/7-unemployment-insurance.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-478",
+  "statement": "BLS's Quarterly Census of Employment and Wages open data file gives, for every state, the 2025 annual average weekly wage in all industries and ownerships; the rows for Mississippi (area 28000), Maryland (24000), Puerto Rico (72000) and the United States (US000) are anchored.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5815",
+  "anchor": [
+   "\"28000\",\"0\",\"10\",\"50\",\"0\",\"2025\",\"A\",\"\",90845,1173251,62443503824,14854739611,52785774,1024,53223",
+   "\"24000\",\"0\",\"10\",\"50\",\"0\",\"2025\",\"A\",\"\",199467,2754961,224635928330,21356400393,321739712,1568,81539",
+   "\"72000\",\"0\",\"10\",\"50\",\"0\",\"2025\",\"A\",\"\",52582,947557,34509218650,5786643231,199740705,700,36419",
+   "\"US000\",\"0\",\"10\",\"10\",\"0\",\"2025\",\"A\",\"\",12112924,155732363,12259226899972,2169142391282,36312176875,1514,78720"
+  ],
+  "locator": "QCEW open data, 2025 annual averages, industry 10 (total, all industries), own_code 0 (all ownerships); column annual_avg_wkly_wage (the 14th field) in the rows for area_fips 28000, 24000, 72000 and US000",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-18",
+  "recheck": "2027-09-30",
+  "context": "BLS, from employers' quarterly UI tax reports; official data, second Trump administration, a statistical series with no change of method found. The file holds every state's row; memo 7's table of two-thirds of each state's wage is project arithmetic on it (dossiers/work/tools/ui_cap_by_state.py). States set their own average weekly wage for benefit maximums by their own rules and lag, so a state's legal figure differs somewhat from this one. The values in the anchored rows' annual_avg_wkly_wage field are $1,024 (Mississippi), $1,568 (Maryland), $700 (Puerto Rico) and $1,514 (United States); they are not in the statement because the registry's number check reads each comma-separated CSV row as one number.",
+  "supports": [
+   "dossiers/work/memos/7-unemployment-insurance.md",
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-480",
+  "statement": "The National Labor Relations Act's definition of 'employee' does not include any individual employed as an agricultural laborer or in the domestic service of any family or person at his home.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5570",
+  "anchor": [
+   "any individual employed as an agricultural laborer, or in the domestic service of any family\nor person at his home, or any individual employed by his parent or spouse"
+  ],
+  "locator": "29 U.S.C. 152(3)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition), Office of the Law Revision Counsel via GPO; primary law, public domain. The exclusion the memo asks whether to end; the same sentence also excludes independent contractors, supervisors and railway employees, which a change would leave in place. Data (statute text).",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-481",
+  "statement": "The Fair Labor Standards Act's exemptions section exempts any employee employed in agriculture from the overtime requirement (subsection (b), paragraph (12)).",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5571",
+  "anchor": [
+   "(12) any employee employed in agriculture\nor in connection with the operation or maintenance of ditches, canals, reservoirs, or waterways, not owned or operated for profit, or operated on a sharecrop basis, and which are\nused exclusively for supply and storing of\nwater, at least 90 percent of which was ultimately delivered for agricultural purposes\nduring the preceding calendar year; or"
+  ],
+  "locator": "29 U.S.C. 213(b)(12) (the second '(12)' in section 213, under subsection (b))",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition), Office of the Law Revision Counsel via GPO; primary law, public domain. The farm overtime exemption the memo asks whether to end. The text file holds the whole of section 213, and subsection (a) has its own paragraph (12), so the anchor is the one under (b). Data (statute text).",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-482",
+  "statement": "The Fair Labor Standards Act's exemptions section (subsection (a), paragraph (6)) exempts from the minimum wage and overtime requirements agricultural employees of an employer who used no more than five hundred man-days of agricultural labor in any quarter of the preceding calendar year, and members of the employer's immediate family.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5571",
+  "anchor": [
+   "(6) any employee employed in agriculture\n(A) if such employee is employed by an employer who did not, during any calendar quarter during the preceding calendar year, use\nmore than five hundred man-days of agricultural labor, (B) if such employee is the parent,\nspouse, child, or other member of his employer’s immediate family,"
+  ],
+  "locator": "29 U.S.C. 213(a)(6)(A) and (B)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition), Office of the Law Revision Counsel via GPO; primary law, public domain. The small-farm exemption. The text states the threshold as 'five hundred man-days', which CRS's FLSA overview (R42713, not saved) says 29 U.S.C. 203(u) defines as a day on which an employee does agricultural labor for at least an hour. Subsection (a) exempts from both section 6 (minimum wage) and section 7 (overtime). Data (statute text).",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-483",
+  "statement": "The Fair Labor Standards Act's exemptions section (subsection (b), paragraph (21)) exempts from overtime any employee employed in domestic service in a household who resides in that household.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5571",
+  "anchor": [
+   "(21) any employee who is employed in domestic service in a household and who resides in\nsuch household; or"
+  ],
+  "locator": "29 U.S.C. 213(b)(21)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition), Office of the Law Revision Counsel via GPO; primary law, public domain. The live-in domestic overtime exemption; minimum wage still applies to live-in workers (it is an overtime-only exemption in subsection (b)). Data (statute text).",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-484",
+  "statement": "USDA ERS, using BLS Quarterly Census of Employment and Wages data, reports that agricultural wage and salary employment (including farm labor contracting) rose from 1.07 million in 2010 to 1.18 million in 2024, and that farmworkers make up less than 1 percent of all U.S. wage and salary workers.",
+  "claim": "data",
+  "figures": [
+   "1.07 million",
+   "1.18 million",
+   "less than 1 percent"
+  ],
+  "source": "SRC-5572",
+  "anchor": [
+   "Employment rose from 1.07 million in 2010 to 1.18 million in 2024, a gain of 10 percent.",
+   "farmworkers make up less than 1 percent of all U.S. wage and salary workers"
+  ],
+  "locator": "ERS Farm Labor, 'Recent Trends in the Employment of Hired Farmworkers' and 'Size and Composition' sections",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "USDA Economic Research Service, 'Farm Labor' topic page, updated November 18, 2025; official analysis of federal survey and administrative data. Data. The QCEW is built from unemployment insurance records and, per the page, omits small farm employers in states that exempt them from UI, so it undercounts the group the 500 man-day exemption reaches. The page's Farm Labor Survey series gives a different (lower) average-employment concept.",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-485",
+  "statement": "USDA ERS reports that in 2024 the average wage for nonsupervisory crop and livestock workers was $18.12 an hour, about 60 percent of the $30.13 nonfarm private nonsupervisory wage, and that all farm occupations averaged $19.10.",
+  "claim": "data",
+  "figures": [
+   "$18.12",
+   "$30.13",
+   "about 60 percent",
+   "19.10"
+  ],
+  "source": "SRC-5572",
+  "anchor": [
+   "By 2024, the farm wage equaled about 60 percent of the nonfarm wage ($18.12 versus $30.13).",
+   "All farm occupations\n100\n19.10\n3.09"
+  ],
+  "locator": "ERS Farm Labor, 'Wages of Hired Farmworkers'; the occupation table's 'All farm occupations' row (share 100, 2024 average wage 19.10, nominal growth 3.09)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "USDA Economic Research Service, 'Farm Labor' topic page, updated November 18, 2025; official analysis of federal survey and administrative data. Data, from USDA's Farm Labor Survey (nonsupervisory workers, excluding contract labor). Averages, not medians; the page gives no median and no poverty rate, so the memo's poverty question is not answered by this source.",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-486",
+  "statement": "USDA ERS reports that about 42 percent of hired crop farmworkers held no work authorization, 32 percent were U.S. born, 7 percent were naturalized citizens and 19 percent were other authorized immigrants.",
+  "claim": "data",
+  "figures": [
+   "42 percent",
+   "32 percent",
+   "7 percent",
+   "19 percent"
+  ],
+  "source": "SRC-5572",
+  "anchor": [
+   "In 2020–22, 32 percent of crop farmworkers were U.S. born, 7 percent were immigrants who had obtained U.S. citizenship, 19 percent were other authorized immigrants (primarily permanent residents or green-card holders), and the remaining 42 percent held no work authorization."
+  ],
+  "locator": "ERS Farm Labor, 'Over Forty Percent of Hired Crop Farmworkers Lack Legal Immigration Status'",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "USDA Economic Research Service, 'Farm Labor' topic page, updated November 18, 2025; official analysis of federal survey and administrative data. Data from DOL's National Agricultural Workers Survey (crop workers only; livestock and H-2A workers are not covered). Bears on how many covered workers would face retaliation risk if organizing rights were extended. Survey years 2020-22 (NAWS).",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-487",
+  "statement": "CRS reports that BLS counted approximately 1.2 million domestic farmworkers hired by U.S. farmers and labor contractors in 2024, and that DOL approved temporary labor certifications for approximately 363,000 H-2A farmworkers in FY2024.",
+  "claim": "data",
+  "figures": [
+   "1.2 million",
+   "363,000"
+  ],
+  "source": "SRC-5573",
+  "anchor": [
+   "hired approximately 1.2 million domestic farmworkers to",
+   "certifications for approximately 363,000 H-2A farmworkers"
+  ],
+  "locator": "CRS IF13083, 'Farmworkers in the United States' and 'H-2A Program' paragraphs ",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Congressional Research Service, Insight IF13083, 'Unauthorized Farmworkers in the United States', August 11, 2025; nonpartisan analysis for Congress, public domain. Data. ERS (SRC-5572) gives 385,000 positions and 315,500 visas for FY2024 on its own basis (certifications versus approved workers differ).",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-488",
+  "statement": "CRS notes that the Fair Labor Standards Act exempts agricultural workers from overtime, that Washington, California and New York have required overtime for farmworkers, and that New York pairs it with a tax credit to offset farmers' compliance costs.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5573",
+  "anchor": [
+   "overtime pay requirements for agricultural workers. The",
+   "These states include Washington, California,\nand New York. New York also instituted a tax credit for\neligible farmers employing farmworkers who received\neligible overtime."
+  ],
+  "locator": "CRS IF13083, 'Federal Assistance' and the preceding labor-law paragraph",
+  "grade": "A",
+  "fact_date": "2025-08",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Congressional Research Service, Insight IF13083, 'Unauthorized Farmworkers in the United States', August 11, 2025; nonpartisan analysis for Congress, public domain. Analysis in a short Insight; it names three states without schedules, so the schedules come from the state sources. Useful as a federal-nonpartisan statement that a state offset (tax credit) exists.",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-182",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-WRK-495",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-489",
+  "statement": "The Fairness for Farm Workers Act (S. 5304, 119th Congress, introduced August 6, 2026) would phase in overtime for agricultural employees from after fifty-five hours a week in its first year down to forty in its fourth, with small employers (twenty-five or fewer employees) starting three years later.",
+  "claim": "data",
+  "figures": [
+   "2027",
+   "2030",
+   "2033"
+  ],
+  "source": "SRC-5574",
+  "anchor": [
+   "beginning on January 1, 2027, no employer",
+   "‘‘(i) Beginning on January 1, 2027, fifty-",
+   "‘‘(iv) Beginning on January 1, 2030, forty",
+   "25 or fewer employees—",
+   "January 1, 2033.’’; and",
+   "119TH CONGRESS",
+   "AUGUST 6, 2026",
+   "S5304"
+  ],
+  "locator": "S. 5304 sec. 2(a), new section 7(a)(3)(A)-(C) of the FLSA",
+  "grade": "A",
+  "fact_date": "2026-08-06",
+  "checked": "2026-11-18",
+  "recheck": "2027-02-15",
+  "context": "S. 5304 as introduced August 6, 2026 (Sen. Padilla and 13 cosponsors; referred to HELP), U.S. GPO; a bill's text, not law. Data on what the bill says. The House companion is H.R. 10273 (not saved). The saved text is a plain pdftotext of the print, so line numbers sit on lines of their own and anchors are taken from single lines. No CBO estimate was found. The bill's dates: fifty-five hours from January 1, 2027, fifty from 2028, forty-five from 2029, forty from 2030; for small employers fifty-five in 2030 down to forty in 2033 (as read).",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-490",
+  "statement": "S. 5304 would repeal the Fair Labor Standards Act's agricultural overtime exemptions (subsection (b), paragraphs (12) to (16)) and strike the small-farm man-day exemption, leaving only the immediate-family exemption, and it amends only the Fair Labor Standards Act, not the National Labor Relations Act.",
+  "claim": "data",
+  "figures": [
+   "(12) through (16)"
+  ],
+  "source": "SRC-5574",
+  "anchor": [
+   "To amend the Fair Labor Standards Act of 1938 to provide",
+   "(2) in subsection (b), by repealing paragraphs",
+   "(12) through (16); and",
+   "(1) in subsection (a)(6), by striking ‘‘(A)’’ and",
+   "S5304"
+  ],
+  "locator": "S. 5304 long title and sec. 2(b)",
+  "grade": "A",
+  "fact_date": "2026-08-06",
+  "checked": "2026-11-18",
+  "recheck": "2027-02-15",
+  "context": "S. 5304 as introduced, U.S. GPO. Data on the bill's text; the NLRA point is from the long title and from a search of the saved text, which has no reference to the National Labor Relations Act. Consequently no pending bill found in this search would end the NLRA's agricultural exclusion.",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-491",
+  "statement": "H.R. 3971 (119th Congress), the Domestic Workers Bill of Rights Act, would repeal the Fair Labor Standards Act's live-in domestic overtime exemption (subsection (b), paragraph (21) of its exemptions section).",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5575",
+  "anchor": [
+   "SEC. 101. OVERTIME PROTECTIONS FOR LIVE-IN DOMESTIC",
+   "8 of 1938 (29 U.S.C. 213(b)(21)) is repealed.",
+   "119TH CONGRESS",
+   "•HR 3971 IH"
+  ],
+  "locator": "H.R. 3971 sec. 101",
+  "grade": "A",
+  "fact_date": "2025-06-12",
+  "checked": "2026-11-18",
+  "recheck": "2027-02-15",
+  "context": "H.R. 3971 as introduced June 12, 2025 (Rep. Jayapal), U.S. GPO; a bill's text. Data. The Senate companion is S. 3396 (introduced Dec. 9, 2025, not saved). A far larger bill (home care, scheduling, standards board); this entry shows only the overtime repeal. No CBO estimate was found.",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-492",
+  "statement": "H.R. 3971's findings state that there are an estimated 2,200,000 domestic employees across the United States working in private homes to provide direct care, child care and house-cleaning services.",
+  "claim": "data",
+  "figures": [
+   "2,200,000"
+  ],
+  "source": "SRC-5575",
+  "anchor": [
+   "(1) There are an estimated 2,200,000 domestic",
+   "employees across the United States working in pri-",
+   "•HR 3971 IH"
+  ],
+  "locator": "H.R. 3971 sec. 2(1) (Findings)",
+  "grade": "C",
+  "fact_date": "2025-06-12",
+  "checked": "2026-11-18",
+  "recheck": "2027-02-15",
+  "context": "A congressional finding in a bill introduced by advocates of the policy; no source or method is given in the text, so this is an advocacy estimate used as data only with that label. The BLS household survey figure (EV-WRK-493) is much lower; the gap is definitional (the finding includes workers employed through agencies, and the CPS industry category counts only employment in private households).",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-493",
+  "statement": "BLS Current Population Survey annual averages for 2025 show 580 thousand employed people in the private households industry, 88.8 percent of them women, and 42.4 percent Hispanic or Latino.",
+  "claim": "data",
+  "figures": [
+   "580",
+   "88.8",
+   "42.4"
+  ],
+  "source": "SRC-5576",
+  "anchor": [
+   "Private households",
+   "580",
+   "88.8",
+   "42.4"
+  ],
+  "locator": "BLS, 'Employed people by detailed industry, sex, race, and Hispanic or Latino ethnicity' (CPS table 18), row 'Private households' (cells read in order: 580, 88.8, 82.0, 8.3, 5.7, 42.4), in thousands for the first",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-18",
+  "recheck": "2027-02-15",
+  "context": "BLS, official household survey; public domain but not saved because bls.gov refused the library's download (HTTP 403); the cells were read through a page-fetch tool, so the quotes are as read, not from a saved file. The table notes that 2025 annual estimates are 11-month averages that exclude October (no data collected in the federal shutdown). The private-households industry counts people employed directly by households; it omits domestic workers employed through agencies (classified under services industries) and undercounts informal work.",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-494",
+  "statement": "The California Agricultural Labor Relations Board describes itself as created in 1975 to guarantee justice for all agricultural workers and to provide orderly processes protecting the rights of employees, employers and labor organizations, and says it protects agricultural employees' rights to engage in collective action.",
+  "claim": "data",
+  "figures": [
+   "1975"
+  ],
+  "source": "SRC-5577",
+  "anchor": [
+   "The California Agricultural Labor Relations Board was created in 1975 to ensure peace in the fields of California by guaranteeing justice for all agricultural workers",
+   "The ALRB protects the rights of agricultural employees to engage in collective action, with or without a labor union, to improve their wages and other terms and conditions of employment."
+  ],
+  "locator": "ALRB home page, introductory text and 'what we do' text",
+  "grade": "A",
+  "fact_date": "1975",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "California Agricultural Labor Relations Board (state agency) home page, retrieved November 18, 2026; the page is a state government publication and was not saved (the library saves only federal or openly licensed texts), so the quotes are as read from the page's text. Data (agency's own description). The statute (Cal. Labor Code 1140 et seq.) could not be fetched.",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-495",
+  "statement": "The New York Department of Labor states that the Farm Laborers Fair Labor Practices Act took effect January 1, 2020, that from January 1, 2026 farm workers must be paid time and a half after 52 hours a week, and that farm workers have the right to organize and bargain collectively.",
+  "claim": "data",
+  "figures": [
+   "52",
+   "2020"
+  ],
+  "source": "SRC-5578",
+  "anchor": [
+   "The bill took effect on January 1, 2020.",
+   "must now be paid one and a half times the regular rate of pay for hours worked over 52 in a calendar week",
+   "Farm workers possess the right to organize, which includes forming, joining, or assisting labor organizations, and the right to bargain collectively through representatives of their own choosing."
+  ],
+  "locator": "NY DOL, 'Farm Laborers Fair Labor Practices Act' page, 'Effective January 1, 2026' and 'Right to Organize' paragraphs",
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-18",
+  "recheck": "2027-01-15",
+  "context": "New York State Department of Labor web page, retrieved November 18, 2026; state agency statement of the law, not saved (state publication) so quotes are as read from the page. Data. Adds the 2026 step (52 hours) and the organizing right to EV-WRK-182, which holds the 2022 wage board schedule down to 40 hours in 2032.",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-496",
+  "statement": "Hill's June 2025 presentation estimates that California's agricultural overtime law lowered average crop workers' weekly hours by about 4 hours and weekly earnings by about $65, finding no change in overall employment, preliminary rises in employment of temporary visa farmworkers, and preliminary reductions in injuries.",
+  "claim": "analysis",
+  "figures": [
+   "4 hours",
+   "$65"
+  ],
+  "source": "SRC-5579",
+  "anchor": [
+   "⇒ Average hours decrease by 4 hours per week",
+   "⇒ Average earnings decrease by $65 per week; fewer high earners",
+   "The average California crop employee worked 4 fewer hours and earned $65 less each"
+  ],
+  "locator": "Slides 'This Study: Questions, Results Preview, and Contributions' and the summary slide, as read",
+  "grade": "C",
+  "fact_date": "2025-06-06",
+  "checked": "2026-11-18",
+  "recheck": "2027-06-01",
+  "context": "Alexandra E. Hill (UC Berkeley, Agricultural and Resource Economics), 'On the Effects of Regulated Overtime Standards: An examination of California's new overtime law for agricultural workers', conference slides, June 6, 2025; analysis of National Agricultural Workers Survey data (crop workers; H-2A workers not in the survey) with a difference-in-differences design against states without the law. Not peer-reviewed in this form and all rights reserved, so cited, not saved; quotes as read from a PDF text extraction. A UC Merced Community and Labor Center study reported rising annual earnings 2017-22 from other data (not read); a UC Rural Migration News summary reports usual weekly hours falling from 42.5 in 2018 to 40.5 in 2021 in the ACS. The law is AB 1066 (2016); the estimates are for 2021-22.",
+  "supports": [
+   "dossiers/work/memos/11-farm-domestic-workers.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-495",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-182",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-479",
+  "statement": "EPI's simulation model estimates that the Raise the Wage Act of 2025 ($17 by 2030) would raise pay for 22,247,000 workers (10,339,000 directly and 11,908,000 indirectly affected), adding about $70 billion a year in wages ($70,247 million in 2025 dollars), an average of $3,158 for affected workers.",
+  "claim": "analysis",
+  "figures": [
+   "22,247,000",
+   "10,339,000",
+   "11,908,000",
+   "$70,247",
+   "$3,158"
+  ],
+  "source": "SRC-5816",
+  "anchor": [
+   "wage to $17 by 2030 would impact 22,247,000 workers",
+   "$70 billion annually in wages for the country’s lowest-",
+   "All workers              149,194,000 10,339,000        6.9%         11,908,000        8.0%          22,247,000         14.9%              100.0%",
+   "U.S. total      149,194,000 22,247,000        14.9%                     $3,158                    $70,247                      11.3%"
+  ],
+  "locator": "Fact sheet, summary and Table 2 (U.S. total row); Table 1 for the direct and indirect counts; as read",
+  "grade": "C",
+  "fact_date": "2025-03",
+  "checked": "2026-11-18",
+  "recheck": "2027-03-01",
+  "context": "Economic Policy Institute, March 2025 fact sheet on the bill it supports (an advocate's analysis, with a stake in the result), from its Minimum Wage Simulation Model (Cooper, Mokhiber and Zipperer, 2019 method); counts direct and spillover raises (up to 115% of the new minimum), net of scheduled state and local increases. Copyrighted, so cited, not saved; quotes as read from a pdftotext extraction of files.epi.org/uploads/adoc-2025-03-26T130049.846.pdf. The order of magnitude is consistent with CBO's 2019 $15 option (17 million with raises, EV-WRK-029). Used in tools/work_path.py only to scale the floor's added wage bill for W7, not as a score.",
+  "supports": [
+   "dossiers/work/6-cost.md",
+   "dossiers/work/memos/1-wage-floor.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-029",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-WRK-497",
+  "statement": "The Oregon Employment Department reported that private employers with fewer than 50 employees working in Oregon employ 38 percent of Oregon's jobs but are home to 45 percent of the state's minimum wage jobs.",
+  "claim": "data",
+  "figures": [
+   "38",
+   "45"
+  ],
+  "source": "SRC-5817",
+  "anchor": [
+   "private employers with fewer than 50 employees working in Oregon employ 38 percent of Oregon's jobs",
+   "they are home to 45 percent of the state's minimum wage jobs."
+  ],
+  "locator": "Blog post, 'Smaller Employers Have Higher Shares of Minimum Wage Jobs', as read",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "Oregon Employment Department, Workforce and Economic Research Section (Felicia Bechtoldt), February 5, 2016, from state UI wage records (data year not stated in the post; its largest-employer figure is for the first quarter of 2015). One state's administrative data, a decade old; used only as a check on W7's working share of the floor's cost at employers under 50 (30%, range 25-45%). Quotes as read through a fetch tool; the page was not saved.",
+  "supports": [
+   "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-498",
+  "statement": "Under the Fair Labor Standards Act's definitions, \"State\" means any State of the United States or the District of Columbia or any Territory or possession of the United States.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5818",
+  "anchor": [
+   "(c) ‘‘State’’ means any State of the United",
+   "States or the District of Columbia or any Territory or possession of the United States."
+  ],
+  "locator": "29 U.S.C. 203(c)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law. Federal wage law already treats Puerto Rico and the other territories as States, so LAB-4.10's slower path, written for any State, reads the same before and after Puerto Rico's admission (Espen's W9, DEC-2026-11-18-09).",
+  "supports": [
+   "dossiers/work/5-delivery.md",
+   "dossiers/work/4-specification.md"
+  ]
  }
 ]
