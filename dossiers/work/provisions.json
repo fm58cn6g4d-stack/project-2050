@@ -123,13 +123,14 @@
   "id": "LAB-5.01",
   "title": "A small, temporary payroll credit for employers under 50 workers in the first three steps",
   "agenda": "LAB-5",
-  "status": "decided, memo 1 part 2 C, its form `DEC-2026-11-17-34`; the shares and cap are working choices; its size re-derived from the need to `DEC-2026-11-18-07`, provisional until Espen confirms",
+  "status": "decided, memo 1 part 2 C, its form `DEC-2026-11-17-34`; the shares and cap are working choices; its size is `DEC-2026-11-18-22` (Espen's W7, option A)",
   "decisions": [
    "DEC-2026-11-17-02",
    "DEC-2026-11-17-34",
-   "DEC-2026-11-18-07"
+   "DEC-2026-11-18-07",
+   "DEC-2026-11-18-22"
   ],
-  "parameters": "A refundable credit against the employer's share of payroll tax, claimed on the quarterly Form 941. *Who:* an employer with fewer than 50 employees in the prior calendar year, counted across a controlled group (26 U.S.C. 414(b), (c), (m), (o)) so a large firm cannot split. *What (sized from the need, drafted to `DEC-2026-11-18-07`, provisional until Espen confirms):* for each worker whose hourly wage in the last quarter of 2029 (the reference wage, recorded once) was below the rate in force, 50% of the floor's added wage cost (the rate in force, or the worker's wage if lower, less the reference wage, times hours paid) in each of the three step years, 2030-32 (working choice). The first draft paid 50%, 35% and 20% of each step's increment for four quarters, which left the first step's cost uncovered in later years. *Cap:* $20,000 per employer per year (working choice), so the credit stays inside the decided range. *Make whole:* the credit is paid from the general fund. Each quarter the Treasury transfers to the Federal Old-Age and Survivors Insurance, Federal Disability Insurance and Federal Hospital Insurance Trust Funds the employer payroll taxes the credit offsets, so Social Security and Medicare lose nothing (working choice; milestone review F-2). *Burden:* the employer records one reference wage for each worker paid below the first step's rate, then each quarter claims half of the rate in force less that wage, times hours, and passes the controlled-group test; for a credit of about $2 billion across many small employers it is still a real paperwork cost for a small amount each, though less than a new calculation at each step. *Alternative form, for W7:* a flat amount per hour for each worker paid below the new rate, set to cost about the same, which needs only hours at those wages and no old-wage calculation (milestone review L-1). *Ends* after the third step's year: wages paid after December 31, 2032 on the working timeline (later if the pause, LAB-4.03, delays a step). *Contingent:* it pays only for steps the labor act enacts, as the legacy credit was designed [EV-WRK-703]. Cost about $0.02-0.04 trillion over FY2030-39 by memo 1's judgment (a third of the legacy credit's range); sized from the need, the floor adds about $5 billion to the wage bills of employers under 50 in 2030-32 and about $34 billion in 2030-35, and this credit pays about $2.1 billion (range $0.8-6.9 billion), about 42% of the 2030-32 need, provisional (memo 1, \"Revised for W7\"; 6-cost.md, parts 1 and 4); JCT scores it (point 15). It replaces the budget model's LAB-5 row ($0.10 trillion) at booking, not here. *The 2007 package* (P.L. 110-28) is a political precedent, not evidence that a credit softens job effects (`notes/espen-questions-2026-11-17.md`, part a)",
+  "parameters": "A refundable credit against the employer's share of payroll tax, claimed on the quarterly Form 941. *Who:* an employer with fewer than 50 employees in the prior calendar year, counted across a controlled group (26 U.S.C. 414(b), (c), (m), (o)) so a large firm cannot split. *What (sized from the need, `DEC-2026-11-18-22`):* for each worker whose hourly wage in the last quarter of 2029 (the reference wage, recorded once) was below the rate in force, 50% of the floor's added wage cost (the rate in force, or the worker's wage if lower, less the reference wage, times hours paid) in each of the three step years, 2030-32 (working choice). The first draft paid 50%, 35% and 20% of each step's increment for four quarters, which left the first step's cost uncovered in later years. *Cap:* $20,000 per employer per year (working choice), so the credit stays inside the decided range. *Make whole:* the credit is paid from the general fund. Each quarter the Treasury transfers to the Federal Old-Age and Survivors Insurance, Federal Disability Insurance and Federal Hospital Insurance Trust Funds the employer payroll taxes the credit offsets, so Social Security and Medicare lose nothing (working choice; milestone review F-2). *Burden:* the employer records one reference wage for each worker paid below the first step's rate, then each quarter claims half of the rate in force less that wage, times hours, and passes the controlled-group test; for a credit of about $2 billion across many small employers it is still a real paperwork cost for a small amount each, though less than a new calculation at each step. *Alternative form (not chosen):* a flat amount per hour for each worker paid below the new rate, set to cost about the same, which needs only hours at those wages and no old-wage calculation (milestone review L-1). *Ends* after the third step's year: wages paid after December 31, 2032 on the working timeline (later if the pause, LAB-4.03, delays a step). *Contingent:* it pays only for steps the labor act enacts, as the legacy credit was designed [EV-WRK-703]. Cost about $0.02-0.04 trillion over FY2030-39 by memo 1's judgment (a third of the legacy credit's range); sized from the need, the floor adds about $5 billion to the wage bills of employers under 50 in 2030-32 (30% of the floor's whole added bill: about a quarter of private jobs, scaled up by Oregon's ratio of its minimum-wage jobs to its jobs at employers under 50, 45% to 38% [EV-WRK-497], a working share with a range of 25-45%; at 40% the credit would be about $2.8 billion, inside the range) and about $34 billion in 2030-35, and this credit pays about $2.1 billion (range $0.8-6.9 billion), about 42% of the 2030-32 need, decided as option A (memo 1, \"Revised for W7\"; 6-cost.md, parts 1 and 4); JCT scores it (point 15). It replaces the budget model's LAB-5 row ($0.10 trillion) at booking, not here. *The 2007 package* (P.L. 110-28) is a political precedent, not evidence that a credit softens job effects (`notes/espen-questions-2026-11-17.md`, part a)",
   "eligibility": "",
   "vehicle": [
    {
@@ -297,13 +298,14 @@
   "id": "LAB-4.10",
   "title": "The national schedule everywhere, slower where the bite would pass 75% of the local median; American Samoa on its own path, reviewed by the commission",
   "agenda": "LAB-4",
-  "status": "revised to DEC-2026-11-18-09 (Espen's W9), provisional until Espen confirms; American Samoa decided as recommended (DEC-2026-11-18-05); a delivery addition (section 5, part 5)",
+  "status": "decided, `DEC-2026-11-18-24` (Espen's W9, with a clarification); American Samoa decided as recommended (`DEC-2026-11-18-05`); a delivery addition (section 5, part 5)",
   "decisions": [
    "DEC-2026-11-17-01",
    "DEC-2026-11-18-05",
-   "DEC-2026-11-18-09"
+   "DEC-2026-11-18-09",
+   "DEC-2026-11-18-24"
   ],
-  "parameters": "In every State as federal wage law defines it, which includes the District of Columbia and every territory and possession (29 U.S.C. 203(c)) [EV-WRK-498], the floor each January is LAB-4.01's schedule and LAB-4.02's indexing, unless that rate is more than 75% of the jurisdiction's all-jobs median hourly wage as last published before the Secretary's October 1 notice; then the floor rises by at least $1.00 that year (from 2036, by at least the national rate's own rise plus $0.25), or to 75% of the median, rounded down to $0.05, if that is higher, never above the national rate and never down; once back on the national rate a jurisdiction stays on it. The median is BLS's OEWS all-jobs median (Puerto Rico $12.09, Guam $16.02, the Virgin Islands $19.42 in May 2023 [EV-WRK-455] [EV-WRK-458] [EV-WRK-459]) and, for the Northern Mariana Islands until BLS publishes one, the Commonwealth's annual Prevailing Wage Study ($9.97, February 2021 [EV-WRK-460]). On 3.5% median growth only Puerto Rico and the Northern Mariana Islands are slowed: Puerto Rico reaches about $15.00 in 2035 (about 82% of its median, against $17.00 and 93% on the national schedule) and the national rate about 2042; the Northern Mariana Islands about $14.50 in 2035 and the national rate about 2044; Guam, the Virgin Islands and every state stay on the national schedule (project arithmetic, tools/territory_bite.py). The rule names no territory, so it reads the same if Puerto Rico becomes a state (DEM-6.01). Territorial laws may set more (29 U.S.C. 218), as Puerto Rico's $10.50 does [EV-WRK-466] [EV-WRK-468]. American Samoa keeps the schedule in today's law, $0.40 an hour every third year until its industry minimums equal the federal minimum [EV-WRK-425], now measured against LAB-4.01's higher floor. The commission (LAB-4.04) reports on each slowed jurisdiction and on American Samoa every year and may recommend a different path; any change needs an act of Congress. The alternatives are the national schedule on the same dates everywhere, a permanent cap at 75% of each territory's median, or the commission's report first with the national schedule resuming January 1, 2034",
+  "parameters": "In every State as federal wage law defines it, which includes the District of Columbia and every territory and possession (29 U.S.C. 203(c)) [EV-WRK-498], the floor each January is LAB-4.01's schedule and LAB-4.02's indexing, unless that rate is more than 75% of the jurisdiction's all-jobs median hourly wage as last published before the Secretary's October 1 notice; then, for as long as the jurisdiction is below the national rate, its floor rises each January by at least $1.00 (from 2036, by at least the national rate's own rise plus $0.25), or to 75% of the median, rounded down to $0.05, if that is higher, never above the national rate and never down. The $1.00 is only a limit on how slowly a slowed jurisdiction's path may rise toward the national rate already adopted, so the gap always closes; it is not a standing annual increase, and nothing in this provision requires the national minimum wage to rise $1.00 a year. Once back on the national rate a jurisdiction stays on it, and LAB-4.01's schedule and LAB-4.02's indexing govern from then on (`DEC-2026-11-18-24`). The median is BLS's OEWS all-jobs median (Puerto Rico $12.09, Guam $16.02, the Virgin Islands $19.42 in May 2023 [EV-WRK-455] [EV-WRK-458] [EV-WRK-459]) and, for the Northern Mariana Islands until BLS publishes one, the Commonwealth's annual Prevailing Wage Study ($9.97, February 2021 [EV-WRK-460]). On 3.5% median growth only Puerto Rico and the Northern Mariana Islands are slowed: Puerto Rico reaches about $15.00 in 2035 (about 82% of its median, against $17.00 and 93% on the national schedule) and the national rate about 2042; the Northern Mariana Islands about $14.50 in 2035 and the national rate about 2044; Guam, the Virgin Islands and every state stay on the national schedule (project arithmetic, tools/territory_bite.py). The rule names no territory, so it reads the same if Puerto Rico becomes a state (DEM-6.01). Territorial laws may set more (29 U.S.C. 218), as Puerto Rico's $10.50 does [EV-WRK-466] [EV-WRK-468]. American Samoa keeps the schedule in today's law, $0.40 an hour every third year until its industry minimums equal the federal minimum [EV-WRK-425], now measured against LAB-4.01's higher floor. The commission (LAB-4.04) reports on each slowed jurisdiction and on American Samoa every year and may recommend a different path; any change needs an act of Congress. The alternatives are the national schedule on the same dates everywhere, a permanent cap at 75% of each territory's median, or the commission's report first with the national schedule resuming January 1, 2034",
   "eligibility": "",
   "vehicle": [
    {
@@ -527,6 +529,38 @@
    "EV-WRK-158",
    "EV-WRK-216",
    "EV-WRK-259"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 5 (where priced) and the line it names; tools/work_path.py",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-1.08",
+  "title": "Farmworkers and domestic workers are inside the labor act",
+  "agenda": "LAB-1",
+  "status": "decided, memo 11 C (`DEC-2026-11-18-25`, Espen's W10); the farm election's counting week is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-04",
+   "DEC-2026-11-18-25"
+  ],
+  "parameters": "Strike \"agricultural laborer\" and \"domestic service of any family or person at his home\" from the definition of \"employee\" in 29 U.S.C. 152(3) [EV-WRK-480], so the labor act as decided (LAB-1.01 to 1.06, LAB-2.01 to 2.04: card check, fast elections, penalties in court, first-contract arbitration) reaches farmworkers, farm labor contractors' crews included, and domestic workers employed by agencies. A farm election or card check counts the payroll of the peak-season week (working choice), and the immigration firewall covers retaliation by immigration threat (LAB-7.06; IMM-4.11). Domestic workers employed directly by one household, where bargaining with a single household is impractical, are reached by the standards board for domestic work, which sits inside LAB-3.01's framework (LAB-3.05), not by a separate scheme. The labor board's added workload (perhaps a few hundred farm units a year; judgment) sits inside CAP-7's board line (LAB-2.05). California has protected farmworkers' collective action since 1975 and New York since 2020 [EV-WRK-494] [EV-WRK-495]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor board (NLRB)",
+  "current_law": "29 U.S.C. 152(3) excludes agricultural laborers and domestic service from \"employee\" [EV-WRK-480]",
+  "evidence": [
+   "EV-WRK-480",
+   "EV-WRK-487",
+   "EV-WRK-484",
+   "EV-WRK-493",
+   "EV-WRK-494",
+   "EV-WRK-495"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 5 (where priced) and the line it names; tools/work_path.py",
@@ -801,9 +835,10 @@
   "agenda": "LAB-3",
   "status": "decided, memo 5 B (a seam with HLT-10, not a reopening)",
   "decisions": [
-   "DEC-2026-11-17-06"
+   "DEC-2026-11-17-06",
+   "DEC-2026-11-18-25"
   ],
-  "parameters": "No federal home care board. A board for any care industry may recommend pay above the care wage floor ($20 in 2026 dollars, indexed, HLT-10.01); its recommendation goes to CMS's and the single plan's rate setting, where a state board's or agreement's higher wage is already an allowable cost (HLT-10.04, care's, decided `DEC-2026-11-11-04`). Minnesota's nursing-home board is the model for the payer route [EV-WRK-179] [EV-CAR-618]",
+  "parameters": "No separate federal home care board. Domestic workers in private homes have their board inside LAB-3.01's framework (LAB-3.05), and where their pay is public that board's recommendation takes this route. A board for any care industry may recommend pay above the care wage floor ($20 in 2026 dollars, indexed, HLT-10.01); its recommendation goes to CMS's and the single plan's rate setting, where a state board's or agreement's higher wage is already an allowable cost (HLT-10.04, care's, decided `DEC-2026-11-11-04`). Minnesota's nursing-home board is the model for the payer route [EV-WRK-179] [EV-CAR-618]",
   "eligibility": "",
   "vehicle": [
    {
@@ -818,6 +853,39 @@
    "EV-WRK-179",
    "EV-CAR-618",
    "EV-WRK-178"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 5 (where priced) and the line it names; tools/work_path.py",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-3.05",
+  "title": "The standards board for domestic workers in private homes, inside the standing framework",
+  "agenda": "LAB-3",
+  "status": "decided, memo 11 C with the change in `DEC-2026-11-18-25` (Espen's W10): a board under memo 5 B's framework (`DEC-2026-11-17-06`), not a separate body; the link to the care payer floor is a working choice",
+  "decisions": [
+   "DEC-2026-11-17-06",
+   "DEC-2026-11-17-30",
+   "DEC-2026-11-18-25"
+  ],
+  "parameters": "Not a separate board. The board for domestic workers in private homes (workers employed in or by a private household: nannies, housekeepers, home care and other household workers) is a board under LAB-3.01's standing framework, convened on its petition or the Secretary's finding, with its nine members (three for workers, three for household employers and agencies, three for the public), hearings, binding-by-rule standards, three-year reviews and Wage and Hour enforcement. It is the second board after LAB-3.02's fast-food board and has no statutory deadline of its own (working choice). *The home care link (working choice):* (1) home care workers employed by agencies and other third parties stay under LAB-12.01's minimum wage and overtime coverage; (2) where a public payer pays for the care, the care wage floor ($20 in 2026 dollars, indexed, HLT-10.01) is the wage floor, and the board's standards above it go to CMS's and the single plan's rate setting through LAB-3.03's payer route, with no federal home care board; (3) for privately paid work the board's standards bind as under LAB-3.01, with the household as the employer; (4) the board may not set a wage below LAB-4.01's floor, LAB-12.01's coverage or, for publicly paid care, the care floor. Seattle's standards board of workers, hiring entities and the public is the model [EV-WRK-180]; about 580,000 people work directly for private households and the domestic workers' bill counts about 2.2 million in all [EV-WRK-493] [EV-WRK-492]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (Wage and Hour; the standards boards office); HHS (CMS) for publicly paid care",
+  "current_law": "No federal boards; domestic workers in private homes are outside the labor act (29 U.S.C. 152(3)) [EV-WRK-480]",
+  "evidence": [
+   "EV-WRK-180",
+   "EV-WRK-181",
+   "EV-WRK-492",
+   "EV-WRK-493",
+   "EV-WRK-179",
+   "EV-CAR-618"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 5 (where priced) and the line it names; tools/work_path.py",
@@ -1296,6 +1364,39 @@
   "spec": "dossiers/work/4-specification.md"
  },
  {
+  "id": "LAB-12.03",
+  "title": "Farm overtime on the Fairness for Farm Workers Act's phase-in, and overtime for live-in domestic workers",
+  "agenda": "LAB-12",
+  "status": "decided, memo 11 C (`DEC-2026-11-18-25`, Espen's W10); the dates follow S. 5304 (2026)",
+  "decisions": [
+   "DEC-2026-11-18-25"
+  ],
+  "parameters": "Repeal the overtime exemption for agricultural employees (29 U.S.C. 213(b)(12)-(16)) [EV-WRK-481], the small-farm exemption (213(a)(6), keeping the immediate-family exemption) [EV-WRK-482] and the live-in domestic exemption (213(b)(21)) [EV-WRK-483], on the phase-in of the Fairness for Farm Workers Act (S. 5304, 2026): overtime after 55 hours a week from the first January after enactment, then 50, 45 and 40 in the fourth year; employers of 25 or fewer start three years later [EV-WRK-489] [EV-WRK-490] [EV-WRK-491]. Workers employed by agencies are already covered by LAB-12.01. The heat standard (LAB-6.01) reaches farmworkers and does not reach work in private homes. No federal overtime credit (memo 11 D is not chosen). Employers pay the premium or cut hours: one unpublished study of California's law found hours and weekly earnings down [EV-WRK-496], so if peer-reviewed evidence confirms it, the overtime part slows and the organizing part does not. About zero to slightly positive for the federal budget (higher wages raise payroll and income tax; judgment, no score exists)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD)",
+  "current_law": "Agricultural overtime is exempt (213(b)(12)), small farms are exempt (213(a)(6)) and live-in domestic workers are exempt from overtime (213(b)(21)) [EV-WRK-481] [EV-WRK-482] [EV-WRK-483]",
+  "evidence": [
+   "EV-WRK-481",
+   "EV-WRK-482",
+   "EV-WRK-483",
+   "EV-WRK-489",
+   "EV-WRK-490",
+   "EV-WRK-491",
+   "EV-WRK-496",
+   "EV-WRK-488"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 5 (where priced) and the line it names; tools/work_path.py",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
   "id": "LAB-15.01",
   "title": "Predictable schedules at large retail, food-service and warehouse employers",
   "agenda": "LAB-15",
@@ -1361,7 +1462,7 @@
   "id": "LAB-14.01",
   "title": "No federal severance mandate in the first bill; study, then recommend",
   "agenda": "LAB-14",
-  "status": "provisional, on the recommendation: point 5 (`DEC-2026-11-17-18`), for Espen",
+  "status": "decided, point 5 (`DEC-2026-11-17-18`, confirmed `DEC-2026-11-18-02`): study, then recommend",
   "decisions": [
    "DEC-2026-11-17-18"
   ],
@@ -1371,7 +1472,7 @@
    {
     "vehicle": "none",
     "kind": "proposal",
-    "note": "not in the first bill; provisional"
+    "note": "not in the first bill; the study comes first"
    }
   ],
   "agency": "Labor",
@@ -1389,7 +1490,8 @@
   "agenda": "LAB-11",
   "status": "decided, memo 7 B; the effective date and the quit rule are working choices",
   "decisions": [
-   "DEC-2026-11-17-10"
+   "DEC-2026-11-17-10",
+   "DEC-2026-11-18-23"
   ],
   "parameters": "Conditions for employers' federal unemployment tax credit, as the system works today, on the 2025 bill's core [EV-WRK-394]: at least 26 weeks of benefits; a weekly benefit of 75% of high-quarter weekly earnings up to a state maximum of at least two-thirds of the state's average weekly wage; part-time workers covered; in partial weeks, earnings of at least a third of the weekly benefit disregarded (working choice: the bill's sec. 204 [EV-WRK-419], beyond memo 7's listed core); anyone with $1,000 in the high quarter and $1,500 in the base period covered; a base period that counts the most recent completed quarter. *Quits for compelling reasons* (working choice, the bill's secs. 206-207 [EV-WRK-417]): no denial for leaving because of a family member's illness, a relocation, loss of child care, an unusual risk to health or safety, the employer's breach of law, harassment or domestic violence. *Effective* for benefit weeks from January 1, 2031, or earlier when a state conforms (working choice, giving legislatures a session). The waiting week and the bill's $25 dependents' allowance [EV-WRK-418] are left out (working choices: the first is a state choice with no evidence in the register, the second overlaps the child benefit, FAM-1). P.L. 119-21's bar on benefits for people with more than $1 million of wages stays [EV-WRK-311]",
   "eligibility": "",
@@ -1596,7 +1698,7 @@
    "DEC-2026-11-17-23",
    "DEC-2026-11-17-36"
   ],
-  "parameters": "A claimant attests each week, or every two weeks where the state chooses (working choice, the design-lens pass under `DEC-2026-11-18-04`), that they are able to work and available for it, registers with the state job service once, and is offered a reemployment session with an adviser; states may no longer require a set number of employer contacts a week. Declining the session does not end benefits (working choice: point 10 makes the session an offer). Shared rule 6's note is recorded (`dossiers/shared-rules.md`). *Cost in outcomes:* claims about a week longer for some [EV-WRK-380] [EV-WRK-381]; Nevada's trial showed some claimants pushed onto disability insurance when search was enforced [EV-WRK-382]. The administrative saving is studied in implementation from claim and quality-control data states already report (`DEC-2026-11-17-36`)",
+  "parameters": "A claimant attests each week, or every two weeks where the state chooses (working choice, the design-lens pass under `DEC-2026-11-18-04`; provisional: `DEC-2026-11-18-20` did not cover it), that they are able to work and available for it, registers with the state job service once, and is offered a reemployment session with an adviser; states may no longer require a set number of employer contacts a week. Declining the session does not end benefits (working choice: point 10 makes the session an offer). Shared rule 6's note is recorded (`dossiers/shared-rules.md`). *Cost in outcomes:* claims about a week longer for some [EV-WRK-380] [EV-WRK-381]; Nevada's trial showed some claimants pushed onto disability insurance when search was enforced [EV-WRK-382]. The administrative saving is studied in implementation from claim and quality-control data states already report (`DEC-2026-11-17-36`)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1774,12 +1876,13 @@
   "id": "LAB-18.03",
   "title": "The separation test is the state's unemployment finding",
   "agenda": "LAB-18",
-  "status": "decided for now, `DEC-2026-11-17-95`, rule 1; quits for good, work-connected reasons drafted to `DEC-2026-11-18-04`, provisional until Espen confirms",
+  "status": "decided for now, `DEC-2026-11-17-95`, rule 1; quits for good, work-connected reasons decided `DEC-2026-11-18-20` (W4)",
   "decisions": [
    "DEC-2026-11-17-95",
-   "DEC-2026-11-18-04"
+   "DEC-2026-11-18-04",
+   "DEC-2026-11-18-20"
   ],
-  "parameters": "Wage insurance makes no finding of its own. It reads the state's final separation determination for the job that ended. *Eligible (decided):* a separation for lack of work (a layoff, closure or abolished position) or a discharge the state found was not for misconduct, the note's eligible list under `-95`'s definition, \"separated against one's will for a reason other than misconduct\". Misconduct is the narrow, willful standard most states use [EV-WRK-416], so a worker fired for poor performance qualifies. *Not eligible:* a discharge for misconduct, or a quit without good cause. *Quits for good, work-connected reasons (drafted to `DEC-2026-11-18-04`, provisional until Espen confirms):* a quit the state's final determination found was for good cause connected with the work or attributable to the employer, such as unpaid wages, a large pay cut or unsafe conditions, qualifies; a quit for personal good cause (for example following a spouse's move, one of LAB-11.01's compelling reasons [EV-WRK-417]) does not. *No new investigation:* wage insurance reads the determination the state already makes [EV-WRK-414]. In a state that limits good cause to the work or the employer [EV-WRK-415], every allowed quit qualifies; in a state that also allows personal reasons, the adjudicator, who already decides which reason applies, records it on the determination as one field (working choice). The worker files nothing more, and no one re-examines the case. *Misuse, priced:* the risk is a quit called work-connected that was not, mostly where the worker never claimed UI (LAB-18.05), so the former employer has no benefit charge at stake; the state sends that employer the separation notice it already sends, and the gain is limited because the worker must take a lower-paid job with an unrelated employer (LAB-18.04). Section 6 puts misuse at about 20% of the quit route (range 10-50%), about $0.25 billion over FY2030-39, on top of the route's $1.2 billion (`6-cost.md`, part 4). Memo 8 B's cost basis counts layoffs only [EV-WRK-315]; section 6 now adds the discharges not for misconduct that this rule makes eligible (milestone review O-2), and including work-connected quits adds a small cost outside it (judgment). If an appeal reverses the finding, wage insurance follows it: back payments if the worker wins, repayment if they lose, waived where the worker was not at fault",
+  "parameters": "Wage insurance makes no finding of its own. It reads the state's final separation determination for the job that ended. *Eligible (decided):* a separation for lack of work (a layoff, closure or abolished position) or a discharge the state found was not for misconduct, the note's eligible list under `-95`'s definition, \"separated against one's will for a reason other than misconduct\". Misconduct is the narrow, willful standard most states use [EV-WRK-416], so a worker fired for poor performance qualifies. *Not eligible:* a discharge for misconduct, or a quit without good cause. *Quits for good, work-connected reasons (`DEC-2026-11-18-20`, W4):* a quit the state's final determination found was for good cause connected with the work or attributable to the employer, such as unpaid wages, a large pay cut or unsafe conditions, qualifies; a quit for personal good cause (for example following a spouse's move, one of LAB-11.01's compelling reasons [EV-WRK-417]) does not. *No new investigation:* wage insurance reads the determination the state already makes [EV-WRK-414]. In a state that limits good cause to the work or the employer [EV-WRK-415], every allowed quit qualifies; in a state that also allows personal reasons, the adjudicator, who already decides which reason applies, records it on the determination as one field (working choice). The worker files nothing more, and no one re-examines the case. *Misuse, priced:* the risk is a quit called work-connected that was not, mostly where the worker never claimed UI (LAB-18.05), so the former employer has no benefit charge at stake; the state sends that employer the separation notice it already sends, and the gain is limited because the worker must take a lower-paid job with an unrelated employer (LAB-18.04). Section 6 puts misuse at about 20% of the quit route (range 10-50%), about $0.25 billion over FY2030-39, on top of the route's $1.2 billion (`6-cost.md`, part 4). Memo 8 B's cost basis counts layoffs only [EV-WRK-315]; section 6 now adds the discharges not for misconduct that this rule makes eligible (milestone review O-2), and including work-connected quits adds a small cost outside it (judgment). If an appeal reverses the finding, wage insurance follows it: back payments if the worker wins, repayment if they lose, waived where the worker was not at fault",
   "eligibility": "",
   "vehicle": [
    {
@@ -1833,9 +1936,10 @@
   "agenda": "LAB-18",
   "status": "decided for now, `DEC-2026-11-17-95`, rule 4; the window is a working choice",
   "decisions": [
-   "DEC-2026-11-17-95"
+   "DEC-2026-11-17-95",
+   "DEC-2026-11-18-20"
   ],
-  "parameters": "A worker who found a lower-paid job without claiming unemployment insurance applies for wage insurance at the state UI agency within 52 weeks of the separation (working choice), and the same adjudicator decides the separation under the same rules, with the same appeal rights. The unemployment claim form offers wage insurance to everyone who files, the way to lift TAA's low use (11% of all TAA participants collected it [EV-WRK-332], a share of participants, not a take-up rate among those eligible). *From the records (working choice, the design-lens pass under `DEC-2026-11-18-04`, provisional):* once a state's wage records hold hours (LAB-18.06), the state writes to each worker its records show was separated and reemployed at a lower hourly wage, and the worker accepts on the portal; no application",
+  "parameters": "A worker who found a lower-paid job without claiming unemployment insurance applies for wage insurance at the state UI agency within 52 weeks of the separation (working choice), and the same adjudicator decides the separation under the same rules, with the same appeal rights. The unemployment claim form offers wage insurance to everyone who files, the way to lift TAA's low use (11% of all TAA participants collected it [EV-WRK-332], a share of participants, not a take-up rate among those eligible). *From the records (decided, `DEC-2026-11-18-20`, W4; the estimate of its cost is provisional):* once a state's wage records hold hours (LAB-18.06), the state writes to each worker its records show was separated and reemployed at a lower hourly wage, and the worker accepts on the portal; no application",
   "eligibility": "",
   "vehicle": [
    {
@@ -1916,12 +2020,13 @@
   "id": "LAB-18.08",
   "title": "Wage insurance's start, agreements and monthly statement",
   "agenda": "LAB-18",
-  "status": "decided for now, `DEC-2026-11-17-95`; the start date and agreements are working choices; the monthly statement decided as recommended (`DEC-2026-11-18-06`), with the gut check's tolerance and automatic end (section 5, part 3) for Espen to confirm",
+  "status": "decided for now, `DEC-2026-11-17-95`; the start date and agreements are working choices; the monthly statement decided (`DEC-2026-11-18-06`), with the gut check's tolerance and automatic end confirmed (`DEC-2026-11-18-21`, W6)",
   "decisions": [
    "DEC-2026-11-17-95",
-   "DEC-2026-11-18-06"
+   "DEC-2026-11-18-06",
+   "DEC-2026-11-18-21"
   ],
-  "parameters": "*Start:* for separations on or after January 1, 2031, with the UI standards (working choice); if R1 is late, the first January 1 at least 18 months after its enactment. *Agreements:* Labor signs an agreement with each state UI agency to act as its agent, on the model of trade adjustment's, under which states paid its wage insurance [EV-WRK-331] until the program's phased termination began on July 1, 2022 [EV-WRK-330]; Labor pays benefits and the agencies' administrative costs from federal funds. *Monthly statement (provisional):* LAB-18.02 pays each month but LAB-18.06's employer reports are quarterly, so the worker confirms each month on the state's claim portal the hours worked at the new job, with the employer's reported rate filled in; the employer's quarterly report, and from 2033 the wage record, checks it after the fact, and an honest overpayment is waived. *Tolerance (working choice, W6's gut check):* a quarter's difference under 10% of the payment or $100, whichever is larger, is not pursued either way. *The statement ends itself:* once a state's wage records hold hours (LAB-18.06), payment is figured from them and the statement stops; until then hours an employer reports monthly are filled in for the worker to confirm, and a missed month may be filed until the end of the benefit year. The alternatives are quarterly payment in arrears on the employer's report, or monthly employer reports",
+  "parameters": "*Start:* for separations on or after January 1, 2031, with the UI standards (working choice); if R1 is late, the first January 1 at least 18 months after its enactment. *Agreements:* Labor signs an agreement with each state UI agency to act as its agent, on the model of trade adjustment's, under which states paid its wage insurance [EV-WRK-331] until the program's phased termination began on July 1, 2022 [EV-WRK-330]; Labor pays benefits and the agencies' administrative costs from federal funds. *Monthly statement (decided, W6):* LAB-18.02 pays each month but LAB-18.06's employer reports are quarterly, so the worker confirms each month on the state's claim portal the hours worked at the new job, with the employer's reported rate filled in; the employer's quarterly report, and from 2033 the wage record, checks it after the fact, and an honest overpayment is waived. *Tolerance (confirmed, `DEC-2026-11-18-21`):* a quarter's difference under 10% of the payment or $100, whichever is larger, is not pursued either way. *The statement ends itself:* once a state's wage records hold hours (LAB-18.06), payment is figured from them and the statement stops; until then hours an employer reports monthly are filled in for the worker to confirm, and a missed month may be filed until the end of the benefit year. The alternatives are quarterly payment in arrears on the employer's report, or monthly employer reports",
   "eligibility": "",
   "vehicle": [
    {
@@ -2312,7 +2417,7 @@
   "id": "LAB-17.01",
   "title": "No worker seats on corporate boards in the first bill; codetermination studied further",
   "agenda": "LAB-17",
-  "status": "provisional, on the recommendation: point 11 (`DEC-2026-11-17-24`), for Espen",
+  "status": "decided, point 11 (`DEC-2026-11-17-24`, confirmed `DEC-2026-11-18-03`): study further",
   "decisions": [
    "DEC-2026-11-17-24"
   ],
@@ -2322,7 +2427,7 @@
    {
     "vehicle": "none",
     "kind": "proposal",
-    "note": "not in the first bill; provisional"
+    "note": "not in the first bill; the study continues"
    }
   ],
   "agency": "—",
@@ -2338,10 +2443,11 @@
   "id": "LAB-19.01",
   "title": "Hours and occupation in every state's quarterly wage records",
   "agenda": "LAB-19",
-  "status": "provisional, on the recommendation: memo 10 part 1 C (`DEC-2026-11-17-96` sends it to Espen); the hours field itself is decided (`-95`, way iii)",
+  "status": "decided, memo 10 part 1 C (`DEC-2026-11-17-96`; kept by W1, `DEC-2026-11-18-19`); the hours field itself is decided (`-95`, way iii)",
   "decisions": [
    "DEC-2026-11-17-95",
-   "DEC-2026-11-17-96"
+   "DEC-2026-11-17-96",
+   "DEC-2026-11-18-19"
   ],
   "parameters": "By January 1, 2033 (working choice), every state's quarterly wage report carries each worker's hours worked and occupation code beside earnings, as a condition of the state's administration grant (LAB-11.08). Hours are already decided for wage insurance (LAB-18.06); occupation is the addition memo 10 recommends. Employers add two fields to a report they already file; a one-time grant to states for the change, about $0.2-0.5 billion (judgment). The data stay inside the UI confidentiality rules, shared with BLS for statistics only",
   "eligibility": "",
@@ -2370,10 +2476,11 @@
   "id": "LAB-19.02",
   "title": "A reason box on the 90-day layoff notice: deferred to the AI topic",
   "agenda": "LAB-19",
-  "status": "deferred by DEC-2026-11-18-01 (Espen's W1) to the AI topic sessions; provisional until Espen confirms the revised draft",
+  "status": "deferred to the AI topic sessions (`DEC-2026-11-18-01`, confirmed `DEC-2026-11-18-19`, Espen's W1)",
   "decisions": [
    "DEC-2026-11-17-96",
-   "DEC-2026-11-18-01"
+   "DEC-2026-11-18-01",
+   "DEC-2026-11-18-19"
   ],
   "parameters": "Not in the first bill. Whether the notice under LAB-13.01 should state the layoff's main reason, including a change in technology or automation, and how reliable an employer's own account would be, goes to the AI topic (AI-4) with the AI-exposure method and employers' liability for replacing workers with AI. LAB-13.01's notice is unchanged. No cost",
   "eligibility": "",
@@ -2397,10 +2504,11 @@
   "id": "LAB-19.03",
   "title": "A yearly BLS displacement report, its method in statute and audited",
   "agenda": "LAB-19",
-  "status": "provisional, on the recommendation: memo 10 part 1 C (`DEC-2026-11-17-96` sends it to Espen), revised to DEC-2026-11-18-01 without the AI flag",
+  "status": "decided, memo 10 part 1 C without the AI flag (`DEC-2026-11-18-01`, confirmed `DEC-2026-11-18-19`, W1)",
   "decisions": [
    "DEC-2026-11-17-96",
-   "DEC-2026-11-18-01"
+   "DEC-2026-11-18-01",
+   "DEC-2026-11-18-19"
   ],
   "parameters": "BLS publishes each year, and quarterly once LAB-19.01's records allow, the displacement of long-tenured workers and the employment of workers under 26, by occupation, industry, state and age, with what displaced workers earn after; the displaced-worker survey runs every year, not every two [EV-WRK-315] [EV-WRK-317]. Flagging AI-exposed occupations is deferred to the AI topic, with its method (`DEC-2026-11-18-01`); the report counts displacement of every kind and attributes none of it to a cause. The method is set in statute and GAO audits it every three years, as the legacy AI-4 proposed [EV-WRK-711]. About $20-50 million a year (judgment)",
   "eligibility": "",
@@ -2434,9 +2542,10 @@
   "id": "LAB-19.04",
   "title": "A standby displacement trigger",
   "agenda": "LAB-19",
-  "status": "provisional, on the recommendation: memo 10 part 2 C (`DEC-2026-11-17-96` sends it to Espen)",
+  "status": "decided, memo 10 part 2 C (`DEC-2026-11-17-96`; kept by W1, `DEC-2026-11-18-19`)",
   "decisions": [
-   "DEC-2026-11-17-96"
+   "DEC-2026-11-17-96",
+   "DEC-2026-11-18-19"
   ],
   "parameters": "An occupation group or a state is in a displacement period when, for two quarters running, the share of its long-tenured workers who lose their jobs is at least 50% above its average of the prior five years, or the employment of its workers under 26 is at least 50% further below trend than its usual range (working choices), on LAB-19.03's measure. The period ends when the measure is below the threshold for two quarters. It starts once LAB-19.01's records have two years of data (about 2035 on the working timeline). Like Extended Benefits [EV-WRK-395], it switches on by rule; no displacement trigger has been evaluated, and Extended Benefits' own effects are disputed [EV-WRK-374] [EV-WRK-375]",
   "eligibility": "",
@@ -2462,10 +2571,11 @@
   "id": "LAB-19.05",
   "title": "What switches on in a displacement period, within a yearly cap",
   "agenda": "LAB-19",
-  "status": "provisional, on the recommendation: memo 10 part 2 C (`DEC-2026-11-17-96` sends it to Espen)",
+  "status": "decided, memo 10 part 2 C (`DEC-2026-11-17-96`; kept by W1, `DEC-2026-11-18-19`)",
   "decisions": [
    "DEC-2026-11-17-96",
-   "DEC-2026-11-17-95"
+   "DEC-2026-11-17-95",
+   "DEC-2026-11-18-19"
   ],
   "parameters": "For workers displaced from an occupation group or state in a displacement period: wage insurance for a third year, and from one year's tenure instead of three (LAB-18.01, 18.02); for workers under 30, priority for apprenticeship places with LAB-8.01's grants and for service-to-apprenticeship places (LAB-9.03) once that tranche is open. The expansion spends at most $5 billion a year in all (working choice); if the cap binds, the third year is paid first. A worker enrolled during a period keeps the expanded help. Never asks what caused the loss. Zero while off; about $0 to +$0.02 trillion over FY2030-39 on today's evidence (judgment, memo 10). Contingent spending in R1 with wage insurance",
   "eligibility": "",
