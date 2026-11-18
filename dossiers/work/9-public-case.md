@@ -1,0 +1,212 @@
+# Fair pay and real power at work: the public case
+
+Role: section 9 of the work dossier (flagship 5). It gives a plain-language brief, the core messages, hard questions with honest answers, composite stories, the items still with Espen, and a can-say / can't-say list. It is built only from sections 1 to 8 and never runs ahead of them (`dossiers/TEMPLATE.md`, "Section 9 only from sections 1 to 8"). Status: **draft** (stage F), on `DEC-2026-11-17-01` to `-36`, `-95` and `-96`. Items still with Espen are drafted on their recommendations and shown as provisional, not as commitments. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. The project's own estimates say "about", give a range or say "on our estimates", and a result that holds only under conditions states them. Each promise is dated from when its provision takes effect.
+
+**The dates in this section** follow the dossier's working timeline (section 4, "Dates"; section 5, part 3). The plan begins in January 2029. Executive steps start on January 20, 2029. The 2029 reconciliation act carries the money by about mid-2029. The labor act, which carries the rules, is assumed signed by June 30, 2029. If it is signed later, the first wage step moves to the first January 1 at least six months after signing, and every later step moves with it (LAB-4.01). The labor act also needs 60 Senate votes, or the Senate rules reform the plan assumes (section 5, part 3). Every promise below that rides the labor act holds only if it passes.
+
+## The brief
+
+**Pay that keeps up, power that holds, and help when a job ends.**
+
+The federal minimum wage has been $7.25 an hour since July 24, 2009, the longest stretch without a raise in the Labor Department's table (Department of Labor, 2026) [EV-WRK-002] [EV-WRK-003]. A full-time year at $7.25 earns $15,080 (Congressional Research Service, 2021) [EV-WRK-022]. The Economic Policy Institute, a labor-aligned think tank, estimates its real value is 41% below 1968's (Economic Policy Institute, 2025) [EV-WRK-023]. In 20 states $7.25 is still the working floor (the project's count from the Department of Labor's table, 2026) [EV-WRK-012] [EV-WRK-013] [EV-WRK-014]. The tipped cash wage has been $2.13 since 1996 (the United States Code; Congressional Research Service, 2021) [EV-WRK-004] [EV-WRK-005].
+
+Meanwhile:
+- **Few have a union.** 10.0% of workers were union members in 2025, and 5.9% in the private sector (Bureau of Labor Statistics, 2026) [EV-WRK-100] [EV-WRK-101], while 71% of Americans approve of unions (Gallup, 2026) [EV-WRK-105].
+- **The labor board can't hold its ground.** It had no quorum from the end of January 2025 until January 7, 2026 (NLRB, 2025 and 2026; Congressional Research Service, 2026) [EV-WRK-115] [EV-WRK-116] [EV-WRK-135]. Its remedies carry no civil penalty (the National Labor Relations Act) [EV-WRK-129]. New unions waited an average of 463 days for a first contract in 2026 (Bloomberg Law, 2026) [EV-WRK-126].
+- **The rules go unenforced.** The Wage and Hour Division had 611 investigators in May 2025, against 1,232 in 1978 (Economic Policy Institute, 2025) [EV-WRK-207]. It recovered $259 million in FY2025 (Department of Labor, 2026) [EV-WRK-200]. Researchers estimate workers lose more than $13 billion to $15 billion a year to minimum-wage violations alone (Rutgers researchers, 2025; Economic Policy Institute, 2017) [EV-WRK-211] [EV-WRK-210].
+- **Losing a job costs more and is cushioned less.** 3.3 million workers who had held their jobs at least three years were displaced in 2023-25. Of those back in full-time work, only about 49% earned as much as before, and only about 45% of the displaced got written notice (Bureau of Labor Statistics, 2026) [EV-WRK-315] [EV-WRK-317] [EV-WRK-318]. Unemployment insurance reached 27% to 29% of unemployed people (Federal Reserve Bank of Minneapolis, 2025; National Employment Law Project, 2025) [EV-SEC-045] [EV-SEC-046]. Only 18 state trust funds met the solvency standard at the start of 2026 (Department of Labor, 2026) [EV-WRK-304].
+
+**What the plan does.** Two laws in 2029, executive steps from January 20, 2029, and a bipartisan service bill.
+
+1. **A floor that keeps up** (the labor act).
+   - The federal minimum rises in five steps: **$9.50 on January 1, 2030**, then $11.00 (2031), $12.50 (2032), $14.00 (2033), $15.50 (2034) and **$17.00 on January 1, 2035**, the Raise the Wage Act's schedule (H.R. 2743, 2025) [EV-WRK-042]. From January 1, 2036 it rises each year with the median wage, about $17.60 in 2036 on our estimates. It never falls (LAB-4.01, 4.02).
+   - A step waits a year if unemployment is rising at the October 1 check before it (LAB-4.03).
+   - A wage commission of workers, employers and economists reports each spring on where the floor bites, rural counties first, and may recommend more. Congress decides (LAB-4.04).
+   - The youth wage ends on January 1, 2030. The tipped cash wage rises in seven steps to the full floor in cash on January 1, 2036. Section 14(c) certificates, which let 642 employers pay 35,534 workers with disabilities below the minimum in 2025 (Department of Labor, 2026) [EV-WRK-008], end over five years: holders reach the full floor on January 1, 2034, with a funded move into supported jobs and no loss of day services (LAB-4.06 to 4.09).
+   - Employers under 50 workers get a small, temporary payroll credit for the first three steps, 2030-32: about $3 billion on our estimates. **Its size is provisional,** with Espen (LAB-5.01; below).
+2. **Power that holds** (the labor act, on signing, about mid-2029 on the working timeline).
+   - A union is certified when a majority of workers sign cards. A union can still ask for an election, held within 20 days (LAB-1.01, 1.02).
+   - No mandatory anti-union meetings. Bargaining starts within 10 days, mediation at 90, binding arbitration 30 days after that, the Faster Labor Contracts Act's timetable, which passed the House 230 to 193 (House Clerk, 2026) [EV-WRK-144] (LAB-1.03, 1.05).
+   - Penalties of up to $50,000 per violation and $100,000 for a repeat or serious one (the PRO Act's text, 2025) [EV-WRK-142], sought in federal court, where either side may ask for a jury. Workers can sue on their own if the labor board does not act in 60 days. If the board loses its quorum for 90 days, cases go to court and certifications stand (LAB-2.01 to 2.04).
+   - Unions may negotiate fees from everyone they represent, overriding the right-to-work laws of 26 states (National Conference of State Legislatures, 2026) [EV-WRK-141], in a separate title that can fall without the rest (LAB-1A.01).
+   - Industry standards boards set binding floors. The first, for fast-food chains, is appointed within 90 days of signing and must set its standard within 18 months, about January 2031 (LAB-3.01, 3.02).
+   - Federal workers' bargaining is restored by executive order on January 20, 2029, and then in law (LAB-16.01).
+3. **Rules that are enforced.**
+   - Wage and Hour investigators rise from 611 to at least 1,200 by FY2034, hired from FY2030; OSHA's inspectors grow in step (LAB-7.01).
+   - From signing: willful wage theft costs three times what was owed, violators are published, wage claims can go as class actions, and forced arbitration of them ends (LAB-7.03 to 7.05).
+   - A heat standard: OSHA finishes its rule on January 20, 2029 if none is final; the act's own minimums (water, shade, rest, a plan) apply 180 days after signing; OSHA's final standard is due within a year of signing (LAB-6.01, 6.02).
+   - Threatening to report a worker's immigration status for complaining is illegal retaliation, from signing (LAB-7.06).
+   - Pay ranges in job postings at employers of 15 or more, and schedules posted 14 days ahead at large retail, food-service and warehouse employers, from January 1, 2031. Every covered worker may discuss their own pay, from signing (LAB-7.08, 7.09, LAB-15.01).
+   - The overtime salary line is set in law by the 2024 method, never below $1,128 a week, against $684 today (Federal Register, 2024; Department of Labor, 2025) [EV-WRK-221] [EV-WRK-223]: about $1,310-1,370 a week in 2030 on our estimates, from January 1, 2030 (LAB-12.02). Home care workers stay under wage and overtime law, from signing (LAB-12.01).
+   - 90 days' notice of a large layoff, counted across an employer's sites and enforced by the Labor Department, from 180 days after signing (LAB-13.01).
+4. **Help when a job ends** (the 2029 reconciliation act, by about mid-2029).
+   - **Unemployment insurance** in every state, for benefit weeks from January 1, 2031: at least 26 weeks, a benefit of 75% of a worker's high-quarter weekly pay up to at least two-thirds of the state's average wage, part-time workers covered. Extended Benefits become fully federal and switch on automatically in a downturn (LAB-11.01, 11.04). Claimants attest that they are able and available; there are no weekly employer-contact quotas (LAB-11.07).
+   - **Wage insurance**, for job losses from January 1, 2031: a worker with three years in the job who takes a lower-paid one gets half the hourly drop for each hour worked, up to $10,000 a year, for two years. Nobody is asked what caused the job loss (LAB-18.01, 18.02).
+   - **Apprenticeship:** new registered apprentices from 311,035 in FY2025 (Labor Department figures in a Nevada State Apprenticeship Council report, 2026) [EV-WRK-349] to 600,000 a year by FY2034, in construction, energy, care and advanced manufacturing, with grants to sponsors of up to $12,000 per apprentice and support for child care, tools and transport (LAB-8.01, 8.03, 8.04).
+   - **National service:** 150,000 more full-time positions a year by 2034, ramped from 2030, authorized by a bipartisan bill. If none passes by December 31, 2030, the reconciliation act funds the same scale from FY2031. Up to 50,000 more service-to-apprenticeship places open only once the first 150,000 are filled and completing, in 2035 on the working ramp (LAB-9.01, 9.03, 9.06).
+
+**What it costs, on our estimates.** About **$0.20 trillion over 2030-39** (range about $0.10-0.35 trillion) and about **$27 billion a year from 2040** (range about $13-44 billion) on the federal general fund, before the plan's financing (section 6). No official score exists yet; the plan asks CBO and the Joint Committee on Taxation to score the main pieces in 2027-28. These figures hold under stated conditions:
+- they assume **no recession**, as CBO's projections do. A moderate two-year downturn would add about $70-100 billion of fully federal Extended Benefits;
+- they leave out the gated service places (up to about $13 billion), the items still with Espen (about $2 billion, plus a standby trigger of up to $5 billion a year when on), and the agencies' new staff, which the plan's capacity budget carries;
+- unemployment benefits rise about $259 billion over 2031-39, paid from the state trust funds and matched over the cycle by employers' state taxes on a larger wage base, so they are not general-fund costs. Social Security's funds lose about $21 billion over the same years.
+
+**What the plan is honest about.**
+- **Whether a higher floor costs jobs is contested.** CBO estimated 1.3 million to 1.4 million fewer jobs for $15 by 2025 (Congressional Budget Office, 2019 and 2021) [EV-WRK-029] [EV-WRK-032]. A study of 138 state increases found low-wage job counts essentially unchanged (Cengiz, Dube, Lindner and Zipperer, 2019) [EV-WRK-033]; a broad review found most estimates negative (Neumark and Shirley, 2022) [EV-WRK-034]. The plan's $17 comes in 2035, when on our estimates it is about half the median wage, a smaller bite than CBO's $15 in 2025.
+- **One family type keeps too little of a raise in 2030-34.** On our estimates, a full-time single adult who buys coverage on the marketplace in a state that has not expanded Medicaid, and whose pay rises from $7.25 to $12.50 in 2032, keeps about **39% of the raise under the plan, against 59% under 2029 law** (section 7, part 1B). The plan's larger tax credit for workers without children and its food-aid deduction phase out over the same range. The adult is not worse off in dollars than under 2029 law, apart from about $90 a year for paid leave. From 2035, when the single health plan removes the premium, the share is 52-59%. The finding has gone to the owners of the plan's income-support rules and to the financing settlement, which may fix it (section 8, part 6). It is not fixed yet.
+- **The labor act is the hardest vote in the plan.** The project's earlier vote simulation gave it a 13% chance in the plan's first Congress (the project's legacy vote simulation) [EV-WRK-712]. Without it, the reconciliation act's parts still run: unemployment and wage insurance, apprenticeship, the 14(c) grant and service. The executive steps last only while an administration keeps them.
+- **The state unemployment agencies are the largest delivery risk.** In the pandemic, 17 of 50 states said their systems could not carry out the new federal programs (Department of Labor's Office of Inspector General, 2021) [EV-DEM-295]. The plan gives them a systems grant and a full legislative session before 2031.
+
+## The case in one paragraph
+
+The federal minimum wage has been stuck at $7.25 since 2009, the labor board has been without a quorum, and the people who enforce the rules are half as many as in 1978. This plan raises the floor in five yearly steps to $17 in 2035 and then ties it to the median wage, so it never erodes again, with a pause if a recession starts and a commission that watches where it bites. It lets workers form a union by signing cards, gets them a first contract on a deadline, and puts penalties in federal court so the law holds whoever runs the board. It doubles the wage inspectors and triples the damages for willful wage theft. And when a job ends, unemployment insurance reaches more people for 26 weeks, and a worker who takes a lower-paid job gets half the drop for two years, whatever caused the loss.
+
+## Messages
+
+| Message | Evidence | Line it must not cross |
+| --- | --- | --- |
+| "$7.25 since 2009. $17 by 2035, then it keeps up." | $7.25 since July 24, 2009 (Department of Labor, 2026) [EV-WRK-002]; the schedule from January 1, 2030 (LAB-4.01) | Don't say "$17 now" or "$17 in 2030": the first step is $9.50 on January 1, 2030, and $17 comes on January 1, 2035, if the labor act is signed by June 30, 2029 |
+| "A raise that families keep" | Full-time parents starting at $7.25 keep 81-98% of the raise, on our estimates (section 7, part 1B) | Don't say every worker keeps most of it: a full-time single adult on the marketplace in a non-expansion state keeps about 39% in 2032, against 59% under 2029 law, until the fix the secure floor's owners and stage G may make |
+| "Sign a card, get a union" | British Columbia's move from card check to mandatory votes cut certification success 19 points, and its return restored it (Riddell, 2004) [EV-WRK-168] | Don't say elections end: a union can still choose one, within 20 days (LAB-1.02) |
+| "The law holds whoever runs the board" | Penalties in federal court with a jury, a private right to sue, and a quorum fallback (LAB-2.01 to 2.04); the board lost its quorum in 2025 [EV-WRK-115] [EV-WRK-135] | Don't promise the board itself can't be captured: the design routes around it |
+| "Steal wages, pay three times" | Treble damages for willful theft (LAB-7.04); 611 investigators in 2025 against 1,232 in 1978 [EV-WRK-207] | Don't claim recovery of a set dollar amount: the $13-15 billion loss figures are researchers' estimates [EV-WRK-210] [EV-WRK-211] |
+| "Help when a job ends, whatever caused it" | Wage insurance never asks the cause (LAB-18.01); the Trade Adjustment Assistance version raised older displaced workers' employment 8 to 17 points (Hyman, Kovak and Leive, Federal Reserve Bank of New York, 2024) [EV-WRK-365] | Don't say wage insurance is the plan's whole answer to AI: Espen asked for more, and the measurement and trigger are still with Espen (memo 10) |
+| "90 days' notice, not a pink slip on Friday" | Only about 45% of displaced workers got written notice (Bureau of Labor Statistics, 2026) [EV-WRK-318] | Don't say severance is required: point 5 is still being studied |
+
+## Hard questions, plain answers
+
+- **"Won't $17 kill jobs?"** It may cost some. CBO put $15 by 2025 at 1.3 million to 1.4 million fewer jobs (Congressional Budget Office, 2019 and 2021) [EV-WRK-029] [EV-WRK-032]; other careful studies find little or no loss in the range states have tried (Cengiz and others, 2019) [EV-WRK-033]. The plan's floor reaches $17 in 2035, when on our estimates it is about half the median wage, in five yearly steps, with a pause if unemployment rises and a commission that reports county by county where it bites and can recommend a slower step. A CBO score of this design is asked for in 2027-28.
+- **"Won't a raise just be eaten by lost benefits?"** For most families, no, on our estimates. A full-time single parent moving from $7.25 to the floor keeps 81-98% of the raise under the plan, and a worker starting at $12.00 keeps about half to three-quarters (section 7, part 1B, in 2029 dollars, with hours held fixed). The weak case is the single adult without children on the marketplace in a state that has not expanded Medicaid: from $7.25 to $12.50 in 2032 they keep about 39% under the plan, against 59% under 2029 law, because two of the plan's own supports phase out over the same range. That case goes to the secure floor's owners and the financing settlement to fix, and it ends in 2035 when the single health plan starts, when the share is 52-59%.
+- **"Who pays for the raise?"** Mostly employers and customers, not taxpayers. A peer-reviewed study finds a 10% minimum-wage rise lifts grocery prices about 0.36% (Renkin, Montialoux and Siegenthaler, 2020) [EV-WRK-065]. CBO's 2019 analysis of $15 found real income gains for families below three times the poverty line and losses above it, most of them above six times the line and mostly in business income (Congressional Budget Office, 2019) [EV-WRK-450].
+- **"Doesn't card check end the secret ballot?"** No. A union can still choose an election, held within 20 days, and the board checks every card against payroll within 14 days (LAB-1.01, 1.02). Employers can't hold mandatory anti-union meetings, and violations carry penalties.
+- **"Why override right-to-work states?"** Every study in the register finds right-to-work laws lower unionization (Fortin, Lemieux and Lloyd, 2022; Eren and Ozbeklik, 2016) [EV-WRK-165] [EV-WRK-166]; their effect on wages is contested. The fee title is separate: if it is dropped or struck down, the rest of the act stands.
+- **"Will this crush small business?"** Every employer follows one published schedule, with no size tiers to track. Employers under 50 workers get a temporary credit for the first three steps, about $3 billion on our estimates, and its size is still with Espen. No study shows a credit like this softens job effects, so it is a cushion, not a remedy (section 7, part 6).
+- **"Can state unemployment offices handle it?"** It is the plan's biggest delivery risk. States get a one-time systems grant, a floor under their administration money, a full legislative session before January 1, 2031, and a cure period before any penalty. Identity and wage checks use records the government already holds, the lesson of pandemic fraud, which GAO estimated at $100 billion to $135 billion (Government Accountability Office, 2023) [EV-WRK-378].
+- **"What about AI?"** No broad displacement shows yet (Yale Budget Lab, 2025 and 2026) [EV-WRK-357] [EV-WRK-358]. One payroll study finds workers aged 22 to 25 in AI-exposed jobs 19% below trend (Brynjolfsson, Chandar and Chen, Stanford Digital Economy Lab, 2026) [EV-WRK-355]; a job-postings study finds little sign (Federal Reserve Bank of New York, 2026) [EV-WRK-361]. Wage and unemployment insurance never ask what caused a loss, so they reach AI-displaced workers on the same terms. Measuring displacement by occupation every year, and help that grows automatically where it rises, are recommended and still with Espen (memo 10).
+- **"What if Congress won't pass the labor act?"** Then the floor, the organizing rules and the enforcement changes wait. The reconciliation act's parts (unemployment and wage insurance, apprenticeship, the 14(c) grant and service) need only 51 votes and still run. The January 2029 executive steps hold only while an administration keeps them.
+
+## Stories (composite illustrations, not real people)
+
+On our estimates, in 2029 dollars, with hours held fixed (section 7, part 4):
+- **A single mother of two in Texas, full time at $7.25.** By 2035 her gross pay rises from about $13,190 to $30,925. With the plan's other supports she keeps about $14,350 a year more, and her family's net resources reach about 167% of the poverty guideline, before child care and health care, which the plan also provides.
+- **A warehouse worker at $12.00 in a state that indexes its minimum, single.** The floor adds about $5,965 a year before tax, and he keeps about $4,510.
+- **A machinist laid off at $32 an hour in 2031** after years at one plant, who takes a $24 job. He gets $4 for every hour he works, up to $10,000 a year, for two years (LAB-18.02).
+- **A line cook in a state that has not expanded Medicaid, single, full time at $7.25.** When the floor reaches $12.50 in 2032 she keeps about 39% of her raise, against 59% under 2029 law, because the plan's tax credit for workers without children and its food-aid deduction phase out over the same range. That is the case the plan has sent back to be fixed; from 2035 she keeps more.
+
+## Still with Espen (provisional)
+
+Each is drafted on its recommendation, so the plan is complete, and revised if Espen answers otherwise. None is a commitment yet.
+
+| Item | Recommended, provisional | Where |
+| --- | --- | --- |
+| Measuring job displacement (memo 10, part 1) | Hours and occupation added to the wage reports employers already file, by January 1, 2033; a reason box on layoff notices; a yearly federal displacement report, with AI exposure flagged but never used to decide who gets help | LAB-19.01 to 19.03 |
+| A standby trigger (memo 10, part 2) | Where measured displacement in an occupation or state runs well above its recent level, wage insurance runs a third year and opens to one year's tenure, and young workers get priority apprenticeship places, within $5 billion a year; from about 2035 | LAB-19.04, 19.05 |
+| Severance (point 5) | No federal mandate in the first bill; study, then recommend a mandate or a guarantee that states and cities may require it | LAB-14.01 |
+| Worker seats on company boards (point 11) | Not in the first bill; still being studied | LAB-17.01 |
+| Wage insurance after a quit | Quits the state finds were for good cause connected with the work (unpaid wages, unsafe conditions) qualify; personal ones do not | LAB-18.03 |
+| American Samoa's wage path | The Northern Mariana Islands follow the federal schedule; American Samoa keeps its own path, with the commission reporting each year | LAB-4.10 |
+| Wage insurance's monthly payment | The worker confirms hours each month, checked against the employer's quarterly report | LAB-18.08 |
+| The small-business credit's size | Keep it as specified, about $3 billion, rather than widen it toward the $0.02-0.04 trillion first estimated | LAB-5.01 |
+
+One more piece is provisional for the milestone review, not for Espen: how the Labor Department pays claimants in a state that will not meet the new unemployment standards (LAB-11.10).
+
+## Can say / can't say
+
+| Can say | Can't say (yet) |
+| --- | --- |
+| The federal minimum has been $7.25 since July 2009 [EV-WRK-002] | That $7.25 is what most low-wage workers earn: 82,000 hourly workers earned exactly $7.25 and 760,000 less in 2024 (Bureau of Labor Statistics, 2025) [EV-WRK-019]; the larger group earns a little above it |
+| $9.50 on January 1, 2030, rising to $17.00 on January 1, 2035, then with the median wage | Those dates if the labor act is signed after June 30, 2029 or not at all: each step moves with signing |
+| On our estimates, families with children starting at $7.25 keep most of the raise | That every worker keeps most of a raise: the single adult on the marketplace in a non-expansion state keeps about 39% in 2032 (59% under 2029 law) |
+| CBO and careful studies disagree on job loss; the plan's $17 bites less than CBO's $15 | That the floor costs no jobs, or that it will cost a set number |
+| About $0.20 trillion over ten years and about $27 billion a year from 2040, on our estimates, with no recession | That it is scored, or that it is paid for: no CBO score exists, and the plan-wide financing settlement has not yet run |
+| Unemployment benefits are paid by employers' taxes through the state trust funds, matched over the cycle | That the bigger benefits cost nothing: Social Security loses about $21 billion over 2031-39, and a recession adds about $70-100 billion of federal Extended Benefits |
+| Card check, with elections still the union's choice | That union membership will rise by a set amount: no model turns card check into a coverage figure (section 7, part 2) |
+| Penalties in federal court with a jury, so they meet the Supreme Court's 2024 ruling on civil penalties (*SEC v. Jarkesy*) [EV-WRK-131] | That first-contract arbitration and binding standards boards are legally settled: no case in the register tests them |
+| Wage insurance never asks what caused the job loss | That the plan already has an AI trigger: memo 10 is still with Espen |
+| Twice as many wage investigators by FY2034, hired from FY2030 | That enforcement is fixed in 2029: a new investigator takes about two years to carry a full load, so the full effect comes around FY2036 |
+| 71% of Americans approve of unions [EV-WRK-105] | That most non-union workers want one: when forced to choose, a 2017 survey split 48 to 52, and "don't know" led in three of the four most recent surveys (Economic Policy Institute, 2024) [EV-WRK-108] |
+| Posted pay ranges raised wages 1.3-3.6% with no job loss in one study (Arnold, Quach and Taska, 2025) [EV-WRK-407] | That the right to discuss pay raises wages: one peer-reviewed study finds such laws lowered average wages about 2% (Cullen and Pakzad-Hurson, 2023) [EV-WRK-408]; Espen chose it as a right |
+
+## What the earlier public story said, and what changed
+
+The legacy public claim register (SRC-0166) carried the legacy labor file's designs (`legacy/domains/domain-labor.md`, SRC-0025). They are weighed as evidence, not defaults (`DEC-2026-11-13-15`), and three no longer hold:
+- **"A wage floor of $17, then two-thirds of the median wage, with longer phase-ins for small firms and low-wage counties"** (claim `lab4`; the legacy design [EV-WRK-700]). Espen chose $17 then the median, one national schedule, a recession pause and a commission (memo 1, `DEC-2026-11-17-01`, `-02`).
+- **"Industry standards boards for home care and fast food"** (claim `lab3`). Home care's pay now runs through the care wage floor that the government pays (LAB-3.03); fast food gets the first board.
+- **"450,000 construction apprentices"** (claim `apprentice`; the legacy line [EV-WRK-704], which had no source). The plan's target is 600,000 new apprentices a year across four sectors by FY2034 (LAB-8.04).
+
+The claims on statutory labor penalties, strikers and first contracts (`lab1`) and on participation support as an offer (`lab10`) still match.
+
+## Questions for Espen
+
+None new. The provisional items above are the eight already listed in the README (sections 4 to 6). Section 9 presents the single adult's result as an open finding for the secure floor's owners and stage G.
+
+## Source table
+
+| Number in this section | Where | Evidence or basis |
+| --- | --- | --- |
+| $7.25 since July 24, 2009; the longest gap in the table | Section 1, A.1 | EV-WRK-002, EV-WRK-003 |
+| $15,080 a year full time at $7.25 | Section 1, A.1 | EV-WRK-022 |
+| 41% below 1968 in real terms (EPI) | Section 1, A.1 | EV-WRK-023 |
+| 20 states where $7.25 is the working floor (project count) | Section 1, A.2 | EV-WRK-012, EV-WRK-013, EV-WRK-014 |
+| Tipped cash wage $2.13 since 1996 | Section 1, A.1 | EV-WRK-004, EV-WRK-005 |
+| 10.0% union members; 5.9% in the private sector (2025) | Section 1, B.1 | EV-WRK-100, EV-WRK-101 |
+| 71% approve of unions | Section 1, B.2 | EV-WRK-105 |
+| A 48-52 split when forced to choose; "don't know" leading | Section 1, B.2 | EV-WRK-108 |
+| No quorum from late January 2025 to January 7, 2026 | Section 1, B.3 | EV-WRK-115, EV-WRK-116, EV-WRK-135 |
+| No civil penalty in the labor act's remedies | Section 1, B.5 | EV-WRK-129 |
+| 463 days to a first contract (2026) | Section 1, B.4 | EV-WRK-126 |
+| 611 investigators (May 2025) against 1,232 (1978) | Section 1, C.1 | EV-WRK-207 |
+| $259 million recovered in FY2025 | Section 1, C.1 | EV-WRK-200 |
+| More than $13 billion to $15 billion a year lost to minimum-wage violations (estimates) | Section 1, C.2 | EV-WRK-210, EV-WRK-211 |
+| 82,000 at exactly $7.25 and 760,000 below (2024) | Section 1, A.3 | EV-WRK-019 |
+| 3.3 million long-tenured workers displaced; about 49% earned as much; about 45% got written notice | Section 1, D.1 | EV-WRK-315, EV-WRK-317, EV-WRK-318 |
+| Unemployment insurance reached 27% to 29% | Section 1, D.2 | EV-SEC-045, EV-SEC-046 |
+| 18 solvent state trust funds (start of 2026) | Section 1, D.2 | EV-WRK-304 |
+| $9.50 (January 1, 2030) to $17.00 (January 1, 2035), then indexed; about $17.60 in 2036 | Section 4, LAB-4.01, 4.02 and the schedule table | EV-WRK-042; project arithmetic at 3.5% median growth (EV-WRK-078) |
+| A signing after June 30, 2029 moves each step | Section 4, LAB-4.01 | Working choice |
+| Recession pause at the October 1 check | Section 4, LAB-4.03 | EV-WRK-395 |
+| Youth wage ends January 1, 2030; tipped wage to the full floor in cash January 1, 2036 (seven steps) | Section 4, LAB-4.06, 4.07 | EV-WRK-006, EV-WRK-005 |
+| 642 employers, 35,534 workers under 14(c) (2025); ended over five years; full floor January 1, 2034 | Section 4, LAB-4.08; section 5, part 3 | EV-WRK-008 |
+| The credit: employers under 50, first three steps (2030-32), about $3 billion; $0.02-0.04 trillion first estimated | Section 4, LAB-5.01; section 6, parts 1 and 4 | Project arithmetic (section 6, part 1); memo 1's judgment (section 3, "Decided"; no evidence ID) |
+| Elections within 20 days; cards checked within 14 days | Section 4, LAB-1.01, 1.02 | Working choices |
+| 10, 90 and 30 days to a first contract; passed the House 230 to 193 | Section 4, LAB-1.05 | EV-WRK-145, EV-WRK-144 |
+| Penalties up to $50,000 and $100,000; a private suit after 60 days; the quorum fallback at 90 days | Section 4, LAB-2.01, 2.02, 2.04 | EV-WRK-142; working choices |
+| 26 right-to-work states | Section 4, LAB-1A.01 | EV-WRK-141 |
+| Fast-food board within 90 days; first standard within 18 months, about January 2031 | Section 4, LAB-3.02; section 5, part 3 | Decided (memo 5 B) |
+| 600,000 new apprentices by FY2034, from 311,035 in FY2025; up to $12,000 per apprentice | Section 4, LAB-8.01, 8.04 | EV-WRK-349; working choice |
+| Investigators to at least 1,200 by FY2034, hired from FY2030; about two years to a full caseload, full effect around FY2036 | Section 4, LAB-7.01; section 5, part 2 | EV-WRK-207; judgment |
+| Treble damages, publication, class actions and no forced arbitration from signing | Section 5, part 3 | Working choice |
+| Heat: OSHA's rule on January 20, 2029; minimums at 180 days; final standard within a year | Section 4, LAB-6.01, 6.02; section 5, part 3 | EV-WRK-237 |
+| Pay ranges (employers of 15 or more) and schedules (14 days) from January 1, 2031 | Section 4, LAB-7.08, LAB-15.01; section 5, part 3 | Working choices |
+| Overtime: never below $1,128, against $684; about $1,310-1,370 a week in 2030 | Section 4, LAB-12.02 | EV-WRK-221, EV-WRK-223; project arithmetic |
+| 90 days' layoff notice, from 180 days after signing | Section 4, LAB-13.01; section 5, part 3 | EV-WRK-384 |
+| Unemployment insurance from January 1, 2031: 26 weeks; 75% up to two-thirds of the state average wage | Section 4, LAB-11.01; section 5, part 3 | EV-WRK-394 |
+| Wage insurance from January 1, 2031: half the hourly drop, up to $10,000 a year, two years, three years' tenure | Section 4, LAB-18.01, 18.02; section 5, part 3 | Decided for now (`DEC-2026-11-17-95`) |
+| TAA's wage insurance raised employment 8 to 17 points | Section 1, D.5; section 4, LAB-18.02 | EV-WRK-365 |
+| 150,000 more service positions by 2034; fallback after December 31, 2030; up to 50,000 more, opening 2035 on the working ramp | Section 4, LAB-9.01, 9.03, 9.06 | `DEC-2026-11-17-32`; working ramp |
+| About $0.20 trillion over FY2030-39 (about $0.10-0.35 trillion); about $27 billion in FY2040 ($13-44 billion) | Section 6, part 1 and part 8 | Project arithmetic, `tools/work_path.py` ($195.1 billion and $27.4 billion) |
+| No recession; Extended Benefits in a moderate downturn about $70-100 billion | Section 6, part 2 | Judgment |
+| Service tranche up to about $13 billion; items still with Espen about $2 billion; the trigger up to $5 billion a year | Section 6, parts 3 and 4 | Project arithmetic ($12.8 billion; $2.1 billion) |
+| UI benefits about $259 billion over FY2031-39, matched by employers; Social Security about −$21 billion | Section 6, part 2 | Project arithmetic; EV-WRK-413 |
+| CBO: 1.3 million to 1.4 million fewer jobs at $15 | Section 1, A.4; section 7, part 6 | EV-WRK-029, EV-WRK-032 |
+| 138 state increases; most estimates negative in a review | Section 1, A.4 | EV-WRK-033, EV-WRK-034 |
+| $17 in 2035 about half the median | Section 3, "What the options cost"; section 7, part 1A | Project arithmetic on EV-WRK-078 |
+| 81-98% kept by full-time parents from $7.25; 48-76% from $12.00 | Section 7, part 1B | Project arithmetic, `tools/floor_household.py` |
+| The single adult: about 39% under the plan against 59% at 2029 law ($7.25 to $12.50 in 2032); about $90 for paid leave; 52-59% from 2035 | Section 7, part 1B; section 8, part 6 | Project arithmetic, `tools/floor_household.py` |
+| 60 Senate votes for the labor act, or the rules reform; 51 for the reconciliation act | Section 4, "The vehicles"; section 5, part 3 | Legacy D2 (section 3, "Inherited assumptions") |
+| CBO and JCT scores asked for in 2027-28 | Section 3, point 15; section 4, "The vehicles" | `DEC-2026-11-17-28` |
+| 13% vote odds for the labor act (legacy) | Section 5, part 3; section 8 | EV-WRK-712 |
+| 17 of 50 states unable to implement the CARES Act | Section 5, part 2 | EV-DEM-295 |
+| 0.36% on groceries for a 10% raise | Section 7, part 6 | EV-WRK-065 |
+| CBO 2019: gains below three times poverty; losses above it, mostly above six times | Section 7, part 1A | EV-WRK-450 |
+| Right-to-work lowers unionization | Section 4, LAB-1A.01; section 7, part 6 | EV-WRK-165, EV-WRK-166 |
+| British Columbia: 19 points | Section 4, LAB-1.01 | EV-WRK-168 |
+| Pandemic fraud $100 billion to $135 billion | Section 4, LAB-11.06 | EV-WRK-378 |
+| No broad AI displacement; 22-25-year-olds 19% below trend; little sign in postings | Section 1, D.5; section 7, part 6 | EV-WRK-357, EV-WRK-358, EV-WRK-355, EV-WRK-361 |
+| About 45% given written notice | Section 1, D.1 | EV-WRK-318 |
+| The Texas mother: about $13,190 to $30,925 gross; about $14,350 kept; about 167% of the guideline | Section 7, part 4 and part 1B | Project arithmetic, `tools/floor_household.py` |
+| The warehouse worker: about $5,965 gross, about $4,510 kept | Section 7, part 4 | Project arithmetic, `tools/floor_household.py` |
+| The machinist: $32 to $24, $4 an hour | Section 4, LAB-18.02; section 7, part 4 | Illustration of the decided rule |
+| Displacement measure by January 1, 2033; trigger within $5 billion a year, from about 2035 | Section 4, LAB-19.01 to 19.05; memo 10 | Provisional working choices |
+| Pay ranges 1.3-3.6%; pay discussion about 2% lower | Section 4, LAB-7.08, 7.09 | EV-WRK-407, EV-WRK-408 |
+| *SEC v. Jarkesy* (2024) | Section 4, LAB-2.01 | EV-WRK-131 |
+| The legacy $17-then-two-thirds design; 450,000 construction apprentices | Section 1, part H | EV-WRK-700, EV-WRK-704 (legacy claim register, SRC-0166) |
