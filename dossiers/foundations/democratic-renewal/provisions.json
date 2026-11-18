@@ -237,7 +237,7 @@
    "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Citizenship is checked against federal records (SSA's citizenship data, USCIS's verification service, passport records) shared under CAP-19.02, never by documents a voter must bring. A non-match is a flag for review: the voter gets written notice and a chance to respond, and stays registered until a person decides. The audits find noncitizen registration rare: 20 of 8.2 million in Georgia [EV-DEM-163], 27 of 2,069,640 records in Utah [EV-DEM-164]. *Diverges from* the House-passed SAVE America Act's documentary proof [EV-DEM-015]",
+  "parameters": "Citizenship is checked against federal records (SSA's citizenship data, USCIS's verification service, passport records) shared under CAP-19.02, never by documents a voter must bring. A non-match is a flag for review: the voter gets written notice and a chance to respond, and stays registered until a person decides. *Records and evidence (milestone fix 2):* a state may use any record it holds or obtains under CAP-19.02 or its own law to check citizenship, and may deny registration on information in its possession that establishes ineligibility, after the notice and a person's decision; a flagged voter may answer with any evidence, a document included, at the voter's choice. No voter is required to bring a document to register or to vote. This is what keeps the rule inside *Inter Tribal Council*, which kept a state's power to deny registration on information in its possession and said a statute that kept a state from obtaining the information its qualifications need would raise serious constitutional doubts [EV-DEM-375]. The audits find noncitizen registration rare: 20 of 8.2 million in Georgia [EV-DEM-163], 27 of 2,069,640 records in Utah [EV-DEM-164]. *Diverges from* the House-passed SAVE America Act's documentary proof [EV-DEM-015]",
   "eligibility": "",
   "vehicle": [
    {
@@ -252,7 +252,8 @@
    "EV-DEM-015",
    "EV-DEM-162",
    "EV-DEM-163",
-   "EV-DEM-164"
+   "EV-DEM-164",
+   "EV-DEM-375"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -374,7 +375,7 @@
   "decisions": [
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Each division, title and section of the democracy act is severable. Challenges seeking relief beyond the parties go to the three-judge courts of CRT-3.02. *Provisional (section 5, part 8, fix 3):* Division A is enforceable in federal court by the Attorney General, or by an aggrieved voter after written notice to the state's chief election official and a period to correct it (shorter close to a federal election), on the National Voter Registration Act's notice-and-cure model, 52 U.S.C. 20510(b): 90 days to correct after written notice, 20 days within 120 days of a federal election, and no notice within 30 days of one [EV-DEM-351]",
+  "parameters": "Each division, title and section of the democracy act is severable, and so is each provision's application to the appointment of presidential electors from its application to elections for Senator and Representative, and DEM-12.01's application to each state (milestone fix 2; the table under \"The floor's legal footing\" below gives the power and the unit for each rule). Challenges seeking relief beyond the parties go to the three-judge courts of CRT-3.02. *Provisional (section 5, part 8, fix 3):* Division A is enforceable in federal court by the Attorney General, or by an aggrieved voter after written notice to the state's chief election official and a period to correct it (shorter close to a federal election), on the National Voter Registration Act's notice-and-cure model, 52 U.S.C. 20510(b): 90 days to correct after written notice, 20 days within 120 days of a federal election, and no notice within 30 days of one [EV-DEM-351]",
   "eligibility": "",
   "vehicle": [
    {
@@ -387,7 +388,9 @@
   "current_law": "",
   "evidence": [
    "EV-DEM-344",
-   "EV-DEM-351"
+   "EV-DEM-351",
+   "EV-DEM-375",
+   "EV-DEM-376"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
@@ -546,13 +549,50 @@
  },
  {
   "id": "DEM-12.01",
-  "title": "Federal voting rights restored on release, with an official notice",
+  "title": "Federal voting rights restored on release",
   "agenda": "DEM-12",
-  "status": "decided, point 1",
+  "status": "decided, point 1; its power, findings and severability, milestone fix 2; a court risk",
   "decisions": [
    "DEC-2026-11-17-64"
   ],
-  "parameters": "A person convicted of a crime may vote in federal elections once released from prison; on release the state or the Bureau of Prisons gives an official notice of the restored right with a registration form. People held before trial keep the right and get access to vote (legacy, `domain-democracy.md`:226). About 4 million people were disenfranchised in 2024 [EV-DEM-159]; an official mailing raised registration in a Connecticut randomized trial [EV-DEM-161]",
+  "parameters": "A person convicted of a crime may vote in federal elections once released from prison. *Power:* Congress's power to enforce the Fourteenth Amendment (section 5) and the Fifteenth (section 2), on findings of the racial purpose with which states adopted or expanded these laws and of their racial effect today; **not** the Elections Clause, which reaches how federal elections are held, not who may vote in them [EV-DEM-375]. The footing is plausible but contested, and section 9 lists it as a court risk (\"The floor's legal footing\", below). *Its own section, severable* from the rest of the act, and its application to each state severable from its application to the others (DEM-1.13): if it falls, DEM-12.02 and the state track, DEM-12.03, stand. About 4 million people were disenfranchised in 2024, one in 22 African Americans of voting age [EV-DEM-159]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; DOJ",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-159",
+   "EV-DEM-160",
+   "EV-DEM-371",
+   "EV-DEM-372",
+   "EV-DEM-373",
+   "EV-DEM-374",
+   "EV-DEM-375",
+   "EV-DEM-377",
+   "EV-DEM-378",
+   "EV-DEM-379",
+   "EV-DEM-380",
+   "EV-DEM-381"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-12.02",
+  "title": "The official notice on release, and the vote for people held before trial",
+  "agenda": "DEM-12",
+  "status": "decided, point 1; manner rules, severable from DEM-12.01, milestone fix 2",
+  "decisions": [
+   "DEC-2026-11-17-64"
+  ],
+  "parameters": "On release the state or the Bureau of Prisons gives an official notice of the person's voting rights, with a registration form. People held before trial keep the right and get access to register and vote (legacy, `domain-democracy.md`:226). These regulate how federal elections are held, so they rest on the Elections Clause [EV-DEM-375], and they stand if DEM-12.01 falls: the notice then states the rights the person has under state law. An official mailing raised registration in a Connecticut randomized trial [EV-DEM-161]",
   "eligibility": "",
   "vehicle": [
    {
@@ -564,9 +604,35 @@
   "agency": "States; DOJ (Bureau of Prisons)",
   "current_law": "",
   "evidence": [
+   "EV-DEM-161",
+   "EV-DEM-375"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-12.03",
+  "title": "The state track behind DEM-12.01",
+  "agenda": "DEM-12",
+  "status": "milestone fix 2; carrying both, rather than the state track alone, is provisional, open question 3",
+  "decisions": [
+   "DEC-2026-11-17-64"
+  ],
+  "parameters": "If DEM-12.01 is enjoined or held invalid, in whole or for a state: (a) the plan backs state laws that restore the vote on release, the route by which the disenfranchised count fell 31% since 2016 as states restored rights and prison populations fell [EV-DEM-159], with the democracy act's findings as their record, beside the other state tracks (DEM-10, 19, 20); (b) the Attorney General reviews each remaining state provision for the discriminatory purpose *Hunter v. Underwood* held unconstitutional and sues where the record supports it [EV-DEM-372]; (c) DEM-12.02's notice continues. No cost, and no condition on DEM-11's money (a condition would need a memo to Espen, section 8, part 1)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; DOJ (Civil Rights Division)",
+  "current_law": "",
+  "evidence": [
    "EV-DEM-159",
-   "EV-DEM-160",
-   "EV-DEM-161"
+   "EV-DEM-372"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1.2 (each provision against its booked row), with parts 1.3 and 3 for the capacity rows and the unbooked lines",
