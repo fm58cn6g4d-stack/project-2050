@@ -5926,11 +5926,11 @@
    "we estimate that it pays for itself"
   ],
   "locator": "Findings paragraphs",
-  "grade": "B",
+  "grade": "C",
   "fact_date": "2024-07",
   "checked": "2026-11-16",
   "recheck": "2027-07-17",
-  "context": "Federal Reserve Bank of New York blog summarizing NBER Working Paper 32464 (Census LEHD data on 76,500 workers, regression discontinuity at age 50); the working paper is not yet peer reviewed in this form, but a short earlier version appeared in the AEA Papers and Proceedings (EV-WRK-366). Effects on employment fade by year four; earnings gains come mostly from shorter non-employment. The sample is older, long-tenure, less-educated workers displaced by trade; the authors say a larger program might lower wage offers.",
+  "context": "Federal Reserve Bank of New York blog summarizing NBER Working Paper 32464 (Census LEHD data on 76,500 workers, regression discontinuity at age 50); the working paper is not yet peer reviewed in this form, but a short earlier version appeared in the AEA Papers and Proceedings (EV-WRK-366). Effects on employment fade by year four; earnings gains come mostly from shorter non-employment. The sample is older, long-tenure, less-educated workers displaced by trade; the authors say a larger program might lower wage offers. Graded C, not B, until the working paper is published (milestone review W-5; regraded in fix 4).",
   "supports": [
    "dossiers/work/1-problem.md"
   ],
@@ -6536,15 +6536,11 @@
   "fact_date": "2019-11-04",
   "checked": "2026-11-16",
   "recheck": "2027-11-16",
-  "context": "HM Treasury and BEIS commissioned review by Arindrajit Dube, November 2019; not peer reviewed. The 59% and 81% figures summarize studies by Dube and co-authors (the 81% county result is Godøy and Reich); the seven-state result is new analysis in Technical Annex A. A two-thirds of median floor would sit above 59% and below 81%, so the review's own evidence for that range rests on the county studies and the seven-state analysis.",
+  "context": "HM Treasury and BEIS commissioned review by Arindrajit Dube, November 2019; not peer reviewed. The 59% and 81% figures summarize studies by Dube and co-authors (the 81% county result is Godøy and Reich); the seven-state result is new analysis in Technical Annex A. A two-thirds of median floor would sit above 59% and below 81%, so the review's own evidence for that range rests on the county studies and the seven-state analysis. Its 81% county figure is EV-WRK-063's finding (the review's own text names Godøy and Reich), so the two entries record one finding, not two; EV-WRK-063 is not independent support for this review, and the register lists no independent support for either (milestone review W-1). The review's own Technical Annex A analysis of seven states is the only part not drawn from EV-WRK-063 or earlier studies by Dube and co-authors.",
   "supports": [
    "dossiers/work/2-what-works.md"
   ],
   "corroboration": [
-   {
-    "evidence": "EV-WRK-063",
-    "stance": "supports"
-   },
    {
     "evidence": "EV-WRK-060",
     "stance": "contests"
@@ -6997,15 +6993,11 @@
   "fact_date": "2021-01-22",
   "checked": "2026-11-16",
   "recheck": "2027-11-16",
-  "context": "Industrial Relations 60(1), 2021, peer reviewed; event-study and difference-in-differences designs on ACS, QWI and QCEW data, by UC Berkeley researchers whose group has long found small employment effects. Written to inform whether a $15 federal minimum should exempt low-wage areas; the ratios refer to minimum to county median, and results rest on the federal and state increases of 2000 to 2016, not on current $15-plus floors in every county.",
+  "context": "Industrial Relations 60(1), 2021, peer reviewed; event-study and difference-in-differences designs on ACS, QWI and QCEW data, by UC Berkeley researchers whose group has long found small employment effects. Written to inform whether a $15 federal minimum should exempt low-wage areas; the ratios refer to minimum to county median, and results rest on the federal and state increases of 2000 to 2016, not on current $15-plus floors in every county. EV-WRK-051 (Dube's review) restates this study's county result as its 81% figure; the two record one finding, and neither corroborates the other (milestone review W-1).",
   "supports": [
    "dossiers/work/2-what-works.md"
   ],
   "corroboration": [
-   {
-    "evidence": "EV-WRK-051",
-    "stance": "supports"
-   },
    {
     "evidence": "EV-WRK-060",
     "stance": "contests"
@@ -7151,11 +7143,11 @@
    "We find evidence of negative effects on employment, with employment elasticities around −.08."
   ],
   "locator": "Abstract; Conclusion",
-  "grade": "B",
+  "grade": "C",
   "fact_date": "2022-08",
   "checked": "2026-11-16",
   "recheck": "2027-11-16",
-  "context": "NBER Working Paper 29213 (September 2021, revised August 2022), by UC Irvine economists long critical of large increases; a working paper using past state variation in tip credits. The Employment Policies Institute, a restaurant-industry funded group, has promoted this paper in its own summaries, which frame the elasticity as up to a 6.1% employment loss per dollar; those summaries were not read as sources here. Cross-state variation in tip credits was mostly modest, so the design says little about full elimination.",
+  "context": "NBER Working Paper 29213 (September 2021, revised August 2022), by UC Irvine economists long critical of large increases; a working paper using past state variation in tip credits. The Employment Policies Institute, a restaurant-industry funded group, has promoted this paper in its own summaries, which frame the elasticity as up to a 6.1% employment loss per dollar; those summaries were not read as sources here. Cross-state variation in tip credits was mostly modest, so the design says little about full elimination. Graded C, not B, until the working paper is published (milestone review W-5; regraded in fix 4).",
   "supports": [
    "dossiers/work/2-what-works.md"
   ],
@@ -7184,11 +7176,11 @@
    "And most of our evidence provides no indication that higher tipped minimum wages would be well targeted to poor or low-income families or reduce the likelihood of being poor or very low income."
   ],
   "locator": "Abstract",
-  "grade": "B",
+  "grade": "C",
   "fact_date": "2022-08",
   "checked": "2026-11-16",
   "recheck": "2027-11-16",
-  "context": "NBER Working Paper 29213 (revised August 2022), UC Irvine economists critical of large increases; working paper, not peer reviewed in this version. A targeting claim about tipped wages, which the Economic Policy Institute's cross-state comparison (EV-WRK-069) appears to contradict on poverty rates, though that comparison is descriptive.",
+  "context": "NBER Working Paper 29213 (revised August 2022), UC Irvine economists critical of large increases; working paper, not peer reviewed in this version. A targeting claim about tipped wages, which the Economic Policy Institute's cross-state comparison (EV-WRK-069) appears to contradict on poverty rates, though that comparison is descriptive. Graded C, not B, until the working paper is published (milestone review W-5; regraded in fix 4).",
   "supports": [
    "dossiers/work/2-what-works.md"
   ],
@@ -8244,7 +8236,7 @@
   "fact_date": "2012-05",
   "checked": "2026-11-16",
   "recheck": "2027-11-16",
-  "context": "Science (AAAS), peer reviewed, May 2012; academic authors (Berkeley, Harvard Business School, Duke), no stakeholder funding noted in the extract. Quasi-experimental: Cal/OSHA's random allocation of some inspections gives a matched-control comparison. Limits stated in the paper's text: a subset of firms in one state, and it ignores any effect of the threat of inspection on uninspected workplaces. Read through an HBS-hosted copy of the article as well as the abstract. No independent publisher's replication is in the register; the same authors' later AEJ: Applied paper (Johnson, Levine and Toffel 2023, not drafted here for lack of a source ID) reports 2.4 fewer serious injuries (9 percent) per inspection over five years.",
+  "context": "Science (AAAS), peer reviewed, May 2012; academic authors (Berkeley, Harvard Business School, Duke), no stakeholder funding noted in the extract. Quasi-experimental: Cal/OSHA's random allocation of some inspections gives a matched-control comparison. Limits stated in the paper's text: a subset of firms in one state, and it ignores any effect of the threat of inspection on uninspected workplaces. Read through an HBS-hosted copy of the article as well as the abstract. No independent publisher's replication is in the register; the same authors' later AEJ: Applied paper (Johnson, Levine and Toffel 2023, not drafted here for lack of a source ID) reports 2.4 fewer serious injuries (9 percent) per inspection over five years. One study of one state's program; no second study of random or targeted inspections is in the register (milestone review W-3).",
   "supports": [
    "dossiers/work/2-what-works.md"
   ]
@@ -8303,7 +8295,7 @@
   "fact_date": "2020-06",
   "checked": "2026-11-16",
   "recheck": "2027-11-16",
-  "context": "American Economic Review, peer reviewed (June 2020); regression discontinuity around a cutoff rule OSHA used for issuing releases (Obama administration policy, 2009 onward). The paper says the injury result is 'substantial, but the estimate is somewhat imprecise', and that compliance gains appeared where unions were strong and not where they were weak, which it reads as employers avoiding costly responses from workers. The 210-inspection comparison depends on the paper's cost assumptions. Same lead author as EV-WRK-249; not independent of it.",
+  "context": "American Economic Review, peer reviewed (June 2020); regression discontinuity around a cutoff rule OSHA used for issuing releases (Obama administration policy, 2009 onward). The paper says the injury result is 'substantial, but the estimate is somewhat imprecise', and that compliance gains appeared where unions were strong and not where they were weak, which it reads as employers avoiding costly responses from workers. The 210-inspection comparison depends on the paper's cost assumptions. Same lead author as EV-WRK-249; not independent of it. One study, uncorroborated in the register until a second study of publication's effect on compliance is entered (milestone review W-3).",
   "supports": [
    "dossiers/work/2-what-works.md"
   ]
@@ -8523,11 +8515,11 @@
    "Specifications that estimate the rate of injuries or rely on an alternative approach are more sensitive, which may reflect changes in the transportation industry or increased noise due to the lower incidence of injury."
   ],
   "locator": "Abstract; results; conclusion",
-  "grade": "B",
+  "grade": "C",
   "fact_date": "2026-09",
   "checked": "2026-11-16",
   "recheck": "2027-11-16",
-  "context": "NBER Working Paper 35772 (September 2026; 'Cooler Laws, Safer Workers'), not peer reviewed. Hot-versus-cool days, high-risk versus low-risk industries, before versus after the standard; counts of injuries, with the paper reporting rate-based specifications as less stable. California only; the standard was revised in 2010 and 2015 and was made permanent in 2006, so the estimate pools versions. A Health Affairs 2025 study of heat deaths (Dean and McCallum) found no decline in 2005-09 and point estimates of 33 and 51 percent reductions after 2010 and 2015 that were not individually significant (read through an extract; not drafted for lack of a source ID).",
+  "context": "NBER Working Paper 35772 (September 2026; 'Cooler Laws, Safer Workers'), not peer reviewed. Hot-versus-cool days, high-risk versus low-risk industries, before versus after the standard; counts of injuries, with the paper reporting rate-based specifications as less stable. California only; the standard was revised in 2010 and 2015 and was made permanent in 2006, so the estimate pools versions. A Health Affairs 2025 study of heat deaths (Dean and McCallum) found no decline in 2005-09 and point estimates of 33 and 51 percent reductions after 2010 and 2015 that were not individually significant (read through an extract; not drafted for lack of a source ID). Graded C, not B, until the working paper is published (milestone review W-5; regraded in fix 4).",
   "supports": [
    "dossiers/work/2-what-works.md"
   ],
@@ -8700,11 +8692,11 @@
    "We find no impacts on pay dispersion, employment, the number of postings, or skill and education requirements."
   ],
   "locator": "Abstract (NBER Working Paper 34480, November 2025)",
-  "grade": "B",
+  "grade": "C",
   "fact_date": "2025-11",
   "checked": "2026-11-16",
   "recheck": "2027-11-16",
-  "context": "NBER working paper (November 2025 version), not shown as peer reviewed; academic authors with job-posting data from a commercial vendor. The earlier versions and the January 2025 manuscript focus on Colorado's January 2021 posting law (about 30 points more postings with pay information, substantial non-compliance, fines of $500 to $10,000 rarely imposed) and report wage gains of about 1.3 to 3.6 percent from postings, Glassdoor and payroll data; the 2022 version reported a 3.6 percent rise in posted salaries for employers that posted before and after. The wage effects are identified from comparison states and the authors read them as more competition for workers; the mechanism is not directly tested. Opposing evidence: EV-WRK-408 (a different law).",
+  "context": "NBER working paper (November 2025 version), not shown as peer reviewed; academic authors with job-posting data from a commercial vendor. The earlier versions and the January 2025 manuscript focus on Colorado's January 2021 posting law (about 30 points more postings with pay information, substantial non-compliance, fines of $500 to $10,000 rarely imposed) and report wage gains of about 1.3 to 3.6 percent from postings, Glassdoor and payroll data; the 2022 version reported a 3.6 percent rise in posted salaries for employers that posted before and after. The wage effects are identified from comparison states and the authors read them as more competition for workers; the mechanism is not directly tested. Opposing evidence: EV-WRK-408 (a different law). Graded C, not B, until the working paper is published (milestone review W-5; regraded in fix 4).",
   "supports": [
    "dossiers/work/2-what-works.md"
   ],
@@ -11355,7 +11347,7 @@
   "anchor": [
    "| 00-0000 | All Occupations | total | 686,970 | 0.0% | 1000.000 | 1.00 | $12.74 | $17.03 | $35,410 | 0.5% |"
   ],
-  "locator": "Row 00-0000",
+  "locator": "Row 00-0000; read via a fetch tool, not yet hand-checked against the BLS spreadsheet (the milestone fix 2 reviewer re-read only EV-WRK-455 and EV-WRK-458)",
   "grade": "A",
   "fact_date": "2023-05",
   "checked": "2026-11-18",
@@ -11378,7 +11370,7 @@
   "anchor": [
    "| 00-0000 | All Occupations | total | 20,480 | 0.0% | 1000.000 | 1.00 | $11.42 | $14.60 | $30,370 | 0.7% |"
   ],
-  "locator": "Row 00-0000",
+  "locator": "Row 00-0000; read via a fetch tool, not yet hand-checked against the BLS spreadsheet (the milestone fix 2 reviewer re-read only EV-WRK-455 and EV-WRK-458)",
   "grade": "A",
   "fact_date": "2023-05",
   "checked": "2026-11-18",
@@ -11423,7 +11415,7 @@
   "anchor": [
    "00-0000 | All Occupations | total | 33,700 | 0.1% | 1000.000 | 1.00 | $19.42 | $24.34 | $50,620 | 0.8%"
   ],
-  "locator": "Row 00-0000",
+  "locator": "Row 00-0000; read via a fetch tool, not yet hand-checked against the BLS spreadsheet (the milestone fix 2 reviewer re-read only EV-WRK-455 and EV-WRK-458)",
   "grade": "A",
   "fact_date": "2023-05",
   "checked": "2026-11-18",
@@ -11450,7 +11442,7 @@
    "The clean dataset contained 528 total employers and 11,935 total employees",
    "The CNMI’s overall mean hourly wage was $13.53\nwhile the median was $9.97."
   ],
-  "locator": "Results, \"Number of employers and employees used in producing hourly wage statistics\", page 3",
+  "locator": "Results, \"Number of employers and employees used in producing hourly wage statistics\", page 3; read via a fetch tool, not yet hand-checked against the BLS spreadsheet (the milestone fix 2 reviewer re-read only EV-WRK-455 and EV-WRK-458)",
   "grade": "B",
   "fact_date": "2021-02",
   "checked": "2026-11-18",
@@ -11475,7 +11467,7 @@
   "anchor": [
    "| 00-0000 | All Occupations | total | 151,853,870 | 0.0% | 1000.000 | $23.11 | $31.48 | $65,470 | 0.3% |"
   ],
-  "locator": "Row 00-0000",
+  "locator": "Row 00-0000; read via a fetch tool, not yet hand-checked against the BLS spreadsheet (the milestone fix 2 reviewer re-read only EV-WRK-455 and EV-WRK-458)",
   "grade": "A",
   "fact_date": "2023-05",
   "checked": "2026-11-18",
@@ -11498,7 +11490,7 @@
   "anchor": [
    "| 00-0000 | All Occupations | total | 1,149,950 | 0.0% | 1000.000 | 1.00 | $18.03 | $22.87 | $47,570 | 0.3% |"
   ],
-  "locator": "Row 00-0000",
+  "locator": "Row 00-0000; read via a fetch tool, not yet hand-checked against the BLS spreadsheet (the milestone fix 2 reviewer re-read only EV-WRK-455 and EV-WRK-458)",
   "grade": "A",
   "fact_date": "2023-05",
   "checked": "2026-11-18",
@@ -11523,7 +11515,7 @@
   "anchor": [
    "| 00-0000 | All Occupations | total | 86,550 | 0.0% | 1000.000 | 1.00 | $16.50 | $20.42 | $42,470 | 0.5% |"
   ],
-  "locator": "Row 00-0000",
+  "locator": "Row 00-0000; read via a fetch tool, not yet hand-checked against the BLS spreadsheet (the milestone fix 2 reviewer re-read only EV-WRK-455 and EV-WRK-458)",
   "grade": "A",
   "fact_date": "2023-05",
   "checked": "2026-11-18",
@@ -11548,7 +11540,7 @@
   "anchor": [
    "| 00-0000 | All Occupations | total | 865,160 | 0.5% | 1000.000 | 1.00 | $10.13 | $14.27 | $29,670 | 1.1% |"
   ],
-  "locator": "Row 00-0000",
+  "locator": "Row 00-0000; read via a fetch tool, not yet hand-checked against the BLS spreadsheet (the milestone fix 2 reviewer re-read only EV-WRK-455 and EV-WRK-458)",
   "grade": "A",
   "fact_date": "2019-05",
   "checked": "2026-11-18",
@@ -11570,7 +11562,7 @@
   "anchor": [
    "| 00-0000 | All Occupations | total | 146,875,480 | 0.1% | 1000.000 | $19.14 | $25.72 | $53,490 | 0.1% |"
   ],
-  "locator": "Row 00-0000",
+  "locator": "Row 00-0000; read via a fetch tool, not yet hand-checked against the BLS spreadsheet (the milestone fix 2 reviewer re-read only EV-WRK-455 and EV-WRK-458)",
   "grade": "A",
   "fact_date": "2019-05",
   "checked": "2026-11-18",
@@ -11846,6 +11838,25 @@
   "context": "Wage and Hour Division rate page; descriptive. The tuna canneries are American Samoa's largest private employer (GAO-20-467). The anchors are the page's title, dates and rates as read through a web fetch tool, which returned the table's cells separately.",
   "supports": [
    "dossiers/work/1-problem.md",
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-713",
+  "statement": "Under the Code's provision for compensation under a State agreement, the Secretary of Labor may enter into an agreement with a State, or its unemployment compensation agency, under which the State agency pays compensation to Federal employees as agent of the United States.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5813",
+  "anchor": [
+   "(a) The Secretary of Labor, on behalf of the\nUnited States, may enter into an agreement\nwith a State, or with an agency administering\nthe unemployment compensation law of a State,\nunder which the State agency shall—\n(1) pay, as agent of the United States, compensation under this subchapter to Federal\nemployees; and"
+  ],
+  "locator": "5 U.S.C. 8502(a)(1)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law. The model for LAB-11.10's agreement under which a state agency pays the federal standard's difference as Labor's agent (`4-specification.md`; `6-cost.md`, part 2). It covers Federal employees' compensation (the UCFE program), not a state's own claimants; LAB-11.10's authority is new statute text, and this section shows only that the agent arrangement exists in law.",
+  "supports": [
    "dossiers/work/5-delivery.md"
   ]
  }
