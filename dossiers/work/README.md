@@ -35,6 +35,7 @@ Role: the work flagship (`charter/PLAN.md` 3.1). Status: started, stage F. Secti
 | 7. Validation | `7-validation.md`: section 6's lines against outside scores; the household test of the floor with income support (`tools/floor_household.py`); the budget model run on section 6's booking rows; what the models miss; how it lands with the plan; reach; the outcomes it moves; objections answered from the right, the left, the law and practitioners; signs of failure; each input's status | Draft |
 | 8. What would change our minds | `8-change-our-minds.md`: by commitment (pay; power at work; the rules in practice; support when jobs change; memo 10), what would change each, the evidence's source and timing, the review trigger and who acts; the household result; the items with Espen; options for the future labor economy, to explore later; political and legal events; left open; hard stops; when the evidence arrives | Draft |
 | 9. The public case | `9-public-case.md`: the brief, with each promise dated from when its provision takes effect; the case in one paragraph; messages with the line each must not cross; hard questions; composite stories; the items still with Espen, shown as provisional; can say / can't say; what the legacy public story said and what changed; the source table | Draft |
+| Milestone review | `review-milestone.md`: the independent L2/L3 review (verdicts, findings, fix steps, questions for Espen) | L2 pass; L3 not yet (three blockers) |
 
 ## Evidence and sources
 
