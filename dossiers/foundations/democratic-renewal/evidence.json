@@ -9804,5 +9804,207 @@
    "dossiers/foundations/democratic-renewal/5-delivery.md"
   ],
   "locator": "subsections (a) and (b)"
+ },
+ {
+  "id": "EV-DEM-351",
+  "statement": "Under the National Voter Registration Act, a person aggrieved by a violation may notify the State's chief election official in writing, and may sue for declaratory or injunctive relief if the violation is not corrected within 90 days of the notice (20 days if the violation occurred within 120 days before a federal election); within 30 days before a federal election no notice is needed.",
+  "claim": "data",
+  "figures": [
+   "90",
+   "20",
+   "120",
+   "30"
+  ],
+  "source": "SRC-5405",
+  "anchor": [
+   "(b) Private right of action\n(1) A person who is aggrieved by a violation of this chapter may provide written notice of the violation to the chief election official of the State involved.",
+   "(2) If the violation is not corrected within 90 days after receipt of a notice under paragraph (1), or within 20 days after receipt of the notice if the violation occurred within 120 days before the date of an election for Federal office, the aggrieved person may bring a civil action in an appropriate district court for declaratory or injunctive relief with respect to the violation.",
+   "(3) If the violation occurred within 30 days before the date of an election for Federal office, the aggrieved person need not provide notice to the chief election official of the State under paragraph (1) before bringing a civil action under paragraph (2)."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-12-31",
+  "context": "Primary law, 52 U.S.C. 20510(b), 2024 edition of the U.S. Code. Subsection (a) separately lets the Attorney General sue.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "subsection (b)(1)-(3)"
+ },
+ {
+  "id": "EV-DEM-352",
+  "statement": "As CRS tabulates enacted appropriations, the Legal Services Corporation received $529.0 million in FY2022, $580.0 million in FY2023, $560.0 million in FY2024, $560.0 million in FY2025 and $540.0 million in FY2026; the Administration's FY2027 request is $21.0 million.",
+  "claim": "data",
+  "figures": [
+   "529.0",
+   "580.0",
+   "560.0",
+   "540.0",
+   "21.0"
+  ],
+  "source": "SRC-5406",
+  "anchor": [
+   "Bureau or Agency\n\nFY2017\n\nFY2018\n\nFY2019\n\nFY2020\n\nFY2021\n\nFY2022\n\nFY2023\n\nFY2024\n\nFY2025\n\nFY2026\n\nInternational Trade\nAdministration\n\n$483.0\n\n$482.0\n\n$484.0\n\n$510.3\n\n$530.0\n\n$559.0\n\n$613.0\n\n$611.0\n\n$611.0\n\n$562.0\n\nBureau of Industry and\nSecurity\n\n112.5\n\n113.5\n\n118.1\n\n127.7\n\n133.0\n\n163.1\n\n191.0\n\n191.0\n\n191.0\n\n235.0\n\nEconomic Development\nAdministration\n\n276.0\n\n901.5\n\n904.0\n\n1,833.0\n\n3,346.0\n\n373.5\n\n1,616.0\n\n468.0\n\n1,978.0\n\n466.0\n\nMinority Business\nDevelopment Agency\n\n34.0\n\n39.0\n\n40.0\n\n52.0\n\n73.0\n\n55.0\n\n70.0\n\n68.3\n\n68.3\n\n50.0\n\nEconomic and Statistical\nAnalysis\n\n107.3\n\n99.0\n\n101.0\n\n108.0\n\n111.9\n\n116.0\n\n130.0\n\n125.0\n\n125.0\n\n118.0\n\n1,470.0\n\n2,814.0\n\n3,821.4\n\n7,558.3\n\n1,106.6\n\n1,354.0\n\n1,485.0\n\n1,382.5\n\n1,382.5\n\n1,490.3\n\nNational\nTelecommunications and\nInformation Administration\n\n32.0\n\n39.5\n\n39.5\n\n40.4\n\n45.5\n\n46,050.0\n\n612.0\n\n609.0\n\n609.0\n\n601.0\n\nU.S. Patent and Trademark\nOffice (USPTO)\n\n3,230.0\n\n3,500.0\n\n3,370.0\n\n3,450.7\n\n3,695.3\n\n4,058.4\n\n4,253.4\n\n4,195.8\n\n4,554.9\n\n4,956.0\n\nOffsetting Fee Receipts\n(USPTO)\n\n-3,230.0\n\n-3,500.0\n\n-3,370.0\n\n-3.450.7\n\n-3,695.3\n\n-4,058.4\n\n-4,253.4\n\n-4,195.8\n\n-4,554.9\n\n-4,956.0\n\nNational Institute of\nStandards and Technology\n\n952.0\n\n1,198.5\n\n985.5\n\n1,100.0\n\n1,034.5\n\n1,252.1\n\n1,694.3\n\n1,460.0\n\n1,156.9\n\n1,847.1\n\nNational Oceanic and\nAtmospheric Administration\n\n5,675.4\n\n6,309.5\n\n5,720.3\n\n5,688.2\n\n5,730.6\n\n10,304.0\n\n7,578.8\n\n6,869.0\n\n7,775.5\n\n6,712.3\n\nDepartmental Managementa\n\n94.7\n\n140.9\n\n95.7\n\n115.0\n\n128.1\n\n146.9\n\n179.1\n\n143.6\n\n143.6\n\n141.6\n\nDepartment of Commerce\n\nCensus Bureau\n\nCRS-13\n\n\fBureau or Agency\n\nFY2017\n\nFY2018\n\nFY2019\n\nFY2020\n\nFY2021\n\nFY2022\n\nFY2023\n\nFY2024\n\nFY2025\n\nFY2026\n\nCommerce Subtotal\n\n9,237.0\n\n12,137.4\n\n12,309.5\n\n17,132.8\n\n12,239.2\n\n60,373.6\n\n14,169.2\n\n11,927.4\n\n14,040.8\n\n12,223.5\n\n676.7\n\n746.8\n\n870.4\n\n926.6\n\n998.6\n\n1,106.8\n\n1,278.0\n\n1,151.0\n\n1,159.5\n\n1,107.5\n\n(232.8)\n\n(283.0)\n\n(172.0)\n\n(180.5)\n\n(178.5)\n\nDepartment of Justice\nGeneral Administration\nJustice Operations,\nManagement, and\nAccountabilityb\n\n(145.1)\n\n(149.0)\n\n(145.0)\n\n(152.6)\n\n(158.0)c\n\nExecutive Office for\nImmigration Review\n\n(436.0)\n\n(500.5)\n\n(624.4)\n\n(669.0)\n\n(730.0)\n\n(756.0)\n\n(856.0)\n\n(840.0)\n\n(840.0)\n\n(790.0)\n\nOffice of the Inspector\nGeneral\n\n(95.6)\n\n(97.3)\n\n(101.0)\n\n(105.0)\n\n(110.6)\n\n(118.0)\n\n(139.0)\n\n(139.0)\n\n(139.0)\n\n(139.0)\n\n13.3\n\n13.3\n\n13.0\n\n13.3\n\n13.5\n\n14.2\n\n14.6\n\n14.0\n\n14.0\n\n13.0\n\n3,353.8\n\n3,386.6\n\n3,329.4\n\n3,443.4\n\n3,578.9\n\n3,648.3\n\n4,140.8\n\n4,010.7\n\n3,969.7\n\n3,906.7\n\n(897.5)\n\n(897.5)\n\n(904.0)\n\n(920.0)\n\n(960.0)\n\n(1,009.7)\n\n(1,138.0)\n\n(1,090.0)\n\n(1,090.0)\n\n(900.0)\n\n(2,035.0)\n\n(2,136.8)\n\n(2,212.0)\n\n(2,257.5)\n\n(2,342.2)\n\n(2,424.9)\n\n(2,632.0)\n\n(2,611.0)\n\n(2,611.0)\n\n(2,621.0)\n\n(421.3)\n\n(352.3)\n\n(213.4)\n\n(265.8)\n\n(276.8)\n\n(213.7)\n\n(370.8)\n\n(309.7)\n\n(268.7)\n\n(385.7)\n\n2,713.5\n\n2,903.4\n\n3,081.7\n\n3,327.5\n\n3,682.6\n\n3,728.3\n\n3,852.8\n\n3,807.0\n\n3,955.0\n\n3,976.0\n\nNational Security Division\n\n96.0\n\n101.0\n\n101.4\n\n110.0\n\n117.5\n\n121.8\n\n133.5\n\n128.0\n\n128.0\n\n117.2\n\nInteragency Law\nEnforcement\n\n517.0\n\n542.9\n\n560.0\n\n550.5\n\n550.5\n\n550.5\n\n550.5\n\n547.0\n\n547.0\n\n300.0\n\nFederal Bureau of\nInvestigation\n\n9,006.4\n\n9,421.4\n\n9,577.1\n\n9,972.9\n\n10,493.8\n\n10,961.9\n\n11,343.2\n\n10,673.7\n\n10,690.4\n\n10,624.5\n\nDrug Enforcement\nAdministration\n\n2,103.0\n\n2,201.8\n\n2,267.0\n\n2,294.2\n\n2,386.3\n\n2,421.5\n\n2,563.1\n\n2,567.0\n\n2,567.0\n\n2,580.3\n\nBureau of Alcohol, Tobacco,\nFirearms & Explosives\n\n1,258.6\n\n1,293.8\n\n1,316.7\n\n1,400.0\n\n1,483.9\n\n1,531.1\n\n1,747.0\n\n1,625.0\n\n1,625.0\n\n1,585.0\n\nFederal Prison System\n\n7,141.5\n\n7,328.3\n\n7,545.1\n\n7,880.7\n\n8,138.1\n\n8,102.7\n\n8,685.3\n\n8,575.1\n\n8,639.8\n\n8,382.5\n\nOffice of Violence Against\nWomen (OVW)\n\n155.5e\n\n—f\n\n—g\n\n67.5h\n\n78.5h\n\n—i\n\n700.0\n\n633.0j\n\n633.0k\n\n620.0l\n\nU.S. Parole Commission\nLegal Activities\nGeneral legal activities\nU.S. Attorneys\nOtherd\nU.S. Marshals Service\n\nCRS-14\n\n\fBureau or Agency\n\nFY2017\n\nFY2018\n\nFY2019\n\nFY2020\n\nFY2021\n\nFY2022\n\nFY2023\n\nFY2024\n\nFY2025\n\nFY2026\n\nOffice of Justice Programs\n(OJP)\n\n1,705.8\n\n2,169.3\n\n2,218.8\n\n3,282.8\n\n2,485.8\n\n3,075.0\n\n3,341.6\n\n3,403.9\n\n2,928.8\n\n3,346.8\n\nResearch, Evaluation,\nand Statistics\n\n(89.0)\n\n(90.0)\n\n(80.0)\n\n(79.0)\n\n(82.0)\n\n(70.0)\n\n(77.0)\n\n(65.0)\n\n(65.0)\n\n(55.0)\n\nState and Local Law\nEnforcement Assistance\n\n(1,280.5)\n\n(1,680.0)\n\n(1,723.0)\n\n(2,742.0)\n\n(1,914.0)\n\n(2,493.0)\n\n(2,696.8)\n\n(2,755.1)\n\n(2,280.0)\n\n(2,680.0)\n\nJuvenile Justice\nPrograms\n\n(247.0)\n\n(282.5)\n\n(287.0)\n\n(320.0)\n\n(346.0)\n\n(360.0)\n\n(400.0)\n\n(375.0)\n\n(375.0)\n\n(375.0)\n\nPublic Safety Officers\nBenefits\n\n(89.3)\n\n(116.8)\n\n(128.8)\n\n(141.8)\n\n(143.8)\n\n(152.0)\n\n(167.8)\n\n(208.8)\n\n(208.8)\n\n(236.8)\n\nCommunity Oriented\nPolicing Services (COPS)\n\n221.5\n\n275.5\n\n303.5\n\n343.0\n\n386.0\n\n531.7\n\n682.9\n\n684.5\n\n437.2\n\n820.0\n\n28,962.5\n\n30,384.0\n\n31,184.1\n\n33,612.2\n\n34,393.9\n\n35,793.8\n\n39,033.2\n\n37,819.9\n\n37,294.4\n\n37,379.4\n\nOffice of Science and\nTechnology Policy\n\n5.6\n\n5.5\n\n5.5\n\n5.5\n\n5.5\n\n6.6\n\n8.0\n\n8.0\n\n8.0\n\n8.0\n\nNational Space Council\n\n—\n\n2.0\n\n2.0\n\n2.0\n\n2.0\n\n2.0\n\n2.0\n\n2.0\n\n2.0\n\n—\n\nNational Aeronautics and\nSpace Administration\n\n19,762.3\n\n20,817.4\n\n21,500.0\n\n22,689.0\n\n23,271.3\n\n24,362.7\n\n25,573.1\n\n24,875.0\n\n25,578.5\n\n24,438.3\n\nNational Science Foundation\n\n7,472.2\n\n7,783.7\n\n8,075.0\n\n8,354.3\n\n8,486.8\n\n8,863.0\n\n9,876.4\n\n9,060.0\n\n9,060.0\n\n8,750.0\n\n27,240.1\n\n28,608.6\n\n29,582.5\n\n31,050.8\n\n31,765.5\n\n33,234.3\n\n35,459.5\n\n33,944.9\n\n34,648.5\n\n33,196.3\n\nU.S. Commission on Civil\nRights\n\n9.2\n\n9.7\n\n10.1\n\n10.5\n\n12.5\n\n13.0\n\n14.4\n\n14.4\n\n14.4\n\n14.4\n\nEqual Employment\nOpportunity Commission\n\n364.5\n\n379.5\n\n379.5\n\n389.5\n\n404.5\n\n420.0\n\n455.0\n\n455.0\n\n455.0\n\n435.4\n\nInternational Trade\nCommission\n\n91.5\n\n93.7\n\n95.0\n\n99.4\n\n103.0\n\n110.0\n\n122.4\n\n122.0\n\n122.0\n\n122.0\n\nDOJ Subtotal\nScience Agencies\n\nScience Agencies\nSubtotal\nRelated Agencies\n\nCRS-15\n\n\fBureau or Agency\n\nFY2017\n\nFY2018\n\nFY2019\n\nFY2020\n\nFY2021\n\nFY2022\n\nFY2023\n\nFY2024\n\nFY2025\n\nFY2026\n\nLegal Services Corporation\n\n385.0\n\n425.0\n\n430.0\n\n490.0\n\n465.0\n\n529.0\n\n580.0\n\n560.0\n\n560.0\n\n540.0",
+   "FY2027\nAdministration’s\nRequest",
+   "Legal Services Corporation\n\n540.0\n\n21.0"
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "CRS (nonpartisan), April 30, 2026; Table A-1 (millions of dollars, nominal) and Table 1. The FY2027 request is for an orderly closure of the corporation (EV-DEM-353). The FY2025 amount was taken by CRS from the Senate committee report, not an enacted-bill table.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Table A-1; Table 1"
+ },
+ {
+  "id": "EV-DEM-353",
+  "statement": "CRS reports that the Administration's FY2027 budget requests funding for the Legal Services Corporation and the Marine Mammal Commission, but the funding is for an orderly closure of both agencies.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5406",
+  "anchor": [
+   "Services Corporation and the Marine Mammal Commission in its FY2027 budget, but the\nfunding is for an orderly closure of both agencies."
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "CRS (nonpartisan) describing the request of the second Trump administration. The $21.0 million request is in EV-DEM-352.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Related agencies discussion, page 6"
+ },
+ {
+  "id": "EV-DEM-354",
+  "statement": "As CRS tabulates it, the Executive Office for Immigration Review (a Justice Department account) received $840.0 million in FY2025 and $790.0 million in FY2026, and the Administration's FY2027 request is $889.0 million.",
+  "claim": "data",
+  "figures": [
+   "840.0",
+   "790.0",
+   "889.0"
+  ],
+  "source": "SRC-5406",
+  "anchor": [
+   "Executive Office for\nImmigration Review\n\n(436.0)\n\n(500.5)\n\n(624.4)\n\n(669.0)\n\n(730.0)\n\n(756.0)\n\n(856.0)\n\n(840.0)\n\n(840.0)\n\n(790.0)",
+   "Executive Office of\nImmigration Review\n\n(790.0)\n\n(889.0)",
+   "FY2027\nAdministration’s\nRequest",
+   "FY2024\n\nFY2025\n\nFY2026"
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "CRS (nonpartisan), April 30, 2026; amounts are a subaccount of Justice Operations, Management, and Accountability, in millions of dollars. FY2025 and FY2026 are enacted (P.L. 119-4 as extended, and P.L. 119-74); FY2027 is the second Trump administration's request.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Table A-1; Table 1"
+ },
+ {
+  "id": "EV-DEM-355",
+  "statement": "CBO estimated in March 2021 that the House small-dollar match in H.R. 1 (up to $6 for every $1 raised from donors giving $200 or less) would cost about $620 million for the 2028 election and about $850 million for the 2030 election, and about $1.6 billion over 2021-2031.",
+  "claim": "analysis",
+  "figures": [
+   "6",
+   "1",
+   "200",
+   "620",
+   "850",
+   "1.6"
+  ],
+  "source": "SRC-5407",
+  "anchor": [
+   "candidates who accept campaign contributions of $200 or less from individual donors would be eligible to receive federal matching funds at a rate of up to $6 for every $1 raised from donors",
+   "CBO estimates that spending under this program would total about $620 million for the 2028 election",
+   "and about $850 million for the 2030 election",
+   "enacting this provision would increase direct spending by about $1.6 billion over the 2021-2031 period."
+  ],
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-18",
+  "recheck": "2027-12-31",
+  "context": "CBO (nonpartisan), cost estimate of H.R. 1, For the People Act of 2021, as posted by the House Rules Committee on February 25, 2021 (Biden-era). A projection under CBO's assumptions: about 400 House candidates raise more with the match than they raised in total in 2020, and a per-candidate cap of $5 million. House candidates only; the same estimate puts the presidential match change at $905 million and the My Voice Voucher pilot at $60 million over 2021-2031. Spending is limited to the amounts in the Freedom From Influence Fund. The 2019 H.R. 1 estimate did not cover the match (noted in a press statement, not read in full), and no per-cycle figure from the Campaign Finance Institute or Brennan Center was found. Citation row because the cbo.gov PDF cannot be downloaded by an agent.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Direct spending: Small Dollar Financing of Congressional Election Campaigns"
+ },
+ {
+  "id": "EV-DEM-356",
+  "statement": "The Institute for Responsive Government and the Project for Election Infrastructure estimate that more than $50 billion is needed over 10 years to fund election administration and operations, cybersecurity, voting machine replacement, voter registration system updates and post-election audits; Responsive Gov also says an average federal election year costs between $4 and $6 billion.",
+  "claim": "analysis",
+  "figures": [
+   "50",
+   "10",
+   "4",
+   "6"
+  ],
+  "source": "SRC-5408",
+  "anchor": [
+   "estimate that more than $50 billion is needed over 10 years to fund election administration and operations, cybersecurity, replace voting machines, update voter registration systems, and strengthen post-election audits.",
+   "An average federal election year costs between $4 and $6 billion."
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-07-31",
+  "context": "Advocacy estimate: the Institute for Responsive Government (a nonprofit that works for election funding) with the Project for Election Infrastructure, the campaign of local election officials seeking federal funding (the Election Infrastructure Initiative). Its earlier 50 States of Need report (2021-22) put the need at $53 billion, as the press repeats; the PDF could not be downloaded, so the figure here is the group's own current policy-page wording, with no stated method on the page. Not corroborated by an independent publisher; the Brennan Center and Issue One estimates were not found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "How the Policy Works; The Gap"
+ },
+ {
+  "id": "EV-DEM-357",
+  "statement": "For the Senate-passed JUDGES Act of 2024, which authorized 63 new permanent district court judgeships, CBO, using information from the Administrative Office of the U.S. Courts, estimated compensation per new judge of $275,000 in 2025 rising to $340,000 by 2034 (average $270,000 in 2024), and administrative costs averaging $750,000 in the first year of a new court and about $700,000 a year once established.",
+  "claim": "analysis",
+  "figures": [
+   "63",
+   "270,000",
+   "275,000",
+   "340,000",
+   "750,000",
+   "700,000"
+  ],
+  "source": "SRC-5409",
+  "anchor": [
+   "Authorize 63 new permanent federal district court judgeships over the 2025-2035 period",
+   "In 2024, the average compensation for each judge was $270,000.",
+   "the cost to compensate each new judge would be $275,000 in 2025 and would rise to $340,000 by 2034.",
+   "the cost of the first year of operation for a new court would average $750,000, and that, once fully established, each new court would operate at an annual cost of about $700,000"
+  ],
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-12-31",
+  "context": "CBO (nonpartisan), August 16, 2024, drawing on Administrative Office of the U.S. Courts (AOUSC) cost information; this is CBO's figure, not the judiciary's own published per-judgeship cost, which was not found (a 2011 CBO estimate of about $1 million start-up and $770,000 a year in support, reported secondhand, was also not verified). CBO's totals: about $100 million direct spending (compensation) and about $250 million administrative costs over 2024-2034, before inflation-based authorization of $335 million. Citation row because cbo.gov PDFs cannot be downloaded by an agent.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "Basis of estimate: Direct Spending; Spending Subject to Appropriation"
+ },
+ {
+  "id": "EV-DEM-358",
+  "statement": "The Legal Services Corporation reports that its grantees operate with over 900 offices in every state, U.S. territory and the District of Columbia.",
+  "claim": "data",
+  "figures": [
+   "900"
+  ],
+  "source": "SRC-5410",
+  "anchor": [
+   "With over 900 offices, LSC grantees operate in every state, U.S. territory, and the District of Columbia."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-18",
+  "recheck": "2027-06-30",
+  "context": "LSC (a federally funded private nonprofit corporation, not a federal agency) reporting its own grantees' network in its 2025 By the Numbers report (2024 activity). The page quoted gives no count of grantees or attorneys; current counts are still needed (the 2023 edition is reported secondhand at 131 grantees and 909 offices; not verified).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/6-cost.md"
+  ],
+  "locator": "2025 By the Numbers page, introduction"
  }
 ]
