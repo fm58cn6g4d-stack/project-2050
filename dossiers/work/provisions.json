@@ -1293,7 +1293,7 @@
   "id": "LAB-14.01",
   "title": "No federal severance mandate in the first bill; study, then recommend",
   "agenda": "LAB-14",
-  "status": "provisional, point 5 (`DEC-2026-11-17-18`); specified on the recommendation, for Espen",
+  "status": "provisional, on the recommendation: point 5 (`DEC-2026-11-17-18`), for Espen",
   "decisions": [
    "DEC-2026-11-17-18"
   ],
@@ -2129,7 +2129,7 @@
    {
     "vehicle": "R1",
     "kind": "mandatory",
-    "note": "2029 reconciliation act, contingent: pays only if no authorization is enacted by December 31, 2030"
+    "note": "2029 reconciliation act, contingent spending"
    }
   ],
   "agency": "AmeriCorps; state service commissions",
@@ -2147,7 +2147,7 @@
   "id": "LAB-17.01",
   "title": "No worker seats on corporate boards in the first bill; codetermination studied further",
   "agenda": "LAB-17",
-  "status": "provisional, point 11 (`DEC-2026-11-17-24`); specified on the recommendation, for Espen",
+  "status": "provisional, on the recommendation: point 11 (`DEC-2026-11-17-24`), for Espen",
   "decisions": [
    "DEC-2026-11-17-24"
   ],
@@ -2164,6 +2164,157 @@
   "current_law": "None",
   "evidence": [
    "EV-WRK-184"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-19.01",
+  "title": "Hours and occupation in every state's quarterly wage records",
+  "agenda": "LAB-19",
+  "status": "provisional, on the recommendation: memo 10 part 1 C (`DEC-2026-11-17-96` sends it to Espen); the hours field itself is decided (`-95`, way iii)",
+  "decisions": [
+   "DEC-2026-11-17-95",
+   "DEC-2026-11-17-96"
+  ],
+  "parameters": "By January 1, 2033 (working choice), every state's quarterly wage report carries each worker's hours worked and occupation code beside earnings, as a condition of the state's administration grant (LAB-11.08). Hours are already decided for wage insurance (LAB-18.06); occupation is the addition memo 10 recommends. Employers add two fields to a report they already file; a one-time grant to states for the change, about $0.2-0.5 billion (judgment). The data stay inside the UI confidentiality rules, shared with BLS for statistics only",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   },
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); BLS; state UI agencies",
+  "current_law": "Quarterly earnings only in most states (no register entry)",
+  "evidence": [
+   "EV-WRK-414"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-19.02",
+  "title": "A reason box on the 90-day layoff notice",
+  "agenda": "LAB-19",
+  "status": "provisional, on the recommendation: memo 10 part 1 C (`DEC-2026-11-17-96` sends it to Espen)",
+  "decisions": [
+   "DEC-2026-11-17-96"
+  ],
+  "parameters": "The notice under LAB-13.01 states the main reason for the layoff from a short list: lower demand, a closure or move, a merger, a contract lost, a change in technology or automation, or other. The state forwards counts to BLS. It informs measurement only; no worker's help depends on it",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (ETA); state rapid-response units",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-318"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-19.03",
+  "title": "A yearly BLS displacement report, its method in statute and audited",
+  "agenda": "LAB-19",
+  "status": "provisional, on the recommendation: memo 10 part 1 C (`DEC-2026-11-17-96` sends it to Espen)",
+  "decisions": [
+   "DEC-2026-11-17-96"
+  ],
+  "parameters": "BLS publishes each year, and quarterly once LAB-19.01's records allow, the displacement of long-tenured workers and the employment of workers under 26, by occupation, industry, state and age, with what displaced workers earn after; the displaced-worker survey runs every year, not every two [EV-WRK-315] [EV-WRK-317]. AI-exposed occupations are flagged using published exposure measures [EV-SEC-125], as an analysis, never an eligibility test. The method is set in statute and GAO audits it every three years, as the legacy AI-4 proposed [EV-WRK-711]. About $20-50 million a year (judgment)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   },
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "annual appropriations, with the agency rebuild (CAP-7)"
+   }
+  ],
+  "agency": "Labor (BLS); GAO",
+  "current_law": "The displaced-worker survey every two years [EV-WRK-317]",
+  "evidence": [
+   "EV-WRK-315",
+   "EV-WRK-317",
+   "EV-SEC-125",
+   "EV-WRK-355",
+   "EV-WRK-358",
+   "EV-WRK-711"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-19.04",
+  "title": "A standby displacement trigger",
+  "agenda": "LAB-19",
+  "status": "provisional, on the recommendation: memo 10 part 2 C (`DEC-2026-11-17-96` sends it to Espen)",
+  "decisions": [
+   "DEC-2026-11-17-96"
+  ],
+  "parameters": "An occupation group or a state is in a displacement period when, for two quarters running, the share of its long-tenured workers who lose their jobs is at least 50% above its average of the prior five years, or the employment of its workers under 26 is at least 50% further below trend than its usual range (working choices), on LAB-19.03's measure. The period ends when the measure is below the threshold for two quarters. It starts once LAB-19.01's records have two years of data (about 2035 on the working timeline). Like Extended Benefits [EV-WRK-395], it switches on by rule; no displacement trigger has been evaluated, and Extended Benefits' own effects are disputed [EV-WRK-374] [EV-WRK-375]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (BLS publishes; ETA acts)",
+  "current_law": "Extended Benefits for recessions only",
+  "evidence": [
+   "EV-WRK-395",
+   "EV-WRK-374",
+   "EV-WRK-375"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
+  "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-19.05",
+  "title": "What switches on in a displacement period, within a yearly cap",
+  "agenda": "LAB-19",
+  "status": "provisional, on the recommendation: memo 10 part 2 C (`DEC-2026-11-17-96` sends it to Espen)",
+  "decisions": [
+   "DEC-2026-11-17-96",
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "For workers displaced from an occupation group or state in a displacement period: wage insurance for a third year, and from one year's tenure instead of three (LAB-18.01, 18.02); for workers under 30, priority for apprenticeship places with LAB-8.01's grants and for service-to-apprenticeship places (LAB-9.03) once that tranche is open. The expansion spends at most $5 billion a year in all (working choice); if the cap binds, the third year is paid first. A worker enrolled during a period keeps the expanded help. Never asks what caused the loss. Zero while off; about $0 to +$0.02 trillion over FY2030-39 on today's evidence (judgment, memo 10). Contingent spending in R1 with wage insurance",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act, contingent spending"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies; AmeriCorps",
+  "current_law": "",
+  "evidence": [
+   "EV-WRK-365",
+   "EV-SEC-143",
+   "EV-WRK-355"
   ],
   "sources": [],
   "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
