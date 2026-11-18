@@ -36,25 +36,25 @@ AMD-8,"Legislative override of judicial invalidation, only inside an amendment p
 AMD-9,Convention procedure statute,agenda/amendments,L1,option,legacy/domains/domain-amendments.md:29,Register: Option
 AMD-10,Ratification operations,agenda/amendments,L1,chosen,legacy/domains/domain-amendments.md:30,
 AMD-11,Subject-limited convention applications as leverage,agenda/amendments,L1,held,legacy/domains/domain-amendments.md:31,Register: Held until AMD-9
-CAP-1,Congressional staff and pay,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:17,
-CAP-2,Office of Technology Assessment,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:18,
-CAP-3,"CRS, GAO, CBO",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:19,
-CAP-4,Budget process,foundations/democratic-renewal,L1,option,legacy/domains/domain-capacity.md:20,Register: Option
-CAP-5,Earmarks,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:21,
-CAP-6,Statute-tracking office,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:22,
-CAP-7,Sustained capacity increase,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:24,"Register: Decided Oct 20 (D9, with CAP-7S); working sizing $300B FY2030-39 (Oct 26). The Oct 20 decline was the low-end CAP-7 at $0.5T (C17), not CAP-7 itself. Agency shares provisional; decided in the legacy files; a working choice under DEC-2026-10-30-02"
-CAP-7S,Agency rebuild surge,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:23,Register: Decided Oct 20; availability updated Oct 21. Agency sizing provisional; Byrd/jurisdiction checks open; decided in the legacy files; a working choice under DEC-2026-10-30-02
-CAP-8,Schedule Policy/Career prohibition,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:25,
-CAP-9,Civil service modernization,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:26,
-CAP-10,Successor architecture,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:27,
-CAP-11,Federal hiring reform,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:28,
-CAP-12,Technology procurement,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:29,
-CAP-13,State and local capacity grants,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:30,
-CAP-14,Member housing allowance,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:31,
-CAP-15,Legislative technology,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:32,
-CAP-16,Committee jurisdiction,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:33,
-CAP-17,Legal culture,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:34,
-CAP-18,Draft in opposition,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:35,
+CAP-1,Congressional staff and pay,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:17,"Decided (DEC-2026-11-17-87): real 1979 levels, not nominal pay"
+CAP-2,Office of Technology Assessment,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:18,Decided (DEC-2026-11-17-88): a modernized OTA
+CAP-3,"CRS, GAO, CBO",foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:19,Decided (DEC-2026-11-17-89): point 42
+CAP-4,Budget process,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:20,"Decided (DEC-2026-11-17-62): narrowed to memo 12 part 2 B, payments continue in a lapse; no general automatic CR"
+CAP-5,Earmarks,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:21,Decided (DEC-2026-11-17-89): point 43
+CAP-6,Statute-tracking office,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:22,Decided (DEC-2026-11-17-90): point 44; budget estimate in the follow-up note
+CAP-7,Sustained capacity increase,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:24,"Decided (DEC-2026-11-17-58, DEC-2026-11-17-59): memo 10 B, B; booked size unchanged; earlier note: Register: Decided Oct 20 (D9, with CAP-7S); working sizing $300B FY2030-39 (Oct 26). The Oct 20 decline was the low-end CAP-7 at $0.5T (C17), not CAP-7 itself. Agency shares provisional; decided in the legacy files; a working choice under DEC-2026-10-30-02"
+CAP-7S,Agency rebuild surge,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:23,"Decided (DEC-2026-11-17-58, DEC-2026-11-17-59): memo 10 B, B; booked size unchanged; earlier note: Register: Decided Oct 20; availability updated Oct 21. Agency sizing provisional; Byrd/jurisdiction checks open; decided in the legacy files; a working choice under DEC-2026-10-30-02"
+CAP-8,Schedule Policy/Career prohibition,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:25,Decided (DEC-2026-11-17-61): memo 12 part 1 B
+CAP-9,Civil service modernization,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:26,Decided (DEC-2026-11-17-61): the performance trade
+CAP-10,Successor architecture,foundations/democratic-renewal,L1,decided,legacy/domains/domain-capacity.md:27,Decided as a direction (DEC-2026-11-17-91): point 45
+CAP-11,Federal hiring reform,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:28,Decided (DEC-2026-11-17-59): hiring authority in the first bill
+CAP-12,Technology procurement,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:29,Decided (DEC-2026-11-17-92): built on the existing digital service work
+CAP-13,State and local capacity grants,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:30,Decided (DEC-2026-11-17-93): point 47
+CAP-14,Member housing allowance,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:31,Decided (DEC-2026-11-17-87): with CAP-1
+CAP-15,Legislative technology,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:32,Decided (DEC-2026-11-17-93): point 48
+CAP-16,Committee jurisdiction,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:33,Decided (DEC-2026-11-17-93): point 48
+CAP-17,Legal culture,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:34,Decided (DEC-2026-11-17-93): point 49
+CAP-18,Draft in opposition,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:35,Decided (DEC-2026-11-17-93): point 50
 CLI-1,Clean-energy credits restored,clean-power,L2,decided,legacy/domains/domain-climate.md:19,"Decided (DEC-2026-11-13-06): memo 2 part 1 B, the legacy credit set from 2030 stepping down as standards take over, with the cost trigger (point 7, DEC-2026-11-13-07). Sections 4-6 drafted (E-C2): CLI-1A.01-.04 in dossiers/clean-power/provisions.json; as booked, about $0.757T over FY2030-39 and $55.9B in FY2040 (6-cost.md); L3 after sections 7-9 and the milestone review"
 CLI-1A,"Restore all repealed credits, refundable and point-of-sale, CEIC extended",clean-power,L2,decided,legacy/domains/domain-climate.md:73,"Decided (DEC-2026-11-13-06), memo 2 part 1 B: restored, refundable and at the point of sale, with the published step-down (CLI-1A.02) and the cost trigger (CLI-1A.03, point 7)"
 CLI-1B,"Restoration only, as the IRA wrote them (not refundable)",clean-power,L2,alternative,legacy/domains/domain-climate.md:74,"Not chosen (DEC-2026-11-13-06, memo 2 part 1)"
@@ -132,78 +132,78 @@ COM-5,Junk fees and consumer protection,agenda/competition,L1,chosen,legacy/doma
 COM-5B,Junk fees as a standalone 60-vote bill,agenda/competition,L1,option,legacy/index/options-register.md:255,Register: Option (path G fallback)
 COM-6,CFPB durability,agenda/competition,L1,chosen,legacy/domains/domain-competition.md:16,
 COM-6B,CFPB commission,agenda/competition,L1,option,legacy/index/options-register.md:256,Register: Option
-CRT-1,Phased judgeships,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:13,
-CRT-2,Judicial ethics and recusal,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:14,
-CRT-2A,"Binding code, self-decided recusal with published reasons, enforcement by disclosure and appropriations",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:81,
-CRT-2B,"Outside recusal review panel (SCERT Act, S. 1814 / H.R. 3513 as introduced)",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:82,
-CRT-2C,Office of Investigative Counsel reporting to Congress (H.R. 7692),foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:83,
-CRT-2D,Disclosure and gift rules only,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:84,
-CRT-3,Random assignment and venue,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:15,
-CRT-4,Emergency-docket transparency,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:16,
-CRT-5,Article I immigration court,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:17,
+CRT-1,Phased judgeships,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:13,"Decided (DEC-2026-11-17-53): 71 judgeships, phased, as a stand-alone bill (P4)"
+CRT-2,Judicial ethics and recusal,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:14,Decided (DEC-2026-11-17-54): memo 8 A with an inspector general
+CRT-2A,"Binding code, self-decided recusal with published reasons, enforcement by disclosure and appropriations",foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:81,Decided (DEC-2026-11-17-54): with an inspector general
+CRT-2B,"Outside recusal review panel (SCERT Act, S. 1814 / H.R. 3513 as introduced)",foundations/democratic-renewal,L2,alternative,legacy/domains/domain-courts.md:82,Not chosen (DEC-2026-11-17-54)
+CRT-2C,Office of Investigative Counsel reporting to Congress (H.R. 7692),foundations/democratic-renewal,L2,alternative,legacy/domains/domain-courts.md:83,Not chosen (DEC-2026-11-17-54)
+CRT-2D,Disclosure and gift rules only,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-courts.md:84,Not chosen (DEC-2026-11-17-54)
+CRT-3,Random assignment and venue,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:15,Decided (DEC-2026-11-17-77): point 26
+CRT-4,Emergency-docket transparency,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:16,"Decided (DEC-2026-11-17-78): point 27, with a deadline for the written reasons"
+CRT-5,Article I immigration court,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:17,"Open (DEC-2026-11-17-55): memo 9 part 1 provisional, Espen undecided among a faster path into Article III, A and C; parts 2-3 decided (DEC-2026-11-17-56, DEC-2026-11-17-57)"
 CRT-5A,Article I court plus expanded Article III review,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:114,
 CRT-5B,"Expanded Article III habeas and de novo review only, no new court",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:115,
 CRT-5C,Fold immigration adjudication into Article III entirely,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:116,
-CRT-6,Judicial records and cameras,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:18,
-CRT-7,Review channeling and the Corner Post fix,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:19,
-CRT-8,Answering Loper Bright,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:20,
-CRT-9,Remedies after CASA,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:21,
-CRT-10,Penalties after Jarkesy,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:22,
-CRT-11,Docket reform,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:23,
-CRT-12,Specialized regulatory court,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:24,
-CRT-13,Circuit realignment,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:25,
-CRT-14,Statutory repairs (pointer),foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:26,
-CRT-15,Judicial term limits,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:27,
-CRT-15A,"Prospective statute, severable retroactive provision, plus a proposed amendment",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:190,
-CRT-15B,Applied to sitting justices,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:191,
-CRT-15C,Amendment only,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:192,
-CRT-15D,"Khanna design (H.R. 1074: nine most junior justices hear cases, deemed consent)",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:193,
-CRT-16,"Automatic expansion trigger removed, October 26",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:28,Register: Removed October 26; fresh democratic decision required for any later structural response
-CRT-17,Jurisdiction-stripping restraint,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:29,
-CRT-18,Impeachment standard,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:30,
-CRT-19,State judicial selection,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:31,
-CRT-P1,One judiciary bill: T1 items plus CRT-15,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:52,"Register: P1 carried, P2 recommended; P4 refines P2"
-CRT-P2,"Two bills: a T1 integrity bill on the bipartisan fast track, then CRT-15 separately",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:53,"Register: P1 carried, P2 recommended; P4 refines P2"
-CRT-P3,T1 only in the first Congress; CRT-15 in 2033,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:54,"Register: P1 carried, P2 recommended; P4 refines P2"
-CRT-P4,"Split CRT-1's phased judgeships into a stand-alone bill aimed at 60 votes; the rest as P2 (integrity bill, then CRT-15)",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:55,"Register: P1 carried, P2 recommended; P4 refines P2"
-DEM-1,Electoral and civil-rights package,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:22,
-DEM-1A,"All four titles in one bill, with DEM-1E in Title I",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:90,Register: Chosen; 1E adopted Oct 20
-DEM-1B,Split Title III into its own bill,foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:91,Register: Option
-DEM-1C,"Floor provisions only, preclearance dropped",foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:92,Register: Option
-DEM-1D,"Add Title III's results test to the civil-rights code generally, not only Section 2",foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:93,Register: Option
-DEM-1E,"In Title I: every benefit-delivery point the agenda creates or expands is a voter-registration agency under the NVRA, with automatic registration on enrollment:",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:94,decided in the legacy files; a working choice under DEC-2026-10-30-02
-DEM-1F,"Timing: after R1, by spring 2030",foundations/democratic-renewal,L1,chosen,legacy/index/options-register.md:310,Register: Decided Oct 20; decided in the legacy files; a working choice under DEC-2026-10-30-02
-DEM-2,Redistricting commissions and the mid-decade ban,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:23,
-DEM-2A,"Commissions plus the ban, with the 2034 exception",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:120,Register: A chosen; 2E an option
-DEM-2B,Ban only,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:121,Register: A chosen; 2E an option
-DEM-2C,Commissions plus a ban with no exception,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:122,Register: A chosen; 2E an option
-DEM-2D,Add conditional funding for state legislative maps,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:123,Register: A chosen; 2E an option
-DEM-2E,"Substantive criteria (compactness, communities of interest, partisan-symmetry limits) enforced by a three-judge district court backstop, with independent commis",foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:124,Register: A chosen; 2E an option
-DEM-3,House enlargement,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:24,
+CRT-6,Judicial records and cameras,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:18,Decided (DEC-2026-11-17-77): point 28
+CRT-7,Review channeling and the Corner Post fix,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:19,Decided (DEC-2026-11-17-77): point 29
+CRT-8,Answering Loper Bright,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:20,Decided (DEC-2026-11-17-77): point 30
+CRT-9,Remedies after CASA,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:21,"Provisional (DEC-2026-11-17-79): point 31, pending the explanation"
+CRT-10,Penalties after Jarkesy,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:22,"Provisional (DEC-2026-11-17-80): point 32, pending the explanation"
+CRT-11,Docket reform,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:23,"Provisional (DEC-2026-11-17-81): point 33; recommended no for now, Espen favors docket reform"
+CRT-12,Specialized regulatory court,foundations/democratic-renewal,L1,held,legacy/domains/domain-courts.md:24,"Held: no general court for now (DEC-2026-11-17-82); kept on the table for particular rules, agencies or programs"
+CRT-13,Circuit realignment,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:25,Decided (DEC-2026-11-17-83): point 35
+CRT-14,Statutory repairs (pointer),foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:26,"Provisional (DEC-2026-11-17-84): point 36, pending the explanation"
+CRT-15,Judicial term limits,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:27,"Decided (DEC-2026-11-17-51): memo 7 A, sitting Justices in a separable part; 13 Justices to consider"
+CRT-15A,"Prospective statute, severable retroactive provision, plus a proposed amendment",foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:190,Decided (DEC-2026-11-17-51)
+CRT-15B,Applied to sitting justices,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-courts.md:191,Not chosen as the main form; sitting Justices covered in A's separable part (DEC-2026-11-17-51)
+CRT-15C,Amendment only,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-courts.md:192,Not chosen; the amendment rides beside the statute (DEC-2026-11-17-51)
+CRT-15D,"Khanna design (H.R. 1074: nine most junior justices hear cases, deemed consent)",foundations/democratic-renewal,L2,alternative,legacy/domains/domain-courts.md:193,Not chosen (DEC-2026-11-17-51)
+CRT-16,"Automatic expansion trigger removed, October 26",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-courts.md:28,"Removal confirmed (DEC-2026-11-17-85): no automatic trigger; expansion stays an option, including 13 Justices; earlier note: Register: Removed October 26; fresh democratic decision required for any later structural response"
+CRT-17,Jurisdiction-stripping restraint,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:29,"Decided (DEC-2026-11-17-86): a declared norm, not a blanket surrender of jurisdiction powers"
+CRT-18,Impeachment standard,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:30,Decided (DEC-2026-11-17-86): never for rulings as such; corruption behind a ruling is misconduct
+CRT-19,State judicial selection,foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:31,Decided (DEC-2026-11-17-83): point 39
+CRT-P1,One judiciary bill: T1 items plus CRT-15,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-courts.md:52,Not chosen (DEC-2026-11-17-52)
+CRT-P2,"Two bills: a T1 integrity bill on the bipartisan fast track, then CRT-15 separately",foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:53,Decided (DEC-2026-11-17-52): with P4; term limits not held to 2033
+CRT-P3,T1 only in the first Congress; CRT-15 in 2033,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-courts.md:54,Not chosen (DEC-2026-11-17-52); terms not held to 2033
+CRT-P4,"Split CRT-1's phased judgeships into a stand-alone bill aimed at 60 votes; the rest as P2 (integrity bill, then CRT-15)",foundations/democratic-renewal,L2,decided,legacy/domains/domain-courts.md:55,Decided (DEC-2026-11-17-52)
+DEM-1,Electoral and civil-rights package,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:22,"Decided (DEC-2026-11-17-40, DEC-2026-11-17-42): memo 1 B, the records-first floor; memo 2 B, one bill in severable modules"
+DEM-1A,"All four titles in one bill, with DEM-1E in Title I",foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:90,"Decided (DEC-2026-11-17-42): memo 2 B, one bill written in severable modules with a separate intent module"
+DEM-1B,Split Title III into its own bill,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-democracy.md:91,"Memo 2 C, not chosen (DEC-2026-11-17-42)"
+DEM-1C,"Floor provisions only, preclearance dropped",foundations/democratic-renewal,L2,alternative,legacy/domains/domain-democracy.md:92,"Memo 2 D, not chosen (DEC-2026-11-17-42)"
+DEM-1D,"Add Title III's results test to the civil-rights code generally, not only Section 2",foundations/democratic-renewal,L1,held,legacy/domains/domain-democracy.md:93,"Held: no, for now (DEC-2026-11-17-43); Espen asked which other civil-rights areas might suit a results test"
+DEM-1E,"In Title I: every benefit-delivery point the agenda creates or expands is a voter-registration agency under the NVRA, with automatic registration on enrollment:",foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:94,Decided (DEC-2026-11-17-40): kept inside memo 1 B as one registration source among several
+DEM-1F,"Timing: after R1, by spring 2030",foundations/democratic-renewal,L2,decided,legacy/index/options-register.md:310,"Decided (DEC-2026-11-17-65): floor by March 2029, enactment by spring 2030 at the latest; enact as soon as possible; earlier note: Register: Decided Oct 20; decided in the legacy files; a working choice under DEC-2026-10-30-02"
+DEM-2,Redistricting commissions and the mid-decade ban,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:23,"Decided (DEC-2026-11-17-44, DEC-2026-11-17-45): memo 3 D, ban from enactment through the 2031 cycle; D1's House stipulation restated in a separate tier-3 PR"
+DEM-2A,"Commissions plus the ban, with the 2034 exception",foundations/democratic-renewal,L2,alternative,legacy/domains/domain-democracy.md:120,"Memo 3 A, not chosen (DEC-2026-11-17-44)"
+DEM-2B,Ban only,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-democracy.md:121,Not chosen (DEC-2026-11-17-44)
+DEM-2C,Commissions plus a ban with no exception,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-democracy.md:122,Not chosen (DEC-2026-11-17-44)
+DEM-2D,Add conditional funding for state legislative maps,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-democracy.md:123,Not chosen (DEC-2026-11-17-44)
+DEM-2E,"Substantive criteria (compactness, communities of interest, partisan-symmetry limits) enforced by a three-judge district court backstop, with independent commis",foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:124,"Decided (DEC-2026-11-17-44): memo 3 D, three severable titles"
+DEM-3,House enlargement,foundations/democratic-renewal,L1,decided,legacy/domains/domain-democracy.md:24,"Decided as a direction (DEC-2026-11-17-63): memo 13 A, parameters in a 2031 review; Espen asks for another look at earlier enlargement"
 DEM-3A,"Cube-root rule, ~692, automatic recalculation",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:140,
 DEM-3B,Wyoming rule: every district the size of the smallest state's population,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:141,
 DEM-3C,A fixed increase (e.g. to 600) with no formula,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:142,
-DEM-4,Fair Representation Act (STV),foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:25,
+DEM-4,Fair Representation Act (STV),foundations/democratic-renewal,L1,decided,legacy/domains/domain-democracy.md:25,"Decided as a direction (DEC-2026-11-17-63): memo 13 A, magnitude and fallback in the 2031 review"
 DEM-4A,"Five-member STV districts, enacted with DEM-3 and DEM-9 in 2033, 2034 maps",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:167,
 DEM-4B,Three-member districts,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:168,
 DEM-4C,Fallback if DEM-9's amendment stalls: STV with a statutory presidential RCV,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:169,
 DEM-4D,Fallback if DEM-9's amendment stalls: hold STV until ratified,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:170,
-DEM-5,D.C. statehood,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:26,
-DEM-6,Puerto Rico status,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:27,
-DEM-7,"Territorial, tribal and procedural representation",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:28,
-DEM-8,National Popular Vote Compact,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:29,
-DEM-9,Presidential election method,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:30,
-DEM-10,State multi-party track,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:31,
-DEM-11,Election administration funding,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:32,
-DEM-12,Re-enfranchisement,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:33,
-DEM-13,Time to vote,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:34,
-DEM-14,Election-worker protection,foundations/democratic-renewal,L1,pointer,legacy/domains/domain-democracy.md:35,
-DEM-15,National service,foundations/democratic-renewal,L1,pointer,legacy/domains/domain-democracy.md:36,
-DEM-16,Civic education,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:37,
-DEM-17,"Public space, libraries and community infrastructure",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:38,
-DEM-18,Citizens' assemblies,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:39,
-DEM-19,Protect the citizen initiative,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:40,
-DEM-20,Local self-government,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:41,
+DEM-5,D.C. statehood,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:26,Decided (DEC-2026-11-17-66): point 5
+DEM-6,Puerto Rico status,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:27,Decided (DEC-2026-11-17-66): point 6
+DEM-7,"Territorial, tribal and procedural representation",foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:28,"Decided (DEC-2026-11-17-66): point 7, second wave"
+DEM-8,National Popular Vote Compact,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:29,"Provisional (DEC-2026-11-17-67): point 8, yes with a constitutional amendment alongside the compact"
+DEM-9,Presidential election method,foundations/democratic-renewal,L1,decided,legacy/domains/domain-democracy.md:30,Decided as a direction (DEC-2026-11-17-63): memo 13 A
+DEM-10,State multi-party track,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:31,Decided (DEC-2026-11-17-68): point 9
+DEM-11,Election administration funding,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:32,Decided (DEC-2026-11-17-41): about $2B a year as a working assumption
+DEM-12,Re-enfranchisement,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:33,Decided (DEC-2026-11-17-64): point 1
+DEM-13,Time to vote,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:34,Decided (DEC-2026-11-17-64): point 2
+DEM-14,Election-worker protection,foundations/democratic-renewal,L1,pointer,legacy/domains/domain-democracy.md:35,"Pointer confirmed (DEC-2026-11-17-68): point 11, to SAF-8"
+DEM-15,National service,foundations/democratic-renewal,L1,pointer,legacy/domains/domain-democracy.md:36,"Pointer confirmed (DEC-2026-11-17-68): point 11, to LAB-9"
+DEM-16,Civic education,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:37,Decided (DEC-2026-11-17-68): point 12
+DEM-17,"Public space, libraries and community infrastructure",foundations/democratic-renewal,L1,decided,legacy/domains/domain-democracy.md:38,Decided as a direction (DEC-2026-11-17-70): point 14; Espen asks why time-limited and favors steady funding
+DEM-18,Citizens' assemblies,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-democracy.md:39,"Provisional (DEC-2026-11-17-69): point 13, pending the explanation"
+DEM-19,Protect the citizen initiative,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:40,Decided (DEC-2026-11-17-68): point 10
+DEM-20,Local self-government,foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:41,Decided (DEC-2026-11-17-68): point 10
 EDU-1,Title I,agenda/education,L1,chosen,legacy/domains/domain-education.md:19,
 EDU-1A,"$26B a year, mandatory",agenda/education,L1,alternative,legacy/domains/domain-education.md:54,Register: B through full EDU-9B; 1D held for ESEA
 EDU-1B,A $30B mandatory floor with discretionary appropriations layered on top (the mandatory Pell add-on model),agenda/education,L1,chosen,legacy/domains/domain-education.md:55,Register: B through full EDU-9B; 1D held for ESEA; decided in the legacy files; a working choice under DEC-2026-10-30-02
@@ -345,33 +345,33 @@ IMM-4B,Bill Book 15's DHS split: customs enforcement retained; interior enforcem
 IMM-4C,Priorities by executive guidance only,immigration,L2,alternative,legacy/domains/domain-immigration.md:105,"Memo 5 part 1 C, not chosen (DEC-2026-11-12-07); priorities by memo only as a bridge from January 20, 2029 until the act passes"
 IMM-5,Birthright citizenship and naturalization,immigration,L3,decided,legacy/domains/domain-immigration.md:15,"Decided (DEC-2026-11-12-07): points 10-12 (codify Barbara in 8 U.S.C. 1401; denaturalization limits; the 2008 test, no neighborhood investigations) and memo 7 part 2 (N-400 at $760, waived below 200% of poverty, half price to 400%); point 14 proposed to democratic renewal. Sections 4-6 drafted (I4): IMM-5.01-5.05"
 IMM-6,Delivery,immigration,L3,decided,legacy/domains/domain-immigration.md:16,"Decided (DEC-2026-11-12-07): memo 7 part 1 B (public-interest work appropriated, fees at cost for the rest, a six-month target) and part 3 B (the 2029 reconciliation act plus one regular-order act); points 9 and 13. Sections 4-6 drafted (I4): IMM-6.01-6.07; USCIS's appropriation about $17-27B over FY2030-39, replacing CAP-7S's $40B USCIS line and the pending $6B (a booking proposal, 6-cost.md part 6)"
-INT-1,Stock ownership and trading ban,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:15,
-INT-1A,"Ownership ban, Congress plus senior executive, divest or blind trust",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:56,Register: A chosen
-INT-1B,Trading ban only (the July 2026 House shape),foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:57,Register: A chosen
-INT-1C,"Congress only, executive branch excluded",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:58,Register: A chosen
-INT-2,DISCLOSE Act,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:16,
-INT-3,Revolving door,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:17,
-INT-4,Emoluments enforcement,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:18,
-INT-5,Small-dollar matching,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:19,
+INT-1,Stock ownership and trading ban,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:15,"Decided (DEC-2026-11-17-49, DEC-2026-11-17-50): memo 6 A with automatic penalties; no forced sale; diversified funds, Treasuries, munis and retirement accounts excluded"
+INT-1A,"Ownership ban, Congress plus senior executive, divest or blind trust",foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:56,Decided (DEC-2026-11-17-49): divest or a blind trust or similar; excluded holdings as Espen set
+INT-1B,Trading ban only (the July 2026 House shape),foundations/democratic-renewal,L2,alternative,legacy/domains/domain-integrity.md:57,"Memo 6 B, not chosen (DEC-2026-11-17-49)"
+INT-1C,"Congress only, executive branch excluded",foundations/democratic-renewal,L2,alternative,legacy/domains/domain-integrity.md:58,"Memo 6 C, not chosen (DEC-2026-11-17-49)"
+INT-2,DISCLOSE Act,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:16,Decided (DEC-2026-11-17-71): point 15
+INT-3,Revolving door,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:17,Decided (DEC-2026-11-17-74): point 21
+INT-4,Emoluments enforcement,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:18,Decided (DEC-2026-11-17-74): point 22
+INT-5,Small-dollar matching,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:19,"Decided (DEC-2026-11-17-46): memo 4 part 1 B, 6:1 up to $200, no cap, limits indexed; payer (INT-5A to 5C) stays stage G's"
 INT-5A,"Fines surcharge, own channel",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:85,Register: B decided
 INT-5B,"General revenue under D4, no separate channel",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:84,Register: B decided; decided in the legacy files; a working choice under DEC-2026-10-30-02
 INT-5C,A dedicated assessment on federal contractors or lobbying registrants,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:86,Register: B decided
-INT-6,Candidate tax disclosure,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:20,
-INT-7,FEC restructuring,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:21,
-INT-8,Outside-group coordination,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:22,
-INT-9,Beneficial ownership,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:23,
-INT-10,Lobbying registration,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:24,
-INT-11,Foreign agent registration,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:25,
-INT-12,Judiciary and Fed disclosure,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:26,
-INT-13,Paid speech and post-service pay,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:27,
-INT-14,Procurement integrity,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:28,
-INT-15,Corporate political spending,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:29,
-INT-15A,"Exchange Act statute on the S. 530 model: shareholder authorization, board votes, reporting",foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:146,Register: A chosen
-INT-15B,SEC rulemaking under existing authority,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:147,Register: A chosen
-INT-15C,State-law track only,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:148,Register: A chosen
-INT-15D,"Disclosure and board-vote provisions only, no shareholder vote",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:149,Register: A chosen
-INT-16,Foreign-influenced corporations,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:30,
-INT-17,State track,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:31,
+INT-6,Candidate tax disclosure,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:20,Decided (DEC-2026-11-17-76): point 24
+INT-7,FEC restructuring,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:21,Decided (DEC-2026-11-17-48): memo 5 B
+INT-8,Outside-group coordination,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:22,"Provisional (DEC-2026-11-17-72): point 16, pending the explanation"
+INT-9,Beneficial ownership,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:23,Decided (DEC-2026-11-17-71): point 18
+INT-10,Lobbying registration,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:24,Decided (DEC-2026-11-17-71): point 19
+INT-11,Foreign agent registration,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:25,Decided (DEC-2026-11-17-71): point 19
+INT-12,Judiciary and Fed disclosure,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:26,Decided (DEC-2026-11-17-54): memo 8's judiciary half; the Federal Reserve half takes the same disclosure rules
+INT-13,Paid speech and post-service pay,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-integrity.md:27,"Provisional (DEC-2026-11-17-75): point 23, Espen leans yes"
+INT-14,Procurement integrity,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:28,Decided (DEC-2026-11-17-73): point 20; a broader contractor-contribution bar is in the follow-up note
+INT-15,Corporate political spending,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:29,"Decided (DEC-2026-11-17-47): memo 4 part 2 A, severable"
+INT-15A,"Exchange Act statute on the S. 530 model: shareholder authorization, board votes, reporting",foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:146,Decided (DEC-2026-11-17-47)
+INT-15B,SEC rulemaking under existing authority,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-integrity.md:147,Not chosen (DEC-2026-11-17-47)
+INT-15C,State-law track only,foundations/democratic-renewal,L2,alternative,legacy/domains/domain-integrity.md:148,Not chosen (DEC-2026-11-17-47)
+INT-15D,"Disclosure and board-vote provisions only, no shareholder vote",foundations/democratic-renewal,L2,alternative,legacy/domains/domain-integrity.md:149,Not chosen; A's disclosure and board-vote sections are severable (DEC-2026-11-17-47)
+INT-16,Foreign-influenced corporations,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:30,Decided (DEC-2026-11-17-71): point 17
+INT-17,State track,foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:31,Decided (DEC-2026-11-17-76): point 25
 LAB-1,PRO Act core,work,L1,chosen,legacy/domains/domain-labor.md:11,
 LAB-1A,"Full core, including the fair-share override of right-to-work",work,L1,chosen,legacy/domains/domain-labor.md:53,Register: A chosen; Espen's call
 LAB-1B,Full core without the right-to-work override,work,L1,alternative,legacy/domains/domain-labor.md:54,Register: A chosen; Espen's call

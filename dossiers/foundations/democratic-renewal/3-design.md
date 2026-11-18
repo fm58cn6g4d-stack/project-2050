@@ -1,6 +1,6 @@
 # Democratic renewal: design choices
 
-Role: section 3 of the democratic renewal foundation: the real forks, the options weighed and a recommendation for each, with one decision memo per fork in `memos/` (indexed in `memos/README.md`), the narrower points as a numbered yes-or-no list, and part G's first bottom-up sizing of the cross-cutting state capacity. Status: **draft, awaiting Espen's decisions** (stage F, step 3). Nothing here is adopted by silence: every one of the 118 rows homed here (`agenda/agenda.csv`, `home_dossier` = `foundations/democratic-renewal`) is either in a memo or in the yes-or-no list (the table "Where each row is decided"). Every agenda row stays at L1 until Espen decides; this section books nothing and changes no model input.
+Role: section 3 of the democratic renewal foundation: the real forks, the options weighed and a recommendation for each, with one decision memo per fork in `memos/` (indexed in `memos/README.md`), the narrower points as a numbered yes-or-no list, and part G's first bottom-up sizing of the cross-cutting state capacity. Status: **decided** (`DEC-2026-11-17-40` to `-93`, Question 0d, November 17, 2026), each memo and point on its own, as recommended except where "Decided" below says otherwise; memo 9 part 1 and points 8, 13, 16, 23, 31, 32, 33 and 36 are provisional. The options and recommendations below are kept as they were sent; section 4 carries the decided design and is on hold until Espen says go. Every one of the 118 rows homed here (`agenda/agenda.csv`, `home_dossier` = `foundations/democratic-renewal`) is either in a memo or in the yes-or-no list (the table "Where each row is decided"). The decided rows move to L2 in `agenda/agenda.csv`; directions and provisional answers stay at L1. This section books nothing and changes no model input.
 
 ## How to read this section
 
@@ -9,6 +9,22 @@ Role: section 3 of the democratic renewal foundation: the real forks, the option
 - **Costs are reported, not gated** (`DEC-2026-11-10-05`): each option's cost is given against outside scores where any exist; how it is paid for is stage G's.
 - **Settled already, not reopened:** D2, the Senate rules question, is a constraint (the scenario's 2027-28 questions); CRT-5's requirements come from the immigration flagship (`DEC-2026-11-12-07`); SAF-8 and LAB-9 are homed elsewhere; executive power and amendments are wave three; CRT-16's trigger was removed on October 26.
 - **Sources** are named in plain text in the memos; here the tags point to `evidence.json`.
+
+## Decided
+
+Espen answered the batch on November 17, 2026 (`DEC-2026-11-17-40` to `-93`), each memo and point on its own. Espen's questions are answered in `notes/espen-questions-2026-11-17.md` (parts a to t).
+- **As recommended:** memo 1 B with DEM-11 at about $2 billion a year; memo 2 B, no DEM-1D for now (held); memo 3 D, the ban from enactment through the 2031 cycle; memo 4 part 1 B, part 2 A; memo 5 B; memo 6 A with automatic penalties; memo 7 A, P2 with P4, 71 judgeships; memo 8 A with an inspector general; memo 9 parts 2 and 3 B; memo 10 B and B; memo 11 B; memo 12 B and B; memo 13 A; and every point except the provisional ones below.
+- **Terms and conditions Espen added:**
+  - memo 1: open to voter ID as a direction, only if free and easy to meet and genuinely more secure and trusted (note, part a);
+  - memo 6 part 1: no forced sale (divesting is one option; a qualified blind trust or similar is another); diversified mutual funds and ETFs, Treasuries and municipal bonds, and the TSP and other retirement accounts never trigger the ban (part c);
+  - memo 7 part 1: sitting Justices covered in a severable part; consider 13 Justices to match the 13 circuits (part d); part 2: the term-limits bill is not held to 2033;
+  - memo 9 part 2: the added judges split between regular-term and temporary hires, each sized to the need, so the saving in IMM-1 is smaller than B's −$5.5 billion; part 3: the public defender shortage is addressed too, separately (part f);
+  - memo 10 part 2: check that pacing plus hiring authority is the best way to build and hold agencies accountable (part g);
+  - memo 11: built on federal records, made to work together, with no reach into state, local or school records; records a program lacks come once, by the person's submission or consent, and then serve every agency;
+  - memo 13: Espen asks for another look at an earlier enlargement or a state option (part h);
+  - point 3: enact as soon as possible; point 27: a deadline for the written reasons; points 34, 37 and 38: not blanket rules, kept on the table; point 40: real 1979 levels, not nominal pay; point 41: a modernized OTA; point 46: built on the existing digital services.
+- **Provisional:** memo 9 part 1 is **open**: Espen marked B but is undecided, leaning toward a simpler path into Article III courts and open to A or C (part e). Points 8 (yes, with a constitutional amendment alongside the compact; part i), 13, 16, 23, 31, 32, 33 and 36 were marked Discuss and wait on the explanations in parts j, l, n, o, p, q and r.
+- **Follow-ups:** memo 3 D restates legacy D1's House stipulation as "DEM-2's criteria (Title II) in force", a separate tier-3 change (memo 3); memo 9 part 2's change to IMM-1's booking is a later tier-3 change; the voter-ID, 13-Justice, library-funding and contractor-bar questions return to Espen with the note's recommendations.
 
 ## The baseline in 2029
 
@@ -136,64 +152,64 @@ Sums are this section's arithmetic; rows may not add exactly because of rounding
 Each is decided on its own; none is adopted by silence. "Cost" is FY2030-39 unless stated; legacy costs are the legacy files' estimates.
 
 **Voting and representation**
-1. **DEM-12: restore federal voting rights on release from prison, with an official notice** (an official mailing raised registration 1.8 points in a Connecticut randomized trial) [EV-DEM-161]; about 4 million people are disenfranchised (The Sentencing Project) [EV-DEM-159]. Cost: none material. **Recommended: yes.**
-2. **DEM-13: mandatory paid time to vote rather than a federal holiday,** because a holiday mostly moves federal and salaried workers (`domain-democracy.md`, line 232). Cost: on employers, not the general fund. **Recommended: yes.**
-3. **DEM-1F: DEM-1's floor consideration by March 2029, enactment by spring 2030** (legacy timing, a working choice). **Recommended: yes.**
-4. **The two proposed riders on DEM-1:** SAF-8's election-worker protections (32% of local officials reported threats or harassment in 2026, Brennan Center survey [EV-DEM-022]) and AI-8's synthetic-media disclosure in political ads, so both pass with DEM-1 (legacy open item 7). Their designs stay with their home dossiers. **Recommended: yes to both.**
-5. **DEM-5: D.C. statehood by admission act,** with the residual district's electors directed by statute; the District had 689,545 residents in 2020, more than Vermont or Wyoming (Census) [EV-DEM-267]; the House passed H.R. 51 in 2021 [EV-DEM-268]. Cost: none in the window. **Recommended: yes.**
-6. **DEM-6: a binding Puerto Rico status plebiscite with Congress committed to the result,** with statehood's fiscal effect scored before the vote (legacy open item 4). **Recommended: yes.**
-7. **DEM-7: voting delegates for the territories, tribal representation and a codified admission procedure,** second wave. **Recommended: yes.**
-8. **DEM-8: the popular vote compact: drive to 270 without asking Congress's consent,** the consent question being unresolved (CRS) [EV-DEM-266]; 222 electoral votes have joined [EV-DEM-076]. **Recommended: yes.**
-9. **DEM-10: a state track for fusion voting and ranked-choice voting with open primaries.** **Recommended: yes.**
-10. **DEM-19 and DEM-20: state tracks protecting the citizen initiative and limiting punitive preemption;** no federal hook exists (`domain-democracy.md`, line 289). **Recommended: yes.**
-11. **DEM-14 and DEM-15 stay pointers** to SAF-8 (public safety) and LAB-9 (work, memo 9 of that dossier). **Recommended: yes.**
+1. **DEM-12: restore federal voting rights on release from prison, with an official notice** (an official mailing raised registration 1.8 points in a Connecticut randomized trial) [EV-DEM-161]; about 4 million people are disenfranchised (The Sentencing Project) [EV-DEM-159]. Cost: none material. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-64`).**
+2. **DEM-13: mandatory paid time to vote rather than a federal holiday,** because a holiday mostly moves federal and salaried workers (`domain-democracy.md`, line 232). Cost: on employers, not the general fund. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-64`).**
+3. **DEM-1F: DEM-1's floor consideration by March 2029, enactment by spring 2030** (legacy timing, a working choice). **Recommended: yes.** **Decided: yes, enact as soon as possible (spring 2030 is the outer date) (`DEC-2026-11-17-65`).**
+4. **The two proposed riders on DEM-1:** SAF-8's election-worker protections (32% of local officials reported threats or harassment in 2026, Brennan Center survey [EV-DEM-022]) and AI-8's synthetic-media disclosure in political ads, so both pass with DEM-1 (legacy open item 7). Their designs stay with their home dossiers. **Recommended: yes to both.** **Decided: yes (`DEC-2026-11-17-66`).**
+5. **DEM-5: D.C. statehood by admission act,** with the residual district's electors directed by statute; the District had 689,545 residents in 2020, more than Vermont or Wyoming (Census) [EV-DEM-267]; the House passed H.R. 51 in 2021 [EV-DEM-268]. Cost: none in the window. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-66`).**
+6. **DEM-6: a binding Puerto Rico status plebiscite with Congress committed to the result,** with statehood's fiscal effect scored before the vote (legacy open item 4). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-66`).**
+7. **DEM-7: voting delegates for the territories, tribal representation and a codified admission procedure,** second wave. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-66`).**
+8. **DEM-8: the popular vote compact: drive to 270 without asking Congress's consent,** the consent question being unresolved (CRS) [EV-DEM-266]; 222 electoral votes have joined [EV-DEM-076]. **Recommended: yes.** **Decided: provisional: yes, with a constitutional amendment pushed alongside (note, part i) (`DEC-2026-11-17-67`).**
+9. **DEM-10: a state track for fusion voting and ranked-choice voting with open primaries.** **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-68`).**
+10. **DEM-19 and DEM-20: state tracks protecting the citizen initiative and limiting punitive preemption;** no federal hook exists (`domain-democracy.md`, line 289). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-68`).**
+11. **DEM-14 and DEM-15 stay pointers** to SAF-8 (public safety) and LAB-9 (work, memo 9 of that dossier). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-68`).**
 
 **Civic life**
-12. **DEM-16: civic education grants measured on knowledge and participation,** not curricula; state civics exams raise knowledge [EV-DEM-184] but a civics-test graduation rule did not raise youth turnout [EV-DEM-185]. Cost: about $0.01 trillion (legacy). **Recommended: yes.**
-13. **DEM-18: citizens' assemblies with a duty to answer:** the referring body must respond in writing to each recommendation within a set time; deliberation no one answers is the failure France showed [EV-DEM-179], and where data exist authorities implemented over half the recommendations in 76% of cases [EV-DEM-181]. Cost: about zero. **Recommended: yes.**
-14. **DEM-17: the time-limited capital fund for libraries and public space,** about $0.03 trillion (legacy), financing left to stage G; no outcome evaluation is in the register. **Recommended: yes, as a direction.**
+12. **DEM-16: civic education grants measured on knowledge and participation,** not curricula; state civics exams raise knowledge [EV-DEM-184] but a civics-test graduation rule did not raise youth turnout [EV-DEM-185]. Cost: about $0.01 trillion (legacy). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-68`).**
+13. **DEM-18: citizens' assemblies with a duty to answer:** the referring body must respond in writing to each recommendation within a set time; deliberation no one answers is the failure France showed [EV-DEM-179], and where data exist authorities implemented over half the recommendations in 76% of cases [EV-DEM-181]. Cost: about zero. **Recommended: yes.** **Decided: provisional, pending the explanation (note, part j) (`DEC-2026-11-17-69`).**
+14. **DEM-17: the time-limited capital fund for libraries and public space,** about $0.03 trillion (legacy), financing left to stage G; no outcome evaluation is in the register. **Recommended: yes, as a direction.** **Decided: yes, as a direction; Espen asks why time-limited (note, part k) (`DEC-2026-11-17-70`).**
 
 **Money in politics and ethics**
-15. **INT-2: the DISCLOSE Act, written to *Bonta*'s narrow-tailoring test** [EV-DEM-206], on *Citizens United*'s 8-1 disclosure holding [EV-DEM-205]. **Recommended: yes.**
-16. **INT-8: single-candidate super PACs treated as coordinated with their candidate,** the live lever after *NRSC* [EV-DEM-027]. **Recommended: yes.**
-17. **INT-16: a ban on political spending by majority foreign-owned entities** (*Bluman*, legacy line 118). **Recommended: yes.**
-18. **INT-9: enforce beneficial-ownership reporting and close the Corporate Transparency Act's carve-outs,** with FinCEN's unit in the integrity line. **Recommended: yes.**
-19. **INT-10 and INT-11: close lobbying-registration loopholes and reform FARA,** with the Justice Department's FARA unit in the integrity line. **Recommended: yes.**
-20. **INT-14: bar contractors with adjudicated fraud findings.** **Recommended: yes.**
-21. **INT-3: cooling-off periods for officials joining regulated industries,** on the evidence that access, not expertise, is what is sold [EV-DEM-221] [EV-DEM-222]. **Recommended: yes.**
-22. **INT-4: a private cause of action to enforce the emoluments clauses,** because the 2017-21 suits ended without a merits ruling [EV-DEM-039]. **Recommended: yes.**
-23. **INT-13: ban paid speeches and post-service pay from regulated entities.** **Recommended: yes.**
-24. **INT-6: tax-return disclosure by presidential and vice-presidential candidates,** as a condition of FEC filing or public financing rather than of ballot access, which raises a qualifications question (judgment). **Recommended: yes.**
-25. **INT-17: a state track for public financing, charter rules and shareholder approval.** **Recommended: yes.**
+15. **INT-2: the DISCLOSE Act, written to *Bonta*'s narrow-tailoring test** [EV-DEM-206], on *Citizens United*'s 8-1 disclosure holding [EV-DEM-205]. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-71`).**
+16. **INT-8: single-candidate super PACs treated as coordinated with their candidate,** the live lever after *NRSC* [EV-DEM-027]. **Recommended: yes.** **Decided: provisional, pending the explanation (note, part l) (`DEC-2026-11-17-72`).**
+17. **INT-16: a ban on political spending by majority foreign-owned entities** (*Bluman*, legacy line 118). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-71`).**
+18. **INT-9: enforce beneficial-ownership reporting and close the Corporate Transparency Act's carve-outs,** with FinCEN's unit in the integrity line. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-71`).**
+19. **INT-10 and INT-11: close lobbying-registration loopholes and reform FARA,** with the Justice Department's FARA unit in the integrity line. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-71`).**
+20. **INT-14: bar contractors with adjudicated fraud findings.** **Recommended: yes.** **Decided: yes; Espen's question on a broader contractor bar is answered in the note, part m (`DEC-2026-11-17-73`).**
+21. **INT-3: cooling-off periods for officials joining regulated industries,** on the evidence that access, not expertise, is what is sold [EV-DEM-221] [EV-DEM-222]. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-74`).**
+22. **INT-4: a private cause of action to enforce the emoluments clauses,** because the 2017-21 suits ended without a merits ruling [EV-DEM-039]. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-74`).**
+23. **INT-13: ban paid speeches and post-service pay from regulated entities.** **Recommended: yes.** **Decided: provisional, Espen leans yes (note, part n) (`DEC-2026-11-17-75`).**
+24. **INT-6: tax-return disclosure by presidential and vice-presidential candidates,** as a condition of FEC filing or public financing rather than of ballot access, which raises a qualifications question (judgment). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-76`).**
+25. **INT-17: a state track for public financing, charter rules and shareholder approval.** **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-76`).**
 
 **Courts**
-26. **CRT-3: random assignment for cases seeking relief beyond the parties,** and three-judge courts for them; it is also the forum rule for challenges to this plan, a shift rather than a cure (`domain-courts.md`, line 90). **Recommended: yes.**
-27. **CRT-4: written reasons and recorded votes for emergency-docket grants,** given six counts that disagree by window and denominator [EV-DEM-055] [EV-DEM-060]. **Recommended: yes.**
-28. **CRT-6: records rules and cameras for the Supreme Court,** with a long embargo. **Recommended: yes.**
-29. **CRT-7: review of rules channeled to one court with a short window, and the *Corner Post* fix** (claims accrue at publication) [EV-DEM-052]. **Recommended: yes.**
-30. **CRT-8: express delegations in every statute the plan writes, not a general deference statute,** after *Loper Bright* [EV-DEM-051]. **Recommended: yes.**
-31. **CRT-9: settle remedies after *CASA* symmetrically,** in the second Congress, since CRS finds no systemic shift a year on [EV-DEM-246]. **Recommended: yes.**
-32. **CRT-10: civil penalties in district court after *Jarkesy*,** second wave. **Recommended: yes.**
-33. **CRT-11: docket reform (mandatory jurisdiction, a cert screening division). Recommended: no, for now;** mandatory jurisdiction can widen the Court's reach as easily as discipline it (`domain-courts.md`, line 158).
-34. **CRT-12: a specialized regulatory court. Recommended: no, for now;** CRT-7's channeling does most of the work, and the Commerce Court's fate is the caution (line 164).
-35. **CRT-13: circuit realignment on stated caseload criteria,** with the judgeships. **Recommended: yes.**
-36. **CRT-14 stays a pointer** to each statutory repair's home. **Recommended: yes.**
-37. **CRT-16's removal stands** (October 26): no automatic expansion response. **Recommended: yes (confirm).**
-38. **CRT-17 and CRT-18: declared norms against jurisdiction-stripping and against impeaching judges for rulings.** **Recommended: yes.**
-39. **CRT-19: a state track to end partisan judicial elections.** **Recommended: yes.**
+26. **CRT-3: random assignment for cases seeking relief beyond the parties,** and three-judge courts for them; it is also the forum rule for challenges to this plan, a shift rather than a cure (`domain-courts.md`, line 90). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-77`).**
+27. **CRT-4: written reasons and recorded votes for emergency-docket grants,** given six counts that disagree by window and denominator [EV-DEM-055] [EV-DEM-060]. **Recommended: yes.** **Decided: yes, with a deadline for publishing the written reasons (`DEC-2026-11-17-78`).**
+28. **CRT-6: records rules and cameras for the Supreme Court,** with a long embargo. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-77`).**
+29. **CRT-7: review of rules channeled to one court with a short window, and the *Corner Post* fix** (claims accrue at publication) [EV-DEM-052]. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-77`).**
+30. **CRT-8: express delegations in every statute the plan writes, not a general deference statute,** after *Loper Bright* [EV-DEM-051]. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-77`).**
+31. **CRT-9: settle remedies after *CASA* symmetrically,** in the second Congress, since CRS finds no systemic shift a year on [EV-DEM-246]. **Recommended: yes.** **Decided: provisional, pending the explanation (note, part o) (`DEC-2026-11-17-79`).**
+32. **CRT-10: civil penalties in district court after *Jarkesy*,** second wave. **Recommended: yes.** **Decided: provisional, pending the explanation (note, part p) (`DEC-2026-11-17-80`).**
+33. **CRT-11: docket reform (mandatory jurisdiction, a cert screening division). Recommended: no, for now;** mandatory jurisdiction can widen the Court's reach as easily as discipline it (`domain-courts.md`, line 158). **Decided: provisional: Espen favors docket reform (note, part q) (`DEC-2026-11-17-81`).**
+34. **CRT-12: a specialized regulatory court. Recommended: no, for now;** CRT-7's channeling does most of the work, and the Commerce Court's fate is the caution (line 164). **Decided: no, for now; not a blanket rule, kept on the table for particular rules, agencies or programs (`DEC-2026-11-17-82`).**
+35. **CRT-13: circuit realignment on stated caseload criteria,** with the judgeships. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-83`).**
+36. **CRT-14 stays a pointer** to each statutory repair's home. **Recommended: yes.** **Decided: provisional, pending the explanation (note, part r) (`DEC-2026-11-17-84`).**
+37. **CRT-16's removal stands** (October 26): no automatic expansion response. **Recommended: yes (confirm).** **Decided: yes (confirmed); not a blanket rule: expansion stays on the table as an option, including 13 Justices to match the circuits (`DEC-2026-11-17-85`).**
+38. **CRT-17 and CRT-18: declared norms against jurisdiction-stripping and against impeaching judges for rulings.** **Recommended: yes.** **Decided: yes; not a blanket rule on jurisdiction, which stays available; never impeach over rulings as such (note, part s) (`DEC-2026-11-17-86`).**
+39. **CRT-19: a state track to end partisan judicial elections.** **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-83`).**
 
 **Congress and the state**
-40. **CAP-1 with CAP-14: congressional staff and pay to real 1979 levels and a D.C. housing allowance, packaged with the stock ban;** about $0.02 trillion (legacy, line 61). **Recommended: yes.**
-41. **CAP-2: re-establish the Office of Technology Assessment.** Under $0.01 trillion (legacy). **Recommended: yes.**
-42. **CAP-3: restore CRS and GAO toward 1992 levels and rebuild CBO's scoring capacity;** the legacy counts "vary by method" (line 71) and are not re-checked (Evidence still needed). About $0.01 trillion. **Recommended: yes.**
-43. **CAP-5: transparent, competitively awarded, capped earmarks.** **Recommended: yes.**
-44. **CAP-6: a statute-tracking office that drafts overrides.** **Recommended: yes.**
-45. **CAP-10: successor architecture for the development and education functions,** with funding in their own dossiers. **Recommended: yes, as a direction.**
-46. **CAP-12: technology procurement reform and a federal digital service corps** ($3.7 billion over the decade in the review) [EV-DEM-329]; the 2025 Direct File cost $16.2 million against a $61.2 million estimate (TIGTA) [EV-DEM-279]. **Recommended: yes.**
-47. **CAP-13: state and local implementation grants at about $8 billion of surge,** for cross-program eligibility systems and the data agreements memo 11 needs [EV-DEM-329]. **Recommended: yes.**
-48. **CAP-15 and CAP-16: legislative technology, and committee jurisdiction for AI, climate and cyber.** **Recommended: yes.**
-49. **CAP-17: legal-culture investments (congressional clerkships, drafting clinics).** **Recommended: yes.**
-50. **CAP-18: draft the successor legislation and delegation templates in 2027-28** (preparation, labeled). **Recommended: yes.**
+40. **CAP-1 with CAP-14: congressional staff and pay to real 1979 levels and a D.C. housing allowance, packaged with the stock ban;** about $0.02 trillion (legacy, line 61). **Recommended: yes.** **Decided: yes, at real (inflation-adjusted) 1979 levels, never nominal 1979 pay (`DEC-2026-11-17-87`).**
+41. **CAP-2: re-establish the Office of Technology Assessment.** Under $0.01 trillion (legacy). **Recommended: yes.** **Decided: yes, in modernized form (`DEC-2026-11-17-88`).**
+42. **CAP-3: restore CRS and GAO toward 1992 levels and rebuild CBO's scoring capacity;** the legacy counts "vary by method" (line 71) and are not re-checked (Evidence still needed). About $0.01 trillion. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-89`).**
+43. **CAP-5: transparent, competitively awarded, capped earmarks.** **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-89`).**
+44. **CAP-6: a statute-tracking office that drafts overrides.** **Recommended: yes.** **Decided: yes; budget estimate in the note, part t (`DEC-2026-11-17-90`).**
+45. **CAP-10: successor architecture for the development and education functions,** with funding in their own dossiers. **Recommended: yes, as a direction.** **Decided: yes, as a direction (`DEC-2026-11-17-91`).**
+46. **CAP-12: technology procurement reform and a federal digital service corps** ($3.7 billion over the decade in the review) [EV-DEM-329]; the 2025 Direct File cost $16.2 million against a $61.2 million estimate (TIGTA) [EV-DEM-279]. **Recommended: yes.** **Decided: yes, built on or alongside the existing digital service work (`DEC-2026-11-17-92`).**
+47. **CAP-13: state and local implementation grants at about $8 billion of surge,** for cross-program eligibility systems and the data agreements memo 11 needs [EV-DEM-329]. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-93`).**
+48. **CAP-15 and CAP-16: legislative technology, and committee jurisdiction for AI, climate and cyber.** **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-93`).**
+49. **CAP-17: legal-culture investments (congressional clerkships, drafting clinics).** **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-93`).**
+50. **CAP-18: draft the successor legislation and delegation templates in 2027-28** (preparation, labeled). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-93`).**
 
 ## Where each row is decided
 
@@ -249,4 +265,4 @@ From `dossiers/shared-rules.md`:
 
 ## Questions for Espen
 
-The thirteen memos' questions (listed in `memos/README.md`) and the 50 points above, answered in one round. Nothing here needs an answer before the work dossier's section 3 merges; the lead puts the batch on the board.
+The batch is decided (`DEC-2026-11-17-40` to `-93`). Still open: memo 9 part 1 and the provisional points, with recommendations in `notes/espen-questions-2026-11-17.md`; and the go for section 4.
