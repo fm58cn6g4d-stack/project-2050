@@ -45,10 +45,10 @@ Meanwhile:
    - **Apprenticeship:** new registered apprentices from 311,035 in FY2025 (Labor Department figures in a Nevada State Apprenticeship Council report, 2026) [EV-WRK-349] to 600,000 a year by FY2034, in construction, energy, care and advanced manufacturing, with grants to sponsors of up to $12,000 per apprentice and support for child care, tools and transport (LAB-8.01, 8.03, 8.04).
    - **National service:** 150,000 more full-time positions a year by 2034, ramped from 2030, authorized by a bipartisan bill. If none passes by December 31, 2030, the reconciliation act funds the same scale from FY2031. Up to 50,000 more service-to-apprenticeship places open only once the first 150,000 are filled and completing, in 2035 on the working ramp (LAB-9.01, 9.03, 9.06).
 
-**What it costs, on our estimates.** About **$0.20 trillion over 2030-39** (range about $0.10-0.35 trillion) and about **$27 billion a year from 2040** (range about $13-44 billion) on the federal general fund, before the plan's financing (section 6). No official score exists yet; the plan asks CBO and the Joint Committee on Taxation to score the main pieces in 2027-28. These figures hold under stated conditions:
-- they assume **no recession**, as CBO's projections do. A moderate two-year downturn would add about $70-100 billion of fully federal Extended Benefits;
-- they leave out the gated service places (up to about $13 billion), the items still with Espen (about $2 billion, plus a standby trigger of up to $5 billion a year when on), and the agencies' new staff, which the plan's capacity budget carries;
-- unemployment benefits rise about $259 billion over 2031-39, paid from the state trust funds and matched over the cycle by employers' state taxes on a larger wage base, so they are not general-fund costs. Social Security's funds lose about $21 billion over the same years.
+**What it costs, on our estimates.** About **$0.22 trillion over 2030-39** (range about $0.10-0.44 trillion) and about **$31 billion a year from 2040** (range about $14-57 billion) on the federal general fund, before the plan's financing (section 6). No official score exists yet; the plan asks CBO and the Joint Committee on Taxation to score the main pieces in 2027-28. These figures hold under stated conditions:
+- they assume **no recession**, as CBO's projections do. A moderate two-year downturn would add about $120 billion of fully federal Extended Benefits;
+- they leave out the gated service places (up to about $13 billion), the items still with Espen (about $2 billion, plus a standby trigger of up to $5 billion a year when on), the national service grantees' share of costs (about $13 billion, raised by host organizations and states, not federal), and the agencies' new staff, which the plan's capacity budget carries;
+- unemployment benefits rise about $541 billion over 2031-39, paid from the state trust funds and matched over the cycle by employers' state taxes on a larger wage base, so they are not general-fund costs. That roughly doubles employers' state unemployment taxes, about twice the first estimate; whether to keep the standard from 2031 or phase it in is still with Espen (provisional). Social Security's funds lose about $43 billion over the same years.
 
 **What the plan is honest about.**
 - **Whether a higher floor costs jobs is contested.** CBO estimated 1.3 million to 1.4 million fewer jobs for $15 by 2025 (Congressional Budget Office, 2019 and 2021) [EV-WRK-029] [EV-WRK-032]. A study of 138 state increases found low-wage job counts essentially unchanged (Cengiz, Dube, Lindner and Zipperer, 2019) [EV-WRK-033]; a broad review found most estimates negative (Neumark and Shirley, 2022) [EV-WRK-034]. The plan's $17 comes in 2035, when on our estimates it is about half the median wage, a smaller bite than CBO's $15 in 2025.
@@ -106,6 +106,7 @@ Each is drafted on its recommendation, so the plan is complete, and revised if E
 | American Samoa's wage path | The Northern Mariana Islands follow the federal schedule; American Samoa keeps its own path, with the commission reporting each year | LAB-4.10 |
 | Wage insurance's monthly payment | The worker confirms hours each month, checked against the employer's quarterly report | LAB-18.08 |
 | The small-business credit's size | Keep it as specified, about $3 billion, rather than widen it toward the $0.02-0.04 trillion first estimated | LAB-5.01 |
+| The unemployment standard's cost to employers | Keep 75% of pay up to two-thirds of the state's average wage from 2031, about $42 billion a year more in benefits at 2025 levels paid by employers, rather than phase it in or hold it at 60% | LAB-11.01 |
 
 One more piece is provisional for the milestone review, not for Espen: how the Labor Department pays claimants in a state that will not meet the new unemployment standards (LAB-11.10).
 
@@ -117,8 +118,8 @@ One more piece is provisional for the milestone review, not for Espen: how the L
 | $9.50 on January 1, 2030, rising to $17.00 on January 1, 2035, then with the median wage | Those dates if the labor act is signed after June 30, 2029 or not at all: each step moves with signing |
 | On our estimates, families with children starting at $7.25 keep most of the raise | That every worker keeps most of a raise: the single adult on the marketplace in a non-expansion state keeps about 39% in 2032 (59% under 2029 law) |
 | CBO and careful studies disagree on job loss; the plan's $17 bites less than CBO's $15 | That the floor costs no jobs, or that it will cost a set number |
-| About $0.20 trillion over ten years and about $27 billion a year from 2040, on our estimates, with no recession | That it is scored, or that it is paid for: no CBO score exists, and the plan-wide financing settlement has not yet run |
-| Unemployment benefits are paid by employers' taxes through the state trust funds, matched over the cycle | That the bigger benefits cost nothing: Social Security loses about $21 billion over 2031-39, and a recession adds about $70-100 billion of federal Extended Benefits |
+| About $0.22 trillion over ten years and about $31 billion a year from 2040, on our estimates, with no recession | That it is scored, or that it is paid for: no CBO score exists, and the plan-wide financing settlement has not yet run |
+| Unemployment benefits are paid by employers' taxes through the state trust funds, matched over the cycle | That the bigger benefits cost nothing: employers' state unemployment taxes roughly double, Social Security loses about $43 billion over 2031-39, and a recession adds about $120 billion of federal Extended Benefits |
 | Card check, with elections still the union's choice | That union membership will rise by a set amount: no model turns card check into a coverage figure (section 7, part 2) |
 | Penalties in federal court with a jury, so they meet the Supreme Court's 2024 ruling on civil penalties (*SEC v. Jarkesy*) [EV-WRK-131] | That first-contract arbitration and binding standards boards are legally settled: no case in the register tests them |
 | Wage insurance never asks what caused the job loss | That the plan already has an AI trigger: memo 10 is still with Espen |
@@ -137,7 +138,7 @@ The claims on statutory labor penalties, strikers and first contracts (`lab1`) a
 
 ## Questions for Espen
 
-None new. The provisional items above are the eight already listed in the README (sections 4 to 6). Section 9 presents the single adult's result as an open finding for the secure floor's owners and stage G.
+None new. The provisional items above are the eight listed in the README (sections 4 to 6 and the milestone review's fix step 1). Section 9 presents the single adult's result as an open finding for the secure floor's owners and stage G.
 
 ## Source table
 
@@ -183,10 +184,11 @@ None new. The provisional items above are the eight already listed in the README
 | Wage insurance from January 1, 2031: half the hourly drop, up to $10,000 a year, two years, three years' tenure | Section 4, LAB-18.01, 18.02; section 5, part 3 | Decided for now (`DEC-2026-11-17-95`) |
 | TAA's wage insurance raised employment 8 to 17 points | Section 1, D.5; section 4, LAB-18.02 | EV-WRK-365 |
 | 150,000 more service positions by 2034; fallback after December 31, 2030; up to 50,000 more, opening 2035 on the working ramp | Section 4, LAB-9.01, 9.03, 9.06 | `DEC-2026-11-17-32`; working ramp |
-| About $0.20 trillion over FY2030-39 (about $0.10-0.35 trillion); about $27 billion in FY2040 ($13-44 billion) | Section 6, part 1 and part 8 | Project arithmetic, `tools/work_path.py` ($195.1 billion and $27.4 billion) |
-| No recession; Extended Benefits in a moderate downturn about $70-100 billion | Section 6, part 2 | Judgment |
-| Service tranche up to about $13 billion; items still with Espen about $2 billion; the trigger up to $5 billion a year | Section 6, parts 3 and 4 | Project arithmetic ($12.8 billion; $2.1 billion) |
-| UI benefits about $259 billion over FY2031-39, matched by employers; Social Security about −$21 billion | Section 6, part 2 | Project arithmetic; EV-WRK-413 |
+| About $0.22 trillion over FY2030-39 (about $0.10-0.44 trillion); about $31 billion in FY2040 ($14-57 billion) | Section 6, part 1 and part 8 | Project arithmetic, `tools/work_path.py` ($223.2 billion and $31.3 billion) |
+| No recession; Extended Benefits in a moderate downturn about $120 billion | Section 6, part 2 | Judgment; EV-WRK-451 |
+| Service tranche up to about $13 billion; items still with Espen about $2 billion; the trigger up to $5 billion a year | Section 6, parts 3 and 4 | Project arithmetic ($12.8 billion; $1.8 billion) |
+| UI benefits about $541 billion over FY2031-39, matched by employers, roughly doubling their state UI taxes; Social Security about −$43 billion | Section 6, part 2 | Project arithmetic; EV-WRK-413, EV-WRK-451, EV-WRK-452, EV-WRK-302 |
+| National service grantees' share about $13 billion over FY2030-39, not federal | Section 6, part 1 | Project arithmetic; EV-WRK-454 |
 | CBO: 1.3 million to 1.4 million fewer jobs at $15 | Section 1, A.4; section 7, part 6 | EV-WRK-029, EV-WRK-032 |
 | 138 state increases; most estimates negative in a review | Section 1, A.4 | EV-WRK-033, EV-WRK-034 |
 | $17 in 2035 about half the median | Section 3, "What the options cost"; section 7, part 1A | Project arithmetic on EV-WRK-078 |
