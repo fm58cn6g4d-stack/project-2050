@@ -76,11 +76,11 @@ class CostTool(unittest.TestCase):
         self.assertAlmostEqual(c["surge"], 43.2, delta=0.05)
         self.assertAlmostEqual(c["sustained"], 29.7, delta=0.05)
         self.assertAlmostEqual(c["fy2040"], 4.7, delta=0.05)
-        self.assertAlmostEqual(self.s["gap_2040"], 602.7, delta=0.05)
+        self.assertAlmostEqual(self.s["gap_2040"], 614.0, delta=0.05)
         sh = self.s["share_of_gap_2040"]
-        self.assertAlmostEqual(100 * sh["booked"], 8.29, delta=0.005)
-        self.assertAlmostEqual(100 * sh["unbooked"], 0.42, delta=0.005)
-        self.assertAlmostEqual(100 * sh["unbooked_hi"], 0.63, delta=0.005)
+        self.assertAlmostEqual(100 * sh["booked"], 8.14, delta=0.005)  # 8.29 before the work booking raised the gap to 614.0
+        self.assertAlmostEqual(100 * sh["unbooked"], 0.41, delta=0.005)
+        self.assertAlmostEqual(100 * sh["unbooked_hi"], 0.62, delta=0.005)
 
     def test_other_lines(self):
         o = self.s["other"]

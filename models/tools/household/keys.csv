@@ -36,6 +36,7 @@ ss_benefit,micro,ss,micro,Social Security benefits received
 leave_benefit,legacy,,,kept: leave-taking by earnings needs the leave model
 hh_clean,legacy,,,kept: clean-energy credit claims are not in the CPS
 workers_ai,legacy,,,kept: displacement risk is not in the CPS
+ui,micro,uc,micro,unemployment compensation received (the CPS's UC_VAL): LAB-11's general-fund benefits and LAB-18's wage insurance reach people who have lost a job; recipients stand in for displaced workers (the work booking)
 low_income_energy,micro,energy,micro,energy assistance (LIHEAP) as Census values it for the SPM
 brackets_top,legacy,,,kept: the top brackets' base is in the top quintile and needs tax data
 exclusion_cap,legacy,,,kept: employer premium amounts are not in the CPS

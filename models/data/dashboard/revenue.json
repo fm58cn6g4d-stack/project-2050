@@ -1012,5 +1012,44 @@
   "legal_risk": "Low",
   "overlap": "Increment above G1 (28%); G5, G7 and C38 overlap",
   "source": "dossiers/foundations/health-cost-review.md part 2.2, health-household-contribution.md (health_booking.financing(), FY2040 from health_cost_review.unified_package())"
+ },
+ {
+  "id": "LAB-11T",
+  "option": "Income-tax offset on employers' larger unemployment taxes (LAB-11.05)",
+  "channel": "General fund",
+  "lo": -0.0858,
+  "mid": -0.027,
+  "hi": -0.0065,
+  "in_base": "Yes",
+  "reaches_middle": "No",
+  "legal_risk": "Low",
+  "overlap": "",
+  "source": "dossiers/work/6-cost.md part 9; work_booking.py"
+ },
+ {
+  "id": "LAB-18T",
+  "option": "Income tax on wage insurance (LAB-18.02)",
+  "channel": "General fund",
+  "lo": 0.0006,
+  "mid": 0.0016,
+  "hi": 0.0031,
+  "in_base": "Yes",
+  "reaches_middle": "No",
+  "legal_risk": "Low",
+  "overlap": "",
+  "source": "dossiers/work/6-cost.md part 9; work_booking.py"
+ },
+ {
+  "id": "LAB-2P",
+  "option": "Civil penalties under the labor act and wage law (LAB-2.01, 7.04, 13.01)",
+  "channel": "General fund",
+  "lo": 0.0001,
+  "mid": 0.0004,
+  "hi": 0.0014,
+  "in_base": "Yes",
+  "reaches_middle": "No",
+  "legal_risk": "Low",
+  "overlap": "",
+  "source": "dossiers/work/6-cost.md part 9; work_booking.py"
  }
 ]

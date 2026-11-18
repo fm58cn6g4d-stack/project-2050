@@ -83,6 +83,9 @@ The optimistic implication is plausible as a research direction: early benefits,
 | CLI-11 | R2 | 18 | 2031-01 | 2031-04 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
 | CLI-3A | R2 | 30 | 2032-01 | 2032-04 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
 | CLI-4R | R2 | 30 | 2032-01 | 2032-04 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
+| LAB-4.09 | R2 | 12 | 2030-07 | 2030-10 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
+| LAB-11 | R2 | 12 | 2030-07 | 2030-10 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
+| LAB-18 | R2 | 12 | 2030-07 | 2030-10 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
 
 ## Focused evidence and health acceleration
 

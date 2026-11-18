@@ -36,6 +36,7 @@ ss_benefit,30,28,20,13,9,0.5,
 leave_benefit,8,17,24,28,23,1,
 hh_clean,8,14,22,28,28,2,
 workers_ai,15,25,28,22,10,0,
+ui,20,24,23,20,13,0,"unemployment compensation recipients, by quintile of household income: estimate (the CPS pattern); the household model measures it on UC_VAL (the work booking)"
 low_income_energy,60,40,0,0,0,0,
 brackets_top,0,0,1,8,91,50,
 exclusion_cap,2,10,24,33,31,2,

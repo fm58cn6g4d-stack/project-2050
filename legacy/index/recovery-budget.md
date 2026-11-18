@@ -6,18 +6,18 @@
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
-| mixed | 124.2% | 161.5% | 8.09% | False | 9.13 |
-| larger_payroll | 124.9% | 164.6% | 8.33% | False | 9.51 |
-| mixed_downside | 129.6% | 180.6% | 9.62% | False | 14.75 |
-| mixed_all_debt_rate_plus1 | 131.9% | 195.8% | 11.22% | False | 12.65 |
-| mixed_no_macro_translation | 124.1% | 160.4% | 7.97% | False | — |
-| mixed_leave_admin_high | 124.3% | 161.8% | 8.11% | False | — |
-| mixed_ssa_medicare_all_hi | 124.2% | 161.5% | 8.09% | False | — |
-| mixed_ssa_medicare_all_smi | 124.2% | 161.5% | 8.09% | False | — |
-| mixed_reserve_corridor | 124.2% | 161.5% | 8.09% | False | — |
-| mixed_corridor_downside | 129.6% | 180.6% | 9.62% | False | — |
-| mixed_legacy_education_floor | 124.3% | 161.6% | 8.10% | False | — |
-| mixed_larger_credit | 128.6% | 166.0% | 8.21% | False | — |
+| mixed | 124.2% | 161.8% | 8.12% | False | 9.19 |
+| larger_payroll | 124.8% | 164.9% | 8.36% | False | 9.57 |
+| mixed_downside | 129.5% | 180.9% | 9.66% | False | 14.83 |
+| mixed_all_debt_rate_plus1 | 131.8% | 196.1% | 11.25% | False | 12.71 |
+| mixed_no_macro_translation | 124.0% | 160.8% | 8.01% | False | — |
+| mixed_leave_admin_high | 124.3% | 162.1% | 8.14% | False | — |
+| mixed_ssa_medicare_all_hi | 124.2% | 161.8% | 8.12% | False | — |
+| mixed_ssa_medicare_all_smi | 124.2% | 161.8% | 8.12% | False | — |
+| mixed_reserve_corridor | 124.2% | 161.8% | 8.12% | False | — |
+| mixed_corridor_downside | 129.5% | 180.9% | 9.66% | False | — |
+| mixed_legacy_education_floor | 124.2% | 161.9% | 8.13% | False | — |
+| mixed_larger_credit | 128.6% | 166.3% | 8.24% | False | — |
 
 The last column is the total broad-tier rate required under this static tax-yield proxy, replacing the proposed two-point broad tier, with the high tier unchanged. It is not a tax score.
 
@@ -36,18 +36,18 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2029 | 6261 | 7015 | 6261 | 8405 | 1345 | 2144 | 107.5% |
 | 2030 | 6534 | 7364 | 7640 | 9591 | 1450 | 1950 | 108.7% |
-| 2035 | 7898 | 8732 | 12400 | 15109 | 1945 | 2710 | 113.6% |
-| 2039 | 9294 | 10409 | 14979 | 18581 | 2492 | 3602 | 124.2% |
-| 2045 | 11831 | 13205 | 19549 | 23909 | 3469 | 4360 | 135.8% |
-| 2056 | 17910 | 20097 | 29588 | 37326 | 6119 | 7738 | 161.5% |
+| 2035 | 7898 | 8732 | 12397 | 15097 | 1943 | 2700 | 113.5% |
+| 2039 | 9294 | 10409 | 14976 | 18587 | 2490 | 3611 | 124.2% |
+| 2045 | 11831 | 13205 | 19544 | 23919 | 3470 | 4375 | 135.9% |
+| 2056 | 17910 | 20097 | 29582 | 37352 | 6131 | 7769 | 161.8% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 
 | Household diagnostic, FY2039 annual net $/household | Q1 | Q2 | Q3 | Q4 | Q5 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| mixed | 12,256 | 8,641 | 3,565 | -4,199 | -76,760 |
-| larger_payroll | 12,132 | 8,270 | 2,906 | -4,887 | -72,665 |
-| mixed_larger_credit | 14,551 | 11,377 | 6,728 | -1,894 | -86,359 |
+| mixed | 12,234 | 8,626 | 3,567 | -4,182 | -76,746 |
+| larger_payroll | 12,111 | 8,255 | 2,909 | -4,870 | -72,651 |
+| mixed_larger_credit | 14,529 | 11,362 | 6,731 | -1,877 | -86,345 |
 
 These are approximate quintile averages including modeled benefits, not a D3 certification or guarantees for individual households. See the assumptions and limits in the assessment.
 

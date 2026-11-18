@@ -47,6 +47,12 @@ STREAM_IDS = ("HS1", "HS2", "HS3", "HS4", "H1a")
 ENDPOINT_ROWS = ("HCU", "HCW", "HCA", "HCP", "HCH") + STREAM_IDS
 
 
+# Work's booking moved the plan-wide gap by these amounts ($B, case mixed; FY2040 602.7 to 614.0): lower in FY2030-36, where it
+# replaces the booked legacy rows (LAB-5, LAB-8, LAB-9), higher after. Health's own first call is unchanged.
+WORK_BOOKING = {2030: -0.3, 2031: -10.9, 2032: -8.8, 2033: -10.1, 2034: -8.3, 2035: -8.2, 2036: -8.1, 2037: 10.6, 2038: 10.9, 2039: 11.2, 2040: 11.3}
+WORK_BOOKING_FY2040 = WORK_BOOKING[2040]
+
+
 class HealthFinancingBooking(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -209,12 +215,12 @@ class HealthFinancingBooking(unittest.TestCase):
         self.assertAlmostEqual(calls[2040], 532.1, delta=3)
         paths = {int(r["year"]): float(r["agenda_gf_primary_bn"]) for r in csv.DictReader(open(BUILD / "recovery-budget-paths.csv"))
                  if r["case"] == "mixed"}
-        self.assertAlmostEqual(paths[2040], CR.GAP_BEFORE_REASSIGN + calls[2040], delta=3)
-        self.assertAlmostEqual(paths[2040], 602.7, delta=5)        # DEC-2026-11-15-11's $586B, plus the status rule
+        self.assertAlmostEqual(paths[2040], CR.GAP_BEFORE_REASSIGN + calls[2040] + WORK_BOOKING_FY2040, delta=3)
+        self.assertAlmostEqual(paths[2040], 614.0, delta=5)        # DEC-2026-11-15-11's $586B, plus the status rule, plus work's booking (602.7 before it)
         before = HF.paths()
         for y in W:     # the rest of the plan's gap before the booking, plus health's first call
             rest = float(before[y]["agenda_gf_primary_bn"]) - HF.need_path(HF.seam())[y]["booked"]
-            self.assertAlmostEqual(paths[y], rest + calls[y], delta=6, msg=y)
+            self.assertAlmostEqual(paths[y], rest + calls[y] + WORK_BOOKING[y], delta=6, msg=y)
         # with the streams from FY2030 and the steps from 2031, health's own sources exceed its need before 2035
         self.assertTrue(all(calls[y] < 0 for y in range(2030, 2035)))
 
