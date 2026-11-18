@@ -1,0 +1,456 @@
+Source: https://www.oversight.gov/sites/default/files/documents/reports/2026-08/OIG-26-01.pdf
+Publisher: GAO Office of Inspector General
+Retrieved: 2026-11-18
+Original SHA-256: bdc23e08a45d6aff3fd36ba06f4c4f2e7ffe649596a9c5be34010e961d417daa
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+EVALUATION
+
+TIME TO HIRE: USING MORE RELIABLE DATA COULD HELP
+GAO MONITOR THE LENGTH OF ITS HIRING PROCESS
+
+OIG-26-1
+
+A UGUST 14, 2026
+
+Time to Hire
+
+Table of Contents
+Introduction ................................................................................................................................ 1
+Results in Brief ........................................................................................................................... 1
+Finding 1: Meeting Targets for Timely Hiring Could Help GAO Mitigate the Risk of Losing
+Qualified Candidates .................................................................................................................. 2
+Finding 2: Including All Employees in Internal Calculations of Hiring Timeliness Would Improve
+GAO’s Monitoring of Its Time to Hire .......................................................................................... 3
+Finding 3: Accurately Documenting the Start of Hiring Actions Would Provide GAO Better Data
+to Assess Its Time to Hire .......................................................................................................... 4
+Finding 4: Using a Consistent Hiring Target Time Frame Would Allow HCO to Accurately Report
+on GAO’s Time to Hire ............................................................................................................... 5
+Conclusion ................................................................................................................................. 5
+Recommendations for Executive Action ..................................................................................... 5
+Agency Comments and OIG Evaluation ..................................................................................... 6
+Appendix I: Objective, Scope, and Methodology ........................................................................ 7
+Appendix II: Agency Comments ...................................................................................................8
+
+OIG-26-1
+
+i
+
+Time to Hire
+
+Introduction
+Hiring and maintaining a highly-qualified workforce is critical to GAO’s ability to execute
+its mission. In its Performance and Accountability Report, Fiscal Year 2024, GAO
+highlighted managing a quality workforce—including hiring—as one of its top
+management challenges. 1 GAO’s target for the length of the hiring process is 98 or 101
+days, while the Office of Personnel Management’s (OPM) target for executive branch
+hiring is 80 days. 2 Timely hiring can help GAO meet its workforce goals and reduce the
+risk of losing highly-qualified candidates to other employers. Budget constraints in fiscal
+year (FY) 2025 led GAO to hire fewer than 10 entry-level employees and experience a
+net loss of about 100 employees because it did not backfill positions. 3 These challenges
+underscore the need to have a timely hiring process for positions which are critical for
+the agency to fill.
+This report presents the results of the Office of Inspector General’s (OIG) self-initiated
+evaluation. The OIG’s objective was to assess the timeliness of GAO’s hiring process.
+The OIG focused its analysis on hiring actions which were completed in FY 2024 and
+related to employees in three government-wide mission critical occupations (MCOs)—
+contracting, human resources management, and information technology management. 4
+Using GAO’s hiring data, the OIG calculated how long it took for GAO to hire employees
+for those government-wide MCOs. Details regarding the OIG’s scope and methodology
+are included in appendix I.
+Results in Brief
+The OIG found that GAO’s hiring of employees in government-wide MCOs took about
+103 days on average in FY 2024, which is longer than GAO’s internal target of 98 or
+101 days, OPM’s goal of 80 days for executive branch agencies, and executive branch
+agencies’ reported time frames depicted on OPM’s public dashboard. 5 Further, the OIG
+found GAO did not use reliable data in its calculations on how long it took for hiring
+1 GAO, Performance and Accountability Report, Fiscal Year 2024, GAO-25-900570, (Washington, D.C.: Nov. 15,
+
+2024), 49.
+
+2 GAO’s internal hiring target varies depending on whether Human Capital Office (HCO) staff or a subject matter
+
+expert panel reviews job applications to rank candidates (98 or 101 days, respectively). OPM is an executive branch
+agency. As a legislative branch agency, GAO is not required to follow OPM guidance.
+3 GAO, Performance and Accountability Report, Fiscal Year 2025, GAO-26-900644, (Washington, D.C.: Jan. 29,
+
+2026), 54, 95.
+
+4 OPM defines MCOs as “Occupations agencies consider core to carrying out their missions” and notes that they
+
+“usually reflect the primary mission of the organization without which mission-critical work cannot be completed.”
+“Glossary,” Reference Materials, OPM, accessed on April 23, 2026, https://www.opm.gov/policy-dataoversight/human-capital-framework/reference-materials/.
+
+5 OPM’s public dashboard includes actual time frames for executive branch MCOs’ hiring from 72.1 to 94.6 days for
+
+FY 2024.
+
+OIG-26-1
+
+1
+
+Time to Hire
+
+actions which were completed in FY 2024. Specifically, GAO’s internally-reported
+calculations of the length of the hiring process for employees hired in FY 2024 excluded
+about 30 percent of the employees hired in MCOs (20 of 66). 6 The agency’s
+calculations also relied on inconsistent or inaccurate dates for when hiring actions
+began. Finally, GAO’s internal reporting and hiring guidance contained different targets
+for how long the process should take.
+Not including all completed hiring actions in its calculations and using inaccurate or
+inconsistent hiring action start dates and target time frames may hamper GAO’s ability
+to effectively monitor and assess the length of its hiring process. In addition, the length
+of GAO’s hiring process increases the agency’s risk of not meeting its stated goal of
+hiring well-qualified candidates because prospective employees may accept other job
+opportunities while waiting for GAO to complete its hiring process.
+Finding 1: Meeting Targets for Timely Hiring Could Help GAO Mitigate the Risk of
+Losing Qualified Candidates
+In FY 2024, GAO hired 66 employees into MCOs: seven employees to contracting
+positions, 14 employees to human resources management positions, and 45 employees
+to information technology management positions. 7 These hiring actions took an average
+of about 103 days, which was longer than the agency’s internal hiring target of 98 or
+101 days. 8 For comparison, OPM’s hiring goal for executive branch agencies is 80
+days. 9
+
+6 This includes new hires, internal promotions, and additional selections from a shared certificate for which the hiring
+
+process was completed in FY 2024.
+
+7 For this analysis, the OIG included the employees excluded from HCO’s calculations, as discussed below in Finding
+
+2. One employee was involved in two separate hiring actions; for the purposes of this report, the OIG considered
+each hiring action to be a unique “employee.”
+
+8 The OIG calculated this length of time using the data provided by HCO and the same formula HCO used for
+
+calculating time to hire, but included the 20 employees which HCO previously omitted, as discussed below in Finding
+2. Given the issues with the dates for the start of hiring actions identified in Finding 3, the average length for GAO’s
+time to hire could be higher than the 103 days calculated using the data provided by HCO.
+9 As a legislative branch agency, GAO is not required to follow OPM guidance.
+
+OIG-26-1
+
+2
+
+Time to Hire
+
+Table 1 shows the average length of time for GAO and the executive branch to hire
+employees in government-wide MCOs.
+Table 1. Average Time to Hire for Government-Wide Mission Critical Occupations, Fiscal Year 2024 (in
+Calendar Days)
+GAO Data
+(Goal: 98 or 101)
+
+Office of Personnel
+Management (OPM) Dashboard
+(Goal: 80)
+
+Contracting
+
+110.1
+
+72.1
+
+Human Resources Management
+
+93.1
+
+75.5
+
+Information Technology Management
+
+105.4
+
+94.6
+
+Mission Critical Occupation
+
+Source: OIG analysis of GAO hiring data and OPM’s Time to Hire dashboard (accessed on September 26, 2025). According to OPM, the dashboard only shows data for Chief
+Human Capital Officers Act agencies. | OIG-26-1
+
+While GAO met its internal timeliness goal for hiring employees in human resources
+management positions in FY 2024, it did not meet its goal for employees hired in
+contracting and information technology management positions. In addition, it took GAO
+longer to hire employees in all three MCOs than it took for the executive branch
+agencies depicted on OPM’s public dashboard—for example, on average, GAO took 38
+days longer to hire employees in contracting positions than the time frame on OPM’s
+dashboard.
+According to GAO’s Human Capital Office (HCO), 10 the agency’s hiring goal is longer
+than OPM’s because GAO requires more time for eligibility and qualification
+determination reviews and analysis, subject matter expert panels, and, in some
+instances, multiple rounds of interviews to obtain “well-qualified staff.” However, GAO is
+competing with agencies across the federal government for comparable MCO
+positions. 11 In some instances, GAO may also be competing with private employers for
+candidates. With a longer hiring process, GAO risks not meeting its stated goal of hiring
+“well-qualified staff” because these candidates may accept other job opportunities while
+waiting for GAO to complete its hiring process.
+Finding 2: Including All Employees in Internal Calculations of Hiring Timeliness
+Would Improve GAO’s Monitoring of Its Time to Hire
+The OIG assessed the data that HCO used for its reporting to the Chief Administrative
+Office on the timeliness of GAO’s hiring for positions where the hiring process was
+
+10 HCO provides human capital management support and services to GAO units and teams.
+11 All employees who GAO hired to contracting and human resources management positions in FY 2024 were hired
+
+by non-mission teams (for example, Financial Management and Business Operations or HCO). In contrast, GAO
+hired employees to information technology management positions in both non-mission and mission teams.
+
+OIG-26-1
+
+3
+
+Time to Hire
+
+completed in FY 2024. 12 The OIG found that HCO excluded about 30 percent of the
+employees hired for MCOs (20 of 66). 13 All 20 excluded hiring actions were listed as
+being completed in FY 2024 in spreadsheets that GAO provided to the OIG but were
+not included in the hiring data that HCO used for its time-to-hire calculations reported to
+the Chief Administrative Office. This resulted in a lack of quality information being
+provided to agency leadership. According to HCO, 16 employees were excluded
+because, despite having completed the hiring action in FY 2024, HCO did not enter the
+“actual start date[s]” in the hiring database. HCO acknowledged that the four remaining
+employees were excluded from its calculations but did not provide a definitive
+explanation for why they were excluded.
+Federal internal control standards require agencies to use and communicate quality
+information to manage their internal control systems. 14 By not including all hiring actions
+in its calculations, GAO lacks the necessary information to monitor hiring actions; better
+information could help GAO include quality data in its internal reporting and identify
+ways to reduce the length of its hiring process.
+Finding 3: Accurately Documenting the Start of Hiring Actions Would Provide
+GAO Better Data to Assess Its Time to Hire
+GAO’s time-to-hire calculations were based on inaccurate or inconsistent dates for
+when hiring actions began. According to HCO, GAO’s hiring process starts when HCO
+staff consult with a hiring manager about the vacancy. However, HCO staff stated they
+recorded the date that consultations were completed, not started, as the initial date. By
+using the consultation completion dates, HCO’s calculations would have undercounted
+the days spent on some hiring actions. Further, HCO staff indicated that consultations
+often took longer than the allotted 2 days. However, because HCO did not record the
+start date for consultations, it cannot determine how long consultations took or
+accurately assess the length of its hiring process. Moreover, the OIG identified some
+hiring actions where the date recorded did not align with the date when a hiring
+manager and HCO held a consultation. 15
+
+12 HCO reports to the Chief Administrative Office, which oversees GAO's financial, human capital, infrastructure, and
+
+other operations.
+
+13 The OIG identified these excluded employees by reviewing spreadsheets provided by GAO that had different data
+
+than what HCO used for its reporting to the Chief Administrative Office. As it was outside the scope of this evaluation,
+the OIG did not assess whether there were additional employees in other occupations who were similarly excluded
+from HCO’s calculations.
+14 GAO, Standards for Internal Control in the Federal Government, GAO-14-704G (Washington, D.C.: Sept. 10,
+
+2014), 58, 60.
+
+15 The OIG reviewed available documentation for a judgmental sample of MCO employees (nine of 66) to determine
+
+whether strategic consultation dates matched the “hiring need validation date” recorded in the hiring database. For
+two of the nine, the dates did not match. The OIG could not verify the dates for the remaining seven employees
+
+OIG-26-1
+
+4
+
+Time to Hire
+
+Federal internal control standards require that management monitor the effectiveness of
+its internal control systems and take timely action to resolve identified deficiencies. 16 By
+recording inaccurate or incomplete data for the start of hiring actions, HCO cannot
+effectively monitor the length of GAO’s entire hiring process and target areas for
+improvement.
+Finding 4: Using a Consistent Hiring Target Time Frame Would Allow HCO to
+Accurately Report on GAO’s Time to Hire
+The overall target time frame for hiring varied in HCO documents. Internal HCO
+documents state that GAO’s hiring target is 98 or 101 days from when a hiring manager
+and HCO staff first discuss the need to fill a vacancy to when a candidate enters on
+duty. HCO confirmed to the OIG that this is the correct target. However, HCO’s FY 2024
+time-to-hire reporting to the Chief Administrative Office stated that the hiring target was
+107 or 111 days. HCO officials could not account for the difference in these time
+frames.
+Federal internal control standards require management to communicate quality
+information internally to achieve organizational objectives. 17 Using a consistent target
+would support HCO’s ability to meet its goals and provide quality information to
+stakeholders.
+Conclusion
+To address its management challenge of hiring and maintaining a highly-qualified
+workforce, GAO needs reliable data to calculate how long it takes to hire employees.
+With accurate and complete calculations, GAO could more effectively determine
+whether it meets its goals for the length of its hiring process. As GAO is competing with
+other federal agencies for qualified individuals in government-wide MCOs, reducing the
+length of its hiring process could decrease the risk of GAO losing qualified candidates to
+other opportunities. Hiring employees more quickly could also increase the likelihood of
+the agency meeting its stated goal of hiring well-qualified employees. This could enable
+GAO to increase its productivity and improve its ability to meet the needs of Congress.
+Recommendations for Executive Action
+The OIG recommends the Chief Human Capital Officer:
+1. Develop and document a strategy for periodically reviewing the length of hiring
+actions and mitigating systemic inefficiencies.
+because HCO indicated that it did not hold a strategic consultation or the documentation was unclear or unavailable
+due to GAO’s email retention policies.
+16 GAO, Standards for Internal Control in the Federal Government, 64.
+17 GAO, Standards for Internal Control in the Federal Government, 60-61.
+
+OIG-26-1
+
+5
+
+Time to Hire
+2. Define the types of hiring actions which should be included in time-to-hire
+
+calculations and implement controls to ensure all hiring actions within the defined
+scope are included in its calculations.
+
+3. Establish controls to consistently document and record the start of hiring actions.
+4. Evaluate the target hiring time frame, document the rationale, and update all
+
+internal documents to reflect the established time frame.
+
+Agency Comments and OIG Evaluation
+The OIG provided GAO with a draft of this report for review and comment. In its written
+comments, which are reproduced in full in appendix II, GAO concurred with
+recommendations 1 and 4 and provided projected completion dates. GAO did not fully
+concur with recommendations 2 and 3.
+GAO did not fully concur with Finding 2: “Including All Employees in Internal
+Calculations of Hiring Timeliness Would Improve GAO’s Monitoring of Its Time to Hire”
+and recommendation 2: “Implement controls to ensure that all hiring actions are
+included in time-to-hire calculations and reporting.” GAO suggested modifying the
+recommendation to identify that all “defined” or “identified” actions are included for
+reporting. The agency also indicated that, for the finding and the recommendation, not
+all actions should be included, such as annual cycle promotions for analysts and other
+internal recruitment. However, GAO’s existing time-to-hire calculations which the OIG
+reviewed for this engagement included internal promotions. While the agency can
+determine what it reports on, it needs to clearly define what actions to include and
+implement controls to ensure those actions are consistently included in its calculations.
+In response to GAO’s comment, the OIG revised the recommendation as follows:
+“Define the types of hiring actions which should be included in time-to-hire calculations
+and implement controls to ensure all hiring actions within the defined scope are included
+in its calculations.”
+GAO did not fully concur with recommendation 3: “Establish controls to ensure the
+documentation of accurate hiring dates, including actual start dates and completion
+dates for consultations.” GAO suggested that shifting to use the date the recruitment is
+approved in the system would eliminate the variations in the consultation dates and the
+manual process of tracking the consultation date. In response, the OIG revised the
+recommendation as follows: “Establish controls to consistently document and record the
+start of hiring actions.”
+The OIG will monitor GAO’s actions to address all recommendations and will close the
+recommendations when it receives sufficient evidence that GAO’s corrective actions
+satisfy the intent of the recommendations.
+
+OIG-26-1
+
+6
+
+Time to Hire
+
+Appendix I: Objective, Scope, and Methodology
+Objective
+The Office of Inspector General’s (OIG) objective was to assess the timeliness of GAO’s
+hiring process.
+Scope
+The OIG conducted its work from June 2025 through August 2026. The scope of this
+evaluation was GAO’s hiring actions in fiscal year (FY) 2024.
+Methodology
+The OIG’s review focused on GAO’s hiring actions for employees in three governmentwide mission critical occupations (MCO): contracting (job series 1102), human
+resources management (job series 0201), and information technology management (job
+series 2210). 18 To achieve its objective, the OIG
+•
+
+analyzed FY 2024 hiring data to identify the time to hire for GAO employees
+hired in three government-wide MCOs; 19
+
+•
+
+reviewed and analyzed spreadsheets, presentations, and other internal guidance
+provided by GAO’s Human Capital Office (HCO) and Workforce Management
+Analysis division;
+
+•
+
+reviewed GAO policies, procedures, and guidance related to its hiring process;
+
+•
+
+reviewed the Office of Personnel Management’s (OPM) Time to Hire dashboard,
+hiring framework for executive branch agencies, and related guidance; 20 and
+
+•
+
+interviewed GAO officials from HCO, GAO’s former Chief Administrative
+Officer/Chief Financial Officer, GAO’s Chief Human Capital Officer, and OPM
+officials responsible for the Time to Hire dashboard.
+
+Government Standards
+The OIG conducted this evaluation in accordance with the Council of the Inspectors
+General on Integrity and Efficiency’s Quality Standards for Inspection and Evaluation.
+
+18 For the purposes of this report, the OIG considered “hires” to include external hires, internal promotions, additional
+
+hires from a shared certificate, and other types of hiring actions included on OPM’s Time to Hire dashboard.
+
+19 To ensure consistency with the data depicted on OPM’s Time to Hire dashboard, the OIG excluded one Senior
+
+Executive Service employee from the data analysis. For reasons of independence, the OIG also excluded one OIG
+employee from the data analysis.
+
+20 The OIG did not independently verify the data on OPM’s dashboard.
+
+OIG-26-1
+
+7
+
+Time to Hire
+
+Appendix II: Agency Comments
+
+OIG-26-1
+
+8
+
+Time to Hire
+
+OIG-26-1
+
+9
+
+Time to Hire
+
+OIG-26-1
+
+10
+
+Time to Hire
+
+OIG-26-1
+
+11
+
+Mission
+
+To promote accountability, integrity, and efficiency within GAO
+by conducting meaningful, timely, and impactful oversight.
+
+Vision
+
+To be a leading force in ensuring government integrity and
+accountability, thereby strengthening public trust.
+
+Reporting Fraud, Waste, and Abuse
+in GAO’s Programs and Operations
+To report fraud and other serious problems,
+abuses, and deficiencies relating to GAO
+programs and operations, you can provide
+the information to the OIG’s contractor-run
+hotline in one of the following ways
+(anonymously, if you choose):
+• Call toll-free (866) 680-7963 to speak with a hotline specialist,
+available 24 hours a day, 7 days a week.
+• Visit the OIG hotline.
+• Scan the code..
+
+To obtain copies of GAO reports, visit
+Inspector General | U.S. GAO or
+Oversight.gov.
+
+
