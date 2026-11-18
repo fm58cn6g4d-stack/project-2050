@@ -10007,5 +10007,279 @@
    "dossiers/foundations/democratic-renewal/6-cost.md"
   ],
   "locator": "2025 By the Numbers page, introduction"
+ },
+ {
+  "id": "EV-DEM-359",
+  "statement": "In Arizona v. Inter Tribal Council (2013) the Supreme Court held that Arizona's documentary proof-of-citizenship requirement, as applied to applicants using the federal registration form, is pre-empted by the National Voter Registration Act's mandate that states \"accept and use\" that form, and that the Elections Clause gives Congress the power to alter or supplant state regulations of congressional elections.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5411",
+  "anchor": [
+   "Held: Arizona's evidence-of-citizenship requirement, as applied to Federal",
+   "“accept and use” the Federal Form. Pp. 7–20.",
+   "it confers on Congress the power to alter those regulations or supplant"
+  ],
+  "grade": "A",
+  "fact_date": "2013",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: the Court's syllabus, 7-2 (Scalia for the Court). The holding concerns the federal form; the Court noted a state may ask the EAC to add state-specific instructions.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, Held and (a)"
+ },
+ {
+  "id": "EV-DEM-360",
+  "statement": "In Brnovich v. DNC (2021) the Court listed circumstances that bear on a Section 2 vote-denial claim, among them the size of the burden a rule imposes and the degree to which it departs from standard practice when Section 2 was amended in 1982, and held that a state may act to prevent election fraud without waiting for it to occur within its own borders.",
+  "claim": "data",
+  "figures": [
+   "1982",
+   "2"
+  ],
+  "source": "SRC-5412",
+  "anchor": [
+   "(A) The size of the burden imposed by a challenged voting",
+   "(B) The degree to which a voting rule departs from what was",
+   "standard practice when §2 was amended in 1982 is a relevant consideration. The burdens associated with the rules in effect at that time",
+   "a State may take action to prevent election fraud",
+   "without waiting for it to occur within its own borders."
+  ],
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: syllabus of a 6-3 decision (Alito for the Court) reading Section 2's statutory text; it upheld Arizona's out-of-precinct and ballot-collection rules. As statutory interpretation, its guideposts can be changed by amending the statute.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, (A) to (C) and (c)"
+ },
+ {
+  "id": "EV-DEM-361",
+  "statement": "In Crawford v. Marion County Election Board (2008) the Court rejected a facial challenge to Indiana's photo identification law, finding its asserted interests, the first of them deterring and detecting voter fraud, sufficient to defeat the facial challenge.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5413",
+  "anchor": [
+   "process. The ﬁrst is the interest in deterring and detecting voter",
+   "The “precise interests” advanced by Indiana are",
+   "therefore sufﬁcient to defeat petitioners’ facial challenge. Id., at 434."
+  ],
+  "grade": "A",
+  "fact_date": "2008",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: syllabus; the lead opinion (Stevens) was joined by two Justices, with three more concurring in the judgment. It holds a photo ID law permissible on a facial challenge, not that one is required.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, (b) and (d)"
+ },
+ {
+  "id": "EV-DEM-362",
+  "statement": "In Purcell v. Gonzalez (2006) the Court said that court orders affecting elections, especially conflicting orders, can themselves result in voter confusion and an incentive to stay away from the polls, a risk that increases as an election draws closer.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5414",
+  "anchor": [
+   "especially conflicting orders, can themselves result in voter",
+   "confusion and consequent incentive to remain away from the",
+   "polls. As an election draws closer, that risk will increase."
+  ],
+  "grade": "A",
+  "fact_date": "2006",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: per curiam. The 'Purcell principle' cautions courts against changing election rules close to an election; it binds courts, not Congress, but it shapes when new rules can be enforced.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "549 U.S. at 4-5"
+ },
+ {
+  "id": "EV-DEM-363",
+  "statement": "In Buckley v. Valeo (1976) the Court held the Federal Election Campaign Act's contribution limits constitutional but its expenditure limits a violation of the First Amendment, and upheld public financing of presidential campaigns, finding it represents an effort to use public money to facilitate and enlarge public discussion and participation in the electoral process.",
+  "claim": "data",
+  "figures": [
+   "2"
+  ],
+  "source": "SRC-5415",
+  "anchor": [
+   "2. The Act's contribution provisions are constitutional, but the",
+   "expenditure provisions violate the First Amendment. Pp. 12-59.",
+   "(b) Nor does Subtitle H violate the First Amendment.",
+   "Rather than abridging, restricting, or censoring speech, it represents an effort to use public money to facilitate and enlarge",
+   "public discussion and participation in the electoral process. Pp."
+  ],
+  "grade": "A",
+  "fact_date": "1976",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: per curiam syllabus. The public financing upheld was voluntary for candidates, with spending limits as the condition of accepting it; the match here has no spending cap.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, 2 and 4(b)"
+ },
+ {
+  "id": "EV-DEM-364",
+  "statement": "In FEC v. Ted Cruz for Senate (2022) the Court said the only permissible ground for restricting political speech it has recognized is the prevention of quid pro quo corruption or its appearance.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5416",
+  "anchor": [
+   "(i) The only permissible ground for restricting political speech",
+   "recognized by this Court is the prevention of “quid pro quo” corruption",
+   "or its appearance."
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: syllabus of a 6-3 decision (Roberts for the Court) striking the limit on repaying candidates' personal loans from post-election contributions.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, (b)(i)"
+ },
+ {
+  "id": "EV-DEM-365",
+  "statement": "In SEC v. Jarkesy (2024) the Court held that the Seventh Amendment requires a jury when the SEC seeks civil penalties for securities fraud and that the public-rights exception does not apply; it described public-rights matters as those that historically could have been determined exclusively by the executive and legislative branches, needing no Article III court for their initial adjudication, and listed among the recognized categories the collection of revenue, aspects of customs law, immigration law, relations with Indian tribes, public lands and public benefits.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5417",
+  "anchor": [
+   "And the “public rights” exception to Article III jurisdiction does not apply, because the present action does not fall",
+   "Such matters “historically could have been determined exclusively by",
+   "initial adjudication of public rights claims is necessary. Certain categories that have been recognized as falling within the exception include matters concerning: the collection of revenue; aspects of customs",
+   "law; immigration law; relations with Indian tribes; the administration",
+   "of public lands; and the granting of public benefits. The Court’s opinions governing this exception have not always spoken in precise terms."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: syllabus of a 6-3 decision (Roberts for the Court). The syllabus adds that the Court's opinions on the exception 'have not always spoken in precise terms' and that the presumption is in favor of Article III courts.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, (c)"
+ },
+ {
+  "id": "EV-DEM-366",
+  "statement": "In Stern v. Marshall (2011) the Court held that a bankruptcy court, whose judges have neither tenure during good behavior nor salary protection, lacked the constitutional authority to enter final judgment on a common law counterclaim, although the statute gave it that authority.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5418",
+  "anchor": [
+   "here. The Bankruptcy Court in this case exercised the judi­",
+   "on a common law tort claim, even though the judges of such",
+   "courts enjoy neither tenure during good behavior nor salary",
+   "Court had the statutory authority to enter judgment on",
+   "Vickie’s counterclaim, it lacked the constitutional authority",
+   "thority to do so. Pp. 473–503."
+  ],
+  "grade": "A",
+  "fact_date": "2011",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: 5-4 (Roberts for the Court). It limits non-Article III judges on private-rights claims; the bankruptcy judges' appointment by the courts of appeals was not at issue.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "564 U.S. at 469"
+ },
+ {
+  "id": "EV-DEM-367",
+  "statement": "In Wellness International Network v. Sharif (2015) the Court held that Article III permits bankruptcy judges to adjudicate claims that would otherwise need an Article III court, with the parties' knowing and voluntary consent.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5419",
+  "anchor": [
+   "with the parties' knowing and voluntary consent. Pp. 674–683."
+  ],
+  "grade": "A",
+  "fact_date": "2015",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: syllabus of a 6-3 decision (Sotomayor for the Court).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus"
+ },
+ {
+  "id": "EV-DEM-368",
+  "statement": "In Freytag v. Commissioner (1991) the Court held that an Article I court that exercises judicial power, the Tax Court, can be a \"Court of Law\" within the meaning of the Appointments Clause, so the reference to Courts of Law is not limited to Article III courts.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5420",
+  "anchor": [
+   "(d) An Article I court, which exercises judicial power, can be a",
+   "\"Cour[t] of Law\" within the meaning of the Appointments Clause. The",
+   "reference to \"Courts of Law\" cannot be limited to Article III courts"
+  ],
+  "grade": "A",
+  "fact_date": "1991",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Primary law: syllabus. The majority rested on the Tax Court's judicial power; four Justices would have treated it as an executive department instead. Courts of appeals, as Article III courts, are Courts of Law in any reading.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Syllabus, (d)"
+ },
+ {
+  "id": "EV-DEM-369",
+  "statement": "CRS reports that the American Immigration Lawyers Association, the Federal Bar Association, the ABA and the immigration judges' association argue that placing the immigration courts in the Justice Department makes them susceptible to politicization, while opponents of independent courts raise constitutional concerns about the executive's authority over foreign policy, restructuring slowing judge hiring, and funding disputes that could leave the courts under-resourced; other observers hold restructuring alone is insufficient to solve the backlog.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5421",
+  "anchor": [
+   "The American Immigration Lawyers Association (AILA), Federal Bar Association, ABA, NAIJ,",
+   "and other entities argue that the placement of the immigration courts system within DOJ and",
+   "Opponents of independent immigration courts have raised concerns about constitutional",
+   "implications related to the executive branch’s authority over foreign policy, restructuring slowing",
+   "IJ hiring, and the potential for funding disputes that could leave the courts under-resourced.210",
+   "insufficient to solve the backlog.211"
+  ],
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Congressional Research Service (nonpartisan), April 2022, Biden administration period; it summarizes both sides without a view. The proposals it describes are Article I courts outside the judiciary, not the unit of the district courts section 4 adopts.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Proposals for an Article I Court System",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-245",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-370",
+  "statement": "TIGTA reports that in fiscal year 2024 the IRS onboarded nearly 19,000 external hires.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "19,000"
+  ],
+  "source": "SRC-5422",
+  "anchor": [
+   "In Fiscal Year 2024, the IRS onboarded nearly 19,000 external hires."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-18",
+  "context": "Treasury Inspector General for Tax Administration, February 2026 audit (second Trump administration period) of FY2024 hiring under the earlier administration's IRA-funded expansion. Gross hires, not net of separations.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/7-validation.md"
+  ],
+  "locator": "Highlights"
  }
 ]
