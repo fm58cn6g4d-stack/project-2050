@@ -142,7 +142,7 @@ The claims on statutory labor penalties, strikers and first contracts (`lab1`) a
 
 ## Questions for Espen
 
-One is added to the README: item 9, farmworkers and domestic workers (the milestone review's question 3), shown above as provisional on the recommendation to leave it for later work. The provisional items above are the nine listed in the README (sections 4 to 6, the milestone review's fix steps 1 and 2, and item 9). Section 9 presents the single adult's result as an open finding for the secure floor's owners and stage G.
+One is added to the README: item 9, farmworkers and domestic workers (the milestone review's question 3), shown above as provisional on the recommendation to leave it for later work. The provisional items above are the nine listed in the README (sections 4 to 6, the milestone review's fix steps 1 and 2, and item 9). Section 9 presents the single adult's result as an open finding for the secure floor's owners and stage G. Answered November 18: `DEC-2026-11-18-01` to `DEC-2026-11-18-09`; farmworkers and domestic workers, `DEC-2026-11-18-10`.
 
 ## Source table
 

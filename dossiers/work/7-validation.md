@@ -263,13 +263,13 @@ Section 6, part 10 gives each cost input's treatment. Section 7 adds these:
 
 ## Questions for Espen
 
-No new question in this section. The milestone fix adds one in section 6, the unemployment standard's cost to employers (`6-cost.md`, "Questions for Espen", item 1; recommended: keep the standard from 2031); part 6's trust-fund objection carries its figures. Each item below is tested here on its recommendation and stays provisional:
-1. **The small-business credit's size** (LAB-5.01): about $3 billion as specified, not the $0.02-0.04 trillion memo 1 carried. Recommended: keep it as specified (section 6, part 4, item 1). This choice is mainly about money.
-2. **Memo 10** (LAB-19), measuring displacement and a standby trigger: recommended C and C. Part 6 answers the AI objection on it.
-3. **Point 5**, severance (LAB-14.01): no mandate in the first bill; study, then recommend.
-4. **Point 11**, codetermination (LAB-17.01): no board seats in the first bill; still being studied.
-5. **Good-cause quits in wage insurance** (LAB-18.03): work-connected quits in, personal ones out (about $1.2 billion over FY2030-39).
-6. **The territories' wage floor** (LAB-4.10, revised in the milestone review's fix step 2): recommended, the national schedule capped at 75% of each territory's median; American Samoa on its own path (`4-specification.md`, "Questions for Espen", item 5).
-7. **Wage insurance's monthly statement** (LAB-18.08): the worker confirms hours each month.
+No new question in this section. The milestone fix adds one in section 6, the unemployment standard's cost to employers (`6-cost.md`, "Questions for Espen", item 1; recommended: keep the standard from 2031); part 6's trust-fund objection carries its figures. Each item below is tested here on its recommendation and stays provisional: Answered November 18: the unemployment standard's cost, `DEC-2026-11-18-08` (direction).
+1. **The small-business credit's size** (LAB-5.01): about $3 billion as specified, not the $0.02-0.04 trillion memo 1 carried. Recommended: keep it as specified (section 6, part 4, item 1). This choice is mainly about money. **Answered November 18: `DEC-2026-11-18-07` (direction, provisional until revised).**
+2. **Memo 10** (LAB-19), measuring displacement and a standby trigger: recommended C and C. Part 6 answers the AI objection on it. **Answered November 18: `DEC-2026-11-18-01` (direction, provisional until revised).**
+3. **Point 5**, severance (LAB-14.01): no mandate in the first bill; study, then recommend. **Answered November 18: `DEC-2026-11-18-02` (decided).**
+4. **Point 11**, codetermination (LAB-17.01): no board seats in the first bill; still being studied. **Answered November 18: `DEC-2026-11-18-03` (decided).**
+5. **Good-cause quits in wage insurance** (LAB-18.03): work-connected quits in, personal ones out (about $1.2 billion over FY2030-39). **Answered November 18: `DEC-2026-11-18-04` (direction, provisional until revised).**
+6. **The territories' wage floor** (LAB-4.10, revised in the milestone review's fix step 2): recommended, the national schedule capped at 75% of each territory's median; American Samoa on its own path (`4-specification.md`, "Questions for Espen", item 5). **Answered November 18: `DEC-2026-11-18-09` (direction); American Samoa, `DEC-2026-11-18-05` (decided).**
+7. **Wage insurance's monthly statement** (LAB-18.08): the worker confirms hours each month. **Answered November 18: `DEC-2026-11-18-06` (decided, with a gut-check request).**
 
 For the milestone review, not Espen: LAB-11.10's provisional fix (part 8), and part 1B's single-adult finding for the secure floor's owners.

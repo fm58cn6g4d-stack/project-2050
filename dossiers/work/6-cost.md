@@ -371,7 +371,7 @@ Further steps:
 ## Questions for Espen
 
 New from the milestone fix (provisional: drafted on the recommendation, not decided; review O-1 and A-3, `review-milestone.md`, "For Espen", question 1):
-1. **The unemployment standard's cost to employers** (LAB-11.01, memo 7 B, `DEC-2026-11-17-10`). You chose memo 7 B seeing regular benefits rise about $15-25 billion a year. As specified (75% of pay up to two-thirds of the state's average weekly wage), they rise about **$42 billion a year at FY2025 levels (range $25-66 billion)**, about twice as much: roughly $275 more a covered worker a year, paid by employers through state UI taxes, which about double (part 2). The general fund changes far less, about $4 billion a year by FY2040. Keep the standard from 2031, or phase it in? Each option below is priced in `tools/work_path.py --ui-options` on part 2's basis ($ billion; the general fund column is the two lines that move with the rate, Extended Benefits in ordinary years and the tax offset; administration and the conformity grant do not change):
+1. **The unemployment standard's cost to employers** (LAB-11.01, memo 7 B, `DEC-2026-11-17-10`). You chose memo 7 B seeing regular benefits rise about $15-25 billion a year. As specified (75% of pay up to two-thirds of the state's average weekly wage), they rise about **$42 billion a year at FY2025 levels (range $25-66 billion)**, about twice as much: roughly $275 more a covered worker a year, paid by employers through state UI taxes, which about double (part 2). The general fund changes far less, about $4 billion a year by FY2040. Keep the standard from 2031, or phase it in? Each option below is priced in `tools/work_path.py --ui-options` on part 2's basis ($ billion; the general fund column is the two lines that move with the rate, Extended Benefits in ordinary years and the tax offset; administration and the conformity grant do not change): **Answered November 18: `DEC-2026-11-18-08` (direction, provisional until revised).**
 
    | Option | Trust funds, FY2031-39 (employers) | Trust funds, FY2040 | General fund, FY2030-39 | General fund, FY2040 | Social Security, FY2030-39 | Permanent, a year at FY2025 levels |
    | --- | --- | --- | --- | --- | --- | --- |
@@ -384,12 +384,12 @@ New from the milestone fix (provisional: drafted on the recommendation, not deci
    - *What stays the same in every option:* 26 weeks, the coverage rules, Extended Benefits and the wage base. Every figure is project arithmetic on part 2's factors, not a score; CBO's score (point 15) replaces it.
 
 Also new in this section:
-2. **The small-business credit's size** (LAB-5.01): as specified it costs about $3 billion, not the $0.02-0.04 trillion you saw. Recommended: keep it as specified (small and temporary, as you asked); the alternatives are to pay it as a flat amount per hour (the same size, less paperwork) or to widen it to six steps or every employer (part 4, item 1). This choice is mainly about money.
+2. **The small-business credit's size** (LAB-5.01): as specified it costs about $3 billion, not the $0.02-0.04 trillion you saw. Recommended: keep it as specified (small and temporary, as you asked); the alternatives are to pay it as a flat amount per hour (the same size, less paperwork) or to widen it to six steps or every employer (part 4, item 1). This choice is mainly about money. **Answered November 18: `DEC-2026-11-18-07` (direction, provisional until revised).**
 
 Carried from sections 4 and 5, each priced here on its recommendation and still provisional:
-3. Memo 10, measuring displacement and a standby trigger (LAB-19): about $0.5 billion for the measure; the trigger is zero while off, up to $5 billion a year when on.
-4. Point 5, severance (LAB-14.01): no cost on the recommendation.
-5. Point 11, codetermination (LAB-17.01): no cost on the recommendation.
-6. Wage insurance and quits for good cause (LAB-18.03): about $1.2 billion over FY2030-39.
-7. The territories' wage floor (LAB-4.10, revised in fix step 2; question in `4-specification.md`, item 5): no federal cost to speak of under any option; recommended, the national schedule capped at 75% of each territory's median.
-8. Wage insurance's monthly statement (LAB-18.08): inside administration; the alternatives cost about the same.
+3. Memo 10, measuring displacement and a standby trigger (LAB-19): about $0.5 billion for the measure; the trigger is zero while off, up to $5 billion a year when on. **Answered November 18: `DEC-2026-11-18-01` (direction, provisional until revised).**
+4. Point 5, severance (LAB-14.01): no cost on the recommendation. **Answered November 18: `DEC-2026-11-18-02` (decided).**
+5. Point 11, codetermination (LAB-17.01): no cost on the recommendation. **Answered November 18: `DEC-2026-11-18-03` (decided).**
+6. Wage insurance and quits for good cause (LAB-18.03): about $1.2 billion over FY2030-39. **Answered November 18: `DEC-2026-11-18-04` (direction, provisional until revised).**
+7. The territories' wage floor (LAB-4.10, revised in fix step 2; question in `4-specification.md`, item 5): no federal cost to speak of under any option; recommended, the national schedule capped at 75% of each territory's median. **Answered November 18: `DEC-2026-11-18-09` (direction); American Samoa, `DEC-2026-11-18-05` (decided).**
+8. Wage insurance's monthly statement (LAB-18.08): inside administration; the alternatives cost about the same. **Answered November 18: `DEC-2026-11-18-06` (decided, with a gut-check request).**
