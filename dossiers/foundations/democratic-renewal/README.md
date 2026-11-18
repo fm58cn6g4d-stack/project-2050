@@ -6,14 +6,14 @@ Role: the democratic renewal foundation (`charter/PLAN.md` 3.1): "a democracy an
 
 ## Scope
 
-**Homed here** (`agenda/agenda.csv`, `home_dossier` = `foundations/democratic-renewal`): 118 rows, 75 policies and 43 options, all L1. The brief for this step counted 92; the CSV holds 118 (checked November 16).
+**Homed here** (`agenda/agenda.csv`, `home_dossier` = `foundations/democratic-renewal`): 120 rows, 100 at L2 and 20 at L1 (checked November 18).
 
 | Family | Rows | Policies | Legacy design file | Ledger rows that carry them today |
 | --- | --- | --- | --- | --- |
 | DEM: representation, elections, civic life | 38 | DEM-1 to DEM-20 (DEM-14 and DEM-15 are pointers to SAF-8 and LAB-9) | `legacy/domains/domain-democracy.md` | DEM-1, DEM-3 to DEM-6, DEM-11, DEM-16, DEM-17 |
 | INT: anti-corruption and money in politics | 27 | INT-1 to INT-17 | `legacy/domains/domain-integrity.md` | INT-1; INT-2 and INT-5 ride DEM-1 |
-| CRT: courts and administrative law | 34 | CRT-1 to CRT-19, packaging options CRT-P1 to P4 | `legacy/domains/domain-courts.md` | CRT-P1 |
-| CAP: Congress and the successor state | 19 | CAP-1 to CAP-18 and CAP-7S | `legacy/domains/domain-capacity.md` | CAP-7, CAP-7S, CAP-8 |
+| CRT: courts and administrative law | 35 | CRT-1 to CRT-20, packaging options CRT-P1 to P4 | `legacy/domains/domain-courts.md` | CRT-P1 |
+| CAP: Congress and the successor state | 20 | CAP-1 to CAP-19 and CAP-7S | `legacy/domains/domain-capacity.md` | CAP-7, CAP-7S, CAP-8 |
 
 **Read with it, homed elsewhere:**
 - **Executive power** (`agenda/executive-power`, wave three; `legacy/domains/domain-executive-power.md`). Two of its rows are delivery plumbing this foundation's capacity part depends on: EXE-3 (anti-impoundment, a cause of action for the intended recipient) and EXE-18 (payment continuity in a lapse of appropriations). EXE-5 (inspectors general) and EXE-9 (independent agencies after *Slaughter*) set the template the FEC (INT-7) and the immigration court (CRT-5) use.
@@ -34,7 +34,7 @@ One file per section, each with a part per subject, as the immigration and secur
 | 2. What works | `2-what-works.md`: the research, programs at home and abroad, and failures to avoid, part by part (A to G), with each claim's evidence strength, both views where contested, the legacy designs weighed against the evidence, and the questions it leaves for section 3 | Draft (#409) |
 | 3. Design | `3-design.md`: the forks at a glance, section 2's thirteen questions answered or routed, costs against outside scores, part G's first bottom-up sizing of the cross-cutting state capacity by agency (staff, money, timing), 50 yes-or-no points, and where each of the 118 rows is decided | Decided (`DEC-2026-11-17-40` to `-99`) |
 | Decision memos | `memos/README.md` and memos 1 to 13: the voting floor, the Voting Rights Act, redistricting (DEM-2's structure), money in politics, the election regulators, the stock ban, Supreme Court terms, judicial ethics, the immigration court and civil counsel, capacity size and pace, shared rule 5, the civil service and funding lapses, long-run representation | Decided |
-| Notes | `notes/espen-questions-2026-11-17.md`: answers to Espen's questions on the November 17 decisions (parts a to t) | For Espen |
+| Notes | `notes/espen-questions-2026-11-17.md`: answers to Espen's questions on the November 17 decisions (parts a to t) | Answered (recommendations accepted) |
 | 4. Specification | `4-specification.md`: the provisions part by part (A, DEM; B, INT; C, CRT, with the immigration court and how it meets the immigration flagship's requirements; D, CAP, with shared rule 5), the vehicles, who is affected, shared rules, the costs and unbooked lines for stage G, the design lens, the seams and the consistency table; the voting floor's legal footing, with DEM-12.01's power and the presidential-electors table (milestone fix 2); IDs and fields in `provisions.json` | Draft (#424; fix 2) |
 | 5. Delivery | `5-delivery.md`: who runs each of the 137 provisions, by body and existing channel; this foundation's own bodies' capacity, with the immigration court as the one large build; the cross-cutting capacity delivered to the flagships (the dated needs, hiring, the release rule and the contingency's first claims, payment systems, records, EXE-3 and EXE-18); the timeline from 2027-28 preparation through 2035, with the staged House path and the floor's effective dates; remedies; states' and local election offices' roles; rural delivery; four provisional fixes to section 4 | Draft |
 | 6. Cost | `6-cost.md`: the nine booked rows by fiscal year and each provision against its row; CAP-7S and CAP-7 split into allocation and contingency, beside the October 26 delivery contingency, SSA's trust-fund share and the IRS's revenue yield; the match against CBO's H.R. 1 score; the unbooked lines priced (`models/tools/democratic_renewal_cost.py`, a draft scenario); CRT-P1's room for the court's structure; IMM-1's later rebooking; benchmarks; the provisional items priced; the fiscal-rule report against the $602.7 billion gap; what a booking would change | Draft |
