@@ -129,7 +129,7 @@ Updated November 18, 2026 (about 04:15 UTC) by the lead, session_01UQzgBvpQMB7GH
 
 0d. Done: democratic renewal decisions recorded in #419 and the follow-up in #420 (`DEC-2026-11-17-97` to `-99`).
 
-0e. **Work, from section 4** (#422; drafted on the recommendations and marked provisional, by Espen's overnight direction; `dossiers/work/4-specification.md`, "Questions for Espen", and `dossiers/work/README.md`): memo 10, measuring displacement and a standby trigger (`dossiers/work/memos/10-*`, LAB-19; recommended C and C); point 5 (LAB-14.01); point 11 (LAB-17.01); whether quits for good cause qualify for wage insurance (LAB-18.03, drafted as a working reading of `DEC-2026-11-17-95`). Each is decided on its own.
+0e. **Work, from section 4** (#422; drafted on the recommendations and marked provisional, by Espen's overnight direction; `dossiers/work/4-specification.md`, "Questions for Espen", and `dossiers/work/README.md`): memo 10, measuring displacement and a standby trigger (`dossiers/work/memos/10-displacement-measurement-trigger.md`, LAB-19; recommended C and C); point 5 (LAB-14.01); point 11 (LAB-17.01); whether quits for good cause qualify for wage insurance (LAB-18.03, drafted as a working reading of `DEC-2026-11-17-95`). Each is decided on its own.
 
 0f. **Democratic renewal, from section 4** (#424; provisional, as 0e; `dossiers/foundations/democratic-renewal/4-specification.md`, "Questions for Espen"): INT-1.01, how the stock ban treats self-directed IRAs.
 
