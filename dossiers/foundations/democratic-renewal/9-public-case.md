@@ -129,7 +129,7 @@ No court outcome is certain, and this plan promises none. Each part most at risk
 
 ## Decided, and what is still a working choice
 
-Espen decided the five items on the decision sheet and the milestone review's two questions on November 18 (D1 to D7 and the House seats), and confirmed the revised draft that evening (about 17:30 UTC), each on its own. **Nothing in the brief is provisional on Espen's side any more**; what remains is working choices and the court risks above. (Item D2 here is not the Senate rules decision of the same letter in the legacy plan.)
+Espen decided the five items on the decision sheet and the milestone review's two questions on November 18 (D1 to D7 and the House seats), and confirmed the revised draft that evening (about 17:30 UTC), each on its own. **One item is provisional on Espen's side**: a last date to obligate the rebuild's surge money (section 4, open question 8), which no promise in the brief depends on; the rest is working choices and the court risks above. (Item D2 here is not the Senate rules decision of the same letter in the legacy plan.)
 
 | Item | Decided | Where |
 | --- | --- | --- |
@@ -142,6 +142,7 @@ Espen decided the five items on the decision sheet and the milestone review's tw
 | **D7.** How DEM-12.01's text uses *Oregon v. Mitchell* | Name both powers, the enforcement clauses first, with *Mitchell* read alongside *Inter Tribal Council* (`DEC-2026-11-18-26`) | Section 4, DEM-12.01 |
 | **The stock ban's reach** | Senior staff on the public-filer pay line; Federal Reserve governors and the Reserve Bank presidents; judges disclosure only (`DEC-2026-11-18-16` and `-27`) | Section 4, INT-1.01 |
 | **Temporary House seats for a new state** | One for D.C., four for Puerto Rico, until the next census (`DEC-2026-11-18-18` and `-29`) | Section 4, DEM-5.01, DEM-6.01 |
+| **A last date to obligate the surge (CAP-7S.01)** | **Provisional, with Espen:** recommended September 30, 2036, with one extension and the balance returning to the Treasury; until Espen decides, memo 10 B's "until spent" stands | Section 4, open question 8 |
 | **INT-6.01's sanction** | A civil penalty by suit, the refusal published, public money withheld until the returns are filed; ballot access untouched (option A, `DEC-2026-11-18-30`) | Section 4, INT-6.01 |
 
 Other figures in the brief are **working choices**, set so delivery is complete and changeable without reopening a decision: the 180-day compliance window for the stock ban, the court's October 1, 2031 date, the judgeship tranches, the 180-day answer to an assembly, the first matched cycle in 2032 and the size of DEM-11's grant (sections 4 and 5).
@@ -185,7 +186,7 @@ The claims on the Voting Rights Act's constitutional risk (`dem1-legal`), the st
 
 ## Questions for Espen
 
-None new from this section. Every item above is decided (`DEC-2026-11-18-11` to `-18`, and Espen's confirmation of the revised draft on November 18, about 17:30 UTC).
+None new from this section. Every item above is decided except the surge's last date to obligate (`DEC-2026-11-18-11` to `-30`; the surge's date is README question 11).
 
 ## Source table
 
