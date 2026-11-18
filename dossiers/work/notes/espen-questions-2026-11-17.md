@@ -1,6 +1,6 @@
 # Work: answers to Espen's questions on the November 17 decisions
 
-Role: a follow-up note for Espen. It answers the questions Espen asked when deciding the work batch (`DEC-2026-11-17-01` to `-29`; `../3-design.md`, "Decided"), from the dossier's evidence and a light new search where the repository had nothing. Status: **for Espen**. It offers options and recommendations. It decides nothing: where an answer is provisional, Espen confirms or changes it, and the lead records that as a new `DEC-` row. Section 4 carries the decided design and waits until Espen says go.
+Role: a follow-up note for Espen. It answers the questions Espen asked when deciding the work batch (`DEC-2026-11-17-01` to `-29`; `../3-design.md`, "Decided"), from the dossier's evidence and a light new search where the repository had nothing. Status: **approved by Espen except part d** (November 17: "clarify answer d further ... otherwise, your answers and recs to my work dossier questions are approved"; `DEC-2026-11-17-30` to `-36`). Part d, with its clarification on layoffs and firings for cause, waits for Espen's answer. Section 4 carries the decided design and waits until Espen says go.
 
 Sources are named in plain text. Bracketed tags point to `../evidence.json` or another dossier's register. Sources found in this note's search are **not yet in the register**: their addresses are listed at the end, and they need catalogue rows and evidence entries before section 4 relies on them (`DEC-2026-11-12-02`). "Project arithmetic" and "judgment" mark the project's own figures.
 
@@ -92,6 +92,64 @@ The cause is never asked, so no one must prove trade or AI caused the loss (the 
   - *(ii) on quarterly earnings:* pay half the drop in quarterly earnings, with a minimum-hours test. Automatic, but it also pays when someone works fewer hours.
   - *(iii) hours added to every state's wage records*, through memo 7's data agreement. Slower, but it also gives the plan its best measure of displacement.
 - Recommended: (i) at the start, with (iii) built alongside so it moves to automatic payment within a few years.
+
+### d, clarified: how a layoff is told apart from a firing for cause
+
+Espen asked, on November 17: "clarify answer d further, especially how 'laid off against your will after three or more years in a job' is distinguished from fired for cause." The register has no entries on how states decide separations, so this part rests on a light search (`DEC-2026-11-12-02`). Its sources are listed at the end of this note.
+
+**How unemployment insurance already draws the line.**
+- Every unemployment claim gets a finding on why the job ended. States sort separations into three kinds (Labor Department, *Comparison of State Unemployment Insurance Laws*, chapter 5):
+  - *lack of work*, such as a layoff, a closure or an abolished position, which is eligible;
+  - *a quit*, which is disqualifying unless the worker had good cause;
+  - *a discharge*, which is disqualifying only if it was for **misconduct**.
+- Each state defines misconduct, and many grade it, for example misconduct and gross misconduct. The penalty ranges from a few weeks without benefits to the whole claim (Mondaq practitioner summary).
+- **Misconduct is much narrower than "fired for cause."** The leading definition, the Wisconsin Supreme Court's in *Boynton Cab Co. v. Neubeck* (1941), adopted in other states, requires a willful or intentional disregard of the employer's interests. Poor performance, inability, honest mistakes and ordinary negligence are generally not misconduct. A worker fired for those reasons usually gets benefits. As an employer-side guide puts it, poor performance "is a reason to fire; it is rarely a reason to deny benefits" (SHRM).
+- The burden of proof follows the claim: the employer must show misconduct, and a worker who quit must show good cause.
+
+**Who decides, and how.**
+- *The claimant* gives a reason when filing. *The employer* is asked for its own account of the separation.
+- *A state adjudicator* decides the case. If the two accounts agree, the case is quick. If they differ, the adjudicator gathers facts from both sides, usually by phone interview and documents, and issues a written determination.
+- In Washington's records, employers' accounts often differ from claimants'. Low-wage workers' claims are appealed more often, and a few employers account for much of the contesting (Lachowska, Sorkin and Woodbury, NBER working paper, 2023).
+- *The federal timeliness targets:* 80% of these determinations within 21 days. For first appeals, 60% of decisions within 30 days and 80% within 45 (Labor Department, "UI Performs" core measures, 2019 edition).
+
+**Appeals.** Either side may appeal:
+- first to a hearing before an administrative law judge or hearing officer, where both sides give evidence under oath;
+- then to a state review board;
+- then to state court.
+
+**How wage insurance would use the finding.**
+- Memo 8 B makes **no new finding**. It reads the state's final separation determination for the job that ended:
+  - *Eligible:* a lack-of-work separation, or a discharge the state found was not for misconduct.
+  - *Not eligible:* a discharge for misconduct, or a quit without good cause.
+- A worker who never claimed unemployment, for example someone who found a lower-paid job within a week, asks for the same determination when applying. The same adjudicator decides it under the same rules.
+- If an appeal reverses the finding, wage insurance follows it: back payments if the worker wins, repayment if they lose, with repayment waived where the worker was not at fault, as unemployment insurance already allows.
+
+**Someone fired for reasons short of misconduct.**
+- Under today's unemployment rules, a worker fired for poor performance or a poor fit is eligible. Two ways to treat them for wage insurance:
+  - *(A) Follow unemployment insurance exactly:* eligible unless the state found misconduct or a quit without good cause. No new line to draw and no new adjudication. It also matches memo 8's "whatever the cause".
+  - *(B) Lack of work only:* closest to the survey's meaning of "displaced" [EV-WRK-315]. But states do not record "not misconduct" and "layoff" in a way that separates them cleanly, so B would need a new finding on every discharge.
+- **Recommended: A.** It keeps one rule across unemployment insurance and wage insurance (`DEC-2026-11-13-08`), and the three-year tenure test already screens out short, poorly matched jobs.
+- The cost of A over B is not measured. Judgment: a small share of claims, inside memo 8 B's range, to be checked in section 6.
+
+**Gaming risks, and the guards.**
+- *An employer calls a layoff "for cause."*
+  - The incentive is real. Employers' unemployment taxes rise with their former workers' benefits ("experience rating"), so they have a reason to contest claims. When Washington made its tax experience-rated in 1985, claims fell and denials rose (Anderson and Meyer, as cited by Lachowska and Woodbury). Contesting fell when experience rating paused during COVID and rose again when it returned (Columbia working paper, 2026).
+  - Guards:
+    - wage insurance is paid federally and **not charged to the employer's account**, so it adds no new reason to contest;
+    - the employer keeps the burden of proving misconduct;
+    - the worker keeps the right to a hearing;
+    - memo 6's retaliation remedy and penalties apply to false statements by employers as well as by claimants.
+  - Memo 7 B's federal standards are the place to add adjudication quality: for example, sampling determinations for accuracy as well as speed.
+- *A worker and employer relabel a quit as a layoff.* The tenure test, the need for a new, lower-paid job, and payment of only half the gap, capped at $10,000 a year, keep the gain small. The employer's own report and its effect on its tax rate push the other way.
+- *Lay off, then rehire at lower pay.* Exclude reemployment by the same employer or a related one (the same controlled group the health financing rules use) within, for example, a year.
+
+**What this changes in the recommendation.** Nothing in memo 8 B's benefit. It adds four rules for section 4:
+- the separation test is the state's unemployment finding, option A;
+- the benefit is not charged to the employer;
+- reemployment by the same or a related employer is excluded;
+- an applicant who never claimed can get a determination.
+
+Memo 8 part 2 stays provisional until Espen answers this clarification.
 
 **Is wage insurance a patch? Partly, yes.**
 - Wage insurance is the best-tested help for one problem: a long-tenured worker who takes a lower-paid job. It raised employment 8-17 points and paid for itself for older trade-displaced workers (Hyman, Kovak and Leive, regression discontinuity) [EV-WRK-365]. Keep it as a base, whatever the cause of job loss.
@@ -212,3 +270,11 @@ Each needs a catalogue row and an evidence entry before section 4 relies on it.
 - Quach, "The Labor Market Effects of Expanding Overtime Coverage": NBER working paper 35433 (2026), https://econpapers.repec.org/RePEc:nbr:nberwo:35433; the 2020 version, https://mpra.ub.uni-muenchen.de/100613/.
 - Lachowska, Meral and Woodbury, the Washington work search experiment (2016), https://clear.dol.gov/Study/Effects-unemployment-insurance-work-test-long-term-employment-outcomes-Lachowska-et-al-2016, and the Upjohn summary, https://upjohn.org/research-highlights/ui-work-test-improves-employment-outcomes-permanent-job-losers.
 - GAO on work search overpayments, https://www.gao.gov/assets/700/691896.pdf; Maryland Department of Labor's work search report (2024), https://dlslibrary.state.md.us/publications/Exec/MDL/SB846Ch284HB998Ch285(2024).pdf. Both were read only through search extracts.
+- For part d, clarified (read through search extracts unless noted):
+  - Labor Department, *Comparison of State Unemployment Insurance Laws*, chapter 5, nonmonetary eligibility (2021 edition), https://oui.doleta.gov/unemploy/pdf/uilawcompar/2021/nonmonetary.pdf;
+  - Mondaq, "Words matter: reasons for separation and unemployment benefits", https://mondaq.com/unitedstates/employee-benefits--compensation/604404/words-matter-reasons-for-separation-and-unemployment-benefits;
+  - *Boynton Cab Co. v. Neubeck*, 237 Wis. 249 (1941), as summarized at https://www.casemine.com/commentary/us/strict-construction-of-misconduct-in-unemployment-compensation:-boynton-cab-co.-v.-neubeck/view (the opinion's own wording still needs checking);
+  - SHRM, "Is challenging unemployment compensation benefits worth it?", https://www.shrm.org/topics-tools/employment-law-compliance/challenging-unemployment-compensation-benefits-worth;
+  - Lachowska, Sorkin and Woodbury, "Firms and Unemployment Insurance Take-up", NBER working paper 30266 (revised February 2023), https://www.nber.org/papers/w30266 (abstract read in full);
+  - the Columbia working paper on employer contesting and experience rating, https://www.columbia.edu/~ah3467/files/ahfagw_ssr26.pdf, which also cites Anderson and Meyer on Washington's 1985 change;
+  - Labor Department, UI Performs core measures (2019), https://www.dol.gov/sites/dolgov/files/ETA/advisories/TEN/2019/TEN_25-18_Attachment_I_acc.pdf.

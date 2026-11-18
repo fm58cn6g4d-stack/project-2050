@@ -1,6 +1,6 @@
 # Fair pay and real power at work: design choices
 
-Role: section 3 of the work dossier (flagship 5, `charter/PLAN.md` 3.1: "labor law, wage floors, sectoral standards, support when jobs change"): the real forks, the options weighed with their evidence and costs, a recommendation for each, one decision memo per fork in `memos/`, and a numbered list of narrower yes-or-no points. Status: **decided** (`DEC-2026-11-17-01` to `-29`, Question 0c, November 17, 2026), each memo and point on its own: as recommended except memo 1 part 2, memo 3 and memo 6 part 3; memo 8 part 2, memo 9 and points 2, 3, 5 and 11 are provisional (see "Decided"). The options and recommendations below are kept as they were sent; section 4 carries the decided design and is on hold until Espen says go. The decided items move to L2 in `agenda/agenda.csv`; nothing is booked in the budget model; the plan-wide financing is stage G's (`DEC-2026-11-10-05`). Each memo and point is decided on its own, and none is adopted by silence (`charter/STANDARDS.md`, "Decision memos"). Sources are named in plain text in the memos; bracketed tags point to `evidence.json` or another dossier's register; "project arithmetic" is shown where used; "judgment" marks a working assumption, with its basis in "What the options cost" (`DEC-2026-11-10-07`). Figures and analysis from the second Trump administration's agencies are its own (`DEC-2026-10-30-01`).
+Role: section 3 of the work dossier (flagship 5, `charter/PLAN.md` 3.1: "labor law, wage floors, sectoral standards, support when jobs change"): the real forks, the options weighed with their evidence and costs, a recommendation for each, one decision memo per fork in `memos/`, and a numbered list of narrower yes-or-no points. Status: **decided** (`DEC-2026-11-17-01` to `-36`, Question 0c, November 17, 2026), each memo and point on its own: as recommended except memo 1 part 2, memo 3 and memo 6 part 3; memo 8 part 2 and points 5 and 11 remain provisional; memo 9 and points 2 and 3 were settled by Espen's approval of the follow-up note (see "Decided"). The options and recommendations below are kept as they were sent; section 4 carries the decided design and is on hold until Espen says go. The decided items move to L2 in `agenda/agenda.csv`; nothing is booked in the budget model; the plan-wide financing is stage G's (`DEC-2026-11-10-05`). Each memo and point is decided on its own, and none is adopted by silence (`charter/STANDARDS.md`, "Decision memos"). Sources are named in plain text in the memos; bracketed tags point to `evidence.json` or another dossier's register; "project arithmetic" is shown where used; "judgment" marks a working assumption, with its basis in "What the options cost" (`DEC-2026-11-10-07`). Figures and analysis from the second Trump administration's agencies are its own (`DEC-2026-10-30-01`).
 
 ## How to read this section
 
@@ -14,13 +14,24 @@ Role: section 3 of the work dossier (flagship 5, `charter/PLAN.md` 3.1: "labor l
 
 ## Decided
 
-Espen answered the batch on November 17, 2026 (`DEC-2026-11-17-01` to `-29`), each memo and point on its own. Follow-up answers to Espen's questions are in `notes/espen-questions-2026-11-17.md`.
+Espen answered the batch on November 17, 2026 (`DEC-2026-11-17-01` to `-29`), each memo and point on its own. Espen then approved the follow-up note's answers and recommendations, except part d (`DEC-2026-11-17-30` to `-36`); they are in `notes/espen-questions-2026-11-17.md`.
 - **As recommended:** memo 1 part 1 **B**; memo 2 **B**; memo 4 **A**, as a separate title; memo 5 **B**; memo 6 part 1 **B** and part 2 **B**; memo 7 **B**; memo 8 part 1 **C**; points 1, 4, 6-10 and 12-16 **yes**.
 - **Memo 1 part 2: C, not as recommended** (`DEC-2026-11-17-02`). B plus a small, temporary credit for employers under 50 workers during the first three steps, about **$0.02-0.04 trillion over FY2030-39** (judgment, memo 1). At booking it replaces the budget model's LAB-5 row of $0.10 trillion; it is not rebooked here. So the "What the options cost" row for memo 1 rises by that amount, and the recommended set's total below does not include it.
 - **Memo 3: D, not as recommended** (`DEC-2026-11-17-04`). B plus card check: a union is certified on a majority of signed authorization cards.
 - **Memo 6 part 3: C, not as recommended** (`DEC-2026-11-17-09`). Both posted pay ranges and a statutory right to discuss pay; the evidence is stated plainly in the note, part b.
 - **Directions:** memo 5, pursue measures like C (sectoral bargaining) over time (`DEC-2026-11-17-06`); point 13, Espen favors a ban on non-competes, and the competition topic studies the FTC's record under Lina Khan (`DEC-2026-11-17-26`).
-- **Provisional, with the open question named:** memo 8 part 1's completion bonuses (a detail of a decided option; note, part c); memo 8 part 2 (what counts as "displaced", administration, an AI strategy; part d); memo 9 (the scale between C and A; part e); point 2 (does it still matter beside the care floor; part f); point 3 (is $1,128 the right level; part g); point 5 (study severance, then recommend a mandate or a guarantee of state and local authority); point 11 (keep studying codetermination). Point 10's question (administrative time) is answered in part h.
+- **Settled by the follow-up note** (`DEC-2026-11-17-30` to `-36`):
+  - point 2's final wording (`-30`);
+  - point 3: the 2024 method in statute, never below $1,128 (`-31`);
+  - memo 9: about 200,000 positions by 2034, of which up to 50,000 are service-to-apprenticeship places, gated (`-32`);
+  - memo 8 part 1: the per-completion payment to programs plus supports, with no apprentice cash bonus (`-33`);
+  - memo 1 part 2 C's form (`-34`);
+  - memo 6 part 3 C in the bill (`-35`);
+  - point 10's administrative saving, studied in implementation (`-36`).
+- **Still provisional:**
+  - memo 8 part 2: Espen asked for part d to be clarified (how a layoff is told apart from a firing for cause); the clarification is in the note;
+  - point 5: study severance, then recommend a mandate or a guarantee of state and local authority;
+  - point 11: keep studying codetermination.
 
 ## The baseline in 2029
 
@@ -140,8 +151,8 @@ Each is decided on its own. None is adopted by silence. Costs are judgment unles
    - *Why:* California's 2005 standard cut hot-day injuries 15-27% by industry (Fomenko, McInerney and Negrusa, NBER working paper, 2026) [EV-WRK-258]; OSHA's 2024 analysis, the Biden administration's, put costs at $7.8 billion a year against $9.18 billion of benefits [EV-WRK-255].
    - *January 2029, executive:* finish the rule if OSHA has not (legacy EXE-17) [EV-WRK-237].
    - *Cost:* none federal beyond OSHA staff (CAP-7). **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-14`).**
-2. **Home care workers stay under federal minimum wage and overtime law,** with the 2013 coverage written into statute if the 1975 exemptions return (care's point 2) [EV-WRK-225] [EV-CAR-616]. *Cost:* inside the care floor's range. **Recommended: yes.** **Decided: yes, with a change, provisional (`DEC-2026-11-17-15`; note, part f).**
-3. **The overtime salary threshold in statute,** at the 2024 rule's $1,128 a week [EV-WRK-221], indexed every three years, against $684 today [EV-WRK-223]. *Why:* the 2024 rule was vacated [EV-WRK-222]; a statute cannot be. *Cost:* none federal. **Recommended: yes.** **Decided: yes, with a change, provisional (`DEC-2026-11-17-16`; note, part g).**
+2. **Home care workers stay under federal minimum wage and overtime law,** with the 2013 coverage written into statute if the 1975 exemptions return (care's point 2) [EV-WRK-225] [EV-CAR-616]. *Cost:* inside the care floor's range. **Recommended: yes.** **Decided: yes, with a change; final wording in `DEC-2026-11-17-30` (note, part f).**
+3. **The overtime salary threshold in statute,** at the 2024 rule's $1,128 a week [EV-WRK-221], indexed every three years, against $684 today [EV-WRK-223]. *Why:* the 2024 rule was vacated [EV-WRK-222]; a statute cannot be. *Cost:* none federal. **Recommended: yes.** **Decided: yes, with a change: the 2024 method in statute, never below $1,128 (`DEC-2026-11-17-31`; note, part g).**
 4. **Layoff notice that works:** 90 days for closings and mass layoffs, layoffs counted across an employer's sites, enforced by the Labor Department with penalties instead of private suits alone, as New Jersey's 2023 law does for notice [EV-WRK-384]. *Why:* only about 45% of displaced workers got written notice [EV-WRK-318]; no agency enforces WARN [EV-WRK-329]. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-17`).**
 5. **No federal severance mandate in the first bill;** study New Jersey's one week per year of service [EV-WRK-384] first. **Recommended: yes (not now).** **Decided: yes, with a change, provisional: study, then recommend a mandate or a guarantee of state and local authority (`DEC-2026-11-17-18`).**
 6. **Predictable schedules:** two weeks' notice of schedules and pay for last-minute changes for large retail, food-service and warehouse employers. *Why:* Fair Workweek laws raised two weeks' notice 13 points with no fall in hours (Schneider, Harknett and Arbelaez, *Science Advances*) [EV-WRK-409]; results depend on enforcement [EV-WRK-410]. **Recommended: yes.** **Decided: yes (`DEC-2026-11-17-19`).**
@@ -210,4 +221,4 @@ From `dossiers/shared-rules.md`. Rule 6 is this flagship's.
 
 ## Questions for Espen
 
-The batch is decided (`DEC-2026-11-17-01` to `-29`). The open questions behind the provisional answers are answered in `notes/espen-questions-2026-11-17.md`, for Espen to confirm or change.
+The batch is decided (`DEC-2026-11-17-01` to `-36`). Still open: memo 8 part 2, waiting on Espen's answer to the clarified part d in `notes/espen-questions-2026-11-17.md`; points 5 and 11, being studied; and the go for section 4.
