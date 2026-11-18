@@ -1589,7 +1589,7 @@
    "DEC-2026-11-17-49",
    "DEC-2026-11-17-50"
   ],
-  "parameters": "*Covered:* members of Congress, their spouses and dependent children; the President, the Vice President (INT-1.05), Cabinet secretaries and other Senate-confirmed officials. *Covered holdings:* individual publicly traded securities (stocks, corporate bonds, options, short positions and similar interests in a single issuer) and interests in funds that are not diversified. **Never covered:** diversified mutual funds and exchange-traded funds; U.S. Treasury securities and municipal bonds; the Thrift Savings Plan and other retirement accounts. Private business and farm interests are disclosed as today, not banned. The House passed a narrower trading ban 232-198 on July 22, 2026 [EV-DEM-034] [EV-DEM-035]; if a weaker ban becomes law in 2027-28, this act amends it (legacy open item 1)",
+  "parameters": "*Covered:* members of Congress, their spouses and dependent children; the President, the Vice President (INT-1.05), Cabinet secretaries and other Senate-confirmed officials. *Covered holdings:* individual publicly traded securities (stocks, corporate bonds, options, short positions and similar interests in a single issuer) and interests in funds that are not diversified. **Never covered:** diversified mutual funds and exchange-traded funds; U.S. Treasury securities and municipal bonds; the Thrift Savings Plan and other retirement accounts. *Provisional, pending Espen (\"Open questions for Espen\", 1):* a new purchase of an individual stock inside a self-directed retirement account after the effective date counts as covered; holdings already in such accounts, and plan-managed accounts (the TSP, 401(k) funds, pensions), are never covered. Private business and farm interests are disclosed as today, not banned. The House passed a narrower trading ban 232-198 on July 22, 2026 [EV-DEM-034] [EV-DEM-035]; if a weaker ban becomes law in 2027-28, this act amends it (legacy open item 1)",
   "eligibility": "",
   "vehicle": [
    {
@@ -2189,7 +2189,7 @@
    "DEC-2026-11-17-56",
    "DEC-2026-11-17-97"
   ],
-  "parameters": "The 800-judge cap from November 1, 2028 [EV-IMM-105] is repealed (IMM-3.08). The act authorizes judgeships for a corps of about 1,670 at peak (working assumption, the immigration model; range about 860-2,400 [EV-IMM-641]), hired about 250 a year from FY2030 to clear the 3.3 million pending cases [EV-IMM-100] by about FY2035. **Two kinds of judgeship, each sized to the need:** *regular 14-year judgeships* for the long-run need, about 730 judges after the backlog clears (immigration model), which takes about 200 of the added judges once attrition of about 5.6% a year [EV-IMM-646] shrinks today's 753 to about 530 by FY2035 (project arithmetic, working assumption); and *temporary judgeships* for the rest, about 720, whose terms end when the Judicial Conference certifies the backlog cleared (working choice: pending cases below twelve months of receipts) or at 14 years if sooner. A temporary judge may compete for a regular vacancy. The number is reset in 2033 from receipts after legalization",
+  "parameters": "The 800-judge cap from November 1, 2028 [EV-IMM-105] is repealed (IMM-3.08). The act authorizes judgeships for a corps of about 1,670 at peak (working assumption, the immigration model; range about 860-2,400 [EV-IMM-641]), hired about 250 a year from FY2030 to clear the 3.3 million pending cases [EV-IMM-100] by about FY2035. **Two kinds of judgeship, each sized to the need:** *regular 14-year judgeships*, about 950 (today's 753 on board plus about 200 of the added judges), sized to the long-run need of about 730 after the backlog clears (immigration model) with a margin of about a quarter, because that need depends on receipts after legalization and because regular seats recruit experienced lawyers more easily (memo 9); at attrition of about 5.6% a year [EV-IMM-646] the regular corps falls to about 730 within about five years of clearing (project arithmetic, working assumption); and *temporary judgeships* for the rest, about 720, whose terms end when the Judicial Conference certifies the backlog cleared (working choice: pending cases below twelve months of receipts) or at 14 years if sooner. A temporary judge may compete for a regular vacancy. The number is reset in 2033 from receipts after legalization",
   "eligibility": "",
   "vehicle": [
    {
@@ -3606,7 +3606,7 @@
   "decisions": [
    "DEC-2026-11-17-88"
   ],
-  "parameters": "The Technology Assessment Act of 1972 is still law; the office is funded again and modernized: rapid briefs as well as full assessments, standing technical fellows, open publication, horizon scanning on AI and other fast-moving fields, and a staff cap above the old 143 (legacy, `domain-capacity.md`:65). Under $0.01 trillion over FY2030-39 (legacy, line 67)",
+  "parameters": "The office was defunded in 1995-96, not abolished (legacy, `domain-capacity.md`:65); it is funded again and modernized: rapid briefs as well as full assessments, standing technical fellows, open publication, horizon scanning on AI and other fast-moving fields, and a staff cap above the old 143 (legacy, `domain-capacity.md`:65). Under $0.01 trillion over FY2030-39 (legacy, line 67)",
   "eligibility": "",
   "vehicle": [
    {

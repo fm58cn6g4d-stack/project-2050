@@ -51,4 +51,4 @@ One file per section, each with a part per subject, as the immigration and secur
 
 ## Open questions for Espen
 
-The section 3 batch is decided (`DEC-2026-11-17-40` to `-99`). Section 4 raises one question: whether new purchases of individual stocks inside a self-directed retirement account count under the stock ban (`4-specification.md`, "Open questions for Espen"; recommended yes, new purchases only).
+The section 3 batch is decided (`DEC-2026-11-17-40` to `-99`). Section 4 raises one question, drafted on its recommendation and marked provisional (the overnight relay): new purchases of individual stocks inside a self-directed retirement account count under the stock ban, existing holdings and plan-managed accounts never (`4-specification.md`, "Open questions for Espen").
