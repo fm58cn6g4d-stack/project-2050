@@ -73,9 +73,14 @@ class WorkBooking(unittest.TestCase):
     def test_every_line_is_booked_or_named(self):
         self.assertEqual(self.b["unbooked"], NOT_BOOKED)
 
+    def test_no_line_is_in_two_rows(self):
+        ids = [i for _, ids, *_ in WB.SPENDING for i in ids] + [i for _, ids, *_ in WB.REVENUE for i in ids]
+        self.assertEqual(len(ids), len(set(ids)), "a path line is booked in two rows")
+        self.assertNotIn(WB.SS_LINE, ids)
+
     def test_totals_are_section_6s(self):
         t = self.b["totals"]
-        self.assertAlmostEqual(t["net_window"] * 1000, 226.9, delta=1.5)   # 222.4 firm + 4.5 decided apart
+        self.assertAlmostEqual(t["net_window"] * 1000, 226.9, delta=1.5)   # 222.4 firm + 4.5 decided apart, plus the ledger's $1B rounding
         self.assertAlmostEqual(t["net_fy2040"], 31.94, delta=0.05)         # 31.26 firm + 0.68 decided apart
         self.assertAlmostEqual(t["ss_window"] * 1000, 43.3, delta=0.1)
         self.assertAlmostEqual(t["ss_fy2040"], 5.96, delta=0.01)

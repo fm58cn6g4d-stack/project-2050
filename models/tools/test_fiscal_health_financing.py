@@ -49,7 +49,7 @@ ENDPOINT_ROWS = ("HCU", "HCW", "HCA", "HCP", "HCH") + STREAM_IDS
 
 # Work's booking moved the plan-wide gap by these amounts ($B, case mixed; FY2040 602.7 to 614.0): lower in FY2030-36, where it
 # replaces the booked legacy rows (LAB-5, LAB-8, LAB-9), higher after. Health's own first call is unchanged.
-WORK_BOOKING = {2030: -0.3, 2031: -10.9, 2032: -8.8, 2033: -10.1, 2034: -8.3, 2035: -8.2, 2036: -8.1, 2037: 10.6, 2038: 10.9, 2039: 11.2, 2040: 11.3}
+WORK_BOOKING = {2030: -0.3, 2031: -11.0, 2032: -9.0, 2033: -10.2, 2034: -8.4, 2035: -8.3, 2036: -8.2, 2037: 10.5, 2038: 10.8, 2039: 11.1, 2040: 11.3}
 WORK_BOOKING_FY2040 = WORK_BOOKING[2040]
 
 

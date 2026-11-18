@@ -143,11 +143,9 @@ base revenue,HS3,,rev_individual,,1,rev_individual,,0.994806,,,"Health financing
 base revenue,HS4,,rev_corporate,,1,rev_corporate,,0.993627,,,"Health financing booking (DEC-2026-11-15-09 to -24): shape in fiscal-years.csv (the fold-in from the January 2035 endpoint, HCU and HEC from 2031, the streams from FY2030: DEC-2026-11-16-01 to -03); perm fitted so FY2040 is $70.0B, then the row's category (health_booking.py)"
 base revenue,H1a,,rev_individual,,1,rev_individual,,0.994691,,,"Health financing booking (DEC-2026-11-15-09 to -24): shape in fiscal-years.csv (the fold-in from the January 2035 endpoint, HCU and HEC from 2031, the streams from FY2030: DEC-2026-11-16-01 to -03); perm fitted so FY2040 is $60.0B, then the row's category (health_booking.py)"
 bill,LAB-4.09,,out_other_mandatory,,1,gdp,2034,0.000000,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
-bill,LAB-3,,out_disc_nondefense,,1,gdp,,1.063415,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
-bill,LAB-7.05,,out_disc_nondefense,,1,gdp,,0.553496,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
+bill,LAB-3,,out_disc_nondefense,,1,gdp,,1.066470,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
 bill,LAB-11,,out_other_mandatory,,1,gdp,,0.997874,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
 bill,LAB-18,,out_other_mandatory,,1,gdp,,1.002296,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
-bill,LAB-19,,out_disc_nondefense,,1,gdp,,0.507743,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
-base revenue,LAB-11T,,rev_individual,,1,gdp,,1.002155,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
-base revenue,LAB-18T,,rev_individual,,1,gdp,,0.992353,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
-base revenue,LAB-2P,,rev_individual,,1,gdp,,0.963613,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
+base revenue,LAB-11T,,rev_individual,,1,gdp,,1.003944,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
+base revenue,LAB-18T,,rev_individual,,1,gdp,,1.001966,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
+base revenue,LAB-2P,,rev_individual,,1,gdp,,1.084064,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"

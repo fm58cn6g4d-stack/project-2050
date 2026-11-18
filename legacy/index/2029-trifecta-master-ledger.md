@@ -32,7 +32,7 @@ All dollar figures are ten-year totals for 2030-39 in trillions. "Estimate" mean
 | Housing | 2 | 0.54 | 0.69 | 0.92 | 3 |
 | Transportation | 2 | 0.35 | 0.35 | 0.35 | 0 |
 | AI | 3 | 0.11 | 0.24 | 0.50 | 5 |
-| Labor | 11 | 0.10 | 0.20 | 0.37 | 10 |
+| Labor | 9 | 0.10 | 0.20 | 0.37 | 10 |
 | Immigration | 1 | -0.04 | 0.17 | 0.42 | 12 |
 | National security | 3 | 0.05 | 0.09 | 0.45 | 0 |
 | Democracy | 7 | 0.03 | 0.07 | 0.16 | 22 |
@@ -82,7 +82,7 @@ Two consequences for the rest of the agenda: the third reconciliation bill is no
 | Reconciliation I (FY2029 resolution, February preferred, March latest) | 12 | 3.52 | 17 |
 | Reconciliation II (FY2030 resolution, summer 2029) | 34 | 4.90 | 17 |
 | Regular order (needs majority cloture) | 30 | 21.26 | 115 |
-| Annual appropriations | 10 | 0.53 | 0 |
+| Annual appropriations | 8 | 0.53 | 0 |
 | Reconciliation III (FY2031 resolution, summer 2030) | 5 | 0.62 | 17 |
 
 R2 is the heaviest vehicle (34 rows, about $4.9T): it carries housing, the labor credits, national service, the journalism credit, veterans health and five education rows (EDU-1, EDU-3, EDU-4, EDU-5, EDU-7) beside health upgrades, child care, leave, the clean-energy credits and the dividend. If R1 is lost (D5), its contents move here too. The Talarico stress test suggests universal meals (EDU-3) would be felt sooner on R1, but R2 now targets summer 2029; actual 2030-31 service delivery still requires a separate implementation path.
@@ -398,11 +398,9 @@ Gross outlays and own revenue are shown separately; the three general-fund colum
 | CLI-3A | CLI-3A | The standard's capped payments: no pay-out (CLI-3A.02; DEC-2026-11-14-02) | R2 | General fund | 0.00 (0.00-0.00) |  | 0.000 | 0.000 | 0.000 | 0 | Unverified | 55 | estimate | DEC-2026-11-14-02 (amending memo 9 B): all of the standard's payments are general-fund receipts (C3A); no bill top-up and no grid account; grid build-out is CLI-10's. clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) | dossiers/clean-power/6-cost.md |
 | CLI-4R | CLI-4R | The retrofit credit (memo 8 D, CLI-4R.01): 45Q on top of the carbon price for retrofits begun by 2039 | R2 | General fund | 0.00 (0.00-0.01) |  | 0.003 | 0.003 | 0.012 | 0 | Unverified | 55 | estimate | DEC-2026-11-14-01. The energy model's case retro1_rcredit (research-based limits, 75% capture) is the central case: about $2.6B over FY2030-39 and $1.6B in FY2040 (nominal fiscal years); the high end is retro_hi_rcredit (90% capture, twice the limits): about $12B and $6.0B. The low end is the central case (no lower case is modeled). The credit runs 12 years a retrofit, so it continues after FY2039. The small dip in carbon-price receipts (about $1-2B over FY2030-39) is not booked. clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) | dossiers/clean-power/6-cost.md |
 | LAB-4.09 | — | 14(c) transition grant (LAB-4.09) | R2 | General fund | 0.00 (0.00-0.00) |  | 0.002 | 0.001 | 0.003 | 0 | Unverified | 70 | estimate | Work's booking (dossiers/work/6-cost.md part 9; work_booking.py) | dossiers/work/6-cost.md |
-| LAB-3 | — | Standards boards office and the wage commission (LAB-3, LAB-4.04) | APPROPS | General fund | 0.00 (0.00-0.00) |  | 0.001 | 0.001 | 0.003 | 0 | Unverified | 70 | estimate | Work's booking (dossiers/work/6-cost.md part 9; work_booking.py) | dossiers/work/6-cost.md |
-| LAB-7.05 | — | Wage and safety outreach grants (LAB-7.05) | APPROPS | General fund | 0.00 (0.00-0.00) |  | 0.001 | 0.000 | 0.001 | 0 | Unverified | 70 | estimate | Work's booking (dossiers/work/6-cost.md part 9; work_booking.py) | dossiers/work/6-cost.md |
+| LAB-3 | — | Standards boards office, wage commission, outreach grants and the displacement measure (LAB-3, LAB-4.04, LAB-7.05, LAB-19) | APPROPS | General fund | 0.00 (0.00-0.01) |  | 0.002 | 0.001 | 0.005 | 0 | Unverified | 70 | estimate | Work's booking (dossiers/work/6-cost.md part 9; work_booking.py) | dossiers/work/6-cost.md |
 | LAB-11 | — | Unemployment insurance on the general fund: Extended Benefits in ordinary years, state administration, conformity grant (LAB-11) | R2 | General fund | 0.06 (0.02-0.12) |  | 0.059 | 0.023 | 0.122 | 0 | Unverified | 70 | estimate | Work's booking (dossiers/work/6-cost.md part 9; work_booking.py) | dossiers/work/6-cost.md |
 | LAB-18 | — | Wage insurance, its administration, the hours field, good-cause quits and the records-based offer (LAB-18) | R2 | General fund | 0.02 (0.01-0.04) |  | 0.022 | 0.010 | 0.041 | 0 | Unverified | 70 | estimate | Work's booking (dossiers/work/6-cost.md part 9; work_booking.py) | dossiers/work/6-cost.md |
-| LAB-19 | — | Displacement measure: occupation in wage records and BLS's yearly report (LAB-19.01, 19.03) | APPROPS | General fund | 0.00 (0.00-0.00) |  | 0.001 | 0.000 | 0.001 | 0 | Unverified | 70 | estimate | Work's booking (dossiers/work/6-cost.md part 9; work_booking.py) | dossiers/work/6-cost.md |
 
 ## Revenue menu
 

@@ -16,9 +16,9 @@ What is booked (central path, $ billion by federal fiscal year; a cost positive)
 - Four booked rows change: LAB-1 (the floor's indirect effect, CBO's net, on the rules bill), LAB-5 (the small-
   business credit, DEC-2026-11-18-22), LAB-8 (apprenticeship) and LAB-9 (civic service, without the gated tranche).
 - Spending rows added: LAB-4.09 (the 14(c) grant), LAB-3 (the standards boards office and the wage commission),
-  LAB-7.05 (outreach grants), LAB-11 (Extended Benefits in ordinary years, state administration, the conformity
-  grant), LAB-18 (wage insurance, its administration, the hours field, and the lines Espen decided on November 18:
-  work-connected good-cause quits, their misuse and the records-based offer) and LAB-19 (the displacement measure).
+  LAB-11 (Extended Benefits in ordinary years, state administration, the conformity
+  grant) and LAB-18 (wage insurance, its administration, the hours field, and the lines Espen decided on November 18:
+  work-connected good-cause quits, their misuse and the records-based offer).
 - Revenue rows, each its own base-revenue row (6-cost.md, "Counting rules"): LAB-11T (the income-tax offset on
   employers' larger UI taxes, a loss), LAB-18T (income tax on wage insurance, a gain) and LAB-2P (civil penalties,
   a gain).
@@ -50,16 +50,14 @@ SPENDING = [
     ("LAB-8", ["apprenticeship"], "change", "out_disc_nondefense", None),
     ("LAB-9", ["service"], "change", "out_other_mandatory", None),
     ("LAB-4.09", ["14c"], "new", "out_other_mandatory", "14(c) transition grant (LAB-4.09)"),
-    ("LAB-3", ["boards"], "new", "out_disc_nondefense",
-     "Standards boards office and the wage commission (LAB-3, LAB-4.04)"),
-    ("LAB-7.05", ["outreach"], "new", "out_disc_nondefense", "Wage and safety outreach grants (LAB-7.05)"),
+    ("LAB-3", ["boards", "outreach", "measure"], "new", "out_disc_nondefense",
+     "Standards boards office, wage commission, outreach grants and the displacement measure "
+     "(LAB-3, LAB-4.04, LAB-7.05, LAB-19)"),
     ("LAB-11", ["eb", "ui_admin", "conformity"], "new", "out_other_mandatory",
      "Unemployment insurance on the general fund: Extended Benefits in ordinary years, state administration, "
      "conformity grant (LAB-11)"),
     ("LAB-18", ["wi", "wi_admin", "hours", "quits", "quits_misuse", "wi_offer"], "new", "out_other_mandatory",
      "Wage insurance, its administration, the hours field, good-cause quits and the records-based offer (LAB-18)"),
-    ("LAB-19", ["measure"], "new", "out_disc_nondefense",
-     "Displacement measure: occupation in wage records and BLS's yearly report (LAB-19.01, 19.03)"),
 ]
 REVENUE = [
     ("LAB-11T", ["ui_offset"], "Income-tax offset on employers' larger unemployment taxes (LAB-11.05)", "rev_individual"),
@@ -68,7 +66,7 @@ REVENUE = [
      "rev_individual"),
 ]
 SS_LINE = "ui_offset_ss"
-RAIL = {"LAB-1": "FLOOR", "LAB-3": "APPROPS", "LAB-7.05": "APPROPS", "LAB-19": "APPROPS"}   # the rest R2
+RAIL = {"LAB-1": "FLOOR", "LAB-3": "APPROPS"}   # the rest R2
 LEDGER_COLS = ["id", "legacy_id", "bill", "domain", "source", "rail", "channel", "cost_lo", "cost_mid", "cost_hi",
                "own_revenue_mid", "basis", "note", "floor_days", "felt_months", "durability", "target"]
 
@@ -135,7 +133,7 @@ def booking():
         ends = sorted([-lo_c / 1000, -hi_c / 1000])
         revenue[rid] = (r(ends[0]), r(m), r(ends[1]))
         s = sum(years[rid])
-        v39 = years[rid][9]
+        v39 = years[rid][9] * (r(m, 4) * -1000 / s if s else 0)       # the model scales the row to the ledger's mid
         perms[rid] = perm_for(F, B, v39, c[10])
         meta[rid] = ("revenue", cat, label)
     # Social Security: the UI deduction's payroll-tax loss, as % of taxable payroll (funds-ss-economics.csv)
@@ -198,7 +196,7 @@ ASM_YEARS = "ASM-WINDOW ASM-SIGN ASM-INCREMENT ASM-CALIB-MID ASM-PROF-YEARS ASM-
 def _spec_rows(b, ends):
     """The budget model's provision specs (models/data/budget/provisions.csv) for work's new rows."""
     out = []
-    appr = {"LAB-3", "LAB-7.05", "LAB-19"}
+    appr = {"LAB-3"}
     for rid, (how, cat, label) in b["meta"].items():
         if how == "new":
             if rid in appr:

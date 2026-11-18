@@ -38,8 +38,8 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | 2030 | 6534 | 7364 | 7640 | 9591 | 1450 | 1950 | 108.7% |
 | 2035 | 7898 | 8732 | 12397 | 15097 | 1943 | 2700 | 113.5% |
 | 2039 | 9294 | 10409 | 14976 | 18587 | 2490 | 3611 | 124.2% |
-| 2045 | 11831 | 13205 | 19544 | 23919 | 3470 | 4375 | 135.9% |
-| 2056 | 17910 | 20097 | 29582 | 37352 | 6131 | 7769 | 161.8% |
+| 2045 | 11831 | 13205 | 19545 | 23919 | 3470 | 4375 | 135.9% |
+| 2056 | 17910 | 20097 | 29582 | 37351 | 6131 | 7769 | 161.8% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 
