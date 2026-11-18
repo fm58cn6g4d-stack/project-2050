@@ -1,6 +1,6 @@
 # Democratic renewal: design choices
 
-Role: section 3 of the democratic renewal foundation: the real forks, the options weighed and a recommendation for each, with one decision memo per fork in `memos/` (indexed in `memos/README.md`), the narrower points as a numbered yes-or-no list, and part G's first bottom-up sizing of the cross-cutting state capacity. Status: **decided** (`DEC-2026-11-17-40` to `-93`, Question 0d, November 17, 2026), each memo and point on its own, as recommended except where "Decided" below says otherwise; memo 9 part 1 and points 8, 13, 16, 23, 31, 32, 33 and 36 are provisional. The options and recommendations below are kept as they were sent; section 4 carries the decided design and is on hold until Espen says go. Every one of the 118 rows homed here (`agenda/agenda.csv`, `home_dossier` = `foundations/democratic-renewal`) is either in a memo or in the yes-or-no list (the table "Where each row is decided"). The decided rows move to L2 in `agenda/agenda.csv`; directions and provisional answers stay at L1. This section books nothing and changes no model input.
+Role: section 3 of the democratic renewal foundation: the real forks, the options weighed and a recommendation for each, with one decision memo per fork in `memos/` (indexed in `memos/README.md`), the narrower points as a numbered yes-or-no list, and part G's first bottom-up sizing of the cross-cutting state capacity. Status: **decided** (`DEC-2026-11-17-40` to `-94`, Question 0d, November 17, 2026), each memo and point on its own, as recommended except where "Decided" below says otherwise; memo 9 part 1 and points 8, 13, 16, 23, 31, 32, 33 and 36 are provisional. The options and recommendations below are kept as they were sent; section 4 carries the decided design and is on hold until Espen says go. Every one of the 118 rows homed here (`agenda/agenda.csv`, `home_dossier` = `foundations/democratic-renewal`) is either in a memo or in the yes-or-no list (the table "Where each row is decided"). The decided rows move to L2 in `agenda/agenda.csv`; directions and provisional answers stay at L1. This section books nothing and changes no model input.
 
 ## How to read this section
 
@@ -12,8 +12,8 @@ Role: section 3 of the democratic renewal foundation: the real forks, the option
 
 ## Decided
 
-Espen answered the batch on November 17, 2026 (`DEC-2026-11-17-40` to `-93`), each memo and point on its own. Espen's questions are answered in `notes/espen-questions-2026-11-17.md` (parts a to t).
-- **As recommended:** memo 1 B with DEM-11 at about $2 billion a year; memo 2 B, no DEM-1D for now (held); memo 3 D, the ban from enactment through the 2031 cycle; memo 4 part 1 B, part 2 A; memo 5 B; memo 6 A with automatic penalties; memo 7 A, P2 with P4, 71 judgeships; memo 8 A with an inspector general; memo 9 parts 2 and 3 B; memo 10 B and B; memo 11 B; memo 12 B and B; memo 13 A; and every point except the provisional ones below.
+Espen answered the batch on November 17, 2026 (`DEC-2026-11-17-40` to `-94`), each memo and point on its own. Espen's questions are answered in `notes/espen-questions-2026-11-17.md` (parts a to t).
+- **As recommended:** memo 1 B with DEM-11 at about $2 billion a year, built as an indexed block grant plus a separate equipment fund (`DEC-2026-11-17-94`, decided after Espen's uploaded reports; note, part u); memo 2 B, no DEM-1D for now (held); memo 3 D, the ban from enactment through the 2031 cycle; memo 4 part 1 B, part 2 A; memo 5 B; memo 6 A with automatic penalties; memo 7 A, P2 with P4, 71 judgeships; memo 8 A with an inspector general; memo 9 parts 2 and 3 B; memo 10 B and B; memo 11 B; memo 12 B and B; memo 13 A; and every point except the provisional ones below.
 - **Terms and conditions Espen added:**
   - memo 1: open to voter ID as a direction, only if free and easy to meet and genuinely more secure and trusted (note, part a);
   - memo 6 part 1: no forced sale (divesting is one option; a qualified blind trust or similar is another); diversified mutual funds and ETFs, Treasuries and municipal bonds, and the TSP and other retirement accounts never trigger the ban (part c);
@@ -265,4 +265,4 @@ From `dossiers/shared-rules.md`:
 
 ## Questions for Espen
 
-The batch is decided (`DEC-2026-11-17-40` to `-93`). Still open: memo 9 part 1 and the provisional points, with recommendations in `notes/espen-questions-2026-11-17.md`; and the go for section 4.
+The batch is decided (`DEC-2026-11-17-40` to `-94`). Still open: memo 9 part 1 and the provisional points, with recommendations in `notes/espen-questions-2026-11-17.md`; and the go for section 4.

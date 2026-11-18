@@ -1,6 +1,6 @@
 # Democratic renewal: answers to Espen's questions on the November 17 decisions
 
-Role: follow-up note to Espen's answers on the democratic renewal batch (`DEC-2026-11-17-40` to `-93`, Question 0d). It answers each question Espen asked, parts a to t, from the repository first and then from a light search under the `DEC-2026-11-12-02` fallback (WebSearch; Exa and Firecrawl are out of credits), and gives a recommendation where one was asked for. Status: **for Espen**; nothing here is decided. Where a part recommends a change, Espen decides it, and the provisional rows (memo 9 part 1; points 8, 13, 16, 23, 31, 32, 33 and 36) are confirmed or changed on that answer. Bracketed tags point to `../evidence.json`. Outside sources found in the light search are listed at the end as **not yet in the register**: they need catalogue rows before section 4 relies on them, and quotations read through search extracts are for the reviewer to check against the originals. "Judgment" marks this note's own estimates.
+Role: follow-up note to Espen's answers on the democratic renewal batch (`DEC-2026-11-17-40` to `-94`, Question 0d). It answers each question Espen asked, parts a to t, and part u covers the election grant from Espen's two uploaded reports; from the repository first and then from a light search under the `DEC-2026-11-12-02` fallback (WebSearch; Exa and Firecrawl are out of credits), and gives a recommendation where one was asked for. Status: **for Espen**; nothing here is decided. Where a part recommends a change, Espen decides it, and the provisional rows (memo 9 part 1; points 8, 13, 16, 23, 31, 32, 33 and 36) are confirmed or changed on that answer. Bracketed tags point to `../evidence.json`. Outside sources found in the light search are listed at the end as **not yet in the register**: they need catalogue rows before section 4 relies on them, and quotations read through search extracts are for the reviewer to check against the originals. "Judgment" marks this note's own estimates.
 
 ## a. Memo 1: a voter ID design that is free, easy, more secure and more trusted
 
@@ -328,13 +328,32 @@ Role: follow-up note to Espen's answers on the democratic renewal batch (`DEC-20
   - inside the legacy "about $0.00" (`legacy/domains/domain-capacity.md`, CAP-6).
 - **Recommendation:** house it in CRS's legal division, or as a joint office reporting to both chambers' legislative counsel. That shares CRS's overhead and its record of nonpartisanship.
 
-## Espen's offer to upload reports (memo 1, question 2)
+## u. Memo 1 part 2: the election grant's size and design, from Espen's uploads
 
-DEM-11's about $2 billion a year has no outside source (memo 1). In order of value:
-1. **A county or state study of what running elections costs,** per registered voter, by function. It replaces the working figure directly.
-2. **CBO's full estimates** of the For the People Act (2019 and 2021) and S. 1498 (2025), which cbo.gov blocks; memo 1 read them through search extracts.
-3. **National estimates of the election funding gap,** from election-administration researchers or advocacy groups, for their method and the ranges they give.
-4. **The EAC's reports on HAVA grant spending** by state, to show what past money bought.
+Espen uploaded two reports on election office funding. The lead read the figures from the files; they are cited by printed page and are not saved in the repository.
+
+**1. Charles Stewart III, *The Cost of Conducting Elections* (National Institute for Civil Discourse with the MIT Election Data and Science Lab, May 2022; `SRC-5386`):**
+- Elections cost $4-6 billion a year in total in normal years; 2020 may have reached $10 billion. One estimate puts the annual need at $5.3 billion (p. 3).
+- Federal money was "a little more than 4%" of election spending from 2003 to 2020, all of it in one-time grants: HAVA's $3 billion in 2003, $805 million in 2018 and $400 million through the CARES Act (p. 5).
+- Replacing voting equipment costs $1-3 billion. Over a ten-year life that is about $100-300 million a year (p. 6).
+- A federal share based on the voters who vote only in federal races comes to "around $1 billion or $2 billion" a year, covering current and capital costs. Stewart recommends an ongoing grant indexed to inflation, plus a separate multi-year capital account (p. 12).
+- The FY2023 President's budget proposed $10 billion over ten years: $2 billion in the first year, then $800-900 million a year (p. 13).
+
+**2. *Funding Election Administration* (v1.0, April 2025, with a 50-state chart of funding statutes).**
+- The file's metadata names Wendy Underhill (NCSL) as author. The publisher is not stated; the filename and an eac.gov link suggest the EAC, unconfirmed.
+- It gives 2018's grants as $380 million against Stewart's $805 million. Stewart probably combines the FY2018 and FY2020 security grants.
+- No public address was found, so it has no catalogue row yet (listed below).
+
+**What they mean for DEM-11.**
+- *Size:* about $2 billion a year sits at the top of Stewart's fair-share range, so nothing here argues for more. Memo 1 B adds duties (registration from records, notice and cure, audits), which makes $2 billion defensible rather than generous. It stays the working total until a county cost study replaces it (`DEC-2026-11-17-41`).
+- *Design:* both reports point away from one-time grants, the pattern of every federal dollar since 2003. Espen decided the structure on this evidence (`DEC-2026-11-17-94`): a recurring block grant to election offices, indexed, plus a separate equipment fund.
+
+**The split (a working figure).**
+- *Equipment fund:* about $100-300 million a year, on Stewart's replacement cost (p. 6). Held as a multi-year account, so offices can draw on it when their machines reach the end of their life, as Stewart recommends.
+- *Block grant:* the rest, about $1.7-1.9 billion a year, by formula to election offices, indexed to prices, for running costs and memo 1 B's new duties.
+- *Booking:* DEM-11's booked $20 billion over FY2030-39 ($2.26 billion in FY2040) is unchanged; the split sits inside it.
+
+**Recommendation.** Section 4 writes DEM-11 as these two parts. The formula is still to set (per registered voter, with a floor for small counties is the natural start). What would still help most: a county or state study of what running elections costs per registered voter, and CBO's full estimates of the 2019 and 2021 For the People Acts and of S. 1498, which cbo.gov blocks.
 
 ## Outside sources from the light search (not yet in the register)
 
@@ -348,4 +367,5 @@ Each needs a catalogue row (`library/catalog.csv`) and, where section 4 relies o
 - Executive Order 14281 (April 23, 2025), as summarized by Gibson Dunn: https://www.gibsondunn.com/president-trump-issues-executive-order-addressing-disparate-impact-liability/; the Justice Department's Title VI rule (December 2025), as summarized by Hunton: https://www.hunton.com/higher-ed-counsel-and-strategic-solutions/department-of-justice-eliminates-disparate-impact-liability-under-title-vi
 - CRS, *National Foundation on the Arts and Humanities: FY2024 Appropriations* (R48255), IMLS's $294.8 million: https://www.everycrsreport.com/reports/R48255.html; IMLS appropriations history: https://www.IMLS.gov/sites/default/files/2023-03/imls-appropriations-history-2015-2024.pdf
 - H.R. 4364 (FY2024 Legislative Branch bill, reported), the Law Revision Counsel's $3.9 million: https://www.govinfo.gov/content/pkg/BILLS-118hr4364rh/html/BILLS-118hr4364rh.htm; the Law Revision Counsel's FY2025 testimony: https://docs.house.gov/meetings/AP/AP24/20240417/117121/HHRG-118-AP24-Wstate-SeepR-20240417.pdf
+- Stewart, *The Cost of Conducting Elections* (2022): **now in the catalogue as `SRC-5386`** (a citation row; Espen's upload, read by the lead). *Funding Election Administration* (v1.0, April 2025, metadata author Wendy Underhill, NCSL; publisher unconfirmed): **not yet in the register**, because no public address was found for a citation row.
 - From general knowledge, to source before section 4 relies on them: the 2005 Commission on Federal Election Reform (Carter-Baker) report; the Bayh-Celler amendment votes (1969-70); *Alexander v. Sandoval* (2001), *Ricci v. DeStefano* (2009), *Inclusive Communities* (2015); the Civil Rights Act of 2008 (Kennedy-Lewis); *United States v. NTEU* (1995); *SEC v. Jarkesy* (2024); *Blount v. SEC* (1995), MSRB Rule G-37 and SEC Rule 206(4)-5; the Hastings, Archbald and Ritter impeachments; *Ex parte McCardle*, *United States v. Klein*, *Yakus*, *Boumediene*; 2 U.S.C. 2a and 2c; 26 U.S.C. 1043; 28 U.S.C. 42, 44(c) and 152; *Seila Law* (2020).
