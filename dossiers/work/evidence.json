@@ -10731,11 +10731,11 @@
    "In 2017, SUTA revenues were $38 billion and FUTA revenues were $8 billion."
   ],
   "locator": "Revenues Option 23, Background (p. 264)",
-  "grade": "A",
+  "grade": "C",
   "fact_date": "2017",
   "checked": "2026-11-18",
   "recheck": "2027-11-18",
-  "context": "Congressional Budget Office (nonpartisan), December 2018. Same copy as EV-WRK-435. Supports treating the trust fund's state accounts as on budget, as in EV-WRK-413.",
+  "context": "Congressional Budget Office (nonpartisan), December 2018. Same copy as EV-WRK-435. Supports treating the trust fund's state accounts as on budget, as in EV-WRK-413. Graded C, not A, until the quotations are checked against cbo.gov: it was read from the same unsaved third-party copy as EV-WRK-435 (reviewer's note 1 on #429).",
   "supports": [
    "dossiers/work/6-cost.md"
   ]
@@ -11156,6 +11156,58 @@
   "context": "The U.S. Code (2024 edition); primary law. Section 8104 of Pub. L. 110-28 as amended by Pub. L. 114-61; the dates April 1, 2017 and April 1, 2020 are in the statute; GAO's reports are in EV-WRK-448.",
   "supports": [
    "dossiers/work/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-450",
+  "statement": "CBO estimated in July 2019 that a $15 federal minimum wage by 2025 would, at its median employment estimate, raise real before-tax cash income in 2025 by $7.7 billion (5.2 percent) for families below the poverty threshold and $14.2 billion (3.5 percent) for families at one to three times it, and lower it by $2.2 billion for families at three to six times and $28.4 billion (0.3 percent) for families above six times, a net change of -$8.8 billion (-0.1 percent), in 2018 dollars; the $12 option's changes were $2.3 billion, $2.3 billion, -$0.3 billion and -$5.0 billion.",
+  "claim": "analysis",
+  "figures": [
+   "2019",
+   "15",
+   "2025",
+   "7.7",
+   "5.2",
+   "14.2",
+   "3.5",
+   "2.2",
+   "28.4",
+   "0.3",
+   "8.8",
+   "0.1",
+   "2018",
+   "12",
+   "2.3",
+   "5.0"
+  ],
+  "source": "SRC-5521",
+  "anchor": [
+   "Families with income below the poverty threshold Billions of 2018 dollars 7.7 2.3 0.4 Percentage 5.2 1.6 0.3",
+   "Families with income between one and three times the poverty threshold Billions of 2018 dollars 14.2 2.3 0.3 Percentage 3.5 0.6",
+   "Families with income between three and six times the poverty threshold Billions of 2018 dollars -2.2 -0.3",
+   "Families with income more than six times the poverty threshold Billions of 2018 dollars -28.4 -5.0 -0.6 Percentage -0.3 -0.1",
+   "All families Billions of 2018 dollars -8.8 -0.7",
+   "Changes in real (inflation-adjusted) income reflect changes in before-tax family cash income. Those changes include increases in earnings for workers who would receive a higher wage, decreases in earnings for workers who would become jobless, losses in income for business owners, and decreases in income because of increases in prices.",
+   "JULY 2019"
+  ],
+  "locator": "Table 1, 'Change in Real Annual Income' (values revised November 7, 2019), columns $15, $12 and $10; whitespace of the table's layout normalized; the note under Table 1",
+  "grade": "C",
+  "fact_date": "2019-07",
+  "checked": "2026-11-18",
+  "recheck": "2027-01-04",
+  "context": "Congressional Budget Office (nonpartisan), July 2019 (first Trump administration period, requested by Congress); model estimates at CBO's median employment response, with the same caveats as EV-WRK-029. Read in a verbatim third-party copy of the PDF (flaglerlive.com/wp-content/uploads/CBO-55410-MinimumWage2019.pdf, 39 pages, carrying CBO's November 7, 2019 revision marks), not on cbo.gov (blocked); check against CBO's page. Income is before tax and transfers, so it does not count benefits lost as earnings rise: Dube's estimate that net gains are about 66% as large once tax credits and transfers are counted (EV-WRK-066) qualifies it, and the household test in 7-validation.md part 1B measures the same thing for typical families. The losses at the top come mainly from business income; prices fall on everyone in proportion to spending.",
+  "supports": [
+   "dossiers/work/7-validation.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-WRK-066",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-WRK-029",
+    "stance": "supports"
+   }
   ]
  }
 ]
