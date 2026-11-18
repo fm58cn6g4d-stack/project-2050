@@ -207,10 +207,9 @@
   "status": "decided as a direction, `-99`, a",
   "decisions": [
    "DEC-2026-11-17-40",
-   "DEC-2026-11-17-42",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "Each newly registered voter receives a free voter card by mail with the registration notice, and any registered voter can request one. A photo is optional: taken free at a state motor vehicle office, an SSA field office or the election office. The card is accepted as identification for every federal election in every state. No fee for any birth certificate or other record a voter needs to get a photo card. **The signed-statement route (DEM-1.06) stays:** the card is an option, never a condition of voting. Paid from DEM-11 (judgment: well under $0.1 billion a year). The national panel found strict ID had no effect on fraud, actual or perceived [EV-DEM-154], so the card's case is ease and trust, not security alone",
+  "parameters": "Every registrant receives a free voter card by mail from records: new registrants with the registration notice, and voters already on the rolls in a mailing phased over the first two federal election cycles after enactment, largest counties last (working choice, so offices are not swamped). A photo is optional: taken free at a state motor vehicle office, an SSA field office or the election office (working choice). The card is accepted as identification for every federal election in every state. No fee for any birth certificate or other record a voter needs to get a photo card. **The signed-statement route (DEM-1.06) stays:** the card is an option, never a condition of voting. Paid from DEM-11 (judgment: well under $0.1 billion a year). The national panel found strict ID had no effect on fraud [EV-DEM-154] (its abstract adds perceived fraud), so the card's case is ease and trust, not security alone",
   "eligibility": "",
   "vehicle": [
    {
@@ -268,7 +267,7 @@
    "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
-  "parameters": "An election office that finds a defect in a returned mail ballot (signature, missing form) notifies the voter promptly (working choice: within two business days, by every contact the record holds) and lets the voter cure it until the canvass ends (working choice: at least seven days after Election Day). 584,463 mail ballots were rejected in 2024 [EV-DEM-018]; a flagged ballot in Pennsylvania was 25 points more likely to count with cure [EV-DEM-167]",
+  "parameters": "An election office that finds a defect in a returned mail ballot (signature, missing form) notifies the voter promptly (working choice: within two business days, by every contact the record holds) and lets the voter cure it until the canvass ends (working choice: at least seven days after Election Day). 584,463 mail ballots were rejected in 2024 [EV-DEM-018]; in Pennsylvania a mail voter was 25 points more likely to have the vote counted if told of the error before Election Day, and 10 points more likely with a chance to correct it [EV-DEM-167]",
   "eligibility": "",
   "vehicle": [
    {
@@ -373,7 +372,6 @@
   "agenda": "DEM-1",
   "status": "decided, memo 2 B",
   "decisions": [
-   "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
   "parameters": "Each division, title and section of the democracy act is severable. Challenges seeking relief beyond the parties go to the three-judge courts of CRT-3.02",
@@ -401,7 +399,7 @@
   "status": "decided, memo 1 B with memo 11's framing",
   "decisions": [
    "DEC-2026-11-17-40",
-   "DEC-2026-11-17-42"
+   "DEC-2026-11-17-60"
   ],
   "parameters": "Registration records are used only to register voters and run elections; the CAP-19.02 rules apply to the federal records used (each use logged, a right to see what was used, no use for immigration or criminal enforcement). States keep their own privacy law for their records",
   "eligibility": "",
@@ -427,8 +425,7 @@
   "agenda": "DEM-1",
   "status": "decided, memo 5 B",
   "decisions": [
-   "DEC-2026-11-17-40",
-   "DEC-2026-11-17-42"
+   "DEC-2026-11-17-48"
   ],
   "parameters": "Five commissioners on staggered terms, no more than two of one party, a quorum of three that holdovers count toward. The executive director may keep the federal registration form and certified voting system guidelines in force, certify equipment and run DEM-11's formula while the EAC lacks a quorum. No removal protection is relied on. The EAC has had no commissioners since July 9, 2026 [EV-DEM-020]. Staff: about $0.4 billion over FY2030-39 (legacy review) [EV-DEM-329]",
   "eligibility": "",
@@ -604,8 +601,7 @@
   "agenda": "DEM-1",
   "status": "decided, point 4; design with SAF-8",
   "decisions": [
-   "DEC-2026-11-17-40",
-   "DEC-2026-11-17-42"
+   "DEC-2026-11-17-66"
   ],
   "parameters": "SAF-8's election-worker protections ride the democracy act as Division E, so they pass with it (legacy open item 7). Their design stays with the public safety topic. 32% of local officials reported threats or harassment in 2026 [EV-DEM-022]",
   "eligibility": "",
@@ -631,8 +627,7 @@
   "agenda": "DEM-1",
   "status": "decided, point 4; design with AI-8",
   "decisions": [
-   "DEC-2026-11-17-40",
-   "DEC-2026-11-17-42"
+   "DEC-2026-11-17-66"
   ],
   "parameters": "AI-8's disclosure rule for synthetic media in political advertising rides Division E; its design stays with the AI topic",
   "eligibility": "",
@@ -656,7 +651,6 @@
   "agenda": "DEM-1",
   "status": "decided, memo 2 B",
   "decisions": [
-   "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
   "parameters": "Coverage turns on voting-rights violations found in a recent rolling window (working choice: the John Lewis Voting Rights Advancement Act's 25 years and thresholds, to confirm in drafting), recalculated each year, so coverage is current and violation-based, answering *Shelby County*'s objection to a frozen formula [EV-DEM-011]. Covered jurisdictions submit changes to the Justice Department or the D.C. district court. Practice-based review nationwide for listed changes in diverse places (polling place closures, list purges, redistricting), as that bill provides. Preclearance raised long-run turnout 4 to 8 points [EV-DEM-157]",
@@ -685,7 +679,6 @@
   "agenda": "DEM-1",
   "status": "decided, memo 2 B",
   "decisions": [
-   "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
   "parameters": "Section 2 reaches practices that result in a denial or abridgment on account of race, with findings on the current record; race-conscious remedial districting authorized where needed. Written knowing *Callais* limits Section 2 to a strong inference of intent on constitutional as well as statutory grounds [EV-DEM-007], so no survival is claimed (legacy, `domain-democracy.md`:84)",
@@ -715,7 +708,6 @@
   "agenda": "DEM-1",
   "status": "decided, memo 2 B",
   "decisions": [
-   "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
   "parameters": "Standing alone if III-A falls: rules of proof for the \"strong inference\" *Callais* requires (a pattern of departures from normal procedure, foreseeable and known effects, the sequence of events, history), discovery of map-drawers' data and communications, and a shift of the burden to the state once a prima facie case is made. Drafted with specialist review; new and untested",
@@ -743,7 +735,6 @@
   "agenda": "DEM-1",
   "status": "decided, memo 2 B",
   "decisions": [
-   "DEC-2026-11-17-40",
    "DEC-2026-11-17-42"
   ],
   "parameters": "Title II, III-A and III-B each stand alone. If a ruling before 2029 also narrows intent claims, III-B's record carries the case for an amendment (AMD-5, wave three)",
@@ -977,6 +968,11 @@
    {
     "vehicle": "FLOOR",
     "kind": "authorizing",
+    "note": "the 2029 democracy act (the 2030 preparation)"
+   },
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
     "note": "the 2031 review (second Congress)"
    }
   ],
@@ -1028,9 +1024,10 @@
   "status": "decided as a direction, `-63`, `-99`, h",
   "decisions": [
    "DEC-2026-11-17-63",
+   "DEC-2026-11-17-98",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "A national ranked-choice vote or a two-round runoff for President, written into the national popular vote amendment (DEM-8.02). The fallback if the amendment stalls (DEM-4C, a statutory presidential ranked-choice vote, or 4D, hold multi-member districts until ratified) is chosen before the 2032 platform (legacy open item 1)",
+  "parameters": "A national ranked-choice vote or a two-round runoff for President, written into the national popular vote amendment (DEM-8.02). The 2033 decision is the enactment. Which fallback the package carries if the amendment stalls (DEM-4C, a statutory presidential ranked-choice vote, or 4D, hold multi-member districts until ratified) is chosen earlier, in the 2031 review with the House's size (DEM-3.01), so the 2032 platform and the 2033 bill match (legacy open item 1)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1057,7 +1054,7 @@
   "decisions": [
    "DEC-2026-11-17-98"
   ],
-  "parameters": "222 electoral votes have joined [EV-DEM-076]; the plan backs state campaigns for the 48 more, and the member states tighten the withdrawal blackout and add the presidential method's operative language when they re-enact. **Congressional consent is to be considered, with a trifecta, not decided here:** Congress granting consent by statute would remove the doubt CRS finds unresolved [EV-DEM-266]",
+  "parameters": "222 electoral votes have joined [EV-DEM-076]; the plan backs state campaigns for the 48 more, and the member states tighten the withdrawal blackout and add the presidential method's operative language when they re-enact (legacy, `domain-democracy.md`:198). **Congressional consent is to be considered, with a trifecta, not decided here:** Congress granting consent by statute would remove the doubt CRS finds unresolved [EV-DEM-266]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1321,7 +1318,7 @@
    "DEC-2026-11-17-70",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "Beside the capital fund, a permanent IMLS line of about $0.5-1 billion a year (judgment), indexed, to state library agencies by formula with a pass-through to local libraries, for hours, staff, digital access and maintenance. That is about three to five times today's Grants to States, $180.0 million of IMLS's $294.8 million in FY2024 [EV-DEM-338]. About $5-10 billion over FY2030-39 and $0.6-1.2 billion in FY2040. **Unbooked:** as a permanent program it is paid for at maturity, so it goes to stage G. IMLS's dismantling was blocked in court [EV-DEM-071] [EV-DEM-072]",
+  "parameters": "Beside the capital fund, a permanent IMLS line of about $0.5-1 billion a year (judgment), indexed, to state library agencies by formula with a pass-through to local libraries, for hours, staff, digital access and maintenance. That is about 2.8 to 5.6 times today's Grants to States, $180.0 million of IMLS's $294.8 million in FY2024 [EV-DEM-338]. About $5-10 billion over FY2030-39 and $0.6-1.2 billion in FY2040. **Unbooked:** as a permanent program it is paid for at maturity, so it goes to stage G. IMLS's dismantling was blocked in court [EV-DEM-071] [EV-DEM-072]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1504,7 +1501,7 @@
   "decisions": [
    "DEC-2026-11-17-76"
   ],
-  "parameters": "Presidential and vice-presidential candidates file their recent federal tax returns with the FEC, which publishes them, as a condition of filing as a candidate and of public financing, not of ballot access (working choice: ten years, as the For the People Act asked, to confirm in drafting)",
+  "parameters": "Presidential and vice-presidential candidates file their recent federal tax returns with the FEC, which publishes them, as a condition of filing as a candidate with the FEC or of receiving public financing, as point 24 sets it, not of ballot access (working choice: ten years, as the For the People Act asked, to confirm in drafting)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1584,10 +1581,10 @@
   "id": "INT-1.01",
   "title": "Who is covered and what they may not own",
   "agenda": "INT-1",
-  "status": "decided, memo 6 A; Espen's terms",
+  "status": "decided, memo 6 A; Espen's terms, `-99`, c; one element provisional, open question 1",
   "decisions": [
    "DEC-2026-11-17-49",
-   "DEC-2026-11-17-50"
+   "DEC-2026-11-17-99"
   ],
   "parameters": "*Covered:* members of Congress, their spouses and dependent children; the President, the Vice President (INT-1.05), Cabinet secretaries and other Senate-confirmed officials. *Covered holdings:* individual publicly traded securities (stocks, corporate bonds, options, short positions and similar interests in a single issuer) and interests in funds that are not diversified. **Never covered:** diversified mutual funds and exchange-traded funds; U.S. Treasury securities and municipal bonds; the Thrift Savings Plan and other retirement accounts. *Provisional, pending Espen (\"Open questions for Espen\", 1):* a new purchase of an individual stock inside a self-directed retirement account after the effective date counts as covered; holdings already in such accounts, and plan-managed accounts (the TSP, 401(k) funds, pensions), are never covered. Private business and farm interests are disclosed as today, not banned. The House passed a narrower trading ban 232-198 on July 22, 2026 [EV-DEM-034] [EV-DEM-035]; if a weaker ban becomes law in 2027-28, this act amends it (legacy open item 1)",
   "eligibility": "",
@@ -1619,7 +1616,6 @@
   "status": "decided, Espen's terms; `-99`, c",
   "decisions": [
    "DEC-2026-11-17-49",
-   "DEC-2026-11-17-50",
    "DEC-2026-11-17-99"
   ],
   "parameters": "Within 180 days of the effective date or of taking office (working choice, memo 6), a covered person (1) holds only excluded assets, (2) places covered holdings in a qualified blind trust under the Ethics in Government Act, or a similar arrangement the ethics office approves, or (3) divests. Divesting is one option, never a requirement",
@@ -1647,7 +1643,6 @@
   "status": "decided, `-99`, c",
   "decisions": [
    "DEC-2026-11-17-49",
-   "DEC-2026-11-17-50",
    "DEC-2026-11-17-99"
   ],
   "parameters": "The capital-gains deferral that executive officials already get when they sell to comply, 26 U.S.C. 1043's certificate of divestiture [EV-DEM-334], is extended to members of Congress, their spouses and dependent children: gain is not recognized to the extent the proceeds are reinvested within 60 days in permitted property (Treasuries or diversified funds). The House and Senate ethics offices issue the certificates for members, as OGE does for the executive. CBO found $3 million of lower revenue over 2024-2034 for the Senate's ETHICS Act [EV-DEM-325]",
@@ -1675,11 +1670,10 @@
   "agenda": "INT-1",
   "status": "decided, memo 6 part 2, `-50`; `-99`, c",
   "decisions": [
-   "DEC-2026-11-17-49",
    "DEC-2026-11-17-50",
    "DEC-2026-11-17-99"
   ],
-  "parameters": "A prohibited holding or trade incurs a civil liability under the statute: the gain (or loss avoided) paid back, plus a fine of 10% of the value of the holding or trade (working choice, memo 6), computed from the person's own disclosure filings, with no inquiry into votes or legislative work (so the Speech or Debate Clause is not engaged). *Due process:* written notice of the computed amount; 30 days to contest the computation before the ethics office (working choice); an appeal to the chamber's ethics committee (or, for executive officials, to OGE's director) before collection. *Collection:* by the chamber's ethics office from pay or by payment; if unpaid after 90 days, the Justice Department sues in district court, which also answers *Jarkesy* (CRT-10.01). Each chamber adopts a matching rule (Article I, section 5), as the STOCK Act's late fee works. Each penalty is published. Willful violations are referred to the Justice Department. The usual STOCK Act penalty today is $200 or waived [EV-DEM-220]",
+  "parameters": "A prohibited holding or trade incurs a civil liability under the statute: the gain (or loss avoided) paid back, plus a fine of 10% of the value of the holding or trade (working choice, memo 6), computed from the person's own disclosure filings, with no inquiry into votes or legislative work (so the Speech or Debate Clause is not engaged). *Due process:* written notice of the computed amount; 30 days to contest the computation before the ethics office (working choice); an appeal to the chamber's ethics committee (or, for executive officials, to OGE's director) before collection. *Collection:* by the chamber's ethics office from pay or by payment; if unpaid after 90 days (working choice), the Justice Department sues in district court, which also answers *Jarkesy* (CRT-10.01). Each chamber adopts a matching rule (Article I, section 5), as the STOCK Act's late fee works. Each penalty is published. Willful violations are referred to the Justice Department. The usual STOCK Act penalty today is $200 or waived [EV-DEM-220]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1735,7 +1729,7 @@
    "DEC-2026-11-17-49",
    "DEC-2026-11-17-50"
   ],
-  "parameters": "OGE's staff rebuilt in the integrity units' line (about $2.1 billion over FY2030-39 for four units, legacy review) [EV-DEM-329]; OGE's director was removed in February 2025 [EV-DEM-038]",
+  "parameters": "OGE's staff rebuilt in the integrity units' line (about $2.1 billion over FY2030-39, legacy review; memo 6) [EV-DEM-329]; OGE's director was removed in February 2025 [EV-DEM-038]",
   "eligibility": "",
   "vehicle": [
    {
@@ -3232,7 +3226,8 @@
   "agenda": "CAP-12",
   "status": "decided, point 46 with Espen's condition",
   "decisions": [
-   "DEC-2026-11-17-92"
+   "DEC-2026-11-17-92",
+   "DEC-2026-11-17-99"
   ],
   "parameters": "Product teams of in-house engineers, designers and program staff for the plan's delivery systems, built on or alongside the existing federal digital service and infrastructure work rather than from scratch (18F's roughly 90 staff were eliminated in March 2025 [EV-DEM-102]); modular contracting with working software shown before payment. About $3.7 billion over FY2030-39 (legacy review) [EV-DEM-329]. Direct File cost $16.2 million against a $61.2 million estimate [EV-DEM-279]; HealthCare.gov's 2013 launch is the failure to avoid [EV-CAR-311]",
   "eligibility": "",
@@ -3271,7 +3266,12 @@
    {
     "vehicle": "R1",
     "kind": "mandatory",
-    "note": "2029 reconciliation act (CAP-13 surge)"
+    "note": "2029 reconciliation act (the surge)"
+   },
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act (authorization)"
    }
   ],
   "agency": "OMB; HHS; USDA; EAC",
@@ -3404,7 +3404,7 @@
   "decisions": [
    "DEC-2026-11-17-60"
   ],
-  "parameters": "No money is recovered without a person's review, a written notice and a hardship rule; recovery is capped at 10% of a monthly payment; payment continues while an appeal is pending; and an error the government made is the government's, not repaid by the person. Written in statute because SSA's default withholding moved from 100% to 10% to 50% by notice in two years [EV-DEM-301] [EV-DEM-302]. Robodebt and the Dutch childcare scandal are the failures this prevents [EV-DEM-303] [EV-DEM-304] [EV-DEM-305]",
+  "parameters": "No money is recovered without a person's review, a written notice and a hardship rule; recovery is capped at 10% of a monthly payment; payment continues while an appeal is pending; and an error the government made is the government's, not repaid by the person. Written in statute because SSA's default withholding moved by notice from 100% to 10% in 2024, back to 100% and then 50% in 2025 [EV-DEM-301] [EV-DEM-302]. Robodebt and the Dutch childcare scandal are the failures this prevents [EV-DEM-303] [EV-DEM-304] [EV-DEM-305]",
   "eligibility": "",
   "vehicle": [
    {
@@ -3548,7 +3548,7 @@
   "decisions": [
    "DEC-2026-11-17-87"
   ],
-  "parameters": "Personal office and committee staff budgets restored to their 1979 levels **in real, inflation-adjusted terms, never nominal 1979 pay**, and indexed to the employment cost index after; the cap that ties senior staff pay to members' pay is loosened so pay compression ends (legacy, `domain-capacity.md`:57). Packaged with the stock ban in the ethics act (\"accountability buys capacity\"). About $0.02 trillion over FY2030-39, roughly $1.5-3 billion a year across both chambers (legacy, line 61)",
+  "parameters": "Personal office and committee staff budgets restored to their 1979 levels **in real, inflation-adjusted terms, never nominal 1979 pay**, and indexed after (working choice: to the employment cost index); pay compression is fixed (legacy, `domain-capacity.md`:57), by loosening the cap that ties senior staff pay to members' pay (working choice). Packaged with the stock ban in the ethics act (\"accountability buys capacity\"). About $0.02 trillion over FY2030-39, roughly $1.5-3 billion a year across both chambers (legacy, line 61)",
   "eligibility": "",
   "vehicle": [
    {
@@ -3606,7 +3606,7 @@
   "decisions": [
    "DEC-2026-11-17-88"
   ],
-  "parameters": "The office was defunded in 1995-96, not abolished (legacy, `domain-capacity.md`:65); it is funded again and modernized: rapid briefs as well as full assessments, standing technical fellows, open publication, horizon scanning on AI and other fast-moving fields, and a staff cap above the old 143 (legacy, `domain-capacity.md`:65). Under $0.01 trillion over FY2030-39 (legacy, line 67)",
+  "parameters": "The office was defunded in 1995-96, not abolished (legacy, `domain-capacity.md`:65); it is funded again and modernized: rapid briefs as well as full assessments, standing technical fellows, open publication, horizon scanning on AI and other fast-moving fields, and a staff cap above the old 143 (working choice; the old cap and budget, legacy, `domain-capacity.md`:65). Under $0.01 trillion over FY2030-39 (legacy, line 67)",
   "eligibility": "",
   "vehicle": [
    {
@@ -3630,7 +3630,7 @@
   "decisions": [
    "DEC-2026-11-17-89"
   ],
-  "parameters": "Staffing restored toward 1992 levels over FY2030-34 against published hiring paths, the legacy counts (GAO 5,062 in 1992; CRS 838) to be re-checked on one method (Evidence still needed; legacy, `domain-capacity.md`:71); CBO's scoring staff rebuilt so the plan's bills can be scored in the reconciliation window. About $0.01 trillion (legacy, line 75)",
+  "parameters": "Staffing restored toward 1992 levels against published hiring paths (working choice: over FY2030-34), the legacy counts (GAO 5,062 in 1992; CRS 838) to be re-checked on one method (Evidence still needed; legacy, `domain-capacity.md`:71); CBO's scoring staff rebuilt so the plan's bills can be scored in the reconciliation window. About $0.01 trillion (legacy, line 75)",
   "eligibility": "",
   "vehicle": [
    {
