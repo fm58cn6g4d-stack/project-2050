@@ -8,17 +8,17 @@ Role: section 9 of the democratic renewal foundation. It gives a plain-language 
 
 **Registration that doesn't depend on paperwork, maps drawn by fair rules, officials who can't trade on what they know, courts with rules of their own, and a government that can deliver what it promises.**
 
-About one eligible citizen in four was not registered in 2024: 73.6% of voting-age citizens were registered and 65.3% voted (Census Bureau, 2025) [EV-DEM-001], and about 28.0 million were not registered, a floor because many did not answer the question (Census Bureau, 2026) [EV-DEM-002].
+About one eligible citizen in four was not registered in 2024: 73.6% of voting-age citizens were registered and 65.3% voted (Census Bureau, 2025) [EV-DEM-001], and about 28.0 million were not registered (Census Bureau, 2026) [EV-DEM-002], a floor, because many did not answer the question (section 1, A.1).
 
 Meanwhile:
 - **The federal voting-rights floor has narrowed to almost nothing.** Preclearance has been inoperable since *Shelby County* in 2013 (Congressional Research Service, 2026) [EV-DEM-011]. On April 29, 2026, *Louisiana v. Callais* limited Section 2 of the Voting Rights Act to cases with a strong inference of intentional discrimination (Congressional Research Service, 2026) [EV-DEM-007].
 - **The referees can't act.** The Election Assistance Commission has had no commissioners since July 9, 2026 (Congressional Research Service, 2026) [EV-DEM-020]. The Federal Election Commission had two of its six seats filled in March 2026, and most of its actions need four votes (Congressional Research Service, 2026) [EV-DEM-031].
 - **Money moves outside the limits.** Independent expenditures reported to the FEC were $4.4 billion in 2023-24 (Federal Election Commission, 2023-24 cycle summary) [EV-DEM-023]. Dark money was $1.4 billion by OpenSecrets' count and more than $1.9 billion by the Brennan Center's, depending on method (OpenSecrets, 2025; Brennan Center, 2025) [EV-DEM-026] [EV-DEM-025]. In June 2026 the Supreme Court ended the limits on party spending coordinated with candidates (Congressional Research Service, 2026) [EV-DEM-027].
-- **The checks on officials were weakened.** A court held the firing of 17 inspectors general unlawful but did not reinstate them (U.S. District Court for the District of Columbia, 2025) [EV-DEM-036]. The Supreme Court's 2023 code of conduct has no enforcement mechanism of its own (Congressional Research Service, 2023) [EV-DEM-040]. 34% of adults approve of the Supreme Court (Gallup, 2026) [EV-DEM-062]; 89% favor a strict ethics code for the Justices and 79% fixed terms (Marquette Law School Poll, reported by SCOTUSblog, 2026) [EV-DEM-063].
+- **The checks on officials were weakened.** A court held the firing of 17 inspectors general unlawful but did not reinstate the eight who sued (U.S. District Court for the District of Columbia, 2025) [EV-DEM-036]. The Supreme Court's 2023 code of conduct has no enforcement mechanism of its own (Congressional Research Service, 2023) [EV-DEM-040]. 34% of adults approve of the Supreme Court (Gallup, 2026) [EV-DEM-062]; 89% favor a strict ethics code for the Justices and 79% fixed terms (Marquette Law School Poll, reported by SCOTUSblog, 2026) [EV-DEM-063].
 - **Trust is near its floor.** 17% trust the government in Washington to do what is right most of the time (Pew Research Center, 2025) [EV-DEM-065].
 - **The agencies every promise runs through lost their people.** The Office of Personnel Management counts a net loss of 258,108 federal employees since January 20, 2025 (OPM's data, second Trump administration, 2026) [EV-DEM-082]. IRS staff fell from 94,095 to 70,829 full-time equivalents between FY2025 and FY2026 (Treasury, 2026) [EV-DEM-088]; Social Security's from 56,645 in FY2024 to 48,530 in FY2026 (Social Security Administration, 2026) [EV-DEM-105].
 - **Delivery already fails in ways you can count.** Agencies reported about $186 billion of improper payments in FY2025 (Government Accountability Office, 2026) [EV-DEM-113]. Callers to Social Security waited an average 108.6 minutes for a callback, and about 25 million calls ended without service in FY2025 (Social Security's inspector general, 2025) [EV-DEM-106]. Funding stopped three times in seven months, including a 42-day government-wide gap from October 1, 2025 (Congressional Research Service, 2026) [EV-DEM-127].
-- **The immigration courts are buried and run by the prosecutor's department.** 3,300,793 cases were pending in FY2026 (Justice Department's immigration court office, 2026) [EV-IMM-100], with 753 judges on board (same office, 2026) [EV-IMM-103] and a cap of 800 judges in law from November 1, 2028 (the 2025 reconciliation law, Public Law 119-21) [EV-IMM-105].
+- **The immigration courts are buried and run by the prosecutor's department.** 3,300,793 cases were pending in FY2026 (Justice Department's immigration court office, 2026) [EV-IMM-100], with 753 judges on board (same office, 2026) [EV-IMM-103] and a cap of 800 judges in law from November 1, 2028 (the 2025 reconciliation law) [EV-IMM-105].
 
 **What the plan does.** A democracy act, an ethics act, a civil service and delivery act, three court bills, the agency rebuild in the first reconciliation act, and the immigration court in the immigration act.
 
@@ -58,7 +58,7 @@ Meanwhile:
 - **Part is a contingency that may never be spent.** $0 to $72.9 billion of the ten-year figure, and $0 to $4.7 billion a year from 2040, is a delivery contingency, released only against a published written need for a program already enacted. Firm money is $434.3 billion and $45.3 billion (section 6, parts 1.3 and 8).
 - **The money runs ahead of hiring.** The booked path reaches full strength in FY2032, about two years ahead of the hiring the design assumes. At the working pace about $22 billion (range $13-42 billion) is spent later within 2030-39, with no change from 2040 (section 7, part 1.3). Re-laying the booking on the hiring pace is **provisional, with Espen (item D4)**.
 - **Four lines are not yet in the booked total:** a permanent library line, the immigration court's structure, civil legal aid and a statute-tracking office, about $19.4 billion over 2030-39 (range $10.8-28.8 billion) and about $2.5 billion a year from 2040 (range $1.4-3.8 billion). Unused room in the courts' booked row covers the court's structure, so the net is about $12.5 billion and $1.6 billion (section 6, parts 3, 4 and 8).
-- **They assume the Legal Services Corporation still exists in 2029.** The administration asked Congress for $21.0 million for FY2027 to close it (Congressional Research Service, 2026) [EV-DEM-353]; if it is closed first, restoring it adds about $5.5 billion over 2030-39 (section 6, part 3).
+- **They assume the Legal Services Corporation still exists in 2029.** The administration asked Congress for $21.0 million for FY2027 to close it (Congressional Research Service, 2026) [EV-DEM-352] [EV-DEM-353]; if it is closed first, restoring it adds about $5.5 billion over 2030-39 (section 6, part 3).
 - **They leave out a House chamber build,** plausibly $10-30 billion if the House grows (a legacy estimate, unscored), until the Architect of the Capitol reports by 2030 (section 6, part 4).
 - **The IRS's added enforcement staff bring revenue,** booked on its own line, not netted here: on our estimates a net gain of about $150 billion over 2030-39 and about $20.5 billion in 2040, if the IRS hires on its path (section 6, part 1.3).
 
@@ -102,7 +102,7 @@ A quarter of eligible citizens aren't registered, the Supreme Court has hollowed
 - **"Isn't the contingency a slush fund?"** It is released only against a published written need, for programs already enacted, with 30 days' notice to the Appropriations Committees and a yearly GAO audit of every release (CAP-7S.02, 7.05). It sits inside the booked figure, not on top of it. A second contingency of $100 billion over 2030-39 is booked elsewhere in the plan; together they hold up to about $173 billion no program has claimed, and the financing settlement decides whether both are needed (section 6, part 1.3).
 - **"What stops a hostile administration from sitting on the money?"** Less than we would like. The general fix, a right to sue over impoundment, belongs to the executive power topic, not yet written. Until then the election grant and the state systems grant are to be paid within 60 days of the start of each fiscal year (or of enactment in the first year), enforceable by the state (provisional, item D2). The released tranches of the rebuild still depend on OMB.
 - **"Doesn't shared records mean a surveillance database?"** Each use is logged, a person can see what was used about them, and no record shared under the rule may be used for immigration or criminal enforcement (CAP-19.02, DEM-1.14). If a law ever required enforcement use, the matching stops; the plan would oppose the change, not work around it (section 8, part 10). The Justice Department's 2025-26 suits for unredacted voter rolls (Votebeat, 2026) [EV-DEM-021] are why the line is written into law.
-- **"What if the Senate doesn't change its rules?"** Then every regular-order bill here is stuck at 60 votes. Under the narrower democracy carve-out the plan also tests, the democracy act passes in 91% of simulated Congresses, but the ethics, court and civil service bills fall to none (section 7, part 1.1). The judgeships act, which once passed the Senate by unanimous consent before a veto (Administrative Office of the U.S. Courts, 2025) [EV-DEM-044], is the likeliest to pass on its own. The agency rebuild rides reconciliation either way.
+- **"What if the Senate doesn't change its rules?"** Then every regular-order bill here is stuck at 60 votes. Under the narrower democracy carve-out the plan also tests, the democracy act passes in 91% of simulated Congresses, but the ethics, court and civil service bills fall to none (section 7, part 1.1). The judgeships act, whose 2024 version Congress approved before a veto (Administrative Office of the U.S. Courts, 2025) [EV-DEM-044], is the likeliest to pass on its own. The agency rebuild rides reconciliation either way.
 
 ## What a court could strike, and what would stand
 
@@ -165,10 +165,10 @@ Other figures in the brief are **working choices**, set so delivery is complete 
 The legacy public claim register (`legacy/sources/public-story-claim-register.md`, SRC-0166) carried the legacy democracy, integrity, courts and capacity files' designs (SRC-0017, SRC-0024, SRC-0016, SRC-0013). They are weighed as evidence, not defaults (`DEC-2026-11-13-15`):
 - **"Automatic registration wherever people deal with federal benefits"** (claim `dem1`). Now registration from records, with the plan's benefit points as one source among several, because automatic payments create no contact (DEM-1.01, 1.02; memo 1 B). The rest of `dem1` (early voting, mail voting, same-day registration, paper ballots and audits) still matches, now with two start dates.
 - **"A 6:1 public match on small contributions, paired with voluntary spending limits"** (claim `int5`). Espen chose no spending cap, with limits indexed and a payment ceiling instead (memo 4 part 1 B, `DEC-2026-11-17-46`).
-- **"Congress may refer up to three questions each term to national assemblies, with a guaranteed committee hearing"** (claim `dem18`). Now three pilots, with a written answer to each recommendation within a set time, 180 days on the working choice (point 13, `DEC-2026-11-17-98`).
+- **National assemblies on questions Congress refers, with a guaranteed committee hearing** (claim `dem18`). Now three pilots, with a written answer to each recommendation within a set time, 180 days on the working choice (point 13, `DEC-2026-11-17-98`).
 - **"A capital fund for libraries… with a maintenance endowment"** (claim `dem17`). The capital fund stays, with a maintenance match, and a permanent operating line for libraries is added as a direction, unbooked (DEM-17.01, 17.02; `-99`).
 - **"The one-time agency rebuild was cut to about $105B… the sustained increase stays at $300B as a planning ceiling"** (claims `surge`, `sustained`). The budget model books $98.0 billion and $279.2 billion, below Espen's October 26 sizes because the immigration booking removed its agency's share; the bottom-up allocation is $54.8 billion and $249.5 billion, and the difference is a named contingency (section 3, part G; section 6, part 1.3). The legacy review's midpoint need, $59.8 billion of surge and $254.6 billion sustained, is the project's own estimate (the legacy capacity review) [EV-DEM-328].
-- **"The IRS adds about 24,000 enforcement staff, hired about 8,000 a year"** (claim `irs`; [EV-DEM-331]). The staff target stands; section 7 finds the booked money path runs about two years ahead of the hiring the design assumes, and recommends lagging the IRS's revenue with it (provisional, D4).
+- **"The IRS adds about 24,000 enforcement staff, hired about 8,000 a year"** (claim `irs`; the staff target [EV-DEM-331]; the hiring rate is the legacy review's, quoted in section 5, part 3.2). The staff target stands; section 7 finds the booked money path runs about two years ahead of the hiring the design assumes, and recommends lagging the IRS's revenue with it (provisional, D4).
 
 The claims on the Voting Rights Act's constitutional risk (`dem1-legal`), the stock ban's reach (`int1`, now with no forced sale), the removed court-expansion trigger (`crt16`), money available on enactment (`surge-timing`) and remedies when delivery fails (`remedy`) still match.
 
@@ -191,7 +191,7 @@ None new. The provisional items above are the five already listed in the README 
 | Party coordination limits ended (June 2026) | Section 1, "In brief" | EV-DEM-027 |
 | 17 inspectors general fired | Section 1, "In brief"; section 5, part 5 | EV-DEM-036 |
 | The Court's 2023 code has no enforcement | Section 1, "In brief" | EV-DEM-040 |
-| 34% approve of the Court; 89% favor a strict code, 79% fixed terms | Section 1, "In brief"; section 7, part 4 | EV-DEM-062, EV-DEM-063 |
+| 34% approve of the Court; 89% favor a strict code, 79% fixed terms | Section 1, "In brief" and D.4; section 7, part 4 | EV-DEM-062, EV-DEM-063 |
 | 17% trust the government | Section 1, "In brief"; section 7, part 4 | EV-DEM-065 |
 | −258,108 federal employees since January 20, 2025; about a tenth of the workforce | Section 1, "In brief" and G.1; section 5, part 3.2 | EV-DEM-082 |
 | IRS 94,095 to 70,829 FTE; SSA 56,645 to 48,530 | Section 1, "In brief" | EV-DEM-088, EV-DEM-105 |
@@ -205,7 +205,7 @@ None new. The provisional items above are the five already listed in the README 
 | Two weeks of early voting with two weekends; notice within two business days; a drop box in each county | Section 4, DEM-1.04, 1.05, 1.09 | Working choices |
 | The voter card over two federal cycles | Section 4, DEM-1.07 | Working choice |
 | DEM-11 about $2 billion a year (range $1-4 billion) | Section 4, DEM-11.01; section 6, part 1.2 | `DEC-2026-11-17-41`, `-94`; working assumption |
-| $45 million federal election grant (FY2026) | Section 4, DEM-11.01; section 6, part 6 | EV-DEM-017 |
+| $45 million federal election grant (FY2026) | Section 6, parts 1.2 and 6 | EV-DEM-017 |
 | Preclearance raised long-run turnout 4 to 8 points | Section 4, DEM-1.16; section 7, part 6.2 | EV-DEM-157 |
 | 6:1 up to $200; $25 brings $175 | Section 4, INT-5.01 | Decided (memo 4 part 1 B) |
 | First matched cycle 2032; FEC data from 2032 and 2034 | Section 6, part 2; section 8, part 4 | Working choice |
@@ -223,8 +223,8 @@ None new. The provisional items above are the five already listed in the README 
 | The court takes over October 1, 2031, about 21 months after the act | Section 4, CRT-5.03; section 5, part 4 | Working choice |
 | About 250 hires a year; about 1,670 at peak (range about 860 to 2,400); backlog cleared about FY2035, FY2037 at 150 a year | Section 4, CRT-5.06; section 7, part 1.4 | The immigration model (`dossiers/immigration/tools/immigration_model.py`); working assumption |
 | About 1,250 sitting judges at the transfer; up to two years' interim appointment | Section 7, part 1.4; section 5, part 8 | The immigration model; provisional fix (D2) |
-| Legal aid: six steps to about $0.6 billion a year more by FY2035 (range $0.3-1.1 billion) | Section 4, CRT-20.01; section 6, part 3 | Working assumption |
-| LSC: $21.0 million requested for FY2027, for closure; about $5.5 billion to restore | Section 6, part 3 | EV-DEM-353; project arithmetic |
+| Legal aid: from FY2030, six steps to about $0.6 billion a year more by FY2035 (range $0.3-1.1 billion) | Section 4, CRT-20.01; section 6, part 3 | Working assumption |
+| LSC: $21.0 million requested for FY2027, for closure; about $5.5 billion to restore | Section 6, part 3 | EV-DEM-352, EV-DEM-353; project arithmetic |
 | About 54,000 staff added across six agencies | Section 3, part G; section 5, part 3.2 | EV-DEM-331 (legacy capacity review, grade D) |
 | Recovery capped at 10% of a monthly payment | Section 4, CAP-19.05 | Decided (memo 11 B) |
 | About 50,000 positions moved into Schedule Policy/Career | Section 4, CAP-8.01; section 7, part 5 | EV-DEM-087 |
@@ -252,8 +252,20 @@ None new. The provisional items above are the five already listed in the README 
 | Strict ID: no effect in a national panel; GAO's Kansas and Tennessee finding; Heritage's dispute | Section 4, DEM-1.06; section 7, part 6.3 | EV-DEM-154, EV-DEM-155, EV-DEM-156 |
 | The Commission divided on term limits by statute | Section 7, part 6.5 | EV-DEM-233 |
 | CRS on opponents of an independent immigration court | Section 7, part 6.6 | EV-DEM-369 |
-| The JUDGES Act passed the Senate by unanimous consent before a veto | Section 4, "The vehicles"; section 7, part 1.1 | EV-DEM-044 |
+| The 2024 judgeships bill approved, then vetoed | Section 1, "In brief"; section 4, CRT-1.01 | EV-DEM-044 |
 | The Justice Department's suits for unredacted voter rolls | Section 5, part 3.5; section 7, part 6.3 | EV-DEM-021 |
 | Legacy review midpoint: $59.8 billion of surge, $254.6 billion sustained | Section 7, part 2 | EV-DEM-328 (legacy, grade D) |
 | Booked CAP-7S $98.0 billion and CAP-7 $279.2 billion; allocation $54.8 billion and $249.5 billion | Section 3, part G; section 6, part 1.3 | Budget model; EV-DEM-328, EV-DEM-329, EV-DEM-330 |
-| Legacy claims `dem1`, `int5`, `dem18`, `dem17`, `surge`, `sustained`, `irs` | Section 3, "Decided"; section 6, part 1.3 | SRC-0166 (legacy claim register); EV-DEM-331 for the IRS staff |
+| Legacy claims `dem1`, `int5`, `dem18`, `dem17`, `surge`, `sustained`, `irs` (wording only) | Read from the legacy register as evidence (`DEC-2026-11-13-15`); each design they describe is in sections 3 and 4 | SRC-0166 (legacy claim register) |
+| About $105 billion and the $300 billion ceiling (Espen's October 26 sizes) | Section 1, G.7; section 3, part G | Legacy governing decisions (SRC-0043) |
+| 24,000 IRS enforcement staff; about 8,000 hires a year | Section 3, part G; section 5, part 3.2; section 7, part 2 | EV-DEM-331; legacy review (`capacity-recovery-budget-review.md`:27, SRC-0071) |
+| Timeline: floor by March 2029; enactment as soon as possible, spring 2030 the outer date; R1 by about mid-2029 (51 votes); regular order at 60 votes or the rules reform; the immigration act by about December 2029 | Section 4, "The vehicles" and DEM-1F.01; section 5, part 4 | Decided (point 3); working timeline; legacy D2 |
+| January 20, 2029: nominations to the EAC and FEC, the delivery unit, Schedule Policy/Career rescinded | Section 5, part 4; section 4, CAP-7.04, CAP-8.01 | Working timeline |
+| Preregistration at 16 and 17 | Section 4, DEM-1.03 | Decided (memo 1 B) |
+| The redistricting ban through the 2031 cycle; 2025-26 maps stand until the 2031 redraw | Section 4, DEM-2.01 | Decided (memo 3 D, `-45`) |
+| The court integrity act 2029-30; the state option, D.C. and Puerto Rico acts 2029-30; the second Congress (2031-32); three assemblies | Section 4, "The vehicles" and DEM-18.01; section 5, part 4 | Working timeline; decided (point 13) |
+| 13 Justices to match the 13 circuits; the 2031 review (D5) | Section 3, "Decided"; section 8, part 5 | `DEC-2026-11-17-85`; provisional (D5) |
+| Seats two years apart, two appointments a term | Section 4, CRT-15.01; section 7, part 6.5 | Decided (memo 7 A) |
+| 30 days' notice to the Appropriations Committees | Section 4, CAP-7S.02 | Working choice |
+| Grants paid within 60 days | Section 5, part 8, fix 4 | Provisional (D2) |
+| Coverage that follows conduct, "not 1965's history" | Section 7, part 6.2 | EV-DEM-011 |
