@@ -10360,5 +10360,197 @@
   "supports": [
    "dossiers/work/4-specification.md"
   ]
+ },
+ {
+  "id": "EV-WRK-420",
+  "statement": "Under OSHA's State Plan rules, when OSHA issues a new permanent federal standard, a State Plan state must adopt it, a more stringent amendment or an at least as effective equivalent within six months of the federal standard's promulgation.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5540",
+  "anchor": [
+   "within six months of the date of promulgation of the new Federal standard"
+  ],
+  "locator": "29 CFR 1953.5(a)(1)",
+  "grade": "A",
+  "fact_date": "2026-11",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "Federal regulation (eCFR, current as of November 1, 2026); primary law, not an analysis.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-421",
+  "statement": "Under the Labor Department's apprenticeship rules, the Department may recognize a State Apprenticeship Agency to register apprenticeship programs for federal purposes in its state.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5541",
+  "anchor": [
+   "may exercise its authority to grant recognition to a State Apprenticeship Agency"
+  ],
+  "locator": "29 CFR 29.13(a)",
+  "grade": "A",
+  "fact_date": "2026-11",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "Federal regulation (eCFR, current as of November 1, 2026); primary law.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-422",
+  "statement": "The Labor Department's Employment and Training Administration describes approximately 2,300 American Job Centers nationwide.",
+  "claim": "data",
+  "figures": [
+   "2,300"
+  ],
+  "source": "SRC-5546",
+  "anchor": [
+   "approximately 2,300 American Job Centers nationwide"
+  ],
+  "locator": "American Job Centers page",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The Labor Department's own page (undated, retrieved November 18, 2026, second Trump administration); a descriptive count. Search summaries of CareerOneStop give \"nearly 2,400\" and a 2019 CRS figure about 2,500, not saved, so the count is approximate.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-423",
+  "statement": "WIOA's rules require rapid response to be delivered when, among other events, an employer announces a permanent closure or mass layoff.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5545",
+  "anchor": [
+   "Rapid response must be delivered when one or more of the following circumstances occur:"
+  ],
+  "locator": "20 CFR 682.302",
+  "grade": "A",
+  "fact_date": "2026-11",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "Federal regulation under WIOA (eCFR, current as of November 1, 2026); primary law.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-424",
+  "statement": "Under the WARN Act's rules, notice of a closing or mass layoff must also be served on the State dislocated worker unit and the chief elected official of the local government.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5543",
+  "anchor": [
+   "Notice also must be served on the State dislocated worker unit and the chief elected official of the unit of local government"
+  ],
+  "locator": "20 CFR 639.6",
+  "grade": "A",
+  "fact_date": "2026-11",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "Federal regulation (eCFR, current as of November 1, 2026); primary law.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-425",
+  "statement": "Under federal minimum wage law as amended, American Samoa's industry minimum wages rise by $0.40 an hour beginning September 30, 2015 and every third year after, until they equal the federal minimum wage.",
+  "claim": "data",
+  "figures": [
+   "0.40",
+   "2015"
+  ],
+  "source": "SRC-5549",
+  "anchor": [
+   "increased by $0.40 an hour (or such lesser\namount as may be necessary to equal the minimum\nwage under section 6(a)(1) of such Act), beginning\non September 30, 2015, and on September 30 of every\nthird year thereafter"
+  ],
+  "locator": "29 U.S.C. 206 note, Pub. L. 110-28 sec. 8103(b)(2), as amended by Pub. L. 114-61",
+  "grade": "A",
+  "fact_date": "2015",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law. The schedule's later steps (2018, 2021, 2024) follow from the text; no Labor Department table of current American Samoa rates was saved.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-426",
+  "statement": "The Labor Department's poster gives the federal minimum wage in the Northern Mariana Islands as $7.25 an hour beginning September 30, 2018.",
+  "claim": "data",
+  "figures": [
+   "7.25",
+   "2018"
+  ],
+  "source": "SRC-5548",
+  "anchor": [
+   "$7.25",
+   "BEGINNING SEPTEMBER 30, 2018"
+  ],
+  "locator": "Poster text",
+  "grade": "A",
+  "fact_date": "2018-09-30",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "Wage and Hour Division poster (first Trump administration); descriptive.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-427",
+  "statement": "The Labor inspector general reports that ETA's acceptable level of first-payment performance is at least 87 percent of regular UI payments within 14 or 21 days, and that through September 2021 six sampled states paid only 70 percent of initial claims (3.6 million of 5.2 million) within 21 days.",
+  "claim": "data",
+  "figures": [
+   "87",
+   "14",
+   "21",
+   "70",
+   "3.6",
+   "5.2",
+   "2021"
+  ],
+  "source": "SRC-5551",
+  "anchor": [
+   "established the acceptable level of performance as at least 87 percent of regular\nUI payments being made within 14 or 21 days.",
+   "September 2021, the 6 states were only able to pay 70 percent of initial UI claims\n(3.6 million of 5.2 million) within 21 days"
+  ],
+  "locator": "Report 19-25-002-03-315, results section and Figure 2",
+  "grade": "A",
+  "fact_date": "2024-11-22",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "Labor Department Office of Inspector General audit (Biden administration, November 2024), on pandemic-era data from six states; the standard is data, the six states' rate is a measured count for a crisis period, not ordinary performance.",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-WRK-428",
+  "statement": "Under the federal unemployment tax's credit rules, employers in a state with an outstanding federal unemployment loan balance at the start of a second consecutive year lose 5 percent of the federal tax as credit, and an additional 5 percent for each later such year.",
+  "claim": "data",
+  "figures": [
+   "5"
+  ],
+  "source": "SRC-5550",
+  "anchor": [
+   "such advances, by 5 percent of the tax imposed",
+   "of such advances, by an additional 5 percent,"
+  ],
+  "locator": "26 U.S.C. 3302(c)(2)(A)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-18",
+  "recheck": "2027-11-01",
+  "context": "The U.S. Code (2024 edition); primary law. Five percent of the 6.0 percent tax is 0.3 percentage point (project arithmetic); the statute adds further reductions from the third year, with caps in 3302(f).",
+  "supports": [
+   "dossiers/work/5-delivery.md"
+  ]
  }
 ]
