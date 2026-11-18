@@ -368,13 +368,13 @@
  },
  {
   "id": "DEM-1.13",
-  "title": "Severability and forum",
+  "title": "Severability, forum and enforcement",
   "agenda": "DEM-1",
-  "status": "decided, memo 2 B",
+  "status": "decided, memo 2 B; enforcement provisional, section 5",
   "decisions": [
    "DEC-2026-11-17-42"
   ],
-  "parameters": "Each division, title and section of the democracy act is severable. Challenges seeking relief beyond the parties go to the three-judge courts of CRT-3.02",
+  "parameters": "Each division, title and section of the democracy act is severable. Challenges seeking relief beyond the parties go to the three-judge courts of CRT-3.02. *Provisional (section 5, part 8, fix 3):* Division A is enforceable in federal court by the Attorney General, or by an aggrieved voter after written notice to the state's chief election official and a period to correct it (shorter close to a federal election), on the National Voter Registration Act's notice-and-cure model (to confirm in drafting)",
   "eligibility": "",
   "vehicle": [
    {
@@ -452,13 +452,13 @@
   "id": "DEM-11.01",
   "title": "An indexed block grant to election offices",
   "agenda": "DEM-11",
-  "status": "decided, `-41`, `-94`; the split a working figure",
+  "status": "decided, `-41`, `-94`; the split a working figure; the payment clock provisional, section 5",
   "decisions": [
    "DEC-2026-11-12-08",
    "DEC-2026-11-17-41",
    "DEC-2026-11-17-94"
   ],
-  "parameters": "About $1.7-1.9 billion a year, by formula to states for their election offices, indexed to prices (`DEC-2026-11-12-08`, part 3), for running costs and the floor's new duties (registration from records, notice and cure, audits). Formula (working choice): per registered voter, with a floor for small counties, passed through to the offices that run elections. Recurring, not one-time, because every federal dollar since 2003 has been one-time (Stewart, 2022; `SRC-5386`, a citation row read from Espen's upload). The total stays about $2 billion a year, range $1-4 billion, until a county cost study replaces it",
+  "parameters": "About $1.7-1.9 billion a year, by formula to states for their election offices, indexed to prices (`DEC-2026-11-12-08`, part 3), for running costs and the floor's new duties (registration from records, notice and cure, audits). Formula (working choice): per registered voter, with a floor for small counties, passed through to the offices that run elections. Recurring, not one-time, because every federal dollar since 2003 has been one-time (Stewart, 2022; `SRC-5386`, a citation row read from Espen's upload). The total stays about $2 billion a year, range $1-4 billion, until a county cost study replaces it. *Provisional (section 5, part 8, fix 4):* formula money is paid to each state within 60 days of the start of the fiscal year, or of enactment in the first year, and the recipient may sue to enforce the deadline (EXE-3's form, for this grant until EXE-3 exists)",
   "eligibility": "",
   "vehicle": [
    {
@@ -2098,12 +2098,12 @@
   "id": "CRT-5.03",
   "title": "Today's judges and staff transfer",
   "agenda": "CRT-5",
-  "status": "decided, A′",
+  "status": "decided, A′; one element provisional, section 5",
   "decisions": [
    "DEC-2026-11-17-56",
    "DEC-2026-11-17-97"
   ],
-  "parameters": "On the court's effective date (working choice: October 1, 2031, about 21 months after the act, as the immigration dossier dates ICE's replacement), the immigration judges then on board, their clerks, interpreters and staff, EOIR's case system and its space transfer to the court. Each sitting judge receives an initial term from the court of appeals after the merit screen (working choice: terms staggered from 4 to 14 years, so the corps does not turn over at once); a judge not appointed keeps Justice Department employment rights. EOIR had 753 judges on board on September 30, 2026, after 312 hires in FY2026, counting reemployed annuitants [EV-IMM-103]; CRS counted 557 at the end of December 2025 [EV-IMM-104]. Until the effective date, EOIR keeps hiring under IMM-3.08",
+  "parameters": "On the court's effective date (working choice: October 1, 2031, about 21 months after the act, as the immigration dossier dates ICE's replacement), the immigration judges then on board, their clerks, interpreters and staff, EOIR's case system and its space transfer to the court. Each sitting judge receives an initial term from the court of appeals after the merit screen (working choice: terms staggered from 4 to 14 years, so the corps does not turn over at once); a judge not appointed keeps Justice Department employment rights. *Provisional (section 5, part 8, fix 2):* a judge on board on the effective date who has not yet been screened continues under an interim appointment of up to two years while the screens finish. EOIR had 753 judges on board on September 30, 2026, after 312 hires in FY2026, counting reemployed annuitants [EV-IMM-103]; CRS counted 557 at the end of December 2025 [EV-IMM-104]. Until the effective date, EOIR keeps hiring under IMM-3.08",
   "eligibility": "",
   "vehicle": [
    {
@@ -3073,12 +3073,12 @@
   "id": "CAP-7.02",
   "title": "Money released against published hiring paths",
   "agenda": "CAP-7",
-  "status": "decided, memo 10 part 2 B",
+  "status": "decided, memo 10 part 2 B; one element provisional, section 5",
   "decisions": [
    "DEC-2026-11-17-58",
    "DEC-2026-11-17-59"
   ],
-  "parameters": "Each agency publishes a hiring path for its line; OMB releases each tranche as hiring follows it, with a quarterly count and a one-year wait for the next tranche when an agency is below 75% of its path (working choice, housing's rule for HUD applied plan-wide; `dossiers/home/5-delivery.md`:171). Money stays available, so a slow year does not lose it. **A program whose agency is behind starts later; it does not shrink.** The working path is the legacy review's midpoint: sustained money of $10.4 billion in FY2030, $26.8 billion by FY2034 and $31.9 billion by FY2039 [EV-DEM-328]. Hiring, not money, sets the pace [EV-DEM-277] [EV-DEM-085]",
+  "parameters": "Each agency publishes a hiring path for its line; OMB releases each tranche as hiring follows it, with a quarterly count and a one-year wait for the next tranche when an agency is below 75% of its path (working choice, housing's rule for HUD applied plan-wide; `dossiers/home/5-delivery.md`:171). Money stays available, so a slow year does not lose it. **A program whose agency is behind follows its own statute** (*provisional, section 5, part 8, fix 1*): where the statute lets the start move, the program starts later and does not shrink; where it fixes the date, the date holds, and the delivery unit's corrective plan (CAP-7.03), the contingency (CAP-7S.02) and the flagship's own backstop come first. The working path is the legacy review's midpoint: sustained money of $10.4 billion in FY2030, $26.8 billion by FY2034 and $31.9 billion by FY2039 [EV-DEM-328]. Hiring, not money, sets the pace [EV-DEM-277] [EV-DEM-085]",
   "eligibility": "",
   "vehicle": [
    {
@@ -3256,11 +3256,11 @@
   "id": "CAP-13.01",
   "title": "State and local implementation grants",
   "agenda": "CAP-13",
-  "status": "decided, point 47",
+  "status": "decided, point 47; the payment clock provisional, section 5",
   "decisions": [
    "DEC-2026-11-17-93"
   ],
-  "parameters": "About $8 billion of surge [EV-DEM-329], by formula on the plan programs' caseloads (working choice), for cross-program eligibility systems, the data agreements shared rule 5 needs (CAP-19) and the voting floor's records match (DEM-11.03). In R1 with the surge; authorized in the civil service and delivery act",
+  "parameters": "About $8 billion of surge [EV-DEM-329], by formula on the plan programs' caseloads (working choice), for cross-program eligibility systems, the data agreements shared rule 5 needs (CAP-19) and the voting floor's records match (DEM-11.03). In R1 with the surge; authorized in the civil service and delivery act. *Provisional (section 5, part 8, fix 4):* formula money is paid within 60 days of the start of the fiscal year, or of enactment in the first year, and the recipient may sue to enforce the deadline",
   "eligibility": "",
   "vehicle": [
    {
