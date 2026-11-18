@@ -1,0 +1,3797 @@
+[
+ {
+  "id": "DEM-1F.01",
+  "title": "Timing: floor by March 2029, enacted as soon as possible",
+  "agenda": "DEM-1F",
+  "status": "decided, point 3, `-65`",
+  "decisions": [
+   "DEC-2026-11-17-65"
+  ],
+  "parameters": "Floor consideration begins no later than March 2029. Enactment as soon as the votes allow; spring 2030 is the outer date, not a target (Espen: \"enact ASAP\"). Divisions B and C must be law before states redraw after the 2030 census, whose data arrive in spring 2031 (memo 3). An R1 delay triggers an explicit decision, not an automatic postponement past March (legacy, `domain-democracy.md`:4)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "Congress",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-007",
+   "EV-DEM-011"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.01",
+  "title": "Registration done by the government from records it holds",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B, change 1",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Each state registers every eligible citizen it finds in its own motor vehicle and benefit records, and in the federal records it receives under CAP-19.02, and mails a notice with a way to decline (working choice: 21 days to decline before the registration takes effect). A decline is confidential. Registration follows a move recorded in those records, with a mailed notice. On the Australian model, where enrolment from records reaches 97.8% [EV-DEM-168] [EV-DEM-169]; Canada's register 96.4% [EV-DEM-170]. Today 28.0 million eligible citizens are not registered [EV-DEM-002]. *What it changes:* the National Voter Registration Act's opt-in agency registration becomes registration by default from records",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; EAC for the federal form; SSA and USCIS for the citizenship check (DEM-1.08)",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-002",
+   "EV-DEM-145",
+   "EV-DEM-146",
+   "EV-DEM-168",
+   "EV-DEM-169",
+   "EV-DEM-170",
+   "EV-DEM-319"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.02",
+  "title": "The plan's benefit points and naturalization as registration sources",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B: DEM-1E kept as one source among several; immigration's IMM-5.05 accepted",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Every benefit-delivery point the plan creates or expands is a voter-registration agency under the NVRA, registering from the enrollment record: the IRS's portal for the monthly child benefit, the SSA and IRS non-filer path for the Climate Dividend, the state agencies running school meals and child care, the marketplace and Medicaid, the public plan's enrollment on its own 2031-32 schedule, and national service enrollment (legacy, `domain-democracy.md`:94). Naturalization ceremonies and USCIS offices offer each new citizen registration on the spot (`dossiers/immigration/4-specification.md`:178). *Safeguard:* a household record passes on only the person who is a citizen of voting age; no record is passed for a household member known to be a noncitizen (`dossiers/immigration/legacy-research.md`:121). Automatic payments create no contact, so this is one source, not the base (legacy, line 96)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "The agencies named; states",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-145",
+   "EV-DEM-147"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.03",
+  "title": "Same-day registration, online registration and preregistration at 16 and 17",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Registration and voting on the same day at every early-voting site and polling place, with the identity rule of DEM-1.06. Online registration in every state. Preregistration from 16, active at 18. Same-day registration raised turnout of 18-24-year-olds 3.2 to 7.3 points [EV-DEM-148]; preregistration about 8 points among Florida preregistrants [EV-DEM-149]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-148",
+   "EV-DEM-149",
+   "EV-DEM-166"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.04",
+  "title": "Early voting",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B: the Freedom to Vote floor",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Early in-person voting for federal elections for at least two weeks before Election Day, including two weekends, with hours set by the act (working choice: the Freedom to Vote Act's standard, to confirm in drafting). Sites placed so waits are short; residents of all-Black neighborhoods waited 29% longer in 2016 [EV-DEM-158]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-158"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.05",
+  "title": "Mail voting without an excuse",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Any voter may vote by mail. A ballot postmarked by Election Day and received within the period the act sets counts (working choice: seven days, the Freedom to Vote Act's period, to confirm in drafting). Drop boxes in each county (working choice: at least one per county, more by population). Mail voting raised turnout about 2 points with no partisan effect [EV-DEM-150] [EV-DEM-151]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-150",
+   "EV-DEM-151"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.06",
+  "title": "Identity by a broad list or a signed statement",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B, change 2",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "A voter asked for identification may show any current or recently expired government, tribal, student or benefit card, including a digital one, or the voter card (DEM-1.07). A voter with none signs a statement of identity under penalty of perjury and casts a regular ballot, checked against records afterward. Strict ID showed no effect on turnout in a national panel [EV-DEM-154], while GAO found turnout fell in Kansas and Tennessee [EV-DEM-155], which Heritage disputes [EV-DEM-156]: the statement means no eligible voter is turned away for lacking a card",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-154",
+   "EV-DEM-155",
+   "EV-DEM-156"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.07",
+  "title": "A free voter card, mailed from records",
+  "agenda": "DEM-1",
+  "status": "decided as a direction, `-99`, a",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Each newly registered voter receives a free voter card by mail with the registration notice, and any registered voter can request one. A photo is optional: taken free at a state motor vehicle office, an SSA field office or the election office. The card is accepted as identification for every federal election in every state. No fee for any birth certificate or other record a voter needs to get a photo card. **The signed-statement route (DEM-1.06) stays:** the card is an option, never a condition of voting. Paid from DEM-11 (judgment: well under $0.1 billion a year). The national panel found strict ID had no effect on fraud, actual or perceived [EV-DEM-154], so the card's case is ease and trust, not security alone",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; paid from DEM-11",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-154",
+   "EV-DEM-186"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.08",
+  "title": "Citizenship checked against records, no documentary proof",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Citizenship is checked against federal records (SSA's citizenship data, USCIS's verification service, passport records) shared under CAP-19.02, never by documents a voter must bring. A non-match is a flag for review: the voter gets written notice and a chance to respond, and stays registered until a person decides. The audits find noncitizen registration rare: 20 of 8.2 million in Georgia [EV-DEM-163], 27 of 2,069,640 records in Utah [EV-DEM-164]. *Diverges from* the House-passed SAVE America Act's documentary proof [EV-DEM-015]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; SSA; DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-015",
+   "EV-DEM-162",
+   "EV-DEM-163",
+   "EV-DEM-164"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.09",
+  "title": "Notice and cure for mail ballots",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B, change 3",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "An election office that finds a defect in a returned mail ballot (signature, missing form) notifies the voter promptly (working choice: within two business days, by every contact the record holds) and lets the voter cure it until the canvass ends (working choice: at least seven days after Election Day). 584,463 mail ballots were rejected in 2024 [EV-DEM-018]; a flagged ballot in Pennsylvania was 25 points more likely to count with cure [EV-DEM-167]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-018",
+   "EV-DEM-167"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.10",
+  "title": "List maintenance without partisan purges",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B: the floor",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Removals only on records evidence (death, a move recorded in DEM-1.01's records, or the voter's request), each with a mailed notice; no removal for not voting alone; the NVRA's 90-day quiet period before a federal election kept. Third-party challenges to many voters at once require individual evidence",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.11",
+  "title": "Paper ballots and risk-limiting audits",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B: the floor",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "A voter-verified paper ballot for every vote in a federal election; a risk-limiting audit of each federal contest before certification. Equipment replaced through DEM-11.02",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; EAC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-171"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.12",
+  "title": "Certification as a duty, and the transition",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B: the floor",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Certification of federal election results is a ministerial duty, enforceable by any candidate or voter in federal court on a fast track, building on the Electoral Count Reform Act [EV-DEM-080] [EV-DEM-081]. GSA's ascertainment for a presidential transition is triggered by a set rule (legacy, `domain-democracy.md`:75)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; GSA",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-080",
+   "EV-DEM-081"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.13",
+  "title": "Severability and forum",
+  "agenda": "DEM-1",
+  "status": "decided, memo 2 B",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Each division, title and section of the democracy act is severable. Challenges seeking relief beyond the parties go to the three-judge courts of CRT-3.02",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "—",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-344"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.14",
+  "title": "Data and privacy for registration",
+  "agenda": "DEM-1",
+  "status": "decided, memo 1 B with memo 11's framing",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Registration records are used only to register voters and run elections; the CAP-19.02 rules apply to the federal records used (each use logged, a right to see what was used, no use for immigration or criminal enforcement). States keep their own privacy law for their records",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; EAC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-282"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.15",
+  "title": "The EAC rebuilt to work without a quorum",
+  "agenda": "DEM-1",
+  "status": "decided, memo 5 B",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Five commissioners on staggered terms, no more than two of one party, a quorum of three that holdovers count toward. The executive director may keep the federal registration form and certified voting system guidelines in force, certify equipment and run DEM-11's formula while the EAC lacks a quorum. No removal protection is relied on. The EAC has had no commissioners since July 9, 2026 [EV-DEM-020]. Staff: about $0.4 billion over FY2030-39 (legacy review) [EV-DEM-329]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "EAC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-020",
+   "EV-DEM-037",
+   "EV-DEM-054",
+   "EV-DEM-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-11.01",
+  "title": "An indexed block grant to election offices",
+  "agenda": "DEM-11",
+  "status": "decided, `-41`, `-94`; the split a working figure",
+  "decisions": [
+   "DEC-2026-11-12-08",
+   "DEC-2026-11-17-41",
+   "DEC-2026-11-17-94"
+  ],
+  "parameters": "About $1.7-1.9 billion a year, by formula to states for their election offices, indexed to prices (`DEC-2026-11-12-08`, part 3), for running costs and the floor's new duties (registration from records, notice and cure, audits). Formula (working choice): per registered voter, with a floor for small counties, passed through to the offices that run elections. Recurring, not one-time, because every federal dollar since 2003 has been one-time (Stewart, 2022; `SRC-5386`, a citation row read from Espen's upload). The total stays about $2 billion a year, range $1-4 billion, until a county cost study replaces it",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act, Division A (authorization)"
+   },
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act, if a reconciliation committee can carry it; otherwise annual appropriations"
+   }
+  ],
+  "agency": "EAC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-017",
+   "EV-DEM-171"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-11.02",
+  "title": "A separate equipment fund",
+  "agenda": "DEM-11",
+  "status": "decided, `-94`",
+  "decisions": [
+   "DEC-2026-11-17-41",
+   "DEC-2026-11-17-94"
+  ],
+  "parameters": "About $100-300 million a year into a multi-year account, so offices can draw when their machines reach the end of their life, on Stewart's replacement cost of $1-3 billion over a ten-year life (`SRC-5386`, p. 6). Draws buy certified systems that produce voter-verified paper ballots (DEM-1.11). Inside DEM-11's booked $20 billion over FY2030-39 ($2.26 billion in FY2040), unchanged",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act, Division A (authorization)"
+   },
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act, if a reconciliation committee can carry it; otherwise annual appropriations"
+   }
+  ],
+  "agency": "EAC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-017",
+   "EV-DEM-171"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-11.03",
+  "title": "The records match's one-time build",
+  "agenda": "DEM-11",
+  "status": "working choice",
+  "decisions": [
+   "DEC-2026-11-17-41",
+   "DEC-2026-11-17-94"
+  ],
+  "parameters": "About $0.2-0.5 billion once (memo 1, judgment), for state systems to register from records and run the citizenship check, paid from CAP-13's state and local line, which already carries the data agreements memo 11 needs [EV-DEM-329]. Nothing is added to DEM-11",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act (CAP-13 surge)"
+   }
+  ],
+  "agency": "States; through CAP-13",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-166",
+   "EV-DEM-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-12.01",
+  "title": "Federal voting rights restored on release, with an official notice",
+  "agenda": "DEM-12",
+  "status": "decided, point 1",
+  "decisions": [
+   "DEC-2026-11-17-64"
+  ],
+  "parameters": "A person convicted of a crime may vote in federal elections once released from prison; on release the state or the Bureau of Prisons gives an official notice of the restored right with a registration form. People held before trial keep the right and get access to vote (legacy, `domain-democracy.md`:226). About 4 million people were disenfranchised in 2024 [EV-DEM-159]; an official mailing raised registration in a Connecticut randomized trial [EV-DEM-161]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; DOJ (Bureau of Prisons)",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-159",
+   "EV-DEM-160",
+   "EV-DEM-161"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-13.01",
+  "title": "Paid time to vote",
+  "agenda": "DEM-13",
+  "status": "decided, point 2",
+  "decisions": [
+   "DEC-2026-11-17-64"
+  ],
+  "parameters": "An employee may take paid time to vote in a federal election, in person on Election Day or during early voting (working choice: up to two hours, on notice to the employer). Not a federal holiday, which mostly moves federal and salaried workers (legacy, `domain-democracy.md`:232). The cost falls on employers, not the general fund",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "Labor (Wage and Hour)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.20",
+  "title": "Rider: election-worker protection",
+  "agenda": "DEM-1",
+  "status": "decided, point 4; design with SAF-8",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "SAF-8's election-worker protections ride the democracy act as Division E, so they pass with it (legacy open item 7). Their design stays with the public safety topic. 32% of local officials reported threats or harassment in 2026 [EV-DEM-022]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "DOJ",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-022"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.21",
+  "title": "Rider: synthetic-media disclosure in political ads",
+  "agenda": "DEM-1",
+  "status": "decided, point 4; design with AI-8",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "AI-8's disclosure rule for synthetic media in political advertising rides Division E; its design stays with the AI topic",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "FEC",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.16",
+  "title": "Title II: preclearance on a record of recent violations",
+  "agenda": "DEM-1",
+  "status": "decided, memo 2 B",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Coverage turns on voting-rights violations found in a recent rolling window (working choice: the John Lewis Voting Rights Advancement Act's 25 years and thresholds, to confirm in drafting), recalculated each year, so coverage is current and violation-based, answering *Shelby County*'s objection to a frozen formula [EV-DEM-011]. Covered jurisdictions submit changes to the Justice Department or the D.C. district court. Practice-based review nationwide for listed changes in diverse places (polling place closures, list purges, redistricting), as that bill provides. Preclearance raised long-run turnout 4 to 8 points [EV-DEM-157]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "DOJ (Civil Rights Division); D.D.C.",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-011",
+   "EV-DEM-157",
+   "EV-DEM-323"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.17",
+  "title": "Title III-A: the results test restored",
+  "agenda": "DEM-1",
+  "status": "decided, memo 2 B",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Section 2 reaches practices that result in a denial or abridgment on account of race, with findings on the current record; race-conscious remedial districting authorized where needed. Written knowing *Callais* limits Section 2 to a strong inference of intent on constitutional as well as statutory grounds [EV-DEM-007], so no survival is claimed (legacy, `domain-democracy.md`:84)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "DOJ; federal courts",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-007",
+   "EV-DEM-008",
+   "EV-DEM-009",
+   "EV-DEM-010"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.18",
+  "title": "Title III-B: an intent claim that can be won",
+  "agenda": "DEM-1",
+  "status": "decided, memo 2 B",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Standing alone if III-A falls: rules of proof for the \"strong inference\" *Callais* requires (a pattern of departures from normal procedure, foreseeable and known effects, the sequence of events, history), discovery of map-drawers' data and communications, and a shift of the burden to the state once a prima facie case is made. Drafted with specialist review; new and untested",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-007",
+   "EV-DEM-009"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-1.19",
+  "title": "Each title severable, and the fallback",
+  "agenda": "DEM-1",
+  "status": "decided, memo 2 B",
+  "decisions": [
+   "DEC-2026-11-17-40",
+   "DEC-2026-11-17-42"
+  ],
+  "parameters": "Title II, III-A and III-B each stand alone. If a ruling before 2029 also narrows intent claims, III-B's record carries the case for an amendment (AMD-5, wave three)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "—",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-007"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-2.01",
+  "title": "Title I: no mid-decade congressional redistricting",
+  "agenda": "DEM-2",
+  "status": "decided, memo 3 D; ban from enactment, `-45`",
+  "decisions": [
+   "DEC-2026-11-17-44",
+   "DEC-2026-11-17-45"
+  ],
+  "parameters": "From enactment through the 2031 cycle, a state may redraw its congressional districts only once after each decennial census, except to carry out a court's remedial order or a redraw Congress itself orders (the express exception that keeps the 2033 package open; legacy, `domain-democracy.md`:108). The 2025-26 maps stand until the 2031 redraw. It binds every state alike. A times, places and manner rule of the kind Congress already makes (memo 3)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; federal courts",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-261",
+   "EV-DEM-262"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-2.02",
+  "title": "Title II, section 1: neutral criteria",
+  "agenda": "DEM-2",
+  "status": "decided, memo 3 D",
+  "decisions": [
+   "DEC-2026-11-17-44",
+   "DEC-2026-11-17-45"
+  ],
+  "parameters": "Congressional maps meet, in order: equal population; the Voting Rights Act; contiguity; respect for communities of interest and for political subdivisions; compactness. Each state publishes its map, data and reasons before adoption",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-261"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-2.03",
+  "title": "Title II, section 2: a partisan-fairness test, severable",
+  "agenda": "DEM-2",
+  "status": "decided, memo 3 D",
+  "decisions": [
+   "DEC-2026-11-17-44",
+   "DEC-2026-11-17-45"
+  ],
+  "parameters": "A map fails if it unduly favors or disfavors a party, measured by partisan symmetry over several recent statewide elections, with the threshold and the measures set in the act on expert testimony (working choice: the Freedom to Vote Act's rebuttable-presumption method, to confirm in drafting). Severable from section 1, so a struck fairness test leaves the neutral criteria. *Rucho* (2019) left this to Congress",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; federal courts",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-259",
+   "EV-DEM-260",
+   "EV-DEM-261"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-2.04",
+  "title": "Title III: a three-judge court backstop on a fast track",
+  "agenda": "DEM-2",
+  "status": "decided, memo 3 D",
+  "decisions": [
+   "DEC-2026-11-17-44",
+   "DEC-2026-11-17-45"
+  ],
+  "parameters": "A voter or the Attorney General may challenge a map under Title I or II before a three-judge district court (28 U.S.C. 2284 [EV-DEM-344]), with direct appeal to the Supreme Court. The court sets a schedule tied to the state's candidate filing deadline. Where a state's map fails, the court adopts a remedial map, drawn with a special master if needed, for that cycle",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-344"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-2.05",
+  "title": "Commissions as a safe harbor, not a mandate",
+  "agenda": "DEM-2",
+  "status": "decided, memo 3 D",
+  "decisions": [
+   "DEC-2026-11-17-44",
+   "DEC-2026-11-17-45"
+  ],
+  "parameters": "A map drawn by an independent commission that meets set standards (final authority, balanced membership, no legislators or their staff, public hearings, binding criteria) is presumed to comply with Title II. No state is ordered to create one. Commissions with final authority drew less biased maps in 2021 [EV-DEM-261]. Start-up grants for states that choose one, small (legacy: up to $0.01 trillion, estimate; `domain-democracy.md`:110)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States; EAC for grants",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-259",
+   "EV-DEM-261",
+   "EV-DEM-262"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-2.06",
+  "title": "The titles severable",
+  "agenda": "DEM-2",
+  "status": "decided, memo 3 D",
+  "decisions": [
+   "DEC-2026-11-17-44",
+   "DEC-2026-11-17-45"
+  ],
+  "parameters": "Titles I, II and III each stand alone; with no mandate for a court to strike, the law should be settled before 2031 if Titles I and II hold",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "—",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-262"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-4.01",
+  "title": "States may use multi-member ranked-choice districts",
+  "agenda": "DEM-4",
+  "status": "decided, `-99`, h: the staged path, step 1",
+  "decisions": [
+   "DEC-2026-11-17-63",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "2 U.S.C. 2c, which requires single-member districts [EV-DEM-335], is amended to let a state choose by law to elect its Representatives from multi-member districts by ranked-choice voting (single transferable vote), each district electing three to five members (working choice, the Fair Representation Act's range [EV-DEM-258]), drawn under DEM-2's criteria. Permitted, not required. Uptake will be low and one-sided, since states choosing it cost their own majority seats, and nineteen states had banned ranked-choice voting by March 2026 [EV-DEM-255]; its purpose is evidence for 2033",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-251",
+   "EV-DEM-252",
+   "EV-DEM-255",
+   "EV-DEM-258",
+   "EV-DEM-335"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-3.01",
+  "title": "The 2031 review sets the House's size",
+  "agenda": "DEM-3",
+  "status": "decided as a direction, `-99`, h: step 2",
+  "decisions": [
+   "DEC-2026-11-17-63",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "In 2031, after the census, Congress decides the House's size among DEM-3A (the cube-root rule, about 692 [EV-DEM-249]), 3B (the Wyoming rule) and 3C (a fixed increase), for the 2032 election if the census numbers are in time, otherwise for the 2034 redraw. The yardstick is contested [EV-DEM-250]; the House has had 435 members since 1913 [EV-DEM-074]. Preparation the democracy act directs: the Architect of the Capitol reports the chamber's build cost by 2030 (legacy: plausibly $0.01-0.03 trillion, unscored; `domain-democracy.md`:132); a legal review of a mid-decade reapportionment before 2032 (legacy open item 5)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2031 review (second Congress)"
+   }
+  ],
+  "agency": "Congress; Architect of the Capitol; Census Bureau",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-074",
+   "EV-DEM-075",
+   "EV-DEM-249",
+   "EV-DEM-250"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-4.02",
+  "title": "The 2033 decision on nationwide multi-member districts",
+  "agenda": "DEM-4",
+  "status": "decided as a direction, `-99`, h: step 3",
+  "decisions": [
+   "DEC-2026-11-17-63",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "In 2033, on the evidence from states that used DEM-4.01, Congress decides whether to require multi-member ranked-choice districts nationwide and their size (DEM-4A five members, 4B three), after the Section 2 modeling is rerun on the post-*Callais* baseline (legacy, `domain-democracy.md`:158). New Zealand's switch raised women's and Māori representation [EV-DEM-257]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2033 package"
+   }
+  ],
+  "agency": "Congress",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-256",
+   "EV-DEM-257",
+   "EV-DEM-258"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-9.01",
+  "title": "The presidential method, decided in 2033",
+  "agenda": "DEM-9",
+  "status": "decided as a direction, `-63`, `-99`, h",
+  "decisions": [
+   "DEC-2026-11-17-63",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "A national ranked-choice vote or a two-round runoff for President, written into the national popular vote amendment (DEM-8.02). The fallback if the amendment stalls (DEM-4C, a statutory presidential ranked-choice vote, or 4D, hold multi-member districts until ratified) is chosen before the 2032 platform (legacy open item 1)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2033 package"
+   }
+  ],
+  "agency": "Congress",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-251",
+   "EV-DEM-252"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-8.01",
+  "title": "The popular vote compact pushed to 270",
+  "agenda": "DEM-8",
+  "status": "decided, point 8, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "222 electoral votes have joined [EV-DEM-076]; the plan backs state campaigns for the 48 more, and the member states tighten the withdrawal blackout and add the presidential method's operative language when they re-enact. **Congressional consent is to be considered, with a trifecta, not decided here:** Congress granting consent by statute would remove the doubt CRS finds unresolved [EV-DEM-266]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "STATE",
+    "kind": "state_track",
+    "note": "state legislatures; congressional consent to be considered"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-076",
+   "EV-DEM-266"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-8.02",
+  "title": "One national popular vote amendment",
+  "agenda": "DEM-8",
+  "status": "decided, point 8, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "One amendment, not two: a national popular vote with the DEM-9 method written in, as AMD-3's text (wave three). Two-thirds of each chamber and 38 states. A durable rule that also ends the compact's legal doubts",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "AMEND",
+    "kind": "amendment",
+    "note": "proposed constitutional amendment (AMD-3)"
+   }
+  ],
+  "agency": "Congress; AMD-3 (amendments topic)",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-077",
+   "EV-DEM-266"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-5.01",
+  "title": "D.C. statehood by admission act",
+  "agenda": "DEM-5",
+  "status": "decided, point 5",
+  "decisions": [
+   "DEC-2026-11-17-66"
+  ],
+  "parameters": "Admits the State of Washington, Douglass Commonwealth on the model of H.R. 51, which the House passed 216 to 208 in 2021 [EV-DEM-268], with a residual federal district around the Capitol, the White House and the Mall. The residual district's electors are directed by statute (to the national popular vote winner, or none appointed), under Congress's power over their manner of appointment; repeal of the 23rd Amendment (AMD-6) becomes hygiene, not a precondition (legacy, `domain-democracy.md`:174). 689,545 residents in 2020, more than Vermont or Wyoming [EV-DEM-267]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "statehood and status acts, 2029-30"
+   }
+  ],
+  "agency": "Congress",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-267",
+   "EV-DEM-268"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-6.01",
+  "title": "A binding Puerto Rico status vote",
+  "agenda": "DEM-6",
+  "status": "decided, point 6",
+  "decisions": [
+   "DEC-2026-11-17-66"
+  ],
+  "parameters": "A plebiscite among non-territorial options (working choice: the options of the 2022 House-passed Puerto Rico Status Act, to confirm in drafting), with Congress committed in advance to admit or implement the result. Statehood's fiscal effect (full Medicaid and SNAP, tax treatment) is scored by CBO and published before the vote (legacy open item 4)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "statehood and status acts, 2029-30"
+   }
+  ],
+  "agency": "Congress; Puerto Rico's election commission",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-7.01",
+  "title": "Territories, tribes and a written admission procedure",
+  "agenda": "DEM-7",
+  "status": "decided, point 7; second wave",
+  "decisions": [
+   "DEC-2026-11-17-66"
+  ],
+  "parameters": "Voting delegates for Guam, the U.S. Virgin Islands, American Samoa and the Northern Mariana Islands, in sequence; tribal representation in Congress with enforceable consultation standards; a codified procedure for admitting states, which answers the objection that states are admitted only when a party is losing (legacy, `domain-democracy.md`:186-188)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "second Congress (second wave)"
+   }
+  ],
+  "agency": "Congress",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-10.01",
+  "title": "A state track for fusion and ranked-choice voting with open primaries",
+  "agenda": "DEM-10",
+  "status": "decided, point 9",
+  "decisions": [
+   "DEC-2026-11-17-68"
+  ],
+  "parameters": "Model laws and campaign support for states: authorize fusion voting; ranked-choice voting with open primaries, framed as anti-corruption",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "STATE",
+    "kind": "state_track",
+    "note": "state track"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-251",
+   "EV-DEM-253",
+   "EV-DEM-255"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-19.01",
+  "title": "A state track protecting the citizen initiative",
+  "agenda": "DEM-19",
+  "status": "decided, point 10",
+  "decisions": [
+   "DEC-2026-11-17-68"
+  ],
+  "parameters": "State amendments that protect initiative and referendum as a right, require a supermajority for a legislature to repeal a voter-approved measure, and bar raising thresholds or adding distribution rules without the voters (legacy, `domain-democracy.md`:283-287). No federal hook exists",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "STATE",
+    "kind": "state_track",
+    "note": "state track"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-069",
+   "EV-DEM-070"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-20.01",
+  "title": "A state track limiting punitive preemption",
+  "agenda": "DEM-20",
+  "status": "decided, point 10",
+  "decisions": [
+   "DEC-2026-11-17-68"
+  ],
+  "parameters": "Model laws barring state laws that fine or remove local officials for local ordinances, or preempt a subject without setting a state standard; ordinary preemption left alone; binding on Democratic state majorities too (legacy, `domain-democracy.md`:296)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "STATE",
+    "kind": "state_track",
+    "note": "state track"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-16.01",
+  "title": "Civic education grants measured on knowledge and participation",
+  "agenda": "DEM-16",
+  "status": "decided, point 12",
+  "decisions": [
+   "DEC-2026-11-17-68"
+  ],
+  "parameters": "Formula grants to states, judged on civic knowledge, youth registration and turnout, and access to student government and service learning; content stays with states and districts. About $0.01 trillion over FY2030-39 (legacy, `domain-democracy.md`:261). State civics exams raise knowledge [EV-DEM-184]; a civics-test graduation rule did not raise turnout [EV-DEM-185], so the measure is participation, not a test",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "annual appropriations"
+   }
+  ],
+  "agency": "Education",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-184",
+   "EV-DEM-185"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-17.01",
+  "title": "A capital fund for libraries and public space",
+  "agenda": "DEM-17",
+  "status": "decided as a direction, point 14; `-99`, k",
+  "decisions": [
+   "DEC-2026-11-17-70",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Grants for buildings: libraries, parks, community centers and public plazas, weighted to places with low fiscal capacity, with a maintenance match, through IMLS and Interior's outdoor recreation grants. Time-limited capital (working choice: grants over FY2030-39, then the fund closes), about $0.03 trillion (range $0.02-0.05 trillion; legacy, `domain-democracy.md`:267)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "capital grants in a later reconciliation act (legacy R3), or appropriations"
+   }
+  ],
+  "agency": "IMLS; Interior",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-071",
+   "EV-DEM-072"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-17.02",
+  "title": "A permanent operating and modernization line for libraries",
+  "agenda": "DEM-17",
+  "status": "decided as a direction, `-99`, k",
+  "decisions": [
+   "DEC-2026-11-17-70",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Beside the capital fund, a permanent IMLS line of about $0.5-1 billion a year (judgment), indexed, to state library agencies by formula with a pass-through to local libraries, for hours, staff, digital access and maintenance. That is about three to five times today's Grants to States, $180.0 million of IMLS's $294.8 million in FY2024 [EV-DEM-338]. About $5-10 billion over FY2030-39 and $0.6-1.2 billion in FY2040. **Unbooked:** as a permanent program it is paid for at maturity, so it goes to stage G. IMLS's dismantling was blocked in court [EV-DEM-071] [EV-DEM-072]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "Labor-HHS appropriations, unless a reconciliation act carries it; unbooked"
+   }
+  ],
+  "agency": "IMLS",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-338",
+   "EV-DEM-071",
+   "EV-DEM-072"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "DEM-18.01",
+  "title": "Three national citizens' assemblies, with a duty to answer",
+  "agenda": "DEM-18",
+  "status": "decided, point 13, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "Three national pilots, on questions Congress or an agency refers. Each has about 100 to 150 members chosen by lot, stratified by age, region, education and party, paid for their time, meeting over several weekends with trained facilitators and published lists of experts and agenda. Advisory, and the statute says so. **The duty to answer:** the referring committee or agency answers each recommendation in writing within a set time (working choice: 180 days), and the answer is published. Each pilot is evaluated and published. Agencies may also convene assemblies under OMB guidance; small grants for state and local assemblies sit inside DEM-16's line. Where implementation was tracked, authorities carried out over half the recommendations in 76% of cases [EV-DEM-181]; France's convention, with no duty to answer, is the failure case [EV-DEM-178] [EV-DEM-179]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act"
+   },
+   {
+    "vehicle": "EXEC",
+    "kind": "executive",
+    "note": "OMB guidance for agency assemblies"
+   }
+  ],
+  "agency": "Congress; OMB; agencies",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-175",
+   "EV-DEM-176",
+   "EV-DEM-177",
+   "EV-DEM-178",
+   "EV-DEM-179",
+   "EV-DEM-180",
+   "EV-DEM-181"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-5.01",
+  "title": "A 6:1 match on small in-state gifts, with no spending cap",
+  "agenda": "INT-5",
+  "status": "decided, memo 4 part 1 B",
+  "decisions": [
+   "DEC-2026-11-17-46"
+  ],
+  "parameters": "For House and Senate candidates who opt in: each in-state contribution up to $200 is matched six to one. To qualify, a candidate raises a set number of small in-state gifts and accepts a lower contribution limit (working choice: the For the People Act's qualifying test and limit, to confirm in drafting). **No spending cap.** The per-candidate payment ceiling is set from the previous two cycles' spending in comparable races and rises with it. **No trigger matching**, which *Arizona Free Enterprise* forbids [EV-DEM-208]. Paid from a fund the FEC administers; the payer is general revenue (INT-5B, the working choice until stage G weighs it). A $25 gift brings the candidate $175. About $0.01 trillion over FY2030-39, up to the legacy high of $0.03 trillion as the ceilings index (judgment; legacy, `domain-integrity.md`:78)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "FEC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-193",
+   "EV-DEM-194",
+   "EV-DEM-195",
+   "EV-DEM-196",
+   "EV-DEM-198",
+   "EV-DEM-202",
+   "EV-DEM-204",
+   "EV-DEM-208",
+   "EV-DEM-320",
+   "EV-DEM-321"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-2.01",
+  "title": "The DISCLOSE Act, written to Bonta's test",
+  "agenda": "INT-2",
+  "status": "decided, point 15",
+  "decisions": [
+   "DEC-2026-11-17-71"
+  ],
+  "parameters": "Groups that spend on federal elections disclose donors above a threshold whose money is used or earmarked for that spending, including money passed through intermediaries; a donor may restrict a gift from political use and stay undisclosed. Disclaimers name the top funders. Narrowly tailored as *Bonta* requires [EV-DEM-206], on *Citizens United*'s 8-1 disclosure holding [EV-DEM-205]. Dark money was $1.4 billion to more than $1.9 billion in 2024, by method [EV-DEM-025] [EV-DEM-026]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "FEC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-024",
+   "EV-DEM-025",
+   "EV-DEM-026",
+   "EV-DEM-205",
+   "EV-DEM-206",
+   "EV-DEM-207"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-8.01",
+  "title": "Single-candidate super PACs presumed coordinated",
+  "agenda": "INT-8",
+  "status": "decided, point 16, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "A political committee that meets objective tests is presumed coordinated with a candidate, and its spending counts as contributions to the campaign, subject to the limits. The tests (working choice: any two): it supports one candidate; it is run by the candidate's recent campaign staff or family; the candidate raised money for it; it shares vendors with the campaign. The presumption is rebuttable and the section severable. Stays inside what *NRSC* left standing, which struck only party coordination limits [EV-DEM-027] [EV-DEM-028]. Super PACs and hybrid PACs spent more than $4.1 billion of 2024's $4.5 billion of outside spending [EV-DEM-024]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "FEC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-024",
+   "EV-DEM-027",
+   "EV-DEM-028"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-16.01",
+  "title": "No political spending by majority foreign-owned companies",
+  "agenda": "INT-16",
+  "status": "decided, point 17",
+  "decisions": [
+   "DEC-2026-11-17-71"
+  ],
+  "parameters": "A company majority owned or controlled by foreign nationals may not make contributions, independent expenditures or electioneering communications, extending the foreign-national ban *Bluman* upheld (legacy, `domain-integrity.md`:118)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "FEC",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-6.01",
+  "title": "Tax returns from presidential candidates",
+  "agenda": "INT-6",
+  "status": "decided, point 24",
+  "decisions": [
+   "DEC-2026-11-17-76"
+  ],
+  "parameters": "Presidential and vice-presidential candidates file their recent federal tax returns with the FEC, which publishes them, as a condition of filing as a candidate and of public financing, not of ballot access (working choice: ten years, as the For the People Act asked, to confirm in drafting)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "FEC",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-7.01",
+  "title": "A five-member FEC with a citizen suit",
+  "agenda": "INT-7",
+  "status": "decided, memo 5 B",
+  "decisions": [
+   "DEC-2026-11-17-48"
+  ],
+  "parameters": "Five commissioners on staggered six-year terms, no more than two of one party, a quorum of three, holdovers counted toward the quorum. If the FEC does not act on a complaint within 120 days, the complainant may sue the violator in district court. No removal protection is relied on after *Slaughter* [EV-DEM-037]; independence rests on structure, appropriations and reporting conditions (EXE-9's template). The FEC had two of six seats in March 2026 [EV-DEM-031]; it deadlocked on 13% of closed matters in 2008-09 and 24.4% in 2014 [EV-DEM-209]. Staff about $0.5 billion over FY2030-39 (legacy review) [EV-DEM-329]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "FEC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-031",
+   "EV-DEM-032",
+   "EV-DEM-037",
+   "EV-DEM-054",
+   "EV-DEM-209",
+   "EV-DEM-210",
+   "EV-DEM-211",
+   "EV-DEM-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-15.01",
+  "title": "Shareholder authorization of corporate political spending",
+  "agenda": "INT-15",
+  "status": "decided, memo 4 part 2 A",
+  "decisions": [
+   "DEC-2026-11-17-47"
+  ],
+  "parameters": "New Exchange Act sections on the S. 530 model (legacy, `domain-integrity.md`:124-130): a public company may not spend on independent expenditures, electioneering communications or dues to groups that use them for such purposes without a vote of a majority of outstanding shares; a board vote on any political expenditure over $50,000, with directors' votes posted within 48 hours; quarterly reports to the SEC and shareholders; institutional investors disclose their votes. **Severable:** the disclosure and board-vote sections stand if the shareholder vote falls (INT-15D's content). The First Amendment footing and the union asymmetry are flagged for legal review before drafting (legacy open item 2); no member-consent rule for unions is added here",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 democracy act (regular order)"
+   }
+  ],
+  "agency": "SEC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-205",
+   "EV-DEM-206"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-1.01",
+  "title": "Who is covered and what they may not own",
+  "agenda": "INT-1",
+  "status": "decided, memo 6 A; Espen's terms",
+  "decisions": [
+   "DEC-2026-11-17-49",
+   "DEC-2026-11-17-50"
+  ],
+  "parameters": "*Covered:* members of Congress, their spouses and dependent children; the President, the Vice President (INT-1.05), Cabinet secretaries and other Senate-confirmed officials. *Covered holdings:* individual publicly traded securities (stocks, corporate bonds, options, short positions and similar interests in a single issuer) and interests in funds that are not diversified. **Never covered:** diversified mutual funds and exchange-traded funds; U.S. Treasury securities and municipal bonds; the Thrift Savings Plan and other retirement accounts. Private business and farm interests are disclosed as today, not banned. The House passed a narrower trading ban 232-198 on July 22, 2026 [EV-DEM-034] [EV-DEM-035]; if a weaker ban becomes law in 2027-28, this act amends it (legacy open item 1)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "House and Senate ethics offices; OGE",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-034",
+   "EV-DEM-035",
+   "EV-DEM-215",
+   "EV-DEM-216",
+   "EV-DEM-217",
+   "EV-DEM-219"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-1.02",
+  "title": "No forced sale: three ways to comply",
+  "agenda": "INT-1",
+  "status": "decided, Espen's terms; `-99`, c",
+  "decisions": [
+   "DEC-2026-11-17-49",
+   "DEC-2026-11-17-50",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Within 180 days of the effective date or of taking office (working choice, memo 6), a covered person (1) holds only excluded assets, (2) places covered holdings in a qualified blind trust under the Ethics in Government Act, or a similar arrangement the ethics office approves, or (3) divests. Divesting is one option, never a requirement",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "House and Senate ethics offices; OGE",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-325"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-1.03",
+  "title": "No immediate tax on a sale made to comply",
+  "agenda": "INT-1",
+  "status": "decided, `-99`, c",
+  "decisions": [
+   "DEC-2026-11-17-49",
+   "DEC-2026-11-17-50",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "The capital-gains deferral that executive officials already get when they sell to comply, 26 U.S.C. 1043's certificate of divestiture [EV-DEM-334], is extended to members of Congress, their spouses and dependent children: gain is not recognized to the extent the proceeds are reinvested within 60 days in permitted property (Treasuries or diversified funds). The House and Senate ethics offices issue the certificates for members, as OGE does for the executive. CBO found $3 million of lower revenue over 2024-2034 for the Senate's ETHICS Act [EV-DEM-325]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "Treasury (IRS); the ethics offices",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-325",
+   "EV-DEM-334"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-1.04",
+  "title": "Automatic, published penalties, with notice and appeal",
+  "agenda": "INT-1",
+  "status": "decided, memo 6 part 2, `-50`; `-99`, c",
+  "decisions": [
+   "DEC-2026-11-17-49",
+   "DEC-2026-11-17-50",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "A prohibited holding or trade incurs a civil liability under the statute: the gain (or loss avoided) paid back, plus a fine of 10% of the value of the holding or trade (working choice, memo 6), computed from the person's own disclosure filings, with no inquiry into votes or legislative work (so the Speech or Debate Clause is not engaged). *Due process:* written notice of the computed amount; 30 days to contest the computation before the ethics office (working choice); an appeal to the chamber's ethics committee (or, for executive officials, to OGE's director) before collection. *Collection:* by the chamber's ethics office from pay or by payment; if unpaid after 90 days, the Justice Department sues in district court, which also answers *Jarkesy* (CRT-10.01). Each chamber adopts a matching rule (Article I, section 5), as the STOCK Act's late fee works. Each penalty is published. Willful violations are referred to the Justice Department. The usual STOCK Act penalty today is $200 or waived [EV-DEM-220]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "House and Senate ethics offices; OGE; DOJ",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-220",
+   "EV-DEM-226",
+   "EV-DEM-227"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-1.05",
+  "title": "The President and Vice President, in a severable part",
+  "agenda": "INT-1",
+  "status": "decided, memo 6 A",
+  "decisions": [
+   "DEC-2026-11-17-49",
+   "DEC-2026-11-17-50"
+  ],
+  "parameters": "The ban reaches the President and Vice President in a separate, severable section, the weakest part legally, since conflict-of-interest law has never reached them; the rest stands if it falls",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "OGE",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-038"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-1.06",
+  "title": "Enforcement capacity",
+  "agenda": "INT-1",
+  "status": "decided, memo 6 A",
+  "decisions": [
+   "DEC-2026-11-17-49",
+   "DEC-2026-11-17-50"
+  ],
+  "parameters": "OGE's staff rebuilt in the integrity units' line (about $2.1 billion over FY2030-39 for four units, legacy review) [EV-DEM-329]; OGE's director was removed in February 2025 [EV-DEM-038]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "OGE",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-038",
+   "EV-DEM-226",
+   "EV-DEM-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-3.01",
+  "title": "Cooling-off periods",
+  "agenda": "INT-3",
+  "status": "decided, point 21",
+  "decisions": [
+   "DEC-2026-11-17-74"
+  ],
+  "parameters": "Senior executive officials may not lobby or work for an entity in an industry they regulated for a period after leaving (working choice: two years, paired with INT-13.01); and an appointee coming from paid advocacy is recused from matters involving the former employer or clients for the same period. Access, not expertise, is what the revolving door sells [EV-DEM-221] [EV-DEM-222]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "OGE",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-221",
+   "EV-DEM-222"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-4.01",
+  "title": "A right to sue to enforce the emoluments clauses",
+  "agenda": "INT-4",
+  "status": "decided, point 22",
+  "decisions": [
+   "DEC-2026-11-17-74"
+  ],
+  "parameters": "A private cause of action for persons injured by a violation of the foreign or domestic emoluments clauses, including competitors, with injunctions and disgorgement, so the claim does not die on standing or mootness as the 2017-21 suits did [EV-DEM-039]. The cause of action is the whole content of the row (legacy, `domain-integrity.md`:72)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-039"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-9.01",
+  "title": "Beneficial-ownership reporting enforced, carve-outs closed",
+  "agenda": "INT-9",
+  "status": "decided, point 18",
+  "decisions": [
+   "DEC-2026-11-17-71"
+  ],
+  "parameters": "The Corporate Transparency Act's reporting enforced, and the exemptions added since 2025 closed so domestic shell companies report (to confirm against the rule in force in January 2029); FinCEN's unit staffed in the integrity line [EV-DEM-329]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "Treasury (FinCEN)",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-10.01",
+  "title": "Lobbying registration loopholes closed",
+  "agenda": "INT-10",
+  "status": "decided, point 19",
+  "decisions": [
+   "DEC-2026-11-17-71"
+  ],
+  "parameters": "The Lobbying Disclosure Act's time threshold, which lets \"shadow lobbyists\" avoid registering, is replaced by a contacts-based test, and strategic advice for lobbying campaigns is covered",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "Congress (Clerk and Secretary); DOJ",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-11.01",
+  "title": "FARA reformed, with enforcement",
+  "agenda": "INT-11",
+  "status": "decided, point 19",
+  "decisions": [
+   "DEC-2026-11-17-71"
+  ],
+  "parameters": "Civil investigative demand authority for the Justice Department, a narrower commercial exemption, and the FARA unit staffed in the integrity line [EV-DEM-329]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "DOJ (FARA unit)",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-13.01",
+  "title": "No paid speeches or later pay from those an official dealt with",
+  "agenda": "INT-13",
+  "status": "decided, point 23, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "For two years after leaving, a senior official (members of Congress and Senate-confirmed and senior executive officials) may not accept a speaking fee, board seat or other pay from an entity with a matter the official participated in personally and substantially; any such pay in the five years after leaving is publicly disclosed. Narrowly tailored because *NTEU* struck an overbroad honoraria ban (note, part n). Paired with INT-3.01",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "OGE; the ethics offices",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-221",
+   "EV-DEM-222"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-14.01",
+  "title": "Contractors with adjudicated fraud barred",
+  "agenda": "INT-14",
+  "status": "decided, point 20",
+  "decisions": [
+   "DEC-2026-11-17-73"
+  ],
+  "parameters": "A contractor with an adjudicated fraud finding in federal procurement or grants (a judgment or a final administrative finding) is debarred for a set period (working choice: up to five years), with any waiver for national need published",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "GSA; agencies' suspension and debarment officials",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-14.02",
+  "title": "A pay-to-play rule for large contractors",
+  "agenda": "INT-14",
+  "status": "decided as a direction, `-99`, m",
+  "decisions": [
+   "DEC-2026-11-17-73",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Today federal contractors may not contribute from the start of negotiations to the end of performance, but the bar does not reach a firm's PAC or its officers giving personally [EV-DEM-336]. Added: for contractors above a contract-size threshold (working choice: $10 million a year in federal awards), a contribution by the firm's PAC or a covered executive (officers and those who solicit or negotiate the award) to an official who can influence an award bars new awards from that official's agency for two years, on the model of the SEC's adviser rule, with its small-gift exceptions ($350, or $150 for an official the giver cannot vote for) [EV-DEM-337]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "GSA; FEC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-336",
+   "EV-DEM-337"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-14.03",
+  "title": "Contractor records matched against FEC receipts",
+  "agenda": "INT-14",
+  "status": "decided as a direction, `-99`, m",
+  "decisions": [
+   "DEC-2026-11-17-73",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Contractor identifiers in SAM and USAspending are matched automatically against FEC receipts; a receiving committee gets a refund notice within 30 days of a match, and the match is published. Enforced through INT-7.01's FEC and its citizen suit. Enforcement today rests on complaints and the FEC has lacked a quorum [EV-DEM-031]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "GSA; FEC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-031",
+   "EV-DEM-336"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-12.02",
+  "title": "Federal Reserve officials' financial disclosure",
+  "agenda": "INT-12",
+  "status": "decided, memo 8, `-54`",
+  "decisions": [
+   "DEC-2026-11-17-54"
+  ],
+  "parameters": "Board members, Reserve Bank presidents and senior staff file public financial disclosure on the same rules INT-12.01 sets for the judiciary (legacy, `domain-integrity.md`:115)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act (fast track)"
+   }
+  ],
+  "agency": "Federal Reserve",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-17.01",
+  "title": "A state track",
+  "agenda": "INT-17",
+  "status": "decided, point 25",
+  "decisions": [
+   "DEC-2026-11-17-76"
+  ],
+  "parameters": "State public financing, charter rules and shareholder approval as proof of concept and fallback for INT-5 and INT-15 (legacy, `domain-integrity.md`:155)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "STATE",
+    "kind": "state_track",
+    "note": "state track"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-194",
+   "EV-DEM-199"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.01",
+  "title": "The United States Immigration Court, a unit of the federal courts",
+  "agenda": "CRT-5",
+  "status": "decided, A′",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "The immigration judges in regular active service in each judicial district form a unit of the district court known as the immigration court, as bankruptcy courts are units of the district courts. It is outside the executive: it is not an agency of the Justice Department, and the Attorney General's review of decisions ends. Judgeships are authorized by circuit in the act, on the Judicial Conference's recommendation, and may sit across districts in a circuit where the caseload is concentrated",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "Federal judiciary (the courts of appeals, the judicial councils, the Administrative Office)",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-333",
+   "EV-DEM-244",
+   "EV-DEM-245"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.02",
+  "title": "Appointment by the courts of appeals for 14-year terms",
+  "agenda": "CRT-5",
+  "status": "decided, A′",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "Immigration judges are appointed by the court of appeals for the circuit for terms of 14 years and may be removed during the term only by the circuit's judicial council, for incompetence, misconduct, neglect of duty or physical or mental disability, as 28 U.S.C. 152 provides for bankruptcy judges [EV-DEM-333]. No Senate confirmation. Each circuit uses a merit screening panel with a public vacancy notice (working choice, after the bankruptcy courts' practice). Because the judges sit in the judicial branch and are removable only by judges, *Slaughter*'s holding on executive removal [EV-DEM-037] does not reach them. This meets the flagship's independence requirement (IMM-3.11)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "Federal judiciary",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-333",
+   "EV-DEM-037",
+   "EV-IMM-113"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.03",
+  "title": "Today's judges and staff transfer",
+  "agenda": "CRT-5",
+  "status": "decided, A′",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "On the court's effective date (working choice: October 1, 2031, about 21 months after the act, as the immigration dossier dates ICE's replacement), the immigration judges then on board, their clerks, interpreters and staff, EOIR's case system and its space transfer to the court. Each sitting judge receives an initial term from the court of appeals after the merit screen (working choice: terms staggered from 4 to 14 years, so the corps does not turn over at once); a judge not appointed keeps Justice Department employment rights. EOIR had 753 judges on board on September 30, 2026, after 312 hires in FY2026, counting reemployed annuitants [EV-IMM-103]; CRS counted 557 at the end of December 2025 [EV-IMM-104]. Until the effective date, EOIR keeps hiring under IMM-3.08",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "DOJ (EOIR), then the judiciary",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-103",
+   "EV-IMM-104"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.04",
+  "title": "Appeals to panels of immigration judges, then the courts of appeals",
+  "agenda": "CRT-5",
+  "status": "decided, A′",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "The Board of Immigration Appeals is replaced by an appellate panel of three immigration judges in each circuit (working choice, on the bankruptcy appellate panel model), which reviews questions of law and mixed questions de novo and facts for clear error. Its decisions go to the court of appeals on a petition for review",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "Federal judiciary",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-333"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.05",
+  "title": "Faster federal-court review",
+  "agenda": "CRT-5",
+  "status": "decided, A′: the legacy path (a)",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "District-court habeas and pattern-and-practice jurisdiction curtailed by the REAL ID Act and 8 U.S.C. 1252 are restored; the courts of appeals review questions of law and mixed questions of law and fact de novo (legacy, `domain-courts.md`:102). Detained cases get priority on every court's calendar (working choice; no fixed deadline is put on Article III courts)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.06",
+  "title": "Capacity: a corps sized to clear the backlog, split by need",
+  "agenda": "CRT-5",
+  "status": "decided, memo 9 part 2 B as changed, `-56`; meets IMM-3.08",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "The 800-judge cap from November 1, 2028 [EV-IMM-105] is repealed (IMM-3.08). The act authorizes judgeships for a corps of about 1,670 at peak (working assumption, the immigration model; range about 860-2,400 [EV-IMM-641]), hired about 250 a year from FY2030 to clear the 3.3 million pending cases [EV-IMM-100] by about FY2035. **Two kinds of judgeship, each sized to the need:** *regular 14-year judgeships* for the long-run need, about 730 judges after the backlog clears (immigration model), which takes about 200 of the added judges once attrition of about 5.6% a year [EV-IMM-646] shrinks today's 753 to about 530 by FY2035 (project arithmetic, working assumption); and *temporary judgeships* for the rest, about 720, whose terms end when the Judicial Conference certifies the backlog cleared (working choice: pending cases below twelve months of receipts) or at 14 years if sooner. A temporary judge may compete for a regular vacancy. The number is reset in 2033 from receipts after legalization",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "Federal judiciary; DOJ (EOIR) until the effective date",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-100",
+   "EV-IMM-103",
+   "EV-IMM-105",
+   "EV-IMM-641",
+   "EV-IMM-642",
+   "EV-IMM-646"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.07",
+  "title": "Timelines, notice and in absentia limits carried over",
+  "agenda": "CRT-5",
+  "status": "decided; meets IMM-3.09 and 3.10",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "The court applies the immigration act's timelines: detained cases within 90 days, review of an officer's asylum denial within 180 days, non-detained cases within two years once the backlog is cleared (IMM-3.09). Hearing notices go to the address in government records, with a right to reopen an order issued without proper notice (IMM-3.10); 15% of 2008-18 in absentia orders were later overturned [EV-IMM-316]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "Federal judiciary",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-112",
+   "EV-IMM-316"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.08",
+  "title": "Appointed counsel moves with the court",
+  "agenda": "CRT-5",
+  "status": "decided; meets IMM-3.12",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "Government-appointed counsel for children, people with a serious mental illness and everyone detained (IMM-3.12). From the effective date the Administrative Office runs the program for adults, on the model of the Criminal Justice Act panels; children's counsel stays with HHS's refugee office. The 2026 court bill appoints none [EV-IMM-114]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "Federal judiciary (Administrative Office); HHS (ORR)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-114"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.09",
+  "title": "The court's structure",
+  "agenda": "CRT-5",
+  "status": "decided, A′",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "An immigration court office in the Administrative Office (records, interpreters, space, the electronic filing system, judicial education), the appellate panels and the restored review. About $3-10 billion over FY2030-39 (judgment, the immigration milestone review's re-score without the judges and counsel already in IMM-1; `dossiers/immigration/review-milestone.md`:186-195), under $1 billion a year by FY2040. EOIR's budget for adjudication moves with the court. **Unbooked**, for stage G",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "Federal judiciary",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-576"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-5.10",
+  "title": "The public-rights risk and the fallback",
+  "agenda": "CRT-5",
+  "status": "decided, A′",
+  "decisions": [
+   "DEC-2026-11-17-56",
+   "DEC-2026-11-17-97"
+  ],
+  "parameters": "The exposed point is the public-rights limit on judges outside Article III, which the legacy file finds covers immigration (legacy, `domain-courts.md`:104). The act is severable: if a court holds that a class of cases needs an Article III judge, those cases go to the district court, and the rest of the court stands. Full Article III conversion (CRT-5C) stays a long-run aspiration, not this act",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order), scored with IMM-1"
+   }
+  ],
+  "agency": "—",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-245"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-20.01",
+  "title": "Civil legal aid grows through the Legal Services Corporation, paced by provider hiring",
+  "agenda": "CRT-20",
+  "status": "decided, memo 9 part 3 B",
+  "decisions": [
+   "DEC-2026-11-17-57"
+  ],
+  "parameters": "LSC's appropriation rises on a published schedule, each year's step released as grantees report attorney and paralegal hiring against their plans; no new federal right to counsel now. The schedule is sized in section 6 once LSC's funding series and grantee staffing are in the register (Evidence still needed). Low-income Americans get no or not enough help for 92% of their substantial civil legal problems (LSC's survey) [EV-DEM-240]; New York's eviction right outran its lawyers, with representation falling to 30% by March 2025 [EV-DEM-243]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "Commerce-Justice-Science appropriations (LSC)"
+   }
+  ],
+  "agency": "Legal Services Corporation",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-240",
+   "EV-DEM-241",
+   "EV-DEM-242",
+   "EV-DEM-243"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-1.01",
+  "title": "71 judgeships, phased across presidential terms",
+  "agenda": "CRT-1",
+  "status": "decided, memo 7 part 3",
+  "decisions": [
+   "DEC-2026-11-17-52",
+   "DEC-2026-11-17-53"
+  ],
+  "parameters": "The Judicial Conference's March 2025 request: 2 court of appeals and 69 district judgeships [EV-DEM-041], in three tranches about a third each (working choice: 2030, 2033 and 2035), so no one President fills them all (legacy, `domain-courts.md`:65). Weighted filings exceed 500 a judgeship in 20 of the 25 districts the Conference wants enlarged [EV-DEM-042]. A stand-alone bill aimed at 60 votes; the 2024 bill passed the Senate by unanimous consent before a veto [EV-DEM-044]. About $0.35-0.4 billion over FY2030-39 (judgment on CBO's score of the 2024 bill: $98 million of direct spending and $251 million subject to appropriation over 2024-2034 for 66 seats [EV-DEM-324])",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the judgeships act (P4), aimed at 60 votes"
+   }
+  ],
+  "agency": "Federal judiciary",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-041",
+   "EV-DEM-042",
+   "EV-DEM-043",
+   "EV-DEM-044",
+   "EV-DEM-045",
+   "EV-DEM-238",
+   "EV-DEM-239",
+   "EV-DEM-324"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-13.01",
+  "title": "Circuit realignment on stated criteria",
+  "agenda": "CRT-13",
+  "status": "decided, point 35",
+  "decisions": [
+   "DEC-2026-11-17-83"
+  ],
+  "parameters": "The act directs the Judicial Conference to report within 18 months a realignment on stated criteria (population, weighted filings per judgeship, geography), enacted with the second tranche of judgeships so no circuit loses judges; the Ninth Circuit's size is the main case (legacy, `domain-courts.md`:168). Splitting a circuit is paired with judgeships, so it is not an ideological split",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the judgeships act (P4), aimed at 60 votes"
+   }
+  ],
+  "agency": "Federal judiciary",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-2.01",
+  "title": "A binding code of conduct for the Justices",
+  "agenda": "CRT-2",
+  "status": "decided, memo 8 A",
+  "decisions": [
+   "DEC-2026-11-17-54"
+  ],
+  "parameters": "The Court adopts a binding code within a year of enactment (working choice), covering gifts, travel, outside income and the funding of amicus briefs; the Justices' financial disclosure, already required by law (legacy, `domain-courts.md`:75), is filed electronically and searchable. The 2023 code has no enforcement mechanism [EV-DEM-040] [EV-DEM-046]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Supreme Court",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-040",
+   "EV-DEM-046",
+   "EV-DEM-063",
+   "EV-DEM-248"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-2.02",
+  "title": "Recusal decided by the Court, with published reasons",
+  "agenda": "CRT-2",
+  "status": "decided, memo 8 A",
+  "decisions": [
+   "DEC-2026-11-17-54"
+  ],
+  "parameters": "A party may move for a Justice's recusal under 28 U.S.C. 455's standards; the Court decides under its own rule, never an outside body, and the reasons are published (working choice: within 14 days of the motion). The Chief Justice acknowledged 131 federal judges sat in 685 matters with a financial conflict [EV-DEM-229]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Supreme Court",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-229",
+   "EV-DEM-248"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-2.03",
+  "title": "An inspector general for the judiciary",
+  "agenda": "CRT-2",
+  "status": "decided, memo 8 A with an inspector general",
+  "decisions": [
+   "DEC-2026-11-17-54"
+  ],
+  "parameters": "Appointed by the Chief Justice after consulting the Judicial Conference (working choice: a six-year term, with 30 days' notice and reasons to Congress before any removal, EXE-5's template). Investigates complaints about the Justices' and judges' compliance with the code, the disclosure law and 28 U.S.C. 455, and reports findings to the Court and to the Judiciary Committees, published. **No power to sanction or to overrule a recusal.** A few million dollars a year: CBO scored the closest bill at $5 million over 2023-2028 [EV-DEM-327]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Federal judiciary",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-327"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "INT-12.01",
+  "title": "Disclosure for senior judges",
+  "agenda": "INT-12",
+  "status": "decided, memo 8",
+  "decisions": [
+   "DEC-2026-11-17-54"
+  ],
+  "parameters": "The same electronic, searchable financial disclosure for judges of the courts of appeals and district courts, written once with CRT-2.01 (legacy, `domain-integrity.md`:115)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Federal judiciary",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-229"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-3.01",
+  "title": "Random assignment for cases seeking relief beyond the parties",
+  "agenda": "CRT-3",
+  "status": "decided, point 26",
+  "decisions": [
+   "DEC-2026-11-17-77"
+  ],
+  "parameters": "A civil action seeking to bar or require state or federal action beyond the parties is assigned at random across the whole district, codifying the Judicial Conference's March 2024 policy, which some districts declined (legacy, `domain-courts.md`:88)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-3.02",
+  "title": "Three-judge courts for those cases",
+  "agenda": "CRT-3",
+  "status": "decided, point 26",
+  "decisions": [
+   "DEC-2026-11-17-77"
+  ],
+  "parameters": "Such an action is heard by a three-judge district court (28 U.S.C. 2284 [EV-DEM-344]), with the judges drawn at random from the circuit (working choice) and direct appeal to the Supreme Court. It is also the forum rule for challenges to this plan's laws: a shift, not a cure (legacy, line 90)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-344"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-4.01",
+  "title": "Emergency orders: recorded votes and written reasons, on a deadline",
+  "agenda": "CRT-4",
+  "status": "decided, point 27 with Espen's condition",
+  "decisions": [
+   "DEC-2026-11-17-78"
+  ],
+  "parameters": "Any order granting a stay, injunction or vacatur on an emergency application records each Justice's vote and carries written reasons, published with the order or within 30 days of it (working choice: Espen's deadline, so lower courts know what an order means and how to apply it). An order without published reasons carries no precedential weight. The stay standard is codified on the *Nken* baseline, and the Court publishes emergency-docket statistics each term. The counts of the government's success disagree by window and denominator [EV-DEM-055] [EV-DEM-060]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Supreme Court",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-055",
+   "EV-DEM-056",
+   "EV-DEM-057",
+   "EV-DEM-058",
+   "EV-DEM-059",
+   "EV-DEM-060",
+   "EV-DEM-061"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-6.01",
+  "title": "Records rules and cameras",
+  "agenda": "CRT-6",
+  "status": "decided, point 28",
+  "decisions": [
+   "DEC-2026-11-17-77"
+  ],
+  "parameters": "The Justices' working papers are records of the Court, opened after an embargo (working choice: 15 years after the case is decided, within the legacy range of 12 to 20); live audio of every argument from enactment and video from the next term (legacy, `domain-courts.md`:122)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Supreme Court",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-7.01",
+  "title": "Challenges to rules go to one court within a short window",
+  "agenda": "CRT-7",
+  "status": "decided, point 29",
+  "decisions": [
+   "DEC-2026-11-17-77"
+  ],
+  "parameters": "Pre-enforcement challenges to a final rule go to the D.C. Circuit, or the circuit a statute names, within a short window (working choice: 60 days from publication, as the Clean Air Act's 307(b) and the Hobbs Act set), with a new window for grounds that arise later; collateral attack in enforcement is barred, except constitutional claims, stated expressly so the *Axon* carve-outs hold (legacy, `domain-courts.md`:128). *Yakus* is the precedent",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-7.02",
+  "title": "The Corner Post fix",
+  "agenda": "CRT-7",
+  "status": "decided, point 29",
+  "decisions": [
+   "DEC-2026-11-17-77"
+  ],
+  "parameters": "A facial claim against a rule accrues when the rule is published, reversing *Corner Post* [EV-DEM-052]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-052"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-11.01",
+  "title": "Certiorari before judgment limited",
+  "agenda": "CRT-11",
+  "status": "decided, point 33, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "The Court may grant review before the court of appeals rules only when the court of appeals certifies the question, or after it has held the case for 90 days without deciding (working choice). Emergency applications are not affected (CRT-4.01)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Supreme Court",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-11.02",
+  "title": "Statutory circuit splits must be resolved",
+  "agenda": "CRT-11",
+  "status": "decided, point 33, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "When courts of appeals have issued conflicting holdings on the meaning of a federal statute, acknowledged in an opinion, a petition raising the split is an appeal the Court must decide, summarily if it chooses, so the same law means the same thing everywhere. The Court decided 56 signed-opinion cases in OT2024, against more than 160 a year in the 1980s (legacy, `domain-courts.md`:156). **Held:** a certiorari screening division and mandatory review of statute invalidations",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the court integrity act (P2)"
+   }
+  ],
+  "agency": "Supreme Court",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-15.01",
+  "title": "Eighteen years of active service, then senior status",
+  "agenda": "CRT-15",
+  "status": "decided, memo 7 A",
+  "decisions": [
+   "DEC-2026-11-17-51",
+   "DEC-2026-11-17-52"
+  ],
+  "parameters": "Each Justice appointed after enactment serves 18 years in regular active service, then holds the office as a senior Justice, with Article III pay and tenure kept (the 28 U.S.C. 371 analogy), sitting by designation on lower courts and on the Court when it lacks a quorum. **Nine seats, two years apart:** the Court stays at nine (28 U.S.C. 1 [EV-DEM-343]); each seat has an end year so that one active term ends in each odd-numbered year, and a Justice appointed to a seat vacated early serves out that seat's term (working choice). Actual Senate consent is required; no deemed consent, the weakest link under the Appointments Clause (legacy, `domain-courts.md`:180). Prospective only, the first statutory term ends about 2047",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the Supreme Court terms act, when the politics allow"
+   }
+  ],
+  "agency": "Supreme Court; the President and Senate",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-230",
+   "EV-DEM-231",
+   "EV-DEM-232",
+   "EV-DEM-233",
+   "EV-DEM-234",
+   "EV-DEM-235",
+   "EV-DEM-343"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-15.02",
+  "title": "Sitting Justices, in a separable part",
+  "agenda": "CRT-15",
+  "status": "decided, `-51`, a",
+  "decisions": [
+   "DEC-2026-11-17-51",
+   "DEC-2026-11-17-52"
+  ],
+  "parameters": "A separate, severable part moves sitting Justices to senior status one at a time in order of seniority, one every two years from the first odd-numbered year after enactment, so the nine seats reach the two-year schedule within the term. It is the part most likely to be struck under \"during good Behaviour\" (memo 7, option B); if it falls, CRT-15.01 stands, as severability clauses are applied",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the Supreme Court terms act, when the politics allow"
+   }
+  ],
+  "agency": "Supreme Court",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-233",
+   "EV-DEM-234"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-15.03",
+  "title": "The amendment beside the statute",
+  "agenda": "CRT-15",
+  "status": "decided, memo 7 A: AMD-2",
+  "decisions": [
+   "DEC-2026-11-17-51",
+   "DEC-2026-11-17-52"
+  ],
+  "parameters": "A proposed amendment with 18-year staggered terms and a vacancy every two years, Article III service kept afterward (AMD-2, the amendments topic); two-thirds of each chamber and 38 states",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "AMEND",
+    "kind": "amendment",
+    "note": "proposed constitutional amendment (AMD-2)"
+   }
+  ],
+  "agency": "Congress; AMD-2",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-063",
+   "EV-DEM-234"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-8.01",
+  "title": "Express delegations in every statute the plan writes",
+  "agenda": "CRT-8",
+  "status": "decided, point 30",
+  "decisions": [
+   "DEC-2026-11-17-77"
+  ],
+  "parameters": "Each plan statute states its delegations expressly (\"the Secretary shall define ...\") with a findings record, rather than relying on a general deference statute after *Loper Bright* [EV-DEM-051]; drafted with the templates CAP-18.01 prepares and the congressional support agencies (CAP-2, CAP-3)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "a drafting rule applied in every plan statute"
+   }
+  ],
+  "agency": "Congress",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-051"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-10.01",
+  "title": "The plan's own civil penalties written for district court",
+  "agenda": "CRT-10",
+  "status": "decided, point 32, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "Every new civil penalty in a plan statute is enforced by an action in district court, with a jury where the Seventh Amendment requires one after *Jarkesy*, from the start. The stock ban's penalty is written this way (INT-1.04)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "a drafting rule applied in every plan statute"
+   }
+  ],
+  "agency": "DOJ; agencies",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-9.01",
+  "title": "Remedies after CASA, symmetrically, in the second Congress",
+  "agenda": "CRT-9",
+  "status": "decided, point 31, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "In 2031-32: the APA's \"set aside\" means vacatur of the rule; the statute states when relief beyond the parties is available; such cases go to the three-judge courts of CRT-3.02 with expedited review. It binds challenges to any administration's actions alike. Not urgent: CRS finds no systemic shift a year after *CASA* [EV-DEM-246]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "second Congress (2031-32)"
+   }
+  ],
+  "agency": "Federal courts",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-047",
+   "EV-DEM-048",
+   "EV-DEM-049",
+   "EV-DEM-050",
+   "EV-DEM-246"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-10.02",
+  "title": "Penalties under existing statutes, second wave",
+  "agenda": "CRT-10",
+  "status": "decided, point 32, `-98`",
+  "decisions": [
+   "DEC-2026-11-17-98"
+  ],
+  "parameters": "In 2031-32, agencies whose penalties *Jarkesy* exposes may bring penalty actions in district court, or the penalty is restructured within the public-rights category, statute by statute as the case law settles",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "second Congress (2031-32)"
+   }
+  ],
+  "agency": "DOJ; agencies",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-17.01",
+  "title": "The jurisdiction norm",
+  "agenda": "CRT-17",
+  "status": "decided, `-86`; wording `-99`, s",
+  "decisions": [
+   "DEC-2026-11-17-86",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Declared by the majority's leaders and in a sense-of-Congress resolution, not a statute: \"**no statute leaves constitutional claims with no federal forum.**\" It is not a blanket surrender of Congress's power over jurisdiction, which stays available when the moment calls for it: channeling, timing and remedies are tools the plan itself uses (CRT-3.02, CRT-7.01), as Congress has since *McCardle* (1869), within the limits of *Klein* and *Boumediene* (note, part s)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "NORM",
+    "kind": "declaration",
+    "note": "declared norm and a sense-of-Congress resolution"
+   }
+  ],
+  "agency": "Congress",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-18.01",
+  "title": "The impeachment norm",
+  "agenda": "CRT-18",
+  "status": "decided, `-86`; wording `-99`, s",
+  "decisions": [
+   "DEC-2026-11-17-86",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Declared the same way: impeachment of a judge is \"**never for the content of a ruling; always available for bribery, corruption or concealed interests, including where they produced a ruling.**\" The offense is the corruption, not the ruling: the House impeached Judge Porteous on March 11, 2010, among other things for accepting kickbacks, soliciting favors and falsifying bankruptcy documents, and the Senate removed him that year [EV-DEM-341]. Justice Chase's acquittal (1805) set the norm against impeaching over rulings",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "NORM",
+    "kind": "declaration",
+    "note": "declared norm and a sense-of-Congress resolution"
+   }
+  ],
+  "agency": "Congress",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-341"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CRT-19.01",
+  "title": "A state track to end partisan judicial elections",
+  "agenda": "CRT-19",
+  "status": "decided, point 39",
+  "decisions": [
+   "DEC-2026-11-17-83"
+  ],
+  "parameters": "Model laws and campaign support for nonpartisan selection of state judges and reform of state supreme court selection",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "STATE",
+    "kind": "state_track",
+    "note": "state track"
+   }
+  ],
+  "agency": "States",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-7S.01",
+  "title": "The surge, allocated agency by agency",
+  "agenda": "CAP-7S",
+  "status": "decided, memo 10 part 1 B",
+  "decisions": [
+   "DEC-2026-11-17-58"
+  ],
+  "parameters": "A multi-year direct appropriation in R1, available on enactment and until spent, at the booked $98.0 billion over FY2030-35, plus the $5 billion shifted into FY2029 (`note-cap7-sizes.md`:11-16). It is allocated by part G's bottom-up table, $54.8 billion of surge, agency by agency: the IRS $8.8 billion, FEMA $10.0 billion, CMS $8.0 billion, SSA $3.9 billion, HUD $3.0 billion, ACF $1.0 billion and the rest as part G shows; state and local implementation, the digital service corps and oversight $9.4 billion; this foundation's agencies $0.2 billion; other entities $9.8 billion at the legacy review's figures until their dossiers state needs [EV-DEM-328] [EV-DEM-329] [EV-DEM-330]. The booked size is unchanged; #404's residual ($7.0 billion) is stage G's",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act (multi-year direct appropriation)"
+   }
+  ],
+  "agency": "OMB; each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-328",
+   "EV-DEM-329",
+   "EV-DEM-330",
+   "EV-DEM-331",
+   "EV-DEM-332"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-7.01",
+  "title": "The sustained increase, allocated agency by agency",
+  "agenda": "CAP-7",
+  "status": "decided, memo 10 part 1 B",
+  "decisions": [
+   "DEC-2026-11-17-58",
+   "DEC-2026-11-17-59"
+  ],
+  "parameters": "Permanent, at the booked $279.2 billion over FY2030-39 and $37.2 billion in FY2040, allocated by part G's table: $249.5 billion over FY2030-39 and $32.5 billion in FY2040 (the IRS $94.2 billion, SSA $31.0 billion gross, CMS $17.4 billion, FEMA $13.0 billion, HUD $9.9 billion and the rest). SSA's share is charged to the trust funds as current law splits it; the split is still to find [EV-DEM-329]. #404's residual ($20.8 billion) is stage G's",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act (multi-year direct appropriation)"
+   }
+  ],
+  "agency": "OMB; each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-328",
+   "EV-DEM-329",
+   "EV-DEM-330",
+   "EV-DEM-331"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-7S.02",
+  "title": "A named delivery contingency",
+  "agenda": "CAP-7S",
+  "status": "decided, memo 10 part 1 B",
+  "decisions": [
+   "DEC-2026-11-17-58"
+  ],
+  "parameters": "What the booked figures hold beyond the allocation, about $43 billion of surge and $30 billion of sustained money (and about $5 billion in FY2040), is a delivery contingency. OMB releases it only against a published written need from a flagship's delivery section or an agency's readiness report, with 30 days' notice to the Appropriations Committees (working choice), and only for delivery of enacted programs, never for new ones. It covers the legacy review's high case ($103.3 billion and $355.1 billion) [EV-DEM-328] without being spent by default",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act (multi-year direct appropriation)"
+   }
+  ],
+  "agency": "OMB",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-328"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-7.02",
+  "title": "Money released against published hiring paths",
+  "agenda": "CAP-7",
+  "status": "decided, memo 10 part 2 B",
+  "decisions": [
+   "DEC-2026-11-17-58",
+   "DEC-2026-11-17-59"
+  ],
+  "parameters": "Each agency publishes a hiring path for its line; OMB releases each tranche as hiring follows it, with a quarterly count and a one-year wait for the next tranche when an agency is below 75% of its path (working choice, housing's rule for HUD applied plan-wide; `dossiers/home/5-delivery.md`:171). Money stays available, so a slow year does not lose it. **A program whose agency is behind starts later; it does not shrink.** The working path is the legacy review's midpoint: sustained money of $10.4 billion in FY2030, $26.8 billion by FY2034 and $31.9 billion by FY2039 [EV-DEM-328]. Hiring, not money, sets the pace [EV-DEM-277] [EV-DEM-085]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act (multi-year direct appropriation)"
+   }
+  ],
+  "agency": "OMB; each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-082",
+   "EV-DEM-085",
+   "EV-DEM-277",
+   "EV-DEM-328"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-11.01",
+  "title": "Hiring and pay tools",
+  "agenda": "CAP-11",
+  "status": "decided, memo 10 part 2 B; `-99`, g",
+  "decisions": [
+   "DEC-2026-11-17-59",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "In the first bill (R1, as a condition on the money; the civil service act if struck): direct-hire authority for the delivery jobs each hiring path names; former staff rehired without pay penalties; special pay rates for technology and actuarial jobs; and a published time-to-hire target for each agency, reported quarterly by OPM, which builds the time-to-hire series the register lacks",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act, as a condition on the money; the civil service and delivery act if struck"
+   }
+  ],
+  "agency": "OPM; each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-083",
+   "EV-DEM-085"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-7.03",
+  "title": "Published delivery measures for every plan program",
+  "agenda": "CAP-7",
+  "status": "decided as a direction, `-99`, g",
+  "decisions": [
+   "DEC-2026-11-17-58",
+   "DEC-2026-11-17-59",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Each plan program publishes quarterly: time to a decision, error rates, call-wait times and take-up. The next tranche (CAP-7.02) follows these as well as hiring: a program that misses its measures gets a corrective plan reviewed by the delivery unit, not a cut (working choice). States with modern systems started pandemic benefits faster [EV-DEM-294] [EV-DEM-295]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "Each agency; OMB",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-095",
+   "EV-DEM-103",
+   "EV-DEM-129",
+   "EV-DEM-294",
+   "EV-DEM-295"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-7.04",
+  "title": "A delivery unit at OMB",
+  "agenda": "CAP-7",
+  "status": "decided as a direction, `-99`, g",
+  "decisions": [
+   "DEC-2026-11-17-58",
+   "DEC-2026-11-17-59",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "A small unit (working choice: about 30 to 50 staff, inside the cross-cutting line) tracks the plan's dated needs, the first that bind being the IRS's monthly payment file by July 2030, SSA's paid leave by mid-2030, HUD's first awards and ACF's state plans in 2030 and CMS's wave 1 on January 1, 2031 (section 3, part G), escalates when an agency slips, and reports to Congress quarterly. Stood up on January 20, 2029",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   },
+   {
+    "vehicle": "EXEC",
+    "kind": "executive",
+    "note": "stood up January 20, 2029"
+   }
+  ],
+  "agency": "OMB",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-7.05",
+  "title": "Independent checks at set points",
+  "agenda": "CAP-7",
+  "status": "decided as a direction, `-99`, g",
+  "decisions": [
+   "DEC-2026-11-17-58",
+   "DEC-2026-11-17-59",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "GAO audits each agency's hiring path and every contingency release once a year and reports to Congress; inspectors general get the staff to follow the money, in the integrity units' line [EV-DEM-329]. In FY2025 about 13,800 inspector general staff reported about $65.6 billion of potential savings, about $17 for each dollar of their budget by the council's count [EV-DEM-223]; returns vary widely by office [EV-DEM-224]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "GAO; inspectors general",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-223",
+   "EV-DEM-224",
+   "EV-DEM-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-12.01",
+  "title": "A federal digital service corps and procurement reform, built on the existing digital services",
+  "agenda": "CAP-12",
+  "status": "decided, point 46 with Espen's condition",
+  "decisions": [
+   "DEC-2026-11-17-92"
+  ],
+  "parameters": "Product teams of in-house engineers, designers and program staff for the plan's delivery systems, built on or alongside the existing federal digital service and infrastructure work rather than from scratch (18F's roughly 90 staff were eliminated in March 2025 [EV-DEM-102]); modular contracting with working software shown before payment. About $3.7 billion over FY2030-39 (legacy review) [EV-DEM-329]. Direct File cost $16.2 million against a $61.2 million estimate [EV-DEM-279]; HealthCare.gov's 2013 launch is the failure to avoid [EV-CAR-311]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "OMB; GSA; agencies",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-102",
+   "EV-DEM-110",
+   "EV-DEM-111",
+   "EV-DEM-279",
+   "EV-DEM-329",
+   "EV-CAR-311"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-13.01",
+  "title": "State and local implementation grants",
+  "agenda": "CAP-13",
+  "status": "decided, point 47",
+  "decisions": [
+   "DEC-2026-11-17-93"
+  ],
+  "parameters": "About $8 billion of surge [EV-DEM-329], by formula on the plan programs' caseloads (working choice), for cross-program eligibility systems, the data agreements shared rule 5 needs (CAP-19) and the voting floor's records match (DEM-11.03). In R1 with the surge; authorized in the civil service and delivery act",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act (CAP-13 surge)"
+   }
+  ],
+  "agency": "OMB; HHS; USDA; EAC",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-140",
+   "EV-DEM-317",
+   "EV-DEM-329"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-19.01",
+  "title": "Eligibility from records the federal government holds",
+  "agenda": "CAP-19",
+  "status": "decided, memo 11 B",
+  "decisions": [
+   "DEC-2026-11-17-60"
+  ],
+  "parameters": "Every program the plan creates or changes decides eligibility first from federal records already held (IRS, SSA, USCIS and the programs' own), and accepts the person's own statement where those records are silent. A person in several programs proves a fact once. Agencies attribute about 73% of FY2021-24 overpayments to failure to use data that already existed [EV-DEM-291]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "Each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-291",
+   "EV-DEM-293",
+   "EV-DEM-318",
+   "EV-DEM-319"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-19.02",
+  "title": "A federal records statute: modernized, connected, limited",
+  "agenda": "CAP-19",
+  "status": "decided, memo 11 B on Espen's framing",
+  "decisions": [
+   "DEC-2026-11-17-60"
+  ],
+  "parameters": "The plan's programs may share the federal records they need, through modernized, interoperable federal systems. Each use is logged; a person can see what was used about them; no record shared under the rule may be used for immigration or criminal enforcement. **It does not reach state, local or school records,** and does not override states' protection of the personal data they hold. Estonia's once-only rule is the model in kind [EV-DEM-282]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "OMB; each agency; the digital service corps",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-282",
+   "EV-DEM-283"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-19.03",
+  "title": "What the government lacks is asked for once",
+  "agenda": "CAP-19",
+  "status": "decided, memo 11 B on Espen's framing",
+  "decisions": [
+   "DEC-2026-11-17-60"
+  ],
+  "parameters": "Where a program needs a record the federal government does not hold (a state, local or school record), the person submits it, or consents to its transfer, once, through one simple federal service; the record or the consent then serves every plan program, until the person withdraws it. Until the statute passes, housing's consent-based sharing stands (`dossiers/home/5-delivery.md`:232)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "OMB; each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-121",
+   "EV-DEM-282"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-19.04",
+  "title": "Checks by sample after payment",
+  "agenda": "CAP-19",
+  "status": "decided, memo 11 B",
+  "decisions": [
+   "DEC-2026-11-17-60"
+  ],
+  "parameters": "Programs check eligibility by sample after payment, not by documents at the door; a data match (Do Not Pay or another) is a flag for review by a person, never a denial by itself [EV-DEM-292]. Stricter checks at the door cut legitimate beneficiaries off in Jharkhand [EV-DEM-286]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "Each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-286",
+   "EV-DEM-287",
+   "EV-DEM-292"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-19.05",
+  "title": "Recovery protections in law",
+  "agenda": "CAP-19",
+  "status": "decided, memo 11 B",
+  "decisions": [
+   "DEC-2026-11-17-60"
+  ],
+  "parameters": "No money is recovered without a person's review, a written notice and a hardship rule; recovery is capped at 10% of a monthly payment; payment continues while an appeal is pending; and an error the government made is the government's, not repaid by the person. Written in statute because SSA's default withholding moved from 100% to 10% to 50% by notice in two years [EV-DEM-301] [EV-DEM-302]. Robodebt and the Dutch childcare scandal are the failures this prevents [EV-DEM-303] [EV-DEM-304] [EV-DEM-305]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "Each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-301",
+   "EV-DEM-302",
+   "EV-DEM-303",
+   "EV-DEM-304",
+   "EV-DEM-305",
+   "EV-DEM-306",
+   "EV-DEM-307"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-19.06",
+  "title": "Each program adopts the rule by reference",
+  "agenda": "CAP-19",
+  "status": "decided, memo 11 B",
+  "decisions": [
+   "DEC-2026-11-17-60"
+  ],
+  "parameters": "Each plan statute adopts CAP-19.01 to 19.05 by reference, so the rule can change in one place. Housing agencies keep administering vouchers, with income reuse from other programs (42 U.S.C. 1437a(a)(7)(D)) kept (`dossiers/shared-rules.md`, rule 5)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "Each agency",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-8.01",
+  "title": "Schedule Policy/Career repealed and barred",
+  "agenda": "CAP-8",
+  "status": "decided, memo 12 part 1 B",
+  "decisions": [
+   "DEC-2026-11-17-61"
+  ],
+  "parameters": "The statute repeals Schedule Policy/Career, bars any schedule that strips career employees of their appeal rights, and restores the protections of the 2024 rule that OPM's February 6, 2026 rule rescinded [EV-DEM-086]; positions moved, about 50,000 by OPM's estimate [EV-DEM-087], return to their prior status within 90 days (working choice). The day-one rescission by order is executive power's EXE-17; the statute is what a later order cannot undo",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "OPM; each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-086",
+   "EV-DEM-087",
+   "EV-DEM-308",
+   "EV-DEM-309",
+   "EV-DEM-310",
+   "EV-DEM-314"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-9.01",
+  "title": "A faster, fair process for poor performers",
+  "agenda": "CAP-9",
+  "status": "decided, memo 12 part 1 B: the trade",
+  "decisions": [
+   "DEC-2026-11-17-61"
+  ],
+  "parameters": "Paired with CAP-8.01: a performance process with a set improvement period and a written decision on a short clock, and appeals to the Merit Systems Protection Board decided on a fast track (working choice: a 30-day improvement period, a decision within 30 days after it, and appeals decided within 120 days), with due process kept. Its design is the hard part and is drafted with the unions' input",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "OPM; MSPB",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-311",
+   "EV-DEM-312",
+   "EV-DEM-313"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-4.01",
+  "title": "Payments to people continue when funding lapses",
+  "agenda": "CAP-4",
+  "status": "decided, memo 12 part 2 B",
+  "decisions": [
+   "DEC-2026-11-17-62"
+  ],
+  "parameters": "When appropriations lapse, three things continue at the prior year's rate until a new law passes: benefit payments to people under any program; pay for staff who must work during the lapse, with the staff who make those payments excepted by law; and payments under grants already awarded. Everything else lapses as today; **no general automatic continuing resolution.** Funding stopped three times in seven months in 2025-26 [EV-DEM-127]. It scores as direct spending in a lapse year under CBO's convention [EV-DEM-315] but spends nothing a lapse would not later repay. Executive power's EXE-18 writes each program's standing disbursement authority",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 civil service and delivery act"
+   }
+  ],
+  "agency": "OMB; Treasury (Fiscal Service); each agency",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-127",
+   "EV-DEM-128",
+   "EV-DEM-315",
+   "EV-DEM-316"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-1.01",
+  "title": "Congressional staff restored to real 1979 levels",
+  "agenda": "CAP-1",
+  "status": "decided, point 40 with Espen's condition",
+  "decisions": [
+   "DEC-2026-11-17-87"
+  ],
+  "parameters": "Personal office and committee staff budgets restored to their 1979 levels **in real, inflation-adjusted terms, never nominal 1979 pay**, and indexed to the employment cost index after; the cap that ties senior staff pay to members' pay is loosened so pay compression ends (legacy, `domain-capacity.md`:57). Packaged with the stock ban in the ethics act (\"accountability buys capacity\"). About $0.02 trillion over FY2030-39, roughly $1.5-3 billion a year across both chambers (legacy, line 61)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act, with the stock ban"
+   },
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "legislative branch appropriations"
+   }
+  ],
+  "agency": "House and Senate",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-14.01",
+  "title": "A D.C. housing allowance for members",
+  "agenda": "CAP-14",
+  "status": "decided, point 40",
+  "decisions": [
+   "DEC-2026-11-17-87"
+  ],
+  "parameters": "Members whose homes are outside the Washington area receive a housing allowance (working choice: set at the area's fair market rent for a one-bedroom unit, adjusted each year), so the cost of a second home does not filter who serves (legacy, `domain-capacity.md`:93)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 ethics and accountability act, with the stock ban"
+   },
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "legislative branch appropriations"
+   }
+  ],
+  "agency": "House and Senate",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-2.01",
+  "title": "A modernized Office of Technology Assessment",
+  "agenda": "CAP-2",
+  "status": "decided, point 41 with Espen's condition",
+  "decisions": [
+   "DEC-2026-11-17-88"
+  ],
+  "parameters": "The Technology Assessment Act of 1972 is still law; the office is funded again and modernized: rapid briefs as well as full assessments, standing technical fellows, open publication, horizon scanning on AI and other fast-moving fields, and a staff cap above the old 143 (legacy, `domain-capacity.md`:65). Under $0.01 trillion over FY2030-39 (legacy, line 67)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "legislative branch appropriations"
+   }
+  ],
+  "agency": "Congress (OTA)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-3.01",
+  "title": "CRS and GAO toward 1992 levels; CBO's scoring capacity rebuilt",
+  "agenda": "CAP-3",
+  "status": "decided, point 42",
+  "decisions": [
+   "DEC-2026-11-17-89"
+  ],
+  "parameters": "Staffing restored toward 1992 levels over FY2030-34 against published hiring paths, the legacy counts (GAO 5,062 in 1992; CRS 838) to be re-checked on one method (Evidence still needed; legacy, `domain-capacity.md`:71); CBO's scoring staff rebuilt so the plan's bills can be scored in the reconciliation window. About $0.01 trillion (legacy, line 75)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "legislative branch appropriations"
+   }
+  ],
+  "agency": "CRS; GAO; CBO",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-5.01",
+  "title": "Transparent, competitive, capped earmarks",
+  "agenda": "CAP-5",
+  "status": "decided, point 43",
+  "decisions": [
+   "DEC-2026-11-17-89"
+  ],
+  "parameters": "In each chamber's rules: each request published with its sponsor, recipient and purpose; awarded competitively by the agency among eligible requests on published criteria; capped as a share of discretionary spending (working choice: the 1% the chambers have used since FY2022, to confirm in drafting)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "RULES",
+    "kind": "chamber_rules",
+    "note": "House and Senate rules, January 2029"
+   }
+  ],
+  "agency": "House and Senate",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-6.01",
+  "title": "A statute-tracking office",
+  "agenda": "CAP-6",
+  "status": "decided, point 44; budget `-99`, t",
+  "decisions": [
+   "DEC-2026-11-17-90",
+   "DEC-2026-11-17-99"
+  ],
+  "parameters": "Reads every federal court decision that construes a statute, flags those that narrow or misread one, and drafts a fix for the committees, with a published annual report; the institutional form of CRT-14. **About $8 million a year (range $5-12 million):** 20 to 40 lawyers and analysts plus about $1-2 million for case-tracking data and software, indexed; about $0.06-0.12 billion over FY2030-39 and about $10 million in FY2040 (judgment). The House's Office of the Law Revision Counsel, the nearest comparator, had $3.9 million in the FY2024 bill as reported [EV-DEM-339] and asked for $5.048 million for FY2025 [EV-DEM-340]. **Two homes kept:** CRS's legal division, or a joint office reporting to both chambers' legislative counsel; the Legislative Branch appropriations act chooses. Unbooked, for stage G",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "legislative branch appropriations"
+   }
+  ],
+  "agency": "CRS or the legislative counsel",
+  "current_law": "",
+  "evidence": [
+   "EV-DEM-339",
+   "EV-DEM-340"
+  ],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-15.01",
+  "title": "Legislative technology",
+  "agenda": "CAP-15",
+  "status": "decided, point 48",
+  "decisions": [
+   "DEC-2026-11-17-93"
+  ],
+  "parameters": "Unified drafting and scoring systems for both chambers and the support agencies; second wave, small cost (legacy, `domain-capacity.md`:93)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "legislative branch appropriations"
+   }
+  ],
+  "agency": "House and Senate",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-16.01",
+  "title": "Committee jurisdiction for AI, climate and cyber",
+  "agenda": "CAP-16",
+  "status": "decided, point 48",
+  "decisions": [
+   "DEC-2026-11-17-93"
+  ],
+  "parameters": "Realigned in the January 2029 rules packages (legacy, `domain-capacity.md`:97)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "RULES",
+    "kind": "chamber_rules",
+    "note": "House and Senate rules, January 2029"
+   }
+  ],
+  "agency": "House and Senate",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-17.01",
+  "title": "Legal culture: clerkships and drafting clinics",
+  "agenda": "CAP-17",
+  "status": "decided, point 49",
+  "decisions": [
+   "DEC-2026-11-17-93"
+  ],
+  "parameters": "Paid congressional clerkships for recent law graduates and grants for law-school legislative drafting clinics; mostly outside the federal budget (legacy, `domain-capacity.md`:97)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "legislative branch appropriations"
+   }
+  ],
+  "agency": "House and Senate",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ },
+ {
+  "id": "CAP-18.01",
+  "title": "Draft the successor legislation in 2027-28",
+  "agenda": "CAP-18",
+  "status": "decided, point 50; preparation, labeled",
+  "decisions": [
+   "DEC-2026-11-17-93"
+  ],
+  "parameters": "Before January 2029: every successor bill, the day-one executive bridge and the express-delegation templates CRT-8.01 uses, drafted outside government; the single largest drafting task in the agenda (legacy, `domain-capacity.md`:191)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "PREP",
+    "kind": "preparation",
+    "note": "preparation, 2027-28"
+   }
+  ],
+  "agency": "— (preparation)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "3-design.md, \"What the options cost\" and part G (section 6 not yet drafted); 4-specification.md, \"What this costs, for stage G\"",
+  "spec": "dossiers/foundations/democratic-renewal/4-specification.md"
+ }
+]

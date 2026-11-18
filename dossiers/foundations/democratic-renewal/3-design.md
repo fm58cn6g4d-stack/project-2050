@@ -1,6 +1,6 @@
 # Democratic renewal: design choices
 
-Role: section 3 of the democratic renewal foundation: the real forks, the options weighed and a recommendation for each, with one decision memo per fork in `memos/` (indexed in `memos/README.md`), the narrower points as a numbered yes-or-no list, and part G's first bottom-up sizing of the cross-cutting state capacity. Status: **decided** (`DEC-2026-11-17-40` to `-94`, Question 0d, November 17, 2026; memo 9 part 1 and the eight provisional points settled, and the follow-up note's recommendations adopted, in `-97` to `-99`), each memo and point on its own, as recommended except where "Decided" below says otherwise. The options and recommendations below are kept as they were sent; section 4 carries the decided design and is on hold until Espen says go. Every one of the 118 rows homed here (`agenda/agenda.csv`, `home_dossier` = `foundations/democratic-renewal`) is either in a memo or in the yes-or-no list (the table "Where each row is decided"). The decided rows move to L2 in `agenda/agenda.csv`; directions stay at L1. This section books nothing and changes no model input.
+Role: section 3 of the democratic renewal foundation: the real forks, the options weighed and a recommendation for each, with one decision memo per fork in `memos/` (indexed in `memos/README.md`), the narrower points as a numbered yes-or-no list, and part G's first bottom-up sizing of the cross-cutting state capacity. Status: **decided** (`DEC-2026-11-17-40` to `-94`, Question 0d, November 17, 2026; memo 9 part 1 and the eight provisional points settled, and the follow-up note's recommendations adopted, in `-97` to `-99`), each memo and point on its own, as recommended except where "Decided" below says otherwise. The options and recommendations below are kept as they were sent; section 4 (`4-specification.md`) carries the decided design. Every one of the 118 rows homed here (`agenda/agenda.csv`, `home_dossier` = `foundations/democratic-renewal`) is either in a memo or in the yes-or-no list (the table "Where each row is decided"). The decided rows move to L2 in `agenda/agenda.csv`; directions stay at L1. This section books nothing and changes no model input.
 
 ## How to read this section
 
@@ -18,7 +18,7 @@ Espen answered the batch on November 17, 2026 (`DEC-2026-11-17-40` to `-94`), ea
   - memo 1: open to voter ID as a direction, only if free and easy to meet and genuinely more secure and trusted (note, part a);
   - memo 6 part 1: no forced sale (divesting is one option; a qualified blind trust or similar is another); diversified mutual funds and ETFs, Treasuries and municipal bonds, and the TSP and other retirement accounts never trigger the ban (part c);
   - memo 7 part 1: sitting Justices covered in a severable part; consider 13 Justices to match the 13 circuits (part d); part 2: the term-limits bill is not held to 2033;
-  - memo 9 part 2: the added judges split between regular-term and temporary hires, each sized to the need, so the saving in IMM-1 is smaller than B's −$5.5 billion; part 3: the public defender shortage is addressed too, separately (part f);
+  - memo 9 part 2: the added judges split between regular-term and temporary hires, each sized to the need, so the saving in IMM-1 is smaller than B's −$5.5 billion (about −$4.3 billion over FY2036-39 on section 4's split, CRT-5.06); part 3: the public defender shortage is addressed too, separately (part f);
   - memo 10 part 2: check that pacing plus hiring authority is the best way to build and hold agencies accountable (part g);
   - memo 11: built on federal records, made to work together, with no reach into state, local or school records; records a program lacks come once, by the person's submission or consent, and then serve every agency;
   - memo 13: Espen asks for another look at an earlier enlargement or a state option (part h);
@@ -268,4 +268,4 @@ From `dossiers/shared-rules.md`:
 
 ## Questions for Espen
 
-The batch is decided (`DEC-2026-11-17-40` to `-99`), with nothing left open. Still to come: the go for section 4.
+The batch is decided (`DEC-2026-11-17-40` to `-99`), with nothing left open here. Section 4 is drafted; its one question is in `4-specification.md`.
