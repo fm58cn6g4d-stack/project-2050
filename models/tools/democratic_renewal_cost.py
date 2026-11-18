@@ -177,7 +177,7 @@ def check():
     assert abs(b["CAP-7"]["fy2030_39"] - 279.2) < 0.05, b["CAP-7"]
     assert abs(b["CAP-7"]["fy2040"] - 37.2) < 0.05, b["CAP-7"]
     assert abs(b["DEM-11"]["fy2030_39"] - 20.0) < 0.05 and abs(b["DEM-11"]["fy2040"] - 2.26) < 0.01
-    assert abs(s["gap_2040"] - 602.7) < 0.1, s["gap_2040"]
+    assert abs(s["gap_2040"] - 614.0) < 0.1, s["gap_2040"]
     t = s["later_tier3"]["CRT-5.06, the judges' split, against IMM-1"]
     assert abs(t["fy2030_39"] + 4.3) < 0.01 and abs(t["fy2040"] + 0.9) < 0.01, t
     c = s["contingency"]

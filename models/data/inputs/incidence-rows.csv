@@ -65,6 +65,8 @@ package,E1h,"Clean-energy credits, household share (30% of CLI-1)",benefit,0.3*[
 package,E12,AI and work transition support (AI-4),benefit,[AI-4],workers_ai,,ledger
 package,LAB8,Registered apprenticeships (LAB-8),benefit,[LAB-8],education,,ledger
 package,LAB9,National service stipend and education award (LAB-9),benefit,[LAB-9],service,,ledger
+package,LAB11,Unemployment insurance on the general fund: Extended Benefits and administration (LAB-11),benefit,[LAB-11],ui,,ledger
+package,LAB18,Wage insurance and its administration (LAB-18),benefit,[LAB-18],ui,,ledger
 option,C18,"Top four brackets +1, gains +2, LIFO",cost,[C18],brackets_top,,ledger option
 option,C19,Cap the employer health exclusion,cost,[C19],exclusion_cap,,ledger option
 option,C19b,"Cap the employer health exclusion at the 75th percentile (CBO alt. 2, scaled)",cost,[C19b],exclusion_cap,,ledger option

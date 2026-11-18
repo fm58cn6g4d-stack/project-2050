@@ -123,46 +123,47 @@ Net dollars per household per year (benefits minus costs). "Legacy" gives the le
 
 | Scenario | Version | Q1 | Q2 | Q3 | Q4 | Q5 | 80-99th | Top 1% |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Q | legacy | +$8,791 | +$6,514 | +$3,464 | −$312 | −$49,326 | −$16,659 | −$670,006 |
-| Q | model | +$9,474 | +$5,578 | +$3,432 | −$131 | −$47,741 | −$16,689 | −$637,720 |
-| A | legacy | +$8,845 | +$6,677 | +$3,823 | +$555 | −$39,294 | −$12,845 | −$541,828 |
-| A | model | +$9,518 | +$5,720 | +$3,766 | +$653 | −$38,121 | −$12,986 | −$515,693 |
-| Q-C19 | legacy | +$8,780 | +$6,462 | +$3,340 | −$483 | −$49,487 | −$16,817 | −$670,213 |
-| Q-C19 | model | +$9,464 | +$5,528 | +$3,313 | −$293 | −$47,894 | −$16,840 | −$637,917 |
-| Q-SAF | legacy | +$8,821 | +$6,556 | +$3,517 | −$255 | −$49,259 | −$16,593 | −$669,906 |
-| Q-SAF | model | +$9,503 | +$5,618 | +$3,482 | −$76 | −$47,677 | −$16,627 | −$637,624 |
-| Q-EDU | legacy | +$9,133 | +$6,462 | +$2,819 | −$1,736 | −$50,430 | −$18,201 | −$662,769 |
-| Q-EDU | model | +$9,894 | +$5,689 | +$2,987 | −$1,335 | −$49,367 | −$18,763 | −$630,830 |
-| Q-H7 | legacy | +$13,833 | +$14,368 | +$13,822 | +$9,311 | −$59,497 | −$14,850 | −$907,792 |
-| Q-H7 | model | +$14,691 | +$13,293 | +$12,575 | +$8,130 | −$56,461 | −$13,783 | −$867,350 |
+| Q | legacy | +$8,786 | +$6,516 | +$3,478 | −$290 | −$49,310 | −$16,642 | −$670,004 |
+| Q | model | +$9,446 | +$5,563 | +$3,443 | −$90 | −$47,703 | −$16,650 | −$637,699 |
+| A | legacy | +$8,840 | +$6,679 | +$3,837 | +$577 | −$39,278 | −$12,828 | −$541,827 |
+| A | model | +$9,490 | +$5,706 | +$3,777 | +$694 | −$38,083 | −$12,947 | −$515,673 |
+| Q-C19 | legacy | +$8,776 | +$6,464 | +$3,354 | −$461 | −$49,470 | −$16,800 | −$670,212 |
+| Q-C19 | model | +$9,436 | +$5,514 | +$3,324 | −$252 | −$47,855 | −$16,801 | −$637,896 |
+| Q-SAF | legacy | +$8,816 | +$6,558 | +$3,530 | −$232 | −$49,242 | −$16,576 | −$669,904 |
+| Q-SAF | model | +$9,474 | +$5,604 | +$3,493 | −$35 | −$47,638 | −$16,588 | −$637,604 |
+| Q-EDU | legacy | +$9,129 | +$6,464 | +$2,833 | −$1,714 | −$50,413 | −$18,184 | −$662,768 |
+| Q-EDU | model | +$9,865 | +$5,674 | +$2,999 | −$1,294 | −$49,328 | −$18,724 | −$630,810 |
+| Q-H7 | legacy | +$13,829 | +$14,370 | +$13,836 | +$9,333 | −$59,480 | −$14,832 | −$907,791 |
+| Q-H7 | model | +$14,663 | +$13,279 | +$12,587 | +$8,171 | −$56,423 | −$13,744 | −$867,330 |
 
 ### Reconciliation, scenario Q: from the legacy figures to the model's, one change at a time
 
 | Step | Q1 | Q2 | Q3 | Q4 | Q5 | Top 1% | Change in Q4 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Legacy model (legacy keys, 140M households) | +$8,791 | +$6,514 | +$3,464 | −$312 | −$49,326 | −$670,006 |  |
-| Households: the CPS count grown to FY2034-35, 147.1M | +$8,369 | +$6,201 | +$3,298 | −$297 | −$46,959 | −$637,851 | +$15 |
-| Key `aca_medicaid` measured on the CPS | +$8,376 | +$6,195 | +$3,292 | −$300 | −$46,952 | −$637,830 | −$3 |
-| Key `adults` measured on the CPS | +$8,403 | +$6,219 | +$3,271 | −$291 | −$46,991 | −$637,785 | +$9 |
-| Key `cdctc` measured on the CPS | +$8,403 | +$6,219 | +$3,271 | −$291 | −$46,991 | −$637,785 | +$0 |
-| Key `ctc` measured on the CPS | +$8,658 | +$6,043 | +$3,453 | −$241 | −$47,301 | −$637,779 | +$50 |
-| Key `eitc_childless` measured on the CPS | +$8,658 | +$6,044 | +$3,454 | −$243 | −$47,301 | −$637,781 | −$2 |
-| Key `employer_cov` measured on the CPS | +$8,658 | +$6,044 | +$3,454 | −$243 | −$47,301 | −$637,781 | +$0 |
-| Key `housing` measured on the CPS | +$9,464 | +$5,589 | +$3,216 | −$337 | −$47,320 | −$637,699 | −$94 |
-| Key `low_income_energy` measured on the CPS | +$9,507 | +$5,467 | +$3,271 | −$324 | −$47,309 | −$637,694 | +$13 |
-| Key `ma` measured on the CPS | +$9,491 | +$5,470 | +$3,281 | −$318 | −$47,312 | −$637,700 | +$6 |
-| Key `medicare` measured on the CPS | +$9,539 | +$5,468 | +$3,261 | −$345 | −$47,312 | −$637,844 | −$27 |
-| Key `partb` measured on the CPS | +$9,494 | +$5,461 | +$3,273 | −$324 | −$47,293 | −$637,812 | +$21 |
-| Key `persons` measured on the CPS | +$9,494 | +$5,461 | +$3,273 | −$324 | −$47,293 | −$637,812 | +$0 |
-| Key `snap` measured on the CPS | +$9,496 | +$5,460 | +$3,271 | −$324 | −$47,292 | −$637,816 | +$0 |
-| Key `snap_cut` measured on the CPS | +$9,493 | +$5,462 | +$3,271 | −$323 | −$47,291 | −$637,819 | +$1 |
-| Key `snap_earn` measured on the CPS | +$9,493 | +$5,462 | +$3,272 | −$323 | −$47,293 | −$637,822 | +$0 |
-| Key `ss_benefit` measured on the CPS | +$9,414 | +$5,460 | +$3,290 | −$300 | −$47,252 | −$637,793 | +$23 |
-| Key `ssi` measured on the CPS | +$9,413 | +$5,460 | +$3,290 | −$300 | −$47,252 | −$637,793 | +$0 |
-| Key `ssi_exclusions` measured on the CPS | +$9,413 | +$5,461 | +$3,290 | −$300 | −$47,252 | −$637,793 | +$0 |
-| Key `surtax` measured on the CPS | +$9,413 | +$5,461 | +$3,284 | −$274 | −$47,273 | −$637,793 | +$26 |
-| Key `wages` measured on the CPS | +$9,446 | +$5,517 | +$3,342 | −$211 | −$47,483 | −$637,793 | +$63 |
-| Key `wages_cap` measured on the CPS | +$9,474 | +$5,578 | +$3,432 | −$131 | −$47,741 | −$637,720 | +$80 |
+| Legacy model (legacy keys, 140M households) | +$8,786 | +$6,516 | +$3,478 | −$290 | −$49,310 | −$670,004 |  |
+| Households: the CPS count grown to FY2034-35, 147.1M | +$8,364 | +$6,203 | +$3,311 | −$276 | −$46,943 | −$637,850 | +$14 |
+| Key `aca_medicaid` measured on the CPS | +$8,372 | +$6,197 | +$3,306 | −$279 | −$46,937 | −$637,829 | −$3 |
+| Key `adults` measured on the CPS | +$8,399 | +$6,221 | +$3,284 | −$270 | −$46,975 | −$637,783 | +$9 |
+| Key `cdctc` measured on the CPS | +$8,399 | +$6,221 | +$3,284 | −$270 | −$46,975 | −$637,783 | +$0 |
+| Key `ctc` measured on the CPS | +$8,654 | +$6,045 | +$3,466 | −$220 | −$47,286 | −$637,777 | +$50 |
+| Key `eitc_childless` measured on the CPS | +$8,653 | +$6,046 | +$3,467 | −$222 | −$47,285 | −$637,780 | −$2 |
+| Key `employer_cov` measured on the CPS | +$8,653 | +$6,046 | +$3,467 | −$222 | −$47,285 | −$637,780 | +$0 |
+| Key `housing` measured on the CPS | +$9,460 | +$5,591 | +$3,229 | −$316 | −$47,305 | −$637,697 | −$94 |
+| Key `low_income_energy` measured on the CPS | +$9,502 | +$5,469 | +$3,284 | −$302 | −$47,293 | −$637,693 | +$14 |
+| Key `ma` measured on the CPS | +$9,486 | +$5,472 | +$3,294 | −$297 | −$47,297 | −$637,698 | +$5 |
+| Key `medicare` measured on the CPS | +$9,535 | +$5,470 | +$3,274 | −$324 | −$47,296 | −$637,842 | −$27 |
+| Key `partb` measured on the CPS | +$9,490 | +$5,463 | +$3,286 | −$303 | −$47,277 | −$637,811 | +$21 |
+| Key `persons` measured on the CPS | +$9,490 | +$5,463 | +$3,286 | −$303 | −$47,277 | −$637,811 | +$0 |
+| Key `snap` measured on the CPS | +$9,492 | +$5,462 | +$3,284 | −$303 | −$47,276 | −$637,815 | +$0 |
+| Key `snap_cut` measured on the CPS | +$9,489 | +$5,464 | +$3,285 | −$302 | −$47,275 | −$637,818 | +$1 |
+| Key `snap_earn` measured on the CPS | +$9,489 | +$5,465 | +$3,285 | −$301 | −$47,278 | −$637,821 | +$1 |
+| Key `ss_benefit` measured on the CPS | +$9,409 | +$5,462 | +$3,303 | −$279 | −$47,236 | −$637,792 | +$22 |
+| Key `ssi` measured on the CPS | +$9,409 | +$5,463 | +$3,304 | −$279 | −$47,236 | −$637,791 | +$0 |
+| Key `ssi_exclusions` measured on the CPS | +$9,409 | +$5,463 | +$3,304 | −$279 | −$47,236 | −$637,791 | +$0 |
+| Key `surtax` measured on the CPS | +$9,409 | +$5,463 | +$3,298 | −$253 | −$47,257 | −$637,791 | +$26 |
+| Key `ui` measured on the CPS | +$9,385 | +$5,446 | +$3,295 | −$233 | −$47,234 | −$637,772 | +$20 |
+| Key `wages` measured on the CPS | +$9,418 | +$5,503 | +$3,353 | −$170 | −$47,445 | −$637,772 | +$63 |
+| Key `wages_cap` measured on the CPS | +$9,446 | +$5,563 | +$3,443 | −$90 | −$47,703 | −$637,699 | +$80 |
 
 ### Sensitivity, scenario Q: the housing key
 
@@ -170,8 +171,8 @@ The central case measures housing's key on the CPS (today's assisted households,
 
 | Housing key | Q1 | Q2 | Q3 | Q4 | Q5 |
 | --- | --- | --- | --- | --- | --- |
-| CPS-measured (central) | +$9,474 | +$5,578 | +$3,432 | −$131 | −$47,741 |
-| Legacy, 60% in Q1 (sensitivity) | +$8,667 | +$6,032 | +$3,669 | −$36 | −$47,722 |
+| CPS-measured (central) | +$9,446 | +$5,563 | +$3,443 | −$90 | −$47,703 |
+| Legacy, 60% in Q1 (sensitivity) | +$8,639 | +$6,018 | +$3,681 | +$5 | −$47,683 |
 
 ### The keys: measured against legacy
 
@@ -191,6 +192,7 @@ Percent of each key's total by quintile, and the top 1%'s share. Only keys marke
 | ma | measured | 26.8, 25.9, 19.8, 14.4, 13 | 0.6 | 22, 27, 23, 16, 12 | 0.5 |
 | employer_cov | measured | 4.3, 12.9, 22.3, 28.9, 31.7 | 1.6 | 3, 12, 24, 31, 30 | 2 |
 | ss_benefit | measured | 17.7, 27.6, 22.8, 16.4, 15.4 | 0.7 | 30, 28, 20, 13, 9 | 0.5 |
+| ui | measured | 11.3, 18.1, 22.2, 27.2, 21.2 | 0.3 | 20, 24, 23, 20, 13 | 0 |
 | low_income_energy | measured | 66.6, 20.8, 8.6, 2.2, 1.8 | 0 | 60, 40, 0, 0, 0 | 0 |
 | surtax | measured | -0, 0, 0.3, 4.8, 94.9 | 55 | 0, 0, 0, 6, 94 | 55 |
 | eitc_childless | measured | 38, 30.2, 15.2, 10.6, 6.1 | 0.3 | 38, 30, 15, 11, 6 | 0.3 |
@@ -253,11 +255,11 @@ The typical state gives the same highest rates: the charge starts above 300% of 
 
 This section carries the parts of the retired legacy report (`legacy/index/revenue-household-incidence-model.md`, last generated November 13, 2026) that section 5 does not: D3's revenue-mix test, the year-by-year paths, the rows that move the fourth quintile, the open choices, dynamic effects and the limits. D3's test: every income group below the top comes out ahead on net from the agenda's combined taxes, fees and benefits, and new general-fund revenue comes mostly from the top 1% and corporations. The engine is `d3.py`; "legacy" is the typed keys over 140 million households, which the budget model's readers still use, and "model" the measured keys.
 
-- **Scenario Q, the decided package: the household test does not pass.** On the measured keys Q1 to Q4 are +$9,474, +$5,578, +$3,432, −$131 a household a year, FY2030-39 average (legacy keys: +$8,791, +$6,514, +$3,464, −$312). The fourth quintile is the group behind.
+- **Scenario Q, the decided package: the household test does not pass.** On the measured keys Q1 to Q4 are +$9,446, +$5,563, +$3,443, −$90 a household a year, FY2030-39 average (legacy keys: +$8,786, +$6,516, +$3,478, −$290). The fourth quintile is the group behind.
 - **The revenue-mix test passes in every scenario:** the top 1% (by incidence) and corporations (statutory) bear 76% of new general-fund revenue on scenario Q (legacy keys 76%; the rule is more than half). The EDU-9B fund's contribution and SAF-R2 are not general-fund revenue and are left out of it, and so are health's contributions (`DEC-2026-11-15-29`: the household and employer contributions and the taxes folded into them, as replacements for premiums).
-- **The employer health-exclusion cap is the swing:** at the median premium (C19, the fallback) the fourth quintile reads −$293, against −$131 at the 75th percentile (C19b, decided). Once the employer groups move (2033-35) the exclusion ends (HX), so the cap stops applying; the settlement must take that overlap out.
-- **Health is in scenario Q-H7, on its booked path with its financing.** Q-H7 adds to Q the single plan's household rows on the corrected path (premiums and out-of-pocket costs households stop paying, employer premiums that become pay, HX's tax and the worker transition credit), long-term care (H9) and package E: the unified household contribution, the fold-in of the worker's HI, the 0.9% and H1b's wage half, the employer contribution (borne by workers, as premiums are) with the tax it takes from HX, and the four new streams (H1a is a row of Q). On the measured keys Q1 to Q4 are +$14,691, +$13,293, +$12,575, +$8,130 a household a year, FY2030-39 average: every quintile below the top comes out ahead. Its revenue-mix test, health's contributions left out, is 66%. The household record for health stays the cost review's take-home tests (`dossiers/foundations/health-household-contribution.md`); this is the same package on D3's keys and window.
-- **The education fund (EDU-9B, held)** as a closer in place of C19b and C20 gives the fourth quintile −$1,335. Its contribution (about 1.4 points of payroll) is counted entirely on workers.
+- **The employer health-exclusion cap is the swing:** at the median premium (C19, the fallback) the fourth quintile reads −$252, against −$90 at the 75th percentile (C19b, decided). Once the employer groups move (2033-35) the exclusion ends (HX), so the cap stops applying; the settlement must take that overlap out.
+- **Health is in scenario Q-H7, on its booked path with its financing.** Q-H7 adds to Q the single plan's household rows on the corrected path (premiums and out-of-pocket costs households stop paying, employer premiums that become pay, HX's tax and the worker transition credit), long-term care (H9) and package E: the unified household contribution, the fold-in of the worker's HI, the 0.9% and H1b's wage half, the employer contribution (borne by workers, as premiums are) with the tax it takes from HX, and the four new streams (H1a is a row of Q). On the measured keys Q1 to Q4 are +$14,663, +$13,279, +$12,587, +$8,171 a household a year, FY2030-39 average: every quintile below the top comes out ahead. Its revenue-mix test, health's contributions left out, is 66%. The household record for health stays the cost review's take-home tests (`dossiers/foundations/health-household-contribution.md`); this is the same package on D3's keys and window.
+- **The education fund (EDU-9B, held)** as a closer in place of C19b and C20 gives the fourth quintile −$1,294. Its contribution (about 1.4 points of payroll) is counted entirely on workers.
 - **Averages hide losers inside the fourth quintile**: a household without children, marketplace or Medicare coverage, and with employer coverage above the 75th-percentile premium, gets few of the benefits and most of the costs. Within-quintile spread is the household model's next addition.
 
 **Revenue-mix test by scenario** (percent of new general-fund revenue from the top 1% and corporations):
@@ -277,18 +279,18 @@ Each row's ten-year total spread over 2030-39 by its phase-in profile (`models/d
 
 | Year | Q: Q1 | Q2 | Q3 | Q4 | Q4, legacy keys | Q-C19: Q4 | Q-EDU: Q4 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2030 | +$6,614 | +$3,035 | +$1,468 | **−$958** | −$1,111 | −$958 | −$2,358 |
-| 2031 | +$7,756 | +$4,242 | +$2,589 | **−$116** | −$259 | −$386 | −$1,167 |
-| 2032 | +$8,924 | +$5,141 | +$3,097 | **−$64** | −$219 | −$621 | −$707 |
-| 2033 | +$10,109 | +$6,204 | +$3,915 | **+$379** | +$238 | −$101 | −$328 |
-| 2034 | +$11,004 | +$7,022 | +$4,618 | **+$832** | +$703 | +$565 | −$165 |
-| 2035 | +$10,156 | +$6,450 | +$4,321 | **+$629** | +$470 | +$576 | −$660 |
-| 2036 | +$10,144 | +$6,397 | +$4,282 | **+$506** | +$327 | +$506 | −$897 |
-| 2037 | +$10,657 | +$6,738 | +$4,494 | **+$514** | +$324 | +$514 | −$945 |
-| 2038 | +$11,030 | +$6,962 | +$4,639 | **+$505** | +$306 | +$505 | −$1,012 |
-| 2039 | +$11,461 | +$7,253 | +$4,848 | **+$552** | +$346 | +$552 | −$1,026 |
+| 2030 | +$6,630 | +$3,066 | +$1,511 | **−$901** | −$1,068 | −$901 | −$2,301 |
+| 2031 | +$7,759 | +$4,260 | +$2,622 | **−$64** | −$223 | −$334 | −$1,115 |
+| 2032 | +$8,914 | +$5,145 | +$3,120 | **−$18** | −$189 | −$575 | −$661 |
+| 2033 | +$10,084 | +$6,193 | +$3,927 | **+$419** | +$260 | −$61 | −$289 |
+| 2034 | +$10,964 | +$6,994 | +$4,618 | **+$865** | +$717 | +$597 | −$132 |
+| 2035 | +$10,114 | +$6,421 | +$4,321 | **+$663** | +$484 | +$610 | −$626 |
+| 2036 | +$10,101 | +$6,367 | +$4,282 | **+$541** | +$342 | +$541 | −$862 |
+| 2037 | +$10,611 | +$6,707 | +$4,494 | **+$551** | +$339 | +$551 | −$908 |
+| 2038 | +$10,982 | +$6,929 | +$4,639 | **+$544** | +$322 | +$544 | −$974 |
+| 2039 | +$11,412 | +$7,219 | +$4,847 | **+$592** | +$363 | +$592 | −$986 |
 
-- The fourth quintile is −$958 in 2030 on the decided package, and positive from 2033 on.
+- The fourth quintile is −$901 in 2030 on the decided package, and positive from 2033 on.
 - **Year five (2034) passes for every quintile below the top**, D3's interim test.
 - The 2030-33 shortfall is partly sequencing: the carbon fee, leave contributions and the exclusion cap arrive before the public option and full child care. The levers are to start C19b and the carbon fee in 2031, to front-load the Climate Dividend, or to start leave contributions with benefits in 2031; each costs about a year of revenue and needs a D4 check. A shortfall that persists after 2034 is not sequencing: it is the package's costs against the fourth quintile's benefits, the financing settlement's question. None is decided.
 
@@ -347,7 +349,7 @@ Sources for the typed keys and conventions: CBO, *The Distribution of Household 
 
 From `intervals.py` (run 2026-11-16, model at `e02a317`), on the Census's 160 replicate weights (134,729 people, every one joined). Successive difference replication: SE = √(4/160 × Σ(estimate with replicate r − estimate with the base weight)²), and the 90% interval is ±1.645 SE. **Sampling error only**: the survey's under-reporting, top-coding and the model's assumptions are not in these intervals, and for most outputs they are larger. Each record's computed amounts are held fixed and reweighted; groups, measured keys and household counts are recomputed in every replicate (`intervals.py`'s docstring).
 
-Every estimate this run also computes is within half an interval of the interval run's, so the intervals apply as they stand.
+**Stale:** this run's estimate has moved by more than half an interval since the interval run for `d3_net_per_household.A_net_Q4`, `d3_net_per_household.Q-C19_net_Q4`, `d3_net_per_household.Q-EDU_net_Q4`, `d3_net_per_household.Q-SAF_net_Q4`, `d3_net_per_household.Q_net_Q4`. The half-widths still describe the sample; rerun `intervals.py` to refresh the centers.
 
 **SPM poverty.** The 2025 intervals match the Census's own published 90% margins for 2025 (about ±0.3 points for all people and ±0.6 for children), a check on the method.
 
@@ -371,12 +373,12 @@ In 2029: 46.5 million poor people (±1.1), of whom 10.0 million children (±0.4)
 
 | Scenario | Q1 | Q2 | Q3 | Q4 | Q5 | Top 1% | Q4's sign holds at 90%? |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Q | +$9,474 ±103 | +$5,578 ±87 | +$3,432 ±65 | −$131 ±54 | −$47,741 ±272 | −$637,720 ±3,606 | yes |
-| A | +$9,518 ±103 | +$5,720 ±87 | +$3,766 ±65 | +$653 ±51 | −$38,121 ±218 | −$515,693 ±2,920 | yes |
-| Q-C19 | +$9,464 ±103 | +$5,528 ±86 | +$3,313 ±64 | −$293 ±54 | −$47,894 ±272 | −$637,917 ±3,607 | yes |
-| Q-SAF | +$9,503 ±103 | +$5,618 ±86 | +$3,482 ±65 | −$76 ±54 | −$47,677 ±271 | −$637,624 ±3,605 | yes |
-| Q-EDU | +$9,894 ±102 | +$5,689 ±85 | +$2,987 ±65 | −$1,335 ±59 | −$49,367 ±288 | −$630,830 ±3,567 | yes |
-| Q-H7 | +$14,691 ±153 | +$13,293 ±199 | +$12,575 ±195 | +$8,130 ±180 | −$56,461 ±373 | −$867,350 ±4,903 | yes |
+| Q | +$9,446 ±103 | +$5,563 ±87 | +$3,443 ±65 | −$90 ±54 | −$47,703 ±272 | −$637,699 ±3,606 | yes |
+| A | +$9,490 ±103 | +$5,706 ±87 | +$3,777 ±65 | +$694 ±51 | −$38,083 ±218 | −$515,673 ±2,920 | yes |
+| Q-C19 | +$9,436 ±103 | +$5,514 ±86 | +$3,324 ±64 | −$252 ±54 | −$47,855 ±272 | −$637,896 ±3,607 | yes |
+| Q-SAF | +$9,474 ±103 | +$5,604 ±86 | +$3,493 ±65 | −$35 ±54 | −$47,638 ±271 | −$637,604 ±3,605 | **no** |
+| Q-EDU | +$9,865 ±102 | +$5,674 ±85 | +$2,999 ±65 | −$1,294 ±59 | −$49,328 ±288 | −$630,810 ±3,567 | yes |
+| Q-H7 | +$14,663 ±153 | +$13,279 ±199 | +$12,587 ±195 | +$8,171 ±180 | −$56,423 ±373 | −$867,330 ±4,903 | yes |
 
 These are the sampling error of the measured keys, the household count and the groups' incomes, which move together in each replicate. The typed keys, which carry most of the costs, have none here: their uncertainty is a modeling one (`keys.csv`).
 
@@ -409,16 +411,16 @@ Total 2029 income on each measure: expanded cash income $21.88T; less SSI and TA
 
 | Step | Households in another quintile than D3 | Households, Q1 / Q5 (M) | Q1 income tax / payroll | Q4 | Q5 | Top 1% | Scenario Q: Q1 net | Q4 net | Q5 net |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0. D3: expanded cash income, equal households | 0.0% | 28.4 / 28.4 | -5.5 / 6.4% | 9.4 / 11.5% | 18.2 / 9.3% | 28.1 / 5.4% | +$9,475 | −$131 | −$47,736 |
-| 1. Equal numbers of people | 8.2% | 32.3 / 27.1 | -4.7 / 6.7% | 9.7 / 11.5% | 18.4 / 9.3% | 28.2 / 5.4% | +$8,843 | −$325 | −$49,959 |
-| 2. CBO's income before the health values (SSI and TANF out, negative incomes out) | 8.3% | 32.3 / 27.1 | -4.9 / 7.0% | 9.7 / 11.5% | 18.4 / 9.3% | 28.2 / 5.4% | +$8,875 | −$331 | −$49,970 |
-| 3. Medicare and employers' premiums added (CBO's income before transfers and taxes) | 21.3% | 29.7 / 27.2 | -3.7 / 7.8% | 8.8 / 10.2% | 17.5 / 8.7% | 27.7 / 5.2% | +$9,681 | −$324 | −$49,755 |
+| 0. D3: expanded cash income, equal households | 0.0% | 28.4 / 28.4 | -5.5 / 6.4% | 9.4 / 11.5% | 18.2 / 9.3% | 28.1 / 5.4% | +$9,446 | −$90 | −$47,698 |
+| 1. Equal numbers of people | 8.2% | 32.3 / 27.1 | -4.7 / 6.7% | 9.7 / 11.5% | 18.4 / 9.3% | 28.2 / 5.4% | +$8,822 | −$290 | −$49,921 |
+| 2. CBO's income before the health values (SSI and TANF out, negative incomes out) | 8.3% | 32.3 / 27.1 | -4.9 / 7.0% | 9.7 / 11.5% | 18.4 / 9.3% | 28.2 / 5.4% | +$8,854 | −$297 | −$49,932 |
+| 3. Medicare and employers' premiums added (CBO's income before transfers and taxes) | 21.3% | 29.7 / 27.2 | -3.7 / 7.8% | 8.8 / 10.2% | 17.5 / 8.7% | 27.7 / 5.2% | +$9,668 | −$291 | −$49,719 |
 
 CBO's published rates for 2022 (another year and law, recorded on the model card): the first quintile -10.1% income tax and 9.5% payroll; the top 1% 23.9% and 2.0%.
 
 **What the check finds:**
-- **The grouping is the convention that matters for the D3 answer.** Equal numbers of people move 8.2% of households to another quintile and put 32.3M households in the first quintile against 27.1M in the fifth, since low-income households are smaller. Scenario Q's fourth quintile goes from −$131 to −$325 a household. The sign is the same, so D3's verdict on Q does not depend on the convention, but the size of the shortfall moves by more than its sampling error (section 9).
-- **The income definition matters little until the health values go in.** Taking out SSI and TANF and dropping negative incomes moves another 0.1% of households. Adding Medicare and employers' premiums moves 21.3% of households in all from their D3 quintile: retirees on Medicare and covered workers move up. The combined rates of the second to fifth quintiles fall by 1.2 to 2.3 points (a larger denominator), while the first quintile's rises by 2.0, since the retirees who leave it paid little tax. The fourth quintile stays at −$324.
+- **The grouping is the convention that matters for the D3 answer.** Equal numbers of people move 8.2% of households to another quintile and put 32.3M households in the first quintile against 27.1M in the fifth, since low-income households are smaller. Scenario Q's fourth quintile goes from −$90 to −$290 a household. The sign is the same, so D3's verdict on Q does not depend on the convention, but the size of the shortfall moves by more than its sampling error (section 9).
+- **The income definition matters little until the health values go in.** Taking out SSI and TANF and dropping negative incomes moves another 0.1% of households. Adding Medicare and employers' premiums moves 21.3% of households in all from their D3 quintile: retirees on Medicare and covered workers move up. The combined rates of the second to fifth quintiles fall by 1.2 to 2.3 points (a larger denominator), while the first quintile's rises by 2.0, since the retirees who leave it paid little tax. The fourth quintile stays at −$291.
 - **The rates' shape matches CBO's; the levels differ for data reasons.** On CBO's conventions the first quintile's income tax rate is -3.7%, against CBO's −10.1% in 2022. The CPS under-reports low earnings and so the refundable credits (the model's earned income credit is $41B against SOI's $66B, section 2), and CBO also corrects under-reported transfers and counts the premium credit. The top 1%'s rate, 27.7%, is above CBO's 23.9% because the CPS misses most of the top's capital gains, which are taxed at lower rates.
 - **What it means for D3:** keep equal households, the convention D3 states its per-household results on and compares with the legacy model's. Report CBO's grouping as a sensitivity where a quintile's result is near zero.
 

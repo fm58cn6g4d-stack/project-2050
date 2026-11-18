@@ -34,10 +34,10 @@ bill,CLI-6,,out_other_mandatory,,1,gdp,,,,,
 bill,CLI-7,,out_other_mandatory,,1,gdp,,,,,
 bill,HOU-1,,out_other_mandatory,,2,gdp,,0.55,,,Component paths in fiscal-components.csv book dossiers/home/6-cost.md section 1.2 line by line (housing fix step 7); aggregate columns retained for reference
 bill,HOU-7,,out_other_mandatory,,1,gdp,,,,,
-bill,LAB-1,,out_disc_nondefense,,1,gdp,,,,,
-bill,LAB-5,,out_other_mandatory,2031,1,gdp,2036,0.0,,,Wage-transition credit is temporary
-bill,LAB-8,,out_disc_nondefense,,2,gdp,,,,,
-bill,LAB-9,,out_other_mandatory,,4,gdp,,,,,National service slots build over four years
+bill,LAB-1,,out_disc_nondefense,,1,gdp,,0.999975,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
+bill,LAB-5,,out_other_mandatory,2031,1,gdp,2036,0.000000,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
+bill,LAB-8,,out_disc_nondefense,,2,gdp,,0.983518,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
+bill,LAB-9,,out_other_mandatory,,4,gdp,,0.983084,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
 bill,LAB-9D,,out_other_mandatory,,1,gdp,,,,,Authorization only; its cost sits in LAB-9
 bill,COM-1,,out_disc_nondefense,,1,gdp,,,,,
 bill,IMM-1,,out_other_mandatory,,1,gdp,,,,,"Components in fiscal-components.csv (immigration booking, dossiers/immigration/6-cost.md part 6): cost rising through the decade as statuses and coverage phase in, on the dossier's fiscal-year path; revenue effects in IMM-EV and IF1T"
@@ -142,3 +142,10 @@ base revenue,HS2,,rev_individual,,1,rev_individual,,0.994760,,,"Health financing
 base revenue,HS3,,rev_individual,,1,rev_individual,,0.994806,,,"Health financing booking (DEC-2026-11-15-09 to -24): shape in fiscal-years.csv (the fold-in from the January 2035 endpoint, HCU and HEC from 2031, the streams from FY2030: DEC-2026-11-16-01 to -03); perm fitted so FY2040 is $45.0B, then the row's category (health_booking.py)"
 base revenue,HS4,,rev_corporate,,1,rev_corporate,,0.993627,,,"Health financing booking (DEC-2026-11-15-09 to -24): shape in fiscal-years.csv (the fold-in from the January 2035 endpoint, HCU and HEC from 2031, the streams from FY2030: DEC-2026-11-16-01 to -03); perm fitted so FY2040 is $70.0B, then the row's category (health_booking.py)"
 base revenue,H1a,,rev_individual,,1,rev_individual,,0.994691,,,"Health financing booking (DEC-2026-11-15-09 to -24): shape in fiscal-years.csv (the fold-in from the January 2035 endpoint, HCU and HEC from 2031, the streams from FY2030: DEC-2026-11-16-01 to -03); perm fitted so FY2040 is $60.0B, then the row's category (health_booking.py)"
+bill,LAB-4.09,,out_other_mandatory,,1,gdp,2034,0.000000,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
+bill,LAB-3,,out_disc_nondefense,,1,gdp,,1.066470,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
+bill,LAB-11,,out_other_mandatory,,1,gdp,,0.997874,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
+bill,LAB-18,,out_other_mandatory,,1,gdp,,1.002296,,,Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's (work booking)
+base revenue,LAB-11T,,rev_individual,,1,gdp,,1.003944,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
+base revenue,LAB-18T,,rev_individual,,1,gdp,,1.001966,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
+base revenue,LAB-2P,,rev_individual,,1,gdp,,1.084064,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
