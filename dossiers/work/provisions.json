@@ -96,7 +96,7 @@
   "decisions": [
    "DEC-2026-11-17-01"
   ],
-  "parameters": "Nine members appointed by the Secretary of Labor: three nominated by worker organizations, three by employer organizations and three independent economists, one of whom chairs; staggered six-year terms (working choice, on the U.K. Low Pay Commission's model [EV-WRK-053] [EV-WRK-054]). It advises and holds no power to set the floor, so removal protection is not relied on. *Each spring it publishes:* the floor's ratio to the national, state and county medians; employment, hours and prices where it bites most; the tipped schedule's effect on restaurant jobs (LAB-4.07) and the 14(c) transition (LAB-4.09, 4.10); and how much of a raise families keep after phase-outs, with the household model (shared rule 2). *First task, within 18 months of enactment:* a county-level measure of the floor's reach, rural counties first [EV-WRK-405]. *May recommend* a higher target or a slower step for counties where the floor passes about 60% of the local median [EV-WRK-051]; any change needs an act of Congress. Uses data BLS, Census and state UI agencies already hold (QCEW, OEWS, quarterly wage records); no new employer survey. Staff in Labor's budget (point 14)",
+  "parameters": "Nine members appointed by the Secretary of Labor: three nominated by worker organizations, three by employer organizations and three independent economists, one of whom chairs; staggered six-year terms (working choice, on the U.K. Low Pay Commission's model [EV-WRK-053] [EV-WRK-054]). It advises and holds no power to set the floor, so removal protection is not relied on. *Each spring it publishes:* the floor's ratio to the national, state and county medians; employment, hours and prices where it bites most; the tipped schedule's effect on restaurant jobs (LAB-4.07) and the 14(c) transition (LAB-4.08, 4.09); and how much of a raise families keep after phase-outs, with the household model (shared rule 2). *First task, within 18 months of enactment:* a county-level measure of the floor's reach, rural counties first [EV-WRK-405]. *May recommend* a higher target or a slower step for counties where the floor passes about 60% of the local median [EV-WRK-051]; any change needs an act of Congress. Uses data BLS, Census and state UI agencies already hold (QCEW, OEWS, quarterly wage records); no new employer survey. Staff in Labor's budget (point 14)",
   "eligibility": "",
   "vehicle": [
    {
@@ -291,6 +291,33 @@
   "sources": [],
   "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
   "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-4.10",
+  "title": "The territories' wage schedules: the Northern Mariana Islands on the federal schedule; American Samoa on its own path, reviewed by the commission",
+  "agenda": "LAB-4",
+  "status": "provisional, on the recommendation: a delivery addition (section 5, part 5), for Espen",
+  "decisions": [
+   "DEC-2026-11-17-01"
+  ],
+  "parameters": "The Northern Mariana Islands, at the federal $7.25 since September 30, 2018 [EV-WRK-426], follow LAB-4.01's schedule and LAB-4.02's indexing like the states. American Samoa keeps the schedule in today's law, $0.40 an hour every third year until its industry minimums equal the federal minimum [EV-WRK-425], now measured against LAB-4.01's higher floor; the commission (LAB-4.04) reports on American Samoa each year and may recommend a faster path to Congress. The alternatives are the full federal schedule in American Samoa from 2030 or a faster statutory path set now",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD); the wage commission",
+  "current_law": "American Samoa's industry rates rise $0.40 every third year [EV-WRK-425]; the Northern Mariana Islands at $7.25 [EV-WRK-426]",
+  "evidence": [
+   "EV-WRK-425",
+   "EV-WRK-426"
+  ],
+  "sources": [],
+  "cost_source": "5-delivery.md, part 7 (section 6 to come)",
+  "spec": "dossiers/work/5-delivery.md"
  },
  {
   "id": "LAB-1.01",
@@ -903,6 +930,33 @@
   "sources": [],
   "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
   "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-6.03",
+  "title": "The heat standard's interim minimums bind State Plans",
+  "agenda": "LAB-6",
+  "status": "decided, point 1; a delivery addition (section 5, part 5); working choice",
+  "decisions": [
+   "DEC-2026-11-17-14"
+  ],
+  "parameters": "For State Plan purposes the act's interim heat minimums (LAB-6.01) are treated as a permanent occupational safety and health standard promulgated on the day they take effect, so each State Plan adopts them, or an at least as effective equivalent, within six months [EV-WRK-420], and later adopts OSHA's final standard the same way. Without it, the at-least-as-effective rule reaches only standards OSHA itself promulgates",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 labor act (regular order)"
+   }
+  ],
+  "agency": "Labor (OSHA); State Plans",
+  "current_law": "State Plans adopt new federal standards within six months [EV-WRK-420]",
+  "evidence": [
+   "EV-WRK-420",
+   "EV-WRK-237"
+  ],
+  "sources": [],
+  "cost_source": "5-delivery.md, part 7 (section 6 to come)",
+  "spec": "dossiers/work/5-delivery.md"
  },
  {
   "id": "LAB-7.01",
@@ -1581,6 +1635,63 @@
   "spec": "dossiers/work/4-specification.md"
  },
  {
+  "id": "LAB-11.09",
+  "title": "A one-time conformity and systems grant to state UI agencies",
+  "agenda": "LAB-11",
+  "status": "decided, memo 7 B (state administration funded); a delivery addition (section 5, part 2); the size and form are working choices",
+  "decisions": [
+   "DEC-2026-11-17-10",
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "About $1-2 billion over FY2030-32 (judgment: 53 jurisdictions [EV-WRK-376] at about $20-40 million each), as direct spending in R1, paid to each state UI agency on a plan it files with Labor for the January 1, 2031 changes: the benefit standards, the ABC test, work sharing, attestation, the identity checks, the new Extended Benefits triggers and wage insurance with its determination for non-claimants and monthly statement (LAB-18.08). The hours and occupation fields in wage records are priced in LAB-19.01 and stay needed for hours under LAB-18.06 whatever is decided on memo 10. *Why:* 17 of 50 states said their systems could not implement the CARES Act, and modernized states moved faster [EV-DEM-295]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies",
+  "current_law": "No systems grant; state administration at $2.76 billion [EV-WRK-308]",
+  "evidence": [
+   "EV-WRK-376",
+   "EV-DEM-295",
+   "EV-DEM-294",
+   "EV-WRK-308"
+  ],
+  "sources": [],
+  "cost_source": "5-delivery.md, part 7 (section 6 to come)",
+  "spec": "dossiers/work/5-delivery.md"
+ },
+ {
+  "id": "LAB-11.10",
+  "title": "A graduated remedy for a state that does not conform",
+  "agenda": "LAB-11",
+  "status": "decided, memo 7 B; a delivery addition (section 5, part 4); working choice",
+  "decisions": [
+   "DEC-2026-11-17-10"
+  ],
+  "parameters": "Before the all-or-nothing loss of certification, Labor gives a state that has not conformed to LAB-11.01 to 11.03 notice and a cure period of one regular legislative session, with LAB-11.09's grant available. If it still has not conformed, its employers' federal credit is reduced in the steps the law already applies to states with outstanding loans: 5% of the federal tax after the first year and 5% more each later year [EV-WRK-428], about 0.3 percentage point of the 6.0% tax a year (project arithmetic), until it conforms, and Labor may pay benefits at the federal standard through the state agency's systems, charged to the reduced credit. Loss of certification stays as the last step",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); Treasury (IRS)",
+  "current_law": "Loss of certification and the full credit is the only sanction for nonconformity; graduated credit reductions apply only to outstanding loans [EV-WRK-428] [EV-WRK-305]",
+  "evidence": [
+   "EV-WRK-428",
+   "EV-WRK-305"
+  ],
+  "sources": [],
+  "cost_source": "5-delivery.md, part 7 (section 6 to come)",
+  "spec": "dossiers/work/5-delivery.md"
+ },
+ {
   "id": "LAB-18.01",
   "title": "Wage insurance for displaced workers: who qualifies",
   "agenda": "LAB-18",
@@ -1780,6 +1891,35 @@
   "sources": [],
   "cost_source": "3-design.md, \"What the options cost\" (section 6 to come)",
   "spec": "dossiers/work/4-specification.md"
+ },
+ {
+  "id": "LAB-18.08",
+  "title": "Wage insurance's start, agreements and monthly statement",
+  "agenda": "LAB-18",
+  "status": "decided for now, `DEC-2026-11-17-95`; the start date and agreements are working choices; the monthly statement is provisional, on the recommendation, for Espen (section 5, part 3)",
+  "decisions": [
+   "DEC-2026-11-17-95"
+  ],
+  "parameters": "*Start:* for separations on or after January 1, 2031, with the UI standards (working choice); if R1 is late, the first January 1 at least 18 months after its enactment. *Agreements:* Labor signs an agreement with each state UI agency to act as its agent, on the model of trade adjustment's, under which states paid its wage insurance [EV-WRK-331] until the program's phased termination began on July 1, 2022 [EV-WRK-330]; Labor pays benefits and the agencies' administrative costs from federal funds. *Monthly statement (provisional):* LAB-18.02 pays each month but LAB-18.06's employer reports are quarterly, so the worker confirms each month on the state's claim portal the hours worked at the new job, with the employer's reported rate filled in; the employer's quarterly report, and from 2033 the wage record, checks it after the fact, and an honest overpayment is waived. The alternatives are quarterly payment in arrears on the employer's report, or monthly employer reports",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); state UI agencies as Labor's agents",
+  "current_law": "No general wage insurance; TAA in phased termination [EV-WRK-330]",
+  "evidence": [
+   "EV-WRK-331",
+   "EV-WRK-330",
+   "EV-WRK-332",
+   "EV-WRK-367"
+  ],
+  "sources": [],
+  "cost_source": "5-delivery.md, part 7 (section 6 to come)",
+  "spec": "dossiers/work/5-delivery.md"
  },
  {
   "id": "LAB-8.01",
