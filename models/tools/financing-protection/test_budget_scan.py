@@ -37,7 +37,7 @@ class BudgetScan(unittest.TestCase):
 
     def test_cuts_are_negative_and_additive(self):
         parts = sum(S.evaluate(self.ctx, n, S.SETS[n])['cut'][2040]
-                    for n in ('defense_recommended', 'farm', 'tax_recommended'))
+                    for n in ('defense_recommended', 'farm', 'tax_recommended', 'housing_c'))
         whole = S.evaluate(self.ctx, 'recommended', S.SETS['recommended'])['cut'][2040]
         self.assertLess(whole, 0)
         self.assertAlmostEqual(parts, whole, delta=0.5)

@@ -138,6 +138,11 @@ TAX_ITEMS = {
     # FY2026-35 on CRFB's offsets bank (via search extract): about 0.18 of the tax expenditure by FY2040. Listed, not
     # recommended (memo G12).
     'mortgage_500k': (54.9, 0.18, 'Mortgage interest deduction capped at $500K of debt'),
+    # Memo G12.1 B, after Espen's November 20 direction to encourage innovation and small business: keep the exclusion
+    # but roll back the 2025 law's widening of it (the per-company cap, the asset test and the shorter holding periods).
+    # Working share 0.25 of the tax expenditure (range 0.15-0.35): the table grows from 4.4 to 5.9 over 2025-29, much
+    # of it the widening; no JCT score of the widening alone was found.
+    'qsbs_rollback': (5.9, 0.25, "Small business stock exclusion: the 2025 law's widening rolled back"),
 }
 
 
@@ -146,6 +151,37 @@ def opt_tax_item(ctx, key):
     lvl = te_2029 * recapture * float(BASE[2040]['gdp']) / float(BASE[2029]['gdp'])
     return dict(label='%s ($%.1fB in FY2040)' % (label, lvl),
                 adjust={'Tax: ' + key: neg(priced_from(lvl, 2030, 1, grow='gdp'))}, d3=[])
+
+
+# Memo G14, the housing guarantee (Espen, November 20, via the lead). Stage 2 (HOU-4D.01, with the duty to house, the
+# wider entry and the restated count) is booked as the recovery budget's `housing_extra` line: $39.5B in FY2040, against
+# the housing dossier's $23B + $1.3B + $8B + $8B (`dossiers/home/6-cost.md` part 1.2). Leased families in FY2040, central:
+# about 920,000 + 306,000 + 300,000 = about 1.53 million. A capped program (C) holds stage 2 at the pre-right size,
+# about 900,000 awards at 90% leased, about 810,000 families: about 0.53 of the right's cost (range 0.45-0.65).
+HOUSING_CAPPED_SHARE = 0.53
+
+
+def opt_housing_guarantee(ctx, mode='C', right_year=2045, capped_share=HOUSING_CAPPED_SHARE):
+    """B: stage 2 dropped (the right, the duty to house, the wider entry; stage 1, stage 3 and the rest kept). C: stage 2
+    kept as a capped program from FY2037, not a right. D: C until `right_year`, then the right, enrolling over three
+    years."""
+    he = ctx.line('housing_extra')
+    if mode == 'B':
+        path = {y: -he[y] for y in YEARS}
+    else:
+        cut = 1 - capped_share
+        def k(y):
+            if y < 2037:
+                return 0.0
+            if mode == 'D' and y >= right_year:
+                return cut * max(0.0, 1 - (y - right_year + 1) / 3)
+            return cut
+        path = {y: -k(y) * he[y] for y in YEARS}
+    label = {'B': 'Housing: stage 2 dropped; a 2040s target with a review trigger',
+             'C': 'Housing: stage 2 kept as a capped program, not a right',
+             'D': 'Housing: the right deferred to %d, capped until then' % right_year}[mode]
+    return dict(label=label, adjust={'Housing guarantee ' + mode: path},
+                d3=[('absent', 'housing: the D3 rows carry housing as booked; not edited here')])
 
 
 def opt_fallback(ctx, rate):
@@ -166,22 +202,36 @@ SETS = {
     'defense_recommended': [('defense_flat_real', {}), ('defense_restructure', {})],
     'defense_topline_10': [('defense_topline', {})],
     'farm': [('farm_obbba', {}), ('crop_insurance', {})],
-    'tax_recommended': [('tax_item', {'key': 'qsbs'}), ('tax_item', {'key': 'like_kind'})],
+    'tax_recommended': [('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'})],
     'tax_mortgage_cap': [('tax_item', {'key': 'mortgage_500k'})],
     # The recommended set (memos G10 to G12): defense flat in real terms after FY2036 and restructured 5%; the farm
     # items; the two tax items.
+    'housing_b': [('housing_guarantee', {'mode': 'B'})],
+    'housing_c': [('housing_guarantee', {'mode': 'C'})],
+    'housing_d': [('housing_guarantee', {'mode': 'D'})],
+    'tax_qsbs_repeal': [('tax_item', {'key': 'qsbs'})],
+    # The recommended set (memos G10 to G12 and G14): defense flat in real terms after FY2036 and restructured 5%; the
+    # farm items; the small business stock exclusion's 2025 widening rolled back and like-kind exchanges ended; stage 2
+    # of housing kept as a capped program.
     'recommended': [('defense_flat_real', {}), ('defense_restructure', {}), ('farm_obbba', {}), ('crop_insurance', {}),
-                    ('tax_item', {'key': 'qsbs'}), ('tax_item', {'key': 'like_kind'})],
+                    ('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'}),
+                    ('housing_guarantee', {'mode': 'C'})],
+    'recommended_no_housing': [('defense_flat_real', {}), ('defense_restructure', {}), ('farm_obbba', {}), ('crop_insurance', {}),
+                               ('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'})],
     # The same with defense restructured only (memo G10 B), or at CBO's topline scale (G10 D).
     'recommended_defense_b': [('defense_restructure', {'on_flat_real': False}), ('farm_obbba', {}), ('crop_insurance', {}),
-                              ('tax_item', {'key': 'qsbs'}), ('tax_item', {'key': 'like_kind'})],
+                              ('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'}),
+                              ('housing_guarantee', {'mode': 'C'})],
     'recommended_defense_d': [('defense_topline', {}), ('farm_obbba', {}), ('crop_insurance', {}),
-                              ('tax_item', {'key': 'qsbs'}), ('tax_item', {'key': 'like_kind'})],
+                              ('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'}),
+                              ('housing_guarantee', {'mode': 'C'})],
     # Ranges: every item at its low end (defense restructuring 3%) and at its high end (7%).
     'recommended_low': [('defense_flat_real', {}), ('defense_restructure', {'share': 0.03}), ('farm_obbba', {'end': 'low'}),
-                        ('crop_insurance', {'end': 'low'}), ('tax_item', {'key': 'qsbs'})],
+                        ('crop_insurance', {'end': 'low'}), ('tax_item', {'key': 'qsbs_rollback'}),
+                        ('housing_guarantee', {'mode': 'C', 'capped_share': 0.65})],
     'recommended_high': [('defense_flat_real', {}), ('defense_restructure', {'share': 0.07}), ('farm_obbba', {'end': 'high'}),
-                         ('crop_insurance', {'end': 'high'}), ('tax_item', {'key': 'qsbs'}), ('tax_item', {'key': 'like_kind'})],
+                         ('crop_insurance', {'end': 'high'}), ('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'}),
+                         ('housing_guarantee', {'mode': 'C', 'capped_share': 0.45})],
 }
 
 
@@ -316,7 +366,7 @@ PROGRAMS = {
 }
 
 
-R_FALLBACK = 3.9   # the lowest rate, to 0.05, that closes FY2040-56 with the recommended set held from 2035
+R_FALLBACK = 3.85   # the lowest rate, to 0.05, that closes FY2040-56 with the recommended set held from 2035
 
 
 def with_fallback(ctx, R, extra):
@@ -359,7 +409,7 @@ def build(with_take_home=True):
         v.pop('_gap')
     out['package'] = package(ctx, K.Household() if with_take_home else None)
     if with_take_home:
-        rates = sorted({R_DECIDED, R_FALLBACK, 4.45, 5.0, 5.65} | {math.ceil(20 * v['r_needed'][2040]) / 20 for v in out['sets'].values()})
+        rates = sorted({R_DECIDED, R_FALLBACK, 4.1, 4.3, 4.45, 4.85, 5.0, 5.6} | {math.ceil(20 * v['r_needed'][2040]) / 20 for v in out['sets'].values()})
         out['take_home'] = take_home(rates)
     return out
 
@@ -413,7 +463,7 @@ def markdown(d):
     if 'd3' in p:
         q = p['d3']
         L.append('- D3 (FY2030-39 average, $ a household a year): Q1 %+d, Q2 %+d, Q3 %+d, Q4 %+d, Q5 %+d, top 1%% %+d. '
-                 'D3 has no rows for defense, farm payments or the two tax items, so they do not move it.' % (
+                 'D3 has no rows for defense, farm payments or the two tax items, and its housing rows are not edited for G14, so these do not move it.' % (
                      q['Q1'], q['Q2'], q['Q3'], q['Q4'], q['Q5'], q['T1']))
         L.append('- Revenue-mix test, FY2030-39: %.0f%%.' % p['revenue_mix_2030_39'])
     L += ['', '### The backstop (memo G13): the gap if D2 or HS2 fails, and the base-rate points that would close it', '',
