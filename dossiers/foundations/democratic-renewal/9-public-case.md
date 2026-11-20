@@ -129,7 +129,7 @@ No court outcome is certain, and this plan promises none. Each part most at risk
 
 ## Decided, and what is still a working choice
 
-Espen decided the five items on the decision sheet and the milestone review's two questions on November 18 (D1 to D7 and the House seats), and confirmed the revised draft that evening (about 17:30 UTC), each on its own. **The last open item was decided at about 18:23 UTC**: a last date to obligate the rebuild's surge money, September 30, 2036 with one extension (section 4, open question 8; `DEC-2026-11-18-32`); no promise in the brief depended on it. What remains is working choices and the court risks above. (Item D2 here is not the Senate rules decision of the same letter in the legacy plan.)
+Espen decided the five items on the decision sheet and the milestone review's two questions on November 18 (D1 to D7 and the House seats), and confirmed the revised draft that evening (about 17:30 UTC), each on its own. **The last open item was decided on November 20 at 07:19 UTC**: a last date to obligate the rebuild's surge money, September 30, 2036 with one extension (section 4, open question 8; `DEC-2026-11-18-32`); no promise in the brief depended on it. What remains is working choices and the court risks above. (Item D2 here is not the Senate rules decision of the same letter in the legacy plan.)
 
 | Item | Decided | Where |
 | --- | --- | --- |
