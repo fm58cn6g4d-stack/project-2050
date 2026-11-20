@@ -25,7 +25,7 @@ Units and sources:
    - makes the education fund solvent at 1.7 points (G7);
    - **folds the 2 points on income above $20,000/$40,000 into the health contribution**, which moves from 2.25% to 3.25% from 2035 with its exemption below 250% of poverty (G2);
    - **closes the rest with a broad value-added tax** from the January 2035 endpoint: 2.95%, stepping to 3.6%, 3.85% and 4.6% by FY2051 as health's costs grow (G3, G8).
-4. **Why fold, not drop.** The first draft dropped the 2 points and used a larger VAT, so that 88.7% of workers came out ahead on health's take-home test. But the take-home test counts health costs only. **With the VAT counted, folding leaves more workers ahead (57.8% against 55.6%) and protects the poorest far better:** 90.4% of workers below 200% of poverty are ahead, against 79.7%, and 98% of retirees living on Social Security. It also halves the VAT. The cost is the health-only test itself: 76.2% of workers ahead, below Espen's 85-90% target (memo G2).
+4. **Why fold, not drop.** The first draft dropped the 2 points and used a larger VAT, so that 88.7% of workers came out ahead on health's take-home test. But the take-home test counts health costs only. **With the VAT counted, folding protects the poorest far better:** 90.4% of workers below 200% of poverty are ahead, against 79.7%, and retirees on private pensions and savings do better too. On all workers the two are close (57.8% against 55.6%), within what the rough VAT allocation could move. Folding also halves the VAT. The costs: the health-only test falls to 76.2% of workers ahead, below Espen's 85-90% target, and folding reopens the decided 2.25% rate (`DEC-2026-11-15-11`) (memo G2).
 5. **With the package, every year from FY2040 to FY2056 closes** (−$3.0B in FY2040).
    - Debt is 117.9% of GDP in FY2040, against the baseline's 132.7%, and 134.4% in FY2056, against 180.2%.
    - Every fifth of households below the top comes out ahead on D3, on the decade average and in every single year from FY2033 to FY2039. The fourth fifth is +$4,553 on the average, +$2,001 in its thinnest year (FY2033) and +$10,551 by FY2039.
@@ -76,7 +76,7 @@ Each step's effect on the general-fund gap, in the order applied ($B; − lowers
 | 6 | The $300 adult credit ended (memo G1) | **Espen, G1** | −105.8 | −120.9 | −162.3 | −915.9 |
 | 7 | The states' long-term care payment at 100% of current spending (memo G1) | **Espen, G1** | −148.1 | −192.4 | −312.6 | −605.3 |
 | 8 | The education fund at 1.7 points (memo G7) | **Espen, G7** | +7.5 | +9.1 | +14.0 | −46.4 |
-| 9 | The 2 points above $20K/$40K folded into the health contribution: the base rate R from 2.25% to 3.25% from 2035 (memo G2) | **Espen, G2** | −7.7 | +156.7 | +207.7 | −493.1 |
+| 9 | The 2 points above $20K/$40K folded into the health contribution: the base rate R from 2.25% to 3.25% from 2035, reopening `DEC-2026-11-15-11` (memo G2) | **Espen, G2** | −7.7 | +156.7 | +207.7 | −493.1 |
 | | *Left to close* | | *263.4* | *410.6* | *730.7* | *1,696.3* |
 | 10 | A VAT: 2.95% from the January 2035 endpoint, 3.6% from FY2041, 3.85% from FY2044, 4.6% from FY2051 (memos G3, G8) | **Espen, G3 and G8** | −266.4 | −417.8 | −733.8 | −1,193.5 |
 | | **The recommended package** | | **−3.0** | **−7.2** | **−3.1** | **+502.8** |
@@ -136,7 +136,7 @@ Health's take-home test (`DEC-2026-11-15-02`) counts visible health costs only: 
 How to read it:
 - "(b)" is CBO's convention, with nominal incomes fixed. "(a)" is prices rising by the VAT rate, with Social Security and SSI rising too, so a retiree living on them gets the VAT back. Fixed private pensions and savings get no such offset (review B-1).
 - The VAT is allocated by fifth on D3's consumption key and split among each household's tax units by persons. That is rough: consumption within a fifth isn't modelled.
-- **On the decided test, A is best, at 88.7%. With the VAT counted, C is better than A for every group.** The health contribution exempts income below 138% of poverty and phases in to 250%, and a VAT has no exemption.
+- **On the decided test, A is best, at 88.7%. With the VAT counted, C is better than A for every group.** The gaps for workers below 200% of poverty and for retirees on private income are large and robust. The gap for all workers is small, within what the fifth-average VAT allocation could move. The health contribution exempts income below 138% of poverty and phases in to 250%, and a VAT has no exemption.
 - **No option keeps 85% of workers ahead once the VAT is counted.** Every broad source falls on households.
 - **The group just above the exemption (250-400% of poverty)** does worst under every option, at 61-69% ahead.
 

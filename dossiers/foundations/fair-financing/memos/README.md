@@ -9,7 +9,7 @@ FY2040 effects are on the general-fund gap against the plan as booked ($615.6B s
 | Memo | Question | Options | Recommended | FY2040 effect | VAT points |
 | --- | --- | --- | --- | --- | --- |
 | [G1](G1-who-gives-way.md) | Which other spending gives way | A credit ended, states at 100% for long-term care; A′ at 80%; B A plus four cheaper designs; C credit only; D cuts instead of a tax | **A** | −253.9 | −2.8 |
-| [G2](G2-the-two-points.md) | The 2 points above $20K/$40K | A drop; B keep; C fold into the health contribution at 3.25%; D drop and set it at 2.5% | **C** (changed from A after the review: best with the VAT counted) | −7.7 | −0.1 (A: +2.4) |
+| [G2](G2-the-two-points.md) | The 2 points above $20K/$40K | A drop; B keep; C fold into the health contribution at 3.25%; D drop and set it at 2.5% (C and D reopen `DEC-2026-11-15-11`) | **C** (changed from A after the review: far better for low-income workers once the VAT is counted) | −7.7 | −0.1 (A: +2.4) |
 | [G3](G3-broad-source.md) **(new)** | A broad source for the rest; G3.2, the revenue-mix test in mature years | A VAT, no rebate; B with a rebate; C with a targeted credit; D from FY2033; E no VAT, a larger health contribution; F cuts | **A**: 2.95% from the 2035 endpoint; G3.2 on the ten-year window | −266.4 | — |
 | [G4](G4-stack-cap.md) | The cap on the capital-income stack | B1, C1, D2, D1 | **C1**: a ceiling at 100% of a 6% return | +40.0 | +0.4 |
 | [G5](G5-d2-and-wealth-tax.md) | D2 and the wealth tax | A report only; B a contingent backstop; C balance without D2; D without both | **B** | 0 (+249 to +400 if C or D) | 0 (+2.7 to +4.4) |
