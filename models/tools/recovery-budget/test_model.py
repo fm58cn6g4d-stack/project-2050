@@ -122,6 +122,32 @@ class BudgetTests(unittest.TestCase):
             c=M.build_case('solve',self.f,self.b,self.m,self.u,broad_rate=rate,**options)
             self.assertTrue(c['summary']['debt_ratio_nonincreasing_2045_56'])
 
+    def test_long_term_model_books_the_same_trims(self):
+        """The long-term model's program scenarios carry the capacity and AI trims the gap model books (financing audit
+        part D, item 4): its trim line is the budget model's "Smaller capacity and AI authorizations", year by year."""
+        c=self.d['cases']['mixed']
+        line={r['year']:r['primary_outlay_change_bn'] for r in c['audit'] if r['line']=='Smaller capacity and AI authorizations'}
+        self.assertIn('trim',self.m)
+        for y in M.W:
+            self.assertAlmostEqual(self.m['trim'][str(y)],line[y],delta=.005,msg=y)   # its rows are rounded to $1M
+        self.assertAlmostEqual(-sum(line[y] for y in M.W),718.8,delta=.1)
+
+    def test_d3_rows_are_what_mixed_books(self):
+        """Scenario Q-H7 runs D3 on the package case mixed books (financing audit part D, item 2): its education-fund
+        and income-contribution rows (incidence-rows.csv EDUP, EDUB, ICH, ICB) carry mixed's FY2030-39 amounts."""
+        import csv
+        inc={r['id']:r for r in csv.DictReader((M.ROOT/'models/data/inputs/incidence-rows.csv').open(newline=''))}
+        c=self.d['cases']['mixed']; aud=[r for r in c['audit'] if r['year'] in M.W]
+        edu=[r for r in aud if r['line'].startswith('EDU replacement')]
+        self.assertAlmostEqual(float(inc['EDUP']['amount']),sum(r['revenue_change_bn'] for r in edu)/1000,delta=.0006)
+        self.assertAlmostEqual(float(inc['EDUB']['amount']),sum(r['primary_outlay_change_bn'] for r in edu)/1000,delta=.0006)
+        t=M.A['tax']; h=t['additional_yield_haircut']
+        hi=sum(M.tax_yield(self.b,y,t['high_rate_points'],0,h) for y in M.W)/1000
+        broad=sum(M.tax_yield(self.b,y,0,t['broad_rate_points'],h) for y in M.W)/1000
+        self.assertAlmostEqual(float(inc['ICH']['amount']),hi,delta=.0006)
+        self.assertAlmostEqual(float(inc['ICB']['amount']),broad,delta=.0006)
+        self.assertAlmostEqual(hi+broad,sum(r['new_income_tax_bn'] for r in c['rows'] if r['year'] in M.W)/1000,places=9)
+
     def test_no_unsupported_household_pass(self):
         h=self.d['household_diagnostic']['per_household_annual_dollars']
         self.assertLess(h['mixed'][2039]['Q4'],0)

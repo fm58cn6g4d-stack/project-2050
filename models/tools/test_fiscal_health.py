@@ -248,7 +248,10 @@ class HealthIncidence(unittest.TestCase):
         revenue-mix test, in d3.py as in health_booking.py."""
         S = json.load(open(INPUTS / "scenarios.json"))
         q = next(s for s in S["incidence"] if s["id"] == "Q-H7")
-        self.assertEqual(set(q["options"]) - {"DEC"}, set(self.ib["amounts"]) | {"H9"})
+        # Q-H7 is the package the gap books (financing audit part D, item 2): the health rows, the education fund and
+        # the indexed income contributions, without C19b and C20, which case mixed does not book
+        self.assertEqual(set(q["options"]) - {"DEC"}, set(self.ib["amounts"]) | {"H9", "EDUP", "EDUB", "ICH", "ICB"})
+        self.assertEqual(set(q["remove"]), {"C19b", "C20"})
         D3 = load("t_d3", HERE / "household" / "d3.py")
         self.assertEqual(D3.HEALTH_CONTRIBUTIONS, HB.D3_CONTRIBUTIONS)
         self.assertTrue(set(HB.D3_CONTRIBUTIONS) <= set(self.ib["amounts"]))

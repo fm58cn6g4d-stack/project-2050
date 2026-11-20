@@ -213,8 +213,8 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     development=f.row_path(b,s['development_program_tn'],dict(ramp=3,grow='cpi',perm=1))
     irs_risk=f.row_path(b,s['irs_receipt_risk_tn'],f.PR.REVENUE['G8'],'G8')
     # Reductions are explicit smaller authorizations, not unspent holdbacks or efficiency claims.
-    savings={y:sum(old[k]['gf'][str(y)]*(1-s[key]/amt) for k,key,amt in
-                [('CAP-7S','cap_surge_tn',.6),('CAP-7','cap_sustained_tn',.49),('AI-4','ai_transition_tn',.2)]) for y in Y}
+    # The trim table is the long-term model's (fiscal-model.py CAPACITY_TRIMS), so both models book the same amounts.
+    savings={y:sum(old[k]['gf'][str(y)]*(1-s[key]/amt) for k,key,amt in f.CAPACITY_TRIMS) for y in Y}
     adjustments={}
     for label,spec in (spending_adjustments or {}).items():
         adjustments[label]=({y: float(spec['annual_bn'].get(str(y), 0)) for y in Y}
