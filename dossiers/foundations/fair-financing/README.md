@@ -13,7 +13,7 @@ Role: the home of stage G, the financing settlement (`charter/PLAN.md` section 6
 
 | File | What it holds | Status |
 | --- | --- | --- |
-| [`1-audit.md`](1-audit.md) | Step 1: the gap as booked on main after stage F ($615.6B in FY2040, $3,762.5B over FY2030-39), by flagship and revenue row; the audit of every booked row; every open item with a finding and proposed treatment; the errors found; and the proposed plan for the rest of stage G | Audit, November 20, 2026; read-only |
+| [`1-audit.md`](1-audit.md) | Step 1: the gap as booked on main after stage F ($615.6B in FY2040, $3,762.5B over FY2030-39), by flagship and revenue row; the audit of every booked row; every open item with a finding and proposed treatment; the errors found; the proposed plan for the rest of stage G; and part F, the figures after step G2 ($615.6B and $3,998.5B; D3 on the booked package) | Audit, November 20, 2026; read-only; part F after #467 |
 
 ## Read with it
 
