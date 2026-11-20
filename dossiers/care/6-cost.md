@@ -1,6 +1,8 @@
 # Care you can count on, part A (health): cost and financing
 
-Role: section 6 of the care dossier, health part. It prices the provisions of section 4 on the health coverage model and reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`). Status: reviewed at L3 (health, `review-milestone.md`; fixes #225 to #228, re-check #229) and booked in the budget model (#230, #237, #279; the status rule #313 and the hospitals' payment #316, `DEC-2026-11-13-01`, `-02`); part 5 quotes the fiscal model's generated row paths. On `DEC-2026-11-10-09`, `-11`, `-12` and `-13`, with Medicaid's long-term care kept in Medicaid and hospital claims by payer (board row D-4c). Every figure here is project arithmetic on an exploratory model, not an official score.
+Role: section 6 of the care dossier, health part. It prices the provisions of section 4 on the health coverage model and reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`). Status: reviewed at L3 (health, `review-milestone.md`; fixes #225 to #228, re-check #229); its HLT-7 figures are superseded (see the note below), the rest was booked in the budget model (#230, #237, #279; the status rule #313 and the hospitals' payment #316, `DEC-2026-11-13-01`, `-02`); part 5 quotes the fiscal model's generated row paths. On `DEC-2026-11-10-09`, `-11`, `-12` and `-13`, with Medicaid's long-term care kept in Medicaid and hospital claims by payer (board row D-4c). Every figure here is project arithmetic on an exploratory model, not an official score.
+
+> **Superseded: HLT-7.** The health cost (HLT-7) is now booked on the corrected path, in `models/tools/health_booking.py` and reviewed in `dossiers/foundations/health-cost-review.md`. The HLT-7 figures in parts 1, 4, 5 and 6 ($26,007B over FY2030-39 and $5,040.3B in FY2040) are superseded by the booked $18,938B and $3,532.1B. The plan-wide gap quoted in part 5 is restated in `dossiers/foundations/fair-financing/1-audit.md` (stage G).
 
 ## Counting rules
 
@@ -176,7 +178,7 @@ Under `DEC-2026-11-10-05`, health reports its effect and passes it to the settle
 
 | Measure, FY2040 | Before the booking (legacy health) | As booked |
 | --- | --- | --- |
-| Plan-wide general-fund primary balance (`agenda_gf_primary_bn`, case `mixed`, before interest; every booked flagship) | $75.9 billion short | **$4,240.4 billion short** (7.83% of GDP) |
+| Plan-wide general-fund primary balance (`agenda_gf_primary_bn`, case `mixed`, before interest; every booked flagship) | $75.9 billion short | restated in `dossiers/foundations/fair-financing/1-audit.md` (stage G) |
 | Health's own net cost, as booked | $569 billion | **$4,093.7 billion** (7.56% of GDP) |
 
 GDP is the budget model's ($54,167 billion in FY2040). Health's net cost is nearly all of the plan-wide gap. That gap is expected: it is the premium-to-tax shift that the financing settlement designs (memo 1; `3-design.md`). It is a figure to report, not an error to fix, and the plan-wide balance cannot be read until the settlement books health's financing.

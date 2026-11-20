@@ -13,7 +13,7 @@ Role: the home of stage G, the financing settlement (`charter/PLAN.md` section 6
 
 | File | What it holds | Status |
 | --- | --- | --- |
-| [`1-audit.md`](1-audit.md) | Step 1: the gap as booked on main after stage F ($615.6B in FY2040, $3,762.5B over FY2030-39), by flagship and revenue row; the audit of every booked row; every open item with a finding and proposed treatment; the errors found; and the proposed plan for the rest of stage G | Audit, November 20, 2026; read-only |
+| [`1-audit.md`](1-audit.md) | Step 1: the gap as booked on main after stage F ($615.6B in FY2040, $3,762.5B over FY2030-39), by flagship and revenue row; the audit of every booked row; every open item with a finding and proposed treatment; the errors found; the proposed plan for the rest of stage G; and part F, the figures after step G2 ($615.6B and $3,998.5B; D3 on the booked package) | Audit, November 20, 2026; read-only; part F after #467 |
 | [`2-settlement.md`](2-settlement.md) | Step 4: the recommended package that closes FY2040 and every later year on the general fund. Health's share from the top-end and corporate rows; the package step by step; the decade path and debt; with and without D2 and HS2; the take-home test and D3; Social Security and HI; the forks with their costs; the risk table; the agent's corrections; what G7 books | Draft, November 20, 2026; provisional |
 | [`review-milestone.md`](review-milestone.md) | Step 5: the adversarial milestone review of the settlement draft (#470), its blockers and fixes; `2-settlement.md` is revised for them | Review, November 20, 2026 |
 | [`memos/`](memos/README.md) | Decision memos G1-G9 for Espen's one batch, with the forks at a glance | Provisional, drafted on the recommendations; none decided |
