@@ -219,7 +219,7 @@ def booking(full=True):
     hlt7_fy = {"plan-spending": spend, "transition-fund": {y: TRANSITION_FUND.get(y, 0.0) for y in FY},
                "territories": terr, "worker-help": {y: WORKER_HELP.get(y, 0.0) for y in FY},
                "federal-coverage": fedcov, "status-rule": status}
-    rev_fy, fin, after = {}, None, {}
+    rev_fy, fin, after, hi_part = {}, None, {}, {}
     if full:
         fin = financing()
         # D2 on the plan's whole gross with the errors fixed: the coverage groups' gross cost and the HLT-7 items
@@ -232,7 +232,15 @@ def booking(full=True):
             years["HLT-7/" + k] = window(hlt7_fy[k])
         after["HLT-7/worker-credit"] = credit_after(fin["credit"][2040])
         after.update(employer_after(fin, B, F))
-        rev_fy = fin["rows"]
+        rev_fy = dict(fin["rows"])
+        # DEC-2026-11-16-02 restores H1a's early years to Medicare's HI fund: HI keeps FY2030-34 and FY2035's
+        # October-December 2034 quarter (funds-parameters.csv hi_h1a_bn, credited in funds-model.py), and the ledger
+        # row books only what the decision leaves on the general fund, from the January 2035 endpoint, when HI folds
+        # into the plan's fund (HLT-6's Part A pattern; financing audit part D, item 1). Households pay the whole
+        # stream either way (incidence-rows.csv H1a).
+        h1a = fin["rows"]["H1a"]
+        rev_fy["H1a"] = {y: v * ENDPOINT[y] for y, v in h1a.items()}
+        hi_part["H1a"] = window({y: h1a[y] * (1 - ENDPOINT[y]) for y in W})
         for k, v in rev_fy.items():
             years[k] = window(v)
     # The ledger keeps $1 billion ($0.001T; ledger-build.py rounds gf_mid to three places), so each row's ten-year
@@ -306,7 +314,7 @@ def booking(full=True):
         fy2040.update(seam=cor["model"][2040] - hp["net"][2040], corrections=cor["errors"][2040] - cor["model"][2040],
                       **{k: hlt7_fy[k][2040] for k in NEW_HLT7}, revenue={k: v[2040] for k, v in rev_fy.items()})
     return dict(years=years, components=comps, ledger=ledger, perms=perms, fy2040=fy2040, totals=totals, hlt4_path=hlt4_path,
-                hlt4_parts=hlt4_parts, revenue=revenue, hlt7_fy=hlt7_fy, revenue_fy=rev_fy, spend_before=spend0, after=after,
+                hlt4_parts=hlt4_parts, revenue=revenue, hlt7_fy=hlt7_fy, revenue_fy=rev_fy, hi=hi_part, spend_before=spend0, after=after,
                 contribution={y: hp["contribution"][y] for y in W + [2040]})
 
 

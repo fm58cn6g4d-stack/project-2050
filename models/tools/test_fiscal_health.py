@@ -91,6 +91,24 @@ class HealthBooking(unittest.TestCase):
         hx = next(r for r in rows("fiscal-profiles.csv") if r["id"] == "HX")
         self.assertAlmostEqual(float(hx["perm"]), self.b["perms"]["HX"], places=6)
 
+    def test_h1a_booked_once(self):
+        """DEC-2026-11-16-02 gives H1a's FY2030-34 and FY2035's first quarter to Medicare's HI fund: the funds model
+        credits HI with them (funds-parameters.csv hi_h1a_bn), the ledger row books only the rest on the general fund,
+        so the two add to the stream once, and D3 charges households the whole stream (financing audit part D, item 1)."""
+        hi = self.b["hi"]["H1a"]
+        par = next(r for r in rows("funds-parameters.csv") if r["key"] == "hi_h1a_bn")
+        self.assertEqual([float(x) for x in par["value"].split("/")], hi[:6])
+        self.assertTrue(all(v == 0 for v in hi[6:]))
+        gf = self.b["years"]["H1a"]
+        self.assertTrue(all(v == 0 for v in gf[:5]))
+        full = HB.financing()["rows"]["H1a"]
+        for i, y in enumerate(W):
+            self.assertAlmostEqual(gf[i] + hi[i], full[y], delta=0.011, msg=y)
+        self.assertAlmostEqual(self.rev["H1a"]["mid"] + sum(hi) / 1000, sum(full[y] for y in W) / 1000, delta=0.001)
+        inc = next(r for r in rows("incidence-rows.csv") if r["id"] == "H1a")
+        self.assertAlmostEqual(eval(inc["amount"].replace("[H1a]", repr(self.rev["H1a"]["mid"]))),
+                               sum(full[y] for y in W) / 1000, delta=0.001)
+
     def test_fy2040_lines_are_the_paths(self):
         spend = self.part("HLT-7", "plan-spending")
         self.assertAlmostEqual(spend[2040], self.b["fy2040"]["spending"], delta=0.5)

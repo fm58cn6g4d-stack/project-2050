@@ -142,8 +142,16 @@ class HealthFinancingBooking(unittest.TestCase):
         self.assertLess(hcu[2034], hcu[2035])
         g30 = HF.per_point(HF.plan_gap(), 2030)["high_income"] / per[2040]
         for k, (_, v, _, _) in zip(STREAM_IDS, CR.NEW_STREAMS):     # in full from FY2030, grown with GDP
-            self.assertAlmostEqual(rf[k][2030], v * g30, places=6, msg=k)
-            self.assertTrue(all(rf[k][y] < rf[k][y + 1] for y in range(2030, 2040)), k)
+            full = self.fin["rows"][k]
+            self.assertAlmostEqual(full[2030], v * g30, places=6, msg=k)
+            self.assertTrue(all(full[y] < full[y + 1] for y in range(2030, 2040)), k)
+            if k != "H1a":
+                self.assertEqual(rf[k], full, k)
+        # H1a's FY2030-34 and FY2035's first quarter are Medicare HI's (DEC-2026-11-16-02): the general-fund row
+        # starts at the endpoint (financing audit part D, item 1)
+        self.assertTrue(all(rf["H1a"][y] == 0 for y in range(2030, 2035)))
+        self.assertAlmostEqual(rf["H1a"][2035], 0.75 * self.fin["rows"]["H1a"][2035], places=6)
+        self.assertEqual(rf["H1a"][2040], self.fin["rows"]["H1a"][2040])
         cr = self.b["hlt7_fy"]["worker-credit"]
         self.assertTrue(all(cr[y] == 0 for y in range(2030, 2035)))
         hec = rf["HEC"]

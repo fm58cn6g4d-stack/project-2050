@@ -10,7 +10,7 @@ package,H1b,Medicare/NIIT to 5% above $400K,cost,[H1b],inv400k,,ledger
 package,GX,Overlap and avoidance haircut,cost,[GX],above450k,,ledger
 package,G8,IRS enforcement,cost,[G8],enforcement,,ledger
 package,G10,Financial transaction tax,cost,[G10],ftt,,ledger
-package,H1a,"The 3.8% investment-income tax extended to active pass-through income (H1a; health stream e, DEC-2026-11-15-19)",cost,[H1a],inv400k,,ledger
+package,H1a,"The 3.8% investment-income tax extended to active pass-through income (H1a; health stream e, DEC-2026-11-15-19), both funds' shares",cost,[H1a]+0.2358,inv400k,,"ledger general-fund share plus HI's FY2030-35 share (funds-parameters.csv hi_h1a_bn, $235.8B): households pay the whole stream"
 package,O1,SS tax above $250K (SS-1),cost,[O1],above250k_wages,,ledger
 package,O2,"SS tax on investment income above $400K, net of haircut",cost,[O2]+[OX],inv400k,,ledger
 package,P1,Paid-leave contribution 0.6%,cost,[P1],wages_cap,,ledger; both halves on workers

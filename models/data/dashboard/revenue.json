@@ -14,15 +14,15 @@
  },
  {
   "id": "H1a",
-  "option": "Extend the 3.8% investment-income tax to active pass-through income (health stream e, DEC-2026-11-15-19), paid into the plan's fund",
+  "option": "Extend the 3.8% investment-income tax to active pass-through income (health stream e, DEC-2026-11-15-19), paid into the plan's fund; the general-fund share, from the January 2035 endpoint",
   "channel": "General fund",
-  "lo": 0.369,
-  "mid": 0.492,
-  "hi": 0.615,
+  "lo": 0.192,
+  "mid": 0.256,
+  "hi": 0.32,
   "in_base": "Yes",
   "reaches_middle": "No",
   "legal_risk": "Low",
-  "overlap": "Not otherwise booked; SC2 (not in the base) overlaps it on the same pass-through base",
+  "overlap": "Not otherwise booked; SC2 (not in the base) overlaps it on the same pass-through base. FY2030-34 and FY2035's first quarter ($0.236T) go to Medicare's HI fund (DEC-2026-11-16-02) and are credited there only (funds-parameters.csv hi_h1a_bn), so this row books the rest once (financing audit part D, item 1)",
   "source": "dossiers/foundations/health-cost-review.md part 2.2 ($60B in FY2040, range 45-75; CBO $440B 2026-35 as merged); health_booking.py"
  },
  {

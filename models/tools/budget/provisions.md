@@ -16,7 +16,7 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | --- | --- | --- | --- | --- |
 | Discretionary appropriation | 28 | 28 | 26 | 1.43 |
 | Mandatory (direct) spending | 55 | 55 | 51 | 24.88 |
-| Revenue | 101 | 55 | 36 | -23.40 |
+| Revenue | 101 | 55 | 36 | -23.16 |
 | Interest-neutral transfer (self-funded) | 2 | 2 | 2 | 0 |
 | No direct budget effect | 23 | 16 | 16 | 0.03 |
 
@@ -155,7 +155,7 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | MOV-30 | R3 | FY2031-2040 | 74.3 | 0.0 |
 | SAF-10 | R3 | FY2031-2040 | 35.3 | 52.4 |
 
-Not assigned to a bill, in the decided program (scenario DEC): 48 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1a, H1b, HX, IMM-EV, IF1T, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43, C1T, C3A, CXA, HCU, HCW, HCA, HCP, HCH, HEC, HEX, HS1, HS2, HS3, HS4, LAB-11T, LAB-18T, LAB-2P, G8P), a deficit effect of -22.43 trillion dollars over FY2029-38 and -26.35 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
+Not assigned to a bill, in the decided program (scenario DEC): 48 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1a, H1b, HX, IMM-EV, IF1T, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43, C1T, C3A, CXA, HCU, HCW, HCA, HCP, HCH, HEC, HEX, HS1, HS2, HS3, HS4, LAB-11T, LAB-18T, LAB-2P, G8P), a deficit effect of -22.19 trillion dollars over FY2029-38 and -26.12 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
 
 ## Where the files disagree
 
