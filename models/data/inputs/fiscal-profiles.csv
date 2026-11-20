@@ -149,3 +149,7 @@ bill,LAB-18,,out_other_mandatory,,1,gdp,,1.002296,,,Section 6's central path (fi
 base revenue,LAB-11T,,rev_individual,,1,gdp,,1.003944,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
 base revenue,LAB-18T,,rev_individual,,1,gdp,,1.001966,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
 base revenue,LAB-2P,,rev_individual,,1,gdp,,1.084064,,,"Section 6's central path (fiscal-years.csv); perm fitted so FY2040 is the path's, then GDP (work booking)"
+bill,DEM-17.02,,out_disc_nondefense,,1,gdp,,0.962904,,,The foundation's path (fiscal-years.csv); perm fitted so FY2040 is the path's (democratic renewal booking)
+bill,CRT-20.01,,out_disc_nondefense,,1,gdp,,0.908600,,,The foundation's path (fiscal-years.csv); perm fitted so FY2040 is the path's (democratic renewal booking)
+bill,CAP-7P,,out_disc_nondefense,,1,gdp,,0.000000,,,The foundation's path (fiscal-years.csv); perm fitted so FY2040 is the path's (democratic renewal booking)
+base revenue,G8P,,rev_individual,,1,gdp,,0.000000,,,The foundation's path (fiscal-years.csv); perm fitted so FY2040 is the path's (democratic renewal booking)

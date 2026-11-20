@@ -6,18 +6,18 @@
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
-| mixed | 124.2% | 161.8% | 8.12% | False | 9.19 |
-| larger_payroll | 124.8% | 164.9% | 8.36% | False | 9.57 |
-| mixed_downside | 129.5% | 180.9% | 9.66% | False | 14.83 |
-| mixed_all_debt_rate_plus1 | 131.8% | 196.1% | 11.25% | False | 12.71 |
+| mixed | 124.2% | 161.9% | 8.13% | False | 9.20 |
+| larger_payroll | 124.8% | 165.0% | 8.37% | False | 9.58 |
+| mixed_downside | 129.5% | 181.0% | 9.66% | False | 14.84 |
+| mixed_all_debt_rate_plus1 | 131.8% | 196.2% | 11.26% | False | 12.72 |
 | mixed_no_macro_translation | 124.0% | 160.8% | 8.01% | False | — |
-| mixed_leave_admin_high | 124.3% | 162.1% | 8.14% | False | — |
-| mixed_ssa_medicare_all_hi | 124.2% | 161.8% | 8.12% | False | — |
-| mixed_ssa_medicare_all_smi | 124.2% | 161.8% | 8.12% | False | — |
-| mixed_reserve_corridor | 124.2% | 161.8% | 8.12% | False | — |
-| mixed_corridor_downside | 129.5% | 180.9% | 9.66% | False | — |
-| mixed_legacy_education_floor | 124.2% | 161.9% | 8.13% | False | — |
-| mixed_larger_credit | 128.6% | 166.3% | 8.24% | False | — |
+| mixed_leave_admin_high | 124.3% | 162.2% | 8.15% | False | — |
+| mixed_ssa_medicare_all_hi | 124.2% | 161.9% | 8.13% | False | — |
+| mixed_ssa_medicare_all_smi | 124.2% | 161.9% | 8.12% | False | — |
+| mixed_reserve_corridor | 124.2% | 161.9% | 8.13% | False | — |
+| mixed_corridor_downside | 129.5% | 181.0% | 9.66% | False | — |
+| mixed_legacy_education_floor | 124.2% | 162.0% | 8.14% | False | — |
+| mixed_larger_credit | 128.6% | 166.4% | 8.25% | False | — |
 
 The last column is the total broad-tier rate required under this static tax-yield proxy, replacing the proposed two-point broad tier, with the high tier unchanged. It is not a tax score.
 
@@ -35,11 +35,11 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | Fixed-grant comparison, FY | Current-law revenue | Current-law primary spending | Total revenue | Total spending | Net interest | Deficit | Debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2029 | 6261 | 7015 | 6261 | 8405 | 1345 | 2144 | 107.5% |
-| 2030 | 6534 | 7364 | 7640 | 9591 | 1450 | 1950 | 108.7% |
-| 2035 | 7898 | 8732 | 12397 | 15097 | 1943 | 2700 | 113.5% |
-| 2039 | 9294 | 10409 | 14976 | 18587 | 2490 | 3611 | 124.2% |
-| 2045 | 11831 | 13205 | 19545 | 23919 | 3470 | 4375 | 135.9% |
-| 2056 | 17910 | 20097 | 29582 | 37351 | 6131 | 7769 | 161.8% |
+| 2030 | 6534 | 7364 | 7640 | 9588 | 1450 | 1947 | 108.7% |
+| 2035 | 7898 | 8732 | 12397 | 15098 | 1943 | 2701 | 113.5% |
+| 2039 | 9294 | 10409 | 14976 | 18589 | 2491 | 3613 | 124.2% |
+| 2045 | 11831 | 13205 | 19545 | 23922 | 3471 | 4378 | 135.9% |
+| 2056 | 17910 | 20097 | 29582 | 37357 | 6134 | 7775 | 161.9% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 

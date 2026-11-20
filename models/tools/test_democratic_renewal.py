@@ -48,25 +48,32 @@ class CostTool(unittest.TestCase):
             "CAP-8": [1.8, 3.6, 3.8, 3.9, 4.1, 4.2, 4.4, 4.6, 4.7, 4.9],
             "CAP-7S": [11.4, 19.6, 21.2, 19.6, 16.3, 9.8, 0, 0, 0, 0],
             "CAP-7": [8.6, 17.8, 27.7, 28.7, 29.8, 30.9, 32.1, 33.3, 34.5, 35.8],
+            # The booking's rows (democratic_renewal_booking.py), at the ledger's $1B rounding (two decimals here).
+            "DEM-17.02": [0.38, 0.78, 0.80, 0.81, 0.83, 0.84, 0.86, 0.88, 0.90, 0.92],
+            "CRT-20.01": [0.11, 0.22, 0.33, 0.43, 0.54, 0.65, 0.66, 0.68, 0.69, 0.70],
+            "CAP-7P": [-3.36, -4.88, -6.51, -2.25, 0, 0, 0, 0, 0, 0],
         }
         for row, values in table.items():
             for y, v in zip(YEARS, values):
                 with self.subTest(row=row, year=y):
-                    self.assertAlmostEqual(self.rows[row][y], v, delta=0.05 + 1e-9)
+                    self.assertAlmostEqual(self.rows[row][y], v, delta=0.05 + 1e-9)  # one decimal, or two for the booking's rows
 
     def test_booked_totals(self):
         b = self.s["booked"]
         for row, (w, f) in {"DEM-1": (10.0, 1.22), "DEM-11": (20.0, 2.26), "DEM-16": (10.0, 1.22),
                             "DEM-17": (30.0, 0.0), "DEM-3": (10.0, 1.65), "CRT-P1": (10.0, 1.33),
-                            "CAP-8": (40.0, 5.09), "CAP-7S": (98.0, 0.0), "CAP-7": (279.2, 37.20)}.items():
+                            "CAP-8": (40.0, 5.09), "CAP-7S": (98.0, 0.0), "CAP-7": (279.2, 37.20),
+                            "DEM-17.02": (8.0, 0.91), "CRT-20.01": (5.0, 0.66), "CAP-7P": (-17.0, 0.0)}.items():
             with self.subTest(row=row):
                 self.assertAlmostEqual(b[row]["fy2030_39"], w, delta=0.05)
                 self.assertAlmostEqual(b[row]["fy2040"], f, delta=0.005)
-        self.assertAlmostEqual(self.s["booked_all"]["fy2030_39"], 507.2, delta=0.05)
-        self.assertAlmostEqual(self.s["booked_all"]["fy2040"], 49.98, delta=0.005)
+        # 507.2 and 49.98 for the nine rows before the booking; +8.0 +5.0 -17.0 and +0.91 +0.66 with it
+        self.assertAlmostEqual(self.s["booked_all"]["fy2030_39"], 503.2, delta=0.05)
+        self.assertAlmostEqual(self.s["booked_all"]["fy2040"], 51.55, delta=0.005)
 
     def test_booked_all_by_year(self):
-        all_rows = [29.4, 49.2, 61.5, 62.6, 60.9, 56.1, 48.0, 44.8, 46.5, 48.2]
+        # the nine rows were 29.4, 49.2, 61.5, 62.6, 60.9, 56.1, 48.0, 44.8, 46.5, 48.2; with the booking's three rows:
+        all_rows = [26.5, 45.3, 56.1, 61.6, 62.3, 57.6, 49.5, 46.4, 48.1, 49.8]
         for y, v in zip(YEARS, all_rows):
             with self.subTest(year=y):
                 self.assertAlmostEqual(sum(r[y] for r in self.rows.values()), v, delta=0.05 + 1e-9)
@@ -76,11 +83,12 @@ class CostTool(unittest.TestCase):
         self.assertAlmostEqual(c["surge"], 43.2, delta=0.05)
         self.assertAlmostEqual(c["sustained"], 29.7, delta=0.05)
         self.assertAlmostEqual(c["fy2040"], 4.7, delta=0.05)
-        self.assertAlmostEqual(self.s["gap_2040"], 614.0, delta=0.05)
+        self.assertAlmostEqual(self.s["gap_2040"], 615.6, delta=0.05)   # 602.7 before the work booking, 614.0 before this one
         sh = self.s["share_of_gap_2040"]
-        self.assertAlmostEqual(100 * sh["booked"], 8.14, delta=0.005)  # 8.29 before the work booking raised the gap to 614.0
-        self.assertAlmostEqual(100 * sh["unbooked"], 0.41, delta=0.005)
-        self.assertAlmostEqual(100 * sh["unbooked_hi"], 0.62, delta=0.005)
+        self.assertAlmostEqual(100 * sh["booked"], 8.37, delta=0.005)   # 8.29 on the 602.7 gap and nine rows; 8.14 on 614.0
+        self.assertAlmostEqual(100 * sh["unbooked"], 0.16, delta=0.005)  # the court's structure and statute tracking
+        self.assertAlmostEqual(100 * sh["unbooked_hi"], 0.22, delta=0.005)
+        self.assertAlmostEqual(100 * sh["priced"], 0.41, delta=0.005)    # all four lines section 6 priced
 
     def test_other_lines(self):
         o = self.s["other"]
@@ -93,8 +101,8 @@ class CostTool(unittest.TestCase):
         ssa = o[cost.OTHER_LINES["SSA OASDI capacity reclassification"]]
         self.assertAlmostEqual(ssa["fy2030_39"], -15.0, delta=0.05)
 
-    def test_unbooked_lines(self):
-        u = self.s["unbooked"]
+    def test_priced_lines(self):
+        u = self.s["priced"]
         for line, (mid, lo, hi, f) in {
             "DEM-17.02, the permanent library line": (7.84, 5.22, 10.45, 0.91),
             "CRT-5.09, the immigration court's structure": (6.87, 3.22, 9.74, 0.95),
@@ -106,16 +114,36 @@ class CostTool(unittest.TestCase):
                 self.assertAlmostEqual(u[line]["lo_30_39"], lo, delta=0.005)
                 self.assertAlmostEqual(u[line]["hi_30_39"], hi, delta=0.005)
                 self.assertAlmostEqual(u[line]["fy2040"], f, delta=0.005)
-        a = self.s["unbooked_all"]
+        a = self.s["priced_all"]
         self.assertAlmostEqual(a["fy2030_39"], 19.4, delta=0.05)
         self.assertAlmostEqual(a["lo_30_39"], 10.8, delta=0.05)
         self.assertAlmostEqual(a["hi_30_39"], 28.8, delta=0.05)
         self.assertAlmostEqual(a["fy2040"], 2.54, delta=0.005)
 
+    def test_unbooked_lines(self):
+        # After the booking: the court's structure (inside CRT-P1's room) and statute tracking (inside CAP-8).
+        u = self.s["unbooked"]
+        self.assertEqual(sorted(u), ["CAP-6.01, statute tracking", "CRT-5.09, the immigration court's structure"])
+        a = self.s["unbooked_all"]
+        self.assertAlmostEqual(a["fy2030_39"], 7.0, delta=0.05)
+        self.assertAlmostEqual(a["lo_30_39"], 3.3, delta=0.05)
+        self.assertAlmostEqual(a["hi_30_39"], 9.9, delta=0.05)
+        self.assertAlmostEqual(a["fy2040"], 0.96, delta=0.005)
+
+    def test_d4_is_booked(self):
+        d = self.s["d4_booked"]
+        self.assertAlmostEqual(d["outlay_fy2030_39"], -17.0, delta=0.05)           # the ledger's $1B rounding of -16.6
+        self.assertAlmostEqual(d["revenue_lag_fy2030_39"], 16.1, delta=0.05)
+        self.assertAlmostEqual(d["net_fy2030_39"], -0.9, delta=0.05)               # -0.4 unrounded (7-validation.md part 1.3)
+        self.assertAlmostEqual(d["fy2040"], 0.0, delta=0.005)
+
     def test_imm1_split_window(self):
-        # 6-cost.md part 5: about -$4.3 billion over FY2036-39 (range -3.5 to -5.0). The FY2040 figure's year shape
-        # is review C-6's open slip (-0.90 printed, 78% of -1.06 is -0.83), left to a later fix step.
+        # 6-cost.md part 5: about -$4.3 billion over FY2036-39 (range -3.5 to -5.0), and in FY2040 78% of the
+        # immigration model's -1.062, -0.83 (review C-6: the draft's hardcoded year shape gave -0.90).
         t = self.s["later_tier3"]["CRT-5.06, the judges' split, against IMM-1"]
+        self.assertAlmostEqual(t["fy2040"], -0.83, delta=0.005)
+        self.assertAlmostEqual(t["lo_2040"], -0.68, delta=0.005)
+        self.assertAlmostEqual(t["hi_2040"], -0.97, delta=0.005)
         self.assertAlmostEqual(t["fy2030_39"], -4.3, delta=0.005)
         self.assertAlmostEqual(t["lo_30_39"], -3.5, delta=0.005)
         self.assertAlmostEqual(t["hi_30_39"], -5.0, delta=0.005)

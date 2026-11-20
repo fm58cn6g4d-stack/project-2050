@@ -61,21 +61,21 @@ Delaying C19b/C20 to a three-year 2033–35 phase-in forgoes $0.360T; these rece
 
 | Case | GF primary 2030–39 ($T) | Extra net receipts needed at maturity (% GDP) | FY2040 GF gap ($B) | Total debt/GDP 2056 | FY2056 extra primary adjustment for flat debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Education reference | 3.556 | 1.761% | 715.9 | 187.9% | 4.36% GDP |
-| Recovery: delay C19b/C20 | 3.916 | 1.761% | 715.9 | 189.0% | 4.36% GDP |
-| Recovery downside | 5.156 | 2.069% | 871.2 | 197.5% | 4.73% GDP |
-| Recovery plus housing/service space | 4.417 | 1.942% | 818.3 | 193.5% | 4.58% GDP |
-| Recovery plus housing/service space downside | 5.657 | 2.250% | 973.7 | 202.1% | 4.94% GDP |
-| Replace C19b/C20 plus housing/service space downside | 6.130 | 2.419% | 1057.7 | 206.2% | 5.14% GDP |
+| Education reference | 3.568 | 1.764% | 717.5 | 188.0% | 4.36% GDP |
+| Recovery: delay C19b/C20 | 3.928 | 1.764% | 717.5 | 189.0% | 4.37% GDP |
+| Recovery downside | 5.168 | 2.072% | 872.8 | 197.6% | 4.73% GDP |
+| Recovery plus housing/service space | 4.429 | 1.945% | 819.9 | 193.6% | 4.58% GDP |
+| Recovery plus housing/service space downside | 5.669 | 2.253% | 975.2 | 202.2% | 4.95% GDP |
+| Replace C19b/C20 plus housing/service space downside | 6.142 | 2.422% | 1059.3 | 206.2% | 5.14% GDP |
 
 | Case | Additional net resources phased 2035–44 (% GDP at maturity) | Debt/GDP 2056 after illustrative adjustment |
 | --- | ---: | ---: |
 | Education reference | 3.85% | 115.9% |
-| Recovery: delay C19b/C20 | 3.85% | 116.8% |
+| Recovery: delay C19b/C20 | 3.86% | 116.8% |
 | Recovery downside | 4.18% | 119.3% |
 | Recovery plus housing/service space | 4.04% | 117.8% |
-| Recovery plus housing/service space downside | 4.37% | 120.3% |
-| Replace C19b/C20 plus housing/service space downside | 4.54% | 121.1% |
+| Recovery plus housing/service space downside | 4.37% | 120.4% |
+| Replace C19b/C20 plus housing/service space downside | 4.54% | 121.2% |
 
 The second table solves for nonincreasing debt/GDP in every year 2045–56, with additional net resources phased 2035–44. These are financing requirements after any offsets and protection, not tax rates or scored receipts; SS/HI reforms are not added again. No behavior, inflation or implementation forecast is implied.
 

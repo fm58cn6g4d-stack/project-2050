@@ -28,9 +28,11 @@ class LedgerPrecision(unittest.TestCase):
         # 20.64 until the streams started in FY2030 and the household contribution stepped with the waves from 2031
         # (DEC-2026-11-16-01, -02): +2.83;
         # 23.44 after the work booking added the UI tax offset (LAB-11T, a loss), income tax on wage insurance (LAB-18T)
-        # and civil penalties (LAB-2P) as base-revenue rows: -0.027 + 0.0016 + 0.0004 = -0.025
-        self.assertEqual(money_sum(values), 23.44)
-        self.assertEqual(money_sum(reversed(values)), 23.44)
+        # and civil penalties (LAB-2P) as base-revenue rows: -0.027 + 0.0016 + 0.0004 = -0.025;
+        # 23.42 after the democratic renewal booking added G8P, the IRS yield lagged with the hiring pace
+        # (DEC-2026-11-18-14), a base-revenue row of -0.0161
+        self.assertEqual(money_sum(values), 23.42)
+        self.assertEqual(money_sum(reversed(values)), 23.42)
 
 
 if __name__ == '__main__':
