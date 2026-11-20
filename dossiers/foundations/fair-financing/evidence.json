@@ -1,0 +1,409 @@
+[
+ {
+  "id": "EV-FIN-001",
+  "statement": "JCT's tax expenditure estimates for the last year of its five-year window ($ billions): exclusion of gain from certain small business stock, 5.9 (individuals); deferral of gain on like-kind exchanges, 2.7 corporate and 8.1 individual; deduction for mortgage interest, 54.9; deduction for qualified business income, 80.8; defined benefit pensions 171.1 and defined contribution plans 301.9; employer health exclusion 281.1; lower rates on dividends and gains 252.1; gains at death 84.2; equipment depreciation beyond ADS 35.4 corporate and 24.3 individual; public-purpose state and local bond interest 5.7 corporate and 24.5 individual; state and local taxes 65.5; charitable contributions other than education and health 64.8; oil and gas depletion 3.4 and exploration expensing 2.3 over the five years. A tax expenditure is not a revenue estimate: it ignores behavioral responses.",
+  "claim": "analysis",
+  "figures": [
+   "5.9",
+   "2.7",
+   "8.1",
+   "54.9",
+   "80.8",
+   "171.1",
+   "301.9",
+   "281.1",
+   "252.1",
+   "84.2",
+   "35.4",
+   "24.3",
+   "5.7",
+   "24.5",
+   "65.5",
+   "64.8",
+   "3.4",
+   "2.3"
+  ],
+  "source": "SRC-1266",
+  "anchor": [
+   "--84.2\n11.2\n8.1\n5.9\n1.4\n2.7\n0.2\n\n9.8\n379.3\n68.1\n53.6\n25.7",
+   "----2.7",
+   "54.1\n\n54.9\n\n261.1",
+   "[2]\n80.8\n\n0.3\n389.9",
+   "20.2\n171.1\n301.9\n\n91.1\n758.2\n1,220.3",
+   "266.1\n\n281.1\n\n1,268.2",
+   "252.1\n0.2\n2.3\n0.5\n1.9\n5.8\n72.3\n\n1,253.0",
+   "34.2\n\n35.0\n\n34.9\n\n35.4\n\n35.4",
+   "24.4\n\n24.3\n\n296.4",
+   "5.5\n\n5.7",
+   "23.9\n\n24.5\n\n143.1",
+   "63.1\n\n65.5\n\n298.4",
+   "61.5\n\n64.8\n\n303.2",
+   "3.4\n0.6",
+   "0.4\n\n0.4\n\n[2]\n\n[2]\n\n[2]\n\n[2]\n\n[2]\n\n2.3",
+   "Tax expenditures versus revenue estimates\nA tax expenditure calculation is not the same as a revenue estimate for the repeal of the\ntax expenditure provision for three reasons. First, unlike revenue estimates, tax expenditure\ncalculations do not incorporate the effects of the behavioral changes that are anticipated to occur\nin response to the repeal of a tax expenditure provision. Second, some of the tax provisions that\nprovide an exclusion from income also apply to the Federal Insurance Contributions Act"
+  ],
+  "grade": "C",
+  "fact_date": "2025-12",
+  "recheck": "2026-12-31",
+  "context": "Joint Committee on Taxation (nonpartisan congressional staff), JCX-45-25, December 3, 2025, Table 1, on law through August 31, 2025 and CBO's January 2025 baseline. The text version is columnar: each anchor is a run of the table's number column, located with the original PDF (the 2029 cells: small business stock at line 2997, like-kind at 2960 and 2996, mortgage interest at 2414, qualified business income at 2675, pensions at 4300-4301, the health exclusion at 3902, gains rates at 2303, gains at death at 2994, equipment depreciation at 2448 and 2458, bonds at 4480 and 4490, state and local taxes at 4512, charitable at 3830; oil and gas five-year totals at 1880 and 1901). Spot-check: gains at death, 66.3 + 72.5 + 76.4 + 79.9 + 84.2 = 379.3, the printed total. JCT itself says these are not revenue estimates (lines 1069-1074).",
+  "corroboration": [],
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md",
+   "dossiers/foundations/fair-financing/memos/G12-tax-breaks.md"
+  ],
+  "locator": "Table 1; text lines as in context",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-002",
+  "statement": "CBO scored the 2025 reconciliation law's agriculture title: commodity programs +$53.060 billion and crop insurance +$5.980 billion over FY2025-FY2034.",
+  "claim": "analysis",
+  "figures": [
+   "53.060",
+   "5.980",
+   "2025",
+   "2034"
+  ],
+  "source": "SRC-2113",
+  "anchor": [
+   "Commodity Programs\n+53.060\nCrop insurance\n+5.980",
+   "(outlays, in billions of dollars, FY2025-FY2034)"
+  ],
+  "grade": "C",
+  "fact_date": "2025-07",
+  "recheck": "2027-02-28",
+  "context": "CRS report R48775 (December 18, 2025), reproducing CBO's July 21, 2025 score of P.L. 119-21 against CBO's January 2025 baseline. CRS and CBO are nonpartisan legislative-branch agencies. A score, so analysis.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md"
+  ],
+  "locator": "Table 1",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-003",
+  "statement": "MedPAC estimates that Medicare will spend 14 percent, a projected $76 billion, more for Medicare Advantage enrollees in 2026 than it would in traditional Medicare.",
+  "claim": "analysis",
+  "figures": [
+   "14",
+   "76",
+   "2026"
+  ],
+  "source": "SRC-3107",
+  "anchor": [
+   "We estimate that Medicare will spend 14 percent—a projected $76 billion—\nmore for MA enrollees in 2026 than it would spend if those beneficiaries were"
+  ],
+  "grade": "C",
+  "fact_date": "2026-03",
+  "recheck": "2027-03-31",
+  "context": "Medicare Payment Advisory Commission, March 2026 report, chapter 12. MedPAC is Congress's nonpartisan advisory body. Cited only to show that the booked HLT-6.01 rests on this method; the scan books nothing from it.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md"
+  ],
+  "locator": "chapter summary",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-004",
+  "statement": "CBO projects U.S. nuclear forces to cost $946 billion over the next decade, an average of $95 billion a year.",
+  "claim": "analysis",
+  "figures": [
+   "946",
+   "95"
+  ],
+  "source": "SRC-6102",
+  "anchor": [
+   "America's nuclear arsenal will cost $946 billion over the next decade",
+   "comes out to an average of $95 billion per year"
+  ],
+  "grade": "C",
+  "fact_date": "2025-04",
+  "recheck": "2027-04-30",
+  "context": "Breaking Defense (trade press) reporting CBO's Projected Costs of U.S. Nuclear Forces, 2025 to 2034 (April 2025). CBO is nonpartisan; cbo.gov blocks this project's downloads, so the figure is read through the report. Quotations are fragments read through a fetch tool; a reviewer should check them against the page. CBO notes Sentinel's post-breach cost is not in the total.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md"
+  ],
+  "locator": "lead and next paragraph",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-005",
+  "statement": "CBO estimates that a new missile defense shield could cost nearly $1.2 trillion to develop, field and operate, with a constellation of 7,800 space-based interceptors its largest component.",
+  "claim": "analysis",
+  "figures": [
+   "1.2",
+   "7,800"
+  ],
+  "source": "SRC-6103",
+  "anchor": [
+   "It could cost nearly $1.2 trillion to develop, field, and operate a new missile defense shield",
+   "An all-new constellation of 7,800 space-based interceptors is, by far, the largest single component of CBO's projection."
+  ],
+  "grade": "C",
+  "fact_date": "2026-05",
+  "recheck": "2027-05-31",
+  "context": "The War Zone (defense press) reporting CBO's Potential Costs of a National Missile Defense System (May 2026, publication 62379), a notional architecture. The administration's own figure is $175 billion (second Trump administration; not relied on). Quotations read through a fetch tool; check against the page.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md"
+  ],
+  "locator": "lead",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-006",
+  "statement": "CBO's option to reduce the Department of Defense's annual budget authority by about $1 trillion over the decade would cut spending by $959 billion over 2025-2034.",
+  "claim": "analysis",
+  "figures": [
+   "1",
+   "959",
+   "2025",
+   "2034"
+  ],
+  "source": "SRC-6104",
+  "anchor": [
+   "Reducing the Department of Defense's annual budget authority by about $1 trillion over the next decade in 2025 dollar terms",
+   "would translate to spending cuts amounting to $959 billion in spending cuts from 2025-2034."
+  ],
+  "grade": "C",
+  "fact_date": "2024-12",
+  "recheck": "2026-12-31",
+  "context": "Fox Business reporting CBO's Options for Reducing the Deficit, 2025 to 2034 (December 2024). The American Action Forum's summary lists the same option at $1.1 trillion; CBO's table was not read (cbo.gov blocks this project). Used only as a benchmark for the scale of a deep topline cut, not as a price. Quotations are two fragments read through a fetch tool.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md"
+  ],
+  "locator": "defense option paragraph",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-007",
+  "statement": "GAO found that as of July 7, 2026 DOGE's Wall of Receipts reported $110 billion of savings, some incorrect or unsupported; of more than $61 billion reported for 13,476 terminated contracts, no termination action was taken on 2,503 contracts representing $27.4 billion.",
+  "claim": "data",
+  "figures": [
+   "7",
+   "2026",
+   "110",
+   "61",
+   "13,476",
+   "2,503",
+   "27.4"
+  ],
+  "source": "SRC-6100",
+  "anchor": [
+   "February 17, 2025. As of July 7, 2026, the Wall of Receipts reported savings of\n$110 billion across contracts, grants, and leases, but some savings estimates\nare incorrect or lack supporting evidence.",
+   "more than $61 billion in savings associated with 13,476 contracts that it",
+   "No termination action was taken on 2,503 of the contracts,\nrepresenting $27.4 billion of reported savings."
+  ],
+  "grade": "A",
+  "fact_date": "2026-08",
+  "recheck": "2027-08-31",
+  "context": "GAO-26-108615 (August 2026), GAO's audit of the Department of Government Efficiency's claims (second Trump administration). GAO is the nonpartisan legislative-branch auditor; its findings are measured checks of the administration's own records.",
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md"
+  ],
+  "locator": "Highlights; contracts section",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-008",
+  "statement": "The federal government reported an estimated $186 billion of improper payments for FY2025.",
+  "claim": "data",
+  "figures": [
+   "186",
+   "2025"
+  ],
+  "source": "SRC-6108",
+  "anchor": [
+   "The federal government reported an estimated $186 billion in improper payments for FY 2025"
+  ],
+  "grade": "A",
+  "fact_date": "2026-06",
+  "recheck": "2027-06-30",
+  "context": "GAO's summary of agencies' reported estimates (GAO-26-108694). The underlying estimates are the agencies' own, reported under the Payment Integrity Information Act; an improper payment is not necessarily a loss (much is missing documentation). Quotation read through a fetch tool; check against the page.",
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md"
+  ],
+  "locator": "opening paragraph",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-009",
+  "statement": "The administration's FY2027 defense budget of $1.5 trillion includes $1.15 trillion of discretionary budget authority and an additional $350 billion to be passed through reconciliation.",
+  "claim": "data",
+  "figures": [
+   "2027",
+   "1.5",
+   "1.15",
+   "350"
+  ],
+  "source": "SRC-6105",
+  "anchor": [
+   "The Trump administration $1.5 trillion defense budget for FY 2027 includes $1.15 trillion in discretionary budget authority",
+   "and an additional $350 billion to be passed through the reconciliation process."
+  ],
+  "grade": "C",
+  "fact_date": "2026-04",
+  "recheck": "2027-04-30",
+  "context": "CSIS (nonpartisan think tank with defense-industry funders), April 10, 2026, describing the second Trump administration's request: a request, not enacted law. Congress's bills were lower (the House Defense bill about $1.072 trillion, CSIS, August 2026, via a fetch extract). Quotations are fragments read through a fetch tool.",
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md"
+  ],
+  "locator": "opening paragraph",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-010",
+  "statement": "GAO's 2026 weapon systems assessment found 46 of 72 programs reporting cost increases totaling $122 billion, and 16 reporting decreases totaling $47 billion.",
+  "claim": "data",
+  "figures": [
+   "46",
+   "72",
+   "122",
+   "16",
+   "47"
+  ],
+  "source": "SRC-6106",
+  "anchor": [
+   "with 46 of 72 programs reporting increases totaling $122 billion, and 16 reporting decreases totaling $47 billion."
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "recheck": "2027-07-31",
+  "context": "Defense News reporting GAO-26-108457 (July 2026); www.gao.gov blocks this project's downloads. Net growth is the increases less the decreases. Quotation read through a fetch tool.",
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md"
+  ],
+  "locator": "cost paragraph",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-011",
+  "statement": "GAO reports that the sugar program costs consumers an estimated $2.5 billion to $3.5 billion a year.",
+  "claim": "analysis",
+  "figures": [
+   "2.5",
+   "3.5"
+  ],
+  "source": "SRC-6109",
+  "anchor": [
+   "the program costs consumers an estimated $2.5 billion to $3.5 billion per year"
+  ],
+  "grade": "C",
+  "fact_date": "2023-10",
+  "recheck": "2027-10-31",
+  "context": "GAO-24-106144 (October 2023), drawing the range from outside studies. A consumer cost, not a budget outlay. Quotation is a fragment read through a fetch tool.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md"
+  ],
+  "locator": "Highlights",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-012",
+  "statement": "The Pentagon failed its financial audit for the eighth consecutive year (FY2025).",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6107",
+  "anchor": [
+   "The Pentagon failed its financial audit for the eighth consecutive year, the Defense Department said Friday"
+  ],
+  "grade": "C",
+  "fact_date": "2025-12",
+  "recheck": "2026-12-31",
+  "context": "Defense News, December 19, 2025, reporting DoD's own announcement. A ninth failure (FY2026) was reported on November 16, 2026, via a search extract.",
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md"
+  ],
+  "locator": "lead",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-013",
+  "statement": "The plan's defense envelope (NSC-1A, decided in the October decision briefs) is FY2029 enacted national-defense discretionary budget authority excluding one-time reconciliation money, grown with the defense deflator through FY2039; Espen asked for a later study of ways to reduce defense over time. NATO allies agreed to a 5% of GDP target (3.5% core defense) by 2035.",
+  "claim": "analysis",
+  "figures": [
+   "2029",
+   "2039",
+   "5",
+   "3.5",
+   "2035"
+  ],
+  "source": "SRC-0026",
+  "anchor": [
+   "- **The base is FY2029 enacted national-defense discretionary budget authority (function 050), excluding any one-time reconciliation money.** Flat real means that base grown with the defense deflator through FY2039.",
+   "1a. **Explore ways to reduce defense over time (Espen's request; later in the project).**",
+   "Allies agreed at The Hague in June 2025 to a 5% of GDP target (3.5% core defense plus 1.5% related spending) by 2035"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "recheck": "2027-06-30",
+  "context": "Legacy national-security domain file (read-only, before October 28, 2026): the project's own design and Espen's request, weighed as evidence (DEC-2026-11-13-15). The NATO line is the file author's own knowledge, not re-checked.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G10-defense-path.md"
+  ],
+  "locator": "NSC-1; open items",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-014",
+  "statement": "The legacy revenue menu's crop insurance reform (REV-SC3) is about $0.05 trillion over the decade (range 0.03-0.10), left open.",
+  "claim": "analysis",
+  "figures": [
+   "0.05",
+   "0.03",
+   "0.10"
+  ],
+  "source": "SRC-0028",
+  "anchor": [
+   "| REV-SC3 | Crop insurance reform (the fossil-subsidy piece is in REV-TS3) | 0.05 (0.03-0.10) |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "recheck": "2027-06-30",
+  "context": "Legacy revenue domain file: a project estimate, never adopted. CRFB's offsets bank puts a 40% premium-share cut at about $35 billion over FY2026-35 (via search extract), within the range.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md",
+   "dossiers/foundations/fair-financing/memos/G11-farm-programs.md"
+  ],
+  "locator": "section SC",
+  "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-015",
+  "statement": "GAO's duplication work has resulted in about $774.3 billion in financial benefits, an increase of about $49.3 billion from its last report.",
+  "claim": "data",
+  "figures": [
+   "774.3",
+   "49.3"
+  ],
+  "source": "SRC-6101",
+  "anchor": [
+   "about $774.3 billion in financial benefits, an increase of about $49.3 billion"
+  ],
+  "grade": "A",
+  "fact_date": "2026-05",
+  "recheck": "2027-05-31",
+  "context": "GAO-26-108505 (May 2026). GAO's own rough estimates of benefits from actions on its recommendations since 2011; nonpartisan legislative-branch auditor.",
+  "supports": [
+   "dossiers/foundations/fair-financing/3-budget-scan.md"
+  ],
+  "locator": "Letter",
+  "checked": "2026-11-20"
+ }
+]
