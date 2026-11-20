@@ -4,6 +4,7 @@ They check that the screens reproduce the booked gap and D3, that each option is
 the recommended package closes FY2040 and every later year, and that no screen changes an adopted input."""
 import copy
 import csv
+import hashlib
 import unittest
 
 import packages as K
@@ -84,15 +85,20 @@ class Packages(unittest.TestCase):
             K.price(CTX, K.resolve(CTX, spec), name)   # raises on a label or argument counted twice
 
     def test_inputs_untouched(self):
+        files = sorted((K.ROOT / 'models/data/inputs').glob('*'))
+        digest = lambda: {f.name: hashlib.sha256(f.read_bytes()).hexdigest() for f in files if f.is_file()}
+        on_disk = digest()
         before = (copy.deepcopy(K.m.ADOPTION), copy.deepcopy(K.m.A), K.m.edu_fund)
         for spec in K.PACKAGES.values():
             K.price(CTX, K.resolve(CTX, spec))
         S.build()
         self.assertEqual((K.m.ADOPTION, K.m.A, K.m.edu_fund), before)
+        self.assertEqual(digest(), on_disk)   # the files too (review N-4)
 
     def test_take_home_follows_the_two_points(self):
         self.assertEqual(K.take_home(K.PACKAGES['booked'])[0], 70.1)
-        self.assertEqual(K.take_home(K.PACKAGES['recommended'])[0], 88.7)
+        self.assertEqual(K.take_home(K.PACKAGES['recommended'])[0], 76.2)
+        self.assertEqual(K.take_home(K.PACKAGES['g2_dropped'])[0], 88.7)
 
 
 if __name__ == '__main__':

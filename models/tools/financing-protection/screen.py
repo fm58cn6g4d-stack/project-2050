@@ -29,6 +29,8 @@ def risks(ctx):
     # (0.25) against the 80-85% booked; up to about $140B in FY2040 on a rough, unverified reading. Scaled here as that
     # share of the top rows' path.
     k_stack = 140.0 / -wage_stack[2040]
+    old_scores = {y: sum(ctx.line(r)[y] for r in ('G1', 'G3', 'G5', 'G6', 'G7', 'G10', 'G11', 'H1a', 'H1b', 'C18', 'C38',
+                                                  'New indexed income contributions')) for y in K.YEARS}
     return [
         ('Without D2, the national health budget', 'DEC-2026-11-15-08; never achieved [EV-CAR-742]',
          [K.OPTIONS['without_d2'](ctx)]),
@@ -46,13 +48,26 @@ def risks(ctx):
          [dict(label='Without C3A', adjust={'Without C3A': K.scaled(ctx.line('C3A'), -1)})]),
         ('The VAT yields 15% less', "compliance and base erosion beyond CBO's broad base",
          [dict(label='VAT -15%', adjust={'VAT shortfall': K.scaled(vat_path(ctx), -0.15)})]),
-        ('The HI grant correction is not confirmed', 'the accounting item for G5 to check',
+        ('If a scorer counted the fold-in\'s HI shortfall as new', 'the HI grant correction stands (step 5 review, F-1); this is the grant\'s size',
          [dict(label='HI grant kept', kw=dict(hi_grant_points=K.m.A['hi']['gf_support_payroll_points']))]),
+        ('Prices rise by the VAT rate and indexed benefits follow (reading (a))', "review B-1; Social Security plus other indexed programs at a third more (rough)",
+         [dict(label='Price rise', adjust={'Indexed benefits': price_rise(ctx)[0]})]),
+        ('Joint: wage stack at 0.25, old scores 10% low, VAT 15% less', 'review F-2: three yield risks together',
+         [dict(label='Joint', adjust={'Joint yield risks': {y: K.scaled(wage_stack, -k_stack)[y] + 0.10 * -old_scores[y]
+                                                            - 0.15 * vat_path(ctx)[y] for y in K.YEARS}})]),
         ('Pre-2025-law scores come in 10% low', '1-audit.md item 22: about $4.9T of the decade\'s revenue rests on them',
-         [dict(label='Old scores -10%', adjust={'Old scores': K.scaled(
-             {y: sum(ctx.line(r)[y] for r in ('G1', 'G3', 'G5', 'G6', 'G7', 'G10', 'G11', 'H1a', 'H1b', 'C18', 'C38',
-                                               'New indexed income contributions')) for y in K.YEARS}, -0.10)})]),
+         [dict(label='Old scores -10%', adjust={'Old scores': K.scaled(old_scores, -0.10)})]),
     ]
+
+
+def price_rise(ctx):
+    """Reading (a) of the review's B-1: the Federal Reserve lets prices rise by the VAT rate, so indexed benefits rise
+    with them. Social Security's baseline outlays (`out_social_security`) times the year's VAT rate, plus other indexed
+    programs (SSI, federal and military retirement, veterans' compensation, SNAP, the plan's indexed benefits) at about
+    a third of that (rough). Bracket indexing and higher nominal receipts are left out; they partly offset."""
+    rate = {y: -vat_path(ctx)[y] / (K.VAT_POINT_2040 * ctx.gdp[y] / ctx.gdp[2040]) for y in K.YEARS}
+    ss = {y: ctx.b[y]['out_social_security'] if 'out_social_security' in ctx.b[y] else 0.0 for y in K.YEARS}
+    return {y: 1.33 * ss[y] * rate[y] / 100 for y in K.YEARS}, ss
 
 
 def build():

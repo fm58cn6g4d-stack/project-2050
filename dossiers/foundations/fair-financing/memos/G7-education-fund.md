@@ -30,7 +30,7 @@ The question: how to make the fund solvent.
 
 **C, the general fund tops it up.**
 - It keeps workers' rate at 1.4 points.
-- It adds $45B a year to the general-fund gap from FY2040, and $599B over the decade while the reserve is built. That is about 0.4 more points of memo G3's VAT.
+- It adds $45B a year to the general-fund gap from FY2040, and $599B over the decade while the reserve is built. That is about 0.5 more points of memo G3's VAT.
 - It moves education's cost onto the general fund, which the settlement is trying to close.
 
 **D, as booked.** It is not a real option: the fund can't pay benefits it has no money for. It is listed so the cost of doing nothing is visible.

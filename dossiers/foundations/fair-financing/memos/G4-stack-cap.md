@@ -49,7 +49,7 @@ On a 6% return, the wealth tax alone takes 33 points of the return at 2% and 50 
 - It costs $40B in FY2040 and $77B in FY2056, which the settlement's package covers (memo G3's VAT rate includes it).
 
 **What would change this:**
-- If Espen wants the wealth tax to be defensible as a minimum tax in court, or simpler to explain, then **D1**. It costs $60B more in FY2040, about 0.6 more points of memo G3's VAT.
+- If Espen wants the wealth tax to be defensible as a minimum tax in court, or simpler to explain, then **D1**. It costs $60B more in FY2040, about 0.65 more points of memo G3's VAT.
 - If evidence of high avoidance firms up (Switzerland's 43% per point, not Saez and Zucman's 8%), then B1 plus C1 together: dropping the 3% tier may cost little or nothing.
 
 **Not a cap on wages.** The wage stack is 68.3% at $500K and 72.7% at $20M in FY2040 (stack note, part 1). A statutory ceiling there (F5) would cost $110-430B. It is not in this memo. The settlement treats the yield at the top as a working assumption with a range instead (`../2-settlement.md` part 5).

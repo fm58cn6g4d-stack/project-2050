@@ -23,6 +23,7 @@ import argparse
 import contextlib
 import importlib.util
 import json
+import math
 import os
 import sys
 from pathlib import Path
@@ -54,13 +55,22 @@ CAP_MENU = {
     'D1': ('Income taxes on capital credited against the wealth tax', 100, 80, 120),
     'C2': ('Combined ceiling at 75%', 125, 100, 145),
 }
-# A value-added tax: about $105B a point in FY2040 on a broad base (checkpoint-financing.md part A4), from CBO's 5%
-# broad-base option, $3.5T over 2026-35, about $4.2T over FY2030-39 (legacy/sources/revenue-channels-and-full-menu.md,
-# line 112; legacy/domains/domain-revenue.md, "Other choices"). CBO's scores of indirect taxes are already net of the
-# income and payroll tax offset (domain-revenue.md, REV-CX), so no second offset is taken. The general fund keeps that
-# net yield; the trust funds are held harmless for their share of the payroll offset by a transfer from it, so Social
-# Security and HI do not move. Households bear the gross tax: D3 charges net / (1 - 0.25) on the consumption key.
-VAT_POINT_2040 = 105.0
+# A value-added tax. CBO's 5% broad-base option (Options for Reducing the Deficit, December 2024) is about $3.4T over
+# 2025-34; the legacy menu re-windows it as $3.5T over 2026-35 and about $4.2T over FY2030-39
+# (legacy/sources/revenue-channels-and-full-menu.md, line 112): about $105B a point in FY2040 (checkpoint-financing.md
+# part A4). CBO's broad base leaves out government-reimbursed health care (Medicare, Medicaid) but includes privately
+# paid care (CBO budget option 56872). From the January 2035 endpoint the plan pays for that care, so it leaves the
+# base: private insurance and out-of-pocket spending are about 10% of personal consumption (NHE), about 14% of a broad
+# base near two-thirds of consumption, plus a little for publicly paid child care and pre-K. Working assumption: the
+# base is 14% smaller (range 12-16%) from 2035, so about $90B a point (the review of #469, B-2).
+# CBO's scores of indirect taxes are already net of the income and payroll tax offset (domain-revenue.md, REV-CX): the
+# convention holds nominal income fixed, so the VAT shows up as lower pay and profits, not higher prices (B-1). The
+# general fund keeps that net yield; the trust funds are held harmless for their share of the payroll offset by a
+# statutory transfer, so Social Security and HI do not move on this convention. Households bear the gross tax: D3
+# charges net / (1 - 0.25) on the consumption key, a modelling choice.
+VAT_CBO_POINT_2040 = 105.0
+HEALTH_BASE_SHARE = 0.14
+VAT_POINT_2040 = VAT_CBO_POINT_2040 * (1 - HEALTH_BASE_SHARE)
 EXCISE_OFFSET = 0.25
 
 
@@ -209,16 +219,38 @@ def opt_vat(ctx, rate=3.0, start=2033, ramp=2, rebate_per_adult_2040=0.0, steps=
 
 
 def opt_benefit_trims(ctx):
-    """Memo G1 option B: the cheaper designs the flagships' own memos priced, in FY2040 terms ($B):
-    the child benefit at the 2021 credit's amounts (secure floor memo 1 C: about 50 of FAM-1's 220); and in care, the
-    $18 care wage floor (care memo 14 A, about 33), early educators on the floor without parity (memo 15 C, about 41)
-    and pre-K for 4-year-olds only (memo 11 C, about 35), together about 109, scaled on FAM-2 and HLT-10's paths."""
+    """Memo G1 option B: the cheaper designs the flagships' own memos priced, in FY2040 terms ($B): the child benefit at
+    the 2021 credit's amounts (secure floor memo 1 C: about 50 of FAM-1's 220; memo 1's option A less C, so not quite
+    like for like with the booked design, which has no $2,200 floor); and in care, the $18 care wage floor (care memo
+    14 A, about 33), early educators on the floor without parity (memo 15 C, about 41) and pre-K for 4-year-olds only
+    (memo 11 C: about 25 at maturity, about 33 in FY2040 scaled), less an overlap of about 4 (the lower floor already
+    lowers memo 15 C's floor-only cost), together about 103, scaled on FAM-2 and HLT-10's paths (the review of #469,
+    F-4)."""
     fam1 = ctx.line('FAM-1')
     care = {y: ctx.line('FAM-2')[y] + ctx.line('HLT-10')[y] for y in YEARS}
-    k1, k2 = 50.0 / fam1[2040], 109.0 / care[2040]
+    k1, k2 = 50.0 / fam1[2040], (33.0 + 41.0 + 33.0 - 4.0) / care[2040]
     return dict(label='Benefit trims: child benefit at 2021 amounts; $18 care floor; no educator parity; pre-K at 4 only',
                 adjust={'Child benefit at 2021 amounts': scaled(fam1, -k1), 'Care trims': scaled(care, -k2)},
                 d3=[('scale', 'F1', 1 - k1), ('scale', 'F2', 1 - k2)])
+
+
+def vat_schedule(ctx, spec, start=2035, steps=(2041, 2044, 2051), margin_gdp=0.0):
+    """The VAT rates that close FY2040 and every later year to FY2056 for `spec` (no VAT in it), with a margin of
+    `margin_gdp` percent of GDP: a rate from `start`, then a step at each year in `steps`, each rounded up to 0.05."""
+    f = price(ctx, resolve(ctx, spec))
+    need = {y: (f['_gap'][y] + margin_gdp / 100 * ctx.gdp[y]) / (VAT_POINT_2040 * ctx.gdp[y] / ctx.gdp[2040])
+            for y in range(2040, 2057)}
+    up = lambda x: math.ceil(round(x * 20, 6)) / 20
+    edges = [2040] + list(steps) + [2057]
+    rates = [up(max(need[y] for y in range(a, b))) for a, b in zip(edges, edges[1:])]
+    for i in range(1, len(rates)):
+        rates[i] = max(rates[i], rates[i - 1])
+    return dict(rate=rates[0], start=start, ramp=1, steps={y: r for y, r in zip(steps, rates[1:]) if r > rates[0]})
+
+
+def opt_vat_closing(ctx, spec=(), margin_gdp=0.0, start=2035):
+    """The VAT that closes the package `spec` every year FY2040-56 (memos G3 and G8)."""
+    return opt_vat(ctx, **vat_schedule(ctx, list(spec), start=start, margin_gdp=margin_gdp))
 
 
 def opt_education_rate(ctx, rate=1.7):
@@ -254,28 +286,46 @@ OPTIONS = {k[4:]: v for k, v in globals().items() if k.startswith('opt_')}
 FIXES = [('gx_narrowed', {}), ('hca_rederived', {}), ('avoidance_by_tier', {}), ('stack_cap', {'design': 'C1'})]
 CORE = FIXES + [('hi_grant_ended', {}), ('end_adult_credit', {}), ('ltc_state_share', {'share': 1.0}),
                ('education_rate', {'rate': 1.7})]
-# Memo G8: the VAT's rate steps keep every year to FY2056 closed as health's budget grows at GDP plus 1. The VAT starts
-# with health's January 2035 endpoint (the review of #469: started in FY2033, it put the fourth fifth behind on D3 in
-# FY2033-34, before health's savings arrive); FY2035 is booked at the full year, a small overstatement of its yield.
-VAT_REC = {'rate': 4.75, 'start': 2035, 'ramp': 1, 'steps': {2041: 5.25, 2044: 5.6, 2051: 6.3}}
-VAT_AT_ENDPOINT = {'start': 2035, 'ramp': 1}
+# Memos G3 and G8: each package's VAT is solved for: a rate from health's January 2035 endpoint and steps in FY2041,
+# FY2044 and FY2051 that close every year FY2040-56 (`vat_schedule`). The VAT starts with the endpoint (the review of
+# #469: started in FY2033, it put the fourth fifth behind on D3 in FY2033-34, before health's savings arrive); FY2035 is
+# booked at the full year, a small overstatement of its yield.
+
+
+def closing(spec, **kw):
+    return list(spec) + [('vat_closing', dict(kw, spec=tuple(spec)))]
+
+
+# The recommended base after the review of #469 (B-3): the 2 points folded into the health contribution at 3.25%. With
+# the VAT counted, folding leaves more workers ahead than dropping them and paying with a larger VAT (take_home_vat.py).
+REC_BASE = CORE + [('fold_broad_points', {'rate': 3.25})]
+DROPPED = CORE + [('drop_broad_points', {})]
 PACKAGES = {
     'booked': [],
     'fixes': FIXES + [('hi_grant_ended', {})],
     # The recommended package (provisional): the fixes and cap, the HI correction, the legacy credit ended, the states'
-    # long-term care payment at 100%, the education fund at 1.7 points, the 2 points dropped, and a VAT that steps.
-    'recommended': CORE + [('drop_broad_points', {}), ('vat', VAT_REC)],
-    # Memo G1 B: the recommended package with the flagships' own cheaper designs; the VAT that then closes it.
-    'g1_with_benefit_trims': CORE + [('drop_broad_points', {}), ('benefit_trims', {}),
-                                     ('vat', dict(VAT_AT_ENDPOINT, rate=3.3, steps={2041: 3.75, 2044: 4.1, 2051: 4.8}))],
-    # Memo G2 C: the 2 points folded into the health contribution (R = 3.25%) instead of dropped.
-    'g2_folded': CORE + [('fold_broad_points', {'rate': 3.25}),
-                         ('vat', dict(VAT_AT_ENDPOINT, rate=2.75, steps={2041: 3.0, 2043: 3.3, 2051: 4.0}))],
-    # G1 B and G2 C together: the smallest VAT among the screened packages (the revenue-mix test's best case).
-    'g1b_g2c': CORE + [('fold_broad_points', {'rate': 3.25}), ('benefit_trims', {}),
-                       ('vat', dict(VAT_AT_ENDPOINT, rate=1.25, steps={2041: 1.45, 2043: 1.6, 2044: 1.8, 2050: 2.0, 2052: 2.2, 2054: 2.5}))],
-    # Memo G3 C: no VAT; the recommended package without it, to show what cuts would have to close.
-    'g3_no_vat': CORE + [('drop_broad_points', {})],
+    # long-term care payment at 100%, the education fund at 1.7 points, the 2 points folded into the health
+    # contribution at 3.25%, and a VAT from the 2035 endpoint that steps with health's growth.
+    'recommended': closing(REC_BASE),
+    # Memo G2: A, the 2 points dropped (the first draft's recommendation); B, kept; D, dropped with R at 2.5%.
+    'g2_dropped': closing(DROPPED),
+    'g2_kept': closing(CORE),
+    'g2_r25': closing(CORE + [('fold_broad_points', {'rate': 2.5})]),
+    # Memo G3 E: no VAT; the health contribution carries the rest (R = 4.45% closes FY2040; later years need G8's steps
+    # on R, not modelled here).
+    'g3_contribution_only': CORE + [('fold_broad_points', {'rate': 4.45})],
+    # Memo G8 option E: a margin of 0.1% of GDP every year (the review's F-2).
+    'g8_margin': closing(REC_BASE, margin_gdp=0.1),
+    # Memo G3: the VAT from FY2033 instead of the endpoint, for comparison.
+    'g3_vat_from_2033': closing(REC_BASE, start=2033),
+    # Memo G1 B: the flagships' own cheaper designs.
+    'g1_with_benefit_trims': closing(REC_BASE + [('benefit_trims', {})]),
+    # Memo G1 at 80% for long-term care.
+    'g1_ltc_80': closing([x if x[0] != 'ltc_state_share' else ('ltc_state_share', {'share': 0.8}) for x in REC_BASE]),
+    # Memo G1 C: the credit kept (and memo G3 B's variant: the credit as the VAT's rebate; the review's F-5).
+    'g1_credit_kept': closing([x for x in REC_BASE if x[0] != 'end_adult_credit']),
+    # Memo G3 D: no VAT and no more contribution, to show what cuts would have to close.
+    'g3_no_vat': REC_BASE,
 }
 
 
@@ -456,7 +506,8 @@ class Household:
 # Workers ahead on health's take-home test at the decided 2.25% (health-household-contribution.md sections 2 and 8;
 # intervals in #467). The test counts visible health costs only; no other option here moves it.
 TAKE_HOME = {'booked': (70.1, 'with the 2 points'), 'drop': (88.7, 'without them'),
-             'fold_3.25': (75.6, 'R = 3.25%'), 'fold_2.5': (85.9, 'R = 2.5%')}
+             'fold_3.25': (76.2, 'R = 3.25%, take_home_vat.py on the decided steady-rate exemption'),
+             'fold_2.5': (85.9, 'R = 2.5%'), 'fold_4.45': (None, 'R = 4.45%: about 60% (take_home_vat.py scan, rough)')}
 
 
 def single_year_levels(ctx, state, year, vat_path=None):
@@ -534,8 +585,8 @@ def option_sizes(ctx, hh=None):
                          ('drop_broad_points', {}), ('fold_broad_points', {'rate': 3.25}), ('fold_broad_points', {'rate': 2.5}),
                          ('end_adult_credit', {}), ('hi_grant_ended', {}), ('benefit_trims', {}), ('ltc_state_share', {'share': 0.65}), ('ltc_state_share', {'share': 0.8}),
                          ('ltc_state_share', {'share': 1.0}), ('education_rate', {'rate': 1.55}), ('education_rate', {'rate': 1.6}),
-                         ('education_rate', {'rate': 1.7}), ('education_corridor', {}), ('vat', {'rate': 1.0}), ('vat', {'rate': 3.5}),
-                         ('vat', {'rate': 5.0, 'rebate_per_adult_2040': 350}), ('without_d2', {}), ('without_hs2', {})]:
+                         ('education_rate', {'rate': 1.7}), ('education_corridor', {}), ('vat', {'rate': 1.0, 'start': 2035, 'ramp': 1}),
+                         ('vat', {'rate': 1.0, 'start': 2035, 'ramp': 1, 'rebate_per_adult_2040': 350}), ('without_d2', {}), ('without_hs2', {})]:
         o = OPTIONS[name](ctx, **params)
         p = price(ctx, [o])
         rows.append(dict(option=o['label'], d2040=round(p['gap'][2040] - base['gap'][2040], 1),
