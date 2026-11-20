@@ -42,6 +42,13 @@ def surtax_100k(u, L):
     return -0.01 * max(u["t_agi"] - line, 0)
 
 
+def broad_20k(u, L):
+    """The 2 points on income above $20,000 ($40,000 joint), the budget model's broad indexed contribution
+    (models/tools/recovery-budget/assumptions.json, tax; CBO option 60938's thresholds), on AGI (a loss, so negative)."""
+    line = 40000 if u["t_fs"] == "joint" else 20000
+    return -0.02 * max(u["t_agi"] - line, 0)
+
+
 def childless_eitc_2021(L, earned, agi, fs, ages, invest=0.0):
     """INC-1.01: the 2021 childless credit (ARPA sec. 9621), indexed to prices from 2021: $1,502 maximum, 15.3% in and
     out, phase-in to $9,820, phase-out from $11,610 ($17,550 joint), from age 19 with no upper limit (the rule for
@@ -164,6 +171,6 @@ def cdctc_refundable(u, L, spend_scale=1.0, school_age_netted=0.0):
     return max(credit - u["t_tax_before_credits"], 0.0) if credit > 0 else 0.0
 
 
-RULES = {"afa_child_benefit": afa_child_benefit, "surtax_100k": surtax_100k,
+RULES = {"afa_child_benefit": afa_child_benefit, "surtax_100k": surtax_100k, "broad_20k": broad_20k,
          "inc1_childless_eitc": inc1_childless_eitc, "ssi_exclusions_indexed": ssi_exclusions_indexed,
          "cdctc_refundable": cdctc_refundable}
