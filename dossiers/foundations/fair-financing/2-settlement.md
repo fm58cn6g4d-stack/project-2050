@@ -18,10 +18,11 @@ Units and sources:
    - ends a $300 adult credit that was never adopted, and has the states pay their full current share of long-term care, as they already do for health (G1);
    - makes the education fund solvent at 1.7 points (G7);
    - drops the 2 points on income above $20,000/$40,000, so that 88.7% of workers come out ahead on health's take-home test (G2);
-   - **closes the rest with a broad value-added tax**: 4.75% from FY2033, stepping to 5.25%, 5.6% and 6.3% by FY2051 as health's costs grow (G3, G8).
-4. **With it, every year from FY2040 to FY2056 closes** (−$11.4B in FY2040). Debt falls to 116.3% of GDP in FY2040 against the baseline's 132.7%, and to 132.5% in FY2056 against 180.2%. Every fifth of households below the top still comes out ahead on D3 on average: the fourth fifth by about $3,500 a year on the decade average, and about $10,000 by FY2039 (a rough reading). Social Security is unchanged.
-5. **The two big risks are D2 and the wealth tax.** Without both, the package is $388B short in FY2040, about 3.7 VAT points. Memo G5 recommends a contingent backstop in law rather than taxing for them now.
-6. **The real choice is the VAT.** It is a new kind of federal tax, and it costs lower-income households more as a share of income than the 2 points it partly replaces. The alternatives are folding the 2 points into the health contribution (G2 C), which roughly halves the VAT but leaves a quarter of workers behind on health costs, or cuts on the scale of whole programs (G1 D).
+   - **closes the rest with a broad value-added tax**: 4.75% from health's January 2035 endpoint, stepping to 5.25%, 5.6% and 6.3% by FY2051 as health's costs grow (G3, G8).
+4. **With it, every year from FY2040 to FY2056 closes** (−$11.4B in FY2040). Debt falls to 117.7% of GDP in FY2040 against the baseline's 132.7%, and to 134.0% in FY2056 against 180.2%. Every fifth of households below the top comes out ahead on D3 on average, and in every single year from FY2033 to FY2039. The fourth fifth is about $4,100 a year ahead on the decade average, $2,000 in its thinnest year (FY2033) and $9,650 by FY2039. Social Security is unchanged.
+5. **D3's revenue-mix test passes on its decided window, but thins in mature years.** The top 1% and corporations bear 57% of new general-fund revenue over FY2030-39; the rule is more than half. In FY2040 alone it is 50%, and in FY2056 46%, because a VAT falls broadly. Memo G3 asks Espen about it (point G3.2).
+6. **The two big risks are D2 and the wealth tax.** Without both, the package is $388B short in FY2040, about 3.7 VAT points. Memo G5 recommends a contingent backstop in law rather than taxing for them now.
+7. **The real choice is the VAT.** It is a new kind of federal tax, and it costs lower-income households more as a share of income than the 2 points it partly replaces. The alternatives are folding the 2 points into the health contribution (G2 C), which roughly halves the VAT but leaves a quarter of workers behind on health costs, or cuts on the scale of whole programs (G1 D).
 
 ## Part 1. Health's share, from the top-end and corporate rows first
 
@@ -62,8 +63,8 @@ Each step's effect on the general-fund gap, in the order applied ($B; − lowers
 | 8 | The education fund at 1.7 points (memo G7) | **Espen, G7** | +7.5 | +9.1 | +14.0 | −46.4 |
 | 9 | The 2 points above $20K/$40K dropped (memo G2) | **Espen, G2** | +216.3 | +433.1 | +636.8 | +496.5 |
 | | *Left to close* | | *487.4* | *687.0* | *1,159.8* | *2,685.9* |
-| 10 | A VAT: 4.75% from FY2033 (phased over two years), 5.25% from FY2041, 5.6% from FY2044, 6.3% from FY2051 (memos G3, G8) | **Espen, G3 and G8** | −498.8 | −706.5 | −1,168.5 | −2,826.4 |
-| | **The recommended package** | | **−11.4** | **−19.5** | **−8.7** | **−140.5** |
+| 10 | A VAT: 4.75% from the January 2035 endpoint, 5.25% from FY2041, 5.6% from FY2044, 6.3% from FY2051 (memos G3, G8) | **Espen, G3 and G8** | −498.8 | −706.5 | −1,168.5 | −2,234.6 |
+| | **The recommended package** | | **−11.4** | **−19.5** | **−8.7** | **+451.3** |
 
 **Why the agent's steps are not forks:**
 - **Steps 1 to 3** are pricing items the audit sent here, with no change to any design. Step 1 is the judgment call the audit left to G4: HCU's own 20% allowance already covers H1b's folded half, so a second 15% haircut on it counts the same avoidance twice. Step 3 sets the allowance where the evidence points: income withheld at source is rarely misreported, and a 2.25% rate on a broad base gives little reason to avoid it. It still uses 20% on the surcharge. The range is in part 5.
@@ -76,10 +77,11 @@ Each step's effect on the general-fund gap, in the order applied ($B; − lowers
 | | FY2030 | FY2031 | FY2032 | FY2033 | FY2034 | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | **FY2040** | FY2045 | FY2050 | FY2056 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | As booked | −160 | −44 | 130 | 132 | 25 | 554 | 840 | 851 | 856 | 813 | **616** | 676 | 825 | 1,159 |
-| **Recommended** | −213 | −122 | 37 | −168 | −499 | −26 | 223 | 227 | 225 | 175 | **−11** | −20 | −13 | −9 |
+| **Recommended** | −213 | −122 | 37 | 25 | −100 | −26 | 223 | 227 | 225 | 175 | **−11** | −20 | −13 | −9 |
 
 - **The rule's test (FY2040 and every later year): passes** in every year to FY2056. The worst year is FY2043, at 0.00% of GDP.
-- **The decade (FY2030-39):** −$140.5B, a small surplus, with health's early surplus counted. Held as the plan's fund reserve (memo G6, recommended), the rest of the plan's own decade figure is **+$519.4B**. The 2030s run short while health's costs arrive before the VAT is mature. The rule doesn't test those years, and debt is the same either way.
+- **The decade (FY2030-39):** +$451.3B short, with health's early surplus counted. Held as the plan's fund reserve (memo G6, recommended), the rest of the plan's own decade figure is **+$1,111.2B**. The VAT starts only at the endpoint, so the decade runs short; the rule doesn't test those years, and the debt guardrail still passes with room (below). Debt is the same either way on G6.
+- **Why the VAT starts in 2035, not FY2033:** started earlier, it put the fourth fifth behind on D3 in FY2033 (−$92) and FY2034 (−$1,054), before health's savings arrive (the review of #469). From 2035, households get the plan's health savings and the VAT in the same year. It lowers the decade's revenue by about $590B, which the rule doesn't test.
 
 ### Debt (the guardrail, on the unified budget; the budget model is the reading of record)
 
@@ -87,7 +89,7 @@ Each step's effect on the general-fund gap, in the order applied ($B; − lowers
 | --- | --- | --- | --- |
 | Baseline | 130.3 | 132.7 | 180.2 |
 | As booked (#467) | 124.8 | 126.8 | 162.5 |
-| **Recommended** | **115.5** | **116.3** | **132.5** |
+| **Recommended** | **116.9** | **117.7** | **134.0** |
 
 **The budget model is the reading of record** (`1-audit.md` item 26, an agent's choice): it carries the dedicated funds, Social Security's actual path and the education fund, which the long-term model does not. #467 brought the long-term model's capacity trims into line. Its remaining distance is those lines, which it doesn't carry.
 
@@ -95,10 +97,10 @@ Each step's effect on the general-fund gap, in the order applied ($B; − lowers
 
 | General-fund gap, $B | FY2040 | FY2045 | FY2050 | FY2056 | FY2030-39 |
 | --- | --- | --- | --- | --- | --- |
-| Recommended package | −11.4 | −19.5 | −12.7 | −8.7 | −140.5 |
-| Without D2 | 238.0 | 304.5 | 395.7 | 517.5 | 203.7 |
-| Without HS2 | 138.6 | 165.5 | 213.0 | 278.5 | 1,089.5 |
-| Without both | 387.9 | 489.6 | 621.4 | 804.8 | 1,433.7 |
+| Recommended package | −11.4 | −19.5 | −12.7 | −8.7 | 451.3 |
+| Without D2 | 238.0 | 304.5 | 395.7 | 517.5 | 795.5 |
+| Without HS2 | 138.6 | 165.5 | 213.0 | 278.5 | 1,681.3 |
+| Without both | 387.9 | 489.6 | 621.4 | 804.8 | 2,025.5 |
 
 Memo G5 recommends balancing with both counted, as decided, and enacting a contingent backstop that switches on only if D2 misses its path or the wealth tax is struck down.
 
@@ -112,16 +114,40 @@ Memo G5 recommends balancing with both counted, as decided, and enacting a conti
 | --- | --- | --- | --- | --- | --- | --- |
 | As booked, Q-H7 as committed (EDUP net of its offset) | +14,840 | +13,209 | +12,070 | +6,837 | −62,271 | −910,567 |
 | As booked, one convention (EDUP gross) | +14,827 | +13,160 | +11,972 | +6,669 | −62,652 | −912,272 |
-| **Recommended package** | **+13,655** | **+11,293** | **+9,425** | **+3,458** | −66,222 | −908,295 |
-| G1 B (with the four cheaper designs) | +12,934 | +10,874 | +9,367 | +3,964 | −64,975 | −905,167 |
-| G2 C (the 2 points folded in at 3.25%, a smaller VAT) | +14,127 | +11,890 | +10,059 | +4,071 | −66,663 | −928,849 |
+| **Recommended package** | **+13,896** | **+11,669** | **+9,935** | **+4,102** | −65,310 | −906,149 |
+| G1 B (with the four cheaper designs) | +13,102 | +11,135 | +9,721 | +4,412 | −64,341 | −903,676 |
+| G2 C (the 2 points folded in at 3.25%, a smaller VAT) | +14,267 | +12,108 | +10,354 | +4,444 | −66,135 | −927,606 |
+| G1 B and G2 C together | +13,482 | +11,589 | +10,160 | +4,779 | −65,129 | −925,048 |
 
 - Every fifth below the top comes out ahead on average under every option.
-- **The decade average understates the VAT,** which runs only from FY2033. In FY2040 the 4.75% VAT costs about $2,030 a household in the bottom fifth, $3,170 in the second, $4,300 in the middle, $5,430 in the fourth and $7,690 in the top fifth (consumption key).
-- Health's savings are also larger by then. On D3's year-by-year path for Q-H7, the fourth fifth is about +$14,700 in FY2039. Netting the mature VAT and the package's other changes roughly gives **about +$10,000 for the fourth fifth in FY2039.** That is a rough reading: the year-by-year engine doesn't take the screens' edits. G5 should check it.
+- **The decade average understates the VAT,** which runs only from FY2035. In FY2040 the 4.75% VAT costs about $2,030 a household in the bottom fifth, $3,170 in the second, $4,300 in the middle, $5,430 in the fourth and $7,690 in the top fifth (consumption key). Health's savings are larger by then too.
+- **D3 year by year** (D3's phase-in profiles with the package's edits, the VAT on its own path; `packages.Household.series`; nominal $ a household):
+
+| | FY2033 | FY2034 | FY2035 | FY2036 | FY2039 |
+| --- | --- | --- | --- | --- | --- |
+| Q1 | +11,764 | +13,672 | +15,253 | +17,330 | +20,669 |
+| Q2 | +8,692 | +11,161 | +13,642 | +16,265 | +19,677 |
+| Q3 | +6,678 | +9,129 | +11,880 | +14,824 | +18,084 |
+| **Q4** | **+2,001** | **+3,291** | **+4,861** | **+7,541** | **+9,653** |
+| Q5 | −60,473 | −67,705 | −71,453 | −70,784 | −78,893 |
+
+  The fourth fifth is thinnest in FY2033-34, before the endpoint, and ahead in every year.
 - D3 doesn't count the $300 credit or the states' payment, so neither moves its quintiles. The credit's end is still a loss of up to $600 a year for a two-adult household.
 
-**The revenue-mix test** (the top 1% and corporations' share of new general-fund revenue, health's contributions left out) falls with a VAT on the base. It is not recomputed here. G7 recomputes it when it books the VAT's incidence row.
+**The revenue-mix test** (D3: the top 1%, by incidence, and corporations, statutory, bear more than half of new general-fund revenue; health's contributions left out, `DEC-2026-11-15-29`). It is computed as `d3.D3.gf_test` does, on each package's edited rows, with the VAT at its general-fund (net) yield. The single-year readings weight each row by its own path in that year:
+
+| Package | FY2030-39 (the test's window) | FY2040 | FY2056 |
+| --- | --- | --- | --- |
+| As booked | 64% | 57% | 52% |
+| No VAT (G3 D, for reference: not closed) | 65% | 61% | 58% |
+| **Recommended** | **57%** | **50%** | **46%** |
+| G1 B | 60% | 52% | 48% |
+| G2 C | 60% | 54% | 50% |
+| G1 B and G2 C together | 63% | 57% | 52% |
+
+- The recommended package passes on the decided window, but in mature years the share falls to half and then below it, as G8's VAT steps add broad revenue.
+- With the VAT counted at its gross yield (what households pay) the decade reading is lower, about 53% (the reviewer's figure on #469).
+- Even as booked the share drifts down after 2040. Memo G3 puts the choice to Espen (point G3.2).
 
 ### Social Security, HI and the education fund
 
@@ -143,6 +169,7 @@ The memos have the full options. Each option's effect on memo G3's VAT rate in F
 | G4 D1 (wealth tax as a minimum tax) | 547 | about 5.3% → 7.0% |
 | G5 C (balance without D2 now) | 737 | about 7.1% → 9.1% |
 | G7 C (education top-ups from the general fund) | 525 | about 5.1% → 6.5% |
+| G1 B and G2 C together | 104 | about 1.25% → 2.5% |
 | G1 D or G3 D (no VAT) | 487 must be cut | — |
 
 Rows without an exact package in `packages.py` are about the recommended path shifted by the option's own size (`notes/settlement-results.md`, "Each option alone").
@@ -173,7 +200,7 @@ Each risk alone, added to the recommended package (`screen.py`). "VAT points" is
 | The stack cap at its high end ($55B) | Stack note part 4 | +3.6 | +20.0 | 0.0 |
 
 - **Capacity and delivery risk.** #467 set the long-term model's cautious reading (DEC-CAUT) to book CAP-7S, CAP-7 and AI-4 at their adopted amounts, so it carries no cost risk for them. The reviewer's note on #467 asks that the risk table not read DEC-CAUT as covering capacity risk. The plan's cushion for delivery is the two contingencies: memo 10's, $78.5B inside CAP-7S and CAP-7, and the $100B line, $14.0B in FY2040. Memo G9 point 3 keeps both, with written lanes.
-- **The VAT's own risks** are delivery risks: standing up a new collection system by FY2033, and the states' sales taxes beside it. Memo G3 names them. The yield risk is in the table.
+- **The VAT's own risks** are delivery risks: standing up a new collection system by January 2035, and the states' sales taxes beside it. Memo G3 names them. The yield risk is in the table.
 - **The pre-2025-law scores** (item 22) are a working assumption for stage G. They are to be rescored against the 2029 baseline before the plan goes public.
 
 ## Part 6. Agent decisions, corrections and items carried
@@ -183,7 +210,7 @@ Each risk alone, added to the recommended package (`screen.py`). "VAT points" is
 2. **HCA at $70B** (step 2; item 15). G7 re-derives it from the CPS's top wages when it books.
 3. **The avoidance allowance by tier** (step 3; item 9).
 4. **The HI grant (step 5): a proposed accounting correction for G5 to check.**
-   - The recovery budget books a general-fund grant to Medicare's HI fund of 0.35 points of HI payroll, phased in from 2035 (`models/tools/recovery-budget/assumptions.json`, `hi`). The adoption record calls it "the 0.35-point illustration ... not an actuarially verified adopted amount".
+   - The recovery budget books a general-fund grant to Medicare's HI fund of 0.35 points of HI payroll, phased in from 2035 (`models/tools/recovery-budget/assumptions.json`, `hi`). The adoption record calls it "not an actuarially verified adopted amount", and the October 26 governing decision lists the HI illustration as not selected (`legacy/governing/project-2050-governing-decisions.md`, line 450).
    - It starts at the January 2035 endpoint, when HI folds into the plan's fund (HLT-7.22). The funds model says the years after 2035 are "shown for current-law comparison only".
    - The plan's fund is booked on the general fund. #467 cut H1a's and HLT-6's HI credits at the endpoint for the same reason.
    - So the grant pays general-fund money to a fund the plan has already folded in: $85.2B in FY2040 and $235.3B over FY2035-39.

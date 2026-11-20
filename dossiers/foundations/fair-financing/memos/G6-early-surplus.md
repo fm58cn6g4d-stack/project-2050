@@ -16,18 +16,18 @@ The question: does the early surplus stay in the plan's fund as a reserve, or is
 
 | | What | The decade's general-fund figure (recommended package) | What it protects |
 | --- | --- | --- | --- |
-| **A (recommended)** | **Hold it as the plan's fund reserve,** about $660B plus interest by the endpoint | **+$519B short** (the rest of the plan's own position) | Health's first years after the endpoint, and a D2 shortfall (memo G5) |
-| B | Count it against the rest of the plan, as the model books it | −$141B (a surplus) | Nothing specific |
-| C | Hold a reserve of one year of the plan's administrative and transition risk (about $250B); count the rest | about +$110B short | Part of both |
+| **A (recommended)** | **Hold it as the plan's fund reserve,** about $660B plus interest by the endpoint | **+$1,111B short** (the rest of the plan's own position) | Health's first years after the endpoint, and a D2 shortfall (memo G5) |
+| B | Count it against the rest of the plan, as the model books it | +$451B short | Nothing specific |
+| C | Hold a reserve of one year of the plan's administrative and transition risk (about $250B); count the rest | about +$701B short | Part of both |
 
 **A, a reserve (recommended).**
 - It matches what you decided: the contributions are the plan's, paid into its fund.
 - It gives the plan's fund about two to three years of cover if D2's national health budget misses its path (about $250B a year in FY2040). Memo G5's backstop needs that time to phase in.
-- *The cost:* the general-fund figure for FY2030-39 reads as about $519B short instead of a $141B surplus. The rule tests FY2040 onward, so nothing fails. The debt guardrail is read on the unified budget, where debt is the same.
+- *The cost:* the general-fund figure for FY2030-39 reads as about $1,111B short instead of $451B. The rule tests FY2040 onward, so nothing fails. The debt guardrail is read on the unified budget, where debt is the same.
 - *Burden:* none. The fund's trustees report the reserve each year.
 
 **B, count it against the rest of the plan.**
-- The decade looks balanced.
+- The decade looks $660B better.
 - But the money is spent on other flagships in the 2030s, and the plan's fund starts the endpoint with nothing behind it.
 
 **C, split.** A middle reserve, sized to the first year's risk. It leaves less cover for D2.

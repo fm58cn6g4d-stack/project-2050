@@ -254,8 +254,11 @@ OPTIONS = {k[4:]: v for k, v in globals().items() if k.startswith('opt_')}
 FIXES = [('gx_narrowed', {}), ('hca_rederived', {}), ('avoidance_by_tier', {}), ('stack_cap', {'design': 'C1'})]
 CORE = FIXES + [('hi_grant_ended', {}), ('end_adult_credit', {}), ('ltc_state_share', {'share': 1.0}),
                ('education_rate', {'rate': 1.7})]
-# Memo G8: the VAT's rate steps keep every year to FY2056 closed as health's budget grows at GDP plus 1.
-VAT_REC = {'rate': 4.75, 'steps': {2041: 5.25, 2044: 5.6, 2051: 6.3}}
+# Memo G8: the VAT's rate steps keep every year to FY2056 closed as health's budget grows at GDP plus 1. The VAT starts
+# with health's January 2035 endpoint (the review of #469: started in FY2033, it put the fourth fifth behind on D3 in
+# FY2033-34, before health's savings arrive); FY2035 is booked at the full year, a small overstatement of its yield.
+VAT_REC = {'rate': 4.75, 'start': 2035, 'ramp': 1, 'steps': {2041: 5.25, 2044: 5.6, 2051: 6.3}}
+VAT_AT_ENDPOINT = {'start': 2035, 'ramp': 1}
 PACKAGES = {
     'booked': [],
     'fixes': FIXES + [('hi_grant_ended', {})],
@@ -264,10 +267,13 @@ PACKAGES = {
     'recommended': CORE + [('drop_broad_points', {}), ('vat', VAT_REC)],
     # Memo G1 B: the recommended package with the flagships' own cheaper designs; the VAT that then closes it.
     'g1_with_benefit_trims': CORE + [('drop_broad_points', {}), ('benefit_trims', {}),
-                                     ('vat', {'rate': 3.3, 'steps': {2041: 3.75, 2044: 4.1, 2051: 4.8}})],
+                                     ('vat', dict(VAT_AT_ENDPOINT, rate=3.3, steps={2041: 3.75, 2044: 4.1, 2051: 4.8}))],
     # Memo G2 C: the 2 points folded into the health contribution (R = 3.25%) instead of dropped.
     'g2_folded': CORE + [('fold_broad_points', {'rate': 3.25}),
-                         ('vat', {'rate': 2.75, 'steps': {2041: 3.0, 2043: 3.3, 2051: 4.0}})],
+                         ('vat', dict(VAT_AT_ENDPOINT, rate=2.75, steps={2041: 3.0, 2043: 3.3, 2051: 4.0}))],
+    # G1 B and G2 C together: the smallest VAT among the screened packages (the revenue-mix test's best case).
+    'g1b_g2c': CORE + [('fold_broad_points', {'rate': 3.25}), ('benefit_trims', {}),
+                       ('vat', dict(VAT_AT_ENDPOINT, rate=1.25, steps={2041: 1.45, 2043: 1.6, 2044: 1.8, 2050: 2.0, 2052: 2.2, 2054: 2.5}))],
     # Memo G3 C: no VAT; the recommended package without it, to show what cuts would have to close.
     'g3_no_vat': CORE + [('drop_broad_points', {})],
 }
@@ -401,7 +407,49 @@ class Household:
                 notes.append(e[1])
         import provisions as P
         res = P.run(rows, table, opts, tuple(drop), self.D.K, self.D.HH, self.D.INC)[0]
-        return dict(net={g: res[g]['net'] for g in ('Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'T1')}, notes=notes)
+        out = dict(net={g: res[g]['net'] for g in ('Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'T1')}, notes=notes)
+        out['_state'] = (rows, table, opts, drop)
+        return out
+
+    # ---- D3's revenue-mix test (d3.D3.gf_test), on the edited package ----
+    def revenue_mix(self, state, levels=None):
+        """The share of new general-fund revenue from the top 1% (by incidence) and corporations, health's contributions
+        left out (DEC-2026-11-15-29), as d3.gf_test computes it. `levels` maps a row id to its weight in place of its
+        FY2030-39 amount (for a single-year reading); the VAT counts at its general-fund (net) yield."""
+        import d3
+        rows, table, opts, drop = state
+        items = [(r[0], r[3], r[4], r[0] in d3.CORPORATE) for r in rows if r[0] in d3.GF_IDS and r[0] not in drop]
+        for o in opts:
+            side, amt, ps, label = table[o]
+            if side == 'cost' and o not in d3.NOT_GF + d3.HEALTH_CONTRIBUTIONS:
+                items.append((o, amt * (1 - EXCISE_OFFSET) if o == 'VAT' else amt, ps, False))
+        total = top = 0.0
+        for rid, amt, ps, corp in items:
+            if not amt:
+                continue
+            share = 1.0 if corp else self.D.dist(ps)['T1'] / amt
+            w = levels.get(rid, amt) if levels else amt
+            total += w
+            top += w * share
+        return round(100 * top / total, 1)
+
+    def series(self, state, profiles=None, years=(2033, 2034, 2035, 2036, 2039)):
+        """Net $ a household by quintile in single years, on D3's phase-in profiles (d3.D3.series), with the package's
+        edits and dropped rows applied; `profiles` gives rows the screens add (the VAT) their own year shape."""
+        rows, table, opts, drop = state
+        rs = [r for r in rows if r[0] not in drop] + [(o, table[o][3], table[o][0], table[o][1], table[o][2], '') for o in opts]
+        out = {y: {g: 0.0 for g in ('Q1', 'Q2', 'Q3', 'Q4', 'Q5')} for y in years}
+        for rid, label, side, amt, parts, _ in rs:
+            d = self.D.dist(parts)
+            sign = 1 if side == 'benefit' else -1
+            for y in years:
+                if profiles and rid in profiles:
+                    f = profiles[rid][y - 2030]
+                else:
+                    f = self.D.annual_fraction(rid, amt, y) / amt if amt else 0
+                for g in out[y]:
+                    out[y][g] += sign * d[g] * f
+        return {y: {g: round(v * 1e12 / (self.D.HH * 0.2)) for g, v in out[y].items()} for y in years}
 
 
 # ---------------------------------------------------------------- the take-home test (DEC-2026-11-15-02)
@@ -409,6 +457,27 @@ class Household:
 # intervals in #467). The test counts visible health costs only; no other option here moves it.
 TAKE_HOME = {'booked': (70.1, 'with the 2 points'), 'drop': (88.7, 'without them'),
              'fold_3.25': (75.6, 'R = 3.25%'), 'fold_2.5': (85.9, 'R = 2.5%')}
+
+
+def single_year_levels(ctx, state, year, vat_path=None):
+    """Each counted revenue row's weight in one year: its D3 amount scaled by its own path's year/decade ratio, from the
+    budget model's audit lines (the indexed income contributions from `tax_yield`; the VAT from its own path)."""
+    rows, table, opts, drop = state
+    t = m.A['tax']
+    paths = {'ICH': {y: m.tax_yield(ctx.b, y, t['high_rate_points'], 0, t['additional_yield_haircut']) for y in YEARS},
+             'ICB': {y: m.tax_yield(ctx.b, y, 0, t['broad_rate_points'], t['additional_yield_haircut']) for y in YEARS},
+             'H7x': ctx.line('HX')}
+    if vat_path:
+        paths['VAT'] = vat_path
+    amounts = {r[0]: r[3] for r in rows}
+    amounts.update({o: table[o][1] for o in opts})
+    out = {}
+    for rid, amt in amounts.items():
+        path = paths.get(rid) or ctx.lines.get(rid)
+        if path and decade(path):
+            w = amt * 10 * path[year] / decade(path)
+            out[rid] = w * (1 - EXCISE_OFFSET) if rid == 'VAT' else w
+    return out
 
 
 def take_home(spec):
@@ -424,9 +493,20 @@ def evaluate(ctx, hh, name, spec, variants=True):
     out = dict(name=name, options=[o['label'] for o in opts], fiscal=price(ctx, opts, name),
                take_home=take_home(spec))
     if hh is not None:
-        out['d3'] = hh.run([e for o in opts for e in o.get('d3', [])])
+        d = hh.run([e for o in opts for e in o.get('d3', [])])
+        state = d.pop('_state')
+        out['d3'] = d
+        vat = next((o for o in opts if o['label'].startswith('VAT')), None)
+        vpath = next((v for k, v in vat['adjust'].items() if k.startswith('VAT')), None) if vat else None
+        prof = {'VAT': [vpath[y] / decade(vpath) for y in m.W]} if vpath else None
+        out['revenue_mix'] = {'FY2030-39': hh.revenue_mix(state)}
+        for y in (2040, 2056):
+            out['revenue_mix']['FY%d' % y] = hh.revenue_mix(state, single_year_levels(ctx, state, y, vpath))
+        out['d3_by_year'] = hh.series(state, prof)
         if not spec:
-            out['d3_as_committed'] = hh.run([], convention=False)
+            c = hh.run([], convention=False)
+            c.pop('_state')
+            out['d3_as_committed'] = c
     if variants:
         for vname, extra in (('without_d2', [OPTIONS['without_d2'](ctx)]), ('without_hs2', [OPTIONS['without_hs2'](ctx)]),
                              ('without_both', [OPTIONS['without_d2'](ctx), OPTIONS['without_hs2'](ctx)])):
@@ -523,6 +603,13 @@ def markdown(d):
             L.append('- D3 (FY2030-39 average, $ a household a year): Q1 %+d, Q2 %+d, Q3 %+d, Q4 %+d, Q5 %+d, top 1%% %+d.' %
                      (q['Q1'], q['Q2'], q['Q3'], q['Q4'], q['Q5'], q['T1']) +
                      (' ' + '; '.join(p['d3']['notes']).capitalize() + '.' if p['d3']['notes'] else ''))
+        if 'revenue_mix' in p:
+            L.append('- Revenue-mix test (top 1%% and corporations, share of new general-fund revenue; health\'s contributions '
+                     'out): %s.' % ', '.join('%s %.0f%%' % (k, v) for k, v in p['revenue_mix'].items()))
+        if 'd3_by_year' in p:
+            L.append('- D3 by year (Q1 / Q2 / Q3 / Q4 / Q5, $ a household, nominal): ' + '; '.join(
+                'FY%d %s' % (y, ' / '.join('%+d' % v[g] for g in ('Q1', 'Q2', 'Q3', 'Q4', 'Q5')))
+                for y, v in p['d3_by_year'].items()) + '.')
         L.append('')
     return '\n'.join(L)
 

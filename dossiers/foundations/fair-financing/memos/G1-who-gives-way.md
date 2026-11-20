@@ -47,7 +47,7 @@ Each of these was priced and weighed in its dossier, and you chose the costlier 
 | The care wage floor at $18 instead of $20 | about 33 | Care workers get about 5% more instead of about 12%; supply risk rises | Care memo 14 A |
 | **Together** | **about 159** (−$1,064B over the decade) | | |
 
-On D3 these trims cost the bottom fifth about $1,070 a year on the decade average, and the fourth fifth about $430. The VAT they replace costs the bottom fifth less, so B leaves the bottom three fifths worse off than A and the fourth fifth slightly better off (Q1 +$12,934 against +$13,655; Q4 +$3,964 against +$3,458).
+On D3 these trims cost the bottom fifth about $1,070 a year on the decade average, and the fourth fifth about $430. The VAT they replace costs the bottom fifth less, so B leaves the bottom three fifths worse off than A and the fourth fifth slightly better off (Q1 +$13,102 against +$13,896; Q4 +$4,412 against +$4,102). It also raises the revenue-mix test's share (memo G3: 60% over FY2030-39 and 52% in FY2040, against 57% and 50%).
 
 ### C. The credit only
 

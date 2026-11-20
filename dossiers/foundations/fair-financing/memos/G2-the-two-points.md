@@ -12,7 +12,7 @@ When you set the health contribution at 2.25% (`DEC-2026-11-15-11`), the 88.7% o
 
 | | What | FY2040 gap | FY2056 gap | Workers ahead (take-home) | The VAT then needed (memo G3) |
 | --- | --- | --- | --- | --- | --- |
-| **A (recommended)** | Drop the 2 points | **+216.3** | +636.8 | **88.7%** | 4.75% from FY2033, stepping to 6.3% by FY2051 |
+| **A (recommended)** | Drop the 2 points | **+216.3** | +636.8 | **88.7%** | 4.75% from the 2035 endpoint, stepping to 6.3% by FY2051 |
 | B | Keep them as booked | 0 | 0 | 70.1% | about 2.0 points lower in FY2040, 3.4 lower in FY2056 |
 | C | Fold them into the health contribution: drop them and raise its base rate from 2.25% to 3.25% from 2035 | −7.7 | +207.7 | 75.6% | 2.75%, stepping to 4.0% |
 | D | Drop them and raise the base rate to 2.5% | +160.3 | +529.5 | 85.9% | about 0.5 points lower than A |
@@ -30,7 +30,7 @@ When you set the health contribution at 2.25% (`DEC-2026-11-15-11`), the 88.7% o
 - *Take-home:* 75.6%. The health contribution's exemption protects low earners that the 2 points don't, so more workers come out ahead than in B for about the same money in FY2040.
 - *Money:* about the same as B in FY2040. Later it raises less, because the 2 points grow to their full rate in 2044 and this does not.
 - *Visibility:* "a 3.25% health contribution" in place of 2.25%.
-- *D3:* the best of the four for the bottom three fifths (Q1 +$14,127 against +$13,655 under A).
+- *D3:* the best of the four for the bottom three fifths (Q1 +$14,267 against +$13,896 under A). It also raises the revenue-mix test's share (60% over FY2030-39 and 54% in FY2040, against A's 57% and 50%; memo G3).
 
 **D, drop them and set the base rate at 2.5%.**
 - *Take-home:* 85.9%, just inside your range. You chose 2.25% partly for the margin: at 2.5%, "one uncertain assumption" could put the result under 85% (`health-household-contribution.md`).

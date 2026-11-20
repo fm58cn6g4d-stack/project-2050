@@ -59,6 +59,8 @@ Options: none (as booked).
 - Take-home test: 70.1% of workers ahead (with the 2 points).
 - D3 as the committed Q-H7 reads it (EDUP net of its offset): Q1 +14840, Q2 +13209, Q3 +12070, Q4 +6837, Q5 -62271, top 1% -910567.
 - D3 (FY2030-39 average, $ a household a year): Q1 +14827, Q2 +13160, Q3 +11972, Q4 +6669, Q5 -62652, top 1% -912272.
+- Revenue-mix test (top 1% and corporations, share of new general-fund revenue; health's contributions out): FY2030-39 64%, FY2040 57%, FY2056 52%.
+- D3 by year (Q1 / Q2 / Q3 / Q4 / Q5, $ a household, nominal): FY2033 +11783 / +8784 / +6877 / +2347 / -60248; FY2034 +13698 / +11286 / +9397 / +3754 / -67146; FY2035 +16975 / +16420 / +15742 / +9836 / -65074; FY2036 +19114 / +19118 / +18741 / +12510 / -64887; FY2039 +22649 / +22730 / +22071 / +14418 / -74507.
 
 ### fixes
 
@@ -78,63 +80,92 @@ Options: GX narrowed to H1b's remaining half; HCA re-derived at $70B; Avoidance 
 - Social Security depletes 2093 (75-year balance -0.31% of payroll); HI depletes 2037; the education fund depletes in 2035 (reserve $-254B in FY2040).
 - Take-home test: 70.1% of workers ahead (with the 2 points).
 - D3 (FY2030-39 average, $ a household a year): Q1 +14823, Q2 +13107, Q3 +11842, Q4 +6446, Q5 -62264, top 1% -899051.
+- Revenue-mix test (top 1% and corporations, share of new general-fund revenue; health's contributions out): FY2030-39 64%, FY2040 56%, FY2056 51%.
+- D3 by year (Q1 / Q2 / Q3 / Q4 / Q5, $ a household, nominal): FY2033 +11780 / +8756 / +6806 / +2221 / -59974; FY2034 +13695 / +11250 / +9308 / +3596 / -67012; FY2035 +16970 / +16350 / +15570 / +9541 / -64798; FY2036 +19107 / +19035 / +18536 / +12162 / -64537; FY2039 +22641 / +22638 / +21841 / +14029 / -74113.
 
 ### recommended
 
-Options: GX narrowed to H1b's remaining half; HCA re-derived at $70B; Avoidance allowance 10% on the base rate, 20% on the surcharge; Stack cap C1: Combined ceiling at 100% of a 6% imputed return ($40B in FY2040); The general fund's grant to HI ended from the 2035 endpoint (accounting correction); The legacy $300 adult credit ended; States' long-term care payment at 100%; Education fund at 1.7 points; The 2 points above $20K/$40K dropped; VAT 4.75% from FY2033, 5.25% from FY2041, 5.60% from FY2044, 6.30% from FY2051.
+Options: GX narrowed to H1b's remaining half; HCA re-derived at $70B; Avoidance allowance 10% on the base rate, 20% on the surcharge; Stack cap C1: Combined ceiling at 100% of a 6% imputed return ($40B in FY2040); The general fund's grant to HI ended from the 2035 endpoint (accounting correction); The legacy $300 adult credit ended; States' long-term care payment at 100%; Education fund at 1.7 points; The 2 points above $20K/$40K dropped; VAT 4.75% from FY2035, 5.25% from FY2041, 5.60% from FY2044, 6.30% from FY2051.
 
 | | FY2030 | FY2035 | FY2040 | FY2045 | FY2050 | FY2056 | FY2030-39 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| General-fund gap ($B) | -212.9 | -26.4 | -11.4 | -19.5 | -12.7 | -8.7 | -140.5 |
+| General-fund gap ($B) | -212.9 | -26.4 | -11.4 | -19.5 | -12.7 | -8.7 | 451.3 |
 | Share of GDP | -0.57% | -0.06% | -0.02% | -0.03% | -0.02% | -0.01% | |
-| Without d2 ($B) | | | 238.0 | 304.5 | 395.7 | 517.5 | 203.7 |
-| Without hs2 ($B) | | | 138.6 | 165.5 | 213.0 | 278.5 | 1089.5 |
-| Without both ($B) | | | 387.9 | 489.6 | 621.4 | 804.8 | 1433.7 |
+| Without d2 ($B) | | | 238.0 | 304.5 | 395.7 | 517.5 | 795.5 |
+| Without hs2 ($B) | | | 138.6 | 165.5 | 213.0 | 278.5 | 1681.3 |
+| Without both ($B) | | | 387.9 | 489.6 | 621.4 | 804.8 | 2025.5 |
 
 - Closes FY2040 and every later year to FY2056: **yes** (worst year 2043, -0.00% of GDP).
-- Debt, % of GDP: 116.3 in FY2040 (baseline 132.7), 132.5 in FY2056 (baseline 180.2).
-- Decade path (FY2030-39): 2030 -213, 2031 -122, 2032 37, 2033 -168, 2034 -499, 2035 -26, 2036 223, 2037 227, 2038 225, 2039 175.
+- Debt, % of GDP: 117.7 in FY2040 (baseline 132.7), 134.0 in FY2056 (baseline 180.2).
+- Decade path (FY2030-39): 2030 -213, 2031 -122, 2032 37, 2033 25, 2034 -100, 2035 -26, 2036 223, 2037 227, 2038 225, 2039 175.
 - Social Security depletes 2093 (75-year balance -0.31% of payroll); HI depletes 2037; the education fund stays solvent (reserve $106B in FY2040).
 - Take-home test: 88.7% of workers ahead (without them).
-- D3 (FY2030-39 average, $ a household a year): Q1 +13655, Q2 +11293, Q3 +9425, Q4 +3458, Q5 -66222, top 1% -908295. D3 has no row for the credit, so its quintiles do not move; a state payment: d3 counts federal rows only, so households' benefits (h9) do not move.
+- D3 (FY2030-39 average, $ a household a year): Q1 +13896, Q2 +11669, Q3 +9935, Q4 +4102, Q5 -65310, top 1% -906149. D3 has no row for the credit, so its quintiles do not move; a state payment: d3 counts federal rows only, so households' benefits (h9) do not move.
+- Revenue-mix test (top 1% and corporations, share of new general-fund revenue; health's contributions out): FY2030-39 57%, FY2040 50%, FY2056 46%.
+- D3 by year (Q1 / Q2 / Q3 / Q4 / Q5, $ a household, nominal): FY2033 +11764 / +8692 / +6678 / +2001 / -60473; FY2034 +13672 / +11161 / +9129 / +3291 / -67705; FY2035 +15253 / +13642 / +11880 / +4861 / -71453; FY2036 +17330 / +16265 / +14824 / +7541 / -70784; FY2039 +20669 / +19677 / +18084 / +9653 / -78893.
 
 ### g1_with_benefit_trims
 
-Options: GX narrowed to H1b's remaining half; HCA re-derived at $70B; Avoidance allowance 10% on the base rate, 20% on the surcharge; Stack cap C1: Combined ceiling at 100% of a 6% imputed return ($40B in FY2040); The general fund's grant to HI ended from the 2035 endpoint (accounting correction); The legacy $300 adult credit ended; States' long-term care payment at 100%; Education fund at 1.7 points; The 2 points above $20K/$40K dropped; Benefit trims: child benefit at 2021 amounts; $18 care floor; no educator parity; pre-K at 4 only; VAT 3.30% from FY2033, 3.75% from FY2041, 4.10% from FY2044, 4.80% from FY2051.
+Options: GX narrowed to H1b's remaining half; HCA re-derived at $70B; Avoidance allowance 10% on the base rate, 20% on the surcharge; Stack cap C1: Combined ceiling at 100% of a 6% imputed return ($40B in FY2040); The general fund's grant to HI ended from the 2035 endpoint (accounting correction); The legacy $300 adult credit ended; States' long-term care payment at 100%; Education fund at 1.7 points; The 2 points above $20K/$40K dropped; Benefit trims: child benefit at 2021 amounts; $18 care floor; no educator parity; pre-K at 4 only; VAT 3.30% from FY2035, 3.75% from FY2041, 4.10% from FY2044, 4.80% from FY2051.
 
 | | FY2030 | FY2035 | FY2040 | FY2045 | FY2050 | FY2056 | FY2030-39 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| General-fund gap ($B) | -252.3 | -22.0 | -18.1 | -19.2 | -9.9 | -1.8 | -342.0 |
+| General-fund gap ($B) | -252.3 | -22.0 | -18.1 | -19.2 | -9.9 | -1.8 | 69.2 |
 | Share of GDP | -0.67% | -0.05% | -0.03% | -0.03% | -0.01% | -0.00% | |
-| Without d2 ($B) | | | 231.2 | 304.8 | 398.5 | 524.5 | 2.2 |
-| Without hs2 ($B) | | | 131.8 | 165.8 | 215.8 | 285.4 | 888.0 |
-| Without both ($B) | | | 381.2 | 489.9 | 624.2 | 811.7 | 1232.2 |
+| Without d2 ($B) | | | 231.2 | 304.8 | 398.5 | 524.5 | 413.4 |
+| Without hs2 ($B) | | | 131.8 | 165.8 | 215.8 | 285.4 | 1299.2 |
+| Without both ($B) | | | 381.2 | 489.9 | 624.2 | 811.7 | 1643.4 |
 
 - Closes FY2040 and every later year to FY2056: **yes** (worst year 2043, -0.00% of GDP).
-- Debt, % of GDP: 115.8 in FY2040 (baseline 132.7), 132.0 in FY2056 (baseline 180.2).
-- Decade path (FY2030-39): 2030 -252, 2031 -178, 2032 -38, 2033 -202, 2034 -483, 2035 -22, 2036 223, 2037 222, 2038 220, 2039 169.
+- Debt, % of GDP: 116.8 in FY2040 (baseline 132.7), 133.0 in FY2056 (baseline 180.2).
+- Decade path (FY2030-39): 2030 -252, 2031 -178, 2032 -38, 2033 -69, 2034 -206, 2035 -22, 2036 223, 2037 222, 2038 220, 2039 169.
 - Social Security depletes 2093 (75-year balance -0.31% of payroll); HI depletes 2037; the education fund stays solvent (reserve $106B in FY2040).
 - Take-home test: 88.7% of workers ahead (without them).
-- D3 (FY2030-39 average, $ a household a year): Q1 +12934, Q2 +10874, Q3 +9367, Q4 +3964, Q5 -64975, top 1% -905167. D3 has no row for the credit, so its quintiles do not move; a state payment: d3 counts federal rows only, so households' benefits (h9) do not move.
+- D3 (FY2030-39 average, $ a household a year): Q1 +13102, Q2 +11135, Q3 +9721, Q4 +4412, Q5 -64341, top 1% -903676. D3 has no row for the credit, so its quintiles do not move; a state payment: d3 counts federal rows only, so households' benefits (h9) do not move.
+- Revenue-mix test (top 1% and corporations, share of new general-fund revenue; health's contributions out): FY2030-39 60%, FY2040 52%, FY2056 48%.
+- D3 by year (Q1 / Q2 / Q3 / Q4 / Q5, $ a household, nominal): FY2033 +10763 / +7790 / +5930 / +1598 / -60549; FY2034 +12538 / +10124 / +8272 / +2828 / -67801; FY2035 +14562 / +13337 / +12054 / +5744 / -69607; FY2036 +16600 / +15935 / +14994 / +8451 / -68872; FY2039 +19802 / +19253 / +18230 / +10645 / -76764.
 
 ### g2_folded
 
-Options: GX narrowed to H1b's remaining half; HCA re-derived at $70B; Avoidance allowance 10% on the base rate, 20% on the surcharge; Stack cap C1: Combined ceiling at 100% of a 6% imputed return ($40B in FY2040); The general fund's grant to HI ended from the 2035 endpoint (accounting correction); The legacy $300 adult credit ended; States' long-term care payment at 100%; Education fund at 1.7 points; The 2 points folded into R = 3.25%; VAT 2.75% from FY2033, 3.00% from FY2041, 3.30% from FY2043, 4.00% from FY2051.
+Options: GX narrowed to H1b's remaining half; HCA re-derived at $70B; Avoidance allowance 10% on the base rate, 20% on the surcharge; Stack cap C1: Combined ceiling at 100% of a 6% imputed return ($40B in FY2040); The general fund's grant to HI ended from the 2035 endpoint (accounting correction); The legacy $300 adult credit ended; States' long-term care payment at 100%; Education fund at 1.7 points; The 2 points folded into R = 3.25%; VAT 2.75% from FY2035, 3.00% from FY2041, 3.30% from FY2043, 4.00% from FY2051.
 
 | | FY2030 | FY2035 | FY2040 | FY2045 | FY2050 | FY2056 | FY2030-39 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| General-fund gap ($B) | -212.9 | -24.0 | -25.4 | -5.8 | -3.4 | -11.2 | 60.0 |
+| General-fund gap ($B) | -212.9 | -24.0 | -25.4 | -5.8 | -3.4 | -11.2 | 402.6 |
 | Share of GDP | -0.57% | -0.05% | -0.05% | -0.01% | -0.00% | -0.01% | |
-| Without d2 ($B) | | | 224.0 | 318.2 | 405.0 | 515.1 | 404.2 |
-| Without hs2 ($B) | | | 124.6 | 179.3 | 222.3 | 276.0 | 1290.0 |
-| Without both ($B) | | | 373.9 | 503.3 | 630.7 | 802.3 | 1634.2 |
+| Without d2 ($B) | | | 224.0 | 318.2 | 405.0 | 515.1 | 746.8 |
+| Without hs2 ($B) | | | 124.6 | 179.3 | 222.3 | 276.0 | 1632.6 |
+| Without both ($B) | | | 373.9 | 503.3 | 630.7 | 802.3 | 1976.8 |
 
 - Closes FY2040 and every later year to FY2056: **yes** (worst year 2050, -0.00% of GDP).
-- Debt, % of GDP: 116.8 in FY2040 (baseline 132.7), 133.2 in FY2056 (baseline 180.2).
-- Decade path (FY2030-39): 2030 -213, 2031 -122, 2032 37, 2033 -87, 2034 -331, 2035 -24, 2036 211, 2037 214, 2038 212, 2039 162.
+- Debt, % of GDP: 117.6 in FY2040 (baseline 132.7), 134.0 in FY2056 (baseline 180.2).
+- Decade path (FY2030-39): 2030 -213, 2031 -122, 2032 37, 2033 25, 2034 -100, 2035 -24, 2036 211, 2037 214, 2038 212, 2039 162.
 - Social Security depletes 2093 (75-year balance -0.31% of payroll); HI depletes 2037; the education fund stays solvent (reserve $106B in FY2040).
 - Take-home test: 75.6% of workers ahead (R = 3.25%).
-- D3 (FY2030-39 average, $ a household a year): Q1 +14127, Q2 +11890, Q3 +10059, Q4 +4071, Q5 -66663, top 1% -928849. D3 has no row for the credit, so its quintiles do not move; a state payment: d3 counts federal rows only, so households' benefits (h9) do not move.
+- D3 (FY2030-39 average, $ a household a year): Q1 +14267, Q2 +12108, Q3 +10354, Q4 +4444, Q5 -66135, top 1% -927606. D3 has no row for the credit, so its quintiles do not move; a state payment: d3 counts federal rows only, so households' benefits (h9) do not move.
+- Revenue-mix test (top 1% and corporations, share of new general-fund revenue; health's contributions out): FY2030-39 60%, FY2040 54%, FY2056 50%.
+- D3 by year (Q1 / Q2 / Q3 / Q4 / Q5, $ a household, nominal): FY2033 +11764 / +8692 / +6678 / +2001 / -60473; FY2034 +13672 / +11161 / +9129 / +3291 / -67705; FY2035 +15946 / +14519 / +12812 / +5765 / -72082; FY2036 +18042 / +17095 / +15593 / +8135 / -72584; FY2039 +21465 / +20604 / +18944 / +10317 / -80903.
+
+### g1b_g2c
+
+Options: GX narrowed to H1b's remaining half; HCA re-derived at $70B; Avoidance allowance 10% on the base rate, 20% on the surcharge; Stack cap C1: Combined ceiling at 100% of a 6% imputed return ($40B in FY2040); The general fund's grant to HI ended from the 2035 endpoint (accounting correction); The legacy $300 adult credit ended; States' long-term care payment at 100%; Education fund at 1.7 points; The 2 points folded into R = 3.25%; Benefit trims: child benefit at 2021 amounts; $18 care floor; no educator parity; pre-K at 4 only; VAT 1.25% from FY2035, 1.45% from FY2041, 1.60% from FY2043, 1.80% from FY2044, 2.00% from FY2050, 2.20% from FY2052, 2.50% from FY2054.
+
+| | FY2030 | FY2035 | FY2040 | FY2045 | FY2050 | FY2056 | FY2030-39 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| General-fund gap ($B) | -252.3 | -15.2 | -26.9 | -5.5 | -30.7 | -4.3 | 44.0 |
+| Share of GDP | -0.67% | -0.03% | -0.05% | -0.01% | -0.04% | -0.00% | |
+| Without d2 ($B) | | | 222.5 | 318.6 | 377.7 | 522.0 | 388.2 |
+| Without hs2 ($B) | | | 123.1 | 179.6 | 195.0 | 282.9 | 1274.0 |
+| Without both ($B) | | | 372.4 | 503.6 | 603.4 | 809.2 | 1618.2 |
+
+- Closes FY2040 and every later year to FY2056: **yes** (worst year 2053, -0.00% of GDP).
+- Debt, % of GDP: 116.7 in FY2040 (baseline 132.7), 133.3 in FY2056 (baseline 180.2).
+- Decade path (FY2030-39): 2030 -252, 2031 -178, 2032 -38, 2033 -69, 2034 -206, 2035 -15, 2036 215, 2037 214, 2038 212, 2039 161.
+- Social Security depletes 2093 (75-year balance -0.31% of payroll); HI depletes 2037; the education fund stays solvent (reserve $106B in FY2040).
+- Take-home test: 75.6% of workers ahead (R = 3.25%).
+- D3 (FY2030-39 average, $ a household a year): Q1 +13482, Q2 +11589, Q3 +10160, Q4 +4779, Q5 -65129, top 1% -925048. D3 has no row for the credit, so its quintiles do not move; a state payment: d3 counts federal rows only, so households' benefits (h9) do not move.
+- Revenue-mix test (top 1% and corporations, share of new general-fund revenue; health's contributions out): FY2030-39 63%, FY2040 57%, FY2056 52%.
+- D3 by year (Q1 / Q2 / Q3 / Q4 / Q5, $ a household, nominal): FY2033 +10763 / +7790 / +5930 / +1598 / -60549; FY2034 +12538 / +10124 / +8272 / +2828 / -67801; FY2035 +15272 / +14241 / +13023 / +6695 / -70169; FY2036 +17330 / +16793 / +15803 / +9094 / -70601; FY2039 +20618 / +20213 / +19134 / +11364 / -78696.
 
 ### g3_no_vat
 
@@ -154,6 +185,8 @@ Options: GX narrowed to H1b's remaining half; HCA re-derived at $70B; Avoidance 
 - Social Security depletes 2093 (75-year balance -0.31% of payroll); HI depletes 2037; the education fund stays solvent (reserve $106B in FY2040).
 - Take-home test: 88.7% of workers ahead (without them).
 - D3 (FY2030-39 average, $ a household a year): Q1 +14808, Q2 +13087, Q3 +11860, Q4 +6534, Q5 -61866, top 1% -898044. D3 has no row for the credit, so its quintiles do not move; a state payment: d3 counts federal rows only, so households' benefits (h9) do not move.
+- Revenue-mix test (top 1% and corporations, share of new general-fund revenue; health's contributions out): FY2030-39 65%, FY2040 61%, FY2056 58%.
+- D3 by year (Q1 / Q2 / Q3 / Q4 / Q5, $ a household, nominal): FY2033 +11764 / +8692 / +6678 / +2001 / -60473; FY2034 +13672 / +11161 / +9129 / +3291 / -67705; FY2035 +16944 / +16273 / +15450 / +9371 / -65065; FY2036 +19084 / +18995 / +18529 / +12221 / -64155; FY2039 +22630 / +22727 / +22224 / +14882 / -71485.
 
 
 ## Risks to the recommended package
@@ -162,15 +195,15 @@ Each row adds one risk to the recommended package (`packages.py`, `recommended`)
 
 | Risk | Basis | FY2040 | FY2045 | FY2056 | FY2030-39 | VAT points to cover FY2040 |
 | --- | --- | --- | --- | --- | --- | --- |
-| None (the package as recommended) | | -11.4 | -19.5 | -8.7 | -140.5 | 0 |
-| Without D2, the national health budget | DEC-2026-11-15-08; never achieved [EV-CAR-742] | 238.0 | 304.5 | 517.5 | 203.7 | 2.27 |
-| Without HS2, the wealth tax | legal risk high (Moore, 2024, left it open); its fallback is mostly G11's base | 138.6 | 165.5 | 278.5 | 1089.5 | 1.32 |
-| Without D2 and HS2 | both | 387.9 | 489.6 | 804.8 | 1433.7 | 3.69 |
-| The wage stack yields at the working elasticity | stack note part 3: about $140B in FY2040 (rough) | 128.6 | 152.8 | 256.2 | 987.4 | 1.22 |
-| The avoidance allowance stays at 20% on the base rate | 1-audit.md item 9; the range's top | 51.6 | 58.2 | 111.9 | 236.2 | 0.49 |
-| The stack cap costs its high end (C1 at $55B) | stack note part 4 | 3.6 | -1.0 | 20.0 | -17.5 | 0.03 |
-| C3A, the clean electricity compliance payments, vanish | 1-audit.md item 43: suppliers comply | 30.1 | 30.4 | 64.6 | 22.5 | 0.29 |
-| The VAT yields 15% less | compliance and base erosion beyond CBO's broad base | 63.4 | 86.5 | 166.5 | 283.4 | 0.60 |
-| The HI grant correction is not confirmed | the accounting item for G5 to check | 73.8 | 82.1 | 138.3 | 94.8 | 0.70 |
-| Pre-2025-law scores come in 10% low | 1-audit.md item 22: about $4.9T of the decade's revenue rests on them | 124.4 | 163.2 | 266.4 | 727.8 | 1.18 |
+| None (the package as recommended) | | -11.4 | -19.5 | -8.7 | 451.3 | 0 |
+| Without D2, the national health budget | DEC-2026-11-15-08; never achieved [EV-CAR-742] | 238.0 | 304.5 | 517.5 | 795.5 | 2.27 |
+| Without HS2, the wealth tax | legal risk high (Moore, 2024, left it open); its fallback is mostly G11's base | 138.6 | 165.5 | 278.5 | 1681.3 | 1.32 |
+| Without D2 and HS2 | both | 387.9 | 489.6 | 804.8 | 2025.5 | 3.69 |
+| The wage stack yields at the working elasticity | stack note part 3: about $140B in FY2040 (rough) | 128.6 | 152.8 | 256.2 | 1579.2 | 1.22 |
+| The avoidance allowance stays at 20% on the base rate | 1-audit.md item 9; the range's top | 51.6 | 58.2 | 111.9 | 828.0 | 0.49 |
+| The stack cap costs its high end (C1 at $55B) | stack note part 4 | 3.6 | -1.0 | 20.0 | 574.3 | 0.03 |
+| C3A, the clean electricity compliance payments, vanish | 1-audit.md item 43: suppliers comply | 30.1 | 30.4 | 64.6 | 614.3 | 0.29 |
+| The VAT yields 15% less | compliance and base erosion beyond CBO's broad base | 63.4 | 86.5 | 166.5 | 786.5 | 0.60 |
+| The HI grant correction is not confirmed | the accounting item for G5 to check | 73.8 | 82.1 | 138.3 | 686.5 | 0.70 |
+| Pre-2025-law scores come in 10% low | 1-audit.md item 22: about $4.9T of the decade's revenue rests on them | 124.4 | 163.2 | 266.4 | 1319.5 | 1.18 |
 

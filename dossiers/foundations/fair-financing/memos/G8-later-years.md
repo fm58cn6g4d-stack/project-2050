@@ -16,8 +16,8 @@ The question: how to keep the later years closed.
 
 | | What | VAT path (memo G3, A) | Cost to households early | Certainty |
 | --- | --- | --- | --- | --- |
-| **A (recommended)** | **Steps set in law now,** each one able to be delayed by the plan's fund trustees if it isn't needed | 4.75% from FY2033; 5.25% from FY2041; 5.6% from FY2044; 6.3% from FY2051 | Lowest | High: the package closes every year to FY2056 on paper |
-| B | One rate from the start, high enough for FY2056 | 6.3% from FY2033 | About $1,800 a year more for a fourth-fifth household in the 2030s; surpluses until about 2050 | High |
+| **A (recommended)** | **Steps set in law now,** each one able to be delayed by the plan's fund trustees if it isn't needed | 4.75% from the January 2035 endpoint; 5.25% from FY2041; 5.6% from FY2044; 6.3% from FY2051 | Lowest | High: the package closes every year to FY2056 on paper |
+| B | One rate from the start, high enough for FY2056 | 6.3% from 2035 | About $1,800 a year more for a fourth-fifth household from 2035; surpluses until about 2050 | High |
 | C | No steps in law: each Congress closes the gap when it appears | 4.75% throughout | Lowest | Low: the rule fails from about FY2041 |
 | D | Slow health's growth instead: D2 at GDP plus 0.5 from FY2045 | Lower steps (not priced) | Lowest | It reopens a decided health design, so it is listed only for completeness |
 
@@ -25,6 +25,7 @@ The question: how to keep the later years closed.
 - *How it works:* the plan's fund trustees publish, every year, health's and long-term care's growth against GDP. A scheduled step takes effect on its date unless the trustees certify that the gap it closes hasn't appeared. Congress can always replace a step with something else of the same size.
 - *Why:* budget scorers and markets see a funded plan. Households pay only as the costs arrive. And the trustees' review can delay a step that isn't needed (design lens: published counts with a review trigger).
 - *Check:* on the central estimate, A keeps every year from FY2040 to FY2056 closed. The worst year is FY2043, at 0.00% of GDP.
+- *A cost of every step:* each one is broad revenue, so the revenue-mix test's share falls as the steps arrive: 50% in FY2040, 46% in FY2056 (memo G3, point G3.2).
 
 **B, one rate from the start.** It is simpler, but it collects about 1.5 points more than needed through the 2040s, from households, years before the costs arrive.
 
