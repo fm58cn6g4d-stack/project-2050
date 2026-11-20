@@ -35,6 +35,18 @@ PBS = SF.package("PB+S", _SD)
 DEC = SF.package("DEC", _SD)       # decided in Decision Brief 2 (Oct 20): TS12, HP1, HP3; no trims; REV-SC1 (C43) adopted Oct 21
 TRIMS = SF.package("TRIMS", _SD)   # declined in Decision Brief 2; kept for reference
 SCENARIOS = SF.fiscal(_SD)         # id, label, cut options included, extra settings
+# The adopted capacity and AI trims (Recovery and Solvency adoption, Oct 26; recovery-adoption.json "spending"): explicit
+# smaller authorizations for CAP-7S, CAP-7 and AI-4, each row's path scaled by its adopted amount over the amount the
+# adoption trimmed from ($T). The budget model (recovery-budget/model.py, the line "Smaller capacity and AI
+# authorizations") and this model's program scenarios read this one table (financing audit part D, item 4)
+CAPACITY_TRIMS = (("CAP-7S", "cap_surge_tn", .6), ("CAP-7", "cap_sustained_tn", .49), ("AI-4", "ai_transition_tn", .2))
+
+
+def capacity_kept():
+    """{row id: the share of its ledger path the adopted trims keep}."""
+    with open(data_path("inputs", "recovery-adoption.json"), encoding="utf-8") as f:
+        sp = json.load(f)["spending"]
+    return {k: sp[key] / amt for k, key, amt in CAPACITY_TRIMS}
 # DEC-CAUT (scenarios.json) is the cautious-end reading of budget choice 2 (DEC-2026-11-08-04,
 # ASM-CALIB-CAUTIOUS): the midpoints decide the tests; this reading is reported beside them. Each row
 # keeps its own profile, scaled from its midpoint to its ledger end (cautious_ratio). Options, climate
@@ -244,6 +256,12 @@ def build(ledger_path, baseline_path):
     # dynamic sensitivity (not in any ledger total)
     dyn_mid = -sum(d["mid"] for d in L["dynamic"])       # + raises the deficit
     dyn = row_path(B, dyn_mid, dict(cat="rev_individual", start=W0, ramp=10, grow="gdp"))
+    # the adopted capacity and AI trims (CAPACITY_TRIMS), in every program scenario, as the gap model books them; at
+    # the cautious end the trimmed amount is still the adopted one, so the trim takes the row's high end down to it
+    kept = capacity_kept()
+    byid = {r["id"]: r for r in rows}
+    trim = {y: -sum(byid[k]["gf"][y] * (1 - f) for k, f in kept.items()) for y in range(Y0, Y1 + 1)}
+    trim_c = {y: -sum(byid[k]["gf_c"][y] - byid[k]["gf"][y] * f for k, f in kept.items()) for y in range(Y0, Y1 + 1)}
 
     # calibration check against the ledger
     s = lambda p: sum(p[y] for y in range(W0, W1 + 1)) / 1000
@@ -297,6 +315,8 @@ def build(ledger_path, baseline_path):
             ku, kg = ("uni_c", "gf_c") if cfg.get("cautious") else ("uni", "gf")
             prog_uni = {y: sum(r.get(ku, r["uni"])[y] for r in use) for y in range(Y0, Y1 + 1)}
             prog_gf = {y: sum(r.get(kg, r["gf"])[y] for r in use) for y in range(Y0, Y1 + 1)}
+            tr = trim_c if cfg.get("cautious") else trim
+            for y in prog_uni: prog_uni[y] += tr[y]; prog_gf[y] += tr[y]
             if cfg.get("dynamic"):
                 for y in prog_uni: prog_uni[y] += dyn[y]; prog_gf[y] += dyn[y]
             if cfg.get("fy2029"):
@@ -390,7 +410,7 @@ def build(ledger_path, baseline_path):
 
     fy2029 = dict(line=line29, priced={i: r["fy2029_bn"] for i, r in F29.items() if r["status"] == "priced"},
                   unpriced=sorted(i for i, r in F29.items() if r["status"] == "unpriced"))
-    return dict(results=results, rows=rows, opt_rows=opt_rows, dyn=dyn, checks=checks, composition=composition, B=B,
+    return dict(results=results, rows=rows, opt_rows=opt_rows, dyn=dyn, trim=trim, checks=checks, composition=composition, B=B,
                 ledger_summary=L["summary"], fy2029=fy2029)
 
 

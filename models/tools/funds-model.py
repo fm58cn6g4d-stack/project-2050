@@ -198,14 +198,14 @@ def hi_sources():
     the 2035 endpoint (care follow-up 3). Returns (H1a, HLT-6)."""
     ramp = [float(x) for x in str(P["hi_ramp"]).split("/")]
     tot = REV["H1a"]["mid"] * 1000
-    years = next((r for r in read("fiscal-years.csv") if r["id"] == "H1a"), None)
-    if years is not None:
-        # Health stream (e) (DEC-2026-11-15-19; health_booking.py): H1a has its own fiscal-year path and goes to the
-        # plan's fund from the January 2035 endpoint, when HI folds into it, so HI is credited only with the years
-        # before it: in full to FY2034 and FY2035's October-December 2034 quarter (it starts in FY2030 with the 2029
-        # act, DEC-2026-11-16-02, so each fiscal year's amount is a full year's), nothing after
-        pre = {t: 1.0 if t < 2035 else (0.25 if t == 2035 else 0.0) for t in W}
-        h1a = {t: num(years["y%d" % t]) * pre[t] / hi_payroll(t) * 100 for t in W}
+    if "hi_h1a_bn" in P:
+        # Health stream (e) (DEC-2026-11-15-19; health_booking.py): H1a goes to the plan's fund from the January 2035
+        # endpoint, when HI folds into it, so HI keeps only the years before it: in full to FY2034 and FY2035's
+        # October-December 2034 quarter (it starts in FY2030 with the 2029 act, DEC-2026-11-16-02), nothing after.
+        # Those years are HI's alone: the ledger row books only the general fund's share (financing audit part D,
+        # item 1), as HLT-6's row books only Part B's
+        vals = [float(x) for x in str(P["hi_h1a_bn"]).split("/")]
+        h1a = {t: (vals[t - 2030] if t - 2030 < len(vals) else 0.0) / hi_payroll(t) * 100 for t in W}
         h1a_after = 0.0
     else:
         w = {t: ramp[t - 2030] * hi_payroll(t) for t in W}

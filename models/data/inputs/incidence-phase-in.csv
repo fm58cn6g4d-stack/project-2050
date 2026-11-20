@@ -15,7 +15,10 @@ PS1,ramp,,0,1,1,1,1,1,1,1,1,1,SAF-10 rides R3 (summer 2030); receipts from 2031
 EDU3,ramp,,.35,1,1,1,1,1,1,1,1,1,universal meals from the 2030-31 school year (v1.3)
 EDU4,ramp,,1.4,1.4,1.4,1.2,1,.8,.5,.4,.4,.4,"pipeline surge front-loaded, tapering after 2034 (v1.3)"
 EDU,ramp,,.5,.7,.8,.9,1,1,1,1,1,1,IDEA glide path and Pell ramp (v1.3)
-EDUB,ramp,,.1,.4,.8,1,1,1,1,1,1,1,EDU-9B's added benefits ramp with pre-K (v1.3)
+EDUB,norm,,0.481,0.387,0.389,0.773,0.751,0.798,0.903,0.932,0.964,1,EDU-9B's added benefits on case mixed's booked path (recovery-budget audit line EDU replacement); a ramp with pre-K (v1.3) before stage G
+EDUP,norm,,0,0.146,0.304,0.474,0.658,0.855,0.889,0.925,0.962,1,EDU-9B's contribution on case mixed's booked path: 1.4 points phased in over 2031-35 (recovery-budget.json education receipts)
+ICH,norm,,0,0,0,0.267,0.554,0.862,0.895,0.929,0.964,1,the 4 points above $100K/$200K on case mixed's booked path (model.py tax_yield: from 2033 over three years; GDP-scaled)
+ICB,norm,,0,0,0,0,0,0.172,0.358,0.557,0.771,1,the 2 points above $20K/$40K on case mixed's booked path (model.py tax_yield: from 2035 over ten years; GDP-scaled)
 C1,norm,,66.0,91.0,113.9,157.9,197.9,233.5,264.3,290.7,290.1,290.7,"carbon fee: the carbon model's year-by-year REV-C1 receipts on the revised D7 path ($25 in 2030, D7's steps to 2032, $150 by 2037; build/carbon.json c1_by_year_bn, Oct 26), replacing the v1.4 $25-110 profile"
 E2d,,C1,,,,,,,,,,,the dividend follows the fee
 E2t,,C1,,,,,,,,,,,the transition share follows the fee
