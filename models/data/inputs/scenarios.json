@@ -69,7 +69,7 @@
   },
   {
    "id": "DEC",
-   "label": "Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); no trims",
+   "label": "Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); none of Decision Brief 2's trims; the adopted capacity and AI trims (CAPACITY_TRIMS) in",
    "options": [
     "DEC"
    ],
@@ -88,7 +88,7 @@
   },
   {
    "id": "DEC-DYN",
-   "label": "Decided, with CBO-style dynamic feedback (about -$0.56T)",
+   "label": "Decided, with CBO-style dynamic feedback (the ledger's dynamic rows: about -$0.26T over FY2030-39, a net revenue loss)",
    "options": [
     "DEC"
    ],
@@ -177,7 +177,7 @@
   },
   {
    "id": "Q-EDU",
-   "label": "Q-EDU. Q with the EDU-9B education fund (held) in place of C19b and C20",
+   "label": "Q-EDU. Q with the EDU-9B education fund (as case mixed books it) in place of C19b and C20",
    "options": [
     "DEC",
     "EDUP",
@@ -190,7 +190,7 @@
   },
   {
    "id": "Q-H7",
-   "label": "Q-H7. Q with the single plan as booked: its household rows on the corrected path (H7h, H7w, H7x, H7c), its long-term care title (H9) and its financing (package E: HCU, the fold-in, HEC and HEX, the new streams HS1 to HS4; H1a is in Q)",
+   "label": "Q-H7. The package the gap books (case mixed): Q without C19b and C20, with the single plan as booked (its household rows on the corrected path, H7h, H7w, H7x and H7c; its long-term care title, H9; package E: HCU, the fold-in, HEC and HEX, the new streams HS1 to HS4; H1a is in Q), the education fund (EDUP, EDUB) and the indexed income contributions (ICH, ICB)",
    "options": [
     "DEC",
     "H7h",
@@ -209,7 +209,15 @@
     "HS1",
     "HS2",
     "HS3",
-    "HS4"
+    "HS4",
+    "EDUP",
+    "EDUB",
+    "ICH",
+    "ICB"
+   ],
+   "remove": [
+    "C19b",
+    "C20"
    ]
   }
  ]

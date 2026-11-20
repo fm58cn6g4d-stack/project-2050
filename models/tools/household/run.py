@@ -660,17 +660,21 @@ def d3_markdown(R, A):
       "the exclusion ends (HX), so the cap stops applying; the settlement must take that overlap out.")
     h7 = sc[next(n for n in sc if n.startswith("Q-H7"))]["model"]
     h7_ok = all(h7[g]["net"] > 0 for g in P.GROUPS[:4])
-    A(f"- **Health is in scenario Q-H7, on its booked path with its financing.** Q-H7 adds to Q the single plan's "
-      "household rows on the corrected path (premiums and out-of-pocket costs households stop paying, employer premiums "
-      "that become pay, HX's tax and the worker transition credit), long-term care (H9) and package E: the unified "
-      "household contribution, the fold-in of the worker's HI, the 0.9% and H1b's wage half, the employer contribution "
-      "(borne by workers, as premiums are) with the tax it takes from HX, and the four new streams (H1a is a row of Q). "
+    A(f"- **Scenario Q-H7 is the package the gap books** (case `mixed`; financing audit part D, item 2). It takes Q "
+      "without C19b and C20, which `mixed` does not book, and adds the single plan's household rows on the corrected "
+      "path (premiums and out-of-pocket costs households stop paying, employer premiums that become pay, HX's tax and "
+      "the worker transition credit), long-term care (H9) and package E: the unified household contribution, the "
+      "fold-in of the worker's HI, the 0.9% and H1b's wage half, the employer contribution (borne by workers, as "
+      "premiums are) with the tax it takes from HX, and the four new streams (H1a is a row of Q, with both funds' "
+      "shares). It also adds the education fund as `mixed` books it (EDUP, 1.4 points of payroll net of its tax "
+      "offset, all on workers; EDUB, its new benefits) and the two indexed income contributions (ICH, 4 points above "
+      "$100K/$200K; ICB, 2 points above $20K/$40K). "
       f"On the measured keys Q1 to Q4 are {', '.join(money(h7[g]['net']) for g in P.GROUPS[:4])} a household a year, "
       f"FY2030-39 average: {'every quintile below the top comes out ahead' if h7_ok else 'not every quintile below the top comes out ahead'}. "
       f"Its revenue-mix test, health's contributions left out, is {D['model']['gf']['Q-H7'][3]}%. The household record "
       "for health stays the cost review's take-home tests (`dossiers/foundations/health-household-contribution.md`); "
       "this is the same package on D3's keys and window.")
-    A(f"- **The education fund (EDU-9B, held)** as a closer in place of C19b and C20 gives the fourth quintile "
+    A(f"- **The education fund (EDU-9B, as `mixed` books it)** in place of C19b and C20, without health, gives the fourth quintile "
       f"{money(sc[next(n for n in sc if n.startswith('Q-EDU'))]['model']['Q4']['net'])}. Its contribution (about 1.4 "
       "points of payroll) is counted entirely on workers.")
     A("- **Averages hide losers inside the fourth quintile**: a household without children, marketplace or Medicare "

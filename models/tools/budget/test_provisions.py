@@ -179,11 +179,17 @@ class SamePaths(unittest.TestCase):
     def test_scenario_program_totals(self):
         """Each scenario's program total, summed in the model's order, is the model's own."""
         order = [r["id"] for r in M["rows"]]
+        # the adopted capacity and AI trims (fiscal-model.py CAPACITY_TRIMS; financing audit part D, item 4), in every
+        # program scenario, from the library's own scores of the three rows
+        kept = FM.capacity_kept()
+        trim = {y: -sum(SC[k]["gf"][y] * (1 - f) for k, f in kept.items()) for y in range(P.Y0, P.Y1 + 1)}
         for sid, label, opts, cfg in FM.SCENARIOS:
             if opts is None or cfg.get("envelope") or cfg.get("cautious") or cfg.get("fy2029"):   # the library scores midpoints; DEC+FY29: test_fy2029_line
                 continue
             use = order + [o for o in opts if o in M["opt_rows"]]
             tot = {y: sum(SC[i]["unified"][y] for i in use) for y in range(P.Y0, P.Y1 + 1)}
+            for y in tot:
+                tot[y] += trim[y]
             if cfg.get("dynamic"):
                 for y in tot:
                     tot[y] += SC["DYN"]["unified"][y]
@@ -229,7 +235,10 @@ class SamePaths(unittest.TestCase):
         revenue row's midpoint less its low yield, on the general-fund basis."""
         R = M["results"]
         got = sum(R["DEC-CAUT"]["years"][y]["gf_primary"] - R["DEC"]["years"][y]["gf_primary"] for y in range(P.W0, P.W1 + 1)) / 1000
-        want = (sum(b["gf_hi"] - b["gf_mid"] for b in L["bills"]) +
+        # the trimmed rows (CAP-7S, CAP-7, AI-4) are explicit smaller authorizations: their cautious end is the
+        # adopted amount, so their ledger ranges drop out (financing audit part D, item 4)
+        kept = FM.capacity_kept()
+        want = (sum(b["gf_hi"] - b["gf_mid"] for b in L["bills"] if b["id"] not in kept) +
                 sum(r["mid"] - r["lo"] for r in L["revenue"] if r["in_base"] == "Yes" and r["channel"] == "General fund"))
         self.assertAlmostEqual(got, want, places=9)
         self.assertGreater(got, 0)
