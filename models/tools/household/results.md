@@ -349,7 +349,7 @@ Sources for the typed keys and conventions: CBO, *The Distribution of Household 
 
 ## 9. Sampling uncertainty: 90% intervals from the CPS replicate weights
 
-From `intervals.py` (run 2026-11-20, model at `9bc992a`), on the Census's 160 replicate weights (134,729 people, every one joined). Successive difference replication: SE = √(4/160 × Σ(estimate with replicate r − estimate with the base weight)²), and the 90% interval is ±1.645 SE. **Sampling error only**: the survey's under-reporting, top-coding and the model's assumptions are not in these intervals, and for most outputs they are larger. Each record's computed amounts are held fixed and reweighted; groups, measured keys and household counts are recomputed in every replicate (`intervals.py`'s docstring).
+From `intervals.py` (run 2026-11-20, model at `d143f10`), on the Census's 160 replicate weights (134,729 people, every one joined). Successive difference replication: SE = √(4/160 × Σ(estimate with replicate r − estimate with the base weight)²), and the 90% interval is ±1.645 SE. **Sampling error only**: the survey's under-reporting, top-coding and the model's assumptions are not in these intervals, and for most outputs they are larger. Each record's computed amounts are held fixed and reweighted; groups, measured keys and household counts are recomputed in every replicate (`intervals.py`'s docstring).
 
 Every estimate this run also computes is within half an interval of the interval run's, so the intervals apply as they stand.
 
