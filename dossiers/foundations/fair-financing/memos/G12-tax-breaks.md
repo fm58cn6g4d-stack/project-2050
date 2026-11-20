@@ -6,9 +6,9 @@ Role: decision memo for Espen, fork 12 of stage G, from step 4b's whole-budget s
 
 A tax break works like spending through the tax code. The plan's revenue rows already end or cut most of the large ones that go mainly to the top:
 - the fossil-fuel breaks, carried interest, like-kind exchanges above $500K (all inside C38);
-- the untaxed gains at death (G6);
+- the untaxed gains at death (the ledger's row G6, not memo G6);
 - the 2025 law's expensing (HS4);
-- the low tax on foreign profits (G7);
+- the low tax on foreign profits (row G7, not memo G7);
 - the employer health exclusion (HX).
 
 JCT's latest table shows what is left (the Joint Committee on Taxation, 2025) [EV-FIN-001]. Most of what's left is broad-based and middle-class: pensions, the charitable deduction, the mortgage deduction. Or it falls on states, as tax-free bonds do, or on small business, as the pass-through deduction below $450K does, which you asked the plan to spare (`DEC-2026-11-15-03`).
@@ -38,7 +38,7 @@ JCT's figures are not revenue estimates: they hold behavior fixed [EV-FIN-001]. 
   - *What stays:* the incentive for founders and early backers of genuinely young companies, as it was before 2025.
 - **C, keep it as is:** nothing saved; the 2025 extension stays.
 - *The evidence:* whether the exclusion actually raises start-up investment is unsettled, and the register holds no study of it. That is an "Evidence still needed" item. So B is a judgment that the core incentive is worth keeping on your direction, not a finding that it works.
-- *The saving* in A and B is likely understated: the plan's higher rates on large gains (HS3, C18) would apply to what the exclusion now shelters.
+- *The saving* in A and B is likely understated. The plan's higher rates on large gains (HS3, C18) would apply to what the exclusion now shelters. And the 2025 widening applies to stock issued after July 2025, so its cost grows faster than the economy as that stock ages.
 
 **G12.2, like-kind exchanges.**
 - *What it is:* a real-estate investor who sells one property and buys another pays no tax on the gain until later. The plan already caps this at $500K of gain a year (REV-TS9, inside C38), which reaches most of the dollars. This ends the rest.

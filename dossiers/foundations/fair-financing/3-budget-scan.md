@@ -2,7 +2,7 @@
 
 Role: the targeted pass Espen asked for on November 20 (`DEC-2026-11-20-07`): no VAT; cuts and reallocations across the whole federal budget come first, and a larger health contribution (memo G3 option E) is the fallback for whatever they don't close. It sets out a current-law baseline of the whole budget by area, screens the large areas, sizes options in the best few, recommends a set, and prices the fallback. Status: **draft, November 20, 2026; every fork provisional, drafted on the recommendations** (Espen's stage G method). Nothing here is decided or booked: no file under `models/data/inputs/` changes, and stage G's step 7 books what Espen decides. The forks are memos G10 to G13 in [`memos/`](memos/).
 
-**Naming:** "step 7" is stage G's booking step. "G1" to "G13" are the memos; G10 to G13 are this step's.
+**Naming:** "step 7" is stage G's booking step. "G1" to "G14" are the memos; G10 to G14 are this step's. Some of the plan's booked revenue rows have the same names as memos (G6 gains at death, G7 foreign income, G8 IRS enforcement, G9 the 2025 cuts reversed above $450K, G11 mark-to-market). This file calls those **"row G6"** and so on; a bare "G6" is always a memo.
 
 Units and sources:
 - Federal fiscal years, nominal $B, case `mixed`. A positive gap is a shortfall; a cut is negative.
@@ -30,7 +30,7 @@ Units and sources:
    Together they are **$138.6B in FY2040 and $684.4B in FY2056**, about 53% of the FY2040 shortfall and 94% of FY2056's.
 5. **The fallback closes the rest:** the health contribution's base rate at about **3.85% from 2035**, not 3.25%.
    - With it, every year from FY2040 to FY2056 closes; the tightest is FY2042, at −$5.6B.
-   - From the late 2040s the defense path builds a surplus, so a later Congress could lower the rate. That is memo G8's question, still open.
+   - From the mid-2040s the defense path builds a surplus, so a later Congress could lower the rate. That is memo G8's question, still open.
 6. **For households:**
    - Health's take-home test reads the same both ways, because none of the cuts charges workers directly (G2b). **68.2% of workers come out ahead**, against 76.2% at 3.25%.
    - The VAT package Espen turned down had 57.8% ahead with the VAT counted.
@@ -38,7 +38,7 @@ Units and sources:
    - Every fifth below the top comes out ahead on D3. The fourth fifth is +$5,490 a year, against +$4,553 with the VAT. D3's housing rows are not edited for G14.
 7. **Debt falls further:** 117.8% of GDP in FY2040 and 132.9% in FY2056, against the baseline's 132.7% and 180.2%. Net interest in FY2056 is about $396B lower than on the decided settlement without the cuts.
 8. **The hard part is defense.** By FY2056 the recommended path takes defense to about 1.6% of GDP.
-   - The lowest since at least FY1962 is 2.91%, in FY1999, and CBO's baseline is already below that from the 2030s.
+   - The lowest since at least FY1962 is 2.91%, in FY1999 (and FY2001). CBO's baseline is already below that from FY2026 (2.73%), and 2.61% by FY2029.
    - It is the same real budget as FY2036, less 5%, but a smaller share of a larger economy.
    - Memo G10 sets out the alternatives, including CBO's own 10% topline option, and what the plan gives up.
 9. **G5's backstop without a VAT** (memo G13):
@@ -105,7 +105,7 @@ The whole federal budget on the adopted baseline. The tables are in [`notes/budg
 | Crop insurance (FCIC fund) | 15.1 | 16.0 | | EITC, refundable part | 69 | 70 |
 | Commodity programs (CCC fund) | 17.3 | 15.0 | | ACA premium tax credit | 81 | 132 |
 
-**Spending through the tax code.** JCT's latest table counts the tax expenditures for FY2025-29 [EV-FIN-001]. The largest in FY2029, and whether the plan already touches them:
+**Spending through the tax code.** JCT's latest table counts the tax expenditures for FY2025-29 [EV-FIN-001]. The largest in FY2029, and whether the plan already touches them (each is FY2029's figure, except the oil and gas row, which is the five-year FY2025-29 total):
 
 | Tax expenditure, FY2029 ($B) | Size | Already touched by a booked row |
 | --- | --- | --- |
@@ -113,17 +113,17 @@ The whole federal budget on the adopted baseline. The tables are in [`notes/budg
 | Employer health exclusion | 281.1 | **Yes: ended by HX** from the 2035 endpoint |
 | Lower rates on dividends and capital gains | 252.1 | **Yes:** C18 (+2 points), HS3 (ordinary rates above $1M), G9 |
 | Defined benefit pensions | 171.1 | No |
-| Gains at death (step-up) | 84.2 | **Yes: G6** taxes gains at death above an exemption |
-| Qualified business income (199A) | 80.8 | Above $450K, probably through G9 (the stack note reads it so; unconfirmed) |
+| Gains at death (step-up) | 84.2 | **Yes: row G6** taxes gains at death above an exemption |
+| Qualified business income (199A) | 80.8 | Above $450K, probably through row G9 (the stack note reads it so; unconfirmed) |
 | State and local taxes | 65.5 | C39's 28% cap above $450K |
 | Charitable deduction, other | 64.8 | C39 |
 | Equipment depreciation beyond ADS | 59.7 | **Yes: HS4** repeals the 2025 law's permanent expensing |
 | Mortgage interest | 54.9 | C39 only (above $450K) |
-| Active income of foreign subsidiaries | 41.0 | **Yes: G7** (foreign income at the full rate) |
+| Active income of foreign subsidiaries | 41.0 | **Yes: row G7** (foreign income at the full rate) |
 | Tax-exempt bond interest | 30.2 | No |
 | Small business stock (sec. 1202) | 5.9 | **No** |
 | Like-kind exchanges | 10.8 | **Partly: REV-TS9** caps deferral at $500K a year (inside C38) |
-| Oil and gas depletion and drilling costs | 3.4 and 2.3 | **Yes: REV-TS3** (inside C38) |
+| Oil and gas depletion and drilling costs (five-year totals, FY2025-29) | 3.4 and 2.3 | **Yes: REV-TS3** (inside C38) |
 
 The table's figures are not revenue estimates. JCT computes each one with behavior held fixed and one provision at a time [EV-FIN-001]. A repeal raises less.
 
@@ -142,9 +142,9 @@ Sizes are the baseline's ($B, FY2040 unless stated). "Booked" means a ledger row
 | **Farm subsidies** (crop insurance and commodity programs) | about 34 (mandatory, function 350) | **Yes, small** | The 2025 law added $53.060B to the commodity programs and $5.980B to crop insurance over FY2025-34 [EV-FIN-002]. Crop insurance reform (REV-SC3) is an open legacy option [EV-FIN-014]. G11 |
 | — ad hoc farm aid | The $12B "bridge" payments (December 2025) and earlier emergency aid | No saving | Not in the baseline, so not cutting it saves nothing against it. The plan should not repeat it |
 | **Fossil-fuel tax breaks** | Oil and gas depletion $3.4B and drilling costs $2.3B over FY2025-29 [EV-FIN-001] | **No: booked** | REV-TS3, inside C38 ($0.13T over FY2030-39, with the dual-capacity and foreign oil and gas rules) |
-| **Other industry subsidies** | Cato counts about $181B a year on a broad definition (via search extract; an advocate's count) | Mostly no | Most of the large items are either booked (C38's corporate items, G7, HS4), decided plan designs (clean power's credits, CLI-1), or programs with no budget cost: GAO, citing outside studies, puts the sugar program's cost to consumers at $2.5-3.5B a year in higher prices, with almost nothing in outlays [EV-FIN-011]. Its reform is worth doing for prices, but closes no gap |
+| **Other industry subsidies** | Cato counts about $181B a year on a broad definition (via search extract; an advocate's count) | Mostly no | Most of the large items are either booked (C38's corporate items, row G7, HS4), decided plan designs (clean power's credits, CLI-1), or programs with no budget cost: GAO, citing outside studies, puts the sugar program's cost to consumers at $2.5-3.5B a year in higher prices, with almost nothing in outlays [EV-FIN-011]. Its reform is worth doing for prices, but closes no gap |
 | **Medicare Advantage and payment integrity** | MedPAC: MA is paid 14% more than traditional Medicare would pay for the same people, about $76B in 2026 [EV-FIN-003] | **No: booked and absorbed** | HLT-6.01 fixes coding and benchmarks on MedPAC's method from 2030 (−$0.546T over FY2030-34, booked as HLT-6). From the January 2035 endpoint the single plan replaces MA (HLT-7.14, HLT-7.25), priced at traditional Medicare's rates. Counting it again would double count (`health-cost-review.md`; `dossiers/care/6-cost.md`) |
-| **Improper payments** | GAO: $186B in FY2025, government-wide [EV-FIN-008] | No booking | An improper payment is not a saving. Most of Medicaid's are missing paperwork, not payments to people who weren't eligible. Medicare's and Medicaid's ($57B and $37B) go into the single plan's rules. The EITC's come from its own complex rules, and the secure floor's redesign is where to fix them. CBO scores program-integrity money only for named activities (the IRS's enforcement, which G8 books) |
+| **Improper payments** | GAO: $186B in FY2025, government-wide [EV-FIN-008] | No booking | An improper payment is not a saving. Most of Medicaid's are missing paperwork, not payments to people who weren't eligible. Medicare's and Medicaid's ($57B and $37B) go into the single plan's rules. The EITC's come from its own complex rules, and the secure floor's redesign is where to fix them. CBO scores program-integrity money only for named activities (the IRS's enforcement, which row G8 books) |
 | **Federal contracting** | About $790B of contract obligations a year, about three-fifths of it DoD's (via search extract) | Inside G10 only | No CBO or GAO score of contracting reform exists. GAO found DOGE's claimed savings largely unverifiable [EV-FIN-007]. The budget model's rule holds: reductions are smaller authorizations, not efficiency claims (`models/tools/recovery-budget/model.py`). DoD's service contracts are part of G10's restructuring; DoD has never passed an audit [EV-FIN-012] |
 | **Tax expenditures the plan hasn't touched** | Part A's table | **Two small ones** | The rest of like-kind exchanges is top-heavy and untouched, and so is the small business stock exclusion's 2025 widening (G12; full repeal conflicts with Espen's innovation direction). The mortgage interest cap is priced but not recommended. 199A below $450K falls on small business, which Espen asked the plan to spare (`DEC-2026-11-15-03`). Pensions, tax-exempt bonds and the charitable deduction are broad-based or state-and-local items, not recommended |
 | **Programs the flagships make redundant** | | Nearly all netted already | Health nets Medicare, Medicaid, CHIP and the ACA credits (HLT-7). The child benefit (FAM-1) is priced net of today's child tax credit. Child care (FAM-2) nets CCDF. Housing is priced as increments over the baseline, so today's vouchers stay outside it. GAO's duplication work, about $774.3B of benefits so far, is mostly already in the baseline [EV-FIN-015]. Two small leads, not priced: the child and dependent care credit for children the child-care guarantee covers, and homelessness grants once HOU-4D houses families. Each is a few billion a year. "Evidence still needed" |
@@ -217,6 +217,7 @@ Each option is priced on the budget model against the decided settlement (`budge
 - CRFB puts the premium-share piece at about $35B over FY2026-35 (via search extract), at the top of that range.
 - **Saving:** **−$5.0B in FY2040** (range 3-10).
 - **Who loses:** crop insurers, through their reimbursements, and the farms with the largest policies. Smaller farms keep most of their subsidy.
+- **Overlap with C5:** the 2025 law's crop-insurance increase ($5.980B over FY2025-34) is mostly higher premium subsidies, and SC3 also cuts premium subsidies. Priced separately, the two may overlap by up to about $0.6B a year. It is inside C6's range and is not netted.
 - **Delivery:** the Risk Management Agency's existing contracts with the insurers (the Standard Reinsurance Agreement).
 
 ### C7. The small business stock exclusion (sec. 1202): its 2025 widening rolled back
@@ -234,6 +235,7 @@ Each option is priced on the budget model against the decided settlement (`budge
 - The evidence on whether the exclusion raises start-up investment is thin either way, and none is in the register; "Evidence still needed".
 - **Who loses under B:** investors with very large gains in larger companies, and those who sell between three and five years.
 - **Overlap:** none booked. HS3's and C18's higher rates on gains would apply to what A or B unshelters; that is not counted.
+- **Growth is cautious:** the 2025 widening applies to stock issued after July 4, 2025, held three to five years. So its cost grows faster than GDP after FY2029, and growing it with GDP understates A's and B's saving.
 
 ### C8. Like-kind exchanges repealed beyond the booked cap
 
@@ -286,7 +288,7 @@ Espen asked on November 20 whether the full housing guarantee should be cut back
 | C10 C: housing's stage 2 capped | G14 | −18.6 | −22.3 | −32.8 | −44.0 |
 | **Together** | | **−138.6** | **−275.3** | **−684.4** | **−675.5** |
 | *Left for the fallback* | | *123.5* | | *44.0* | |
-| Range: every item at its low end / high end (defense 3% / 7%; housing's cap at 0.65 / 0.45 of the right) | | −99.7 / −174.1 | | −627.2 / −734.4 | |
+| Range: every item at its low end / high end (defense 3% / 7%; farm $3B / $10B each; the tax items' shares 0.15 / 0.35 and 0.15 / 0.45; housing's cap at 0.65 / 0.45 of the right) | | −101.2 / −177.4 | | −629.9 / −740.3 | |
 
 **It closes about 53% of FY2040 and 94% of FY2056.** The evidence supports no more without cutting what Espen protected:
 - Every larger area left is health (decided, and first), Social Security and the secure floor (protected), veterans' and federal pensions (earned benefits for middle-income households), or the plan's own flagships (every booked design stands but housing's stage 2, which Espen asked about).
@@ -358,7 +360,9 @@ The fallback is memo G3's option E: the health contribution's base rate R above 
 
 **Proposed instrument (memo G13 A):**
 - **If D2 misses its path** for two years: the health contribution's base rate steps up, by 0.25 points a year, up to what closes the overrun (about 1.1 points in FY2040 terms). It is health's own instrument, visible to every household, which keeps the pressure on D2 where it belongs.
-- **If the wealth tax is struck down:** its drafted deferral charge on unrealized gains takes effect first. Then the surcharge tier of the health contribution steps up before the base rate does, so the loss of a top-end tax is replaced as near the top as the stack allows.
+- **If the wealth tax is struck down:** its drafted deferral charge on unrealized gains takes effect first. Then the surcharge tier of the health contribution steps up before the base rate does.
+  - But memo G5 says the deferral charge mostly reaches the same base as row G11 (mark-to-market), so it recovers little. The surcharge tier has little room, with top wages already taxed at 68-73%.
+  - **So in practice most of a wealth-tax loss lands on the base rate,** which is how the table prices it (+0.62 points in FY2040).
 - With both triggered, R would be about 5.6%, and 50.2% of workers would come out ahead. With D2 alone, R would be about 4.9% and about 56% would.
 - The legal footing is the memo's: contingent legislation, as in *Field v. Clark* (1892) and *J.W. Hampton* (1928).
 - The alternatives are a further defense step or named cuts (G13 B and C). They are listed with their costs.

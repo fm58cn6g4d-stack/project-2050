@@ -146,8 +146,9 @@ TAX_ITEMS = {
 }
 
 
-def opt_tax_item(ctx, key):
+def opt_tax_item(ctx, key, share=None):
     te_2029, recapture, label = TAX_ITEMS[key]
+    recapture = recapture if share is None else share
     lvl = te_2029 * recapture * float(BASE[2040]['gdp']) / float(BASE[2029]['gdp'])
     return dict(label='%s ($%.1fB in FY2040)' % (label, lvl),
                 adjust={'Tax: ' + key: neg(priced_from(lvl, 2030, 1, grow='gdp'))}, d3=[])
@@ -218,8 +219,9 @@ SETS = {
                     ('housing_guarantee', {'mode': 'C'})],
     'recommended_no_housing': [('defense_flat_real', {}), ('defense_restructure', {}), ('farm_obbba', {}), ('crop_insurance', {}),
                                ('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'})],
-    # The same with defense restructured only (memo G10 B), or at CBO's topline scale (G10 D).
-    'recommended_defense_b': [('defense_restructure', {'on_flat_real': False}), ('farm_obbba', {}), ('crop_insurance', {}),
+    # The same with C2 alone (the restructuring on the baseline path; not memo G10's option B, which is flat real
+    # only), or at CBO's topline scale (G10 D).
+    'recommended_c2_only': [('defense_restructure', {'on_flat_real': False}), ('farm_obbba', {}), ('crop_insurance', {}),
                               ('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'}),
                               ('housing_guarantee', {'mode': 'C'})],
     'recommended_defense_d': [('defense_topline', {}), ('farm_obbba', {}), ('crop_insurance', {}),
@@ -227,10 +229,12 @@ SETS = {
                               ('housing_guarantee', {'mode': 'C'})],
     # Ranges: every item at its low end (defense restructuring 3%) and at its high end (7%).
     'recommended_low': [('defense_flat_real', {}), ('defense_restructure', {'share': 0.03}), ('farm_obbba', {'end': 'low'}),
-                        ('crop_insurance', {'end': 'low'}), ('tax_item', {'key': 'qsbs_rollback'}),
+                        ('crop_insurance', {'end': 'low'}), ('tax_item', {'key': 'qsbs_rollback', 'share': 0.15}),
+                        ('tax_item', {'key': 'like_kind', 'share': 0.15}),
                         ('housing_guarantee', {'mode': 'C', 'capped_share': 0.65})],
     'recommended_high': [('defense_flat_real', {}), ('defense_restructure', {'share': 0.07}), ('farm_obbba', {'end': 'high'}),
-                         ('crop_insurance', {'end': 'high'}), ('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'}),
+                         ('crop_insurance', {'end': 'high'}), ('tax_item', {'key': 'qsbs_rollback', 'share': 0.35}),
+                         ('tax_item', {'key': 'like_kind', 'share': 0.45}),
                          ('housing_guarantee', {'mode': 'C', 'capped_share': 0.45})],
 }
 

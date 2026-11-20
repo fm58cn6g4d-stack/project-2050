@@ -17,13 +17,13 @@ Two questions:
 
 ## What CBO's baseline already does, and what it doesn't
 
-- **To FY2036, CBO grows defense with inflation from the FY2026 level.** As a share of the economy that is already a decline: from 2.61% of GDP in FY2029 to 2.35% in FY2036. The lowest share since at least FY1962 was 2.91%, in FY1999 (CBO's historical data). So the baseline is already historically low.
+- **To FY2036, CBO grows defense with inflation from the FY2026 level.** As a share of the economy that is already a decline: from 2.61% of GDP in FY2029 to 2.35% in FY2036. The lowest share since at least FY1962 was 2.91%, in FY1999 and FY2001 (CBO's historical data). The baseline is already below that from FY2026 (2.73%), so it is already historically low.
 - **After FY2036, the baseline grows defense with the economy,** at 2.27% of GDP every year. That is a scoring convention for the long-term outlook, not a law or a plan.
 - **NSC-1A says "flat real through FY2039".** So for FY2037-39 the model counts more defense than the plan's own rule allows. Correcting that is a pricing fix ($40B over the decade), not a choice. Holding the rule after FY2039 is the choice.
 
 ## The options (G10.1)
 
-Each option is shown with the farm, tax and housing items of memos G11, G12 and G14 at their recommendations. "R" is the health contribution's base rate (the fallback) that would close every year from FY2040 to FY2056 with one rate; you decided 3.25% for the fold (`DEC-2026-11-20-06`). "Workers ahead" is health's take-home test with everything counted (G2b).
+The FY2040 and FY2056 columns are defense alone. The "R needed" and "workers ahead" columns include the farm, tax and housing items of memos G11, G12 and G14 at their recommendations. "R" is the health contribution's base rate (the fallback) that would close every year from FY2040 to FY2056 with one rate; you decided 3.25% for the fold (`DEC-2026-11-20-06`). "Workers ahead" is health's take-home test with everything counted (G2b).
 
 | | What | FY2040 | FY2056 | Defense, % of GDP (FY2040 / FY2056) | R needed | Workers ahead |
 | --- | --- | --- | --- | --- | --- | --- |

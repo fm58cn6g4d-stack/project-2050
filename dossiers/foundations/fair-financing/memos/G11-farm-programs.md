@@ -26,6 +26,7 @@ Each item is decided on its own, yes or no.
 **G11.2, crop insurance reform.**
 - *Who loses:* crop insurance companies, through their reimbursements, and the farms with the largest policies. A smaller farm keeps most of its subsidy. CRFB puts the premium-share piece at about $35B over FY2026-35 (via a search extract), at the top of the range.
 - *Delivery:* the Risk Management Agency's existing contracts with the insurers. No new system is needed.
+- *Overlap with G11.1:* the 2025 law's crop-insurance increase was mostly higher premium subsidies, which this also cuts. Taken together, the two may overlap by up to about $0.6B a year, inside the ranges above.
 
 **Ad hoc farm aid** (the $12B of "bridge" payments in December 2025 and the emergency aid before it) isn't in CBO's baseline, so not repeating it saves nothing on paper. The plan shouldn't repeat it.
 
