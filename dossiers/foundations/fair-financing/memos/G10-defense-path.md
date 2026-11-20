@@ -17,24 +17,24 @@ Two questions:
 
 ## What CBO's baseline already does, and what it doesn't
 
-- **To FY2036, CBO grows defense with inflation from the FY2026 level.** As a share of the economy that is already a decline: from 2.61% of GDP in FY2029 to 2.35% in FY2036. The lowest share since at least FY1962 was 2.91%, in FY1999 (CBO's historical data). So the baseline is already historically low.
+- **To FY2036, CBO grows defense with inflation from the FY2026 level.** As a share of the economy that is already a decline: from 2.61% of GDP in FY2029 to 2.35% in FY2036. The lowest share since at least FY1962 was 2.91%, in FY1999 and FY2001 (CBO's historical data). The baseline is already below that from FY2026 (2.73%), so it is already historically low.
 - **After FY2036, the baseline grows defense with the economy,** at 2.27% of GDP every year. That is a scoring convention for the long-term outlook, not a law or a plan.
 - **NSC-1A says "flat real through FY2039".** So for FY2037-39 the model counts more defense than the plan's own rule allows. Correcting that is a pricing fix ($40B over the decade), not a choice. Holding the rule after FY2039 is the choice.
 
 ## The options (G10.1)
 
-Each option is shown with the farm and tax items of memos G11 and G12. "R" is the health contribution's base rate (the fallback) that would close every year from FY2040 to FY2056 with one rate; you decided 3.25% for the fold (`DEC-2026-11-20-06`). "Workers ahead" is health's take-home test with everything counted (G2b).
+The FY2040 and FY2056 columns are defense alone. The "R needed" and "workers ahead" columns include the farm, tax and housing items of memos G11, G12 and G14 at their recommendations. "R" is the health contribution's base rate (the fallback) that would close every year from FY2040 to FY2056 with one rate; you decided 3.25% for the fold (`DEC-2026-11-20-06`). "Workers ahead" is health's take-home test with everything counted (G2b).
 
 | | What | FY2040 | FY2056 | Defense, % of GDP (FY2040 / FY2056) | R needed | Workers ahead |
 | --- | --- | --- | --- | --- | --- | --- |
-| A | As booked: CBO's baseline | 0 | 0 | 2.27 / 2.27 | 4.9% | about 56% |
-| B | NSC-1A held after FY2039: defense flat in real terms from FY2037 | −41.9 | −541.5 | 2.20 / 1.71 | 4.15% | 64.2% |
-| **C (recommended)** | **B, plus a named restructuring about 5% below that path by FY2033** | **−101.4** | **−623.3** | **2.09 / 1.62** | **3.9%** | **67.6%** |
-| D | CBO's deepest topline option: about 10% below the baseline, keeping its growth with GDP | −123.2 | −217.7 | 2.04 / 2.04 | 4.4% | about 61% |
+| A | As booked: CBO's baseline | 0 | 0 | 2.27 / 2.27 | 4.85% | 56.8% |
+| B | NSC-1A held after FY2039: defense flat in real terms from FY2037 | −41.9 | −541.5 | 2.20 / 1.71 | 4.1% | 64.9% |
+| **C (recommended)** | **B, plus a named restructuring about 5% below that path by FY2033** | **−101.4** | **−623.3** | **2.09 / 1.62** | **3.85%** | **68.2%** |
+| D | CBO's deepest topline option: about 10% below the baseline, keeping its growth with GDP | −123.2 | −217.7 | 2.04 / 2.04 | 4.3% | 62.6% |
 
 ### A. As booked
 
-No change. The fallback rate has to rise to about 4.9% by FY2056, and about 56% of workers come out ahead.
+No change. The fallback rate has to be about 4.85%, and 56.8% of workers come out ahead.
 
 ### B. NSC-1A held after FY2039
 
@@ -56,12 +56,12 @@ No change. The fallback rate has to rise to about 4.9% by FY2056, and about 56% 
   - military retirees under 65, through higher TRICARE fees until 2035;
   - and the strategic margin, as in B.
 - *How it holds:* defense is appropriated every year, so only Congress holds it. The plan uses the machinery Congress has used before: statutory caps on defense budget authority, as in the Budget Control Act (2011) and the Fiscal Responsibility Act (2023), with emergency money only for a declared emergency.
-- *What it buys:* the largest saving in the long run, which is when the plan's costs grow fastest. It brings the fallback rate down from 4.9% to 3.9%.
+- *What it buys:* the largest saving in the long run, which is when the plan's costs grow fastest. It brings the fallback rate down from 4.85% to 3.85%.
 
 ### D. CBO's topline option
 
 - *What changes:* about 10% below the baseline from FY2034, mostly through a smaller force, but with the baseline's growth with GDP kept.
-- *Compared with C:* it saves more in the 2030s (−$822B over FY2030-39, against −$475B) and much less later (−$218B in FY2056, against −$623B). So the fallback rate climbs back to about 4.4% in the 2050s.
+- *Compared with C:* it saves more in the 2030s (−$822B over FY2030-39, against −$475B) and much less later (−$218B in FY2056, against −$623B). So the fallback rate has to be about 4.3%, set by the 2050s.
 - *Who loses:* the same groups as C, sooner and harder. Fewer people in uniform is CBO's main lever.
 
 ## The FY2029 base (G10.2)
@@ -80,11 +80,11 @@ This is also stage B's open question 0a ("the FY2028 defense path before summer 
 
 ## Recommendation
 
-- **G10.1: C.** Defense stays flat in real terms after FY2036, as the plan's own rule already says through FY2039, with a named 5% restructuring that changes what is bought rather than anyone's pay. It closes about $101B in FY2040 and $623B in FY2056, the largest part of what the VAT would have done. It brings the fallback rate to 3.9%.
+- **G10.1: C.** Defense stays flat in real terms after FY2036, as the plan's own rule already says through FY2039, with a named 5% restructuring that changes what is bought rather than anyone's pay. It closes about $101B in FY2040 and $623B in FY2056, the largest part of what the VAT would have done. It brings the fallback rate to 3.85%.
 - **G10.2: B.** A buildup in 2027-28 shouldn't become the 2029 plan's base by default.
 
 **What would change this:**
-- **If the strategic risk weighs more than the rate,** then B (no restructuring). The fallback rate is 4.15%.
+- **If the strategic risk weighs more than the rate,** then B (no restructuring). The fallback rate is 4.1%.
 - **If you'd rather cut sooner and less later,** then D. It saves more in the 2030s, but leaves the long run to the health contribution.
 - **If the threat picture worsens by 2029** (a war, or a collapse of arms control), the plan's fund trustees' annual report and the defense caps' emergency clause are the review points. A step back toward the baseline would raise the fallback rate by about 0.2 points per $45B.
 
