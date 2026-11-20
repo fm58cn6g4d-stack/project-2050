@@ -2,6 +2,8 @@
 
 Role: section 6 of the care dossier for parts B, C and D. It prices the provisions of `4bcd-specification.md` on federal fiscal years and reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`). Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README), on `DEC-2026-11-11-02` to `-06`, and booked (#265). Every figure is project arithmetic, not an official score; part 5 reports the booked rows.
 
+> **Superseded: two figures.** The plan-wide gap ($4,240.4B) in part 5 and the joint-failure figure (about +$650B, part 6), which uses the old 50% state share, are superseded. They are restated in `dossiers/foundations/fair-financing/1-audit.md` (stage G). Health's part is now booked on the corrected path (`dossiers/care/6-cost.md`, superseded note).
+
 ## Counting rules
 
 - **Conventions.** Federal cost, nominal $ billion unless marked, against current law (the 2029 baseline of sections 1b, 1c and 1d), a cost positive. Health's booking keeps Medicaid's long-term care in Medicaid at current-law cost (board row D-4c; `6-cost.md`, part 1), so these figures are also the increment over health's booking.
@@ -157,7 +159,7 @@ A row's components can differ from its total by 0.1 in the last place, from roun
 | Measure, FY2040 | As booked |
 | --- | --- |
 | Parts B-D, federal cost (the rows above) | **$750.0 billion** (1.4% of GDP) |
-| Plan-wide general-fund primary balance (`agenda_gf_primary_bn`, case `mixed`, before interest; every booked flagship) | **$4,240.4 billion short** (7.83% of GDP) |
+| Plan-wide general-fund primary balance (`agenda_gf_primary_bn`, case `mixed`, before interest; every booked flagship) | restated in `dossiers/foundations/fair-financing/1-audit.md` (stage G) |
 | The EDU-9B fund's general-fund grant (the whole fund, FAM-2's care component included) | $139.2 billion |
 
 **Where part C is counted.** Part C is counted once. In case `mixed` the EDU-9B fund's care component is FAM-2's booked path (`models/tools/recovery-budget/assumptions.json`, `education_components.care`, `ledger_row` FAM-2), and the general fund pays the fund a grant of 30% of the fund's outlays after 2034 (`models/tools/recovery-budget/model.py`, `edu_fund`; `gf_share_mixed`). So the general fund bears about 30 cents of each part C dollar after 2034, and the rest falls on the fund's payroll receipts and reserve: its solvency is the settlement's to cover with the fund's rate. Counting part C on the general fund instead is the settlement's choice (`3c-design-child-care.md`, "Inherited assumptions"). That alternative has not been re-priced since the booking.
@@ -184,7 +186,7 @@ A row's components can differ from its total by 0.1 in the last place, from roun
 | Part B at Urban's best guess (about $560 billion in 2035 at three activities, against $300 billion) | about +1.3 | about +330 | The outside model that sits highest (3b) |
 | The states' long-term care payment fails in court (hold harmless) | about +0.6 | about +150 | HLT-9.09; the payment ends and the federal government pays it |
 | A third of states decline child care and pre-K and the obligation fails | about +0.1 | about +18 | On one basis (before today's CCDF money is netted and administration added): child care about $87 billion rather than $80 billion at maturity, and pre-K $64 billion rather than $57 billion; about $14 billion more in 2033, grown to FY2040 (re-derived after the review's C-6; memo 17 compared $87 billion gross with $74 billion net) |
-| **Joint failure: one ruling against the offset instrument** (health's HLT-7.17, HLT-9.09 and FAM-2.08 together) | not summed here | about +650 | Health's payment, about $480 billion in FY2040 (its $307 billion in 2032, `6-cost.md`, part 6, grown with the plan's per-person cost; the review's reading), plus about $150 billion and $25 billion here. One legal risk, not three: the largest single swing in the plan's financing after the taxes. Health's window path is in `6-cost.md`, part 6 |
+| **Joint failure: one ruling against the offset instrument** (health's HLT-7.17, HLT-9.09 and FAM-2.08 together) | not summed here | superseded (about +650 on the old 50% state share; see `dossiers/foundations/fair-financing/1-audit.md`) | Health's payment, about $480 billion in FY2040 (its $307 billion in 2032, `6-cost.md`, part 6, grown with the plan's per-person cost; the review's reading), plus about $150 billion and $25 billion here. One legal risk, not three: the largest single swing in the plan's financing after the taxes. Health's window path is in `6-cost.md`, part 6 |
 | Two daily activities instead of three (not decided) | about +0.4 | about +130 | Memo 7 A; about $80 billion more in 2035 |
 | No phase-in (option 4 not taken) | about +0.14 | 0 | Option 4's saving |
 
