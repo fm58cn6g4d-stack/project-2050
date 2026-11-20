@@ -1,6 +1,6 @@
 # Stage G, step 1: the financing audit
 
-Role: the first step of stage G, the financing settlement (`charter/PLAN.md` section 6, stage G; `DEC-2026-11-14-06`). It restates the plan-wide gap as booked on main after stage F, audits every booked revenue row and every booked cost, gives a finding and a proposed treatment for each open item, lists the errors found and proposes the rest of stage G. The later stage G steps work from it. Status: **audit, November 20, 2026; read-only.** It books nothing, changes no adopted input and decides nothing. It changes nothing that is settled: health comes first on the plan's revenue (`DEC-2026-11-15-04`); health's share comes from top-end and corporate rows first (`-20`); the fiscal rule is report, don't gate (`DEC-2026-11-10-05`); and every booked flagship design stands as decided. Where an item looks like a real fork, this file says so and leaves the choice to Espen's decision batch.
+Role: the first step of stage G, the financing settlement (`charter/PLAN.md` section 6, stage G; `DEC-2026-11-14-06`). It restates the plan-wide gap as booked on main after stage F, audits every booked revenue row and every booked cost, gives a finding and a proposed treatment for each open item, lists the errors found and proposes the rest of stage G. The later stage G steps work from it. Status: **audit, November 20, 2026; read-only.** Part F records the figures after step G2's model fixes (#467), which G4 starts from. It books nothing, changes no adopted input and decides nothing. It changes nothing that is settled: health comes first on the plan's revenue (`DEC-2026-11-15-04`); health's share comes from top-end and corporate rows first (`-20`); the fiscal rule is report, don't gate (`DEC-2026-11-10-05`); and every booked flagship design stands as decided. Where an item looks like a real fork, this file says so and leaves the choice to Espen's decision batch.
 
 Units and sources:
 - Federal fiscal years, case `mixed`. Nominal $B. A positive gap is a shortfall; in the row tables a cost is positive and revenue negative.
@@ -238,7 +238,7 @@ None is fixed here. "Size" is the effect on the gap if fixed: + raises it, − l
    - *Fix:* book H1a once. HLT-6's Part A share shows the pattern to follow: its ledger row books only the general-fund share (`funds-model.py` line 217).
 2. **The household test is not run on the package the gap books.**
    - *Where:* scenario Q-H7 (`models/data/inputs/scenarios.json`, the `incidence` block) builds on Q, the "decided package", which includes C19b and C20. The budget model's case `mixed` skips C19b and C20 (`model.py` line 236). No incidence row carries the "New indexed income contributions" (`models/data/inputs/incidence-rows.csv`; `model.py` `tax_yield`, lines 138-142). `mixed` also books the education fund (EDU-9B) at 1.4 points (`model.py` `edu_fund`; the line "EDU replacement", $1,462B of net receipts over FY2030-39), but Q-H7 carries neither its contribution (incidence row EDUP, $2.27T, all on workers) nor its benefits (EDUB, $0.63T).
-   - *Size:* D3 charges households for C19b ($0.163T) and C20 ($0.67T), which the gap doesn't book. It leaves out the 4 points above $100K/$200K ($1.41T) and the 2 points above $20K/$40K ($0.50T), which the gap does book. Net of those, D3 leaves out about $1.08T of income contributions over the decade, most of it on Q4 and Q5, and the education fund's net charge on workers (EDUP less EDUB, about $1.6T on D3's keys). C19b also overlaps HX after the exclusion ends (`results.md` section 8 says the settlement must take that overlap out). The effect on Q4's +$8,171 is not sized here. Q-EDU's −$1,294 (against Q's −$90) suggests the education fund alone moves Q4 by about $1,200, and the income contributions push the same way. So **Q4's sign is in doubt**, not only its size.
+   - *Size:* D3 charges households for C19b ($0.163T) and C20 ($0.67T), which the gap doesn't book. It leaves out the 4 points above $100K/$200K ($1.41T) and the 2 points above $20K/$40K ($0.50T), which the gap does book. Net of those, D3 leaves out about $1.08T of income contributions over the decade, most of it on Q4 and Q5, and the education fund's net charge on workers (EDUP less EDUB, about $1.6T on D3's keys). C19b also overlaps HX after the exclusion ends (`results.md` section 8 says the settlement must take that overlap out). The effect on Q4's +$8,171 is not sized here. Q-EDU's −$1,294 (against Q's −$90) does not size the fund alone, because Q-EDU differs from Q in two ways at once: it adds EDU-9B and drops C19b and C20. The $1,204 difference nets the fund against dropping those rows, so the fund's own effect on Q4 is larger than $1,200, and the income contributions push the same way. So **Q4's sign is in doubt**, not only its size.
    - *Fix:* align Q-H7 with `mixed`: drop C19b and C20; add EDUP and EDUB; add incidence rows for both income contributions. Then rerun D3 and `intervals.py`, and report beside the take-home test. Tier 3 where it touches `scenarios.json` or `incidence-rows.csv`. No effect on the gap.
 3. **GX haircuts H1b's folded wage half.**
    - *Where:* `ledger-revenue.csv` line 15 (GX: 15% of G11, G6, G9 and all of H1b), with HCH taking H1b's wage half back from FY2035.
@@ -296,3 +296,51 @@ This follows Espen's stage G method (board, In motion item 3): draft on the reco
 **What the batch does not reopen:** health comes first; the top-end and corporate rows go first; report, don't gate; every booked flagship design. A fork that would reopen a booked design, such as a cut to a flagship's benefit, goes into the batch as a choice about money under `DEC-2026-11-15-04` ("We can downsize other expenditures in project 2050 plans in the financing settlement"), with its consequences stated.
 
 **Sequencing:** G2's tier-3 fixes and G3 run in parallel, under the three-session limit. G4 starts on G2's restated gap. Steps G4 to G7 are about four to six sessions, inside the plan's three to five for stage G once this audit and the fix step are counted.
+
+## Part F. The figures after step G2 (#467)
+
+Step G2 fixed part D's items 1, 2 and 4 in the model and its inputs (#467). G4 starts from these figures, not from part A's. Case `mixed`, nominal $B. A positive gap is a shortfall. Part D's items 5 to 12, the text ones, are fixed in #468 and change no figure.
+
+**The gap, restated**
+
+| | Part A (before G2) | After G2 |
+| --- | --- | --- |
+| General-fund gap, FY2040 | 615.6 | **615.6** |
+| General-fund gap, FY2030-39 | 3,762.5 | **3,998.5** |
+| General-fund gap, FY2045 / FY2050 / FY2056 | 676.3 / 824.6 / 1,158.3 | 676.4 / 824.7 / 1,158.5 |
+| Without D2, FY2040 / FY2030-39 | 865.0 / 4,106.7 | 865.0 / about 4,342.7 |
+| Health's first call, FY2040 | 532.1 | 532.1 |
+| Unified program primary balance, FY2030-39 (a surplus is negative) | −2,368.8 | −2,132.8 |
+| Debt, % of GDP, FY2040 (baseline 132.7%) | 126.2% | 126.8% |
+| Debt, % of GDP, FY2056 (baseline 180.2%) | 161.9% | 162.5% |
+| Downside case, debt FY2056 | 181.0% | 181.7% |
+| +1-point rate stress, debt FY2056 (stressed baseline 217.4%) | 196.2% | 197.0% |
+| Social Security (depletion; 75-year balance) and Medicare HI (depletion) | 2093; −0.31% of payroll; HI 2038 | unchanged |
+| Long-term model, DEC: debt FY2056 | 194.3% | 191.8% |
+
+**What changed and why**
+
+1. **H1a is counted once** (part D, item 1). Its FY2030-34 years, and FY2035's first quarter, are Medicare HI's (`DEC-2026-11-16-02`): $235.8B, held in the funds parameter `hi_h1a_bn`. The ledger row now carries only the general fund's share, from the January 2035 endpoint ($0.256T over FY2030-39). The general-fund gap rises $236.0B over the decade and does not move in FY2040. The unified reading loses the double count, as part A1's caveat said. The budget model's debt guardrail still passes: a margin of 5.9 points of GDP in FY2040 and 17.7 points in FY2056.
+2. **D3 runs on the package the gap books** (part D, item 2, and step G3). Scenario Q-H7 drops C19b and C20. It adds the education fund as `mixed` books it (EDUP $1.462T, net of its 12.5% income-tax offset; EDUB $0.302T) and the two indexed income contributions (ICH, 4 points above $100K/$200K, $1.410T; ICB, 2 points above $20K/$40K, $0.496T, on a new measured key, `broad_20k`).
+
+   | Q-H7, $ a household a year, FY2030-39 average (90% sampling interval) | Q1 | Q2 | Q3 | Q4 | Q5 | Top 1% |
+   | --- | --- | --- | --- | --- | --- | --- |
+   | Before G2 | +14,663 | +13,279 | +12,587 | +8,171 | −56,422 | −867,318 |
+   | **On the booked package** | **+14,840 ±152** | **+13,209 ±196** | **+12,070 ±190** | **+6,837 ±172** | −62,271 ±400 | −910,567 ±5,154 |
+
+   - **Q4's sign holds.** Every quintile below the top comes out ahead on average. Taking out C19b and C20 raises Q4 to +$8,464; the education fund then takes it to +$7,445, the 4 points to +$7,213 and the 2 points to +$6,837.
+   - With EDUP and EDUB at their older typed amounts ($2.27T and $0.63T), Q4 would be +$6,358.
+   - The revenue-mix test is 64% (66% before).
+   - **Beside the take-home test** (`intervals.py`, the same CPS), at 2.25%: 88.7% ±0.3 of workers come out ahead without the 2 points above $20K/$40K, and **70.1% ±0.5 with them**, as the gap books them. Retirees and others: 98.6% ±0.1.
+   - So about 30% of workers are behind on health's take-home test, while every quintile is ahead on average. That is the evidence for fork 2.
+3. **The long-term model carries the adopted trims** (part D, item 4). `fiscal-model.py` applies the capacity and AI trims ($718.8B: CAP-7S to $98.0B, CAP-7 to $279.2B, AI-4 to $120B) in every program scenario. It reads them from the one table the budget model also reads (`CAPACITY_TRIMS`).
+   - DY4 is zero: it was the same CBO score that LAB-1 books. The DEC-DYN label now reads about −$0.26T.
+   - The long-term DEC debt in FY2056 is 191.8%, against the budget model's 162.5%. That difference is lines the long-term model doesn't carry, so naming one reading of record (part C, item 26) is still G4's.
+
+**Taken up in G4 (#469)**
+
+Each of these items now has its home in [`2-settlement.md`](2-settlement.md):
+- **Part D item 3** (GX and H1b's folded half; −$6.5B in FY2040): narrowed in the recommended package (part 2, step 1; part 6, item 1).
+- **The payroll convention in D3** (#467's review): `2-settlement.md` puts every payroll row in gross, as households pay it. On the booked package that moves Q4 by −$168, to +$6,669 (part 3; part 6, item 5). Step 7 sets EDUP's incidence row to gross when it books.
+- **DEC-CAUT and capacity risk** (#467's review): the risk table names the two delivery contingencies as the cushion (part 5).
+- **Part C items 16, 34 and 36:** carried to step 7, small (part 6).
