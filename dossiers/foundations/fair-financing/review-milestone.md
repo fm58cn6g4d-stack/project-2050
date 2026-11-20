@@ -329,7 +329,20 @@ The other prices match their sources (secure floor memo 1, care memos 14 and 15)
 
 Then a re-check of #469's new head by this reviewer or the standing reviewer, then the batch.
 
-## 6. What this review did not do
+## 6. Addendum: #469's newer head `86697e2`
+
+While this review was written, the author pushed `86697e2` ("review fixes: revenue-mix test per package ...; D3 by year; the VAT starts at the 2035 endpoint; HI grant cites the October 26 decision"). I read its diff against `2f794d2` for the findings above:
+
+- **B-4 is resolved.** The VAT now starts at the January 2035 endpoint (`2-settlement.md` step 10; `memos/G3-broad-source.md` A). D3 is shown year by year: the fourth fifth is ahead every year, thinnest at +$2,001 in FY2033. It still helps to show the earlier start as a priced alternative in G3, so Espen sees why it was dropped.
+- **N-5 is resolved.** The FY2039 figure is now computed (`packages.Household.series`): +$9,653, inside this review's range.
+- **F-1 is partly done.** The HI grant now cites the October 26 not-selected line. HLT-7.22's named streams, `CONVENTIONS.md:12` and the disclosure of the HI shortfall the fold-in moves are still to add, and so are F-1 items 3 and 4.
+- **New and welcome:** the revenue-mix test per package, with point G3.2 on its mature-year thinning (50% in FY2040, 46% in FY2056).
+- **Not touched, and still blocking:** B-1 ("Prices rise once by about the rate" is still in G3), B-2, B-3 and B-5.
+- **Still open:** F-2 to F-8, and the other notes.
+
+**The verdict is unchanged: not yet a basis for the batch, now with four blockers (B-1, B-2, B-3, B-5).** The figures above that changed with the later start (the decade figure, D3's decade averages, debt) should be read at the new head.
+
+## 7. What this review did not do
 
 - It didn't re-review #467's model fixes.
 - It didn't fetch CBO's VAT option text. B-2's base definition and B-1's note on CBO's convention are from the reviewer's reading of CBO's past options, and the fix step should confirm them from the report.
