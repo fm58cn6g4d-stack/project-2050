@@ -73,7 +73,7 @@ All program scenarios include every program row (with MOV-31 and DEM-3, which th
 | GROSS | Program spending with the top-end base only (no new options) | 7.20 | 2.31 | 114.9 | 134.7 | 158.9 | 213.4 | 8.4 | 3.61 |
 | PB | Package B (C18, C35, C19b, C20) | 5.60 | 0.36 | 112.9 | 131.0 | 152.9 | 202.9 | 8.0 | 3.25 |
 | PB+S | Package B + sprint package (C38) | 4.71 | -0.71 | 111.9 | 128.9 | 149.5 | 196.8 | 7.8 | 3.05 |
-| DEC | Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); no trims | 3.99 | -1.58 | 111.1 | 127.3 | 146.8 | 191.8 | 7.6 | 2.88 |
+| DEC | Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); none of Decision Brief 2's trims; the adopted capacity and AI trims (CAPACITY_TRIMS) in | 3.99 | -1.58 | 111.1 | 127.3 | 146.8 | 191.8 | 7.6 | 2.88 |
 | DEC+ENV | Decided, plus new time-limited investments filling the D4-B envelope room left after the borrowing readings and CAP-7S | 4.28 | -1.20 | 111.6 | 128.0 | 147.5 | 192.6 | 7.6 | 2.90 |
 | DEC-DYN | Decided, with CBO-style dynamic feedback (the ledger's dynamic rows: about -$0.26T over FY2030-39, a net revenue loss) | 4.25 | -1.28 | 111.2 | 127.8 | 148.0 | 194.3 | 7.7 | 2.96 |
 | DEC-R1 | Decided, with interest rates 1 point higher from 2030, phased in as debt rolls over | 3.99 | -1.84 | 113.7 | 134.9 | 162.4 | 228.9 | 11.1 | 3.62 |
