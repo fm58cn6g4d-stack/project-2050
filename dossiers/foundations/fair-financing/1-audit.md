@@ -337,10 +337,10 @@ Step G2 fixed part D's items 1, 2 and 4 in the model and its inputs (#467). G4 s
    - DY4 is zero: it was the same CBO score that LAB-1 books. The DEC-DYN label now reads about −$0.26T.
    - The long-term DEC debt in FY2056 is 191.8%, against the budget model's 162.5%. That difference is lines the long-term model doesn't carry, so naming one reading of record (part C, item 26) is still G4's.
 
-**Left for G4**
+**Taken up in G4 (#469)**
 
-- Part D item 3 (GX and H1b's folded half; −$6.5B in FY2040).
-- Part C items 16, 34 and 36.
-- Two notes from #467's review:
-  - EDUP enters D3 net of its income-tax offset, while the paid-leave contribution (P1) and O1 enter gross. That is about $0.21T, or about $150-200 on Q4. Pick one convention.
-  - The cautious reading (DEC-CAUT) now holds the three trimmed rows at their adopted amounts. G4's risk table should name the delivery contingencies as the cushion for capacity cost risk.
+Each of these items now has its home in [`2-settlement.md`](2-settlement.md):
+- **Part D item 3** (GX and H1b's folded half; −$6.5B in FY2040): narrowed in the recommended package (part 2, step 1; part 6, item 1).
+- **The payroll convention in D3** (#467's review): `2-settlement.md` puts every payroll row in gross, as households pay it. On the booked package that moves Q4 by −$168, to +$6,669 (part 3; part 6, item 5). Step 7 sets EDUP's incidence row to gross when it books.
+- **DEC-CAUT and capacity risk** (#467's review): the risk table names the two delivery contingencies as the cushion (part 5).
+- **Part C items 16, 34 and 36:** carried to step 7, small (part 6).
