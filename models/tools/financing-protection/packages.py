@@ -208,6 +208,19 @@ def opt_vat(ctx, rate=3.0, start=2033, ramp=2, rebate_per_adult_2040=0.0, steps=
                 adjust=adj, d3=d3)
 
 
+def opt_benefit_trims(ctx):
+    """Memo G1 option B: the cheaper designs the flagships' own memos priced, in FY2040 terms ($B):
+    the child benefit at the 2021 credit's amounts (secure floor memo 1 C: about 50 of FAM-1's 220); and in care, the
+    $18 care wage floor (care memo 14 A, about 33), early educators on the floor without parity (memo 15 C, about 41)
+    and pre-K for 4-year-olds only (memo 11 C, about 35), together about 109, scaled on FAM-2 and HLT-10's paths."""
+    fam1 = ctx.line('FAM-1')
+    care = {y: ctx.line('FAM-2')[y] + ctx.line('HLT-10')[y] for y in YEARS}
+    k1, k2 = 50.0 / fam1[2040], 109.0 / care[2040]
+    return dict(label='Benefit trims: child benefit at 2021 amounts; $18 care floor; no educator parity; pre-K at 4 only',
+                adjust={'Child benefit at 2021 amounts': scaled(fam1, -k1), 'Care trims': scaled(care, -k2)},
+                d3=[('scale', 'F1', 1 - k1), ('scale', 'F2', 1 - k2)])
+
+
 def opt_education_rate(ctx, rate=1.7):
     """Part C item 28: the education fund's contribution rate (EDU-9B), 1.4 points as booked. The general fund keeps
     its 30% share of outlays; a higher rate costs the general fund only the 12.5% income-tax offset."""
@@ -239,21 +252,24 @@ OPTIONS = {k[4:]: v for k, v in globals().items() if k.startswith('opt_')}
 
 # ---------------------------------------------------------------- the packages (2-settlement.md part 2)
 FIXES = [('gx_narrowed', {}), ('hca_rederived', {}), ('avoidance_by_tier', {}), ('stack_cap', {'design': 'C1'})]
+CORE = FIXES + [('hi_grant_ended', {}), ('end_adult_credit', {}), ('ltc_state_share', {'share': 1.0}),
+               ('education_rate', {'rate': 1.7})]
+# Memo G8: the VAT's rate steps keep every year to FY2056 closed as health's budget grows at GDP plus 1.
+VAT_REC = {'rate': 4.75, 'steps': {2041: 5.25, 2044: 5.6, 2051: 6.3}}
 PACKAGES = {
     'booked': [],
-    'fixes': FIXES,
-    # The recommended package (provisional): fixes and cap, the 2 points dropped, the legacy credit ended, the states'
-    # long-term care payment at 100%, the education fund at 1.7 points, and a 3.5% VAT from FY2033 with no rebate.
-    'recommended': FIXES + [('drop_broad_points', {}), ('end_adult_credit', {}), ('ltc_state_share', {'share': 1.0}),
-                            ('education_rate', {'rate': 1.7}), ('vat', {'rate': 3.5})],
-    # Fork G1's alternatives.
-    'g1_fold_no_vat': FIXES + [('fold_broad_points', {'rate': 3.25}), ('end_adult_credit', {}),
-                               ('ltc_state_share', {'share': 1.0}), ('education_rate', {'rate': 1.7}),
-                               ('vat', {'rate': 1.5})],
-    'g1_vat_with_rebate': FIXES + [('drop_broad_points', {}), ('ltc_state_share', {'share': 1.0}),
-                                   ('education_rate', {'rate': 1.7}), ('vat', {'rate': 5.0, 'rebate_per_adult_2040': 350})],
-    'g1_cuts_only': FIXES + [('drop_broad_points', {}), ('end_adult_credit', {}), ('ltc_state_share', {'share': 1.0}),
-                             ('education_rate', {'rate': 1.7})],
+    'fixes': FIXES + [('hi_grant_ended', {})],
+    # The recommended package (provisional): the fixes and cap, the HI correction, the legacy credit ended, the states'
+    # long-term care payment at 100%, the education fund at 1.7 points, the 2 points dropped, and a VAT that steps.
+    'recommended': CORE + [('drop_broad_points', {}), ('vat', VAT_REC)],
+    # Memo G1 B: the recommended package with the flagships' own cheaper designs; the VAT that then closes it.
+    'g1_with_benefit_trims': CORE + [('drop_broad_points', {}), ('benefit_trims', {}),
+                                     ('vat', {'rate': 3.3, 'steps': {2041: 3.75, 2044: 4.1, 2051: 4.8}})],
+    # Memo G2 C: the 2 points folded into the health contribution (R = 3.25%) instead of dropped.
+    'g2_folded': CORE + [('fold_broad_points', {'rate': 3.25}),
+                         ('vat', {'rate': 2.75, 'steps': {2041: 3.0, 2043: 3.3, 2051: 4.0}})],
+    # Memo G3 C: no VAT; the recommended package without it, to show what cuts would have to close.
+    'g3_no_vat': CORE + [('drop_broad_points', {})],
 }
 
 
@@ -436,7 +452,7 @@ def option_sizes(ctx, hh=None):
                          ('avoidance_by_tier', {'base_allowance': 0.05}), ('avoidance_by_tier', {'base_allowance': 0.20}),
                          ] + [('stack_cap', {'design': d}) for d in CAP_MENU if d != 'A'] + [
                          ('drop_broad_points', {}), ('fold_broad_points', {'rate': 3.25}), ('fold_broad_points', {'rate': 2.5}),
-                         ('end_adult_credit', {}), ('hi_grant_ended', {}), ('ltc_state_share', {'share': 0.65}), ('ltc_state_share', {'share': 0.8}),
+                         ('end_adult_credit', {}), ('hi_grant_ended', {}), ('benefit_trims', {}), ('ltc_state_share', {'share': 0.65}), ('ltc_state_share', {'share': 0.8}),
                          ('ltc_state_share', {'share': 1.0}), ('education_rate', {'rate': 1.55}), ('education_rate', {'rate': 1.6}),
                          ('education_rate', {'rate': 1.7}), ('education_corridor', {}), ('vat', {'rate': 1.0}), ('vat', {'rate': 3.5}),
                          ('vat', {'rate': 5.0, 'rebate_per_adult_2040': 350}), ('without_d2', {}), ('without_hs2', {})]:
