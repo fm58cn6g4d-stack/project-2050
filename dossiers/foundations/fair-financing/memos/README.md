@@ -29,7 +29,7 @@ FY2040 effects are each choice's own effect on the general-fund gap as booked (`
 | --- | --- | --- | --- |
 | [G15](G15-debt-goal.md) | The debt goal | **B**: debt held flat as a share of GDP from FY2040 (about 117%), stepped toward 100% by a debt-path rule as results allow | $461B |
 | [G16](G16-take-home-and-rate.md) | The take-home goal and the health contribution's rate | **B**: hold 3.80% to FY2040, then lower toward 3.25% by a trigger on certified savings | 0 up front |
-| [G17](G17-phasing.md) | Phasing in FY2036-39 | **B**: clean-energy credits held in FY2038-39 ($52B), long-term care's phasing a named fallback | (FY2038-39 only) |
+| [G17](G17-phasing.md) | Phasing in FY2035-39 | **B**: clean-energy credits held in FY2038-39 ($52B), long-term care's phasing a named fallback | (FY2038-39 only) |
 | [G18](G18-g8-with-a-debt-goal.md) | G8 again, with a debt goal | **D′**: step down only on a surplus beyond the debt goal's path | 0 |
 | [G19](G19-later-revenue.md) | Later broad revenue and its order | **B**: deduction limits and a larger carbon fee from FY2037, an AGI surtax from FY2040 if needed, the health contribution last | $430-460B |
 
@@ -39,6 +39,16 @@ FY2040 effects are each choice's own effect on the general-fund gap as booked (`
 - On D3 every fifth below the top comes out ahead (Q4 +$5,525 a household a year over FY2030-39). The revenue-mix test reads 65% over the decade.
 
 **Not forks:** the agent's items in `../2-settlement.md` part 6 (GX narrowed, HCA re-derived, the avoidance allowance by tier, the HI grant's end, NSC-1A's FY2037-39 years at flat real, G14's shaping, the duty to house's HOU-1 line).
+
+## Step 8c's batch: the budget process
+
+**Provisional, not decided; nothing booked; nothing new priced** ([`../5-budget-process.md`](../5-budget-process.md); the strategy memo is [`../6-strategy-memo.md`](../6-strategy-memo.md)). It reads step 8b's memos G15-G19 (#484) and designs the rule they lean on.
+
+| Memo | Question | Recommended |
+| --- | --- | --- |
+| [G20](G20-debt-path-rule.md) | The debt-path rule | **B**: a measured debt path from FY2040 with G19's revenue steps enacted early, each cancellable by a measured finding; no automatic cuts; a measured recession test; points 1-3 (half the gains to the path, the giveback order, restart after a recession) |
+| [G21](G21-debt-limit.md) | The debt limit | **A**: repeal in 2029; a delegated suspension as the fallback; never rely on the constitutional arguments |
+| [G22](G22-central-rules.md) | The central rules (D3, D4, D4-B) | **Yes to each**: D3 tested in FY2040 and FY2050 too; D4's current-law guardrail replaced by the debt-path rule (with G15 B and G20 B); no standing investment carve-out after FY2039; the hard rule written into D4 |
 
 ## What the settlement rests on, and who decided it
 

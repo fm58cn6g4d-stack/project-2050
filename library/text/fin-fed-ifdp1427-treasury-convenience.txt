@@ -1,0 +1,5809 @@
+Source: https://www.federalreserve.gov/econres/ifdp/files/ifdp1427.pdf
+Publisher: Board of Governors of the Federal Reserve System
+Retrieved: 2026-11-24
+Original SHA-256: f2b4bf50b232a6f18469ff33507ca91d808ac6ff0a05775c7040d042e103341a
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Board of Governors of the Federal Reserve System
+International Finance Discussion Papers
+ISSN 1073-2500 (Print)
+ISSN 2767-4509 (Online)
+
+Number 1427
+December 2025
+
+Decoupling Dollar and Treasury Privilege
+Wenxin Du, Ritt Keerati, and Jesse Schreger
+
+Please cite this paper as:
+Du, Wenxin, Ritt Keerati, and Jesse Schreger (2025). “Decoupling Dollar and Treasury
+Privilege,” International Finance Discussion Papers 1427. Washington: Board of Governors
+of the Federal Reserve System, https://doi.org/10.17016/IFDP.2025.1427.
+
+NOTE: International Finance Discussion Papers (IFDPs) are preliminary materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth are those of the authors and
+do not indicate concurrence by other members of the research staff or the Board of Governors. References
+in publications to the International Finance Discussion Papers Series (other than acknowledgement) should
+be cleared with the author(s) to protect the tentative character of these papers. Recent IFDPs are available
+on the Web at www.federalreserve.gov/pubs/ifdp/. This paper can be downloaded without charge from the
+Social Science Research Network electronic library at www.ssrn.com.
+
+Decoupling Dollar and Treasury Privilege∗
+Wenxin Du†
+
+Ritt Keerati ‡
+
+Jesse Schreger §
+
+October 2025
+Abstract
+We document a strong decoupling between the convenience yield on the US Dollar
+and US Treasuries. We measure the convenience of the U.S. dollar using covered interest parity (CIP) deviations between risk-free bank rates, such as secured overnight
+rates since the benchmark reform. In parallel, we measure the convenience of U.S.
+Treasury bonds through CIP deviations between government bond yields. We find a
+pronounced divergence between the two convenience measures in recent years: while
+the U.S. dollar exhibits strong convenience post-Global Financial Crisis, the U.S. Treasury convenience has not only declined substantially but has turned negative, most
+strongly so at medium- to long-term maturities. We argue that the relative supply of
+government bonds between the US and other developed markets is a key driver of the
+U.S. Treasury convenience compared to other government bonds. Finally, we present
+a simple framework with a constrained global financial intermediary to link dollar and
+Treasury convenience.
+
+JEL Classifications: F30, G15
+Keywords: Safe Assets, Covered Interest Parity, Benchmark Reform
+
+∗
+
+This paper is prepared for the IMF Annual Research Meeting on November 6-7, 2025. We thank Hudson
+Hinshaw for outstanding research assistance. The opinions and conclusions expressed herein are those of the
+authors and do not necessarily represent the views of the Board of Governors of the Federal Reserve System
+or of any other person associated with the Federal Reserve System. All results have been reviewed to ensure
+that no confidential information is disclosed. All remaining errors are our own.
+†
+Harvard Business School, NBER, and CEPR, Email: wdu@hbs.edu
+‡
+Federal Reserve Board, Email: ritt.keerati@frb.gov
+§
+Columbia Business School, NBER, and CEPR Email: jesse.schreger@columbia.edu
+
+1
+
+Introduction
+
+The special role of the U.S. dollar (USD) and U.S. Treasuries (UST) are a defining feature
+of the international monetary system. We document a strong divergence between these two
+forms of U.S. privilege. Using measures of covered interest parity (CIP) deviations across
+asset classes, we quantify and compare the convenience yields embedded in the U.S. dollar
+and in U.S. Treasury securities relative to other currencies and government bond markets.
+Our analysis reveals a pronounced decoupling in the dollar and Treasury convenience yield:
+the U.S. dollar exhibits strong global specialness, whereas the convenience yield of U.S.
+Treasuries has undergone a pronounced secular decline in international comparison.
+We use CIP deviations based on benchmark money market rates to measure the convenience yield of the USD. These benchmark money market rates have been considered as
+proxies for risk-free rates in their respective currencies. When the USD risk-free interest rate
+proxy is lower than the swapped foreign currency risk-free rate, we interpret this as evidence
+of USD convenience. In such cases, market participants are willing to accept a lower return
+for holding the USD risk-free rate directly, rather than holding foreign currency and swapping it back into USD at a higher implied dollar interest rate. Similarly, we measure the
+convenience yield of U.S. Treasury securities using CIP deviations based on government bond
+yields, following the approach in Du, Im, and Schreger (2018). The U.S. Treasury bonds
+are more convenient than foreign government bonds only if the swapped foreign government
+bond yields are higher than the U.S. Treasury yields.
+CIP deviations for risk-free rate proxies are most often calculated based on Interbank
+Offered Rates (IBORs), as noted by Du, Tepper, and Verdelhan (2018). However, IBORs
+are typically indicative quotes that may not reflect actual transaction rates. They are also
+
+1
+
+susceptible to manipulation and carry credit risk tied to the banks in the IBOR panels.
+As a result, IBOR-based CIP deviations are confounded by these inherent money market
+frictions. Since 2021, many major markets have implemented reforms to benchmark money
+markets, adopting alternative benchmarks with reduced credit risk that more accurately
+represent actual transactions. The most common choice has been an overnight repo rate,
+which reflects the average rate on money market transactions collateralized by government
+bonds. In the United States, the Secured Overnight Financing Rate (SOFR) serves as this
+new benchmark rate, replacing the U.S dollar Libor Interbank Offer Rate (LIBOR).
+Since the benchmark reform, we calculate CIP deviations for the new alternative benchmark money market rates and for interest rate swaps linked to these updated floating rate
+benchmarks. Our findings indicate that CIP deviations remain substantial even with these
+alternative benchmarks. Moreover, the magnitude of CIP deviations is generally greater for
+the alternative benchmarks compared to IBOR. These CIP deviations after the benchmark
+reform suggest that the observed discrepancies are not solely due to frictions in the IBOR
+market, providing additional evidence that they represent no-arbitrage violations. The direction of CIP deviations for the alternative benchmarks points to sustained USD convenience.
+Furthermore, we show that CIP deviations between government bonds remain largely unaffected by the transition between benchmark rates. One contribution of this paper is to
+make all of these CIP measures publicly available to researchers, as well as provide a guide
+for measurement after the SOFR transition.
+Using these updated measures of benchmark and government CIP deviations, we demonstrate that USD convenience continues even as there was been a major decline in the relative
+convenience yield of U.S. Treasury securities. The U.S. Treasury convenience has continued
+its secular decline since the aftermath of the GFC and is now strongly negative vis-à-vis gov2
+
+ernment bonds denominated in G10 currencies.1 For the first time, the short-term (3-month
+and 1-year) U.S. Treasury convenience also become largely negative since 2023. From a
+pricing perspective, despite the persistently positive USD convenience observed in the postGFC period, our results suggest that U.S. Treasury securities are no longer inherently more
+special than synthetic dollar bonds created by swapping foreign government bonds in G10
+currencies.
+We decompose the relative convenience of U.S. Treasuries over foreign government bonds
+into two components: (i) the convenience of the U.S. dollar relative to other currencies, and
+(ii) the difference in the convenience of government bonds relative to their respective local
+risk-free rates across countries, measured by the spread between the benchmark interest
+rate swap rate and the government bond yield in each country. We show that the observed
+decoupling between Treasury and dollar convenience is primarily driven by a decline in the
+relative convenience of U.S. Treasuries with respect to the USD risk-free benchmark. Notably,
+the spread between the USD interest rate swap rate and the Treasury yield first turned
+negative at the 30-year maturity in the aftermath of the GFC and has since remained negative
+and declined further across the maturity spectrum. This decline in the swap spread has
+been discussed by Du, Hébert, and Li (2023), Jermann (2020), and Klingler and Sundaresan
+(2019).
+In addition to the post-GFC divergence in the levels of dollar and Treasury convenience,
+we also observe significant decoupling in their sensitivities to global risk. Whereas the dollar
+convenience yield tends to rise with increases in global risk aversion, the Treasury convenience
+yield has exhibited the opposite pattern over the recent years, especially in the post-COVID
+period. This shift in the risk sensitivity of Treasury convenience is also primarily driven by
+1
+
+For the euro, we restrict our analysis to Germany only.
+
+3
+
+the growing tendency of U.S. swap spreads to decline with global risk.
+While such constraints can account for the existence of benchmark CIP deviations, their
+sign and magnitude reflect the strong net dollar demand in the FX swap market. The
+predominant role of the U.S. dollar in global financial markets sustains a steady net demand
+for dollar funding in the FX swap market, especially from foreign market participants who
+do not have access to U.S. money market. In response, globally active banks on net borrow
+dollars in U.S. money markets and lend dollars via FX swaps to meet foreign institutions’
+hedging and funding needs. From this perspective, the USD convenience can also be viewed
+as the intermediation fee charged by global banks for transforming and reallocating dollar
+liquidity from the U.S. money market to the global FX swap market.
+While a binding balance sheet constraint post-GFC generates benchmark CIP deviations,
+it also compresses the U.S. swap spread by raising the effective cost of Treasury intermediation. In the simple case that the balance sheet cost is symmetric for per unit of FX swap
+lending and Treasury intermediation for bank dealers, the decline is the U.S. swap spread
+would perfectly offset the USD convenience, leaving the balance sheet constraint having no
+direct effect on the Treasury convenience.
+The decline in the Treasury convenience can have a different driver beyond the balance
+sheet constraint. The failure of the CIP condition for government bond does not necessarily
+imply a textbook arbitrage, as government bonds of different countries might have different liquidity, safety, and collateral value, and so forth. Pre-GFC, in the absence of major
+intermediary balance sheet constraints, we see significant U.S. Treasury convenience. PostGFC, the sharp rise of the U.S. government bond supply significantly depress U.S. Treasury
+convenience. We find that increases in the U.S. debt-to-GDP ratio are systematically associated with lower U.S. Treasury convenience across maturities. This result holds even after
+4
+
+controlling for sovereign credit risk and global risk sentiment, and remains robust when we
+focus on tenor-specific Treasury supply. These findings suggest that the large increase in
+U.S. Treasury issuance has played a central role in the waning convenience yield of U.S.
+government bonds.
+Since the government CIP deviation as a measure of Treasury convenience is relative, it
+depends not only on the supply of U.S. Treasury bonds but also on the supply of foreign
+government government bonds. An increase in the supply of foreign government bonds
+enhances the relative convenience of U.S. Treasuries. This effect holds both over time and
+across countries, even when controlling for time fixed effects. We note that the decline
+in the U.S. Treasury convenience does not imply, however, that the United States never
+benefited from lower interest on Treasuries because of their role as safe assets. Rather, the
+results suggest that, at the margin, this specialness has largely disappeared. One remaining
+manifestation of Treasury specialness may be the sheer volume of debt the U.S. government
+was able to issue before reaching this point. We also document a notable decline in the
+U.S. Treasury premium following the announcement of reciprocal tariffs in April 2025. The
+decline was most pronounced against countries with lower government debt burdens, such
+as Australia, Germany, and Sweden, but minimal against countries with high debt levels,
+including the UK and Japan. The cross-country variation in the U.S. Treasury premium in
+response to the tariff announcement underscores the role of foreign government bond supply
+in shaping the relative convenience of U.S. Treasury bonds.
+To shed light on the forces driving the divergence between dollar and Treasury convenience, we present a simple conceptual framework to highlight the role of intermediary
+balance sheet constraints. Following the Global Financial Crisis (GFC), regulatory reforms
+such as Basel III and the Dodd–Frank Act substantially tightened the balance sheet capacity
+5
+
+of large global banks. Because benchmark CIP deviations based on risk-free rates represent
+textbook violations of no-arbitrage conditions, the persistence of a USD convenience yield
+necessarily implies the presence of intermediary constraints. The magnitude of these benchmark CIP deviations captures the shadow cost associated with post-GFC balance sheet
+regulations (see, for example, Du, Hébert, and Huber (2023) and Du and Schreger (2022)).
+Related Literature This paper relates to the large literature studying the failure of CIP
+across markets surveyed in Du and Schreger (2022). Relative to Du, Tepper, and Verdelhan
+(2018), it introduces the measurement of CIP deviations to a world where there benchmark
+rate is a secured overnight rate and documents the changing nature of CIP deviations across
+the transition. See, for instance, Avdjiev et al. (2019), Cerutti, Obstfeld, and Zhou (2021),
+Levich (2017), Liao (2020), Popper (1993), Rime, Schrimpf, and Syrstad (2019), ViswanathNatraj (2020), Keerati (2020), Bahaj and Reis (2022b), Bahaj and Reis (2022a), Augustin
+et al. (2024).
+The paper also relates to work on the failure of CIP in government rates (Du and Schreger
+(2016), Du, Im, and Schreger (2018)) by using this new SOFR-based measure to construct
+the failure of CIP between government bonds. This should allow the literature using the
+failure of CIP as a measure of convenience yields to continue into this new interest rate
+regime. See, for instance, Jiang, Krishnamurthy, and Lustig (2021), Engel and Wu (2018),
+Kekre and Lenel (2021).
+The measurement in this paper contributes to the long literature on understanding
+the drivers and measurement of convenience yields (Krishnamurthy and Vissing-Jorgensen
+(2012), Diamond and Van Tassel (2022), Van Binsbergen, Diamond, and Grotteria (2022),
+Nagel (2016), Valchev (2020), Caramichael, Gopinath, and Liao (2021), He, Nagel, and Song
+
+6
+
+(2022)). Jiang, Richmond, and Zhang (2025) explore the sensitivity of Treasury convenience
+yields to debt issuance and examine the implications of the decline in convenience yields for
+American seigniorage revenue.
+More generally, our measures of the specialness of the USD and UST relate to a large
+literature on the international monetary system. This includes contributions by Eichengreen
+(2011), Caballero, Farhi, and Gourinchas (2008), Farhi and Maggiori (2018), Gourinchas and
+Rey (2007), Maggiori, Neiman, and Schreger (2020), Gopinath and Stein (2021a), Chahrour
+and Valchev (2022), Coppola, Krishnamurthy, and Xu (2023), and Rogoff (2025).
+
+2
+
+Measure USD and UST Specialness
+
+We measure the convenience of the U.S. dollar (USD) and U.S. Treasury securities (UST)
+through deviations from the covered interest parity (CIP) condition. The USD convenience
+yield reflects the specialness of holding dollar-denominated risk-free assets, while the UST
+convenience yield captures the additional premium investors place on U.S. government securities relative to other sovereign bonds. We define these two measures in detail in this
+section.
+2.1
+
+USD Specialness: CIP Deviations for Risk-Free Bank Rates
+
+The USD convenience is measured by the CIP deviations for risk-free rates. We compute the
+log n-year cross-currency basis, or CIP deviation, xRf
+i,n,t , as the difference between the direct
+dollar interest rate in the cash market and the synthetic dollar rate implied by the FX swap
+
+7
+
+market:
+xRf
+i,n,t =
+
+
+
+
+Rf
+yi,n,t
+− ρi,n,t
+|
+{z
+}
+
+−
+
+FX Swap Market-Implied Dollar Risk-Free Rate
+
+Rf
+y$,n,t
+|{z}
+
+,
+
+(1)
+
+Cash Market Dollar Risk-Free Rate
+
+where
+ρi,n,t =
+
+1
+(log(Fi,n,t ) − log(Si,t ))
+n
+
+(2)
+
+is the annualized forward premium of selling foreign currency i for U.S. dollars. Note that
+this definition has the opposite sign of the conventional cross-currency basis in Du, Tepper,
+and Verdelhan (2018) and Du and Schreger (2022). We reverse the sign so that the CIP
+Rf
+deviation is generally positive. Here, y$,n,t
+denotes the n-year dollar risk-free interest rate,
+Rf
+and yi,n,t
+is the corresponding risk-free rate in currency i. For short-maturity tenors (below
+
+one year), the forward premium is directly obtained from outright forward and spot exchange
+rates. For longer maturities, it is inferred from a combination of cross-currency swaps and
+interest rate swaps (see Appendix A for details).
+A positive deviation, xRf
+i,n,t > 0, implies that the synthetic dollar risk-free rate exceeds
+the direct dollar risk-free rate. Investors are thus willing to forgo a positive yield spread to
+hold the intrinsic dollar risk-free bond rather than its synthetic counterpart. Consequently,
+a positive CIP deviation reflects a USD convenience yield, an additional value placed on
+dollar-denominated safe assets.
+Prior to the global benchmark reform, Interbank Offered Rates (IBORs) were widely
+used as proxies for risk-free rates. The IBOR-based CIP deviation is defined as
+IBOR
+IBOR
+xIBOR
+i,n,t = (yi,n,t − ρi,n,t ) − y$,n,t ,
+
+8
+
+(3)
+
+where IBORs represent unsecured interbank borrowing rates. IBORs, however, are indicative
+rather than transaction-based and include both credit and liquidity premia associated with
+the default risk of panel banks. Despite these imperfections, the CIP condition held closely
+under IBOR benchmarks before the 2008–09 Global Financial Crisis (GFC), i.e., xIBOR
+i,n,t ≈ 0.
+Global banks could then create synthetic USD (near) risk-free assets using FX derivatives
+priced equivalently to direct USD risk-free assets. Following the GFC, persistent positive
+CIP deviations emerged (xIBOR
+i,n,t > 0), indicating the onset of USD specialness (Du, Tepper,
+and Verdelhan (2018)).
+Since 2021, major markets have transitioned from IBORs to nearly risk-free benchmark
+rates such as SOFR, SONIA, and €STR,2 which are based on secured transactions and carry
+minimal credit risk. The corresponding CIP deviation for these alternative benchmarks is
+Alt
+Alt
+xAlt
+i,n,t = (yi,n,t − ρi,n,t ) − y$,n,t .
+
+(4)
+
+Compared to IBORs, these benchmarks are more resilient to market frictions because they
+reflect actual collateralized borrowing and lending rates. A breakdown of the CIP condition
+for risk-free rates represents a failure of the textbook no-arbitrage condition. The persistence
+of such deviations after the GFC reflects constraints faced by arbitrageurs, particularly the
+balance sheet costs associated with the non–risk-weighted leverage ratio requirement (see
+Du, Tepper, and Verdelhan (2018), Du, Hébert, and Huber (2023), and Du and Schreger
+(2022)). The positive sign of the CIP deviation indicates a global shortage of dollar funding:
+market participants must pay a premium to obtain dollars through FX swaps, giving rise to
+the USD convenience yield observed in the post-GFC era. In Section 7, we can see that the
+USD convenience rises from the shadow cost of the bank balance sheet constraint.
+2
+
+Details of the benchmark transition are given in the Section 4.
+
+9
+
+2.2
+
+UST Specialness: CIP Deviations for Government Bond Yields
+
+We follow Du, Im, and Schreger (2018) and define the relative convenience of the U.S.
+Treasury bonds analogously as the difference between the synthetic dollar interest rate from
+foreign government bonds and the U.S. Treasury yield:
+(5)
+
+Govt
+Govt
+xGovt
+i,n,t = (yi,n,t − ρi,n,t ) − y$,n,t .
+
+A positive government bond CIP deviation under this definition implies that the U.S. Treasury bond is more convenient than foreign government bonds, as global investors are willing
+to forgo positive yield in holding U.S. Treasury bonds instead of the swapped foreign government bonds.
+The USD and UST conveniences are naturally interconnected. By comparing Equations
+1 and 5, we can decompose the Treasury convenience as follows:
+xGovt
+i,n,t
+| {z }
+
+Govt
+Govt
+= (yi,n,t
+− ρi,n,t ) − y$,n,t
+
+UST Convenience
+
+=
+
+xRf
+i,n,t
+|{z}
+
+USD Convenience
+
+Rf
+Rf
+Govt
+Govt
++ (y$,n,t
+− y$,n,t
+) − (yi,n,t
+− yi,n,t
+)
+{z
+}
+|
+{z
+} |
+U.S. Swap Spread
+
+(6)
+
+Foreign Swap Spread
+
+which shows that the UST convenience equals the USD convenience plus the difference in
+the risk-free–government yield spread between the United States and the foreign country.
+Using benchmark rates as proxies for the risk-free rate, this spread corresponds to the swap
+spread. If swap spreads are identical across countries, then USD and UST conveniences are
+equalized, implying that USD specialness reinforces UST specialness. Conversely, the low or
+negative swap spread observed in the U.S. indicates that USTs are relatively less convenient
+
+10
+
+compared with the USD risk-free rate, which can depress UST convenience in international
+comparison.
+
+3
+
+Data
+
+We now discuss the main sources used in our analysis. We extend the U.S. Treasury Premium
+dataset from Du, Im, and Schreger (2018) up to June 2025. In addition, we expand the
+dataset to encompass the government bond CIP deviation (UST convenience), as well as
+its primary components, including market-implied forward premiums and government bond
+yield differentials, under both IBOR and alternative benchmark rates. For all measures
+based on alternative benchmark rates, we provide data starting from the date they first
+became available for each currency.3 We also introduce data for 20-year and 30-year tenors
+where available. The current dataset covers G10 currencies and 19 EM currencies across nine
+tenors, ranging from 3-month to 30-year maturities. We make this dataset and a detailed
+list of tickers used in its construction fully available for researchers.
+For the remainder of this section, we briefly discuss data sources used in the measurement
+of benchmark CIP deviations and the construction of government CIP deviations, as well as
+some measurement issues.
+3
+
+For the remainder of the analysis in this paper, we use a merged Government CIP series that combines
+IBOR- and alternative-rate-based measures. Specifically, we use the IBOR-based series for historical periods
+and switch to the alternative-rate series at the midpoint of the transition period—defined as the time between
+the first availability of the alternative rate and the final availability of the IBOR rate. As discussed in
+Section 4.2, the U.S. Treasury Premiums calculated using IBOR and alternative rates are very similar, so
+this combined approach should not introduce any significant measurement issues.
+
+11
+
+3.1
+
+Bond Yields and the Market-Implied Forward Premium
+
+We use Bloomberg BVAL curves for government bond yields in the United States and other
+countries; BVAL curves are a weighted blend of direct observations and fitted par yield
+curves based on secondary market bond prices.4 We also use Bloomberg data for yields on
+interest rate swaps and cross-currency basis swaps, supplemented by data from Thomson
+Reuters when Bloomberg data is unavailable.
+3.2
+
+Sovereign Credit Risk
+
+We measure sovereign credit risk using CDS spreads from Markit. The data reflect spreads
+on senior unsecured credit default swap contracts denominated in U.S. dollars, except for
+CDS spreads on the United States, which are denominated in euros. We obtain the data for
+the six-month, and one to ten-year contracts. Because data on the three-month contract is
+limited, we use the six-month contract for the three-month contract instead.
+3.3
+
+Cross-currency Swap Transaction Data
+
+We obtain data on cross-currency swap transactions from Bloomberg’s Swap Data Repository (SDR), which aggregates transaction-level data on swaps reported to the Depository
+Trust and Clearing Corporation (DTCC). Although other SDRs, such as Intercontinental
+Exchange (ICE) and Chicago Mercantile Exchange (CME), are also registered with the
+U.S. Commodity Futures Trading Commission (CFTC), transactions reported to the DTCC
+currently capture the majority of the overall volume. We estimate that Bloomberg SDR
+4
+
+Du and Schreger (2016); Du, Im, and Schreger (2018); Du and Schreger (2022) use Bloomberg BFV
+curves for government bond yields, which only capture fitted par yield curves based on secondary market
+bond prices estimated by Bloomberg. BFV curves were discontinued as of May 1, 2014. Differences between
+BVAL curves and BFV curves are minimal.
+
+12
+
+captures approximately 75 percent of the overall swap transaction volume reported to the
+CFTC based on data from October 2018 to January 2024. Based on this data, we focus on
+cross-currency basis swap transactions, allowing us to observe transactions by currency and
+tenor, and to identify the reference interest rates on both legs of the swaps.
+3.4
+
+Treasury Supply
+
+We utilize the CRSP U.S. Treasury database to construct a tenor-specific Treasury supply
+measure. Each Treasury security is categorized into one of five maturity buckets: (1) less
+than 1 year, (2) 1–3 years, (3) 3–6 years, (4) 6–11 years, and (5) 11–30 years. We then
+aggregate the total face value of all outstanding Treasuries within each bucket to construct
+a daily time series of Treasury supply by maturity range. These buckets correspond directly
+to the supply of Treasury bills, short-term, medium-term, and long-term Treasury bonds,
+which align with the U.S. Treasury Premium for 3-month, 1-year, 5-year, and 10-year tenors
+in our analysis.
+To calculate the U.S. debt-to-GDP ratio, we obtain nominal GDP data from Haver
+Analytics. For the quarterly analysis in Section 6, we use the average debt level during
+each quarter relative to quarterly GDP. For analysis that require the U.S. Treasury-to-GDP
+ratio at a daily frequency in Appendix B, we interpolate the quarterly nominal GDP data
+to a daily frequency in order to compute the ratio. Finally, we also obtain data on foreign
+government bond outstanding over GDP from various national sources.
+
+4
+
+SOFR Transition and USD/UST Convenience
+
+Before presenting the main empirical results on the USD and UST convenience over the
+full sample period, we first describe the process of SOFR transition since 2021 and examine
+13
+
+empirical evidence related to the transition process. We then show that how the benchmark
+transition affects measures of USD and UST convenience.
+4.1
+
+Background on SOFR Transition
+
+The transition from IBOR to SOFR was a complex, multi-year process. After the limitations
+of London Interbank Offered Rate (LIBOR)—namely, that it was not anchored in market
+activity and was susceptible to manipulation—came to light during the global financial crisis,
+the United States formed the Alternative Reference Rates Committee (ARRC) in 2014 to
+review alternative benchmarks.5 The announcement by the United Kingdom’s Financial
+Conduct Authority, LIBOR’s regulator, in 2017, stating that it could not guarantee LIBOR’s
+existence beyond 2021 further accelerated the transition process. In the same year, the
+committee selected SOFR as the benchmark rate replacement and developed the Paced
+Transition Plan to ensure a smooth transition.
+SOFR is a more robust alternative to LIBOR for several reasons. Published daily by the
+Federal Reserve Bank of New York, SOFR measures the cost of overnight borrowing collateralized by U.S. Treasury securities, based on transaction data from tri-party, General Collateral Finance (GCF), and bilateral repos cleared through Fixed Income Clearing Corporation
+(FICC). With daily transaction volumes of close to $1 trillion in June 2021, when SOFR
+was chosen as the alternative benchmark rate, and more than $2 trillion as of November
+2024, far surpassing those in any other U.S. money market, SOFR is fully transaction-based
+and closely correlated with other money market rates. As a result, SOFR reliably reflects
+5
+
+The ARRC is comprised of a group of market participants convened by the Board of Governors of the
+Federal Reserve System, the Federal Reserve Bank of New York, the U.S. Department of the Treasury, the
+U.S. Commodity Futures Trading Commission (CFTC), and the U.S. Office of Financial Research (OFR).
+The committee initially consisted of representatives from fifteen large global dealers in U.S. dollar interest
+rate derivatives and was late expanded to include several CCPs and other organizations.
+
+14
+
+general funding conditions for a broad range of participants, including broker-dealers, asset
+managers, money market funds, insurance companies, securities lenders, and pension funds.
+Based on the Paced Transition Plan, the transition from LIBOR to SOFR entailed several
+steps. In 2018 and early 2019, efforts focused on ensuring sufficient liquidity in SOFR-linked
+derivatives to support hedging activities. As liquidity grew in 2019, central counterparties
+(CCPs) were expected to provide a choice of clearing instruments using SOFR-based discounting curves and paying SOFR interest rates on collateral posted by the first quarter
+of 2020. Once liquid derivatives markets referencing SOFR were developed, the final step
+involved creating a forward-looking term rate based on SOFR-linked derivative markets and
+transitioning cash products to SOFR by the end of 2021.
+Note that around the same period, other countries outside the United States similarly
+selected their own alternative benchmark rates to replace their local versions of IBOR and
+developed their own transition processes. For instance, the Euro Short-Term Rate (eSTR or
+ESTER), the Tokyo Overnight Average Rate (TONAR), and the Sterling Over Night Indexed
+Average (SONIA) were chosen or created to replace EURIBOR, TIBOR, and GBP LIBOR,
+respectively. Table 1 lists IBORs and alternative benchmark rates for G10 currencies and
+certain EME currencies that have introduced such alternative rates. Note that some emerging
+market countries, such as Indonesia, Israel, Malaysia, Poland, Turkey, and South Africa, have
+introduced alternative benchmark rates, with local interest rate swaps referencing these rates
+now trading, but we have not yet observed cross-currency basis swaps that reference local
+alternative benchmark rates in these currencies. Other countries continue to use local IBORs
+as their benchmark interest rates. Also, while SOFR (USD), CORRA (CAD), SARON
+(CHF), KOFR (KRW), THOR (THB) and TLREF (TRY) are secured rates, the other rates
+in Table 1 are unsecured.
+15
+
+To explore how the transition unfolded, we analyze cross-currency basis swap transaction
+volumes to observe the shift from IBOR to alternative benchmark rates. Appendix Figure
+A1 shows the volume composition of cross-currency basis swaps that convert U.S. dollars
+into other currencies. Cross-currency basis swap transactions referencing SOFR were first
+recorded in mid-2019, but significant volumes did not appear until early 2021. SOFRreferenced swap transactions make up the majority of all U.S. dollar cross-currency basis
+swap volume in late 2021, and by early 2022, virtually all transaction volume was SOFRbased.
+Outside the United States, the transition from LIBOR to alternative benchmark rates
+progressed at a different pace. Among G10 currencies, cross-currency basis swap transactions
+for CAD, EUR, GBP, and JPY transitioned to alternative benchmark rates around the same
+time as the shift from LIBOR to SOFR on the U.S. dollar legs, with reference rates on both
+legs switching to alternative benchmarks relatively concurrently. However, for AUD, DKK,
+NOK, NZD, and SEK, cross-currency basis swaps that convert U.S. dollar to these currencies
+continue to reference local IBOR for their own-currency legs, even as the U.S. dollar legs
+have switched to SOFR. Appendix Figure A4 shows the volume composition of cross-currency
+basis swaps that convert U.S. dollars into other G10 currencies
+For EME currencies in our sample, although several emerging market countries have
+introduced alternative benchmark rates for their local markets, most cross-currency basis
+swaps that convert U.S. dollars to these currencies continue to reference either the local
+IBOR or a fixed rate for their own currency legs, even as the foreign currency leg shifts to
+alternative benchmark rates (primarily SOFR or €STR). In fact, only THB cross-currency
+basis swaps have switched their local currency leg to an alternative benchmark rate (THOR).
+For most EM currencies, the transition to alternative benchmark rates on the foreign currency
+16
+
+legs occurred around early 2022.
+The transition from LIBOR to SOFR included transition periods. For G10 currencies,
+these transition periods lasted about a year. For emerging market (EME) currencies, however, the transition pace depended on transaction volumes. Currencies with higher transaction volumes transitioned more quickly, while those with lower volumes experienced a longer
+overlap period, during which cross-currency basis swaps referenced both LIBOR and the
+alternative benchmark rates were observed. For G10 currencies, cross-currency basis swaps
+referencing SOFR began trading in 2021, with the final LIBOR day occurring roughly a
+year later. For EME currencies, the first SOFR-referenced transactions generally appeared
+in early 2022. In lower-volume EME currencies–such as COP, IDR, INR, MYR, PHP, THB,
+and ZAR–LIBOR-referenced swap transactions continued to occur more than a year after
+the initial SOFR transactions were seen. Conversely, for high-volume currencies—such as
+CLP, CNY, HUF, KRY, MXN, PLN, and TRY-IBOR-based transactions ceased within two
+months of the first SOFR transactions.
+4.2
+
+CIP Deviations during Benchmark Transition
+
+We explore how the transition from IBOR to alternative benchmark rates affected CIP deviations for benchmark money market rates and for government bond yields. Appendix Table
+A1 and Appendix Table A2 provide summary statistics of CIP deviations in benchmark
+rates and in government bond yields at the one-year (top panel) and the ten-year (bottom
+panel) tenors, respectively, during overlapping periods when deviations under both bases
+were observed. Note that in Appendix Table A1, we show benchmark CIP deviations only
+for currencies that have switched both legs of the cross-currency basis swaps to reference
+alternative benchmark rates. Additionally, we do not observe CIP deviations in the bench17
+
+mark rates of currencies from emerging market economies with capital controls. Based on
+these results, we highlight a few key takeaways.
+First, there are strong correlations between benchmark CIP deviations measured with
+IBOR and alternative benchmark rates for most currencies, though with a significant level
+shift. CIP deviations for these risk-free rates are generally higher under the alternative
+benchmarks than under IBOR. Given that the alternative benchmarks are more robust to
+money market frictions, the fact that they generally yield larger CIP deviations suggests
+that the emergence of USD specialness after the GFC cannot be attributed merely to money
+market imperfections.
+Figure 1 plots IBOR-based versus alternative benchmark CIP deviations during overlapping periods. As shown in Appendix Table A1, among the currencies in our sample that have
+transitioned to alternative benchmarks, alternative benchmark CIP deviations are generally
+higher than IBOR-based deviations by approximately 6–24 basis points across tenors. An
+exception is CAD, where alternative benchmark CIP deviations are less negative than those
+based on IBOR by about 6–14 basis points. For most currencies, alternative benchmark
+and IBOR CIP deviations are also highly correlated, particularly at longer tenors.6 With
+the exception of CAD, alternative benchmark CIP deviations are also more volatile than
+IBOR-based deviations, with standard deviation ratios greater than one.
+Second, CIP deviations for government bond yields are largely unaffected by the transition. Conceptually this is because the choice of the benchmark rate does necessarily affect
+the forward premium, ρi,n,t , in calculating the CIP deviations. As shown in Appendix Table A2, we observed minimal differences in government CIP deviations based on alternative
+benchmarks and IBOR reference rates. For instance, at the 1-year tenor, the average dif6
+
+Notable exceptions include CAD and GBP, which show only 20–30 percent correlations at the one-year
+tenor, although correlations remain strong at longer tenors.
+
+18
+
+ference in CIP deviations during the overlapping periods (the time when we observed the
+deviations under both bases) is less than 5 bps for each G10 currency, all with small standard
+deviations. For EM currencies, the average difference is mostly below 10 bps, with a few
+exceptions where they are slightly wider but still under 20 bps. Government CIP deviations
+under both bases also exhibit similar degrees of volatility, with standard deviation ratios
+mostly close to one, and are strongly correlated during the overlapping period, with correlations generally close to one, except for a few currencies. Appendix Figures A5 and A6
+plot the 5-year government CIP deviations for G10 curerncy countries and emerging market
+countries, respectively, during overlapping periods.
+
+5
+
+Main Results on the USD and UST Convenience
+
+In this section, we document a few key stylized facts contrasting USD and UST convenience.
+5.1
+
+Continued Decline in the UST Convenience
+
+The U.S. Treasury convenience has continued its secular decline, with the median CIP for
+G10 currencies at medium and long maturities becoming increasingly negative, in line with
+the trend documented in Du, Im, and Schreger (2018) and extended in Du and Schreger
+(2022). Figure 2 illustrates this trend: the median 5-year U.S. Treasury convenience vis-àvis G10 currencies turned negative in 2012 and has declined further since 2021. Specifically,
+the average 5-year premium across G10 currencies was –26 basis points from 2021 onward,
+compared to –7 basis points during the 2012–2020 period.
+Table 2 provides summary statistics for the 5-year U.S. Treasury convenience across four
+periods: the full sample (Column 1), the pre-GFC period (Column 2), the post-GFC to preCovid period (Column 3), and the post-Covid period (Column 4). The table similarly shows
+19
+
+a broad-based decline in the 5-year Treasury convenience across G10 currencies, with the
+premium turning negative in the post-Covid period for all G10 countries except Japan. The
+decline was particularly pronounced for most European currencies—including CHF, DKK,
+EUR, GBP, and SEK—as well as for JPY. Among emerging market economies (EMEs), the
+median government bond CIP deviation has also declined, although it remains positive.
+Furthermore, the decline in Treasury convenience is not confined to longer tenors; for
+the first time, the median short-term (3-month and 1-year) Treasury convenience for G10
+currency countries has also turned persistently negative since 2023, as shown in Figure 3.
+Specifically, the median 3-month and 1-year Treasury convenience for G10 currency countries
+since 2023 were -7 bps and -16 bps, respectively, compared to 11 bps and 6 bps, respectively,
+in the prior decade. Similar to the decline in Treasury convenience at longer tenors, the
+decline at shorter tenors is also more pronounced among European currencies (CHF, DKK,
+EUR, and GBP) as well as for JPY. For EMEs, the median short-term Treasury convenience
+has occasionally turned negative but, on average, have remained in positive territory.
+5.2
+
+Decoupling USD and UST Convenience
+
+The decline in the Treasury convenience yield stands in stark contrast to the USD convenience
+yield. Figure 4 illustrates this by plotting both benchmark and government CIP deviations
+for the 3-month tenor (top panel) and the 10-year tenor (bottom panel) between the United
+States and G10 countries. Before the GFC, although benchmark CIP deviations were close
+to zero, the Treasury convenience yield was significantly positive. After the GFC, a positive
+USD convenience yield, measured by the benchmark CIP deviation, emerged and persisted.
+The behavior of the Treasury convenience yield differs markedly across maturities. At the
+3-month tenor, it is highly correlated with the USD convenience yield and remained positive
+20
+
+until around 2020, dipping into negative territory in the post-Covid period. In contrast,
+the 10-year Treasury convenience yield peaked during the GFC and has steadily declined
+since, becoming persistently negative after 2010. This divergence is further reflected in their
+correlations: since 2010, the correlation between benchmark and government CIP deviations
+has been 0.4 at the 3-month tenor but –0.29 at the 10-year tenor. Table 2 and 3 contrast
+the UST and USD convenience by country across different sample periods. The divergence
+between the Treasury and dollar convenience at long maturity is observed in all currencies.
+The decomposition in Equation 6 shows that the government bond CIP deviation equals
+the benchmark CIP deviation plus the difference in swap spreads between the U.S. and the
+foreign country. Hence, any decoupling between Treasury and dollar convenience must be
+driven by divergence in swap spreads across countries. Table 4 shows that the U.S. swap
+spread declined substantially over time, particularly during the 2021–2025 period, whereas
+the foreign swap spreads were little changed over different subsamples.
+5.3
+
+The Changing Risk Properties of the Dollar and Treasuries
+
+In this section, we explore the changing risk properties of the dollar and Treasury convenience. While there are many conceptions of what makes an asset safe, one of the most
+prominent is that the asset’s value increases in bad states of the world or those with elevated
+global risk (Gourinchas and Rey (2022), Maggiori (2017)). Here, we examine the evidence
+that the risk properties of the dollar and Treasury convenience have potentially changed
+during the recent period. To explore this idea, we run regressions of the form:
+
+∆yt = α + β · ∆Riskt + ϵt
+
+21
+
+(7)
+
+where yt includes changes our measures of the USD and UST convenience. We also examine
+the sensitivity of the spot dollar exchange (Federal Reserve nominal broad dollar index) with
+respect to global risk factors to provide a basement comparison for the safe-asset status of
+the currency. We begin by considering the VIX, the option implied volatility on the S&P
+500, as our measure of global risk, but we consider others such as the S&P return, and the
+spread on investment grade bonds. We run the regression looking at weekly changes and we
+consider two-year rolling windows to capture time variation in the betas.
+We report the rolling betas of the broad dollar, USD and UST convenience on VIX from
+these regressions in Figure 5 and a number of key findings emerge. The top panel reports
+regressions run CIP deviations with a one-year tenor and the bottom panel reports results for
+the five-year tenor. The broad dollar betas are identical across the two panels and reported
+twice to ease comparison. We see that the relationship between all three variables and VIX
+becomes very strong during the GFC.7 While the betas quickly decline from their GFC
+peaks, throughout the post-GFC period we see that the risk loadings of the broad dollar
+and USD convenience remain fairly consistent: when global risk increases, the broad dollar
+spot exchange rate tends to appreciate8 and the premium for dollar risk-free rate increases
+relative to synthetic dollar risk-free rates on average.
+While both the spot dollar and the USD convenience yield tend to strengthen during bad
+times across the sample, the time-series behavior of the USD convenience yield relative to the
+VIX reveals a striking shift. The UST convenience yield at the one- and five-year horizons
+rises sharply during periods of global stress in the 2000s through the mid-2010s, but the
+relationship turns significantly negative in the 2020s, which implies that the UST becomes
+7
+
+This is consistent with the reconnect results of Lilley et al. (2022).
+Notably, even though the dollar uncharacteristically depreciated amid a spike in risk sentiment following
+the announcement of the reciprocal tariffs in April 2025, the usual relationship between the broad dollar
+index and the VIX quickly reemerged a few weeks after the Liberation Day.
+8
+
+22
+
+more inconvenient during bad times during recent years. The correlation between USD and
+UST has weakened substantially. Appendix Figure A2 plots the rolling correlation between
+the USD and UST convenience yields at the three-month, one-year, and five-year maturities.
+The two yields remain highly correlated throughout the sample at the three-month horizon,
+but at the one- and five-year maturities, the correlation declines sharply towards zero.
+In Table 5, we deepen our investigation of the changing risk properties of the dollar
+and Treasuries. In particular, we look at the loadings of the broad dollar, USD and UST
+convenience on three global risk factors: VIX, the S&P 500 return and the U.S. investment
+grade corporate credit spread. Rather than rolling betas, here we divide the sample into three
+periods of 2010-2015, 2016-2020, and 2021-2025. We see that although the broad dollar’s
+loading on global risk declines during the sample, even in recent data the dollar appears to
+continue to appreciate in bad times. Similarly, the USD convenience yield continues to rise
+during periods of stress across all maturities. In contrast, the loading of the UST convenience
+yield on global risk factors declines sharply at the one-, five-, and ten-year tenors in the
+post-GFC period, turning negative during the post-Covid years (2021–2025). Meanwhile,
+the sensitivity of the three-month Treasury convenience yield to global risk factors shows
+a more muted decline. These findings are consistent with the secular decline in the overall
+level of the UST convenience yield shown in Figure 3, whereas three-month Treasury bills
+have remained relatively more special compared with longer maturities.
+Building on the decomposition in Equation 6, we separately calculate the betas for the
+U.S. swap spread and foreign swap spreads. A number of important features emerge. We
+see that, particularly for longer term bonds, U.S. swap spreads tended to significantly widen
+when global risk increased in the wake of the GFC (2010-2015) but now they dramatically
+compress or become more negative when risk is elevated. By contrast, the response of
+23
+
+foreign swap spreads after the GFC was more muted than U.S. swap spreads, and this
+response is largely unchanged to the current day. This provides evidence that the change the
+risk property of the UST convenience largely arises from a change in the behavior of U.S.
+Treasuries relative to dollar risk-free rate proxy.
+We conclude this section by examining cross-currency heterogeneity in the risk properties
+of the bilateral dollar exchange rate, USD convenience, and UST convenience over different
+subperiods, as shown in Figure 6. We focus on the one-year tenor for CIP deviations, though
+results are similar for the five-year tenor. The left panel shows changes in the betas of the
+bilateral dollar spot exchange rates of G10 currencies between 2010–2015 and 2021–2025.
+The middle panel reports the same for benchmark CIP deviations, and the right panel for
+government bond CIP deviations.
+For the dollar exchange rate betas, we observe strong stability across periods, with
+most estimates clustered near the 45-degree line. For benchmark CIP deviations, the crosscurrency ranking remains largely preserved, though most observations lie slightly below the
+45-degree line, indicating a modest weakening in the more recent subperiod. The most
+striking pattern appears in the final panel: the betas of government bond CIP deviations
+between the U.S. Treasuries and other government bonds have declined markedly across all
+G10 currencies, with all betas turning negative (except for Japan). This suggests that the
+shift reflects a broad decline in the relative “specialness” of U.S. Treasuries compared with
+peer sovereigns, rather than a surge in the specialness of any single alternative such as the
+German Bund. We turn to the drivers of this pattern in Section 6.
+
+24
+
+5.4
+
+Dynamics during Stress Episodes
+
+Finally, we examine contrast the dynamics of USD and UST convenience over during several
+notable stress episodes, most recently, the announcement of the reciprocal tariffs in April
+2025, and contrasting it with the dynamics during the Covid pandemic in March 2020, and
+the Lehman bankruptcy in September 2008.
+First, Figure A3 displays the 10-year government bond CIP deviation against each G10
+currency throughout 2025, with a vertical line marking the date of the announcement of
+the tariff announcement.9 In the aftermath of the announcement, the 10-year U.S. Treasury
+convenience generally declined against most G10 currencies. Notably, the decline was more
+pronounced for longer tenors, with an average decrease of 5 basis points for the 3-month
+tenor and 10 basis points for the 10-year tenor. Furthermore, the magnitude of the response
+varied across countries: for the 10-year U.S. Treasury Premium, the premium decreased
+by approximately 20 basis points for AUD, EUR, and SEK, whereas it remained largely
+unchanged for GBP and JPY over the 10-day window from the day before to 9 days after
+the announcement.10
+To understand the cross-country variations in the response, In Figure 7, we plot the
+10-day change in the 10-year Treasury convenience against foreign countries’ debt-to-GDP
+ratios. The figure suggests that, subsequent to the announcement, countries with lower debtto-GDP ratios tended to exhibit larger declines in the U.S. Treasury convenience relative to
+their respective government bonds.
+Furthermore, we compare the dynamics around Liberation Day with the prior stress
+9
+
+The global stress following this announcement was highlighted as a potential threat to the international
+monetary system, and explored theoretically in Hassan et al. (2025).
+10
+Hassan et al. (2025) explore theoretically the implications of tariffs on the global role of the dollar.
+
+25
+
+episodes.11 In Figure 8, we plot the average Treasury and dollar convenience around three
+pivotal events of financial stress: Liberation Day Tariffs, the Covid market stress, and the
+failure of Lehman Brothers. Around Liberation Day, we see notable increases in the benchmark CIP deviation, and most acutely at the three-month tenor upon announcement. The
+rise in this benchmark CIP deviation is also observed following the Covid distress and the
+Lehman failure, where the rise in the three-month dollar convenience is much larger in magnitude and requires liquidity backstop from the central bank swap line.12
+By contrast, the behavior of Treasury convenience varied across the three episodes. Following the announcement of the tariff measures, Treasury convenience declined at the one-,
+five-, and ten-year maturities, with a brief uptick at the three-month maturity. After March
+9, 2020, when U.S. equities plunged by more than 7%, Treasury convenience initially fell
+across all maturities. The short-term (three-month and one-year) convenience measures
+quickly retraced their declines, whereas the medium- and long-term (five- and ten-year) convenience remained depressed throughout the most acute phase of the Covid market distress.
+In contrast, in the week following the Lehman Brothers failure, Treasury convenience increased broadly across maturities. Viewed through the lens of the Treasury convenience
+measure, medium- to long-term Treasury bonds no longer appeared to be the world’s safest
+assets during the Covid distress and the more recent tariff announcement, consistent with
+the perspective in He, Nagel, and Song (2022) and Duffie (2020).
+11
+
+See Kamin (2025) and Thiagarajan et al. (2025) for an analysis of the behavior of the dollar around
+liberation day.
+12
+During the Covid period, benchmark CIP deviations based on both IBOR and SOFR were available.
+Initially, the 3-month IBOR-based benchmark CIP deviations rose during the period of distress but reverted
+soon after. However, this rapid reversion was likely due to the spike in the U.S. LIBOR rate, potentially due
+to concerns over bank credit risks, causing the IBOR-based benchmark to compress quickly. In contrast, the
+SOFR-based 3-month benchmark CIP deviations, which were not affected by such credit risk concerns, rose
+and remained elevated throughout this period.
+
+26
+
+6
+
+Impact of Government Bond Supply on UST Convenience
+
+In this section, we show empirically that the relative supply of government debt in the
+United States versus other countries is a key driver of the Treasury convenience in our
+sample, building upon the earlier analysis presented in Du, Im, and Schreger (2018). We
+measure the supply of government bonds as the ratio of total outstanding federal debt to
+seasonally-adjusted nominal GDP.13 We expand on the earlier analysis by employing panel
+regressions that cover major tenors (3-month, 1-year, 5-year, and 10-year), with our analysis
+encompassing recent periods up to 2024.
+Our regression framework is given by:
+
+Φi,n,t = α + β · log
+
+
+ Debt 
+GDP
+
++ γ · log
+U SD,t
+
+ Debt 
+GDP
+
+i,t
+
++ ζ · Xi,n,t + ϵi,n,t ,
+
+(8)
+
+
+
+is the log of the ratio of U.S. federal debt to nominal U.S. GDP at
+U SD,t
+Debt
+time t, log GDP
+is the log of country i’s federal debt-to-GDP ratio at time t, and Xi,n,t is
+
+where log
+
+Debt
+GDP
+
+
+
+i,t
+
+a set of additional covariates, including VIX and CDS spreads for U.S. and foreign sovereign
+bonds with the same maturity.14 We estimate the regressions for the entire sample period
+(2000–2024, Column 1), the pre-GFC period (2000–2007, Column 2), and the post-GFC
+period (2008–2024, Columns 3-4). Our regressions control for country-specific fixed effects.
+Table 6 presents the tenor panel regression results for the five-year maturity.15 Our
+findings indicate that a one percent increase in the U.S. debt-to-GDP ratio is associated
+13
+
+We also replicate this analysis, netting out central bank holdings of federal debt, and find similar results.
+Due to limited CDS data prior to 2007, we only incorporate CDS spreads as control variables in our
+regression analysis for the period spanning 2008 to 2024.
+15
+The regression results for the one-year and ten-year tenor, presented in the Appendix Table A3, confirm
+similar findings across all maturities. We also find similar results using government bond supply netting out
+central bank holdings in Appendix Table A4.
+14
+
+27
+
+with 0.37-0.86 basis point decrease in the Treasury convenience. By contrast, a one percent
+increase in the foreign country debt-to-GDP ratio is associated with a 0.09-0.23 basis point
+higher Treasury convenience. These results are relatively consistent for the full sample period,
+as well as for the pre-GFC and post-GFC periods, with the coefficient for U.S. debt-to-GDP
+ratio declining slightly while the coefficient for foreign debt to GDP ratio increasing slightly
+post-GFC. Our regressions control for the VIX to account for variation in global risk, as in
+Section 5.
+In Column 4, we further control for relative credit risks by including CDS spreads of
+equivalent-maturity U.S. Treasuries and foreign government bonds.16 The impact of relative
+supply remains largely unaffected. Notably, the CDS spreads of U.S. Treasuries enter with
+a negative coefficient, while those of foreign bonds enter with a positive coefficient, consistent with the notion that a deterioration in the creditworthiness of U.S. Treasuries relative
+to foreign bonds decreases the government bond CIP deviation. Nevertheless, our results
+suggest that changes in CDS spreads do not have a one-to-one impact on the average government bond CIP deviation. Specifically, a 1 basis point increase in U.S. CDS spreads or
+a decrease in foreign CDS spreads only reduces the U.S. Treasury convenience by 0.30-0.33
+basis points.17
+These regression results reaffirm our earlier finding that the relative supply of government
+debt has a significant impact on the CIP deviation between government bonds, even after
+16
+Due to limited CDS data prior to 2007, we only incorporate CDS spreads as control variables in our
+regression analysis for the period spanning 2008 to 2024.
+17
+As shown in Appendix Figure A7, which plots the median government CIP deviations against median
+CDS spreads for both developed and emerging markets over the U.S. CDS spreads at the 5-year tenor. The
+correlation between government CIP deviations and CDS spread differential between foreign country and US
+is weak for developed markets. As we can see in Panel A, For emerging markets, while these two measures
+were more correlated from the early 2000s, their correlation has weakened during recent years. Beyond
+sovereign credit risk measured by the CDS spread, Appendix B also discusses that the U.S. Debt Ceiling
+also reduces Treasury convenience, especially at short tenors.
+
+28
+
+controlling for relative credit risks. Next, we further refine our analysis to investigate how
+tenor-specific supply, particularly of U.S. Treasury debt, affects the U.S. Treasury Premium.
+Our regression framework is given by:
+
+Φi,n,t = α + β · log
+
+
+ Debt 
+GDP U SD,n,t
+
++ γ · log
+
+ Debt 
+GDP i,t
+
++ ζ · Xi,n,t + ϵi,n,t
+
+(9)
+
+
+
+is the log of the outstanding U.S. Treasury debt with a maturity of
+
+
+Debt
+approximately n years to nominal U.S. GDP at time t, log GDP
+is the log of country i’s
+
+where log
+
+Debt
+GDP
+
+U SD,n,t
+
+i,t
+
+debt to GDP ratio at time t, and Xi,n,t is a set of additional covariates, particularly CDS
+spreads for U.S. and foreign sovereign bonds (Columns 5–6). We estimate the regressions
+for the entire sample period (2000–2024, Column 1-2), the pre-GFC period (2000–2007,
+Column 3), and the post-GFC period (2008–2024, Columns 4-6). Our regressions control for
+country-specific fixed effects, and Columns 2-6 also control for time fixed effects.
+Table 7 presents the regression results for the tenor-specific supply of government debt.
+In the full sample (Columns 1–2), our analysis reveals that a 1 percent increase in the tenorspecific supply of U.S. Treasury debt relative to GDP is associated with a 0.26–0.28 basis
+point decline in the government bond CIP deviation of the corresponding tenor. Notably,
+after controlling for time fixed effects, the coefficient for tenor-specific supply of U.S. Treasury debt is slightly larger (in absolute terms) and the coefficient for foreign debt to GDP
+is also positive and statistically significant, consistent with our findings in Table 6. The impact of U.S. debt supply on the U.S. Treasury convenience is particularly pronounced in the
+pre-GFC period (Column 3), highlighting the critical role of U.S. Treasury debt in shaping
+the convenience during this time. While the coefficient for U.S. Treasury debt supply loses
+statistical significance in the post-GFC period (Column 4-5), it remains negative and statis-
+
+29
+
+tically significant when excluding the GFC period, underscoring the importance of relative
+debt supply in influencing the convenience. Furthermore, the recent loss of convenience for
+short-dated Treasury bills since 2021 also coincided with a pivot by the U.S. Treasury to
+issue more in the short-term tenors.
+Taken together, these findings suggest that the relative supply of U.S. versus foreign government bonds remains an important determinant of the CIP deviation between government
+bonds. As as a result, a significant portion of the secular decline in the Treasury convenience
+across all tenors is likely attributable to the relative supply growth of U.S. Treasuries relative
+to foreign government bonds.
+
+7
+
+A Conceptual Framework Linking USD and UST Convenience
+
+After documenting the main stylized facts on USD and UST convenience, we now present
+a conceptual framework that jointly explains these patterns. The framework builds on the
+model in Du, Hébert, and Li (2023), which features a constrained global intermediary that
+allocates balance sheet capacity between (i) lending dollars in the FX swap market, earning
+the benchmark CIP deviation, or USD convenience, and (ii) financing U.S. Treasury bonds
+using repos, earning the swap spread.
+Empirical evidence shows that large global banks are net lenders of dollars in the FX
+swap market (see Correa, Du, and Liao (2025) for U.S. banks, Hacioğlu-Hoke et al. (2024)
+for U.K. banks, and Du, Strasser, and Verdelhan (2025) for euro-area banks). Although
+FX swaps are derivative contracts and largely off-balance-sheet,18 being a net dollar lender
+in the FX swap market requires sourcing dollars on balance sheet, such as borrowing from
+18
+
+Initial and variation margins on derivatives are treated as on-balance-sheet items but are typically only
+a few percent of notional amounts.
+
+30
+
+money market funds, and therefore uses up balance sheet capacity.
+Let LF X denote the dealer’s net dollar lending in the FX swap market. The dealer can
+borrow at the USD risk-free rate y$Rf and lend in the FX swap market at y$Rf + xRf . Hence,
+each dollar lent via the FX swap earns an intermediation spread xRf .
+In addition to FX swap intermediation, the dealer also finances Treasury holdings. Du,
+Hébert, and Li (2023) document that, with the rapid expansion of Treasury supply, primary dealers have shifted from being net short to net long Treasuries since the GFC, which
+coincides with the persistent negativity of long-term U.S. swap spreads. Beyond holding
+Treasuries on their own balance sheets, dealers also extend repo financing to leveraged nonbank investors (e.g., hedge funds) that hold Treasuries.19 As in Du, Hébert, and Li (2023),
+we can consolidate dealers and hedge funds into a single intermediary that finances Treasury
+holdings in repo and hedges repo-rate risk using SOFR swaps. The intermediary thus earns
+the swap spread, i.e., the difference between the Treasury yield and the swap rate.
+Let H T denote the intermediary’s Treasury holdings. The repo rate is below the risk-free
+rate due to the specialness of Treasury collateral:
+r$ = y$Rf − δ T (S T ),
+
+(10)
+
+where S T denotes U.S. Treasury supply, and δ T (S T ) > 0 is repo specialness, which declines
+′
+
+with supply (δ T (S T ) < 0).
+The dealer faces a balance sheet constraint:
+aF X LF X + aT H T ≤ E/λ,
+
+(11)
+
+19
+In recent years, hedge funds have become increasingly important Treasury holders via the “basis trade”:
+they finance Treasury bonds in the repo market and hedge duration risk using Treasury futures, see, for
+example Kashyap et al. (2025).
+
+31
+
+where E is bank equity capital and λ describes the bindingness of the leverage constraint.
+If the constraint is a simple leverage ratio, then aF X = aT . More realistically, Treasury
+positions are subject to higher market-risk capital requirements. Although the dealer hedges
+duration risk using swaps, the hedge is imperfect, leaving residual mark-to-market risk from
+swap spread fluctuations. Hence, aT > aF X .
+The dealer maximizes profits:
+
+max
+
+LF X ,H T
+
+
+xRf LF X + y$Govt − y$Rf + δ T (S T ) H T ,
+
+(12)
+
+subject to the balance sheet constraint (11).
+Let µ denote the Lagrange multiplier, representing the shadow cost of balance sheet. The
+first-order conditions are:
+xRf = µaF X ,
+
+(13)
+
+y$Govt − y$Rf + δ T (S T ) = µaT .
+
+(14)
+
+When the balance sheet constraint binds (µ > 0), the benchmark CIP deviation xRf > 0:
+the USD convenience reflects the intermediation fee earned for supplying dollars to the FX
+swap market.
+The U.S. swap spread is then given by:
+y$Rf − y$Govt = δ T (S T ) − µaT = δ T (S T ) −
+
+aT Rf
+x .
+aF X
+
+(15)
+
+Hence, the swap spread and the USD convenience move inversely. A tighter balance sheet
+(higher µ) compresses the swap spread, consistent with negative swap spreads in the post32
+
+GFC period. In addition, higher Treasury supply reduces δ T (S), further lowering the swap
+spread.
+To calculate CIP deviations between U.S. Treasury and foreign government bonds, we
+also consider foreign swap spreads. Post-GFC, the non-US G10 currency countries have
+maintained positive swap spreads on average except the US and UK, and the level of the
+swap spread is negatively correlated with the debt-to-GDP ratio across countries (Figure 9).
+When government bond supply is scarce relative to investor demand, intermediaries can be
+net short in government bonds, and the balance sheet cost enters with the opposite sign in
+pricing government bonds (see Du, Hébert, and Li (2023)). Because foreign swap spreads
+have remained roughly stable despite variations in balance sheet costs, we assume that they
+do not materially depend on µ on average across countries. However, foreign government
+bond yields may still lie below local risk-free rates due to collateral specialness, which is
+again decreasing in the supply of foreign government bonds:
+yFRf − yFGovt = δ F (S F ).
+
+(16)
+
+Combining these relationships, the CIP deviation for government bond yields becomes:
+xGovt = xRf + (y$Rf − y$Govt ) − (yFRf − yFGovt )
+
+= δ T (S T ) − δ F (S F ) + 1 − aT /aF X xRf .
+
+(17)
+
+If the capital charges are identical (aT = aF X ), the government bond CIP deviation depends
+only on the relative supply of government bonds across countries, reflecting differences in
+collateral specialness between U.S. Treasuries and foreign government bonds. In that case, a
+decline in Treasury convenience arises mainly from the surge in U.S. Treasury supply relative
+33
+
+to foreign government bonds. However, if Treasury intermediation is more balance-sheet
+intensive (aT > aF X ), an increase in the shadow cost of balance sheet µ further amplifies the
+decline in Treasury convenience.20
+In summary, this simple framework captures a key mechanism linking USD and UST
+convenience. A binding balance sheet constraint generates a positive CIP deviation for dollars
+(the USD convenience) and, simultaneously, compresses the U.S. swap spread by raising the
+effective cost of Treasury intermediation. When the capital charges for FX swap lending
+and Treasury financing are symmetric (aT = aF X ), the balance sheet shadow cost µ cancels
+out in the Treasury convenience, leaving only the relative scarcity of Treasuries, through
+δ T (S T ) − δ F (S F ), to drive differences in government bond CIP deviations. In contrast,
+when Treasury positions are more balance-sheet intensive (aT > aF X ), the same balance
+sheet scarcity that drives positive USD CIP deviations also reduces Treasury convenience
+and makes swap spreads more negative. Thus, both USD and UST convenience ultimately
+reflect a common balance sheet constraint faced by global intermediaries, with the degree of
+asymmetry in capital usage determining how strongly the two measures move together.
+
+8
+
+Conclusion
+
+Although the U.S. Dollar and U.S. Treasuries are often referred to as the global safe asset,
+this paper demonstrates that their convenience yields have begun to significantly diverge
+in recent years. While the dollar retains its special and safe-haven risk characteristics, the
+convenience yield on U.S. Treasuries has turned negative across all maturities relative to G10
+20
+
+We also note that in the event that the balance sheet constraint is not binding (such as pre-GFC), we
+have µ = 0 and xrf = 0. Then the Treasury convenience in Equation 17 can still reflect the relative bond
+supply in the US and foreign countries, δ T (S T ) − δ F (S F ), which is consistent with our findings in Table 6
+that the government debt-to-GDP ratios also matter during the pre-GFC period.
+
+34
+
+government bonds, and the risk properties of longer-term Treasury convenience have shifted
+substantially. In order to document this finding, we construct an updated global database of
+CIP deviations for 29 countries, spanning benchmark risk-free rates and government bond
+yields, and covering the transition from IBOR to SOFR benchmarks. We highlight the role
+of government bond supply as a key driver of the decline in U.S. Treasury specialness and
+present a conceptual framework featuring constrained global intermediaries to rationalize
+our main empirical findings.
+
+35
+
+Figure 1: Benchmark CIP Deviations: 3-Month IBOR-based vs. Alternative Rate-Based
+
+CAD
+
+CHF
+
+EUR
+150
+
+150
+
+40
+20
+
+100
+
+100
+
+Basis Points
+
+60
+
+Basis Points
+
+Basis Points
+
+80
+
+50
+0
+
+50
+0
+
+0
+-50
+
+-50
+
+-20
+2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+GBP
+
+JPY
+300
+
+Basis Points
+
+100
+
+Basis Points
+
+2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+50
+
+0
+
+-50
+
+200
+
+100
+
+0
+
+-100
+2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+IBOR
+
+Alternative Benchmark
+
+Notes: This chart plots 3-month IBOR-based and alternative benchmark CIP deviations during overlapping
+periods for currencies that have switched both legs of their cross-currency basis swaps to reference alternative
+benchmark rates. Three-month IBOR rates are used to calculate the IBOR-based basis, and three-month
+interest rate swap rates linked to the new secure rates are used to calculate the basis based on the alternative
+benchmark. The details of the benchmark rates are given in Table 1.
+
+36
+
+Figure 2: The Decline of the U.S. Treasury Convenience
+
+Median Five-Year Government CIP Deviations
+250
+200
+
+Basis Points
+
+150
+100
+50
+0
+-50
+
+5
+
+4
+
+20
+2
+
+3
+
+20
+2
+
+2
+
+20
+2
+
+1
+
+20
+2
+
+0
+
+20
+2
+
+9
+
+20
+2
+
+8
+
+20
+1
+
+7
+
+20
+1
+
+6
+
+20
+1
+
+5
+
+EM
+
+20
+1
+
+4
+
+20
+1
+
+3
+
+20
+1
+
+2
+
+20
+1
+
+1
+
+20
+1
+
+0
+
+20
+1
+
+9
+
+20
+1
+
+8
+
+20
+0
+
+7
+
+20
+0
+
+6
+
+20
+0
+
+5
+
+20
+0
+
+20
+0
+
+20
+0
+
+4
+
+-100
+
+G10
+
+Notes: This chart plots the median five-year government CIP deviations between the US and G10 currency
+countries (G10) and between US and emerging markets (EM). The government CIP deviation is defined
+as the difference between the synthetic dollar yield on the swapped foreign government bond and the U.S.
+Treasury yield. Series are 13-day moving averages.
+
+37
+
+Figure 3: Term Structure of the U.S. Treasury Premium of G10 Currency Countries
+
+Term Structure of Government CIP Deviations
+300
+250
+
+Basis Points
+
+200
+150
+100
+50
+0
+-50
+-100
+2004
+
+2006
+
+2008
+
+2010
+3M
+
+2012
+
+2014
+
+1Y
+
+2016
+10Y
+
+2018
+20Y
+
+2020
+
+2022
+
+2024
+
+2026
+
+30Y
+
+Notes: This figure plots the median government CIP deviations for G10 currency countries at the 3-month
+horizon (in blue), the 1-year horizon (in red), the 10-year horizon (in yellow), the 20-year horizon (in green),
+and the 30-year horizon (in black) from 2000 to 2025. Excludes AUD, CAD, and NZD due to missing
+government CIP deviation data for 2005–2011 for the 20- and 30-year horizons. Series are 13-day moving
+averages.
+
+38
+
+Figure 4: The Decoupling of USD and UST Premia
+(a) Three-Month
+300
+
+250
+
+Basis Points
+
+200
+
+150
+
+100
+
+50
+
+0
+
+-50
+2000
+
+2002
+
+2004
+
+2006
+
+2008
+
+2010
+
+2012
+
+2014
+
+Government CIP Deviation
+
+2016
+
+2018
+
+2020
+
+2022
+
+2024
+
+2026
+
+2022
+
+2024
+
+2026
+
+Benchmark CIP Deviation
+
+(b) Ten-Year
+75
+
+Basis Points
+
+50
+
+25
+
+0
+
+-25
+
+-50
+2000
+
+2002
+
+2004
+
+2006
+
+2008
+
+2010
+
+2012
+
+Government CIP Deviation
+
+2014
+
+2016
+
+2018
+
+2020
+
+Benchmark CIP Deviation
+
+Notes: This chart plots the median government CIP deviations and median benchmark CIP deviations for
+G10 currency countries at the 3-month tenor (top panel) and the 10-year tenor (bottom panel). Series are
+13-day moving averages.
+
+39
+
+Figure 5: Time-Varying Loading on VIX
+(a) One-Year
+
+(b) Five-Year
+
+Notes: This chart plots the two-year rolling average of the beta of the weekly change in the broad dollar,
+average G10 benchmark CIP, and average G10 government bond CIP deviations on the weekly change in
+the log of VIX.
+
+40
+
+Figure 6: Time-Varying Loading on VIX: Bilateral
+(a) Dollar Exchange Rate
+
+(b) Benchmark CIP Deviation
+
+(c) Government CIP Deviation
+
+Notes: This reports the beta coefficient for regressions of the form of Equation 7, ∆yt = α + β · ∆Riskt + ϵt .
+The x-axis reports the β of a regression run from 2010-2015 and the y-axis reports the same beta from
+2021-2025. The left panel considers the bilateral exchange rate, the middle the benchmark CIP deviation,
+and the right panel considers the government CIP deviations.
+
+41
+
+Figure 7: Changes in U.S. Treasury Convenience following reciprocal tariffs announcement
+vs. foreign government bond outstanding
+
+Government CIP Deviation Response to Reciprocal Tariffs Announcement
+∆ 10y Government CIP Deviation (bps)
+
+5
+
+GBP
+JPY
+
+0
+
+NZD
+
+−5
+
+CAD
+
+−10
+
+NOK
+CHF DKK
+
+−15
+SEK
+
+−20
+
+EUR
+AUD
+
+0.00
+
+0.20
+
+0.40
+
+0.60
+
+0.80
+1.00
+1.20
+Debt−to−GDP
+
+1.40
+
+1.60
+
+1.80
+
+2.00
+
+Notes: The chart plots the 10-day changes in the 10-year government bond CIP deviation between the US
+and a G10 currency country, measured from the day before the U.S. reciprocal tariffs announcement (April
+1, 2025) to 9 days after (April 11, 2025), in relation to foreign government bond outstanding across various
+tenors.
+
+42
+
+Figure 8: Benchmark and Government CIP Deviations During Financial Distress
+(a) Benchmark CIP During Tariff War
+
+(b) Government CIP During Tariff War
+10
+
+25
+
+0
+Basis Points
+
+Basis Points
+
+20
+−10
+
+15
+−20
+
+−30
+
+10
+26mar2025
+
+02apr2025
+
+3 Month
+
+1 Year
+
+26mar2025
+
+09apr2025
+5 Year
+
+3 Month
+
+10 Year
+
+(c) Benchmark CIP During COVID
+
+02apr2025
+1 Year
+
+09apr2025
+5 Year
+
+10 Year
+
+(d) Government CIP During COVID
+60
+
+100
+
+Basis Points
+
+Basis Points
+
+40
+
+50
+
+20
+
+0
+
+−20
+
+0
+
+−40
+02mar2020
+3 Month
+
+09mar2020
+1 Year
+
+5 Year
+
+16mar2020
+10 Year
+
+02mar2020
+
+3 Month (SOFR)
+
+3 Month
+
+(e) Benchmark CIP During Lehman
+
+09mar2020
+1 Year
+
+16mar2020
+5 Year
+
+10 Year
+
+(f) Government CIP During Lehman
+
+150
+
+250
+
+200
+Basis Points
+
+Basis Points
+
+100
+150
+
+100
+
+50
+50
+
+0
+
+0
+08sep2008
+3 Month
+
+15sep2008
+1 Year
+
+22sep2008
+5 Year
+
+08sep2008
+
+10 Year
+
+3 Month
+
+15sep2008
+1 Year
+
+22sep2008
+5 Year
+
+10 Year
+
+Notes: This figure plots the government and benchmark CIP deviation (average of G10) around key events.
+Both measures are based on SOFR for the Tariff War, and on IBOR for Covid (with an additional 3m SOFR
+benchmark CIP for reference) and for Lehman. For the Tariff War, the vertical line is Liberation Day April
+2, 2025, for Covid it is Monday March 9, 2020, and for Lehman it is September 15, 2008.
+
+43
+
+Figure 9: Government debt and swap spreads
+(a) Including Central Bank Holdings
+.6
+
+SEK
+
+.4
+DKK
+
+Swap Spread
+
+NOK
+
+EUR
+CAD
+
+CHF
+AUD
+
+.2
+
+NZD
+JPY
+
+0
+USD
+
+GBP
+
+−.2
+0
+
+.5
+
+1
+
+1.5
+
+Debt/GDP
+
+(b) Excluding Central Bank Holdings
+.6
+
+SEK
+
+.4
+Swap Spread
+
+NOK
+
+DKK
+EUR
+CAD
+
+CHF
+AUD
+
+.2
+
+NZD
+JPY
+
+0
+USD GBP
+
+−.2
+0
+
+.5
+
+1
+Debt/GDP
+
+1.5
+
+2
+
+Notes: This chart plots the average spread between 10-year interest rate swap and the government bond yield
+against the average government debt over GDP over the period 2010-2025. Panel (a) shows the relationship
+for total government debt outstanding. Panel (b) shows the relationship excluding government debt held by
+the central bank.
+44
+
+Table 1: IBOR and Alternative Benchmark Rates
+
+Currency
+
+IBOR Rate
+
+Alternative Benchmark Rate
+
+G10
+USD
+CAD
+CHF
+EUR
+GBP
+JPY
+
+US London Interbank Offered Rate (LIBOR)
+Canada Bankers Acceptances (CDOR)
+CHF LIBOR
+Euro Interbank Offered Rate (EURIBOR)
+GBP LIBOR
+JPY LIBOR
+
+Secured Overnight Financing Rate (SOFR)
+Canadian Overnight Repo Rate Average (CORRA)
+Swiss Average Rate Overnight Fixing (SARON)
+Euro Short Term Rate (eSTR)
+Sterling Overnight Index Average (SONIA)
+Tokyo Overnight Average Rate (TONAR)
+
+EME
+IDR
+ILS
+KRW
+MYR
+PLN
+RUB
+THB
+TRY
+ZAR
+
+Bank Indonesia Jakarta Interbank Offering Rate (JIBOR)
+Bank Of Israel Tel Aviv Interbank Offered Rate (TELBOR)
+KRW Certificate Of Deposit Rate
+Kuala Lumpur Interbank Offered Rate (KLIBOR)
+Warsaw Interbank Offered Rate (WIBOR)
+NFEA Moscow Prime Offered Rate (MosPrime Rate)
+Bangkok Interbank Offered Rate (BIBOR)
+Turkish Lira Interbank Offer Rate (TRLIBOR)
+Safe South Africa Johannesburg Interbank Agreed Rate (JIBAR)
+
+Indonesia Overnight Index Average (IndONIA)∗
+Shekel Overnight Interest Rate (SHIR)∗
+Korea Overnight Financing Repo Rate (KOFR)
+Malaysia Overnight Rate (MYOR)∗
+Warsaw Interest Rate Overnight (WIRON)∗
+Ruble Overnight Index Average (RUONIA)
+Thai Overnight Repurchase Rate (THOR)
+Turkish Lira Overnight Reference Rate (TLREF)∗
+South African Rand Overnight Index Average (ZARONIA)∗
+
+Notes: This table lists IBOR rates and alternative benchmark rates for countries that have introduced
+them. * denotes alternative benchmark rates that have been introduced, though cross-currency basis swaps
+referencing these rates have not yet been observed.
+
+45
+
+Table 2: Summary statistics of the 5-year Government Bond CIP Deviations
+Full Sample
+
+2000-2006 2010-2020 2021-2025
+
+AUD
+Mean
+Std. Error
+N
+
+-21.9***
+(2.7)
+7,070
+
+7.4**
+(2.7)
+1,815
+
+-39.9***
+(2.6)
+2,807
+
+-45.7***
+(4.4)
+1,088
+
+CAD
+Mean
+Std. Error
+N
+
+-2.6
+(2.6)
+6,335
+
+24.2***
+(2.6)
+1,620
+
+-18.7***
+(1.8)
+2,822
+
+-23.4***
+(1.9)
+1,096
+
+CHF
+Mean
+Std. Error
+N
+
+22.9***
+(2.7)
+6,405
+
+28.4***
+(2.9)
+1,609
+
+29.5***
+(2.9)
+2,835
+
+-20.0***
+(4.5)
+1,083
+
+DKK
+Mean
+Std. Error
+N
+
+20.1***
+(2.8)
+6,289
+
+31.5***
+(2.1)
+1,606
+
+15.8***
+(2.0)
+2,812
+
+-16.8***
+(3.0)
+1,038
+
+EUR
+Mean
+Std. Error
+N
+
+9.5***
+(2.7)
+6,495
+
+31.9***
+(1.7)
+1,701
+
+3.5
+(2.1)
+2,813
+
+-35.3***
+(3.4)
+1,105
+
+GBP
+Mean
+Std. Error
+N
+
+0.7
+(2.4)
+6,861
+
+12.5***
+(3.4)
+1,677
+
+-0.5
+(2.7)
+2,785
+
+-28.5***
+(4.2)
+1,098
+
+JPY
+Mean
+Std. Error
+N
+
+52.5***
+(2.2)
+7,012
+
+50.3***
+(4.1)
+1,797
+
+61.3***
+(3.1)
+2,756
+
+26.4***
+(2.3)
+1,060
+
+NOK
+Mean
+Std. Error
+N
+
+-9.8***
+(2.5)
+6,173
+
+14.6***
+(1.9)
+1,548
+
+-24.9***
+(3.0)
+2,773
+
+-22.1***
+(1.9)
+1,053
+
+NZD
+Mean
+Std. Error
+N
+
+-29.1***
+(2.5)
+6,160
+
+-15.2***
+(4.4)
+1,305
+
+-40.3***
+(2.6)
+2,836
+
+-28.5***
+(4.9)
+1,084
+
+SEK
+Mean
+Std. Error
+N
+
+-14.9***
+(3.2)
+6,374
+
+19.3***
+(1.6)
+1,638
+
+-31.2***
+(2.2)
+2,804
+
+-55.1***
+(4.3)
+1,074
+
+Total
+Mean
+Std. Error
+N
+
+3.1**
+(1.1)
+65,174
+
+21.4***
+(1.3)
+16,316
+
+-4.6**
+(1.7)
+28,043
+
+-25.1***
+(1.9)
+10,779
+
+Notes: This table reports summary statistics for the mean government bond CIP deviations between the
+U.S. Treasury and foreign government bonds. The standard errors are based on Newey-West standard
+errors with a 91-day lag, * p<0.05, ** p<0.01, *** p<0.001
+46
+
+Table 3: Summary statistics of the 5-year Benchmark CIP Deviations
+Full Sample
+
+2000-2006 2010-2020 2021-2025
+
+AUD
+Mean
+Std. Error
+N
+
+-14.5***
+(0.9)
+7,114
+
+-9.5***
+(0.5)
+1,815
+
+-24.2***
+(0.7)
+2,808
+
+-8.0***
+(1.3)
+1,131
+
+CAD
+Mean
+Std. Error
+N
+
+-1.9
+(1.0)
+6,404
+
+-10.7***
+(0.7)
+1,620
+
+1.5
+(1.4)
+2,861
+
+8.5***
+(1.2)
+1,126
+
+CHF
+Mean
+Std. Error
+N
+
+22.5***
+(1.8)
+6,442
+
+2.2***
+(0.1)
+1,609
+
+34.0***
+(2.1)
+2,836
+
+30.9***
+(3.8)
+1,119
+
+DKK
+Mean
+Std. Error
+N
+
+33.1***
+(2.4)
+6,372
+
+2.6***
+(0.4)
+1,606
+
+45.1***
+(1.9)
+2,863
+
+50.4***
+(3.9)
+1,070
+
+EUR
+Mean
+Std. Error
+N
+
+16.2***
+(1.5)
+6,512
+
+-0.0
+(0.4)
+1,701
+
+26.9***
+(1.8)
+2,816
+
+16.1***
+(2.3)
+1,119
+
+GBP
+Mean
+Std. Error
+N
+
+5.7***
+(0.9)
+6,892
+
+0.9*
+(0.4)
+1,677
+
+4.5***
+(1.1)
+2,794
+
+10.3***
+(2.2)
+1,120
+
+JPY
+Mean
+Std. Error
+N
+
+36.5***
+(2.7)
+7,100
+
+5.3***
+(0.8)
+1,797
+
+58.9***
+(2.4)
+2,793
+
+57.4***
+(4.4)
+1,111
+
+NOK
+Mean
+Std. Error
+N
+
+11.8***
+(0.9)
+6,268
+
+4.7***
+(0.3)
+1,548
+
+12.8***
+(1.2)
+2,831
+
+17.6***
+(1.7)
+1,090
+
+NZD
+Mean
+Std. Error
+N
+
+-15.4***
+(1.5)
+6,238
+
+-3.7***
+(0.5)
+1,305
+
+-29.8***
+(1.1)
+2,865
+
+-0.2
+(2.2)
+1,133
+
+SEK
+Mean
+Std. Error
+N
+
+6.3***
+(0.8)
+6,442
+
+1.8***
+(0.2)
+1,638
+
+5.0***
+(1.1)
+2,833
+
+15.7***
+(1.7)
+1,113
+
+Total
+Mean
+Std. Error
+N
+
+10.1***
+(0.7)
+65,784
+
+-0.6
+(0.4)
+16,316
+
+13.4***
+(1.4)
+28,300
+
+19.6***
+(1.7)
+11,132
+
+Notes: This table reports summary statistics for the mean benchmark CIP deviations between the U.S.
+Treasury and foreign government bonds. The standard errors are based on Newey-West standard errors
+with a 91-day lag, * p<0.05, ** p<0.01, *** p<0.00147
+
+Table 4: Decomposition of Government Bond CIP Deviations
+
+’10-’15
+
+’16-’20
+
+’21-’25
+
+UST Premium - 3m
+
+9.51***
+(1.51)
+
+15.79***
+(3.41)
+
+3.52
+(4.83)
+
+UST Premium - 1y
+
+8.33***
+(1.91)
+
+11.30***
+(4.16)
+
+-3.90
+(2.60)
+
+UST Premium - 5y
+
+-1.67
+(1.68)
+
+-8.24***
+(2.68)
+
+-25.12***
+(3.42)
+
+UST Premium - 10y
+
+-11.87***
+(1.21)
+
+-16.37***
+(2.61)
+
+-26.01***
+(2.27)
+
+Benchmark CIP - 3m
+
+20.39***
+(2.56)
+
+17.56***
+(2.96)
+
+22.53***
+(2.33)
+
+Benchmark CIP - 1y
+
+17.34***
+(1.90)
+
+16.95***
+(2.41)
+
+23.01***
+(2.61)
+
+Benchmark CIP - 5y
+
+12.89***
+(1.44)
+
+14.14***
+(2.18)
+
+19.98***
+(2.77)
+
+Benchmark CIP - 10y
+
+8.91***
+(1.37)
+
+11.80***
+(2.01)
+
+19.03***
+(2.97)
+
+U.S. Swap Spread - 3m
+
+21.57***
+(2.24)
+
+24.73***
+(2.76)
+
+-0.25
+(1.85)
+
+U.S. Swap Spread - 1y
+
+20.54***
+(2.03)
+
+19.09***
+(2.94)
+
+2.59
+(3.71)
+
+U.S. Swap Spread - 5y
+
+16.02***
+(2.43)
+
+2.77
+(1.90)
+
+-20.24***
+(5.03)
+
+U.S. Swap Spread - 10y
+
+5.89***
+(1.41)
+
+-5.50**
+(2.40)
+
+-26.41***
+(5.78)
+
+For. Swap Spread - 3m
+
+32.45***
+(3.39)
+
+26.51***
+(1.10)
+
+18.78***
+(3.36)
+
+For. Swap Spread - 1y
+
+29.57***
+(2.73)
+
+24.76***
+(1.40)
+
+29.48***
+(4.92)
+
+For. Swap Spread - 5y
+
+30.59***
+(2.34)
+
+25.15***
+(1.51)
+
+24.86***
+(4.70)
+
+For. Swap Spread - 10y
+
+26.69***
+(2.34)
+
+22.66***
+(1.93)
+
+18.64***
+(5.18)
+
+Broad Dollar Index
+
+95.02***
+(1.78)
+
+114.24***
+(0.93)
+
+120.01***
+(1.44)
+
+Notes: This table reports the mean and standard error of the mean government CIP deviations between the
+U.S. Treasuries of G10 currency government bonds and their components. Statistics are based on weekly
+averages, and standard errors are calculated using Newey-West with a 26-week lag. * p<0.05, ** p<0.01,
+*** p<0.001
+
+48
+
+Table 5: Risk Sensitivity of U.S. Treasury Convenience and its Components
+
+’10-’15
+
+∆ log(VIX)
+’16-’20
+’21-’25
+
+’10-’15
+
+∆ log(S&P 500)
+’16-’20
+’21-’25
+
+’10-’15
+
+∆IG Spread
+’16-’20
+’21-’25
+
+UST Premium - 3m
+
+5.72
+(3.98)
+
+6.28
+(4.54)
+
+4.23
+(2.79)
+
+-52.81***
+(19.43)
+
+-102.21*
+(61.91)
+
+-35.36
+(23.31)
+
+16.24*
+(8.79)
+
+25.83***
+(3.13)
+
+8.31
+(8.45)
+
+UST Premium - 1y
+
+8.65**
+(3.94)
+
+-0.40
+(1.61)
+
+-3.21***
+(0.93)
+
+-83.30***
+(21.04)
+
+-19.16
+(20.62)
+
+19.22**
+(8.57)
+
+32.24***
+(7.11)
+
+7.39***
+(1.55)
+
+-23.48***
+(8.53)
+
+UST Premium - 5y
+
+6.37***
+(2.17)
+
+-0.02
+(1.02)
+
+-5.50***
+(1.47)
+
+-52.51***
+(11.27)
+
+0.95
+(6.76)
+
+38.45***
+(10.21)
+
+20.24***
+(3.35)
+
+-2.81***
+(1.06)
+
+-11.17***
+(3.96)
+
+UST Premium - 10y
+
+4.69**
+(2.00)
+
+-1.10
+(0.79)
+
+-4.54***
+(1.57)
+
+-47.41***
+(12.44)
+
+12.21**
+(6.05)
+
+28.91**
+(11.50)
+
+19.20***
+(3.69)
+
+-5.56***
+(0.92)
+
+-8.46**
+(4.10)
+
+Benchmark CIP - 3m
+
+8.19**
+(3.64)
+
+3.48
+(2.57)
+
+5.60***
+(1.96)
+
+-74.71***
+(21.95)
+
+-29.01
+(20.44)
+
+-35.73***
+(12.70)
+
+25.25***
+(4.15)
+
+4.55*
+(2.65)
+
+30.02***
+(9.61)
+
+Benchmark CIP - 1y
+
+3.85**
+(1.52)
+
+1.60**
+(0.75)
+
+1.85***
+(0.45)
+
+-41.44***
+(11.38)
+
+-14.31**
+(6.36)
+
+-14.36***
+(2.20)
+
+16.56***
+(2.43)
+
+2.01***
+(0.65)
+
+12.07***
+(2.08)
+
+Benchmark CIP - 5y
+
+2.72***
+(0.92)
+
+0.85**
+(0.36)
+
+1.60***
+(0.37)
+
+-28.02***
+(6.66)
+
+-7.93**
+(3.23)
+
+-13.83***
+(2.54)
+
+13.32***
+(1.93)
+
+1.03**
+(0.44)
+
+7.44***
+(1.61)
+
+Benchmark CIP - 10y
+
+2.44***
+(0.73)
+
+0.62**
+(0.28)
+
+1.34***
+(0.41)
+
+-24.94***
+(5.32)
+
+-5.47*
+(3.22)
+
+-12.57***
+(2.66)
+
+10.37***
+(1.66)
+
+0.47
+(0.45)
+
+6.20***
+(1.82)
+
+U.S. Swap Spread - 3m
+
+0.86
+(1.45)
+
+4.95*
+(2.96)
+
+-1.15
+(1.26)
+
+-11.81
+(9.34)
+
+-94.76*
+(49.25)
+
+12.24
+(9.01)
+
+8.14**
+(4.08)
+
+26.14***
+(2.60)
+
+-4.58
+(4.84)
+
+U.S. Swap Spread - 1y
+
+5.31
+(3.55)
+
+-1.56
+(1.41)
+
+-4.36**
+(1.81)
+
+-55.88***
+(18.28)
+
+-10.29
+(17.39)
+
+19.70
+(14.64)
+
+23.45***
+(7.01)
+
+7.84***
+(1.73)
+
+-28.10***
+(10.77)
+
+U.S. Swap Spread - 5y
+
+5.83***
+(2.02)
+
+-1.14
+(1.00)
+
+-4.98**
+(2.17)
+
+-47.18***
+(10.60)
+
+12.62**
+(6.09)
+
+36.79**
+(14.46)
+
+19.43***
+(4.45)
+
+-3.19***
+(0.68)
+
+-10.61*
+(5.44)
+
+U.S. Swap Spread - 10y
+
+4.02**
+(1.70)
+
+-2.09**
+(0.96)
+
+-4.65*
+(2.47)
+
+-38.52***
+(8.83)
+
+24.26**
+(11.67)
+
+32.20*
+(16.71)
+
+16.05***
+(3.44)
+
+-6.67***
+(0.75)
+
+-5.02
+(6.73)
+
+For. Swap Spread - 3m
+
+3.27*
+(1.88)
+
+2.21***
+(0.79)
+
+0.26
+(0.95)
+
+-33.38**
+(14.49)
+
+-21.88***
+(5.67)
+
+9.40
+(7.39)
+
+16.91***
+(4.42)
+
+4.86***
+(0.70)
+
+16.40**
+(7.09)
+
+For. Swap Spread - 1y
+
+0.46
+(0.89)
+
+0.61*
+(0.33)
+
+0.60
+(1.17)
+
+-13.73**
+(6.66)
+
+-6.23***
+(2.24)
+
+-13.11
+(11.12)
+
+7.66***
+(2.19)
+
+2.51***
+(0.33)
+
+6.81***
+(2.59)
+
+For. Swap Spread - 5y
+
+2.01*
+(1.10)
+
+-0.13
+(0.32)
+
+2.09**
+(0.95)
+
+-21.86***
+(6.01)
+
+3.11
+(4.29)
+
+-14.52**
+(5.99)
+
+12.05***
+(3.71)
+
+0.66
+(0.59)
+
+8.28***
+(2.38)
+
+For. Swap Spread - 10y
+
+1.60
+(1.16)
+
+-0.33
+(0.66)
+
+1.18
+(1.01)
+
+-15.30**
+(6.93)
+
+6.78
+(8.75)
+
+-8.36
+(5.58)
+
+6.73*
+(3.80)
+
+-0.65
+(1.03)
+
+9.78***
+(3.07)
+
+Broad Dollar Index
+
+1.92***
+(0.56)
+
+1.15***
+(0.39)
+
+1.44***
+(0.37)
+
+-19.28*** -15.17***
+(2.78)
+(3.88)
+
+-12.63***
+(2.45)
+
+6.17***
+(0.92)
+
+3.04***
+(0.27)
+
+4.20***
+(0.72)
+
+Notes: This table reports the beta coefficients from regressions of changes in the U.S. Treasury convenience
+and its components on changes in risk measures, including the VIX index, the S&P 500 index, and
+investment grade bond spreads. The regressions are based on weekly changes, with standard errors
+computed using Newey-West with a 26-week lag. * p<0.05, ** p<0.01, *** p<0.001
+
+49
+
+Table 6: Effect of government bond supply on the U.S. Treasury Convenience (quarterly
+frequency, 2000-2024)
+(1)
+(2)
+(3)
+All
+00-07
+08-24
+-37.10*** -85.89*** -59.28***
+(5.75)
+(28.24)
+(10.67)
+
+(4)
+08-24
+-53.46***
+(7.27)
+
+Debt
+log( GDP
+)i
+
+8.69**
+(3.42)
+
+14.56***
+(5.22)
+
+22.70***
+(4.26)
+
+23.11***
+(4.11)
+
+VIX
+
+1.06***
+(0.36)
+
+0.67
+(0.45)
+
+0.87**
+(0.40)
+
+0.71*
+(0.39)
+
+Debt
+log( GDP
+)US
+
+CDSUS,n
+
+-0.30**
+(0.14)
+
+CDSi,n
+
+0.33***
+(0.06)
+676
+0.52
+
+Observations
+R2
+
+1,000
+0.48
+
+320
+0.30
+
+680
+0.48
+
+Notes: The table reports panel regression results of the U.S. Treasury convenience on the relative supply
+and relative credit risks of U.S. and foreign government debt for the 5-year tenor across various time periods.
+The regressions include country fixed effects. Heteroskedasticity autocorrelation spatial correlation robust
+Debt
+Debt
+standard errors were used with an 8-quarter lag. The variables log( GDP
+)US and log( GDP
+)i represent the
+ratios of U.S. federal debt and country i’s federal debt to nominal GDP, respectively. The VIX is the CBOE
+Volatility Index, and CDSUS,n and CDSi,n are the CDS spreads of U.S. Treasuries and foreign government
+debt with maturities equivalent to those of the U.S. Treasury Premium, respectively. The U.S. Treasury
+Premium is from the authors’ calculations using data from Bloomberg. Data on U.S. and foreign federal
+debt are from national websites; data on GDP are from Haver Analytics; data on CDS are from Markit;
+and data on VIX are from Bloomberg. Standard errors in parentheses. * p<0.10, ** p<0.05, *** p<0.01
+
+50
+
+Table 7: Effect of tenor-specific U.S. Treasury supply on the U.S. Treasury Convenience
+(quarterly frequency, 2000-2024)
+
+Debt
+)US,n
+log ( GDP
+
+Debt
+log( GDP
+)i
+
+(1)
+(2)
+All
+All
+-25.67*** -28.33***
+(4.35)
+(8.97)
+4.50
+(3.18)
+
+5.36**
+(2.56)
+
+(3)
+00-07
+-68.61***
+(17.82)
+
+(4)
+08-24
+0.71
+(11.50)
+
+(5)
+08-24
+-8.07
+(11.38)
+
+(6)
+10-24
+-21.48*
+(11.90)
+
+7.77***
+(2.07)
+
+15.82*** 19.24***
+(2.64)
+(2.53)
+
+20.55***
+(4.38)
+
+CDSUS,n
+
+-0.08
+(0.11)
+
+-0.10
+(0.10)
+
+CDSi,n
+
+0.44***
+(0.07)
+2,592
+0.10
+
+0.49***
+(0.07)
+2,302
+0.11
+
+Observations
+R2
+
+3,916
+0.21
+
+3,916
+0.05
+
+1,276
+0.13
+
+2,640
+0.03
+
+Notes: The table reports panel regression results of the U.S. Treasury convenience on the relative supply and
+relative credit risks of U.S. and foreign government debt for the 3-month, 1-year, 5-year, and 10-year tenors
+across various time periods. The regressions include country fixed effects. Heteroskedasticity autocorrelation
+Debt
+spatial correlation robust standard errors were used with an 8-quarter lag. The variable log( GDP
+)US,n is
+the ratio of outstanding U.S. Treasury bonds with approximately n-year maturities to nominal U.S. GDP,
+Debt
+and the variable log( GDP
+)i is the ratio of country i’s federal debt to nominal GDP. The VIX is the CBOE
+Volatility Index, and CDSUS,n and CDSi,n are the n-year CDS spreads of U.S. Treasuries and foreign
+government debt, respectively. The U.S. Treasury Premium is from the authors’ calculations using data
+from Bloomberg. Data on U.S. Treasuries outstanding are from CRSP; data on foreign government debt
+are from national websites; data on GDP are from Haver Analytics; data on CDS are from Markit; and
+data on VIX are from Bloomberg. Standard errors in parentheses. * p<0.10, ** p<0.05, *** p<0.01
+
+51
+
+References
+———. 2024. The term structure of covered interest rate parity violations. The Journal of
+Finance 79:2077–114.
+Avdjiev, S., W. Du, C. Koch, and H. S. Shin. 2019. The dollar, bank leverage, and deviations
+from covered interest parity. American Economic Review: Insights 1:193–208.
+———. 2022a. Central bank swap lines: Evidence on the effects of the lender of last resort.
+The Review of Economic Studies 89:1654–93.
+———. 2022b. The economics of liquidity lines between central banks. Annual Review of
+Financial Economics 14:57–74.
+Caballero, R. J., E. Farhi, and P.-O. Gourinchas. 2008. An equilibrium model of “global
+imbalances” and low interest rates. American economic review 98:358–93.
+Caramichael, J., M. G. Gopinath, and G. Y. Liao. 2021. Us dollar currency premium in
+corporate bonds. International Monetary Fund.
+Cassidy, W., and S. Mirani. 2025. The debt ceiling’s disruptive impact: Evidence from many
+markets. Fama-Miller Working Paper, Chicago Booth Research Paper 25:167–81.
+Cerutti, E. M., M. Obstfeld, and H. Zhou. 2021. Covered interest parity deviations: Macrofinancial determinants. Journal of International Economics 130.
+Chahrour, R., and R. Valchev. 2022. Trade finance and the durability of the dollar. The
+Review of Economic Studies 89:1873–910.
+Coppola, A., A. Krishnamurthy, and C. Xu. 2023. Liquidity, debt denomination, and currency dominance. Working Paper, National Bureau of Economic Research.
+Correa, R., W. Du, and G. Liao. 2025. U.S. banks and global liquidity. Journal of Political
+Economy Macroeconomics .
+Diamond, W., and P. Van Tassel. 2022. Risk-free rates and convenience yields around the
+world. FRB of New York Staff Report .
+Du, W., B. Hébert, and A. W. Huber. 2023. Are intermediary constraints priced? The
+Review of Financial Studies 36:1464–507.
+Du, W., B. Hébert, and W. Li. 2023. Intermediary balance sheets and the treasury yield
+curve. Journal of Financial Economics 150:103722–.
+Du, W., J. Im, and J. Schreger. 2018. The us treasury premium. Journal of International
+Economics 112:167–81.
+Du, W., and J. Schreger. 2016. Local currency sovereign risk. The Journal of Finance
+71:1027–70.
+———. 2022. Cip deviations, the dollar, and frictions in international capital markets. In
+Handbook of International Economics, vol. 6, 147–97. Elsevier.
+Du, W., G. Strasser, and A. Verdelhan. 2025. Repo and fx swap: A tale of two markets.
+Working Paper .
+52
+
+Du, W., A. Tepper, and A. Verdelhan. 2018. Deviations from covered interest rate parity.
+The Journal of Finance 73:915–57.
+———. 2020. Still the world’s safe haven? - redesigning the us treasury market after the
+covid-19 crisis. Hutchins Center Working Paper No.2 .
+Eichengreen, B. 2011. Exorbitant privilege: The rise and fall of the dollar and the future of
+the international monetary system. Oxford University Press.
+Engel, C., and S. P. Y. Wu. 2018. Liquidity and exchange rates: An empirical investigation.
+NBER Working Paper No. 25397 .
+Farhi, E., and M. Maggiori. 2018. A model of the international monetary system. The
+Quarterly Journal of Economics 133:295–355.
+Gopinath, G., and J. C. Stein. 2021a. Banking, trade, and the making of a dominant
+currency. The Quarterly Journal of Economics 136:783–830.
+Gourinchas, P.-O., and H. Rey. 2007. From world banker to world venture capitalist: Us
+external adjustment and the exorbitant privilege. In G7 current account imbalances: sustainability and adjustment, 11–66. University of Chicago Press.
+———. 2022. Exorbitant privilege and exorbitant duty .
+Hacioğlu-Hoke, S., D. Ostry, H. Rey, A. R. Planat, V. Stavrakeva, and J. Tang. 2024.
+Topography of the fx derivatives market: A view from london. Bank of England Working
+Paper .
+Hassan, T. A., T. M. Mertens, J. Wang, and T. Zhang. 2025. Trade war and the dollar
+anchor. Working Paper, National Bureau of Economic Research.
+He, Z., S. Nagel, and Z. Song. 2022. Treasury inconvenience yields during the covid-19 crisis.
+Journal of Financial Economics 143:57–79.
+Jermann, U. 2020. Negative swap spreads and limited arbitrage. Review of Financial Studies
+33:212–38.
+———. 2021. Foreign safe asset demand and the dollar exchange rate. Journal of Finance
+76.
+Jiang, Z., R. J. Richmond, and T. Zhang. 2025. Convenience lost. Working Paper, National
+Bureau of Economic Research.
+Kamin, S. 2025. Dollar movements and dollar dominance in the aftermath of liberation day.
+Kashyap, A. K., J. C. Stein, J. L. Wallen, and J. Younger. 2025. Treasury market dysfunction
+and the role of the central bank. Brookings Papers on Economic Activity 1.
+Keerati, R. 2020. The impact of monetary policy on the specialness of US treasuries. Working
+Paper .
+Kekre, R., and M. Lenel. 2021. The flight to safety and international risk sharing. University
+of Chicago and Prince University Working Paper .
+Klingler, S., and S. Sundaresan. 2019. An explanation of negative swap spreads: Demand
+for duration from underfunded pension plans. Journal of Finance 74:675–710.
+53
+
+Krishnamurthy, A., and A. Vissing-Jorgensen. 2012. The aggregate demand for treasury
+debt. Journal of Political Economy 120:233–67.
+Levich, R. 2017. CIP: Then and now, a brief survey of measuring and exploiting deviations
+from covered interest parity. In BIS Symposium: CIP – RIP?
+Liao, G. Y. 2020. Credit migration and covered interest rate parity. Journal of Financial
+Economics .
+Lilley, A., M. Maggiori, B. Neiman, and J. Schreger. 2022. Exchange rate reconnect. Review
+of Economics and Statistics .
+Maggiori, M. 2017. Financial intermediation, international risk sharing, and reserve currencies. American Economic Review 107:3038–71.
+Maggiori, M., B. Neiman, and J. Schreger. 2020. International currencies and capital allocation. Journal of Political Economy 128:2019–66.
+Nagel, S. 2016. The liquidity premium of near-money assets. Quarterly Journal of Economics
+131:1927–71.
+Popper, H. 1993. Long-term covered interest parity: evidence from currency swaps. Journal
+of International Money and Finance 12:439–48.
+Rime, D., A. Schrimpf, and O. Syrstad. 2019. Covered interest parity arbitrage. Working
+Paper .
+———. 2025. Our dollar, your problem: an insider’s view of seven turbulent decades of
+global finance, and the road ahead. Yale University Press.
+Thiagarajan, R., H. Im, M. Loh, P. Parab, and R. Priyaam. 2025. The great repricing: Are
+US treasuries still a safe haven? State Street Discussion Paper .
+Valchev, R. 2020. Bond convenience yields and exchange rate dynamics. American Economic
+Journal: Macroeconomics 12:124–66.
+Van Binsbergen, J. H., W. F. Diamond, and M. Grotteria. 2022. Risk-free interest rates.
+Journal of Financial Economics 143:1–29.
+Viswanath-Natraj, G. 2020. Unconventional monetary policy and covered interest rate parity
+deviations: is there a link? Working Paper .
+
+54
+
+Appendix
+A
+
+Calculating the Forward Premium with Different Benchmarks
+
+Besides the choice of domestic and foreign interest rates, the benchmark reform may also affects the calculation of forward premium, ρi,n,t , as long-term forward premium is constructed
+from a collection of interest rate and cross-currency derivatives linked to the floating rate
+benchmark. We now explain how the forward premium is calculated.
+For short-term maturities less than one year, we calculate the market implied forward
+premium directly from the forward and spot exchange rates as described in Eq. 2, since the
+outright forward Fi,n,t is directly quoted in the market. The benchmark reform does not
+affect the calculation of short-term forward premium.
+For maturities of one year or longer, we follow the market convention of quoting the
+forward premium using a combination of interest rate swaps and cross-currency basis swaps,
+based on the following formula:
+ρki,n,t = irski,n,t + bski,n,t − irsk$,n,t
+
+(A1)
+
+where irski,n,t denotes the n-year interest rate swap rate that exchanges fixed currency i
+cash flows into the floating interest rate benchmark k (referred to as the benchmark interest
+rate swap) in country i, bski,n,t is the n-year cross-currency basis swap that exchanges the
+benchmark rate in country i for U.S. benchmark rate, and irsb$,n,t is the U.S. benchmark
+interest rate swap rate that exchange fixed dollar cash flows into U.S. benchmark rate.21 We
+21
+
+For some currencies—notably CNH, KRW, and TRY in our sample—we calculate the forward premium
+using cross-currency basis swaps that exchange fixed cash flows in those currencies for U.S. benchmark rates,
+as these swaps are more actively traded than floating-to-floating cross-currency basis swaps. For emerging
+
+A.1
+
+calculate the forward premium for both IBOR and SOFR benchmarks.
+
+B
+
+Impact of Debt Ceiling Constraints on the UST Convenience
+
+Next, we investigate how a series of debt ceiling crises in the United States over the past
+decade have affected the U.S. Treasury Premium. For this analysis, we employ daily data to
+examine the impact of U.S. debt ceiling constraints on the U.S. Treasury Premium.
+Our regression framework is given by:
+Φi,n,t = α+η·Debt Ceilingt +β ·log
+
+ Debt 
+GDP U SD,n,t
+
++γ ·log
+
+ Debt 
+GDP i,t
+
++ζ ·VIXi,n,t +ϵi,n,t (A2)
+
+where Debt Ceilingt is a dummy variable indicating whether the U.S. government faced a
+debt ceiling constraint during that period, and other variables are the same as specified in
+Section 6. We estimate the regressions for the period spanning 2000–2024, when debt ceiling
+constraints were prevalent, across different tenors.
+To identify periods of debt ceiling constraints, we follow the same procedure as Cassidy
+and Mirani (2025). A debt ceiling constraint period commences when the U.S. Treasury
+reaches the debt ceiling and exhausts its “extraordinary measures,” which permit the issuance
+of a small additional amount of debt. This period ends when a bill raising the debt limit or
+temporarily suspending the debt ceiling is enacted. During these periods, since the Treasury
+is prohibited by law from issuing additional debt, it typically stops issuing new Treasury
+bills, allowing existing ones to mature, while continuing to issue Treasury bonds according
+to its typical issuance schedule. This results in a decline in Treasury bill supply and an
+increase in Treasury bond supply. Therefore, we control for the supply of Treasuries in our
+market currencies with capital controls, dollar investors can still hedge foreign currency exposure via nondeliverable swap markets, and we similarly calculate the forward premium based on these swaps.
+
+A.2
+
+regressions.
+Table A5 suggests that when U.S. debt ceiling constraints bind, the U.S. Treasury Premium declines by about 5 basis points at short tenors (up to 1 year), while medium- and
+long-tenor measures remain unaffected. Other variables in the regressions maintain the same
+signs as reported in Section 6, with increases in U.S. debt associated with reductions in the
+U.S. Treasury Premium, while increases in foreign debt and VIX are linked to increases in
+the premium.
+These results are consistent with the notion that during periods of binding U.S. debt
+ceiling constraints, U.S. Treasury bills are exposed to elevated “roll-over risks” and a higher
+probability of default, whereas Treasury bonds are not subject to the same concerns among
+investors. The incremental increase in default risks during these constraint episodes likely
+contributed to the secular decline in the short-tenor U.S. Treasury Premium.
+
+A.3
+
+Figure A1: Benchmark Rate Composition of USD Cross-currency Swap Transaction
+Volumes
+
+Notes: This figure plots the transaction volume of cross-currency basis swaps for all swaps converting U.S.
+dollars to other currencies across all tenors. The top panel displays the benchmark rate composition on the
+U.S. dollar leg, while the bottom panel shows the benchmark rate composition on the non-U.S. dollar legs.
+In the bottom panel, “SOFR” denotes all alternative benchmark rates in other currencies.
+
+A.4
+
+Figure A2: Correlation between Benchmark CIP Deviation and US Treasury Premium, 5
+year
+
+Notes: This chart plots five-year rolling correlation between weekly changes in the average G10 benchmark
+CIP and average G10 government bond CIP deviations.
+
+A.5
+
+Figure A3: U.S. Treasury Premium during reciprocal tariffs announcement
+
+AUD
+
+CAD
+
+-20
+-30
+
+-20
+
+-40
+
+-25
+
+-50
+
+-30
+
+-60
+
+-35
+
+01jan2025
+
+CHF
+-20
+
+-15
+
+01mar2025
+
+01may2025
+
+01jul2025
+
+01jan2025
+
+-25
+-30
+-35
+-40
+-45
+01mar2025
+
+DKK
+
+01may2025
+
+01jul2025
+
+01jan2025
+
+EUR
+
+-30
+-40
+
+15
+
+-20
+
+10
+0
+
+-60
+
+-35
+
+-5
+
+-70
+
+-40
+
+-10
+
+01may2025
+
+01jul2025
+
+01jan2025
+
+01mar2025
+
+JPY
+
+01jul2025
+
+01jan2025
+
+01mar2025
+
+NOK
+
+25
+
+01may2025
+
+01jul2025
+
+01may2025
+
+01jul2025
+
+NZD
+10
+0
+
+-20
+
+20
+
+-10
+
+15
+
+-30
+
+10
+5
+01jan2025
+
+01may2025
+
+-10
+
+30
+
+01jul2025
+
+5
+
+-30
+
+01mar2025
+
+01may2025
+
+GBP
+
+-15
+-25
+
+-50
+
+01jan2025
+
+01mar2025
+
+-20
+
+-40
+01mar2025
+
+01may2025
+
+01jul2025
+
+01may2025
+
+01jul2025
+
+01jan2025
+
+-30
+01mar2025
+
+01may2025
+
+01jul2025
+
+01jan2025
+
+01mar2025
+
+SEK
+-50
+-60
+-70
+-80
+-90
+01jan2025
+
+01mar2025
+
+Notes: The chart plots the 10-year U.S. Treasury convenience vis-à-vis G10 currencies. Vertical dash line
+indicate the date of the reciprocal tariffs announcement (April 2, 2025).
+
+A.6
+
+Figure A4: Benchmark Rate Composition of G10 Cross-currency Swap Transaction
+Volumes
+
+Notes: This figure plots the transaction volume of cross-currency basis swaps for all swaps converting specific
+G10 currencies to other foreign currencies. The top panel displays the benchmark rate composition on the
+G10 currency’s own leg, while the bottom panel shows the benchmark rate composition on the opposite
+foreign currency leg. In both panels, “SOFR” denotes all alternative benchmark rates.
+
+A.7
+
+Figure A5: Government CIP Deviations for G10 Currency Countries: 5-Year IBOR-based
+vs. Alternative Rate-Based
+
+AUD
+
+CAD
+
+CHF
+
+10
+0
+-10
+-20
+-30
+-40
+
+0
+-20
+-40
+-60
+-80
+-100
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+40
+20
+0
+-20
+-40
+-60
+2020
+
+2021
+
+2022
+
+DKK
+
+2023
+
+2024
+
+2025
+
+0
+
+-40
+
+-20
+
+-60
+
+-40
+
+-80
+2023
+
+2024
+
+2025
+
+2020
+
+2021
+
+2022
+
+JPY
+
+2023
+
+2024
+
+2025
+
+20
+
+60
+
+0
+
+40
+
+-20
+
+20
+
+2022
+
+2023
+
+2024
+
+2025
+
+2024
+
+2025
+
+2025
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2024
+
+2025
+
+NZD
+
+-60
+2021
+
+2024
+
+20
+0
+-20
+-40
+-60
+-80
+
+-40
+
+0
+2020
+
+2020
+
+NOK
+
+80
+
+2023
+
+GBP
+
+-20
+
+2022
+
+2022
+
+20
+0
+-20
+-40
+-60
+-80
+
+0
+
+20
+
+2021
+
+2021
+
+EUR
+
+40
+
+2020
+
+2020
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2020
+
+2021
+
+2022
+
+2023
+
+SEK
+-20
+-40
+-60
+-80
+-100
+2020
+
+2021
+
+2022
+
+2023
+
+IBOR
+
+Alternative Benchmark
+
+Notes: This chart plots 5-year IBOR-based and alternative benchmark-based government CIP deviations for
+G10 currency countries during overlapping periods.
+
+A.8
+
+Figure A6: Government CIP Deviations for Emerging Market Countries: 5-Year
+IBOR-based vs. Alternative Rate-Based
+
+CLP
+
+CNH
+
+150
+
+150
+
+100
+
+100
+
+50
+
+50
+
+0
+
+0
+
+-50
+
+-50
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+CNY
+
+2020
+
+2021
+
+2022
+
+HUF
+
+2023
+
+2024
+
+2025
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+0
+-50
+2023
+
+2024
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+0
+-50
+2022
+
+2023
+
+2022
+
+2023
+
+2024
+
+2025
+
+2024
+
+2025
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2020
+
+2021
+
+2022
+
+TRY
+
+2025
+
+2020
+
+IBOR
+
+2023
+
+2024
+
+2025
+
+2024
+
+2025
+
+ZAR
+300
+250
+200
+150
+100
+50
+
+-4000
+2024
+
+2025
+
+0
+
+-3000
+
+2023
+
+2023
+
+-100
+
+-2000
+
+2022
+
+2022
+
+100
+
+0
+
+2021
+
+2021
+
+PHP
+
+-1000
+
+2020
+
+2020
+
+200
+
+-100
+
+50
+
+2024
+
+0
+2021
+
+THB
+
+0
+
+2025
+
+50
+
+2020
+
+2025
+
+2024
+
+100
+
+PEN
+
+2024
+
+2023
+
+KRW
+
+0
+
+2023
+
+2022
+
+150
+
+50
+
+2022
+
+2021
+
+200
+
+-50
+2021
+
+2020
+
+INR
+
+100
+
+-50
+
+2025
+
+100
+
+2020
+
+-100
+
+2024
+
+0
+
+PLN
+50
+
+2021
+
+2023
+
+-50
+2020
+
+2025
+
+100
+
+2020
+
+2022
+
+MYR
+
+50
+
+2022
+
+2021
+
+50
+
+250
+200
+150
+100
+50
+0
+2021
+
+0
+-200
+
+100
+
+MXN
+100
+
+2020
+
+200
+
+2020
+
+200
+150
+100
+50
+0
+-50
+2020
+
+400
+
+IDR
+
+150
+100
+50
+0
+-50
+-100
+
+COP
+
+100
+50
+0
+-50
+-100
+-150
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2020
+
+2021
+
+2022
+
+2023
+
+Alternative Benchmark
+
+Notes: This chart plots 5-year IBOR-based and alternative benchmark-based government CIP deviations for
+emerging market countries during overlapping periods.
+
+A.9
+
+Figure A7: Government CIP Deviations and foreign-US CDS Spreads
+
+−50
+
+0
+
+Basis Points
+
+50
+
+100
+
+Developed Markets
+
+2005
+
+2010
+
+2015
+
+Government CIP Deviation
+
+2020
+
+2025
+
+CDS Spread
+
+0
+
+100
+
+Basis Points
+200
+300
+
+400
+
+500
+
+Emerging Markets
+
+2005
+
+2010
+
+2015
+
+Government CIP Deviation
+
+2020
+
+2025
+
+CDS Spread
+
+Notes: This chart plots the median government CIP deviations and median CDS spreads at the 5-year tenor
+for G10 markets (top panel) and emerging markets (bottom panel) over the U.S. CDS spread.
+
+-
+
+A.10
+
+Table A1: Summary statistics of benchmark CIP deviation during transition period
+
+3-month tenor
+xSOFR
+t
+
+xIBOR
+t
+
+x̂t
+
+x̂5th
+t
+
+x̂95th
+t
+
+σx̂t
+
+ρ(xSOFR
+, xIBOR
+)
+t
+t
+
+σxSOFR
+t
+
+σxIBOR
+
+First SOFR
+
+Last IBOR
+
+Days
+
+t
+
+G10
+CAD
+CHF
+EUR
+GBP
+JPY
+
+21.82
+31.78
+21.60
+17.34
+43.28
+
+35.04 -13.21 -35.70 4.90 13.02
+9.54 22.25
+8.81 50.43 17.61
+5.75 15.84
+0.35 36.18 14.04
+4.35 12.97
+0.14 26.78 10.37
+19.11 24.17 11.12 45.59 16.78
+
+0.23
+0.38
+0.58
+0.44
+0.66
+
+0.69
+1.20
+0.98
+1.16
+1.47
+
+04/02/18
+04/02/18
+04/03/18
+04/03/18
+04/02/18
+
+06/28/24
+12/31/21
+06/28/24
+03/28/24
+12/30/22
+
+2,279
+1,369
+2,278
+2,186
+1,733
+
+EMs
+THB
+
+31.72
+
+22.63
+
+9.14
+
+0.76
+
+0.99
+
+09/04/20
+
+06/28/24
+
+1,393
+
+xSOFR
+t
+
+xIBOR
+t
+
+x̂t
+
+-5.99 29.63
+
+10.67
+1-year tenor
+
+x̂5th
+t
+
+x̂95th
+t
+
+σx̂t
+
+ρ(xSOFR
+, xIBOR
+)
+t
+t
+
+σxSOFR
+t
+
+σxIBOR
+
+First SOFR
+
+Last IBOR Days
+
+t
+
+G10
+CAD
+CHF
+EUR
+GBP
+JPY
+
+13.73
+22.46
+16.42
+10.05
+32.43
+
+27.65 -13.92
+6.86 15.58
+8.15
+8.25
+3.63
+6.41
+18.55 13.88
+
+-20.48
+10.94
+5.26
+1.93
+7.99
+
+-6.00
+19.29
+12.75
+11.53
+21.94
+
+3.94
+2.63
+2.45
+3.37
+4.20
+
+0.27
+0.71
+0.61
+0.25
+0.80
+
+0.56
+1.73
+1.45
+1.44
+1.97
+
+06/06/22
+06/17/21
+02/23/21
+02/19/21
+02/19/21
+
+07/26/22
+12/31/21
+12/31/21
+12/31/21
+12/30/21
+
+50
+197
+311
+315
+314
+
+EMs
+THB
+
+20.95
+
+1.39
+
+-3.50 33.00
+
+15.39
+
+-0.61
+
+9.33
+
+10/07/20
+
+03/23/22
+
+532
+
+xSOFR
+t
+
+xIBOR
+t
+
+19.73
+
+10-year tenor
+x̂t
+
+x̂5th
+t
+
+x̂95th
+t
+
+σx̂t
+
+)
+, xIBOR
+ρ(xSOFR
+t
+t
+
+σxSOFR
+t
+
+σxIBOR
+
+First SOFR
+
+Last IBOR Days
+
+t
+
+G10
+CAD
+CHF
+EUR
+GBP
+JPY
+
+4.84
+39.16
+21.55
+10.76
+59.04
+
+10.85
+15.92
+10.97
+-1.61
+37.51
+
+-6.01
+23.21
+10.57
+12.37
+21.52
+
+-7.25
+18.82
+6.60
+11.33
+16.85
+
+-4.06
+26.49
+13.70
+13.51
+25.62
+
+0.77
+2.30
+2.17
+0.72
+3.37
+
+0.96
+0.86
+0.74
+0.91
+0.58
+
+0.89
+1.32
+1.46
+1.13
+1.36
+
+06/06/22
+06/17/21
+02/23/21
+02/19/21
+02/19/21
+
+07/26/22
+12/30/21
+12/30/21
+12/31/21
+12/31/21
+
+50
+196
+310
+315
+315
+
+EMs
+THB
+
+18.09
+
+29.14 -10.95
+
+-40.00
+
+60.00
+
+32.73
+
+0.59
+
+4.58
+
+10/07/20
+
+03/23/22
+
+532
+
+Notes: This table provides summary statistics of benchmark CIP deviations (xt ) for the period during
+which deviations for both IBOR-based and alternative benchmark rates-based are observable. Note that
+x̂t = xSOFR
+− xIBOR
+, and the average difference may not equal the difference in averages if there is missing
+t
+t
+data in one of the series.
+
+A.11
+
+Table A2: Summary statistics of government CIP deviation during transition period
+1-year tenor
+ΦSOFR
+t
+
+ΦIBOR
+t
+
+Φ̂t
+
+Φ̂5th
+t
+
+Φ̂95th
+t
+
+σΦ̂t
+
+)
+, ΦIBOR
+ρ(ΦSOFR
+t
+t
+
+σΦSOFR
+t
+
+σΦIBOR
+
+First SOFR Last IBOR
+
+Days
+
+t
+
+G10
+AUD
+CAD
+CHF
+DKK
+EUR
+GBP
+JPY
+NOK
+NZD
+SEK
+
+-7.30
+20.02
+13.83
+6.09
+-6.12
+-14.28
+19.22
+17.72
+-9.70
+-2.82
+
+-6.12
+22.83
+12.87
+7.81
+-4.81
+-13.94
+20.46
+19.19
+-6.09
+0.08
+
+-1.18
+-2.81
+0.96
+-1.47
+-1.31
+-0.30
+-1.22
+-1.64
+-3.65
+-0.68
+
+EMs
+CLP
+60.46
+44.32
+7.01
+CNH
+-33.52
+-31.63 -1.89
+COP
+-92.05
+34.01
+HUF
+-99.49
+-96.21 -3.28
+IDR
+-92.40
+-92.37 -0.03
+ILS
+80.66
+82.12 -1.46
+INR
+-29.99
+-30.15 -9.29
+KRW
+70.92
+81.43 -10.51
+MYR
+44.15
+46.16 -2.01
+PHP
+-101.94
+-35.87 -18.21
+PLN
+-68.23
+-66.24 -1.99
+THB
+7.84
+20.04 -11.70
+TRY -1009.29 -1011.27
+1.98
+ZAR
+29.30
+31.21 -1.58
+
+-2.96
+-9.09
+-2.46
+-8.11
+-2.46
+-1.58
+-4.04
+-4.36
+-9.40
+-4.15
+
+0.86
+1.88
+5.59
+2.09
+-0.55
+0.58
+4.46
+0.98
+2.36
+3.78
+
+1.31
+3.11
+3.02
+2.99
+0.66
+0.85
+2.73
+1.67
+3.72
+2.38
+
+0.99
+0.89
+0.73
+0.79
+0.99
+1.00
+0.92
+1.00
+0.97
+0.98
+
+0.99
+0.88
+0.94
+0.90
+1.00
+1.02
+1.19
+0.97
+0.94
+0.96
+
+10/05/21
+06/06/22
+06/17/21
+10/27/21
+02/23/21
+02/19/21
+02/19/21
+10/06/21
+09/28/21
+11/08/21
+
+07/26/22
+07/26/22
+12/31/21
+03/16/22
+12/31/21
+12/31/21
+12/30/21
+07/26/22
+06/08/22
+07/26/22
+
+294
+50
+197
+140
+311
+315
+314
+293
+253
+260
+
+-15.71
+-4.46
+
+43.30 13.98
+1.02 3.50
+
+0.82
+0.99
+
+-12.04 7.00 7.65
+-3.37 4.02 3.32
+-5.57 1.86 3.04
+-32.08 9.66 13.02
+-22.21 4.32 9.54
+-8.90 4.15 4.26
+-26.20 -4.49 8.91
+-10.44 4.81 4.62
+-41.06 2.64 16.53
+-26.64 30.09 18.93
+-18.20 16.38 10.48
+
+0.98
+0.98
+1.00
+0.97
+0.59
+0.92
+1.00
+0.99
+0.03
+1.00
+0.96
+
+0.89
+1.01
+0.09
+0.89
+1.09
+0.99
+1.05
+0.88
+1.17
+0.93
+1.07
+1.91
+1.00
+1.03
+
+02/17/22
+01/05/22
+02/17/22
+10/27/21
+02/24/22
+12/15/21
+02/24/22
+01/18/22
+01/14/22
+02/24/22
+10/27/21
+10/07/20
+01/25/22
+02/08/22
+
+03/25/22
+05/09/22
+06/30/23
+12/31/21
+03/07/22
+06/08/22
+09/09/22
+03/07/22
+03/07/22
+06/30/23
+12/31/21
+03/23/22
+03/07/22
+06/29/23
+
+36
+124
+498
+65
+11
+175
+197
+48
+52
+491
+65
+532
+41
+506
+
+First SOFR Last IBOR
+
+Days
+
+10-year tenor
+ΦSOFR
+t
+
+ΦIBOR
+t
+
+Φ̂t
+
+Φ̂5th
+t
+
+Φ̂95th
+t
+
+σΦ̂t
+
+, ΦIBOR
+)
+ρ(ΦSOFR
+t
+t
+
+σΦSOFR
+t
+
+σΦIBOR
+t
+
+G10
+AUD
+CAD
+CHF
+DKK
+EUR
+GBP
+JPY
+NOK
+NZD
+SEK
+
+-54.19
+-28.38
+-0.47
+-8.84
+-24.53
+-6.63
+36.92
+-6.23
+-57.46
+-76.34
+
+-52.10
+-26.54
+1.73
+-7.77
+-22.82
+-4.81
+40.08
+-3.92
+-53.71
+-74.66
+
+EMs
+CLP
+29.95
+-3.62
+CNH
+21.31
+22.79
+CNY
+-11.32
+79.19
+COP
+184.95 152.21
+HUF
+31.49
+30.70
+IDR
+134.25 133.20
+ILS
+72.97
+75.85
+INR
+28.78
+41.50
+KRW
+91.59
+88.03
+MYR 109.11 115.37
+PEN
+50.57
+37.10
+PHP
+96.74 111.36
+PLN
+-8.76
+-6.38
+THB
+-1.53
+71.06
+TRY -374.01 -397.22
+ZAR
+185.43 187.69
+
+-2.08
+-1.84
+-2.19
+-1.70
+-1.71
+-1.78
+-3.17
+-2.10
+-3.43
+-2.23
+
+-2.81
+-3.48
+-6.33
+-3.60
+-3.24
+-2.60
+-7.52
+-3.58
+-6.06
+-3.40
+
+-0.90
+-0.14
+2.40
+0.42
+-1.05
+-1.06
+0.21
+-1.19
+-0.72
+-1.21
+
+0.59
+1.03
+2.51
+1.41
+0.99
+0.53
+3.03
+1.38
+2.00
+0.69
+
+1.00
+0.97
+0.88
+0.99
+0.99
+0.99
+0.90
+0.98
+0.97
+1.00
+
+1.01
+1.05
+1.18
+1.14
+1.01
+0.98
+1.36
+0.97
+1.03
+0.99
+
+10/05/21
+06/06/22
+06/17/21
+10/27/21
+02/23/21
+02/19/21
+02/19/21
+10/06/21
+09/28/21
+10/18/21
+
+07/26/22
+07/26/22
+12/30/21
+03/16/22
+12/30/21
+12/31/21
+12/30/21
+07/26/22
+06/08/22
+07/26/22
+
+294
+50
+196
+140
+310
+315
+314
+293
+253
+281
+
+33.57
+26.45 38.39 5.12
+-1.48
+-8.46
+7.64 12.34
+-90.17 -91.60 -85.43 1.95
+34.13
+16.81 39.48 43.53
+0.79
+-5.72
+7.53 3.77
+1.05 -15.41 25.30 13.48
+-2.94
+-4.78 -0.89 1.43
+-10.37 -37.10
+1.73 12.07
+3.13
+2.59
+8.28 9.38
+-6.26 -23.95 -1.46 5.94
+13.47
+-3.05 23.77 7.27
+-21.37 -32.31 -14.50 5.41
+-2.39
+-5.06
+0.01 1.72
+-72.08 -102.12 -10.68 31.64
+23.21 -38.34 63.05 25.06
+-2.66
+-8.80
+2.86 6.04
+
+0.94
+0.87
+0.59
+0.68
+0.95
+0.16
+0.98
+0.82
+0.71
+0.84
+0.69
+0.99
+0.98
+0.71
+0.98
+0.98
+
+0.99
+1.04
+1.34
+0.58
+1.01
+0.42
+1.04
+1.19
+0.79
+0.92
+0.69
+1.20
+1.05
+2.39
+1.04
+1.00
+
+02/17/22
+01/05/22
+02/22/22
+02/17/22
+10/27/21
+02/24/22
+12/15/21
+02/23/22
+01/11/22
+01/19/22
+03/10/22
+02/24/22
+10/27/21
+10/07/20
+01/25/22
+02/08/22
+
+03/28/22
+05/09/22
+03/04/22
+06/30/23
+12/31/21
+03/07/22
+06/08/22
+10/12/22
+03/07/22
+03/07/22
+03/25/22
+06/30/23
+12/31/21
+03/23/22
+03/07/22
+06/29/23
+
+39
+124
+10
+498
+65
+11
+175
+231
+55
+47
+15
+491
+65
+532
+41
+506
+
+Notes: This table provides summary statistics of A.12
+government CIP deviations (Φt ) for the period during
+which deviations for both IBOR-based and alternative benchmark rates-based are observable. Note that
+Φ̂t = ΦSOFR
+− ΦIBOR
+, and the average difference may not equal the difference in averages if there is missing
+t
+t
+data in one of the series. Also, there is no difference between IBOR-based and alternative benchmark-based
+government CIP deviations, since the forward premium is determined solely by the FX market and not the
+swap market.
+
+Table A3: Effect of government bond supply on the U.S. Treasury Premium
+(a) 1-year
+(1)
+All
+-8.35
+(6.03)
+
+(2)
+00-07
+7.38
+(33.42)
+
+(3)
+08-24
+-32.05***
+(9.14)
+
+(4)
+08-24
+-27.59***
+(7.71)
+
+Debt
+)i
+log( GDP
+
+5.39*
+(3.14)
+
+13.32***
+(3.37)
+
+19.14***
+(4.05)
+
+20.33***
+(4.34)
+
+VIX
+
+0.97*
+(0.53)
+
+0.18
+(0.47)
+
+0.98*
+(0.53)
+
+0.78
+(0.57)
+
+Debt
+log( GDP
+)US
+
+CDSUS,n
+
+-0.15**
+(0.08)
+
+CDSi,n
+
+0.28***
+(0.08)
+665
+0.33
+
+Observations
+R2
+
+996
+0.16
+
+316
+0.03
+
+680
+0.31
+
+(b) 10-year
+
+Debt
+log( GDP
+)US
+
+(1)
+(2)
+(3)
+(4)
+All
+00-07
+08-24
+08-24
+-43.06*** -134.17*** -30.99*** -26.82***
+(5.63)
+(41.98)
+(8.20)
+(5.28)
+
+Debt
+log( GDP
+)i
+
+11.20***
+(2.82)
+
+20.79**
+(7.59)
+
+13.16**
+(6.11)
+
+15.51***
+(5.65)
+
+VIX
+
+0.53***
+(0.16)
+
+0.67
+(0.51)
+
+0.48**
+(0.24)
+
+0.40*
+(0.24)
+
+CDSUS,n
+
+-0.44***
+(0.14)
+
+CDSi,n
+
+0.32***
+(0.06)
+666
+0.26
+
+Observations
+R2
+
+1,000
+0.47
+
+320
+0.34
+
+680
+0.20
+
+Notes: The table reports panel regression results of the U.S. Treasury convenience on the relative supply
+and relative credit risks of U.S. and foreign government debt for the 1-year and 10-year tenors across
+various time periods. The regressions include country fixed effects. Heteroskedasticity autocorrelation
+Debt
+spatial correlation robust standard errors were used with an 8-quarter lag. The variables log( GDP
+)US
+Debt
+and log( GDP )i represent the ratios of U.S. federal debt and country i’s federal debt to nominal GDP,
+respectively. The VIX is the CBOE Volatility Index, and CDSUS,n and CDSi,n are the CDS spreads of U.S.
+Treasuries and foreign government debt with maturities equivalent to those of the U.S. Treasury Premium,
+respectively. The U.S. Treasury Premium is from the authors’ calculations using data from Bloomberg.
+Data on U.S. and foreign federal debt are from national websites; data on GDP are from Haver Analytics;
+data on CDS are from Markit; and data on VIX are from Bloomberg. Standard errors in parentheses. *
+p<0.10, ** p<0.05, *** p<0.01
+
+A.13
+
+Table A4: Effect of government bond supply, net of cental bank holdings, on the U.S.
+Treasury Premium
+(1)
+All
+-24.18***
+(4.71)
+
+(2)
+00-07
+-39.07*
+(19.88)
+
+(3)
+(4)
+08-24
+08-24
+-46.07*** -42.94***
+(10.87)
+(7.82)
+
+of Debt
+)i
+log( Private holdings
+GDP
+
+7.79*
+(4.15)
+
+13.86***
+(3.53)
+
+24.22***
+(7.14)
+
+21.90***
+(5.61)
+
+VIX
+
+0.93**
+(0.41)
+
+0.50**
+(0.24)
+
+0.54
+(0.51)
+
+0.33
+(0.48)
+
+Debt
+log ( GDP
+)US,n
+
+CDSUS,n
+
+-0.41***
+(0.13)
+
+CDSi,n
+
+0.42***
+(0.07)
+656
+0.51
+
+Observations
+R2
+
+980
+0.44
+
+320
+0.30
+
+660
+0.45
+
+Notes: The table reports panel regression results of the U.S. Treasury convenience on the relative supply
+and relative credit risks of U.S. and foreign government debt for the 5-year tenor across various time periods.
+The regressions include country fixed effects. Heteroskedasticity autocorrelation spatial correlation robust
+Debt
+standard errors were used with an 8-quarter lag. The variable log( GDP
+)US,n is the ratio of outstanding
+U.S. Treasury bonds with approximately n-year maturities to nominal U.S. GDP, and the variable
+of Debt
+log( Private Holdings
+)i is the ratio of country i’s federal debt, net of central bank holdings, to nominal
+GDP
+GDP. The VIX is the CBOE Volatility Index, and CDSUS,n and CDSi,n are the CDS spreads of U.S.
+Treasuries and foreign government debt with maturities equivalent to those of the U.S. Treasury Premium,
+respectively. The U.S. Treasury Premium is from the authors’ calculations using data from Bloomberg.
+Data on U.S. and foreign federal debt are from national websites; data on GDP are from Haver Analytics;
+data on CDS are from Markit; and data on VIX are from Bloomberg. Standard errors in parentheses. *
+p<0.10, ** p<0.05, *** p<0.01
+
+A.14
+
+Table A5: Effect of debt ceiling on the U.S. Treasury Premium (daily frequency, 2010-2024)
+(1)
+Φ3m
+-4.70*
+(2.67)
+
+(2)
+Φ1y
+-4.59*
+(2.78)
+
+(3)
+Φ5y
+0.39
+(2.11)
+
+(4)
+Φ10y
+0.71
+(2.19)
+
+Debt
+log( GDP
+)US,n
+
+-18.25***
+(3.81)
+
+-22.03***
+(3.57)
+
+-80.69***
+(12.74)
+
+-37.48***
+(10.64)
+
+Debt
+log( GDP
+)i
+
+20.79***
+(5.33)
+
+24.12***
+(5.70)
+
+30.53***
+(5.76)
+
+27.00***
+(5.14)
+
+VIX
+
+0.61***
+(0.19)
+36,520
+0.11
+
+0.25*
+(0.15)
+36,520
+0.18
+
+0.00
+(0.15)
+36,520
+0.24
+
+0.05
+(0.15)
+36,520
+0.10
+
+Debt ceiling negotiation
+
+Observations
+R2
+
+Notes: The table reports panel regression results examining the impact of U.S. debt ceiling on the U.S.
+Treasury convenience across various tenors. Regressions include country fixed effects. Heteroskedasticity
+autocorrelation spatial correlation robust standard errors were used with a 91-day lag. The Debt Ceiling
+dummy variable takes the value of 1 during periods when the debt ceiling is binding–specifically when the
+debt limit has been reached, extraordinary measures have been exhausted, and a law to lift or suspend the
+Debt
+debt ceiling has not yet been signed. The variable log( GDP
+)US,n is the ratio of outstanding U.S. Treasuries
+Debt
+with a similar maturity profile to the U.S. Treasury Premium to nominal U.S. GDP; the variable log( GDP
+)i
+is the ratio of country i’s federal debt to nominal GDP; and the VIX is the CBOE Volatility Index. The U.S.
+Treasury Premium is from the authors’ calculations using data from Bloomberg. Data on U.S. Treasuries
+outstanding are from CRSP; data on foreign government debt are from national websites; data on GDP are
+from Haver Analytics; and data on VIX are from Bloomberg. Standard errors in parentheses. * p<0.10, **
+p<0.05, *** p<0.01
+
+A.15
+
+

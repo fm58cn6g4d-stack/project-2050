@@ -24,11 +24,13 @@ You carried the take-home test into this review as a goal (`DEC-2026-11-24-12`).
 
 **A** is safe but leaves 31% of workers behind on health costs. Most of them are the group just above the exemption: 81.5% of those at 250-400% of poverty come out ahead.
 
-**B** ties take-home to results, as G8 D does. If health reform works as designed (a quarter point a year below D2's cap is about $77B in FY2040), two steps can be paid for by FY2042-44.
+**B** ties take-home to results, as G8 D does. If health reform works as designed (a quarter point a year below D2's cap is about $77B in FY2040), two steps could be paid for by FY2042-44 if all of it went to the health contribution. Under the debt-path rule's order (below), only half of such a saving can go to households, and a G19 step not yet started is deferred first, so on that example about one step comes by FY2042-44, not two: **the timing roughly halves**.
 
 **C and D** buy take-home now with money the plan doesn't have. Together with any debt goal, they need broad revenue on the same middle class the take-home test protects (G19). That defeats the purpose.
 
 ## Recommendation
+
+**It shares one upside with three other memos.** G15 B, G16 B, G18 D′ and G19 B all draw on the same thing: measured debt running below the path. The debt-path rule (memo [G20](G20-debt-path-rule.md) B, [`../5-budget-process.md`](../5-budget-process.md) part 3.3) sets the order: half of any lead lowers the path for good; the other half first defers a G19 step not yet started, then steps the health contribution down a quarter point (never below 3.25%), then suspends a G19 step already in force. The promises below are kept in that order, not each in full.
 
 **B.** Hold 3.80% through FY2040. Then step R down a quarter point at a time, toward 3.25% (76.2% of workers ahead), only when the trustees certify health spending below D2's path or a surplus beyond the debt goal's path. The 85% target is reached only if health reform delivers well beyond its design (about half a point a year below D2's cap).
 

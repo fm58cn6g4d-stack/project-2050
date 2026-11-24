@@ -1,0 +1,500 @@
+Source: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611
+Publisher: U.S. Department of the Treasury
+Retrieved: 2026-11-24
+Original SHA-256: 5aa6f281ffa84c2ddee107dafcfe76910e121b4e8bc9f16eb1e9c5e663b87a32
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Daily Treasury Rates | U.S. Department of the Treasury
+Skip to main content
+Official websites use .gov
+A .gov website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A lock
+(
+Lock A locked padlock )
+or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Daily Treasury Rates
+Resources
+Subscribe to Developer Notice Updates
+Developer Notice on Changes to the XML Feeds
+Interest Rates - Frequently Asked Questions
+Treasury Daily Interest Rate XML Feed
+Treasury Yield Curve Methodology
+Select Type of Interest Rate Data
+Daily Treasury Par Yield Curve Rates Daily Treasury Bill Rates Daily Treasury Long-Term Rates Daily Treasury Par Real Yield Curve Rates Daily Treasury Real Long-Term Rates
+Select Time Period
+Current Month
+2026
+2025
+2024
+For daily rates prior to 2023, please View Daily Treasury Archives .
+⚠️ After selecting a data type or time period, click Apply to update the table below.
+Get updates to this content
+Daily Treasury Par Yield Curve Rates
+Download CSV
+View XML feed
+Download raw XML.
+Render XML
+Browser-friendly view of XML.
+Date
+20 YR
+30 YR
+Extrapolation Factor
+6 WEEKS BANK DISCOUNT
+COUPON EQUIVALENT
+8 WEEKS BANK DISCOUNT
+COUPON EQUIVALENT
+17 WEEKS BANK DISCOUNT
+COUPON EQUIVALENT
+52 WEEKS BANK DISCOUNT
+COUPON EQUIVALENT
+1 Mo
+1.5 Mo
+2 Mo
+3 Mo
+4 Mo
+6 Mo
+1 Yr
+2 Yr
+3 Yr
+5 Yr
+7 Yr
+10 Yr
+20 Yr
+30 Yr
+11/02/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.05
+4.09
+4.16
+4.21
+4.19
+4.25
+4.38
+4.59
+4.65
+4.70
+4.79
+4.91
+5.31
+5.28
+11/03/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.03
+4.09
+4.15
+4.21
+4.18
+4.26
+4.40
+4.61
+4.68
+4.74
+4.83
+4.95
+5.35
+5.32
+11/04/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.01
+4.08
+4.15
+4.21
+4.20
+4.25
+4.39
+4.58
+4.64
+4.69
+4.77
+4.90
+5.30
+5.28
+11/05/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.03
+4.07
+4.15
+4.17
+4.16
+4.19
+4.28
+4.46
+4.53
+4.59
+4.70
+4.84
+5.27
+5.25
+11/06/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.02
+4.07
+4.15
+4.19
+4.19
+4.23
+4.33
+4.51
+4.59
+4.64
+4.74
+4.86
+5.29
+5.26
+11/09/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.04
+4.13
+4.19
+4.24
+4.20
+4.26
+4.38
+4.56
+4.58
+4.67
+4.76
+4.88
+5.29
+5.26
+11/10/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.05
+4.16
+4.21
+4.30
+4.28
+4.38
+4.56
+4.73
+4.74
+4.81
+4.89
+4.98
+5.39
+5.35
+11/12/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.12
+4.18
+4.26
+4.32
+4.35
+4.42
+4.65
+4.86
+4.90
+4.95
+5.02
+5.10
+5.48
+5.43
+11/13/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.10
+4.18
+4.26
+4.32
+4.34
+4.42
+4.65
+4.88
+4.92
+4.98
+5.05
+5.15
+5.52
+5.47
+11/16/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.10
+4.19
+4.27
+4.34
+4.33
+4.42
+4.62
+4.83
+4.87
+4.93
+5.01
+5.12
+5.51
+5.46
+11/17/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.09
+4.24
+4.26
+4.33
+4.32
+4.41
+4.60
+4.80
+4.84
+4.90
+4.99
+5.10
+5.50
+5.46
+11/18/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.10
+4.24
+4.27
+4.34
+4.35
+4.43
+4.62
+4.80
+4.84
+4.89
+4.96
+5.07
+5.44
+5.41
+11/19/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.20
+4.27
+4.29
+4.34
+4.35
+4.42
+4.62
+4.76
+4.81
+4.86
+4.94
+5.04
+5.43
+5.40
+11/20/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.19
+4.26
+4.28
+4.32
+4.32
+4.38
+4.51
+4.63
+4.65
+4.71
+4.80
+4.92
+5.34
+5.31
+11/23/2026
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+4.20
+4.27
+4.30
+4.37
+4.36
+4.45
+4.57
+4.63
+4.69
+4.74
+4.81
+4.92
+5.33
+5.29
+Monday Nov 23, 2026
+Monday Nov 23, 2026
+*Series Break - Treasury updated its methodology for deriving yield curves. On 12/6/2021, Treasury began using a monotone convex spline (MC) method for deriving its official par yield curves and discontinued the use of the quasi-cubic Hermite spline (HS) methodology. All Treasury yield curve rates derived from yield curves that used the HS methodology - prior to implementation of the MC method - remain official. See the Yield Curve Methodology Change Information Sheet for more details.
+** The 1.5-month constant maturity series began on February 18,
+2025, with the first auction of a 6-week Treasury bill as a benchmark
+Treasury security. Prior to this date, Treasury had issued Treasury bills
+with 6-week maturities as cash management bills.
+** The 4-month constant maturity series began on October 19, 2022, with the first auction of a 17-week Treasury bill as a benchmark Treasury security. Prior to this date, Treasury had issued Treasury bills with 17-week maturities as cash management bills.
+The 2-month constant maturity series began on October 16, 2018, with the first auction of the 8-week Treasury bill.
+30-year Treasury constant maturity series was discontinued on February 18, 2002 and reintroduced on February 9, 2006. From February 18, 2002 to February 8, 2006, Treasury published alternatives to a 30-year rate. See Long-Term Average Rate for more information.
+Treasury discontinued the 20-year constant maturity series at the end of calendar year 1986 and reinstated that series on October 1, 1993. As a result, there are no 20-year rates available for the time-period January 1, 1987 through September 30, 1993.
+Treasury Par Yield Curve Rates: These rates are commonly referred to as "Constant Maturity Treasury" rates, or CMTs. Yields are interpolated by the Treasury from the daily par yield curve. This curve, which relates the yield on a security to its time to maturity, is based on the closing market bid prices on the most recently auctioned Treasury securities in the over-the-counter market. These par yields are derived from indicative, bid-side market price quotations (not actual transactions) obtained by the Federal Reserve Bank of New York at or near 3:30 PM each trading day. The CMT yield values are read from the par yield curve at fixed maturities, currently 1, 1.5, 2, 3, 4 and 6 months and 1, 2, 3, 5, 7, 10, 20, and 30 years. This method provides a par yield for a 10-year maturity, for example, even if no outstanding security has exactly 10 years remaining to maturity.
+Treasury Par Yield Curve Methodology: The Treasury par yield curve is estimated daily using a monotone convex spline method. Inputs to the model are indicative bid-side prices for the most recently auctioned nominal Treasury securities. Treasury reserves the option to make changes to the yield curve as appropriate and in its sole discretion. See our Treasury Yield Curve Methodology page for details.
+Negative Yields and Nominal Constant Maturity Treasury Series Rates (CMTs): At times, financial market conditions, in conjunction with extraordinarily low levels of interest rates, may result in negative yields for some Treasury securities trading in the secondary market. Negative yields for Treasury securities most often reflect highly technical factors in Treasury markets related to the cash and repurchase agreement markets and are at times unrelated to the time value of money.
+At such times, Treasury will not restrict the use of prices that correspond to negative yields as inputs to the monotone convex spline method. However, the derived par yield curve from these input prices for the Treasury nominal Constant Maturity Treasury series (CMTs) will be floored at zero. This decision is consistent with Treasury not accepting negative yields in Treasury nominal security auctions.
+In addition, given that CMTs are used in many statutorily and regulatory determined loan and credit programs as well as for setting interest rates on non-marketable government securities, establishing a floor of zero more accurately reflects borrowing costs related to various programs.
+For more information regarding these statistics contact the Office of Debt Management by email at debt.management@do.treas.gov
+For other Public Debt information contact (202) 504-3550
+Monday Nov 23, 2026
+Monday Nov 23, 2026
+Daily Treasury Bill Rates: These rates are the daily secondary market quotations on the most recently auctioned Treasury Bills for each maturity tranche (4-week, 6-week, 8-week, 13-week, 17-week, 26-week, and 52-week) for which Treasury currently issues new bills. Market quotations are obtained at approximately 3:30 PM each business day by the Federal Reserve Bank of New York. The Bank Discount rate is the rate at which a bill is quoted in the secondary market and is based on the par value, amount of the discount and a 360-day year. The Coupon Equivalent, also called the Bond Equivalent, or the Investment Yield, is the bill's yield based on the purchase price, discount, and a 365- or 366-day year. The Coupon Equivalent can be used to compare the yield on a discount bill to the yield on a nominal coupon security that pays semiannual interest with the same maturity date.
+For more information regarding these statistics contact the Office of Debt Management by email at debt.management@do.treas.gov
+For other Public Debt information contact (202) 504-3550.
+Monday Nov 23, 2026
+Monday Nov 23, 2026
+Treasury Long-Term Average Rate and Extrapolation Factors. Beginning February 18, 2002, Treasury ceased publication of the 30-year constant maturity series. Instead, from February 19, 2002 through May 28, 2004, Treasury published a Long-Term Average Rate, "LT>25," (not to be confused with the Long-Term Composite Rate, definitions below). In addition, Treasury published daily linear extrapolation factors that could be added to the Long-Term Average Rate to allow interested parties to compute an estimated 30-year rate. On June 1, 2004, Treasury discontinued the "LT>25" average due to a dearth of eligible bonds. In place of the "LT>25" average, Treasury published the Treasury 20-year Constant Maturity rate on this page along with an extrapolation factor that was added to the 20-year Constant Maturity to obtain an estimate for a theoretical 30-year rate. On February 9, 2006, Treasury reintroduced the 30-year constant maturity and is no longer publishing the extrapolation factor.
+The Long-Term Average Rate, "LT>25," was the arithmetic average of the bid yields on all outstanding fixed-coupon securities (i.e., excluding Inflation-Indexed securities) with 25 years or more remaining to maturity. This series first appeared on February 19, 2002, following discontinuation of the 30-year Treasury constant maturity series. Subsequently, the "LT>25" average was discontinued on June 1, 2004.
+Linear Extrapolation Factors were determined by considering the slope of the yield curve at it's long end and extrapolating out to a theoretical 30-year point. To use the Extrapolation Factor to determine a 30-year proxy rate, add the factor to the 20-year Constant Maturity Rate. For example, if on a particular day the 20-year Constant Maturity was 5.40% and the Extrapolation Factor was 0.02%, then a 30-year theoretical rate would have been 5.40% + 0.02% = 5.42%. Publishing of the Linear Extrapolation Factors was discontinued on February 9, 2006 with the reintroduction of the 30-year Constant Maturity Rate.
+The Long-Term Composite Rate is the unweighted average of bid yields on all outstanding fixed-coupon bonds neither due nor callable in less than 10 years.
+For more information regarding these statistics contact the Office of Debt Management by email at debt.management@do.treas.gov
+Monday Nov 23, 2026
+Monday Nov 23, 2026
+*Series Break - Treasury updated its methodology for deriving yield curves. On 12/6/2021, Treasury began using a monotone convex spline (MC) method for deriving its official par yield curves and discontinued the use of the quasi-cubic Hermite spline (HS) methodology. All Treasury yield curve rates derived from yield curves that used the HS methodology - prior to implementation of the MC method - remain official. See the Yield Curve Methodology Change Information Sheet for more details.
+Treasury Par Real Yield Curve Rates: These rates are commonly referred to as "Real Constant Maturity Treasury" rates, or R-CMTs. Par real yields on Treasury Inflation Protected Securities (TIPS) at "constant maturity" are interpolated by the U.S. Treasury from Treasury's daily par real yield curve. These par real yields are calculated from indicative secondary market quotations obtained by the Federal Reserve Bank of New York. The par real yield values are read from the par real yield curve at fixed maturities, currently 5, 7, 10, 20, and 30 years. This method provides a par real yield for a 10-year maturity, for example, even if no outstanding security has exactly 10 years remaining to maturity.
+On February 22, 2010, Treasury sold a new 30-Year TIP security and expanded this table to include a 30-Year Real CMT rate.
+**Series Break - Starting 12/01/2008, the TIPS yield curve began using the most recently auctioned TIPS as knot points rather than all securities. The reported values from September 2 to November 28, 2008, utilize the old methodology and remain official.
+On July 27, 2004, Treasury sold a new long-term TIP security and expanded this table to include a 20-year Real CMT rate. The 20-Year was discontinued at the November 2009 Quarterly Refunding in favor of a 30-Year TIP security.
+Treasury Par Yield Curve Methodology: The Treasury par real yield curve is estimated daily using a monotone convex spline method. Inputs to the model are bid-side prices for the most recently auctioned TIPS securities.
+For more information regarding these statistics contact the Office of Debt Management by email at debt.management@do.treas.gov
+For other Public Debt information contact (202) 504-3550.
+Monday Nov 23, 2026
+Monday Nov 23, 2026
+Long Term Real Rate Average: The Long-Term Real Rate Average is the unweighted average of bid real yields on all outstanding TIPS with remaining maturities of more than 10 years and is intended as a proxy for long-term real rates.
+For more information regarding these statistics contact the Office of Debt Management by email at debt.management@do.treas.gov
+For other Public Debt information contact (202) 504-3550
