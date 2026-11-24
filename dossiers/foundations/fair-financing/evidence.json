@@ -2083,5 +2083,39 @@
    "dossiers/foundations/fair-financing/5-budget-process.md"
   ],
   "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-085",
+  "statement": "JCT (2017): the 2017 tax law would raise GDP by about 0.7 percent on average over its ten-year window; the growth would offset about $451 billion of its $1,456 billion conventional revenue loss, partly offset by about $66 billion of higher interest, cutting the deficit effect by $385 billion.",
+  "claim": "analysis",
+  "figures": [
+   "0.7 percent",
+   "$451 billion",
+   "$1,456 billion",
+   "$66 billion",
+   "$385 billion"
+  ],
+  "source": "SRC-6164",
+  "anchor": [
+   "level of output (as measured by Gross Domestic Product (“GDP”) by about 0.7 percent relative",
+   "$1,456 billion over that period by about $451 billion. This budget effect would be partially offset",
+   "by an increase in interest payments on the Federal debt of about $66 billion over the budget",
+   "of changes in economic growth are projected to reduce the deficit by $385 billion during the"
+  ],
+  "grade": "B",
+  "fact_date": "2017-12-22",
+  "recheck": "2027-11-30",
+  "context": "JCT's staff macroeconomic estimate, Congress's nonpartisan scorekeeper. The net recovery is $385B of $1,456B, about 26%, which step 8a's AM-1 reads as roughly a quarter.",
+  "supports": [
+   "dossiers/foundations/fair-financing/4-fiscal-path.md",
+   "dossiers/foundations/fair-financing/notes/dynamic-preregistration.md"
+  ],
+  "checked": "2026-11-24",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-076",
+    "stance": "supports"
+   }
+  ]
  }
 ]

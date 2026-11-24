@@ -1,6 +1,6 @@
 # Stage G step 8c: the debt-path rule, the debt limit and the central rules
 
-Role: the budget-process part of the fiscal path review (`DEC-2026-11-24-14` to `-18`), the last part of stage G step 8. It designs the debt-path rule that memos G15 B and G19 B lean on, keeps the debt limit apart from it, examines the central rules (D3, D4 and D4-B), and reads fiscal rules abroad and the US record as evidence for the design. Its forks are memos G20 to G22 (provisional). The strategy memo is [`6-strategy-memo.md`](6-strategy-memo.md). Status: **draft, stage G step 8c, November 24, 2026. Nothing here is booked, and nothing new is priced:** every figure for the plan comes from step 8a ([`4-fiscal-path.md`](4-fiscal-path.md) parts 1-2, #483) or step 8b (parts 3-6 and memos G15-G19, #484, read at head abd3e066, in review). If #484 changes in review, the figures quoted here change with it.
+Role: the budget-process part of the fiscal path review (`DEC-2026-11-24-14` to `-18`), the last part of stage G step 8. It designs the debt-path rule that memos G15 B and G19 B lean on, keeps the debt limit apart from it, examines the central rules (D3, D4 and D4-B), and reads fiscal rules abroad and the US record as evidence for the design. Its forks are memos G20 to G22 (provisional). The strategy memo is [`6-strategy-memo.md`](6-strategy-memo.md). Status: **draft, stage G step 8c, November 24, 2026. Nothing here is booked, and nothing new is priced:** every figure for the plan comes from step 8a ([`4-fiscal-path.md`](4-fiscal-path.md) parts 1-2, #483) or step 8b (parts 3-6 and memos G15-G19, #484, merged). This PR also carries the three non-blocking fixes from #484's review to G15, G17 and G19, at the lead's request.
 
 Units: federal fiscal years, nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores.
 
@@ -237,7 +237,7 @@ Espen allowed the review to examine the project's central rules and propose chan
 
 ## Part 7. What the rule changes for G15 B, G16 B, G18 D′ and G19 B
 
-For the lead, since #484 is in review and isn't edited here (a note goes to the lead with this PR):
+For the lead and Espen's batch. #484 has merged; this PR makes only the reviewer's three small fixes to it (G15 and G19 now say where the rule lives and what B means without it; G19 A nets the outside fix; G17's years read FY2035-39). The points below are left for the batch:
 1. **One upside, three claims.** As drafted, G15 B steps the target toward 100% "as results allow", G16 B and G18 D′ step R down on "a surplus beyond the debt goal's path", and G19 B switches off a step "if results beat the goal". The rule's order (part 3.3) reconciles them, but each memo should say that it shares the upside under that order, so Espen doesn't read three separate promises.
 2. **On the central estimate, G15 B stays at about 117%.** The ladder's money is all needed to hold debt flat at CBO's rates, so the step toward 100% happens only if results beat CBO's assumptions (part 3.3). G15 B's "stepped toward 100%" should read as a possibility, not an expectation.
 3. **G16 B's "two steps by FY2042-44" depends on the order.** Under the split, a WAD-H1 saving first lowers the path by half, and only the other half can step R down. G16 B's timing roughly halves, unless Espen puts take-home ahead of the path (G20's point 1).

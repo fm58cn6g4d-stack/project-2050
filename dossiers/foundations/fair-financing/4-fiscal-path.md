@@ -1,6 +1,6 @@
 # Stage G step 8: the fiscal path review
 
-Role: the harder look at spending and debt that Espen started at the stage G boundary review (`DEC-2026-11-24-14`). It prices the three debt goals (`DEC-2026-11-24-15`), checks the budget model's and the long-term tools' methods, and adds a contained dynamic layer beside the conventional score. Later parts cover phasing, revenue, outside proposals, G8 and the decision batch (step 8b), and the strategy memo, budget process and the central rules (step 8c). Status: **parts 1 and 2 drafted in stage G step 8a (#483); parts 3 to 6 and the decision batch (memos G15-G19, provisional) drafted in step 8b, November 24, 2026**. The strategy memo, budget process and central rules are for 8c. Nothing here is booked. The settlement as booked (#480, [`2-settlement.md`](2-settlement.md)) stays the plan's fiscal base (`DEC-2026-11-24-10`). This part recommends no goal: the goals draw on the same money, so step 8b recommends one, with the frontier below, in the decision batch.
+Role: the harder look at spending and debt that Espen started at the stage G boundary review (`DEC-2026-11-24-14`). It prices the three debt goals (`DEC-2026-11-24-15`), checks the budget model's and the long-term tools' methods, and adds a contained dynamic layer beside the conventional score. Later parts cover phasing, revenue, outside proposals, G8 and the decision batch (step 8b), and step 8c's budget process, debt limit and central rules ([`5-budget-process.md`](5-budget-process.md), memos G20-G22) and the strategy memo ([`6-strategy-memo.md`](6-strategy-memo.md)). Status: **parts 1 and 2 drafted in stage G step 8a (#483); parts 3 to 6 and the decision batch (memos G15-G19, provisional) drafted in step 8b, November 24, 2026**. Step 8c's budget process and strategy memo are in [`5-budget-process.md`](5-budget-process.md) and [`6-strategy-memo.md`](6-strategy-memo.md). Nothing here is booked. The settlement as booked (#480, [`2-settlement.md`](2-settlement.md)) stays the plan's fiscal base (`DEC-2026-11-24-10`). This part recommends no goal: the goals draw on the same money, so step 8b recommends one, with the frontier below, in the decision batch.
 
 Units: federal fiscal years, nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores.
 
@@ -178,7 +178,7 @@ The pessimistic case takes every channel at its low end and, on each reading, wh
   The departures:
   - Child care, where CBO has published nothing dynamic.
   - The low end of rate sensitivity, for the dollar's reserve role.
-  - **N-TOP's central (6% of top-end and corporate revenue, against JCT's roughly 25% for the 2017 cut).** That departure is **not yet verified** against the primary sources. Step 8b reads JCX-69-17's table, and CBO's 2025 estimate directly rather than through CRFB's summary.
+  - **N-TOP's central (6% of top-end and corporate revenue, against JCT's roughly 25% for the 2017 cut).** JCT's anchor is now checked against the original (step 8c): growth offsets about $451B of the 2017 law's $1,456B conventional cost, and $385B net of higher interest, about 26% [EV-FIN-085]. So AM-1's low end stands, and the 6% central remains a named departure from it. CBO's 2025 estimate is still read through CRFB's summary.
 - **Health.** D2 is booked, and the conventional base already banks its −$249B in FY2040 (without it the plan is $243B short). WAD-H1 is measured below the D2-held path, so it counts only spending below the cap and none of D2 twice. It fails if D2 fails. It is on its own line, never in the dynamic net.
 - **The hard rule.** The conventional share is the requirement.
 
@@ -238,9 +238,11 @@ Inventory: [`notes/program-inventory.md`](notes/program-inventory.md) (`models/t
 - Housing's stage 2, the clean-energy credits (CLI-1) and IMM-1 also grow fast.
 - No flagship's dossier claims a federal saving later. Housing, the secure floor, work, immigration and child care each say their savings are "not counted". So **no line is protected for saving money later on the record.** The ones the evidence says will (child care, pre-K, the child benefit; dynamic layer P-CARE) are protected here anyway, because they are the plan's early delivery.
 
+**The candidates run FY2035-39, one year wider than the shortfall:** PH-1 starts in FY2035, the endpoint's first year, and saves $62B that year (`notes/frontier-results.md` part 4).
+
 | ID | Candidate | Saved FY2035-39 ($B) | Who waits, and the outcome it delays |
 | --- | --- | --- | --- |
-| PH-1 | Long-term care reaches full benefit in FY2039 instead of on its own ramp (40/55/70/85% of its FY2035-38 path) | 262 | Older and disabled people who need care. In FY2036 about 45% of the benefit's cost is deferred, falling to 15% in FY2038. It delays the care outcomes in health's and care's dossiers (OUT-03, OUT-08), and families keep paying privately or spend down to Medicaid for one to four years longer |
+| PH-1 | Long-term care reaches full benefit in FY2039 instead of on its own ramp (40/55/70/85% of its FY2035-38 path) | 262 | Older and disabled people who need care. In FY2035 about 60% of the benefit's cost is deferred, about 45% in FY2036, falling to 15% in FY2038. It delays the care outcomes in health's and care's dossiers (OUT-03, OUT-08), and families keep paying privately or spend down to Medicaid for one to four years longer |
 | PH-2 | Housing's stage 2 held at its FY2036 level until FY2040, net of its booked cap (S11) | 10 | Because G14 C's cap already slows stage 2, this saves little. Up to about 200,000 families wait one to three years for an award (on the cap's own count of about 810,000 families leased in FY2040). Delays the housing outcome (OUT-04) |
 | PH-3 | Clean-energy credits held at their FY2037 level in FY2038-39 | 52 | Slower deployment in two years. The climate outcome (OUT-05) slips slightly |
 | — | All three | 323 | |

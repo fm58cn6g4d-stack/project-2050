@@ -1,0 +1,649 @@
+Source: https://www.jct.gov/getattachment/53ad7658-20ac-4c10-b4d0-2759305432aa/x-69-17-5055.pdf
+Publisher: Joint Committee on Taxation
+Retrieved: 2026-11-24
+Original SHA-256: 4c4107b6a09ba25bb4e6c79fe0521ad4e4c8e63c0b8039207c2416c690b96c98
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+MACROECONOMIC ANALYSIS OF THE CONFERENCE AGREEMENT
+FOR H.R. 1, THE “TAX CUTS AND JOBS ACT”
+
+Prepared by the Staff
+of the
+JOINT COMMITTEE ON TAXATION
+
+December 22, 2017
+JCX-69-17
+
+INTRODUCTION
+Pursuant to section 5107 of the Concurrent Resolution on the Budget for Fiscal Year
+2018 and House Rule XIII(8)(b), this document,1 prepared by the staff of the Joint Committee on
+Taxation (“Joint Committee staff”), provides an analysis of the macroeconomic effects of the
+Conference Agreement for H.R. 1, the “Tax Cuts and Jobs Act.” 2
+
+1
+
+This document may be cited as follows: Joint Committee on Taxation, Macroeconomic Analysis of the Conference
+Agreement for H.R. 1, the “Tax Cuts and Jobs Act” (JCX-69-17), December 22, 2017. This document can also be
+found on the Joint Committee on Taxation website at www.jct.gov.
+2
+
+H.R. 1 as enacted by the House of Representatives and the Senate differs from the Conference Agreement in that it
+dropped three items with a combined total ten-year revenue effect of less than $100 million.
+
+2
+
+MACROECONOMIC ANALYSIS OF THE CONFERENCE AGREEMENT FOR H.R. 1
+This report provides an analysis of the macroeconomic effects of a proposal to reform the
+Internal Revenue Code (“Code”). Specifically, the proposal analyzed here is the one summarized
+in JCX-67-17, Estimated Budget Effects of the conference Agreement for H.R. 1, the “Tax Cuts
+and Jobs Act.” The Joint Committee staff estimates that this proposal would increase the average
+level of output (as measured by Gross Domestic Product (“GDP”) by about 0.7 percent relative
+to average level of output in the present law baseline over the 10-year budget window. That
+increase in output would increase revenues, relative to the conventional estimate of a loss of
+$1,456 billion over that period by about $451 billion. This budget effect would be partially offset
+by an increase in interest payments on the Federal debt of about $66 billion over the budget
+period. We expect that both an increase in GDP and resulting additional revenues would
+continue in the second decade after enactment, although at a lower level, as many of the
+provisions that are expected to increase GDP within the budget window expire before the second
+decade.
+The following discussion analyzes the macroeconomic effects of the bill. The estimate of
+the macroeconomic revenue feedback effects of this legislation and the following supplementary
+analysis were produced using three macroeconomic simulation models to simulate the growth
+effects of the bill: (1) the Joint Committee staff’s Macroeconomic Equilibrium Growth
+(“MEG”)3 model; (2) an overlapping generations model (“OLG”);4 and (3) the Joint Committee
+staff’s dynamic stochastic general equilibrium model (“DSGE”).5 A brief description of the
+models and the parameter values for each used in this analysis appear in the Appendix to this
+document. This analysis is presented relative to the 2017 economic and receipts baseline
+(“present law”) published by the Congressional Budget Office (“CBO”) in January, 2017.6
+
+3
+
+A detailed description of the MEG model may be found in Joint Committee on Taxation, Macroeconomic Analysis
+of Various Proposals to Provide $500 Billion in Tax Relief (JCX-4-05), March 1, 2005, and Joint Committee on
+Taxation, Overview of the Work of the Staff of the Joint Committee on Taxation to Model the Macroeconomic Effects
+of Proposes Tax Legislation to Comply with House Rule XIII3(h)(2) (JCX-105-03), December 22, 2003.
+4
+
+The OLG model currently used by JCT is leased from Tax Policy Advisors, LLC. Information about this model
+may be found in John W. Diamond and George R. Zodrow, Modeling U.S. and Foreign Multinationals in an OLGCGE Model, Baker Institute for Public Policy, Rice University, working paper, 2015; and in G.R. Zodrow and J.W.
+Diamond, “Dynamic Overlapping Generations Computable General Equilibrium Model and the Analysis of Tax
+Policy: the Diamond-Zodrow Model,” in P.B. Dixon and D.W. Jorgenson (eds.) Handbook of Computable General
+Equilibrium Modeling, vol. 1A, pp. 743-813, North-Holland, 2013.
+5
+
+A description of an earlier version of the DSGE model may be found in Joint Committee on Taxation, Background
+Information about the Dynamic Stochastic General Equilibrium Model Used by the Staff of the Joint Committee on
+Taxation in the Macroeconomic Analysis of Tax Policy (JCX-52-06), December 14, 2006. An updated document,
+which describes modeling improvements, is forthcoming.
+6
+
+Congressional Budget Office, The Budget and Economic Outlook: 2017-2027, January 24, 2017.
+
+3
+
+Proposal
+The bill changes individual income tax rates, lowering the top individual income tax rate
+from 39.6 percent to 37 percent, and lowering statutory tax rates for most of the remaining tax
+rate brackets, while changing some of the income levels associated with each bracket, and
+changing the measure used to adjust the brackets for inflation from the present law consumer
+price index (“CPI-U”) to the chained consumer price index (“chained CPI”). The chained CPI
+grows more slowly than the CPI-U, thus resulting in taxpayers over time moving into higher rate
+brackets at a faster rate under the bill than under present law. The bill also reduces to zero the
+individual shared responsibility payments for failure to obtain qualified health insurance
+coverage enacted as part of the Affordable Care Act to zero. At the same time, the proposal
+eliminates a number of deductions and credits from individual taxable income while increasing
+others. The biggest changes include eliminating personal exemptions while increasing the
+standard deduction, and increasing the maximum amount of the child tax credit while increasing
+the income range over which individuals may claim it. Finally, the bill generally doubles the
+exemption amount for the Estate, Gift, and Generation Skipping Transfer tax. Except for the
+switch from CPI-U to chained CPI for indexing tax brackets, changes in the tax treatment of
+alimony, and setting the ACA individual shared responsibility payments to zero, all of these
+changes to the taxation of individuals sunset after December 31, 2025.
+The bill also makes substantial changes to the taxation of business income. Individuals
+receiving income from certain pass-through businesses may deduct 20 percent of that income
+from their individual income tax; like most of the other provisions affecting individual income
+tax filers, this deduction would sunset after 2025. In addition, the bill lowers the corporate
+income tax rate from 35 percent to 21 percent beginning in 2018; and, increases the rate of bonus
+depreciation to 100 percent in 2018, extending it for five years, from 2018 through 2022, and
+then phasing it out by the end of 2026. The bill also repeals or limits deductions for a number of
+business expenses, the largest of which are a 30 percent limit on interest deductibility and denial
+of carryback treatment of the net operating loss deduction. Finally, the bill makes significant
+changes to the taxation of both foreign and domestically controlled multinational entities. It
+would allow domestic corporations to receive a dividend from their foreign subsidiaries without
+incurring U.S. tax on the income, effectively switching the U.S. corporate tax from a worldwide
+to a territorial system. In order to reduce the erosion of the U.S. corporate income tax base, the
+bill equalizes the tax treatment of high return income from foreign sales whether they are earned
+through a foreign corporation or a domestic corporation, and imposes a new minimum tax for
+certain related party transactions.
+Overall, the net effect of the changes to the individual income tax is to reduce average tax
+rates on wage income by about one percentage point, while reducing effective marginal tax rates
+on wages by about 2.5 percentage points until the expiration of the individual income tax
+provisions. The changes in the taxation of income from capital, the extension and expansion of
+bonus depreciation, and the reduction in tax rates on business income (both for corporations and
+for pass-through businesses) result in a reduction in the after-tax cost of capital investment, and
+thus an increase in the after-tax rate of return on business investment. This incentive begins to
+
+4
+
+decline toward the end of the 10-year budget period because of the phase-out of 100 percent
+bonus expensing and the expiration of the extra deduction for pass-through income, and because
+interest rates begin to rise as Federal debt increases due to the proposal.
+Effects on output
+The Joint Committee staff estimates that the proposal would increase the level of GDP
+relative to the baseline forecast, by 0.7 percent on average throughout the ten-year budget
+window. In general, tax policy affects economic growth by changing incentives for owners of
+capital to invest, and for potential workers to supply labor to the economy, by changing the aftertax rates of return to these two factors of production. Changes in tax policy can alter these aftertax rates of return - either directly by changing the amount of payments going to taxes, or
+indirectly, by changing aggregate demand, which can change gross payments for output. The
+projected increase in GDP during the budget window results both from an increase in labor
+supply, in response to the reduction in effective marginal tax rates on wages throughout most of
+the budget window, and from an increase in investment in response to the reduction in the aftertax cost of capital. Because of the expiration of individual income tax rate cuts and other
+provisions affecting wage taxation after 2025, the increase in labor supply is expected to decline,
+and possibly reverse, after 2025. Similarly, the phasing out of bonus depreciation and the special
+deduction for pass-through income are expected to slow the rate of new investment toward the
+end of the budget window. As a result, the increase in output reported above is expected to be in
+the range of 0.8 to 0.9 percent over most of the ten-year budget window, and fall to 0.1 to 0.2
+percent by the end of the budget window.
+Effects on capital stock
+The amount of capital available for production is expected to be about 0.9 percent higher
+on average over the budget window than in the baseline forecast. During the budget window,
+increased investment primarily due to the reduction in the corporate tax rate, the five-year
+extension of bonus depreciation at 100 percent with an additional phase-out period, and the
+added tax deduction for certain pass-through business income results in a gradual accumulation
+of capital stock, which is forecast to reach its peak toward the end of the budget period.
+Somewhat offsetting this effect in the second half of the budget period is the effect of the
+growing deficit on interest rates, as well as the phase-out of bonus depreciation and the
+expiration of the extra deduction for certain pass-through income.
+Effects on employment and supply of labor
+The significant reduction in marginal tax rates on labor (resulting primarily from the
+additional tax rate bracket, lower statutory rates for most brackets, and the increase in the child
+credit) provide strong incentives for an increase in labor supply. Because the reduction in
+marginal tax rates on wages is reversed at the end of the budget window, after most of the
+changes to taxation of individual income have sunset, the timing and strength of the labor supply
+response varies significantly depending on how much foresight individuals are assumed to have
+about the future path of marginal tax rates. The more foresight individuals are assumed to have,
+the more they are forecast to shift their labor effort into the timeframe when marginal tax rates
+
+5
+
+are temporarily low. On average, employment is projected to increase by about 0.6 percent
+relative to baseline levels during the budget period. After the sunset of the individual tax
+provisions, the increase in employment is expected to decline.
+Effects on consumption
+The additional income generated by additional capital and labor - combined with the
+decreased tax liability owing to the proposal - provide individuals with more disposable income,
+thus increasing consumption. We estimate that consumption would be increased by 0.7 percent
+on average during the budget window, relative to baseline levels of consumption.
+Effects of the estate and generation skipping transfer tax
+Evidence from economic empirical and theoretical research on the effects of the estate
+and generation skipping transfer tax (referred to here as “estate tax”) on economic growth is very
+mixed. On the one hand, to the extent that an individual’s labor effort and investment behavior is
+driven by a desire to maximize the amount of wealth to be left to heirs, an increase in the
+exemption level of the estate tax would increase the marginal value to him of providing these
+additional resources to the economy; if this were the only behavioral response to the estate tax,
+the higher exemption would be expected to increase growth. However, it is also possible that
+individuals subject to the estate tax desire to leave a specific dollar amount to their heirs; in this
+case, the increased exemption from the tax would allow them to reach that target amount more
+quickly, thus reducing their incentive to work and invest. In addition, to the extent that the higher
+exemption increases the amount of income received by heirs, this could reduce the labor supply
+and savings of the heirs, thus reducing the amount of growth in the economy. Because of the
+uncertainty associated with the effects of the estate tax on growth from labor and investment
+incentives, changes in the estate tax are incorporated in Joint Committee staff macro models as
+changes in the average tax rate on individual income, and as having no effect on marginal tax
+rates, which are the main drivers of behavioral response in Joint Committee staff macroeconomic
+models. Thus, the effects of the increased exemption from the estate tax are primarily a small
+increase in consumption, and a negligible change in GDP and other macroeconomic aggregates.7
+Effects of changes in the treatment of income from foreign activity
+The proposal changes the taxation of both foreign and domestically controlled multinational corporations in order to limit erosion of the corporate income tax base.
+To some extent, under present law, base erosion occurs because firms are able to attribute
+their profits to low-tax countries and their costs to the United States without changing the
+location of their economic activity. The proposals affecting taxation of foreign activity are
+expected to reduce the incentives for this “profit-shifting” activity, thus resulting in an increase
+in the U.S. tax base. The conventional revenue estimates for these provisions include the effects
+7
+
+For a brief discussion on ramifications of estate taxation, see Joint Committee on Taxation, The Taxation of
+Individuals and Families (JCX-41-17), September 12, 2017, pp. 47-48, and for additional data and a more detailed
+discussion of economic issues, see Joint Committee on Taxation, History, Present Law, and Analysis of the Federal
+Wealth Transfer Tax System (JCX-52-15), March 16, 2015, pp. 24-46.
+
+6
+
+of reducing profit shifting. The effects of these types of provisions on incentives to locate
+economic activity in the United States are included in the macroeconomic analysis and feedback
+estimate. The macroeconomic estimate projects an increase in investment in the United States,
+both as a result of the proposals directly affecting taxation of foreign source income of U.S.
+multi-national corporations, and from the reduction in the after-tax cost of capital in the United
+States due to more general reductions in taxes on business income.
+Budgetary effects
+Fiscal years 2018-2027
+The growth generated by the proposal is projected to reduce the revenue loss from the
+proposal by about $451 billion over the 2018-2027 budget period. At the same time, an increase
+in interest rates generated by the increase in Federal debt is expected to increase the cost of
+Federal debt service by about $66 billion over the budget window. Overall, the budgetary effects
+of changes in economic growth are projected to reduce the deficit by $385 billion during the
+budget window.8 Details of the estimate appear on Table 1, following.
+The estimate of the impact of the growth effects from this proposal on its overall budget
+effects was produced using a weighted average of those effects generated by the MEG, OLG,
+and DSGE models. The OLG and MEG models are each assigned a weight of 0.4, while DSGE
+is assigned a weight of 0.2. As described in the Appendix, each model provides a somewhat
+different perspective on savings/investment responses and international capital flows. The OLG
+model provides some focus on shifting of investment between domestic and multinational
+corporations, as well as within multinational corporations across borders, but requires a fiscal
+balance assumption. The MEG model allows simulation of the proposal as drafted, with no
+offsetting fiscal balance assumption, and it models cross-border capital flows that can partially
+offset the effects of a growing deficit on interest rates. The DSGE model is included because,
+although it does not model cross-border flows, it does model separate investment responses by
+savers and non-savers. It also adds imperfect foresight to the analysis, an assumption sitting
+between the perfect foresight assumption of the OLG model and the myopic foresight in the
+MEG model. The foresight assumption is particularly important for analyzing the effects of
+temporary provisions.
+Second and third decade effects
+In the second decade after enactment, the direct tax incentives for increased labor effort
+that contributed to the projected increase in GDP during the 10-year budget window are
+reversed, with the continuing effect of indexing tax brackets by chained CPI of moving people to
+higher tax brackets more quickly than they would be moved under present law. The combination
+of increased revenues due to chained CPI and continuing savings due to reducing individual
+shared responsibility payment amounts to zero slow the growth of the deficit in the second and
+8
+
+The extension of bonus depreciation in the bill is an important contributor to increased investment incentives
+created by the bill. Because of the more generous deduction created for new investment by this provision, the
+increased investment reduces the taxable base during the time period when this provision is in force, thus reducing
+the amount of revenue feedback associated with the increase in GDP.
+
+7
+
+third decades. However, the continuation of chained CPI provision coupled with the sunset of
+most other individual provisions result in an increased marginal tax rate on labor, dampening
+labor supply incentives, and reducing the increase in GDP relative to projected baseline levels.
+The permanent reduction in the corporate income tax rate continues to provide an incentive for
+maintenance of a higher capital stock (relative to baseline levels) and GDP in the second decade;
+but the increase in debt created during the budget period is expected to continue to exert some
+upward pressure on interest rates. Combined with reduced labor supply due to increasing tax
+rates on labor, the upward pressure on interest rates is projected to partially or wholly offset
+capital accumulation incentives by the end of the third decade.
+
+8
+
+‐ TABLE 1 ‐
+ESTIMATED BUDGET EFFECTS OF THE
+CONFERENCE AGREEMENT FOR H.R.1
+Fiscal Years 2018 ‐ 2027
+[Billions of Dollars]
+
+Provision
+
+Conventional estimate…………
+Additional Effects Resulting from Macroeconomic Analysis ………………
+
+NET TOTAL
+………………………………………………………………………………
+Joint Committee on Taxation
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2018-22
+
+2018-27
+
+-135.7
+
+-280.0
+
+-258.8
+
+-220.8
+
+-178.3
+
+-137.9
+
+-120.1
+
+-114.6
+
+-40.6
+
+32.9
+
+-1074.0
+
+-1,456.0
+
+32.2
+
+34.4
+
+36.6
+
+38.5
+
+37.0
+
+40.5
+
+46.5
+
+47.8
+
+35.5
+
+35.5
+
+178.8
+
+384.6
+
+-103.5
+
+-245.6
+
+-222.2
+
+-182.3
+
+-141.3
+
+-97.4
+
+-73.6
+
+-66.8
+
+-5.1
+
+68.4
+
+-895.2
+
+-1071.4
+
+‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+NOTE: Details may not add to totals due to rounding
+
+9
+
+APPENDIX: DATA, MODELS, AND ASSUMPTIONS USED IN THE ANALYSIS
+The Joint Committee staff analyzed the proposal using the Joint Committee staff MEG
+and DSGE models and an OLG model. While the models are based on economic data from the
+National Income and Product Accounts, taxable income is adjusted to reflect taxable income as
+measured by reporting on tax returns. All three models start with the standard, neoclassical
+production framework in which the amount of output is determined by the quantity of labor and
+capital used by firms, and the productivity of those factors of production; long run aggregate
+demand equals aggregate supply at full employment. Both individuals and firms are assumed to
+make decisions based on observed characteristics of the economy, including wages, prices,
+interest rates, tax rates, and government spending levels. In particular, the amount of labor
+available to the economy is affected by individuals’ understanding of their after-tax returns to
+working, which depends on both wage rates and tax rates. Similarly, the amount of capital
+available to the economy is determined by investors’ predictions of after-tax returns to capital,
+which depend on anticipated gross receipts, costs of factor inputs, and tax rates that affect those
+factors. The underlying structure of the MEG model relies more on reduced form behavioral
+response equations, while the OLG and DSGE models incorporate more theoretical
+microeconomic foundations.
+The degree to which the Joint Committee staff relies more heavily on the results of one
+model versus the others depends on the specifics of the proposal being analyzed. The MEG
+model, which does not require a fiscal balance assumption, is better suited to analyze proposals
+that produce large, conventionally estimated deficits. This model allows for the modeling of four
+separate types of labor, and of separate marginal and average tax rates for all major individual
+and business income tax sources; while the other two models treat average and marginal rates the
+same for individual income other than wages. The availability of investment capital to firms is
+determined by individuals’ savings response to changes in the after-tax rate of return on
+investment as well as by foreign capital flows. Also in the MEG and DSGE models, monetary
+policy conducted by the Federal Reserve Board is explicitly modeled, with delayed price
+adjustments to changes in economic conditions allowing for the economy to be temporarily out
+of equilibrium in response to fiscal and monetary policy. The monetary policy response function
+used in this analysis assumes that the Fed will act aggressively to counteract any demand
+stimulus resulting from the proposal because the economy is expected to be operating near full
+employment. The myopic expectation framework in the MEG model represents the extreme case
+of the degree of foresight individuals have about future economic conditions, in which
+individuals assume in each period that current economic conditions will persist permanently.
+At the other end of the foresight spectrum, in the OLG model, individuals are assumed to
+make consumption and labor supply decisions to maximize their lifetime well-being given the
+resources they can foresee will be available to them. They are assumed to have complete
+information, or “perfect foresight,” about economic conditions, such as wages, prices, interest
+rates, tax rates, and government spending, over their lifetimes. OLG represents a class of models
+with “micro-foundations” and life-cycle effects modeled separately for each of a number of
+“generations” (in this case 55). Taxes on labor affect the decisions of each cohort by impacting
+
+10
+
+the trade-off between consumption and leisure. Individuals substitute between labor and leisure
+both contemporaneously and over time. The OLG model includes a more differentiated business
+sector than the other two models. Firms’ investment decisions respond to the effects of tax policy
+on the projected future value of the firm. Changes in marginal tax rates on firm profits, and
+changes in the value of deductions for investment affect this future valuation.
+The stochastic feature of the DSGE model allows for some analysis of the effects of
+uncertainty about future fiscal policy on the modeling outcome, representing a less extreme
+foresight assumption than either of the other models. As the uncertainty about future fiscal
+conditions is allowed to persist over a limited period of time, DSGE is closer to OLG than to
+MEG on this spectrum. In DSGE there are two types of individuals who make decisions about
+labor supply, only one of whom has the liquidity to make investment decisions (“savers and nonsavers”). As in the OLG model, these two types of individuals make consumption and labor
+supply decisions to maximize their discounted present value of consumption over time, including
+consumption of leisure. The savers supply investment capital to the economy, and receive
+income from investment returns. The non-savers are liquidity constrained, and are unable to
+invest. The existence of these two types of individuals allows for some explicit distributional
+analysis of taxes on investment versus taxes on labor. In addition, changes to transfers and taxes
+on the non-saving households will have direct effects on current period consumption and the
+current level of output. These features of the DSGE model allow the model to interpret real short
+run effects of economic policy changes.
+In the OLG and DSGE models, the ability of individuals to foresee changes in fiscal
+conditions means that the agents in the models will be unable to make optimal economic
+decisions if they can foresee a permanently unstable economic future, thus preventing the models
+from “solving” - or completing their simulations. This problem arises in a situation where
+deficits are expected to increase faster than the rate of growth of GDP, which is a characteristic
+under present law as well as the bill. Thus it is necessary to make counter-factual “fiscal
+balance” assumptions about the expected path of deficits for these models.
+In the baseline, the OLG model maintains a constant debt to GDP ratio primarily by
+reducing government purchases. For the proposal analyzed in this document, which is expected
+to increase the debt to GDP ratio, the OLG model simulates the policy as stipulated for 30 years,
+and adjusts transfer payments thereafter to stabilize the debt to GDP ratio.
+Decision-makers in the DSGE model are able to foresee the consequences of the new
+policy in the bill with certainty for the first 2.5 years of the budget window. Each quarter after
+that, they assume there is some probability (which increases over time) that the debt-to-GDP
+ratio will stabilize, thus allowing the model to solve and the simulation to continue. At the same
+time, the actual policy is implemented through a series of shocks throughout the 10-year budget
+period. After 10 years, the model assumes the debt-to-GDP ratio returns to a steady state.
+The 30-year delay in imposing fiscal balance in OLG and the uncertain expectations with
+respect to future fiscal conditions in DSGE reduce the impact of the models’ respective fiscal
+balance assumptions on decisions made inside the budget window.
+
+11
+
+Each major tax bill potentially presents a unique combination of changes in the definition
+of the taxable base for different sources of income, as well as changes in tax rates on different
+sources of income. Each such combination of changes may present a different amount of
+macroeconomic revenue feedback relative to the change in GDP generated by the proposal.
+Because the Joint Committee staff uses these models to facilitate analysis of tax policy, and to
+estimate the revenue consequences of the macroeconomic effects of tax policy, the staff has
+devoted a considerable amount of time and attention to modeling the specific types of income
+flows affected by proposals, to the extent allowed by other sets of assumptions within each
+macroeconomic model. Information about the effects of the proposal on average tax rates and
+effective marginal tax rates on each source of income, and on after-tax returns to capital and
+labor, is obtained from various Joint Committee staff tax models9 (used in the production of
+conventional revenue estimates) to characterize the effects of the bill within the each of the
+models. Changes in deductions, credits and exclusions can impact effective marginal tax rates as
+well as average tax rates.
+Tables 2-4 provide a summary of key behavioral parameters used in the each of the
+macroeconomic simulation models for the analysis of this proposal.
+
+9
+
+Descriptions of the Joint Committee staff’s conventional estimating models may be found in JCX-46-11,
+Testimony of the Staff of the Joint Committee on Taxation before the House Committee on Ways and Means
+Regarding Economic Modeling, September 21, 2011, JCX-75-15, Estimating Changes in the Federal Individual
+Income tax: Description of the Individual Tax Model, April 24, 2015, and other documents at www.jct.gov under
+“Estimating Methodology.”
+
+12
+
+Table 2: Key Parameter Assumptions in the MEG Model
+Labor supply elasticities in disaggregated labor supply
+
+Income
+
+Substitution
+
+Low income primary
+
+-0.1
+
+0.2
+
+Other primary
+
+-0.1
+
+0.1
+
+Low income secondary
+
+-0.3
+
+0.8
+
+Other secondary
+
+-0.2
+
+0.6
+
+Wage-weighted population average with baseline rates
+
+-0.1
+
+0.2
+
+Savings/consumption parameters
+Rate of time preference
+
+0.015
+
+Intertemporal elasticity of substitution
+
+0.35
+
+Derived long-run savings elasticity to the after rate of
+return on capital
+
+0.25
+
+Table 3: Key Parameter Assumptions in the
+DSGE Model
+Frisch elasticity of labor supply
+
+0.20
+
+Production income share of capital
+
+36%
+
+Fraction of savers
+
+48%
+
+Monetary authority response to inflation
+
+1.55
+
+Monetary authority response to output
+
+0.05
+
+Quarterly subjective discount factor
+
+0.9975
+
+Constant relative risk aversion parameter
+on utility from consumption
+
+2.15
+
+Intermediate firm markup
+
+13%
+
+Probability of price reset
+
+50%
+
+13
+
+Table 4: Key Parameter Assumptions in the OLG Model
+Time preference
+
+0.005
+
+Intertemporal elasticity of substitution
+
+0.4
+
+Intratemporal elasticity of substitution between consumption and
+leisure
+
+0.6
+
+Leisure share of time endowment
+
+0.4026
+
+Population growth rate
+
+0.008
+
+Technological growth rate
+Capital share for:
+Corporate
+Multinational (not including IP)
+Non-corporate
+Housing
+Adjustment cost*
+
+0.019
+0.2
+0.15
+0.3
+0.985
+2.0
+
+Debt-to-capital ratio (average)
+
+0.35
+
+Substitution elasticity between capital and labor in
+Non-housing**
+Housing**
+
+1.0
+1.0
+
+Substitution elasticity for intellectual property****
+
+1.0
+
+* Quadratic adjustment cost function
+** Cobb-Douglas production function
+*** Substitution elasticity between foreign and domestic after- tax profits attributable to intellectual
+property
+
+14
+
+

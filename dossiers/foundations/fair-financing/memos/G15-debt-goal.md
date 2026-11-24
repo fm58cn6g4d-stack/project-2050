@@ -26,7 +26,7 @@ Each is met on the conventional score with no "works as designed" or dynamic sav
 **B, debt held flat from FY2040 (recommended).**
 - *For:* it is the largest goal that fits your constraints. Nothing is asked before FY2040, so the populist start holds. It stops the ratio's climb at about 117%, against current law's 180% in FY2056. At r − g of −0.5 it costs nothing.
 - *Against:* it doesn't reach 100% on its own. It still needs about $430B a year of new money from FY2040, after the outside fix and phasing (part 6), and most of that can only be broad revenue (G19). A rate shock of 100-200 basis points would double the cost.
-- *The step toward 100%:* a debt-path rule (8c's budget-process part) would lower the target ratio each cycle when measured results allow: rates below the plan's assumption, receipts above the score, or certified health savings below D2 (WAD-H1). The plan would then move toward A without committing the money up front.
+- *The step toward 100%:* a debt-path rule, set out in memo [G20](G20-debt-path-rule.md) ([`../5-budget-process.md`](../5-budget-process.md) part 3), would lower the target ratio each cycle when measured results allow: rates below the plan's assumption, receipts above the score, or certified health savings below D2 (WAD-H1). The plan would then move toward A without committing the money up front.
 
 **C, under 100% by FY2050.** The fastest. It costs only about 0.1 points of GDP more than A, but the money has to start in the early 2030s, which collides with the populist start.
 
@@ -36,7 +36,7 @@ Each is met on the conventional score with no "works as designed" or dynamic sav
 
 ## Recommendation
 
-**B: commit to holding debt flat as a share of GDP from FY2040, met on the conventional score, with a debt-path rule (8c) that steps the target toward 100% as measured results allow.** It is the goal the plan can promise without a VAT, without early middle-class taxes and without touching Social Security or Medicare. It still delivers most of the difference between the plan and current law.
+**B: commit to holding debt flat as a share of GDP from FY2040, met on the conventional score, with a debt-path rule (memo G20) that steps the target toward 100% as measured results allow.** On CBO's rates the rule moves nothing toward 100%: the money G19 raises is all needed to hold debt flat, so the step down comes only if results beat CBO's assumptions (`../5-budget-process.md` part 3.3). **Without the rule** (if G20 isn't chosen), B is simply debt held at about 117% of GDP from FY2040, with nothing in law to step it down. It is the goal the plan can promise without a VAT, without early middle-class taxes and without touching Social Security or Medicare. It still delivers most of the difference between the plan and current law.
 
 **What would change this:**
 - If you would accept broad revenue from the mid-2030s, or deeper phasing of the plan's own programs, then **A**.

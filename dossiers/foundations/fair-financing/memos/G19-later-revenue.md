@@ -23,14 +23,14 @@ The outside screen found almost nothing else that fits (part 5.2; [`../notes/out
 
 | | Order | FY2040 | Take-home |
 | --- | --- | --- | --- |
-| A | R carries it: about 5.9% by FY2040 | $461B | about 48% of workers ahead |
+| A | R carries it, net of the $28B outside fix: about 5.7% by FY2040 | about $433B | about 49% of workers ahead |
 | **B (recommended)** | **From FY2037, itemized-deduction limits and the larger carbon fee first (about $230-460B); an AGI surtax from FY2040 if the debt-path rule still needs it; R last.** Each is enacted by FY2033 with a delayed start, as the 2017 and 2025 laws scheduled their changes, and each step can be switched off by the debt-path rule if results beat the goal | $430-460B | 69.0% held |
 | C | An AGI surtax and ordinary rates from FY2040 | about $250-400B | 69.0% held |
 | D | None: take G15 D instead | 0 | 69.0% |
 
 ## Recommendation
 
-**B.** It starts with the most progressive broad sources and with those that pay something back (the carbon dividend). It holds the populist start: nothing new for the middle class before FY2037. It enacts the later steps in the first Congress, so a later Congress isn't asked to vote for a tax increase, and the debt-path rule can cancel a step if it isn't needed. It protects the take-home test by putting R last.
+**B.** It starts with the most progressive broad sources and with those that pay something back (the carbon dividend). It holds the populist start: nothing new for the middle class before FY2037. It enacts the later steps in the first Congress, so a later Congress isn't asked to vote for a tax increase, and the debt-path rule can cancel a step if it isn't needed. **The debt-path rule is memo [G20](G20-debt-path-rule.md)** ([`../5-budget-process.md`](../5-budget-process.md) part 3): each step is on by default and is deferred a year only when measured debt has run a point below the path for two years and a projection on CBO's assumptions shows the path still met without it. **Without that rule**, B's steps are ordinary scheduled tax increases that take effect on their dates unless a later Congress changes the law. It protects the take-home test by putting R last.
 
 **What would change this:**
 - If you'd rather the money came from the health contribution alone, then **A**, at a heavy take-home cost.
