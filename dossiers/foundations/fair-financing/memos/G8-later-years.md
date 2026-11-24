@@ -33,7 +33,7 @@ Each keeps FY2040-56 closed on the central estimate. "Workers ahead" is health's
 **A, steps down on fixed dates.**
 - *For:* households get the money back on a known schedule as the defense saving builds. From FY2051 the rate is 0.4 points lower than C: for a household with $60,000 of income above the exemption, about $240 a year.
 - *Against:* the steps are written now on a 2040s forecast. If D2 or a yield misses, a step that was scheduled anyway would reopen a gap the backstop then has to close: the backstop raises the same rate that A has just lowered.
-- *Leaves:* no surplus to speak of by FY2056 ($34B), so no room for the risks the backstop doesn't cover (the top end's response and the old scores, about $270B in FY2040 together; `../2-settlement.md` part 5).
+- *Leaves:* no surplus to speak of by FY2056 ($34B), so no room for the risks the backstop doesn't cover (the top end's response and the old scores, about $248B in FY2040 together; `../2-settlement.md` part 5).
 
 **B, a lower start that steps up.**
 - *For:* the rule doesn't test FY2035-39, so households could pay G2 C's 3.25% for the first five years after the endpoint. About 76% of workers are ahead then, against 69%.
