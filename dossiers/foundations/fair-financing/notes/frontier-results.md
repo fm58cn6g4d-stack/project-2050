@@ -55,5 +55,16 @@ Each G8 option changes R after 2035, so it changes the other money a goal needs.
 | Under 100% of GDP by FY2055 | 69.0% (booked) | C | 631 | 732 | 1,050 | 1,293 | 99.6 |
 | Under 100% of GDP by FY2055 | 69.0% (booked) | D | 631 | 732 | 1,050 | 1,293 | 99.6 |
 
+## 4. Phasing candidates for FY2036-39 ($B saved; + lowers the deficit)
+
+| ID | What | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | FY2035-39 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| PH-1 | Long-term care (HLT-9) reaches full benefit in FY2039, not on its own ramp: 40/55/70/85% of its FY2035-38 path, net of the states' payment (S05) | 62 | 85 | 74 | 40 | 0 | 262 |
+| PH-2 | Housing stage 2 (housing_extra) held at its FY2036 enrollment level until FY2040 | 0 | 0 | 8 | 17 | 26 | 50 |
+| PH-3 | Clean-energy credits (CLI-1) held at their FY2037 level in FY2038-39 | 0 | 0 | 0 | 24 | 27 | 52 |
+| | **All three** | 62 | 85 | 82 | 81 | 53 | 364 |
+
+The goals' share of GDP from FY2036 on top of all three: Debt falling as a share of GDP from the mid-2030s 1.35 (without phasing 1.54); Under 100% of GDP by FY2050 1.44 (without phasing 1.48); Under 100% of GDP by FY2055 1.32 (without phasing 1.35).
+
 The take-home curve (FY2040): R 2.25%: 88.7%; R 2.50%: 85.9%; R 2.55%: 85.2%; R 2.75%: 82.6%; R 3.00%: 79.4%; R 3.25%: 76.2%; R 3.50%: 73.0%; R 3.80%: 69.0%; R 4.00%: 66.4%; R 4.25%: 63.2%; R 4.50%: 60.3%; R 4.75%: 57.8%; R 5.00%: 55.5%; R 5.50%: 50.9%; R 6.00%: 47.2%; R 6.50%: 44.0%; R 7.00%: 40.7%; R 7.50%: 38.1%; R 8.00%: 35.9%.
 

@@ -55,6 +55,58 @@ def other_money(bk, pp, x_goal, rate_path):
     return {y: x_goal.get(y, 0.0) + ((R_BOOKED - rate_path[y]) * pp[y] if y in rate_path else 0.0) for y in YEARS}
 
 
+# Step 8b's phasing candidates for FY2036-39 (part 4 of 4-fiscal-path.md): each a cut in the booked line's path,
+# $B by year (+ lowers the deficit), read from the booked case's own audit lines.
+PHASING = (
+    ('PH-1', 'Long-term care (HLT-9) reaches full benefit in FY2039, not on its own ramp: 40/55/70/85% of its FY2035-38 '
+             'path, net of the states\' payment (S05)', ('HLT-9', "Settlement S05"), {2035: .60, 2036: .45, 2037: .30, 2038: .15}),
+    ('PH-2', 'Housing stage 2 (housing_extra) held at its FY2036 enrollment level until FY2040', ('housing_extra',), 'hold2036'),
+    ('PH-3', 'Clean-energy credits (CLI-1) held at their FY2037 level in FY2038-39', ('CLI-1',), 'hold2037'),
+)
+
+
+def line_paths(bk):
+    P = {}
+    for a in bk.case['audit']:
+        P.setdefault(a['line'], {}).setdefault(a['year'], 0.0)
+        P[a['line']][a['year']] += a['primary_deficit_change_bn']
+    return P
+
+
+def phasing(bk):
+    """{id: {year: saving $B}} for each candidate."""
+    P = line_paths(bk)
+    def path(prefixes):
+        out = {y: 0.0 for y in YEARS}
+        for k, p in P.items():
+            if any(k == pre or k.startswith(pre) for pre in prefixes):
+                for y, v in p.items():
+                    out[y] += v
+        return out
+    res = {}
+    for pid, _, lines, rule in PHASING:
+        p = path(lines)
+        if isinstance(rule, dict):
+            res[pid] = {y: rule.get(y, 0.0) * p[y] for y in YEARS}
+        elif rule == 'hold2036':
+            res[pid] = {y: (p[y] - p[2036]) if 2037 <= y <= 2039 else 0.0 for y in YEARS}
+        else:
+            res[pid] = {y: (p[y] - p[2037]) if 2038 <= y <= 2039 else 0.0 for y in YEARS}
+    return res
+
+
+def solve_with(bk, goal, base_x):
+    """The smallest share (the FY2032-36 ramp) that meets the goal on top of a fixed deficit-reduction path base_x."""
+    ok = lambda s: FP.met(goal, FP.simulate(bk, {y: base_x.get(y, 0.0) + v for y, v in FP.shape(bk, s).items()}))
+    if ok(0.0):
+        return 0.0
+    lo, hi = 0.0, 8.0
+    for _ in range(40):
+        mid = (lo + hi) / 2
+        lo, hi = (lo, mid) if ok(mid) else (mid, hi)
+    return round(hi + 0.0005, 3)
+
+
 def build(take_home=True):
     bk = FP.Booked()
     pp = FP.per_point(FP.K.Context())
@@ -80,7 +132,11 @@ def build(take_home=True):
     for opt in ('A', 'B', 'C'):
         giveback = {y: -(R_BOOKED - r) * pp[y] for y, r in g8_path(opt, R_BOOKED).items()}
         g8_debt[opt] = FP.simulate(bk, giveback)
-    return dict(bk=bk, pp=pp, curve=curve, rates=rates, shares=shares, xs=xs, grid=grid, r_all=r_all, g8_debt=g8_debt)
+    ph = phasing(bk)
+    allph = {y: sum(p[y] for p in ph.values()) for y in YEARS}
+    ph_shares = {g: solve_with(bk, g, allph) for g, _ in GOALS if g != 'none'}
+    return dict(bk=bk, pp=pp, curve=curve, rates=rates, shares=shares, xs=xs, grid=grid, r_all=r_all, g8_debt=g8_debt,
+                phasing=ph, phasing_all=allph, phasing_shares=ph_shares)
 
 
 def markdown(d):
@@ -129,6 +185,17 @@ def markdown(d):
             debt56 = (d['g8_debt'][opt][2056]['debt_gdp'] if g == 'none' and opt in d['g8_debt'] else cell['debt'][2056]['debt_gdp'])
             L.append('| %s | %s | %s | %s | %s | %s | %s | %s |' % (glab, lab, opt, f0(om[2036]), f0(om[2040]), f0(om[2050]), f0(om[2056]), f1(debt56)))
     L.append('')
+    # 4. phasing
+    ph = d['phasing']
+    L += ['## 4. Phasing candidates for FY2036-39 ($B saved; + lowers the deficit)', '',
+          '| ID | What | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | FY2035-39 |', '| --- | --- | --- | --- | --- | --- | --- | --- |']
+    for pid, lab, _, _ in PHASING:
+        p = ph[pid]
+        L.append('| %s | %s | %s | %s |' % (pid, lab, ' | '.join(f0(p[y]) for y in range(2035, 2040)), f0(sum(p[y] for y in range(2035, 2040)))))
+    a = d['phasing_all']
+    L.append('| | **All three** | %s | %s |' % (' | '.join(f0(a[y]) for y in range(2035, 2040)), f0(sum(a[y] for y in range(2035, 2040)))))
+    L += ['', 'The goals\' share of GDP from FY2036 on top of all three: ' + '; '.join(
+        '%s %s (without phasing %s)' % (lab.split(' (')[0], f2(d['phasing_shares'][g]), f2(d['shares'][g])) for g, lab in GOALS if g != 'none') + '.', '']
     if curve:
         L += ['The take-home curve (FY2040): ' + '; '.join('R %s%%: %s%%' % (f2(r), f1(w)) for r, w in curve) + '.', '']
     return '\n'.join(L) + '\n'

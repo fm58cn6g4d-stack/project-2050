@@ -56,6 +56,7 @@ class Booked:
     def __init__(self, case=None):
         self.f, self.b, self.old, self.u = K.m.load()
         c = case or K.m.build_case('mixed', self.f, self.b, self.old, self.u)
+        self.case = c
         self.rows = {r['year']: r for r in c['rows']}
         self.gdp = {y: self.rows[y]['gdp_bn'] for y in YEARS}
         self.debt = {y: self.rows[y]['debt_bn'] for y in YEARS}
