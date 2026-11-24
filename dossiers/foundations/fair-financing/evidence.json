@@ -1583,16 +1583,18 @@
  },
  {
   "id": "EV-FIN-065",
-  "statement": "In Trump v. Cook (argued January 21, 2026; decided June 29, 2026) the Court denied the government's application to let the removal of Governor Lisa Cook take effect: she was the first governor fired in the Fed's 111-year history, the Court stressed that the appearance of independence is key to the Fed's design, and it said the test of \"cause\" is whether it implies \"an unfitness for the place\" rather than a wish for a more congenial replacement.",
+  "statement": "In Trump v. Cook (argued January 21, 2026; decided June 29, 2026) the Court denied the government's application to let the removal of Governor Lisa Cook take effect: she was the first governor fired in the Fed's 111-year history, the Court stressed that the appearance of independence is key to the Fed's design, and it said the test of \"cause\" is whether it implies \"an unfitness for the place\" rather than a wish for a more congenial replacement. Governors serve staggered 14-year terms and may be removed only for cause (§242).",
   "claim": "data",
   "figures": [
-   "111"
+   "111",
+   "14-year"
   ],
   "source": "SRC-6145",
   "anchor": [
    "Argued January 21, 2026—Decided June 29, 2026",
    "the first Governor to be fired in the central bank’s 111-year history.",
    "Held: The Government’s application is denied. Pp. 8–27.",
+   "staggered 14-year terms, and may be removed only “for cause.” §242.",
    "appearance of independence is key to the Federal Reserve’s design.",
    "issue is whether “[t]he cause assigned” truly “impl[ies] an unfitness for"
   ],
@@ -2037,5 +2039,49 @@
     "stance": "qualifies"
    }
   ]
+ },
+ {
+  "id": "EV-FIN-083",
+  "statement": "The Budget Enforcement Act replaced Gramm-Rudman-Hollings' deficit targets with pay-as-you-go procedures for new direct spending and revenue laws and limits on discretionary spending; PAYGO did not reach laws already in effect, and it was effectively ended in December 2002 when Congress set all PAYGO balances to zero.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6116",
+  "anchor": [
+   "BEA replaced the focus on deficit targets under Gramm-Rudman-Hollings with a two-pronged",
+   "procedures to control new direct spending and revenue legislation and discretionary spending",
+   "PAYGO did not seek to control the effects of any direct spending or",
+   "The PAYGO procedures adopted in this act were effectively terminated in December 2002 by the",
+   "enactment of H.R. 5708 (107th Congress), which set all PAYGO balances to zero to prevent the"
+  ],
+  "grade": "A",
+  "fact_date": "2002-12",
+  "recheck": "2027-11-30",
+  "context": "CRS (2011). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-084",
+  "statement": "Faced with a looming Gramm-Rudman-Hollings sequester in fall 1990, President George H.W. Bush and congressional leaders agreed a five-year, $500 billion deficit reduction plan; the reaffirmed act had made a report by OMB's director the sequester's trigger.",
+  "claim": "data",
+  "figures": [
+   "$500 billion"
+  ],
+  "source": "SRC-6116",
+  "anchor": [
+   "Faced with this looming sequester, in the fall of 1990, President George H.W. Bush and",
+   "congressional leaders agreed to a five-year, $500 billion deficit reduction plan that was the",
+   "by instead using a report submitted by the director of OMB as the trigger for the President’s"
+  ],
+  "grade": "A",
+  "fact_date": "1990",
+  "recheck": "2027-11-30",
+  "context": "CRS (2011). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
  }
 ]
