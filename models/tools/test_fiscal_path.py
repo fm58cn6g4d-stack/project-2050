@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'models/tools'))
 import fiscal_path as FP      # noqa: E402
 import fiscal_dynamic as FD   # noqa: E402
+import fiscal_frontier as FF  # noqa: E402
 
 BK = FP.Booked()
 # the registration as committed in 87125a0 (stage G step 8a); a change is a new registration (the note says how)
@@ -172,10 +173,29 @@ class Dynamic(unittest.TestCase):
         self.assertEqual([float(rows['DY4'][k]) for k in ('lo', 'mid', 'hi', 'optimistic_mid')], [0, 0, 0, 0])
 
 
+class Frontier(unittest.TestCase):
+    def test_other_money_identity(self):
+        """At the booked rate with G8 C, other money is the goal's deficit reduction; each point of R given up adds per_point."""
+        pp = FP.per_point(FP.K.Context())
+        x = FP.shape(BK, 1.0)
+        held = FF.other_money(BK, pp, x, FF.g8_path('C', 3.80))
+        lower = FF.other_money(BK, pp, x, FF.g8_path('C', 2.80))
+        for y in FP.YEARS:
+            self.assertAlmostEqual(held[y], x[y], places=9)
+            if y >= 2035:
+                self.assertAlmostEqual(lower[y] - held[y], pp[y], places=9)
+
+    def test_g8_paths(self):
+        a, b = FF.g8_path('A', 3.80), FF.g8_path('B', 3.80)
+        self.assertAlmostEqual(a[2046], 3.65); self.assertAlmostEqual(a[2051], 3.40)
+        self.assertAlmostEqual(b[2039], 3.25); self.assertAlmostEqual(b[2040], 3.80)
+
+
 class Notes(unittest.TestCase):
     def test_notes_current(self):
         self.assertEqual(FP.OUT.read_text(), FP.markdown(FP.build()), 'run fiscal_path.py --write')
         self.assertEqual(FD.OUT.read_text(), FD.markdown(FD.build()), 'run fiscal_dynamic.py --write')
+        self.assertEqual(FF.OUT.read_text(), FF.markdown(FF.build()), 'run fiscal_frontier.py --write')
 
 
 if __name__ == '__main__':
