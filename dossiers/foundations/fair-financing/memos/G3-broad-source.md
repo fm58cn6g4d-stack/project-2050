@@ -1,5 +1,8 @@
 # Memo G3: A broad source for the rest
 
+**Decided:** no VAT: cuts first, option E (a larger health contribution) as the fallback; G3b on the ten-year window, `DEC-2026-11-20-07`. Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 3 of stage G's batch ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) parts 2, 3 and 5). Status: **provisional, drafted on the recommendation, November 20, 2026; revised for the milestone review (#470: B-1, B-2, B-3, F-5, F-6). This is a new fork:** the audit's list didn't have it, because the audit didn't know how much would be left after the other choices. Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/packages.py`. Project arithmetic on exploratory models, not official scores.
 
 ## The question

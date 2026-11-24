@@ -1,5 +1,8 @@
 # Memo G5: D2 and the wealth tax: balance with them, or hold a backstop
 
+**Decided:** B, `DEC-2026-11-20-09`; its backstop steps are redrawn without a VAT in memo G13 (A, `DEC-2026-11-24-08`), whose text is in `../2-settlement.md` part 7.1. Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 5 of stage G's batch ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) parts 3 and 5; `../1-audit.md` part C, items 4 and 13). Status: **provisional, drafted on the recommendation, November 20, 2026.** Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/packages.py`. Project arithmetic on exploratory models, not official scores.
 
 ## The question
@@ -29,7 +32,7 @@ The question: should the package balance to the figure *with* D2 and HS2 and hol
 - *The trigger for HS2:* a final court ruling against the wealth tax switches on its fallback (the deferral charge) and the VAT step at once.
 - *The steps are in law from the start,* so markets and budget scorers see a funded plan. Congress can replace a step with something else by passing an alternative of equal size.
 - *Bridging:* health's early surplus, if held as a reserve (memo G6), is about $0.66T plus interest. The general fund covers health's FY2035-39 call in the package, so the reserve is held for D2 and the backstop only, not spent twice (the review's F-8). It covers roughly two to three years of a D2 shortfall while a step phases in.
-- *Legal footing* (the review's F-7): Congress sets the rate and the trigger, and an officer finds the fact. That is contingent legislation of the kind the Supreme Court upheld in *Field v. Clark* (1892) and *J.W. Hampton v. United States* (1928). If a trustees' finding were challenged, the statute should say the step takes effect by default on its date. Step 7 writes this into the settlement's specification.
+- *Legal footing* (the review's F-7): Congress sets the rate and the trigger, and an officer finds the fact. That is contingent legislation of the kind the Supreme Court upheld in *Field v. Clark* (1892) and *J.W. Hampton v. United States* (1928). If a trustees' finding were challenged, the statute should say the step takes effect by default on its date. With no VAT, the steps are redrawn in the health contribution by memo [G13](G13-backstop-without-vat.md) (A, `DEC-2026-11-24-08`), and step 7 wrote them into the settlement's specification (`../2-settlement.md` part 7.1).
 - *What it doesn't cover:* the yield risks (the top end's response, the old scores, the VAT's own yield) have no backstop. Together they are about $313B in FY2040. A miss there falls on a later Congress, unless memo G8's margin option is taken.
 - *Burden:* none unless triggered. It is one published annual comparison, which the trustees already need for D2 itself (design lens: published counts with a review trigger, `charter/STANDARDS.md`).
 
