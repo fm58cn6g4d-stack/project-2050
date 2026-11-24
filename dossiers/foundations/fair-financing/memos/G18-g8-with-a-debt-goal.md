@@ -17,6 +17,8 @@ G8 asked how the health contribution's base rate should move as the defense path
 
 ## Recommendation
 
+**It shares one upside with three other memos.** G15 B, G16 B, G18 D′ and G19 B all draw on the same thing: measured debt running below the path. The debt-path rule (memo [G20](G20-debt-path-rule.md) B, [`../5-budget-process.md`](../5-budget-process.md) part 3.3) sets the order: half of any lead lowers the path for good; the other half first defers a G19 step not yet started, then steps the health contribution down a quarter point (never below 3.25%), then suspends a G19 step already in force. The promises below are kept in that order, not each in full. D′'s finding (a surplus beyond the goal's path, two years running) is the rule's lead finding, so D′ and G16 B are one trigger.
+
 **D′.** Keep G8's idea that money goes back to households only once it is real, and measure "real" against the debt goal, not against zero. With no debt goal (G15 D), D′ is the same as G8's D.
 
 **What would change this:** with G15 D, choose G8 as before. If you want the step-down written in law now, then A, with its added cost.

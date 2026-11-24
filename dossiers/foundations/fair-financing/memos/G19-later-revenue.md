@@ -24,11 +24,13 @@ The outside screen found almost nothing else that fits (part 5.2; [`../notes/out
 | | Order | FY2040 | Take-home |
 | --- | --- | --- | --- |
 | A | R carries it, net of the $28B outside fix: about 5.7% by FY2040 | about $433B | about 49% of workers ahead |
-| **B (recommended)** | **From FY2037, itemized-deduction limits and the larger carbon fee first (about $230-460B); an AGI surtax from FY2040 if the debt-path rule still needs it; R last.** Each is enacted by FY2033 with a delayed start, as the 2017 and 2025 laws scheduled their changes, and each step can be switched off by the debt-path rule if results beat the goal | $430-460B | 69.0% held |
+| **B (recommended)** | **From FY2037, itemized-deduction limits and the larger carbon fee first (about $230-460B); an AGI surtax from FY2040 if the debt-path rule still needs it; R last.** Each is enacted in the first Congress (2029-30) with a delayed start, as the 2017 and 2025 laws scheduled their changes, and each step can be switched off by the debt-path rule if results beat the goal | $430-460B | 69.0% held |
 | C | An AGI surtax and ordinary rates from FY2040 | about $250-400B | 69.0% held |
 | D | None: take G15 D instead | 0 | 69.0% |
 
 ## Recommendation
+
+**It shares one upside with three other memos.** G15 B, G16 B, G18 D′ and G19 B all draw on the same thing: measured debt running below the path. The debt-path rule (memo [G20](G20-debt-path-rule.md) B, [`../5-budget-process.md`](../5-budget-process.md) part 3.3) sets the order: half of any lead lowers the path for good; the other half first defers a G19 step not yet started, then steps the health contribution down a quarter point (never below 3.25%), then suspends a G19 step already in force. The promises below are kept in that order, not each in full. For G19 that means a step is deferred only from the other half of a lead, after the path has been lowered.
 
 **B.** It starts with the most progressive broad sources and with those that pay something back (the carbon dividend). It holds the populist start: nothing new for the middle class before FY2037. It enacts the later steps in the first Congress, so a later Congress isn't asked to vote for a tax increase, and the debt-path rule can cancel a step if it isn't needed. **The debt-path rule is memo [G20](G20-debt-path-rule.md)** ([`../5-budget-process.md`](../5-budget-process.md) part 3): each step is on by default and is deferred a year only when measured debt has run a point below the path for two years and a projection on CBO's assumptions shows the path still met without it. **Without that rule**, B's steps are ordinary scheduled tax increases that take effect on their dates unless a later Congress changes the law. It protects the take-home test by putting R last.
 
