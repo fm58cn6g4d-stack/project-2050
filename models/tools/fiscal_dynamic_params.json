@@ -1,0 +1,27 @@
+{
+  "_role": "Stage G step 8a: the pre-registered parameters of the contained dynamic layer (models/tools/fiscal_dynamic.py). Committed before any debt path was run with them; dossiers/foundations/fair-financing/notes/dynamic-preregistration.md gives each one's source and why it departs from CBO or JCT where it does. Changing a value after the first run is a new registration, recorded in that note with its reason. Shown beside the conventional score, never in place of it.",
+  "registered": "2026-11-24",
+  "ends": ["low", "central", "high"],
+  "symmetric": {
+    "_note": "Applied the same way to the current-law baseline and to the plan. Reference: the FY2029 debt ratio (reading A, as the brief asks) or CBO's own baseline debt path (reading B: only the plan's difference from it, since CBO's long-term projection already carries its own debt feedback).",
+    "rate_bp_per_point": {"low": 1.0, "central": 2.0, "high": 3.0, "unit": "basis points on interest rates per percentage point of debt held by the public above the reference", "adjust_years": 5.9},
+    "crowd_gdp_pct_per_point": {"low": 0.01, "central": 0.02, "high": 0.035, "unit": "% of GDP, the GDP level's long-run change per percentage point of debt above the reference", "adjust_share_per_year": 0.10},
+    "budget_share_of_gdp_change": 0.25
+  },
+  "channels": {
+    "_note": "The plan only. Budget effect, % of GDP (+ lowers the deficit), at FY2040; 'start' and 'ramp' phase it in; 'y2056' (if given) is the level reached in FY2056 on a straight line from FY2040, else it holds at the FY2040 share. Its GDP effect is the budget effect over budget_share_of_gdp_change.",
+    "P-CARE":   {"label": "Child care, pre-K and paid leave: higher parental employment (DY6's basis)", "sign": "+", "low": 0.03, "central": 0.08, "high": 0.15, "start": 2030, "ramp": 6},
+    "P-HEALTHWORK": {"label": "Health coverage not tied to a job: less job lock, premiums turned into wages", "sign": "+", "low": 0.00, "central": 0.02, "high": 0.05, "start": 2035, "ramp": 3},
+    "N-HEALTHCOV": {"label": "Fuller health coverage lowers labor supply somewhat (CBO's ACA convention; DY2's basis)", "sign": "-", "low": -0.08, "central": -0.04, "high": -0.01, "start": 2031, "ramp": 5},
+    "N-CONTRIB": {"label": "The 3.80% health contribution's marginal rate on earnings: labor supply", "sign": "-", "low": -0.20, "central": -0.10, "high": -0.04, "start": 2035, "ramp": 2},
+    "N-TOP":    {"label": "The top-rate stack and the corporate rows: labor supply, saving and investment (DY1's basis)", "sign": "-", "low": -0.25, "central": -0.12, "high": -0.05, "start": 2030, "ramp": 5},
+    "N-WEALTH": {"label": "The wealth tax: avoidance and saving at the top beyond the conventional allowance", "sign": "-", "low": -0.06, "central": -0.02, "high": 0.00, "start": 2032, "ramp": 3},
+    "P-IMM":    {"label": "Immigration: legalization raises measured employment and wages (DY8's basis)", "sign": "+", "low": 0.01, "central": 0.03, "high": 0.06, "start": 2030, "ramp": 6},
+    "P-WORK":   {"label": "Work: paid on-ramps and the labor bill's participation effects (beyond LAB-1, which is booked)", "sign": "+", "low": 0.00, "central": 0.01, "high": 0.02, "start": 2030, "ramp": 5},
+    "P-INVEST": {"label": "Clean power, infrastructure and R&D: productivity (DY7's basis)", "sign": "+", "low": 0.00, "central": 0.02, "high": 0.05, "start": 2030, "ramp": 10, "y2056": {"low": 0.02, "central": 0.06, "high": 0.12}}
+  },
+  "works_as_designed": {
+    "_note": "Labeled 'works as designed' (DEC-2026-11-24-14 direction 1), not dynamic. Never counted toward a debt goal (the hard rule).",
+    "WAD-H1": {"label": "The single plan's gross cost grows below D2's cap (GDP + 1 point from FY2037), measured against the D2-held path so D2 isn't counted twice", "points_below_cap": {"low": 0.0, "central": 0.25, "high": 0.5}, "start": 2037, "held_gross_2040_bn": 7681.0, "after_2040_growth": "gdp+1"}
+  }
+}
