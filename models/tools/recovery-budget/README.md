@@ -12,6 +12,9 @@ items in `models/data/inputs/settlement.json` (each with its `DEC-` row) and the
 checks. The audit shows them as "Settlement Snn: ..." lines. `build_case(..., settlement=False)` and the case
 `mixed_before_settlement` give the plan before it, which the financing screens (`models/tools/financing-protection/`)
 price from. The settlement's text is `dossiers/foundations/fair-financing/2-settlement.md`.
+The stress and sensitivity cases (`mixed_downside`, `mixed_all_debt_rate_plus1`, the corridor and SSA cases and the
+others) hold the settlement's lines at their central paths: a stress changes the plan's own receipts and costs, not
+the settlement's items. The settlement's own ranges are in `settlement_booking.py --report` (its risk rows).
 
 ## Reproduce
 

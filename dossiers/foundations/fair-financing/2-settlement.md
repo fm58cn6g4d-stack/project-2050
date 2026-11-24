@@ -201,6 +201,11 @@ Each risk alone, added to the booked package (`settlement_booking.py --report`).
 | C3A's compliance payments vanish | Suppliers comply (item 43) | +35.6 | +23.5 | −132.0 | +0.16 |
 | The stack cap at its high end ($55B) | Stack note part 4 | +9.0 | −7.9 | −176.6 | +0.04 |
 
+- **The working assumptions that would move the rate first** (the reviewer's note on #480). Each is booked at its central value, and none is covered by the backstop (G13 covers only D2 and the wealth tax):
+  - **S03, the avoidance allowance on the base rate** (10%, range 10-25%): at 25%, about +$85B in FY2040, so the base rate would need about **+0.38 points** (4.2%). It is the largest because the base rate's yield is the largest line.
+  - **S08, defense's restructuring** (5%, range 3-7%): at 3%, about +$24B in FY2040, **+0.11 points**.
+  - **S02, the 0.9% folded in** ($70B, against the $53.5B first booked): at $53.5B, +$16.5B, **+0.07 points**.
+  - **If one misses,** the rule fails in FY2040-44 at once: the margin there is $0.4-6B. Nothing switches on by itself. A later Congress would have to raise the base rate by the points above, or find the money elsewhere, until the defense path's surplus covers the miss in the late 2040s. Memo G8's options C and D keep that surplus in hand; A gives it back.
 - **The package has almost no margin in FY2040-44.** Every risk row breaks the rule there on its own. From the late 2040s the surplus absorbs most single risks; the joint yield risk breaks it in every year.
 - **The yield risks fall on a later Congress.** Without a VAT the VAT's own yield risk and the price-rise reading are gone. Memo G8's options C and D keep the later surplus in hand against them; A gives it back.
 - **Defense's 5% restructuring** is a working assumption (range 3-7%), with no CBO score of the package. At 3% the FY2040 saving is about $24B smaller (memo G10).

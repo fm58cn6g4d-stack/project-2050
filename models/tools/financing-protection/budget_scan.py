@@ -154,9 +154,10 @@ def opt_tax_item(ctx, key, share=None):
                 adjust={'Tax: ' + key: neg(priced_from(lvl, 2030, 1, grow='gdp'))}, d3=[])
 
 
-# Memo G14, the housing guarantee (Espen, November 20, via the lead). Stage 2 (HOU-4D.01, with the duty to house, the
-# wider entry and the restated count) is booked as the recovery budget's `housing_extra` line: $39.5B in FY2040, against
-# the housing dossier's $23B + $1.3B + $8B + $8B (`dossiers/home/6-cost.md` part 1.2). Leased families in FY2040, central:
+# Memo G14, the housing guarantee (Espen, November 20, via the lead). Stage 2 (HOU-4D.01: the core group, the wider
+# entry and the restated count) is booked as the recovery budget's `housing_extra` line: $39.5B in FY2040, about the
+# housing dossier's $23B + $8B + $8B (`dossiers/home/6-cost.md` part 1.2). The duty to house's $1.3B is NOT in
+# `housing_extra`: it was HOU-1's own component (`hou-4d-01-duty-to-house`), removed from the ledger with G14 C in step 7. Leased families in FY2040, central:
 # about 920,000 + 306,000 + 300,000 = about 1.53 million. A capped program (C) holds stage 2 at the pre-right size,
 # about 900,000 awards at 90% leased, about 810,000 families: about 0.53 of the right's cost (range 0.45-0.65).
 HOUSING_CAPPED_SHARE = 0.53
