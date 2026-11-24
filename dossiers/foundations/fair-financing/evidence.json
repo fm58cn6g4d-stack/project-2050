@@ -405,5 +405,1637 @@
   ],
   "locator": "Letter",
   "checked": "2026-11-20"
+ },
+ {
+  "id": "EV-FIN-016",
+  "statement": "P.L. 119-21, the 2025 reconciliation law, raised the debt limit by $5.0 trillion, to $41.1 trillion.",
+  "claim": "data",
+  "figures": [
+   "5.0",
+   "41.1"
+  ],
+  "source": "SRC-6110",
+  "anchor": [
+   "P.L. 119-21, the 2025 reconciliation law, increased the debt",
+   "limit by $5.0 trillion, to $41.1 trillion."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "recheck": "2027-03-31",
+  "context": "CRS (September 2026). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md",
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-017",
+  "statement": "CRS: recent projections suggest borrowing will approach the debt limit sometime in FY2027, though such estimates are subject to considerable uncertainty.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6110",
+  "anchor": [
+   "projections suggest such borrowing will approach the debt",
+   "limit sometime in FY2027, though such estimates are"
+  ],
+  "grade": "C",
+  "fact_date": "2026-09",
+  "recheck": "2027-03-31",
+  "context": "CRS (September 2026), summarizing outside projections. Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-018",
+  "statement": "Congress has approved 104 separate debt limit modifications since the end of World War II.",
+  "claim": "data",
+  "figures": [
+   "104"
+  ],
+  "source": "SRC-6110",
+  "anchor": [
+   "in 1917. Congress has approved 104 separate debt limit"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09",
+  "recheck": "2027-09-30",
+  "context": "CRS (September 2026). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-019",
+  "statement": "CRS: previous administrations and many in the legal community have rejected the argument that the Fourteenth Amendment lets the President ignore the statutory debt limit.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6110",
+  "anchor": [
+   "the Fourteenth Amendment may grant the President",
+   "authority to ignore the statutory debt limit. Previous",
+   "Administrations and many representatives of the legal",
+   "community have rejected that argument as an alternative to"
+  ],
+  "grade": "C",
+  "fact_date": "2026-09",
+  "recheck": "2027-09-30",
+  "context": "CRS (September 2026). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-023",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-020",
+  "statement": "At the start of the 118th Congress (2023) the House repealed the rule (the \"Gephardt rule\", Rule XXVIII in the 116th and 117th Congresses) that passed debt limit legislation without a separate vote.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6111",
+  "anchor": [
+   "At the beginning of the 118th Congress, the House repealed a rule that allowed for the automatic",
+   "passage of legislation suspending the debt limit (i.e., without a separate vote). That House rule",
+   "(previously Rule XXVIII during the 116th and 117th Congresses) provided for legislation"
+  ],
+  "grade": "A",
+  "fact_date": "2023-01",
+  "recheck": "2027-01-31",
+  "context": "CRS (November 2023). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-021",
+  "statement": "In 17 of the 33 years the Gephardt rule existed, debt limit legislation was automatically sent to the Senate without a separate House vote; in the other 16 the rule was suspended or no budget resolution was adopted.",
+  "claim": "data",
+  "figures": [
+   "17",
+   "33",
+   "16"
+  ],
+  "source": "SRC-6111",
+  "anchor": [
+   "118th Congress. In 16 of the 33 years, however, either the rule was suspended or the respective",
+   "which the Gephardt rule existed (17 of the 33 years), debt limit legislation was automatically"
+  ],
+  "grade": "A",
+  "fact_date": "2023-11",
+  "recheck": "2027-01-31",
+  "context": "CRS (November 2023). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-022",
+  "statement": "Under the Budget Control Act's 2011 procedure, a debt limit increase took effect on the President's certification unless Congress passed a joint resolution of disapproval, which could be vetoed; the Senate rejected one 45-52 on September 8, 2011.",
+  "claim": "data",
+  "figures": [
+   "45-52"
+  ],
+  "source": "SRC-6112",
+  "anchor": [
+   "certification, was subject to a joint resolution of disapproval. Because such a resolution could be",
+   "vetoed, blocking a debt limit increase would be challenging. The Senate rejected a disapproval",
+   "measure (S.J.Res. 25) on September 8, 2011, on a 45-52 vote. The House passed a disapproval"
+  ],
+  "grade": "A",
+  "fact_date": "2011-09",
+  "recheck": "2027-09-30",
+  "context": "CRS (December 2022 version). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-023",
+  "statement": "CRS: the Supreme Court has examined the Public Debt Clause only once (in Perry v. United States), and it is unclear how the clause applies to the statutory debt limit.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6113",
+  "anchor": [
+   "Given these uncertainties surrounding the Public Debt Clause generally, it is unclear how the"
+  ],
+  "grade": "C",
+  "fact_date": "2021-11",
+  "recheck": "2027-11-30",
+  "context": "CRS legal analysis (November 2021). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-019",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-024",
+  "statement": "In 2013 the Treasury and the Federal Reserve rejected minting a platinum coin to avoid raising the debt limit: \"Neither the Treasury Department nor the Federal Reserve believes that the law can or should be used\" for that purpose.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6113",
+  "anchor": [
+   "Treasury spokesman stated that “Neither the Treasury Department nor the Federal Reserve",
+   "believes that the law can or should be used to facilitate the production of platinum coins for the",
+   "purpose of avoiding an increase in the debt limit.”"
+  ],
+  "grade": "A",
+  "fact_date": "2013-01",
+  "recheck": "2027-11-30",
+  "context": "CRS (November 2021), quoting the Obama administration Treasury. Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-025",
+  "statement": "GAO estimates that Treasury securities issued during periods of acute market concern over the 2011-2023 impasses incurred roughly $107 million to $161 million in increased immediate borrowing costs (2024 dollars), with further hard-to-quantify costs.",
+  "claim": "analysis",
+  "figures": [
+   "$107 million",
+   "$161 million"
+  ],
+  "source": "SRC-6114",
+  "anchor": [
+   "2011 and 2023—the most recent impasses with complete data available at the time",
+   "incurred a total of roughly $107 million to $161 million in",
+   "increased immediate borrowing costs (in 2024 dollars), depending on the measure",
+   "hard-to-quantify costs, including long-term costs from reduced investor"
+  ],
+  "grade": "B",
+  "fact_date": "2026-03",
+  "recheck": "2028-03-31",
+  "context": "GAO (March 2026), a model estimate; legislative branch, nonpartisan. GAO has long recommended reform, so it is not neutral on the remedy. GAO-12-701 put the 2011 delay alone at about $1.3 billion on a different method.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-027",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-026",
+  "statement": "GAO: the current debt limit process \"creates an unnecessary risk of U.S. default\"; GAO recommends Congress replace it with an approach that links debt decisions to spending and revenue decisions when they are made.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6114",
+  "anchor": [
+   "The current debt limit process creates an unnecessary risk of U.S. default,",
+   "limit process and recommended that Congress replace it with an approach that",
+   "links debt decisions to spending and revenue decisions at the time they are"
+  ],
+  "grade": "C",
+  "fact_date": "2026-03",
+  "recheck": "2028-03-31",
+  "context": "GAO (March 2026), restating GAO-15-476. Legislative branch, nonpartisan.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-028",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-FIN-029",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-027",
+  "statement": "Around the 2011 debt limit debate the S&P 500 fell about 17 percent, and from June to August 2011 consumer confidence fell 22 percent (Treasury).",
+  "claim": "data",
+  "figures": [
+   "17 percent",
+   "22 percent"
+  ],
+  "source": "SRC-6115",
+  "anchor": [
+   "The S&P 500 index of equity prices fell about",
+   "17 percent in the period surrounding the 2011",
+   "confidence fell 22 percent and business"
+  ],
+  "grade": "C",
+  "fact_date": "2011-08",
+  "recheck": "2027-11-30",
+  "context": "Obama administration Treasury (October 2013), written during the 2013 impasse: an interested party. Market moves are measured, but the attribution to the debt limit is the Treasury's; the paper notes confidence had begun to fall earlier in 2011.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-028",
+  "statement": "S&P (2011), downgrading the US: \"The political brinksmanship of recent months highlights what we see as America's governance and policy making becoming less stable\"; the debt ceiling and the threat of default \"have become political bargaining chips\".",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6120",
+  "anchor": [
+   "The political brinksmanship of recent months highlights what we see as America's governance and policy making becoming less stable",
+   "The statutory debt ceiling and the threat of default have become political bargaining chips in the debate over fiscal policy."
+  ],
+  "grade": "C",
+  "fact_date": "2011-08-05",
+  "recheck": "2027-11-30",
+  "context": "S&P's own rating rationale (a rating agency with a commercial stake), as reproduced by CBS News.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "release text, paragraph beginning \"We have taken the ratings off CreditWatch\"",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-029",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-029",
+  "statement": "Fitch (2023), downgrading the US to AA+: \"The repeated debt-limit political standoffs and last-minute resolutions have eroded confidence in fiscal management.\"",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6121",
+  "anchor": [
+   "The repeated debt-limit political standoffs and last-minute resolutions have eroded confidence in fiscal management."
+  ],
+  "grade": "C",
+  "fact_date": "2023-08-01",
+  "recheck": "2027-11-30",
+  "context": "Fitch's own rating rationale; a rating agency with a commercial stake.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Key Rating Drivers, \"Erosion of Governance\"",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-028",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-030",
+  "statement": "Denmark's debt ceiling was raised in 2010 with all major parties' support so that it would stay far above outstanding debt and never play a role in day-to-day politics; from 1993 to 2010 debt was never within Dkr 140 billion of it.",
+  "claim": "analysis",
+  "figures": [
+   "140"
+  ],
+  "source": "SRC-6122",
+  "anchor": [
+   "to ensure that the Danish debt ceiling remained far in excess of outstanding debt and would never play a role in day-to-day politics",
+   "between 1993 and 2010—when Danish nominal GDP almost doubled—outstanding gross government debt was at no point within Dkr 140 billion of the legal debt ceiling"
+  ],
+  "grade": "C",
+  "fact_date": "2011-07",
+  "recheck": "2027-11-30",
+  "context": "PIIE (2011), a nonpartisan think tank; dated.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "paragraph 4 and the final paragraph"
+ },
+ {
+  "id": "EV-FIN-031",
+  "statement": "Switzerland's debt brake ties the ceiling on ordinary federal spending to ordinary receipts adjusted by a cyclical factor, so cyclical swings in receipts do not pass to the ceiling.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6123",
+  "anchor": [
+   "the annual ceiling for ordinary expenditure is linked to the amount of ordinary receipts. To ensure that cyclical fluctuations in receipts are not transferred to the expenditure ceiling, receipts are adjusted by the cyclical factor"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "recheck": "2027-11-30",
+  "context": "Swiss Federal Finance Administration, the rule's administrator: a description of the law.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "\"How it works\", \"The expenditure rule\""
+ },
+ {
+  "id": "EV-FIN-032",
+  "statement": "Under the Swiss rule, spending above the ceiling is debited to a compensation account; extraordinary spending, which needs a qualified majority of both chambers, goes to an amortisation account repaid over the following six years.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6123",
+  "anchor": [
+   "the excess is debited to the so-called compensation account",
+   "Expenditure surpluses have to be paid off over the course of the subsequent six accounting years by means of surpluses in the ordinary budget.",
+   "a qualified majority of both chambers of Parliament is required to increase the expenditure ceiling."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "recheck": "2027-11-30",
+  "context": "Swiss Federal Finance Administration: a description of the law.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "\"Compensation account for the ordinary budget\"; \"Extraordinary expenditure\"; \"Amortisation account for the extraordinary budget\""
+ },
+ {
+  "id": "EV-FIN-033",
+  "statement": "The Swiss federal debt ratio fell from 25.3% (2003) to 13.5% (2019); the administrator says growth and rising receipts were also responsible, and Parliament extended the deadline for repaying the COVID-19 debt to 2035.",
+  "claim": "analysis",
+  "figures": [
+   "25.3%",
+   "13.5%"
+  ],
+  "source": "SRC-6123",
+  "anchor": [
+   "the Confederation's debt ratio falling from 25.3% (2003) to 13.5% (2019)",
+   "Aside from the debt brake, the dynamic economic growth and increase in receipts were also responsible",
+   "extend the deadline for reducing the COVID-19 debt to 2035"
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "recheck": "2027-11-30",
+  "context": "The rule's own administrator, assessing its own rule: the debt figures are data, the attribution is its view, and it names other causes itself.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "\"Experience\"; \"Outlook\"",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-046",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-034",
+  "statement": "Sweden's net lending target is one-third of 1% of GDP over a business cycle, and from 2027 balance over a cycle, with a debt anchor of 35% of GDP; the government says an annual target would make fiscal policy pro-cyclical.",
+  "claim": "analysis",
+  "figures": [
+   "35%"
+  ],
+  "source": "SRC-6124",
+  "anchor": [
+   "The target for general government net lending is one-third of 1% of GDP on average over a business cycle. From 2027 onwards, the target is to achieve balance over a business cycle.",
+   "The debt anchor of 35% of GDP",
+   "If the target had been formulated as an annual target, fiscal policy would need to be pro-cyclical"
+  ],
+  "grade": "C",
+  "fact_date": "2026-03",
+  "recheck": "2027-11-30",
+  "context": "The Swedish government's own framework statement: the targets are data; the reasoning is the government's.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Overview; section 3.1; section 3.2",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-045",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-035",
+  "statement": "When Sweden deviates from its target, the government must explain the deviation in the budget bill and how a return to the target will occur; an independent Fiscal Policy Council assesses compliance.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6124",
+  "anchor": [
+   "In the event of a deviation, the Government is required to explain in the Budget Bill and the Spring Fiscal Policy Bill what motivates the deviation and explain how a return to the target will occur."
+  ],
+  "grade": "A",
+  "fact_date": "2026-03",
+  "recheck": "2027-11-30",
+  "context": "The Swedish government's framework statement.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "section 3.1"
+ },
+ {
+  "id": "EV-FIN-036",
+  "statement": "The UK's rules (the Charter, February 2026) require the current budget to be in surplus in 2029-30 and debt (public sector net financial liabilities) to be falling as a share of the economy by 2029-30; the Chancellor may suspend them in an emergency or a significant negative shock, after seeking the OBR's assessment.",
+  "claim": "data",
+  "figures": [
+   "2029-30"
+  ],
+  "source": "SRC-6125",
+  "anchor": [
+   "the current budget must be in surplus in 2029-30",
+   "is falling as a share of the economy by 2029-30",
+   "the Chancellor of the Exchequer may temporarily suspend the fiscal mandate and supplementary targets",
+   "must write to the OBR seeking its assessment of the severity of the shock"
+  ],
+  "grade": "A",
+  "fact_date": "2026-02",
+  "recheck": "2027-11-30",
+  "context": "The UK government's statutory charter.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "paras. 3.6, 3.7, 3.9, 3.10"
+ },
+ {
+  "id": "EV-FIN-037",
+  "statement": "The Institute for Government notes that the UK charter does not specify what counts as a shock, so suspension is at the Treasury's discretion, and that longer horizons let a government forecast large deficits and rising debt for most of the period.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6127",
+  "anchor": [
+   "though it does not specify what would constitute such a shock, meaning this is at the Treasury’s discretion.",
+   "Longer five-year horizons, like those used by Sunak and Hunt, give the government more leeway"
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "recheck": "2027-11-30",
+  "context": "Institute for Government, a nonpartisan UK think tank.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "\"Do these rules always apply?\"; \"How do these rules differ from recent fiscal rules in the UK?\"",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-044",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-038",
+  "statement": "In September 2022 the UK Chancellor did not ask the OBR for a forecast to accompany the 'mini-budget', which went ahead without one; the Bank of England then bought long-dated gilts, warning of a material risk to UK financial stability.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6126",
+  "anchor": [
+   "the chancellor did not ask the OBR for one, and so the fiscal event went ahead without forecasts."
+  ],
+  "grade": "C",
+  "fact_date": "2022-09",
+  "recheck": "2027-11-30",
+  "context": "Institute for Government, a nonpartisan UK think tank.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "\"Can the government announce major fiscal policy changes without an OBR forecast?\"",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-039",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-039",
+  "statement": "The Bank of England (September 2022): \"Were dysfunction in this market to continue or worsen, there would be a material risk to UK financial stability.\"",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6128",
+  "anchor": [
+   "Were dysfunction in this market to continue or worsen, there would be a material risk to UK financial stability."
+  ],
+  "grade": "A",
+  "fact_date": "2022-09-28",
+  "recheck": "2027-11-30",
+  "context": "The central bank's own release announcing temporary purchases of long-dated gilts.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "news release, paragraph 2"
+ },
+ {
+  "id": "EV-FIN-040",
+  "statement": "The OBR (October 2026) finds the UK's rules met by a margin of £15 billion and calls the margins very small compared with the uncertainty of any medium-term forecast.",
+  "claim": "analysis",
+  "figures": [
+   "£15 billion"
+  ],
+  "source": "SRC-6129",
+  "anchor": [
+   "is met by a margin of £15 billion",
+   "These margins against the fiscal targets are very small compared to the inherent risk and uncertainty around any medium-term fiscal forecast."
+  ],
+  "grade": "B",
+  "fact_date": "2026-10",
+  "recheck": "2027-04-30",
+  "context": "The UK's statutory independent fiscal council.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "paras. 1.24 and 1.26",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-037",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-041",
+  "statement": "The EU's 2024 framework uses a single indicator, net expenditure, which is not affected by automatic stabilisers, and so leaves room for counter-cyclical policy.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6130",
+  "anchor": [
+   "That indicator, which is not affected by the operation of automatic stabilisers and other expenditure fluctuations outside the direct control of the government, provides leeway for counter-cyclical macro-economic stabilisation."
+  ],
+  "grade": "A",
+  "fact_date": "2024-04",
+  "recheck": "2027-11-30",
+  "context": "Primary EU law (the regulation's recital).",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Recital 13"
+ },
+ {
+  "id": "EV-FIN-042",
+  "statement": "The EU framework's debt safeguard requires the debt ratio to fall by at least 1 point of GDP a year above 90% and half a point between 60% and 90%, and a deficit-resilience margin of one and a half points of GDP below the 3% reference value.",
+  "claim": "data",
+  "figures": [
+   "90",
+   "60",
+   "3"
+  ],
+  "source": "SRC-6130",
+  "anchor": [
+   "1 percentage point of GDP as long as the general government debt-to-GDP ratio exceeds 90 %;",
+   "0,5 percentage points of GDP as long as the general government debt-to-GDP ratio remains between 60 % and 90 %.",
+   "a common resilience margin in structural terms of 1,5 % of GDP relative to the deficit reference value of 3 % of GDP"
+  ],
+  "grade": "A",
+  "fact_date": "2024-04",
+  "recheck": "2027-11-30",
+  "context": "Primary EU law.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Articles 7(1) and 8(1)"
+ },
+ {
+  "id": "EV-FIN-043",
+  "statement": "The EU framework has a general escape clause for a severe downturn in the euro area or the Union and a national clause for exceptional circumstances outside a member state's control; in July 2025 the Council activated the national clause for 15 member states' defence spending, up to 1.5% of GDP a year through 2028.",
+  "claim": "data",
+  "figures": [
+   "15",
+   "1.5%"
+  ],
+  "source": "SRC-6131",
+  "anchor": [
+   "On 8 July 2025, the Council activated the national escape clause for 15 member states",
+   "with an annual excess through 2028 that will not exceed 1.5% of GDP."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07-08",
+  "recheck": "2027-11-30",
+  "context": "The Council's own record.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "\"Which member states have activated the national escape clause?\""
+ },
+ {
+  "id": "EV-FIN-044",
+  "statement": "IMF staff (2018): rules adopted without political buy-in or sound financial management can encourage creative accounting or off-budget operations, and formal compliance has compressed public investment and social spending.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6132",
+  "anchor": [
+   "rules can also reduce transparency by encouraging creative accounting or off-budget operations",
+   "encouraging creative accounting and the compression of public investment and social spending"
+  ],
+  "grade": "C",
+  "fact_date": "2018-04",
+  "recheck": "2027-11-30",
+  "context": "IMF staff discussion note; the IMF generally favors rules.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "paras. 2 and 12",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-037",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-FIN-049",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-045",
+  "statement": "IMF staff (2018): nominal deficit caps are potentially procyclical, encouraging retrenchment in bad times without preventing relaxation in good times; expenditure ceilings avoid procyclicality in good times.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6132",
+  "anchor": [
+   "certain types of rules such as nominal deficit caps are potentially procyclical, encouraging fiscal retrenchment in bad times without preventing fiscal relaxation in good times.",
+   "expenditure ceilings avoid procyclicality in good times by preventing higher-than-expected revenues from being spent."
+  ],
+  "grade": "C",
+  "fact_date": "2018-04",
+  "recheck": "2027-11-30",
+  "context": "IMF staff discussion note.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "paras. 12 and 52",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-034",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-FIN-041",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-046",
+  "statement": "IMF staff (2018): there is no consensus method for measuring the cycle's effect on the budget, which opens avenues to circumventing cyclically adjusted rules; without well-designed escape clauses, rules are often put in abeyance after large shocks.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6132",
+  "anchor": [
+   "which opens avenues to circumventing the rule.",
+   "Without well-designed escape clauses, rules are often put in abeyance following large shocks, or countries resort to ad hoc measures to accommodate them."
+  ],
+  "grade": "C",
+  "fact_date": "2018-04",
+  "recheck": "2027-11-30",
+  "context": "IMF staff discussion note.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "paras. 35 and 51",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-037",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-047",
+  "statement": "IMF staff (2018): in Europe, national fiscal rules were complied with about half of the time in 1995-2015, and EU countries were under excessive deficit procedures about half of the time.",
+  "claim": "data",
+  "figures": [
+   "1995",
+   "2015"
+  ],
+  "source": "SRC-6132",
+  "anchor": [
+   "In Europe, national rules have been complied with about half of the time between 1995 and 2015"
+  ],
+  "grade": "C",
+  "fact_date": "2018-04",
+  "recheck": "2027-11-30",
+  "context": "IMF staff discussion note, citing Reuter (2017).",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "para. 20 (compliance)"
+ },
+ {
+  "id": "EV-FIN-048",
+  "statement": "IMF staff (2025): countries with more independent fiscal councils tend to have smaller deficits and better compliance with rules; about 40 percent of advanced economies exceed their own fiscal limits.",
+  "claim": "analysis",
+  "figures": [
+   "40 percent"
+  ],
+  "source": "SRC-6133",
+  "anchor": [
+   "countries with more independent fiscal councils tend to experience smaller deficits and better compliance with rules.",
+   "about 40 percent of advanced economies"
+  ],
+  "grade": "C",
+  "fact_date": "2025-09",
+  "recheck": "2027-11-30",
+  "context": "IMF staff blog; same publisher as EV-FIN-044 to -047, so not independent of them.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "opening paragraph; \"Third, fiscal rules work best...\"",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-040",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-049",
+  "statement": "Germany's March 2025 reform put a €500 billion infrastructure fund outside the debt brake, excluded defence spending above 1% of GDP, and allowed the Länder new borrowing of up to 0.35% of GDP a year; the Commission notes nothing requires the new room to go to productive investment.",
+  "claim": "analysis",
+  "figures": [
+   "500",
+   "1%",
+   "0.35%"
+  ],
+  "source": "SRC-6134",
+  "anchor": [
+   "a new infrastructure fund, worth EUR 500 billion (11.6% of 2024 GDP), was set up outside the scope of the ‘debt brake’",
+   "defence spending above 1% of GDP is excluded from the calculation of the ‘debt brake’",
+   "new net borrowing of up to 0.35% of GDP annually",
+   "there is no requirement to spend these two new sources of fiscal space on productive investment."
+  ],
+  "grade": "C",
+  "fact_date": "2025-05",
+  "recheck": "2027-11-30",
+  "context": "European Commission forecast box: the reform's terms are data, the growth caveat analysis.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "first and later paragraphs",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-050",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-050",
+  "statement": "The Bundesbank (2025): with unlimited room to borrow for defence, sound finances and EU compliance are not guaranteed, and the broader the definition of investment, the more likely its protection proves ineffective.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6135",
+  "anchor": [
+   "because there is unlimited scope to borrow for defence spending, neither sound government finances nor compliance with the EU rules are guaranteed over the longer term.",
+   "The broader the definition of investment, the more likely it is that the desired “protection” of investment would prove ineffective."
+  ],
+  "grade": "C",
+  "fact_date": "2025-11",
+  "recheck": "2027-11-30",
+  "context": "Germany's central bank, an advocate of its own reform proposal.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Overview (1); section on design options",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-044",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-FIN-049",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-051",
+  "statement": "Under Gramm-Rudman-Hollings the FY1991 deficit target was $64 billion; OMB's October 1990 report estimated $147.3 billion, which would have cut defense and nondefense programs by $41.7 billion each.",
+  "claim": "data",
+  "figures": [
+   "$64 billion",
+   "$147.3",
+   "$41.7 billion"
+  ],
+  "source": "SRC-6116",
+  "anchor": [
+   "Under the Gramm-Rudman-Hollings Act, the deficit target for FY1991 was $64 billion, but did",
+   "billion margin). In its final sequestration report in October, OMB estimated a deficit of $147.3",
+   "billion, requiring outlays for defense programs to be cut by $41.7 billion (34.7%) and nondefense programs by $41.7 billion (31.6%)."
+  ],
+  "grade": "A",
+  "fact_date": "1990-10",
+  "recheck": "2027-11-30",
+  "context": "CRS (2011). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-052",
+  "statement": "CRS: because Gramm-Rudman-Hollings measured the deficit in a single August snapshot, outlays could be delayed to fall outside it, and one-time actions such as asset sales could meet the targets without lasting changes; a later act pushed the balanced-budget date from FY1991 to FY1993.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6116",
+  "anchor": [
+   "changed the deficit since the August snapshot, or outlays could have been intentionally delayed to",
+   "the deficit targets on an annual basis, meant that one-time actions, such as selling assets, could be",
+   "achieving a balanced budget (requiring a balanced budget by FY1993 instead of 1991), and"
+  ],
+  "grade": "C",
+  "fact_date": "2011-07",
+  "recheck": "2027-11-30",
+  "context": "CRS (2011). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-053",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-053",
+  "statement": "Allen Schick (1997): in every year Gramm-Rudman-Hollings was in effect the actual deficit exceeded the legal target; it failed because it targeted the deficit, and the Budget Enforcement Act succeeded because it avoided deficit targets.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6138",
+  "anchor": [
+   "In every year that GRH was in effect the actual deficit exceeded the deficit permitted by law.",
+   "Yet it is precisely because GRH targeted the deficit that it failed and because BEA has avoided deficit targets that it has succeeded."
+  ],
+  "grade": "C",
+  "fact_date": "1997-02-05",
+  "recheck": "2027-11-30",
+  "context": "One budget scholar's 1997 testimony against a balanced budget amendment.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "paragraph beginning \"The most apt comparison\"",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-052",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-054",
+  "statement": "In 1986 the Supreme Court struck Gramm-Rudman-Hollings' sequestration trigger in Bowsher v. Synar: because Congress could remove the Comptroller General, he \"may not be entrusted with executive powers\". Congress then moved the trigger to OMB's director.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6137",
+  "anchor": [
+   "because Congress has retained removal authority over the Comptroller General, he may not be entrusted with executive powers."
+  ],
+  "grade": "A",
+  "fact_date": "1986-07-07",
+  "recheck": "2027-11-30",
+  "context": "Primary law.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "478 U.S. at 732"
+ },
+ {
+  "id": "EV-FIN-055",
+  "statement": "Since the Statutory PAYGO Act of 2010, laws that raised deficits have been enacted but no sequester has ever been ordered, because Congress excluded or eliminated their effects: about $12.07 trillion from the 5-year scorecard and $17.07 trillion from the 10-year scorecard.",
+  "claim": "data",
+  "figures": [
+   "$12.07 trillion"
+  ],
+  "source": "SRC-6117",
+  "anchor": [
+   "a sequester under the law has never been ordered—an outcome attributable to congressional actions to exclude or eliminate the budgetary effects of legislation from the scorecards. Between 2010 and 2024, nearly $12.07 trillion was excluded or eliminated from the 5-year Statutory",
+   "and $17.07 trillion was excluded or eliminated from the 10-year scorecard"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09",
+  "recheck": "2027-09-30",
+  "context": "CRS (September 2026). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-056",
+  "statement": "Congress raised the Budget Control Act's caps three times (2013, 2015, 2018), by a total of $439 billion for 2014 to 2019.",
+  "claim": "data",
+  "figures": [
+   "$439 billion"
+  ],
+  "source": "SRC-6139",
+  "anchor": [
+   "lawmakers have raised the caps three times since the BCA was enacted—in 2013, 2015, and 2018. Those three amendments increased the caps for the years 2014 to 2019 by a total of $439 billion"
+  ],
+  "grade": "A",
+  "fact_date": "2019-02",
+  "recheck": "2027-11-30",
+  "context": "CBO testimony (February 2019); nonpartisan legislative-branch scorekeeper.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "\"Subsequent Increases in the BCA Caps\""
+ },
+ {
+  "id": "EV-FIN-057",
+  "statement": "From 2003 through April 2014 Congress passed 17 laws overriding Medicare's sustainable growth rate cuts, averting cliffs of 27.4%, 26.5% and 20.1%.",
+  "claim": "data",
+  "figures": [
+   "17",
+   "27.4%",
+   "26.5%",
+   "20.1%"
+  ],
+  "source": "SRC-6118",
+  "anchor": [
+   "From 2003 through April 2014, 17 laws have been passed that override the SGR-mandated",
+   "rate adjustment.” In recent years, CMS actuaries have estimated “cliff” reductions of 27.4% (for",
+   "January 1, 2012), 26.5% (for January 1, 2013), and 20.1% (for January 1, 2014).5 Each of these"
+  ],
+  "grade": "A",
+  "fact_date": "2014-04",
+  "recheck": "2027-11-30",
+  "context": "CRS (2015). Nonpartisan legislative-branch research.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-058",
+  "statement": "The medical device excise tax was suspended by two-year moratoria in 2015 (P.L. 114-113) and 2018 (P.L. 115-120) and repealed on December 20, 2019 (P.L. 116-94).",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6119",
+  "anchor": [
+   "The Consolidated Appropriations Act, 2016 (Pub. L. 114-113), signed into law on Dec. 18, 2015, included a two-year moratorium",
+   "H.R. 195 (Pub. L. 115-120), signed into law on Jan. 22, 2018, extends for an additional two years",
+   "The Further Consolidated Appropriations Act, 2020 (Pub. L. 116-94) , signed into law on December 20, 2019, has repealed the medical device excise tax"
+  ],
+  "grade": "A",
+  "fact_date": "2019-12-20",
+  "recheck": "2027-11-30",
+  "context": "IRS archival page.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-059",
+  "statement": "CBO (August 2026) projects that automatic stabilizers lower deficits by an average of 0.2 percent of potential GDP from 2026 to 2029 and raise them by 0.1 percent from 2030 to 2036; from 1976 to 2025 they raised deficits by about 0.3 percent of potential GDP a year.",
+  "claim": "analysis",
+  "figures": [
+   "0.2 percent",
+   "0.1 percent",
+   "0.3 percent"
+  ],
+  "source": "SRC-6140",
+  "anchor": [
+   "In CBO's projections, automatic stabilizers decrease federal deficits by an average of 0.2 percent of potential GDP from 2026 to 2029 and increase federal deficits by an average of 0.1 percent of potential GDP from 2030 to 2036.",
+   "From 1976 to 2025, automatic stabilizers increased federal deficits by an estimated average of 0.3 percent of potential GDP per year."
+  ],
+  "grade": "B",
+  "fact_date": "2026-08",
+  "recheck": "2027-08-31",
+  "context": "CBO, nonpartisan scorekeeper; read through a search tool's page text (cbo.gov blocks this project).",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Key takeaways, bullets 1-2"
+ },
+ {
+  "id": "EV-FIN-060",
+  "statement": "Claudia Sahm's trigger (Hamilton Project, 2019): automatic payments when the three-month average national unemployment rate rises at least 0.50 percentage points above its low in the previous 12 months; the trigger could also start a congressional vote.",
+  "claim": "analysis",
+  "figures": [
+   "0.50",
+   "12"
+  ],
+  "source": "SRC-6141",
+  "anchor": [
+   "when the three-month average national unemployment rate rises by at least 0.50 percentage points relative to its low in the previous 12 months.",
+   "This trigger could be used to automatically disburse the payments or to initiate a congressional vote on payments."
+  ],
+  "grade": "C",
+  "fact_date": "2019-05",
+  "recheck": "2027-11-30",
+  "context": "A policy proposal by a then-Federal Reserve economist, published by the Hamilton Project (center-left, at Brookings). The trigger's definition is the proposal's; its record as a recession signal is outside this entry.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "\"Policy Proposal\", key details, bullet 1"
+ },
+ {
+  "id": "EV-FIN-061",
+  "statement": "In August 2025 President Trump fired BLS Commissioner Erika McEntarfer; former BLS officials called the stated rationale without merit and said it undermines the credibility of federal statistics.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6142",
+  "anchor": [
+   "This rationale for firing Dr. McEntarfer is without merit and undermines the credibility of federal economic statistics"
+  ],
+  "grade": "C",
+  "fact_date": "2025-08-01",
+  "recheck": "2027-11-30",
+  "context": "Friends of BLS, an advocacy group of former BLS staff and users. The President's own claim that the figures were rigged is the second Trump administration's view, not corroborated.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "paragraph 3",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-062",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-062",
+  "statement": "EPI: President Trump fired BLS Commissioner Erika McEntarfer on August 1, 2025; she had been confirmed with 86 Senate votes to a 4-year term that began in January 2024.",
+  "claim": "data",
+  "figures": [
+   "86",
+   "4-year"
+  ],
+  "source": "SRC-6143",
+  "anchor": [
+   "On Friday, August 1, President Trump fired Dr. Erika McEntarfer from her role as the Commissioner of the Bureau of Labor Statistics (BLS).",
+   "she was confirmed with a bipartisan vote of 86 Senators, including then-Senator JD Vance, to serve for a 4-year term that began in January 2024."
+  ],
+  "grade": "B",
+  "fact_date": "2025-08-01",
+  "recheck": "2027-11-30",
+  "context": "Economic Policy Institute, a left-leaning think tank; used only for dates and the vote.",
+  "supports": [
+   "dossiers/foundations/fair-financing/5-budget-process.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "first and second paragraphs"
+ },
+ {
+  "id": "EV-FIN-063",
+  "statement": "The Supreme Court (Trump v. Wilcox, May 2025): \"The Federal Reserve is a uniquely structured, quasi-private entity that follows in the distinct historical tradition of the First and Second Banks of the United States.\"",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6144",
+  "anchor": [
+   "uniquely structured, quasi-private entity that follows in the",
+   "distinct historical tradition of the First and Second Banks"
+  ],
+  "grade": "A",
+  "fact_date": "2025-05-22",
+  "recheck": "2027-06-30",
+  "context": "Primary law. An emergency-docket order, not a merits ruling.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-064",
+  "statement": "In Trump v. Slaughter (argued December 8, 2025; decided June 29, 2026) the Court overruled what was left of Humphrey's Executor, but said the Federal Reserve, in the tradition of the First and Second Banks, may differ: \"Our opinion today should not be read to do so either.\"",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6146",
+  "anchor": [
+   "Argued December 8, 2025—Decided June 29, 2026",
+   "If anything more is left of Humphrey’s, we overrule it.",
+   "not necessarily implicate the constitutionality of such arrangements. Our opinion today should not be read to do so"
+  ],
+  "grade": "A",
+  "fact_date": "2026-06-29",
+  "recheck": "2027-06-30",
+  "context": "Primary law.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-065",
+  "statement": "In Trump v. Cook (argued January 21, 2026; decided June 29, 2026) the Court denied the government's application to let the removal of Governor Lisa Cook take effect: she was the first governor fired in the Fed's 111-year history, the Court stressed that the appearance of independence is key to the Fed's design, and it said the test of \"cause\" is whether it implies \"an unfitness for the place\" rather than a wish for a more congenial replacement.",
+  "claim": "data",
+  "figures": [
+   "111"
+  ],
+  "source": "SRC-6145",
+  "anchor": [
+   "Argued January 21, 2026—Decided June 29, 2026",
+   "the first Governor to be fired in the central bank’s 111-year history.",
+   "Held: The Government’s application is denied. Pp. 8–27.",
+   "appearance of independence is key to the Federal Reserve’s design.",
+   "issue is whether “[t]he cause assigned” truly “impl[ies] an unfitness for"
+  ],
+  "grade": "A",
+  "fact_date": "2026-06-29",
+  "recheck": "2027-06-30",
+  "context": "Primary law. Decided on an application for a stay, 5-4 (the Chief Justice for the Court); not a final judgment on whether Cook may be removed. Reports since say the President has begun a new removal process (not in the register).",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-066",
+  "statement": "In January 2026 the Fed chair said the Justice Department had served the Federal Reserve with grand jury subpoenas threatening a criminal indictment over his June testimony, and called it a consequence of setting rates on the Fed's best assessment rather than the President's preferences.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6147",
+  "anchor": [
+   "On Friday, the Department of Justice served the Federal Reserve with grand jury subpoenas, threatening a criminal indictment"
+  ],
+  "grade": "B",
+  "fact_date": "2026-01-11",
+  "recheck": "2027-06-30",
+  "context": "The chair's own account, an interested party. Reports in April 2026 said the Justice Department closed the inquiry (not in the register).",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-067",
+  "statement": "Kevin Warsh, nominated March 4, 2026, was confirmed as a Fed governor on May 12 and as chair on May 13, 2026.",
+  "claim": "data",
+  "figures": [
+   "4",
+   "12",
+   "13"
+  ],
+  "source": "SRC-6150",
+  "anchor": [
+   "President Donald J. Trump nominated Mr. Warsh on March 4, 2026. He was confirmed by the United States Senate to serve as a member of the Board on May 12, and as chairman of the Board on May 13."
+  ],
+  "grade": "A",
+  "fact_date": "2026-05-22",
+  "recheck": "2027-06-30",
+  "context": "Federal Reserve Board release.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-068",
+  "statement": "In September 2026 the FOMC raised its target range by a quarter point to 3-3/4 to 4 percent.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6148",
+  "anchor": [
+   "The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09-16",
+  "recheck": "2027-03-31",
+  "context": "FOMC statement. The December 2025 cut is EV-FIN-069.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-069",
+  "statement": "In December 2025 the FOMC lowered the federal funds target range by a quarter point to 3-1/2 to 3-3/4 percent.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6151",
+  "anchor": [
+   "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent."
+  ],
+  "grade": "A",
+  "fact_date": "2025-12-10",
+  "recheck": "2027-03-31",
+  "context": "FOMC statement.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-070",
+  "statement": "FOMC minutes (October 2026): PCE inflation rose to 3.6 percent in September; Treasury yields had moved up significantly until early October, mostly on strong economic data, and Treasury market functioning had continued to be orderly.",
+  "claim": "data",
+  "figures": [
+   "3.6 percent"
+  ],
+  "source": "SRC-6149",
+  "anchor": [
+   "rose to 3.6 percent in September",
+   "nominal Treasury yields had moved up significantly until early October, mostly in response to economic data that pointed to a strong economy.",
+   "market functioning had continued to be orderly"
+  ],
+  "grade": "A",
+  "fact_date": "2026-10",
+  "recheck": "2027-03-31",
+  "context": "FOMC minutes: staff estimates and the desk manager's report.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-071",
+  "statement": "The 10-year Treasury yield was 4.92% on November 23, 2026 (the 30-year 5.29%).",
+  "claim": "data",
+  "figures": [
+   "4.92",
+   "5.29"
+  ],
+  "source": "SRC-6163",
+  "anchor": [
+   "10 Yr",
+   "30 Yr",
+   "11/23/2026",
+   "4.74\n4.81\n4.92\n5.33\n5.29\nMonday Nov 23, 2026"
+  ],
+  "grade": "A",
+  "fact_date": "2026-11-23",
+  "recheck": "2027-02-28",
+  "context": "Treasury's par yield curve; the 10-year is the twelfth value and the 30-year the last.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24"
+ },
+ {
+  "id": "EV-FIN-072",
+  "statement": "CBO (February 2026) projected net interest more than doubling from $1.0 trillion in 2026 to $2.1 trillion in 2036, the average rate on debt rising from 3.4 percent to 3.9 percent, and debt reaching 175 percent of GDP by 2056; it projected the rate on 10-year notes at 4.1 percent in late 2025 rising to 4.3 percent.",
+  "claim": "analysis",
+  "figures": [
+   "$1.0 trillion",
+   "$2.1 trillion",
+   "3.4 percent",
+   "3.9 percent",
+   "175 percent",
+   "4.1 percent",
+   "4.3 percent"
+  ],
+  "source": "SRC-6154",
+  "anchor": [
+   "more than doubling from $1.0 trillion in 2026 to $2.1 trillion in 2036",
+   "the average interest rate on debt held by the public is estimated to be 3.4 percent",
+   "reaching 3.9 percent in the final years of the projection period",
+   "debt held by the public would reach 175 percent of GDP by 2056",
+   "The interest rate on 10-year Treasury notes rises gradually",
+   "from 4.1 percent in the fourth quarter of 2025 to 4.3 percent"
+  ],
+  "grade": "B",
+  "fact_date": "2026-02",
+  "recheck": "2027-02-28",
+  "context": "CBO's baseline projection, the project's scoring base. Its rate path is already below market rates (EV-FIN-071).",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Ch. 1, \"The Long-Term Outlook\"; Ch. 2, \"Interest Rates\"; Ch. 3, \"Net Outlays for Interest\"",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-076",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-FIN-070",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-FIN-071",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-073",
+  "statement": "CBO (February 2026): a fiscal crisis \"would cause interest rates to rise abruptly\"; expectations of higher inflation could erode confidence in the dollar as the dominant reserve currency.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6154",
+  "anchor": [
+   "Such a crisis would cause interest rates to rise abruptly and other economic and financial disruptions to occur.",
+   "expectations of higher inflation could erode confidence in the U.S. dollar as the dominant international reserve currency."
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "recheck": "2027-02-28",
+  "context": "CBO, which describes the risk without predicting a crisis.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Ch. 1, \"Consequences of Large Federal Debt\"",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-074",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-074",
+  "statement": "The ECB (November 2025): in April 2025 the dollar depreciated strongly while Treasury yields rose, the opposite of a usual risk-off move; the yield on ten-year Treasuries rose almost 50 basis points between 4 and 11 April, the third largest weekly increase since 1986. The Treasury market remains the largest and most liquid globally.",
+  "claim": "analysis",
+  "figures": [
+   "50",
+   "4",
+   "11",
+   "1986"
+  ],
+  "source": "SRC-6155",
+  "anchor": [
+   "the US dollar depreciated strongly while US Treasury yields rose – the opposite of what usually happens in a risk-off environment.",
+   "surged by almost 50 basis points between 4 and 11 April, the third largest weekly increase since 1986."
+  ],
+  "grade": "C",
+  "fact_date": "2025-11",
+  "recheck": "2027-11-30",
+  "context": "A foreign central bank's analysis; the yield move is measured, the reading of it is the ECB's.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "opening summary; section 1",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-073",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-075",
+  "statement": "The dollar's share of allocated foreign exchange reserves fell to 56.70 percent in the second quarter of 2026 from 57.18 percent in the previous quarter (IMF).",
+  "claim": "data",
+  "figures": [
+   "56.70",
+   "57.18"
+  ],
+  "source": "SRC-6157",
+  "anchor": [
+   "the dollar's share of global foreign exchange reserves declined to 56.70 percent, from 57.18 percent in the previous quarter"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09-30",
+  "recheck": "2027-03-31",
+  "context": "IMF COFER statistics. The gold comparison is EV-FIN-079.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "paragraph 3"
+ },
+ {
+  "id": "EV-FIN-076",
+  "statement": "A CBO working paper (March 2019): the average long-run effect of debt on interest rates is about 2 to 3 basis points for each percentage point of debt to GDP.",
+  "claim": "analysis",
+  "figures": [
+   "2",
+   "3",
+   "1"
+  ],
+  "source": "SRC-6160",
+  "anchor": [
+   "the average long-run effect of debt on interest rates ranges from about 2 to 3 basis points for each increase of 1 percentage point in debt as a percentage of GDP."
+  ],
+  "grade": "B",
+  "fact_date": "2019-03",
+  "recheck": "2027-11-30",
+  "context": "CBO staff working paper; the anchor 8a's dynamic layer already uses.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Summary, p. 1",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-077",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-077",
+  "statement": "A Dallas Fed working paper (2025): a 1 percentage point rise in debt to GDP raises the 5-year-ahead, 5-year Treasury rate by 3 basis points, about three-quarters of it through the term premium.",
+  "claim": "analysis",
+  "figures": [
+   "1",
+   "5",
+   "3"
+  ],
+  "source": "SRC-6159",
+  "anchor": [
+   "a 1 percentage point increase in the debt-to-GDP ratio raises the 5-year-ahead, 5-year Treasury rate by 3 basis points. About three-quarters of the increase in interest rates is driven by term premium"
+  ],
+  "grade": "B",
+  "fact_date": "2025-04",
+  "recheck": "2027-11-30",
+  "context": "Regional Reserve Bank staff paper; authors' views. Independent of CBO.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-076",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-078",
+  "statement": "Jiang, Krishnamurthy, Lustig and Richmond (NBER, 2026): in their model, losing reserve status would raise US real rates by about 90 basis points, a wealth loss of roughly one year of GDP; a Fed staff paper finds Treasuries' convenience has turned negative at medium and long maturities.",
+  "claim": "analysis",
+  "figures": [
+   "90"
+  ],
+  "source": "SRC-6158",
+  "anchor": [
+   "Standard parameters imply a 90 basis points rise, leading to an aggregate wealth loss of roughly one year of U.S. GDP."
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "recheck": "2027-11-30",
+  "context": "Academic working paper, a model counterfactual, not an observation; not peer reviewed.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-080",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-079",
+  "statement": "The ECB, on end-2024 data: with gold at new highs, gold's share of global reserves at market prices, 20%, surpassed the euro's 16%; the dollar's share fell 2.0 points at constant exchange rates, to 57.8%.",
+  "claim": "data",
+  "figures": [
+   "20%",
+   "16%",
+   "2.0",
+   "57.8%"
+  ],
+  "source": "SRC-6156",
+  "anchor": [
+   "the share of gold in global foreign reserves at market prices, at 20%, surpassed the share of the euro (16%).",
+   "the share of the US dollar declined by 2.0 percentage points at constant exchange rates, to 57.8%."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2027-06-30",
+  "context": "ECB, drawing on IMF data; the ECB has a stake in the euro's role.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Section 1, \"Main developments\""
+ },
+ {
+  "id": "EV-FIN-080",
+  "statement": "A Federal Reserve Board staff paper finds the US Treasury convenience has declined substantially and turned negative, most strongly at medium to long maturities, while the dollar itself keeps strong convenience.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6153",
+  "anchor": [
+   "the U.S. dollar exhibits strong convenience post-Global Financial Crisis, the U.S. Treasury convenience has not only declined substantially but has turned negative, most"
+  ],
+  "grade": "C",
+  "fact_date": "2025-10",
+  "recheck": "2027-11-30",
+  "context": "Fed Board staff and academic coauthors; authors' views.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-078",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-081",
+  "statement": "Treasury's borrowing advisory committee (July 2025): independence of the FOMC remains of paramount importance to a well-functioning Treasury market; the GENIUS Act, setting a framework for stablecoins, was signed July 18, 2025.",
+  "claim": "analysis",
+  "figures": [
+   "18"
+  ],
+  "source": "SRC-6152",
+  "anchor": [
+   "The GENIUS Act, which establishes a legal framework for issuing stablecoins, was signed into law on July 18th.",
+   "independence of the FOMC remains of paramount importance"
+  ],
+  "grade": "C",
+  "fact_date": "2025-07-30",
+  "recheck": "2027-11-30",
+  "context": "The view of the dealers and investors on Treasury's advisory committee, an interested party, as published by the second Trump administration's Treasury.",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-065",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-082",
+  "statement": "Blanchard (2019): safe rates below growth rates are more the historical norm than the exception, so debt rollovers may be feasible, but he discusses multiple equilibria in which investors' fears raise rates.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6162",
+  "anchor": [
+   "the current US situation in which safe interest rates are expected to remain below growth rates for a long time is more the historical norm than the exception."
+  ],
+  "grade": "C",
+  "fact_date": "2019-02",
+  "recheck": "2027-11-30",
+  "context": "A leading macroeconomist, writing when rates were low; contested by later rate rises (EV-FIN-072).",
+  "supports": [
+   "dossiers/foundations/fair-financing/6-strategy-memo.md"
+  ],
+  "checked": "2026-11-24",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-072",
+    "stance": "qualifies"
+   }
+  ]
  }
 ]

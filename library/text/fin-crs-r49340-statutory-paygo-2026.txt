@@ -1,0 +1,1595 @@
+Source: https://www.congress.gov/crs_external_products/R/HTML/R49340.html
+Publisher: Congressional Research Service
+Retrieved: 2026-11-24
+Original SHA-256: 2a5ca1f8644028bafe789462f088aae70c67e9adde665054957ba0944353b68c
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+<%@ Control Language="C#" ClassName="CRSgov.UI.Product" %>
+Budgetary Effects Excluded or Eliminated from the Statutory Pay-As-You-Go Scorecards
+September 9, 2026
+(R49340)
+Jump to Main Text of Report
+Contents
+Statutory PAYGO Act in Brief
+Exclusions Pursuant to the Original Statutory PAYGO law
+Exclusions Pursuant to Provisions Within New Law
+Total Budgetary Effects Excluded from the Statutory PAYGO Scorecards
+Total Budgetary Effects Eliminated from the Statutory PAYGO Scorecards
+Sequesters Under the Statutory PAYGO Act
+Figures
+Figure 1. OMB Statutory PAYGO Scorecard for Budget Year 2011
+Figure 2. OMB Statutory PAYGO Scorecard for Budget Year 2026
+Tables
+Table 1. Summary of the Budgetary Effects Excluded from the Statutory PAYGO Scorecards (2010-2025)
+Table 2. Legislation with the Largest Amounts Excluded from the Statutory PAYGO Scorecards
+Table 3. Legislation that Eliminated Balances from the Statutory PAYGO Scorecards
+Table 4. Summary Information of Amounts Excluded, and Balances Eliminated, from the Statutory PAYGO Scorecards, 2010-2025
+Table A-1. Legislation in Which the Budgetary Effects, in Whole or In Part, Were Excluded from the Statutory PAYGO Scorecards
+Appendixes
+Appendix. Source Data
+Summary
+The Statutory Pay-As-You-Go Act of 2010 (Statutory PAYGO, P.L. 111-139 , 2 U.S.C. §§931-939) is a budget enforcement mechanism intended to ensure that laws affecting direct (mandatory) spending or revenues do not, in aggregate, increase budget deficits.
+Under the act, the Office of Management and Budget (OMB) is required to maintain two scorecards that record the estimated average annual net effects on the deficit of enacted PAYGO legislation over 5 years and 10 years, respectively. The scorecards are cumulative—they keep a running total of net deficit effects across successive sessions of Congress.
+OMB is required to finalize the scorecards at the end of each congressional session. If either scorecard shows a positive balance in the budget year (a "debit," representing a net increase in the deficit), the President is required to issue a sequestration order within 14 days, implementing across-the-board reductions in non-exempt mandatory spending programs sufficient to eliminate the debit.
+Since adoption of the Statutory PAYGO Act, laws estimated to increase federal budget deficits have been enacted, but a sequester under the law has never been ordered—an outcome attributable to congressional actions to exclude or eliminate the budgetary effects of legislation from the scorecards. Between 2010 and 2024, nearly $12.07 trillion was excluded or eliminated from the 5-year Statutory PAYGO scorecard and $17.07 trillion was excluded or eliminated from the 10-year scorecard (as measured in nominal dollars) in the following manner:
+Exclusions provided in the original Statutory PAYGO Act. The 2010 law excluded from the scorecards the budgetary effects of legislation that would extend certain policies current at that time (relating to certain tax policies and Medicare). The law also excluded the projected budgetary savings anticipated from repeal of the Community Living Assistance Services and Supports Act (CLASS Act), and any provision designated by Congress as an emergency. In total, between 2010 and 2025 these original provisions excluded $2.48 trillion from the 5-year scorecard and nearly $2.40 trillion from the 10-year scorecard.
+Additional provisions included by Congress in new laws. Congress has at times included provisions within a new law (enacted after Statutory PAYGO) that expressly excluded—in whole or in part—the budgetary effects of that law from the Statutory PAYGO scorecards. In total, between 2010 and 2025, these provisions excluded $4.70 trillion from the 5-year scorecard and nearly $7.83 trillion from the 10-year scorecard.
+Legislation that eliminated existing balances on the Statutory PAYGO scorecards. Between 2010 and 2025, five laws have been enacted that subtracted nearly $4.88 trillion from the 5-year scorecard and nearly $6.85 trillion from the 10-year scorecard.
+Because the budgetary effects of certain laws have been excluded from the Statutory PAYGO scorecards, and other laws have eliminated existing balances from those scorecards, the conditions that would trigger a sequester under the act have never been met. Given these results, Congress may consider whether the Statutory PAYGO law—as currently structured—is an effective tool for controlling deficits, and whether it should be revised, replaced, or repealed.
+Statutory PAYGO Act in Brief
+The Statutory Pay-As-You-Go Act of 2010 (Statutory PAYGO) 1 is a budget enforcement mechanism intended to ensure that laws affecting direct (mandatory) spending or revenues do not, in aggregate, increase budget deficits. The law was enacted as part of legislation that also increased the statutory debt limit. 2
+Application of Statutory PAYGO
+Statutory PAYGO applies to the net, on-budget effects of new mandatory (direct) spending and revenue legislation only. Off-budget and discretionary spending effects are not recorded on the Statutory PAYGO scorecards.
+Under the act, the Office of Management and Budget (OMB) is required to maintain two scorecards that record the estimated average annual deficit effects of enacted PAYGO legislation over 5 and 10 years, respectively. 3 The OMB scorecards are cumulative—they keep a running total of net deficit effects across successive sessions of Congress. With each annual Statutory PAYGO report, the fiscal years on each scorecard advance one year. 4 For this reason, the budgetary effects of enacted legislation may remain on the scorecards and influence balances thereon for up to a decade (unless statutory language directs otherwise).
+OMB is required to finalize the scorecards at the end of each congressional session. If either scorecard shows a positive balance in the budget year 5 (a "debit" representing a net increase in the deficit), the President is required to issue a sequestration order within 14 days, implementing largely across-the-board reductions of non-exempt mandatory spending programs in an amount sufficient to eliminate the debit. 6 If there is a debit on both scorecards in the budget year, the sequester must be large enough to eliminate the larger of the two amounts.
+Statutory PAYGO Scorecards Record Estimated Average Annual
+Net Budgetary Effects
+Entries on the Statutory PAYGO scorecards reflect the estimated average annual cumulative budgetary effects of new laws on net deficits over 5 and 10 years.
+Example: For a session of Congress, laws are enacted that would increase net budget deficits by an estimated $10 billion over 5 years and $40 billion over 10 years. The following entries would be recorded on each scorecard:
+5-yr scorecard: $2 billion in each year ($10 billion divided by 5 years)
+10-yr scorecard: $4 billion in each year ($40 billion divided by 10 years)
+Exclusions Pursuant to the Original Statutory PAYGO law
+The budgetary effects of some laws, however, have been excluded from the Statutory PAYGO scorecards. When the Statutory PAYGO Act was enacted in 2010, Congress excluded the budgetary effects of legislation that would extend certain policies deemed "current" at that time: (1) Medicare payments to physicians under the Sustainable Growth Rate formula, (2) the estate and gift tax, (3) the alternative minimum tax, and (4) extension of certain middle-class tax cuts. These adjustments applied only to legislation enacted by the end of 2011. 7
+The law also excludes any projected budgetary savings from the Community Living Assistance Services and Supports Act (CLASS Act), a federal long-term care insurance program. 8 The CLASS Act was repealed in 2012, but the exclusion remains.
+In addition, the act provides that budgetary effects designated as an emergency requirement in law are to be excluded from the Statutory PAYGO scorecards. 9 An example of such designation can be found in Section 2(b)(1) of the Emergency Repatriation Assistance for Returning Americans Act ( P.L. 117-39 ):
+(b) Emergency Designation.—
+(1) In General.—The amounts provided by the amendment made by this section are designated as an emergency requirement pursuant to section 4(g) of the Statutory Pay-As-You Go Act of 2010 (2 U.S.C. 933(g)).
+Figure 1 shows how these exclusions influence the amounts recorded on the scorecards and prevent conditions that would trigger an end-of-session sequester.
+Figure 1. OMB Statutory PAYGO Scorecard for Budget Year 2011
+Source: Office of Management and Budget, 2010 Statutory Pay-As-You-Go Annual Report , p. 7.
+Notes: To calculate the amounts recorded on the 5-year scorecard under the Statutory PAYGO Act, the estimated cumulative budgetary effects of legislation enacted in the second session of the 111 th Congress over the 2010-2015 period ($899,419 million) is adjusted for the exclusions provided in law. The result (a savings of $55,173 million) is then divided by 5 to reflect the annual average ($11,035 million) and recorded as a credit in each year of the 2010-2015 period.
+To calculate the amounts recorded on the 10-year scorecard, the process is repeated using entries that correspond to the 2010-2020 period. The estimated cumulative budgetary effects of legislation enacted ($820,093 million) are adjusted for the exclusions provided in law. The result (a savings of $63,714 million) is then divided by 10 to reflect the annual average ($6,731 million) and recorded as a credit in each year of the 2010-2020 period.
+Exclusions Pursuant to Provisions Within New Law
+At times, Congress has included provisions within a new law (enacted after the Statutory PAYGO Act) that expressly excluded—in whole or in part—the budgetary effects of that law from the Statutory PAYGO scorecards. An example of this type of exclusion can be found in Section 3106(a) of the Full-Year Continuing Appropriations and Extensions Act, 2025 ( P.L. 119-4 ):
+(a) Statutory PAYGO Scorecards.—The budgetary effects of divisions B and C shall not be entered on either PAYGO scorecard maintained pursuant to section 4(d) of the Statutory Pay-As-You-Go Act of 2010.
+The budgetary effects of these exclusions are never reflected on the scorecards, and their omission influences whether conditions will exist for an end-of-session sequester.
+Total Budgetary Effects Excluded from the Statutory PAYGO Scorecards
+Between 2010 and 2025, 82 measures have been enacted in which the budgetary effects, in whole or in part, were excluded from the Statutory PAYGO scorecards. 10 In total, provisions in these measures excluded nearly $7.19 trillion from the 5-year scorecard and $10.22 trillion from the 10-year scorecard (measured in nominal dollars). Of these amounts, a majority can be attributed to two types of exclusions: (1) laws enacted after the Statutory PAYGO Act that contain "within bill" exclusions exemplified by Section 3106 above, and (2) provisions designated by Congress as a emergencies (see Table 1 ).
+Table 1. Summary of the Budgetary Effects Excluded from the Statutory PAYGO Scorecards (2010-2025)
+Basis for Exclusion from Statutory PAYGO Scorecards
+(in millions of dollars) a
+Current policies covered by the original Statutory PAYGO Act b
+Emergency designation c
+Exclusions within new law not provided in original Statutory PAYGO Act d
+Total
+Congress
+Calendar Year
+5-Year Scorecard
+10-Year Scorecard
+5-Year Scorecard
+10-Year Scorecard
+5-Year Scorecard
+10-Year Scorecard
+5-Year Scorecard
+10-Year Scorecard
+111 th
+(2nd session)
+2010
+396,496
+355,150
+570,067
+545,139
+—
+—
+966,563
+900,289
+112 th
+2011
+—
+—
+—
+—
+15,957
+(2,286)
+15,957
+(2,286)
+2012
+—
+—
+—
+—
+1,783,167
+4,019,372
+1,783,167
+4,019,372
+113 th
+2013
+—
+—
+—
+—
+12,116
+(55,748)
+12,116
+(55,748)
+2014
+—
+—
+14,038
+15,580
+40,395
+38,554
+54,433
+54,134
+114 th
+2015
+—
+—
+—
+—
+481,614
+747,678
+481,614
+747,678
+2016
+—
+—
+—
+—
+(2,632)
+(5,804)
+(2,632)
+(5,804)
+115 th
+2017
+—
+—
+6,232
+6,253
+1,079,804
+1,484,112
+1,086,036
+1,490,365
+2018
+—
+—
+—
+—
+66,361
+40,686
+66,361
+40,686
+116 th
+2019
+—
+—
+—
+—
+174,060
+404,695
+174,060
+404,695
+2020
+—
+—
+1,496,616
+1,474,015
+1,014,465
+1,057,898
+2,511,081
+2,531,913
+117 th
+2021
+—
+—
+662
+1,337
+15,104
+15,830
+15,766
+17,167
+2022
+—
+—
+—
+—
+7,959
+77,882
+7,959
+77,882
+118 th
+2023
+—
+—
+—
+—
+(130)
+(2)
+(130)
+(2)
+2024
+—
+—
+—
+—
+9,160
+1,952
+9,160
+1,952
+119 th
+(1 st session)
+2025
+—
+—
+—
+—
+6,588
+6,557
+6,588
+6,557
+Total (2010-2025)
+396,496
+355,150
+2,087,615
+2,042,324
+4, 703,988
+7, 826,376
+7,188,099
+10,223,850
+Source: CRS calculations of the net budgetary effects of legislation published by (1) the Office of Management and Budget in the Annual Statutory Pay-As-You-Go Report for years 2010-2025, (2) the Congressional Budget Office, and (3) the Joint Committee on Taxation. For more information on source data, refer to the Appendix .
+Notes:
+a. Pursuant to Section 3(4)(A)-(B) of P.L. 111-139 , amounts on the Statutory PAYGO scorecards reflect estimated on-budget mandatory (direct) spending outlays and revenue effects only. Off-budget and discretionary spending effects are not recorded. Positive amounts (costs or "debits") indicate a net increase in the deficit; amounts in parentheses are negative and indicate a net decrease in the deficit (savings or "credits"). The amounts in this table are recorded in nominal dollars.
+b. This category summarizes the budgetary effects attributable to the current policy exclusions pursuant to Section 4(c) and the CLASS Act exclusion in Section 4(d)(6) of P.L. 111-139 (as discussed in the report) combined.
+c. This category summarizes the budgetary effects attributable to the exclusion in Section 4(g) of P.L. 111-139 for provisions designated as an emergency.
+d. This category summarizes the budgetary effects attributable to provisions within a new law (not covered by the original Statutory PAYGO law) that exclude the budgetary effects of that law—in whole or in part—from the Statutory PAYGO scorecards.
+Laws that resulted in the largest amounts excluded from the Statutory PAYGO scorecards in Table 1 are reflected in Table 2 . Of note, the list includes both tax cut and spending legislation.
+Table 2. Legislation with the Largest Amounts Excluded from the Statutory PAYGO Scorecards
+Public Law
+Net Budgetary Effects Excluded from Statutory PAYGO Scorecards (in millions of dollars) a
+5-Year Scorecard
+10-Year Scorecard
+American Taxpayer Relief Act of 2012 ( P.L. 112-240 )
+1,680,587
+3,943,481
+The 2017 reconciliation law ( P.L. 115-97 ) b
+1,076,500
+1,481,800
+Coronavirus Aid, Relief, and Economic Security Act (CARES Act, P.L. 116-136 )
+1,172,375
+1,149,773
+Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010 ( P.L. 111-312 )
+920,580
+894,044
+Consolidated Appropriations Act, 2021 ( P.L. 116-260 )
+817,417
+859,574
+Sources: CRS calculations of the net budgetary effects of legislation published by (1) the Office of Management and Budget in the Annual Statutory Pay-As-You-Go Report for years 2010-2025, (2) the Congressional Budget Office, and (3) the Joint Committee on Taxation. For more information on source data, refer to the Appendix .
+Notes:
+a. Pursuant to Section 3(4)(A) and (B) of P.L. 111-139 , amounts on the Statutory PAYGO scorecards reflect on-budget mandatory (direct) spending outlays and revenue effects only. Off-budget and discretionary spending effects are not recorded. Positive amounts (costs) indicate a net increase in the deficit; amounts in parentheses are negative and indicate a net decrease in the deficit (savings). Amounts are recorded in nominal dollars.
+b. Exclusion provided in legislation enacted prior to the reconciliation law. See Section 5002 of P.L. 115-96 .
+Total Budgetary Effects Eliminated from the Statutory PAYGO Scorecards
+In addition to the previously discussed laws that excluded some or all of their own budgetary effects from the Statutory PAYGO scorecards, five laws have been enacted that eliminated existing balances on the scorecards. For example, Section 8000(d) of the Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026 ( P.L. 119-37 ) eliminated all balances on the 2025 scorecards:
+(d) Balances on the PAYGO Scorecards.—Effective on the date of the adjournment of the first session of the 119th Congress, and for the purposes of the annual report issued pursuant to section 5 of the Statutory Pay-As-You-Go Act of 2010 (2 U.S.C. 934) after such adjournment and for determining whether a sequestration order is necessary under such section, the balances on the PAYGO scorecards established pursuant to paragraphs (4) and (5) of section 4(d) of such Act shall be zero.
+Figure 2 illustrates how the provision above prevented conditions that would have triggered an end-of-session sequester at the end of the first session of the 119 th Congress.
+Figure 2. OMB Statutory PAYGO Scorecard for Budget Year 2026
+Source: Office of Management and Budget, 2025 Statutory Pay-As-You-Go Annual Report , p. 8.
+Notes: To calculate the amounts recorded on the 5-year scorecard under the Statutory PAYGO Act, the estimated cumulative budgetary effects of legislation enacted in the second session of the 119 th Congress over the 2025-2030 period ($2,645,601million) were divided by 5 to reflect the annual average ($529,120 million) and recorded as a debit in each year of the 2025-2030 period.
+To calculate the amounts recorded on the 10-year scorecard, the process was repeated using entries that correspond to the 2025-2035 period. The estimated cumulative budgetary effects of legislation enacted ($4,440,234 million) were divided by 10 to reflect the annual average ($444,023 million) and recorded as a debit in each year of the 2025-2035 period.
+Pursuant to the directive in Section 8001 of P.L. 119-37 , the balances on the two scorecards were then subtracted to produce zero balances.
+The budgetary effects eliminated from the Statutory PAYGO scorecards are summarized in Table 3 . In total, between 2010 and 2025, nearly $4.88 trillion was eliminated from the 5-year scorecard and $6.85 trillion was eliminated from the 10-year scorecard.
+Table 3. Legislation that Eliminated Balances from the Statutory PAYGO Scorecards
+Public Law
+Balances Eliminated from the Statutory PAYGO Scorecards
+(in millions of dollars) a
+5-Year Scorecard
+10-Year Scorecard
+Bipartisan Budget Act of 2018 ( P.L. 115-123 ), Section 30102
+(1,748)
+(55,212)
+Bipartisan Budget Act of 2019 ( P.L. 116-37 ), Section 102
+7,701
+7,710
+Consolidated Appropriations Act, 2021 ( P.L. 116-260 ), Division O, Title XIV, Section 1401(d)
+19,525
+39,900
+American Relief Act, 2025 ( P.L. 118-158 ), Section 21060(4)
+2,208,598
+2,415,622
+Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026 ( P.L. 119-37 ), Section 8001(d)
+2,645,600
+4,440,230
+Total (2010-2025)
+4,879,67 6
+6,848,2 50
+Source: Office of Management and Budget , Statutory Pay-As-You-Go Act Annual Report (for 2018, 2019, 2020, 2024, and 2025).
+Note:
+a. Pursuant to Section 3(4)(A) and (B) of P.L. 111-139 , amounts on the statutory PAYGO scorecards reflect on-budget mandatory (direct) spending outlays and revenue effects only. Off-budget and discretionary spending effects are not recorded. Positive amounts (costs) indicate a net increase in the deficit; amounts in parentheses are negative and indicate a net decrease in the deficit (savings). Totals reflect the net effect of the balances for all years on the scorecards at that time. The amounts in this table are in nominal dollars, unadjusted for inflation.
+Sequesters Under the Statutory PAYGO Act
+Since the Statutory PAYGO Act became law in 2010, legislation has been enacted that was estimated to increase budget deficits, yet to date, a sequester under the act has never been ordered. This outcome can be attributed to the scorecard exclusions required by the Statutory PAYGO law or provided in subsequent legislation, and provisions within new laws that eliminated existing balances on the Statutory PAYGO scorecards . In total, nearly $12.07 trillion has been excluded or eliminated from the 5-year Statutory PAYGO scorecard and $17.07 trillion has been excluded or eliminated from the 10-year scorecard (see Table 4 ).
+Table 4. Summary Information of Amounts Excluded, and Balances Eliminated, from the Statutory PAYGO Scorecards, 2010-2025
+(in millions of dollars)
+5-Year Scorecard
+10-Year Scorecard
+Amounts Excluded
+7,188,099
+10,223,850
+Balances Eliminated
+4,879,676
+6,848,250
+Total (2010-2025)
+12,067,77 5
+17,072, 100
+Source s : CRS calculations of the net budgetary effects of legislation published by (1) the Office of Management and Budget in the Annual Statutory Pay-As-You-Go Report for years 2010-2025, (2) the Congressional Budget Office, and (3) the Joint Committee on Taxation. For more information on source data, see the Appendix .
+Given these results, Congress may choose to consider whether the Statutory PAYGO law—as currently structured—is an effective tool for controlling deficits, and whether it should be revised, replaced, or repealed.
+Appendix. Source Data
+Reference sources, data, and calculations for information reported in Tables 1-4.
+Table A-1. Legislation in Which the Budgetary Effects, in Whole or In Part, Were Excluded from the Statutory PAYGO Scorecards
+(in millions of dollars)
+Basis for Exclusion from the Statutory PAYGO Scorecards a
+Current Policy and CLASS Act Exclusions Provided in Original Statutory PAYGO Act b
+Emergency Designation
+Exclusions within New Law not Provided in Original Statutory PAYGO Act
+Total
+Basis for Amounts c
+Date of Enactment
+Legislation
+5-Year Scorecard
+10-Year Scorecard
+5-Year Scorecard
+10-Year Scorecard
+5-Year Scorecard
+10-Year Scorecard
+5-Year Scorecard
+10-Year Scorecard
+03-02-2010
+Temporary Extension Act of 2010 ( H.R. 4691 , P.L. 111-144 )
+1,040
+1,040
+9,176
+9,261
+—
+—
+10,216
+10,301
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 2
+03-23-2010
+Patient Protection and Affordable Care Act ( H.R. 3590 , P.L. 111-148 )
+(39,900) CL
++269 CP
+(39,631)
+(78,600) CL
++269 CP
+(78,331)
+—
+—
+—
+—
+(39,631)
+(78,331)
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 5
+Note: "CL" denotes CLASS Act effects. "CP" denotes current policy effects
+04-15-2010
+Continuing Extension Act, 2010 ( H.R. 4851 , P.L. 111-157 )
+2,115
+2,115
+16,075
+16,112
+—
+—
+18,190
+18,227
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 10
+06-25-2010
+Preservation and Access to Care for Medicare Beneficiaries and Pension Relief Act of 2010 ( H.R. 3962 , P.L. 111-192 )
+6,348
+6,348
+—
+—
+—
+—
+6,348
+6,348
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 20
+07-22-2010
+Unemployment Compensation Extension Act of 2010 ( H.R. 4213 , P.L. 111-205 )
+—
+—
+33,885
+33,943
+—
+—
+33,885
+33,943
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 28
+09-27-2010
+Small Business Jobs Act of 2010 ( H.R. 5297 , P.L. 111-240 )
+1,436
+218
+—
+—
+—
+—
+1,436
+218
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 45
+11-24-2010
+To extend the deadline for Social Services Block Grant expenditures of supplemental funds appropriated following disasters occurring in 2008 ( S. 3774 , P.L. 111-285 )
+—
+—
+30
+30
+—
+—
+30
+30
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 62
+11-30-2010
+The Physician Payment and Therapy Relief Act of 2010 ( H.R. 5712 , P.L. 111-286 )
+1,004
+1,004
+—
+—
+—
+—
+1,004
+1,004
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 63
+12-15-2010
+Medicare and Medicaid Extenders Act of 2010 ( H.R. 4994 , P.L. 111-309 )
+14,505
+14,505
+—
+—
+—
+—
+14,505
+14,505
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 74
+12-17-2010
+Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010 ( H.R. 4853 , P.L. 111-312 )
+409,679
+408,251
+510,901
+485,793
+—
+—
+920,580
+894,044
+OMB, 2010 Statutory Pay-As-You-Go Act Annual Report , January 13, 2011, Part II, Item 75
+Subtotal, 111 th Congress, 2 nd Session (2010)
+396,496
+355,150
+570,067
+545,139
+—
+—
+966,563
+900,289
+12-23-2011
+Temporary Payroll Tax Cut Continuation Act of 2011 ( H.R. 3765 , P.L. 112-78 ), Section 512
+—
+—
+—
+—
+15,957
+(2,286)
+15,957
+(2,286)
+CBO, Budgetary Effects of the Temporary Payroll Tax Cut Continuation Act of 2011, as posted on the website of the House Committee on Rules on December 22, 2011 , December 22, 2011
+OMB's 2011 Statutory Pay-As-You-Go Act Annual Report states that if the budgetary effects of the legislation had been entered on the scorecards, the amount would have been reduced by a current policy adjustment related to the SGR provisions (see page 3)
+Subtotal, 11 2 th Congress, 1 st Session (2011)
+-
+—
+—
+—
+15,957
+(2,286)
+15,957
+(2,286)
+02-22-2012
+Middle Class Tax Relief and Job Creation Act of 2012 ( H.R. 3630 , P.L. 112-96 ), Section 7003
+—
+—
+—
+—
+120,032
+92,215
+120,032
+92,215
+CBO, Letter to Honorable Dave Camp, Chairman, Committee on Ways and Means, U.S. House of Representatives, cost estimate for the conference agreement on H.R. 3630 , Middle Class Tax Relief and Jobs Creation Act of 2012, as posted on the website of the House Committee on Rules on February 16, 2012 , February 16, 2012
+07-06-2012
+Moving Ahead for Progress in the 21st Century Act, ("MAP-21," H.R. 4348 , P.L. 112-141 ), Section 120001(a)
+—
+—
+—
+—
+(17,452)
+(16,324)
+(17,452)
+(16,324)
+CBO, Letter to Honorable David Drier, Chairman, Committee on Rules, U.S. House of Representatives, cost estimate for the conference report for H.R.4348, MAP-21, as posted on the website of the House Committee on Rules on June 28, 2012 , June 29,2012
+Amounts do not include intragovernmental transfers from the general fund to the Highway Trust Fund
+01-02-2013
+American Taxpayer Relief Act of 2012 ( H.R. 8 , P.L. 112-240 ), Section 911(a)
+—
+—
+—
+—
+1,704,385
+- 23,798
+1,680,587
+3,967,279
+- 23,798
+3,943,481
+1,680,587
+3,943,481
+CBO, Estimate of the Budgetary Effects of H.R.8, the American Taxpayer Relief Act of 2012, as passed by the Senate on January 1, 2013 , January 1, 2013
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+Subtotal, 112 th Congress, 2 nd Session (2012)
+—
+—
+—
+—
+1,783,167
+4,019,372
+1,783,167
+4,019,372
+08-09-2013
+Bipartisan Student Loan Certainty Act of 2013 ( H.R. 1911 , P.L. 113-28 ), Section 3(a)
+—
+—
+—
+—
+24,975
+(715)
+24,975
+(715)
+CBO, Estimate of the Budgetary Effects of the Bipartisan Student Loan Certainty Act of 2013, draft legislation for a Senate proposal provided to CBO on July 18, 2013 , July 22, 2103
+12-26-2013
+Bipartisan Budget Act of 2013 and Pathway for SGR Reform Act of 2013 ( H.J.Res. 59 , P.L. 113-67 )
+—
+—
+—
+—
+PART I:
+(21,159)
++ 0
+(21,159)
+PART 2:
+8,300
++ 0
+8,300
+TOTAL:
+(21,159)
++ 8,300 :
+(12,859)
+PART I:
+(84,874)
++ 28,041
+(56,833)
+PART 2:
+(300)
++ 2.100
+1,800
+TOTAL:
+(56,833)
++ 1,800
+(55,033)
+(12,859)
+(55,033)
+(1) CBO, Cost Estimate for Bipartisan Budget Act of 2013, as posted on the website of the House Committee on Rules, December 10, 2013, Table 2. Estimate of Effects on Direct Spending and Revenues for the Bipartisan Budget Act of 2013 , December 11, 2013
+(2) CBO, Estimate for Amendment to H.J.Res.59, Pathway for SGR Reform Act of 2013, as revised and posted on the website of the House Rule Committee on December 11, 2013 , December 11, 2013
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+Subtotal, 113 th Congress, 1 st Session (2013)
+—
+—
+—
+—
+12,116
+(55,748)
+12,116
+(55,748)
+01-17-2014
+Consolidated Appropriations Acts, 2014 ( H.R. 3547 , P.L. 113-76 ), Section 10001(d) relating to Section 10001 only
+—
+—
+—
+—
+80
+573
+80
+573
+Unpublished CBO data table of changes to mandatory programs contained in H.R. 3547 , Consolidated Appropriations Act, 2014, January 14, 2014
+04-01-2014
+Protecting Access to Medicare Act of 2014 ( H.R. 4302 , P.L. 113-93 ), Section 225(a)
+—
+—
+—
+—
+17,700
++ 0
+17,700
+(1,200)
++ 4,900
+3,700
+17,700
+3,700
+CBO, Cost Estimate for the Protecting Access to Medicare Act of 2014, as posted on March 26, 2014 , March 26, 2014
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+08-07-2014
+Veterans Access, Choice, and Accountability Act of 2014 ( H.R. 3230 , P.L. 113-146 ), Section 803(a)
+—
+—
+14,038
+15,580
+—
+—
+14,038
+15,580
+OMB, 2014 Statutory Pay-As-You-Go Act Annual Report , January 23, 2015, part II, Item 26
+08-08-2014
+Highway and Transportation Funding Act of 2014 ( H.R. 5021 , P.L. 113-159 ), Section 3001(a)
+(17,965)
+(9,765)
+(17,965)
+(9,765)
+CBO, Cost Estimate for H.R.5021, Highway and Transportation Funding Act of 2014, as ordered reported by the House Committee on Ways and Means on July 10, 2014 , July 11, 2014
+12-16-2014
+Consolidated and Further Continuing Appropriations Act, 2015 ( H.R. 83 , P.L. 113-235 ) Section 103(a) of Division N (relating to Division M and Sections 101 and 102 of Division N); and Section 1(a) of Division Q (relating to Divisions O and P)
+—
+—
+—
+—
+DIV M 492
+DIV N (insig)
+DIV O 28
+DIV P + (16)
+504
+1,387
+(insig)
+1,098
++ ( 3 2)
+2,453
+504
+2,453
+(1) CBO, H.R.83, the Consolidated and Further Continuing Appropriations Act, 2015, Divisions M and N, as posted on the website of the House Committee on Rules on December 9, 2014 , December 10, 2014
+Notes:
+Amounts in Division M reflect a loss of revenue and are reflected in the table as a debit.
+"Insig" denotes insignificant. CBO estimates that any net effects attributable to Division N would not be significant in any year.
+(2) CBO , Estimate of the Multiemployer Pension Reform Act of 2014, as posted on the website of the House Committee on Rules on December 9, 2014 (Proposed as Division O in an amendment to H.R.83, the Consolidated and Further Continuing Appropriations Act, 2015 ) , December 10, 2014
+(3) CBO, Estimate of Other Retirement-Related Modifications, as posted on the website of the House Committee on Rules on December 9, 2014 (Proposed as Division P in an amendment to H.R.83, the Consolidated and Further Continuing Appropriations Act, 2015 ) , December 10, 2014
+12-19-2014
+Tax Increase Prevention Act of 2014 ( H.R. 5771 , P.L. 113-295 ), Section 401(a)
+—
+—
+—
+—
+40,083
+(3)
++ (4)
+40,076
+41,599
+(3)
++ (3)
+41,593
+40,076
+41,593
+JCT, Estimated Revenue Effects of H.R.5771, the "Tax Increase Prevention Act of 2014," Scheduled for Consideration by the House of Representatives on December 3, 2014 (JCX-107-14R ), December 3, 2014
+Off-budget effects removed from totals; see notes 1 and 12 in JCT table
+Subtotal, 113 th Congress, 2nd Session (2014)
+0
+0
+14,038
+15,580
+40,395
+38,554
+54,433
+54,134
+04-16-2015
+Medicare Access and CHIP Reauthorization Act of 2015 ( H.R. 2 , P.L. 114-10 ), Section 525(a)
+—
+—
+—
+—
+82,800
+142,100
+82,800
+142,100
+CBO, Letter to Honorable John A. Boehner, Speaker, U.S. House of Representatives, RE: Cost Estimate and Supplemental Analyses for H.R.2, the Medicare Access and CHIP Reauthorization Act of 2015 , March 25, 2015
+06-29-2015
+Defending Public Safety Employees' Retirement Act ( H.R. 2146 , P.L. 114-26 ), Section 3(a)
+—
+—
+—
+—
+(1)
+5
+(1)
+5
+JCT, Estimated Revenue Effects of the Revenue Provision Contained in H.R. 2146, The "Defending Public Safety Employees' Retirement Act" as Amended by the Senate, and Further Amended by a House Resolution, Scheduled for Consideration by the House of Representatives on July 8, 2015 (JCX-95-15) , June 18, 2015
+07-31-2015
+Surface Transportation and Veterans Health Care Choice Improvement Act of 2015 ( H.R. 3236 , P.L. 114-41 ), Section 4008(a)
+—
+—
+—
+—
+0
+0
+0
+0
+OMB, 2015 Statutory Pay-As-You-Go-Act Annual Report , January 11, 2016, Part II, Item 15
+12-04-2015
+Fixing America's Surface Transportation (FAST) Act, ( H.R. 22 , P.L. 114-94 ), Section 32401
+—
+—
+—
+—
+(36,889)
+(71,478)
+(36,889)
+(71,478)
+CBO, Letter to Honorable Bill Shuster, Chairman, Committee on Transportation and Infrastructure, U.S. House of Representatives, RE: Cost Estimate for the Conference Agreement on H.R.22, the FAST Act, as posted on the website of the House Committee on Rules on December 1, 2015 , December 2, 2015
+Note: Amounts do not include intragovernmental transfers from the general fund to the Highway Trust Fund
+12-18-2015
+Consolidated Appropriations Act, 2016, ( H.R. 2029 , P.L. 114-113 ), Section 1001(a) of Division O (relating to Divisions M through Q)
+—
+—
+—
+—
+435,704
+677,051
+435,704
+677,051
+CBO, Table 2: Estimated Effects on Direct Spending and Revenues of H.R. 2029 (Divisions M through Q), as Cleared for the President's Signature on December 18, 2015 , December 18, 2015
+Subtotal, 114 th Congress, 1 st Session (2015)
+—
+—
+—
+—
+481,614
+747,678
+481,614
+747,678
+12-10-2016
+Further Continuing and Security Assistance Appropriations Act, 2017 ( H.R. 2028 , P.L. 114-254 )
+Section 101(3) in Division A amends the Continuing Appropriations Act, 2017 ( P.L. 114-223 ) to add a section, Section 167 (Continued Health Benefits for Miners Act) and to exclude the budgetary effects of Section 167 from the Statutory PAYGO scorecards (see Section 167(d)
+—
+—
+—
+—
+(2)
+(2)
+(2)
+(2)
+CBO, Table 3: CBO Estimate for Section 167 of Division A of H.R.2028—Miners Health Benefits—House Rules Committee Print 114-70 for HR.2028 [the Further Continuing and Security Assistance Appropriations Act, 2017], December 7, 2016
+12-13-2016
+21st Century Cures Act ( H.R. 34 , P.L. 114-255 ), Section 1004(a) of Division A (relating to Division A)
+—
+—
+—
+—
+(2,616) OT
++ ( 14 ) RV
+(2,630)
+(5,770) OT
++ ( 32 ) RV
+(5,802)
+(2,630)
+(5,802)
+CBO, Direct Spending and Revenue Effects for H.R.34, the 21 st Century Cures Act, Rules Committee Print 114-67, as amended by Amendment Number 5 (Upton), November 29, 2016 , November 29, 2016
+Notes:
+OT: Outlays
+RV: Revenues
+Amounts in Division A reflect an increase in revenue and are reflected in the table as a credit.
+Subtotal, 114 th Congress, 2 nd Session (2016)
+—
+—
+—
+—
+(2,632)
+(5,804)
+(2,632)
+(5,804)
+04-28-2017
+Making further continuing appropriations for fiscal year 2017, and for other purposes ( H.J.Res. 99 , P.L. 115-30 ), Section 202(c)
+By reference to Section 167(d)(1) of Division C of P.L. 114-223 , as amended by P.L. 114-254 (relating to Section 202 of P.L. 115-30 )
+—
+—
+—
+—
+2
+2
+2
+2
+CBO , Estimate for Section 202, Further Continued Health Benefits for Miners Act, Section 202 of H.J.Res.99, as introduced on April 26, 2017 , April 27, 2017
+05-05-2017
+Consolidated Appropriations Act, 2017 ( H.R. 244 , P.L. 115-31 ), Section 301(a) of Division M (relating to Divisions M, N, O)
+—
+—
+—
+—
+884
+249
+884
+249
+CBO , Table 2: Authorizing Divisions, CBO Estimate for Divisions M, N, and O of H.R.244, the Consolidated Appropriations Act, 2017 (Public Law 115-31) 884 ,249 May 9, 2017
+09-12-2017
+Emergency Aid to American Survivors of Hurricane Irma and Jose Overseas ( H.R. 3732 , P.L. 115-57 ), Section 2(b)
+—
+—
+5
+5
+—
+—
+5
+5
+OMB, 2017 Statutory Pay-As-You-Go Act Annual Report , January 24, 2018, Part II, Item 12
+09-29-2017
+Disaster Tax Relief and Airport and Airway Extension Act of 2017 ( H.R. 3823 , P.L. 115-63 ), Section
+—
+—
+6,227
+6,248
+—
+—
+6,227
+6,248
+OMB, 2017 Statutory Pay-As-You-Go Act Annual Report , January 24, 2018, Part II, Item 17
+09-29-2017
+Hurricanes Harvey, Irma, and Maria Education Relief Act of 2017 ( S. 1866 , P.L. 115-64 ), Section 2(c)
+—
+—
+0
+0
+—
+—
+0
+0
+OMB, 2017 Statutory Pay-As-You-Go Act Annual Report , January 24, 2018, see pp. 5-6:
+Two additional laws included an emergency designation under the Statutory PAYGO Act, but OMB estimated that the designated portions of the laws did not have any PAYGO effects:
+Hurricanes Harvey, Irma, and Maria Education Relief Act of 2017, Public Law 115-64; and
+Additional Supplemental Appropriations for Disaster Relief Requirements Act, 2017, Public Law 115-72.
+10-26-2017
+Additional Supplemental Appropriations for Disaster Relief Requirements Act, 2017 ( H.R. 2266 , P.L. 115-72 ), Section 308(c)(1)
+—
+—
+0
+0
+—
+—
+0
+0
+OMB, 2017 Statutory Pay-As-You-Go Act Annual Report , January 24, 2018, see pp. 5-6:
+Two additional laws included an emergency designation under the Statutory PAYGO Act, but OMB estimated that the designated portions of the laws did not have any PAYGO effects:
+Hurricanes Harvey, Irma, and Maria Education Relief Act of 2017, Public Law 115-64; and
+Additional Supplemental Appropriations for Disaster Relief Requirements Act, 2017, Public Law 115-72.
+12-22-2017
+To amend the Homeland Security Act of 2002 to require the Secretary of Homeland Security to issue Department of Homeland Security-wide guidance and develop training programs as part of the Department of Homeland Security Blue Campaign, and for other purposes ( H.R. 1370 , P.L. 115-96 ), Section 5001(a) relating to Divisions C through E only
+NOTE: Vehicle for the FY2018 CR, supplemental defense spending, health extenders, other matters
+—
+—
+—
+—
+2,418
+2,061
+2,418
+2,061
+CBO, Table 4, Authorizing Divisions, CBO Estimate for Divisions C and D of Rules Committee Print 115-52 [as posted on the website of the House Committee on Rules on December 20, 2017)—Health Provisions and Other Matters , December 21, 2017
+12-22-2017
+To provide for reconciliation pursuant to title II and V of the concurrent resolution on the budget for fiscal year 2018 ("Tax Cuts and Jobs Act", H.R. 1 , P.L. 115-97 )
+Exclusion was provided in prior legislation (Section 5002 of P.L. 115-96 )
+—
+—
+—
+—
+1,076,500
+1,481,800
+1,076,500
+1,481,800
+CBO, Letter to the Honorable Kevin Brady, Committee on Ways and Means, U.S. House of Representatives, Cost Estimate for the Conference Agreement I H.R.1, a Bill to provide for Reconciliation Pursuant to Titles II and V of the Concurrent resolution on the Budget for Fiscal Year 2018 , December 15, 2017
+Subtotal, 115 th Congress, 1 st Session (2017)
+—
+—
+6,232
+6,253
+1,079,804
+1,484,112
+1,086,036
+1,490,365
+01-22-2018
+Making further continuing appropriations for the fiscal year ending September 30, 2018, and for other purposes ( H.R. 195 , P.L. 115-120 ), Section 5001(a) (relating to Divisions C through E only)
+—
+—
+—
+—
+33,759
+31,684
+33,759
+31,684
+CBO, Table 3, Authorizing Divisions, CBO Estimate for Divisions C and D of Rules Committee Print 115-55 [Extension of Continuing Appropriations Act, 2018, as posted in the website of the House Committee on Rules on January 16, 2017]—The Healthy Kids Act and Suspension of Certain Health-Related Taxes , January 17, 2018
+02-09-2018
+Bipartisan Budget Act of 2018 ( H.R. 1892 , P.L. 115-123 ), Section 70101(a) (relating to Division A, Subdivision 2 of Division B, and Divisions C through G)
+—
+—
+REV+OT:
+0 (A)
+4,244 (B1)
+(3,630) (C)
+15,328 (D)
+7,624(E)
++ 711 (F)
+24,277
++ 0
+24,277
+REV+OT:
+0 (A)
+4,238 (B1)
+(56,990) (C)
+16,980 (D)
+829 (E)
++ 1,249 (F)
+(33,694)
++ 35,458
+1,764
+24,277
+1,764
+CBO, Table 1. Authorizing Divisions, CBO Estimate for Senate Amendment 1930, The Bipartisan Budget Act of 2018, Direct Spending and Revenue Provisions , February 8, 2018 (for estimates of Divisions B through F)
+CBO , Estimate for Senate Amendment 1930, The Bipartisan Budget Act of 2018—Direct Spending and Revenue Provisions, Division C , February 8, 2018 (for estimate of Section 30101(c) relating to extension of mandatory sequester)
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+03-23-2018
+Consolidated Appropriations Act, 2018 ( H.R. 1625 , P.L. 115-141 ), Section 701(a), Subtitle VII of Division M (relating to Divisions M through V only)
+—
+—
+—
+—
+2,124
+2,819
+2,124
+2,819
+CBO, Table 2. Authorizing Divisions, CBO Estimate for Divisions M-V of Rules Committee Print 115-66 [the Consolidated Appropriations Act, 2018]—Authorizing Provisions (Direct Spending and Revenues) , March 22, 2018
+06-06-2018
+John S. McCain III, Daniel K Akaka, and Samuel R. Johnson VA Maintaining Internal Systems and Strengthening Integrated Outside Networks Act of 2018) (VA MISSION Act of 2018, S. 2372 [text of H.R. 5674 ], P.L. 115-182 ), Section 512(a)
+—
+—
+—
+—
+5,200
+4,471
+5,200
+4,471
+CBO, H.R. 5674 VA Maintaining Internal Systems and Strengthening Integrated Outside Networks Act of 2018 As reported by the House Committee on Veterans' Affairs on May 11, 2018 , May 14, 2018
+Prior to passage, the House amended S. 2372 with the text of H.R. 5674 as reported. The Senate then passed S. 2372 , as amended by the House, without further amendment.
+10-24-2018
+Substance Use – Disorder Prevention that Promotes Opioid Recovery and Treatment for Patients and Communities Act (SUPPORT for Patients and Communities Act, H.R. 6 , P.L. 115-271 ), Title VIII, Subtitle L, Section 8231(a)
+—
+—
+—
+—
+1,001
+(52)
+1,001
+(52)
+CBO, Estimated Direct Spending and Revenue Effects of H.R.6, Substance Use – Disorder Prevention that Promotes Opioid Recovery and Treatment (SUPPORT) for patients and Communities Act (HR6-CONF-COMBO_07.XML) , September 27, 2018
+Subtotal, 115th Congress, 2nd Session (2018)
+—
+—
+—
+—
+66,361
+40,686
+66,361
+40,686
+02-15-2019
+Consolidated Appropriations Act, 2019 ( H.J.Res. 31 , P.L. 116-6 ), Section 301(a) of Division H relating to Division H only
+—
+—
+—
+—
+18
+35
+18
+35
+CBO, Table 3. Authorizing Divisions in H.J.Res31, CBO Estimate for Division H of the Conference Agreement for H.J.Res31—Extensions, Technical Corrections, and Other Matters, as Posted on the U.S. House Documents Repository on February 14, 2019 ( https://go.usa.gov/xEUWf ) , February 14, 2019
+07-29-2019
+Never Forget the Heroes: James Zadroga, Ray Pfeifer, and Luis Alvarez, Permanent Authorization of the September 11th Victim Compensation Fund ( H.R. 1327 , P.L. 116-34 ) Section 4(a) relating to the whole Act
+—
+—
+—
+—
+6,785
+10,180
+6,785
+10,180
+CBO, H .R.1327, Never Forget the Heroes: Permanent Authorization of the September 11 th Victim Compensation Fund Act, as ordered reported by the House Committee on the Judiciary on June 12, 2019 , July 11, 2019
+08-02-2019
+Bipartisan Budget Act of 2019 ( H.R. 3877 , P.L. 116-37 ), Section 501(a) relating to the whole Act
+—
+—
+—
+—
+0
++ 0
+0
+(54,524)
++ 38,940
+(15,584)
+0
+(15,584)
+CBO, Estimate for the Bipartisan Budget Act of 2019, as posted on July 22, 2019 , July 23, 2019
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+09-27-2019
+Continuing Appropriations Act, 2020, and Health Extenders Act of 2019 ( H.R. 4378 , P.L. 116-59 ), Section 1701(a) of Division B relating to Division B only
+—
+—
+—
+—
+(477)
+(1)
+(477)
+(1)
+CBO, Estimate for H.R.4378, the Continuing Appropriations Act, 2020 and Health Extenders Act of 2019 (as posted on the House Rules Committee website on September 18, 2019, Table 2. Direct Spending Effects of Division B, Health and Human Services Extenders and Other Matters , September 18, 2019
+11-21-2019
+Further Continuing Appropriations Act, 2020, and Further Health Care Extenders Act of 2019 ( H.R. 3055 , P.L. 116-69 ), Section 1801(a) relating to Division B only
+—
+—
+—
+—
+683
+1,130
+683
+1,130
+CBO, Estimate for Rules Committee Print 116-38, the Further Continuing Appropriations Act, 2020 (as posted on the House Rules Committee website on November 18, 2019, Table 2. Direct Spending Effects of Division B, Health and Human Services Extenders and Other Matters , November 18, 2019
+12-20-2019
+Further Consolidated Appropriations Act, 2020 ( H.R. 1865 , P.L. 116-94 ), Section 1001(a) of Division I relating to Divisions I through Q only
+—
+—
+—
+—
+117,402 (I-P)
++ 49,649 (Q)
+167,051
+355,304 (I-P)
++ 53,631 (Q)
+408,935
+167,051
+408,935
+CBO, Estimate for Rules Committee Print 116-44, the Further Consolidated Appropriations Act, 2020 (as posted on the House Rules Committee website on December 16, 2019, Table 2. Direct Spending and Revenue Effects of Divisions I through P , December 17, 2019
+CBO, Manager's Amendment to Rules Committee Print 116-44 (H.R. 1865), to add Division Q, the Taxpayer Certainty and Disaster Relief Act of 2019, Table 1. Direct Spending and Revenue Effects of the Manager's Amendment to Rules Committee Print 116-44, Division Q, the Taxpayer Certainty and Disaster Relief Act of 2019, as posted on the website of the House Committee on Rules on December 17, 201 9 , December 17, 2019
+Subtotal, 116th Congress, 1st Session (2019)
+0
+0
+0
+0
+174,060
+404,695
+174,060
+404,695
+03-06-2020
+Coronavirus Preparedness and Response Supplemental Appropriations Act, 2020 ( H.R. 6074 , P.L. 116-123 ), Section 103(a) relating to Division B only
+—
+—
+—
+—
+490
+490
+490
+490
+CBO, Estimate for H.R. 6074, the Coronavirus Preparedness and Response Supplemental Appropriations Act, 2020, as posted on March 4, 2020, Table 2. Changes in Direct Spending Under Division B, the Telehealth Services During Certain Emergency Periods Act of 2020 , March 4, 2020
+03-18-2020
+Families First Coronavirus Response Act ( H.R. 6201 , P.L. 116-127 ), Section 8001(a) relating to Divisions B through G only
+—
+—
+—
+—
+95,224 (OT)
++94,2 97 (R V )
+189,521
+95,264 (OT)
++94, 268 (R V )
+189,532
+189,521
+189,532
+CBO, Letter to the Honorable Nita M. Lowey, Chairwoman, Committee on Appropriations, Preliminary Estimate of the Effects of H.R. 6201, the Families First Coronavirus Response Act , Table 3. Changes in Direct Spending Under Divisions B Through G of H.R. 6201, the Families First Coronavirus Response Act, Public Law 116-127 ; Table 4. Changes in Revenues Under Divisions D, F and G of H.R. 6201, the Families First Coronavirus Response Act, Public Law 116-127 , April 2, 2020
+Notes:
+OT: Outlays
+RV: Revenues
+Total revenue amounts in Divisions B-G reflect a decrease in revenue and are reflected in the table as a debit.
+03-27-2020
+Coronavirus Aid, Relief, and Economic Security Act (CARES Act, H.R. 748 , P.L. 116-136 ), Section 23008(a) relating to Division B only
+—
+—
+1,172,375
+1,149,773
+1,172,375
+1,149,773
+OMB, 2020 Statutory Pay-As-You-Go Act Annual Report , January 19, 2021, Part II, Item 10
+Pursuant to Section 23008 of P.L. 116-136 , Division B is treated as appropriations legislation (discretionary).
+Section 3709 of Division B of P.L. 116-136 modified the sequester of direct spending pursuant to Section 251A of BBEDCA, but those effects were classified as discretionary (per above)
+04-24-2020
+Paycheck Protection Program and Health Care Enhancement Act ( H.R. 266 , P.L. 116-139 ), Section 308(a) relating to Division B only
+—
+—
+324,214
+324,214
+—
+—
+324,214
+324,214
+OMB , 2020 Statutory Pay-As-You-Go Act Annual Report , January 19, 2021, Part II, Item 11
+04-28-2020
+Student Veteran Coronavirus Response Act of 2020 ( H.R. 6322 , P.L. 116-140 )
+—
+—
+27
+27
+—
+—
+27
+27
+OMB, 2020 Statutory Pay-As-You-Go Act Annual Report , January 19, 2021, Part II, Item 12
+06-05-2020
+Paycheck Protection Program Flexibility Act of 2020 ( H.R. 7010 , P.L. 116-142 )
+—
+—
+0
+0
+—
+—
+0
+0
+OMB, 2020 Statutory Pay-As-You-Go Act Annual Report , January 19, 2021, p. 7
+07-13-2020
+Emergency Aid for Returning Americans Affected by Coronavirus Act ( S. 409 , P.L. 116-148 )
+—
+—
+0
+1
+-
+-
+0
+1
+OMB, 2020 Statutory Pay-As-You-Go Act Annual Report , January 19, 2021, Part II, Item 17
+10-01-2020
+Continuing Appropriations Act, 2021 and Other Extensions Act ( H.R. 8337 , P.L. 116-159 ), Section 4501 (a) (relating to Divisions B through E only)
+—
+—
+—
+—
+6,979
+8,302
+6,979
+8,302
+CBO, Estimate for H.R. 8337, the Continuing Appropriations Act, 2021 and Other Extensions Act, as Passed by the House of Representatives on September 22, 2020, Table 2. Direct Spending and Revenue Effects of Divisions B – E , September 23, 2020
+12-11-2020
+Further Continuing Appropriations Act, 2021 and Other Extensions Act ( H.R. 8900 , P.L. 116-215 ), Section 1401(a) relating to Division B only
+—
+—
+—
+—
+58
+0
+58
+0
+CBO, Estimate for H.R. 8900, the Further Continuing Appropriations Act, 2021, and Other Extensions Act, as introduced on December 8, 2020, Table 2. Direct Spending and Revenue Effects of Division B , December 9, 2020
+12-27-2020
+Consolidated Appropriations Act, 2021 ( H.R. 133 , P.L. 116-260 ), Section 1401(a) relating to Divisions N through FF only, except for Title VIII of Division O and Title XIII of Division FF
+—
+—
+—
+—
+DIV N:
+682,325
+DIV O-FF:
+135,092
+TOTAL:
+682,325
++ 135,092
+817,417
+DIV N:
+682,316
+DIV O-FF:
+177,258
+TOTAL:
+682,316
++ 177,258
+859,574
+817,417
+859,574
+CBO, Estimate for Division N—Additional Coronavirus Response and Relief, H.R. 133, Consolidated Appropriations Act, 2021, Public Law 116-260, Enacted on December 27, 2020 , January 14, 2021
+CBO, Estimate for Divisions O Through FF, H.R. 133, Consolidated Appropriations Act, 2021, Public Law 116-260 , Enacted on December 27, 2020 , January 14, 2021
+Title VIII of Division O and Title XIII of Division FF were scored as discretionary spending (no adjustment needed).
+Section 102, Division N of P.L. 116-260 extends a provision in the CARES Act (P.L. 116-136) that modified the sequester of direct spending pursuant to section 251A of BBEDCA, but those effects were classified as discretionary.
+Subtotal, 116th Congress, 2nd Session (2020)
+—
+—
+1,496,616
+1,474,015
+1,014,465
+1,057,898
+2,511,081
+2,531,913
+03-30-2021
+PPP Extension Act of 2021 ( H.R. 1799 , P.L. 117-6 ), Section 3(a)
+—
+—
+—
+—
+15,000
+15,000
+15,000
+15,000
+CBO , Estimate of the Budgetary Effects of H.R. 1799, the PPP Extension Act of 2021, as amended on March 15, 2021 , Revised on March 17, 2021
+07-30-2021
+Emergency Security Supplemental Appropriations Act, 2021 ( H.R. 3237 , P.L. 117-31 )
+—
+—
+660
+1,335
+—
+—
+660
+1,335
+OMB, 2021 Statutory Pay-As-You-Go Act Annual Report , January 24, 2022, Part II, Item 18
+08-31-2021
+Emergency Repatriation Assistance for Returning Americans Act ( H.R. 5085 , P.L. 117-39 )
+—
+—
+2
+2
+—
+—
+2
+2
+OMB, 2021 Statutory Pay-As-You-Go Act Annual Report , January 24, 2022, Part II, Item 22
+09-30-2021
+Extending Government Funding and Delivering Emergency Assistance Act ( H.R. 5305 , P.L. 117-43 ) Section 3201(a) relating to Division D only
+—
+—
+—
+—
+0
+0
+0
+0
+CBO, Estimate for H.R. 5305, the Extending Government Funding and Delivering Emergency Assistance Act as Passed by the House of Representatives on September 21, 2021, Table 4. Changes in Direct Spending and Revenues Under Division D, Other Matters , September 24, 2021.
+A score that reflects Senate action is not available. The Senate amended the legislation to eliminate the debt limit increase and to make technical changes, neither of which appears to affect the budgetary effects of the legislation. The House subsequently agreed to the Senate amendment and sent the measure to the President.
+11-15-2021
+Infrastructure Investment and Jobs Act ( H.R. 3684 , P.L. 117-58 ), Section 905(a) relating to Division J only and amounts rescinded in Section 90007 of Division I
+—
+—
+—
+—
+104
+830
+104
+830
+CBO, Senate Amendment 2137 to H.R. 3684, the Infrastructure Investment and Jobs Act, as Proposed on August 1, 2021 , Revised August 9, 2021
+Note: Amounts in Division J reflect a loss of revenue and are reported in this table as a debit. Amounts in Division I are characterized as discretionary pursuant to Section 905(c) of Division I.
+Section 90001 includes an extension of the sequester of mandatory spending, but not in the section of the bill that explicitly excludes certain budgetary effects from the Stat-PAYGO scorecards.
+12-03-2021
+Further Extending Government Funding Act ( H.R. 6119 , P.L. 117-70 ), Section 2201(a) relating to Division C only
+—
+—
+—
+—
+0
+0
+0
+0
+CBO, Estimate for H.R. 6119, the Further Extending Government Funding Act, as Posted on the Rules Committee Website on December 2, 2021, Table 3. Changes in Direct Spending Under Division C, Extensions , December 2, 2021
+Subtotal, 117th Congress, 1st Session (2021)
+0
+0
+662
+1,337
+15,104
+15,830
+15,766
+17,167
+02-18-2022
+Further Extending Government Funding Act ( H.R. 6617 , P.L. 117-86 ), Section 1201(a) relating to Division B only
+—
+—
+—
+—
+0
+0
+0
+0
+CBO, Estimate for H.R. 6617, the Further Additional Extending Government Funding Act, as Posted on the Rules Committee Website on February 7, 2022, Table 2. Changes in Direct Spending Under Division B, Extensions , February 7, 2022
+03-15-2022
+Consolidated Appropriations Act, 2022 ( H.R. 2471 , P.L. 117-103 ), Section 501(a) relating to Divisions O through HH only
+—
+—
+—
+—
+1,134
+138
+1,134
+138
+CBO, Estimate for H.R. 2471, the Consolidated Appropriations Act, 2022, as Cleared by the Congress on March 10, 2022, Table 3. CBO Estimate for Divisions O Through HH, H.R. 2471, the Consolidated Appropriations Act, 2022, as Cleared by the Congress on March 10, 2022 , March 14, 2022
+06-25-2022
+Bipartisan Safer Communities Act ( S. 2938 , P.L. 117-159 ), Section 23005(a)
+—
+—
+—
+—
+(9,784)
+(4,782)
+(9,784)
+(4,782)
+CBO, Estimated Budgetary Effects of S. 2938, Bipartisan Safer Communities Act, as Amended by Senate Amendment Number 5099, Table 2. Estimated Direct Spending and Revenue Effects of Division A of S. 2938, Bipartisan Safer Communities Act, as Amended by Senate Amendment Number 5099 , June 22, 2022
+08-09-2022
+Making Appropriations for Legislative Branch for the Fiscal Year ending September 30, 2022, and for other purposes (CHIPS and Science Act, H.R. 4346 , P.L. 117-167 ), Sections 102(f)(1), 106(e)(1), 107(e)(1), and 10003(a) relating to Sections 102, 106, and 107 of Divisions A and B only
+—
+—
+—
+—
+47,486
+79,325
+47,486
+79,325
+CBO, Estimated Budgetary Effects of H.R. 4346, as Amended by the Senate and as Posted by the Senate Committee on Commerce, Science, and Transportation on July 20, 2022, Table 2. Estimated Budgetary Effects of Divisions A and B of H.R. 4346, as Amended by the Senate and as Posted by the Senate Committee on Commerce, Science, & Transportation on July 20, 2022 , July 21, 2022
+12-16-2022
+Further Continuing Appropriations and Extensions Act, 2023 ( H.R. 1437 , P.L. 117-229 ), Section 201(a) of Division B relating to Divisions B through D only
+—
+—
+—
+—
+(5)
+(5)
+(5)
+(5)
+CBO, Table 2. Estimated Budgetary Effects of Divisions B Through D of the Further Continuing Appropriations and Extensions Act, 2023, Rules Committee Print 117-72, the House Amendment to the Senate Amendment to H.R. 1437, As Posted on the Website of the House Committee on Rules , December 14, 2022
+12-23-2022
+Further Additional Continuing Appropriations and Extensions Act, 2023 ( H.R. 4373 , P.L. 117-264 ), Section 201(a) of Division B relating to Division B only
+No score available
+12-29-2022
+Consolidated Appropriations Act, 2023 ( H.R. 2617 , P.L. 117-328 ), Section 1001(a) of Division O relating to Divisions O through MM only
+(30,872)
++ 0
+(30,872)
+(5,094)
++ 3,300
+(1,794)
+(30,872)
+(1,794)
+CBO, Estimated Budgetary Effects of Divisions O Through MM of the Consolidated Appropriations Act, 2023 (Public Law 117-328), as Enacted on December 29, 2022 , January 12, 2023
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+Subtotal, 117th Congress, 2nd Session (2022)
+0
+0
+0
+0
+7,959
+72,882
+7,959
+72,882
+09-30-2023
+Continuing Appropriations Act, 2024 and Other Extensions Act ( H.R. 5860 , P.L. 118-15 ), Section 2401(a) of Division B relating to Division B only
+—
+—
+—
+—
+438
+(2)
+438
+(2)
+CBO, Cost Estimate, H.R. 5860, Continuing Appropriations Act, 2024 and Other Extensions Act, Enacted as Public Law 118-15 on September 30, 2023, Estimated Budgetary Effects of Division B of H.R. 5860, the Continuing Appropriations Act, 2024 and Other Extensions Act , October 4, 2023
+11-17-2023
+Further Continuing Appropriations and Other Extensions Act, 2024 ( H.R. 6363 , P.L. 118-22 ), Section 701(a) of Division B relating to Division B only
+—
+—
+—
+—
+(568)
+0
+(568)
+0
+CBO , Cost Estimate, H.R. 6363, Further Continuing Appropriations and Other Extensions Act, 2024, As posted on the website of the House Committee on Rules on November 11, 2023 , Table 2. Estimated Direct Spending Effects of Division B of H.R. 6363, the Further Continuing Appropriations and Other Extensions Act, 2024, November 13, 2024
+Subtotal, 118th Congress, 1st Session (2023)
+0
+0
+0
+0
+(130)
+(2)
+(130)
+(2)
+01-19-2024
+Further Additional Continuing Appropriations and Other Extensions Act, 2024 ( H.R. 2872 , P.L. 118-35 ), Section 401(a) relating to Division B only
+—
+—
+—
+—
+449
+0
+449
+0
+CBO, Cost estimate, Senate Amendment 1381 to H.R. 2872, the Further Additional Continuing Appropriations and Other Extensions Act, 2024, As posted on the Senate Amendment Tracking System on January 16, 2024, Identical language posted on the website of the Senate Committee on Appropriations, Table 2. Estimated Direct Spending Effects of Division B of Senate Amendment 1381 to H.R. 2872, the Further Additional Continuing Appropriations and Other Extensions Act, 2024, 2024 , January 17, 2024
+03-01-2024
+Extension of Continuing Appropriations and Other Matters Act, 2024 ( H.R. 7463 , P.L. 118-40 ), Section 102(a) of Division B relating to Division B only
+—
+—
+—
+—
+1,790
+(16)
+1,790
+(16)
+CBO, Cost Estimate, H.R. 7463, Extension of Continuing Appropriations and Other Matters Act, 2024, As introduced on February 28, 2024, Table 2. Estimated Direct Spending Effects of Division B, H.R.7463, Extension of Continuing Appropriations and Other Matters Act, 2024 , February 29, 2024
+03-09-2024
+Consolidated Appropriations Act, 2024 ( H.R. 4366 , P.L. 118-42 ), Section 401(a) of Division G relating to Division G only
+—
+—
+—
+—
+6,625
++ 0
+6,625
+0
++ 2,460
+2,460
+6,625
+2.460
+CBO, Consolidated Appropriations Act, 2024, As posted on the Document Repository of the House of Representatives on March 3, 2024, Table 2. Estimated Direct Spending Effects of Division G, Consolidated Appropriations Act, 2024 , March 5, 2024
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+03-23-2024
+Further Consolidated Appropriations Act, 2024 ( H.R. 2882 , P.L. 118-47 ), Section 401(a) of Division G relating to Division G
+—
+—
+—
+—
+819
++ 0
+819
+(23)
++ 848
+825
+819
+825
+CBO, Cost estimate, Further Consolidated Appropriations Act, 2024, As posted on the Document Repository of the House of Representatives on March 21, 2024, https://tinyurl.com/mr3cacer , Table 2. Estimated Direct Spending Effects of Division G, Further Consolidated Appropriations Act, 2024 , March 21, 2014
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+04-24-2024
+Making emergency supplemental appropriations for the fiscal year ending September 30, 2024, and for other purposes ( H.R. 815 , P.L. 118-50 ), Section 1(a) of Division T relating to Divisions D through S
+—
+—
+—
+—
+H.R. 8034 0
+H.R. 8035 0
+H.R. 8036 0
+H.R. 8038 (2)
+(2)
+0
+0
+0
++ (17)
+(17)
+(2)
+(17)
+Pursuant to the provisions of H.Res. 1160 (118th Cong.), H.R. 815 is the shell vehicle H.R. 8034 , H.R. 8035 , H.R. 8036 , H.R. 8038 (combined). Accordingly, the budgetary effects of H.R. 815 were determined using:
+(1) CBO, Cost estimate, H.R.8034, Israel Security Supplemental Appropriations Act, 2024 as posted on the website of the House Committee on Rules on April 17, 2024 , https://tinyurl.com/mtufpdhc , April 19, 2024
+(2) CBO, Cost estimate, H.R.8035, Ukraine Supplemental Appropriations Act, 2024 , A s posted on the website of the House Committee on Rules on April 17, 2024 , April 19, 2024;
+(3) CBO, Cost estimate, H.R.8036, Indo-Pacific Security Supplemental Appropriations Act, 2024 as posted on the website of the House Committee on Rules on April 17, 2024 , April 19, 2024; and
+(4) CBO, Cost estimate, Estimated Budgetary Effects of H.R.8038, the 21st Century Peace Through Strength Act of 2024, As posted on the website of the House Committee on Rules on April 17, 2024, https://tinyurl.com/53y6nbxh , April 19,2024.
+09-26-2024
+Continuing Appropriations and Extensions Act, 2025 ( H.R. 9747 , P.L. 118-83 ), Section 401(a) of Division B relating to Division B only
+—
+—
+—
+—
+15
+(20)
+15
+(20)
+CBO, Cost estimate, H.R. 9747 Continuing Appropriations and Extensions Act, 2025, As Posted on the Website of the House Committee on Rules on September 22, 2024, Table 2. Estimated Direct Spending Effects of Division B, H.R.9747, Continuing Appropriations and Extensions Act, 2025 , September 24, 2024
+12-21-2024
+American Relief Act, 2025 ( H.R. 10545 , P.L. 118-158 ), Section 21306(a) of Division B relating to Divisions C through E only
+—
+—
+—
+—
+(536)
+(1,280)
+(536)
+(1,280)
+CBO, Cost estimate, H.R. 10545, American Relief Act, 2025, As Introduced on December 20, 2024, Table 3. Estimated Direct Spending Effects of Divisions C and D of H.R. 10545, American Relief Act, 2025, December 23, 2024
+Subtotal, 118th Congress, 2nd Session (2024)
+0
+0
+0
+0
+9,160
+1,952
+9,160
+1,952
+03-15-2025
+Full-Year Continuing Appropriations and Extensions Act, 2025 ( H.R. 1968 , P.L. 119-4 ), Section 3106(a) of Division C relating to Divisions B and C only
+—
+—
+—
+—
+4,636
++ 0
+4,636
+0
++ 4,450
+4,450
+4,636
+4,450
+CBO, Cost estimate, H.R. 1968, Full-Year Continuing Appropriations and Extensions Act, 2025, As Posted on the Website of the House Committee on Rules, March 8, 2025 Table 2. Estimated Budgetary Effects of Divisions B and C under the Full-Year Appropriations and Extensions Act, 2025 , March 11, 2025
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+11-12-2025
+Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026 ( H.R. 5371 , P.L. 119-37 ), Section 8001(a) of Division H relating to Divisions E through H only
+—
+—
+—
+-
+1,952
++ 0
+1,952
+(23)
++ 2,130
+2,107
+1,952
+2,107
+CBO, Cost estimate, Senate Amendment 3937 to H.R. 5371, the Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026, As posted on the Senate Amendment Tracking System on November 10, 2025, Table 3. Estimated Direct Spending Under Divisions E Through G , November 10, 2025
+Amounts are adjusted to exclude the budgetary effects of any extension or adjustment to the sequester of mandatory spending pursuant to Section 251A of BBEDCA. This adjustment is reflected by amounts in bold italics . See table note (c)
+Subtotal, 119th Congress, 1st Session (2025)
+—
+—
+—
+—
+6,588
+6,557
+6,588
+6,557
+Grand Total
+396,496
+355,150
+2,087,615
+2,042,324
+4,703,988
+7,826,376
+7,188,099
+10,223,850
+Source: Noted for each entry.
+Notes:
+a. Pursuant to Section 3(4)(A)-(B) of the Statutory PAYGO Act, amounts on the scorecards reflect estimated, on-budget mandatory (direct) spending outlays and revenue effects only. Off-budget and discretionary spending effects are not recorded. Positive amounts (costs or debits) indicate a net increase in the deficit; amounts in parentheses are negative and indicate a net decrease in the deficit (savings or credits). The amounts in this table are in current dollars, unadjusted for inflation.
+b. This category summarizes the budgetary effects attributable to the current policy exclusions pursuant to Section 4(c) of the Statutory PAYGO Act and the CLASS Act exclusion in Section 4(d)(6).
+c. Where noted, the amounts in this table exclude from any CBO score the budgetary effects of provisions that extend or modify the mandatory (direct) spending sequester pursuant to section 251A of BBEDCA. This is because the Office of Management and Budget (OMB)—the agency responsible for determining whether a sequester is in order and calculating the amount—has determined these provisions do not have any budgetary effect. In the 2015 Statutory PAYGO Annual Report , OMB states "because future sequestration of direct spending is triggered one year at a time under the Joint Committee enforcement procedures, providing an opportunity for future congressional action to avoid these enforcement measures, OMB does not include future direct spending sequestration in the baseline it uses to estimate budgetary effects under the PAYGO Act and extension of direct spending sequestration therefore does not have a budgetary effect for purposes of OMB's PAYGO estimates."
+d. Most of the modifications to the mandatory sequester result in savings (a credit). Subtracting a credit (subtracting a negative number) from the scorecard is the mathematical equivalent of adding a positive amount. For simplicity, this table reflects that equivalence—the table adds back savings attributable to the modification of the sequester.
+e. For more information on the direct spending sequester in section 251A, see CRS Report R48880, The Annual Mandatory Spending Sequester Through FY2033 , by Drew C. Aherne.
+Footnotes
+1 .
+2 U.S.C. §§931-939.
+2 .
+P.L. 111-139 . For a detailed description of the legislative history of Statutory PAYGO, see CRS Report R41157, The Statutory Pay-As-You-Go Act of 2010: Summary and Legislative History . Statutory PAYGO is distinct from the Senate's PAYGO rule. The latter is a procedural rule enforced via a point of order (if raised) during consideration of a measure on the Senate floor.
+3 .
+Pursuant to Section 4(e) of the Statutory PAYGO Act, any current-year costs are also included in the budget year, so that the law effectively records the budgetary effects of legislation over 6-year and 11-year periods.
+4 .
+For example, in 2024 (the second session of the 118 th Congress), the statutory PAYGO scorecards covered FY2025-FY2029 and FY2025-FY2034. For 2025 (the first session of the 119 th Congress), the years covered by the scorecards advanced one year to cover FY2026-FY2030 and FY2026-FY2035.
+5 .
+The term "budget year" means, with respect to a session of Congress, the fiscal year that starts on October 1 of the calendar year in which that session begins. For example, the budget year for the second session of the 119 th Congress (which began January 5, 2026) is FY2027. See Section 250(c)(12) of the Balanced Budget and Emergency Deficit Control Act of 1985 ( P.L. 99-177 , as amended).
+6 .
+Section 8 of the Statutory PAYGO Act adopted the sequestration-related procedures enumerated in the Balanced Budget and Emergency Deficit Control Act (BBEDCA, P.L. 99-177 , as amended) but also amended those procedures. Section 10 of the Statutory PAYGO Act capped BBEDCA's uniform percentage reduction to Medicare provider payments under Parts A and B to 4%, and Section 11 updated and expanded BBEDCA's list of mandatory spending programs that are exempt from sequestration.
+7 .
+Section 7 of P.L. 111-139 .
+8 .
+Section 4(d)(6) of P.L. 111-139 .
+9 .
+Section 4(g) of P.L. 111-139 .
+10 .
+Of these 82 measures, 7 included provisions excluding Statutory PAYGO effects from the scorecards but were later determined by OMB not to have any such effects. Separately, 2 laws have been enacted (between 2010 and 2025) that included exclusion provisions, but the budgetary effects were characterized wholly as discretionary spending and were not recorded on the Statutory PAYGO scorecards.
