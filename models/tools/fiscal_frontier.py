@@ -60,7 +60,7 @@ def other_money(bk, pp, x_goal, rate_path):
 PHASING = (
     ('PH-1', 'Long-term care (HLT-9) reaches full benefit in FY2039, not on its own ramp: 40/55/70/85% of its FY2035-38 '
              'path, net of the states\' payment (S05)', ('HLT-9', "Settlement S05"), {2035: .60, 2036: .45, 2037: .30, 2038: .15}),
-    ('PH-2', 'Housing stage 2 (housing_extra) held at its FY2036 enrollment level until FY2040', ('housing_extra',), 'hold2036'),
+    ('PH-2', 'Housing stage 2 (housing_extra, net of its booked cap S11) held at its FY2036 level until FY2040', ('housing_extra', 'Settlement S11'), 'hold2036'),
     ('PH-3', 'Clean-energy credits (CLI-1) held at their FY2037 level in FY2038-39', ('CLI-1',), 'hold2037'),
 )
 

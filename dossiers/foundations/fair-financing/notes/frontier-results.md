@@ -60,9 +60,9 @@ Each G8 option changes R after 2035, so it changes the other money a goal needs.
 | ID | What | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | FY2035-39 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | PH-1 | Long-term care (HLT-9) reaches full benefit in FY2039, not on its own ramp: 40/55/70/85% of its FY2035-38 path, net of the states' payment (S05) | 62 | 85 | 74 | 40 | 0 | 262 |
-| PH-2 | Housing stage 2 (housing_extra) held at its FY2036 enrollment level until FY2040 | 0 | 0 | 8 | 17 | 26 | 50 |
+| PH-2 | Housing stage 2 (housing_extra, net of its booked cap S11) held at its FY2036 level until FY2040 | 0 | 0 | 2 | 3 | 5 | 10 |
 | PH-3 | Clean-energy credits (CLI-1) held at their FY2037 level in FY2038-39 | 0 | 0 | 0 | 24 | 27 | 52 |
-| | **All three** | 62 | 85 | 82 | 81 | 53 | 364 |
+| | **All three** | 62 | 85 | 76 | 68 | 32 | 323 |
 
 The goals' share of GDP from FY2036 on top of all three: Debt falling as a share of GDP from the mid-2030s 1.35 (without phasing 1.54); Under 100% of GDP by FY2050 1.44 (without phasing 1.48); Under 100% of GDP by FY2055 1.32 (without phasing 1.35).
 

@@ -1,6 +1,6 @@
 # Stage G step 8: the fiscal path review
 
-Role: the harder look at spending and debt that Espen started at the stage G boundary review (`DEC-2026-11-24-14`). It prices the three debt goals (`DEC-2026-11-24-15`), checks the budget model's and the long-term tools' methods, and adds a contained dynamic layer beside the conventional score. Later parts cover phasing, revenue, outside proposals, G8 and the decision batch (step 8b), and the strategy memo, budget process and the central rules (step 8c). Status: **parts 1 and 2 drafted, stage G step 8a, November 24, 2026**; parts 3 on are for 8b and 8c. Nothing here is booked. The settlement as booked (#480, [`2-settlement.md`](2-settlement.md)) stays the plan's fiscal base (`DEC-2026-11-24-10`). This part recommends no goal: the goals draw on the same money, so step 8b recommends one, with the frontier below, in the decision batch.
+Role: the harder look at spending and debt that Espen started at the stage G boundary review (`DEC-2026-11-24-14`). It prices the three debt goals (`DEC-2026-11-24-15`), checks the budget model's and the long-term tools' methods, and adds a contained dynamic layer beside the conventional score. Later parts cover phasing, revenue, outside proposals, G8 and the decision batch (step 8b), and the strategy memo, budget process and the central rules (step 8c). Status: **parts 1 and 2 drafted in stage G step 8a (#483); parts 3 to 6 and the decision batch (memos G15-G19, provisional) drafted in step 8b, November 24, 2026**. The strategy memo, budget process and central rules are for 8c. Nothing here is booked. The settlement as booked (#480, [`2-settlement.md`](2-settlement.md)) stays the plan's fiscal base (`DEC-2026-11-24-10`). This part recommends no goal: the goals draw on the same money, so step 8b recommends one, with the frontier below, in the decision batch.
 
 Units: federal fiscal years, nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores.
 
@@ -209,9 +209,130 @@ All three are fixed here, along with its other notes (AM-1 to AM-3; stronger tes
 
 The standing reviewer reviews this head before any dynamic figure reaches Espen as more than a sensitivity.
 
+## Part 3. The frontier: debt goal, take-home share and the health contribution
+
+Full tables: [`notes/frontier-results.md`](notes/frontier-results.md) (`models/tools/fiscal_frontier.py`). Central r − g, conventional score. **Other money** is what must come from sources other than the health contribution's base rate R: phasing, cuts and other revenue. Every package in part 6 sits on this table.
+
+| Debt goal | Take-home 69.0% (R 3.80%) | 76.2% (R 3.25%) | 80% (R 2.95%) | 85% (R 2.57%) |
+| --- | --- | --- | --- | --- |
+| No new goal (the booked path, 133% in FY2056) | 0 | 123 | 190 | 276 |
+| **Debt held flat from FY2040** (about 117%; year by year) | 461 | 584 | 651 | 737 |
+| Under 100% by FY2055 (from FY2036) | 732 | 855 | 922 | 1,007 |
+| Under 100% by FY2050 (from FY2036) | 803 | 926 | 993 | 1,078 |
+| Falling from the mid-2030s (from FY2036) | 833 | 956 | 1,023 | 1,108 |
+
+Other money needed in FY2040, $B. By FY2056 each figure is about 1.8 times as large. The "held flat from FY2040" row is new in 8b: debt held at its FY2039 level of 116.9% of GDP. It costs 0.85% of GDP in FY2040 and 1.03% in FY2056, nothing at r − g −0.5, and 2.1-2.4% at +1.5.
+
+**How to read it:**
+- Raising take-home by one step costs about $60-70B a year in FY2040, whatever the goal.
+- **R can't carry a goal by itself.** It would take R to about 5.9% for "held flat" (about 48% of workers ahead) and about 7.1-7.5% for the 100% goals (38-40%).
+- **G8 interacts with every goal** (part 5).
+
+## Part 4. The plan's own programs: what to phase, delay, trigger or right-size
+
+Inventory: [`notes/program-inventory.md`](notes/program-inventory.md) (`models/tools/program_inventory.py`; a Standard-tier subagent's work, checked here).
+
+**The FY2036-39 shortfall** ($277B, $272B, $259B and $193B; about $1.0T in all) is health's 2035 endpoint:
+- Health's net cost steps up about $280B into FY2036, before D2's cap (from FY2037) and the defense saving bite.
+- The long-term care benefit (HLT-9), net of the states' payment, rises from $104B in FY2035 to $283B in FY2039.
+- Housing's stage 2, the clean-energy credits (CLI-1) and IMM-1 also grow fast.
+- No flagship's dossier claims a federal saving later. Housing, the secure floor, work, immigration and child care each say their savings are "not counted". So **no line is protected for saving money later on the record.** The ones the evidence says will (child care, pre-K, the child benefit; dynamic layer P-CARE) are protected here anyway, because they are the plan's early delivery.
+
+| ID | Candidate | Saved FY2035-39 ($B) | Who waits, and the outcome it delays |
+| --- | --- | --- | --- |
+| PH-1 | Long-term care reaches full benefit in FY2039 instead of on its own ramp (40/55/70/85% of its FY2035-38 path) | 262 | Older and disabled people who need care. In FY2036 about 45% of the benefit's cost is deferred, falling to 15% in FY2038. It delays the care outcomes in health's and care's dossiers (OUT-03, OUT-08), and families keep paying privately or spend down to Medicaid for one to four years longer |
+| PH-2 | Housing's stage 2 held at its FY2036 level until FY2040, net of its booked cap (S11) | 10 | Because G14 C's cap already slows stage 2, this saves little. Up to about 200,000 families wait one to three years for an award (on the cap's own count of about 810,000 families leased in FY2040). Delays the housing outcome (OUT-04) |
+| PH-3 | Clean-energy credits held at their FY2037 level in FY2038-39 | 52 | Slower deployment in two years. The climate outcome (OUT-05) slips slightly |
+| — | All three | 323 | |
+
+**What the candidates buy:**
+- On goal 1 ("falling from the mid-2030s"), all three cut the share needed from 1.54% to 1.35% of GDP.
+- On the 100% goals they save 0.03-0.04 points, since those goals test later years.
+- On "held flat from FY2040" they lower the debt carried into FY2040 by about $355B with interest, about 0.65 points of GDP.
+
+**Not proposed:**
+- **Delaying the 2035 health endpoint.** It is the plan's central promise, and delaying it costs the transition financing that runs with it.
+- **Phasing the child benefit, child care or pre-K.** These are the populist start's delivery (`-18`).
+- **Triggers that switch a benefit on only after a fiscal finding.** Per the lead's brief, they delay the delivery that earns trust. Triggers go on later revenue instead (part 6).
+
+**Borrowing up front against back-loaded revenue.** The booked plan already does this. FY2030-34 run a general-fund surplus (−$589B, health's early surplus), and FY2036-39 run the deficit. Front-loading benefits and borrowing in FY2029-35 is cheaper the lower r − g is. At CBO's rates, a dollar borrowed in FY2032 and repaid in FY2040 costs about 37 cents of interest; at r − g −0.5, with rates about a point lower, about 27 cents.
+
+## Part 5. Revenue, outside proposals, G8 and "works as designed"
+
+### 5.1 What revenue is left (no VAT; no middle-class increases early)
+
+The top end is nearly used:
+- the wage stack is at 68-73% on top wages (`../notes/stack-2026-11-16.md`);
+- the wealth tax is capped against the income taxes (G4 C1);
+- corporate rows: the rate is at 28%, foreign income at the full rate, and the buyback tax and corporate minimum are booked.
+
+What is left is **broad revenue, and it can only come later**, after the plan has delivered. The screen of outside proposals sizes it ([`notes/outside-proposals.md`](notes/outside-proposals.md), CBO's December 2024 options scaled to FY2040, to be re-scored after the 2025 law). Each of these reaches the middle class, so each is later only:
+
+| Source | FY2040 ($B) | When |
+| --- | --- | --- |
+| Limits on itemized deductions beyond C39 | 123-312 | FY2037 on |
+| A greenhouse-gas tax beyond the booked carbon fee | 111-147 | FY2037 on |
+| An AGI surtax | 167-225 | FY2040 on |
+| Ordinary rate increases | 85-179 | FY2040 on |
+| The health contribution itself | about 224 a point | Any time, at a take-home cost |
+
+A new payroll tax (194-384) is broad too. It is set aside while Social Security's finances are out of scope.
+
+### 5.2 Outside proposals
+
+The table has 55 rows: 34 from CBO, 7 from CRFB, 7 from Peterson's 2024 Solutions Initiative, 5 from the Progressive Caucus, and Simpson-Bowles and Domenici-Rivlin.
+
+**Almost nothing outside fits that isn't already booked:**
+- **About $28B in FY2040** (CRFB's SALT-workaround fix, to confirm against C39).
+- **Already in the plan:**
+  - CBO's pass-through investment-income tax is H1a;
+  - the financial transactions tax is G10 and HS1;
+  - the foreign income, corporate and estate options match booked rows;
+  - CBO's Medicaid options overlap the single plan.
+- **Set aside:**
+  - **Conflict with a booked program:** CBO's international affairs cut (DEV-P).
+  - **Fail the screen:** every Social Security and Medicare option fails the scope rule, and every Peterson plan fails it as a package.
+  - **VAT:** CBO's VAT and Domenici-Rivlin's sales tax.
+  - **Too large for the populist start:** Simpson-Bowles's scale and mix: about $4T over ten years, a quarter of it revenue from broadening the base and lowering rates.
+
+### 5.3 G8 against the goals
+
+**On any debt goal, memo G8's recommended D fails as written.** Its trigger, a general-fund surplus above 0.1% of GDP for two years, would fire on the goal's own deficit reduction and give it back as rate cuts. The finding has to be measured against the goal's path. Memo G18 re-asks G8 with that change (D′).
+
+On the booked path with no goal:
+- A leaves FY2056 debt at 134.6%;
+- B leaves it at 134.4%;
+- C and D leave it at 133.1%.
+
+On a goal, A's step-downs cost $51B more other money in FY2050 and $172B more in FY2056.
+
+### 5.4 "Works as designed" savings (`DEC-2026-11-24-14`, direction 1)
+
+These are labeled, with a range, and never in a goal test.
+- **WAD-H1: health spending growing a quarter point a year below D2's cap.** About $77B in FY2040 and $777B in FY2056, range 0 to twice that. It is measured below the D2-held path, so D2 is not counted twice, and it is void if D2 fails (part 2.3; [`notes/dynamic-results.md`](notes/dynamic-results.md)).
+- **Its proper use is a trigger.** When the trustees certify spending below D2's path, the health contribution may step down (G16, G18). That gives it back to households only once it is real.
+- No other "works as designed" saving is claimed: no flagship's dossier claims one (part 4).
+
+## Part 6. The decision batch (provisional)
+
+Memos G15 to G19 are in [`memos/`](memos/README.md). Each is decided on its own, and none is booked. The recommended set, shown on the frontier:
+- **G15 B: hold debt flat from FY2040** at about 117% of GDP, met on the conventional score. Then step toward 100% by a debt-path rule as results allow (the rule is 8c's).
+- **G16 B: hold R at 3.80% to FY2040,** then lower it by trigger toward 3.25% (76.2% take-home) as certified savings appear.
+- **G17 B: hold the clean-energy credits at their FY2037 level in FY2038-39 (PH-3, about $52B)**, with long-term care's phasing (PH-1, $262B) named as the fallback. Housing's stage 2 (PH-2) saves only $10B on top of G14 C's cap, so it is left alone.
+- **G18 D′:** G8's step-down measured against the debt goal.
+- **G19 B: from FY2037, limits on itemized deductions and a larger carbon fee first,** an AGI surtax from FY2040 if needed, and R last.
+
+**The recommended set's money in FY2040** ("held flat", R 3.80%): $461B of other money.
+- Already found:
+  - phasing, about $27B in FY2039 falling to zero by FY2040, plus the debt it avoids;
+  - the outside fix, about $28B.
+- Still to find: about $430B a year from FY2040, from G19's broad sources. That is about 0.8% of GDP of new revenue landing on the middle class from the late 2030s, the cost of a debt goal without a VAT or Social Security and Medicare changes.
+- At r − g −0.5 none of it is needed. At +1.5 about twice as much is.
+
 ## Method and sources
 
 - **The debt goals:** `models/tools/fiscal_path.py` on `models/tools/recovery-budget/model.py` case `mixed` (the settlement booked). Rate readings use `fiscal-model.py`'s `rate_shift_interest` and `read_rollover`. The take-home curve is `financing-protection/budget_scan.take_home`. The R yield is `packages.HCU_PER_QUARTER_POINT_2040` on HCU's path. The decomposition uses the funds engine's current-law Social Security and HI cash flows.
 - **The dynamic layer:** `models/tools/fiscal_dynamic.py`, `fiscal_dynamic_params.json` (as registered) and `fiscal_dynamic_amendments.json` (AM-1 to AM-3). The growth sensitivity is `fiscal-model.py`'s `growth_path` (CBO publication 62257).
+- **The frontier and phasing:** `models/tools/fiscal_frontier.py`; the inventory `models/tools/program_inventory.py`; the outside screen `notes/outside-proposals.md` (a subagent's table, checked here).
 - **Tests:** `models/tools/test_fiscal_path.py` (run-all.sh step 8c2): the booked path reproduced, the r − g targets, each goal solved minimally, the debt identity, symmetry, the registration hash, DY4 at zero, and both notes current.
 - **Sources for the anchors** (the registration has each one's use): CBO working paper 2019-01 (publication 55018); Dallas Fed working paper 2513 (2025); CBO publication 51628 (June 2016); CBO, *The Budget and Economic Outlook: 2014 to 2024*, appendix C; CBO publication 60165 (July 2024); JCT JCX-69-17 (December 22, 2017); CBO working paper 61257 (February 2026) and CRFB's summary of CBO's dynamic estimate of P.L. 119-21; CBO working paper 2012-12; SRC-1165 (CBO's April 2025 letter on dynamic analysis). These aren't yet in the evidence register. Step 8b adds them (EV-FIN) when it cites them in the batch.
