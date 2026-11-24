@@ -17,4 +17,4 @@ Rules that more than one flagship depends on, such as what counts as income and 
 | Clean, affordable power and a prepared country (flagship 4) | `clean-power/` | E | L1 | Active: sections 1-3 and the decision memos (step E-C1) |
 | Foundations: rural delivery note | `foundations/` | C | n/a | Done (#171), research note with no register; applied project-wide (`DEC-2026-11-09-26`) |
 | Foundations: stage E financing checkpoint memo | `foundations/checkpoint-financing.md` | E | n/a | Record of what stage E settled; decides nothing (#325). Its figures are as of #402 and are restated in `foundations/fair-financing/1-audit.md` |
-| Foundations: stage G financing settlement | `foundations/fair-financing/` | G | n/a | `1-audit.md`, the audit of the gap and the open items, done; the settlement follows |
+| Foundations: stage G financing settlement | `foundations/fair-financing/` | G | n/a | Closed: the settlement is booked (`2-settlement.md`; `models/data/inputs/settlement.json`), every fork decided but memo G8 (provisional) |

@@ -1,5 +1,8 @@
 # Memo G2: The 2 points on income above $20,000/$40,000
 
+**Decided:** C, and G2b both ways, judged with everything counted, `DEC-2026-11-20-06`. Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 2 of stage G's batch ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) parts 2 and 3; `../1-audit.md` part C, item 7). Status: **provisional, drafted on the recommendation, November 20, 2026; the recommendation changed after the milestone review (#470, B-3), from A to C.** Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/packages.py`. The take-home figures are from `take_home_vat.py` (FY2040) on `health_cost_review.py`'s test. Project arithmetic on exploratory models, not official scores.
 
 ## The question

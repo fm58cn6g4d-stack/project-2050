@@ -1,5 +1,8 @@
 # Memo G9: Three small forks
 
+**Decided:** G9.1 (a), `DEC-2026-11-20-12`; G9.2 A, `-13`; G9.3 B, the $100B line dropped and memo 10's contingency kept with guardrails, `-14` (guardrails in `../2-settlement.md` part 7.2). Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 9 of stage G's batch ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) part 4; `../1-audit.md` part C, items 31-33). Status: **provisional, drafted on the recommendations, November 20, 2026.** Not decided, not booked. Each point is decided on its own. Together they move the FY2040 gap by under $3B.
 
 ## Point 1: what CRT-P1, the court bills, pays for

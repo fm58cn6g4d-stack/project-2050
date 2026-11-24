@@ -1,5 +1,8 @@
 # Memo G4: The cap on the capital-income stack
 
+**Decided:** C1, `DEC-2026-11-20-08`. Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 4 of stage G's batch ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) part 3; `../1-audit.md` part C, item 11). Status: **provisional, drafted on the recommendation, November 20, 2026.** Not decided, not booked. Figures are FY2040 nominal $B on the project's exploratory models, not official scores. Every cost is the revenue a cap gives up on the ledger's own scoring, from the stack note's menu (`../../notes/stack-2026-11-16.md` part 4), and is priced by `models/tools/financing-protection/packages.py`.
 
 ## The question

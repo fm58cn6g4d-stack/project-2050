@@ -1,5 +1,8 @@
 # Memo G11: Farm subsidies
 
+**Decided:** G11.1 no, `DEC-2026-11-24-03`; G11.2 yes, `-04`, framed to lead with populism (`../2-settlement.md` part 2). Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 11 of stage G, from step 4b's whole-budget scan ([`../3-budget-scan.md`](../3-budget-scan.md) part C, items C5 and C6). Status: **provisional, drafted on the recommendation, November 20, 2026. A new fork.** Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/budget_scan.py`. Project arithmetic on exploratory models, not official scores.
 
 ## The question

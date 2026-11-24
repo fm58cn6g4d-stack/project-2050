@@ -1,5 +1,8 @@
 # Memo G6: Health's early surplus
 
+**Decided:** C, a $250B reserve, `DEC-2026-11-20-10`. Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 6 of stage G's batch ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) part 3; `../1-audit.md` part C, item 2). Status: **provisional, drafted on the recommendation, November 20, 2026.** Not decided, not booked. Nominal $B. Health's first call is from `models/tools/health_booking.py` (`first_call()`) on #467's corrected model; the package figures are from `models/tools/financing-protection/packages.py`.
 
 ## The question
