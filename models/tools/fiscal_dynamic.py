@@ -194,14 +194,12 @@ def growth_sensitivity(bk, factor, shift):
             else 100 * bk.debt[y] / bk.gdp[y] for y in YEARS}
 
 
-def dynamic_with_x(bk, s, net, reading, name, base_ratio):
+def dynamic_with_x(bk, s, net, reading, fb_end, base_ratio):
     sim = FP.simulate(bk, FP.shape(bk, s))
-    return case_run(bk, {y: sim[y]['debt'] for y in YEARS}, net, reading, name, base_ratio)[0]
+    return plan_run(bk, {y: sim[y]['debt'] for y in YEARS}, net, reading, fb_end, base_ratio)
 
 
-def solve_dynamic(bk, goal, net, reading, name, base_ratio):
-    """The smallest share (the conventional shape) that meets the goal on one dynamic reading and case."""
-    ok = lambda s: FP.met(goal, dynamic_with_x(bk, s, net, reading, name, base_ratio))
+def _solve(ok):
     if ok(0.0):
         return 0.0
     lo, hi = 0.0, 8.0
@@ -209,6 +207,15 @@ def solve_dynamic(bk, goal, net, reading, name, base_ratio):
         mid = (lo + hi) / 2
         lo, hi = (lo, mid) if ok(mid) else (mid, hi)
     return round(hi + 0.0005, 3)
+
+
+def solve_dynamic(bk, goal, net, reading, name, base_ratio):
+    """The smallest share (the conventional shape) that meets the goal on one dynamic reading and case. The pessimistic
+    (optimistic) case takes whichever feedback end makes THIS goal dearest (cheapest), judged by the goal's own test
+    years, not FY2056 alone (the reviewer's note on #483)."""
+    ends = ('central',) if name == 'central' or reading == 'C' else ('low', 'high')
+    shares = [_solve(lambda s, e=e: FP.met(goal, dynamic_with_x(bk, s, net, reading, e, base_ratio))) for e in ends]
+    return max(shares) if name == 'pessimistic' else min(shares)
 
 
 RLAB = {'C': 'C, channels alone', 'A': 'A, symmetric from FY2029 (headline)', 'B': 'B, from CBO\'s baseline path (sensitivity)'}
@@ -230,9 +237,9 @@ def markdown(r):
          'baseline debt path, so only the plan\'s difference from current law gets it (a sensitivity: it credits the '
          'plan\'s whole distance below current law at average coefficients, which likely overstates it; see part 2 of '
          '`../4-fiscal-path.md`). **Cases.** Pessimistic: every channel at its low end and, on each reading, whichever '
-         'feedback end gives the plan the higher FY2056 debt; optimistic: the reverse. **Not pre-registered:** the '
-         'engine, this pairing and the readings\' roles; the first results were committed about 6.5 minutes after the '
-         'registration.', '']
+         'feedback end gives the plan the higher FY2056 debt (for the goals, whichever end makes each goal dearest by its '
+         'own test years); optimistic: the reverse. **Not pre-registered:** the engine, this pairing and the readings\' '
+         'roles; the first results were committed about 6.5 minutes after the registration.', '']
     L += ['## 1. Debt, conventional and dynamic', '',
           '| Path | Reading | Case (feedback end) | ' + ' | '.join('FY%d' % y for y in SHOW) + ' |',
           '| --- | --- | --- |' + ' --- |' * len(SHOW)]

@@ -154,7 +154,7 @@ The registration's "Changes after registration" gives the reasons, and the resul
 - **A, the headline,** runs the rate and output feedback from the FY2029 debt ratio on current law and the plan alike.
 - **B** runs the feedback from CBO's own baseline path, so only the plan's difference gets it. It is a sensitivity, and likely overstated (part 2.2).
 
-The pessimistic case takes every channel at its low end and, on each reading, whichever feedback end gives the plan the higher FY2056 debt.
+The pessimistic case takes every channel at its low end and, on each reading, whichever feedback end gives the plan the higher FY2056 debt. For the goals, it takes whichever end makes each goal dearest by its own test years (the reviewer's note on #483).
 
 **FY2056 debt, % of GDP** (conventional: plan 133.1, current law 180.2):
 
@@ -186,7 +186,7 @@ The pessimistic case takes every channel at its low end and, on each reading, wh
 
 | Goal | Conventional (the requirement) | Central: C / **A** / B | Pessimistic: C / **A** / B | Optimistic: C / **A** / B |
 | --- | --- | --- | --- | --- |
-| 1. Falling from the mid-2030s | **1.54%** | 1.88 / **1.91** / 1.74 | 2.83 / **2.86** / 2.78 | 1.45 / **1.46** / 1.21 |
+| 1. Falling from the mid-2030s | **1.54%** | 1.88 / **1.91** / 1.74 | 2.83 / **2.93** / 2.78 | 1.45 / **1.46** / 1.21 |
 | 2. Under 100% by FY2050 | **1.48%** | 1.67 / **1.67** / 1.23 | 2.58 / **2.66** / 2.38 | 1.22 / **1.20** / 0.52 |
 | 3. Under 100% by FY2055 | **1.35%** | 1.52 / **1.52** / 0.95 | 2.38 / **2.47** / 2.12 | 1.09 / **1.07** / 0.20 |
 

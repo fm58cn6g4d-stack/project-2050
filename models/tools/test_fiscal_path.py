@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Tests for stage G step 8a's fiscal path tools: `fiscal_path.py` (the debt goals on the conventional score) and
+"""Tests for stage G step 8's fiscal path tools: `fiscal_path.py` (the debt goals on the conventional score) and
 `fiscal_dynamic.py` (the contained dynamic layer). Run after the common rebuild (run-all.sh step 8d).
 
 Checks: the central reading is the budget model's booked path; the r - g readings hit their targets; each goal's
 solved share meets the goal and a slightly smaller one doesn't; the debt identity holds for added deficit reduction;
 the dynamic layer is symmetric (reading B leaves the baseline unchanged, and with no channels and no feedback the plan
-is the conventional path); the registration is unchanged since it was committed; WAD-H1 never enters a goal; DY4 stays
+is the conventional path); the registration is unchanged since it was committed; WAD-H1 never enters a net, a path or a
+goal; the pessimistic goal shares are each goal's own worst feedback end; DY4 stays
 zero (the double count with LAB-1); and the two committed results notes equal what the code writes.
 """
 import hashlib
@@ -118,6 +119,40 @@ class Dynamic(unittest.TestCase):
         self.assertEqual(FD.PARAMS['channels']['N-TOP']['low'], -0.51)
         self.assertIn('N-CTC', FD.PARAMS['channels'])
         self.assertNotIn('N-CTC', FD.REGISTERED['channels'])
+
+    def test_no_channels_no_feedback_is_conventional(self):
+        out = FD.run(BK, BK.debt, BK.gdp, None, reference='C')
+        for y in FP.YEARS:
+            self.assertAlmostEqual(out[y]['debt_gdp'], BK.rows[y]['debt_gdp'], places=9)
+
+    def test_wad_never_enters(self):
+        """Inflating WAD-H1 tenfold changes no net, no dynamic path and no goal share (the reviewer's leak test)."""
+        ref = FD.build()
+        w = FD.PARAMS['works_as_designed']['WAD-H1']['points_below_cap']
+        saved = dict(w)
+        try:
+            for k in w:
+                w[k] = 10 * w[k] + 1.0
+            alt = FD.build()
+        finally:
+            w.update(saved)
+        self.assertNotEqual(alt['wad']['central'][2056], ref['wad']['central'][2056])
+        for name, _ in FD.CASES:
+            self.assertEqual(alt['cases'][name]['net'], ref['cases'][name]['net'])
+            for rd in FD.READINGS:
+                self.assertEqual(alt['cases'][name][rd]['plan'][2056]['debt_gdp'], ref['cases'][name][rd]['plan'][2056]['debt_gdp'])
+        for g in ref['goals']:
+            self.assertEqual(alt['goals'][g], ref['goals'][g])
+
+    def test_pessimistic_goal_is_each_goals_worst(self):
+        base_ratio = {y: 100 * BK.rows[y]['baseline_debt_bn'] / BK.gdp[y] for y in FP.YEARS}
+        net = FD.net_of(FD.channels(BK.gdp, 'low'))
+        for g, _ in FP.GOALS:
+            for rd in ('A', 'B'):
+                pess = FD.solve_dynamic(BK, g, net, rd, 'pessimistic', base_ratio)
+                for e in ('low', 'high'):
+                    one = FD._solve(lambda s: FP.met(g, FD.dynamic_with_x(BK, s, net, rd, e, base_ratio)))
+                    self.assertGreaterEqual(pess, one)
 
     def test_negatives_counted(self):
         ch = FD.channels(BK.gdp, 'central')
