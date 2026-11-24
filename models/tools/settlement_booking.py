@@ -158,6 +158,51 @@ def risk_case(ctx, d, without):
     return K.m.build_case('risk', ctx.f, ctx.b, ctx.old, ctx.u, spending_adjustments=adj)
 
 
+def risk_rows(ctx, d, booked):
+    """The settlement's other risks, one at a time on the booked case (screen.py's rows, without the VAT's): the gap
+    in FY2040, FY2045 and FY2056 ($B) and the base-rate points that would cover FY2040."""
+    lines = {}
+    for a in booked['audit']:
+        lines.setdefault(a['line'], {y: 0.0 for y in YEARS})[a['year']] += a['primary_deficit_change_bn']
+    L = lambda k: lines.get(k, {y: 0.0 for y in YEARS})
+    top = ['G1', 'G3', 'G9', 'C18', 'C43', 'H1b', 'GX']
+    wage = {y: sum(L(r)[y] for r in top) for y in YEARS}
+    k_stack = 140.0 / -wage[2040]
+    old = {y: sum(L(r)[y] for r in ('G1', 'G3', 'G5', 'G6', 'G7', 'G10', 'G11', 'H1a', 'H1b', 'C18', 'C38',
+                                     'New indexed income contributions')) for y in YEARS}
+    item = {it['option']: p for it, o, p in derive(ctx, d)}
+    hs2 = ctx.line('HS2')
+    hcu = ctx.line('HCU')
+    per_point = lambda y: S.PER_POINT_2040 * hcu[y] / hcu[2040]
+    rows = [
+        ('The wage stack yields at the working elasticity (0.25)', 'stack note part 3: about $140B in FY2040 (rough, unverified)',
+         {y: -k_stack * wage[y] for y in YEARS}),
+        ('Pre-2025-law scores come in 10% low', '1-audit.md item 22', {y: -0.10 * old[y] for y in YEARS}),
+        ('Joint yield risk: both of the above', 'review F-2, without the VAT row', {y: -k_stack * wage[y] - 0.10 * old[y] for y in YEARS}),
+        ('The avoidance allowance stays at 20% on the base rate', '1-audit.md item 9: the range is 10-25%',
+         {y: -item['avoidance_by_tier'][y] for y in YEARS}),
+        ('The stack cap at its high end ($55B)', 'stack note part 4', {y: 15.0 * hs2[y] / hs2[2040] for y in YEARS}),
+        ('C3A, the clean electricity compliance payments, vanish', '1-audit.md item 43', {y: -L('C3A')[y] for y in YEARS}),
+    ]
+    out = []
+    for label, basis, path in rows:
+        g = gap(K.m.build_case('risk', ctx.f, ctx.b, ctx.old, ctx.u,
+                               spending_adjustments={'risk': {'annual_bn': {str(y): v for y, v in path.items()}}}))
+        out.append((label, basis, round(g[2040], 1), round(g[2045], 1), round(g[2056], 1), round(max(g[2040], 0) / per_point(2040), 2)))
+    # the HI grant kept: a scorer counting the fold-in's HI shortfall as new (2-settlement.md part 6)
+    sw = dict(d['switches'])
+    pts = K.m.A['hi']['gf_support_payroll_points']
+    orig = K.m.SETTLEMENT['switches']['hi_grant_payroll_points']
+    K.m.SETTLEMENT['switches']['hi_grant_payroll_points'] = pts
+    try:
+        g = gap(K.m.build_case('risk', ctx.f, ctx.b, ctx.old, ctx.u))
+    finally:
+        K.m.SETTLEMENT['switches']['hi_grant_payroll_points'] = orig
+    out.append(("If a scorer counted the fold-in's HI shortfall as new", "the grant's size; the correction stands (F-1)",
+                round(g[2040], 1), round(g[2045], 1), round(g[2056], 1), round(max(g[2040], 0) / per_point(2040), 2)))
+    return out
+
+
 def report(ctx, d):
     der = derive(ctx, d)
     c = booked_case(ctx)
@@ -184,6 +229,7 @@ def report(ctx, d):
         r = gap(risk_case(ctx, d, w))
         risks[name] = {y: (round(r[y], 1), round(max(r[y], 0) / per_point(y), 2)) for y in (2040, 2045, 2056)}
     out['risks'] = risks
+    out['risk_rows'] = risk_rows(ctx, d, c)
     # D3 on scenario Q-G, and its revenue-mix test
     hh = K.Household()
     name = next(n for n in hh.D.SCEN if n.startswith('Q-G'))
@@ -231,6 +277,11 @@ def markdown(r):
     for k, v in r['risks'].items():
         L.append('| %s | %.1f | +%.2f | %.1f | +%.2f | %.1f | +%.2f |' % (k, v[2040][0], v[2040][1], v[2045][0], v[2045][1], v[2056][0], v[2056][1]))
     L += ['', 'Without the wealth tax, the loss is HS2 net of the stack cap.', '',
+          '## The other risks, one at a time on the booked package', '',
+          '| Risk | Basis | FY2040 | FY2045 | FY2056 | Base-rate points to cover FY2040 |', '| --- | --- | --- | --- | --- | --- |']
+    for row in r['risk_rows']:
+        L.append('| %s | %s | %.1f | %.1f | %.1f | +%.2f |' % row)
+    L += ['',
           '## D3 (scenario Q-G; FY2030-39 average, $ a household a year)', '',
           '| | Q1 | Q2 | Q3 | Q4 | Q5 | Top 1% |', '| --- | --- | --- | --- | --- | --- | --- |',
           '| Q-H7 (before the settlement) | ' + ' | '.join('%+d' % r['d3_q_h7'][g] for g in ('Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'T1')) + ' |',
