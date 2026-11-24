@@ -219,6 +219,45 @@
     "C19b",
     "C20"
    ]
+  },
+  {
+   "id": "Q-G",
+   "label": "Q-G. The package the gap books after stage G's settlement (step 7): Q-H7 without ICB (the 2 points folded into the health contribution), with HCU, HCUw, HCA, HS2 and EDUP replaced by the settlement's rows (HCUg, HCUwg, HCAg, HS2g, EDUPg, EDUP gross) and GX narrowed (GXg). D3 has no rows for defense, farm payments, like-kind exchanges, the states' long-term care payment, the $300 credit or housing stage 2, so those move only the gap",
+   "options": [
+    "DEC",
+    "H7h",
+    "H7w",
+    "H7x",
+    "H7c",
+    "H9",
+    "HCUw",
+    "HCU",
+    "HCW",
+    "HCA",
+    "HCP",
+    "HCH",
+    "HEC",
+    "HEX",
+    "HS1",
+    "HS2",
+    "HS3",
+    "HS4",
+    "EDUP",
+    "EDUB",
+    "ICH",
+    "GXg"
+   ],
+   "remove": [
+    "C19b",
+    "C20"
+   ],
+   "replace": {
+    "HCU": "HCUg",
+    "HCUw": "HCUwg",
+    "HCA": "HCAg",
+    "HS2": "HS2g",
+    "EDUP": "EDUPg"
+   }
   }
  ]
 }

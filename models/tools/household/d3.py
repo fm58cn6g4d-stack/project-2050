@@ -36,11 +36,11 @@ INC = P.LEGACY_INC
 YRS = list(range(2030, 2040))
 GF_IDS = ["G1", "G5", "G7", "G3", "G9", "G11", "G6", "H1b", "GX", "G8", "G10"]
 CORPORATE = ("G1", "G5", "G7")
-NOT_GF = ("SAFR2", "EDUP")   # EDUP is a dedicated fund, not general-fund revenue; SAF-R2 is a trim, not a raiser
+NOT_GF = ("SAFR2", "EDUP", "EDUPg")   # EDUP is a dedicated fund, not general-fund revenue; SAF-R2 is a trim, not a raiser
 # DEC-2026-11-15-29: health's contributions count outside the revenue-mix test, as replacements for premiums: the
 # household and employer contributions and the taxes folded into them (health_booking.py D3_CONTRIBUTIONS). HEX stays
 # in, netted with HX, and so do the new streams HS1 to HS4.
-HEALTH_CONTRIBUTIONS = ("HCU", "HCUw", "HCW", "HCA", "HCP", "HCH", "HEC")
+HEALTH_CONTRIBUTIONS = ("HCU", "HCUw", "HCW", "HCA", "HCP", "HCH", "HEC", "HCUg", "HCUwg", "HCAg")   # the last three: the settlement's rows (scenario Q-G)
 
 
 class D3:

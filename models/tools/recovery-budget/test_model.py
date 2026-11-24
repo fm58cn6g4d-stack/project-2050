@@ -89,8 +89,8 @@ class BudgetTests(unittest.TestCase):
         advances=[r['primary_outlay_change_bn'] for r in ar if r['line'].startswith('2029 delivery')]
         self.assertAlmostEqual(sum(advances),0)
         row=next(r for r in self.d['cases']['mixed']['rows'] if r['year']==2029)
-        self.assertGreater(row['program_primary_bn'],44)
-        self.assertAlmostEqual(row['program_primary_bn'],M.credit(2029)+5)
+        # the settlement ends the $300 adult credit (DEC-2026-11-20-05), so FY2029 carries only the $5B advance
+        self.assertAlmostEqual(row['program_primary_bn'],M.credit(2029)*M.SETTLEMENT['switches']['recovery_credit_multiple']+5)
 
     def test_fund_grant_is_not_consolidated_revenue(self):
         a=self.d['cases']['mixed']; b=self.d['cases']['mixed_reserve_corridor']
@@ -137,8 +137,11 @@ class BudgetTests(unittest.TestCase):
         and income-contribution rows (incidence-rows.csv EDUP, EDUB, ICH, ICB) carry mixed's FY2030-39 amounts."""
         import csv
         inc={r['id']:r for r in csv.DictReader((M.ROOT/'models/data/inputs/incidence-rows.csv').open(newline=''))}
-        c=self.d['cases']['mixed']; aud=[r for r in c['audit'] if r['year'] in M.W]
+        # Q-H7 is the package before the settlement; scenario Q-G carries the settlement's rows (EDUPg below)
+        c=M.build_case('pre',self.f,self.b,self.m,self.u,settlement=False); aud=[r for r in c['audit'] if r['year'] in M.W]
         edu=[r for r in aud if r['line'].startswith('EDU replacement')]
+        booked=[r for r in self.d['cases']['mixed']['audit'] if r['year'] in M.W and r['line'].startswith('EDU replacement')]
+        self.assertAlmostEqual(float(inc['EDUPg']['amount']),sum(r['revenue_change_bn'] for r in booked)/1000/(1-.125),delta=.0006)
         self.assertAlmostEqual(float(inc['EDUP']['amount']),sum(r['revenue_change_bn'] for r in edu)/1000,delta=.0006)
         self.assertAlmostEqual(float(inc['EDUB']['amount']),sum(r['primary_outlay_change_bn'] for r in edu)/1000,delta=.0006)
         t=M.A['tax']; h=t['additional_yield_haircut']

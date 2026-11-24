@@ -61,17 +61,17 @@ Delaying C19b/C20 to a three-year 2033–35 phase-in forgoes $0.360T; these rece
 
 | Case | GF primary 2030–39 ($T) | Extra net receipts needed at maturity (% GDP) | FY2040 GF gap ($B) | Total debt/GDP 2056 | FY2056 extra primary adjustment for flat debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Education reference | 3.085 | 1.699% | 682.2 | 185.6% | 4.28% GDP |
-| Recovery: delay C19b/C20 | 3.445 | 1.699% | 682.2 | 186.6% | 4.29% GDP |
-| Recovery downside | 4.685 | 2.007% | 837.5 | 195.2% | 4.65% GDP |
-| Recovery plus housing/service space | 3.946 | 1.880% | 784.6 | 191.2% | 4.50% GDP |
-| Recovery plus housing/service space downside | 5.186 | 2.188% | 940.0 | 199.7% | 4.86% GDP |
-| Replace C19b/C20 plus housing/service space downside | 5.659 | 2.356% | 1024.0 | 203.8% | 5.06% GDP |
+| Education reference | 3.082 | 1.697% | 681.2 | 185.6% | 4.28% GDP |
+| Recovery: delay C19b/C20 | 3.442 | 1.697% | 681.2 | 186.6% | 4.28% GDP |
+| Recovery downside | 4.682 | 2.006% | 836.5 | 195.2% | 4.65% GDP |
+| Recovery plus housing/service space | 3.943 | 1.878% | 783.6 | 191.1% | 4.50% GDP |
+| Recovery plus housing/service space downside | 5.183 | 2.187% | 939.0 | 199.7% | 4.86% GDP |
+| Replace C19b/C20 plus housing/service space downside | 5.656 | 2.355% | 1023.0 | 203.8% | 5.06% GDP |
 
 | Case | Additional net resources phased 2035–44 (% GDP at maturity) | Debt/GDP 2056 after illustrative adjustment |
 | --- | ---: | ---: |
 | Education reference | 3.78% | 114.8% |
-| Recovery: delay C19b/C20 | 3.79% | 115.7% |
+| Recovery: delay C19b/C20 | 3.78% | 115.7% |
 | Recovery downside | 4.11% | 118.2% |
 | Recovery plus housing/service space | 3.97% | 116.7% |
 | Recovery plus housing/service space downside | 4.30% | 119.3% |
@@ -87,16 +87,16 @@ Average annual net benefit by quintile, dollars per household. All existing bene
 
 | FY | Q1 | Q2 | Q3 | Q4 |
 | --- | ---: | ---: | ---: | ---: |
-| 2030 | 6,201 | 4,003 | 1,767 | -919 |
-| 2031 | 7,412 | 5,248 | 2,696 | -403 |
-| 2032 | 8,599 | 6,093 | 2,990 | -743 |
-| 2033 | 9,758 | 7,110 | 3,596 | -705 |
-| 2034 | 10,606 | 7,846 | 4,051 | -695 |
-| 2035 | 9,605 | 7,101 | 3,449 | -1,410 |
-| 2036 | 9,545 | 7,060 | 3,365 | -1,626 |
-| 2037 | 10,038 | 7,435 | 3,539 | -1,708 |
-| 2038 | 10,395 | 7,685 | 3,638 | -1,808 |
-| 2039 | 10,810 | 8,001 | 3,803 | -1,854 |
+| 2030 | 6,196 | 4,000 | 1,766 | -920 |
+| 2031 | 7,406 | 5,246 | 2,696 | -403 |
+| 2032 | 8,593 | 6,090 | 2,989 | -744 |
+| 2033 | 9,752 | 7,107 | 3,595 | -705 |
+| 2034 | 10,600 | 7,844 | 4,050 | -696 |
+| 2035 | 9,599 | 7,098 | 3,448 | -1,410 |
+| 2036 | 9,538 | 7,057 | 3,364 | -1,627 |
+| 2037 | 10,031 | 7,432 | 3,538 | -1,708 |
+| 2038 | 10,388 | 7,681 | 3,636 | -1,808 |
+| 2039 | 10,802 | 7,998 | 3,802 | -1,855 |
 
 ## Trust-fund redesign comparisons
 

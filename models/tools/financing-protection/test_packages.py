@@ -16,7 +16,7 @@ CTX = K.Context()
 class Booked(unittest.TestCase):
     def test_booked_reproduces_the_committed_gap(self):
         f = K.price(CTX, [])
-        rows = [r for r in csv.DictReader(open(K.ROOT / 'models/data/recovery-budget-paths.csv')) if r['case'] == 'mixed']
+        rows = [r for r in csv.DictReader(open(K.ROOT / 'models/data/recovery-budget-paths.csv')) if r['case'] == 'mixed_before_settlement']   # the screens price from the plan before step 7's booking
         gap = {int(r['year']): float(r['agenda_gf_primary_bn']) for r in rows}
         for y in K.SHOW:
             self.assertAlmostEqual(f['gap'][y], gap[y], delta=0.06)
@@ -24,8 +24,9 @@ class Booked(unittest.TestCase):
 
     def test_d3_reproduces_q_h7_as_committed(self):
         q = K.Household().run([], convention=False)['net']
-        # The committed Q-H7 (models/tools/household/results.md section 5, #467)
-        self.assertEqual((q['Q1'], q['Q2'], q['Q3'], q['Q4']), (14840, 13209, 12070, 6837))
+        # The committed Q-H7 (models/tools/household/results.md section 5, #467: 14,840 / 13,209 / 12,070 / 6,837), less
+        # the duty to house's HOU-1 component that G14 C removes (step 7; about $10 a year for Q1)
+        self.assertEqual((q['Q1'], q['Q2'], q['Q3'], q['Q4']), (14830, 13208, 12070, 6837))
 
 
 class OptionSizes(unittest.TestCase):

@@ -136,7 +136,8 @@ def booked():
 def gap_2040():
     with open(PATHS) as f:
         for r in csv.DictReader(f):
-            if r["case"] == "mixed" and r["year"] == "2040":
+            # the plan-wide gap before stage G's settlement, which closes FY2040 on (step 7): the dossier's share is of that
+            if r["case"] == "mixed_before_settlement" and r["year"] == "2040":
                 return float(r["agenda_gf_primary_bn"]), float(r["gdp_bn"])
     raise SystemExit("no FY2040 row for case mixed")
 
@@ -189,7 +190,7 @@ def check():
     assert abs(b["CAP-7"]["fy2030_39"] - 279.2) < 0.05, b["CAP-7"]
     assert abs(b["CAP-7"]["fy2040"] - 37.2) < 0.05, b["CAP-7"]
     assert abs(b["DEM-11"]["fy2030_39"] - 20.0) < 0.05 and abs(b["DEM-11"]["fy2040"] - 2.26) < 0.01
-    assert abs(s["gap_2040"] - 615.6) < 0.1, s["gap_2040"]        # 614.0 before this booking
+    assert abs(s["gap_2040"] - 614.6) < 0.1, s["gap_2040"]        # before the settlement; 615.6 before G14 C took out the duty to house's HOU-1 component, 614.0 before this booking
     t = s["later_tier3"]["CRT-5.06, the judges' split, against IMM-1"]
     assert abs(t["fy2030_39"] + 4.3) < 0.01 and abs(t["fy2040"] + 0.83) < 0.01, t
     d = s["d4_booked"]

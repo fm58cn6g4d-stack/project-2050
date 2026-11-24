@@ -33,6 +33,8 @@ Conventions:
 | `carbon-parameters.csv` | one parameter of the D7 run of the carbon model: REV-C1's price path, inflation, the dividend share, the exempt share of other transport fuel, the permitting year, Monte Carlo size | the carbon model (legacy/index/climate-carbon-model.md) |
 | `fiscal-years.csv` | row with a year-by-year path ($B, 2030-39) that overrides its profile | the long-term fiscal model |
 | `fiscal-after.csv` | row with fixed amounts after the window ($B by year, not scaled to the ledger; the row then grows with its index): MOV-31's successor line, the transportation model's general-fund draw (DEC-2026-11-12-08; its FY2037-39 years are in `fiscal-years.csv`, DEC-2026-11-12-10) | the long-term fiscal model |
+| `settlement.json` | stage G's financing settlement as booked (step 7): the model switches (the $300 credit, the 2 points, the education rate, the HI grant, the $100B delivery line), the health contribution's base rate and the booked items, each with its DEC- row | the budget model (`models/tools/recovery-budget/model.py`, every case; `settlement=False` gives the plan before it, which the financing screens price from) |
+| `settlement-paths.csv` | booked settlement item: its path FY2026-56 ($B; positive raises the general-fund gap), derived by `models/tools/settlement_booking.py` and checked by `test_settlement_booking.py` | the budget model, as "Settlement Snn" lines |
 | `excise-offset.csv` | rate of the income and payroll tax offset on new excise taxes and fees (CX, CXP, MR6), from a fiscal year on: JCT's 24.4% until JCT publishes a current-law table (DEC-2026-11-12-08) | the ledger (CX's typed figures, MR6), the climate booking (CXP) |
 
 ## Figures that come from elsewhere
