@@ -660,7 +660,17 @@ def d3_markdown(R, A):
       "the exclusion ends (HX), so the cap stops applying; the settlement must take that overlap out.")
     h7 = sc[next(n for n in sc if n.startswith("Q-H7"))]["model"]
     h7_ok = all(h7[g]["net"] > 0 for g in P.GROUPS[:4])
-    A(f"- **Scenario Q-H7 is the package the gap books** (case `mixed`; financing audit part D, item 2). It takes Q "
+    qg = sc[next(n for n in sc if n.startswith("Q-G"))]["model"]
+    qg_ok = all(qg[g]["net"] > 0 for g in P.GROUPS[:4])
+    A(f"- **Scenario Q-G is the package the gap books since stage G's settlement** (step 7; `models/data/inputs/settlement.json`). "
+      "It is Q-H7 below without ICB (the 2 points folded into the health contribution), with the health contribution at "
+      "the settlement's base rate and avoidance allowance (HCUg, HCUwg), the 0.9% re-derived (HCAg), the wealth tax net "
+      "of the stack cap (HS2g), the education fund at 1.65 points counted gross (EDUPg) and GX narrowed (GXg). "
+      f"Q1 to Q4 are {', '.join(money(qg[g]['net']) for g in P.GROUPS[:4])} a household a year, FY2030-39 average: "
+      f"{'every quintile below the top comes out ahead' if qg_ok else 'not every quintile below the top comes out ahead'}. "
+      f"Its revenue-mix test is {D['model']['gf']['Q-G'][3]}%. D3 has no rows for the settlement's defense, farm, "
+      "like-kind, long-term care state payment, $300 credit or housing stage 2 lines.")
+    A(f"- **Scenario Q-H7 was the package the gap booked before the settlement** (case `mixed`; financing audit part D, item 2). It takes Q "
       "without C19b and C20, which `mixed` does not book, and adds the single plan's household rows on the corrected "
       "path (premiums and out-of-pocket costs households stop paying, employer premiums that become pay, HX's tax and "
       "the worker transition credit), long-term care (H9) and package E: the unified household contribution, the "
