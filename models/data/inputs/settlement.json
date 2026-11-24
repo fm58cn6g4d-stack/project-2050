@@ -1,0 +1,46 @@
+{
+  "role": "Stage G's financing settlement as booked (step 7): the model switches the budget model applies to case `mixed` and every case built on it, and the items whose year-by-year paths models/tools/settlement_booking.py derives into settlement-paths.csv. One home for the settlement's booked choices; the reasons are the DEC- rows named on each item, and the text is dossiers/foundations/fair-financing/2-settlement.md. Changing this file is Espen's decision (tier 3).",
+  "status": "booked, stage G step 7, November 24, 2026",
+  "switches": {
+    "recovery_credit_multiple": 0,
+    "broad_rate_points": 0,
+    "education_rate_points": 1.65,
+    "hi_grant_payroll_points": 0.0,
+    "delivery_contingency_tn": 0.0
+  },
+  "switch_basis": {
+    "recovery_credit_multiple": "The legacy $300 refundable adult credit ends (DEC-2026-11-20-05, memo G1 A)",
+    "broad_rate_points": "The 2 points on AGI above $20,000/$40,000 end, folded into the health contribution (DEC-2026-11-20-06, memo G2 C)",
+    "education_rate_points": "The education fund's contribution at 1.65 points (DEC-2026-11-20-11, memo G7 B)",
+    "hi_grant_payroll_points": "The general fund's grant to Medicare's HI fund ends: HI folds into the plan's fund at the January 2035 endpoint (agent's accounting correction, 2-settlement.md part 6 item 4, confirmed by the milestone review F-1; the grant was never adopted, recovery-adoption.json not_selected)",
+    "delivery_contingency_tn": "The $100B delivery contingency line is removed (DEC-2026-11-20-14, memo G9.3 B); memo 10's contingency inside CAP-7S and CAP-7 is kept, with the guardrails in 2-settlement.md part 7"
+  },
+  "health_contribution_base_rate": {
+    "rate": 3.8,
+    "from": 2035,
+    "basis": "The fallback (DEC-2026-11-20-07, memo G3 E): the lowest base rate, to 0.05 points, that closes FY2040-56 on the general fund with every other booked item, from the January 2035 endpoint, at the fold's price (about $56B a quarter point in FY2040, grown on HCU's path). WORKING ASSUMPTION for the later years: one rate from 2035, with no step. Memo G8 (the rule over time) is provisional and undecided; any step it adds is not booked."
+  },
+  "items": [
+    {"id": "S01", "option": "gx_narrowed", "params": {}, "side": "revenue", "dec": "agent (2-settlement.md part 6 item 1; 1-audit.md part D item 3)", "line": "GX narrowed: no second haircut on H1b's folded half"},
+    {"id": "S02", "option": "hca_rederived", "params": {}, "side": "revenue", "dec": "agent (part 6 item 2; working assumption, $70B in FY2040)", "line": "HCA re-derived at $70B in FY2040"},
+    {"id": "S03", "option": "avoidance_by_tier", "params": {"base_allowance": 0.10}, "side": "revenue", "dec": "agent (part 6 item 3; working assumption, range 10-25%)", "line": "HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge"},
+    {"id": "S04", "option": "stack_cap", "params": {"design": "C1"}, "side": "revenue", "dec": "DEC-2026-11-20-08 (memo G4 C1)", "line": "Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes"},
+    {"id": "S05", "option": "ltc_state_share", "params": {"share": 1.0}, "side": "outlay", "dec": "DEC-2026-11-20-05 (memo G1 A)", "line": "The states' long-term care payment at 100% (HLT-9.09)"},
+    {"id": "S06", "option": "fold_broad_points", "params": {"rate": "health_contribution_base_rate"}, "side": "revenue", "dec": "DEC-2026-11-20-06 (G2 C) and DEC-2026-11-20-07 (G3 E, the fallback)", "line": "The health contribution's base rate R raised from 2.25% from 2035"},
+    {"id": "S07", "option": "defense_flat_real", "params": {}, "side": "outlay", "dec": "NSC-1A's own rule for FY2037-39 (agent, #474); DEC-2026-11-24-01 (memo G10.1 C) after FY2039", "line": "Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)"},
+    {"id": "S08", "option": "defense_restructure", "params": {"share": 0.05}, "side": "outlay", "dec": "DEC-2026-11-24-01 (memo G10.1 C; working assumption, range 3-7%)", "line": "Defense restructured, 5% below the flat-real path by FY2033"},
+    {"id": "S09", "option": "crop_insurance", "params": {}, "side": "outlay", "dec": "DEC-2026-11-24-04 (memo G11.2)", "line": "Crop insurance reform (REV-SC3)"},
+    {"id": "S10", "option": "tax_item", "params": {"key": "like_kind"}, "side": "revenue", "dec": "DEC-2026-11-24-06 (memo G12.2)", "line": "Like-kind exchanges ended beyond the booked $500K cap"},
+    {"id": "S11", "option": "housing_guarantee", "params": {"mode": "C", "shaped": true}, "side": "outlay", "dec": "DEC-2026-11-24-09 (memo G14 C)", "line": "Housing stage 2 (HOU-4D.01) a capped program, not a right, shaped on enrollment"}
+  ],
+  "not_booked": {
+    "G10.2": "DEC-2026-11-24-02: the FY2029 base capped at CBO's February 2026 path. It changes nothing against today's baseline; it is statutory text (2-settlement.md part 7)",
+    "G11.1": "DEC-2026-11-24-03: no. The 2025 law's farm increases stay",
+    "G12.1": "DEC-2026-11-24-05: C, the small business stock exclusion kept as it is; a question for the later innovation topic",
+    "G12.3": "DEC-2026-11-24-07: no",
+    "G5 and G13": "DEC-2026-11-20-09 and DEC-2026-11-24-08: the contingent backstop is statutory text, drawn only on a finding; nothing booked unless it triggers",
+    "G6": "DEC-2026-11-20-10: the $250B reserve is a use of the decade's figure, not a line",
+    "G8": "Provisional and undecided; the base rate is booked as one rate from 2035 (working assumption above)",
+    "duty to house": "G14 C ends the duty to house: its HOU-1 component (hou-4d-01-duty-to-house) is removed in fiscal-components.csv and HOU-1's ledger midpoint lowered by the same 0.003"
+  }
+}

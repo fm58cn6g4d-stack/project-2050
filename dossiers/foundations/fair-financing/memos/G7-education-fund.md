@@ -1,5 +1,8 @@
 # Memo G7: The education fund's rate
 
+**Decided:** B, 1.65 points, `DEC-2026-11-20-11`. Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 7 of stage G's batch ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) part 3; `../1-audit.md` part C, item 28). Status: **provisional, drafted on the recommendation, November 20, 2026.** Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/packages.py`. Project arithmetic on exploratory models, not official scores.
 
 ## The question

@@ -79,7 +79,7 @@ class Context:
 
     def __init__(self):
         self.f, self.b, self.old, self.u = m.load()
-        self.base = m.build_case('mixed', self.f, self.b, self.old, self.u)
+        self.base = m.build_case('mixed', self.f, self.b, self.old, self.u, settlement=False)
         self.lines = {}
         for a in self.base['audit']:
             self.lines.setdefault(a['line'], {y: 0.0 for y in YEARS})[a['year']] += a['primary_deficit_change_bn']
@@ -381,7 +381,7 @@ def price(ctx, opts, name='screen'):
     rate = kw.pop('education_rate', None)
     points = kw.pop('hi_grant_points', None)
     with education_rate(rate), hi_grant(points):
-        c = m.build_case(name, ctx.f, ctx.b, ctx.old, ctx.u, spending_adjustments=adjust, **kw)
+        c = m.build_case(name, ctx.f, ctx.b, ctx.old, ctx.u, spending_adjustments=adjust, settlement=False, **kw)
     by = {r['year']: r for r in c['rows']}
     base = ctx.rows
     gap = {y: by[y]['agenda_gf_primary_bn'] for y in YEARS}

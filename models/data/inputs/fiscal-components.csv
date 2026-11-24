@@ -1,7 +1,6 @@
 owner,component,mid10,cat,start,ramp,grow,perm,end,fade,basis
 HOU-1,hou-4a-one-million-awards-full-fees,0.147,out_other_mandatory,2030,5,gdp,1.013,,,"HOU-4A.01-.02: 250,000 awards a year FY2030-33 with lease-up, rent plus fees in full (the legacy fee allowance folded in); permanent; 6-cost.md 1.2"
 HOU-1,hou-4-07-search-help,0.008,out_other_mandatory,2030,3,cpi,1.006,,,HOU-4.07 search help for new awards and moves; permanent; 6-cost.md 1.2
-HOU-1,hou-4d-01-duty-to-house,0.003,out_other_mandatory,2037,1,cpi,0.956,,,"HOU-4D.01 duty to house from 2037 (DEC-2026-11-09-10); permanent, inside the right; 6-cost.md 1.2"
 HOU-1,hou-4-08-stage-3-under-62,0.005,out_other_mandatory,2038,5,cpi,1.746,,,"HOU-4.08 stage 3, disabled renters under 62, from FY2038; about $14B in FY2042; permanent; 6-cost.md 1.2"
 HOU-1,hou-4-08-stage-3-62-and-over,0.005,out_other_mandatory,2039,3,cpi,0.88,,,"HOU-4.08 stage 3, disabled renters 62 and over (DEC-2026-11-10-03); about $13B in FY2041, $14B in FY2042; permanent. Booked from FY2039 (approximation: section 6 starts FY2038); 6-cost.md 1.2"
 HOU-1,hou-1d-04-one-time-start,0.015,out_other_mandatory,2030,1,cpi,0,2032,,"HOU-1D.04 one-time emergency start, spent FY2030-32; 6-cost.md 1.2"

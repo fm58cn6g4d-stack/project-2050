@@ -1,5 +1,8 @@
 # Memo G13: The backstop without a VAT
 
+**Decided:** A, `DEC-2026-11-24-08`. The backstop text and its figures on the booked package are in `../2-settlement.md` parts 3 and 7.1; the wealth tax's loss there is net of the stack cap ($104.0B and +0.46 points in FY2040, not $139.1B and +0.62). Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 13 of stage G, from step 4b's whole-budget scan ([`../3-budget-scan.md`](../3-budget-scan.md) part E). Status: **provisional, drafted on the recommendation, November 20, 2026. A redraft that `DEC-2026-11-20-09` asked for.** Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/budget_scan.py` on the recommended package (memos G10 to G12 and G14, with the health contribution at 3.85%). Project arithmetic on exploratory models, not official scores.
 
 ## The question

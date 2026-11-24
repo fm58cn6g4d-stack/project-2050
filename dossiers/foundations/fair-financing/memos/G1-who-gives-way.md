@@ -1,5 +1,8 @@
 # Memo G1: Which other spending gives way
 
+**Decided:** A, `DEC-2026-11-20-05`. Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 1 of stage G's batch ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) part 2; `../1-audit.md` part C, item 1). Status: **provisional, drafted on the recommendation, November 20, 2026; revised for the milestone review (#470: B-5, F-4, F-5).** Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/packages.py` (results in [`../notes/settlement-results.md`](../notes/settlement-results.md)); the state table is in [`../notes/states-2026-11-20.md`](../notes/states-2026-11-20.md). Project arithmetic on exploratory models, not official scores.
 
 ## The question

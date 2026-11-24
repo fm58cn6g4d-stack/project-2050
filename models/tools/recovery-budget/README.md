@@ -6,6 +6,16 @@ remote main verified at `beeba090020b7916f8ed08bcff36161fb70d1e69`. Full EDU-9B
 scope is adopted. **October 26 approval:** the recommended architecture and working spending revisions are now selected in `models/data/inputs/recovery-adoption.json`, which the model reads directly. Complete illustrative tax/credit schedules remain unselected; no relaxation of D3/D4 is adopted. Read the
 [assessment](../../../sources/recovery-and-solvency-budget.md).
 
+**Stage G's financing settlement is booked (step 7, November 24, 2026).** Every case now carries it: the switches and
+items in `models/data/inputs/settlement.json` (each with its `DEC-` row) and the item paths in
+`settlement-paths.csv`, which `models/tools/settlement_booking.py` derives and `models/tools/test_settlement_booking.py`
+checks. The audit shows them as "Settlement Snn: ..." lines. `build_case(..., settlement=False)` and the case
+`mixed_before_settlement` give the plan before it, which the financing screens (`models/tools/financing-protection/`)
+price from. The settlement's text is `dossiers/foundations/fair-financing/2-settlement.md`.
+The stress and sensitivity cases (`mixed_downside`, `mixed_all_debt_rate_plus1`, the corridor and SSA cases and the
+others) hold the settlement's lines at their central paths: a stress changes the plan's own receipts and costs, not
+the settlement's items. The settlement's own ranges are in `settlement_booking.py --report` (its risk rows).
+
 ## Reproduce
 
 Python 3.9+, standard library; the common suite also requires Node.js. From root:

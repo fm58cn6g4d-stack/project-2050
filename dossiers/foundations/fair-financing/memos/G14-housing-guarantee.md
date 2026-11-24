@@ -1,5 +1,8 @@
 # Memo G14: The housing guarantee
 
+**Decided:** C, `DEC-2026-11-24-09`; booked in step 7, shaped on stage 2's enrollment (−$40.7B over FY2037-39, not −$44.0B). Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 14 of stage G, from step 4b's whole-budget scan ([`../3-budget-scan.md`](../3-budget-scan.md) part C, item C10). It answers your question of November 20. Status: **provisional, drafted on the recommendation, November 20, 2026. A new fork.** Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/budget_scan.py` from the housing dossier's own figures (`dossiers/home/6-cost.md`). Project arithmetic on exploratory models, not official scores.
 
 ## The question

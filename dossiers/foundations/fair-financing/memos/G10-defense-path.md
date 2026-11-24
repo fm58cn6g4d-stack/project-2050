@@ -1,5 +1,8 @@
 # Memo G10: The defense path
 
+**Decided:** G10.1 C, `DEC-2026-11-24-01`; G10.2 B, `-02`. Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 10 of stage G, from step 4b's whole-budget scan ([`../3-budget-scan.md`](../3-budget-scan.md) parts B and C; results in [`../notes/budget-scan-results.md`](../notes/budget-scan-results.md)). Status: **provisional, drafted on the recommendation, November 20, 2026. A new fork.** Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/budget_scan.py` against the settlement as you decided it, with no VAT. Project arithmetic on exploratory models, not official scores.
 
 ## The question

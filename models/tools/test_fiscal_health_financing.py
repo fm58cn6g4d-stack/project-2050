@@ -222,7 +222,7 @@ class HealthFinancingBooking(unittest.TestCase):
         # DEC-2026-11-15-20's about $516B, plus the status rule priced on the corrected base (about $15B in FY2040)
         self.assertAlmostEqual(calls[2040], 532.1, delta=3)
         paths = {int(r["year"]): float(r["agenda_gf_primary_bn"]) for r in csv.DictReader(open(BUILD / "recovery-budget-paths.csv"))
-                 if r["case"] == "mixed"}
+                 if r["case"] == "mixed_before_settlement"}   # stage G's settlement (step 7) closes FY2040 on; this is the plan before it
         self.assertAlmostEqual(paths[2040], CR.GAP_BEFORE_REASSIGN + calls[2040] + WORK_BOOKING_FY2040, delta=3)
         self.assertAlmostEqual(paths[2040], 614.0, delta=5)        # DEC-2026-11-15-11's $586B, plus the status rule, plus work's booking (602.7 before it)
         before = HF.paths()

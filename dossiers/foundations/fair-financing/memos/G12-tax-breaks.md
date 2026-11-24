@@ -1,5 +1,8 @@
 # Memo G12: Tax breaks the plan hasn't touched
 
+**Decided:** G12.1 C, kept as it is, `DEC-2026-11-24-05` (a question for the later innovation topic); G12.2 yes, `-06`; G12.3 no, `-07`. Booked in stage G step 7 (`../2-settlement.md`, `models/data/inputs/settlement.json`). The memo below is the record of the choice as put to Espen; its figures are the draft's.
+
+
 Role: decision memo for Espen, fork 12 of stage G, from step 4b's whole-budget scan ([`../3-budget-scan.md`](../3-budget-scan.md) parts A and C, items C7 to C9). Status: **provisional, drafted on the recommendations, November 20, 2026. A new fork.** Not decided, not booked. Nominal $B on case `mixed`, priced by `models/tools/financing-protection/budget_scan.py`. Project arithmetic on exploratory models, not official scores.
 
 ## The question

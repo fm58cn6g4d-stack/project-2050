@@ -37,7 +37,7 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-4.13 | Tribal housing: set-asides, through tribes, by self-determination | Decided (`DEC-2026-11-09-10`; sizes `DEC-2026-11-09-16`) | R2 (set-asides); regular bill (NAHASDA rules) |
 | HOU-4A.01 | One million new awards, 2030-33 (stage 1 and the start of stage 2) | Decided (memos 1, 2, 8) | R2, mandatory |
 | HOU-4A.02 | Housing agency administration for the new awards | Decided with HOU-4A (legacy allowance) | R2, mandatory |
-| HOU-4D.01 | Stage 2: a guarantee for the poorest families with children, enrolled 2034-37, with the duty to house from 2037 | Decided (memo 2 B; duty to house and remedies `DEC-2026-11-09-10`; exit line `-11`) | R2, mandatory |
+| HOU-4D.01 | Stage 2: help for the poorest families with children, enrolled from 2034, a capped program with the right as a 2040s goal (no duty to house) | Decided (memo 2 B; narrowed by `DEC-2026-11-24-09`, stage G memo G14 C; exit line `-11`) | R2, mandatory |
 | HOU-1D.01 | Standing emergency-rent fund: eligibility, uses and caps | Decided (memo 6 C; point 5 rules 1 and 3; point 4; about $5 billion a year, `DEC-2026-11-10-03`) | R2, mandatory |
 | HOU-1D.02 | How the fund pays: risk screen, self-attestation and checks, landlord applications | Decided (point 5 rules 2, 4, 5) | R2 |
 | HOU-1D.03 | Accountability: grantee network, payment-error measurement, data standard | Decided (point 5 rules 6-8) | R2 (money and conditions); regular bill (privacy and record links) |
@@ -333,7 +333,14 @@ Espen's direction (`DEC-2026-11-09-10`): tribal housing gets dedicated policy an
 
 ### HOU-4D.01 Stage 2: a guarantee for the poorest families with children
 
-**Parameters** (memo 2 B):
+**Narrowed in the financing settlement (`DEC-2026-11-24-09`, stage G memo G14 C).** Stage 2 stays a capped program and does not become a right in 2037. Items 2, 5, 6 and the amount below are restated by it; the rest stands:
+- **Enrollment** opens in 2034 at up to 300,000 families a year, in HOU-4.03's order, and is held at its pre-right size of about 900,000 awards (about 810,000 families leased in FY2040, against about 1.53 million under the right). The yearly appropriation is the cap, with published counts.
+- **Who enters within the cap:** the core group and, by need-based intake, families with children who have no home of their own, homeless or doubled up (the wider entry, `DEC-2026-11-09-12`), so they compete by need, not by right.
+- **No duty to house** (item 5 does not take effect). A family whose search fails gets search help and a payment standard up to 120% of the limit (HOU-4.07; `5-delivery.md`, 2.2), not a placement. The remedies for the right (item 6) do not take effect; a written decision and a hearing stay, as for stage 1.
+- **The 2040s goal, in law:** the statute names the target, a right for the full group, and a review in 2041 on the program's own data (take-up, lease-up, waiting families and their outcomes). Making it a right is a later Congress's vote.
+- **Cost:** about $18.6 billion lower in FY2040 and $32.8 billion in FY2056; about $40.7 billion over FY2037-39, shaped on enrollment (`settlement.json` item S11; `../foundations/fair-financing/2-settlement.md`). The duty to house's own line (about $1.3 billion in FY2040) is removed from HOU-1.
+
+**Parameters as first decided** (memo 2 B; restated above where the settlement changes them):
 1. **Who.** Renter households with income at or below the extremely low-income line (HOU-4.01), with at least one child under 18, unassisted, with severe problems (paying over half of income for rent, or living in severely inadequate housing, HUD's worst case needs test) [EV-HOU-186]. From 2034, families with children who have no home of their own under HOU-4.03's test, doubled up or homeless, can also enter (`DEC-2026-11-09-12`). The family shows severe problems by its own statement of rent and conditions, with income found once (HOU-4.02, item 5), checked after award (judgment, under `DEC-2026-11-09-13`; `5-delivery.md`, 2.2).
 2. **Enrollment.** Opens in 2034, up to 300,000 families a year in HOU-4.03's order. From 2037, every eligible family that applies gets help: the cap ends and help is a right.
 3. **Form.** HOU-4.04.
@@ -347,7 +354,7 @@ Espen's direction (`DEC-2026-11-09-10`): tribal housing gets dedicated policy an
 7. **Tribal share.** Part of stage 2's money goes through tribes (HOU-4.13).
 8. **Honest errors are corrected, not punished** (`review-milestone.md`, L-1; HOU-1D.03's rule, point 5). A check after award that finds a household's statement of income, rent or conditions wrong changes its help from the next month. Help ends only for fraud: a knowing false statement, found after notice and a hearing. A household is never asked to repay help it received through an honest mistake or an agency's error; overpayments from agency error are recovered from the agency's administration money, not the household. Deemed approval (item 6) follows the same rule. The same rule covers stage 1's statements (HOU-4.03) and stage 3's (HOU-4.08). *Change to current law:* the voucher rules' repayment of underpaid rent is not yet read for whether it reaches honest mistakes (open check); the regular bill writes this rule for these awards, under `DEC-2026-11-09-13`.
 
-- **Amount.** The $135 billion over FY2030-39 is an estimate, not a cap, because stage 2 is a right from 2037 (memo 2 B).
+- **Amount.** Under the settlement stage 2 is a capped program, so its yearly appropriation is the cap (`DEC-2026-11-24-09`). As first decided, the $135 billion over FY2030-39 was an estimate, not a cap, because stage 2 was to be a right from 2037 (memo 2 B).
 - **Vehicle.** R2, mandatory. It is enacted in 2029 with 2034 and 2037 effective dates.
 - **Current law.** New awards under 1437f(o), like HOU-4A.01.
 - **Evidence.** [EV-HOU-185] [EV-HOU-186] [EV-HOU-086] [EV-HOU-090] [EV-HOU-011] [EV-HOU-395] [EV-HOU-346].

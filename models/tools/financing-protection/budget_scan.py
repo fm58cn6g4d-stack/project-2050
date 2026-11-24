@@ -154,35 +154,47 @@ def opt_tax_item(ctx, key, share=None):
                 adjust={'Tax: ' + key: neg(priced_from(lvl, 2030, 1, grow='gdp'))}, d3=[])
 
 
-# Memo G14, the housing guarantee (Espen, November 20, via the lead). Stage 2 (HOU-4D.01, with the duty to house, the
-# wider entry and the restated count) is booked as the recovery budget's `housing_extra` line: $39.5B in FY2040, against
-# the housing dossier's $23B + $1.3B + $8B + $8B (`dossiers/home/6-cost.md` part 1.2). Leased families in FY2040, central:
+# Memo G14, the housing guarantee (Espen, November 20, via the lead). Stage 2 (HOU-4D.01: the core group, the wider
+# entry and the restated count) is booked as the recovery budget's `housing_extra` line: $39.5B in FY2040, about the
+# housing dossier's $23B + $8B + $8B (`dossiers/home/6-cost.md` part 1.2). The duty to house's $1.3B is NOT in
+# `housing_extra`: it was HOU-1's own component (`hou-4d-01-duty-to-house`), removed from the ledger with G14 C in step 7. Leased families in FY2040, central:
 # about 920,000 + 306,000 + 300,000 = about 1.53 million. A capped program (C) holds stage 2 at the pre-right size,
 # about 900,000 awards at 90% leased, about 810,000 families: about 0.53 of the right's cost (range 0.45-0.65).
 HOUSING_CAPPED_SHARE = 0.53
 
 
-def opt_housing_guarantee(ctx, mode='C', right_year=2045, capped_share=HOUSING_CAPPED_SHARE):
+def opt_housing_guarantee(ctx, mode='C', right_year=2045, capped_share=HOUSING_CAPPED_SHARE, shaped=True):
     """B: stage 2 dropped (the right, the duty to house, the wider entry; stage 1, stage 3 and the rest kept). C: stage 2
     kept as a capped program from FY2037, not a right. D: C until `right_year`, then the right, enrolling over three
-    years."""
+    years.
+
+    `shaped` (the reviewer's nit on #476, booked in step 7): the capped program is shaped on stage 2's enrollment, not
+    cut flat from FY2037. Under the cap stage 2 enrolls up to 300,000 families a year from FY2034 and reaches its
+    pre-right size of about 900,000 awards by FY2036; it then fills to about 810,000 families leased, `capped_share` of
+    the right's cost, by FY2040. So the capped path runs from the right's FY2036 level to `capped_share` of the right's
+    FY2040 level in a straight line over FY2037-39 (never above the right's own path), and is `capped_share` of the
+    right's path from FY2040. The flat cut charged the capped program less in FY2037 than in FY2036, with more families
+    enrolled. FY2040 on is unchanged."""
     he = ctx.line('housing_extra')
     if mode == 'B':
         path = {y: -he[y] for y in YEARS}
     else:
-        cut = 1 - capped_share
-        def k(y):
+        def capped(y):
             if y < 2037:
-                return 0.0
-            if mode == 'D' and y >= right_year:
-                return cut * max(0.0, 1 - (y - right_year + 1) / 3)
-            return cut
-        path = {y: -k(y) * he[y] for y in YEARS}
+                return he[y]
+            if shaped and y < 2040:
+                a, z = he[2036], capped_share * he[2040]
+                return min(he[y], a + (z - a) * (y - 2036) / 4)
+            return capped_share * he[y]
+        def right_back(y):
+            # D: the right returns from `right_year`, enrolling over three years
+            return min(1.0, max(0.0, (y - right_year + 1) / 3)) if mode == 'D' else 0.0
+        path = {y: (capped(y) - he[y]) * (1 - right_back(y)) for y in YEARS}
     label = {'B': 'Housing: stage 2 dropped; a 2040s target with a review trigger',
              'C': 'Housing: stage 2 kept as a capped program, not a right',
              'D': 'Housing: the right deferred to %d, capped until then' % right_year}[mode]
     return dict(label=label, adjust={'Housing guarantee ' + mode: path},
-                d3=[('absent', 'housing: the D3 rows carry housing as booked; not edited here')])
+                d3=[('absent', 'housing: D3 carries no row for stage 2 (housing_extra); its HOU row is HOU-1')])
 
 
 def opt_fallback(ctx, rate):
@@ -205,8 +217,6 @@ SETS = {
     'farm': [('farm_obbba', {}), ('crop_insurance', {})],
     'tax_recommended': [('tax_item', {'key': 'qsbs_rollback'}), ('tax_item', {'key': 'like_kind'})],
     'tax_mortgage_cap': [('tax_item', {'key': 'mortgage_500k'})],
-    # The recommended set (memos G10 to G12): defense flat in real terms after FY2036 and restructured 5%; the farm
-    # items; the two tax items.
     'housing_b': [('housing_guarantee', {'mode': 'B'})],
     'housing_c': [('housing_guarantee', {'mode': 'C'})],
     'housing_d': [('housing_guarantee', {'mode': 'D'})],
@@ -258,7 +268,7 @@ def run_case(ctx, opts):
     rate = kw.pop('education_rate', None)
     points = kw.pop('hi_grant_points', None)
     with K.education_rate(rate), K.hi_grant(points):
-        c = m.build_case('scan', ctx.f, ctx.b, ctx.old, ctx.u, spending_adjustments=adjust, **kw)
+        c = m.build_case('scan', ctx.f, ctx.b, ctx.old, ctx.u, spending_adjustments=adjust, settlement=False, **kw)
     by = {r['year']: r for r in c['rows']}
     return dict(gap={y: by[y]['agenda_gf_primary_bn'] for y in YEARS},
                 debt_gdp={y: by[y]['debt_gdp'] for y in YEARS},

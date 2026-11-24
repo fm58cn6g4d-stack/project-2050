@@ -44,3 +44,9 @@ HS1,norm,,0.716,0.744,0.772,0.801,0.831,0.862,0.895,0.929,0.964,1,health_booking
 HS2,norm,,0.716,0.744,0.772,0.801,0.831,0.862,0.895,0.929,0.964,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
 HS3,norm,,0.716,0.744,0.772,0.801,0.831,0.862,0.895,0.929,0.964,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
 HS4,norm,,0.716,0.744,0.772,0.801,0.831,0.862,0.895,0.929,0.964,1,health_booking.py incidence_booked(): the row's booked path (fiscal-years.csv)
+HCUg,norm,HCU,,,,,,,,,,,stage G step 7: the settlement row takes HCU's profile
+HCUwg,norm,HCUw,,,,,,,,,,,stage G step 7: the settlement row takes HCUw's profile
+HCAg,norm,HCA,,,,,,,,,,,stage G step 7: the settlement row takes HCA's profile
+HS2g,norm,HS2,,,,,,,,,,,stage G step 7: the settlement row takes HS2's profile
+EDUPg,norm,EDUP,,,,,,,,,,,stage G step 7: the settlement row takes EDUP's profile
+GXg,norm,HCU,,,,,,,,,,,stage G step 7: the settlement row takes HCU's profile

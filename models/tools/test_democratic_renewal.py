@@ -83,9 +83,9 @@ class CostTool(unittest.TestCase):
         self.assertAlmostEqual(c["surge"], 43.2, delta=0.05)
         self.assertAlmostEqual(c["sustained"], 29.7, delta=0.05)
         self.assertAlmostEqual(c["fy2040"], 4.7, delta=0.05)
-        self.assertAlmostEqual(self.s["gap_2040"], 615.6, delta=0.05)   # 602.7 before the work booking, 614.0 before this one
+        self.assertAlmostEqual(self.s["gap_2040"], 614.6, delta=0.05)   # before stage G's settlement; 615.6 before G14 C's duty-to-house removal, 602.7 before the work booking, 614.0 before this one
         sh = self.s["share_of_gap_2040"]
-        self.assertAlmostEqual(100 * sh["booked"], 8.37, delta=0.005)   # 8.29 on the 602.7 gap and nine rows; 8.14 on 614.0
+        self.assertAlmostEqual(100 * sh["booked"], 8.39, delta=0.005)   # 8.37 on 615.6; 8.29 on the 602.7 gap and nine rows; 8.14 on 614.0
         self.assertAlmostEqual(100 * sh["unbooked"], 0.16, delta=0.005)  # the court's structure and statute tracking
         self.assertAlmostEqual(100 * sh["unbooked_hi"], 0.22, delta=0.005)
         self.assertAlmostEqual(100 * sh["priced"], 0.41, delta=0.005)    # all four lines section 6 priced

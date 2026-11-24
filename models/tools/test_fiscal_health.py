@@ -253,7 +253,7 @@ class HealthIncidence(unittest.TestCase):
         self.assertEqual(set(q["options"]) - {"DEC"}, set(self.ib["amounts"]) | {"H9", "EDUP", "EDUB", "ICH", "ICB"})
         self.assertEqual(set(q["remove"]), {"C19b", "C20"})
         D3 = load("t_d3", HERE / "household" / "d3.py")
-        self.assertEqual(D3.HEALTH_CONTRIBUTIONS, HB.D3_CONTRIBUTIONS)
+        self.assertEqual(D3.HEALTH_CONTRIBUTIONS[:len(HB.D3_CONTRIBUTIONS)], HB.D3_CONTRIBUTIONS)   # then the settlement's rows (Q-G)
         self.assertTrue(set(HB.D3_CONTRIBUTIONS) <= set(self.ib["amounts"]))
         self.assertNotIn("HEX", HB.D3_CONTRIBUTIONS)
 

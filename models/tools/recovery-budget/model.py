@@ -10,6 +10,15 @@ A = json.loads((HERE/'assumptions.json').read_text())
 ADOPTION = json.loads((ROOT/'models/data/inputs/recovery-adoption.json').read_text())
 A['spending'] = ADOPTION['spending']
 A['leave']['cap_points'] = ADOPTION['leave_cap_points']
+# Stage G's financing settlement, as booked (step 7; DEC-2026-11-20-05 to -14, DEC-2026-11-24-01 to -09): the switches
+# and the derived line paths (models/tools/settlement_booking.py writes settlement-paths.csv; its test checks them).
+SETTLEMENT = json.loads((ROOT/'models/data/inputs/settlement.json').read_text())
+def settlement_paths():
+    out=[]
+    with (ROOT/'models/data/inputs/settlement-paths.csv').open() as fh:
+        for r in csv.DictReader(fh):
+            out.append((r['id'],r['line'],r['side'],{y:float(r['y%d'%y]) for y in range(2026,2057)}))
+    return out
 Y = range(2026,2057)
 W = range(2030,2040)
 
@@ -153,7 +162,9 @@ def capacity_accounts(y,b,u,hi_fraction=None):
     hlt=0 if y<2031 else a['hlt2_recurring_2026_bn']*({2031:.5,2032:.8}.get(y,1))*1.035**(min(y,2039)-2026)*(u.payroll(y)/u.payroll(2039) if y>2039 else 1)
     return dict(oasdi=gross*shares['oasdi']/den,hi=medicare*hi,smi=medicare*(1-hi)+hlt)
 
-def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_rate=None,translate=True,corridor=False,legacy_education_floor=False,credit_multiple=1,high_rate=None,medicare_hi_fraction=None,spending_adjustments=None,leave_admin_fraction=None):
+def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_rate=None,translate=True,corridor=False,legacy_education_floor=False,credit_multiple=1,high_rate=None,medicare_hi_fraction=None,spending_adjustments=None,leave_admin_fraction=None,settlement=True):
+    """`settlement=False` gives the plan before stage G's booking: the base the financing screens price from."""
+    SW=SETTLEMENT['switches'] if settlement else {}
     e=A['education']; ss=A['social_security']; s=A['spending']; st=A['stress']
     comp=education_components(m,multiplier=st['education_cost_multiplier'] if stress else 1,
                               post_growth=st['education_cost_growth'] if stress else None)
@@ -161,7 +172,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         for r in comp:
             extra=max(0,-r['change_over_old_agenda_bn'])
             for k in ('full_fund_outlays_bn','increment_over_current_law_bn','change_over_old_agenda_bn'): r[k]+=extra
-    edu=edu_fund(comp,b,f,rate=2 if alternative else 1.4,gf_share=0 if alternative else e['gf_share_mixed'],stress=stress,corridor=corridor)
+    edu=edu_fund(comp,b,f,rate=2 if alternative else SW.get('education_rate_points',1.4),gf_share=0 if alternative else e['gf_share_mixed'],stress=stress,corridor=corridor)
     er={r['year']:r for r in edu['rows']}
     ss_paths=[u.SSF[k] for k in ('SS-1','SS-2','SS-3','SS-4','SS-5')]
     ss_paths += [lambda y:(-ss['joint_interaction_payroll_points'] if y>=2031 else 0,0),
@@ -175,7 +186,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     # Internal HI grant: improves that account, never consolidated external resources.
     his=u.HIS
     hlt6_fraction=st['hi_health_savings_fraction'] if stress else 1
-    hp=A['hi']; grant_rate=lambda y:hp['gf_support_payroll_points']*phase(y,hp['start'],hp['phase_years'])
+    hp=A['hi']; gpts=SW.get('hi_grant_payroll_points',hp['gf_support_payroll_points']); grant_rate=lambda y:gpts*phase(y,hp['start'],hp['phase_years'])
     u.HIS=lambda y:u.HIS_H1A(y)+u.HIS_HLT6(y)*hlt6_fraction+grant_rate(y)
     try: hr=u.run_hi(True,administration=lambda y:100*fund_dollars(y,'hi')/u.hi_payroll(y))
     finally: u.HIS=his
@@ -208,7 +219,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
             p=f.row_path(b,amt,prof,rid)
             for y in Y: losses[y]+=p[y]
         for y in range(2040,2057): losses[y]+=-old['G11']['gf'][str(y)]*st['g11_post2039_loss_fraction']
-    extras={k:f.row_path(b,s[k+'_tn'],extra_profile(s,k)) for k in ('housing_extra','participation','delivery_contingency')}
+    extras={k:f.row_path(b,SW.get(k+'_tn',s[k+'_tn']),extra_profile(s,k)) for k in ('housing_extra','participation','delivery_contingency')}
     housing_admin=f.row_path(b,s['housing_base_admin_tn'],dict(ramp=4,grow='cpi',perm=1))
     development=f.row_path(b,s['development_program_tn'],dict(ramp=3,grow='cpi',perm=1))
     irs_risk=f.row_path(b,s['irs_receipt_risk_tn'],f.PR.REVENUE['G8'],'G8')
@@ -220,7 +231,9 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         adjustments[label]=({y: float(spec['annual_bn'].get(str(y), 0)) for y in Y}
                             if 'annual_bn' in spec else f.row_path(b,spec['delta_tn'],spec['profile']))
     rows=[]; audit=[]
-    broad=A['tax']['broad_rate_points'] if broad_rate is None else broad_rate
+    broad=SW.get('broad_rate_points',A['tax']['broad_rate_points']) if broad_rate is None else broad_rate
+    credit_multiple=credit_multiple*SW.get('recovery_credit_multiple',1)
+    booked=settlement_paths() if settlement else []
     for y in Y:
         key=str(y); baseline=base[key]; dr=do=0
         def entry(label,revenue=0,outlay=0):
@@ -264,6 +277,8 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         entry('Smaller capacity and AI authorizations',outlay=-savings[y])
         ac=accounts(y); smi_premium=ac['smi']*ADOPTION['administration']['smi_premium_fraction']
         for label,path in adjustments.items(): entry('Exploratory: '+label,outlay=path[y])
+        for sid,label,side,path in booked:
+            entry('Settlement '+sid+': '+label,revenue=-path[y] if side=='revenue' else 0,outlay=path[y] if side!='revenue' else 0)
         entry('DEV-P permanent development programs',outlay=development[y])
         # OASDI cost is in so and formerly inside capacity: remove once.
         entry('SSA OASDI capacity reclassification',outlay=-ac['oasdi'])
@@ -364,7 +379,7 @@ def run():
     f,b,m,u=load()
     components=education_components(m)
     cases={}
-    for name,opts in [('mixed',{}),('larger_payroll',{'alternative':True}),
+    for name,opts in [('mixed',{}),('mixed_before_settlement',{'settlement':False}),('larger_payroll',{'alternative':True}),
                       ('mixed_downside',{'stress':True}),('mixed_all_debt_rate_plus1',{'rate_shift':1}),
                       ('mixed_no_macro_translation',{'translate':False}),
                       ('mixed_leave_admin_high',{'leave_admin_fraction':.06}),
@@ -373,16 +388,19 @@ def run():
                       ('mixed_reserve_corridor',{'corridor':True}),
                       ('mixed_corridor_downside',{'corridor':True,'stress':True}),
                       ('mixed_legacy_education_floor',{'legacy_education_floor':True}),
-                      ('mixed_larger_credit',{'credit_multiple':5,'high_rate':10})]:
+                      ('mixed_larger_credit',{'credit_multiple':5,'high_rate':10,'settlement':False})]:
+        # mixed_larger_credit is the legacy architecture comparison (a $1,500 credit): the settlement ends the credit,
+        # so the case is built on the plan before the settlement
         cases[name]=build_case(name,f,b,m,u,**opts)
     # Marginal broad-rate solution is a diagnostic, not an automatic policy adoption.
     # One additional point is linear in primary flows and debt in this static model.
     solutions={}
     for name,opts in [('mixed',{}),('larger_payroll',{'alternative':True}),('mixed_downside',{'stress':True}),('mixed_all_debt_rate_plus1',{'rate_shift':1})]:
-        c=cases[name]; plus=build_case(name,f,b,m,u,broad_rate=A['tax']['broad_rate_points']+1,**opts)
+        broad0=SETTLEMENT['switches'].get('broad_rate_points',A['tax']['broad_rate_points'])
+        c=cases[name]; plus=build_case(name,f,b,m,u,broad_rate=broad0+1,**opts)
         x={r['year']:r for r in c['rows']}; z={r['year']:r for r in plus['rows']}
         required=max((x[y]['debt_gdp']-x[y-1]['debt_gdp'])/((x[y]['debt_gdp']-x[y-1]['debt_gdp'])-(z[y]['debt_gdp']-z[y-1]['debt_gdp'])) for y in range(2045,2057))
-        solutions[name]=max(0,A['tax']['broad_rate_points']+required)
+        solutions[name]=max(0,broad0+required)
     inputs=['models/tools/climate-integration.py','models/data/inputs/climate-adoption.json','legacy/sources/climate-portfolio-pricing.json','models/data/fiscal-baseline.csv','models/data/inputs/education-adoption.json',
             'models/data/inputs/recovery-adoption.json',
             'models/tools/recovery-budget/assumptions.json','build/fiscal-model.json','build/ledger.json',
