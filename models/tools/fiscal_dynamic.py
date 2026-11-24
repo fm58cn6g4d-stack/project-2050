@@ -32,13 +32,37 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'models/tools'))
 import fiscal_path as FP   # noqa: E402
 
-PARAMS = json.loads((ROOT / 'models/tools/fiscal_dynamic_params.json').read_text())
+REGISTERED = json.loads((ROOT / 'models/tools/fiscal_dynamic_params.json').read_text())
+AMENDMENTS = json.loads((ROOT / 'models/tools/fiscal_dynamic_amendments.json').read_text())['amendments']
+
+
+def amended(reg, amendments):
+    """The registration with the dated amendments applied (the registered file itself is never edited)."""
+    out = json.loads(json.dumps(reg))
+    for a in amendments:
+        for path, v in a.get('set', {}).items():
+            node = out
+            *head, last = path.split('.')
+            for k in head:
+                node = node[k]
+            node[last] = v
+        for k, v in a.get('add', {}).items():
+            out['channels'][k] = v
+    return out
+
+
+PARAMS = amended(REGISTERED, AMENDMENTS)
 OUT = ROOT / 'dossiers/foundations/fair-financing/notes/dynamic-results.md'
 YEARS = FP.YEARS
 START, REF_YEAR = 2030, 2029
 SHOW = (2035, 2040, 2045, 2050, 2056)
-# the combined cases: (channel end, feedback end); the feedback's high end is the larger effect
-CASES = (('central', 'central', 'central'), ('pessimistic', 'low', 'high'), ('optimistic', 'high', 'low'))
+# The readings: C, the plan's channels alone (no feedback); A, feedback from the FY2029 debt ratio on both paths
+# (symmetric, the headline); B, feedback from CBO's baseline debt path (a sensitivity: it credits the plan's whole
+# distance below current law at the average coefficients). The cases: central; pessimistic, every channel at its low end
+# and, on each reading, whichever feedback end gives the plan the higher FY2056 debt; optimistic, the reverse.
+# (Not pre-registered: the engine, this pairing and the readings' roles were set after the first run; AM-1 to AM-3.)
+READINGS = ('C', 'A', 'B')
+CASES = (('central', 'central'), ('pessimistic', 'low'), ('optimistic', 'high'))
 
 
 def channel_path(spec, end, gdp):
@@ -53,8 +77,8 @@ def channel_path(spec, end, gdp):
     return out
 
 
-def channels(gdp, end):
-    return {k: channel_path(v, end, gdp) for k, v in PARAMS['channels'].items() if not k.startswith('_')}
+def channels(gdp, end, params=None):
+    return {k: channel_path(v, end, gdp) for k, v in (params or PARAMS)['channels'].items() if not k.startswith('_')}
 
 
 def wad_h1(gdp, end):
@@ -73,13 +97,14 @@ def run(bk, debt, gdp, flows=None, fb_end='central', reference='A', ref_path=Non
     """Dynamic debt for a conventional path (debt {year: $B}, gdp {year: $B}). `flows` {year: $B} are the plan's
     channel budget effects (+ lowers the deficit). Returns {year: dict(debt, gdp, debt_gdp, rate_pts, gap)}."""
     sym = PARAMS['symmetric']
-    beta = sym['rate_bp_per_point'][fb_end] / 10000            # per point of debt ratio, as a rate
-    c = sym['crowd_gdp_pct_per_point'][fb_end] / 100           # GDP fraction per point
+    on = reference != 'C'                                       # reading C: the channels alone, no feedback
+    beta = on * sym['rate_bp_per_point'][fb_end] / 10000       # per point of debt ratio, as a rate
+    c = on * sym['crowd_gdp_pct_per_point'][fb_end] / 100      # GDP fraction per point
     tau, adj_r, adj_k = sym['budget_share_of_gdp_change'], sym['rate_bp_per_point']['adjust_years'], \
         sym['crowd_gdp_pct_per_point']['adjust_share_per_year']
     flows = flows or {}
     dref = 100 * debt[REF_YEAR] / gdp[REF_YEAR]
-    ref = (lambda y: dref) if reference == 'A' else (lambda y: ref_path[y])
+    ref = (lambda y: ref_path[y]) if reference == 'B' else (lambda y: dref)
     out, E, dr, crowd = {}, 0.0, 0.0, 0.0
     prev_ratio = 100 * debt[REF_YEAR] / gdp[REF_YEAR]
     for y in YEARS:
@@ -101,6 +126,24 @@ def run(bk, debt, gdp, flows=None, fb_end='central', reference='A', ref_path=Non
     return out
 
 
+def net_of(ch):
+    return {y: sum(p[y] for p in ch.values()) for y in YEARS}
+
+
+def plan_run(bk, debt, net, reading, fb_end, base_ratio):
+    return run(bk, debt, bk.gdp, net, fb_end=fb_end, reference=reading, ref_path=base_ratio)
+
+
+def case_run(bk, debt, net, reading, name, base_ratio):
+    """The case's plan path on one reading: the central feedback, or the feedback end worst (pessimistic) or best
+    (optimistic) for the plan's FY2056 debt on that reading. Returns (path, feedback end)."""
+    if name == 'central' or reading == 'C':
+        return plan_run(bk, debt, net, reading, 'central', base_ratio), 'central'
+    runs = {e: plan_run(bk, debt, net, reading, e, base_ratio) for e in ('low', 'high')}
+    pick = (max if name == 'pessimistic' else min)(runs, key=lambda e: runs[e][2056]['debt_gdp'])
+    return runs[pick], pick
+
+
 def build():
     bk = FP.Booked()
     gdp = bk.gdp
@@ -108,34 +151,36 @@ def build():
     plan_debt = bk.debt
     base_ratio = {y: 100 * base_debt[y] / gdp[y] for y in YEARS}
     res = dict(bk=bk, conv=dict(base=base_ratio, plan={y: 100 * plan_debt[y] / gdp[y] for y in YEARS}), cases={},
-               channels={}, wad={})
+               channels={}, registered_channels={}, wad={})
     for end in ('low', 'central', 'high'):
-        ch = channels(gdp, end)
-        res['channels'][end] = ch
+        res['channels'][end] = channels(gdp, end)
+        res['registered_channels'][end] = channels(gdp, end, REGISTERED)
         res['wad'][end] = wad_h1(gdp, end)
-    for name, ch_end, fb_end in CASES:
-        net = {y: sum(p[y] for p in res['channels'][ch_end].values()) for y in YEARS}
-        row = {}
-        for reading in ('A', 'B'):
-            kw = dict(fb_end=fb_end, reference=reading, ref_path=base_ratio)
-            row[reading] = dict(base=run(bk, base_debt, gdp, None, **kw), plan=run(bk, plan_debt, gdp, net, **kw),
-                                plan_feedback_only=run(bk, plan_debt, gdp, None, **kw))
-        row['net'] = net
+    for name, ch_end in CASES:
+        net = net_of(res['channels'][ch_end])
+        row = dict(net=net)
+        for reading in READINGS:
+            path, fb = case_run(bk, plan_debt, net, reading, name, base_ratio)
+            fb_only, _ = case_run(bk, plan_debt, None, reading, name, base_ratio)
+            base = run(bk, base_debt, gdp, None, fb_end=fb, reference=reading, ref_path=base_ratio)
+            row[reading] = dict(plan=path, feedback_only=fb_only, base=base, fb=fb)
         res['cases'][name] = row
-    # WAD-H1 alone, on the conventional score (a primary saving rolled at the model's rate)
+    # the registered channels (before AM-1 to AM-3), central and pessimistic, reading A: what the amendments moved
+    res['registered'] = {name: case_run(bk, plan_debt, net_of(res['registered_channels'][ch_end]), 'A', name,
+                                        base_ratio)[0] for name, ch_end in CASES[:2]}
     for end in ('central', 'high'):
         sim = FP.simulate(bk, res['wad'][end])
         res.setdefault('wad_debt', {})[end] = {y: sim[y]['debt_gdp'] for y in YEARS}
     res['growth'] = {(fac, sh): growth_sensitivity(bk, fac, sh) for fac in ('productivity', 'labor_force')
                      for sh in (-0.3, 0.3)}
-    # The goals: the conventional share (the recommendation, by the hard rule) and what dynamic cases would need
+    # The goals: the conventional share (the requirement, by the hard rule) and what each dynamic case would need
     res['goals'] = {}
     for g, lab in FP.GOALS:
-        conv = FP.solve_share(bk, g, 0.0)
-        row = dict(label=lab, conventional=conv)
-        for name, ch_end, fb_end in CASES:
+        row = dict(label=lab, conventional=FP.solve_share(bk, g, 0.0))
+        for name, ch_end in CASES:
             net = res['cases'][name]['net']
-            row[name] = solve_dynamic(bk, g, net, fb_end, base_ratio)
+            for reading in READINGS:
+                row[(name, reading)] = solve_dynamic(bk, g, net, reading, name, base_ratio)
         res['goals'][g] = row
     return res
 
@@ -149,14 +194,14 @@ def growth_sensitivity(bk, factor, shift):
             else 100 * bk.debt[y] / bk.gdp[y] for y in YEARS}
 
 
-def dynamic_with_x(bk, s, net, fb_end, base_ratio):
+def dynamic_with_x(bk, s, net, reading, name, base_ratio):
     sim = FP.simulate(bk, FP.shape(bk, s))
-    return run(bk, {y: sim[y]['debt'] for y in YEARS}, bk.gdp, net, fb_end=fb_end, reference='B', ref_path=base_ratio)
+    return case_run(bk, {y: sim[y]['debt'] for y in YEARS}, net, reading, name, base_ratio)[0]
 
 
-def solve_dynamic(bk, goal, net, fb_end, base_ratio):
-    """The smallest share (the conventional shape) that meets the goal on dynamic reading B."""
-    ok = lambda s: FP.met(goal, dynamic_with_x(bk, s, net, fb_end, base_ratio))
+def solve_dynamic(bk, goal, net, reading, name, base_ratio):
+    """The smallest share (the conventional shape) that meets the goal on one dynamic reading and case."""
+    ok = lambda s: FP.met(goal, dynamic_with_x(bk, s, net, reading, name, base_ratio))
     if ok(0.0):
         return 0.0
     lo, hi = 0.0, 8.0
@@ -166,77 +211,96 @@ def solve_dynamic(bk, goal, net, fb_end, base_ratio):
     return round(hi + 0.0005, 3)
 
 
+RLAB = {'C': 'C, channels alone', 'A': 'A, symmetric from FY2029 (headline)', 'B': 'B, from CBO\'s baseline path (sensitivity)'}
+
+
 def markdown(r):
     f1, f2, f0 = FP.f1, FP.f2, FP.f0
     bk, gdp = r['bk'], r['bk'].gdp
+    ends = ('low', 'central', 'high')
     L = ['# The fiscal path review, part 2: the dynamic layer (results)', '',
          'Generated by `models/tools/fiscal_dynamic.py --write` (stage G step 8a), on the parameters registered before '
-         'any run ([`dynamic-preregistration.md`](dynamic-preregistration.md); `models/tools/fiscal_dynamic_params.json`). '
-         '**Shown beside the conventional score, never instead of it; no debt goal may rely on it (the hard rule). It '
-         'needs an independent red-team review.** Debt held by the public, % of GDP. Reading A measures the feedback '
-         'from the FY2029 debt ratio for both paths; reading B from CBO\'s baseline debt path, so only the plan\'s '
-         'difference from current law gets it. Pessimistic: every channel at its low end and the feedback at its high '
-         'end; optimistic: the reverse. Project arithmetic, not an official score.', '']
+         'any run (`models/tools/fiscal_dynamic_params.json`, commit 87125a0) with the dated amendments AM-1 to AM-3 '
+         '(`fiscal_dynamic_amendments.json`; [`dynamic-preregistration.md`](dynamic-preregistration.md), "Changes after '
+         'registration"), made after the red-team of #483. **Shown beside the conventional score, never instead of it; '
+         'no debt goal may rely on it (the hard rule).** Debt held by the public, % of GDP. Project arithmetic, not an '
+         'official score.', '',
+         '**Readings.** C: the plan\'s own channels alone, no feedback. **A: the rate and output feedback from the FY2029 '
+         'debt ratio, on the baseline and the plan alike (symmetric; the headline).** B: the feedback from CBO\'s own '
+         'baseline debt path, so only the plan\'s difference from current law gets it (a sensitivity: it credits the '
+         'plan\'s whole distance below current law at average coefficients, which likely overstates it; see part 2 of '
+         '`../4-fiscal-path.md`). **Cases.** Pessimistic: every channel at its low end and, on each reading, whichever '
+         'feedback end gives the plan the higher FY2056 debt; optimistic: the reverse. **Not pre-registered:** the '
+         'engine, this pairing and the readings\' roles; the first results were committed about 6.5 minutes after the '
+         'registration.', '']
     L += ['## 1. Debt, conventional and dynamic', '',
-          '| Path | Reading | Case | ' + ' | '.join('FY%d' % y for y in SHOW) + ' |', '| --- | --- | --- |' + ' --- |' * len(SHOW)]
+          '| Path | Reading | Case (feedback end) | ' + ' | '.join('FY%d' % y for y in SHOW) + ' |',
+          '| --- | --- | --- |' + ' --- |' * len(SHOW)]
     L.append('| Baseline (current law) | conventional | — | ' + ' | '.join(f1(r['conv']['base'][y]) for y in SHOW) + ' |')
     L.append('| The plan as booked | conventional | — | ' + ' | '.join(f1(r['conv']['plan'][y]) for y in SHOW) + ' |')
-    for name, _, _ in CASES:
-        for reading in ('A', 'B'):
+    for name, _ in CASES:
+        for reading in READINGS:
             c = r['cases'][name][reading]
+            tag = '%s (%s)' % (name, c['fb']) if reading != 'C' else name
             if reading == 'A':
-                L.append('| Baseline | A | %s | ' % name + ' | '.join(f1(c['base'][y]['debt_gdp']) for y in SHOW) + ' |')
-            L.append('| Plan, feedback only | %s | %s | ' % (reading, name) + ' | '.join(f1(c['plan_feedback_only'][y]['debt_gdp']) for y in SHOW) + ' |')
-            L.append('| **Plan, feedback and channels** | %s | %s | ' % (reading, name) + ' | '.join(f1(c['plan'][y]['debt_gdp']) for y in SHOW) + ' |')
+                L.append('| Baseline | A | %s | ' % tag + ' | '.join(f1(c['base'][y]['debt_gdp']) for y in SHOW) + ' |')
+            if reading != 'C':
+                L.append('| Plan, feedback only | %s | %s | ' % (reading, tag) + ' | '.join(f1(c['feedback_only'][y]['debt_gdp']) for y in SHOW) + ' |')
+            L.append('| **Plan%s** | %s | %s | ' % (', channels alone' if reading == 'C' else ', feedback and channels', reading, tag) +
+                     ' | '.join(f1(c['plan'][y]['debt_gdp']) for y in SHOW) + ' |')
     L.append('')
-    c = r['cases']['central']['A']
-    L += ['On reading A (central), the plan\'s debt is %s points below the baseline\'s in FY2056, against %s points on '
-          'the conventional score: the feedback widens the plan\'s advantage, because the baseline\'s debt is higher.' % (
-              f1(c['base'][2056]['debt_gdp'] - c['plan'][2056]['debt_gdp']), f1(r['conv']['base'][2056] - r['conv']['plan'][2056])), '']
-    # channels
+    a = r['cases']['central']['A']
+    L += ['On reading A (central), the plan\'s FY2056 debt is %s%% against %s%% on the conventional score, and %s points '
+          'below the baseline\'s (%s points on the conventional score): the plan\'s own channels cost a little, and the '
+          'symmetric feedback raises both paths, the baseline\'s more.' % (
+              f1(a['plan'][2056]['debt_gdp']), f1(r['conv']['plan'][2056]), f1(a['base'][2056]['debt_gdp'] - a['plan'][2056]['debt_gdp']),
+              f1(r['conv']['base'][2056] - r['conv']['plan'][2056])), '',
+          'The amendments\' effect (reading A, FY2056): central %s%% as registered, %s%% amended; pessimistic %s%% as '
+          'registered, %s%% amended.' % (f1(r['registered']['central'][2056]['debt_gdp']), f1(a['plan'][2056]['debt_gdp']),
+                                         f1(r['registered']['pessimistic'][2056]['debt_gdp']),
+                                         f1(r['cases']['pessimistic']['A']['plan'][2056]['debt_gdp'])), '']
     L += ['## 2. The plan\'s channels, one by one ($B; + lowers the deficit)', '',
           '| ID | Channel | FY2040 low / central / high | FY2056 low / central / high |', '| --- | --- | --- | --- |']
     for k, v in PARAMS['channels'].items():
         if k.startswith('_'):
             continue
-        L.append('| %s | %s | %s | %s |' % (k, v['label'], ' / '.join(f0(r['channels'][e][k][2040]) for e in ('low', 'central', 'high')),
-                                            ' / '.join(f0(r['channels'][e][k][2056]) for e in ('low', 'central', 'high'))))
-    nets = {e: {y: sum(p[y] for p in r['channels'][e].values()) for y in YEARS} for e in ('low', 'central', 'high')}
-    L.append('| | **Net** | %s | %s |' % (' / '.join(f0(nets[e][2040]) for e in ('low', 'central', 'high')),
-                                           ' / '.join(f0(nets[e][2056]) for e in ('low', 'central', 'high'))))
-    L.append('| | Net, %% of GDP | %s | %s |' % (' / '.join(f2(100 * nets[e][2040] / gdp[2040]) for e in ('low', 'central', 'high')),
-                                                ' / '.join(f2(100 * nets[e][2056] / gdp[2056]) for e in ('low', 'central', 'high'))))
+        am = ' (AM)' if k in ('N-TOP', 'N-CONTRIB', 'N-CTC', 'N-CARBON') else ''
+        L.append('| %s%s | %s | %s | %s |' % (k, am, v['label'], ' / '.join(f0(r['channels'][e][k][2040]) for e in ends),
+                                              ' / '.join(f0(r['channels'][e][k][2056]) for e in ends)))
+    nets = {e: net_of(r['channels'][e]) for e in ends}
+    L.append('| | **Net** | %s | %s |' % (' / '.join(f0(nets[e][2040]) for e in ends), ' / '.join(f0(nets[e][2056]) for e in ends)))
+    L.append('| | Net, %% of GDP | %s | %s |' % (' / '.join(f2(100 * nets[e][2040] / gdp[2040]) for e in ends),
+                                                ' / '.join(f2(100 * nets[e][2056] / gdp[2056]) for e in ends)))
     L.append('')
-    # WAD
     w = r['wad']
     L += ['## 3. Health "works as designed" (WAD-H1), on its own line', '',
-          'The single plan\'s gross cost growing below D2\'s cap, measured against the D2-held path (so D2\'s booked '
-          '−$249B in FY2040 isn\'t counted twice). Void if D2 fails. Never in a debt goal.', '',
+          'The single plan\'s gross cost growing below D2\'s cap, measured against the D2-held path (the conventional base '
+          'already banks D2\'s −$249B in FY2040, so this counts only spending below the cap). Void if D2 fails. Never in '
+          'a debt goal.', '',
           '| Points below the cap | FY2040 | FY2045 | FY2050 | FY2056 | Debt FY2056 with it (conventional otherwise) |',
           '| --- | --- | --- | --- | --- | --- |']
     for e in ('central', 'high'):
         L.append('| %s | %s | %s | %s | %s | %s |' % (f2(PARAMS['works_as_designed']['WAD-H1']['points_below_cap'][e]),
                                                      f0(w[e][2040]), f0(w[e][2045]), f0(w[e][2050]), f0(w[e][2056]), f1(r['wad_debt'][e][2056])))
     L.append('')
-    # growth
     L += ['## 4. The future economy: growth 0.3 points a year off CBO\'s path (a sensitivity, not a policy effect)', '',
           'The budget model\'s growth link (`ASM-GROWTH-LINK`, CBO\'s rules of thumb, publication 62257), from FY2030, on '
-          'the plan as booked. It shows how much the debt path rests on the economy\'s own growth, next to which the '
-          'policy channels above are small. CBO\'s rules moved 20-33% between their 2025 and 2026 editions.', '',
+          'the plan as booked, extended past CBO\'s eleventh year on a straight line; the plan\'s rows stay in dollars. '
+          'CBO\'s rules moved 20-33% between their 2025 and 2026 editions.', '',
           '| Growth a year, from FY2030 | ' + ' | '.join('FY%d' % y for y in SHOW) + ' |', '| --- |' + ' --- |' * len(SHOW)]
     L.append('| CBO\'s path (the booked plan) | ' + ' | '.join(f1(r['conv']['plan'][y]) for y in SHOW) + ' |')
     for (fac, sh), path in r['growth'].items():
-        L.append('| %s %+.1f point | ' % (fac.replace('_', ' ').capitalize(), sh) + ' | '.join(f1(path[y]) for y in SHOW) + ' |')
+        L.append('| %s %s point | ' % (fac.replace('_', ' ').capitalize(), f1(sh) if sh < 0 else '+' + f1(sh)) + ' | '.join(f1(path[y]) for y in SHOW) + ' |')
     L.append('')
-    # goals
     L += ['## 5. The goals: what the conventional score needs, and what the dynamic cases would need', '',
-          'Share of GDP from FY2036 (the FY2032-36 ramp), central r − g. Dynamic shares are on reading B. **By the hard '
-          'rule the conventional share is the one a recommendation must meet**; a dynamic shortfall below it is margin, '
-          'or a rate lowered later by a trigger once it shows up in receipts.', '',
-          '| Goal | Conventional (the requirement) | Dynamic central | Dynamic pessimistic | Dynamic optimistic |',
-          '| --- | --- | --- | --- | --- |']
+          'Share of GDP from FY2036 (the FY2032-36 ramp), central r − g. **By the hard rule the conventional share is the '
+          'requirement.** A dynamic case that needs more shows the risk of the channels and the feedback; one that needs '
+          'less is not a lower requirement.', '',
+          '| Goal | Conventional (the requirement) | ' + ' | '.join('%s, %s' % (n, rd) for n, _ in CASES for rd in READINGS) + ' |',
+          '| --- | --- |' + ' --- |' * (len(CASES) * len(READINGS))]
     for g, row in r['goals'].items():
-        L.append('| %s | %s | %s | %s | %s |' % (row['label'], f2(row['conventional']), f2(row['central']), f2(row['pessimistic']), f2(row['optimistic'])))
+        L.append('| %s | **%s** | ' % (row['label'], f2(row['conventional'])) +
+                 ' | '.join(f2(row[(n, rd)]) for n, _ in CASES for rd in READINGS) + ' |')
     L.append('')
     return '\n'.join(L) + '\n'
 

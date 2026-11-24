@@ -67,18 +67,57 @@ class Dynamic(unittest.TestCase):
         self.assertEqual(h, REGISTERED_SHA256, 'fiscal_dynamic_params.json changed after registration: record it '
                          'in dynamic-preregistration.md ("Changes after registration") and update this hash')
 
-    def test_reading_b_leaves_the_baseline(self):
+    def _recursion(self, out, ref, fb='central'):
+        """Rebuild the rate path from the engine's own debt ratios, independently of run()'s loop."""
+        sym = FD.PARAMS['symmetric']
+        beta, adj = sym['rate_bp_per_point'][fb] / 10000, sym['rate_bp_per_point']['adjust_years']
+        dr, prev, rates = 0.0, out[FD.REF_YEAR]['debt_gdp'], {}
+        for y in range(FD.START, 2057):
+            dr += (beta * (prev - ref(y - 1)) - dr) / adj
+            rates[y] = 100 * dr
+            prev = out[y]['debt_gdp']
+        return rates
+
+    def test_reading_b_feedback_is_the_plans_difference(self):
+        """Reading B charges the plan beta x (plan - baseline): its rate change is negative and matches the recursion."""
         base = {y: BK.rows[y]['baseline_debt_bn'] for y in FP.YEARS}
         ratio = {y: 100 * base[y] / BK.gdp[y] for y in FP.YEARS}
-        out = FD.run(BK, base, BK.gdp, None, reference='B', ref_path=ratio)
-        for y in FP.YEARS:
-            self.assertAlmostEqual(out[y]['debt_gdp'], ratio[y], places=9)
+        out = FD.run(BK, BK.debt, BK.gdp, None, reference='B', ref_path=ratio)
+        rates = self._recursion(out, lambda y: ratio[y])
+        for y in range(FD.START, 2057):
+            self.assertAlmostEqual(out[y]['rate_pts'], rates[y], places=9)
+        self.assertLess(out[2056]['rate_pts'], -0.5)        # 47 points below the baseline: rates well down
+        base_b = FD.run(BK, base, BK.gdp, None, reference='B', ref_path=ratio)
+        self.assertEqual(max(abs(base_b[y]['rate_pts']) for y in FP.YEARS), 0.0)
 
     def test_symmetry_reading_a(self):
-        """The same feedback reaches the baseline: its dynamic debt rises above its conventional debt."""
+        """The same engine and coefficients run on both paths: each path's rate change follows beta x (its own debt -
+        the FY2029 ratio), and the baseline's rises more because its debt is higher."""
         base = {y: BK.rows[y]['baseline_debt_bn'] for y in FP.YEARS}
-        out = FD.run(BK, base, BK.gdp, None, reference='A')
-        self.assertGreater(out[2056]['debt_gdp'], 100 * base[2056] / BK.gdp[2056])
+        outs = {k: FD.run(BK, d, BK.gdp, None, reference='A') for k, d in (('base', base), ('plan', BK.debt))}
+        for k, d in (('base', base), ('plan', BK.debt)):
+            ref = 100 * d[FD.REF_YEAR] / BK.gdp[FD.REF_YEAR]
+            rates = self._recursion(outs[k], lambda y: ref)
+            for y in range(FD.START, 2057):
+                self.assertAlmostEqual(outs[k][y]['rate_pts'], rates[y], places=9)
+        self.assertGreater(outs['base'][2056]['rate_pts'], outs['plan'][2056]['rate_pts'] + 0.5)
+        self.assertGreater(outs['base'][2056]['debt_gdp'], 100 * base[2056] / BK.gdp[2056])
+
+    def test_pessimistic_is_the_worst(self):
+        """On each feedback reading, the pessimistic case's FY2056 debt is the highest of the low-channel pairings."""
+        base_ratio = {y: 100 * BK.rows[y]['baseline_debt_bn'] / BK.gdp[y] for y in FP.YEARS}
+        net = FD.net_of(FD.channels(BK.gdp, 'low'))
+        for reading in ('A', 'B'):
+            path, _ = FD.case_run(BK, BK.debt, net, reading, 'pessimistic', base_ratio)
+            for e in ('low', 'central', 'high'):
+                alt = FD.run(BK, BK.debt, BK.gdp, net, fb_end=e, reference=reading, ref_path=base_ratio)
+                self.assertGreaterEqual(path[2056]['debt_gdp'], alt[2056]['debt_gdp'] - 1e-9)
+
+    def test_amendments_leave_the_registration(self):
+        self.assertEqual(FD.REGISTERED['channels']['N-TOP']['low'], -0.25)
+        self.assertEqual(FD.PARAMS['channels']['N-TOP']['low'], -0.51)
+        self.assertIn('N-CTC', FD.PARAMS['channels'])
+        self.assertNotIn('N-CTC', FD.REGISTERED['channels'])
 
     def test_negatives_counted(self):
         ch = FD.channels(BK.gdp, 'central')

@@ -61,4 +61,23 @@ Espen allows a labeled "works as designed" health saving with a range (`DEC-2026
 
 ## Changes after registration
 
-None.
+Everything above stands as registered in commit 87125a0, and `fiscal_dynamic_params.json` stays byte-identical to it (a test pins its hash). The changes below were made **after the first results were seen**, in answer to the independent red-team of PR #483 (lead session, November 24, 2026). They are applied from `models/tools/fiscal_dynamic_amendments.json`, and the results note reports the registered reading beside the amended one.
+
+**Not pre-registered, disclosed:** the engine itself (`fiscal_dynamic.py`), the pairing of channel and feedback ends into cases, and the readings' roles. The first results were committed about 6.5 minutes after the registration.
+
+**Amendments (November 24, 2026):**
+- **AM-1, N-TOP's low end: −0.25 → −0.51.** The registered range left out the anchor it cites. JCT's 2017 dynamic analysis recovered roughly a quarter of that law's conventional cost, and 25% of the FY2040 top-end and corporate revenue (about $1.1T) is about 0.51% of GDP. The reason given for a smaller share (conventional scores and the allowances already count avoidance) applies to JCT's own conventional score too, so it doesn't justify leaving the anchor out of the range. The central (6%) and the high (3%) stay. **The central's departure from the anchor is unverified:** the primary sources (JCX-69-17's table, and CBO's dynamic estimate of P.L. 119-21 read directly rather than through CRFB) are for step 8b to read.
+- **AM-2, N-CONTRIB's favorable end: −0.04 → −0.075.** The registered high end ($22B) sat below the registration's own derivation, $40-110B in FY2040. It is now that floor ($40B).
+- **AM-3, DY3 and DY5 added:** N-CTC (the child benefit without a work requirement, from DY3's −$0.07T over FY2030-39) and N-CARBON (the carbon fee net of its dividend, from DY5's −$0.07T). Each runs −0.03 / −0.02 / −0.005% of GDP at FY2040. The registration had left them out without saying so.
+
+**The readings, after the red-team:**
+- **Reading A (symmetric, from the FY2029 ratio) is the headline,** with C (the channels alone) beside it.
+- **Reading B is a labeled sensitivity, likely overstated.** It credits the plan's whole distance below CBO's baseline (47 points by FY2056) at the average coefficients: 2 basis points per point, extrapolated in a straight line across 47 points, and CBO's average crowding out. Deficit reduction financed by wealth and top-end taxes falls partly on saving, so it would free less private capital than the average.
+- **The pessimistic case** takes, on each reading, whichever feedback end gives the plan the higher FY2056 debt. On reading B, high feedback helps the plan, so the first pairing (low channels with high feedback) wasn't the worst case.
+- **FY2036-39's crowding out is "in" only on reading A.** On reading B those years' deficits are charged only for their difference from current law's.
+
+**Notes on the registered text:**
+- **P-WORK** (+0.01) has no derivation. It is a judgment, kept small.
+- **P-HEALTHWORK's** "premiums turned into wages" overlaps the revenue the conventional score already books when the exclusion ends (`dossiers/care/6-cost.md`, around line 148). Its job-lock part is what remains, and its central may be high.
+- **Part C's "D2 itself has never been done"** refers to the historical record (EV-CAR-742). The conventional base already banks D2 (−$249B in FY2040). WAD-H1 is measured below that banked path.
+- **"About 27 points either way"** for productivity ±0.3 is −24 / +29 points in FY2056.

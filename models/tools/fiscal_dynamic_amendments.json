@@ -1,0 +1,14 @@
+{
+  "_role": "Stage G step 8a: dated, labeled amendments to the dynamic layer's registration (fiscal_dynamic_params.json, which stays byte-identical to its commit 87125a0). Each amendment was made after results had been seen, in answer to the independent red-team of PR #483 (lead session, November 24, 2026); dossiers/foundations/fair-financing/notes/dynamic-preregistration.md, 'Changes after registration', gives each one's reason. fiscal_dynamic.py applies them on top of the registration and reports the registered reading beside the amended one.",
+  "amendments": [
+    {"id": "AM-1", "date": "2026-11-24", "what": "N-TOP's low end widened from -0.25 to -0.51 so the range includes the anchor it cites (JCT's 2017 dynamic analysis recovered roughly a quarter of the conventional cost; 25% of about $1.1T of FY2040 top-end and corporate revenue is about 0.51% of GDP). Central and high unchanged; the central's departure from the anchor is unverified against the primary sources (JCX-69-17; CBO's 2025 dynamic estimate read directly).",
+     "set": {"channels.N-TOP.low": -0.51}},
+    {"id": "AM-2", "date": "2026-11-24", "what": "N-CONTRIB's favorable end raised from -0.04 to -0.075, the floor of the registration's own derivation ($40B in FY2040).",
+     "set": {"channels.N-CONTRIB.high": -0.075}},
+    {"id": "AM-3", "date": "2026-11-24", "what": "Two legacy dynamic rows the registration left out without saying so, added: DY3 (child tax credit without a work requirement, -$0.07T over FY2030-39 at its mid) and DY5 (the carbon fee net of its dividend, -$0.07T), each at its legacy range's FY2040 level.",
+     "add": {
+       "N-CTC": {"label": "The child benefit without a work requirement: small labor-supply effect (DY3's basis)", "sign": "-", "low": -0.03, "central": -0.02, "high": -0.005, "start": 2030, "ramp": 4},
+       "N-CARBON": {"label": "The carbon fee net of its dividend: small output drag (DY5's basis)", "sign": "-", "low": -0.03, "central": -0.02, "high": -0.005, "start": 2030, "ramp": 4}
+     }}
+  ]
+}

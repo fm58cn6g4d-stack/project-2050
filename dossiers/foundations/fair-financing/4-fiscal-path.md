@@ -16,7 +16,7 @@ Units: federal fiscal years, nominal $B or % of GDP. Project arithmetic on explo
 3. **At CBO's rates, every goal costs about the same: 1.35-1.54% of GDP more deficit reduction from FY2036, about $730-830B in FY2040.** That is on top of the settlement, phased in from FY2032 with nothing in FY2029-31. Getting debt to fall from the mid-2030s turns out as dear as getting it under 100% by FY2050, because FY2036's hump (the plan's own FY2036-39 shortfall) binds the first goal.
 4. **It turns on interest rates against growth.** If rates run half a point below growth, the goals cost a quarter to a half of that, and the booked path already stops rising after about FY2040. If rates run 1.5 points above growth, they cost about 2.5% of GDP. A rate shock of 100 to 200 basis points from FY2035 lifts the booked path's FY2056 debt to 157-186%.
 5. **The money competes with the take-home test.** If the health contribution carried any of the goals alone, its rate would reach about 7.1-7.5% and about 38-40% of workers would come out ahead. Holding it at 3.80% (69.0%) means finding all of the $730-830B elsewhere. Reaching the 85% target (R about 2.57%) adds about $276B a year more in FY2040.
-6. **The dynamic layer doesn't rescue it, and doesn't sink it.** Counted honestly, with the negatives in, the plan's own economic effects are a small net cost: about −0.12% of GDP in FY2040. That matches CBO's and JCT's usually small estimates. What helps is that the plan's debt sits far below current law's, so on a symmetric reading it pays lower rates and crowds out less: FY2056 debt is about 124% instead of 133%. Faster or slower productivity growth moves the path far more than any policy channel does: 0.3 points a year moves FY2056 debt about 27 points either way.
+6. **The dynamic layer makes the goals harder, not easier.** Counted with the negatives in, the plan's own economic effects are a net cost: about −0.16% of GDP in FY2040, central, with a wide range (−0.87% to +0.18%), widest at the low end because of the top-rate stack. On the symmetric reading (A), which runs the same rate and output feedback on current law and the plan, FY2056 debt is about 147% rather than the conventional 133%. Current law's rises to about 209%, so the plan's lead over it widens, but its own level is worse. Only a sensitivity that credits the plan's whole distance below current law (reading B, likely overstated) shows a lower path, about 126%. Faster or slower productivity growth moves the path more than any policy channel: 0.3 points a year moves FY2056 debt by −24 or +29 points.
 7. **Health "works as designed"** (spending a quarter point a year below D2's cap) would save about $77B in FY2040 and $780B in FY2056, measured below D2's path so D2 isn't counted twice. By the hard rule it counts toward no goal.
 
 ## Part 1. The debt gap and the frontier
@@ -134,45 +134,84 @@ So the batch has to price combinations: a goal, a take-home level and a G8 optio
 Ranked by how much they could move FY2056 debt (`notes/dynamic-results.md`):
 
 1. **The economy's own growth** (productivity ±0.3 points a year from FY2030: FY2056 debt 109% to 162%; labor force ±0.3: 118% to 150%). This is the largest by far. It isn't a policy effect, but the plan touches it at the margin through immigration, child care and investment. It is the strongest reason for the hard rule: a goal met only on hoped-for growth fails at CBO's growth.
-2. **Rate and crowding-out feedback on the plan's lower debt.** The plan's debt is 47 points below current law's by FY2056. At CBO's 2-3 basis points per point, that is roughly 100 basis points lower rates and about 1% more output in the long run. On the symmetric reading B, FY2056 debt is about 124% rather than 133%. Conventional scoring gives the plan none of it.
-3. **The negatives in the financing:** the 3.80% contribution's marginal rate on earnings (about −$54B in FY2040, central) and the top-rate stack and corporate rows (about −$65B). These outweigh every positive channel except child care.
+2. **Rate and crowding-out feedback.** Debt this high pays for itself in higher rates and lower output under either path. On the symmetric reading A (from the FY2029 ratio), FY2056 debt is about 147% for the plan and 209% for current law. Conventional scoring gives neither path the feedback, and neither the plan's advantage nor its own cost. Reading B credits the plan with its whole 47-point distance below current law at the average coefficients (2 basis points per point, extrapolated in a straight line; CBO's average crowding out) and gets about 126%. That likely overstates the gain: deficit reduction financed by wealth and top-end taxes partly displaces saving, so it frees less private capital than the average.
+3. **The negatives in the financing:** the 3.80% contribution's marginal rate on earnings (about −$54B in FY2040, central) and the top-rate stack and corporate rows (about −$65B central, and −$276B at the low end, which now includes JCT's 2017 recovery share). These outweigh every positive channel.
 4. **Child care, pre-K and paid leave** (about +$43B in FY2040, central), **immigration** (+$16B) and **investment** (+$11B in FY2040, rising to about +$57B by FY2056).
 5. **Health cost growth below D2's cap** (WAD-H1): not dynamic, but the largest "works as designed" item, and the one Espen named.
 
-**Effects found too small to change the picture:** the health-coverage labor-supply convention (−$22B), job lock (+$11B), work on-ramps (+$5B) and the wealth tax beyond its allowance (−$11B).
+**Effects found too small to change the picture:** the health-coverage labor-supply convention (−$22B), job lock (+$11B; it partly overlaps the exclusion revenue already booked), work on-ramps (+$5B, a judgment with no derivation), the wealth tax beyond its allowance (−$11B), the child benefit's labor supply (−$11B, DY3) and the carbon fee's drag (−$11B, DY5).
 
 ### 2.3 The contained dynamic layer
 
-**Pre-registered.** The parameters, ranges and sources were written and committed before any debt path was run with them: [`notes/dynamic-preregistration.md`](notes/dynamic-preregistration.md) and `models/tools/fiscal_dynamic_params.json`, commit 87125a0. A test fails if the file changes without a new registration. Results: [`notes/dynamic-results.md`](notes/dynamic-results.md) (`models/tools/fiscal_dynamic.py`).
+**Pre-registered, then amended in the open.** The parameters, ranges and sources were written and committed before any debt path was run with them: [`notes/dynamic-preregistration.md`](notes/dynamic-preregistration.md) and `models/tools/fiscal_dynamic_params.json`, commit 87125a0. A test fails if the file changes. After an independent red-team (PR #483), three dated amendments, AM-1 to AM-3 (`fiscal_dynamic_amendments.json`), were applied on top:
+- N-TOP's low end now includes JCT's 2017 anchor;
+- N-CONTRIB's favorable end now sits at its own derivation's floor;
+- DY3 and DY5 are added.
+The registration's "Changes after registration" gives the reasons, and the results report the registered reading beside the amended one. **Not pre-registered, and disclosed:** the engine, the pairing of ends into cases, and the readings' roles. The first results came about 6.5 minutes after the registration. Results: [`notes/dynamic-results.md`](notes/dynamic-results.md) (`models/tools/fiscal_dynamic.py`).
+
+**Three readings:**
+- **C** is the plan's own channels alone, with no feedback.
+- **A, the headline,** runs the rate and output feedback from the FY2029 debt ratio on current law and the plan alike.
+- **B** runs the feedback from CBO's own baseline path, so only the plan's difference gets it. It is a sensitivity, and likely overstated (part 2.2).
+
+The pessimistic case takes every channel at its low end and, on each reading, whichever feedback end gives the plan the higher FY2056 debt.
+
+**FY2056 debt, % of GDP** (conventional: plan 133.1, current law 180.2):
+
+| Case | C, channels alone | **A, symmetric** | B, sensitivity | Current law on A |
+| --- | --- | --- | --- | --- |
+| Central | 137.5 | **147.3** | 125.9 | 208.5 |
+| Pessimistic | 160.7 | **197.0** | 158.4 | 230.4 |
+| Optimistic | 126.5 | **129.2** | 104.2 | 192.8 |
 
 **The guardrails, and how each is met:**
-- **Symmetry.** The rate and output feedback runs on the baseline as well as on the plan. Reading A (from the FY2029 debt ratio) takes the baseline from 180% to 209% of GDP in FY2056 and the plan from 133% to 146%. CBO's long-term projection already carries some feedback, so reading A overstates both levels. Reading B (from CBO's own baseline path) leaves the baseline as CBO has it and gives the plan the feedback on its difference: 124%.
-- **Count the negatives.** The labor-supply effects of the top-rate stack and of the 3.80% contribution, wealth-tax avoidance, fuller coverage's labor supply, and crowding out in FY2036-39 (through the feedback on those years' debt) are all in. The central net of the plan's own channels is **−0.12% of GDP in FY2040**: a cost.
-- **Anchor the ranges.** CBO's working paper 2019-01 (2-3 basis points per point of debt). CBO's 2016 federal investment study (a 5% return, a third offset). CBO's 2014 ACA labor-supply estimate. CBO's 2024 immigration estimate. JCT's dynamic analysis of the 2017 law (JCX-69-17) and CBO's dynamic estimate of the 2025 law. The departures are named in the registration: child care, where CBO has published nothing dynamic, and the low end of rate sensitivity, for the dollar's reserve role.
-- **Health.** D2 is booked (without it the plan is $243B short in FY2040). WAD-H1 is measured against the D2-held path, so it counts only spending below the cap and none of D2 twice. It fails if D2 fails. It is on its own line, never in the dynamic net.
-- **The hard rule.** In the table below, the conventional share is the requirement. A dynamic case that needs less is margin, not a lower requirement.
+- **Symmetry.** Reading A runs the same engine and coefficients on both paths. CBO's long-term projection already carries some feedback, so A overstates both levels. The plan's lead over current law widens (61 points, against 47 on the conventional score), but the plan's own level is worse.
+- **Count the negatives.** All are in: the labor supply of the top-rate stack and of the 3.80% contribution, wealth-tax avoidance, fuller coverage's labor supply, the child benefit, the carbon fee, and crowding out in FY2036-39. That last one is in only on reading A; on B those years are charged only for their difference from current law's. The central net of the plan's own channels is **−0.16% of GDP in FY2040**, a cost.
+- **Anchor the ranges.** The anchors:
+  - CBO's working paper 2019-01: 2-3 basis points per point of debt;
+  - CBO's 2016 federal investment study: a 5% return, a third offset;
+  - CBO's 2014 ACA labor-supply estimate;
+  - CBO's 2024 immigration estimate;
+  - JCT's dynamic analysis of the 2017 law (JCX-69-17);
+  - CBO's dynamic estimate of the 2025 law.
 
-| Goal | Conventional (the requirement) | Dynamic central | Dynamic pessimistic | Dynamic optimistic |
+  The departures:
+  - Child care, where CBO has published nothing dynamic.
+  - The low end of rate sensitivity, for the dollar's reserve role.
+  - **N-TOP's central (6% of top-end and corporate revenue, against JCT's roughly 25% for the 2017 cut).** That departure is **not yet verified** against the primary sources. Step 8b reads JCX-69-17's table, and CBO's 2025 estimate directly rather than through CRFB's summary.
+- **Health.** D2 is booked, and the conventional base already banks its −$249B in FY2040 (without it the plan is $243B short). WAD-H1 is measured below the D2-held path, so it counts only spending below the cap and none of D2 twice. It fails if D2 fails. It is on its own line, never in the dynamic net.
+- **The hard rule.** The conventional share is the requirement.
+
+**Share of GDP from FY2036 each goal needs:**
+
+| Goal | Conventional (the requirement) | Central: C / **A** / B | Pessimistic: C / **A** / B | Optimistic: C / **A** / B |
 | --- | --- | --- | --- | --- |
-| 1. Falling from the mid-2030s | **1.54%** | 1.70% | 2.31% | 1.26% |
-| 2. Under 100% by FY2050 | **1.48%** | 1.17% | 1.52% | 0.94% |
-| 3. Under 100% by FY2055 | **1.35%** | 0.90% | 1.17% | 0.74% |
+| 1. Falling from the mid-2030s | **1.54%** | 1.88 / **1.91** / 1.74 | 2.83 / **2.86** / 2.78 | 1.45 / **1.46** / 1.21 |
+| 2. Under 100% by FY2050 | **1.48%** | 1.67 / **1.67** / 1.23 | 2.58 / **2.66** / 2.38 | 1.22 / **1.20** / 0.52 |
+| 3. Under 100% by FY2055 | **1.35%** | 1.52 / **1.52** / 0.95 | 2.38 / **2.47** / 2.12 | 1.09 / **1.07** / 0.20 |
 
-Read across: on the dynamic central case, goals 2 and 3 would have 0.3-0.45 points of GDP of margin if met on the conventional score. Goal 1 has less margin, because the channels' costs arrive before the feedback's gains.
+Read across: on the channels alone and on the symmetric reading, every goal needs more than its conventional share. That is about 0.2-0.35 points of GDP in the central case, and over a point in the pessimistic one. Only reading B, the likely overstated sensitivity, needs less. So the dynamic layer gives no margin to count on. It is a risk to plan for: a goal met exactly on the conventional score has no cushion if the financing's labor-supply and investment costs come in near CBO's and JCT's anchors.
 
 **How the layer may be used** (for step 8c's budget process):
-- **As margin.** A goal met on the conventional score with the dynamic central case beside it shows how much room is left.
+- **As a risk margin, not a saving.** The central symmetric case shows how much a goal met exactly on the conventional score could fall short. Step 8b should weigh building that cushion into the goal's sources, or a trigger (next point) that adds deficit reduction if receipts come in below the conventional score.
 - **Through a trigger,** never up front. Where a dynamic or "works as designed" saving shows up in measured results, a later rate may step down: for example the health contribution once the trustees certify spending below D2's path (memo G8's option D is that kind of trigger), or deficit reduction eased once the average rate on the debt runs below the plan's assumption.
 
-**An independent red-team review is required** before any dynamic figure reaches Espen as more than a sensitivity. Its main targets:
-- reading B's large feedback benefit, which comes from the plan's distance below CBO's baseline;
+**The independent red-team** (the lead session, on head 2dc35b0) found three blocking defects:
+- the pessimistic pairing wasn't the worst case;
+- the headline and its "margin" rested on reading B alone;
+- N-TOP's range excluded its own anchor.
+
+All three are fixed here, along with its other notes (AM-1 to AM-3; stronger tests of the symmetry and of the rate recursion). What remains open for step 8b:
+- verify N-TOP's central against the primary sources;
 - the 0.25 budget response;
 - N-CONTRIB's elasticity;
-- whether P-CARE and P-INVEST overlap the investment that the crowding channel already credits.
+- whether P-CARE and P-INVEST overlap the investment the crowding channel credits.
+
+The standing reviewer reviews this head before any dynamic figure reaches Espen as more than a sensitivity.
 
 ## Method and sources
 
 - **The debt goals:** `models/tools/fiscal_path.py` on `models/tools/recovery-budget/model.py` case `mixed` (the settlement booked). Rate readings use `fiscal-model.py`'s `rate_shift_interest` and `read_rollover`. The take-home curve is `financing-protection/budget_scan.take_home`. The R yield is `packages.HCU_PER_QUARTER_POINT_2040` on HCU's path. The decomposition uses the funds engine's current-law Social Security and HI cash flows.
-- **The dynamic layer:** `models/tools/fiscal_dynamic.py` and `fiscal_dynamic_params.json`. The growth sensitivity is `fiscal-model.py`'s `growth_path` (CBO publication 62257).
+- **The dynamic layer:** `models/tools/fiscal_dynamic.py`, `fiscal_dynamic_params.json` (as registered) and `fiscal_dynamic_amendments.json` (AM-1 to AM-3). The growth sensitivity is `fiscal-model.py`'s `growth_path` (CBO publication 62257).
 - **Tests:** `models/tools/test_fiscal_path.py` (run-all.sh step 8c2): the booked path reproduced, the r − g targets, each goal solved minimally, the debt identity, symmetry, the registration hash, DY4 at zero, and both notes current.
 - **Sources for the anchors** (the registration has each one's use): CBO working paper 2019-01 (publication 55018); Dallas Fed working paper 2513 (2025); CBO publication 51628 (June 2016); CBO, *The Budget and Economic Outlook: 2014 to 2024*, appendix C; CBO publication 60165 (July 2024); JCT JCX-69-17 (December 22, 2017); CBO working paper 61257 (February 2026) and CRFB's summary of CBO's dynamic estimate of P.L. 119-21; CBO working paper 2012-12; SRC-1165 (CBO's April 2025 letter on dynamic analysis). These aren't yet in the evidence register. Step 8b adds them (EV-FIN) when it cites them in the batch.
