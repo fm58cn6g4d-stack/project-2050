@@ -62,13 +62,13 @@ FY2040 effects are each choice's own effect on the general-fund gap as booked (`
 
 ## Step 10's batch: the health contribution as a trust fund
 
-After `DEC-2026-11-25-12` (the health contribution pays only for the health system). The analysis is [`../8-health-trust-fund.md`](../8-health-trust-fund.md); all three memos are in [`G26-G28-health-fund.md`](G26-G28-health-fund.md). **Provisional; nothing booked.**
+After `DEC-2026-11-25-12` (the health contribution pays only for the health system). The analysis is [`../8-health-trust-fund.md`](../8-health-trust-fund.md); all three memos are in [`G26-G28-health-fund.md`](G26-G28-health-fund.md). **Decided November 25, 2026: A, A with all three points, A** (`DEC-2026-11-25-30` to `-32`), **booked in stage G step 11** ([`../2-settlement.md`](../2-settlement.md) part 8). One point is booked as a working assumption pending Espen (G27.1a): the reserve band's base and the year the trustees test.
 
-| Memo | Question | Recommended | Effect |
+| Memo | Question | Answer | Effect (as estimated in step 10) |
 | --- | --- | --- | --- |
-| G26 | What the 3.80% stands for | **A**: re-founded as the share of the fund's cost the contribution pays | none on the booking |
-| G27 | How the rate moves after 2040 | **A**: the contribution pays a fixed share of the fund's cost (Part B's model); trustees' reserve band; the early surplus kept in the fund | R about 4.1% by FY2056; general fund $158B better in FY2056 |
-| G28 | The health contribution and the debt plan | **A**: only as a smaller general-fund share of health's cost, by law, under a certified ceiling | none against batch 4 (B, off the menu, costs a larger surtax without a VAT: $161-276B in FY2040) |
+| G26 | What the 3.80% stands for | **A** (decided, `-30`): re-founded as the share of the fund's cost the contribution pays | none on the booking |
+| G27 | How the rate moves after 2040 | **A** (decided, `-31`): the contribution pays a fixed share of the fund's cost (Part B's model); trustees' reserve band; the early surplus kept in the fund | R about 4.1% by FY2056; general fund $158B better in FY2056 |
+| G28 | The health contribution and the debt plan | **A** (decided, `-32`): only as a smaller general-fund share of health's cost, by law, under a certified ceiling | none against batch 4 (B, off the menu, costs a larger surtax without a VAT: $161-276B in FY2040) |
 
 ## What the settlement rests on, and who decided it
 
