@@ -60,7 +60,7 @@ BASES = {
     'observed': 'Current fact',
     'research': 'Research finding',
 }
-ESTIMATE_WORDS = ('on our estimate', 'our estimates', 'about', 'our analysis', 'our working figure', 'we assume',
+ESTIMATE_WORDS = ('on our estimate', 'our central estimates', 'our estimates', 'about', 'our analysis', 'our working figure', 'we assume',
                   'our estimates assume')
 # Phrases the front door must never use (PLAN 3.4; the section 9 can't-say lists), unless negated just before.
 BANNED = ('official score', 'scored by', 'pays for itself', 'paid for itself', 'ends child poverty',

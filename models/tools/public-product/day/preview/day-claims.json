@@ -464,10 +464,36 @@
     }
    ]
   },
+  "ces-model": {
+   "basis": "model",
+   "figures": [
+    "73%",
+    "2035",
+    "87%",
+    "2040"
+   ],
+   "statement": "The energy model reaches 73% clean power in 2035 and 87% in 2040; grid access, not price, is the limit; suppliers short of credits pay the capped payment (CLI-3A.02)",
+   "recheck": "",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/7-validation.md",
+     "anchor": "The energy model (MOD-energy) reaches 73% in 2035, 87% in 2040 and 92% in 2045, because grid access, not price, is the limit",
+     "line": 13,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/7-validation.md#L13"
+    }
+   ]
+  },
   "child-poverty": {
    "basis": "estimate",
    "figures": [
-    "9%"
+    "9%",
+    "8",
+    "12%",
+    "13.5-14.5%",
+    "2029"
    ],
    "statement": "On our estimates child poverty falls to about 9% (8-12%), about a third lower",
    "recheck": "",
@@ -743,6 +769,12 @@
      "anchor": "(2) anyone who has held TPS, DACA or humanitarian parole at any time",
      "line": 54,
      "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L54"
+    },
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "**Tier A: a green card on approval** (decided, memo 1 A, parts 1 and 3)",
+     "line": 54,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L54"
     }
    ]
   },
@@ -945,6 +977,25 @@
      "anchor": "An electric car pays $77 a year in FY2031 and $141 in FY2036",
      "line": 88,
      "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/agenda/transportation/3-design.md#L88"
+    }
+   ]
+  },
+  "fuel-steps": {
+   "basis": "decision",
+   "figures": [
+    "2040-44"
+   ],
+   "statement": "MOV-29.02: after the ten steps, five more steps of 2 cents (2029 dollars) in FY2040-44, with the same pause",
+   "recheck": "",
+   "scenes": [
+    "transit"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/agenda/transportation/4-specification.md",
+     "anchor": "After the ten steps: five more steps of 2 cents (2029 dollars), FY2040-44, same pause",
+     "line": 41,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/agenda/transportation/4-specification.md#L41"
     }
    ]
   },
@@ -1285,6 +1336,25 @@
      "anchor": "$180 a year at $60,000 at the start [EV-SEC-676]",
      "line": 75,
      "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/7-validation.md#L75"
+    }
+   ]
+  },
+  "leave-job": {
+   "basis": "decision",
+   "figures": [
+    "90"
+   ],
+   "statement": "FAM-3.07: an employer must restore a worker who took the benefit, after 90 days on the job, in the 2030 act",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "An employer must restore a worker who took the benefit, after 90 days on the job, to the same or an equivalent position",
+     "line": 94,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L94"
     }
    ]
   },

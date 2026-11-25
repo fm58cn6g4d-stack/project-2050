@@ -174,7 +174,7 @@
         "what_changed": [
           "A monthly child benefit for working and middle-class families: $300 a month for each child from 6 to 17 and $360 for each child under 6, in 2025 dollars and rising with prices.{c:afa-amounts} Every family below about $150,000 for couples ($112,500 for single parents), adjusted for inflation, gets the full amount, however little the parents earn.{c:afa-phaseout}",
           "It starts from records the government already holds, so families do not have to apply. A parent confirms a letter instead of filling out a form.",
-          "Twelve weeks of paid leave for a new child, a family member's serious illness or your own, run by Social Security, paying 85% of the first part of your wages, with your job back once the 2030 Social Security act passes.{c:leave}{c:leave-start}",
+          "Twelve weeks of paid leave for a new child, a family member's serious illness or your own, run by Social Security, paying 85% of the first part of your wages, with your job back if you have been on it at least 90 days, once the 2030 Social Security act passes.{c:leave}{c:leave-start}{c:leave-job}",
           "Workers without children get a real earned income credit, and food help cut by the 2025 law is restored.{c:floor-other} A Social Security act promises full benefits on time, with a stronger minimum benefit and credit for caregiving years."
         ],
         "begins": [
@@ -186,7 +186,7 @@
           "On our estimates a worker earning $60,000 pays $180 a year toward paid leave to start.{c:leave-cost}"
         ],
         "limits": [
-          "On our estimates child poverty falls to about 9%, about a third lower than today. That is a large cut, not an end to child poverty.{c:child-poverty}",
+          "On our estimates child poverty falls to about 9% (somewhere between 8% and 12%), from about 13.5-14.5% under the law as it will stand in 2029. That is a large cut, not an end to child poverty.{c:child-poverty}",
           "Couples above about $210,000 get somewhat less than the credit they would otherwise get.{c:afa-top}"
         ],
         "questions": [
@@ -229,7 +229,7 @@
       ],
       "detail": {
         "what_changed": [
-          "Child care is free for families at or below 85% of their state's median income, and no family pays more than 7% of its income for it, with no income limit.{c:cc-free}{c:cc-cap}",
+          "Child care is free for families at or below 85% of their state's median income, and no family pays more than 7% of its income for a child too young for school, with no income limit.{c:cc-free}{c:cc-cap}",
           "Pre-K is free for every 3- and 4-year-old, in schools, Head Start, centers and family child care alike.{c:prek}",
           "Child care and pre-K staff earn at least $20 an hour in 2026 dollars, rising with wages, and early educators reach pay parity with elementary teachers.{c:care-wage}{c:cc-parity}"
         ],
@@ -290,7 +290,7 @@
           "Hospitals are paid a fair rate, on a five-year glide to about 1.15 times Medicare's, where employer plans paid 254% of Medicare in 2022.{c:hospital-rates}"
         ],
         "begins": [
-          "From 2029 the 2025 law's Medicaid cuts are undone. From January 1, 2031, everyone uninsured, everyone who buys their own insurance and every child is enrolled, and people on Medicare get a $5,000 yearly cap on what they pay.{c:hlt-dates}",
+          "From 2029 the 2025 law's Medicaid cuts are undone. From January 1, 2031, everyone uninsured, everyone who buys their own insurance and every child is enrolled, and people in traditional Medicare get a $5,000 yearly cap on what they pay.{c:hlt-dates}",
           "People on Medicaid and with job-based coverage move in over 2033 to 2035, and everyone is in by January 1, 2035.{c:hlt-dates}"
         ],
         "cost": [
@@ -312,7 +312,7 @@
           {
             "q": "Will I wait longer for care?",
             "a": [
-              "Waits may grow at first, as the Congressional Budget Office expects for any single-payer plan. The plan starts with smaller groups, keeps a small copay where care is scarcest, and pays doctors and hospitals above Medicare's rates."
+              "Waits may grow at first, as the Congressional Budget Office expects for any single-payer plan. The plan starts with smaller groups, keeps a small copay where care is scarcest, pays hospitals above Medicare's rates, and pays doctors at Medicare's fee schedule with extra for primary care and rural practice."
             ]
           }
         ],
@@ -339,11 +339,11 @@
       "detail": {
         "what_changed": [
           "Help at home and the care part of nursing-home stays are part of the single public health plan, for anyone of any age who needs help with three daily activities or has a serious cognitive impairment, with no asset test and no estate recovery.{c:ltc}",
-          "The top tier of help at home is funded at the level of nursing-home care, so a person who needs the most help can get it at home.",
+          "The top tier of help at home is funded at the level of the care part of a nursing-home stay, so a person who needs the most help can get it at home.",
           "Home care and nursing home workers paid with public money earn at least $20 an hour in 2026 dollars, rising with wages.{c:care-wage}"
         ],
         "begins": [
-          "A five-year bridge from 2030: more money for home care, tied to shorter waits; estate recovery ends, and Medicaid's savings limit rises to $10,000 for a single person.{c:ltc-bridge}",
+          "A five-year bridge from 2030: more money for home care, with waiting lists reported; estate recovery ends, and Medicaid's savings limit rises to $10,000 for a single person.{c:ltc-bridge}",
           "The $20 floor for home care and nursing home workers from January 2030.{c:care-wage}",
           "The benefit from January 2035, with new users phased in over its first two years, the heaviest needs first.{c:ltc}"
         ],
@@ -402,7 +402,7 @@
           "The federal minimum wage rises in yearly steps to $17.00 an hour, then rises each year with the median wage, and never falls.{c:wage-steps}",
           "A union is certified when a majority of workers sign cards, and can still choose an election, held within 20 days. Bargaining starts within 10 days, with mediation and then binding arbitration on a timetable.{c:card-check}",
           "Penalties of up to $50,000 per violation, sought in federal court, and workers can sue on their own if the labor board does not act.{c:penalties}",
-          "Wage insurance: a worker who loses a job held three years and takes a lower-paid one gets half the hourly drop for each hour worked, up to $10,000 a year, for two years, whatever caused the loss.{c:wage-ins}"
+          "Wage insurance: a worker who loses a job held three years and takes a lower-paid one gets half the hourly drop for each hour worked, up to $10,000 a year, for two years, unless they were fired for misconduct or quit without good cause.{c:wage-ins}"
         ],
         "begins": [
           "$9.50 on January 1, 2030, then yearly steps to $17.00 on January 1, 2035, then with the median wage.{c:wage-steps}",
@@ -420,7 +420,7 @@
           {
             "q": "Won't a higher minimum wage cost jobs?",
             "a": [
-              "It may cost some. The Congressional Budget Office put $15 by 2025 at 1.3 million to 1.4 million fewer jobs; other careful studies find little or no loss in the range states have tried.{c:jobs} The floor reaches $17 in 2035, when on our estimates it is about half the median wage, in yearly steps, with a pause if unemployment is rising.{c:wage-bite}"
+              "It may cost some. The Congressional Budget Office put $15 by 2025 at 1.3 million to 1.4 million fewer jobs; other careful studies find little or no loss in the range states have tried.{c:jobs} The floor reaches $17 in 2035, when on our estimates it is about half the national median wage, in yearly steps, with a pause if unemployment is rising.{c:wage-bite}"
             ]
           },
           {
@@ -451,7 +451,7 @@
         },
         {
           "person": "denise",
-          "text": "Upstairs, Denise, a home health aide whose hours were cut, found a notice on her door last month. The emergency fund paid her back rent after checking that the landlord really owns the building, and a lawyer helped her answer the notice."
+          "text": "Upstairs, Denise, a home health aide whose hours were cut, found a notice on her door last month. The emergency fund paid her back rent after checking that the landlord really owns the building, and she got legal help to answer the notice, one of the things the fund can pay for."
         }
       ],
       "detail": {
@@ -513,11 +513,11 @@
       ],
       "detail": {
         "what_changed": [
-          "Power plants and large factories pay for the carbon they put in the air, and most of the money comes back to every adult as a Climate Dividend, paid four times a year, tax-free, with the first payment going out before the price begins. There is no charge on your gas bill or at the pump.{c:carbon-price}",
+          "Power plants and large factories pay for the carbon they put in the air, and most of the money comes back to every adult as a Climate Dividend, paid four times a year, tax-free, with the first payment going out before the price begins. There is no carbon charge on your gas bill or at the pump.{c:carbon-price}",
           "Clean power and the grid built faster: a clean electricity standard of 80% by 2035 and 100% by 2040, and a public builder for needed lines no one else will build.{c:ces}",
           "Help with energy bills that comes to you: a credit for households already getting SNAP, SSI or energy help, with no new application.",
           "Money for every state and tribe to prepare for disasters, and a federal backstop for insurers in a catastrophic year.",
-          "A guarantee for workers when a mine, power plant or refinery closes: up to 90% of their old pay for two years, in a new job or in training, and lost local tax revenue replaced over ten years.{c:guarantee}"
+          "A guarantee for workers when a mine, power plant or refinery closes: up to 90% of their old pay for two years, in a new job or in training, and lost local tax revenue replaced in full at first, then a little less each year for ten years.{c:guarantee}"
         ],
         "begins": [
           "The carbon price from 2030, at $25 a ton, reaching $150 by 2037.{c:carbon-price}",
@@ -529,7 +529,8 @@
           "On our estimates the dividend is about $405 an adult in 2035, in that year's dollars; it moves with what polluters pay, and shrinks as pollution falls.{c:dividend}"
         ],
         "limits": [
-          "Electricity costs somewhat more while the clean grid is built: on our estimates the average price is about a tenth higher than under current law by 2040. On the carbon price and the dividend alone, on our estimates, the lowest-income two-fifths of households come out ahead on average, nationally.{c:bills}",
+          "Electricity costs somewhat more while the clean grid is built: on our estimates the average price is about a tenth higher than under current law by 2040. On the carbon price and the dividend alone, on our estimates, the lowest-income two-fifths of households come out ahead on average, nationally, though some in states that burn the most coal may be behind.{c:bills}",
+          "The clean electricity standard is a target. On our estimates the grid reaches about 73% clean power in 2035 and 87% in 2040, held back by connections to the grid, and suppliers that fall short pay a capped fee.{c:ces-model}",
           "It does not reach the 2035 climate goal, a 61-66% cut from 2005, on its own: on our estimates carbon emissions from energy fall about 41% below 2005 by 2035.{c:emissions}",
           "The worker guarantee covers closures, not every oil and gas job."
         ],
@@ -597,7 +598,7 @@
           {
             "q": "Isn't this amnesty?",
             "a": [
-              "It is earned status: ten years here, fingerprints and a criminal check, under the registry already in immigration law, whose date has been stuck at 1972 since 1986.{c:registry}"
+              "It is earned status, by two routes. Dreamers, people who have held temporary protection, DACA or parole, and farm, care and construction workers with a work history get a green card on approval, after fingerprints and a criminal check.{c:earned} Everyone else here earns it after ten years' residence, under the registry already in immigration law, whose date has been stuck at 1972 since 1986.{c:registry}"
             ]
           },
           {
@@ -640,7 +641,7 @@
           "Registration done by the state from records it already holds, with a mailed notice and a way to decline; any current government, tribal, student or benefit card as identification, or a signed statement; mail voting without an excuse and at least two weeks of early voting.",
           "Preclearance returns for places with a record of recent violations, and until the next census redistricting no state may redraw its congressional map in the middle of a decade.",
           "Small in-state gifts up to $200 matched six to one for House and Senate candidates who opt in.{c:match}",
-          "No individual stocks for members of Congress and top officials, without a forced sale; a binding code for the Justices and eighteen-year terms for future Justices.",
+          "No individual stocks for members of Congress and top officials, without a forced sale; a binding code for the Justices and eighteen-year terms for future Justices, when the politics allow.",
           "The agencies every other promise runs through are rebuilt, about 54,000 added staff across six of them, with money released as each agency hires.{c:rebuild}"
         ],
         "begins": [
@@ -694,7 +695,7 @@
       "detail": {
         "what_changed": [
           "Repair first, with states publishing which roads and bridges are falling behind: a program to rebuild the Interstate and its bridges, help to keep transit running in big cities, and passenger rail paid out only as projects prove they are ready.",
-          "The gas tax rises with prices, plus ten small steps that pause when gas prices spike. Electric cars pay by the mile, at what an efficient gas car pays, read from the odometer, with no tracking device.",
+          "The gas tax rises with prices, plus ten small steps, then five more over 2040-44, each pausing when gas prices spike.{c:fuel-steps} Electric cars pay by the mile, at what an efficient gas car pays, read from the odometer, with no tracking device.",
           "The heaviest trucks pay by weight and miles, instead of a flat $550 that hasn't changed since 1984.{c:trucks}"
         ],
         "begins": [
@@ -742,7 +743,7 @@
           "Premiums give way to a health contribution on income: 3.80% from 2035 in the plan as it stands, with nothing owed at or below 138% of poverty, rising to the full rate at 250%. A separate payroll contribution of 1.65 points funds the education fund.{c:hc-rate}{c:edu}",
           "Spending gives way too, across the whole federal budget: the plan drops its own $300 adult credit, the states keep paying their full current share of long-term care, defense is held flat after inflation after 2036 and restructured, crop insurance is reformed for the insurers and the largest farms, and a tax break for real-estate investors ends.{c:cuts}",
           "From 2040 to 2056, on our estimates, the plan's new spending is covered every year by its taxes, its savings elsewhere in the budget and the states' payments, by a thin margin at first. That is not the same as a balanced federal budget.{c:closes}",
-          "The plan would repeal the debt limit in 2029, so it can never again be used to threaten a default.{c:debt-limit}"
+          "The plan would repeal the debt limit in 2029, so it no longer stands in the way of paying bills Congress has already run up.{c:debt-limit}"
         ],
         "begins": [],
         "cost": [
@@ -779,7 +780,7 @@
           {
             "q": "Is it paid for?",
             "a": [
-              "From 2040 on, on our estimates, yes: every year the plan's new spending is covered by its own taxes, savings and state payments, with the top end and corporations paying first.{c:closes} Its first decade runs short, and its margin is thin until the mid-2040s.{c:thin}"
+              "On our central estimates, yes, from 2040 on: every year the plan's new spending is covered by its own taxes, savings and state payments, with the top end and corporations paying first.{c:closes} But until the mid-2040s the margin is thin enough that any one of the plan's risks could erase it, and its first decade runs short.{c:thin}"
             ]
           },
           {
@@ -1135,11 +1136,31 @@
         }
       ]
     },
+    "ces-model": {
+      "basis": "model",
+      "figures": [
+        "73%",
+        "2035",
+        "87%",
+        "2040"
+      ],
+      "statement": "The energy model reaches 73% clean power in 2035 and 87% in 2040; grid access, not price, is the limit; suppliers short of credits pay the capped payment (CLI-3A.02)",
+      "sources": [
+        {
+          "path": "dossiers/clean-power/7-validation.md",
+          "anchor": "The energy model (MOD-energy) reaches 73% in 2035, 87% in 2040 and 92% in 2045, because grid access, not price, is the limit"
+        }
+      ]
+    },
     "child-poverty": {
       "basis": "estimate",
       "statement": "On our estimates child poverty falls to about 9% (8-12%), about a third lower",
       "figures": [
-        "9%"
+        "9%",
+        "8",
+        "12%",
+        "13.5-14.5%",
+        "2029"
       ],
       "sources": [
         {
@@ -1337,6 +1358,10 @@
         {
           "path": "dossiers/immigration/4-specification.md",
           "anchor": "(2) anyone who has held TPS, DACA or humanitarian parole at any time"
+        },
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "**Tier A: a green card on approval** (decided, memo 1 A, parts 1 and 3)"
         }
       ]
     },
@@ -1478,6 +1503,19 @@
         {
           "path": "dossiers/agenda/transportation/3-design.md",
           "anchor": "An electric car pays $77 a year in FY2031 and $141 in FY2036"
+        }
+      ]
+    },
+    "fuel-steps": {
+      "basis": "decision",
+      "figures": [
+        "2040-44"
+      ],
+      "statement": "MOV-29.02: after the ten steps, five more steps of 2 cents (2029 dollars) in FY2040-44, with the same pause",
+      "sources": [
+        {
+          "path": "dossiers/agenda/transportation/4-specification.md",
+          "anchor": "After the ten steps: five more steps of 2 cents (2029 dollars), FY2040-44, same pause"
         }
       ]
     },
@@ -1718,6 +1756,19 @@
         {
           "path": "dossiers/secure-floor/7-validation.md",
           "anchor": "$180 a year at $60,000 at the start [EV-SEC-676]"
+        }
+      ]
+    },
+    "leave-job": {
+      "basis": "decision",
+      "figures": [
+        "90"
+      ],
+      "statement": "FAM-3.07: an employer must restore a worker who took the benefit, after 90 days on the job, in the 2030 act",
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "An employer must restore a worker who took the benefit, after 90 days on the job, to the same or an equivalent position"
         }
       ]
     },

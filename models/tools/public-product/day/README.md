@@ -76,7 +76,7 @@ Transportation's section 9 has no money line the settlement changed. Fair financ
 
 ## Validation record (November 25)
 
-- `build_day.py --check` passes: 80 claims, 147 passages in 35 files, all in sections 1-8, pinned to `d5c17fd`.
+- `build_day.py --check` passes: 83 claims, 151 passages in 35 files, all in sections 1-8, pinned to `d5c17fd`.
 - An independent red-team read of the claims and copy (a Fable-model subagent, given the content, the preview and the section 9s, not this README) found sentences running ahead of their passages (the money scene's "paid for", the clinic's "no card", long-term care's start, the climate goal's comparison, the lights staying on, among others). Each is fixed in this draft. Left for H10: the evidence notes print the register's internal wording (IDs such as G21 or INC-4); the page shows one figure year per cost where some section 9s also give a later year (transportation's 2046 fuel tax).
 - Tested from a depth-1 clone without the pinned commit: `--check` and the tests pass.
 - `test_day.py`: 22 tests pass, including a build with Git unavailable (the shallow-clone case) and the drift report on an edited copy.
