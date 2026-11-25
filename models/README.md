@@ -5,6 +5,7 @@ Role: the project's models, their data and checks. Status: the legacy model suit
 | Path | Holds |
 | --- | --- |
 | `tools/` | Model code. `tools/readme.md` explains each step; `tools/run-all.sh` rebuilds the common suite (`--write` to update outputs) |
+| `stage-h/` | Stage H, the toolkit and front door: the audit and plan (`stage-h/1-audit.md`) and its decision memos (`stage-h/memos/`) |
 | `data/` | Model data: adopted inputs in `data/inputs/` (changing them is a decision for Espen), CBO extracts, generated JSON/CSV and dashboard files |
 
 **Legacy outputs.** Until each core model replaces its part of the suite, the suite still writes its reports where they lived before: `legacy/index/` (ledger, incidence, fiscal, funds, carbon, calendar, votes, recovery budget, consistency report) and the generated companions in `legacy/sources/` (recovery audit and inventory, education reconciliation, climate portfolio, child poverty, health, strategic review, financing screens). `.github/merge-policy.json` lists the ones the gate treats as model outputs. These are the only routine changes inside `legacy/`.
