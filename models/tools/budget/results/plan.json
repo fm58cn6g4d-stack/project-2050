@@ -16,24 +16,24 @@
    "deficit_bn": -839.647
   },
   "2040": {
-   "debt_bn": -8086.164,
-   "debt_gdp": -14.928,
-   "deficit_bn": -1124.697
+   "debt_bn": -8096.501,
+   "debt_gdp": -14.947,
+   "deficit_bn": -1135.034
   },
   "2045": {
-   "debt_bn": -15367.476,
-   "debt_gdp": -23.611,
-   "deficit_bn": -1717.271
+   "debt_bn": -15657.921,
+   "debt_gdp": -24.057,
+   "deficit_bn": -1799.148
   },
   "2050": {
-   "debt_bn": -26308.507,
-   "debt_gdp": -33.854,
-   "deficit_bn": -2504.447
+   "debt_bn": -27108.939,
+   "debt_gdp": -34.884,
+   "deficit_bn": -2615.164
   },
   "2056": {
-   "debt_bn": -45077.474,
-   "debt_gdp": -47.108,
-   "deficit_bn": -3625.839
+   "debt_bn": -46635.612,
+   "debt_gdp": -48.736,
+   "deficit_bn": -3764.208
   }
  },
  "current_law": {
@@ -110,7 +110,7 @@
    "models/tools/budget/engine/funds-model.py": "06761a9d630dbaf579bdac509dba57430e2d538c8a2fcbb9cbf77cd767589a0a",
    "models/tools/budget/engine/ledger-build.py": "a37ede7bc9a8c94365881f4173bad994fda32a762220441c0d3e6fe9796255b2",
    "models/tools/budget/engine/window.py": "9b831c5d8c20c7ea3a972260413597a096cf56da3b3abb0ff916c5a22b451cf2",
-   "models/tools/budget/run.py": "9084a5bf8bc69cfc22247d61ee8c46af9f551f95c51c0d0d9d4e841bdeaed678",
+   "models/tools/budget/run.py": "0ab1e80f605ad9120ae9e085216a8c6da356cc3539ff0d2d9908081b263a8035",
    "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
    "models/tools/recovery-budget/model.py": "6f6cb539a6855481acca1ec6927107d1481e67da5a7188c8b1c4e29bf10bff10",
    "models/tools/scenarios.py": "0d174308e273072ca379ffe74b4195b21272e384438c1afa6624c4cf5f96a709",
@@ -161,7 +161,7 @@
    "models/data/inputs/climate-adoption.json": "f963d8329d1960c58e9bcad311c657efc7e1be5987440e1938c6a7ab9f917e83",
    "models/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
    "models/data/inputs/excise-offset.csv": "8cc362a5d923b38517a704cfe767364da99bb14871aec80a30ded64c8b337141",
-   "models/data/inputs/fiscal-after.csv": "f83f5bd1e0a324366eb40848835ce812c1ee10052a008e778aebbcfc542f4201",
+   "models/data/inputs/fiscal-after.csv": "117df2f5b06dd812c977485d678ce63659052700fde4481ca6300f848c33b882",
    "models/data/inputs/fiscal-components.csv": "4f4431e71d5d4a30fe4ba82b9aed0921733ddac88dce93108c1bc90d86b8176d",
    "models/data/inputs/fiscal-fy2029.csv": "9cdbde562f7a1136a48d58c035ed02134dd418e4addc4c7d72fce69d1e209974",
    "models/data/inputs/fiscal-profiles.csv": "b2e6ce01d844f500bdaf0b2af12a3f11b1efa81f9bbbb38537fba87c0248c1b2",
@@ -193,7 +193,7 @@
    "models/tools/recovery-budget/assumptions.json": "a79f624e3374f66d373a33f10d59fd5dbcde1280d8e8981be54a258cd269b8b3"
   },
   "model_id": "MOD-budget",
-  "model_version": "0.2.0",
+  "model_version": "0.3.0",
   "price_basis": "nominal dollars",
   "scenarios": [
    "current-law",
@@ -237,32 +237,32 @@
    "interest_gdp": 4.511
   },
   "2040": {
-   "debt_bn": 63816.309,
-   "debt_gdp": 117.814,
-   "deficit_bn": 2775.775,
-   "deficit_gdp": 5.124,
+   "debt_bn": 63805.973,
+   "debt_gdp": 117.795,
+   "deficit_bn": 2765.438,
+   "deficit_gdp": 5.105,
    "interest_gdp": 4.563
   },
   "2045": {
-   "debt_bn": 79496.658,
-   "debt_gdp": 122.141,
-   "deficit_bn": 3373.008,
-   "deficit_gdp": 5.182,
-   "interest_gdp": 4.806
+   "debt_bn": 79206.212,
+   "debt_gdp": 121.695,
+   "deficit_bn": 3291.131,
+   "deficit_gdp": 5.057,
+   "interest_gdp": 4.791
   },
   "2050": {
-   "debt_bn": 98400.178,
-   "debt_gdp": 126.623,
-   "deficit_bn": 4098.359,
-   "deficit_gdp": 5.274,
-   "interest_gdp": 5.007
+   "debt_bn": 97599.745,
+   "debt_gdp": 125.593,
+   "deficit_bn": 3987.643,
+   "deficit_gdp": 5.131,
+   "interest_gdp": 4.968
   },
   "2056": {
-   "debt_bn": 127403.331,
-   "debt_gdp": 133.142,
-   "deficit_bn": 5389.63,
-   "deficit_gdp": 5.632,
-   "interest_gdp": 5.286
+   "debt_bn": 125845.193,
+   "debt_gdp": 131.513,
+   "deficit_bn": 5251.261,
+   "deficit_gdp": 5.488,
+   "interest_gdp": 5.223
   },
   "FY2030-2039": {
    "deficit_bn": 22840.868

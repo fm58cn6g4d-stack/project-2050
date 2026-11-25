@@ -109,7 +109,7 @@
    "models/tools/budget/engine/funds-model.py": "06761a9d630dbaf579bdac509dba57430e2d538c8a2fcbb9cbf77cd767589a0a",
    "models/tools/budget/engine/ledger-build.py": "a37ede7bc9a8c94365881f4173bad994fda32a762220441c0d3e6fe9796255b2",
    "models/tools/budget/engine/window.py": "9b831c5d8c20c7ea3a972260413597a096cf56da3b3abb0ff916c5a22b451cf2",
-   "models/tools/budget/run.py": "9084a5bf8bc69cfc22247d61ee8c46af9f551f95c51c0d0d9d4e841bdeaed678",
+   "models/tools/budget/run.py": "0ab1e80f605ad9120ae9e085216a8c6da356cc3539ff0d2d9908081b263a8035",
    "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
    "models/tools/scenarios.py": "0d174308e273072ca379ffe74b4195b21272e384438c1afa6624c4cf5f96a709",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb59f769f07a5f169a3c53e8a5c35f731a591741b87409a3b8",
@@ -159,7 +159,7 @@
    "models/data/inputs/climate-adoption.json": "f963d8329d1960c58e9bcad311c657efc7e1be5987440e1938c6a7ab9f917e83",
    "models/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
    "models/data/inputs/excise-offset.csv": "8cc362a5d923b38517a704cfe767364da99bb14871aec80a30ded64c8b337141",
-   "models/data/inputs/fiscal-after.csv": "f83f5bd1e0a324366eb40848835ce812c1ee10052a008e778aebbcfc542f4201",
+   "models/data/inputs/fiscal-after.csv": "117df2f5b06dd812c977485d678ce63659052700fde4481ca6300f848c33b882",
    "models/data/inputs/fiscal-components.csv": "4f4431e71d5d4a30fe4ba82b9aed0921733ddac88dce93108c1bc90d86b8176d",
    "models/data/inputs/fiscal-fy2029.csv": "9cdbde562f7a1136a48d58c035ed02134dd418e4addc4c7d72fce69d1e209974",
    "models/data/inputs/fiscal-profiles.csv": "b2e6ce01d844f500bdaf0b2af12a3f11b1efa81f9bbbb38537fba87c0248c1b2",
@@ -190,7 +190,7 @@
    "models/tools/budget/reforms/current-law.json": "81095e57d652df66108f8e2333cb632feecc70b26397f1486fa2790a49576530"
   },
   "model_id": "MOD-budget",
-  "model_version": "0.2.0",
+  "model_version": "0.3.0",
   "price_basis": "nominal dollars",
   "scenarios": [
    "current-law"
