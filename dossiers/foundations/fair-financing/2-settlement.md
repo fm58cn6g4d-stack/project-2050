@@ -7,7 +7,7 @@ Role: the financing package for the whole plan, the one place where the plan is 
 Units and sources:
 - Federal fiscal years, case `mixed`, nominal $B. A positive gap is a shortfall.
 - **The base** is the plan before the settlement: $614.6B short in FY2040 and $3,995.5B over FY2030-39 (#467's $615.6B and $3,998.5B, less the duty to house's HOU-1 line, which G14 C removes).
-- **The booking:** `models/tools/settlement_booking.py` derives each item's path with the screens' own option functions, on the plan before the settlement; `models/tools/recovery-budget/model.py` books them in every case; `models/tools/test_settlement_booking.py` checks both.
+- **The booking:** `models/tools/settlement_booking.py` derives each item's path with the screens' own option functions, on the plan before the settlement; `models/tools/recovery-budget/model.py` books them in every case; `models/bookings/test_settlement_booking.py` checks both.
 - The step 4 and 4b screens (`packages.py`, `screen.py`, `take_home_vat.py`, `budget_scan.py`) price from the plan before the settlement (`build_case(..., settlement=False)`). Their notes ([`notes/settlement-results.md`](notes/settlement-results.md), the VAT draft, and [`notes/budget-scan-results.md`](notes/budget-scan-results.md)) are the record of how the choices were made.
 - Project arithmetic on the project's exploratory models, not official scores.
 

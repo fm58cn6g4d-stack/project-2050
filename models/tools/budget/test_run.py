@@ -132,11 +132,13 @@ class Parameters(unittest.TestCase):
         self.assertEqual(float(self.p[('adj.tariff_refunds', 'FY2027')]), adj['ADJ-T2']['one_time'][2027])
 
     def test_funds(self):
-        vals = set(self.funds.values())
-        for pid in ('fund.ss_reserve', 'fund.hi_reserve', 'fund.hi_payroll_ratio', 'fund.ss_cpie'):
-            v = [r for k, r in self.p.items() if k[0] == pid][0]
-            self.assertTrue(any(float(v) == float(x) for x in vals if x.replace('.', '', 1).replace('-', '', 1).isdigit()), pid)
-
+        """Each funds parameter equals the value under its own key in funds-parameters.csv (the funds model's input)."""
+        keys = {'fund.ss_reserve': 'ss_reserve_2025', 'fund.hi_reserve': 'hi_reserve_2025', 'fund.hi_payroll_ratio': 'hi_payroll_ratio',
+                'fund.ss_cpie': 'ss_cpie_ssa_bump', 'fund.carbon_dividend_share': 'carbon_dividend_share'}
+        for pid, key in keys.items():
+            v = [r for k, r in self.p.items() if k[0] == pid]
+            self.assertEqual(len(v), 1, pid)
+            self.assertEqual(float(v[0]), float(self.funds[key]), f'{pid} vs funds-parameters.csv {key}')
 
 if __name__ == '__main__':
     unittest.main()

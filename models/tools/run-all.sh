@@ -57,7 +57,7 @@ python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
 echo "== 6d. surge funding";  python3 "$BOOKINGS"/test_capacity_funding.py
                                cp "$BOOKINGS"/capacity-funding.py "$BUILD"/; python3 capacity-funding.py
 echo "== 6d2. democratic renewal cost and pace tools (sections 6 and 7; review C-6)"
-python3 -B -W ignore::ResourceWarning "$TOOLS"/test_democratic_renewal.py 2>&1 | tail -1
+python3 -B -W ignore::ResourceWarning "$BOOKINGS"/test_democratic_renewal.py 2>&1 | tail -1
 echo "== 6e. budget benchmarks and model card (budget B4)"
 P2050_BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_benchmarks.py 2>&1 | tail -1
 echo "== 6e2. the budget model's one command (MOD-budget, stage H step H4: tests, then the three reference results)"

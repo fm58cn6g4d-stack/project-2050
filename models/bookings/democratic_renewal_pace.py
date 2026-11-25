@@ -9,9 +9,9 @@ rebased on one basis, review finding F-1). It books nothing and writes nothing: 
 the booked IRS enforcement lines through democratic_renewal_cost.py (the budget model's audit lines, case `mixed`,
 at the October 26 scaling) and the legacy capacity review's midpoint path through capacity-review/review.py.
 
-    python3 models/tools/democratic_renewal_pace.py            # the tables
-    python3 models/tools/democratic_renewal_pace.py --json     # the same as JSON
-    python3 models/tools/democratic_renewal_pace.py --check    # the self-checks (unit tests: test_democratic_renewal.py)
+    python3 models/bookings/democratic_renewal_pace.py            # the tables
+    python3 models/bookings/democratic_renewal_pace.py --json     # the same as JSON
+    python3 models/bookings/democratic_renewal_pace.py --check    # the self-checks (unit tests: test_democratic_renewal.py)
 
 Method (every input a working assumption, with its basis in 7-validation.md, part 1.3):
 - Full run rate. Part G's sustained allocation reaches $32.5 billion in FY2040; deflated to each earlier year at the
@@ -55,7 +55,7 @@ def _load(name, path):
 
 
 drc = _load("drc", os.path.join(HERE, "democratic_renewal_cost.py"))
-review = _load("capacity_review", os.path.join(HERE, "capacity-review", "review.py"))
+review = _load("capacity_review", os.path.join(HERE, "..", "tools", "capacity-review", "review.py"))
 
 WINDOW = list(range(2030, 2040))
 YEARS = list(range(2030, 2041))

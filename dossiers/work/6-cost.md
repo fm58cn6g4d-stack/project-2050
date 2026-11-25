@@ -305,7 +305,7 @@ One basis: federal fiscal years, $ billion, a cost positive, the general fund's 
 
 ## 9. The booking (booked)
 
-Tier 3. Booked once, after the milestone review's fixes and Espen's November 18 confirmations (`charter/STANDARDS.md`, "Milestone review"). `models/tools/work_booking.py` derives every row below from `tools/work_path.py` and writes the inputs in `models/data/inputs/` (`ledger-bills.csv`, `ledger-revenue.csv`, `fiscal-years.csv`, `fiscal-profiles.csv`, `funds-ss-offbudget.csv`, `funds-ss-provisions.csv`, `incidence-rows.csv`, `incidence-keys.csv`) and the provision specs (`models/data/budget/provisions.csv`); `models/tools/test_fiscal_work.py` holds them equal, so a change to the path shows up as a failing test. Low / mid / high over FY2030-39 in $ trillion, FY2040 in $ billion, cost positive; the ledger keeps $1 billion, so each row rounds.
+Tier 3. Booked once, after the milestone review's fixes and Espen's November 18 confirmations (`charter/STANDARDS.md`, "Milestone review"). `models/tools/work_booking.py` derives every row below from `tools/work_path.py` and writes the inputs in `models/data/inputs/` (`ledger-bills.csv`, `ledger-revenue.csv`, `fiscal-years.csv`, `fiscal-profiles.csv`, `funds-ss-offbudget.csv`, `funds-ss-provisions.csv`, `incidence-rows.csv`, `incidence-keys.csv`) and the provision specs (`models/data/budget/provisions.csv`); `models/bookings/test_fiscal_work.py` holds them equal, so a change to the path shows up as a failing test. Low / mid / high over FY2030-39 in $ trillion, FY2040 in $ billion, cost positive; the ledger keeps $1 billion, so each row rounds.
 
 | Row | Lines | Low / mid / high, FY2030-39 ($T) | FY2040 ($B) |
 | --- | --- | --- | --- |

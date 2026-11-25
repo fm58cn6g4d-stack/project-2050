@@ -48,8 +48,8 @@ def _load(name, path):
 
 
 WB = _load("work_booking_helpers", os.path.join(HERE, "work_booking.py"))     # _patch, perm_for, fiscal(), r()
-DRC = _load("drc_booking", os.path.join(HERE, "democratic_renewal_cost.py"))
-PACE = _load("drp_booking", os.path.join(HERE, "democratic_renewal_pace.py"))
+DRC = _load("drc_booking", os.path.join(os.path.dirname(os.path.abspath(__file__)), "democratic_renewal_cost.py"))
+PACE = _load("drp_booking", os.path.join(os.path.dirname(os.path.abspath(__file__)), "democratic_renewal_pace.py"))
 r = WB.r
 
 LIBRARY = "DEM-17.02, the permanent library line"

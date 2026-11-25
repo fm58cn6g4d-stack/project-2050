@@ -6,7 +6,7 @@ Role: the independent milestone review of the democratic renewal foundation ("a 
 - checks every decided item against `DEC-2026-11-17-40` to `-99`;
 - checks section 9 against sections 1 to 8;
 - tests the load-bearing legal claims against the texts in `library/text/`;
-- reproduces section 6 from `models/tools/democratic_renewal_cost.py` and section 7's pace check from `models/tools/democratic_renewal_pace.py`.
+- reproduces section 6 from `models/bookings/democratic_renewal_cost.py` and section 7's pace check from `models/bookings/democratic_renewal_pace.py`.
 
 Status: current, as of main at commit `87a14c9` (November 18, 2026, after #438). Line numbers are at that commit. Reviewer: Claude Code, `session_01UQzgBvsSQkmSMPaZW91qpt`. **This review changes nothing in the dossier.** Every fix below is a later step, sized for one session; the booking follows the fixes (`charter/STANDARDS.md`, "Milestone review").
 
@@ -48,7 +48,7 @@ The blockers:
 
 ## Checks run
 
-**Section 6, from `democratic_renewal_cost.py`** (`python3 -B models/tools/democratic_renewal_cost.py`, plus `--json` and `--check`, which passes). The tool reads `legacy/sources/recovery-budget-audit.csv` (case `mixed`). A rebuilt budget model in a scratch copy regenerated that audit file and `models/data/recovery-budget-paths.csv` byte for byte.
+**Section 6, from `democratic_renewal_cost.py`** (`python3 -B models/bookings/democratic_renewal_cost.py`, plus `--json` and `--check`, which passes). The tool reads `legacy/sources/recovery-budget-audit.csv` (case `mixed`). A rebuilt budget model in a scratch copy regenerated that audit file and `models/data/recovery-budget-paths.csv` byte for byte.
 
 | Figure | Section 6 | Reproduced | Verdict |
 | --- | --- | --- | --- |
@@ -62,7 +62,7 @@ The blockers:
 | IMM-1 split, FY2040 (:63, :146) | −$0.9 billion (−0.7 to −1.05) | 78% of −1.062 is −0.83; the tool hardcodes a year shape that gives −0.90 | **Slip** (C-6) |
 | DEM-1 and DEM-16 rows, FY2036 and FY2039 (:23, :25) | 1.0 and 1.1 | 1.05 and 1.175 | **Slip**: 1.1 and 1.2 (C-6); totals unaffected |
 
-**Section 7, from `democratic_renewal_pace.py`** (`python3 -B models/tools/democratic_renewal_pace.py`, plus `--check`, which passes).
+**Section 7, from `democratic_renewal_pace.py`** (`python3 -B models/bookings/democratic_renewal_pace.py`, plus `--check`, which passes).
 
 | Figure | Section 7 | Reproduced | Verdict |
 | --- | --- | --- | --- |
@@ -157,7 +157,7 @@ Severity: **blocker** (blocks L3), **fix** (a later step should do it), **note**
 ### F. The money and the fiscal-rule report
 
 **F-1. D4's "$22 billion" mixes two bases, and its revenue side is unpriced. Fix, before Espen answers D4.**
-- *The base.* The pace tool builds part G's allocation at the hiring pace from a no-ramp full-rate path: $32.5 billion in FY2040 deflated at 3.78% a year, which sums to **$266.6 billion** over FY2030-39 (the tool prints it: "at full rate from FY2030 with no ramp: 266.6"). It then compares the paced result, $227.3 billion, with part G's stated **$249.5 billion**, which already carries the review's ramp (`models/tools/democratic_renewal_pace.py`:37-38, :114-115). The $22.2 billion is therefore the difference between a doubly ramped path and a singly ramped one. On one basis the pace effect is larger: about $39 billion against the tool's own no-ramp path, or about $37 billion if the paced result is scaled to $249.5 billion (reviewer's arithmetic from the tool's output). It could also be smaller: about $17 billion against part G's allocation laid on the booked ramp. Section 7 does not disclose the $266.6 billion base.
+- *The base.* The pace tool builds part G's allocation at the hiring pace from a no-ramp full-rate path: $32.5 billion in FY2040 deflated at 3.78% a year, which sums to **$266.6 billion** over FY2030-39 (the tool prints it: "at full rate from FY2030 with no ramp: 266.6"). It then compares the paced result, $227.3 billion, with part G's stated **$249.5 billion**, which already carries the review's ramp (`models/bookings/democratic_renewal_pace.py`:37-38, :114-115). The $22.2 billion is therefore the difference between a doubly ramped path and a singly ramped one. On one basis the pace effect is larger: about $39 billion against the tool's own no-ramp path, or about $37 billion if the paced result is scaled to $249.5 billion (reviewer's arithmetic from the tool's output). It could also be smaller: about $17 billion against part G's allocation laid on the booked ramp. Section 7 does not disclose the $266.6 billion base.
 - *Less or later.* CAP-7.02 says "money stays available, so a slow year does not lose it" (`4-specification.md`:313). The pace check says the shortfall is "timing" and "no change in FY2040" (`7-validation.md`:69). Both cannot hold: if the unspent money stays available, it is spent after FY2039, or it sits as a third unclaimed balance beside the two contingencies; if FY2040 does not change, it is never spent. D4 says "less" (`7-validation.md`:327; README:62; `9-public-case.md`:135); section 9 says "spent later within 2030-39" (:59) and "spent later" (:155); section 8 says "reached later" (`8-change-our-minds.md`:101). This is #438's reviewer nit, but it is more than wording: it decides where the money goes.
 - *The revenue side.* D4 lags the IRS's enforcement yield (G8) with the allocation (`7-validation.md`:72), and sections 6 and 7 say "a slow path delays the yield more than it saves outlays" (`6-cost.md`:94). G8 nets $150 billion over FY2030-39. Section 6 part 7, which prices the provisional items, does not price D4 at all (`6-cost.md`:171-182), and the README says section 6 finds the fourth "changes timing only" (`README.md`:58). A two-year lag of G8's net yield would cost very roughly $30-40 billion of revenue in the window (reviewer's arithmetic: about two years of the ramp's net yield, never modeled), more than the outlay change.
 - *Fix.* In the pace tool, compare like with like (part G's own year path against the same path ramped by hiring), state the base in section 7, and recompute the range. Say what happens to an unspent balance (it lapses, joins memo 10's contingency, or is spent after FY2039) and make CAP-7.02's "stays available" agree. Price G8's lag in section 6 part 7 and restate D4 as net of it. Then re-word D4 in all places (README, sections 7, 8, 9). *It would inform:* D4.
