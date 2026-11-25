@@ -109,7 +109,7 @@
    "models/tools/budget/engine/funds-model.py": "d5e3485d52bfb0134b230d4fa5157c931a747eb6e47beb9c3f54b2b474eb7a6c",
    "models/tools/budget/engine/ledger-build.py": "a37ede7bc9a8c94365881f4173bad994fda32a762220441c0d3e6fe9796255b2",
    "models/tools/budget/engine/window.py": "9b831c5d8c20c7ea3a972260413597a096cf56da3b3abb0ff916c5a22b451cf2",
-   "models/tools/budget/run.py": "0ab1e80f605ad9120ae9e085216a8c6da356cc3539ff0d2d9908081b263a8035",
+   "models/tools/budget/run.py": "857913b049064f7fd016e1c584a2cc6879fb343f18532b331303ded67ccb9789",
    "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
    "models/tools/scenarios.py": "0d174308e273072ca379ffe74b4195b21272e384438c1afa6624c4cf5f96a709",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb59f769f07a5f169a3c53e8a5c35f731a591741b87409a3b8",
@@ -190,7 +190,7 @@
    "models/tools/budget/reforms/current-law.json": "81095e57d652df66108f8e2333cb632feecc70b26397f1486fa2790a49576530"
   },
   "model_id": "MOD-budget",
-  "model_version": "0.3.0",
+  "model_version": "0.4.0",
   "price_basis": "nominal dollars",
   "scenarios": [
    "current-law"

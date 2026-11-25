@@ -110,7 +110,7 @@
    "models/tools/budget/engine/funds-model.py": "d5e3485d52bfb0134b230d4fa5157c931a747eb6e47beb9c3f54b2b474eb7a6c",
    "models/tools/budget/engine/ledger-build.py": "a37ede7bc9a8c94365881f4173bad994fda32a762220441c0d3e6fe9796255b2",
    "models/tools/budget/engine/window.py": "9b831c5d8c20c7ea3a972260413597a096cf56da3b3abb0ff916c5a22b451cf2",
-   "models/tools/budget/run.py": "0ab1e80f605ad9120ae9e085216a8c6da356cc3539ff0d2d9908081b263a8035",
+   "models/tools/budget/run.py": "857913b049064f7fd016e1c584a2cc6879fb343f18532b331303ded67ccb9789",
    "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
    "models/tools/recovery-budget/model.py": "4850d1487c92889877d005bde1dd03d35787ef0b0c9961ee21f4bbf05bb7c43d",
    "models/tools/scenarios.py": "0d174308e273072ca379ffe74b4195b21272e384438c1afa6624c4cf5f96a709",
@@ -193,7 +193,7 @@
    "models/tools/recovery-budget/assumptions.json": "a79f624e3374f66d373a33f10d59fd5dbcde1280d8e8981be54a258cd269b8b3"
   },
   "model_id": "MOD-budget",
-  "model_version": "0.3.0",
+  "model_version": "0.4.0",
   "price_basis": "nominal dollars",
   "scenarios": [
    "current-law",
