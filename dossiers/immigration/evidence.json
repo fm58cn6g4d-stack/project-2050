@@ -9294,5 +9294,146 @@
     "stance": "supports"
    }
   ]
+ },
+ {
+  "id": "EV-IMM-664",
+  "statement": "ITEP estimated an undocumented immigrant population of 10,900,000 with aggregate income of $373,000,000,000 across all states in 2022.",
+  "claim": "analysis",
+  "figures": [
+   "10,900,000",
+   "$373,000,000,000"
+  ],
+  "source": "SRC-4185",
+  "anchor": [
+   "SUM ALL STATES | 10,900,000 | $373,000,000,000"
+  ],
+  "locator": "Appendix A, table 'Population and Income Data for the Undocumented Immigrant Population', row SUM ALL STATES (a web page; no page numbers)",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-25",
+  "recheck": "2027-11-25",
+  "context": "ITEP's own data file built from survey data (Appendix B), not a count. MOD-immigration's labor module divides the two figures for income per person (about $34,220, project arithmetic).",
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-607",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "models/tools/immigration/labor.csv"
+  ]
+ },
+ {
+  "id": "EV-IMM-665",
+  "statement": "ITEP targets a 60 percent contribution rate for the undocumented population under the federal individual income tax, slightly below the midpoint of a 50 to 75 percent range.",
+  "claim": "analysis",
+  "figures": [
+   "60 percent",
+   "50 to 75 percent"
+  ],
+  "source": "SRC-4185",
+  "anchor": [
+   "we target a 60 percent contribution rate for the undocumented population under the federal individual income tax—a value slightly below the midpoint of the 50 to 75 percent range described earlier."
+  ],
+  "locator": "Appendix B, Methodology, 'Application of Tax Parameters to the Data File' (a web page; no page numbers)",
+  "grade": "C",
+  "fact_date": "2024-07",
+  "checked": "2026-11-25",
+  "recheck": "2027-11-25",
+  "context": "A contribution rate (the share of income tax owed that is paid), which ITEP says implies a compliance rate somewhat below 60 percent; the labor module applies it as the share of income taxed before status, an approximation. ITEP tests 50 and 75 percent.",
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-606",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "models/tools/immigration/labor.csv"
+  ]
+ },
+ {
+  "id": "EV-IMM-666",
+  "statement": "ITEP estimates that an average U.S. resident with an income profile like the undocumented population's exhibits a contribution rate of 92 percent, above the population-wide 82 percent.",
+  "claim": "analysis",
+  "figures": [
+   "92 percent",
+   "82 percent"
+  ],
+  "source": "SRC-4185",
+  "anchor": [
+   "the average U.S. resident with an income profile in line with that seen in the undocumented population exhibits a contribution rate of 92 percent. This is above the population-wide rate of 82 percent"
+  ],
+  "locator": "Appendix B, Methodology, 'Application of Tax Parameters to the Data File' (a web page; no page numbers)",
+  "grade": "C",
+  "fact_date": "2024-07",
+  "checked": "2026-11-25",
+  "recheck": "2027-11-25",
+  "context": "Higher than the population-wide rate because the income is mostly wages, with third-party reporting. The labor module uses it as the share of income taxed after status.",
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-665",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "models/tools/immigration/labor.csv"
+  ]
+ },
+ {
+  "id": "EV-IMM-667",
+  "statement": "ITEP applies a 10 percent wage increase from granting legal status to all undocumented immigrants, which it calls conservative.",
+  "claim": "analysis",
+  "figures": [
+   "10 percent"
+  ],
+  "source": "SRC-4185",
+  "anchor": [
+   "This study applies a conservative estimate of a 10 percent wage increase from granting legal status to all undocumented immigrants."
+  ],
+  "locator": "Appendix B, Methodology, 'Data and Tax Parameter Adjustments Used to Calculate Tax Contributions if Legal Status is Granted' (a web page; no page numbers)",
+  "grade": "C",
+  "fact_date": "2024-07",
+  "checked": "2026-11-25",
+  "recheck": "2027-11-25",
+  "context": "An assumption of the scenario, not a finding; the IRCA study puts the gain at about 6 percent (EV-IMM-232), which the labor module uses as its central value.",
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-232",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "models/tools/immigration/labor.csv"
+  ]
+ },
+ {
+  "id": "EV-IMM-668",
+  "statement": "CBO estimated the surge population will pay $345 billion in income taxes from 2024 to 2034, an average individual income tax rate of 9.7 percent, against 15.8 percent for the rest of the population.",
+  "claim": "analysis",
+  "figures": [
+   "$345 billion",
+   "9.7 percent",
+   "15.8 percent"
+  ],
+  "source": "SRC-4181",
+  "anchor": [
+   "CBO estimates that the surge population will pay $345 billion in income taxes from 2024 to 2034, implying an average individual income tax rate of 9.7 percent for that population.",
+   "By contrast, the average individual income tax rate for the rest of the population is projected to be 15.8 percent."
+  ],
+  "locator": "Effects on the Federal Budget, paragraph 'Income Taxes' (a web page; no page numbers)",
+  "grade": "C",
+  "fact_date": "2024-07",
+  "checked": "2026-11-25",
+  "recheck": "2027-11-25",
+  "context": "CBO, July 2024; the surge population is mostly recent arrivals, many without status. The labor module uses 9.7 percent as its central income tax rate on newly taxed income (an average rate used as a marginal one) and 15.8 percent as its high.",
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-229",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "models/tools/immigration/labor.csv"
+  ]
  }
 ]
