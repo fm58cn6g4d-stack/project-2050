@@ -1,6 +1,6 @@
 # Memo H3: Where the toolkit and the site live
 
-Role: decision memo for Espen, stage H step 1 (`../1-audit.md`, part 3.4). Status: **provisional, drafted November 25, 2026. Not decided.** Decided on its own, not as a package. Espen has asked that the site's code stay in this repository, not on Lovable or Wix, for now; every option below keeps that.
+Role: decision memo for Espen, stage H step 1 (`../1-audit.md`, part 3.4). Status: **provisional, drafted November 25, 2026. Not decided.** Decided on its own, not as a package. The lead recommends keeping the site's code in this repository for now, and Espen has turned off the Lovable, Wix and AnimatedWebs connectors; every option below keeps the code here.
 
 ## The question
 
