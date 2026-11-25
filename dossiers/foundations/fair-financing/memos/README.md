@@ -1,6 +1,6 @@
 # Stage G decision memos: the financing settlement
 
-Role: the decision memos of stage G's financing settlement ([`../2-settlement.md`](../2-settlement.md)): G1-G9 from the settlement draft (step 4), G10-G14 from the whole-budget scan (step 4b, [`../3-budget-scan.md`](../3-budget-scan.md)), and G8 redrafted without a VAT in step 7. Status: **G1-G7 and G9-G14 decided** (`DEC-2026-11-20-05` to `-14`, `DEC-2026-11-24-01` to `-09`) **and booked in step 7; G15-G22 decided November 25** (`DEC-2026-11-25-01` to `-11`; G8, held, is replaced by G18 D′; G15 and G19 come back redrafted as G23 and G24); **G23-G25 provisional (batch 4).** Each memo, and each point in G1 B, G3, G9, G10, G11 and G12, was decided on its own (`charter/STANDARDS.md`, "Decision memos"). Each memo keeps the draft's figures as the record of the choice; the booked figures are in `../2-settlement.md` and [`../notes/booking-results.md`](../notes/booking-results.md).
+Role: the decision memos of stage G's financing settlement ([`../2-settlement.md`](../2-settlement.md)): G1-G9 from the settlement draft (step 4), G10-G14 from the whole-budget scan (step 4b, [`../3-budget-scan.md`](../3-budget-scan.md)), and G8 redrafted without a VAT in step 7. Status: **G1-G7 and G9-G14 decided** (`DEC-2026-11-20-05` to `-14`, `DEC-2026-11-24-01` to `-09`) **and booked in step 7; G15-G22 decided November 25** (`DEC-2026-11-25-01` to `-11`; G8, held, is replaced by G18 D′; G15 and G19 come back redrafted as G23 and G24); **G23-G25 provisional (batch 4); G26-G28 provisional (step 10, the health contribution as a trust fund).** Each memo, and each point in G1 B, G3, G9, G10, G11 and G12, was decided on its own (`charter/STANDARDS.md`, "Decision memos"). Each memo keeps the draft's figures as the record of the choice; the booked figures are in `../2-settlement.md` and [`../notes/booking-results.md`](../notes/booking-results.md).
 
 ## The forks and the answers
 
@@ -59,6 +59,16 @@ FY2040 effects are each choice's own effect on the general-fund gap as booked (`
 | [G23](G23-debt-path-redraft.md) | The debt goal, made more aggressive | **B**: debt falling to 110% of GDP by FY2056, 1.0% of GDP phased in over FY2035-39 | $540B of new deficit reduction |
 | [G24](G24-later-revenue-with-a-vat.md) | G19's mix with a VAT allowed | **B**: G19 B's deduction limits and surtax, then a VAT of about 4.9% from FY2035 with a $150-a-point rebate for every adult, enacted in the 2033-34 Congress; it moves G19 B's FY2037 start to FY2035 (**B′** keeps FY2037 at about 5.5%) | $313B fixed + $237B VAT |
 | [G25](G25-cli1-after-the-fix.md) | The clean-energy credits after FY2039 | **Yes to both**: book the corrected tail (tier 3); keep G17 B's hold as a ceiling | −$10B (−$80B a year from FY2047) |
+
+## Step 10's batch: the health contribution as a trust fund
+
+After `DEC-2026-11-25-12` (the health contribution pays only for the health system). The analysis is [`../8-health-trust-fund.md`](../8-health-trust-fund.md); all three memos are in [`G26-G28-health-fund.md`](G26-G28-health-fund.md). **Provisional; nothing booked.**
+
+| Memo | Question | Recommended | Effect |
+| --- | --- | --- | --- |
+| G26 | What the 3.80% stands for | **A**: re-founded as the share of the fund's cost the contribution pays | none on the booking |
+| G27 | How the rate moves after 2040 | **A**: the contribution pays a fixed share of the fund's cost (Part B's model); trustees' reserve band; the early surplus kept in the fund | R about 4.1% by FY2056; general fund $158B better in FY2056 |
+| G28 | The health contribution and the debt plan | **A**: only as a smaller general-fund share of health's cost, by law, under a certified ceiling | none against batch 4 (B, off the menu, costs a larger surtax without a VAT: $161-276B in FY2040) |
 
 ## What the settlement rests on, and who decided it
 
