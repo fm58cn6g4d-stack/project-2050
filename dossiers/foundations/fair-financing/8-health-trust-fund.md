@@ -71,7 +71,7 @@ Built from the booked case's own lines (`health_trust_fund.py`, part 1 of the no
 
 **What the account leaves out** (the fable consult's points, checked; none changes a conclusion below):
 - **HI's own shortfall.** At the 2035 fold-in, the fund takes on Part A's current-law shortfall, about 0.56% of HI payroll over 75 years (`2-settlement.md` part 6, item 4). The settlement ended the general fund's grant to HI on the reasoning that a grant to the plan's fund is "the general fund paying itself". With a segregated fund that reasoning no longer holds. The shortfall belongs in the general fund's defined share, explicitly. That is about $79-85B in FY2040 (the risk row) and is inside the baseline's committed revenue in this account.
-- **HX's split.** By law, the income-tax part of the tax on former premiums goes to the general fund, and the payroll part to Social Security and HI (`../health-financing.md` part 2.1). Crediting it to health, as `DEC-2026-11-15-20` defined the first call, is a general-fund transfer under another name: net of HEX, about $358B in FY2040. Its Social Security part can't be health's at all. Treated as general-fund money, it raises the transfer by that amount and moves no rate under G27 A.
+- **HX's split** (booked in step 11 as I2, pending Espen: the OASDI part, an estimated 29.7%, is out of the fund's sources and stays on the general fund). By law, the income-tax part of the tax on former premiums goes to the general fund, and the payroll part to Social Security and HI (`../health-financing.md` part 2.1). Crediting it to health, as `DEC-2026-11-15-20` defined the first call, is a general-fund transfer under another name: net of HEX, about $358B in FY2040. Its Social Security part can't be health's at all. Treated as general-fund money, it raises the transfer by that amount and moves no rate under G27 A.
 - **Interest on a reserve** is an intragovernmental credit, netted out of the unified budget: about $10B a year on $250B.
 - **The baseline's general revenue** is committed "growing with the plan's costs" (`../health-financing.md` part 2.1). That makes it a cost share already, which G27 A and B extend.
 
@@ -107,12 +107,12 @@ Built from the booked case's own lines (`health_trust_fund.py`, part 1 of the no
 
 | | FY2040 | FY2045 | FY2050 | FY2056 | General-fund gap FY2050 / FY2056 | Debt FY2056 (no goal) |
 | --- | --- | --- | --- | --- | --- | --- |
-| **A as booked: the fund's rule, quarter-point steps** (band on the contribution's share, tested a year ahead: working assumption pending Espen, G27.1a) | 3.80% | 4.05% | 4.05% | **4.05%** (4.30% in FY2046-47 and FY2052-55) | −322 / −438 | **129.3%** |
-| A, the smooth share (no steps) | 3.80% | 4.04% | 4.10% | 4.17% | −339 / −488 | 129.6% |
-| B. The general fund pays a fixed share | 3.80% | 4.26% | 4.41% | 4.78% | −443 / −752 | 127.3% |
-| C. R fixed in law at 3.80%, the general fund the residual (step 7's arithmetic) | 3.80% | 3.80% | 3.80% | 3.80% | −238 / −330 | 131.6% |
+| **A as booked: the fund's rule, quarter-point steps** (band on the contribution's share, tested a year ahead: G27.1a; reserve as built, $160B: I2; both pending Espen) | 3.80% | 4.05% | 4.05% | **4.30%** (4.05% from FY2041; 4.30% in FY2048-49 and FY2053-56) | −322 / −438 | **129.1%** |
+| A, the smooth share (no steps) | 3.80% | 4.04% | 4.10% | 4.17% | −339 / −381 | 129.6% |
+| B. The general fund pays a fixed share | 3.80% | 4.27% | 4.45% | 4.82% | −456 / −662 | 127.2% |
+| C. R fixed in law at 3.80%, the general fund the residual (step 7's arithmetic) | 3.80% | 3.80% | 3.80% | 3.80% | −238 / −223 | 131.6% |
 
-All columns are on the fund's new spending (step 10's table mixed in the whole-spending rates, the reviewer's note on #502; on the whole spending A's smooth rate is 4.13% in FY2056 and B's 4.68%). Before #493 and I1 the debt column read 131.2%, 128.9% and 133.1% for A, B and C.
+All columns are on the fund's new spending (step 10's table mixed in the whole-spending rates, the reviewer's note on #502; on the whole spending A's smooth rate is 4.13% in FY2056 and B's 4.73%). Before #493 and I1 the debt column read 131.2%, 128.9% and 133.1% for A, B and C.
 
 - **A** spreads health's faster growth: the contribution's share holds, and the general fund absorbs the drift in the other sources (the employer contribution, the streams). With G13 kept, a lost wealth tax still lands on R.
 - **B** puts all of the drift on R, so the general fund's share is predictable. It also puts D2's overrun partly on the general fund unless G13 overrides.
@@ -121,7 +121,7 @@ All columns are on the fund's new spending (step 10's table mixed in the whole-s
 **How the rate moves (all three):**
 - **No annual reset.** An AGI base falls in a recession, so a yearly formula would raise R in a slump.
 - **The fund's trustees** project the fund over ten years each year, as HI's trustees do.
-- **The rate steps a quarter point, at most once a year,** when the projected reserve leaves a corridor of 15-25% of a year's outlays (the fable consult's design). Up if below, down if above. **As booked (step 11):** the decision doesn't say whose outlays or which projected year; the booking reads the band on the contribution's own share of the fund's cost and tests one year ahead (G27.1a, a working assumption pending Espen). On the fund's new spending the rate would reach 4.80%, and on its whole spending 5.30%, building reserves of $1.4T and $3.8T by FY2056 (the note's part 4a).
+- **The rate steps a quarter point, at most once a year,** when the projected reserve leaves a corridor of 15-25% of a year's outlays (the fable consult's design). Up if below, down if above. **As booked (step 11):** the decision doesn't say whose outlays or which projected year; the booking reads the band on the contribution's own share of the fund's cost and tests one year ahead (G27.1a, a working assumption pending Espen). On the fund's new spending the rate would reach 4.80%, and on its whole spending 5.30%, building reserves of $1.9T and $4.0T by FY2056 (the note's part 4a). On the booked reading the rate moves back and forth between 4.05% and 4.30% (up in FY2048, down in FY2050, up in FY2053). At a fixed rate the contribution falls behind its share as health outgrows its base, a quarter point (about $70-110B a year) refills the reserve, and the band is only about two steps wide.
 - **The step-down trigger is the fund's own certified reserve above the corridor, never a general-fund surplus.** It replaces G16 B's second leg and G18 D′.
 - **G13's overrun steps stay.** They are the up-side of the same test, sized on the fund alone.
 - **The 3.25% floor stays** (G16, G18), as a floor on the contribution's share.
@@ -136,10 +136,10 @@ All columns are on the fund's new spending (step 10's table mixed in the whole-s
 
 **Restated in stage G step 11 on the booking** (G26 A, G27 A with its three points, G28 A, `DEC-2026-11-25-30` to `-32`; I1 A; after #493). Figures: `notes/health-trust-fund-results.md` and `notes/booking-results.md`.
 
-- **The general fund and the rule's test:** FY2040-56 close in every year. With the fund's rule booked the general fund is ahead by $322B in FY2050 and $438B in FY2056, against $238B and $330B with R held at 3.80%.
-- **The early surplus held in the fund:** the general fund's own FY2030-34 figure is $391B worse (the fund holds it), and its FY2035 transfer $141B smaller ($154B instead of $295B, with HI's last H1a quarter left in HI). Debt held by the public doesn't move.
+- **The general fund and the rule's test:** FY2040-56 close in every year. With the fund's rule booked the general fund is ahead by $322B in FY2050 and $438B in FY2056, against $238B and $223B with R held at 3.80%.
+- **The early surplus held in the fund:** with HX's Social Security part out of the fund's sources (I2, pending Espen), the fund builds $255B over FY2030-32 and meets its own FY2033-34 shortfalls ($30B and $66B). It holds $160B as its standing reserve, as built, with no FY2035 draw; `-31` point 2's $250B plus $141B would need $391B. The general fund's own FY2030-34 figure is $160B worse, and its FY2035 transfer is $498B. Debt held by the public doesn't move.
 - **The debt path (G15/G23):**
-  - On the booked plan with no goal, FY2056 debt is **129.3%** (131.6% with R held at 3.80%; 133.1% before #493).
+  - On the booked plan with no goal, FY2056 debt is **129.1%** (131.6% with R held at 3.80%; 133.1% before #493).
   - G23 B (110% by FY2056) and G24 B (the rebated VAT from FY2035, R not used for the debt) are decided (`DEC-2026-11-25-13`, `-14`). Under G27 A the money G23 B needs falls by the general fund's gains from the mid-2040s; G24 B's VAT rate is re-priced in its own step, not here.
 - **Take-home** (69.0% of workers ahead at 3.80%, target 85-90%): unchanged in FY2040. At the rule's later rates, read at FY2040's incomes as an indication only: 65.4% at 4.05% and 62.6% at 4.30%.
   - R comes down only on the fund's own results. The defense path's surplus no longer returns as a lower rate (G16 B's second leg and G18 D′ are replaced).

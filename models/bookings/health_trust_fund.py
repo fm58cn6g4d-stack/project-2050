@@ -308,7 +308,7 @@ def markdown(r):
           '', '## 4a. The band\'s base: the rate under each reading (G27.1a, a working assumption pending Espen)', '',
           'The decision sets the band at "15-25% of a year\'s spending" without naming whose spending or which projected '
           'year is tested. Booked: the contribution\'s own share of the fund\'s cost, tested one year ahead, the one reading that '
-          'gives 3.80% in FY2040 drifting to about 4.1%. Each row starts from the $250B standing reserve.', '',
+          'gives 3.80% in FY2040 drifting to about 4.1%. Each row starts from the booked standing reserve (as built, I2).', '',
           '| The band read on | R FY2041 | FY2045 | FY2050 | FY2056 | Highest R | Reserve FY2056 ($B) |', '| --- | --- | --- | --- | --- | --- | --- |']
     for name, (path, res) in r['bands'].items():
         L.append('| %s | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %s |' % (
