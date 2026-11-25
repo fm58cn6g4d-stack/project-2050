@@ -1,6 +1,6 @@
 # Memos G26-G28: The health contribution as a trust fund
 
-Role: decision memos for Espen, stage G step 10 ([`../8-health-trust-fund.md`](../8-health-trust-fund.md); figures in [`../notes/health-trust-fund-results.md`](../notes/health-trust-fund-results.md)). They follow from your decision that the health contribution pays only for the health system and behaves like the HI tax it replaces (`DEC-2026-11-25-12`, in #501). Status: **provisional, drafted November 25, 2026. Not decided; nothing booked.** A rebooking follows your answers as its own tier-3 step. Nominal $B; project arithmetic on exploratory models, not official scores. Each memo is decided on its own, not as a package.
+Role: decision memos for Espen, stage G step 10 ([`../8-health-trust-fund.md`](../8-health-trust-fund.md); figures in [`../notes/health-trust-fund-results.md`](../notes/health-trust-fund-results.md)). They follow from your decision that the health contribution pays only for the health system and behaves like the HI tax it replaces (Espen's decision of November 25 in #501, waiting for its label). Status: **provisional, drafted November 25, 2026. Not decided; nothing booked.** A rebooking follows your answers as its own tier-3 step. Nominal $B; project arithmetic on exploratory models, not official scores. Each memo is decided on its own, not as a package.
 
 ## What your rule changes, in short
 
