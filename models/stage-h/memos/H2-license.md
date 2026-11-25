@@ -30,7 +30,7 @@ Norms in this field: the Policy Simulation Library's models (Tax-Calculator, OG-
 
 ## Recommendation
 
-**A**, with CC0 for parameter files, and a separate answer from Espen on the Carbon Dividend Model's engine. The license files and a `CITATION.cff` (so others can cite the toolkit) go in their own tier-3 PR.
+**A**, with CC0 for parameter files, and a separate answer from Espen on the Carbon Dividend Model's engine. The license files and a `CITATION.cff` (so others can cite the toolkit) go in their own tier-3 PR (step H2b).
 
 ## Consequences
 
