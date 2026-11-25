@@ -29,11 +29,11 @@ The pictures in the frames are rough placeholders built from shapes, to show the
 ## What the design settles, whichever direction wins
 
 - **One shared structure.** Top bar; the day as a strip of times; the family selector; the picture; the "Imagined scene" tag; time and place; the title; the flagship; the beats; "When it begins"; "The honest limit"; a button that opens the scene's detail. A direction changes the look, not the order.
-- **The family selector (O1).** "Whose day are you following?" with three choices. The chosen one carries a check mark and a heavier border, so it doesn't rely on color alone. On a phone the labels shorten to first names. The names in the frames (Jordan; Maya and Sam; Carol, Dev and Eli) are placeholders for H8.
+- **The family selector (O1, `DEC-2026-11-25-23`).** "Whose day are you following?" with three choices. The chosen one carries a check mark and a heavier border, so it doesn't rely on color alone. On a phone the labels shorten to first names. The names in the frames (Jordan; Maya and Sam; Carol, Dev and Eli) are placeholders for H8.
 - **Type scale.** Display 64/68 desktop, 40/44 phone; heading 40/46 and 28/34; subhead 24/32 and 21/28; body 20/32 and 18/28; small 16/24 and 15/22; label 13/16. Body text never drops below 18 px on a phone.
 - **"Imagined scene" on every scene.** A dark tag above the title, and in B also under every photograph.
 - **Fonts.** All six are open-licence Google Fonts, so H10 can self-host them.
-- **Transportation (O2)** stays an optional scene; **the money (O3)** closes the day. Both have briefs; neither has a frame yet.
+- **Transportation (O2, `DEC-2026-11-25-24`)** stays an optional scene; **the money (O3, `DEC-2026-11-25-25`)** closes the day. The scope is memo H4's option A (`DEC-2026-11-25-21`). Both have briefs; neither has a frame yet.
 
 ## Contrast (WCAG 2.2 AA)
 
