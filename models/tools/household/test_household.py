@@ -5,7 +5,9 @@ of the Census's published SPM figures and of the legacy incidence model, and the
 Role: the household model's test suite (`MODEL-CARD.md`, "Tests"). Status: working. Run from anywhere:
   python3 models/tools/household/test_household.py
 The legacy-reproduction test needs the budget model's `ledger.json` and the legacy model's `incidence.json`; it looks
-for them in $BUILD (run-all.sh sets it) or `build/`, and is skipped if they are absent.
+for them in $BUILD (run-all.sh sets it) or `build/`, and is skipped if they are absent. The other tests start from
+`build/ledger.json` when it exists and otherwise from the committed snapshot (`snapshot/ledger.json`), so they run from a
+fresh clone.
 """
 import importlib.util
 import json
@@ -295,10 +297,7 @@ class LegacyReproduction(unittest.TestCase):
 
     def test_year_profiles_sum_to_the_total(self):
         import d3
-        build = os.environ.get("BUILD", os.path.join(ROOT, "build"))
-        led = os.path.join(build, "ledger.json")
-        if not os.path.exists(led):
-            self.skipTest("no ledger.json in BUILD")
+        led = P.default_ledger()      # build/ledger.json if there is one, else the committed snapshot
         D = d3.D3.load(led)
         for rid, label, side, amt, parts, basis in D.ROWS:
             if rid in ("C1P", "CB1", "CLIW", "CLIL", "E2d", "E1h") or not amt:
@@ -373,10 +372,7 @@ class Intervals(unittest.TestCase):
 class CBOConventions(unittest.TestCase):
     def test_steps(self):
         import conventions as C
-        build = os.environ.get("BUILD", os.path.join(ROOT, "build"))
-        led = os.path.join(build, "ledger.json")
-        if not os.path.exists(led):
-            self.skipTest("no ledger.json in BUILD")
+        led = P.default_ledger()
         b = baseline(2029)
         hs = b["households"]
         assign(hs, "size_adjusted")
@@ -399,5 +395,205 @@ class CBOConventions(unittest.TestCase):
         self.assertTrue(all("cg" not in h for h in hs))
 
 
+class FrameAndFreshClone(unittest.TestCase):
+    """Step H3: the parameter file, the ledger snapshot, the fetch script, the data boundary and the results header."""
+
+    @classmethod
+    def setUpClass(cls):
+        sys.path.insert(0, os.path.join(ROOT, "models", "schema"))
+        sys.path.insert(0, os.path.join(ROOT, "models"))
+        import parameters as PS
+        cls.PS = PS
+        cls.rows = PS.read(os.path.join(HERE, "parameters.csv"))
+
+    def test_parameter_file_meets_the_schema(self):
+        self.assertEqual(self.PS.validate(self.rows), [])
+
+    def test_law_comes_from_the_parameter_file(self):
+        import params
+        n = sum(1 for r in self.rows if r["group"] == "law")
+        flat = []
+        def walk(v):
+            if isinstance(v, dict):
+                for x in v.values():
+                    walk(x)
+            elif isinstance(v, (list, tuple)):
+                for x in v:
+                    walk(x)
+            else:
+                flat.append(v)
+        walk({k: v for k, v in params.LAW_2025.items() if k != "year"})
+        self.assertEqual(len(flat), n)
+        self.assertEqual(params.LAW_2025["std"]["joint"], 31500)
+        self.assertEqual(params.LAW_2025["brackets"]["single"][0], 11925)
+        self.assertEqual(params.LAW_2025["fpl"], (15650, 5500))
+        self.assertEqual(params.constant("snap.usda_participants"), 42145499)
+
+    def test_card_evidence_table_is_the_generated_one(self):
+        card = open(os.path.join(HERE, "MODEL-CARD.md"), encoding="utf-8").read()
+        a, b = card.index(self.PS.START) + len(self.PS.START), card.index(self.PS.END)
+        self.assertEqual(card[a:b].strip(), self.PS.table(self.rows).strip(),
+                         "the card's evidence table is stale: python3 models/schema/parameters.py "
+                         "models/tools/household/parameters.csv --card models/tools/household/MODEL-CARD.md")
+
+    def test_snapshot_matches_the_built_ledger(self):
+        led = os.path.join(ROOT, "build", "ledger.json")
+        if not os.path.exists(led):
+            self.skipTest("no build/ledger.json")
+        self.assertEqual(P.ledger_values(led), P.ledger_values(P.SNAPSHOT),
+                         "the ledger changed: python3 models/tools/household/run.py --update-snapshot, then regenerate the results")
+
+    def test_runs_from_the_snapshot_without_build(self):
+        v = P.ledger_values(P.SNAPSHOT)
+        self.assertGreater(len(v), 100)
+        D = __import__("d3").D3.load(P.SNAPSHOT)
+        self.assertTrue(D.SCEN)
+
+    def test_no_import_of_the_health_cost_or_financing_scripts(self):
+        import ast
+        for f in sorted(os.listdir(HERE)):
+            if not f.endswith(".py") or f.startswith("test_"):
+                continue
+            tree = ast.parse(open(os.path.join(HERE, f), encoding="utf-8").read())
+            for node in ast.walk(tree):
+                names = ([a.name for a in node.names] if isinstance(node, ast.Import)
+                         else [node.module or ""] if isinstance(node, ast.ImportFrom) else [])
+                for n in names:
+                    self.assertFalse(n.split(".")[0].startswith("health_"), f"{f} imports {n}")
+
+    def test_no_random_numbers(self):
+        # the intervals are successive difference replication (deterministic); nothing here draws at random
+        import re
+        for f in sorted(os.listdir(HERE)):
+            if f.endswith(".py") and not f.startswith("test_"):
+                src = open(os.path.join(HERE, f), encoding="utf-8").read()
+                self.assertIsNone(re.search(r"^\s*(import random|from random|import numpy\.random|np\.random)", src, re.M), f)
+
+    def test_take_home_flags_match_the_extract(self):
+        import csv
+        import gzip
+        with gzip.open(os.path.join(HERE, "take-home-flags.csv.gz"), "rt", newline="") as f:
+            rows = list(csv.DictReader(f))
+        units = baseline(2029)["units"]
+        self.assertEqual(len(rows), len(units))
+        for r in rows[:2000]:
+            self.assertTrue(all(v in ("0", "1") for v in r.values()))
+
+    def test_fetch_checks_the_hash(self):
+        import hashlib
+        import tempfile
+        import fetch_cps
+        with tempfile.TemporaryDirectory() as d:
+            src = os.path.join(d, "a.zip")
+            with open(src, "wb") as f:
+                f.write(b"not the archive")
+            good = hashlib.sha256(b"not the archive").hexdigest()
+            out = fetch_cps.fetch(os.path.join(d, "ok"), "file://" + src, good)
+            self.assertEqual(open(out, "rb").read(), b"not the archive")
+            with self.assertRaises(SystemExit):
+                fetch_cps.fetch(os.path.join(d, "bad"), "file://" + src, "0" * 64)
+            self.assertEqual(os.listdir(os.path.join(d, "bad")), [])      # nothing kept from a bad download
+
+    def test_committed_results_carry_the_header_and_current_code(self):
+        import results as RS
+        import runlog
+        for f in ("results.json", "results.md"):
+            self.assertEqual(RS.check_file(os.path.join(HERE, f)), [], f)
+        h = json.load(open(os.path.join(HERE, "results.json")))["header"]
+        self.assertEqual(h["model_id"], "MOD-household")
+        for path, sha in {**h["code"], **h["inputs"]}.items():
+            self.assertEqual(runlog.sha256_file(os.path.join(ROOT, path)), sha,
+                             f"{path} changed since the results were written: rerun run.py and update the changelog")
+
+
+# ---------------------------------------------------------------- the validation table (models/schema/validation.py)
+CARD = os.path.join(HERE, "MODEL-CARD.md")
+VSTART, VEND = "<!-- generated:validation:start -->", "<!-- generated:validation:end -->"
+TPC_NOTE = ("TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account "
+            "earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a "
+            "larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top "
+            "incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). "
+            "The ordering and the progressivity match")
+
+
+def validation_rows(results=None):
+    """Every benchmark with the model's figure, from the committed results; targets and tolerances are fixed here."""
+    import validation as V
+    R = results or json.load(open(os.path.join(HERE, "results.json")))
+    iv = json.load(open(os.path.join(HERE, "intervals.json")))["metrics"]["poverty_2025_model"]
+    ag, pv = R["baseline_2025"]["aggregates"], R["baseline_2025"]["poverty"]["model"]
+    tpc = R["baseline_2029"]["distribution_tpc"]
+    out = []
+    ev = lambda b, m: out.append(V.evaluate(b, m))
+    pov_basis = "the 90% sampling half-interval of the model's own rate (intervals.json), which matches the Census's published margin (about 0.3 points for all people, 0.6 for children)"
+    for key, name, target in (("all", "all people", 13.1), ("children", "children", 13.4), ("18_64", "adults 18-64", 12.3), ("65_plus", "people 65 and over", 15.4)):
+        ev(V.Benchmark(f"HH-P-{key}", f"SPM poverty rate, 2025, the model's own taxes: {name}", target, "SRC-3602",
+                       "Census P60-290, table 8 (2025)", "percent", tolerance=round(iv[f"rate_{key}"]["half90"], 2), tolerance_kind="absolute",
+                       tolerance_basis=pov_basis,
+                       explanation="The model rebuilds the Census's resources from its elements exactly with Census taxes (tested); with its own taxes the difference is its slightly higher income tax (no itemized deductions, A-7)."),
+           pv[key]["rate"])
+    same = "the model applies the Census tax model's rules to the same records, so it should land within a few percent; 5%, a round band"
+    ev(V.Benchmark("HH-T-eitc", "Earned income credit, 2025 law", ag["census_eitc_bn"], "SRC-3600", "Census tax model on the same CPS records", "$ billion",
+                   0.05, "relative", same, explanation="Follows the Census on the same records."), ag["eitc_bn"])
+    ev(V.Benchmark("HH-T-ctc", "Child and other-dependent credits, refundable and not, 2025 law", ag["census_ctc_bn"] + 0.0, "SRC-3600", "Census tax model on the same CPS records", "$ billion",
+                   0.05, "relative", same, explanation="Follows the Census on the same records."), ag["ctc_bn"])
+    ev(V.Benchmark("HH-T-agi", "Adjusted gross income, 2025", ag["census_agi_bn"], "SRC-3600", "Census tax model on the same CPS records", "$ billion",
+                   0.05, "relative", same, explanation="About 1 percent below."), ag["agi_bn"])
+    ev(V.Benchmark("HH-T-tax", "Income tax after credits, 2025 law", ag["census_income_tax_bn"], "SRC-3600", "Census tax model on the same CPS records", "$ billion",
+                   0.05, "relative", same,
+                   explanation="The model's income tax is about 9% above the Census's, most of it in the top quintile: the CPS microdata has no itemized deductions, AMT or the dependent care, education, saver's and premium credits (A-7), which the Census's own model imputes."),
+       ag["income_tax_bn"])
+    soi = "https://www.irs.gov/pub/irs-soi/23in25ic.xls; https://www.irs.gov/pub/irs-soi/23in33ar.xls"
+    ev(V.Benchmark("HH-S-eitc", "Earned income credit, 2025 law, against IRS returns", 66.27, soi, "IRS SOI, tax year 2023, all returns (2023 law)", "$ billion",
+                   0.10, "relative", "10%: a different tax year and law, and a survey against administrative records",
+                   explanation="The CPS under-reports low and self-employment earnings and family links, and the IRS total includes claims its own compliance studies find improper; the model follows the Census on the same records. Cited, not run: fetch_public.py cannot read the legacy .xls."),
+       ag["eitc_bn"])
+    ev(V.Benchmark("HH-S-ctc", "Child and other-dependent credits, total, 2025 law, against IRS returns", 84.42 + 34.53, soi, "IRS SOI, tax year 2023 ($2,000 credit)", "$ billion",
+                   0.10, "relative", "10%: a different tax year and credit amount ($2,000 against 2025's $2,200)",
+                   explanation="About 1% above SOI on a credit that is 10% larger per child; the refundable part is $11B lower (the low-earnings under-reporting again)."),
+       ag["ctc_bn"])
+    ev(V.Benchmark("HH-S-actc", "Refundable child credit, 2025 law, against IRS returns", 34.53, soi, "IRS SOI, tax year 2023", "$ billion",
+                   0.10, "relative", "10%: a different tax year and credit amount",
+                   explanation="The CPS under-reports the low earnings that drive the refundable part."), ag["actc_bn"])
+    for g, lab in (("1", "Q1"), ("2", "Q2"), ("3", "Q3"), ("4", "Q4"), ("5", "Q5"), ("T1", "top 1%")):
+        t_inc, t_pay = {1: (-3.66, 6.08), 2: (-0.07, 7.70), 3: (4.52, 7.69), 4: (7.71, 7.90), 5: (16.16, 5.52), "T1": (23.33, 2.13)}[int(g) if g.isdigit() else g]
+        for kind, target, field in (("income tax", t_inc, "income_tax_rate"), ("payroll tax", t_pay, "payroll_rate")):
+            ev(V.Benchmark(f"HH-TPC-{g}-{'i' if kind[0] == 'i' else 'p'}", f"Average federal {kind} rate, 2029, {lab} (tax units, quintiles of equal numbers of people)", target, "SRC-4801",
+                           "TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income", "percent", 1.0, "absolute",
+                           "one percentage point, a round band set before the comparison; TPC publishes no error band",
+                           explanation=TPC_NOTE), tpc[g][field])
+    return out
+
+
+def validation_block(results=None):
+    import validation as V
+    return VSTART + "\n" + V.render(validation_rows(results)) + "\n" + VEND
+
+
+def write_validation():
+    s = open(CARD, encoding="utf-8").read()
+    a, b = s.index(VSTART), s.index(VEND) + len(VEND)
+    open(CARD, "w", encoding="utf-8").write(s[:a] + validation_block() + s[b:])
+
+
+class ValidationTable(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        sys.path.insert(0, os.path.join(ROOT, "models", "schema"))
+
+    def test_no_problems(self):
+        import validation as V
+        self.assertEqual(V.problems(validation_rows()), [])
+
+    def test_card_table_is_the_one_the_code_renders(self):
+        self.assertIn(validation_block(), open(CARD, encoding="utf-8").read(),
+                      "the card's validation table is stale: python3 models/tools/household/test_household.py --write-validation")
+
+
 if __name__ == "__main__":
-    unittest.main(verbosity=1)
+    if "--write-validation" in sys.argv:
+        sys.path.insert(0, os.path.join(ROOT, "models", "schema"))
+        write_validation()
+        print("wrote the validation table into MODEL-CARD.md")
+    else:
+        unittest.main(verbosity=1)

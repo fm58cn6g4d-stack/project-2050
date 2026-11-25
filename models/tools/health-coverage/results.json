@@ -654,16 +654,16 @@
  "header": {
   "baseline_vintage": "CBO's February 2026 coverage baseline for 2032 (P.L. 119-21 in force, enhanced credits expired); CMS national health expenditure projections, 2024 base",
   "code": {
-   "models/tools/health-coverage/model.py": "8a70daa1bbf9640ba54bda0914f409583f9cd880edbab0afcec904e4b65c9da8"
+   "models/tools/health-coverage/model.py": "f8a2a86023c0f3a38be1f84874564a2ed3dde53a89f24bf331fc7d2198effa5b"
   },
   "commit": null,
   "disclaimer": "Project 2050 analysis of the evidence: not an official score or a benefit determination. It never stands in for a CBO or JCT estimate or for an agency's decision on an individual case.",
   "inputs": {
-   "models/tools/health-coverage/inputs.csv": "71db5175ffbcf7fee28116fcb9d212264fef170683e0ece4e3782811f9134d4a",
+   "models/tools/health-coverage/inputs.csv": "a394a7a04284c18ae3d452b2f7829ec245eb33de3cdf472092ad420f46855b5f",
    "models/tools/health-coverage/scenarios.csv": "92cf583c7b79d89eb1b023b7ecdfd21f05d43ea04226cb7348a3cbc2992af37a"
   },
   "model_id": "MOD-health-coverage",
-  "model_version": "0.2.0",
+  "model_version": "0.3.0",
   "price_basis": "nominal dollars",
   "scenarios": [
    "baseline_2029",
@@ -682,7 +682,7 @@
   ],
   "schema": "p2050-results/1",
   "scoring_convention": "conventional cell model: coverage flows set from CBO estimates, no labor-market or macroeconomic feedback",
-  "status": "exploratory",
+  "status": "working",
   "uncertainty": "ranges from running each labeled assumption at its low and high value (the 'uncertainty' block); no sampling error (a cell model, not a survey sample)",
   "units": "people in millions; money in $ billion (per-person amounts in dollars); 2032 unless noted",
   "year_type": "calendar 2032 for the representative year; fiscal years for the FY2030-39 window"

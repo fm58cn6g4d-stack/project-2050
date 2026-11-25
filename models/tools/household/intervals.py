@@ -29,7 +29,7 @@ weight-dependent calibrations are held at their full-sample values: SNAP's work-
 state-median stand-in (A-10). Neither moves a headline output by more than a few hundredths of a point. Not covered:
 nonsampling error (under-reporting, top-coding, the model's own assumptions), which is larger for most outputs.
 
-The take-home pass rates are `health_cost_review.take_home_micro`'s, computed for the package specifications in
+The take-home pass rates are `health_cost_review.take_home_micro`'s, read as per-unit flags from `take-home-flags.csv.gz` (that script is not imported), for the package specifications in
 `TAKE_HOME`, with the package itself (its rates and lines) held fixed: the question is how many of the country's
 workers pass a given design, not how a design picked on another sample would differ.
 """
@@ -252,43 +252,37 @@ def _ordered(vals, hs):
     return [vals[h["hh"]] for h in hs]
 
 
-def take_home_metrics(U):
-    """`health_cost_review.take_home_micro`'s pass shares (percent) for each `TAKE_HOME` package, with the tax units'
-    weights replaced column by column. The package is built once, on the full sample."""
-    import health_cost_review as HC
-    import health_financing as HF
-    ctx = HF.context()
-    case = HC.cost_cases(HC._g40())["design"]
-    fold = HC.h1b_restated(ctx)["fold_into_s_points"]
-    X = HF.keys()[4]
-    units = X["B"]["units"]
-    if len(units) != U.shape[0]:
-        raise SystemExit("health_financing's baseline units do not match the extract")
-    saved = [u["weight"] for u in units]
-    pkgs = {k: HC.unified_package(ctx, case, HC.unified_spec(S=5.0 + fold, **v)) for k, v in TAKE_HOME.items()}
-    pkgs["package_E"] = HC.health_package(ctx, case, HC.PACKAGES2["E"][2])
-    out = defaultdict(lambda: np.zeros(U.shape[1]))
-    full = {}
-    try:
-        for c in range(-1, U.shape[1]):
-            if c >= 0:
-                for u, w in zip(units, U[:, c]):
-                    u["weight"] = float(w)
-            for k, o in pkgs.items():
-                th = HC.take_home_micro(ctx, o)
-                vals = {f"{k}_workers": th["all"], f"{k}_workers_below_200fpl": th["below_200fpl"]}
-                if k != "package_E":
-                    vals[f"{k}_workers_with_low2"] = HC.take_home_micro(ctx, o, low2=True)["all"]
-                    vals[f"{k}_others"] = HC.take_home_micro(ctx, o, who="others")["all"]
-                for m, v in vals.items():
-                    if c < 0:
-                        full[m] = v
-                    else:
-                        out[m][c] = v
-    finally:
-        for u, w in zip(units, saved):
-            u["weight"] = w
-    return full, dict(out)
+FLAGS = os.path.join(HERE, "take-home-flags.csv.gz")
+
+
+def take_home_metrics(U, units):
+    """The take-home test's pass shares (percent) for each `TAKE_HOME` package, with the tax units' weights replaced
+    column by column. The per-unit pass flags are data, `take-home-flags.csv.gz` (see `take-home-flags.md`): they are
+    the output of `health_cost_review.take_home_micro`'s test, which this model no longer imports. The package is held
+    fixed, so a flag does not change with the weights."""
+    import gzip
+    with gzip.open(FLAGS, "rt", newline="") as f:
+        rows = list(csv.DictReader(f))
+    if len(rows) != U.shape[0] or len(units) != U.shape[0]:
+        raise SystemExit("take-home-flags.csv.gz does not match the extract's tax units: regenerate it (take-home-flags.md)")
+    col = lambda name: np.array([int(r[name]) for r in rows])
+    worker, nonneg, low = col("worker") == 1, col("agi_nonneg") == 1, col("below_200fpl") == 1
+    full_w = np.array([[u["weight"]] for u in units])
+    W = np.hstack([full_w, U])     # column 0: the model's own weights; then the base column and the 160 replicates
+    out, full = {}, {}
+
+    def share(ok, mask):
+        num, den = (W * (ok & mask)[:, None]).sum(axis=0), (W * mask[:, None]).sum(axis=0)
+        return 100 * num / den
+    for k in list(TAKE_HOME) + ["package_E"]:
+        ok = col(f"{k}.ok") == 1
+        metrics = {f"{k}_workers": share(ok, worker & nonneg), f"{k}_workers_below_200fpl": share(ok, worker & low)}
+        if k != "package_E":
+            metrics[f"{k}_workers_with_low2"] = share(col(f"{k}.ok_low2") == 1, worker & nonneg)
+            metrics[f"{k}_others"] = share(ok, ~worker & nonneg)
+        for m, v in metrics.items():
+            full[m], out[m] = float(v[0]), v[1:]
+    return full, out
 
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -327,7 +321,7 @@ def run(archive, ledger_path, with_take_home=True):
             own = _full(B, fn, *own_args)
             res["metrics"][name] = {m: summarize(own[m], float(v[0]), v[1:]) for m, v in reps.items()}
         if year == 2029 and with_take_home:
-            full, reps = take_home_metrics(U)
+            full, reps = take_home_metrics(U, B["units"])
             res["metrics"]["take_home"] = {m: summarize(full[m], float(v[0]), v[1:]) for m, v in reps.items()}
             res["take_home_specs"] = {k: dict(v, S="5 + H1b's fold-in") for k, v in TAKE_HOME.items()}
     try:
@@ -354,7 +348,8 @@ def _round(x):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--archive", required=True)
-    ap.add_argument("--ledger", default=os.path.join(HERE, "..", "..", "..", "build", "ledger.json"))
+    import provisions as _P
+    ap.add_argument("--ledger", default=_P.default_ledger())
     ap.add_argument("--out", default=OUT)
     ap.add_argument("--no-take-home", action="store_true")
     a = ap.parse_args()

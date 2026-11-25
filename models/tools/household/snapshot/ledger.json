@@ -1,0 +1,817 @@
+{
+ "_about": "A snapshot of the budget model's ledger.json: only the three amounts the household model reads (provisions.ledger_values). Refresh with run.py --update-snapshot after the ledger changes; test_household.py fails when it differs from build/ledger.json.",
+ "bills": [
+  {
+   "cost_mid": 0.086,
+   "id": "HLT-1"
+  },
+  {
+   "cost_mid": 0.399,
+   "id": "HLT-2"
+  },
+  {
+   "cost_mid": 0,
+   "id": "HLT-3"
+  },
+  {
+   "cost_mid": 0.414,
+   "id": "HLT-4"
+  },
+  {
+   "cost_mid": 0,
+   "id": "HLT-5"
+  },
+  {
+   "cost_mid": -0.328,
+   "id": "HLT-6"
+  },
+  {
+   "cost_mid": 18.938,
+   "id": "HLT-7"
+  },
+  {
+   "cost_mid": 0.004,
+   "id": "HLT-8"
+  },
+  {
+   "cost_mid": 1.697,
+   "id": "HLT-9"
+  },
+  {
+   "cost_mid": 0.21,
+   "id": "HLT-10"
+  },
+  {
+   "cost_mid": 0.036,
+   "id": "HLT-11"
+  },
+  {
+   "cost_mid": 1.947,
+   "id": "FAM-1"
+  },
+  {
+   "cost_mid": 1.484,
+   "id": "FAM-2"
+  },
+  {
+   "cost_mid": 0.9,
+   "id": "FAM-3"
+  },
+  {
+   "cost_mid": 0.145,
+   "id": "INC-1"
+  },
+  {
+   "cost_mid": 0.23,
+   "id": "INC-2"
+  },
+  {
+   "cost_mid": 0.138,
+   "id": "INC-2B"
+  },
+  {
+   "cost_mid": 0.043,
+   "id": "INC-3"
+  },
+  {
+   "cost_mid": 0.005,
+   "id": "INC-4"
+  },
+  {
+   "cost_mid": 0.02,
+   "id": "INC-5"
+  },
+  {
+   "cost_mid": 0.33,
+   "id": "EDU-1"
+  },
+  {
+   "cost_mid": 0.27,
+   "id": "EDU-3"
+  },
+  {
+   "cost_mid": 0.03,
+   "id": "EDU-4"
+  },
+  {
+   "cost_mid": 0.32,
+   "id": "EDU-5"
+  },
+  {
+   "cost_mid": -0.04,
+   "id": "EDU-7"
+  },
+  {
+   "cost_mid": 0.015,
+   "id": "EDU-8"
+  },
+  {
+   "cost_mid": 0.19,
+   "id": "SS-1"
+  },
+  {
+   "cost_mid": 0.7565511523506032,
+   "id": "CLI-1"
+  },
+  {
+   "cost_mid": 0.9733,
+   "id": "CLI-2"
+  },
+  {
+   "cost_mid": 0.02,
+   "id": "CLI-3"
+  },
+  {
+   "cost_mid": 0.5649347261301474,
+   "id": "CLI-5"
+  },
+  {
+   "cost_mid": 0.0,
+   "id": "CLI-6"
+  },
+  {
+   "cost_mid": 0.07805208709314945,
+   "id": "CLI-7"
+  },
+  {
+   "cost_mid": 0.688,
+   "id": "HOU-1"
+  },
+  {
+   "cost_mid": 0,
+   "id": "HOU-7"
+  },
+  {
+   "cost_mid": 0.032,
+   "id": "LAB-1"
+  },
+  {
+   "cost_mid": 0.002,
+   "id": "LAB-5"
+  },
+  {
+   "cost_mid": 0.034,
+   "id": "LAB-8"
+  },
+  {
+   "cost_mid": 0.049,
+   "id": "LAB-9"
+  },
+  {
+   "cost_mid": 0,
+   "id": "LAB-9D"
+  },
+  {
+   "cost_mid": 0.004,
+   "id": "COM-1"
+  },
+  {
+   "cost_mid": 0.169,
+   "id": "IMM-1"
+  },
+  {
+   "cost_mid": 0.02,
+   "id": "AI-1"
+  },
+  {
+   "cost_mid": 0.2,
+   "id": "AI-4"
+  },
+  {
+   "cost_mid": 0.02,
+   "id": "AI-9"
+  },
+  {
+   "cost_mid": 0,
+   "id": "D2-RULES"
+  },
+  {
+   "cost_mid": 0.01,
+   "id": "DEM-1"
+  },
+  {
+   "cost_mid": 0,
+   "id": "DEM-5"
+  },
+  {
+   "cost_mid": 0,
+   "id": "DEM-6"
+  },
+  {
+   "cost_mid": 0.02,
+   "id": "DEM-11"
+  },
+  {
+   "cost_mid": 0.01,
+   "id": "DEM-16"
+  },
+  {
+   "cost_mid": 0.03,
+   "id": "DEM-17"
+  },
+  {
+   "cost_mid": 0.01,
+   "id": "DEM-3"
+  },
+  {
+   "cost_mid": 0,
+   "id": "DEM-4"
+  },
+  {
+   "cost_mid": 0,
+   "id": "INT-1"
+  },
+  {
+   "cost_mid": 0.01,
+   "id": "CRT-P1"
+  },
+  {
+   "cost_mid": 0,
+   "id": "EXE-1"
+  },
+  {
+   "cost_mid": 0.04,
+   "id": "CAP-8"
+  },
+  {
+   "cost_mid": 0.4557,
+   "id": "CAP-7"
+  },
+  {
+   "cost_mid": 0.56,
+   "id": "CAP-7S"
+  },
+  {
+   "cost_mid": 0.0,
+   "id": "NSC-1"
+  },
+  {
+   "cost_mid": 0.02,
+   "id": "NSC-8"
+  },
+  {
+   "cost_mid": 0.07,
+   "id": "NSC-10"
+  },
+  {
+   "cost_mid": 0,
+   "id": "RTS-1"
+  },
+  {
+   "cost_mid": 0,
+   "id": "RTS-3"
+  },
+  {
+   "cost_mid": 0,
+   "id": "SAF-1"
+  },
+  {
+   "cost_mid": 0.122,
+   "id": "SAF-10"
+  },
+  {
+   "cost_mid": 0.25674,
+   "id": "MOV-29"
+  },
+  {
+   "cost_mid": 0.09083,
+   "id": "MOV-30"
+  },
+  {
+   "cost_mid": 0.2492,
+   "id": "MOV-31"
+  },
+  {
+   "cost_mid": 0.007199539786897982,
+   "id": "CLI-5L"
+  },
+  {
+   "cost_mid": 0.0033616930199807165,
+   "id": "CLI-7C"
+  },
+  {
+   "cost_mid": 0.002229895312867264,
+   "id": "CLI-7N"
+  },
+  {
+   "cost_mid": 0.030801477640923385,
+   "id": "CLI-13A"
+  },
+  {
+   "cost_mid": 0.08404232549951791,
+   "id": "CLI-5W"
+  },
+  {
+   "cost_mid": 0.03942589138038193,
+   "id": "CLI-10G"
+  },
+  {
+   "cost_mid": 0.1124868313989507,
+   "id": "CLI-7K"
+  },
+  {
+   "cost_mid": 0.1095462032610509,
+   "id": "CLI-9"
+  },
+  {
+   "cost_mid": 0.024641182112738705,
+   "id": "CLI-13F"
+  },
+  {
+   "cost_mid": -0.09149324790568326,
+   "id": "CLI-2O"
+  },
+  {
+   "cost_mid": 0,
+   "id": "CLI-3E"
+  },
+  {
+   "cost_mid": 0,
+   "id": "CLI-4E"
+  },
+  {
+   "cost_mid": 0,
+   "id": "CLI-4H"
+  },
+  {
+   "cost_mid": 0.06,
+   "id": "CLI-10"
+  },
+  {
+   "cost_mid": 0.0,
+   "id": "CLI-5H"
+  },
+  {
+   "cost_mid": 0.014,
+   "id": "CLI-11"
+  },
+  {
+   "cost_mid": 0.0,
+   "id": "CLI-3A"
+  },
+  {
+   "cost_mid": 0.003,
+   "id": "CLI-4R"
+  },
+  {
+   "cost_mid": 0.002,
+   "id": "LAB-4.09"
+  },
+  {
+   "cost_mid": 0.002,
+   "id": "LAB-3"
+  },
+  {
+   "cost_mid": 0.059,
+   "id": "LAB-11"
+  },
+  {
+   "cost_mid": 0.022,
+   "id": "LAB-18"
+  },
+  {
+   "cost_mid": 0.008,
+   "id": "DEM-17.02"
+  },
+  {
+   "cost_mid": 0.005,
+   "id": "CRT-20.01"
+  },
+  {
+   "cost_mid": -0.017,
+   "id": "CAP-7P"
+  }
+ ],
+ "cuts": [
+  {
+   "id": "C5",
+   "saves_tn": 0.3
+  },
+  {
+   "id": "C17",
+   "saves_tn": 0.1
+  },
+  {
+   "id": "C18",
+   "saves_tn": 0.62
+  },
+  {
+   "id": "C21",
+   "saves_tn": 0.06
+  },
+  {
+   "id": "C19",
+   "saves_tn": 0.308
+  },
+  {
+   "id": "C19b",
+   "saves_tn": 0.163
+  },
+  {
+   "id": "C38",
+   "saves_tn": 0.89
+  },
+  {
+   "id": "C29",
+   "saves_tn": 0.13
+  },
+  {
+   "id": "C37",
+   "saves_tn": 0.1
+  },
+  {
+   "id": "C30",
+   "saves_tn": 0.3
+  },
+  {
+   "id": "C20",
+   "saves_tn": 0.67
+  },
+  {
+   "id": "C31",
+   "saves_tn": 0.06
+  },
+  {
+   "id": "C32",
+   "saves_tn": 0.03
+  },
+  {
+   "id": "C33",
+   "saves_tn": 0.07
+  },
+  {
+   "id": "C34",
+   "saves_tn": 0.03
+  },
+  {
+   "id": "C35",
+   "saves_tn": 0.15
+  },
+  {
+   "id": "C36",
+   "saves_tn": 0.19
+  },
+  {
+   "id": "C39",
+   "saves_tn": 0.4
+  },
+  {
+   "id": "C40",
+   "saves_tn": 0.08
+  },
+  {
+   "id": "C41",
+   "saves_tn": 0.06
+  },
+  {
+   "id": "C42",
+   "saves_tn": 0.6
+  },
+  {
+   "id": "C43",
+   "saves_tn": 0.18
+  },
+  {
+   "id": "C44",
+   "saves_tn": 0.15191272277933263
+  }
+ ],
+ "revenue": [
+  {
+   "id": "G1",
+   "mid": 1.65
+  },
+  {
+   "id": "H1a",
+   "mid": 0.256
+  },
+  {
+   "id": "H1b",
+   "mid": 0.5
+  },
+  {
+   "id": "HX",
+   "mid": 4.835
+  },
+  {
+   "id": "G3",
+   "mid": 0.3
+  },
+  {
+   "id": "G4",
+   "mid": 0.58
+  },
+  {
+   "id": "G11",
+   "mid": 0.65
+  },
+  {
+   "id": "G5",
+   "mid": 0.4
+  },
+  {
+   "id": "G6",
+   "mid": 0.7
+  },
+  {
+   "id": "G7",
+   "mid": 0.41
+  },
+  {
+   "id": "G8",
+   "mid": 0.4
+  },
+  {
+   "id": "G9",
+   "mid": 1.45
+  },
+  {
+   "id": "G10",
+   "mid": 0.4
+  },
+  {
+   "id": "GX",
+   "mid": -0.495
+  },
+  {
+   "id": "E1",
+   "mid": 0.15
+  },
+  {
+   "id": "C1",
+   "mid": 1.2027
+  },
+  {
+   "id": "C2",
+   "mid": 0.03
+  },
+  {
+   "id": "C3",
+   "mid": 0.022
+  },
+  {
+   "id": "CX",
+   "mid": -0.306
+  },
+  {
+   "id": "PS1",
+   "mid": 0.09
+  },
+  {
+   "id": "PS2",
+   "mid": 0.02
+  },
+  {
+   "id": "MF1",
+   "mid": 0.004
+  },
+  {
+   "id": "IF1",
+   "mid": 0.015
+  },
+  {
+   "id": "AI6",
+   "mid": 0
+  },
+  {
+   "id": "ED1",
+   "mid": 2.1
+  },
+  {
+   "id": "SC1",
+   "mid": 0.18
+  },
+  {
+   "id": "SC2",
+   "mid": 0.35
+  },
+  {
+   "id": "SC3",
+   "mid": 0.05
+  },
+  {
+   "id": "TS1",
+   "mid": 0.34
+  },
+  {
+   "id": "TS2",
+   "mid": 0.19
+  },
+  {
+   "id": "TS3",
+   "mid": 0.13
+  },
+  {
+   "id": "TS4",
+   "mid": 0.05
+  },
+  {
+   "id": "TS5",
+   "mid": 0.05
+  },
+  {
+   "id": "TS6",
+   "mid": 0.1
+  },
+  {
+   "id": "TS7",
+   "mid": 0.03
+  },
+  {
+   "id": "TS8",
+   "mid": 0.02
+  },
+  {
+   "id": "TS9",
+   "mid": 0.025
+  },
+  {
+   "id": "TS10",
+   "mid": 0.02
+  },
+  {
+   "id": "TS11",
+   "mid": 0.03
+  },
+  {
+   "id": "TSX",
+   "mid": -0.1
+  },
+  {
+   "id": "TS12",
+   "mid": 0.4
+  },
+  {
+   "id": "HP1",
+   "mid": 0.08
+  },
+  {
+   "id": "HP2",
+   "mid": 0.02
+  },
+  {
+   "id": "HP3",
+   "mid": 0.06
+  },
+  {
+   "id": "W1",
+   "mid": 1.6
+  },
+  {
+   "id": "W2",
+   "mid": 1.25
+  },
+  {
+   "id": "W3",
+   "mid": 2.8
+  },
+  {
+   "id": "W4",
+   "mid": 0.67
+  },
+  {
+   "id": "T1",
+   "mid": 0.0
+  },
+  {
+   "id": "O1",
+   "mid": 3.67
+  },
+  {
+   "id": "O2",
+   "mid": 1.48
+  },
+  {
+   "id": "OX",
+   "mid": -0.22
+  },
+  {
+   "id": "P1",
+   "mid": 0.9
+  },
+  {
+   "id": "MR1",
+   "mid": 0.3804
+  },
+  {
+   "id": "MR2",
+   "mid": 0.0294
+  },
+  {
+   "id": "MR3",
+   "mid": -0.0231
+  },
+  {
+   "id": "MR4",
+   "mid": 0.0534
+  },
+  {
+   "id": "MR5",
+   "mid": 0.0733
+  },
+  {
+   "id": "MR6",
+   "mid": -0.1253
+  },
+  {
+   "id": "C1P",
+   "mid": 0.24430520507013365
+  },
+  {
+   "id": "CB1",
+   "mid": -0.14163016224879443
+  },
+  {
+   "id": "CXP",
+   "mid": -0.025052710448406755
+  },
+  {
+   "id": "IMM-EV",
+   "mid": 0.0233
+  },
+  {
+   "id": "IF1T",
+   "mid": -0.0037
+  },
+  {
+   "id": "C1T",
+   "mid": 0.0
+  },
+  {
+   "id": "C3A",
+   "mid": 0.163
+  },
+  {
+   "id": "CXA",
+   "mid": -0.0398
+  },
+  {
+   "id": "HCU",
+   "mid": 4.606
+  },
+  {
+   "id": "HCW",
+   "mid": -1.386
+  },
+  {
+   "id": "HCA",
+   "mid": -0.227
+  },
+  {
+   "id": "HCP",
+   "mid": -0.065
+  },
+  {
+   "id": "HCH",
+   "mid": -0.186
+  },
+  {
+   "id": "HEC",
+   "mid": 9.678
+  },
+  {
+   "id": "HEX",
+   "mid": -3.023
+  },
+  {
+   "id": "HS1",
+   "mid": 0.492
+  },
+  {
+   "id": "HS2",
+   "mid": 1.23
+  },
+  {
+   "id": "HS3",
+   "mid": 0.369
+  },
+  {
+   "id": "HS4",
+   "mid": 0.574
+  },
+  {
+   "id": "LAB-11T",
+   "mid": -0.027
+  },
+  {
+   "id": "LAB-18T",
+   "mid": 0.0016
+  },
+  {
+   "id": "LAB-2P",
+   "mid": 0.0004
+  },
+  {
+   "id": "G8P",
+   "mid": -0.0161
+  }
+ ],
+ "summary": {
+  "dynamic_hi": 0.66,
+  "dynamic_lo": -1.24,
+  "dynamic_mid": -0.26,
+  "dynamic_optimistic": 1.14,
+  "gap_after_accepted": 3.15,
+  "gap_mid": 7.66
+ }
+}
