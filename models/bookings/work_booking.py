@@ -267,7 +267,7 @@ def _write_ss(b):
     for r_ in rows:
         r_["wrk_ui_pct_payroll"] = f"{b['ss_pct'][int(r_['year'])]:.4f}"
     with open(fn, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["year", "loss_pct_payroll", "wrk_ui_pct_payroll", "basis"], lineterminator="\n")
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")   # keeps the other bookings' columns
         w.writeheader()
         w.writerows(rows)
     fp = os.path.join(INPUTS, "funds-ss-provisions.csv")

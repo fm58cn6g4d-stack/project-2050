@@ -5,8 +5,10 @@ standard library only, plus the dossier's own path script through immigration_bo
 - every shape, component, perm and ledger amount in models/data/inputs/ equals immigration_booking.py's derivation
   from dossiers/immigration/tools/immigration_path.py, and every line of the path is booked once;
 - IMM-1 is now a cost, not the legacy S.744 saving, and its spending and the two revenue rows add to section 6's
-  decided set ($149.0B over FY2030-39 and $22.5B in FY2040, part 1, with memo 6's health line at two-thirds of care's
-  average use, Espen, November 13; $175.1B and $28.8B at 1.0);
+  decided set ($159.2B over FY2030-39 and $24.6B in FY2040, part 1, with memo 6's health line at two-thirds of care's
+  average use, Espen, November 13, and the status line on CBO's on-budget figure, I1 A, DEC-2026-11-25-27);
+- memo 1's off-budget side is booked in Social Security's funds (IMM-1-SS, funds-ss-offbudget.csv and
+  funds-ss-provisions.csv), not on the general fund (DEC-2026-11-25-28), and rides with the plan's scenarios;
 - E-Verify's on-budget revenue is its own base-revenue row, not netted inside IMM-1 (counting rules);
 - CAP-7S's USCIS share ($40B) and CAP-7's pro-rata USCIS share are out.
 """
@@ -72,8 +74,8 @@ class ImmigrationBooking(unittest.TestCase):
 
     def test_totals_are_section_6s(self):
         t = self.b["totals"]
-        self.assertEqual(round(t["dossier_window"] * 1000, 1), 149.0)
-        self.assertEqual(round(t["dossier_fy2040"], 1), 22.5)
+        self.assertEqual(round(t["dossier_window"] * 1000, 1), 159.2)
+        self.assertEqual(round(t["dossier_fy2040"], 1), 24.6)
         self.assertAlmostEqual(t["spending_window"] + t["revenue_window"], t["dossier_window"], places=3)
         self.assertGreater(self.b["ledger"]["IMM-1"][1], 0)    # a cost now, not the S.744 saving
 
@@ -86,6 +88,21 @@ class ImmigrationBooking(unittest.TestCase):
         self.assertAlmostEqual(booked, 1000 * self.b["ledger"]["IMM-1"][1], places=6)
         p = self.path("IMM-1")
         self.assertAlmostEqual(p[2040], sum(v for k, v in self.b["fy2040"].items() if k.startswith("IMM-1/")), delta=0.5)
+
+    def test_social_security_side_is_booked_in_its_own_place(self):
+        ss = {int(r["year"]): float(r[IB.SS_COL]) for r in rows("funds-ss-offbudget.csv")}
+        self.assertEqual(ss, {y: float("%.4f" % v) for y, v in self.b["ss_pct"].items()})
+        self.assertTrue(all(v <= 0 for v in ss.values()))                  # a gain to the funds
+        self.assertAlmostEqual(self.b["totals"]["ss_window"] * 1000, -22.2, delta=0.05)
+        prov = {r["id"]: r for r in rows("funds-ss-provisions.csv")}
+        self.assertEqual((prov[IB.SS_ID]["kind"], prov[IB.SS_ID]["ledger_rows"]), ("direct", "IMM-1"))
+        src = (ROOT / "models/tools/budget/engine/funds-model.py").read_text(encoding="utf-8")
+        self.assertIn('"%s": "%s"' % (IB.SS_ID, IB.SS_COL), src)
+        for scen in ('"D8 baseline"', '"D8 + SS-5"'):
+            line = next(x for x in src.splitlines() if x.startswith("SS_SCEN"))
+            self.assertEqual(line.count('"%s"' % IB.SS_ID), 2, scen)
+        # none of it on the general fund: IMM-1's ledger row carries only the on-budget status line
+        self.assertNotIn(IB.SS_ID, [r["id"] for r in rows("ledger-revenue.csv")])
 
     def test_uscis_shares_are_out(self):
         self.assertAlmostEqual(IB.CAP7S[1] - self.b["cap"]["CAP-7S"][1], 0.04, places=9)
