@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6): who is working, what is in motion, where each dossier stands, what comes next, known gaps and open questions for Espen. Only the lead edits it, folding in the "For the board" notes from workers' PRs (`DEC-2026-11-12-03`). Status: current. It holds no history: finished work is in Git and the PRs, decisions are in `charter/decisions.md`, and rules are in `charter/STANDARDS.md`.
 
-Updated November 24, 2026 (about 13:45 UTC) by the lead, session_01UQzgBvwWV1mQ7d8RA8Jnnp (stage G closed; the fiscal path review merged; batch 3 out).
+Updated November 25, 2026 (about 07:45 UTC) by the lead, session_01UQzgBvwWV1mQ7d8RA8Jnnp (batch 3 answered and recorded; stage H and the fiscal revision started).
 
 ## Standing sessions
 
@@ -42,16 +42,16 @@ Updated November 24, 2026 (about 13:45 UTC) by the lead, session_01UQzgBvwWV1mQ7
 
 ## In motion
 
-**Waiting on Espen: batch 3, the fiscal path choices** (https://claude.ai/artifact/X24hoyhdwVwzu8XpNZAdg5, published November 24: G15 debt goal, G16 take-home and R, G17 phasing, G18 G8 again, G19 later broad revenue, G20 the debt-path rule, G21 the debt limit, G22 four central-rule changes). The lead records the answers as DEC rows (tier 3), then a revision step folds them into `4-fiscal-path.md`, `5-budget-process.md`, D3 and D4 and books what changes. Espen's standing permissions hold for whichever session is lead: edit and disable scheduled tasks ("i permit you to turn off the scheduled tasks where applicable", November 20; confirmed November 23); archive finished workers; use lighter models where reasonable.
-1. **Open PRs:** this board PR (tier 1) only. Merged since the last board PR (#478): #479 (`DEC-2026-11-24-01` to `-09`, batch 2: G10-G14), #480 with #481 (step 7: the settlement booked, tier 3), #482 (`DEC-2026-11-24-10` to `-18`: stage G's boundary review, G8 held, the fiscal path review and its directions), #483 (step 8a: the methods check, the dynamic layer and the debt gap), #484 (step 8b: phasing, revenue, outside proposals, G8 and memos G15-G19), #485 (step 8c: the debt-path rule, the debt limit, the central rules, memos G20-G22 and the strategy memo `6-strategy-memo.md`). Each had the reviewer's approval; 8a's dynamic layer was also red-teamed.
-2. **Active sessions:** none working. The reviewer is in Standing sessions. Every stage G worker is archived (8c's on November 24).
+**Batch 3 is answered** (`DEC-2026-11-25-01` to `-11`, #487, Espen's label): G15 B made more aggressive on debt ("try to keep rates below growth on average"), with **a VAT or other broad measures now acceptable after the plan's first few years** (amends the VAT part of `DEC-2026-11-20-07`; the populist start `-24-18` stands); G16 B, G17 B, G18 D′, G19 B (re-checked against `-01`), G20 B, G21 A, G22 yes to all four parts. **Running overnight (Espen, November 25, about 07:37 UTC: "pls do as much as you can tonight on all fronts ... while also continuing the fiscal revision work so the stage h model work can incorporate and build off that too"; read as leave for four sessions tonight, the lead and reviewer included):** stage G step 9, the fiscal revision (`session_01UQzgBtXz4Z5FaGRsrtCWNe`: G15 redraft, G19 with a VAT, CLI-1's cost tail, the decisions into the text, the reviewer's open notes, a short batch 4), and stage H step 1, the toolkit and front door audit and plan (`session_01UQzgBuSr34ekhYFhNdacaZ`, `models/stage-h/`). Espen's standing permissions hold for whichever session is lead: edit and disable scheduled tasks; archive finished workers; use lighter models where reasonable. The Figma connector is on; Lovable, Wix and AnimatedWebs are off (site code stays in this repository for now).
+1. **Open PRs:** this board PR (tier 1). Merged since the last board PR (#486): #487 (`DEC-2026-11-25-01` to `-11`, batch 3).
+2. **Active sessions:** the two workers above, and the reviewer (Standing sessions). Every earlier stage G worker is archived.
 3. **Espen's method for stage G** (November 18 about 03:29 UTC): draft on the recommendations, mark new forks provisional, bring Espen one decision batch, then revise for the answers. Tier-3 PRs wait for Espen's label.
 4. **The lead's next:**
-   - (a) **Batch 3's answers** as DEC rows (tier 3), then the revision step (Most capable).
-   - (b) **The fiscal path review's open notes** (non-blocking, from the reviewer): G20's line that a CBO disagreement blocks a certified return sits against the dossier's own Bowsher line (*Bowsher v. Synar*: Congress can't hold back an executive certification); G15 B's 117% level reads a little high once the FY2037-39 steps are in; the CBO anchors used in 8a-8c go into the evidence register (EV-FIN); re-score the outside tax options (CBO's December 2024 options) on the post-2025 law.
+   - (a) **Batch 3:** recorded (#487); step 9 revises and brings batch 4 (the redrafted G15 and G19's mix); bookings follow Espen's confirmation.
+   - (b) **The fiscal path review's open notes** (non-blocking, from the reviewer): G20's line that a CBO disagreement blocks a certified return sits against the dossier's own Bowsher line (*Bowsher v. Synar*: an officer Congress controls can't execute the law; `5-budget-process.md`); G15 B's 117% level reads a little high once the FY2037-39 steps are in; the CBO anchors used in 8a-8c go into the evidence register (EV-FIN); re-score the outside tax options (CBO's December 2024 options) on the post-2025 law.
    - (c) **DEC-DYN's double count** (from #459; board item 4(c) before): the dynamic scenario counts DY4 and LAB-1 twice. Step 8a's new dynamic layer (`models/tools/fiscal_dynamic.py`) does not use DEC-DYN; the fix to `ledger-dynamic.csv` (an adopted input) is a later tier-3 clean-up. LAB-18 overlaps AI-4's wage-insurance part (up to about $3B in FY2040) until the AI topic re-scopes it.
    - (d) **Small notes from the reviewer:** split question 0a (2027-28) into its parts at the next touch; mark HOU-4D.01's superseded items in the agenda now that G14 C is booked.
-   - (e) **Stage H, the toolkit and front door**, after batch 3. Espen turns the Figma connector back on first.
+   - (e) **Stage H, the toolkit and front door:** step 1 (audit and plan) is running; its toolkit plan builds on step 9's model changes.
    - **Later tier-3 PRs** (named in #424): the restatement of memo 3 D's legacy D1 House stipulation; the off-budget E-Verify row (from #405).
 5. **Outside the repository:** Espen's pages (below). Batch 3 is the one open page.
 6. **Espen** (they/them) isn't a programmer and wants plain, short updates with numbered asks. After 12:30 am Eastern, tell Espen to go to bed; don't guess the hour.
@@ -75,8 +75,8 @@ Updated November 24, 2026 (about 13:45 UTC) by the lead, session_01UQzgBvwWV1mQ7
 
 ## Next, in order
 
-1. **The fiscal path decisions** (now): Espen's batch 3, then the DEC rows and a revision step (Most capable) that books what changes. Re-run the settlement and the debt path as later waves add cost, at each new CBO baseline, and before 2028.
-2. **Stage H, the toolkit and front door** (after batch 3; the Figma connector back on first).
+1. **The fiscal path decisions** (now): step 9 revises for batch 3 and brings batch 4; bookings follow Espen's confirmation. Re-run the settlement and the debt path as later waves add cost, at each new CBO baseline, and before 2028.
+2. **Stage H, the toolkit and front door** (now: step 1 running; the Figma connector is on).
 3. **Maintenance, later:** the small items above. M1 and the immigration small items are done.
 
 ## Where each dossier stands
@@ -93,7 +93,7 @@ Updated November 24, 2026 (about 13:45 UTC) by the lead, session_01UQzgBvwWV1mQ7
 | Clean power (`dossiers/clean-power/`, flagship 4) | L3 (booked) | Sections 1-9 and memos 1-9, decided (#335; `DEC-2026-11-13-10` to `-14`; `DEC-2026-11-14-01` to `-03`); milestone review and fixes (#344, #346); re-review on MOD-energy (#349, #351, #354); booked (#359, #372): about $1,730.9B over FY2030-39 and $82.0B in FY2040 | Paused (parked items in In motion) |
 | Work (`dossiers/work/`, flagship 5) | L3 (booked) | Stage F: sections 1-9 and memos 1-10, decided (`DEC-2026-11-17-01` to `-36`, `-95`, `-96`; `DEC-2026-11-18-01` to `-10`; the November 18 confirmations `-19` to `-30`; `-31`); milestone review #439, L3 at #448; booked (#459): +$11.3B in FY2040, −$23.0B over FY2030-39 | Stage G items (In motion, item 4) |
 | Democratic renewal (`dossiers/foundations/democratic-renewal/`) | L3 (booked) | Stage F: sections 1-9 and memos 1-13, decided (`DEC-2026-11-17-40` to `-99`; `DEC-2026-11-18-11` to `-17`; the November 18 confirmations `-19` to `-30`; `-32`); milestone review #440, L3 at #457; booked (#461): +$1.6B in FY2040, +$12.1B over FY2030-39 | Stage G items (In motion, item 4) |
-| Fair financing (stage G) | Booked; stage G closed (`DEC-2026-11-24-10`) | The audit (#463), the model fixes (#467, #468), the settlement and memos G1-G14 (#469, #474, #476), batches 1 and 2 (`DEC-2026-11-20-02` to `-14`, `DEC-2026-11-24-01` to `-09`), booked (#480); the fiscal path review, memos G15-G22 provisional (#483 to #485) | Batch 3, then the revision step |
+| Fair financing (stage G) | Booked; stage G closed (`DEC-2026-11-24-10`) | The audit (#463), the model fixes (#467, #468), the settlement and memos G1-G14 (#469, #474, #476), batches 1 and 2 (`DEC-2026-11-20-02` to `-14`, `DEC-2026-11-24-01` to `-09`), booked (#480); the fiscal path review, memos G15-G22 provisional (#483 to #485) | Step 9 (the batch 3 revision), then batch 4 |
 | Rural delivery note (`dossiers/foundations/rural-delivery.md`) | — | Done (#171); applied project-wide by `DEC-2026-11-09-26` | Each dossier reads it for section 5 |
 
 ## Federal budget model (`models/tools/budget/`)
@@ -137,8 +137,6 @@ Updated November 24, 2026 (about 13:45 UTC) by the lead, session_01UQzgBvwWV1mQ7
 
 0a. **Stage B's 2027-28 questions** (not urgent before the lame duck ends; `dossiers/scenario/3-framework-2027-28.md`, section 7, and `2027-28-stress-tests.md`, "Next questions"): what 2027-28 is for; when an early deal is worth locking in a design; whether a Senate rules change happens in 2027 or waits for 2029 (D2); the FY2028 defense path before summer 2027 (it sets NSC-1A's base); protecting the FY2029 reconciliation slot; a position on 2027 mid-decade redraws.
 
-0g. **Batch 3, the fiscal path choices** (G15-G22; https://claude.ai/artifact/X24hoyhdwVwzu8XpNZAdg5; `dossiers/foundations/fair-financing/4-fiscal-path.md`, `5-budget-process.md`, `6-strategy-memo.md`). Each is decided on its own; open.
-
 0b. Done: Espen labeled #402 and #405 on November 16, and both merged.
 
 0c. Done: work decisions recorded in #418 and #419.
@@ -148,5 +146,7 @@ Updated November 24, 2026 (about 13:45 UTC) by the lead, session_01UQzgBvwWV1mQ7
 0e. **Work, from sections 4 to 6** (the decision sheet's W1 to W7) (#422; drafted on the recommendations and marked provisional, by Espen's overnight direction; `dossiers/work/4-specification.md`, "Questions for Espen", and `dossiers/work/README.md`): memo 10, measuring displacement and a standby trigger (`dossiers/work/memos/10-displacement-measurement-trigger.md`, LAB-19; recommended C and C); point 5 (LAB-14.01); point 11 (LAB-17.01); whether quits for good cause qualify for wage insurance (LAB-18.03, drafted as a working reading of `DEC-2026-11-17-95`). Each is decided on its own. **Answered November 18 (about 16:10 UTC): `DEC-2026-11-18-01` to `DEC-2026-11-18-10`.** W2, W3, W5 and W6 are decided (W6 with a gut-check request); W1, W4, W7, W8 and W9 are directions, provisional until a revision step drafts them and Espen confirms; W10 is decided (the next work fix step brings options on farmworkers and domestic workers).
 
 0f. **Democratic renewal, from sections 4 to 8** (the decision sheet's D1 to D5; D2 is section 5's four fixes, fix 1 amending decided memo 10 B; D3 the voting floor's dates; D4 CAP-7's pace, #432; D5 whether the 13-Justice option goes on the 2031 review's agenda, recommended yes with no trigger, #434, `8-change-our-minds.md` part 9) (#424; provisional, as 0e; `dossiers/foundations/democratic-renewal/4-specification.md`, "Questions for Espen"): INT-1.01, how the stock ban treats self-directed IRAs. **Answered November 18 (about 16:10 UTC): `DEC-2026-11-18-11` to `DEC-2026-11-18-17`.** D1, D4, D5, D6 and D7 are decided (D7 with a legal direction); D2 is decided with a request for an explanation; D3 is a direction, provisional until a revision step drafts it and Espen confirms; D6 and D7 come from the milestone review's questions 2 and 3.
+
+0g. **Batch 3, the fiscal path choices** (G15-G22): answered November 25 (`DEC-2026-11-25-01` to `-11`, #487). Batch 4 (the redrafted G15 and G19's mix with a VAT) comes from step 9.
 
 Optional: HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026), would raise housing's 2025 homelessness figures from grade C to A.
