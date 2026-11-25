@@ -1,71 +1,15 @@
-"""fiscal-profiles.py: year profiles for every ledger row the long-term model uses.
+"""Shim: fiscal-profiles.py moved to models/tools/budget/engine/fiscal-profiles.py (stage H step H4, the budget model's release).
 
-The ledger scores everything as 2030-39 totals. The long-term model needs annual paths, so
-each row gets a profile here. The model calibrates every profile so its FY2030-39 sum equals
-the ledger's ten-year midpoint exactly; the profile only decides how that total is spread
-across the window and how the row runs on after 2039. Every profile is an estimate (basis
-noted) until a domain file supplies a year-by-year score; when one does, put it in YEARS.
-
-Fields
-  cat     baseline category the row adds to (see fiscal-data.py), so the all-of-government
-          view stays in CBO's categories. Outlay rows use out_*, revenue rows rev_*.
-  start   first fiscal year with any effect (default 2030)
-  ramp    years to full phase-in from start (1 = full in the first year)
-  grow    growth index: "gdp", "cpi", "gdp+X" (GDP plus X points a year, compounded from
-          FY2026: C35's estate tax with a frozen exemption), or a baseline category name (the
-          row then keeps a constant share of that category: health rows track CBO's health
-          spending, revenue rows track their tax base, including bracket creep)
-  end     last year of a time-limited line (None = permanent)
-  perm    share of the 2039 run rate that continues after 2039 (1.0 = all; time-limited
-          capital and temporary credits carry less)
-  fade    after 2039, the continuing part shrinks this share a year (e.g. credits that phase
-          down as clean energy saturates)
-
-Sign convention: positive = raises the deficit. Ledger outlay rows are costs (positive),
-revenue rows are entered as negatives, savings as negatives.
+This file keeps the old path working for run-all.sh's callers, the bookings and any command a dossier quotes:
+run it, or load it by path, and it runs the moved file as that file (its own __file__), unchanged.
 """
-
-import os, sys
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from inputs import read, num, opt
-
-# The profiles are in models/data/inputs/fiscal-profiles.csv (one row per ledger row; table = bill, base revenue
-# or option) and the year-by-year overrides in fiscal-years.csv. A blank cell takes the default above.
-BILLS, REVENUE, CUTS = {}, {}, {}
-for r in read("fiscal-profiles.csv"):
-    p = {}
-    for k, conv in (("kind", str), ("cat", str), ("start", num), ("ramp", num), ("grow", str), ("end", num),
-                    ("perm", num), ("fade", num), ("unified_zero", lambda v: v == "yes"), ("basis", str)):
-        v = opt(r, k, conv)
-        if v is not None: p[k] = v
-    {"bill": BILLS, "base revenue": REVENUE, "option": CUTS}[r["table"]][r["id"]] = p
-
-# Explicit year-by-year paths that override a profile (billions, 2030-39)
-YEARS = {r["id"]: [num(r[f"y{y}"]) for y in range(2030, 2040)] for r in read("fiscal-years.csv")}
-
-# Explicit paths after the window (billions, not scaled to the ledger), from fiscal-after.csv: they replace
-# the row's post-2039 path in the years given; after the last of them the row grows with its growth index.
-# MOV-31 carries the transportation model's general-fund draw this way (DEC-2026-11-12-08).
-AFTER = {}
-for r in read("fiscal-after.csv"):
-    AFTER[r["id"]] = {int(k[1:]): num(v) for k, v in r.items() if k.startswith("y") and k[1:].isdigit() and v.strip()}
-
-# An aggregate bill can contain different permanent/growth paths. Amounts are
-# disjoint ledger shares, not additional rows of spending.
-COMPONENTS = {}
-for r in read("fiscal-components.csv"):
-    p={"cat":r["cat"], "start":num(r["start"]), "ramp":num(r["ramp"]),
-       "grow":r["grow"], "perm":num(r["perm"]), "basis":r["basis"]}
-    # Optional columns: end (last year with any effect; after 2039 it closes a tail) and fade.
-    for k in ("end", "fade"):
-        v = opt(r, k, num)
-        if v is not None: p[k] = v
-    if p.get("end") is not None and p["end"] < p["start"]:
-        raise ValueError("fiscal-components.csv: %s/%s ends before it starts" % (r["owner"], r["component"]))
-    if not 0 <= p.get("fade", 0) <= 1:
-        raise ValueError("fiscal-components.csv: %s/%s fade outside 0-1" % (r["owner"], r["component"]))
-    # A component whose key owner/component has a row in fiscal-years.csv takes that year-by-year shape
-    # inside the window (its start and ramp are then unused); grow and perm still set the path after 2039.
-    key = "%s/%s" % (r["owner"], r["component"])
-    if key in YEARS: p["years"] = key
-    COMPONENTS.setdefault(r["owner"],[]).append((r["component"],num(r["mid10"]),p))
+import os as _os
+_REAL = _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'budget/engine/fiscal-profiles.py'))
+if __name__ == "__main__":
+    import runpy as _runpy, sys as _sys
+    _sys.argv[0] = _REAL
+    _runpy.run_path(_REAL, run_name="__main__")
+else:
+    __file__ = _REAL
+    with open(_REAL, encoding="utf-8") as _f:
+        exec(compile(_f.read(), _REAL, "exec"))

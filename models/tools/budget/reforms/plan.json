@@ -1,0 +1,8 @@
+{
+ "id": "plan",
+ "label": "Project 2050's plan as booked: the agenda ledger with stage G's financing settlement (the recovery budget's case mixed)",
+ "kind": "plan",
+ "case": "mixed",
+ "source": "models/data/inputs/ (the ledger's tables and the booked dossiers), models/data/inputs/settlement.json and settlement-paths.csv (the financing settlement, #480), models/data/inputs/recovery-adoption.json, models/tools/recovery-budget/assumptions.json",
+ "note": "One example reform: the plan the dossiers booked, not the model's default. Its yearly rows are written to plan-paths.csv in the recovery budget's columns and equal models/data/recovery-budget-paths.csv, case mixed, cell for cell (test_run.py)."
+}
