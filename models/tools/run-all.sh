@@ -71,6 +71,9 @@ python3 "$TOOLS"/health-coverage/model.py --out "$BUILD/health-coverage"
 echo "== 6g. immigration model (tests, then results; the dossier's tools/ are wrappers, step H6)"
 python3 -W ignore::ResourceWarning "$TOOLS"/immigration/test_immigration.py 2>&1 | tail -1
 python3 -W ignore::ResourceWarning "$TOOLS"/immigration/immigration_run.py --out "$BUILD/immigration"
+echo "== 6h. housing model (tests, then results; step H7)"
+python3 -W ignore::ResourceWarning "$TOOLS"/housing/test_housing.py 2>&1 | tail -1
+python3 -W ignore::ResourceWarning "$TOOLS"/housing/housing_run.py --out "$BUILD/housing"
 echo "== 7. dashboard data";   python3 "$TOOLS"/dashboard-data.py >/dev/null
 echo "== 8. consistency check"; cp "$TOOLS"/check-project.py "$ENGINE"/window.py "$BUILD"/; python3 check-project.py
 
