@@ -94,7 +94,7 @@ Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 t
 | Vehicle | Bills | Window | Over its window ($B) | Ten years after it ($B) | FY2029 unpriced |
 | --- | --- | --- | --- | --- | --- |
 | R1 | 12 | FY2029-2038 | 3214 | 3384 | FAM-1, MOV-29 |
-| R2 | 34 | FY2030-2039 | 4895 | 5775 | none |
+| R2 | 34 | FY2030-2039 | 4895 | 5751 | none |
 | R3 | 5 | FY2031-2040 | 625 | 483 | none |
 | FLOOR | 30 | FY2029-2038, FY2030-2039 | 16479 | 45268 | none |
 | APPROPS | 11 | FY2029-2038, FY2030-2039 | 522 | 839 | none |
@@ -116,7 +116,7 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | INC-5 | R1 | FY2029-2038 | 17.5 | 27.9 |
 | MOV-29 | R1 | FY2029-2038 | 257.0 | 0.0 (FY2029 unpriced) |
 | AI-9 | R2 | FY2030-2039 | 20.0 | 28.9 |
-| CLI-1 | R2 | FY2030-2039 | 756.6 | 179.6 |
+| CLI-1 | R2 | FY2030-2039 | 756.6 | 156.0 |
 | CLI-10 | R2 | FY2030-2039 | 60.0 | 0.0 |
 | CLI-10G | R2 | FY2030-2039 | 39.4 | 0.0 |
 | CLI-11 | R2 | FY2030-2039 | 14.0 | 8.5 |

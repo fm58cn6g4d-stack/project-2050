@@ -1207,7 +1207,7 @@ mixed,2040,EDU-4,0,3.818,3.818
 mixed,2040,EDU-5,0,36.158,36.158
 mixed,2040,EDU-7,0,-4.876,-4.876
 mixed,2040,EDU-8,0,1.909,1.909
-mixed,2040,CLI-1,0,52.669,52.669
+mixed,2040,CLI-1,0,45.739,45.739
 mixed,2040,CLI-3,0,2.545,2.545
 mixed,2040,CLI-5,0,-0.224,-0.224
 mixed,2040,CLI-7,0,9.425,9.425
@@ -1328,7 +1328,7 @@ mixed,2041,EDU-4,0,3.962,3.962
 mixed,2041,EDU-5,0,36.99,36.99
 mixed,2041,EDU-7,0,-5.061,-5.061
 mixed,2041,EDU-8,0,1.981,1.981
-mixed,2041,CLI-1,0,47.294,47.294
+mixed,2041,CLI-1,0,41.074,41.074
 mixed,2041,CLI-3,0,2.641,2.641
 mixed,2041,CLI-5,0,1.493,1.493
 mixed,2041,CLI-7,0,9.632,9.632
@@ -1449,7 +1449,7 @@ mixed,2042,EDU-4,0,4.111,4.111
 mixed,2042,EDU-5,0,37.841,37.841
 mixed,2042,EDU-7,0,-5.25,-5.25
 mixed,2042,EDU-8,0,2.055,2.055
-mixed,2042,CLI-1,0,39.824,39.824
+mixed,2042,CLI-1,0,34.574,34.574
 mixed,2042,CLI-3,0,2.741,2.741
 mixed,2042,CLI-5,0,5.052,5.052
 mixed,2042,CLI-7,0,9.844,9.844
@@ -1569,7 +1569,7 @@ mixed,2043,EDU-4,0,4.265,4.265
 mixed,2043,EDU-5,0,38.711,38.711
 mixed,2043,EDU-7,0,-5.447,-5.447
 mixed,2043,EDU-8,0,2.132,2.132
-mixed,2043,CLI-1,0,20.664,20.664
+mixed,2043,CLI-1,0,17.944,17.944
 mixed,2043,CLI-3,0,2.843,2.843
 mixed,2043,CLI-5,0,5.506,5.506
 mixed,2043,CLI-7,0,10.061,10.061
@@ -1689,7 +1689,7 @@ mixed,2044,EDU-4,0,4.424,4.424
 mixed,2044,EDU-5,0,39.601,39.601
 mixed,2044,EDU-7,0,-5.65,-5.65
 mixed,2044,EDU-8,0,2.212,2.212
-mixed,2044,CLI-1,0,9.826,9.826
+mixed,2044,CLI-1,0,8.536,8.536
 mixed,2044,CLI-3,0,2.949,2.949
 mixed,2044,CLI-5,0,5.809,5.809
 mixed,2044,CLI-7,0,10.282,10.282
@@ -1809,7 +1809,7 @@ mixed,2045,EDU-4,0,4.587,4.587
 mixed,2045,EDU-5,0,40.512,40.512
 mixed,2045,EDU-7,0,-5.859,-5.859
 mixed,2045,EDU-8,0,2.294,2.294
-mixed,2045,CLI-1,0,6.218,6.218
+mixed,2045,CLI-1,0,5.398,5.398
 mixed,2045,CLI-3,0,3.058,3.058
 mixed,2045,CLI-5,0,6.752,6.752
 mixed,2045,CLI-7,0,10.508,10.508
@@ -1929,7 +1929,7 @@ mixed,2046,EDU-4,0,4.755,4.755
 mixed,2046,EDU-5,0,41.444,41.444
 mixed,2046,EDU-7,0,-6.073,-6.073
 mixed,2046,EDU-8,0,2.377,2.377
-mixed,2046,CLI-1,0,3.106,3.106
+mixed,2046,CLI-1,0,2.696,2.696
 mixed,2046,CLI-3,0,3.17,3.17
 mixed,2046,CLI-5,0,7.703,7.703
 mixed,2046,CLI-7,0,10.739,10.739
@@ -4374,7 +4374,7 @@ mixed_before_settlement,2040,EDU-4,0,3.818,3.818
 mixed_before_settlement,2040,EDU-5,0,36.158,36.158
 mixed_before_settlement,2040,EDU-7,0,-4.876,-4.876
 mixed_before_settlement,2040,EDU-8,0,1.909,1.909
-mixed_before_settlement,2040,CLI-1,0,52.669,52.669
+mixed_before_settlement,2040,CLI-1,0,45.739,45.739
 mixed_before_settlement,2040,CLI-3,0,2.545,2.545
 mixed_before_settlement,2040,CLI-5,0,-0.224,-0.224
 mixed_before_settlement,2040,CLI-7,0,9.425,9.425
@@ -4486,7 +4486,7 @@ mixed_before_settlement,2041,EDU-4,0,3.962,3.962
 mixed_before_settlement,2041,EDU-5,0,36.99,36.99
 mixed_before_settlement,2041,EDU-7,0,-5.061,-5.061
 mixed_before_settlement,2041,EDU-8,0,1.981,1.981
-mixed_before_settlement,2041,CLI-1,0,47.294,47.294
+mixed_before_settlement,2041,CLI-1,0,41.074,41.074
 mixed_before_settlement,2041,CLI-3,0,2.641,2.641
 mixed_before_settlement,2041,CLI-5,0,1.493,1.493
 mixed_before_settlement,2041,CLI-7,0,9.632,9.632
@@ -4598,7 +4598,7 @@ mixed_before_settlement,2042,EDU-4,0,4.111,4.111
 mixed_before_settlement,2042,EDU-5,0,37.841,37.841
 mixed_before_settlement,2042,EDU-7,0,-5.25,-5.25
 mixed_before_settlement,2042,EDU-8,0,2.055,2.055
-mixed_before_settlement,2042,CLI-1,0,39.824,39.824
+mixed_before_settlement,2042,CLI-1,0,34.574,34.574
 mixed_before_settlement,2042,CLI-3,0,2.741,2.741
 mixed_before_settlement,2042,CLI-5,0,5.052,5.052
 mixed_before_settlement,2042,CLI-7,0,9.844,9.844
@@ -4709,7 +4709,7 @@ mixed_before_settlement,2043,EDU-4,0,4.265,4.265
 mixed_before_settlement,2043,EDU-5,0,38.711,38.711
 mixed_before_settlement,2043,EDU-7,0,-5.447,-5.447
 mixed_before_settlement,2043,EDU-8,0,2.132,2.132
-mixed_before_settlement,2043,CLI-1,0,20.664,20.664
+mixed_before_settlement,2043,CLI-1,0,17.944,17.944
 mixed_before_settlement,2043,CLI-3,0,2.843,2.843
 mixed_before_settlement,2043,CLI-5,0,5.506,5.506
 mixed_before_settlement,2043,CLI-7,0,10.061,10.061
@@ -4820,7 +4820,7 @@ mixed_before_settlement,2044,EDU-4,0,4.424,4.424
 mixed_before_settlement,2044,EDU-5,0,39.601,39.601
 mixed_before_settlement,2044,EDU-7,0,-5.65,-5.65
 mixed_before_settlement,2044,EDU-8,0,2.212,2.212
-mixed_before_settlement,2044,CLI-1,0,9.826,9.826
+mixed_before_settlement,2044,CLI-1,0,8.536,8.536
 mixed_before_settlement,2044,CLI-3,0,2.949,2.949
 mixed_before_settlement,2044,CLI-5,0,5.809,5.809
 mixed_before_settlement,2044,CLI-7,0,10.282,10.282
@@ -4931,7 +4931,7 @@ mixed_before_settlement,2045,EDU-4,0,4.587,4.587
 mixed_before_settlement,2045,EDU-5,0,40.512,40.512
 mixed_before_settlement,2045,EDU-7,0,-5.859,-5.859
 mixed_before_settlement,2045,EDU-8,0,2.294,2.294
-mixed_before_settlement,2045,CLI-1,0,6.218,6.218
+mixed_before_settlement,2045,CLI-1,0,5.398,5.398
 mixed_before_settlement,2045,CLI-3,0,3.058,3.058
 mixed_before_settlement,2045,CLI-5,0,6.752,6.752
 mixed_before_settlement,2045,CLI-7,0,10.508,10.508
@@ -5042,7 +5042,7 @@ mixed_before_settlement,2046,EDU-4,0,4.755,4.755
 mixed_before_settlement,2046,EDU-5,0,41.444,41.444
 mixed_before_settlement,2046,EDU-7,0,-6.073,-6.073
 mixed_before_settlement,2046,EDU-8,0,2.377,2.377
-mixed_before_settlement,2046,CLI-1,0,3.106,3.106
+mixed_before_settlement,2046,CLI-1,0,2.696,2.696
 mixed_before_settlement,2046,CLI-3,0,3.17,3.17
 mixed_before_settlement,2046,CLI-5,0,7.703,7.703
 mixed_before_settlement,2046,CLI-7,0,10.739,10.739
@@ -7444,7 +7444,7 @@ larger_payroll,2040,EDU-4,0,3.818,3.818
 larger_payroll,2040,EDU-5,0,36.158,36.158
 larger_payroll,2040,EDU-7,0,-4.876,-4.876
 larger_payroll,2040,EDU-8,0,1.909,1.909
-larger_payroll,2040,CLI-1,0,52.669,52.669
+larger_payroll,2040,CLI-1,0,45.739,45.739
 larger_payroll,2040,CLI-3,0,2.545,2.545
 larger_payroll,2040,CLI-5,0,-0.224,-0.224
 larger_payroll,2040,CLI-7,0,9.425,9.425
@@ -7565,7 +7565,7 @@ larger_payroll,2041,EDU-4,0,3.962,3.962
 larger_payroll,2041,EDU-5,0,36.99,36.99
 larger_payroll,2041,EDU-7,0,-5.061,-5.061
 larger_payroll,2041,EDU-8,0,1.981,1.981
-larger_payroll,2041,CLI-1,0,47.294,47.294
+larger_payroll,2041,CLI-1,0,41.074,41.074
 larger_payroll,2041,CLI-3,0,2.641,2.641
 larger_payroll,2041,CLI-5,0,1.493,1.493
 larger_payroll,2041,CLI-7,0,9.632,9.632
@@ -7686,7 +7686,7 @@ larger_payroll,2042,EDU-4,0,4.111,4.111
 larger_payroll,2042,EDU-5,0,37.841,37.841
 larger_payroll,2042,EDU-7,0,-5.25,-5.25
 larger_payroll,2042,EDU-8,0,2.055,2.055
-larger_payroll,2042,CLI-1,0,39.824,39.824
+larger_payroll,2042,CLI-1,0,34.574,34.574
 larger_payroll,2042,CLI-3,0,2.741,2.741
 larger_payroll,2042,CLI-5,0,5.052,5.052
 larger_payroll,2042,CLI-7,0,9.844,9.844
@@ -7806,7 +7806,7 @@ larger_payroll,2043,EDU-4,0,4.265,4.265
 larger_payroll,2043,EDU-5,0,38.711,38.711
 larger_payroll,2043,EDU-7,0,-5.447,-5.447
 larger_payroll,2043,EDU-8,0,2.132,2.132
-larger_payroll,2043,CLI-1,0,20.664,20.664
+larger_payroll,2043,CLI-1,0,17.944,17.944
 larger_payroll,2043,CLI-3,0,2.843,2.843
 larger_payroll,2043,CLI-5,0,5.506,5.506
 larger_payroll,2043,CLI-7,0,10.061,10.061
@@ -7926,7 +7926,7 @@ larger_payroll,2044,EDU-4,0,4.424,4.424
 larger_payroll,2044,EDU-5,0,39.601,39.601
 larger_payroll,2044,EDU-7,0,-5.65,-5.65
 larger_payroll,2044,EDU-8,0,2.212,2.212
-larger_payroll,2044,CLI-1,0,9.826,9.826
+larger_payroll,2044,CLI-1,0,8.536,8.536
 larger_payroll,2044,CLI-3,0,2.949,2.949
 larger_payroll,2044,CLI-5,0,5.809,5.809
 larger_payroll,2044,CLI-7,0,10.282,10.282
@@ -8046,7 +8046,7 @@ larger_payroll,2045,EDU-4,0,4.587,4.587
 larger_payroll,2045,EDU-5,0,40.512,40.512
 larger_payroll,2045,EDU-7,0,-5.859,-5.859
 larger_payroll,2045,EDU-8,0,2.294,2.294
-larger_payroll,2045,CLI-1,0,6.218,6.218
+larger_payroll,2045,CLI-1,0,5.398,5.398
 larger_payroll,2045,CLI-3,0,3.058,3.058
 larger_payroll,2045,CLI-5,0,6.752,6.752
 larger_payroll,2045,CLI-7,0,10.508,10.508
@@ -8166,7 +8166,7 @@ larger_payroll,2046,EDU-4,0,4.755,4.755
 larger_payroll,2046,EDU-5,0,41.444,41.444
 larger_payroll,2046,EDU-7,0,-6.073,-6.073
 larger_payroll,2046,EDU-8,0,2.377,2.377
-larger_payroll,2046,CLI-1,0,3.106,3.106
+larger_payroll,2046,CLI-1,0,2.696,2.696
 larger_payroll,2046,CLI-3,0,3.17,3.17
 larger_payroll,2046,CLI-5,0,7.703,7.703
 larger_payroll,2046,CLI-7,0,10.739,10.739
@@ -10674,7 +10674,7 @@ mixed_downside,2040,EDU-4,0,3.818,3.818
 mixed_downside,2040,EDU-5,0,36.158,36.158
 mixed_downside,2040,EDU-7,0,-4.876,-4.876
 mixed_downside,2040,EDU-8,0,1.909,1.909
-mixed_downside,2040,CLI-1,0,52.669,52.669
+mixed_downside,2040,CLI-1,0,45.739,45.739
 mixed_downside,2040,CLI-3,0,2.545,2.545
 mixed_downside,2040,CLI-5,0,-0.224,-0.224
 mixed_downside,2040,CLI-7,0,9.425,9.425
@@ -10796,7 +10796,7 @@ mixed_downside,2041,EDU-4,0,3.962,3.962
 mixed_downside,2041,EDU-5,0,36.99,36.99
 mixed_downside,2041,EDU-7,0,-5.061,-5.061
 mixed_downside,2041,EDU-8,0,1.981,1.981
-mixed_downside,2041,CLI-1,0,47.294,47.294
+mixed_downside,2041,CLI-1,0,41.074,41.074
 mixed_downside,2041,CLI-3,0,2.641,2.641
 mixed_downside,2041,CLI-5,0,1.493,1.493
 mixed_downside,2041,CLI-7,0,9.632,9.632
@@ -10918,7 +10918,7 @@ mixed_downside,2042,EDU-4,0,4.111,4.111
 mixed_downside,2042,EDU-5,0,37.841,37.841
 mixed_downside,2042,EDU-7,0,-5.25,-5.25
 mixed_downside,2042,EDU-8,0,2.055,2.055
-mixed_downside,2042,CLI-1,0,39.824,39.824
+mixed_downside,2042,CLI-1,0,34.574,34.574
 mixed_downside,2042,CLI-3,0,2.741,2.741
 mixed_downside,2042,CLI-5,0,5.052,5.052
 mixed_downside,2042,CLI-7,0,9.844,9.844
@@ -11039,7 +11039,7 @@ mixed_downside,2043,EDU-4,0,4.265,4.265
 mixed_downside,2043,EDU-5,0,38.711,38.711
 mixed_downside,2043,EDU-7,0,-5.447,-5.447
 mixed_downside,2043,EDU-8,0,2.132,2.132
-mixed_downside,2043,CLI-1,0,20.664,20.664
+mixed_downside,2043,CLI-1,0,17.944,17.944
 mixed_downside,2043,CLI-3,0,2.843,2.843
 mixed_downside,2043,CLI-5,0,5.506,5.506
 mixed_downside,2043,CLI-7,0,10.061,10.061
@@ -11160,7 +11160,7 @@ mixed_downside,2044,EDU-4,0,4.424,4.424
 mixed_downside,2044,EDU-5,0,39.601,39.601
 mixed_downside,2044,EDU-7,0,-5.65,-5.65
 mixed_downside,2044,EDU-8,0,2.212,2.212
-mixed_downside,2044,CLI-1,0,9.826,9.826
+mixed_downside,2044,CLI-1,0,8.536,8.536
 mixed_downside,2044,CLI-3,0,2.949,2.949
 mixed_downside,2044,CLI-5,0,5.809,5.809
 mixed_downside,2044,CLI-7,0,10.282,10.282
@@ -11281,7 +11281,7 @@ mixed_downside,2045,EDU-4,0,4.587,4.587
 mixed_downside,2045,EDU-5,0,40.512,40.512
 mixed_downside,2045,EDU-7,0,-5.859,-5.859
 mixed_downside,2045,EDU-8,0,2.294,2.294
-mixed_downside,2045,CLI-1,0,6.218,6.218
+mixed_downside,2045,CLI-1,0,5.398,5.398
 mixed_downside,2045,CLI-3,0,3.058,3.058
 mixed_downside,2045,CLI-5,0,6.752,6.752
 mixed_downside,2045,CLI-7,0,10.508,10.508
@@ -11402,7 +11402,7 @@ mixed_downside,2046,EDU-4,0,4.755,4.755
 mixed_downside,2046,EDU-5,0,41.444,41.444
 mixed_downside,2046,EDU-7,0,-6.073,-6.073
 mixed_downside,2046,EDU-8,0,2.377,2.377
-mixed_downside,2046,CLI-1,0,3.106,3.106
+mixed_downside,2046,CLI-1,0,2.696,2.696
 mixed_downside,2046,CLI-3,0,3.17,3.17
 mixed_downside,2046,CLI-5,0,7.703,7.703
 mixed_downside,2046,CLI-7,0,10.739,10.739
@@ -13911,7 +13911,7 @@ mixed_all_debt_rate_plus1,2040,EDU-4,0,3.818,3.818
 mixed_all_debt_rate_plus1,2040,EDU-5,0,36.158,36.158
 mixed_all_debt_rate_plus1,2040,EDU-7,0,-4.876,-4.876
 mixed_all_debt_rate_plus1,2040,EDU-8,0,1.909,1.909
-mixed_all_debt_rate_plus1,2040,CLI-1,0,52.669,52.669
+mixed_all_debt_rate_plus1,2040,CLI-1,0,45.739,45.739
 mixed_all_debt_rate_plus1,2040,CLI-3,0,2.545,2.545
 mixed_all_debt_rate_plus1,2040,CLI-5,0,-0.224,-0.224
 mixed_all_debt_rate_plus1,2040,CLI-7,0,9.425,9.425
@@ -14032,7 +14032,7 @@ mixed_all_debt_rate_plus1,2041,EDU-4,0,3.962,3.962
 mixed_all_debt_rate_plus1,2041,EDU-5,0,36.99,36.99
 mixed_all_debt_rate_plus1,2041,EDU-7,0,-5.061,-5.061
 mixed_all_debt_rate_plus1,2041,EDU-8,0,1.981,1.981
-mixed_all_debt_rate_plus1,2041,CLI-1,0,47.294,47.294
+mixed_all_debt_rate_plus1,2041,CLI-1,0,41.074,41.074
 mixed_all_debt_rate_plus1,2041,CLI-3,0,2.641,2.641
 mixed_all_debt_rate_plus1,2041,CLI-5,0,1.493,1.493
 mixed_all_debt_rate_plus1,2041,CLI-7,0,9.632,9.632
@@ -14153,7 +14153,7 @@ mixed_all_debt_rate_plus1,2042,EDU-4,0,4.111,4.111
 mixed_all_debt_rate_plus1,2042,EDU-5,0,37.841,37.841
 mixed_all_debt_rate_plus1,2042,EDU-7,0,-5.25,-5.25
 mixed_all_debt_rate_plus1,2042,EDU-8,0,2.055,2.055
-mixed_all_debt_rate_plus1,2042,CLI-1,0,39.824,39.824
+mixed_all_debt_rate_plus1,2042,CLI-1,0,34.574,34.574
 mixed_all_debt_rate_plus1,2042,CLI-3,0,2.741,2.741
 mixed_all_debt_rate_plus1,2042,CLI-5,0,5.052,5.052
 mixed_all_debt_rate_plus1,2042,CLI-7,0,9.844,9.844
@@ -14273,7 +14273,7 @@ mixed_all_debt_rate_plus1,2043,EDU-4,0,4.265,4.265
 mixed_all_debt_rate_plus1,2043,EDU-5,0,38.711,38.711
 mixed_all_debt_rate_plus1,2043,EDU-7,0,-5.447,-5.447
 mixed_all_debt_rate_plus1,2043,EDU-8,0,2.132,2.132
-mixed_all_debt_rate_plus1,2043,CLI-1,0,20.664,20.664
+mixed_all_debt_rate_plus1,2043,CLI-1,0,17.944,17.944
 mixed_all_debt_rate_plus1,2043,CLI-3,0,2.843,2.843
 mixed_all_debt_rate_plus1,2043,CLI-5,0,5.506,5.506
 mixed_all_debt_rate_plus1,2043,CLI-7,0,10.061,10.061
@@ -14393,7 +14393,7 @@ mixed_all_debt_rate_plus1,2044,EDU-4,0,4.424,4.424
 mixed_all_debt_rate_plus1,2044,EDU-5,0,39.601,39.601
 mixed_all_debt_rate_plus1,2044,EDU-7,0,-5.65,-5.65
 mixed_all_debt_rate_plus1,2044,EDU-8,0,2.212,2.212
-mixed_all_debt_rate_plus1,2044,CLI-1,0,9.826,9.826
+mixed_all_debt_rate_plus1,2044,CLI-1,0,8.536,8.536
 mixed_all_debt_rate_plus1,2044,CLI-3,0,2.949,2.949
 mixed_all_debt_rate_plus1,2044,CLI-5,0,5.809,5.809
 mixed_all_debt_rate_plus1,2044,CLI-7,0,10.282,10.282
@@ -14513,7 +14513,7 @@ mixed_all_debt_rate_plus1,2045,EDU-4,0,4.587,4.587
 mixed_all_debt_rate_plus1,2045,EDU-5,0,40.512,40.512
 mixed_all_debt_rate_plus1,2045,EDU-7,0,-5.859,-5.859
 mixed_all_debt_rate_plus1,2045,EDU-8,0,2.294,2.294
-mixed_all_debt_rate_plus1,2045,CLI-1,0,6.218,6.218
+mixed_all_debt_rate_plus1,2045,CLI-1,0,5.398,5.398
 mixed_all_debt_rate_plus1,2045,CLI-3,0,3.058,3.058
 mixed_all_debt_rate_plus1,2045,CLI-5,0,6.752,6.752
 mixed_all_debt_rate_plus1,2045,CLI-7,0,10.508,10.508
@@ -14633,7 +14633,7 @@ mixed_all_debt_rate_plus1,2046,EDU-4,0,4.755,4.755
 mixed_all_debt_rate_plus1,2046,EDU-5,0,41.444,41.444
 mixed_all_debt_rate_plus1,2046,EDU-7,0,-6.073,-6.073
 mixed_all_debt_rate_plus1,2046,EDU-8,0,2.377,2.377
-mixed_all_debt_rate_plus1,2046,CLI-1,0,3.106,3.106
+mixed_all_debt_rate_plus1,2046,CLI-1,0,2.696,2.696
 mixed_all_debt_rate_plus1,2046,CLI-3,0,3.17,3.17
 mixed_all_debt_rate_plus1,2046,CLI-5,0,7.703,7.703
 mixed_all_debt_rate_plus1,2046,CLI-7,0,10.739,10.739
@@ -17131,7 +17131,7 @@ mixed_no_macro_translation,2040,EDU-4,0,3.818,3.818
 mixed_no_macro_translation,2040,EDU-5,0,36.158,36.158
 mixed_no_macro_translation,2040,EDU-7,0,-4.876,-4.876
 mixed_no_macro_translation,2040,EDU-8,0,1.909,1.909
-mixed_no_macro_translation,2040,CLI-1,0,52.669,52.669
+mixed_no_macro_translation,2040,CLI-1,0,45.739,45.739
 mixed_no_macro_translation,2040,CLI-3,0,2.545,2.545
 mixed_no_macro_translation,2040,CLI-5,0,-0.224,-0.224
 mixed_no_macro_translation,2040,CLI-7,0,9.425,9.425
@@ -17252,7 +17252,7 @@ mixed_no_macro_translation,2041,EDU-4,0,3.962,3.962
 mixed_no_macro_translation,2041,EDU-5,0,36.99,36.99
 mixed_no_macro_translation,2041,EDU-7,0,-5.061,-5.061
 mixed_no_macro_translation,2041,EDU-8,0,1.981,1.981
-mixed_no_macro_translation,2041,CLI-1,0,47.294,47.294
+mixed_no_macro_translation,2041,CLI-1,0,41.074,41.074
 mixed_no_macro_translation,2041,CLI-3,0,2.641,2.641
 mixed_no_macro_translation,2041,CLI-5,0,1.493,1.493
 mixed_no_macro_translation,2041,CLI-7,0,9.632,9.632
@@ -17373,7 +17373,7 @@ mixed_no_macro_translation,2042,EDU-4,0,4.111,4.111
 mixed_no_macro_translation,2042,EDU-5,0,37.841,37.841
 mixed_no_macro_translation,2042,EDU-7,0,-5.25,-5.25
 mixed_no_macro_translation,2042,EDU-8,0,2.055,2.055
-mixed_no_macro_translation,2042,CLI-1,0,39.824,39.824
+mixed_no_macro_translation,2042,CLI-1,0,34.574,34.574
 mixed_no_macro_translation,2042,CLI-3,0,2.741,2.741
 mixed_no_macro_translation,2042,CLI-5,0,5.052,5.052
 mixed_no_macro_translation,2042,CLI-7,0,9.844,9.844
@@ -17493,7 +17493,7 @@ mixed_no_macro_translation,2043,EDU-4,0,4.265,4.265
 mixed_no_macro_translation,2043,EDU-5,0,38.711,38.711
 mixed_no_macro_translation,2043,EDU-7,0,-5.447,-5.447
 mixed_no_macro_translation,2043,EDU-8,0,2.132,2.132
-mixed_no_macro_translation,2043,CLI-1,0,20.664,20.664
+mixed_no_macro_translation,2043,CLI-1,0,17.944,17.944
 mixed_no_macro_translation,2043,CLI-3,0,2.843,2.843
 mixed_no_macro_translation,2043,CLI-5,0,5.506,5.506
 mixed_no_macro_translation,2043,CLI-7,0,10.061,10.061
@@ -17613,7 +17613,7 @@ mixed_no_macro_translation,2044,EDU-4,0,4.424,4.424
 mixed_no_macro_translation,2044,EDU-5,0,39.601,39.601
 mixed_no_macro_translation,2044,EDU-7,0,-5.65,-5.65
 mixed_no_macro_translation,2044,EDU-8,0,2.212,2.212
-mixed_no_macro_translation,2044,CLI-1,0,9.826,9.826
+mixed_no_macro_translation,2044,CLI-1,0,8.536,8.536
 mixed_no_macro_translation,2044,CLI-3,0,2.949,2.949
 mixed_no_macro_translation,2044,CLI-5,0,5.809,5.809
 mixed_no_macro_translation,2044,CLI-7,0,10.282,10.282
@@ -17733,7 +17733,7 @@ mixed_no_macro_translation,2045,EDU-4,0,4.587,4.587
 mixed_no_macro_translation,2045,EDU-5,0,40.512,40.512
 mixed_no_macro_translation,2045,EDU-7,0,-5.859,-5.859
 mixed_no_macro_translation,2045,EDU-8,0,2.294,2.294
-mixed_no_macro_translation,2045,CLI-1,0,6.218,6.218
+mixed_no_macro_translation,2045,CLI-1,0,5.398,5.398
 mixed_no_macro_translation,2045,CLI-3,0,3.058,3.058
 mixed_no_macro_translation,2045,CLI-5,0,6.752,6.752
 mixed_no_macro_translation,2045,CLI-7,0,10.508,10.508
@@ -17853,7 +17853,7 @@ mixed_no_macro_translation,2046,EDU-4,0,4.755,4.755
 mixed_no_macro_translation,2046,EDU-5,0,41.444,41.444
 mixed_no_macro_translation,2046,EDU-7,0,-6.073,-6.073
 mixed_no_macro_translation,2046,EDU-8,0,2.377,2.377
-mixed_no_macro_translation,2046,CLI-1,0,3.106,3.106
+mixed_no_macro_translation,2046,CLI-1,0,2.696,2.696
 mixed_no_macro_translation,2046,CLI-3,0,3.17,3.17
 mixed_no_macro_translation,2046,CLI-5,0,7.703,7.703
 mixed_no_macro_translation,2046,CLI-7,0,10.739,10.739
@@ -20351,7 +20351,7 @@ mixed_leave_admin_high,2040,EDU-4,0,3.818,3.818
 mixed_leave_admin_high,2040,EDU-5,0,36.158,36.158
 mixed_leave_admin_high,2040,EDU-7,0,-4.876,-4.876
 mixed_leave_admin_high,2040,EDU-8,0,1.909,1.909
-mixed_leave_admin_high,2040,CLI-1,0,52.669,52.669
+mixed_leave_admin_high,2040,CLI-1,0,45.739,45.739
 mixed_leave_admin_high,2040,CLI-3,0,2.545,2.545
 mixed_leave_admin_high,2040,CLI-5,0,-0.224,-0.224
 mixed_leave_admin_high,2040,CLI-7,0,9.425,9.425
@@ -20472,7 +20472,7 @@ mixed_leave_admin_high,2041,EDU-4,0,3.962,3.962
 mixed_leave_admin_high,2041,EDU-5,0,36.99,36.99
 mixed_leave_admin_high,2041,EDU-7,0,-5.061,-5.061
 mixed_leave_admin_high,2041,EDU-8,0,1.981,1.981
-mixed_leave_admin_high,2041,CLI-1,0,47.294,47.294
+mixed_leave_admin_high,2041,CLI-1,0,41.074,41.074
 mixed_leave_admin_high,2041,CLI-3,0,2.641,2.641
 mixed_leave_admin_high,2041,CLI-5,0,1.493,1.493
 mixed_leave_admin_high,2041,CLI-7,0,9.632,9.632
@@ -20593,7 +20593,7 @@ mixed_leave_admin_high,2042,EDU-4,0,4.111,4.111
 mixed_leave_admin_high,2042,EDU-5,0,37.841,37.841
 mixed_leave_admin_high,2042,EDU-7,0,-5.25,-5.25
 mixed_leave_admin_high,2042,EDU-8,0,2.055,2.055
-mixed_leave_admin_high,2042,CLI-1,0,39.824,39.824
+mixed_leave_admin_high,2042,CLI-1,0,34.574,34.574
 mixed_leave_admin_high,2042,CLI-3,0,2.741,2.741
 mixed_leave_admin_high,2042,CLI-5,0,5.052,5.052
 mixed_leave_admin_high,2042,CLI-7,0,9.844,9.844
@@ -20713,7 +20713,7 @@ mixed_leave_admin_high,2043,EDU-4,0,4.265,4.265
 mixed_leave_admin_high,2043,EDU-5,0,38.711,38.711
 mixed_leave_admin_high,2043,EDU-7,0,-5.447,-5.447
 mixed_leave_admin_high,2043,EDU-8,0,2.132,2.132
-mixed_leave_admin_high,2043,CLI-1,0,20.664,20.664
+mixed_leave_admin_high,2043,CLI-1,0,17.944,17.944
 mixed_leave_admin_high,2043,CLI-3,0,2.843,2.843
 mixed_leave_admin_high,2043,CLI-5,0,5.506,5.506
 mixed_leave_admin_high,2043,CLI-7,0,10.061,10.061
@@ -20833,7 +20833,7 @@ mixed_leave_admin_high,2044,EDU-4,0,4.424,4.424
 mixed_leave_admin_high,2044,EDU-5,0,39.601,39.601
 mixed_leave_admin_high,2044,EDU-7,0,-5.65,-5.65
 mixed_leave_admin_high,2044,EDU-8,0,2.212,2.212
-mixed_leave_admin_high,2044,CLI-1,0,9.826,9.826
+mixed_leave_admin_high,2044,CLI-1,0,8.536,8.536
 mixed_leave_admin_high,2044,CLI-3,0,2.949,2.949
 mixed_leave_admin_high,2044,CLI-5,0,5.809,5.809
 mixed_leave_admin_high,2044,CLI-7,0,10.282,10.282
@@ -20953,7 +20953,7 @@ mixed_leave_admin_high,2045,EDU-4,0,4.587,4.587
 mixed_leave_admin_high,2045,EDU-5,0,40.512,40.512
 mixed_leave_admin_high,2045,EDU-7,0,-5.859,-5.859
 mixed_leave_admin_high,2045,EDU-8,0,2.294,2.294
-mixed_leave_admin_high,2045,CLI-1,0,6.218,6.218
+mixed_leave_admin_high,2045,CLI-1,0,5.398,5.398
 mixed_leave_admin_high,2045,CLI-3,0,3.058,3.058
 mixed_leave_admin_high,2045,CLI-5,0,6.752,6.752
 mixed_leave_admin_high,2045,CLI-7,0,10.508,10.508
@@ -21073,7 +21073,7 @@ mixed_leave_admin_high,2046,EDU-4,0,4.755,4.755
 mixed_leave_admin_high,2046,EDU-5,0,41.444,41.444
 mixed_leave_admin_high,2046,EDU-7,0,-6.073,-6.073
 mixed_leave_admin_high,2046,EDU-8,0,2.377,2.377
-mixed_leave_admin_high,2046,CLI-1,0,3.106,3.106
+mixed_leave_admin_high,2046,CLI-1,0,2.696,2.696
 mixed_leave_admin_high,2046,CLI-3,0,3.17,3.17
 mixed_leave_admin_high,2046,CLI-5,0,7.703,7.703
 mixed_leave_admin_high,2046,CLI-7,0,10.739,10.739
@@ -23570,7 +23570,7 @@ mixed_ssa_medicare_all_hi,2040,EDU-4,0,3.818,3.818
 mixed_ssa_medicare_all_hi,2040,EDU-5,0,36.158,36.158
 mixed_ssa_medicare_all_hi,2040,EDU-7,0,-4.876,-4.876
 mixed_ssa_medicare_all_hi,2040,EDU-8,0,1.909,1.909
-mixed_ssa_medicare_all_hi,2040,CLI-1,0,52.669,52.669
+mixed_ssa_medicare_all_hi,2040,CLI-1,0,45.739,45.739
 mixed_ssa_medicare_all_hi,2040,CLI-3,0,2.545,2.545
 mixed_ssa_medicare_all_hi,2040,CLI-5,0,-0.224,-0.224
 mixed_ssa_medicare_all_hi,2040,CLI-7,0,9.425,9.425
@@ -23691,7 +23691,7 @@ mixed_ssa_medicare_all_hi,2041,EDU-4,0,3.962,3.962
 mixed_ssa_medicare_all_hi,2041,EDU-5,0,36.99,36.99
 mixed_ssa_medicare_all_hi,2041,EDU-7,0,-5.061,-5.061
 mixed_ssa_medicare_all_hi,2041,EDU-8,0,1.981,1.981
-mixed_ssa_medicare_all_hi,2041,CLI-1,0,47.294,47.294
+mixed_ssa_medicare_all_hi,2041,CLI-1,0,41.074,41.074
 mixed_ssa_medicare_all_hi,2041,CLI-3,0,2.641,2.641
 mixed_ssa_medicare_all_hi,2041,CLI-5,0,1.493,1.493
 mixed_ssa_medicare_all_hi,2041,CLI-7,0,9.632,9.632
@@ -23812,7 +23812,7 @@ mixed_ssa_medicare_all_hi,2042,EDU-4,0,4.111,4.111
 mixed_ssa_medicare_all_hi,2042,EDU-5,0,37.841,37.841
 mixed_ssa_medicare_all_hi,2042,EDU-7,0,-5.25,-5.25
 mixed_ssa_medicare_all_hi,2042,EDU-8,0,2.055,2.055
-mixed_ssa_medicare_all_hi,2042,CLI-1,0,39.824,39.824
+mixed_ssa_medicare_all_hi,2042,CLI-1,0,34.574,34.574
 mixed_ssa_medicare_all_hi,2042,CLI-3,0,2.741,2.741
 mixed_ssa_medicare_all_hi,2042,CLI-5,0,5.052,5.052
 mixed_ssa_medicare_all_hi,2042,CLI-7,0,9.844,9.844
@@ -23932,7 +23932,7 @@ mixed_ssa_medicare_all_hi,2043,EDU-4,0,4.265,4.265
 mixed_ssa_medicare_all_hi,2043,EDU-5,0,38.711,38.711
 mixed_ssa_medicare_all_hi,2043,EDU-7,0,-5.447,-5.447
 mixed_ssa_medicare_all_hi,2043,EDU-8,0,2.132,2.132
-mixed_ssa_medicare_all_hi,2043,CLI-1,0,20.664,20.664
+mixed_ssa_medicare_all_hi,2043,CLI-1,0,17.944,17.944
 mixed_ssa_medicare_all_hi,2043,CLI-3,0,2.843,2.843
 mixed_ssa_medicare_all_hi,2043,CLI-5,0,5.506,5.506
 mixed_ssa_medicare_all_hi,2043,CLI-7,0,10.061,10.061
@@ -24052,7 +24052,7 @@ mixed_ssa_medicare_all_hi,2044,EDU-4,0,4.424,4.424
 mixed_ssa_medicare_all_hi,2044,EDU-5,0,39.601,39.601
 mixed_ssa_medicare_all_hi,2044,EDU-7,0,-5.65,-5.65
 mixed_ssa_medicare_all_hi,2044,EDU-8,0,2.212,2.212
-mixed_ssa_medicare_all_hi,2044,CLI-1,0,9.826,9.826
+mixed_ssa_medicare_all_hi,2044,CLI-1,0,8.536,8.536
 mixed_ssa_medicare_all_hi,2044,CLI-3,0,2.949,2.949
 mixed_ssa_medicare_all_hi,2044,CLI-5,0,5.809,5.809
 mixed_ssa_medicare_all_hi,2044,CLI-7,0,10.282,10.282
@@ -24172,7 +24172,7 @@ mixed_ssa_medicare_all_hi,2045,EDU-4,0,4.587,4.587
 mixed_ssa_medicare_all_hi,2045,EDU-5,0,40.512,40.512
 mixed_ssa_medicare_all_hi,2045,EDU-7,0,-5.859,-5.859
 mixed_ssa_medicare_all_hi,2045,EDU-8,0,2.294,2.294
-mixed_ssa_medicare_all_hi,2045,CLI-1,0,6.218,6.218
+mixed_ssa_medicare_all_hi,2045,CLI-1,0,5.398,5.398
 mixed_ssa_medicare_all_hi,2045,CLI-3,0,3.058,3.058
 mixed_ssa_medicare_all_hi,2045,CLI-5,0,6.752,6.752
 mixed_ssa_medicare_all_hi,2045,CLI-7,0,10.508,10.508
@@ -24292,7 +24292,7 @@ mixed_ssa_medicare_all_hi,2046,EDU-4,0,4.755,4.755
 mixed_ssa_medicare_all_hi,2046,EDU-5,0,41.444,41.444
 mixed_ssa_medicare_all_hi,2046,EDU-7,0,-6.073,-6.073
 mixed_ssa_medicare_all_hi,2046,EDU-8,0,2.377,2.377
-mixed_ssa_medicare_all_hi,2046,CLI-1,0,3.106,3.106
+mixed_ssa_medicare_all_hi,2046,CLI-1,0,2.696,2.696
 mixed_ssa_medicare_all_hi,2046,CLI-3,0,3.17,3.17
 mixed_ssa_medicare_all_hi,2046,CLI-5,0,7.703,7.703
 mixed_ssa_medicare_all_hi,2046,CLI-7,0,10.739,10.739
@@ -26790,7 +26790,7 @@ mixed_ssa_medicare_all_smi,2040,EDU-4,0,3.818,3.818
 mixed_ssa_medicare_all_smi,2040,EDU-5,0,36.158,36.158
 mixed_ssa_medicare_all_smi,2040,EDU-7,0,-4.876,-4.876
 mixed_ssa_medicare_all_smi,2040,EDU-8,0,1.909,1.909
-mixed_ssa_medicare_all_smi,2040,CLI-1,0,52.669,52.669
+mixed_ssa_medicare_all_smi,2040,CLI-1,0,45.739,45.739
 mixed_ssa_medicare_all_smi,2040,CLI-3,0,2.545,2.545
 mixed_ssa_medicare_all_smi,2040,CLI-5,0,-0.224,-0.224
 mixed_ssa_medicare_all_smi,2040,CLI-7,0,9.425,9.425
@@ -26911,7 +26911,7 @@ mixed_ssa_medicare_all_smi,2041,EDU-4,0,3.962,3.962
 mixed_ssa_medicare_all_smi,2041,EDU-5,0,36.99,36.99
 mixed_ssa_medicare_all_smi,2041,EDU-7,0,-5.061,-5.061
 mixed_ssa_medicare_all_smi,2041,EDU-8,0,1.981,1.981
-mixed_ssa_medicare_all_smi,2041,CLI-1,0,47.294,47.294
+mixed_ssa_medicare_all_smi,2041,CLI-1,0,41.074,41.074
 mixed_ssa_medicare_all_smi,2041,CLI-3,0,2.641,2.641
 mixed_ssa_medicare_all_smi,2041,CLI-5,0,1.493,1.493
 mixed_ssa_medicare_all_smi,2041,CLI-7,0,9.632,9.632
@@ -27032,7 +27032,7 @@ mixed_ssa_medicare_all_smi,2042,EDU-4,0,4.111,4.111
 mixed_ssa_medicare_all_smi,2042,EDU-5,0,37.841,37.841
 mixed_ssa_medicare_all_smi,2042,EDU-7,0,-5.25,-5.25
 mixed_ssa_medicare_all_smi,2042,EDU-8,0,2.055,2.055
-mixed_ssa_medicare_all_smi,2042,CLI-1,0,39.824,39.824
+mixed_ssa_medicare_all_smi,2042,CLI-1,0,34.574,34.574
 mixed_ssa_medicare_all_smi,2042,CLI-3,0,2.741,2.741
 mixed_ssa_medicare_all_smi,2042,CLI-5,0,5.052,5.052
 mixed_ssa_medicare_all_smi,2042,CLI-7,0,9.844,9.844
@@ -27152,7 +27152,7 @@ mixed_ssa_medicare_all_smi,2043,EDU-4,0,4.265,4.265
 mixed_ssa_medicare_all_smi,2043,EDU-5,0,38.711,38.711
 mixed_ssa_medicare_all_smi,2043,EDU-7,0,-5.447,-5.447
 mixed_ssa_medicare_all_smi,2043,EDU-8,0,2.132,2.132
-mixed_ssa_medicare_all_smi,2043,CLI-1,0,20.664,20.664
+mixed_ssa_medicare_all_smi,2043,CLI-1,0,17.944,17.944
 mixed_ssa_medicare_all_smi,2043,CLI-3,0,2.843,2.843
 mixed_ssa_medicare_all_smi,2043,CLI-5,0,5.506,5.506
 mixed_ssa_medicare_all_smi,2043,CLI-7,0,10.061,10.061
@@ -27272,7 +27272,7 @@ mixed_ssa_medicare_all_smi,2044,EDU-4,0,4.424,4.424
 mixed_ssa_medicare_all_smi,2044,EDU-5,0,39.601,39.601
 mixed_ssa_medicare_all_smi,2044,EDU-7,0,-5.65,-5.65
 mixed_ssa_medicare_all_smi,2044,EDU-8,0,2.212,2.212
-mixed_ssa_medicare_all_smi,2044,CLI-1,0,9.826,9.826
+mixed_ssa_medicare_all_smi,2044,CLI-1,0,8.536,8.536
 mixed_ssa_medicare_all_smi,2044,CLI-3,0,2.949,2.949
 mixed_ssa_medicare_all_smi,2044,CLI-5,0,5.809,5.809
 mixed_ssa_medicare_all_smi,2044,CLI-7,0,10.282,10.282
@@ -27392,7 +27392,7 @@ mixed_ssa_medicare_all_smi,2045,EDU-4,0,4.587,4.587
 mixed_ssa_medicare_all_smi,2045,EDU-5,0,40.512,40.512
 mixed_ssa_medicare_all_smi,2045,EDU-7,0,-5.859,-5.859
 mixed_ssa_medicare_all_smi,2045,EDU-8,0,2.294,2.294
-mixed_ssa_medicare_all_smi,2045,CLI-1,0,6.218,6.218
+mixed_ssa_medicare_all_smi,2045,CLI-1,0,5.398,5.398
 mixed_ssa_medicare_all_smi,2045,CLI-3,0,3.058,3.058
 mixed_ssa_medicare_all_smi,2045,CLI-5,0,6.752,6.752
 mixed_ssa_medicare_all_smi,2045,CLI-7,0,10.508,10.508
@@ -27512,7 +27512,7 @@ mixed_ssa_medicare_all_smi,2046,EDU-4,0,4.755,4.755
 mixed_ssa_medicare_all_smi,2046,EDU-5,0,41.444,41.444
 mixed_ssa_medicare_all_smi,2046,EDU-7,0,-6.073,-6.073
 mixed_ssa_medicare_all_smi,2046,EDU-8,0,2.377,2.377
-mixed_ssa_medicare_all_smi,2046,CLI-1,0,3.106,3.106
+mixed_ssa_medicare_all_smi,2046,CLI-1,0,2.696,2.696
 mixed_ssa_medicare_all_smi,2046,CLI-3,0,3.17,3.17
 mixed_ssa_medicare_all_smi,2046,CLI-5,0,7.703,7.703
 mixed_ssa_medicare_all_smi,2046,CLI-7,0,10.739,10.739
@@ -30010,7 +30010,7 @@ mixed_reserve_corridor,2040,EDU-4,0,3.818,3.818
 mixed_reserve_corridor,2040,EDU-5,0,36.158,36.158
 mixed_reserve_corridor,2040,EDU-7,0,-4.876,-4.876
 mixed_reserve_corridor,2040,EDU-8,0,1.909,1.909
-mixed_reserve_corridor,2040,CLI-1,0,52.669,52.669
+mixed_reserve_corridor,2040,CLI-1,0,45.739,45.739
 mixed_reserve_corridor,2040,CLI-3,0,2.545,2.545
 mixed_reserve_corridor,2040,CLI-5,0,-0.224,-0.224
 mixed_reserve_corridor,2040,CLI-7,0,9.425,9.425
@@ -30131,7 +30131,7 @@ mixed_reserve_corridor,2041,EDU-4,0,3.962,3.962
 mixed_reserve_corridor,2041,EDU-5,0,36.99,36.99
 mixed_reserve_corridor,2041,EDU-7,0,-5.061,-5.061
 mixed_reserve_corridor,2041,EDU-8,0,1.981,1.981
-mixed_reserve_corridor,2041,CLI-1,0,47.294,47.294
+mixed_reserve_corridor,2041,CLI-1,0,41.074,41.074
 mixed_reserve_corridor,2041,CLI-3,0,2.641,2.641
 mixed_reserve_corridor,2041,CLI-5,0,1.493,1.493
 mixed_reserve_corridor,2041,CLI-7,0,9.632,9.632
@@ -30252,7 +30252,7 @@ mixed_reserve_corridor,2042,EDU-4,0,4.111,4.111
 mixed_reserve_corridor,2042,EDU-5,0,37.841,37.841
 mixed_reserve_corridor,2042,EDU-7,0,-5.25,-5.25
 mixed_reserve_corridor,2042,EDU-8,0,2.055,2.055
-mixed_reserve_corridor,2042,CLI-1,0,39.824,39.824
+mixed_reserve_corridor,2042,CLI-1,0,34.574,34.574
 mixed_reserve_corridor,2042,CLI-3,0,2.741,2.741
 mixed_reserve_corridor,2042,CLI-5,0,5.052,5.052
 mixed_reserve_corridor,2042,CLI-7,0,9.844,9.844
@@ -30372,7 +30372,7 @@ mixed_reserve_corridor,2043,EDU-4,0,4.265,4.265
 mixed_reserve_corridor,2043,EDU-5,0,38.711,38.711
 mixed_reserve_corridor,2043,EDU-7,0,-5.447,-5.447
 mixed_reserve_corridor,2043,EDU-8,0,2.132,2.132
-mixed_reserve_corridor,2043,CLI-1,0,20.664,20.664
+mixed_reserve_corridor,2043,CLI-1,0,17.944,17.944
 mixed_reserve_corridor,2043,CLI-3,0,2.843,2.843
 mixed_reserve_corridor,2043,CLI-5,0,5.506,5.506
 mixed_reserve_corridor,2043,CLI-7,0,10.061,10.061
@@ -30492,7 +30492,7 @@ mixed_reserve_corridor,2044,EDU-4,0,4.424,4.424
 mixed_reserve_corridor,2044,EDU-5,0,39.601,39.601
 mixed_reserve_corridor,2044,EDU-7,0,-5.65,-5.65
 mixed_reserve_corridor,2044,EDU-8,0,2.212,2.212
-mixed_reserve_corridor,2044,CLI-1,0,9.826,9.826
+mixed_reserve_corridor,2044,CLI-1,0,8.536,8.536
 mixed_reserve_corridor,2044,CLI-3,0,2.949,2.949
 mixed_reserve_corridor,2044,CLI-5,0,5.809,5.809
 mixed_reserve_corridor,2044,CLI-7,0,10.282,10.282
@@ -30612,7 +30612,7 @@ mixed_reserve_corridor,2045,EDU-4,0,4.587,4.587
 mixed_reserve_corridor,2045,EDU-5,0,40.512,40.512
 mixed_reserve_corridor,2045,EDU-7,0,-5.859,-5.859
 mixed_reserve_corridor,2045,EDU-8,0,2.294,2.294
-mixed_reserve_corridor,2045,CLI-1,0,6.218,6.218
+mixed_reserve_corridor,2045,CLI-1,0,5.398,5.398
 mixed_reserve_corridor,2045,CLI-3,0,3.058,3.058
 mixed_reserve_corridor,2045,CLI-5,0,6.752,6.752
 mixed_reserve_corridor,2045,CLI-7,0,10.508,10.508
@@ -30732,7 +30732,7 @@ mixed_reserve_corridor,2046,EDU-4,0,4.755,4.755
 mixed_reserve_corridor,2046,EDU-5,0,41.444,41.444
 mixed_reserve_corridor,2046,EDU-7,0,-6.073,-6.073
 mixed_reserve_corridor,2046,EDU-8,0,2.377,2.377
-mixed_reserve_corridor,2046,CLI-1,0,3.106,3.106
+mixed_reserve_corridor,2046,CLI-1,0,2.696,2.696
 mixed_reserve_corridor,2046,CLI-3,0,3.17,3.17
 mixed_reserve_corridor,2046,CLI-5,0,7.703,7.703
 mixed_reserve_corridor,2046,CLI-7,0,10.739,10.739
@@ -33240,7 +33240,7 @@ mixed_corridor_downside,2040,EDU-4,0,3.818,3.818
 mixed_corridor_downside,2040,EDU-5,0,36.158,36.158
 mixed_corridor_downside,2040,EDU-7,0,-4.876,-4.876
 mixed_corridor_downside,2040,EDU-8,0,1.909,1.909
-mixed_corridor_downside,2040,CLI-1,0,52.669,52.669
+mixed_corridor_downside,2040,CLI-1,0,45.739,45.739
 mixed_corridor_downside,2040,CLI-3,0,2.545,2.545
 mixed_corridor_downside,2040,CLI-5,0,-0.224,-0.224
 mixed_corridor_downside,2040,CLI-7,0,9.425,9.425
@@ -33362,7 +33362,7 @@ mixed_corridor_downside,2041,EDU-4,0,3.962,3.962
 mixed_corridor_downside,2041,EDU-5,0,36.99,36.99
 mixed_corridor_downside,2041,EDU-7,0,-5.061,-5.061
 mixed_corridor_downside,2041,EDU-8,0,1.981,1.981
-mixed_corridor_downside,2041,CLI-1,0,47.294,47.294
+mixed_corridor_downside,2041,CLI-1,0,41.074,41.074
 mixed_corridor_downside,2041,CLI-3,0,2.641,2.641
 mixed_corridor_downside,2041,CLI-5,0,1.493,1.493
 mixed_corridor_downside,2041,CLI-7,0,9.632,9.632
@@ -33484,7 +33484,7 @@ mixed_corridor_downside,2042,EDU-4,0,4.111,4.111
 mixed_corridor_downside,2042,EDU-5,0,37.841,37.841
 mixed_corridor_downside,2042,EDU-7,0,-5.25,-5.25
 mixed_corridor_downside,2042,EDU-8,0,2.055,2.055
-mixed_corridor_downside,2042,CLI-1,0,39.824,39.824
+mixed_corridor_downside,2042,CLI-1,0,34.574,34.574
 mixed_corridor_downside,2042,CLI-3,0,2.741,2.741
 mixed_corridor_downside,2042,CLI-5,0,5.052,5.052
 mixed_corridor_downside,2042,CLI-7,0,9.844,9.844
@@ -33605,7 +33605,7 @@ mixed_corridor_downside,2043,EDU-4,0,4.265,4.265
 mixed_corridor_downside,2043,EDU-5,0,38.711,38.711
 mixed_corridor_downside,2043,EDU-7,0,-5.447,-5.447
 mixed_corridor_downside,2043,EDU-8,0,2.132,2.132
-mixed_corridor_downside,2043,CLI-1,0,20.664,20.664
+mixed_corridor_downside,2043,CLI-1,0,17.944,17.944
 mixed_corridor_downside,2043,CLI-3,0,2.843,2.843
 mixed_corridor_downside,2043,CLI-5,0,5.506,5.506
 mixed_corridor_downside,2043,CLI-7,0,10.061,10.061
@@ -33726,7 +33726,7 @@ mixed_corridor_downside,2044,EDU-4,0,4.424,4.424
 mixed_corridor_downside,2044,EDU-5,0,39.601,39.601
 mixed_corridor_downside,2044,EDU-7,0,-5.65,-5.65
 mixed_corridor_downside,2044,EDU-8,0,2.212,2.212
-mixed_corridor_downside,2044,CLI-1,0,9.826,9.826
+mixed_corridor_downside,2044,CLI-1,0,8.536,8.536
 mixed_corridor_downside,2044,CLI-3,0,2.949,2.949
 mixed_corridor_downside,2044,CLI-5,0,5.809,5.809
 mixed_corridor_downside,2044,CLI-7,0,10.282,10.282
@@ -33847,7 +33847,7 @@ mixed_corridor_downside,2045,EDU-4,0,4.587,4.587
 mixed_corridor_downside,2045,EDU-5,0,40.512,40.512
 mixed_corridor_downside,2045,EDU-7,0,-5.859,-5.859
 mixed_corridor_downside,2045,EDU-8,0,2.294,2.294
-mixed_corridor_downside,2045,CLI-1,0,6.218,6.218
+mixed_corridor_downside,2045,CLI-1,0,5.398,5.398
 mixed_corridor_downside,2045,CLI-3,0,3.058,3.058
 mixed_corridor_downside,2045,CLI-5,0,6.752,6.752
 mixed_corridor_downside,2045,CLI-7,0,10.508,10.508
@@ -33968,7 +33968,7 @@ mixed_corridor_downside,2046,EDU-4,0,4.755,4.755
 mixed_corridor_downside,2046,EDU-5,0,41.444,41.444
 mixed_corridor_downside,2046,EDU-7,0,-6.073,-6.073
 mixed_corridor_downside,2046,EDU-8,0,2.377,2.377
-mixed_corridor_downside,2046,CLI-1,0,3.106,3.106
+mixed_corridor_downside,2046,CLI-1,0,2.696,2.696
 mixed_corridor_downside,2046,CLI-3,0,3.17,3.17
 mixed_corridor_downside,2046,CLI-5,0,7.703,7.703
 mixed_corridor_downside,2046,CLI-7,0,10.739,10.739
@@ -36477,7 +36477,7 @@ mixed_legacy_education_floor,2040,EDU-4,0,3.818,3.818
 mixed_legacy_education_floor,2040,EDU-5,0,36.158,36.158
 mixed_legacy_education_floor,2040,EDU-7,0,-4.876,-4.876
 mixed_legacy_education_floor,2040,EDU-8,0,1.909,1.909
-mixed_legacy_education_floor,2040,CLI-1,0,52.669,52.669
+mixed_legacy_education_floor,2040,CLI-1,0,45.739,45.739
 mixed_legacy_education_floor,2040,CLI-3,0,2.545,2.545
 mixed_legacy_education_floor,2040,CLI-5,0,-0.224,-0.224
 mixed_legacy_education_floor,2040,CLI-7,0,9.425,9.425
@@ -36598,7 +36598,7 @@ mixed_legacy_education_floor,2041,EDU-4,0,3.962,3.962
 mixed_legacy_education_floor,2041,EDU-5,0,36.99,36.99
 mixed_legacy_education_floor,2041,EDU-7,0,-5.061,-5.061
 mixed_legacy_education_floor,2041,EDU-8,0,1.981,1.981
-mixed_legacy_education_floor,2041,CLI-1,0,47.294,47.294
+mixed_legacy_education_floor,2041,CLI-1,0,41.074,41.074
 mixed_legacy_education_floor,2041,CLI-3,0,2.641,2.641
 mixed_legacy_education_floor,2041,CLI-5,0,1.493,1.493
 mixed_legacy_education_floor,2041,CLI-7,0,9.632,9.632
@@ -36719,7 +36719,7 @@ mixed_legacy_education_floor,2042,EDU-4,0,4.111,4.111
 mixed_legacy_education_floor,2042,EDU-5,0,37.841,37.841
 mixed_legacy_education_floor,2042,EDU-7,0,-5.25,-5.25
 mixed_legacy_education_floor,2042,EDU-8,0,2.055,2.055
-mixed_legacy_education_floor,2042,CLI-1,0,39.824,39.824
+mixed_legacy_education_floor,2042,CLI-1,0,34.574,34.574
 mixed_legacy_education_floor,2042,CLI-3,0,2.741,2.741
 mixed_legacy_education_floor,2042,CLI-5,0,5.052,5.052
 mixed_legacy_education_floor,2042,CLI-7,0,9.844,9.844
@@ -36839,7 +36839,7 @@ mixed_legacy_education_floor,2043,EDU-4,0,4.265,4.265
 mixed_legacy_education_floor,2043,EDU-5,0,38.711,38.711
 mixed_legacy_education_floor,2043,EDU-7,0,-5.447,-5.447
 mixed_legacy_education_floor,2043,EDU-8,0,2.132,2.132
-mixed_legacy_education_floor,2043,CLI-1,0,20.664,20.664
+mixed_legacy_education_floor,2043,CLI-1,0,17.944,17.944
 mixed_legacy_education_floor,2043,CLI-3,0,2.843,2.843
 mixed_legacy_education_floor,2043,CLI-5,0,5.506,5.506
 mixed_legacy_education_floor,2043,CLI-7,0,10.061,10.061
@@ -36959,7 +36959,7 @@ mixed_legacy_education_floor,2044,EDU-4,0,4.424,4.424
 mixed_legacy_education_floor,2044,EDU-5,0,39.601,39.601
 mixed_legacy_education_floor,2044,EDU-7,0,-5.65,-5.65
 mixed_legacy_education_floor,2044,EDU-8,0,2.212,2.212
-mixed_legacy_education_floor,2044,CLI-1,0,9.826,9.826
+mixed_legacy_education_floor,2044,CLI-1,0,8.536,8.536
 mixed_legacy_education_floor,2044,CLI-3,0,2.949,2.949
 mixed_legacy_education_floor,2044,CLI-5,0,5.809,5.809
 mixed_legacy_education_floor,2044,CLI-7,0,10.282,10.282
@@ -37079,7 +37079,7 @@ mixed_legacy_education_floor,2045,EDU-4,0,4.587,4.587
 mixed_legacy_education_floor,2045,EDU-5,0,40.512,40.512
 mixed_legacy_education_floor,2045,EDU-7,0,-5.859,-5.859
 mixed_legacy_education_floor,2045,EDU-8,0,2.294,2.294
-mixed_legacy_education_floor,2045,CLI-1,0,6.218,6.218
+mixed_legacy_education_floor,2045,CLI-1,0,5.398,5.398
 mixed_legacy_education_floor,2045,CLI-3,0,3.058,3.058
 mixed_legacy_education_floor,2045,CLI-5,0,6.752,6.752
 mixed_legacy_education_floor,2045,CLI-7,0,10.508,10.508
@@ -37199,7 +37199,7 @@ mixed_legacy_education_floor,2046,EDU-4,0,4.755,4.755
 mixed_legacy_education_floor,2046,EDU-5,0,41.444,41.444
 mixed_legacy_education_floor,2046,EDU-7,0,-6.073,-6.073
 mixed_legacy_education_floor,2046,EDU-8,0,2.377,2.377
-mixed_legacy_education_floor,2046,CLI-1,0,3.106,3.106
+mixed_legacy_education_floor,2046,CLI-1,0,2.696,2.696
 mixed_legacy_education_floor,2046,CLI-3,0,3.17,3.17
 mixed_legacy_education_floor,2046,CLI-5,0,7.703,7.703
 mixed_legacy_education_floor,2046,CLI-7,0,10.739,10.739
@@ -39644,7 +39644,7 @@ mixed_larger_credit,2040,EDU-4,0,3.818,3.818
 mixed_larger_credit,2040,EDU-5,0,36.158,36.158
 mixed_larger_credit,2040,EDU-7,0,-4.876,-4.876
 mixed_larger_credit,2040,EDU-8,0,1.909,1.909
-mixed_larger_credit,2040,CLI-1,0,52.669,52.669
+mixed_larger_credit,2040,CLI-1,0,45.739,45.739
 mixed_larger_credit,2040,CLI-3,0,2.545,2.545
 mixed_larger_credit,2040,CLI-5,0,-0.224,-0.224
 mixed_larger_credit,2040,CLI-7,0,9.425,9.425
@@ -39756,7 +39756,7 @@ mixed_larger_credit,2041,EDU-4,0,3.962,3.962
 mixed_larger_credit,2041,EDU-5,0,36.99,36.99
 mixed_larger_credit,2041,EDU-7,0,-5.061,-5.061
 mixed_larger_credit,2041,EDU-8,0,1.981,1.981
-mixed_larger_credit,2041,CLI-1,0,47.294,47.294
+mixed_larger_credit,2041,CLI-1,0,41.074,41.074
 mixed_larger_credit,2041,CLI-3,0,2.641,2.641
 mixed_larger_credit,2041,CLI-5,0,1.493,1.493
 mixed_larger_credit,2041,CLI-7,0,9.632,9.632
@@ -39868,7 +39868,7 @@ mixed_larger_credit,2042,EDU-4,0,4.111,4.111
 mixed_larger_credit,2042,EDU-5,0,37.841,37.841
 mixed_larger_credit,2042,EDU-7,0,-5.25,-5.25
 mixed_larger_credit,2042,EDU-8,0,2.055,2.055
-mixed_larger_credit,2042,CLI-1,0,39.824,39.824
+mixed_larger_credit,2042,CLI-1,0,34.574,34.574
 mixed_larger_credit,2042,CLI-3,0,2.741,2.741
 mixed_larger_credit,2042,CLI-5,0,5.052,5.052
 mixed_larger_credit,2042,CLI-7,0,9.844,9.844
@@ -39979,7 +39979,7 @@ mixed_larger_credit,2043,EDU-4,0,4.265,4.265
 mixed_larger_credit,2043,EDU-5,0,38.711,38.711
 mixed_larger_credit,2043,EDU-7,0,-5.447,-5.447
 mixed_larger_credit,2043,EDU-8,0,2.132,2.132
-mixed_larger_credit,2043,CLI-1,0,20.664,20.664
+mixed_larger_credit,2043,CLI-1,0,17.944,17.944
 mixed_larger_credit,2043,CLI-3,0,2.843,2.843
 mixed_larger_credit,2043,CLI-5,0,5.506,5.506
 mixed_larger_credit,2043,CLI-7,0,10.061,10.061
@@ -40090,7 +40090,7 @@ mixed_larger_credit,2044,EDU-4,0,4.424,4.424
 mixed_larger_credit,2044,EDU-5,0,39.601,39.601
 mixed_larger_credit,2044,EDU-7,0,-5.65,-5.65
 mixed_larger_credit,2044,EDU-8,0,2.212,2.212
-mixed_larger_credit,2044,CLI-1,0,9.826,9.826
+mixed_larger_credit,2044,CLI-1,0,8.536,8.536
 mixed_larger_credit,2044,CLI-3,0,2.949,2.949
 mixed_larger_credit,2044,CLI-5,0,5.809,5.809
 mixed_larger_credit,2044,CLI-7,0,10.282,10.282
@@ -40201,7 +40201,7 @@ mixed_larger_credit,2045,EDU-4,0,4.587,4.587
 mixed_larger_credit,2045,EDU-5,0,40.512,40.512
 mixed_larger_credit,2045,EDU-7,0,-5.859,-5.859
 mixed_larger_credit,2045,EDU-8,0,2.294,2.294
-mixed_larger_credit,2045,CLI-1,0,6.218,6.218
+mixed_larger_credit,2045,CLI-1,0,5.398,5.398
 mixed_larger_credit,2045,CLI-3,0,3.058,3.058
 mixed_larger_credit,2045,CLI-5,0,6.752,6.752
 mixed_larger_credit,2045,CLI-7,0,10.508,10.508
@@ -40312,7 +40312,7 @@ mixed_larger_credit,2046,EDU-4,0,4.755,4.755
 mixed_larger_credit,2046,EDU-5,0,41.444,41.444
 mixed_larger_credit,2046,EDU-7,0,-6.073,-6.073
 mixed_larger_credit,2046,EDU-8,0,2.377,2.377
-mixed_larger_credit,2046,CLI-1,0,3.106,3.106
+mixed_larger_credit,2046,CLI-1,0,2.696,2.696
 mixed_larger_credit,2046,CLI-3,0,3.17,3.17
 mixed_larger_credit,2046,CLI-5,0,7.703,7.703
 mixed_larger_credit,2046,CLI-7,0,10.739,10.739

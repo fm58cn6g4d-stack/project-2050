@@ -32,7 +32,7 @@ class FiscalPath(unittest.TestCase):
         self.assertAlmostEqual(sim[2040]['debt_gdp'], BK.rows[2040]['debt_gdp'], places=9)
         self.assertAlmostEqual(sim[2056]['debt_gdp'], BK.rows[2056]['debt_gdp'], places=9)
         self.assertEqual(round(sim[2040]['debt_gdp'], 1), 117.8)
-        self.assertEqual(round(sim[2056]['debt_gdp'], 1), 131.6)   # 133.1 before CLI-1's step-down was booked (memo G25)
+        self.assertEqual(round(sim[2056]['debt_gdp'], 1), 131.5)   # 133.1 before CLI-1's step-down was booked (memo G25)
 
     def test_r_minus_g_readings(self):
         for t in (-0.5, 1.5):
