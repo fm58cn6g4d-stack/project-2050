@@ -27,10 +27,13 @@ So even holding debt flat needs about $160-190B more in FY2040, and goal B about
 | --- | --- | --- | --- | --- | --- | --- |
 | A | G19 B as decided, R last | R to 5.03% from FY2040 | 52.2% | 97.6% | +$10,118 / +$13,809 | FY2037 |
 | **B (recommended)** | **G19 B's deduction limits and surtax, then a rebated VAT** | **VAT about 4.9% from FY2035** | **50.7% (about 53% without the test's bias against a VAT)** | **91.8%** | **+$9,238 / +$12,734** | **FY2035** |
+| B′ | B, with the VAT from FY2037 (G19 B's decided date) | VAT about 5.5% (5.46%) from FY2037 | 49.4% | 90.8% | +$8,888 / +$12,252 | FY2037 |
 | C | A rebated VAT alone | VAT about 9.9% from FY2035 | 41.2% | 83.0% | +$6,448 / +$8,888 | FY2035 |
 | D | B with R half a point higher (4.30%) | R 4.30% and VAT 3.1% | 51.2% | 94.4% | +$9,607 / +$13,243 | FY2035 |
 
 **For comparison, like for like with B:** the same sources with R in the VAT's place from FY2035 needs R at 4.81%. That leaves 55.4% of workers ahead and 98.0% of low-income workers ahead (Q4 +$10,811 / +$14,789).
+
+**B moves G19 B's decided start two years earlier.** You decided G19 B's first steps for FY2037 (`DEC-2026-11-25-05`). B's VAT starts in FY2035, so the first new tax reaching the middle class comes two years sooner, in year seven rather than year nine. That still meets "not in the first few years" (`DEC-2026-11-25-01`), but it is less strict about the populist start (`DEC-2026-11-24-18`). B′ keeps FY2037, and its VAT is about half a point higher. In FY2040, B′'s fifths are: Q1 +$22,625, Q2 +$21,356, Q3 +$19,011, Q4 +$8,888 a household.
 
 **In every option, every fifth below the top stays ahead in FY2040 and FY2050** (D3, as amended by G22.1). The mature-year reading is approximate: the household model runs to FY2039.
 
@@ -42,6 +45,7 @@ So even holding debt flat needs about $160-190B more in FY2040, and goal B about
 - **A.** *For:* better on the take-home test, and clearly better for low-income workers, because the health contribution exempts income up to 138% of poverty and a flat rebate doesn't match that. No VAT. *Against:* it reverses G16 B, which holds R at 3.80% to FY2040 and then lowers it, and it stacks on G13's backstop, which also raises R. Workers would face R above 5%.
 - **B.** *For:* it keeps G16 B intact, so R can still step down as health savings are certified. It spreads the load over consumption, including retirees' and the wealthy's, which the take-home test doesn't see. The rate stays near 5%. *Against:* like for like, about 5 points fewer workers ahead on the take-home test than raising R (about 2 of them the test's bias), and about 6 points fewer low-income workers. A VAT is new national machinery (states' sales taxes run beside it).
 - **C.** *For:* one instrument. *Against:* a VAT near 10%, and the take-home test falls to 41%.
+- **B′.** *For:* it keeps your decided FY2037 date, nine years in, and the populist start at its strictest. *Against:* the VAT is about half a point higher (5.46%), and about 1.3 points fewer workers come out ahead on the take-home test than under B.
 - **D.** *For:* a smaller VAT (3.1%). *Against:* it also raises R from FY2040 against G16 B, for little gain on take-home.
 
 ## Two points, each yes or no
@@ -55,8 +59,9 @@ So even holding debt flat needs about $160-190B more in FY2040, and goal B about
 
 **What would change this:**
 - If keeping the take-home test highest, and protecting low-income workers most, matters more than G16 B's step-down, then **A** (or R from FY2035, at 4.81%).
+- If no new middle-class revenue should start before G19 B's decided FY2037, then **B′**.
 - If no VAT should be enacted at all, then **A** with G23 A.
 
 ## Question for you
 
-**G24.** Keep G19 B's deduction limits and AGI surtax and add a VAT of about 4.9% from FY2035 with a $150-a-point rebate for every adult, enacted in the 2033-34 Congress (B, with points 1 and 2)? Or keep G19 B with the health contribution last (A), a VAT alone (C), or a smaller VAT with a higher health contribution (D)?
+**G24.** Keep G19 B's deduction limits and AGI surtax and add a VAT of about 4.9% from FY2035 with a $150-a-point rebate for every adult, enacted in the 2033-34 Congress (B, with points 1 and 2)? Or B with the VAT from FY2037, G19 B's decided date, at about 5.5% (B′)? Or keep G19 B with the health contribution last (A), a VAT alone (C), or a smaller VAT with a higher health contribution (D)?

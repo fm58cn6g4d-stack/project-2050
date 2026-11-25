@@ -57,7 +57,7 @@ FY2040 effects are each choice's own effect on the general-fund gap as booked (`
 | Memo | Question | Recommended | FY2040 |
 | --- | --- | --- | --- |
 | [G23](G23-debt-path-redraft.md) | The debt goal, made more aggressive | **B**: debt falling to 110% of GDP by FY2056, 1.0% of GDP phased in over FY2035-39 | $540B of new deficit reduction |
-| [G24](G24-later-revenue-with-a-vat.md) | G19's mix with a VAT allowed | **B**: G19 B's deduction limits and surtax, then a VAT of about 4.9% from FY2035 with a $150-a-point rebate for every adult, enacted in the 2033-34 Congress | $313B fixed + $237B VAT |
+| [G24](G24-later-revenue-with-a-vat.md) | G19's mix with a VAT allowed | **B**: G19 B's deduction limits and surtax, then a VAT of about 4.9% from FY2035 with a $150-a-point rebate for every adult, enacted in the 2033-34 Congress; it moves G19 B's FY2037 start to FY2035 (**B′** keeps FY2037 at about 5.5%) | $313B fixed + $237B VAT |
 | [G25](G25-cli1-after-the-fix.md) | The clean-energy credits after FY2039 | **Yes to both**: book the corrected tail (tier 3); keep G17 B's hold as a ceiling | −$10B (−$80B a year from FY2047) |
 
 ## What the settlement rests on, and who decided it

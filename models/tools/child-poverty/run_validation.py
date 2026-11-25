@@ -136,5 +136,6 @@ def run(out):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--out", type=Path, default=ROOT/"diagnostics")
+    # Writes to the repository's build/ by default, so a run never rewrites the tracked reference copy in diagnostics/.
+    p.add_argument("--out", type=Path, default=ROOT.parents[2]/"build"/"child-poverty-validation")
     run(p.parse_args().out.resolve())
