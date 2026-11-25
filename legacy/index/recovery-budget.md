@@ -6,18 +6,18 @@
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
-| mixed | 117.0% | 129.3% | 5.29% | False | 2.46 |
+| mixed | 117.0% | 129.1% | 5.17% | False | 2.32 |
 | mixed_before_settlement | 124.8% | 160.9% | 8.01% | False | — |
-| larger_payroll | 118.2% | 134.5% | 5.71% | False | 3.10 |
-| mixed_downside | 122.1% | 145.5% | 6.56% | False | 5.90 |
-| mixed_all_debt_rate_plus1 | 124.3% | 160.0% | 7.96% | False | 5.88 |
-| mixed_no_macro_translation | 116.8% | 128.3% | 5.18% | False | — |
-| mixed_leave_admin_high | 117.1% | 129.6% | 5.32% | False | — |
-| mixed_ssa_medicare_all_hi | 117.0% | 129.3% | 5.29% | False | — |
-| mixed_ssa_medicare_all_smi | 117.0% | 129.3% | 5.29% | False | — |
-| mixed_reserve_corridor | 117.0% | 129.3% | 5.29% | False | — |
-| mixed_corridor_downside | 122.1% | 145.5% | 6.56% | False | — |
-| mixed_legacy_education_floor | 117.0% | 129.5% | 5.30% | False | — |
+| larger_payroll | 118.2% | 134.3% | 5.59% | False | 2.98 |
+| mixed_downside | 122.1% | 145.3% | 6.44% | False | 5.62 |
+| mixed_all_debt_rate_plus1 | 124.3% | 159.7% | 7.84% | False | 5.71 |
+| mixed_no_macro_translation | 116.8% | 128.0% | 5.06% | False | — |
+| mixed_leave_admin_high | 117.1% | 129.4% | 5.20% | False | — |
+| mixed_ssa_medicare_all_hi | 117.0% | 129.1% | 5.17% | False | — |
+| mixed_ssa_medicare_all_smi | 117.0% | 129.1% | 5.17% | False | — |
+| mixed_reserve_corridor | 117.0% | 129.1% | 5.17% | False | — |
+| mixed_corridor_downside | 122.1% | 145.3% | 6.44% | False | — |
+| mixed_legacy_education_floor | 117.0% | 129.2% | 5.18% | False | — |
 | mixed_larger_credit | 129.2% | 165.5% | 8.13% | False | — |
 
 The last column is the total broad-tier rate required under this static tax-yield proxy, replacing the proposed two-point broad tier, with the high tier unchanged. It is not a tax score.
@@ -39,8 +39,8 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | 2030 | 6534 | 7364 | 7575 | 9500 | 1448 | 1925 | 108.5% |
 | 2035 | 7898 | 8732 | 12670 | 14820 | 1912 | 2150 | 111.1% |
 | 2039 | 9294 | 10409 | 15196 | 18089 | 2355 | 2893 | 117.0% |
-| 2045 | 11831 | 13205 | 19685 | 22903 | 3112 | 3219 | 121.4% |
-| 2056 | 17910 | 20097 | 29836 | 34901 | 4915 | 5065 | 129.3% |
+| 2045 | 11831 | 13205 | 19685 | 22897 | 3107 | 3213 | 121.2% |
+| 2056 | 17910 | 20097 | 29943 | 34894 | 4908 | 4951 | 129.1% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 

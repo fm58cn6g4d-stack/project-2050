@@ -21,19 +21,19 @@
    "deficit_bn": -1132.529
   },
   "2045": {
-   "debt_bn": -15840.099,
-   "debt_gdp": -24.337,
-   "deficit_bn": -1871.772
+   "debt_bn": -15980.554,
+   "debt_gdp": -24.553,
+   "deficit_bn": -1877.354
   },
   "2050": {
-   "debt_bn": -27922.084,
-   "debt_gdp": -35.931,
-   "deficit_bn": -2727.424
+   "debt_bn": -28093.895,
+   "debt_gdp": -36.152,
+   "deficit_bn": -2734.283
   },
   "2056": {
-   "debt_bn": -48750.097,
-   "debt_gdp": -50.946,
-   "deficit_bn": -3950.633
+   "debt_bn": -48969.22,
+   "debt_gdp": -51.175,
+   "deficit_bn": -4064.541
   }
  },
  "current_law": {
@@ -112,7 +112,7 @@
    "models/tools/budget/engine/window.py": "9b831c5d8c20c7ea3a972260413597a096cf56da3b3abb0ff916c5a22b451cf2",
    "models/tools/budget/run.py": "857913b049064f7fd016e1c584a2cc6879fb343f18532b331303ded67ccb9789",
    "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
-   "models/tools/recovery-budget/model.py": "4850d1487c92889877d005bde1dd03d35787ef0b0c9961ee21f4bbf05bb7c43d",
+   "models/tools/recovery-budget/model.py": "31c7bf902ae93f162816a20bc5b8be1fe7dde2fd173ca17d4817fec331e99331",
    "models/tools/scenarios.py": "0d174308e273072ca379ffe74b4195b21272e384438c1afa6624c4cf5f96a709",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb59f769f07a5f169a3c53e8a5c35f731a591741b87409a3b8",
    "models/tools/transportation/ntd_uza_2024.py": "10a2275caee7c1df6517940d93180c68af802fe7a34134bf4930ca8e7fa330e8",
@@ -185,8 +185,8 @@
    "models/data/inputs/readme.md": "57a6828ac518e992fe2f0957fa78776a8a91d1d22f940525733b7d1525abcf77",
    "models/data/inputs/recovery-adoption.json": "55e581ef7b0898d7997b4e3c98540a97db16b0fefc65aa89d528684f76a69b0b",
    "models/data/inputs/scenarios.json": "51172d13daa11dbce39dd24ce63e83560cbeb042cd6de9f48ebbf18c11a183c4",
-   "models/data/inputs/settlement-paths.csv": "de05db92d9c7add52503ab8f27845e9ad3eac5989e627599d58f687f6069b326",
-   "models/data/inputs/settlement.json": "aaa0798934cc5cceea92d33bc01019a1e0bfeecc20e6e2bacc9d2aa24a106c72",
+   "models/data/inputs/settlement-paths.csv": "def3d89975ab8a92ef4cae9bec84bd30e14d3d47c197ca012cd37b0d80470727",
+   "models/data/inputs/settlement.json": "59c8d4868c0c3c35cf5f32d3052dd6a38f1fa40c9ae7d6397cc4f821d3127ea7",
    "models/data/inputs/votes-bills.csv": "b789257ed53185ba61bad385bddf7714686d4075ccd2d09064ad8585392db0f4",
    "models/data/inputs/votes-senate.csv": "2ba0d75a064e7c62b69b3e6138374ded3aba32a1bf55f23105c9380f78423611",
    "models/tools/budget/reforms/plan.json": "5951e720456a6a20da21710d76b096fabb6a753faf109373de4e8992ac261984",
@@ -244,25 +244,25 @@
    "interest_gdp": 4.564
   },
   "2045": {
-   "debt_bn": 79024.034,
-   "debt_gdp": 121.415,
-   "deficit_bn": 3218.507,
-   "deficit_gdp": 4.945,
-   "interest_gdp": 4.782
+   "debt_bn": 78883.579,
+   "debt_gdp": 121.199,
+   "deficit_bn": 3212.926,
+   "deficit_gdp": 4.936,
+   "interest_gdp": 4.773
   },
   "2050": {
-   "debt_bn": 96786.6,
-   "debt_gdp": 124.547,
-   "deficit_bn": 3875.382,
-   "deficit_gdp": 4.987,
-   "interest_gdp": 4.929
+   "debt_bn": 96614.79,
+   "debt_gdp": 124.326,
+   "deficit_bn": 3868.524,
+   "deficit_gdp": 4.978,
+   "interest_gdp": 4.92
   },
   "2056": {
-   "debt_bn": 123730.709,
-   "debt_gdp": 129.304,
-   "deficit_bn": 5064.837,
-   "deficit_gdp": 5.293,
-   "interest_gdp": 5.136
+   "debt_bn": 123511.586,
+   "debt_gdp": 129.075,
+   "deficit_bn": 4950.929,
+   "deficit_gdp": 5.174,
+   "interest_gdp": 5.129
   },
   "FY2030-2039": {
    "deficit_bn": 22852.247
