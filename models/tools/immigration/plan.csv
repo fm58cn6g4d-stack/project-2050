@@ -1,0 +1,4 @@
+id,value,unit,year,kind,source,low,high,price_year,group,label,note
+clear_years,6,years,none,policy,"commitment: memo 4, clear the backlog in about six years (FY2030-35) (DEC-2026-11-12-07)",6,6,,courts,"Years to clear the court backlog (memo 4: about six, FY2030-35)","a commitment of the plan, held fixed across the scenarios"
+cap,30000,beds,FY2030-FY2040,policy,commitment: memo 5 (EV-IMM-571) (DEC-2026-11-12-07),30000,30000,,detention,The detention cap (memo 5),"a commitment of the plan, held fixed across the scenarios"
+filing_opens_fy,2031,fiscal year,none,policy,"4-specification.md, ""Dates"": registration and the rolling registry open by October 1, 2030 (DEC-2026-11-12-12)",2031,2031,,timing,Fiscal year in which filing for status opens,"a commitment of the plan, held fixed across the scenarios"
