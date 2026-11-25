@@ -215,7 +215,9 @@ def rental(P, leased=None):
     right = int(P['stage2_right_fy'])
     # the duty's added leasing, on stage 2's count from the right: relative to the central leased share, so it
     # scales with the leased share (6-cost.md 1.4 and 2.5)
-    # (capped so no line leases more than every award)
+    # (capped so no line leases more than every award). In the high case awards already lease at 98%, so the duty
+    # adds only the last 2 points and its own line falls below the central one; stage 2 with the duty still rises
+    # from low to central to high. 6-cost.md's high of $5 billion would need stage 2 to lease more than its awards.
     lift = min(P['duty_leased_share'] / LEASED_CENTRAL, 1 / P['leased_share']) - 1
     pu = P['payment_standard_uplift']
     a4 = program(P, S['4a'])
@@ -363,6 +365,7 @@ TABLE_1_2 = [
     ('hou-14-04-self-help-and-farmworker', 'HOU-14.04 Self-help and farmworker housing', 2.3, 1.5, 3.5, 0.2),
 ]
 TABLE_RANGE = {k: (lo, hi) for k, _, _, lo, hi, _ in TABLE_1_2}
+TABLE_CENTRAL = {k: c for k, _, c, _, _, _ in TABLE_1_2}
 TABLE_SPENDING = (683, 500, 995)       # 6-cost.md 1.2, "Spending, total"
 TABLE_CREDITS = (123, 102, 144, 16)    # HOU-2D, option D
 TABLE_HOUSING = (806, 602, 1139, 120)  # "Housing, total"
@@ -384,11 +387,11 @@ def lines(case='central', leased=None):
     central = other(load('central')) if case != 'central' else None
     for k, p in other(P).items():
         if central is not None:
-            # built from decided amounts held fixed, so the low and high are 6-cost.md's own ranges
-            # (sizes and spend-outs it priced before or beside the decisions): the path is scaled to them
+            # built from decided amounts held fixed, so the low and high are 6-cost.md's own ranges (sizes and
+            # spend-outs it priced before or beside the decisions), as ratios to its central applied to the model's
+            # central path: a line with no published range keeps the model's central in every case
             lo, hi = TABLE_RANGE[k]
-            c = window(central[k])
-            p = scale(central[k], (lo if case == 'low' else hi) / c if c else 1.0)
+            p = scale(central[k], (lo if case == 'low' else hi) / TABLE_CENTRAL[k])
         out[k] = {'path': p, 'window': window(p), 'fy2040': p[2040], 'fy2041': p[2041],
                   'method': 'built' if central is None else 'built; range as published'}
     for k, pid in PUBLISHED_LINES.items():

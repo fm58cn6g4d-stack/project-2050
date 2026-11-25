@@ -73,8 +73,28 @@ class Inputs(unittest.TestCase):
         self.assertLess(t['low'], t['central'])
         self.assertLess(t['central'], t['high'])
 
+    def test_every_line_runs_low_to_central_to_high(self):
+        L = {c: m.lines(c) for c in m.CASES}
+        for k in L['central']:
+            if k == DUTY:
+                continue
+            lo, c, hi = (L[x][k]['window'] for x in ('low', 'central', 'high'))
+            self.assertTrue(lo <= c + 1e-9 and c <= hi + 1e-9, f'{k}: {lo:.2f}, {c:.2f}, {hi:.2f}')
+
+    def test_the_duty_to_house_with_stage_2_runs_low_to_high(self):
+        # the duty's own line is the one exception (DUTY_NOTE); stage 2 with its duty must still be in order
+        L = {c: m.lines(c) for c in m.CASES}
+        s = [L[c]['hou-4d-01-stage-2']['window'] + L[c][DUTY]['window'] for c in ('low', 'central', 'high')]
+        self.assertTrue(s[0] < s[1] < s[2], s)
+        P = m.load('high')
+        self.assertLessEqual(P['leased_share'] * (1 + min(P['duty_leased_share'] / m.LEASED_CENTRAL, 1 / P['leased_share']) - 1), 1 + 1e-9)
+
 
 # ---------------------------------------------------------------- 2. reproduction (in-sample)
+DUTY = 'hou-4d-01-duty-to-house'
+DUTY_NOTE = ("the duty to house's high falls below its central: in the high case awards already lease at 98%, so the duty "
+             "can add only the last 2 points; 6-cost.md's high of $5 billion would need stage 2 to lease more than 100% of "
+             "its awards. Stage 2 with the duty runs $48.5, 84.2 and 144.3 billion")
 KNOWN = {   # lines where 6-cost.md 1.2's figure differs from the section's own build, with the reason
     'hou-3c-02-construction-loan-subsidy': ("6-cost.md's own inputs give $14.7 billion: $15 billion of subsidy at 5% on $300 billion "
                                             "committed evenly FY2030-38, less the 20% of FY2038's disbursed in FY2040 ($0.3 billion, "
@@ -110,7 +130,7 @@ def reproduction_rows():
             continue
         rows.append(ev(B(f'REP-{SHORT[k]}', f'{label}, FY2030-39', c, '6-cost.md 1.2', 'the dossier, central', '$ billion',
                          tol_for(c), 'absolute', "the table's own rounding (half its last digit)",
-                         in_sample=True, explanation=KNOWN.get(k, "the dossier's arithmetic, rebuilt from its inputs")), round(C[k]['window'], 6)))
+                         in_sample=True, explanation=KNOWN.get(k, DUTY_NOTE if k == DUTY else "the dossier's arithmetic, rebuilt from its inputs")), round(C[k]['window'], 6)))
     sums = sum(x[2] for x in m.TABLE_1_2)
     rows += [
         ev(B('REP-TOTAL', 'Housing, total, FY2030-39 (spending and credits)', m.TABLE_HOUSING[0], '6-cost.md 1.2 and In brief ($0.81 trillion)', 'the dossier, central', '$ billion',
@@ -124,11 +144,13 @@ def reproduction_rows():
              explanation='the lines taken as published carry their FY2040 figures as printed'), tc['housing_fy2040']),
         ev(B('REP-LOW', 'Housing, low case, FY2030-39', m.TABLE_HOUSING[1], '6-cost.md 1.2', 'the dossier, low', '$ billion', 0.02, 'relative',
              'the low case moves every judgment input together; 2% allows for the lag and count rounding', in_sample=True,
-             explanation='rental lines rebuilt at every input\'s low; lines built from decided amounts take the published ranges'), tl['housing_window']),
+             explanation='rental lines rebuilt at every input\'s low; lines built from decided amounts take the published ranges as ratios to the central'), tl['housing_window']),
         ev(B('REP-HIGH', 'Housing, high case, FY2030-39', m.TABLE_HOUSING[2], '6-cost.md 1.2', 'the dossier, high', '$ billion', 0.02, 'relative',
              'as REP-LOW', in_sample=True,
-             explanation=(f"6-cost.md's high total is below the sum of its own line highs ({sum(x[4] for x in m.TABLE_1_2) + m.TABLE_CREDITS[2]:.0f}); "
-                          "the model matches the lines (the rental lines within about $2 billion each), so the published total is the figure that does not close")),
+             explanation=(f"6-cost.md's high total is below the sum of its own line highs ({sum(x[4] for x in m.TABLE_1_2) + m.TABLE_CREDITS[2]:.0f}). "
+                          "The model's lines differ from the published highs by up to $2.7 billion each, in both directions: search help +1.9, "
+                          "the older stage 3 group +1.3, the wider entry +0.4, HOU-4A -0.5, stage 3 under 62 -0.4 and the duty to house -2.7 "
+                          "(see REP-HOU-4D-DUTY), so the total's pass partly rests on offsets")),
            th['housing_window']),
     ]
     lu = m.lease_up()
