@@ -2,7 +2,7 @@
 
 Role: the stage E memo on the single health plan (HLT-1 to HLT-8). It prices the plan as a whole system, year by year from FY2030 to FY2040, and then designs its financing from scratch. It replaces these parts of `checkpoint-financing.md`, which are marked superseded there: part B; the health items of its "In plain terms"; part C's arithmetic; and part D's questions (memos F1 to F3 and part B4's points).
 
-Status: **decided and booked, November 15, 2026** (written for Espen's decision; revised the same day in #386). Espen decided part 9's questions that `health-cost-review.md` doesn't replace as recommended (`DEC-2026-11-15-07`, `-08`, `-21` to `-29`); question 9, the household contribution's path in the transition, was decided on November 16 as recommended, adapted to the unified contribution (`DEC-2026-11-16-01`), with the streams' start (`-02`) and the allowance before 2035 (`-03`). The booking is the health financing booking PR (`models/tools/health_booking.py`, `corrected()` and `financing()`; test `models/tools/test_fiscal_health_financing.py`); its figures are the cost review's and the unified contribution's, read with this memo's payer accounting, protections and credit. The analysis tools measure the package against the budget as booked before that PR (`models/tools/health_before_booking.json`).
+Status: **decided and booked, November 15, 2026** (written for Espen's decision; revised the same day in #386). Espen decided part 9's questions that `health-cost-review.md` doesn't replace as recommended (`DEC-2026-11-15-07`, `-08`, `-21` to `-29`); question 9, the household contribution's path in the transition, was decided on November 16 as recommended, adapted to the unified contribution (`DEC-2026-11-16-01`), with the streams' start (`-02`) and the allowance before 2035 (`-03`). The booking is the health financing booking PR (`models/tools/health_booking.py`, `corrected()` and `financing()`; test `models/bookings/test_fiscal_health_financing.py`); its figures are the cost review's and the unified contribution's, read with this memo's payer accounting, protections and credit. The analysis tools measure the package against the budget as booked before that PR (`models/tools/health_before_booking.json`).
 
 **Superseded in part by `health-cost-review.md` (November 15, 2026).** An independent cost review found errors in the gross cost, in both directions, and redesigned the financing around Espen's take-home test. These parts are replaced there:
 - the gross cost (FY2040 $8,407B, now $7,795B with the errors fixed) and part 1.2b's correction, which the review makes;
@@ -24,7 +24,7 @@ Units and sources:
 - **Budget totals:** federal fiscal years, nominal dollars, $B = billions, $T = trillions, case `mixed`.
 - **One income measure for households: AGI**, the adjusted gross income on the tax return. The one exception is the count of households losing "more than 5% of income", which uses D3's broader measure and says so.
 - **Every figure is project arithmetic on the project's own exploratory models, not an official score.**
-- The figures come from one run of `models/tools/health_financing.py` (tests: `models/tools/test_health_financing.py`).
+- The figures come from one run of `models/tools/health_financing.py` (tests: `models/bookings/test_health_financing.py`).
 - An independent agent re-derived the key figures; part 8 records what it found and what was corrected.
 
 ## The contributions at a glance (package A, FY2040, 2026 dollars)
@@ -870,7 +870,7 @@ Each question is decided on its own; none is adopted by silence.
 
 ## Method and sources
 
-- **Code:** `models/tools/health_financing.py`: `coverage`, `seam`, `physician_rate`, `need_path`, `replaced_path`, `system_view`, `payers`, `payer_path`, `flow_path`, `package`, `package_path`, `micro`, `stacking_check`, `design_levers`, `growth_hold`, `examples`; for the fix and the employer protections, `no_offer`, `phase_left`, `credit_key`, `line_variant`, `employer_split`, `pay_holds_check`, `savings_kept_check`. Tests: `models/tools/test_health_financing.py`.
+- **Code:** `models/tools/health_financing.py`: `coverage`, `seam`, `physician_rate`, `need_path`, `replaced_path`, `system_view`, `payers`, `payer_path`, `flow_path`, `package`, `package_path`, `micro`, `stacking_check`, `design_levers`, `growth_hold`, `examples`; for the fix and the employer protections, `no_offer`, `phase_left`, `credit_key`, `line_variant`, `employer_split`, `pay_holds_check`, `savings_kept_check`. Tests: `models/bookings/test_health_financing.py`.
 - **What the code reads** (it changes none of them): the coverage model; the care path (`dossiers/care/tools/health_path.py`); the booking (`health_booking.py`); the budget model's audit and paths; the household model's 2029 CPS households.
 - **Evidence:**
   - CBO's Medicare baseline [EV-CAR-718];

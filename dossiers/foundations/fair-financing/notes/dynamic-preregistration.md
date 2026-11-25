@@ -61,7 +61,7 @@ Espen allows a labeled "works as designed" health saving with a range (`DEC-2026
 
 ## Changes after registration
 
-Everything above stands as registered in commit 87125a0, and `fiscal_dynamic_params.json` stays byte-identical to it (a test pins its hash). The changes below were made **after the first results were seen**, in answer to the independent red-team of PR #483 (lead session, November 24, 2026). They are applied from `models/tools/fiscal_dynamic_amendments.json`, and the results note reports the registered reading beside the amended one.
+Everything above stands as registered in commit 87125a0, and `fiscal_dynamic_params.json` stays byte-identical to it (a test pins its hash). The changes below were made **after the first results were seen**, in answer to the independent red-team of PR #483 (lead session, November 24, 2026). They are applied from `models/bookings/fiscal_dynamic_amendments.json`, and the results note reports the registered reading beside the amended one.
 
 **Not pre-registered, disclosed:** the engine itself (`fiscal_dynamic.py`), the pairing of channel and feedback ends into cases, and the readings' roles. The first results were committed about 6.5 minutes after the registration.
 

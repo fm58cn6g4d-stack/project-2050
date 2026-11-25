@@ -1,6 +1,6 @@
 # Democratic renewal: cost
 
-Role: section 6 of the democratic renewal foundation. It prices every provision of `4-specification.md` and `5-delivery.md` on federal fiscal years against the January 2029 law, sets each beside what the budget model books, and reports the fiscal-rule figures to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate"; `DEC-2026-11-10-05`). Status: **booked** (stage F, booking, tier 3), on `DEC-2026-11-17-40` to `-99` and `DEC-2026-11-18-11` to `-32`, after the milestone review's fixes and the L3 re-check (`charter/STANDARDS.md`, "Milestone review"). Parts 1 to 8 are the pricing as drafted, with the numbers restated where the booking moved them; **part 9 says what the booking changed** and part 7 how each decided item was booked. The booked rows are in `models/data/inputs/` and are written by `models/tools/democratic_renewal_booking.py`; `models/tools/test_fiscal_democratic_renewal.py` holds them equal to it. Every figure is project arithmetic or a restated outside score, not an official score.
+Role: section 6 of the democratic renewal foundation. It prices every provision of `4-specification.md` and `5-delivery.md` on federal fiscal years against the January 2029 law, sets each beside what the budget model books, and reports the fiscal-rule figures to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate"; `DEC-2026-11-10-05`). Status: **booked** (stage F, booking, tier 3), on `DEC-2026-11-17-40` to `-99` and `DEC-2026-11-18-11` to `-32`, after the milestone review's fixes and the L3 re-check (`charter/STANDARDS.md`, "Milestone review"). Parts 1 to 8 are the pricing as drafted, with the numbers restated where the booking moved them; **part 9 says what the booking changed** and part 7 how each decided item was booked. The booked rows are in `models/data/inputs/` and are written by `models/tools/democratic_renewal_booking.py`; `models/bookings/test_fiscal_democratic_renewal.py` holds them equal to it. Every figure is project arithmetic or a restated outside score, not an official score.
 
 ## Counting rules
 
@@ -216,7 +216,7 @@ One basis throughout: federal fiscal years, $ billion, a cost positive, on the g
 
 ## 9. What the booking changed
 
-Tier 3. `models/tools/democratic_renewal_booking.py` derives the rows from `democratic_renewal_cost.py` and `democratic_renewal_pace.py`; `models/tools/test_fiscal_democratic_renewal.py` holds the inputs equal to it. The booking writes this dossier's own rows and changes **no adopted amount, parameter or profile** of any other row.
+Tier 3. `models/tools/democratic_renewal_booking.py` derives the rows from `democratic_renewal_cost.py` and `democratic_renewal_pace.py`; `models/bookings/test_fiscal_democratic_renewal.py` holds the inputs equal to it. The booking writes this dossier's own rows and changes **no adopted amount, parameter or profile** of any other row.
 
 **Before and after** (budget model, case `mixed`, shortfall positive):
 
