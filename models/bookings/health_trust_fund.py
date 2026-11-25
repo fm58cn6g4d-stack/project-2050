@@ -1,4 +1,4 @@
-"""health_trust_fund.py: the health system's own account, FY2030-56, under Espen's trust-fund decision of November 25 (#501).
+"""health_trust_fund.py: the health system's own account, FY2030-56, under Espen's trust-fund decision (DEC-2026-11-25-12).
 
 Role: analysis for stage G step 10 (dossiers/foundations/fair-financing/8-health-trust-fund.md). Status: analysis; it
 books nothing and changes no adopted input. It reads the budget model's booked case `mixed` (the settlement on, every

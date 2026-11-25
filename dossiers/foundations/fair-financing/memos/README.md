@@ -62,7 +62,7 @@ FY2040 effects are each choice's own effect on the general-fund gap as booked (`
 
 ## Step 10's batch: the health contribution as a trust fund
 
-After Espen's trust-fund decision of November 25, #501 (the health contribution pays only for the health system). The analysis is [`../8-health-trust-fund.md`](../8-health-trust-fund.md); all three memos are in [`G26-G28-health-fund.md`](G26-G28-health-fund.md). **Provisional; nothing booked.**
+After `DEC-2026-11-25-12` (the health contribution pays only for the health system). The analysis is [`../8-health-trust-fund.md`](../8-health-trust-fund.md); all three memos are in [`G26-G28-health-fund.md`](G26-G28-health-fund.md). **Provisional; nothing booked.**
 
 | Memo | Question | Recommended | Effect |
 | --- | --- | --- | --- |
