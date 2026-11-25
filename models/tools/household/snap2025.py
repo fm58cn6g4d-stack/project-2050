@@ -35,13 +35,16 @@ A person who loses benefits takes their per-person share of the unit's SNAP with
 household size; a per-person share is the simple approximation).
 """
 
-USDA_PARTICIPANTS_FY2025 = 42_145_499      # EV-SEC-039
-CBO_FEWER = {"n_abawd_55_64": 800_000,      # EV-SEC-036
-             "n_parent_child14": 300_000,
-             "n_abawd_prior": 2_400_000 - 800_000 - 300_000}
-ENERGY_CUT_MONTHLY, ENERGY_SHARE = 100, 0.03      # EV-SEC-038
-INTERNET_CUT_MONTHLY, INTERNET_SHARE = 10, 0.65   # EV-SEC-038
-FIRST_YEAR = 2026
+from params import constant   # the inputs below are rows of parameters.csv (group a8_snap)
+
+USDA_PARTICIPANTS_FY2025 = constant("snap.usda_participants")                   # EV-SEC-039
+CBO_FEWER = {"n_abawd_55_64": constant("snap.cbo_fewer.abawd_55_64"),            # EV-SEC-036
+             "n_parent_child14": constant("snap.cbo_fewer.parent_child14"),
+             "n_abawd_prior": constant("snap.cbo_fewer.total") - constant("snap.cbo_fewer.abawd_55_64")
+             - constant("snap.cbo_fewer.parent_child14")}
+ENERGY_CUT_MONTHLY, ENERGY_SHARE = constant("snap.energy_cut_monthly"), constant("snap.energy_share")        # EV-SEC-038
+INTERNET_CUT_MONTHLY, INTERNET_SHARE = constant("snap.internet_cut_monthly"), constant("snap.internet_share")  # EV-SEC-038
+FIRST_YEAR = constant("snap.first_year")
 
 
 def calibrate(spm):

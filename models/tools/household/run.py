@@ -3,14 +3,23 @@
 
 Role: the household model's one command (`MODEL-CARD.md`, "How to run"). Status: working.
 
-  python3 models/tools/household/run.py --ledger build/ledger.json --out build/household
+  python3 models/tools/household/run.py [--ledger FILE] [--out DIR] [--record] [--update-snapshot]
 
-Writes `results.json` and `results.md` (generated; regenerate, never edit). `run-all.sh` runs it after the ledger is
-built and copies both into `models/tools/household/`.
+Writes `results.json` and `results.md` (generated; regenerate, never edit), both opening with the toolkit's results
+header (`models/schema/README.md`), stamped by `models/runlog.py`. With no `--ledger` it starts from the budget model's
+`build/ledger.json` when that exists and otherwise from the committed snapshot (`snapshot/ledger.json`), so it runs from a
+fresh clone. `run-all.sh` runs it with the built ledger and copies both files into `models/tools/household/`;
+`--update-snapshot` copies the built ledger's amounts into the snapshot (do it when the ledger changes, in the same PR as
+the new results). `--record` stamps the commit and appends a `RUN-` row to `models/runs.csv`.
 """
 import argparse
 import json
 import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", ".."))
+import runlog  # noqa: E402  (models/runlog.py)
 
 from budget import baseline
 from distribution import assign, average_rates, table
@@ -23,6 +32,43 @@ TPC_2029 = {  # Tax Policy Center T26-0045 (June 18, 2026), 2029, % of expanded 
     "all": (10.85, 6.51)}
 CENSUS_2025 = {"all": 13.1, "children": 13.4, "18_64": 12.3, "65_plus": 15.4}  # P60-290, table 4
 SOI_2023 = {"eitc_bn": 66.27, "ctc_odc_nonref_bn": 84.42, "actc_bn": 34.53}     # IRS SOI tables 2.5 and 3.3
+
+
+MODEL_ID = "MOD-household"
+VERSION = "0.2.0"   # CHANGELOG.md; the rule is in models/schema/README.md, "Versions"
+STATUS = "working"
+CODE = [os.path.join(HERE, f) for f in (
+    "budget.py", "conventions.py", "d3.py", "data.py", "distribution.py", "families.py", "params.py", "poverty.py",
+    "provisions.py", "rules.py", "run.py", "snap2025.py", "tax.py")] + [
+    os.path.join(HERE, "..", "inputs.py"), os.path.join(HERE, "..", "scenarios.py")]
+DATA = os.path.join(HERE, "..", "..", "data")
+INPUTS = [os.path.join(HERE, "parameters.csv"), os.path.join(HERE, "keys.csv"), os.path.join(HERE, "intervals.json"),
+          os.path.join(HERE, "take-home-flags.csv.gz")] + [
+    os.path.join(DATA, "household", f) for f in ("households.csv.gz", "spm.csv.gz", "units.csv.gz")] + [
+    os.path.join(DATA, "cbo", "economic_economic_projections_fiscal_2026-02.csv")] + [
+    os.path.join(DATA, "inputs", f) for f in ("incidence-rows.csv", "incidence-keys.csv", "incidence-phase-in.csv", "scenarios.json")]
+
+
+def header(R, ledger_path, commit=None):
+    """The toolkit's results header. The ledger is an input like the others; a ledger equal to the committed snapshot is
+    listed under the snapshot's path, so a run from `build/ledger.json` and a run from the snapshot give one header."""
+    ledger = P.SNAPSHOT
+    if runlog.sha256_file(ledger_path) != runlog.sha256_file(P.SNAPSHOT) and P.ledger_values(ledger_path) != P.ledger_values(P.SNAPSHOT):
+        ledger = ledger_path   # a changed ledger: its own hash, so the header shows the results are not the committed ones
+    return runlog.header(
+        MODEL_ID, VERSION, STATUS, code=CODE, inputs=INPUTS + [ledger],
+        units="dollars a year per household unless a table says otherwise; poverty rates in percent of people; counts in millions; "
+              "provision amounts in dollars per household per year, FY2030-39 average",
+        price_basis="nominal dollars of the year shown (2025 survey dollars aged to 2029 with CBO's February 2026 projections)",
+        year_type="income year 2025 (the CPS ASEC 2026) and the 2029 current-law baseline; fiscal years for the provision amounts",
+        baseline_vintage="CPS ASEC 2026 (income year 2025); CBO February 2026 economic projections; P.L. 119-21 in force; the budget model's ledger "
+                         "(snapshot/ledger.json)",
+        scoring_convention="static: no behavioral or macroeconomic response; full take-up of new benefits; distribution on the D3 convention "
+                           "(equal households, expanded cash income per square root of size)",
+        scenarios=sorted(R["provisions"]["scenarios"]),
+        uncertainty="90% sampling intervals from the Census's 160 replicate weights for the headline poverty, tax-rate and D3 outputs "
+                    "(results section 9, intervals.json); under-reporting, top-coding and the model's assumptions are larger for most outputs and not quantified",
+        commit=commit)
 
 
 def r1(x):
@@ -257,10 +303,11 @@ def money(v):
     return ("+" if v >= 0 else "−") + f"${abs(v):,.0f}"
 
 
-def markdown(R):
+def markdown(R, h):
     o = []
     A = o.append
     A("# Household model: results\n")
+    A(runlog.schema.markdown_header(h) + "\n")
     A("Generated by `models/tools/household/run.py` from the committed CPS extract, the budget model's ledger and the "
       "adopted incidence rows. Role: generated results of `MOD-household` (`MODEL-CARD.md`). Regenerate it; never edit "
       "it by hand. Status: working (maintenance step M3).\n")
@@ -763,9 +810,16 @@ def d3_markdown(R, A):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    ap.add_argument("--ledger", required=True)
-    ap.add_argument("--out", required=True)
+    ap.add_argument("--ledger", default=None, help="the budget model's ledger.json (default: build/ledger.json if it exists, else the snapshot)")
+    ap.add_argument("--out", default=HERE)
+    ap.add_argument("--record", action="store_true", help="stamp the commit and append a RUN- row to models/runs.csv")
+    ap.add_argument("--update-snapshot", action="store_true", help="copy the ledger's amounts into snapshot/ledger.json first")
     a = ap.parse_args()
+    ledger = a.ledger or P.default_ledger()
+    if a.update_snapshot:
+        P.refresh_snapshot(ledger)
+        print("snapshot/ledger.json updated from", ledger)
+    print("ledger:", os.path.relpath(ledger))
     R = {}
     B25 = baseline(2025)
     R["baseline_2025"] = {"aggregates": aggregates(B25), "poverty": poverty_block(B25, True)}
@@ -789,7 +843,7 @@ def main():
     R["families"] = {k: {"current": marginal_rates(f), "marketplace": marginal_rates(f, marketplace=True),
                          "shelter": marginal_rates(f, shelter=1400 * 1.107), "plan": marginal_rates(f, plan=True)}
                      for k, f in FAMILIES.items()}
-    R["provisions"] = provision_runs(B, a.ledger)
+    R["provisions"] = provision_runs(B, ledger)
     sm = state_medians(B)
     before = ceiling_check(sm["lowest"], sm["national"], snap_earn_ded=0.20)
     R["ceiling"] = {"state_median_income_4": sm, "check": ceiling_check(sm["lowest"], sm["national"]),
@@ -797,17 +851,21 @@ def main():
                                            for c, r in v.items() if c.endswith("lowest-income state")}
                                        for k, v in before.items()},
                     "options": ceiling_options(B)}
-    R["secure_floor_rules"] = secure_floor_rules(B, a.ledger)
-    R["d3"] = d3_block(B, a.ledger)
+    R["secure_floor_rules"] = secure_floor_rules(B, ledger)
+    R["d3"] = d3_block(B, ledger)
     R["intervals"] = intervals_block(R)
     import conventions
-    R["cbo_check"] = conventions.steps(B, a.ledger)
+    R["cbo_check"] = conventions.steps(B, ledger)
+    commit = runlog.commit_for(CODE + INPUTS) if a.record else None
+    h = header(R, ledger, commit)
+    out = runlog.stamp(R, h)
     os.makedirs(a.out, exist_ok=True)
-    with open(os.path.join(a.out, "results.json"), "w") as f:
-        json.dump(R, f, indent=1, sort_keys=True)
-        f.write("\n")
+    runlog.write_json(os.path.join(a.out, "results.json"), out)
     with open(os.path.join(a.out, "results.md"), "w") as f:
-        f.write(markdown(R))
+        f.write(markdown(R, h))
+    if a.record:
+        cmd = "python3 models/tools/household/run.py --record" + ("" if os.path.abspath(a.out) == HERE else f" --out {a.out}")
+        print("recorded", runlog.record(os.path.join(a.out, "results.json"), cmd))
     print("household model: results written to", a.out)
 
 
