@@ -854,7 +854,7 @@ def toolkit_rows(results):
             continue
         t, tol, kind, basis, vintage, ins, expl = TOOLKIT_SPECS[r["id"]]
         unit = r["unit"].split(",")[0] if r["unit"] else ""
-        b = V.Benchmark(r["id"], r["name"], target=t, source=r["source"].split(";")[0][:120], vintage=vintage, unit=unit,
+        b = V.Benchmark(r["id"], r["name"], target=t, source=r["source"].split(";")[0], vintage=vintage, unit=unit,
                         tolerance=tol, tolerance_kind=kind, tolerance_basis="as the benchmark states it: " + r["tolerance"],
                         in_sample=ins, explanation=expl)
         out.append(V.evaluate(b, float(r["value"])))
