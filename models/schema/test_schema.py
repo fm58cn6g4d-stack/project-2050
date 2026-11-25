@@ -74,12 +74,11 @@ class Parameters(unittest.TestCase):
         self.assertIn(f'{P.START}\nNEW\n{P.END}', new)
         self.assertTrue(new.endswith('after\n'))
 
-    def test_health_coverage_inputs_report_their_gap(self):
-        # the demonstration model: its inputs map onto the schema except the effective year (step H3)
-        hc = P.read(HERE.parent / 'tools/health-coverage/inputs.csv', {'evidence_id_or_basis': 'source'})
-        errs = P.validate(hc)
-        self.assertTrue(errs)
-        self.assertTrue(all('year' in e for e in errs), [e for e in errs if 'year' not in e][:5])
+    def test_health_coverage_inputs_meet_the_schema(self):
+        # step H2a showed this file failing the schema for lacking the effective year; step H3 added the year and renamed
+        # evidence_id_or_basis to source, so the file now validates with no column map
+        hc = P.read(HERE.parent / 'tools/health-coverage/inputs.csv')
+        self.assertEqual(P.validate(hc), [])
 
 
 def header(**kw):
