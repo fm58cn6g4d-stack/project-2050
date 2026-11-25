@@ -95,7 +95,7 @@ class ImmigrationBooking(unittest.TestCase):
         self.assertTrue(all(v <= 0 for v in ss.values()))                  # a gain to the funds
         self.assertAlmostEqual(self.b["totals"]["ss_window"] * 1000, -22.2, delta=0.05)
         prov = {r["id"]: r for r in rows("funds-ss-provisions.csv")}
-        self.assertEqual((prov[IB.SS_ID]["kind"], prov[IB.SS_ID]["ledger_rows"]), ("direct", "IMM-1"))
+        self.assertEqual((prov[IB.SS_ID]["kind"], prov[IB.SS_ID]["ledger_rows"]), ("direct", ""))
         src = (ROOT / "models/tools/budget/engine/funds-model.py").read_text(encoding="utf-8")
         self.assertIn('"%s": "%s"' % (IB.SS_ID, IB.SS_COL), src)
         for scen in ('"D8 baseline"', '"D8 + SS-5"'):

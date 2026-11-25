@@ -3628,8 +3628,8 @@
    "dynamic_lo": -1.24,
    "dynamic_mid": -0.26,
    "dynamic_optimistic": 1.14,
-   "gap_after_accepted": 3.15,
-   "gap_mid": 7.66
+   "gap_after_accepted": 3.16,
+   "gap_mid": 7.67
   },
   "legacy": {
    "gf": {
@@ -5503,7 +5503,7 @@
    "models/tools/household/intervals.json": "87271d7926d5e16e6cde5571a790001bacfb7086d6e2d4f095a98d55d59ccdca",
    "models/tools/household/keys.csv": "aa2f6ceb0abbeb6c92e063afbb631fbfe85d2d6e8eec2ccb088ce9b6ea52c69b",
    "models/tools/household/parameters.csv": "44ca6bae863a432b0fede272c99e9eb0a1de31f77de65ec782576de664bb1afa",
-   "models/tools/household/snapshot/ledger.json": "74b1d4e796aa9498926a9f56c675ade9b5a1847489288eee22b2db800ac4bf84",
+   "models/tools/household/snapshot/ledger.json": "dc07ab547bfad9f60fdcfcd3e83b02e7feaf509e401e5f3b57eee32ea5b1e269",
    "models/tools/household/take-home-flags.csv.gz": "46c1bad756fdf5905b86fb6f48e2a8ca4c37b1efb318e0e17b39ce1f8233531e"
   },
   "model_id": "MOD-household",
