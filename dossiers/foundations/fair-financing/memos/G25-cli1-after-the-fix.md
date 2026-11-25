@@ -8,10 +8,12 @@ Role: decision memo for Espen, stage G step 9, batch 4 ([`../7-batch3-revision.m
 
 **The budget model got it wrong.** It kept about $77-82B a year of credits forever after FY2045. The cause was an old cost profile from before the step-down was decided, which never ends ("scale down as deployment saturates after 2039 (estimate)"). The redesign's saving was subtracted from it only until 2047.
 
-**Corrected,** the credits cost about $53B in FY2040, $21B in FY2043, $6B in FY2045 and nothing from FY2047:
-- the plan saves about $1.1T over FY2040-56;
-- debt in FY2056 falls from 133.1% to 131.6% of GDP;
-- the general fund's thinnest year in the 2040s goes from a $0.4B margin to $9B.
+**Corrected,** the credits cost about $46B in FY2040, $18B in FY2043, $5B in FY2045 and nothing from FY2047. That is the energy model's path at the booking's own ten-year level:
+- the plan saves about $1.14T over FY2040-56;
+- debt in FY2056 falls from 133.1% to 131.5% of GDP;
+- the general fund's thinnest year in the 2040s goes from a $0.4B margin to $16B.
+
+One thing is unchecked: whether the energy model counts the gap between starting construction and entering service. If it doesn't, the ten-year credits run a few years past FY2047, at small amounts.
 
 The ten-year window (FY2030-39) isn't touched.
 
@@ -19,11 +21,11 @@ The ten-year window (FY2030-39) isn't touched.
 
 **G25.1. Book the corrected tail. Recommended: yes.**
 - *What:* one row in the budget model's adopted inputs, so CLI-1 follows the decided step-down after FY2039. It is a correction, not a policy change, but adopted inputs are yours to approve (tier 3).
-- *If no:* the plan carries about $80B a year of credits the law doesn't provide for, and every debt figure is about 1.5 points too high by FY2056.
+- *If no:* the plan carries about $80B a year of credits the law doesn't provide for, and every debt figure is about 1.6 points too high by FY2056.
 
 **G25.2. Keep G17 B's hold as a ceiling in law. Recommended: yes.**
-- *What:* G17 B holds the credits at their FY2037 level in FY2038-39 (about $52B). The booked path rises in those years, an artifact of how the old export measured the redesign; on the energy model the credits fall then anyway. Written as a ceiling (the credits' outlays may not exceed FY2037's in FY2038-39, with the existing cost trigger, CLI-1A.03, bringing steps forward), it saves $52B on the booked path and costs nothing if the credits follow the statute.
-- *If no:* the hold is dropped and the $52B is not counted. The re-shaping of FY2030-39 itself waits for clean power's next reopening.
+- *What:* G17 B holds the credits at their FY2037 level in FY2038-39 (about $47B). The booked path rises in those years, an artifact of how the old export measured the redesign; on the energy model the credits fall then anyway. Written as a ceiling (the credits' outlays may not exceed FY2037's in FY2038-39, with the existing cost trigger, CLI-1A.03, bringing steps forward), it saves $47B on the booked path and costs nothing if the credits follow the statute.
+- *If no:* the hold is dropped and the $47B is not counted. The re-shaping of FY2030-39 itself waits for clean power's next reopening.
 
 ## Question for you
 

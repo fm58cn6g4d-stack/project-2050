@@ -12,21 +12,21 @@ CLI-1 in the budget model is a baseline row (the legacy credit set, $0.90T over 
 | Redesign delta (the export, to CLI-1) | −49.6 | −30.3 | −32.9 | −28.4 | −22.4 | −8.9 | −8.2 | −8.1 | −5.4 | −2.7 | 0.0 | 0.0 | 0.0 |
 | **CLI-1 on the old profile (booked before the correction)** | **48.6** | **71.6** | **72.8** | **55.9** | **61.5** | **74.7** | **75.1** | **74.9** | **77.2** | **79.4** | **81.7** | **80.4** | **77.5** |
 | Energy model, decided step-down (CLI-1A.02) | 98.1 | 81.6 | 86.7 | 62.7 | 56.3 | 47.4 | 24.6 | 11.7 | 7.4 | 3.7 | 0.0 | 0.0 | 0.0 |
-| **CLI-1 corrected** (booked FY2039 × the energy model's decline) | **48.6** | **71.6** | **72.8** | **52.7** | **47.3** | **39.8** | **20.7** | **9.8** | **6.2** | **3.1** | **0.0** | **0.0** | **0.0** |
+| **CLI-1 corrected** (the energy model's path at the booking's FY2030-39 level, ×0.73) | **48.6** | **71.6** | **72.8** | **45.7** | **41.1** | **34.6** | **17.9** | **8.5** | **5.4** | **2.7** | **0.0** | **0.0** | **0.0** |
 
-The energy model's level differs from the booking's (it counts the standby builder's credited generation and prices take-up on its own build: $1,037B over FY2030-39 against the booked $757B, `dossiers/clean-power/6-cost.md` part 5). Only its shape after FY2039 is used.
+The energy model's level differs from the booking's (it counts the standby builder's credited generation and prices take-up on its own build: $1,037B over FY2030-39 against the booked $757B, `dossiers/clean-power/6-cost.md` part 5). Its path after FY2039 is scaled to the booking's level by the ten-year ratio.
 
 ## 2. The correction, priced on the booked case (a what-if until the tier-3 input row lands)
 
 | | FY2040 | FY2041 | FY2042 | FY2043 | FY2045 | FY2047 | FY2050 | FY2056 | FY2040-56 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CLI-1 saving | 3.2 | 14.2 | 34.9 | 54.4 | 70.9 | 81.7 | 80.4 | 77.5 | 1,115.3 |
+| CLI-1 saving | 10.1 | 20.5 | 40.1 | 57.2 | 71.8 | 81.7 | 80.4 | 77.5 | 1,139.0 |
 | General-fund gap, old profile (− is a margin) | −6.0 | −5.1 | −0.4 | −5.1 | −26.4 | −77.0 | −143.2 | −205.4 | |
-| General-fund gap, corrected | −9.2 | −19.3 | −35.2 | −59.6 | −97.3 | −158.7 | −223.6 | −282.8 | |
+| General-fund gap, corrected | −16.1 | −25.5 | −40.5 | −62.3 | −98.1 | −158.7 | −223.6 | −282.8 | |
 | Debt, % of GDP, old profile | 117.8 | 118.6 | 119.5 | 120.4 | 122.1 | 123.9 | 126.6 | 133.1 | |
-| Debt, % of GDP, corrected | 117.8 | 118.6 | 119.4 | 120.2 | 121.7 | 123.2 | 125.6 | 131.6 | |
+| Debt, % of GDP, corrected | 117.8 | 118.6 | 119.4 | 120.2 | 121.7 | 123.2 | 125.6 | 131.5 | |
 
-- The tightest year FY2040-56: FY2042 at −0.4 on the old profile; FY2040 at −9.2 corrected.
+- The tightest year FY2040-56: FY2042 at −0.4 on the old profile; FY2040 at −16.1 corrected.
 - Interest is included in the debt figures (the model's own marginal rate).
 
 ## 3. The tier-3 row
@@ -35,5 +35,5 @@ In `models/data/inputs/fiscal-after.csv`, CLI-1's baseline row after the window 
 
 | FY2040 | FY2041 | FY2042 | FY2043 | FY2044 | FY2045 | FY2046 | FY2047 | FY2048 | FY2049 | FY2050 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 81.06 | 69.70 | 48.74 | 28.83 | 17.90 | 11.61 | 5.81 | 0.00 | 0.00 | 0.00 | 0.00 |
+| 74.13 | 63.48 | 43.49 | 26.11 | 16.61 | 10.79 | 5.40 | 0.00 | 0.00 | 0.00 | 0.00 |
 

@@ -23,7 +23,7 @@ class Revision(unittest.TestCase):
     def test_base(self):
         B = D['B']
         self.assertLess(D['base_sim'][2056]['debt_gdp'], B['booked'].rows[2056]['debt_gdp'])
-        self.assertAlmostEqual(sum(B['ph3'].values()), 52, delta=1)
+        self.assertAlmostEqual(sum(B['ph3'].values()), 47.2, delta=0.1)   # CLI-1 alone (fiscal_frontier matched CLI-10 etc. before step 9)
 
     def test_goal_a_level(self):
         s = D['G']['A']['sim']

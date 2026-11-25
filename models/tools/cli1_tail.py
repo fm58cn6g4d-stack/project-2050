@@ -24,8 +24,10 @@ heat pumps, 45X and 48C through 2039; wind's production credit paid for ten year
 2040, falling to $24.6B in 2043, $7.4B in 2045 and nothing from 2047. That is the real tail: ten-year production credits
 and storage and firm power started by 2039.
 
-The correction: CLI-1's path after FY2039 follows the energy model's decline from its FY2039 level, applied to the
-booked FY2039 level ($72.8B): booked FY2039 x energy(y) / energy(2039). The window FY2030-39 is untouched (it is
+The correction: CLI-1's path after FY2039 is the energy model's, at the booking's own level: energy(y) x (booked
+FY2030-39 / energy FY2030-39), about 0.73. Not anchored on the booked FY2039 level, whose rise in FY2038-39 is the export's
+artifact. Not verified: whether the energy model lags plants' entry into service after construction starts; if it
+doesn't, the ten-year production credits run a few years past FY2047. The window FY2030-39 is untouched (it is
 calibrated to the ledger, and G17 B's hold of FY2038-39 is decided on it).
 
 Project arithmetic on exploratory models, not official scores.
@@ -63,12 +65,19 @@ def line(case, name='CLI-1'):
     return out
 
 
+def scale(booked):
+    """The booking's level against the energy model's: booked FY2030-39 over the energy model's FY2030-39. A ten-year
+    ratio, not FY2039's, because the booked FY2038-39 shape is the export's artifact (memo G25)."""
+    return sum(booked[y] for y in range(2030, 2040)) / sum(ENERGY_DECIDED[y] for y in range(2030, 2040))
+
+
 def corrected(booked):
-    """CLI-1 after FY2039 on the decided step-down: the booked FY2039 level times the energy model's decline."""
+    """CLI-1 after FY2039 on the decided step-down: the energy model's path at the booking's ten-year level."""
     out = dict(booked)
+    k = scale(booked)
     for y in YEARS:
         if y > 2039:
-            out[y] = booked[2039] * ENERGY_DECIDED.get(y, 0.0) / ENERGY_DECIDED[2039]
+            out[y] = k * ENERGY_DECIDED.get(y, 0.0)
     return out
 
 
@@ -169,11 +178,11 @@ def markdown(d):
     L.append('| **CLI-1 on the old profile (booked before the correction)** | ' + ' | '.join('**%s**' % f1(p0[y]) for y in show) + ' |')
     L.append('| Energy model, decided step-down (CLI-1A.02) | ' + ' | '.join(
         f1(ENERGY_DECIDED.get(y, 0.0)) if y <= 2050 else '0.0' for y in show) + ' |')
-    L.append('| **CLI-1 corrected** (booked FY2039 × the energy model\'s decline) | ' + ' | '.join(
+    L.append('| **CLI-1 corrected** (the energy model\'s path at the booking\'s FY2030-39 level, ×%.2f) |' % scale(p0) + ' ' + ' | '.join(
         '**%s**' % f1(p1[y]) for y in show) + ' |')
     L += ['', 'The energy model\'s level differs from the booking\'s (it counts the standby builder\'s credited '
           'generation and prices take-up on its own build: $1,037B over FY2030-39 against the booked $757B, '
-          '`dossiers/clean-power/6-cost.md` part 5). Only its shape after FY2039 is used.', '']
+          '`dossiers/clean-power/6-cost.md` part 5). Its path after FY2039 is scaled to the booking\'s level by the ten-year ratio.', '']
     sav = {y: p0[y] - p1[y] for y in YEARS}
     L += ['## 2. The correction, priced on the booked case (%s)' % ('booked: `fiscal-after.csv` carries the row' if d['is_booked'] else 'a what-if until the tier-3 input row lands'), '',
           '| | ' + ' | '.join('FY%d' % y for y in (2040, 2041, 2042, 2043, 2045, 2047, 2050, 2056)) + ' | FY2040-56 |',
