@@ -2117,5 +2117,211 @@
     "stance": "supports"
    }
   ]
+ },
+ {
+  "id": "EV-FIN-086",
+  "statement": "CBO (2016): productive federal investment has an average annual rate of return of about 5 percent, half the agency's estimate for private investment, and its effect on productivity builds up gradually.",
+  "claim": "analysis",
+  "figures": [
+   "5 percent"
+  ],
+  "source": "SRC-6167",
+  "anchor": [
+   "CBO further estimates that productive federal investment has an average annual rate of return of about 5 percent, or half of the agency’s estimate of the average rate of return on private investment."
+  ],
+  "grade": "C",
+  "fact_date": "2016-06-16",
+  "recheck": "2027-11-30",
+  "context": "CBO's own estimate, used by the dynamic layer for P-INVEST. The summary page does not state the share of federal investment offset by lower state, local and private investment (the registration's \"about a third\"); that figure is in the report body and is not entered here. CBO flags that these are averages that should not be applied to a particular proposal.",
+  "supports": [
+   "dossiers/foundations/fair-financing/4-fiscal-path.md",
+   "dossiers/foundations/fair-financing/notes/dynamic-preregistration.md"
+  ],
+  "checked": "2026-11-25",
+  "locator": "Summary page (publication 51628), 'How Does Federal Investment Affect the Economy?'"
+ },
+ {
+  "id": "EV-FIN-087",
+  "statement": "CBO (February 2014): the Affordable Care Act would reduce total hours worked, on net, by about 1.5 to 2.0 percent over 2017 to 2024, almost entirely because workers choose to supply less labor.",
+  "claim": "analysis",
+  "figures": [
+   "1.5 percent",
+   "2.0 percent"
+  ],
+  "source": "SRC-6168",
+  "anchor": [
+   "CBO estimates that the ACA will reduce the total number of hours worked, on net, by about 1.5 percent to 2.0 percent during the period from 2017 to 2024, almost entirely because workers will choose to supply less labor."
+  ],
+  "grade": "C",
+  "fact_date": "2014-02",
+  "recheck": "2027-11-30",
+  "context": "CBO's estimate for N-HEALTHCOV. The period is 2017 to 2024, not \"by 2024\". CBO called its estimates uncertain, with risks of being too large or too small \"substantial but roughly equal\" (publication 45096).",
+  "supports": [
+   "dossiers/foundations/fair-financing/4-fiscal-path.md",
+   "dossiers/foundations/fair-financing/notes/dynamic-preregistration.md"
+  ],
+  "checked": "2026-11-25",
+  "locator": "Appendix C, summary (as quoted in CBO's blog post, publication 45096)"
+ },
+ {
+  "id": "EV-FIN-088",
+  "statement": "CBO (July 2024): the immigration surge lowers deficits, on net, by $0.9 trillion over 2024-2034, and raises nominal GDP by $1.3 trillion (3.2 percent) in 2034.",
+  "claim": "analysis",
+  "figures": [
+   "$0.9 trillion",
+   "$1.3 trillion",
+   "3.2 percent"
+  ],
+  "source": "SRC-4181",
+  "anchor": [
+   "lowering deficits, on net, by $0.9 trillion over the 2024–2034 period.",
+   "the surge boosts total nominal gross domestic product (GDP) by $1.3 trillion (or 3.2 percent) in 2034"
+  ],
+  "grade": "C",
+  "fact_date": "2024-07-23",
+  "recheck": "2027-11-30",
+  "context": "CBO's incremental estimate of the surge (about 8.7 million more other foreign nationals than the pre-2020 trend), not of immigration as a whole; CBO calls it very uncertain. The 3.2 percent is nominal GDP, not real. Used for P-IMM; the plan's legalization adds fewer workers than a surge.",
+  "supports": [
+   "dossiers/foundations/fair-financing/4-fiscal-path.md",
+   "dossiers/foundations/fair-financing/notes/dynamic-preregistration.md"
+  ],
+  "checked": "2026-11-25",
+  "locator": "Publication 60165, 'Budgetary Effects' and 'Economic Effects'"
+ },
+ {
+  "id": "EV-FIN-089",
+  "statement": "CBO (February 2026): the macroeconomic effects of the 2025 reconciliation act add $125 billion to its deficit increase over 2025-2034, bringing it to $4.2 trillion, because $405 billion of higher net interest more than offsets the primary-deficit gain from stronger output.",
+  "claim": "analysis",
+  "figures": [
+   "$125 billion",
+   "$4.2 trillion",
+   "$405 billion"
+  ],
+  "source": "SRC-6154",
+  "anchor": [
+   "That amount is $125 billion less than the $4.2 trillion by which the reconciliation act is estimated to increase deficits over the projection period when budgetary feedback from macroeconomic changes is included.",
+   "The reconciliation act’s macroeconomic effects are estimated to increase net outlays for interest over the 2025–2034 period by $405 billion, more than offsetting their effects on primary deficits."
+  ],
+  "grade": "C",
+  "fact_date": "2026-02-11",
+  "recheck": "2027-11-30",
+  "context": "CBO's dynamic estimate of the enacted law, in Appendix A of its Budget and Economic Outlook. It is the primary source for the figure the registration took from CRFB's summary; CRFB (an outside analyst) reports the same $125 billion, and CBO working paper 2026-01 (publication 61257) describes the methods without the figures. The conventional estimate it adds to is $4.1 trillion.",
+  "supports": [
+   "dossiers/foundations/fair-financing/4-fiscal-path.md",
+   "dossiers/foundations/fair-financing/notes/dynamic-preregistration.md"
+  ],
+  "checked": "2026-11-25",
+  "locator": "Appendix A, 'Overall Effects on the Federal Budget'",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-085",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-090",
+  "statement": "CBO (2012 working paper): the substitution elasticity of labor supply for the total population ranges from 0.1 to 0.3, and estimates of the elasticity of broad income (total income less capital gains) are within the range of zero to 0.3.",
+  "claim": "analysis",
+  "figures": [
+   "0.1",
+   "0.3",
+   "zero"
+  ],
+  "source": "SRC-6169",
+  "anchor": [
+   "substitution elasticities for the total population that range from 0.1 to 0.3, compared with a range of 0.2 to 0.4 in CBO’s previous review.",
+   "Estimates of the elasticity of broad income (total income less capital gains, generally as reported on tax returns) are within the range of zero to 0.3."
+  ],
+  "grade": "B",
+  "fact_date": "2012-10",
+  "recheck": "2027-11-30",
+  "context": "A CBO staff literature review that sets the ranges the agency uses; not a CBO position on any bill. The registration's \"total hours and earnings\" is the substitution elasticity for the whole population and the broad-income elasticity, so the two ranges coincide at 0.1 to 0.3 only for the first; the second starts at zero. Used for N-CONTRIB.",
+  "supports": [
+   "dossiers/foundations/fair-financing/4-fiscal-path.md",
+   "dossiers/foundations/fair-financing/notes/dynamic-preregistration.md"
+  ],
+  "checked": "2026-11-25",
+  "locator": "Summary of findings (bullets 3 and 5)"
+ },
+ {
+  "id": "EV-FIN-091",
+  "statement": "CBO (April 2026 rules of thumb): if productivity grew 0.1 percentage point slower each year, annual deficits would be larger by amounts reaching $65 billion in 2036, and the cumulative 2027-2036 deficit would be $317 billion larger.",
+  "claim": "analysis",
+  "figures": [
+   "0.1 percentage point",
+   "$65 billion",
+   "$317 billion"
+  ],
+  "source": "SRC-6166",
+  "anchor": [
+   "a rate that was 0.1 percentage point slower each year",
+   "than the rate in the agency’s economic forecast, annual",
+   "deficits would be larger than projected by amounts that",
+   "would reach $65 billion in 2036, CBO estimates. The",
+   "cumulative deficit for the 2027–2036 period would be",
+   "$317 billion larger than it is in CBO’s baseline budget"
+  ],
+  "grade": "C",
+  "fact_date": "2026-04-21",
+  "recheck": "2027-11-30",
+  "context": "CBO's first rule of thumb. It gives the deficit's response to a growth shock in dollars, not as a share of the GDP change; the dynamic layer's 0.25 of a GDP change is the project's own reading of Table 2's revenue, mandatory and interest lines, not a CBO figure. Table 2's cells do not extract cleanly from the PDF, so the prose is anchored.",
+  "supports": [
+   "dossiers/foundations/fair-financing/4-fiscal-path.md",
+   "dossiers/foundations/fair-financing/notes/dynamic-preregistration.md"
+  ],
+  "checked": "2026-11-25",
+  "locator": "Slower Productivity Growth, first paragraph (Table 2)"
+ },
+ {
+  "id": "EV-FIN-092",
+  "statement": "CBO and JCT staff (April 2025): in CBO's assessment, larger deficits boost aggregate demand and reduce national saving, which raises interest rates and crowds out private investment, by an amount that depends on the policy.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-6165",
+  "anchor": [
+   "In CBO’s assessment, increases in the federal deficit reduce private",
+   "investment. Larger deficits boost aggregate demand and reduce national",
+   "saving, which in turn raises interest rates and crowds out private",
+   "investment."
+  ],
+  "grade": "C",
+  "fact_date": "2025-04-29",
+  "recheck": "2027-11-30",
+  "context": "A letter answering the Republican Study Committee and Natural Resources chairs; CBO took the lead on this answer, and Joint Committee staff on the first three questions. It states the channel, not a size; the size used in the dynamic layer comes from EV-FIN-076 and EV-FIN-077.",
+  "supports": [
+   "dossiers/foundations/fair-financing/4-fiscal-path.md",
+   "dossiers/foundations/fair-financing/notes/dynamic-preregistration.md"
+  ],
+  "checked": "2026-11-25",
+  "locator": "Question 2, page 4",
+  "corroboration": [
+   {
+    "evidence": "EV-FIN-076",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-FIN-093",
+  "statement": "CBO and JCT staff (April 2025): conventional estimates include many behavioral responses but do not reflect possible macroeconomic changes; the estimates that include them are commonly called dynamic.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-6165",
+  "anchor": [
+   "estimates prepared by CBO and Joint Committee staff are not “static”; they",
+   "reflect myriad microeconomic behavioral responses but do not reflect",
+   "possible macroeconomic changes."
+  ],
+  "grade": "B",
+  "fact_date": "2025-04-29",
+  "recheck": "2027-11-30",
+  "context": "The agencies' own statement of their practice, used to read \"conventional\" and \"dynamic\" in the fiscal path review and the hard rule.",
+  "supports": [
+   "dossiers/foundations/fair-financing/4-fiscal-path.md",
+   "dossiers/foundations/fair-financing/notes/dynamic-preregistration.md"
+  ],
+  "checked": "2026-11-25",
+  "locator": "Question 1, page 2"
  }
 ]

@@ -80,6 +80,7 @@ echo "== 8c. work booking check (the floor, the credit, apprenticeship, service,
 echo "== 8c. democratic renewal booking check (the library line, legal aid, D4 option B's two timing rows; CRT-P1, CAP-8, CAP-7 and CAP-7S labels)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_democratic_renewal.py 2>&1 | tail -1
 echo "== 8c. financing settlement booking check (stage G step 7: settlement.json, its paths and D3 rows; closes FY2040-56)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_settlement_booking.py 2>&1 | tail -1
 echo "== 8c2. fiscal path review checks (stage G step 8a: the debt goals and the dynamic layer)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_path.py 2>&1 | tail -1
+echo "== 8c3. CLI-1 tail check (stage G step 9: the clean-energy credits after FY2039 against the decided step-down)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_cli1_tail.py 2>&1 | tail -1
 
 echo "== 8c. health financing booking check (package E, unified contribution: DEC-2026-11-15-05 to -29)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_health_financing.py 2>&1 | tail -1
 
