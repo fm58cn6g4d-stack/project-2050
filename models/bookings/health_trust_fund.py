@@ -201,7 +201,8 @@ def run():
     variants = {}
     for k in ('A_contribution_share', 'B_gf_share'):
         variants[k] = debt_with_rate(ctx, {y: rd[y][k][1] for y in rd})
-    rates = sorted({FLOOR_R, BOOKED_R, round(rd[2056]['A_contribution_share'][1], 2), round(rd[2056]['B_gf_share'][1], 2)})
+    rates = sorted({FLOOR_R, BOOKED_R, round(rd[2056]['A_contribution_share'][1], 2), round(rd[2056]['B_gf_share'][1], 2)}
+                   | {v for y, v in booked_rates().items() if y >= 2040})     # the booked path's rates (G27 A)
     th = S.take_home(rates)
     built, draw = reserve(rows, 250.0)
     bands = band_readings(rows, gross_baseline())
@@ -302,9 +303,9 @@ def markdown(r):
     L += ['', 'The general-fund gap here has the health fund as its own account (FY2030-34\'s surplus held in the fund), so its '
           'FY2030-39 years differ from step 10\'s; FY2040 and later are the same accounting.',
           '', '## 4a. The band\'s base: the rate under each reading (G27.1a, a working assumption pending Espen)', '',
-          'The decision sets the band at "15-25%% of a year\'s spending" without naming whose spending or which projected '
+          'The decision sets the band at "15-25% of a year\'s spending" without naming whose spending or which projected '
           'year is tested. Booked: the contribution\'s own share of the fund\'s cost, tested one year ahead, the one reading that '
-          'gives 3.80%% in FY2040 drifting to about 4.1%%. Each row starts from the $250B standing reserve.', '',
+          'gives 3.80% in FY2040 drifting to about 4.1%. Each row starts from the $250B standing reserve.', '',
           '| The band read on | R FY2041 | FY2045 | FY2050 | FY2056 | Highest R | Reserve FY2056 ($B) |', '| --- | --- | --- | --- | --- | --- | --- |']
     for name, (path, res) in r['bands'].items():
         L.append('| %s | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %s |' % (

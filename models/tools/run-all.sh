@@ -93,6 +93,8 @@ echo "== 8c2. fiscal path review checks (stage G step 8a: the debt goals and the
 echo "== 8c3. CLI-1 tail check (stage G step 9: the clean-energy credits after FY2039 against the decided step-down)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$BOOKINGS"/test_cli1_tail.py 2>&1 | tail -1
 echo "== 8c4. fiscal path revision checks (stage G step 9: G23's debt goals, G24's mixes, D3 in FY2040 and FY2050, take-home)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$BOOKINGS"/test_fiscal_revision.py 2>&1 | tail -1
 
+echo "== 8c5. health fund note check (stage G step 11: the account's note is what health_trust_fund.py builds from the booked case)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$BOOKINGS"/test_health_trust_fund.py 2>&1 | tail -1
+
 echo "== 8c. health financing booking check (package E, unified contribution: DEC-2026-11-15-05 to -29)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$BOOKINGS"/test_fiscal_health_financing.py 2>&1 | tail -1
 
 echo "== 8d. public story page (claim register and generated page)"
