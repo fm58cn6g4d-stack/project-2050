@@ -1,0 +1,12 @@
+id,criterion,checked_by,auto
+rc_license,A license covers the code and the writing (memo H2),script: LICENSE at the repository root,yes
+rc_versioned,A version number in the results header and a CHANGELOG.md whose newest entry is that version,script: models/registry/toolkit_check.py,yes
+rc_card,A model card on models/MODEL-CARD-TEMPLATE.md with all seven elements (answers; cannot answer; evidence map; mechanisms and research basis; limits; status; owner),script: the template's headings and the status and owner line,yes
+rc_parameters,Every input in a parameter file on models/schema/parameters.py: value; unit; effective year; evidence ID or source URL; a range for each assumption,script: models/schema/parameters.py,yes
+rc_validation,A validation table on models/schema/validation.py written by the test code: every benchmark run and every miss explained,review,no
+rc_one_command,One command runs the model from a fresh clone with public or documented data,review (a fresh-clone job once H2b wires one),no
+rc_tests_in_checks,The model's tests run in the project's checks (run-all.sh or .github/scripts/run-checks.sh),script: the tests column against both scripts,yes
+rc_run_log,A machine-written run log: at least one RUN- row in models/runs.csv for the model,script: models/runs.csv,yes
+rc_disclaimer,The not-an-official-score line on every results file (the results header),script: models/schema/results.py on the results column,yes
+rc_known_issues,A known-issues list on the card,script: a 'Known issues' heading on the card,yes
+rc_review,The project's reviewer has tried to break it (the release review),review: a link to the review comment,no
