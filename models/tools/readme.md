@@ -2,6 +2,8 @@
 
 **Run `bash models/tools/run-all.sh` from the repo root.** It does the common-suite steps below in `build/`, handles the renames, and shows a diff against the committed outputs; add `--write` to copy them into place, and `--fetch` to re-download CBO's data first. Requires Python 3.9+ and Node.js (carbon tests/model). The independent child-poverty runner is documented in its README. Never edit the generated files by hand: change an input table in `models/data/inputs/` (see the readme there) or a script, then regenerate.
 
+**Where the scripts live (stage H step H4).** The federal budget model's engine (`fiscal-model.py`, `fiscal-data.py`, `fiscal-profiles.py`, `ledger-build.py`, `funds-model.py`, `climate-integration.py`, `window.py` and their four tests) is in `budget/engine/`, and the budget model has one command of its own, `python3 models/tools/budget/run.py --reform FILE --out DIR` (its card: `budget/MODEL-CARD.md`). The plan's bookings, their `test_fiscal_*.py` checks, the fiscal path analyses and most dossier cost tools are in `models/bookings/` (its README lists them). A shim at each old path in this folder runs the moved script unchanged, so the names below and every quoted command still work; `inputs.py` and `scenarios.py`, the shared readers, stay here.
+
 The steps, in the order run-all.sh runs them:
 
 0. **Transportation.** `transportation/test_moving_america.py` checks that the Moving America model still gives Draft 2's figures (run-all stops if one moved), then `transportation/report.py --json` writes `moving-america.json`, from which the ledger takes the MOV-29/30/31 and MR1-MR6 rows. The model has its own readme.

@@ -19,8 +19,8 @@ import os
 import unittest
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent.parent
+ROOT = Path(__file__).resolve().parents[2]
+HERE = ROOT / "models" / "tools"   # models/tools: this file moved to models/bookings/ in stage H step H4
 BUILD = Path(os.environ.get("BUILD", ROOT / "build"))
 INPUTS = ROOT / "models" / "data" / "inputs"
 W = range(2030, 2040)

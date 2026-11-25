@@ -65,7 +65,7 @@ class FiscalPath(unittest.TestCase):
 
 class Dynamic(unittest.TestCase):
     def test_registration_unchanged(self):
-        h = hashlib.sha256((ROOT / 'models/tools/fiscal_dynamic_params.json').read_bytes()).hexdigest()
+        h = hashlib.sha256((ROOT / 'models/bookings/fiscal_dynamic_params.json').read_bytes()).hexdigest()
         self.assertEqual(h, REGISTERED_SHA256, 'fiscal_dynamic_params.json changed after registration: record it '
                          'in dynamic-preregistration.md ("Changes after registration") and update this hash')
 

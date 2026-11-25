@@ -9,6 +9,7 @@ import sys
 import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(1, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools"))   # the shared readers (step H4 move)
 import health_financing as HF  # noqa: E402
 
 

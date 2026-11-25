@@ -20,6 +20,7 @@ def settlement_paths():
             out.append((r['id'],r['line'],r['side'],{y:float(r['y%d'%y]) for y in range(2026,2057)}))
     return out
 Y = range(2026,2057)
+BUILD = ROOT/'build'   # the engine's outputs (load() can point it elsewhere)
 W = range(2030,2040)
 
 def module(name,path):
@@ -42,14 +43,18 @@ def geometric(points,y):
     lo=max(k for k in points if k<y); hi=min(k for k in points if k>y)
     return points[lo]*(points[hi]/points[lo])**((y-lo)/(hi-lo))
 
-def load():
+def load(build=None,baseline=None):
+    """The engine's outputs from one run: run-all.sh's build/ by default, or the folder the budget model's own
+    command builds (models/tools/budget/run.py, stage H step H4), with that run's baseline."""
+    global BUILD
+    build=BUILD=Path(build) if build else ROOT/'build'
     sys.path.insert(0,str(ROOT/'models/tools'))
     f=module('rb_fiscal',ROOT/'models/tools/budget/engine/fiscal-model.py')
-    b=f.read_baseline(ROOT/'models/data/fiscal-baseline.csv')
-    m=json.loads((ROOT/'build/fiscal-model.json').read_text())
+    b=f.read_baseline(baseline or ROOT/'models/data/fiscal-baseline.csv')
+    m=json.loads((build/'fiscal-model.json').read_text())
     with tempfile.TemporaryDirectory() as tmp:
         for name in ('ledger.json','fiscal-model.json','moving-america.json'):
-            shutil.copyfile(ROOT/'build'/name,Path(tmp)/name)
+            shutil.copyfile(build/name,Path(tmp)/name)
         before=os.getcwd()
         try:
             os.chdir(tmp)
@@ -194,7 +199,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     hr['terminal_rising']=hi_ratios[-1]>=hi_ratios[-6]; hr['terminal_ratio']=hi_ratios[-1]
     lr=leave_fund(u,A['leave']['cap_points'],A['leave']['take_up'],admin_fraction=leave_admin_fraction); leave={r['year']:r for r in lr['rows']}
     old={r['id']:r for r in m['rows']}; base=m['results']['BASE-R1' if rate_shift else 'BASE']['years']
-    ledger=json.loads((ROOT/'build/ledger.json').read_text())
+    ledger=json.loads((BUILD/'ledger.json').read_text())
     rev={r['id']:r for r in ledger['revenue']}
     # Show gross matched receipts and uses already netted in GF lines. Transport uses the
     # recorded new-receipt estimate (MR1-MR5, gross), not the entire existing HTF budget; its

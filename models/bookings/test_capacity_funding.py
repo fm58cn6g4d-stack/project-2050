@@ -1,6 +1,7 @@
 """Regression checks for the availability/cash boundary."""
 import importlib.util, unittest
 from pathlib import Path
+import sys; sys.path.append(str(Path(__file__).resolve().parents[1] / "tools"))   # inputs.py, the shared reader (step H4 move)
 spec=importlib.util.spec_from_file_location("capacity",Path(__file__).with_name("capacity-funding.py"))
 m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 class FundingChecks(unittest.TestCase):

@@ -1,0 +1,7 @@
+{
+ "id": "current-law",
+ "label": "Current law: CBO's February 2026 baseline with the documented FY2026 actuals and post-February adjustments",
+ "kind": "current-law",
+ "source": "models/data/fiscal-baseline.csv (built by engine/fiscal-data.py from CBO's committed files in models/data/cbo/)",
+ "note": "The default run: the same as leaving --reform out. Every other reform is reported against it."
+}

@@ -1,0 +1,11 @@
+{
+ "id": "cbo-2024-mandatory-2",
+ "label": "Extend the 10-basis-point guarantee fee on Fannie Mae's and Freddie Mac's mortgages for two more years (CBO, Options for Reducing the Deficit: 2025 to 2034, Mandatory Spending Option 2, the first alternative)",
+ "kind": "rows",
+ "source": "SRC-1855",
+ "evidence": "EV-HOU-556",
+ "rows": [
+  {"id": "gfee-extension", "label": "Extend the TCCA guarantee fee (FY2033-34)", "side": "outlays", "fy": {"2033": -3.3, "2034": -3.4}}
+ ],
+ "note": "A neutral example of a published option, so the tool reads as a general budget calculator, not the plan's. CBO's figures are taken as published (billions of nominal dollars, FY2025-2034, scored against CBO's January 2025 baseline); the option raises nothing in FY2025-2032 and ends after FY2034, so no extension beyond CBO's window is assumed. The model adds only the interest on the smaller debt, by its own rule. To try another option, copy this file and type in CBO's year-by-year row from the option's table."
+}
