@@ -1,1 +1,2 @@
 run_id,date,model_id,model_version,commit,python,command,results_path,results_sha256,inputs_sha256,note
+RUN-health-coverage-2026-11-25-a,2026-11-25,MOD-health-coverage,0.2.0,8030c40e840d58f2066e42b1af8d4c6d35d1c051,3.13.18,python3 models/tools/health-coverage/model.py --record --out build/hc-recorded,build/hc-recorded/results.json,f7cc15518fa7e590aed06bb83db735c3dc3145f44229e32f58bfbc06a67f1682,0c93f828b5485e86a2c941a8eddfce6edab093ae2cacf98a219a125df89d801c,
