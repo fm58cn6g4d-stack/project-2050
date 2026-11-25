@@ -5470,6 +5470,61 @@
    ]
   }
  },
+ "header": {
+  "baseline_vintage": "CPS ASEC 2026 (income year 2025); CBO February 2026 economic projections; P.L. 119-21 in force; the budget model's ledger (snapshot/ledger.json)",
+  "code": {
+   "models/tools/household/budget.py": "2762ce96ba61be742c27ae5ec4940a66f00c3dbec19f66abd24f1784319a4adc",
+   "models/tools/household/conventions.py": "15f5a9c397332b1e9ab81da8d153425128b6e76859edd15d062d63f18c46da86",
+   "models/tools/household/d3.py": "53f4a068853b108013413fb8e23269ced979e8a33756b2bae83cfe3edce6063e",
+   "models/tools/household/data.py": "2a52942d667512c5c2bc1f142d9859218ace5db1c9fdcf1ad55e56d64f241d23",
+   "models/tools/household/distribution.py": "ad1db44c57d5257a245707a4d4458623dfde70b12bdec41b84dece92de4b13c3",
+   "models/tools/household/families.py": "4bbc64f2f79ff72e33ae81a27d0e9f40983963110f9353b0c0bd4c254021fbf4",
+   "models/tools/household/params.py": "9f8afead06f23880ae00615abddfc5a6e7bb2ee7bd61b7542297442b46be6042",
+   "models/tools/household/poverty.py": "c185628fc8e34a44c11c161e9c2568ae3a3d1c0f86ccdaf7b3eddbfb5341c28c",
+   "models/tools/household/provisions.py": "aa506b70779a4b85088f8e0783774d3cbe0c733d0c8d1b65a05ba275bb02f9ef",
+   "models/tools/household/rules.py": "10d0dca3215f2a61627b1b2b580a09ad4e50fd8bfefb8aec2840441a1d0a7767",
+   "models/tools/household/run.py": "3615922ecd692eb8d552bec55683cb6ec2911a546913391946d36e1302de22a5",
+   "models/tools/household/snap2025.py": "b019dbd9dc9b541ff8ea56e230396455985813bf9a7cdf44062c48edfeb51a38",
+   "models/tools/household/tax.py": "3e2ed576da4f6a12af63ae0854b3bbb86e5f0e3a79570a8f9918234b8354fbae",
+   "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
+   "models/tools/scenarios.py": "0d174308e273072ca379ffe74b4195b21272e384438c1afa6624c4cf5f96a709"
+  },
+  "commit": null,
+  "disclaimer": "Project 2050 analysis of the evidence: not an official score or a benefit determination. It never stands in for a CBO or JCT estimate or for an agency's decision on an individual case.",
+  "inputs": {
+   "models/data/cbo/economic_economic_projections_fiscal_2026-02.csv": "b157c22a34225d153c4182e701163db837bc5129850b4375b2b01015a1833d87",
+   "models/data/household/households.csv.gz": "34413c856024ff094b09856102fd85d546cd58a1d8feb8e6a6dc7658f8289c31",
+   "models/data/household/spm.csv.gz": "2282c395e2c6c2e4589197be39d16cebbfb23fedaaf7bef10b4bf8399c34b6c7",
+   "models/data/household/units.csv.gz": "b55b92b21c8d3677b644b4bfc2d11d2c0c697daa9bc1711abf404b3e51ab2e4b",
+   "models/data/inputs/incidence-keys.csv": "8446ce68c45bcef2a55db53479aaadbfed7f8932d7a0bf6254774a8da84276bb",
+   "models/data/inputs/incidence-phase-in.csv": "2be98fd0f3a8913e0eb9bff6a9cbeb9357d40ee0ad50f1fb1ac1756b12f1f5eb",
+   "models/data/inputs/incidence-rows.csv": "8a3468083b2d07083c7383e677b0f010ab1ba9314b12635d72ff050a931c09de",
+   "models/data/inputs/scenarios.json": "51172d13daa11dbce39dd24ce63e83560cbeb042cd6de9f48ebbf18c11a183c4",
+   "models/tools/household/intervals.json": "87271d7926d5e16e6cde5571a790001bacfb7086d6e2d4f095a98d55d59ccdca",
+   "models/tools/household/keys.csv": "aa2f6ceb0abbeb6c92e063afbb631fbfe85d2d6e8eec2ccb088ce9b6ea52c69b",
+   "models/tools/household/parameters.csv": "44ca6bae863a432b0fede272c99e9eb0a1de31f77de65ec782576de664bb1afa",
+   "models/tools/household/snapshot/ledger.json": "74b1d4e796aa9498926a9f56c675ade9b5a1847489288eee22b2db800ac4bf84",
+   "models/tools/household/take-home-flags.csv.gz": "46c1bad756fdf5905b86fb6f48e2a8ca4c37b1efb318e0e17b39ce1f8233531e"
+  },
+  "model_id": "MOD-household",
+  "model_version": "0.2.0",
+  "price_basis": "nominal dollars of the year shown (2025 survey dollars aged to 2029 with CBO's February 2026 projections)",
+  "scenarios": [
+   "A. Base package only (gap unfunded)",
+   "Q-C19. Q with the exclusion cap at the median premium (C19, the fallback)",
+   "Q-EDU. Q with the EDU-9B education fund (as case mixed books it) in place of C19b and C20",
+   "Q-G. The package the gap books after stage G's settlement (step 7): Q-H7 without ICB (the 2 points folded into the health contribution), with HCU, HCUw, HCA, HS2 and EDUP replaced by the settlement's rows (HCUg, HCUwg, HCAg, HS2g, EDUPg, EDUP gross) and GX narrowed (GXg). D3 has no rows for defense, farm payments, like-kind exchanges, the states' long-term care payment, the $300 credit or housing stage 2, so those move only the gap",
+   "Q-H7. The package the gap books (case mixed): Q without C19b and C20, with the single plan as booked (its household rows on the corrected path, H7h, H7w, H7x and H7c; its long-term care title, H9; package E: HCU, the fold-in, HEC and HEX, the new streams HS1 to HS4; H1a is in Q), the education fund (EDUP, EDUB) and the indexed income contributions (ICH, ICB)",
+   "Q-SAF. Q with SAF-R2 (alcohol excise dropped)",
+   "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43"
+  ],
+  "schema": "p2050-results/1",
+  "scoring_convention": "static: no behavioral or macroeconomic response; full take-up of new benefits; distribution on the D3 convention (equal households, expanded cash income per square root of size)",
+  "status": "working",
+  "uncertainty": "90% sampling intervals from the Census's 160 replicate weights for the headline poverty, tax-rate and D3 outputs (results section 9, intervals.json); under-reporting, top-coding and the model's assumptions are larger for most outputs and not quantified",
+  "units": "dollars a year per household unless a table says otherwise; poverty rates in percent of people; counts in millions; provision amounts in dollars per household per year, FY2030-39 average",
+  "year_type": "income year 2025 (the CPS ASEC 2026) and the 2029 current-law baseline; fiscal years for the provision amounts"
+ },
  "intervals": {
   "archive_sha256": "fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93",
   "ledger_sha256": "fbbbda9859240a63fa9241e0cfe9f4d93a6d300fe8df8571a71477a4c69ab8a8",

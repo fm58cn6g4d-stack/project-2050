@@ -15,16 +15,18 @@ import unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+sys.path.insert(0, os.path.join(HERE, '..', '..', 'schema'))
 import model as M  # noqa: E402
+import validation as V  # noqa: E402
 
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
 
 EXPECTED_MISSES = {
-    'BM-1a': 'Both single-payer corners sit above CBO\'s 2020 range after it is grown to 2032 (low corner about $3.0 trillion against $1.7 to $3.3 trillion). '
+    'BM-1a': 'The high corner (about $4.4 trillion) is 31 percent above the top of CBO\'s range grown to 2032 ($3.3 trillion); the low corner (about $3.0 trillion) is inside it. '
              'The plan carries 79 to 82 percent of national spending, close to the federal share CBO\'s range implies, so the gap is in scale: the model\'s '
              'national spending base is CMS\'s projection ($8.3 trillion in 2032) and the register does not give CBO\'s option specifications or its 2020 baseline.',
-    'BM-1b': 'The low corner is about $0.56 trillion below baseline against CBO\'s scaled -$0.78 trillion (just outside 25 percent); the high corner is about '
-             '+$0.6 trillion against +$0.33 trillion because it includes long-term care ($0.2 trillion), the newly covered (about $0.5 trillion, paid in full by the plan) and added use. '
+    'BM-1b': 'The high corner is about +$0.6 trillion against CBO\'s scaled +$0.33 trillion because it includes long-term care ($0.2 trillion), the newly covered '
+             '(about $0.5 trillion, paid in full by the plan) and added use; the low corner (about -$0.55 trillion) is inside CBO\'s scaled range (-$0.78 to +$0.33 trillion). '
              'The register does not say which of CBO\'s five options include long-term care or how much cost sharing each has.',
     'BM-3b': 'The model prices 3.7 million new enrollees, repricing of about 12 million existing enrollees and the end of the 400 percent cliff, about 65 billion in 2032 '
              'against 37.5 billion; CBO\'s $350 billion also nets a premium reduction from a healthier pool and offsets from employer coverage, which the model leaves out.',
@@ -47,7 +49,7 @@ class InputTests(unittest.TestCase):
     def test_kind_and_range(self):
         for k, r in self.rows.items():
             self.assertIn(r['kind'], ('evidence', 'assumption'), k)
-            self.assertTrue(r['evidence_id_or_basis'].strip(), f'{k} has no evidence ID or basis')
+            self.assertTrue(r['source'].strip(), f'{k} has no evidence ID or basis')
             self.assertLessEqual(r['low'], r['value'] + 1e-12, k)
             self.assertGreaterEqual(r['high'], r['value'] - 1e-12, k)
             if r['kind'] == 'assumption':
@@ -55,7 +57,7 @@ class InputTests(unittest.TestCase):
 
     def test_evidence_ids_resolve_and_evidence_inputs_cite_one(self):
         for k, r in self.rows.items():
-            ids = re.findall(r'EV-CAR-\d{3}', r['evidence_id_or_basis'])
+            ids = re.findall(r'EV-CAR-\d{3}', r['source'])
             for i in ids:
                 self.assertIn(i, self.ev, f'{k}: {i}')
             if r['kind'] == 'evidence':
@@ -285,5 +287,143 @@ class BenchmarkTests(unittest.TestCase):
                 print(f"  benchmark miss (expected): {b['id']} model {b['model']} vs {b['target']}")
 
 
+# ---------------------------------------------------------------- the validation table (models/schema/validation.py)
+# Targets, tolerances and their basis are fixed here, before the model figure is filled in. The tolerance for every
+# benchmark is 25 percent of the target (of the nearer end for a range): the model is a cell model built from CBO's
+# own estimates, and the project's tolerance for a published figure it did not calibrate to is a quarter of it.
+CARD = os.path.join(HERE, 'MODEL-CARD.md')
+VSTART, VEND = '<!-- generated:validation:start -->', '<!-- generated:validation:end -->'
+BASIS = 'a quarter of the target: a cell model fed by CBO estimates, not a microsimulation'
+
+
+def validation_rows():
+    """Every benchmark with the model's figure: the same quantities model.py's benchmarks() tests, as numbers."""
+    rows = M.load_inputs()
+    I = M.central(rows)
+    scn, order = M.load_scenarios()
+    out = M.build_all(rows)
+    R = out['results']
+    gf, gn, _ = M.growth_paths(I)
+    sub_scale = I['net_sub_2032'] / I['net_sub_2030']
+    nhe_scale = gn[2032] / gn[2030]
+    lo, hi = R['single_payer_cbo_like_low'], R['single_payer_cbo_like_high']
+    fed_rng = (1500 * sub_scale, 3000 * sub_scale)
+    nhe_rng = (-700 * nhe_scale, 300 * nhe_scale)
+
+    def worst(vals, rng):  # the corner furthest outside the range (or, if both are inside, the nearer to an end)
+        dist = lambda x: max(rng[0] - x, x - rng[1], -min(x - rng[0], rng[1] - x))
+        return max(vals, key=dist)
+    def B(id, q, target, source, vintage, unit, expl, in_sample=False):
+        return V.Benchmark(id, q, target, source, vintage, unit, tolerance=0.25, tolerance_kind='relative', tolerance_basis=BASIS,
+                           in_sample=in_sample, explanation=expl)
+    law, cr = R['bench_law_only'], R['bench_credits_only']
+    cost_t = I['credits_cost_10yr'] / 10 * I['ptc_sub_2032'] / (sum(I[f'ptc_sub_{y}'] for y in range(2026, 2036)) / 10)
+    mcd_t = I['law_mcd_outlays_10yr'] / 10 * I['mcd_sub_2032'] / (sum(I[f'mcd_sub_{y}'] for y in range(2025, 2035)) / 10)
+    comp = law['federal']['delta_components_bn']
+    mcd_m = comp.get('Medicaid and CHIP, restored adults', 0) + comp.get('Medicaid financing restored (provider taxes, directed payments)', 0)
+    enroll = sum(f['millions'] for f in R['bench_medicare60_only']['flows'])
+    denom = I['sub_medicare'] + I['sub_medicaid'] + I['sub_ptc']
+    spc = R['single_payer_project_central']['federal']['net_change_bn'] / denom
+    popt = R['public_option']['federal']['net_change_bn'] / denom
+    ev = lambda b, m: V.evaluate(b, m)
+    return [
+        ev(B('BM-1a', 'CBO 2020 single-payer options: change in federal subsidies, 2032, $B (the model corner furthest from the range; both corners are in results.md)',
+             fed_rng, 'EV-CAR-218; EV-CAR-052', 'CBO 2020, $1.5-3.0 trillion in 2030, grown to 2032 at CBO subsidy growth', '$ billion',
+             EXPECTED_MISSES['BM-1a']), worst([lo['federal']['net_change_bn'], hi['federal']['net_change_bn']], fed_rng)),
+        ev(B('BM-1b', 'CBO 2020 single-payer options: change in national health expenditures, 2032, $B (the model corner furthest from the range)',
+             nhe_rng, 'EV-CAR-218; EV-CAR-120', 'CBO 2020, -$0.7 to +$0.3 trillion in 2030, grown at NHE growth', '$ billion',
+             EXPECTED_MISSES['BM-1b']), worst([lo['nhe_change_bn'], hi['nhe_change_bn']], nhe_rng)),
+        ev(B('BM-2', 'P.L. 119-21: fewer uninsured when its coverage provisions are restored, 2032, millions',
+             10.0, 'EV-CAR-038; EV-CAR-025; EV-CAR-049', 'CBO, about 10 million more uninsured in 2034 (9.4 million on the 2029-34 path interpolated to 2032)', 'million people',
+             'In-sample by construction: the restore flows are set from these same CBO estimates (7.5 million Medicaid, 2.8-2.9 million marketplace). The check covers the phase-in and band arithmetic, not an independent estimate.',
+             in_sample=True), -law['uninsured_change']),
+        ev(B('BM-3a', 'Enhanced credits made permanent: more insured, 2032, millions',
+             3.7, 'EV-CAR-029', 'CBO, 3.6 million (2030) and 3.8 million (2035), interpolated', 'million people',
+             'In-sample by construction (the flow is set from CBO).', in_sample=True), -cr['uninsured_change']),
+        ev(B('BM-3b', 'Enhanced credits made permanent: 2032 federal cost, $B, against the ten-year average shaped by CBO premium-credit growth',
+             cost_t, 'EV-CAR-029; EV-CAR-052', 'CBO, about $350 billion over 2026-35', '$ billion',
+             EXPECTED_MISSES['BM-3b']), cr['federal']['net_change_bn']),
+        ev(B('BM-4', 'P.L. 119-21 Medicaid provisions: federal outlays the restore reverses, 2032, $B',
+             mcd_t, 'EV-CAR-025; EV-CAR-052', 'CBO, $989.7 billion over FY2025-34, spread on CBO Medicaid growth', '$ billion',
+             'Passes on the coverage-linked cost alone; CBO also counts provider-tax and state-directed-payment cuts, which the model leaves at zero in the central case (`mcd_financing_restore`).'), mcd_m),
+        ev(B('BM-5', 'CBO Medicare at 60: people who move to Medicare, 2032, millions',
+             7.3, 'EV-CAR-207; EV-CAR-208', 'CBO 2022 as cited in legacy/sources/health-working-group-memo-analysis.md, line 420; UNVERIFIED (the saved CBO text, SRC-3204, gives shares, not this count)', 'million people',
+             'The target is unverified, so the pass is weak. The model counts uninsured, nongroup and ESI people who move; it does not count people who add Part A while keeping employer coverage.'), enroll),
+        ev(B('BM-6a', 'Urban 2019 single-payer: rise in federal spending, share of current federal health spending (project central)',
+             (1.5 / 1.090, 2.8 / 1.090), 'EV-CAR-222; EV-CAR-224; EV-CAR-229', 'Urban 2019, $1.5-2.8 trillion in 2020 on RAND\'s $1,090 billion 2019 federal base', 'share',
+             'Secondary and indicative: Urban\'s baseline is not in the register, so RAND\'s federal base stands in; the model also counts the tax exclusion.'), spc),
+        ev(B('BM-6b', 'Urban 2019 hybrid reform with a public option: federal cost, share of current federal health spending (restore plus public option)',
+             0.1221 / 1.090, 'EV-CAR-225; EV-CAR-229', 'Urban 2019, $122.1 billion in 2020 on $1,090 billion', 'share',
+             'Secondary: Urban\'s bundle adds a mandate and rate caps and covers fewer people than restore plus public option; not a like-for-like test.'), popt),
+    ]
+
+
+def validation_block():
+    return VSTART + '\n' + V.render(validation_rows()) + '\n' + VEND
+
+
+class ValidationTableTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.rows = validation_rows()
+
+    def test_table_has_no_problems(self):
+        self.assertEqual(V.problems(self.rows), [])
+
+    def test_pass_and_miss_agree_with_model_py(self):
+        mine = {r.id: r.passed for r in self.rows}
+        theirs = {b['id']: b['pass'] for b in M.build_all()['benchmarks']}
+        self.assertEqual(mine, theirs, 'the test code and model.py disagree about a benchmark')
+
+    def test_the_three_misses_stay_in_the_table(self):
+        self.assertEqual({r.id for r in self.rows if not r.passed}, {'BM-1a', 'BM-1b', 'BM-3b'})
+
+    def test_card_table_is_the_one_the_code_renders(self):
+        s = open(CARD, encoding='utf-8').read()
+        self.assertIn(validation_block(), s, 'the card\'s validation table is stale: run python3 test_model.py --write-validation')
+
+
+# ---------------------------------------------------------------- inputs without a register source
+USTART, UEND = '<!-- generated:untraced:start -->', '<!-- generated:untraced:end -->'
+
+
+def untraced_block():
+    """The assumptions, in three groups by how far the evidence reaches: none, direction or analogy only, or a named gap."""
+    import re as _re
+    rows = [r for r in M.load_inputs().values() if r['kind'] == 'assumption']
+    def group(r):
+        if 'evidence still needed' in r['source']:
+            return 'c'
+        return 'b' if _re.search(r'\b(EV|SRC)-', r['source']) else 'a'
+    names = {'a': 'Judgment with no register source', 'b': 'Judgment informed by a register entry (direction or analogy, not a measurement)',
+             'c': 'Judgment with a named evidence gap (the source that would replace it)'}
+    L = [f'{len(rows)} of the {len(M.load_inputs())} inputs are assumptions, each run across its low-high range in the uncertainty block of `results.json`. '
+         'None is traced to a measured figure. By how far the evidence reaches:', '']
+    for g in 'cba':
+        part = [r for r in rows if group(r) == g]
+        L += [f'**{names[g]}: {len(part)}**', '', '| Input | Value (low to high) | Basis |', '| --- | --- | --- |']
+        for r in part:
+            L.append(f"| `{r['id']}` | {r['value']:g} ({r['low']:g} to {r['high']:g}) | {r['source'].replace('|', '/')} |")
+        L.append('')
+    return USTART + '\n' + '\n'.join(L).rstrip() + '\n' + UEND
+
+
+def write_validation():
+    s = open(CARD, encoding='utf-8').read()
+    for st, en, blk in ((VSTART, VEND, validation_block()), (USTART, UEND, untraced_block())):
+        a, b = s.index(st), s.index(en) + len(en)
+        s = s[:a] + blk + s[b:]
+    open(CARD, 'w', encoding='utf-8').write(s)
+
+
+class CardTests(unittest.TestCase):
+    def test_untraced_list_is_current(self):
+        self.assertIn(untraced_block(), open(CARD, encoding='utf-8').read(), 'the card\'s untraced-inputs list is stale: run python3 test_model.py --write-validation')
+
+
 if __name__ == '__main__':
-    unittest.main(verbosity=1)
+    if '--write-validation' in sys.argv:
+        write_validation()
+        print('wrote the validation table and the untraced-inputs list into MODEL-CARD.md')
+    else:
+        unittest.main(verbosity=1)

@@ -1,8 +1,8 @@
 # Household model: model card
 
-Role: the model card of `MOD-household`, the core model that measures taxes, benefits, poverty and distribution for real households (`charter/PLAN.md` 3.4). Status: **working** for the 2029 current-law baseline, the provision interface and the D3 report (with the secure floor's INC-1 to INC-5), the typical families and the 65-cent ceiling check, with 90% sampling intervals from the CPS replicate weights and the CBO-convention check; maintenance step M3. Owner: Claude Code (the M3 worker sessions), reporting to the lead. Generated results are in [`results.md`](results.md) and `results.json`; never quote a figure from this card that `results.md` no longer shows.
+Role: the model card of `MOD-household`, the core model that measures taxes, benefits, poverty and distribution for real households (`charter/PLAN.md` 3.4). Status: **working** for the 2029 current-law baseline, the provision interface and the D3 report (with the secure floor's INC-1 to INC-5), the typical families and the 65-cent ceiling check, with 90% sampling intervals from the CPS replicate weights and the CBO-convention check (maintenance step M3; brought to the toolkit standard in step H3, 2026-11-25). It is not marked "preview" or "released": memo H1 is undecided. Owner: the Project 2050 lead session (Claude Code), through GitHub issues on this repository. Version: 0.2.0, see `CHANGELOG.md`. License: the line step H2b adds once memo H2 is answered. Every output of this model is analysis of the evidence, not an official score or a benefit determination; its results files carry that line in their header. Generated results are in [`results.md`](results.md) and `results.json`; never quote a figure from this card that `results.md` no longer shows.
 
-## What it answers, and what it cannot
+## What it answers
 
 It answers, at the 2029 current-law baseline (`DEC-2026-10-29-01`):
 - **each household's budget**: market income, cash benefits, the main noncash benefits, federal income tax after credits, payroll tax and state income tax, for the 137 million households of the CPS (142 million aged to 2029);
@@ -11,16 +11,147 @@ It answers, at the 2029 current-law baseline (`DEC-2026-10-29-01`):
 - **typical families**: the cents lost from each added dollar of earnings, layer by layer, for the three families the secure floor's 65-cent ceiling names (INC-5.02);
 - **provisions**: every booked provision that has an incidence key, distributed by household group, for each scenario in `models/data/inputs/scenarios.json`.
 
+## What it cannot answer
+
 It cannot answer, by design: behavior (work, take-up, migration or marriage responses to a provision); macroeconomic effects; anything below the national level except as a CPS state code; individual benefit determinations or official scores (`charter/PLAN.md` 3.4: "the toolkit never claims to produce official scores or individual benefit determinations"). See "What it does not do".
 
-## What it replaces
+## Evidence map
 
-| Legacy piece | What it did | Now |
-| --- | --- | --- |
-| `models/tools/incidence-model.py`, `incidence-years.py`, `incidence-make-md.py` → `legacy/index/revenue-household-incidence-model.md` | The D3 net test with typed distribution keys over 140 million households, its year-by-year profiles and its report | **Retired (M3 part 2).** `d3.py` is the engine: its legacy version gives the legacy figures exactly (tested against the last legacy run, `test-data/`) and writes `incidence.json` for the budget model's readers; its model version uses the measured keys. The year profiles are ported (`d3.py`, `series`), and the report's text is `results.md`, sections 5, 6 and 8. The legacy report is the scripts' last output, no longer regenerated |
-| `models/tools/child-poverty/` → `legacy/sources/family-child-poverty-*.md`, `legacy/index/child-poverty-agenda-analysis.html` | Child SPM poverty on the CPS ASEC 2026, the agenda's family experiments, replicate-weight uncertainty | The same archive and SPM measurement (`extract.py` checks the same SHA-256), with taxes recomputed, for every age group and aged to 2029. Its replicate-weight intervals are ported and extended to every headline output (`intervals.py`, below); its delivery and identification branches and its eight agenda cases are not yet ported |
+Every input is one row of `parameters.csv`, on the toolkit's parameter schema (`models/schema/README.md`); this table is generated from it by `python3 models/schema/parameters.py models/tools/household/parameters.csv --card models/tools/household/MODEL-CARD.md`. It holds current law as the model applies it (income tax, credits, payroll tax, SNAP, the poverty guideline, group `law`), the inputs of the SNAP work-rule calibration (A-8, group `a8_snap`) and the working values of the CBO-convention check (group `cbo_convention`). The statutory URLs are the ones the code's comments cited, listed here and not fetched in step H3. The 2029 values are these 2025 values indexed in `params.py` (`law()`, the column `uprating` names the index); the CBO series that do the indexing are `models/data/cbo/economic_economic_projections_fiscal_2026-02.csv`, an input of every run.
 
-## Data
+<!-- generated:parameters:start -->
+123 inputs: 10 traced to evidence, 112 policy parameters, 0 calibrated to a benchmark, 1 labeled assumptions with a tested range.
+
+| ID | Value | Unit | Year | Kind | Source or basis | Range |
+| --- | --- | --- | --- | --- | --- | --- |
+| `rates.1` Income tax rates | 0.1 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `rates.2` The 2017 act's rates, made permanent | 0.12 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `rates.3` The 2017 act's rates, made permanent | 0.22 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `rates.4` The 2017 act's rates, made permanent | 0.24 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `rates.5` The 2017 act's rates, made permanent | 0.32 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `rates.6` The 2017 act's rates, made permanent | 0.35 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `rates.7` The 2017 act's rates, made permanent | 0.37 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.joint.1` Rounded down to $50 (joint) or $25 after indexing | 23850 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.joint.2` Rounded down to $50 (joint) or $25 after indexing | 96950 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.joint.3` Rounded down to $50 (joint) or $25 after indexing | 206700 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.joint.4` Rounded down to $50 (joint) or $25 after indexing | 394600 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.joint.5` Rounded down to $50 (joint) or $25 after indexing | 501050 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.joint.6` Rounded down to $50 (joint) or $25 after indexing | 751600 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.single.1` Rounded down to $50 (joint) or $25 after indexing | 11925 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.single.2` Rounded down to $50 (joint) or $25 after indexing | 48475 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.single.3` Rounded down to $50 (joint) or $25 after indexing | 103350 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.single.4` Rounded down to $50 (joint) or $25 after indexing | 197300 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.single.5` Rounded down to $50 (joint) or $25 after indexing | 250525 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.single.6` Rounded down to $50 (joint) or $25 after indexing | 626350 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.hoh.1` Rounded down to $50 (joint) or $25 after indexing | 17000 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.hoh.2` Rounded down to $50 (joint) or $25 after indexing | 64850 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.hoh.3` Rounded down to $50 (joint) or $25 after indexing | 103350 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.hoh.4` Rounded down to $50 (joint) or $25 after indexing | 197300 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.hoh.5` Rounded down to $50 (joint) or $25 after indexing | 250500 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `brackets.hoh.6` Rounded down to $50 (joint) or $25 after indexing | 626350 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `cg_brackets.joint.1` Rounded as the brackets are | 96700 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `cg_brackets.joint.2` Rounded as the brackets are | 600050 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `cg_brackets.single.1` Rounded as the brackets are | 48350 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `cg_brackets.single.2` Rounded as the brackets are | 533400 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `cg_brackets.hoh.1` Rounded as the brackets are | 64750 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `cg_brackets.hoh.2` Rounded as the brackets are | 566700 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `std.joint` Rounded down to $50 | 31500 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `std.single` Rounded down to $50 | 15750 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `std.hoh` Rounded down to $50 | 23625 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `std_aged.joint` Rounded down to $50 | 1600 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `std_aged.single` Rounded down to $50 | 2000 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `std_aged.hoh` Rounded down to $50 | 2000 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `senior_deduction` Senior deduction, a person 65 or older | 6000 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `senior_phaseout.joint` | 150000 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `senior_phaseout.single` | 75000 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `senior_phaseout.hoh` | 75000 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `ctc` Child tax credit per child | 2200 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `ctc_refundable` Refundable part of the child tax credit | 1700 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `ctc_odc` Credit for other dependents | 500 | $ | 2025 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `ctc_earn_floor` Earnings above which the refundable credit builds | 2500 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/24 |  |
+| `ctc_refund_rate` Refundable credit rate on earnings above the floor | 0.15 | share | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/24 |  |
+| `ctc_phaseout.joint` Not indexed | 400000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/24 |  |
+| `ctc_phaseout.single` Not indexed | 200000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/24 |  |
+| `ctc_phaseout.hoh` Not indexed | 200000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/24 |  |
+| `ctc_phaseout_rate` Child credit phase-out rate | 0.05 | share | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/24 |  |
+| `eitc_rate.1` Earned income credit phase-in rate, by qualifying children 0, 1, 2, 3 or more | 0.0765 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_rate.2` | 0.34 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_rate.3` | 0.4 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_rate.4` | 0.45 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_rate.1` Earned income credit phase-out rate, by children | 0.0765 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_rate.2` | 0.1598 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_rate.3` | 0.2106 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_rate.4` | 0.2106 | share | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_earned.1` Earned income amount, by children | 8490 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_earned.2` Rounded down to $10 | 12730 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_earned.3` Rounded down to $10 | 17880 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_earned.4` Rounded down to $10 | 17880 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_start.joint.1` Rounded down to $10 | 17730 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_start.joint.2` Rounded down to $10 | 30470 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_start.joint.3` Rounded down to $10 | 30470 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_start.joint.4` Rounded down to $10 | 30470 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_start.single.1` Rounded down to $10 | 10620 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_start.single.2` Rounded down to $10 | 23350 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_start.single.3` Rounded down to $10 | 23350 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_po_start.single.4` Rounded down to $10 | 23350 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_invest_limit` Investment income limit | 11950 | $ | 2025 | policy | https://www.irs.gov/pub/irs-drop/rp-24-40.pdf |  |
+| `eitc_childless_ages.1` Childless credit: youngest and oldest age (1 and 2) | 25 | years | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/32 |  |
+| `eitc_childless_ages.2` | 64 | years | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/32 |  |
+| `ss_rate` Social Security tax rate, each half | 0.062 | share | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/3101 |  |
+| `hi_rate` Medicare tax rate, each half | 0.0145 | share | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/3101 |  |
+| `ss_wage_base` Social Security wage base | 176100 | $ | 2025 | policy | https://www.ssa.gov/oact/cola/cbb.html |  |
+| `addl_hi_rate` Additional Medicare tax rate | 0.009 | share | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/3101 |  |
+| `addl_hi_threshold.joint` Not indexed | 250000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/3101 |  |
+| `addl_hi_threshold.single` Not indexed | 200000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/3101 |  |
+| `addl_hi_threshold.hoh` Not indexed | 200000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/3101 |  |
+| `niit_rate` Net investment income tax rate | 0.038 | share | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/1411 |  |
+| `niit_threshold.joint` Not indexed | 250000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/1411 |  |
+| `niit_threshold.single` Not indexed | 200000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/1411 |  |
+| `niit_threshold.hoh` Not indexed | 200000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/1411 |  |
+| `ss_base.joint` Not indexed | 32000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/86 |  |
+| `ss_base.single` Not indexed | 25000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/86 |  |
+| `ss_base.hoh` Not indexed | 25000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/86 |  |
+| `ss_adj_base.joint` Not indexed | 44000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/86 |  |
+| `ss_adj_base.single` Not indexed | 34000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/86 |  |
+| `ss_adj_base.hoh` Not indexed | 34000 | $ | 2025 | policy | https://www.law.cornell.edu/uscode/text/26/86 |  |
+| `fpl.1` HHS poverty guideline, 48 states: one person (1) and each additional person (2) | 15650 | $ | 2025 | policy | https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines |  |
+| `fpl.2` Rounded to $10 | 5500 | $ | 2025 | policy | https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines |  |
+| `snap_max.1` SNAP maximum allotment, household size 1 to 8, FY2025 | 292 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_max.2` FY to FY, rounded | 536 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_max.3` FY to FY, rounded | 768 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_max.4` FY to FY, rounded | 975 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_max.5` FY to FY, rounded | 1158 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_max.6` FY to FY, rounded | 1390 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_max.7` FY to FY, rounded | 1536 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_max.8` FY to FY, rounded | 1756 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_std.1` SNAP standard deduction by size (1-3, 4, 5, 6 or more), FY2025 | 204 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_std.2` FY to FY, rounded | 204 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_std.3` FY to FY, rounded | 204 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_std.4` FY to FY, rounded | 217 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_std.5` FY to FY, rounded | 254 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_std.6` FY to FY, rounded | 291 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_earn_ded` SNAP earned income deduction | 0.2 | share | FY2025 | policy | https://www.law.cornell.edu/uscode/text/7/2014 |  |
+| `snap_brr` SNAP benefit reduction rate on net income | 0.3 | share | FY2025 | policy | https://www.law.cornell.edu/uscode/text/7/2017 |  |
+| `snap_shelter_cap` Excess shelter deduction cap, households without an elderly or disabled member | 712 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap_gross_test` SNAP gross income test, share of the poverty guideline | 1.3 | share | FY2025 | policy | https://www.law.cornell.edu/uscode/text/7/2014 |  |
+| `snap_min_benefit` SNAP minimum benefit | 23 | $ per month | FY2025 | policy | https://www.fns.usda.gov/snap/allotment/COLA |  |
+| `snap.usda_participants` SNAP participants, FY2025 average | 42145499 | persons | FY2025 | evidence | EV-SEC-039 |  |
+| `snap.cbo_fewer.abawd_55_64` Sec. 10102: fewer participants, adults 55-64 | 800000 | persons | none | evidence | EV-SEC-036 |  |
+| `snap.cbo_fewer.parent_child14` Sec. 10102: fewer participants, parents of a child 14 or older | 300000 | persons | none | evidence | EV-SEC-036 |  |
+| `snap.cbo_fewer.total` Sec. 10102: fewer participants, all | 2400000 | persons | none | evidence | EV-SEC-036 |  |
+| `snap.energy_cut_monthly` Sec. 10103: energy assistance cut | 100 | $ per month | none | evidence | EV-SEC-038 |  |
+| `snap.energy_share` Sec. 10103: share of households affected | 0.03 | share | none | evidence | EV-SEC-038 |  |
+| `snap.internet_cut_monthly` Sec. 10104: internet cost cut | 10 | $ per month | none | evidence | EV-SEC-038 |  |
+| `snap.internet_share` Sec. 10104: share of households affected | 0.65 | share | none | evidence | EV-SEC-038 |  |
+| `snap.first_year` SNAP changes: first year applied | 2026 | year | 2026 | policy | https://www.congress.gov/bill/119th-congress/house-bill/1/text |  |
+| `medicare.cost_per_enrollee_2032` Medicare spending per enrollee, 2032 | 20200 | $ per enrollee | 2032 | evidence | EV-CAR-061 |  |
+| `medicare.growth_per_person` Health growth per person, 2029 to 2032 | 0.048 | share per year | none | assumption | project judgment: the per-person health growth health_cost_review.py uses; not run across a range, so low and high equal the value |  |
+| `esi.worker_share` Worker share of the family premium | 0.264 | share | 2026 | evidence | EV-CAR-111; EV-CAR-112 |  |
+<!-- generated:parameters:end -->
+
+Not in the file, and where each is: the reform parameters of the decided plan (the American Family Act credit, the 2021 childless credit, the care credit and guarantee charge, the surtaxes, the plan's layers in `families.py`) are plan design, not current law, and stay in `rules.py` and `families.py`; the labeled assumptions A-1 to A-10 below are structural choices (which CBO series moves which amount), not single numbers; the typed incidence keys and rows are the budget model's adopted inputs (`models/data/inputs/`). Listed in Known issues.
+
+### Data
 
 - **Source:** the Census Bureau's CPS Annual Social and Economic Supplement, 2026 public-use file (income year 2025), `https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asecpub26csv.zip`, SHA-256 `fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93` (the hash `legacy/sources/family-child-poverty-cps-baseline.md` records). It is a U.S. government work.
 - **The committed extract** (`models/data/household/`, 5 MB, built by `extract.py`): 72,979 tax units (Census `TAX_ID` within each household), 55,401 SPM units and 53,344 households. The archive itself (139 MB) is not committed; the extract lets the model and its tests run in the checks.
@@ -29,7 +160,16 @@ It cannot answer, by design: behavior (work, take-up, migration or marriage resp
 - **Weights:** person weights (`MARSUPWT`) for poverty, household weights (`HSUP_WGT`) for distribution, the head's person weight for tax units.
 - **Replicate weights:** the archive's `asec_csv_repwgt_2026.csv` holds the Census's 160 replicate person weights. They are not committed (22 million numbers); `intervals.py` reads them from the archive and commits only its results, `intervals.json`. Each record takes the replicate weights of the person whose weight it already uses: on the file, `HSUP_WGT` is the householder's person weight and `SPM_WEIGHT` the SPM unit head's (checked for every record).
 
-## Rules modeled at the 2029 baseline
+### What it replaces
+
+| Legacy piece | What it did | Now |
+| --- | --- | --- |
+| `models/tools/incidence-model.py`, `incidence-years.py`, `incidence-make-md.py` → `legacy/index/revenue-household-incidence-model.md` | The D3 net test with typed distribution keys over 140 million households, its year-by-year profiles and its report | **Retired (M3 part 2).** `d3.py` is the engine: its legacy version gives the legacy figures exactly (tested against the last legacy run, `test-data/`) and writes `incidence.json` for the budget model's readers; its model version uses the measured keys. The year profiles are ported (`d3.py`, `series`), and the report's text is `results.md`, sections 5, 6 and 8. The legacy report is the scripts' last output, no longer regenerated |
+| `models/tools/child-poverty/` → `legacy/sources/family-child-poverty-*.md`, `legacy/index/child-poverty-agenda-analysis.html` | Child SPM poverty on the CPS ASEC 2026, the agenda's family experiments, replicate-weight uncertainty | The same archive and SPM measurement (`extract.py` checks the same SHA-256), with taxes recomputed, for every age group and aged to 2029. Its replicate-weight intervals are ported and extended to every headline output (`intervals.py`, below); its delivery and identification branches and its eight agenda cases are not yet ported |
+
+## Mechanisms and their research basis
+
+### Rules modeled at the 2029 baseline
 
 All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the law as enacted, and 2029 values are indexed from them.
 
@@ -55,13 +195,13 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 | A-9 | The premium credit's 2026 applicable percentages hold in 2029 | The percentages are reindexed yearly; their direction depends on premium growth against income growth | A few tenths of a cent per dollar in the family rates |
 | A-10 | State median income for FAM-2.01's charge is the CPS's median cash income of four-person SPM units, nationally ($160,852 in 2029) and in the lowest-income state ($98,693), scaled by HHS's size factors | HHS sets the lines from the ACS; the CPS has every state but small samples (at least 59 four-person units each) | The CPS's SPM-unit median runs above HHS's family median, so the charge may start lower than modeled; it moves the charge's start, not the ceiling's binding point at 100-125% of poverty |
 
-## Distribution conventions
+### Distribution conventions
 
 - **D3 convention (the fairness test):** households ranked by expanded cash income (cash income plus the employer's payroll tax) divided by the square root of household size, in quintiles and deciles of **equal numbers of households**, so a per-household average is comparable with the legacy model's. The top 1% is the top 1% of households on the same ranking.
 - **Benchmark conventions:** tax units in quintiles of equal numbers of people (the Tax Policy Center's), and CBO's, set against D3 step by step in "The CBO-convention check" below.
 - The size adjustment is a model-design choice: an unadjusted ranking puts large families higher than their living standard warrants. It moves households between groups; it changes no booked amount.
 
-## Provision interface
+### Provision interface
 
 - **Inputs:** the budget model's `ledger.json` (each provision's FY2030-39 amount) and the adopted `incidence-rows.csv`, which books each row as a formula over ledger IDs and splits it across incidence keys (both read only).
 - **Keys** (`keys.csv`): for each key, `micro` measures its shares on the 2029 baseline households (a household field, or a rule computed tax unit by tax unit in `rules.py`), and `legacy` keeps the typed key, with the reason.
@@ -72,7 +212,7 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 - **Poverty effects** need a provision as a rule (`rules.py`), not a key. There are five: FAM-1's child benefit, C20's surtax, INC-1's childless credit, INC-3.02's SSI exclusions and INC-4's refundable care credit.
 - **The secure floor's rows** (`incidence-rows.csv`, INC1 to INC5 and INC2D, SNAP's earned income deduction at 45% on `snap_earn`; `results.md`, section 6): INC-2 is split on CBO's sections of P.L. 119-21 (43.7% on the households the model cuts, 56.3% on SNAP households before the law); INC-3 on the booking's parts (75.5% on today's SSI recipients, standing in for new eligibles and for the territories, which the CPS does not cover; 24.5% on the exclusions rule). INC-4's rule, rescoped to care no other program pays for (Espen, November 13), nets out both programs: care of children under 5 counts only up to the guarantee's charge, with the CPS's national median income of four-person units standing in for state median income; school-age care counts as reported, since the CPS asks what families paid and leaves out the subsidies they receive, so CCDF's payments for the school-age children it reaches (FAM-2.04, kept at today's reach) are already outside it (Census, SEHSD working paper 2025-11, https://www2.census.gov/library/working-papers/2025/demo/sehsd-wp2025-11.pdf). `run.inc4_sensitivity` reports the measurement with spending scaled up and with CCDF's reach netted again (a lower bound). Its keys were added to `incidence-keys.csv` as measured, rounded, so the legacy arithmetic runs on the same rows.
 
-## Typical families
+### Typical families
 
 `families.py` computes, for a single parent of two, a married couple with two (one earner) and a single adult, the cents lost per added dollar of earnings from 50% to 300% of poverty: payroll tax, income tax after credits, SNAP and, as a variant, the premium credit, plus a variant with an excess shelter deduction (a $1,400 monthly rent in 2025 dollars). Medicaid and CHIP are cliffs and are listed apart. The "plan preview" adds FAM-1 and INC-1.01 only. It is not the 65-cent ceiling check, which needs every plan layer and is part 2.
 
@@ -83,23 +223,64 @@ What part 1 already shows, at 2029 law (`results.md`, section 4):
 
 **The ceiling check (INC-5.02; `results.md`, section 7)** adds every plan layer (`plan_budget`): paid leave's worker share (0.3%, 0.55% at its ceiling), FAM-1, INC-1.01, SNAP as INC-2 restores it with INC-2.02's earned income deduction at 45% (`DEC-2026-11-13-03`), the premium credit in 2030-34 only, and child care's charge (FAM-2.01) net of INC-4's refundable credit. State median income, which sets the charge's lines, is the CPS's median for four-person SPM units: nationally and in the lowest-income state (assumption A-10). **Result:** met in every case but one. From 2035, 55.5 cents for families with children without the shelter deduction, 55.5 (single parent) and 63.8 (married couple) with it, 49.8 for the single adult; in 2030-34 on the marketplace, 57.6 without the deduction. The one case above the ceiling is the married couple on the marketplace in 2030-34 with the rent, 65.9 at 125% of poverty, monitored under INC-5.02's rule, not fixed. Before INC-2.02 (the deduction at 20%), families with children with the deduction reached 75.0 from 2035 and 77.1 in 2030-34; `results.md` shows both.
 
-## Benchmarks
+### Reconciliation with the legacy incidence model
 
-| Benchmark | Model | Official or independent | Gap and its cause |
-| --- | --- | --- | --- |
-| SPM poverty, 2025, Census taxes (all / children / 18-64 / 65+) | 13.1 / 13.4 / 12.3 / 15.4% | Census P60-290, table 8 (SRC-3602): 13.1 / 13.4 / 12.3 / 15.4% | None: the model rebuilds `SPM_RESOURCES` from its elements exactly (tested) |
-| SPM poverty, 2025, the model's own taxes | 13.2 / 13.4 / 12.3 / 15.4% | Same | +0.04 points for all people: the model's income tax is slightly higher (no itemized deductions, A-7) |
-| SPM poverty, 2029 current law (model) | 13.3 / 13.4 / 12.3 / 16.0% | No official projection | The 2025 rates aged: earnings outgrow the tax law's indices (bracket creep and EITC erosion); thresholds rise with spending (A-5); the senior deduction ends (65+ up from 15.4 to 16.0%); P.L. 119-21's SNAP changes add about 0.06 points, 210,000 people (A-8; understated, since the CPS records under half of SNAP) |
-| Earned income credit, 2025 law | $41.0B | Census tax model on the same records $40.5B; IRS SOI tax year 2023 (table 2.5) $66.3B on 24.4M returns | The CPS under-reports low and self-employment earnings and family links, and the IRS total includes claims its own compliance studies find improper; the model follows the Census on the same records |
-| Child and other-dependent credits, 2025 law | $119.7B, of which $23.0B refundable | Census $118.8B ($23.6B); IRS SOI 2023 (tables 2.5, 3.3) $118.9B at the $2,000 credit ($34.5B refundable) | About 7% below SOI once SOI is put at the $2,200 credit; the refundable part is $11B lower, the low-earnings under-reporting again |
-| AGI, 2025 | $16.0T | Census tax model $16.2T | 1% |
-| Average federal rates by quintile, 2029: income tax / payroll, tax units with equal people (Q1 to Q5, top 1%) | −2.1/5.7, 2.1/10.0, 6.5/10.7, 9.8/11.4, 18.6/9.2; 28.7/5.4% | Tax Policy Center T26-0045 (June 2026; current law with P.L. 119-21): −3.7/6.1, −0.1/7.7, 4.5/7.7, 7.7/7.9, 16.2/5.5; 23.3/2.1% | The model's rates run 1.5-2.4 points (income) and 2-3.7 points (payroll) higher, mostly in the denominator. TPC's expanded cash income adds what the CPS lacks: employer health and retirement contributions, retirement-account earnings, imputed corporate tax and SNAP. TPC's income is $29.0T against the model's $21.9T. In dollars the model's income tax is lower ($2.68T against TPC's $3.15T), because the CPS top-codes and misses top incomes and gains; its payroll tax is higher ($2.16T against $1.89T), because CPS earnings run above the national accounts' wages ($15.8T against CBO's $15.2T). The ordering and the progressivity match |
-| CBO, *The Distribution of Household Income, 2022* (January 2026), table 9 | — | Q1 −10.1% income tax, 9.5% payroll; top 1% 23.9% and 2.0% | Not comparable directly: a different year and law. The conventions are compared step by step in "The CBO-convention check" (`results.md`, section 10) |
-| JCT | — | No distribution table under P.L. 119-21 yet (JCX-38-25 says its estimates were not ready); the latest, JCX-26-24, is pre-2025 law | Not used |
+Scenario Q (the decided package), net dollars per household per year, FY2030-39 (`results.md`, section 5, with the reconciliation table that moves from the legacy setup to the model's one key at a time; the figures change with every booking, so read them there):
+- **The D3 result does not change:** on both versions the fourth quintile comes out behind on scenario Q and ahead on the base package alone (scenario A). The model's figures for the fourth quintile are smaller in size than the legacy model's.
+- **What moves the fourth quintile:** the household count (147.1 million against 140 million), the earnings keys (the CPS puts 54% of earnings in the top quintile, against the typed 46%, so payroll-based costs fall less on the fourth), FAM-1's key, partly offset by the housing key (the CPS puts today's housing assistance 93% in the first quintile, against the typed 60%).
+- **Housing's key** is a model-design choice, which the lead settled on #318: the CPS-measured spread is the central case, and the legacy key is a stated sensitivity in `results.md`. If the housing dossier expects new awards to reach higher up than today's assistance, the sensitivity is the reading to use.
+- **Sampling error does not change the verdict:** in every scenario the fourth quintile's sign holds at 90% (`results.md`, section 9). **Nor does CBO's grouping,** though equal numbers of people make Q's fourth-quintile shortfall about $190 a household larger (section 10).
+- **What's still open:** the remaining typed keys (capital, consumption and the top-end taxes) dominate the costs, so the measured keys change the picture at the margin, not at the core. Replacing them needs tax data (TPC or CBO tables by key), part 2.
 
-Sources: Census P60-290 is SRC-3600 (report) and SRC-3602 (table 8). TPC T26-0038 and T26-0045 are SRC-4800 and SRC-4801 (licensed, cited only); CBO 61911 is SRC-4802. IRS SOI's tax year 2023 tables 2.5 and 3.3 are at `irs.gov/pub/irs-soi/23in25ic.xls` and `23in33ar.xls`; `fetch_public.py` cannot read legacy `.xls`, so they are cited until it can. 
+## Limits
 
-## Sampling uncertainty
+- **No behavior:** take-up, work, avoidance and macro effects are out. New benefits are paid at full take-up; current-law credits follow the Census's filing status.
+- **Benefits are reported or imputed, not simulated.** CPS under-reporting of SNAP, TANF and SSI is not corrected (the Urban Institute's TRIM3 does this; not available here).
+- **No itemized deductions, AMT, or the dependent care, education and premium credits** in the microdata (A-7).
+- **The top of the distribution is thin:** the CPS top-codes income and misses most capital gains, so top-1% results come from the legacy keys where it matters (`keys.csv`).
+- **No health coverage values:** coverage enters only as counts for keys. The health coverage model owns premiums and out-of-pocket costs.
+- **Year-by-year paths are shapes:** the phase-in profiles spread each row's ten-year total (`d3.py`, `series`); they are not scored annual paths.
+- **Intervals are for sampling error only** (`intervals.py`): under-reporting, top-coding and the model's assumptions are larger for most outputs and are not in them.
+
+## Validation
+
+Written by the test code (`test_household.py`, on `models/schema/validation.py`); `python3 models/tools/household/test_household.py --write-validation` rewrites this block from the committed `results.json`, and the test fails if it is stale. The tolerances are fixed in the test code, with their basis, before the model's figure is read. Most of the misses are the same gap: the CPS has less income than the sources it is set against (the explanation column). They are reported, not tuned away.
+
+<!-- generated:validation:start -->
+23 benchmarks. 23 independent: 9 pass, 14 miss.
+
+| ID | Quantity | Target | Source and vintage | Model | Difference | Tolerance (set in advance) | Result | Explanation |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| HH-P-all | SPM poverty rate, 2025, the model's own taxes: all people | 13.1 percent | SRC-3602; Census P60-290, table 8 (2025) | 13.2 | 0.050 (+0.4%) | 0.31 percent; the 90% sampling half-interval of the model's own rate (intervals.json), which matches the Census's published margin (about 0.3 points for all people, 0.6 for children) | pass | The model rebuilds the Census's resources from its elements exactly with Census taxes (tested); with its own taxes the difference is its slightly higher income tax (no itemized deductions, A-7). |
+| HH-P-children | SPM poverty rate, 2025, the model's own taxes: children | 13.4 percent | SRC-3602; Census P60-290, table 8 (2025) | 13.4 | 0.050 (+0.4%) | 0.56 percent; the 90% sampling half-interval of the model's own rate (intervals.json), which matches the Census's published margin (about 0.3 points for all people, 0.6 for children) | pass | The model rebuilds the Census's resources from its elements exactly with Census taxes (tested); with its own taxes the difference is its slightly higher income tax (no itemized deductions, A-7). |
+| HH-P-18_64 | SPM poverty rate, 2025, the model's own taxes: adults 18-64 | 12.3 percent | SRC-3602; Census P60-290, table 8 (2025) | 12.3 | 0.020 (+0.2%) | 0.34 percent; the 90% sampling half-interval of the model's own rate (intervals.json), which matches the Census's published margin (about 0.3 points for all people, 0.6 for children) | pass | The model rebuilds the Census's resources from its elements exactly with Census taxes (tested); with its own taxes the difference is its slightly higher income tax (no itemized deductions, A-7). |
+| HH-P-65_plus | SPM poverty rate, 2025, the model's own taxes: people 65 and over | 15.4 percent | SRC-3602; Census P60-290, table 8 (2025) | 15.4 | -0.020 (-0.1%) | 0.52 percent; the 90% sampling half-interval of the model's own rate (intervals.json), which matches the Census's published margin (about 0.3 points for all people, 0.6 for children) | pass | The model rebuilds the Census's resources from its elements exactly with Census taxes (tested); with its own taxes the difference is its slightly higher income tax (no itemized deductions, A-7). |
+| HH-T-eitc | Earned income credit, 2025 law | 40.5 $ billion | SRC-3600; Census tax model on the same CPS records | 41.0 | 0.50 (+1.2%) | 5%; the model applies the Census tax model's rules to the same records, so it should land within a few percent; 5%, a round band | pass | Follows the Census on the same records. |
+| HH-T-ctc | Child and other-dependent credits, refundable and not, 2025 law | 119 $ billion | SRC-3600; Census tax model on the same CPS records | 120 | 0.90 (+0.8%) | 5%; the model applies the Census tax model's rules to the same records, so it should land within a few percent; 5%, a round band | pass | Follows the Census on the same records. |
+| HH-T-agi | Adjusted gross income, 2025 | 16,169 $ billion | SRC-3600; Census tax model on the same CPS records | 16,026 | -143 (-0.9%) | 5%; the model applies the Census tax model's rules to the same records, so it should land within a few percent; 5%, a round band | pass | About 1 percent below. |
+| HH-T-tax | Income tax after credits, 2025 law | 1,929 $ billion | SRC-3600; Census tax model on the same CPS records | 2,097 | 168 (+8.7%) | 5%; the model applies the Census tax model's rules to the same records, so it should land within a few percent; 5%, a round band | **miss** | The model's income tax is about 9% above the Census's, most of it in the top quintile: the CPS microdata has no itemized deductions, AMT or the dependent care, education, saver's and premium credits (A-7), which the Census's own model imputes. |
+| HH-S-eitc | Earned income credit, 2025 law, against IRS returns | 66.3 $ billion | https://www.irs.gov/pub/irs-soi/23in25ic.xls; https://www.irs.gov/pub/irs-soi/23in33ar.xls; IRS SOI, tax year 2023, all returns (2023 law) | 41.0 | -25.3 (-38.1%) | 10%; 10%: a different tax year and law, and a survey against administrative records | **miss** | The CPS under-reports low and self-employment earnings and family links, and the IRS total includes claims its own compliance studies find improper; the model follows the Census on the same records. Cited, not run: fetch_public.py cannot read the legacy .xls. |
+| HH-S-ctc | Child and other-dependent credits, total, 2025 law, against IRS returns | 119 $ billion | https://www.irs.gov/pub/irs-soi/23in25ic.xls; https://www.irs.gov/pub/irs-soi/23in33ar.xls; IRS SOI, tax year 2023 ($2,000 credit) | 120 | 0.75 (+0.6%) | 10%; 10%: a different tax year and credit amount ($2,000 against 2025's $2,200) | pass | About 1% above SOI on a credit that is 10% larger per child; the refundable part is $11B lower (the low-earnings under-reporting again). |
+| HH-S-actc | Refundable child credit, 2025 law, against IRS returns | 34.5 $ billion | https://www.irs.gov/pub/irs-soi/23in25ic.xls; https://www.irs.gov/pub/irs-soi/23in33ar.xls; IRS SOI, tax year 2023 | 23.0 | -11.5 (-33.4%) | 10%; 10%: a different tax year and credit amount | **miss** | The CPS under-reports the low earnings that drive the refundable part. |
+| HH-TPC-1-i | Average federal income tax rate, 2029, Q1 (tax units, quintiles of equal numbers of people) | -3.66 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | -2.10 | 1.56 (+42.6%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-1-p | Average federal payroll tax rate, 2029, Q1 (tax units, quintiles of equal numbers of people) | 6.08 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 5.70 | -0.38 (-6.2%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | pass | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-2-i | Average federal income tax rate, 2029, Q2 (tax units, quintiles of equal numbers of people) | -0.070 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 2.10 | 2.17 (+3100.0%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-2-p | Average federal payroll tax rate, 2029, Q2 (tax units, quintiles of equal numbers of people) | 7.70 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 10.0 | 2.30 (+29.9%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-3-i | Average federal income tax rate, 2029, Q3 (tax units, quintiles of equal numbers of people) | 4.52 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 6.50 | 1.98 (+43.8%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-3-p | Average federal payroll tax rate, 2029, Q3 (tax units, quintiles of equal numbers of people) | 7.69 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 10.7 | 3.01 (+39.1%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-4-i | Average federal income tax rate, 2029, Q4 (tax units, quintiles of equal numbers of people) | 7.71 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 9.80 | 2.09 (+27.1%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-4-p | Average federal payroll tax rate, 2029, Q4 (tax units, quintiles of equal numbers of people) | 7.90 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 11.4 | 3.50 (+44.3%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-5-i | Average federal income tax rate, 2029, Q5 (tax units, quintiles of equal numbers of people) | 16.2 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 18.6 | 2.44 (+15.1%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-5-p | Average federal payroll tax rate, 2029, Q5 (tax units, quintiles of equal numbers of people) | 5.52 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 9.20 | 3.68 (+66.7%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-T1-i | Average federal income tax rate, 2029, top 1% (tax units, quintiles of equal numbers of people) | 23.3 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 28.7 | 5.37 (+23.0%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+| HH-TPC-T1-p | Average federal payroll tax rate, 2029, top 1% (tax units, quintiles of equal numbers of people) | 2.13 percent | SRC-4801; TPC T26-0045 (June 2026), current law with P.L. 119-21, percent of expanded cash income | 5.40 | 3.27 (+153.5%) | 1.00 percent; one percentage point, a round band set before the comparison; TPC publishes no error band | **miss** | TPC's expanded cash income adds what the CPS lacks (employer health and retirement contributions, retirement-account earnings, imputed corporate tax, SNAP): TPC's income is $29.0T against the model's $21.9T, so the same dollars sit over a larger denominator. In dollars the model's income tax is lower ($2.68T against $3.15T: the CPS top-codes and misses top incomes and gains) and its payroll tax higher ($2.16T against $1.89T: CPS earnings run above the national accounts' wages). The ordering and the progressivity match |
+<!-- generated:validation:end -->
+
+Sources: Census P60-290 is SRC-3600 (report) and SRC-3602 (table 8). TPC T26-0038 and T26-0045 are SRC-4800 and SRC-4801 (licensed, cited only); CBO 61911 is SRC-4802. IRS SOI's tax year 2023 tables 2.5 and 3.3 are at `irs.gov/pub/irs-soi/23in25ic.xls` and `23in33ar.xls`; `fetch_public.py` cannot read legacy `.xls`, so they are cited until it can.
+
+CBO, *The Distribution of Household Income, 2022* (January 2026), table 9 (SRC-4802): first quintile −10.1% income tax and 9.5% payroll; top 1% 23.9% and 2.0%. Not comparable directly (a different year and law), so it is not a row above; the conventions are compared step by step in "The CBO-convention check" below. JCT: no distribution table under P.L. 119-21 yet (JCX-38-25 says its estimates were not ready); the latest, JCX-26-24, is pre-2025 law. Not used.
+
+### Sampling uncertainty
 
 `intervals.py` recomputes the headline outputs with each of the Census's 160 replicate weights and writes `intervals.json`; `run.py` reports it (`results.md`, section 9). The method is the Census's, successive difference replication: SE = √(4/160 × Σ(estimate_r − estimate_0)²), with the 90% interval at ±1.645 SE.
 - **Covered:** SPM poverty (rates by age, counts and the gap, 2025 and 2029); D3 average federal tax rates by quintile and the top 1%; the D3 test's net per household by group in every scenario, with the measured keys, groups, household count and group incomes recomputed in each replicate; and `health_cost_review.take_home_micro`'s pass shares for the recommended 2.25% contribution, the 2.5% alternative and package E.
@@ -108,7 +289,7 @@ Sources: Census P60-290 is SRC-3600 (report) and SRC-3602 (table 8). TPC T26-003
 - **Held fixed:** each record's computed amounts (taxes, poverty status, a package's charge), and two weight-dependent calibrations, SNAP's work-rule probabilities (A-8) and the state-median stand-in (A-10). The take-home package's rates and lines are also held fixed: the intervals say how many of the country's workers pass a given design.
 - **Keeping it current:** `results.md` compares the interval run's centers with each run's own estimates and marks any that have moved by more than half an interval; then rerun `intervals.py` with the archive (about five minutes). The take-home centers are not rechecked by `run.py`, since `health_cost_review.py` is not part of it; rerun `intervals.py` when the recommended design changes.
 
-## The CBO-convention check
+### The CBO-convention check
 
 `conventions.py` moves the 2029 baseline households from D3's conventions to CBO's (*The Distribution of Household Income, 2022*, SRC-4802) one at a time and reports each step's average tax rates, the households that change quintile and scenario Q's net per household on re-measured keys (`results.md`, section 10).
 
@@ -123,45 +304,41 @@ Sources: Census P60-290 is SRC-3600 (report) and SRC-3602 (table 8). TPC T26-003
 
 **What it settles:** D3's verdicts do not depend on the convention, and D3 keeps equal households, since it states and compares results per household. CBO's grouping is reported as a sensitivity where a quintile's result is near zero.
 
-## Reconciliation with the legacy incidence model
+## Known issues
 
-Scenario Q (the decided package), net dollars per household per year, FY2030-39 (`results.md`, section 5, with the reconciliation table that moves from the legacy setup to the model's one key at a time; the figures change with every booking, so read them there):
-- **The D3 result does not change:** on both versions the fourth quintile comes out behind on scenario Q and ahead on the base package alone (scenario A). The model's figures for the fourth quintile are smaller in size than the legacy model's.
-- **What moves the fourth quintile:** the household count (147.1 million against 140 million), the earnings keys (the CPS puts 54% of earnings in the top quintile, against the typed 46%, so payroll-based costs fall less on the fourth), FAM-1's key, partly offset by the housing key (the CPS puts today's housing assistance 93% in the first quintile, against the typed 60%).
-- **Housing's key** is a model-design choice, which the lead settled on #318: the CPS-measured spread is the central case, and the legacy key is a stated sensitivity in `results.md`. If the housing dossier expects new awards to reach higher up than today's assistance, the sensitivity is the reading to use.
-- **Sampling error does not change the verdict:** in every scenario the fourth quintile's sign holds at 90% (`results.md`, section 9). **Nor does CBO's grouping,** though equal numbers of people make Q's fourth-quintile shortfall about $190 a household larger (section 10).
-- **What's still open:** the remaining typed keys (capital, consumption and the top-end taxes) dominate the costs, so the measured keys change the picture at the margin, not at the core. Replacing them needs tax data (TPC or CBO tables by key), part 2.
+- **The D3 sampling intervals are stale since the settlement.** `intervals.json` was run on 2026-11-20 (commit `d143f10`), before the financing settlement was booked in the ledger (#480). Rerunning `intervals.py` on 2026-11-25 reproduces its poverty, tax-rate and take-home blocks exactly, and moves 34 of its 36 `d3_net_per_household` values by at most $10 a household (the centers) and their standard errors by at most about $0.25. Not refreshed in step H3 because that would change the results (`results.md`, section 9). Refresh: `python3 models/tools/household/fetch_cps.py`, then `intervals.py --archive build/cps/asecpub26csv.zip`.
+- **The take-home intervals read frozen flags** (`take-home-flags.csv.gz`, `take-home-flags.md`): per-unit pass flags from the health cost review's test at the recommended design, made on 2026-11-25. They go stale if that design changes. Regenerating them needs the health scripts, which this model no longer imports.
+- **Inputs still in code**, not in `parameters.csv`: the decided plan's reform parameters (`rules.py`, `families.py`); the typed estimates behind the CBO-convention check's Medicare growth (`medicare.growth_per_person`, in the file, is a single value with no sensitivity run: its low and high equal it); the structural choices in A-2 to A-5. A reform file for the plan's parameters is a later step.
+- **The legacy-reproduction test is skipped** on main: its fixture is the legacy model at `e897ac6`, and `incidence-rows.csv` has changed since.
+- **Benefits are reported or imputed, not simulated** (the CPS under-reports SNAP: $42B against USDA's $95.8B, so P.L. 119-21's poverty effect is understated by about half, A-8).
+- **The child-poverty tool's eight agenda cases are not ported**, and that tool (`models/tools/child-poverty/`) rewrites tracked files each time its validation runs (audit 1.2).
+- **The budget model's readers still use the legacy typed keys** (`incidence.json`), not the measured keys.
+- **IRS SOI is cited, not run** (its legacy `.xls` cannot be read by `fetch_public.py`); the SOI rows above are checked by hand against the published tables.
+- **Most TPC rows miss** because the denominators differ (TPC's income is $29.0T against $21.9T); no TPC-conforming income is built.
+- **The run log before 2026-11-18 is hand-written** (below), and its commits are not in the shallow clone step H3 worked in.
+- **A ledger refresh changes the results**: the budget model's ledger is an input, so a new booking moves the household outputs. How the versioning rule treats that is an open question for the lead (`models/schema/README.md`, "Versions").
+- **No fresh-clone job has run this model yet** (step H2b wires one); the checks here ran it from a clone with `build/` absent.
 
-## What it does not do (limits)
-
-- **No behavior:** take-up, work, avoidance and macro effects are out. New benefits are paid at full take-up; current-law credits follow the Census's filing status.
-- **Benefits are reported or imputed, not simulated.** CPS under-reporting of SNAP, TANF and SSI is not corrected (the Urban Institute's TRIM3 does this; not available here).
-- **No itemized deductions, AMT, or the dependent care, education and premium credits** in the microdata (A-7).
-- **The top of the distribution is thin:** the CPS top-codes income and misses most capital gains, so top-1% results come from the legacy keys where it matters (`keys.csv`).
-- **No health coverage values:** coverage enters only as counts for keys. The health coverage model owns premiums and out-of-pocket costs.
-- **Year-by-year paths are shapes:** the phase-in profiles spread each row's ten-year total (`d3.py`, `series`); they are not scored annual paths.
-- **Intervals are for sampling error only** (`intervals.py`): under-reporting, top-coding and the model's assumptions are larger for most outputs and are not in them.
-
-## Status and next steps
-
-- **Working:** the 2029 baseline, the benchmarks above, the provision interface on legacy and measured keys, the D3 report and its year paths (`d3.py`; the legacy incidence scripts are retired), the secure floor's INC-1 to INC-5, the typical families and the 65-cent ceiling check, the replicate-weight intervals and the CBO-convention check.
-- **Still to do:**
-  - the child-poverty tool's agenda cases;
-  - moving the budget model's readers from the legacy version to the measured keys (a visible change to their outputs).
+Tracked on the stage H board (`charter/PROGRESS.md`) and by `models/toolkit.csv`.
 
 ## How to run
 
-From the repository root:
+From a fresh clone, with no `build/`, one command (standard library only; Python 3.10 or later; `numpy` only for `intervals.py`):
 
 ```bash
-bash models/tools/run-all.sh                                   # builds the ledger, runs the tests and the model
-python3 models/tools/household/run.py --ledger build/ledger.json --out build/household
-python3 models/tools/household/test_household.py               # 32 tests; the legacy and CBO-check tests need build/
-python3 models/tools/household/intervals.py --archive /path/to/asecpub26csv.zip --ledger build/ledger.json   # the intervals (needs the archive)
-python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   # rebuild the extract
+python3 models/tools/household/run.py [--ledger FILE] [--out DIR] [--record] [--update-snapshot]
+python3 models/tools/household/test_household.py               # the tests; --write-validation rewrites the table above
+bash models/tools/run-all.sh                                   # builds the ledger first, runs the tests and the model, compares with the committed copies
+python3 models/tools/household/fetch_cps.py [--out DIR]        # the Census archive (139 MB), with its SHA-256 checked; only for the two scripts below
+python3 models/tools/household/extract.py --archive build/cps/asecpub26csv.zip      # rebuild the extract
+python3 models/tools/household/intervals.py --archive build/cps/asecpub26csv.zip    # the intervals (about five minutes; numpy)
 ```
 
-## Tests
+With no `--ledger`, `run.py` starts from the budget model's `build/ledger.json` when it exists and otherwise from the committed snapshot, `snapshot/ledger.json` (the amounts the model reads from the ledger, taken from main on 2026-11-25). `run.py --update-snapshot` refreshes it from a built ledger; a test fails when the two differ, so the snapshot cannot go stale unnoticed. `--out` defaults to this folder: it overwrites the committed `results.json` and `results.md`, which `run-all.sh` compares byte for byte. `--record` stamps the commit and appends a `RUN-` row to `models/runs.csv`.
+
+The CPS archive itself is not committed; the extract in `models/data/household/` (5 MB) lets the model and its tests run without it. `fetch_cps.py` refuses a file whose SHA-256 is not the recorded one, so a changed or truncated download never reaches the model. No random numbers are drawn anywhere in the model: the intervals are the Census's successive difference replication, which is deterministic, so no seed is needed (a test checks that no module imports `random`).
+
+### Tests
 
 `test_household.py` covers:
 - hand-checked tax cases: the brackets, the earned income credit, the refundable child credit, taxable Social Security, the child credit's phase-out rounding and the wage base;
@@ -175,8 +352,13 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 - **exact reproduction of the legacy incidence model's last results** in every scenario, while its inputs are unchanged, and year profiles that sum to each row's total. The fixture (`test-data/legacy-incidence-2026-11-13.json`) is the legacy model's run on main at `e897ac6`, so **the exact reproduction holds as of `e897ac6`**: on that commit's inputs and ledger, d3.py's legacy version gives the fixture exactly in every scenario (checked again on November 16, 2026 with this model's current code). Since then `incidence-rows.csv` and `incidence-keys.csv` have changed (from INC-2.02's row on), so on main the test is skipped. It guards the legacy arithmetic, not today's figures;
 - the replicate-weight step: the SDR formula, its groups and poverty estimators against the model's own, and the committed `intervals.json` (complete, the 2025 margins near the Census's, and the 2029 poverty and tax-rate centers equal to this model's);
 - the CBO-convention check: its step 0 is D3 itself, its equal-people groups hold a fifth of people each, and it leaves the model's groups as they were.
+- the frame (step H3): the parameter file meets the schema and builds the law the model used; the card's evidence and validation tables are the generated ones; the snapshot equals the built ledger; the model runs from the snapshot; no module imports the health cost or financing scripts or draws at random; the take-home flags match the extract; the fetch script checks the hash; the committed results carry the header and the current code's hashes.
 
 ## Run log
+
+Recorded runs are rows of `models/runs.csv` (`RUN-household-<date>-<letter>`), written by `models/runlog.py`; a dossier quoting a figure cites the run ID. The rows from `RUN-household-2026-11-18-a` to `RUN-household-2026-11-24-a` were back-filled in step H3 from the commits that changed `results.json`, each at its commit's own code and inputs, all labeled version 0.1.0 (`CHANGELOG.md`): their `results_sha256` is that commit's file as committed (it had no header then), so it cannot be checked the way a stamped reference output can (the row's note says so). The results header carries the version, the commit (null in the committed reference outputs) and the hashes of the code and the inputs. The version history is `CHANGELOG.md`.
+
+The runs before the helper existed, kept as they were written (their commits are not in the clone step H3 worked in, so they are not rows of `models/runs.csv`):
 
 | Run | Model version | Inputs | Provisions |
 | --- | --- | --- | --- |

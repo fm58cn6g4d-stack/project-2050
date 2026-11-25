@@ -27,15 +27,15 @@ survey's under-reported transfers. Those are data, not conventions; the benchmar
 """
 import provisions as P
 from distribution import assign
-from params import per_household
+from params import constant, per_household
 
 # Medicare's value per enrollee in 2029: CBO's 2032 spending per enrollee, $19,500 fee-for-service and $20,900 in
 # Medicare Advantage (EV-CAR-061), at about $20,200, brought back three years at 4.8% a year per person (the per-person
 # health growth `health_cost_review.py` uses). A working value; CBO values Medicare at its average cost to government.
-MEDICARE_2029 = 20200 / 1.048 ** 3
+MEDICARE_2029 = constant("medicare.cost_per_enrollee_2032") / (1 + constant("medicare.growth_per_person")) ** 3
 # Employers' premiums: the worker paid 26.4% of the 2026 family premium (KFF, EV-CAR-111 and EV-CAR-112), so each dollar
 # of premium a job-covered tax unit reports paying stands for 0.736/0.264 dollars the employer paid.
-ESI_EMPLOYER_RATIO = 0.736 / 0.264
+ESI_EMPLOYER_RATIO = (1 - constant("esi.worker_share")) / constant("esi.worker_share")
 # CBO's published 2022 rates (table 9, recorded on the model card): lowest quintile and top 1%, income tax / payroll
 CBO_2022 = {"Q1": (-10.1, 9.5), "T1": (23.9, 2.0)}
 

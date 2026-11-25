@@ -33,6 +33,32 @@ LEGACY_HH = 140e6
 LEGACY_INC = {"Q1": 23e3, "Q2": 60e3, "Q3": 105e3, "Q4": 180e3, "Q5": 520e3, "T1": 4.3e6, "Q5x": 0}
 
 
+SNAPSHOT = os.path.join(HERE, "snapshot", "ledger.json")
+BUILD_LEDGER = os.path.join(HERE, "..", "..", "..", "build", "ledger.json")
+
+
+def default_ledger():
+    """The ledger a run starts from: the budget model's build/ledger.json when it exists (run-all.sh builds it),
+    otherwise the committed snapshot, so the model runs from a fresh clone."""
+    return BUILD_LEDGER if os.path.exists(BUILD_LEDGER) else SNAPSHOT
+
+
+def refresh_snapshot(ledger_path):
+    """Rewrite the snapshot from a built ledger.json (only the amounts `ledger_values` and the D3 report's summary read)."""
+    with open(ledger_path) as f:
+        L = json.load(f)
+    with open(SNAPSHOT) as f:
+        about = json.load(f)["_about"]
+    snap = {"_about": about,
+            "bills": [{"id": b["id"], "cost_mid": b["cost_mid"]} for b in L["bills"]],
+            "revenue": [{"id": r["id"], "mid": r["mid"]} for r in L["revenue"]],
+            "cuts": [{"id": c["id"], "saves_tn": c["saves_tn"]} for c in L["cuts"]],
+            "summary": {k: v for k, v in L["summary"].items() if k.startswith("dynamic") or k in ("gap_mid", "gap_after_accepted")}}
+    with open(SNAPSHOT, "w") as f:
+        json.dump(snap, f, indent=1, sort_keys=True)
+        f.write("\n")
+
+
 def ledger_values(path):
     with open(path) as f:
         L = json.load(f)
