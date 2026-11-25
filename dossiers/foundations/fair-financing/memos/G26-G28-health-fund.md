@@ -17,7 +17,7 @@ The booked rate is 3.25% to fold in the 2 points (G2 C) plus 0.55 points ($123B 
 
 | | The rate from 2035 | What it means | Cost to the general fund, FY2040 | Workers ahead (take-home test, FY2040) |
 | --- | --- | --- | --- | --- |
-| **A (recommended)** | **3.80%, re-founded as the fund's rate**: the contribution pays about 15% of the fund's whole cost (about 29% of its new cost) | Every booked number stays. The general fund still pays $538B into the fund in FY2040 | none | 69.0% |
+| **A (recommended)** | **3.80%, re-founded as the fund's rate**: the contribution pays about 29% of the fund's new cost (about 15% of its whole cost, counting the contribution alone) | Every booked number stays. The general fund still pays $538B into the fund in FY2040 | none | 69.0% |
 | B | 3.25%, the fold alone | The general fund pays $123B more into health in FY2040 | +$123B a year (more later) | 76.2% |
 | C | Higher, for example 4.52%: the contribution takes a larger share of health's cost now, so the general fund pays less | Allowed: the fund still needs a transfer, and the rise only replaces part of it. It is G23 A's no-VAT fallback, taken now | −$161B | 56.8% |
 
@@ -29,7 +29,7 @@ The booked rate is 3.25% to fold in the 2 points (G2 C) plus 0.55 points ($123B 
 
 This is the trust-fund rule itself: who pays for health growing faster than the economy.
 
-| | Rule | Rate FY2045 / FY2050 / FY2056 | General fund vs the booking, FY2050 / FY2056 | Debt FY2056 (no goal) | Workers ahead at the later rate (indication only, FY2040's incomes) |
+| | Rule | Rate FY2045 / FY2050 / FY2056 (on the fund's whole cost) | General fund vs the booking, FY2050 / FY2056 (on its new cost, at slightly higher rates) | Debt FY2056 (no goal; same) | Workers ahead at the later rate (indication only, FY2040's incomes) |
 | --- | --- | --- | --- | --- | --- |
 | **A (recommended)** | **The contribution pays a fixed share of the fund's cost**, as Medicare's premiums pay 25% of Part B; the general fund pays the rest | 4.01% / 4.09% / 4.13% | $101B / $158B better | 131.2% | about 64% |
 | B | The general fund pays a fixed share; the contribution carries the rest | 4.15% / 4.38% / 4.68% | $205B / $422B better | 128.9% | about 57% |

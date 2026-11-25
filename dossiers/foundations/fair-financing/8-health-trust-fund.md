@@ -111,7 +111,7 @@ Built from the booked case's own lines (`health_trust_fund.py`, part 1 of the no
 | B. The general fund pays a fixed share | 3.80% | 4.15% | 4.38% | **4.68%** | −348 / −627 | 128.9% |
 | C. R fixed in law, the general fund the residual (the booking's arithmetic) | 3.80% | 3.80% | 3.80% | 3.80% | −143 / −205 | 133.1% |
 
-(Debt and the gap in the table are on the new-spending version, `health_trust_fund.py` parts 2 and 4; A's rate there is 4.17% in FY2056 and B's 4.78%.)
+**Two runs in one table (the reviewer's note on #502):** the rate columns are the whole-spending version; the gap and debt columns are the new-spending version (`health_trust_fund.py` parts 2 and 4), whose rates are a little higher (A 4.17%, B 4.78% in FY2056). The whole-spending version would show slightly smaller general-fund gains. The sensitivity's contribution side counts the contribution alone, not the baseline HI revenue the plan's law also commits to the fund, so it understates the contribution side's share. The rates move by 0.1 points or less, and no conclusion changes.
 
 - **A** spreads health's faster growth: the contribution's share holds, and the general fund absorbs the drift in the other sources (the employer contribution, the streams). With G13 kept, a lost wealth tax still lands on R.
 - **B** puts all of the drift on R, so the general fund's share is predictable. It also puts D2's overrun partly on the general fund unless G13 overrides.
