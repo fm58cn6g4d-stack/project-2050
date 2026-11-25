@@ -8,7 +8,7 @@ scope is adopted. **October 26 approval:** the recommended architecture and work
 
 **Stage G's financing settlement is booked (step 7, November 24, 2026).** Every case now carries it: the switches and
 items in `models/data/inputs/settlement.json` (each with its `DEC-` row) and the item paths in
-`settlement-paths.csv`, which `models/tools/settlement_booking.py` derives and `models/tools/test_settlement_booking.py`
+`settlement-paths.csv`, which `models/tools/settlement_booking.py` derives and `models/bookings/test_settlement_booking.py`
 checks. The audit shows them as "Settlement Snn: ..." lines. `build_case(..., settlement=False)` and the case
 `mixed_before_settlement` give the plan before it, which the financing screens (`models/tools/financing-protection/`)
 price from. The settlement's text is `dossiers/foundations/fair-financing/2-settlement.md`.

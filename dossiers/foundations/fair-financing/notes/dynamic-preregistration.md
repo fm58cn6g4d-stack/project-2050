@@ -1,6 +1,6 @@
 # The fiscal path review's dynamic layer: pre-registration
 
-Role: the parameters, ranges and sources of stage G step 8a's contained dynamic layer, written and committed **before any debt path was run with them** (the guardrail in step 8a's brief). The values live in [`models/tools/fiscal_dynamic_params.json`](../../../../models/tools/fiscal_dynamic_params.json); this note says where each comes from and where it departs from CBO and JCT. Status: registered November 24, 2026, stage G step 8a. A change after the first run is a new registration: add a dated line under "Changes after registration" with the reason, and leave the old values in Git. Read with [`../4-fiscal-path.md`](../4-fiscal-path.md) part 2.
+Role: the parameters, ranges and sources of stage G step 8a's contained dynamic layer, written and committed **before any debt path was run with them** (the guardrail in step 8a's brief). The values live in [`models/bookings/fiscal_dynamic_params.json`](../../../../models/bookings/fiscal_dynamic_params.json); this note says where each comes from and where it departs from CBO and JCT. Status: registered November 24, 2026, stage G step 8a. A change after the first run is a new registration: add a dated line under "Changes after registration" with the reason, and leave the old values in Git. Read with [`../4-fiscal-path.md`](../4-fiscal-path.md) part 2.
 
 ## The rules this layer keeps
 
@@ -61,7 +61,7 @@ Espen allows a labeled "works as designed" health saving with a range (`DEC-2026
 
 ## Changes after registration
 
-Everything above stands as registered in commit 87125a0, and `fiscal_dynamic_params.json` stays byte-identical to it (a test pins its hash). The changes below were made **after the first results were seen**, in answer to the independent red-team of PR #483 (lead session, November 24, 2026). They are applied from `models/tools/fiscal_dynamic_amendments.json`, and the results note reports the registered reading beside the amended one.
+Everything above stands as registered in commit 87125a0, and `fiscal_dynamic_params.json` stays byte-identical to it (a test pins its hash). The changes below were made **after the first results were seen**, in answer to the independent red-team of PR #483 (lead session, November 24, 2026). They are applied from `models/bookings/fiscal_dynamic_amendments.json`, and the results note reports the registered reading beside the amended one.
 
 **Not pre-registered, disclosed:** the engine itself (`fiscal_dynamic.py`), the pairing of channel and feedback ends into cases, and the readings' roles. The first results were committed about 6.5 minutes after the registration.
 
