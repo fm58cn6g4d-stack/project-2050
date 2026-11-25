@@ -2,6 +2,11 @@
 
 Role: the version history of `MOD-budget` (`models/schema/README.md`, "Versions"), newest first. Status: current.
 
+## 0.3.0 (2026-11-25)
+
+The plan's figures moved with CLI-1's step-down after FY2039 (memo G25; #493's `fiscal-after.csv` row): a new input, no change to the code or the interface.
+- Results: the plan (`results/plan.json`) has debt at 131.5% of GDP in FY2056, 1.6 points below 0.2.0's 133.1%; FY2040 stays 117.8%. Current law and the CBO option did not move; their headers change only in the hash of `fiscal-after.csv`.
+
 ## 0.2.0 (2026-11-25)
 
 Stage H step H4: the model released to the toolkit standard (not marked "released": memo H1 is undecided).

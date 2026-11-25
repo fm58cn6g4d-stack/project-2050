@@ -109,7 +109,7 @@
    "models/tools/budget/engine/funds-model.py": "06761a9d630dbaf579bdac509dba57430e2d538c8a2fcbb9cbf77cd767589a0a",
    "models/tools/budget/engine/ledger-build.py": "a37ede7bc9a8c94365881f4173bad994fda32a762220441c0d3e6fe9796255b2",
    "models/tools/budget/engine/window.py": "9b831c5d8c20c7ea3a972260413597a096cf56da3b3abb0ff916c5a22b451cf2",
-   "models/tools/budget/run.py": "9084a5bf8bc69cfc22247d61ee8c46af9f551f95c51c0d0d9d4e841bdeaed678",
+   "models/tools/budget/run.py": "0ab1e80f605ad9120ae9e085216a8c6da356cc3539ff0d2d9908081b263a8035",
    "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
    "models/tools/scenarios.py": "0d174308e273072ca379ffe74b4195b21272e384438c1afa6624c4cf5f96a709",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb59f769f07a5f169a3c53e8a5c35f731a591741b87409a3b8",
@@ -190,7 +190,7 @@
    "models/tools/budget/reforms/cbo-2024-mandatory-2.json": "5b0508bcbd6813fc558e55e325c52d729cf945af49fe8fe5aac007812794d4c0"
   },
   "model_id": "MOD-budget",
-  "model_version": "0.2.0",
+  "model_version": "0.3.0",
   "price_basis": "nominal dollars",
   "scenarios": [
    "current-law",
