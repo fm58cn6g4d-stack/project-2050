@@ -1,0 +1,38 @@
+/* A day in 2050: working preview styles. The visual design is step H9's (Figma); this sheet only makes the
+   draft readable at 320-1440 px, in light and dark, with text pairs at WCAG AA. */
+:root{--bg:#fbfaf7;--fg:#1d1f22;--muted:#4f5560;--line:#d9d5cc;--accent:#1f5f8b;--panel:#f1eee7;--warn:#8a4b00;--warn-bg:#fff4e0}
+@media (prefers-color-scheme:dark){:root{--bg:#141619;--fg:#ecebe7;--muted:#b4b8bf;--line:#3a3e45;--accent:#8cc4ef;--panel:#1d2025;--warn:#ffcf8a;--warn-bg:#2c2416}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:1.0625rem/1.6 Georgia,"Iowan Old Style",serif}
+header,nav,main,.close,footer{max-width:46rem;margin:0 auto;padding:0 1rem}
+h1,h2,h3,h4,.when,.key,nav,summary,.tag,.basis,table{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+h1{font-size:2.4rem;line-height:1.15;margin:.4rem 0 1rem}
+h2{font-size:1.5rem;line-height:1.25;margin:.2rem 0 .8rem}
+h4{font-size:1rem;margin:1.2rem 0 .3rem}
+a{color:var(--accent)}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:var(--bg);padding:.5rem}
+.draft{display:inline-block;margin-top:1.5rem;padding:.2rem .6rem;background:var(--warn-bg);color:var(--warn);font:600 .85rem system-ui,sans-serif;border-radius:4px}
+.key{padding-left:1.1rem;color:var(--muted);font-size:.95rem}
+nav ol{columns:2 14rem;padding-left:1.4rem;font-size:.95rem}
+.scene{border-top:1px solid var(--line);padding:2rem 0 1rem}
+.when{color:var(--muted);font-size:.9rem;margin:0}
+.flagship{font-weight:600}
+.tag{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:0 .4rem;font-size:.8rem}
+.art{margin:1rem 0}
+.art-brief{background:var(--panel);border:1px dashed var(--line);border-radius:8px;padding:1rem;color:var(--muted);font-size:.95rem;min-height:7rem}
+.art-brief span{display:block;font:600 .75rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.4rem}
+details{margin:1rem 0;background:var(--panel);border-radius:8px;padding:.6rem 1rem}
+summary{cursor:pointer;font-weight:600;color:var(--accent)}
+.qa .q{font-weight:600;margin-bottom:.2rem}
+.placeholder{border:2px dashed var(--warn);border-radius:6px;padding:.2rem .9rem;margin:1rem 0;background:var(--warn-bg)}
+.placeholder h4{color:var(--warn)}
+.notes{font-size:.85rem;color:var(--muted);overflow-wrap:anywhere}
+.basis{font-weight:600}
+sup.cite{font-size:.7em;line-height:0}
+sup.cite a{text-decoration:none;padding:0 .1em}
+.close{border-top:1px solid var(--line);padding-top:1.5rem}
+footer{color:var(--muted);font-size:.9rem;padding-bottom:3rem;border-top:1px solid var(--line);margin-top:2rem}
+.register{border-collapse:collapse;width:100%;font-size:.85rem}
+.register th,.register td{border-top:1px solid var(--line);padding:.4rem;vertical-align:top;text-align:left;overflow-wrap:anywhere}
+.recheck{color:var(--warn);font-weight:600}
+main:has(.register){max-width:72rem}

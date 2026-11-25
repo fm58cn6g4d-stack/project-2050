@@ -1,0 +1,2257 @@
+{
+  "schema_version": 1,
+  "source_commit": "d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525",
+  "source_label": "main after PR #492, November 25, 2026",
+  "edition_label": "Draft for review, November 25, 2026",
+  "title": "A day in 2050",
+  "description": "One ordinary day in one town in 2050, and the laws behind it: what each one does, when it starts, what it costs and where it falls short.",
+  "config": {
+    "frame": "town",
+    "money_position": "last",
+    "optional_scenes": {
+      "transportation": true
+    }
+  },
+  "intro": [
+    "Picture an ordinary town on an ordinary day in 2050. Nobody in it is rich. Most people work, some are raising children, some are caring for a parent, a few have just lost a job. What is different is that the floor under them holds.",
+    "Every scene below is imagined: the people are composites, not real people, and the town is not a real place. But each scene shows one thing that would be different because of a law Project 2050 would pass, starting in January 2029,{c:plan-start} and each one says when that law begins, what it costs, and where it still falls short. Open any scene to see the details, the hard questions and the evidence behind every figure."
+  ],
+  "reading_key": [
+    [
+      "An imagined scene.",
+      "The people and the town are composites. Nothing here is a forecast."
+    ],
+    [
+      "Our analysis, not an official score.",
+      "Costs and effects are the project's own estimates on its own models, marked \"on our estimates\" or \"about\". No official scorekeeper has scored the plan."
+    ],
+    [
+      "Dated promises.",
+      "Each scene shows only what its law has started by 2050, and says when each part begins."
+    ],
+    [
+      "Every figure traced.",
+      "A small number after a sentence leads to the passage in the project's records that the figure comes from."
+    ],
+    [
+      "Laws that need votes.",
+      "Most of these laws need a supermajority in the Senate or a change to its rules; each scene shows what happens if its law passes."
+    ]
+  ],
+  "principles": [
+    {
+      "title": "Freedom you can use",
+      "body": "A right matters more when you have the time, security and support to exercise it: to care for someone, change jobs, learn, make a home and take part in your community."
+    },
+    {
+      "title": "A society that cares for its people",
+      "body": "Children should grow up without poverty. Illness, disability and aging should bring dependable support, and the people who give care deserve the pay and respect that make good care possible."
+    },
+    {
+      "title": "Power that answers to people",
+      "body": "Voting should be easy and secure, money should not drown out citizens, and the officials who serve the public should not profit from what they know."
+    },
+    {
+      "title": "Responsibility across generations",
+      "body": "Pay honestly for what we promise, say who pays, and leave the next generation a cleaner country and a government that works."
+    }
+  ],
+  "people": {
+    "tasha": {
+      "name": "Tasha",
+      "about": "a warehouse worker raising two children, Jay and Mia",
+      "household": "tasha"
+    },
+    "ruth": {
+      "name": "Ruth",
+      "about": "Tasha's mother, who has dementia and lives with Tasha's brother",
+      "household": "tasha"
+    },
+    "sam": {
+      "name": "Sam",
+      "about": "Tasha's brother, a lineworker who once worked at the coal plant",
+      "household": "tasha"
+    },
+    "elena": {
+      "name": "Elena",
+      "about": "Sam's wife, who came to the country as a young woman",
+      "household": "tasha"
+    },
+    "carmen": {
+      "name": "Carmen",
+      "about": "Tasha's sister, a nursing assistant on night shifts, with two children",
+      "household": "tasha"
+    },
+    "leah": {
+      "name": "Leah",
+      "about": "Carmen's daughter, just old enough to vote",
+      "household": "tasha"
+    },
+    "ana": {
+      "name": "Ana",
+      "about": "a neighbor with a new baby",
+      "household": "ana"
+    },
+    "maria": {
+      "name": "Maria",
+      "about": "a teacher at the child care center",
+      "household": "maria"
+    },
+    "rosa": {
+      "name": "Rosa",
+      "about": "a restaurant worker",
+      "household": "rosa"
+    },
+    "luis": {
+      "name": "Luis",
+      "about": "a machinist who lost his job when his plant closed",
+      "household": "luis"
+    },
+    "denise": {
+      "name": "Denise",
+      "about": "a home health aide who lives upstairs from Carmen",
+      "household": "denise"
+    },
+    "linda-ray": {
+      "name": "Linda and Ray",
+      "about": "a retired couple on Social Security",
+      "household": "linda-ray"
+    },
+    "tomas": {
+      "name": "Tomas",
+      "about": "a cook who has lived in the town for decades",
+      "household": "tomas"
+    }
+  },
+  "family": "tasha",
+  "orders": {
+    "town": [
+      "floor",
+      "childcare",
+      "clinic",
+      "longterm",
+      "work",
+      "home",
+      "power",
+      "immigration",
+      "democracy",
+      "transit",
+      "money"
+    ],
+    "family": [
+      "floor",
+      "childcare",
+      "clinic",
+      "work",
+      "longterm",
+      "home",
+      "power",
+      "immigration",
+      "democracy",
+      "transit",
+      "money"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "floor",
+      "time": "6:30 am",
+      "place": "A kitchen",
+      "title": "The money comes on the first",
+      "flagship": "A secure floor",
+      "illustration": "Early light in a small kitchen. A mother glances at her phone while making breakfast; two children at the table, one still in pajamas. Through the window, a neighbor on her porch holds a newborn.",
+      "beats": [
+        {
+          "person": "tasha",
+          "text": "The phone buzzes before the coffee is ready: the child benefit is in, as it is on the first of every month. Tasha never applied for it. It started from her children's birth records, and it comes whether her hours were good this month or not."
+        },
+        {
+          "person": "ana",
+          "text": "Next door, Ana is home with her new baby on paid leave, at most of her pay, and her job is waiting for her when she goes back."
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "A monthly child benefit for working and middle-class families: $300 a month for each child from 6 to 17 and $360 for each child under 6, in 2025 dollars and rising with prices.{c:afa-amounts} Every family below about $150,000 for couples ($112,500 for single parents), adjusted for inflation, gets the full amount, however little the parents earn.{c:afa-phaseout}",
+          "It starts from records the government already holds, so families do not have to apply. A parent confirms a letter instead of filling out a form.",
+          "Twelve weeks of paid leave for a new child, a family member's serious illness or your own, run by Social Security, paying 85% of the first part of your wages, with your job back once the 2030 Social Security act passes.{c:leave}{c:leave-start}",
+          "Workers without children get a real earned income credit, and food help cut by the 2025 law is restored.{c:floor-other} A Social Security act promises full benefits on time, with a stronger minimum benefit and credit for caregiving years."
+        ],
+        "begins": [
+          "The child benefit and the workers' credit from 2030.{c:floor-start}",
+          "Paid leave from 2031; the contributions that pay for it start in 2030.{c:leave-start}"
+        ],
+        "cost": [
+          "On our estimates the child benefit costs about $1.85 trillion over 2030-39, and the whole floor about $298 billion in 2040 on the general fund, before the plan's financing.{c:floor-cost}",
+          "On our estimates a worker earning $60,000 pays $180 a year toward paid leave to start.{c:leave-cost}"
+        ],
+        "limits": [
+          "On our estimates child poverty falls to about 9%, about a third lower than today. That is a large cut, not an end to child poverty.{c:child-poverty}",
+          "Couples above about $210,000 get somewhat less than the credit they would otherwise get.{c:afa-top}"
+        ],
+        "questions": [
+          {
+            "q": "Won't people stop working?",
+            "a": [
+              "Studies of the monthly payments families got in 2021 found no effect on employment. Even the economists who expect some parents to leave work find child poverty falls substantially.{c:work-effect}"
+            ]
+          },
+          {
+            "q": "Why do higher earners get less?",
+            "a": [
+              "Because it is a benefit for working and middle-class families. The full amount goes to every family below about $150,000 for couples, and it falls gradually above that.{c:afa-phaseout}"
+            ]
+          }
+        ],
+        "brief": "dossiers/secure-floor/9-public-case.md",
+        "dossier": "dossiers/secure-floor/README.md",
+        "models": [
+          "MOD-household"
+        ]
+      }
+    },
+    {
+      "id": "childcare",
+      "time": "7:45 am",
+      "place": "A child care center",
+      "title": "Drop-off, and nothing to pay",
+      "flagship": "Care: child care and pre-K",
+      "illustration": "A bright child care room at drop-off. A small girl runs in ahead of her mother toward a teacher kneeling to greet her; cubbies, paintings, a window onto the street.",
+      "beats": [
+        {
+          "person": "tasha",
+          "text": "Mia runs in ahead of her mother. Tasha pays nothing: her family's income is below 85% of the state's median.{c:cc-free}"
+        },
+        {
+          "person": "maria",
+          "text": "Her teacher, Maria, once earned what a fast-food job pays. Now she is paid like the teachers at the elementary school down the street.{c:cc-parity}"
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "Child care is free for families at or below 85% of their state's median income, and no family pays more than 7% of its income for it, with no income limit.{c:cc-free}{c:cc-cap}",
+          "Pre-K is free for every 3- and 4-year-old, in schools, Head Start, centers and family child care alike.{c:prek}",
+          "Child care and pre-K staff earn at least $20 an hour in 2026 dollars, rising with wages, and early educators reach pay parity with elementary teachers.{c:care-wage}{c:cc-parity}"
+        ],
+        "begins": [
+          "Free care at or below 85% of median income, and free pre-K for 4-year-olds, from the 2030-31 school year; the 7% cap from July 2032; free pre-K for 3-year-olds by 2033-34.{c:cc-dates}",
+          "The $20 floor for child care staff from the 2030-31 school year, and pay parity by the 2036-37 school year.{c:care-wage}{c:cc-parity}"
+        ],
+        "cost": [
+          "Child care, pre-K, long-term care and the care workforce together cost about $750 billion in 2040 on our estimates, about 1.4% of the economy, as priced before the financing settlement moved more of long-term care onto the states. Most of it replaces what families now pay themselves or give in unpaid care.{c:care-cost}"
+        ],
+        "limits": [
+          "Free care reaches about half of families with young children, on our estimates; everyone else pays up to 7% of income.{c:cc-half}{c:cc-cap}",
+          "School-age care is not made free: children 5 to 12 keep today's child care block grant.{c:school-age}"
+        ],
+        "questions": [
+          {
+            "q": "Why not free child care for everyone?",
+            "a": [
+              "Free for every family would cost more and would mostly help families who can already pay. Capping everyone else at 7% of income means no family faces a cliff.{c:cc-cap}"
+            ]
+          },
+          {
+            "q": "Why should parents who aren't working get child care?",
+            "a": [
+              "Most families with young children already have every parent working. A work test mostly catches parents who are looking for work or in school, and it adds paperwork every time a job changes."
+            ]
+          }
+        ],
+        "brief": "dossiers/care/9bcd-public-case.md",
+        "dossier": "dossiers/care/README.md",
+        "models": [
+          "MOD-household",
+          "MOD-budget"
+        ]
+      }
+    },
+    {
+      "id": "clinic",
+      "time": "9:00 am",
+      "place": "A clinic",
+      "title": "No bill at the desk",
+      "flagship": "Care: health",
+      "illustration": "A neighborhood clinic waiting room, unhurried. A woman in a server's apron talks with a doctor at the door of an exam room; a boy sits on a bench swinging his legs beside his mother. No payment window.",
+      "beats": [
+        {
+          "person": "rosa",
+          "text": "Rosa, who waits tables, sees a doctor about a cough that won't quit. She shows her plan card, and there is no bill at the desk. She was enrolled automatically from her tax return, and she pays no premium and no deductible."
+        },
+        {
+          "person": "tasha",
+          "text": "Down the hall, Jay gets his school checkup. No charge for that either: primary care and prevention are free for everyone."
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "One public health plan for everyone who lives here with legal or registered status: hospital, doctor, prescriptions, mental health and addiction care, maternity, reproductive care including abortion, dental, vision and hearing. No premiums, no deductibles, no networks, and enrollment happens automatically.",
+          "No charge at all for primary care, prevention, maternity, mental health or chronic-condition drugs, and none for anyone under twice the poverty line. Above that, small copays for other care, capped at about $1,000 a year on our working figure.{c:copay-cap}",
+          "Hospitals are paid a fair rate, on a five-year glide to about 1.15 times Medicare's, where employer plans paid 254% of Medicare in 2022.{c:hospital-rates}"
+        ],
+        "begins": [
+          "From 2029 the 2025 law's Medicaid cuts are undone. From January 1, 2031, everyone uninsured, everyone who buys their own insurance and every child is enrolled, and people on Medicare get a $5,000 yearly cap on what they pay.{c:hlt-dates}",
+          "People on Medicaid and with job-based coverage move in over 2033 to 2035, and everyone is in by January 1, 2035.{c:hlt-dates}"
+        ],
+        "cost": [
+          "On our estimates the country spends about $491 billion a year less on health care at full scale, while households stop paying about $1.55 trillion a year in premiums and out-of-pocket costs.{c:hlt-national}",
+          "Premiums give way to a health contribution on income: in the plan as it stands, 3.80% from 2035, with nothing owed at or below 138% of poverty, rising to the full rate at 250%.{c:hc-rate}",
+          "The federal budget's cost rises by far more than the country saves, because the government now pays what premiums used to. The health contribution and the taxes in the money scene, at the end of the day, pay for it."
+        ],
+        "limits": [
+          "People with no immigration status get emergency care, not the plan, so we don't say every person in the country is covered.",
+          "Taxes go up for most people, even as premiums and deductibles go away."
+        ],
+        "questions": [
+          {
+            "q": "Will my taxes go up?",
+            "a": [
+              "Yes, for most people. Premiums, deductibles and most copays go away, and a contribution on income takes their place, with nothing owed at or below 138% of poverty.{c:hc-rate} Across the whole plan, on our estimates, every fifth of households below the top comes out ahead on average.{c:d3} The money scene at the end of the day shows how."
+            ]
+          },
+          {
+            "q": "Will I wait longer for care?",
+            "a": [
+              "Waits may grow at first, as the Congressional Budget Office expects for any single-payer plan. The plan starts with smaller groups, keeps a small copay where care is scarcest, and pays doctors and hospitals above Medicare's rates."
+            ]
+          }
+        ],
+        "brief": "dossiers/care/9-public-case.md",
+        "dossier": "dossiers/care/README.md",
+        "models": [
+          "MOD-health-coverage"
+        ]
+      }
+    },
+    {
+      "id": "longterm",
+      "time": "10:30 am",
+      "place": "A living room",
+      "title": "Help at home, savings intact",
+      "flagship": "Care: long-term care",
+      "illustration": "A sunny living room. A home care aide helps an older woman with her cardigan; a photo of her family on the shelf, a calendar with the aide's visits marked.",
+      "beats": [
+        {
+          "person": "ruth",
+          "text": "An aide arrives to help Ruth through her morning. Her son Sam is at work. Nobody asked Ruth to spend her savings down first: long-term care is part of the public health plan, with no asset test."
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "Help at home and the care part of nursing-home stays are part of the single public health plan, for anyone of any age who needs help with three daily activities or has a serious cognitive impairment, with no asset test and no estate recovery.{c:ltc}",
+          "The top tier of help at home is funded at the level of nursing-home care, so a person who needs the most help can get it at home.",
+          "Home care and nursing home workers paid with public money earn at least $20 an hour in 2026 dollars, rising with wages.{c:care-wage}"
+        ],
+        "begins": [
+          "A five-year bridge from 2030: more money for home care, tied to shorter waits; estate recovery ends, and Medicaid's savings limit rises to $10,000 for a single person.{c:ltc-bridge}",
+          "The $20 floor for home care and nursing home workers from January 2030.{c:care-wage}",
+          "The benefit from January 2035, with new users phased in over its first two years, the heaviest needs first.{c:ltc}"
+        ],
+        "cost": [
+          "Part of the care package's cost of about $750 billion in 2040, on our estimates.{c:care-cost} The states keep paying what they spend on long-term care today.{c:states-ltc}"
+        ],
+        "limits": [
+          "Whether a family member can be paid to give care depends on the rules in their state today, until a national study reports.{c:relatives}",
+          "It is not free long-term care: there are capped copays above twice the poverty line, and nursing-home residents pay a capped share of the care and room and board from their income."
+        ],
+        "questions": [
+          {
+            "q": "Will my parent lose their home to pay for a nursing home?",
+            "a": [
+              "No. The plan pays for most of the care, with no asset test. Residents pay a capped share, and room and board, from their income, keep a protected allowance, and a spouse at home keeps the income they need."
+            ]
+          },
+          {
+            "q": "Won't care workers be hard to find?",
+            "a": [
+              "Yes, and it is the hardest part. Pay comes first, because it has the best evidence for keeping workers, and new users of help at home are phased in, the heaviest needs first."
+            ]
+          }
+        ],
+        "brief": "dossiers/care/9bcd-public-case.md",
+        "dossier": "dossiers/care/README.md",
+        "models": [
+          "MOD-health-coverage",
+          "MOD-budget"
+        ]
+      }
+    },
+    {
+      "id": "work",
+      "time": "12:00 pm",
+      "place": "A warehouse break room",
+      "title": "A raise that keeps up",
+      "flagship": "Work",
+      "illustration": "A warehouse break room at noon. A woman reads a pay stub at a table; on the bulletin board behind her, a union contract summary and a posted schedule. Through a window, a man in work clothes walks into a machine shop across the street.",
+      "beats": [
+        {
+          "person": "tasha",
+          "text": "On her break Tasha reads her pay stub. The wage floor went up again this January, as it does every year with the median wage, so a raise never has to wait for Congress again."
+        },
+        {
+          "person": "tasha",
+          "text": "Her coworkers voted in their union by signing cards, and their first contract came on a deadline instead of after years of delay."
+        },
+        {
+          "person": "luis",
+          "text": "Across the street, Luis took a job paying $24 an hour after his plant closed, against his old $32. Wage insurance pays him $4 for every hour he works, for two years.{c:wage-ins}"
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "The federal minimum wage rises in yearly steps to $17.00 an hour, then rises each year with the median wage, and never falls.{c:wage-steps}",
+          "A union is certified when a majority of workers sign cards, and can still choose an election, held within 20 days. Bargaining starts within 10 days, with mediation and then binding arbitration on a timetable.{c:card-check}",
+          "Penalties of up to $50,000 per violation, sought in federal court, and workers can sue on their own if the labor board does not act.{c:penalties}",
+          "Wage insurance: a worker who loses a job held three years and takes a lower-paid one gets half the hourly drop for each hour worked, up to $10,000 a year, for two years, whatever caused the loss.{c:wage-ins}"
+        ],
+        "begins": [
+          "$9.50 on January 1, 2030, then yearly steps to $17.00 on January 1, 2035, then with the median wage.{c:wage-steps}",
+          "Card check and first-contract deadlines when the labor act is signed, about mid-2029 on the plan's timeline.{c:labor-act}",
+          "Wage insurance and stronger unemployment insurance in every state from January 1, 2031.{c:ui-dates}"
+        ],
+        "cost": [
+          "About $0.22 trillion over 2030-39 and about $31 billion a year from 2040 on the federal budget, on our estimates, assuming no recession.{c:work-cost} Bigger unemployment benefits are paid by employers' state taxes, which roughly double."
+        ],
+        "limits": [
+          "The rules ride the labor act, the hardest vote in the plan: it needs 60 Senate votes or a change to the Senate's rules, and if it is signed after June 30, 2029, every wage step moves later.{c:labor-act}",
+          "One group keeps less of a raise for a while: on our estimates a single adult buying marketplace coverage in a state that has not expanded Medicaid keeps about 39% of a raise to $12.50 in 2032, against 59% under 2029 law, and 52-59% from 2035. The fix is still open.{c:line-cook}"
+        ],
+        "questions": [
+          {
+            "q": "Won't a higher minimum wage cost jobs?",
+            "a": [
+              "It may cost some. The Congressional Budget Office put $15 by 2025 at 1.3 million to 1.4 million fewer jobs; other careful studies find little or no loss in the range states have tried.{c:jobs} The floor reaches $17 in 2035, when on our estimates it is about half the median wage, in yearly steps, with a pause if unemployment is rising.{c:wage-bite}"
+            ]
+          },
+          {
+            "q": "Doesn't card check end the secret ballot?",
+            "a": [
+              "No. A union can still choose an election, held within 20 days, and mandatory anti-union meetings end.{c:card-check}"
+            ]
+          }
+        ],
+        "brief": "dossiers/work/9-public-case.md",
+        "dossier": "dossiers/work/README.md",
+        "models": [
+          "MOD-household"
+        ]
+      }
+    },
+    {
+      "id": "home",
+      "time": "2:00 pm",
+      "place": "An apartment",
+      "title": "A lease of their own",
+      "flagship": "Housing",
+      "illustration": "A modest apartment on moving day: boxes half unpacked, two children claiming a bedroom, their mother holding a set of keys. On the stairwell above, a woman in scrubs talks with a legal aid lawyer holding a folder.",
+      "beats": [
+        {
+          "person": "carmen",
+          "text": "Carmen and her two children spent a year on Tasha's couch after an eviction. Now they have their own lease: a rent award, with someone to help them search, and rent they can pay."
+        },
+        {
+          "person": "denise",
+          "text": "Upstairs, Denise, a home health aide whose hours were cut, found a notice on her door last month. The emergency fund paid her back rent after checking that the landlord really owns the building, and a lawyer helped her answer the notice."
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "A million new rent awards from 2030 to 2033, paid as permanent spending so they never lapse in a budget fight, first for people with no home of their own: people who are homeless, families doubled up with others, and people leaving prison, a hospital or foster care with nowhere to go.{c:awards}",
+          "A standing emergency fund for back rent, utilities, a deposit or moving costs, up to four months of the area's rent in a year, with legal help besides.{c:emergency}",
+          "Housing First: a home without first proving sobriety or entering treatment, with services offered.",
+          "A program for the poorest families with children, enrolling up to 300,000 families a year within a capped budget, with a right for the whole group named in law as a goal for the 2040s.{c:stage2}",
+          "Homes built and repaired that stay affordable for good, repairs for low-income owners, and property-tax help for older owners in states that join."
+        ],
+        "begins": [
+          "Rent awards from 2030, 250,000 a year through 2033.{c:awards}",
+          "The emergency fund from 2030, with $15 billion in its first two years.{c:emergency}",
+          "The families' program from 2034, and a review in 2041 of making it a right.{c:stage2}"
+        ],
+        "cost": [
+          "About $0.81 trillion over 2030-39 and about $110 billion in 2040 as first priced, on our estimates. Capping the families' program in the financing settlement lowers the 2040 figure by about $18.6 billion.{c:home-cost}"
+        ],
+        "limits": [
+          "A single adult who pays most of his income in rent, but is not homeless, not disabled and not raising children, has no funded route to rent help beyond the emergency fund in a crisis.{c:not-reached}",
+          "Vouchers help only if families can use them. The plan assumes 90% of awards lead to a lease; the closest recent program reached 67% after about two years. That is the plan's weakest number.{c:leaseup}",
+          "The program for the poorest families is capped: families compete by need, not by right, until a later Congress votes to make it a right.{c:stage2}"
+        ],
+        "questions": [
+          {
+            "q": "Does this end homelessness?",
+            "a": [
+              "No one should promise that. For a family that gets a voucher, the effect is large and well tested. How far the national count falls is unknown, because people keep losing homes."
+            ]
+          },
+          {
+            "q": "Will landlords take the vouchers?",
+            "a": [
+              "Housing agencies are paid their full fees for the new awards so they can recruit landlords, search help comes with every award, and a national rule would make it illegal to turn someone away just for paying with a voucher. That rule needs a regular bill to pass."
+            ]
+          }
+        ],
+        "brief": "dossiers/home/9-public-case.md",
+        "dossier": "dossiers/home/README.md",
+        "models": []
+      }
+    },
+    {
+      "id": "power",
+      "time": "4:00 pm",
+      "place": "A front porch as a storm comes in",
+      "title": "Storm season, dividend day",
+      "flagship": "Clean power",
+      "illustration": "A retired couple on a porch as dark clouds roll in; porch light on, wind in the trees. In the distance a line crew in a bucket truck works on a new transmission line; a solar field and wind turbines on the far hills.",
+      "beats": [
+        {
+          "person": "linda-ray",
+          "text": "Linda and Ray watch the storm roll in from their porch. Their Climate Dividends arrive with their Social Security, four times a year, and there has never been a carbon charge on their gas bill."
+        },
+        {
+          "person": "sam",
+          "text": "Sam is out in the storm with his line crew. When the coal plant he worked at closed, he trained as a lineworker at 90% of his old pay, and the county got its lost tax revenue back, a little less each year, while it rebuilt.{c:guarantee}"
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "Power plants and large factories pay for the carbon they put in the air, and most of the money comes back to every adult as a Climate Dividend, paid four times a year, tax-free, with the first payment going out before the price begins. There is no charge on your gas bill or at the pump.{c:carbon-price}",
+          "Clean power and the grid built faster: a clean electricity standard of 80% by 2035 and 100% by 2040, and a public builder for needed lines no one else will build.{c:ces}",
+          "Help with energy bills that comes to you: a credit for households already getting SNAP, SSI or energy help, with no new application.",
+          "Money for every state and tribe to prepare for disasters, and a federal backstop for insurers in a catastrophic year.",
+          "A guarantee for workers when a mine, power plant or refinery closes: up to 90% of their old pay for two years, in a new job or in training, and lost local tax revenue replaced over ten years.{c:guarantee}"
+        ],
+        "begins": [
+          "The carbon price from 2030, at $25 a ton, reaching $150 by 2037.{c:carbon-price}",
+          "The bill credit from the winter of 2030-31.{c:bill-credit}",
+          "The worker guarantee for closures from 2030.{c:guarantee}"
+        ],
+        "cost": [
+          "About $1.73 trillion over 2030-39 on our estimates, a little below what the plan first set aside for these purposes, and about $84 billion in 2040.{c:power-cost}",
+          "On our estimates the dividend is about $405 an adult in 2035, in that year's dollars; it moves with what polluters pay, and shrinks as pollution falls.{c:dividend}"
+        ],
+        "limits": [
+          "Electricity costs somewhat more while the clean grid is built: on our estimates the average price is about a tenth higher than under current law by 2040. On the carbon price and the dividend alone, on our estimates, the lowest-income two-fifths of households come out ahead on average, nationally.{c:bills}",
+          "It does not reach the 2035 climate goal, a 61-66% cut from 2005, on its own: on our estimates carbon emissions from energy fall about 41% below 2005 by 2035.{c:emissions}",
+          "The worker guarantee covers closures, not every oil and gas job."
+        ],
+        "questions": [
+          {
+            "q": "Isn't this a carbon tax?",
+            "a": [
+              "It is a price on the biggest polluters: power plants and large industrial facilities. Households pay no charge of their own, and most of the money goes back to every adult, with the first payment made before the price begins."
+            ]
+          },
+          {
+            "q": "Didn't Canada try this and drop it?",
+            "a": [
+              "Canada dropped its charge on consumers and kept the price on large emitters. This plan is the part Canada kept."
+            ]
+          }
+        ],
+        "brief": "dossiers/clean-power/9-public-case.md",
+        "dossier": "dossiers/clean-power/README.md",
+        "models": [
+          "MOD-energy"
+        ]
+      }
+    },
+    {
+      "id": "immigration",
+      "time": "5:30 pm",
+      "place": "The courthouse steps",
+      "title": "Earned, not given",
+      "flagship": "Immigration",
+      "illustration": "Late-afternoon light on courthouse steps. A man in a cook's jacket holds up a certificate for a photo; a woman beside him laughs. Further up the steps, a family with a small child talks with a lawyer.",
+      "beats": [
+        {
+          "person": "tomas",
+          "text": "Tomas, a cook who has lived here for decades, stands on the courthouse steps with his citizenship papers. He earned his green card after a fingerprint check and a criminal check, proving his years here from tax records the government already held."
+        },
+        {
+          "person": "elena",
+          "text": "Sam's wife, Elena, takes the photo. She came later. She registered once sign-ups opened, worked legally on her filing receipt, and got her green card when she reached ten years here."
+        },
+        {
+          "person": null,
+          "text": "Inside, a family that crossed the border in last spring's surge hears the decision on their asylum claim, a few months after they filed, not years."
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "Earned legal status: people who have lived here ten years or more get a green card after fingerprints and a criminal check, and so do Dreamers and people who have held temporary protection. Everyone else here on the day the law is signed can register, work legally and be protected from deportation while they reach ten years.{c:earned}",
+          "Legal lines fixed: more family and employment green cards, and spouses and children of permanent residents no longer wait in line.",
+          "Trained asylum officers decide claims within 180 days of filing, and in about 90 days in a surge, with more officers instead of a ban on asking for protection.{c:asylum}",
+          "ICE is replaced, enforcement is focused by law on threats to security, serious crime and recent unlawful entry, and no more than 30,000 people are held on average, outside a declared surge.{c:detention}"
+        ],
+        "begins": [
+          "Filing for legal status from late 2030.{c:imm-dates}",
+          "Workplace checks with E-Verify no earlier than October of the year after the law passes, and only once an independent inspector confirms legal status is up and running.{c:everify}"
+        ],
+        "cost": [
+          "About $0.15 trillion over 2030-39 and about $22.5 billion in 2040, on our estimates.{c:imm-cost}"
+        ],
+        "limits": [
+          "Surges will still happen. The plan meets them with more officers and a faster track, not a promise that they stop.",
+          "Not everyone who qualifies will apply; our estimates assume about 70% do.{c:takeup}"
+        ],
+        "questions": [
+          {
+            "q": "Isn't this amnesty?",
+            "a": [
+              "It is earned status: ten years here, fingerprints and a criminal check, under the registry already in immigration law, whose date has been stuck at 1972 since 1986.{c:registry}"
+            ]
+          },
+          {
+            "q": "Will my information be used to deport my family?",
+            "a": [
+              "No. The law bars using registration or program records for immigration enforcement, with penalties, except under a criminal warrant for a named person."
+            ]
+          }
+        ],
+        "brief": "dossiers/immigration/9-public-case.md",
+        "dossier": "dossiers/immigration/README.md",
+        "models": [
+          "MOD-immigration"
+        ]
+      }
+    },
+    {
+      "id": "democracy",
+      "time": "7:00 pm",
+      "place": "The public library",
+      "title": "A meeting that anyone can join",
+      "flagship": "Democratic renewal",
+      "illustration": "An evening town meeting in a public library: folding chairs, a candidate speaking without a podium, a young woman in the second row with a voter card in her hand. Bookshelves and a children's corner behind.",
+      "beats": [
+        {
+          "person": "leah",
+          "text": "Carmen's daughter Leah is at her first town meeting. She is newly old enough to vote, and she is already registered: the state did it from the records it holds and mailed her a notice."
+        },
+        {
+          "person": null,
+          "text": "The candidate speaking tonight raised her money from small gifts, matched six to one: a $25 gift brought her campaign $175.{c:match}"
+        },
+        {
+          "person": "tasha",
+          "text": "Earlier, Tasha called Social Security about her mother's benefits, and someone picked up. The office is staffed again."
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "Registration done by the state from records it already holds, with a mailed notice and a way to decline; any current government, tribal, student or benefit card as identification, or a signed statement; mail voting without an excuse and at least two weeks of early voting.",
+          "Preclearance returns for places with a record of recent violations, and until the next census redistricting no state may redraw its congressional map in the middle of a decade.",
+          "Small in-state gifts up to $200 matched six to one for House and Senate candidates who opt in.{c:match}",
+          "No individual stocks for members of Congress and top officials, without a forced sale; a binding code for the Justices and eighteen-year terms for future Justices.",
+          "The agencies every other promise runs through are rebuilt, about 54,000 added staff across six of them, with money released as each agency hires.{c:rebuild}"
+        ],
+        "begins": [
+          "The voting floor from the first federal general election at least 180 days after the democracy act: November 5, 2030, if it is law by May 9, 2030.{c:dem-start}",
+          "Matched small gifts from the 2032 elections on the plan's working timeline.{c:match}",
+          "The agency rebuild in the first budget act of 2029.{c:rebuild}"
+        ],
+        "cost": [
+          "About $503 billion over 2030-39 and $51.6 billion in 2040, on our estimates, about three-quarters of it the agency rebuild.{c:dem-cost}"
+        ],
+        "limits": [
+          "Most of this needs 60 Senate votes or a change to the Senate's rules.{c:dem-votes}",
+          "Some of it may be struck down in court. Each risky part is written to fall alone, so the rest stands.",
+          "No turnout gain is promised: each rule's effect comes from separate studies, and rules interact."
+        ],
+        "questions": [
+          {
+            "q": "Isn't the stock ban a forced sale?",
+            "a": [
+              "No. A covered official complies by holding diversified funds, by a qualified blind trust, or by selling, with no immediate tax on a sale made to comply."
+            ]
+          },
+          {
+            "q": "Why rebuild the agencies first?",
+            "a": [
+              "Because every other promise runs through them. A child benefit, a health plan or a rent award is only as good as the office that delivers it, so the money is released as each agency hires against a published path."
+            ]
+          }
+        ],
+        "brief": "dossiers/foundations/democratic-renewal/9-public-case.md",
+        "dossier": "dossiers/foundations/democratic-renewal/README.md",
+        "models": [
+          "MOD-budget"
+        ]
+      }
+    },
+    {
+      "id": "transit",
+      "optional": "transportation",
+      "time": "10:00 pm",
+      "place": "A night bus",
+      "title": "The route that survived",
+      "flagship": "Transportation",
+      "illustration": "A lit city bus crossing a newly repaired bridge at night. Inside, a woman in scrubs leans her head against the window; a few other riders on their way to night shifts.",
+      "beats": [
+        {
+          "person": "carmen",
+          "text": "Carmen rides the bus into the city for her night shift at the hospital. The route survived because the city kept its own funding to qualify for help with running costs, and the bridge on the way was repaired, on a list of bridges the state publishes."
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "Repair first, with states publishing which roads and bridges are falling behind: a program to rebuild the Interstate and its bridges, help to keep transit running in big cities, and passenger rail paid out only as projects prove they are ready.",
+          "The gas tax rises with prices, plus ten small steps that pause when gas prices spike. Electric cars pay by the mile, at what an efficient gas car pays, read from the odometer, with no tracking device.",
+          "The heaviest trucks pay by weight and miles, instead of a flat $550 that hasn't changed since 1984.{c:trucks}"
+        ],
+        "begins": [
+          "The new fuel and mileage charges start first; the 2031 transportation law takes effect on October 1, 2031, with its outright ban on collecting location data.{c:mov-dates}"
+        ],
+        "cost": [
+          "For a typical gas car, federal fuel tax goes from $88 a year today to $225 in 2036, on our estimates; an electric car pays $141.{c:fuel-cost}"
+        ],
+        "limits": [
+          "Our figures assume people don't drive less when fuel taxes rise, so the revenue is an upper bound.",
+          "The plan narrows the Interstate's repair gap; it does not close it."
+        ],
+        "questions": [
+          {
+            "q": "Will the government track my car?",
+            "a": [
+              "No. The charge reads only the odometer, the readings are private tax information, and the law bans collecting location data outright and deletes readings after three years.{c:mov-dates}"
+            ]
+          }
+        ],
+        "brief": "dossiers/agenda/transportation/9-public-case.md",
+        "dossier": "dossiers/agenda/transportation/README.md",
+        "models": [
+          "MOD-transportation"
+        ]
+      }
+    },
+    {
+      "id": "money",
+      "time": "Night",
+      "place": "The end of the day",
+      "title": "The money, told plainly",
+      "flagship": "Fair financing",
+      "illustration": "The town at night from a hill: houses, the clinic, the warehouse, the library, a bus crossing the bridge, a few lit windows. No people in focus.",
+      "beats": [
+        {
+          "person": null,
+          "text": "The lights go out across town. Here is what all of it costs, who pays, and who comes out ahead."
+        }
+      ],
+      "detail": {
+        "what_changed": [
+          "The top end and corporations pay first: the corporate rate rises to 28%, the top income tax rate returns to 39.6% for the highest earners, a new 45% bracket applies to incomes in the millions, and the 2025 law's tax cuts are reversed at the top.{c:top-rows}",
+          "On our estimates the top 1% and corporations bear 65% of the plan's new general revenue over 2030-39, leaving out the health contribution that replaces premiums.{c:mix}",
+          "Premiums give way to a health contribution on income: 3.80% from 2035 in the plan as it stands, with nothing owed at or below 138% of poverty, rising to the full rate at 250%. A separate payroll contribution of 1.65 points funds the education fund.{c:hc-rate}{c:edu}",
+          "Spending gives way too, across the whole federal budget: the plan drops its own $300 adult credit, the states keep paying their full current share of long-term care, defense is held flat after inflation after 2036 and restructured, crop insurance is reformed for the insurers and the largest farms, and a tax break for real-estate investors ends.{c:cuts}",
+          "From 2040 to 2056, on our estimates, the plan's new spending is covered every year by its taxes, its savings elsewhere in the budget and the states' payments, by a thin margin at first. That is not the same as a balanced federal budget.{c:closes}",
+          "The plan would repeal the debt limit in 2029, so it can never again be used to threaten a default.{c:debt-limit}"
+        ],
+        "begins": [],
+        "cost": [
+          "Who comes out ahead: on our estimates every fifth of households below the top comes out ahead on average, over 2030-39 and in each of the years we checked. These are averages: many households within each fifth differ.{c:d3}",
+          "The financing settlement doesn't touch Social Security, which has its own act and its own financing.{c:ss}"
+        ],
+        "limits": [
+          "On our estimates the margin is thin until the mid-2040s, and the plan's first decade runs short, most in its later years as programs reach full scale.{c:thin}",
+          "If health spending runs above its path, or the wealth tax is struck down, a backstop written into law raises the health contribution a quarter point at a time to cover it.{c:backstop}",
+          "Some of the money rests on working assumptions about how much the new taxes raise; if they raise less, a later Congress has to find the difference.",
+          "These are our analysis on the project's own models, not official scores."
+        ],
+        "placeholders": [
+          {
+            "id": "debt-path",
+            "title": "The debt path",
+            "text": "To come: the path of the national debt under the plan, once it is confirmed.",
+            "waits_on": "Stage G step 9 (PRs #490 and #493) and Espen's batch 4 (G23)"
+          },
+          {
+            "id": "take-home",
+            "title": "Take-home pay",
+            "text": "To come: how many workers take home more or less once the health contribution replaces premiums.",
+            "waits_on": "Stage G step 9 and Espen's batch 4 (G23-G25)"
+          },
+          {
+            "id": "later-revenue",
+            "title": "Later revenue",
+            "text": "To come: whether and how the plan raises more revenue in later years, and how the health contribution moves.",
+            "waits_on": "Stage G step 9 and Espen's batch 4 (G24)"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Is it paid for?",
+            "a": [
+              "From 2040 on, on our estimates, yes: every year the plan's new spending is covered by its own taxes, savings and state payments, with the top end and corporations paying first.{c:closes} Its first decade runs short, and its margin is thin until the mid-2040s.{c:thin}"
+            ]
+          },
+          {
+            "q": "Who pays?",
+            "a": [
+              "Corporations and the highest earners first. Then a health contribution on income, which replaces premiums and deductibles and exempts people at or below 138% of poverty.{c:hc-rate} Then savings across the rest of the federal budget, defense included."
+            ]
+          }
+        ],
+        "brief": "dossiers/foundations/fair-financing/2-settlement.md",
+        "dossier": "dossiers/foundations/fair-financing/README.md",
+        "models": [
+          "MOD-budget",
+          "MOD-household"
+        ]
+      }
+    }
+  ],
+  "movement": [
+    {
+      "title": "Build a shared purpose",
+      "body": "Start with the changes people want in their own lives, and organize around a program people can understand and help shape."
+    },
+    {
+      "title": "Elect a coalition for change",
+      "body": "Turn that purpose into the power to govern, and press every candidate to say how they will deliver it."
+    },
+    {
+      "title": "Make the promises real",
+      "body": "Pass the laws, staff the agencies and publish the counts, so people can see whether each promise is kept."
+    },
+    {
+      "title": "Keep showing up, and keep asking",
+      "body": "Check the results, say what isn't working and change it. A plan that can't be questioned can't be trusted."
+    }
+  ],
+  "closing": "This is a working draft for review. It is not published. Every figure on this page comes from a passage in the project's dossiers, pinned to the commit named below, and the build fails if a figure has no source. When those passages change, the build lists the claims to reread.",
+  "claims": {
+    "afa-amounts": {
+      "basis": "decision",
+      "statement": "Child benefit: $300 a month per child aged 6 to 17, $360 under 6, in 2025 dollars, indexed to prices",
+      "figures": [
+        "$300",
+        "6",
+        "17",
+        "$360",
+        "2025"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "$300 a month at ages 6 to 17 and $360 under 6 (120%), with $2,400 in a newborn's first month (800%), in 2025 dollars, indexed to prices from 2024"
+        }
+      ]
+    },
+    "afa-phaseout": {
+      "basis": "decision",
+      "statement": "Full benefit for couples below about $150,000 ($112,500 single parents), phasing out gradually above",
+      "figures": [
+        "$150,000",
+        "$112,500"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "The extra amount falls by 5% of modified AGI above $150,000 for joint returns and $112,500 for others"
+        }
+      ]
+    },
+    "afa-top": {
+      "basis": "estimate",
+      "statement": "Couples above about $210,000 get somewhat less than today's credit",
+      "figures": [
+        "$210,000"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "about 8.8 million children in about 5.4 million families, all above about $210,000 (couples) or $165,000 (others) in 2030, get less than the 2029 law's $2,200 indexed credit would pay them"
+        }
+      ]
+    },
+    "asylum": {
+      "basis": "decision",
+      "statement": "Asylum officers decide within 180 days of filing (IMM-3.01); a 90-day track in a surge (IMM-3.02)",
+      "figures": [
+        "180",
+        "90"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "A decision within 180 days of filing."
+        },
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "decide claims there in a 90-day track on the EU's model"
+        }
+      ]
+    },
+    "awards": {
+      "basis": "decision",
+      "statement": "A million new rent awards 2030-33, 250,000 a year, mandatory spending, first to people with no home of their own",
+      "figures": [
+        "2030",
+        "250,000",
+        "2033"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "250,000 new awards each year from 2030 to 2033, with continuing help for each household after that, as mandatory spending"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "Stage 1, 2030-33 (HOU-4A.01).** People without a home, families with children first among them."
+        }
+      ]
+    },
+    "backstop": {
+      "basis": "decision",
+      "statement": "Contingent backstop: if D2 misses or the wealth tax is struck, the health contribution base rate rises in quarter-point steps",
+      "figures": [],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "If D2 misses.** If spending runs more than 0.25% of GDP above the path for two years running, the health contribution's base rate rises by 0.25 points the next January"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "On a final ruling against HS2, three steps apply in order"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "bill-credit": {
+      "basis": "decision",
+      "statement": "Bill credit for SNAP/SSI/LIHEAP households from winter 2030-31",
+      "figures": [
+        "2030-31"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/clean-power/5-delivery.md",
+          "anchor": "| Winter 2030-31 | The first automatic bill credits, matched from FY2030 rolls"
+        },
+        {
+          "path": "dossiers/clean-power/4-specification.md",
+          "anchor": "A household enrolled in SNAP, SSI, LIHEAP or the Food Distribution Program on Indian Reservations"
+        }
+      ]
+    },
+    "bills": {
+      "basis": "estimate",
+      "statement": "Average retail electricity price about a tenth higher than current law by 2040; the bottom two-fifths come out ahead on average nationally on the carbon channel (2035)",
+      "figures": [
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/clean-power/7-validation.md",
+          "anchor": "against 14.3 and 14.7 under current law, about a tenth higher by 2040"
+        },
+        {
+          "path": "dossiers/clean-power/7-validation.md",
+          "anchor": "The bottom two-fifths come out ahead on average, nationally"
+        }
+      ]
+    },
+    "carbon-price": {
+      "basis": "decision",
+      "statement": "Carbon price on power plants and large emitters from 2030 at $25 a ton, reaching $150 by 2037; dividend paid before price begins",
+      "figures": [
+        "2030",
+        "$25",
+        "$150",
+        "2037"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/clean-power/4-specification.md",
+          "anchor": "$25 a ton of CO2 in 2030; D7's equal steps to about $46 in 2032; equal steps to $150 in 2037"
+        },
+        {
+          "path": "dossiers/clean-power/4-specification.md",
+          "anchor": "The price and the dividend ride the same act, so the first dividend can go out before the price reaches bills (CLI-2A.03)"
+        }
+      ]
+    },
+    "card-check": {
+      "basis": "decision",
+      "statement": "Card check certification; election within 20 days if the union asks; bargaining within 10 days",
+      "figures": [
+        "20",
+        "10"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "when a union shows the Board valid authorization cards signed by a majority of the employees in an appropriate unit, the Board certifies it as the bargaining representative without an election"
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "the Board holds it within 20 days of the petition unless the union agrees to a later date"
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "bargaining begins within 10 days of a written request"
+        }
+      ]
+    },
+    "care-cost": {
+      "basis": "estimate",
+      "statement": "Care parts B-D federal cost about $750 billion in FY2040 as booked, 1.4% of GDP (project estimate; $729 billion for the decided pieces before corrections)",
+      "figures": [
+        "$750 billion",
+        "2040",
+        "1.4%"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/6bcd-cost.md",
+          "anchor": "| Parts B-D, federal cost (the rows above) | **$750.0 billion** (1.4% of GDP) |"
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "About $3.54 trillion over FY2030-39 and $729 billion in FY2040 (decided pieces)"
+        }
+      ],
+      "rounded": [
+        {
+          "figure": "$750 billion",
+          "value": "750.0",
+          "scale": 1,
+          "places": 0
+        }
+      ]
+    },
+    "care-wage": {
+      "basis": "decision",
+      "statement": "$20/hour floor in 2026 dollars, rising with wages: home care and nursing home workers paid with public money from January 2030; child care and pre-K staff from the 2030-31 school year",
+      "figures": [
+        "$20",
+        "2026",
+        "2030",
+        "2030-31"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "Every worker giving home care or nursing home care paid by Medicaid (from January 1, 2030) or by the plan (from January 1, 2035) is paid at least $20 an hour in 2026 dollars"
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "From the 2030-31 school year every child care and pre-K staff member paid from FAM-2 is paid at least HLT-10.01's floor."
+        }
+      ]
+    },
+    "cc-cap": {
+      "basis": "decision",
+      "statement": "No family pays more than 7% of income for child care, with no income limit",
+      "figures": [
+        "7%"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "Above that, the family's payment rises on a published sliding scale to at most 7% of income, reached at 150% of state median income"
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "No upper income limit."
+        }
+      ]
+    },
+    "cc-dates": {
+      "basis": "decision",
+      "statement": "Free care at/below 85% SMI and free pre-K for 4s from the 2030-31 school year; 7% cap from July 2032; pre-K for 3s by 2033-34",
+      "figures": [
+        "85%",
+        "2030-31",
+        "4",
+        "7%",
+        "2032",
+        "3",
+        "2033-34"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "Free at or below 85% of state (or territory) median income."
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "In force in two steps: the free tier from the 2030-31 school year, the 7% cap from July 1, 2032 (FAM-2.03)"
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "4-year-olds from 2030-31 and 3-year-olds where states are ready; all 3-year-olds by 2033-34"
+        }
+      ]
+    },
+    "cc-free": {
+      "basis": "decision",
+      "statement": "Child care free for families at or below 85% of state median income",
+      "figures": [
+        "85%"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "Free at or below 85% of state (or territory) median income."
+        }
+      ]
+    },
+    "cc-half": {
+      "basis": "estimate",
+      "statement": "About half of families with young children are at or below 85% of state median income (project estimate)",
+      "figures": [],
+      "sources": [
+        {
+          "path": "dossiers/care/7bcd-validation.md",
+          "anchor": "free for families at or below 85% of state median income, about half of families with young children (memo 12's judgment)"
+        }
+      ]
+    },
+    "cc-parity": {
+      "basis": "decision",
+      "statement": "Early educators reach pay parity with elementary teachers by the 2036-37 school year",
+      "figures": [
+        "2036-37"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/5bcd-delivery.md",
+          "anchor": "2036-37 school year | Early educators at parity with elementary teachers"
+        }
+      ]
+    },
+    "ces": {
+      "basis": "decision",
+      "statement": "Clean electricity standard 80% by 2035, 100% by 2040",
+      "figures": [
+        "80%",
+        "2035",
+        "100%",
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/clean-power/4-specification.md",
+          "anchor": "**The clean electricity standard: 80% by 2035, 100% by 2040**"
+        }
+      ]
+    },
+    "child-poverty": {
+      "basis": "estimate",
+      "statement": "On our estimates child poverty falls to about 9% (8-12%), about a third lower",
+      "figures": [
+        "9%"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/6-cost.md",
+          "anchor": "child SPM poverty under the decided design on the 2029 baseline is **about 9% (range 8-12%)**, against a 2029 baseline of about 13.5-14.5%"
+        }
+      ]
+    },
+    "closes": {
+      "basis": "estimate",
+      "statement": "Every year FY2040 to FY2056 closes on the general fund (taxes, cuts and the states' payment together; margin $0.4-6B a year in FY2040-44)",
+      "figures": [
+        "2040",
+        "2056"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "**Every year from FY2040 to FY2056 closes.**"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "copay-cap": {
+      "basis": "decision",
+      "statement": "Copays above twice the poverty line capped at about $1,000 a year (working figure)",
+      "figures": [
+        "$1,000"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/7bcd-validation.md",
+          "anchor": "the plan's copays only above 200% of poverty, capped at $1,000 a year (HLT-7.06)"
+        }
+      ]
+    },
+    "cuts": {
+      "basis": "decision",
+      "statement": "Settlement: defense flat in real terms and restructured; crop insurance reform; like-kind exchanges ended",
+      "figures": [
+        "2036",
+        "$300"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "**defense held flat in real terms after FY2036 and restructured about 5%** (G10)"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "**crop insurance reformed** (G11.2), **like-kind exchanges ended** (G12.2)"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "the $300 adult credit ends, and the states pay their full current share of long-term care, as they do for health (G1);"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "d3": {
+      "basis": "estimate",
+      "statement": "D3: every fifth below the top comes out ahead; Q3 +$11,281 a household a year, FY2030-39 average",
+      "figures": [
+        "2030-39"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "$ a household a year, FY2030-39 average, measured keys, scenario Q-G"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "On D3 every fifth below the top comes out ahead:**"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "debt-limit": {
+      "basis": "decision",
+      "statement": "Repeal the debt limit in 2029 (recommended as G21 A in 5-budget-process; decided by Espen, DEC-2026-11-25-07)",
+      "figures": [
+        "2029"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/5-budget-process.md",
+          "anchor": "The recommendation (G21 A) is to repeal it in 2029, by regular order under the Senate's decided graduated-cloture rule"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "dem-cost": {
+      "basis": "estimate",
+      "statement": "Budget model carries $503.2B over 2030-39 and $51.6B in 2040; about 75% is the agency rebuild.",
+      "figures": [
+        "2030-39",
+        "$51.6 billion",
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/democratic-renewal/7-validation.md",
+          "anchor": "$503.2 billion over FY2030-39 and $51.6 billion in FY2040"
+        },
+        {
+          "path": "dossiers/foundations/democratic-renewal/6-cost.md",
+          "anchor": "about 72-75% of the decade's money ($377.2 billion of the twelve rows' $503.2 billion over FY2030-39 is CAP-7S and CAP-7"
+        }
+      ],
+      "rounded": [
+        {
+          "figure": "$503 billion",
+          "value": "503.2",
+          "scale": 1,
+          "places": 0
+        }
+      ]
+    },
+    "dem-start": {
+      "basis": "decision",
+      "statement": "Voting floor from the first federal general election at least 180 days after enactment: November 5, 2030 if law by May 9, 2030",
+      "figures": [
+        "180",
+        "November 5, 2030",
+        "May 9, 2030"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/democratic-renewal/5-delivery.md",
+          "anchor": "**November 5, 2030** | First federal general election under the whole floor (D3, confirmed), if the act is law by about May 9, 2030, 180 days before"
+        },
+        {
+          "path": "dossiers/foundations/democratic-renewal/5-delivery.md",
+          "anchor": "every rule of the floor applies from the first regularly scheduled federal general election held at least 180 days after enactment"
+        }
+      ]
+    },
+    "dem-votes": {
+      "basis": "design",
+      "statement": "Most bills need 60 Senate votes or a rules change",
+      "figures": [
+        "60"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+          "anchor": "Regular order: 60 votes, or the Senate rules reform the plan assumes (legacy D2)"
+        },
+        {
+          "path": "dossiers/foundations/democratic-renewal/7-validation.md",
+          "anchor": "the ethics, courts and civil service bills need 60 votes"
+        }
+      ]
+    },
+    "detention": {
+      "basis": "decision",
+      "statement": "No more than 30,000 detained on average",
+      "figures": [
+        "30,000"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "Average daily detention over a fiscal year may not exceed 30,000"
+        }
+      ]
+    },
+    "dividend": {
+      "basis": "estimate",
+      "statement": "Climate Dividend about $405 an adult in 2035 (CLI-2A.01; on the energy model)",
+      "figures": [
+        "$405",
+        "2035"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/clean-power/4-specification.md",
+          "anchor": "on the energy model (MOD-energy) about $120 an adult in 2030, $405 in 2035 and $486 in 2040"
+        }
+      ]
+    },
+    "earned": {
+      "basis": "decision",
+      "statement": "Ten years' residence -> green card after fingerprints and criminal check; Dreamers, TPS/DACA holders too; everyone else here on signing day can register and work legally",
+      "figures": [],
+      "sources": [
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "Ten years' continuous residence before the day of application, through the registry's rolling date (IMM-1.05), with a clean record (IMM-1.08). Permanent residence on approval"
+        },
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "Biometrics and a criminal and security check for everyone."
+        },
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "(2) anyone who has held TPS, DACA or humanitarian parole at any time"
+        }
+      ]
+    },
+    "edu": {
+      "basis": "decision",
+      "statement": "The education fund at 1.65 points (G7 B, DEC-2026-11-20-11)",
+      "figures": [
+        "1.65"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "the education fund at 1.65 points (G7)"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "emergency": {
+      "basis": "decision",
+      "statement": "Emergency fund: up to four months of area rent a year; $15 billion in 2030-31 then about $5 billion a year",
+      "figures": [
+        "2030",
+        "$15 billion"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "An annual cap per household of four months of the area's Fair Market Rent in any 12 months"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "About $15 billion over 2030-31 (`DEC-2026-11-10-03`; `6-cost.md`, 2.2)."
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "A capped yearly amount of about $5 billion from FY2031, set in the statute and indexed to prices"
+        }
+      ]
+    },
+    "emissions": {
+      "basis": "estimate",
+      "statement": "Energy emissions about 41% below 2005 by 2035 against a 61-66% goal",
+      "figures": [
+        "2035",
+        "41%",
+        "2005",
+        "61-66%"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/clean-power/7-validation.md",
+          "anchor": "the decided set reaches about 41% below 2005 in energy CO2 in 2035"
+        },
+        {
+          "path": "dossiers/clean-power/4-specification.md",
+          "anchor": "61-66% below 2005 by 2035"
+        }
+      ]
+    },
+    "everify": {
+      "basis": "decision",
+      "statement": "E-Verify no earlier than October of the year after the law passes, and only once an independent inspector confirms status is running",
+      "figures": [],
+      "sources": [
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "the first tranche (IMM-4.12) starts no earlier than October 1 of the calendar year after the year of enactment"
+        },
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "the DHS Inspector General confirms whether all of these hold: (a) filing for the registry, tier A and registration (IMM-1.05) is open nationwide"
+        }
+      ]
+    },
+    "floor-cost": {
+      "basis": "estimate",
+      "statement": "Child benefit about $1.85T over FY2030-39; the whole floor about $298B in FY2040, all-in on the general fund with INC-4 rescoped (project estimate)",
+      "figures": [
+        "$1.85 trillion",
+        "2030-39",
+        "$298 billion",
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/6-cost.md",
+          "anchor": "about **$1.85 trillion over FY2030-39 (range $1.65-2.05 trillion) and $209 billion in FY2040**"
+        },
+        {
+          "path": "dossiers/secure-floor/6-cost.md",
+          "anchor": "about **$2.59 trillion over FY2030-39 and $298 billion in FY2040** with INC-2.02 and INC-4 rescoped"
+        }
+      ]
+    },
+    "floor-other": {
+      "basis": "decision",
+      "statement": "Food help (SNAP) cut by the 2025 law is restored",
+      "figures": [
+        "2025"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "**SNAP: the 2025 law's cuts repealed**"
+        }
+      ]
+    },
+    "floor-start": {
+      "basis": "decision",
+      "statement": "The child benefit (FAM-1) and the childless workers' EITC (INC-1) start in 2030",
+      "figures": [
+        "2030"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "Effective for tax year 2030, paid monthly (FAM-1.07)"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "For workers without a qualifying child, from tax year 2030"
+        }
+      ]
+    },
+    "fuel-cost": {
+      "basis": "estimate",
+      "statement": "Typical gas car fuel tax $88 a year today to $225 in 2036; EV pays $141 in 2036",
+      "figures": [
+        "$88",
+        "$225",
+        "2036",
+        "$141"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/agenda/transportation/3-design.md",
+          "anchor": "For a 25-mpg car, the federal fuel tax goes from $88 a year to $225 in FY2036"
+        },
+        {
+          "path": "dossiers/agenda/transportation/3-design.md",
+          "anchor": "An electric car pays $77 a year in FY2031 and $141 in FY2036"
+        }
+      ]
+    },
+    "guarantee": {
+      "basis": "decision",
+      "statement": "Worker guarantee for closures from 2030: up to 90% of old pay for two years; tax base replaced over ten years",
+      "figures": [
+        "90%",
+        "2030"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/clean-power/4-specification.md",
+          "anchor": "**The income guarantee: 90% for two years**"
+        },
+        {
+          "path": "dossiers/clean-power/4-specification.md",
+          "anchor": "on or after January 1, 2030: coal mines; coal- and gas-fired power plants"
+        },
+        {
+          "path": "dossiers/clean-power/4-specification.md",
+          "anchor": "falling by 10 points a year to zero after ten years"
+        }
+      ]
+    },
+    "hc-rate": {
+      "basis": "decision",
+      "statement": "Health contribution base rate 3.80% of AGI from the January 2035 endpoint; nothing at or below 138% of poverty, phasing up to full rate at 250%",
+      "figures": [
+        "3.80%",
+        "2035",
+        "138%",
+        "250%"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "From the January 2035 endpoint the base rate is 3.80% of AGI, with the exemption as decided (nothing at or below 138% of poverty, phasing up to the full rate at 250%)"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "hlt-dates": {
+      "basis": "decision",
+      "statement": "2029: undo 2025 Medicaid/marketplace cuts; Jan 1 2031 uninsured, individual market and children enrolled, Medicare $5,000 yearly out-of-pocket cap; 2033-2035 Medicaid and job-based move in; everyone by Jan 1 2035",
+      "figures": [
+        "2029",
+        "2025",
+        "2031",
+        "$5,000",
+        "2033",
+        "2035",
+        "January 1"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4-specification.md",
+          "anchor": "The 2029 law creates the single plan (called \"the plan\" below) as an expansion of Medicare. People join it in waves: everyone uninsured or in the individual market and every child in 2031; Medicaid enrollees and employer groups in thirds over 2033-35; everyone else on January 1, 2035."
+        },
+        {
+          "path": "dossiers/care/4-specification.md",
+          "anchor": "Repeal the 2025 law's Medicaid eligibility cuts"
+        },
+        {
+          "path": "dossiers/care/4-specification.md",
+          "anchor": "A $5,000 yearly out-of-pocket cap in traditional Medicare and hearing and vision coverage from January 1, 2031"
+        }
+      ]
+    },
+    "hlt-national": {
+      "basis": "estimate",
+      "statement": "National health spending about $491B a year lower than current law at full scale; households stop paying about $1.55T of premiums and out-of-pocket costs, net of copays",
+      "figures": [
+        "$491 billion",
+        "$1.55 trillion"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/6-cost.md",
+          "anchor": "National health spending: about $491 billion lower than current law."
+        },
+        {
+          "path": "dossiers/care/6-cost.md",
+          "anchor": "Households stop paying about $1.55 trillion of premiums and out-of-pocket costs, net of the plan's copays"
+        }
+      ]
+    },
+    "home-cost": {
+      "basis": "estimate",
+      "statement": "Housing about $0.81T over FY2030-39 and about $110B a year in FY2040 as first priced (section 6, before the settlement); the settlement's cap on stage 2 lowers FY2040 by about $18.6B",
+      "figures": [
+        "$0.81 trillion",
+        "2030-39",
+        "$110 billion",
+        "2040",
+        "$18.6 billion"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/home/6-cost.md",
+          "anchor": "**The housing plan costs about $0.81 trillion over FY2030-39** (central; range about $0.60-1.14 trillion) and about $110 billion a year of permanent cost in FY2040"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "about $18.6 billion lower in FY2040 and $32.8 billion in FY2056"
+        }
+      ]
+    },
+    "hospital-rates": {
+      "basis": "research",
+      "statement": "Hospitals paid about 1.15 times Medicare after a glide; employer plans pay 254% of Medicare (RAND)",
+      "figures": [
+        "1.15",
+        "254%",
+        "2022"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4-specification.md",
+          "anchor": "Hospital rates on a five-year glide path to about 1.15 times Medicare"
+        },
+        {
+          "path": "dossiers/care/1-problem.md",
+          "anchor": "Employers and private insurers paid on average 254% of what Medicare would have paid for the same hospital services in 2022 [EV-CAR-131] (RAND)"
+        }
+      ]
+    },
+    "imm-cost": {
+      "basis": "estimate",
+      "statement": "The decided set: about +$0.15T over FY2030-39 and about +$22.5B in FY2040, with memo 6's health line at two-thirds of care's average use (DEC-2026-11-13-05)",
+      "figures": [
+        "$0.15 trillion",
+        "2030-39",
+        "$22.5 billion",
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/immigration/6-cost.md",
+          "anchor": "about **+$0.15 trillion over FY2030-39 (range about −$0.07 to +$0.43 trillion) and about +$22.5 billion in FY2040"
+        }
+      ]
+    },
+    "imm-dates": {
+      "basis": "decision",
+      "statement": "Filing for legal status from late 2030",
+      "figures": [
+        "2030"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/immigration/4-specification.md",
+          "anchor": "Filing opens | No later than 270 days after signature (about October 1, 2030)"
+        }
+      ]
+    },
+    "jobs": {
+      "basis": "research",
+      "statement": "CBO: $15 by 2025 would cost 1.3-1.4 million jobs",
+      "figures": [
+        "$15",
+        "2025",
+        "1.3 million",
+        "1.4 million"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/1-problem.md",
+          "anchor": "CBO's central estimate for $15 was 1.3 million to 1.4 million fewer jobs"
+        },
+        {
+          "path": "dossiers/work/7-validation.md",
+          "anchor": "CBO put $15 by 2025, a floor at about 61% of that year's median, at 1.3-1.4 million fewer jobs"
+        }
+      ]
+    },
+    "labor-act": {
+      "basis": "decision",
+      "statement": "Labor act needs 60 Senate votes or the rules reform; if signed after June 30, 2029, wage steps move later",
+      "figures": [
+        "60",
+        "June 30, 2029"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "Regular order: 60 votes, or the Senate rules reform (D2)"
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "If the act is signed after June 30, 2029, the first step is the first January 1 at least six months after signature and each later step moves with it"
+        }
+      ]
+    },
+    "leaseup": {
+      "basis": "estimate",
+      "statement": "Plan assumes 90% of awards leased; closest recent program (EHV) reached 67% after about two years",
+      "figures": [
+        "90%",
+        "67%"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/home/6-cost.md",
+          "anchor": "The central 90% leased is the cautious case for the fiscal rule."
+        },
+        {
+          "path": "dossiers/home/6-cost.md",
+          "anchor": "Emergency Housing Vouchers reached 67% after about two years [EV-HOU-345]."
+        }
+      ]
+    },
+    "leave": {
+      "basis": "decision",
+      "statement": "Paid leave: twelve weeks, run by Social Security, paying 85% of the first band of wages, job protection",
+      "figures": [
+        "85%"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "Up to twelve weeks a year (twelve times the worker's usual weekly hours) for a new child, a family member's serious health condition or one's own"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "85% of average monthly earnings up to the first band, 69% up to the second and 50% up to the third"
+        }
+      ]
+    },
+    "leave-cost": {
+      "basis": "estimate",
+      "statement": "A worker earning $60,000 pays $180 a year to start for paid leave",
+      "figures": [
+        "$60,000",
+        "$180"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/7-validation.md",
+          "anchor": "$180 a year at $60,000 at the start [EV-SEC-676]"
+        }
+      ]
+    },
+    "leave-start": {
+      "basis": "decision",
+      "statement": "Paid leave benefits start in 2031; contributions in 2030",
+      "figures": [
+        "2031",
+        "2030"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "12 weeks; 85/69/50 bands; 0.6% to 1.10%; contributions 2030, benefits 2031; job back after 90 days"
+        }
+      ]
+    },
+    "line-cook": {
+      "basis": "estimate",
+      "statement": "Single adult on marketplace in non-expansion state keeps about 39% of a raise to $12.50 in 2032 vs 59% under 2029 law; from 2035 52-59%",
+      "figures": [
+        "39%",
+        "$12.50",
+        "2032",
+        "59%",
+        "2035",
+        "52",
+        "2029"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/7-validation.md",
+          "anchor": "a full-time single adult moving from $7.25 to the third step ($12.50 in 2032) keeps about **39% under the plan, against 59% at 2029 law**"
+        },
+        {
+          "path": "dossiers/work/7-validation.md",
+          "anchor": "From 2035 the single plan removes the premium, and the single adult keeps 52-59% at full time."
+        }
+      ]
+    },
+    "ltc": {
+      "basis": "decision",
+      "statement": "From January 2035 long-term care (home care and nursing home care part) is in the single plan for anyone needing help with three ADLs or serious cognitive impairment; no asset test, no estate recovery",
+      "figures": [
+        "2035"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "Every person entitled to the plan (HLT-7.01) who needs help with **three or more of six daily activities**"
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "From January 1, 2035 the plan pays nursing homes and intermediate care facilities for people with intellectual disabilities for nursing, personal care, therapy and supervision, for every resident meeting HLT-9.01's test (or HLT-9.02's), with no asset test."
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "No income or asset test; no estate recovery"
+        }
+      ]
+    },
+    "ltc-bridge": {
+      "basis": "decision",
+      "statement": "Five-year bridge from 2030 (more HCBS money tied to shorter waits); estate recovery ends and Medicaid savings limit rises to $10,000 for a single person from 2030",
+      "figures": [
+        "2030",
+        "$10,000"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "The bridge: up to 10 more points of federal match for Medicaid home care, FY2030-34"
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "No estate recovery for correctly paid Medicaid, from January 1, 2030"
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "$10,000 for an individual and $20,000 for a couple, indexed to prices, for Medicaid long-term care eligibility"
+        }
+      ]
+    },
+    "match": {
+      "basis": "decision",
+      "statement": "6:1 match on small in-state gifts up to $200; a $25 gift brings $175; first matched cycle 2032 on the working timeline",
+      "figures": [
+        "$25",
+        "$175",
+        "$200",
+        "2032"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+          "anchor": "each in-state contribution up to $200 is matched six to one"
+        },
+        {
+          "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+          "anchor": "| A teacher who gives $25 to a House candidate | The candidate receives $175 more"
+        },
+        {
+          "path": "dossiers/foundations/democratic-renewal/6-cost.md",
+          "anchor": "*First matched cycle 2032:* the act is enacted by spring 2030 at the latest"
+        }
+      ]
+    },
+    "mix": {
+      "basis": "estimate",
+      "statement": "Top 1% and corporations bear 65% of new general-fund revenue over FY2030-39, health contributions left out",
+      "figures": [
+        "1%",
+        "65%",
+        "2030-39"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "**The revenue-mix test passes:** 65% over FY2030-39, its decided window"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "the top 1% (by incidence) and corporations (statutory) bear more than half of new general-fund revenue, with health's contributions left out"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "mov-dates": {
+      "basis": "decision",
+      "statement": "The 2031 bill (MOV-31), effective October 1, 2031: the bar on collecting location data, three-year deletion; fix-it-first as published reports and a review",
+      "figures": [
+        "2031",
+        "October 1, 2031"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/agenda/transportation/5-delivery.md",
+          "anchor": "the bar on collecting location data, the three-year deletion and the private right of action are in the 2031 bill and apply from October 1, 2031 (sec. 111, MOV-31.11)"
+        },
+        {
+          "path": "dossiers/agenda/transportation/4-specification.md",
+          "anchor": "Moving America Act of 2031 (MOV-31) | 60 | effective Oct 1, 2031"
+        },
+        {
+          "path": "dossiers/agenda/transportation/4-specification.md",
+          "anchor": "Division B sec. 1106: fix-it-first as published reports and a review"
+        }
+      ]
+    },
+    "not-reached": {
+      "basis": "decision",
+      "statement": "Single adults with severe problems who are not homeless, not disabled and not in a family with children have no funded route in the 2030s",
+      "figures": [
+        "2030"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/home/7-validation.md",
+          "anchor": "single adults and other households with severe problems who are not homeless, not disabled and not in a family with children have no funded route in the 2030s"
+        },
+        {
+          "path": "dossiers/home/7-validation.md",
+          "anchor": "Single adults, older renters and families just above the line wait indefinitely."
+        }
+      ]
+    },
+    "penalties": {
+      "basis": "decision",
+      "statement": "Civil penalties up to $50,000 per violation, in federal court",
+      "figures": [
+        "$50,000"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "An employer that commits an unfair labor practice is liable for a civil penalty of up to $50,000 per violation"
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "The General Counsel sues in federal district court, where either side may demand a jury"
+        }
+      ]
+    },
+    "plan-start": {
+      "basis": "decision",
+      "statement": "The plan begins in January 2029 (DEC-2026-10-29-01)",
+      "figures": [
+        "2029"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4-specification.md",
+          "anchor": "The plan begins in January 2029 (`DEC-2026-10-29-01`)"
+        }
+      ]
+    },
+    "power-cost": {
+      "basis": "estimate",
+      "statement": "About $1.73T over 2030-39, a little below what the budget already carries ($1.81T), about $84B a year from 2040",
+      "figures": [
+        "$1.73 trillion",
+        "2030-39",
+        "$84 billion",
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/clean-power/6-cost.md",
+          "anchor": "about **$1.73 trillion over FY2030-39 and $84 billion in FY2040**"
+        },
+        {
+          "path": "dossiers/clean-power/6-cost.md",
+          "anchor": "against $1.81 trillion and $165 billion booked before"
+        }
+      ],
+      "recheck": "Batch 4 memo G25 and #493 correct the clean-energy credits after FY2039 (CLI-1); the $84 billion a year from 2040 may move"
+    },
+    "prek": {
+      "basis": "decision",
+      "statement": "Free pre-K for 3- and 4-year-olds, in all settings",
+      "figures": [
+        "3",
+        "4"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "Free school-day pre-K for 3- and 4-year-olds, in every setting, at one rate"
+        }
+      ]
+    },
+    "rebuild": {
+      "basis": "decision",
+      "statement": "Agency rebuild: about 54,000 added staff across the six largest agencies, in the first (2029) reconciliation act (R1)",
+      "figures": [
+        "54,000",
+        "2029"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/democratic-renewal/3-design.md",
+          "anchor": "about 54,000 added staff across the six agencies sized"
+        },
+        {
+          "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+          "anchor": "**2029 reconciliation act (R1)** | 51 | By about mid-2029 | CAP-7S and CAP-7 as multi-year direct appropriations, available on enactment"
+        }
+      ]
+    },
+    "registry": {
+      "basis": "decision",
+      "statement": "The registry date has been stuck at 1972 since 1986",
+      "figures": [
+        "1972",
+        "1986"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/immigration/1-problem.md",
+          "anchor": "covers only people who entered before January 1, 1972 [EV-IMM-590]. Its date was last moved in 1986 [EV-IMM-591]."
+        }
+      ]
+    },
+    "relatives": {
+      "basis": "decision",
+      "statement": "Paying relatives follows each state's current rules; a national evaluation reports (by 2034) before any national decision",
+      "figures": [],
+      "sources": [
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "a person may hire a relative on the terms their state allowed on December 31, 2034"
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "HHS runs an evaluation of paying spouses and parents of minor children, randomized where states agree, reporting by June 30, 2034 (working date). The national decision point is HLT-9.05"
+        }
+      ]
+    },
+    "school-age": {
+      "basis": "decision",
+      "statement": "Children 5 to 12 keep today's child care block grant (CCDBG); school-age care not made free",
+      "figures": [
+        "5",
+        "12"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "**School-age children keep the block grant:** CCDF continues as a block grant for children aged 5 to 12"
+        },
+        {
+          "path": "dossiers/care/4bcd-specification.md",
+          "anchor": "Whether to expand school-age care is left open"
+        }
+      ]
+    },
+    "ss": {
+      "basis": "decision",
+      "statement": "The settlement leaves Social Security unchanged",
+      "figures": [],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "**Social Security** is unchanged."
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "nothing in the settlement touches either"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "stage2": {
+      "basis": "decision",
+      "statement": "Stage 2 (HOU-4D.01): capped program enrolling up to 300,000 families a year from 2034; the right named as a 2040s target with a review in 2041; no duty to house (narrowed by DEC-2026-11-24-09)",
+      "figures": [
+        "300,000",
+        "2034",
+        "2041",
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "**Enrollment** opens in 2034 at up to 300,000 families a year, in HOU-4.03's order"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "**No duty to house** (item 5 does not take effect)."
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "**The 2040s goal, in law:** the statute names the target, a right for the full group, and a review in 2041 on the program's own data"
+        }
+      ]
+    },
+    "states-ltc": {
+      "basis": "decision",
+      "statement": "The states pay 100% of their current long-term care spending (settlement S05, HLT-9.09)",
+      "figures": [],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "| S05 | The states pay 100% of their current long-term care spending (HLT-9.09)"
+        }
+      ]
+    },
+    "takeup": {
+      "basis": "estimate",
+      "statement": "We assume about 70% of eligible people apply",
+      "figures": [
+        "70%"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/immigration/6-cost.md",
+          "anchor": "About 30% of eligible people may not take up status (take-up about 70% [EV-IMM-609])"
+        }
+      ]
+    },
+    "thin": {
+      "basis": "estimate",
+      "statement": "Margin thin FY2040-44; decade FY2030-39 not closed (FY2036-39 short)",
+      "figures": [
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "The margin is thin in FY2040-44, $0.4-6B a year"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "FY2036-39 run about $190-280B short a year. The rule doesn't test those years"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "top-rows": {
+      "basis": "decision",
+      "statement": "Health's share from the top-end and corporate rows: corporate rate to 28%, top rate 39.6% above $400K, a 45% bracket above $5M, the 2025 law's cuts reversed above $450K",
+      "figures": [
+        "28%",
+        "39.6%",
+        "45%",
+        "2025"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "| G1 | Corporate rate to 28%"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "| G3 | Top rate to 39.6% above $400K"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "| C43 | A 45% bracket above $5M"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "| G9 | The 2025 law's cuts reversed above $450K"
+        }
+      ],
+      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+    },
+    "trucks": {
+      "basis": "decision",
+      "statement": "Heavy trucks pay by weight and miles instead of the flat $550 heavy vehicle use tax unchanged since 1984",
+      "figures": [
+        "$550",
+        "1984"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/agenda/transportation/4-specification.md",
+          "anchor": "The weight-distance charge replaces a use tax that has been flat at $550 and unindexed since 1984"
+        }
+      ]
+    },
+    "ui-dates": {
+      "basis": "decision",
+      "statement": "Wage insurance and UI standards from January 1, 2031",
+      "figures": [
+        "2031",
+        "January 1"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/7-validation.md",
+          "anchor": "Wage insurance: half the hourly drop for two years, up to $10,000 a year (LAB-18) | Separations from January 1, 2031"
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "26 weeks; 75% of high-quarter weekly pay to at least two-thirds of the state average weekly wage; $1,000 / $1,500; from January 1, 2031"
+        }
+      ]
+    },
+    "wage-bite": {
+      "basis": "estimate",
+      "statement": "$17 in 2035 is about half the median wage, on our estimates",
+      "figures": [
+        "$17",
+        "2035"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/7-validation.md",
+          "anchor": "$17 in 2035 is about half the national median"
+        },
+        {
+          "path": "dossiers/work/3-design.md",
+          "anchor": "memo 1 B's floor is about half the median in 2035 on 3.5% a year nominal median growth (range 3-4%)"
+        }
+      ]
+    },
+    "wage-ins": {
+      "basis": "decision",
+      "statement": "Wage insurance: half the hourly drop up to $10,000 a year for two years; the machinist laid off at $32 who takes a $24 job gets $4 an hour",
+      "figures": [
+        "$24",
+        "$32",
+        "$4",
+        "$10,000"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/7-validation.md",
+          "anchor": "A machinist laid off at $32 who takes a $24 job:* $4 for every hour worked, up to $10,000 a year for two years (LAB-18.02)."
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "**Half the hourly drop, for the hours worked, up to $10,000 a year for two years**"
+        }
+      ]
+    },
+    "wage-steps": {
+      "basis": "decision",
+      "statement": "Minimum wage $9.50 on January 1, 2030 rising in steps to $17.00 on January 1, 2035, then indexed to the median wage, never falls",
+      "figures": [
+        "$17.00",
+        "$9.50",
+        "2030",
+        "2035",
+        "January 1"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "$9.50 an hour on January 1, 2030, then $11.00 (2031), $12.50 (2032), $14.00 (2033), $15.50 (2034) and $17.00 (January 1, 2035), Raise the Wage's schedule"
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "the floor never falls."
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "From January 1, 2036 (the year after the last step), the floor rises each January 1 by the percentage growth of the national media"
+        }
+      ]
+    },
+    "work-cost": {
+      "basis": "estimate",
+      "statement": "About $0.22T over FY2030-39 and about $31B a year from FY2040, no recession assumed",
+      "figures": [
+        "$0.22 trillion",
+        "2030-39",
+        "$31 billion",
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/6-cost.md",
+          "anchor": "about **+$0.22 trillion over FY2030-39 (range about +$0.10 to +$0.44 trillion) and about +$31 billion in FY2040"
+        },
+        {
+          "path": "dossiers/work/6-cost.md",
+          "anchor": "**No recession in the projection.** CBO's projection, and so the budget model's, has no recession."
+        }
+      ]
+    },
+    "work-effect": {
+      "basis": "research",
+      "statement": "Studies of the 2021 monthly CTC payments found little or no effect on work; others expecting some work reduction still find poverty falls",
+      "figures": [
+        "2021"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/7-validation.md",
+          "anchor": "Studies of the 2021 payments find no employment effect (Ananat and others) [EV-SEC-212]; simulations predict 367,000 to 1.5 million parents leaving work (Bastian; Corinth and others) [EV-SEC-219] [EV-SEC-218]. Even the largest leaves child poverty about a fifth lower."
+        }
+      ]
+    }
+  }
+}
