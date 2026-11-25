@@ -66,7 +66,10 @@ class SettlementBooking(unittest.TestCase):
             prev = r
         fund = SB.booked_case(self.ctx)['health_fund']
         self.assertEqual([fund[y]['transfer'] for y in range(2030, 2035)], [0.0] * 5)
-        self.assertAlmostEqual(fund[2039]['reserve'], hf['standing_reserve_bn'], places=6)
+        built = sum(fund[y]['balance'] for y in range(2030, 2035))
+        keep = built if hf['standing_reserve_bn'] is None else hf['standing_reserve_bn']   # None: as built (I2)
+        self.assertAlmostEqual(fund[2039]['reserve'], keep, places=6)
+        self.assertAlmostEqual(hf['source_shares']['HX'], 1 - 0.124 / 1.0765 * 0.8 / 0.31, delta=0.0005)  # HX's OASDI part out
 
     def test_closes_2040_on_at_g16b_rate(self):
         rate = self.doc['health_contribution_base_rate']['rate']

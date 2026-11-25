@@ -363,7 +363,8 @@ def health_fund(audit,hf):
     fund's other sources less the contribution's fixed share of the cost.
     Returns {year: dict(sources, spending, balance, transfer, reserve)}."""
     L=audit_lines(audit)
-    g=lambda names,y: sum(L.get(n,{}).get(y,0.0) for n in names)
+    w=hf.get('source_shares',{})      # a line only partly the fund's (HX: its Social Security part is not health money)
+    g=lambda names,y: sum(w.get(n,1.0)*L.get(n,{}).get(y,0.0) for n in names)
     src=hf['sources']; spend=hf['spending']
     missing=[n for n in src+spend if n not in L]
     if missing: raise KeyError('health fund lines not in the booked case: %s' % missing)
@@ -377,7 +378,13 @@ def health_fund(audit,hf):
             C=-g(hf['contribution'],y)
             T=X-(S-C)-hf['contribution_share']*X
         else:
-            T=max(0.0,-B-max(0.0,reserve-hf['standing_reserve_bn']))
+            keep=hf['standing_reserve_bn']   # None: the surplus as built is the standing reserve
+            if keep is None:
+                # before the fold-in the fund meets its own shortfalls from what it has built; from then on the
+                # general fund pays the whole shortfall and the reserve stands
+                T=max(0.0,-B-reserve) if y<hf['fold_in_year'] else max(0.0,-B)
+            else:
+                T=max(0.0,-B-max(0.0,reserve-keep))
         reserve+=B+T
         out[y]=dict(sources=S,spending=X,balance=B,transfer=T,reserve=reserve)
     return out

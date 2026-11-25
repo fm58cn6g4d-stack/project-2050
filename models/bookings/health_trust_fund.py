@@ -56,9 +56,12 @@ def lines_of(case):
     return out
 
 
+SHARES = K.m.SETTLEMENT['health_fund'].get('source_shares', {})   # HX: only its non-OASDI part is the fund's (I2)
+
+
 def grp(L, names, y):
     """The group's effect on the general fund ($B, + raises the gap) in year y; revenue rows are negative."""
-    return sum(L.get(n, {}).get(y, 0.0) for n in names)
+    return sum(SHARES.get(n, 1.0) * L.get(n, {}).get(y, 0.0) for n in names)
 
 
 def booked_rates():
@@ -146,7 +149,7 @@ def gross_baseline():
     return {y: float(S.BASE[y]['out_medicare_net']) + float(S.BASE[y]['out_health_other']) for y in YEARS}
 
 
-def band_readings(rows, gross, start=250.0):
+def band_readings(rows, gross, start):
     """G27 A's rule (DEC-2026-11-25-31 point 1) under three readings of its band, "15-25% of a year's spending",
     which the decision doesn't pin down: on the contribution's own share of the fund's cost (booked, the working
     assumption pending Espen, G27.1a), on the fund's new spending, and on its whole spending (the baseline's own
@@ -182,7 +185,7 @@ def reserve(rows, keep):
     2035), `keep` held back as a standing reserve (G6 C's $250B), the rest drawn to lower the general fund's transfer in
     FY2035-39, earliest first."""
     built = sum(rows[y]['balance_wide'] - rows[y]['hi'] for y in range(2030, 2035))
-    spend = built - keep
+    spend = built - (built if keep is None else keep)
     draw = {}
     for y in range(2035, 2040):
         d = min(spend, -rows[y]['balance_wide'])
@@ -204,8 +207,8 @@ def run():
     rates = sorted({FLOOR_R, BOOKED_R, round(rd[2056]['A_contribution_share'][1], 2), round(rd[2056]['B_gf_share'][1], 2)}
                    | {v for y, v in booked_rates().items() if y >= 2040})     # the booked path's rates (G27 A)
     th = S.take_home(rates)
-    built, draw = reserve(rows, 250.0)
-    bands = band_readings(rows, gross_baseline())
+    built, draw = reserve(rows, K.m.SETTLEMENT['health_fund']['standing_reserve_bn'])
+    bands = band_readings(rows, gross_baseline(), case['health_fund'][2039]['reserve'])
     held = debt_with_rate(ctx, {})          # R held at 3.80% from 2035 (step 7's booking, C)
     hf = case['health_fund']      # the fund as the budget model books it (settlement.json's health_fund)
     fund = dict(built_2030_34=sum(hf[y]['balance'] for y in range(2030, 2035)), standing=hf[2039]['reserve'],
@@ -281,8 +284,8 @@ def markdown(r):
     hi_early = sum(rows[y]['hi'] for y in range(2030, 2035))
     L += ['', '## 3. The fund\'s reserve if FY2030-34\'s surplus stays in it', '',
           '- Of FY2030-34\'s surplus, %s is HI\'s credit of H1a and HLT-6\'s Part A share, which HI already holds and which folds into the fund in 2035.' % f(hi_early),
-          '- The rest, which reaches the general fund\'s figures, built over FY2030-34: %s. Held as the fund\'s standing reserve: 250.0 (G6 C\'s amount). Drawn to lower the general fund\'s transfer: %s.' % (
-              f(built), ', '.join('FY%d %s' % (y, f(v)) for y, v in draw.items() if v)),
+          '- The rest, which reaches the general fund\'s figures, built over FY2030-34: %s. Held as the fund\'s standing reserve, as built (a working assumption pending Espen, I2: `DEC-2026-11-25-31` point 2 has $250B standing and $141B drawn): %s. Drawn to lower the general fund\'s transfer: %s.' % (
+              f(built), f(built - sum(draw.values())), ', '.join('FY%d %s' % (y, f(v)) for y, v in draw.items() if v) or 'none'),
           '- Unified debt is unchanged: the money is the same; only the split between the general fund and the fund moves. The general fund\'s own FY2030-34 position is %s worse, and its FY2035-39 transfer %s smaller.' % (f(built), f(sum(draw.values()))),
           '- Interest the fund would be credited on its reserve is an intragovernmental payment, netted out of the unified budget; it is not modeled.',
           '- **As booked** (stage G step 11; `settlement.json`\'s `health_fund`, `recovery-budget/model.py`\'s `health_fund()`): the fund holds %s built over FY2030-34, keeps %s as its standing reserve and draws %s; the general fund\'s transfer to the fund is %s. HI\'s line is HI\'s own account until the fold-in, so it is not one of the fund\'s sources there.' % (
