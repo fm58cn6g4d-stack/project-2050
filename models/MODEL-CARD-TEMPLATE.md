@@ -10,7 +10,7 @@ The standard's seven elements and where each sits: (1) the question the model an
 
 Role: the model card of `MOD-<name>`, *one sentence on what the model measures and whom it serves* (`charter/PLAN.md` 3.4). Status: **exploratory** *(or working, preview, released: the register's value in `models/toolkit.csv`; "released" and "preview" wait for memo H1)*. Owner: *a role a reader can reach, not a session label: "the Project 2050 lead session (Claude Code), through GitHub issues on this repository"*. Version: *X.Y.Z*, see `CHANGELOG.md`. License: *the line step H2b adds once memo H2 is answered*. *Every output of this model is analysis of the evidence, not an official score or a benefit determination; its results files carry that line in their header.*
 
-License: the code is Apache 2.0, this card and the model's other writing are CC BY 4.0, and its parameter and data files are CC0 (see [`LICENSES.md`](../../../LICENSES.md); `DEC-2026-11-25-33`).
+License: the code is Apache 2.0, this card and the model's other writing are CC BY 4.0, and its parameter and data files are CC0 (see [`LICENSES.md`](../../../LICENSES.md), a path from a card in `models/tools/<name>/`; `DEC-2026-11-25-33`).
 
 ## What it answers
 
