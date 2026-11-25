@@ -37,21 +37,28 @@ def doc():
     return json.loads((INPUTS / 'settlement.json').read_text())
 
 
-def option(ctx, item, rate):
+def option(ctx, item, rate, rate_path=None):
     params = dict(item['params'])
     if params.get('rate') == 'health_contribution_base_rate':
         params['rate'] = rate
+    if params.get('rate_path') == 'health_contribution_rate_path':
+        params['rate_path'] = doc()['health_contribution_base_rate'].get('path', {}) if rate_path is None else rate_path
     fn = S.OPTIONS.get(item['option']) or K.OPTIONS[item['option']]
     return fn(ctx, **params)
 
 
-def derive(ctx, d=None, rate=None):
-    """[(item, option result, path)] for every booked item; the path is the option's one adjustment, FY2026-56."""
+def derive(ctx, d=None, rate=None, rate_path=None):
+    """[(item, option result, path)] for every booked item; the path is the option's one adjustment, FY2026-56.
+    A screen at a single `rate` (rate given, rate_path None) holds that rate in every year from 2035."""
     d = d or doc()
+    if rate is not None and rate_path is None:
+        rate_path = {}
     rate = d['health_contribution_base_rate']['rate'] if rate is None else rate
+    if rate_path is None:
+        rate_path = d['health_contribution_base_rate'].get('path', {})
     out = []
     for it in d['items']:
-        o = option(ctx, it, rate)
+        o = option(ctx, it, rate, rate_path)
         (label, path), = o['adjust'].items()
         out.append((it, o, {y: path.get(y, 0.0) for y in YEARS}))
     return out
@@ -83,9 +90,9 @@ def booked_case(ctx):
     return K.m.build_case('mixed', ctx.f, ctx.b, ctx.old, ctx.u)
 
 
-def screened_case(ctx, d, rate):
+def screened_case(ctx, d, rate, rate_path=None):
     """The same package priced the screens' way on the pre-settlement base, as a check on the booking."""
-    opts = [o for it, o, p in derive(ctx, d, rate)]
+    opts = [o for it, o, p in derive(ctx, d, rate, rate_path)]
     # the switches: the credit, the 2 points (the fold's kw), the education rate, the HI grant, the delivery line
     adj = {}
     for o in opts:
@@ -113,6 +120,61 @@ def solve(ctx, d):
             return round(r, 2), g
         r = round(r + 0.05, 2)
     raise ValueError('no rate below 6% closes FY2040-56')
+
+
+# ---------------------------------------------------------------- the health fund's rate rule (G27 A)
+def rate_rule(ctx, d=None):
+    """The base rate from FY2041 under the health fund's own rule (G27 A, DEC-2026-11-25-31), on the booked case.
+
+    The contribution pays a fixed share s of the fund's cost from FY2040: its FY2040 yield at 3.80% over the fund's
+    spending that year (G26 A, DEC-2026-11-25-30: the 3.80% re-founded as that share). The general fund pays the rest
+    (the law's share, recovery-budget/model.py's health_fund()), so the fund's reserve moves only by the contribution's
+    yield less s x its cost. Each year from FY2041 the trustees project the reserve one year ahead at the current rate;
+    if it would leave the band (15-25%) the rate steps a quarter point, at most once a year, never below 3.25%. No
+    yearly reset. WORKING ASSUMPTION, pending Espen (G27.1a): the band is read on the contribution's own share of the
+    fund's cost and tested one year ahead; the decision names neither (part 8 of 2-settlement.md shows the other
+    readings). The reserve starts at FY2039's (the $250B standing reserve). Interest on the reserve is not modeled.
+    Returns dict(share, path {year: rate}, reserve {year: $B}, needed {year: the smooth share's rate})."""
+    d = d or doc()
+    hf, hr = d['health_fund'], d['health_contribution_base_rate']
+    case = booked_case(ctx)
+    fund = case['health_fund']
+    L = K.m.audit_lines(case['audit'])
+    hcu = ctx.line('HCU')
+    pp = {y: S.PER_POINT_2040 * hcu[y] / hcu[2040] for y in YEARS}
+    booked = {y: hr.get('path', {}).get(str(y), hr['rate']) for y in YEARS}
+    # the contribution's yield at the base rate held at 3.80%, with the booked path's own steps taken out
+    c0 = {y: -sum(L.get(n, {}).get(y, 0.0) for n in hf['contribution']) - (booked[y] - hr['rate']) * pp[y] for y in YEARS}
+    y0 = hf['share_from']
+    share = c0[y0] / fund[y0]['spending']
+    lo, hi = hf['band']
+    rate, res = hr['rate'], fund[y0 - 1]['reserve']
+    path, reserve, needed = {}, {}, {}
+    for y in range(y0, 2057):
+        target = share * fund[y]['spending']
+        if y > y0:
+            proj = res + c0[y] + (rate - hr['rate']) * pp[y] - target
+            if proj < lo * target:
+                rate = rate + hf['step']
+            elif proj > hi * target and rate - hf['step'] >= hf['floor'] - 1e-9:
+                rate = rate - hf['step']
+            path[y] = round(rate, 2)
+        res += c0[y] + (rate - hr['rate']) * pp[y] - target
+        reserve[y] = res
+        needed[y] = hr['rate'] + (target - c0[y]) / pp[y]
+    return dict(share=share, path=path, reserve=reserve, needed=needed)
+
+
+def write_rule(rule):
+    """settlement.json's health fund share and the rate path, written in place (the file's other text unchanged)."""
+    import re
+    fn = INPUTS / 'settlement.json'
+    t = fn.read_text()
+    path = '{' + ', '.join('"%d": %.2f' % (y, v) for y, v in sorted(rule['path'].items())) + '}'
+    t = re.sub(r'"path": \{[^}]*\}', '"path": ' + path, t, count=1)
+    t = re.sub(r'"contribution_share": [0-9.]+', '"contribution_share": %.6f' % rule['share'], t, count=1)
+    json.loads(t)
+    fn.write_text(t)
 
 
 # ---------------------------------------------------------------- D3
@@ -318,9 +380,15 @@ def main():
         print('%s %-80s FY2040 %7.1f  FY2056 %7.1f  FY2030-39 %8.1f' % (
             it['id'], it['line'][:80], p[2040], p[2056], sum(p[y] for y in K.m.W)))
     print('D3:', d3_amounts(der))
+    rule = rate_rule(ctx, d)
+    print('health fund: contribution share %.4f; rate path %s' % (rule['share'], rule['path']))
     if a.write:
+        write_rule(rule)
+        d = doc()
+        der = derive(ctx, d)
         write_paths(der)
-        print('wrote settlement-paths.csv')
+        print('wrote settlement.json (the health fund\'s share and rate path) and settlement-paths.csv; '
+              'rerun after the next rebuild: the rule reads the booked case')
 
 
 if __name__ == '__main__':

@@ -61,8 +61,18 @@ def grp(L, names, y):
     return sum(L.get(n, {}).get(y, 0.0) for n in names)
 
 
+def booked_rates():
+    """The base rate by year as booked (settlement.json: 3.80% from 2035, the health fund's rule's path from FY2041)."""
+    hr = K.m.SETTLEMENT['health_contribution_base_rate']
+    return {y: hr.get('path', {}).get(str(y), hr['rate']) for y in YEARS}
+
+
 def account(case):
+    """The account by year at R = 3.80% throughout (step 10's reading): the booked rate path's steps above 3.80% from
+    FY2041 are taken out of the contribution, so the redraft below reads the same base it did; part 4 shows the
+    booked path itself."""
     L = lines_of(case)
+    rates = booked_rates()
     missing = [n for n in CONTRIBUTION + FOLD_IN + OTHER_SOURCES + HEALTH_SPENDING + CARE_SPENDING + CARE_SOURCES
                if n not in L]
     if missing:
@@ -77,6 +87,7 @@ def account(case):
         care = grp(L, CARE_SPENDING, y)
         care_src = -grp(L, CARE_SOURCES, y)
         per_point = S.PER_POINT_2040 * hcu[y] / hcu[2040] if hcu[2040] else 0.0
+        contrib -= (rates[y] - BOOKED_R) * per_point
         rows[y] = dict(contribution=contrib, fold=fold, other=other, spend=spend, care=care, care_src=care_src,
                        balance=contrib + fold + other - spend,
                        balance_wide=contrib + fold + other + care_src - spend - care,
@@ -123,7 +134,8 @@ def debt_with_rate(ctx, rates):
     """The booked case with the base rate moved to `rates[y]` from 2035 (each point at HCU's per-point yield)."""
     base = K.m.build_case('mixed', ctx.f, ctx.b, ctx.old, ctx.u)
     rows = account(base)
-    adj = {str(y): -(rates.get(y, BOOKED_R) - BOOKED_R) * rows[y]['per_point'] for y in YEARS if y >= 2035}
+    booked = booked_rates()
+    adj = {str(y): -(rates.get(y, BOOKED_R) - booked[y]) * rows[y]['per_point'] for y in YEARS if y >= 2035}
     c = K.m.build_case('rate', ctx.f, ctx.b, ctx.old, ctx.u, spending_adjustments={'rate': {'annual_bn': adj}})
     return {r['year']: r for r in c['rows']}
 
@@ -132,6 +144,36 @@ def gross_baseline():
     """The baseline's own federal health spending (CBO's Medicare, net of premiums, and other health), $B, FY2030-56:
     the money the plan's law commits to the fund. A sensitivity only (part 2 of the note)."""
     return {y: float(S.BASE[y]['out_medicare_net']) + float(S.BASE[y]['out_health_other']) for y in YEARS}
+
+
+def band_readings(rows, gross, start=250.0):
+    """G27 A's rule (DEC-2026-11-25-31 point 1) under three readings of its band, "15-25% of a year's spending",
+    which the decision doesn't pin down: on the contribution's own share of the fund's cost (booked, the working
+    assumption pending Espen, G27.1a), on the fund's new spending, and on its whole spending (the baseline's own
+    federal health spending added). Each tests the reserve one year ahead, as booked; the reserve starts at the
+    $250B standing reserve and moves by the contribution's yield less its fixed share of the cost (the general fund
+    pays the rest by law). Returns {reading: (rates {year: R}, reserve FY2056)}."""
+    y0 = 2040
+    exp = {y: rows[y]['spend'] + rows[y]['care'] for y in YEARS}
+    share = rows[y0]['contribution'] / exp[y0]
+    bases = {'the contribution\'s share of the fund\'s cost (booked)': lambda y: share * exp[y],
+             'the fund\'s new spending': lambda y: exp[y],
+             'the fund\'s whole spending (the baseline\'s included)': lambda y: exp[y] + gross[y]}
+    out = {}
+    for name, base in bases.items():
+        rate, res, path = BOOKED_R, start, {}
+        for y in range(y0, 2057):
+            gap_y = lambda r_: rows[y]['contribution'] + (r_ - BOOKED_R) * rows[y]['per_point'] - share * exp[y]  # noqa: E731
+            if y > y0:
+                proj = res + gap_y(rate)
+                if proj < 0.15 * base(y):
+                    rate += 0.25
+                elif proj > 0.25 * base(y) and rate - 0.25 >= FLOOR_R - 1e-9:
+                    rate -= 0.25
+            path[y] = round(rate, 2)
+            res += gap_y(rate)
+        out[name] = (path, res)
+    return out
 
 
 def reserve(rows, keep):
@@ -162,12 +204,15 @@ def run():
     rates = sorted({FLOOR_R, BOOKED_R, round(rd[2056]['A_contribution_share'][1], 2), round(rd[2056]['B_gf_share'][1], 2)})
     th = S.take_home(rates)
     built, draw = reserve(rows, 250.0)
+    bands = band_readings(rows, gross_baseline())
+    held = debt_with_rate(ctx, {})          # R held at 3.80% from 2035 (step 7's booking, C)
     hf = case['health_fund']      # the fund as the budget model books it (settlement.json's health_fund)
     fund = dict(built_2030_34=sum(hf[y]['balance'] for y in range(2030, 2035)), standing=hf[2039]['reserve'],
                 transfer={y: hf[y]['transfer'] for y in YEARS}, reserve={y: hf[y]['reserve'] for y in YEARS})
     fund['drawn'] = fund['built_2030_34'] - fund['standing']
     return dict(rows=rows, redraft=rd, shares=(cs, gs), redraft_gross=rdg, shares_gross=(csg, gsg), debt=debt,
-                variants=variants, take_home=th, reserve=(built, draw), fund=fund)
+                variants=variants, take_home=th, reserve=(built, draw), fund=fund, bands=bands, held=held,
+                rates=booked_rates())
 
 
 def f(x):
@@ -181,7 +226,7 @@ def markdown(r):
     L = ['# The health system\'s own account: results', '',
          'Generated by `models/bookings/health_trust_fund.py --write` after the common rebuild (stage G step 10; '
          'regenerated in step 11 and checked by `test_health_trust_fund.py`, so it can\'t go stale). The '
-         'budget model\'s booked case `mixed` (the settlement on, the base rate at 3.80% from 2035, the health fund its own account), with the health '
+         'budget model\'s booked case `mixed` (the settlement on, the health fund its own account; parts 1-3 read the base rate at 3.80% from 2035, with the booked rule\'s later steps taken out, and part 4 shows the booked path), with the health '
          'lines regrouped into the plan\'s fund (HLT-7.22). Nominal $B, increments to CBO\'s baseline: the general revenue the '
          'baseline already spends on health and today\'s HI tax are committed to the fund by the plan\'s law and are not repeated. '
          'Project arithmetic on exploratory models, not official scores. Read with [`../8-health-trust-fund.md`](../8-health-trust-fund.md).', '',
@@ -244,12 +289,26 @@ def markdown(r):
               ', '.join('FY%d %s' % (y, f(r['fund']['transfer'][y])) for y in (2035, 2036, 2037, 2038, 2039, 2040, 2045, 2050, 2056))),
           '', '## 4. Debt with the rate set by the fund (% of GDP, the booked plan, no debt goal)', '',
           '| | FY2040 | FY2045 | FY2050 | FY2056 | General-fund gap FY2045 / FY2050 / FY2056 |', '| --- | --- | --- | --- | --- | --- |',
-          '| C: booked (R 3.80%% throughout) | %s | %s |' % (' | '.join('%.1f' % r['debt'][y]['debt_gdp'] for y in (2040, 2045, 2050, 2056)),
-                                                    ' / '.join(f(r['debt'][y]['agenda_gf_primary_bn']) for y in (2045, 2050, 2056)))]
-    for k, lab in (('A_contribution_share', 'A: contribution\'s share fixed'), ('B_gf_share', 'B: general fund\'s share fixed')):
+          '| **As booked: G27 A, the fund\'s rule** (R %s) | **%s** | **%s** |' % (
+              ', '.join('FY%d %.2f%%' % (y, r['rates'][y]) for y in (2040, 2043, 2046, 2050, 2056)),
+              ' | '.join('%.1f' % r['debt'][y]['debt_gdp'] for y in (2040, 2045, 2050, 2056)),
+              ' / '.join(f(r['debt'][y]['agenda_gf_primary_bn']) for y in (2045, 2050, 2056))),
+          '| C: R held at 3.80%% throughout (step 7\'s booking) | %s | %s |' % (' | '.join('%.1f' % r['held'][y]['debt_gdp'] for y in (2040, 2045, 2050, 2056)),
+                                                    ' / '.join(f(r['held'][y]['agenda_gf_primary_bn']) for y in (2045, 2050, 2056)))]
+    for k, lab in (('A_contribution_share', 'A: contribution\'s share fixed, the smooth rate (no steps)'), ('B_gf_share', 'B: general fund\'s share fixed')):
         v = r['variants'][k]
         L.append('| %s | %s | %s |' % (lab, ' | '.join('%.1f' % v[y]['debt_gdp'] for y in (2040, 2045, 2050, 2056)),
                                          ' / '.join(f(v[y]['agenda_gf_primary_bn']) for y in (2045, 2050, 2056))))
+    L += ['', 'The general-fund gap here has the health fund as its own account (FY2030-34\'s surplus held in the fund), so its '
+          'FY2030-39 years differ from step 10\'s; FY2040 and later are the same accounting.',
+          '', '## 4a. The band\'s base: the rate under each reading (G27.1a, a working assumption pending Espen)', '',
+          'The decision sets the band at "15-25%% of a year\'s spending" without naming whose spending or which projected '
+          'year is tested. Booked: the contribution\'s own share of the fund\'s cost, tested one year ahead, the one reading that '
+          'gives 3.80%% in FY2040 drifting to about 4.1%%. Each row starts from the $250B standing reserve.', '',
+          '| The band read on | R FY2041 | FY2045 | FY2050 | FY2056 | Highest R | Reserve FY2056 ($B) |', '| --- | --- | --- | --- | --- | --- | --- |']
+    for name, (path, res) in r['bands'].items():
+        L.append('| %s | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %s |' % (
+            name, path[2041], path[2045], path[2050], path[2056], max(path.values()), f(res)))
     L += ['', '## 5. The take-home test at the rates in question', '',
           'FY2040\'s population and incomes (`budget_scan.take_home`, no VAT). For the later rates this is an indication only: the test runs on FY2040.', '',
           '| Base rate R | Workers ahead | Below 200% of poverty | 250-400% of poverty |', '| --- | --- | --- | --- |']

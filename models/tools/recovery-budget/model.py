@@ -358,7 +358,9 @@ def health_fund(audit,hf):
     the fund by the plan's law and are not repeated). HI's own line ('HI H1a and Part A HLT-6 share') is not a source:
     HI keeps it (its $425B) in its own account, which fund_primary already strips, until HI folds in at 2035.
     The law (G27 A point 2): FY2030-34's surplus stays in the fund; the general fund pays only what the fund can't
-    meet from its reserve above the standing amount, so the rest of the surplus lowers the FY2035 transfer.
+    meet from its reserve above the standing amount, so the rest of the surplus lowers the FY2035 transfer. From
+    `share_from` (FY2040, G27 A point 1 and 3) the general fund's share is fixed by the law instead: the cost less the
+    fund's other sources less the contribution's fixed share of the cost.
     Returns {year: dict(sources, spending, balance, transfer, reserve)}."""
     L=audit_lines(audit)
     g=lambda names,y: sum(L.get(n,{}).get(y,0.0) for n in names)
@@ -369,7 +371,13 @@ def health_fund(audit,hf):
     for y in Y:
         S=-g(src,y); X=g(spend,y); B=S-X
         if y<hf['first_year']: out[y]=dict(sources=S,spending=X,balance=B,transfer=0.0,reserve=0.0); continue
-        T=max(0.0,-B-max(0.0,reserve-hf['standing_reserve_bn']))
+        if hf.get('contribution_share') and y>=hf['share_from']:
+            # G27 A: the general fund pays the cost the fund's other sources and the contribution's fixed share leave;
+            # the reserve absorbs the contribution's yield above or below its share (the rate rule steps on it)
+            C=-g(hf['contribution'],y)
+            T=X-(S-C)-hf['contribution_share']*X
+        else:
+            T=max(0.0,-B-max(0.0,reserve-hf['standing_reserve_bn']))
         reserve+=B+T
         out[y]=dict(sources=S,spending=X,balance=B,transfer=T,reserve=reserve)
     return out

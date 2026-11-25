@@ -42,9 +42,31 @@ class SettlementBooking(unittest.TestCase):
         self.assertEqual(set(q['replace'].values()) | {'GXg'}, set(SB.D3_ROWS))
 
     def test_booked_equals_screened(self):
-        screened = SB.gap(SB.screened_case(self.ctx, self.doc, self.doc['health_contribution_base_rate']['rate']))
+        hr = self.doc['health_contribution_base_rate']
+        screened = SB.gap(SB.screened_case(self.ctx, self.doc, hr['rate'], hr['path']))
+        # the screens have no health fund: compare the general fund with the fund's own balance after its transfer
+        # put back (DEC-2026-11-25-28 moves health money between the accounts, not out of the budget)
+        fund = SB.booked_case(self.ctx)['health_fund']
         for y in range(2030, 2057):
-            self.assertAlmostEqual(self.booked[y], screened[y], delta=0.05, msg=y)
+            own = fund[y]['spending'] - fund[y]['sources'] - fund[y]['transfer']
+            self.assertAlmostEqual(self.booked[y] + own, screened[y], delta=0.05, msg=y)
+
+    def test_health_fund_rule(self):
+        # G27 A as booked: the share and the rate path are the rule's on the booked case; the steps are quarter points,
+        # at most one a year, never below 3.25%; FY2040 stays at 3.80% (G26 A); FY2030-34's surplus stays in the fund
+        hr, hf = self.doc['health_contribution_base_rate'], self.doc['health_fund']
+        rule = SB.rate_rule(self.ctx, self.doc)
+        self.assertAlmostEqual(hf['contribution_share'], rule['share'], places=6)
+        self.assertEqual({int(k): v for k, v in hr['path'].items()}, rule['path'])
+        prev = hr['rate']
+        for y in range(2041, 2057):
+            r = hr['path'][str(y)]
+            self.assertIn(round(abs(r - prev), 2), (0.0, 0.25), y)
+            self.assertGreaterEqual(r, hf['floor'])
+            prev = r
+        fund = SB.booked_case(self.ctx)['health_fund']
+        self.assertEqual([fund[y]['transfer'] for y in range(2030, 2035)], [0.0] * 5)
+        self.assertAlmostEqual(fund[2039]['reserve'], hf['standing_reserve_bn'], places=6)
 
     def test_closes_2040_on_at_g16b_rate(self):
         rate = self.doc['health_contribution_base_rate']['rate']

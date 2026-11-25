@@ -156,13 +156,16 @@ def opt_drop_broad_points(ctx):
     return dict(label='The 2 points above $20K/$40K dropped', kw=dict(broad_rate=0), d3=[('drop', 'ICB')])
 
 
-def opt_fold_broad_points(ctx, rate=3.25):
+def opt_fold_broad_points(ctx, rate=3.25, rate_path=None):
     """Part C item 7, folded: the 2 points dropped and the health contribution's base rate R raised from 2.25%, from
     the 2035 endpoint, at about $56B a quarter point in FY2040 grown on HCU's path. R = 3.25% raises about the 2
-    points' FY2040 yield (health-household-contribution.md section 2: 75.6% of workers ahead)."""
+    points' FY2040 yield (health-household-contribution.md section 2: 75.6% of workers ahead). `rate_path`
+    ({year: rate}) overrides `rate` in the years it names: the health fund's own rule from FY2041 (G27 A,
+    DEC-2026-11-25-31; settlement_booking.rate_rule)."""
     hcu = ctx.line('HCU')
-    level = HCU_PER_QUARTER_POINT_2040 * (rate - 2.25) / 0.25
-    p = {y: (-level * hcu[y] / hcu[2040] if y >= 2035 else 0.0) for y in YEARS}
+    rp = {int(k): v for k, v in (rate_path or {}).items()}
+    lvl = lambda y: HCU_PER_QUARTER_POINT_2040 * (rp.get(y, rate) - 2.25) / 0.25  # noqa: E731
+    p = {y: (-lvl(y) * hcu[y] / hcu[2040] if y >= 2035 else 0.0) for y in YEARS}
     return dict(label='The 2 points folded into R = %.2f%%' % rate, kw=dict(broad_rate=0),
                 adjust={'R raised to %.2f%%' % rate: p},
                 # HCU's D3 row is its FY2035-39 amount (a cost to households); the raise adds to it in proportion
