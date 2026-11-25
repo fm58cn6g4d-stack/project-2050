@@ -312,7 +312,7 @@ These add one published page per release and one table a year to reports that al
 
 - **Every year FY2040-56 still closes.** The tightest is FY2040, at −$14.1B.
 - **The decade is $260B worse on the general fund.** $391B of health's early surplus now stays in the fund, and the FY2035 draw gives back $141B. The rest of the move is IMM-1's $10B. FY2036-39 run about $194-278B short a year, as before.
-- **From FY2043 the general fund is further ahead,** because the fund's rule raises the contribution as health outgrows its base.
+- **From the mid-2040s the general fund is further ahead,** because the health law fixes its share of the fund's cost (G27 A point 3): the contribution's share holds as health outgrows its base, and the fund's rule steps the rate to keep it there.
 
 ### Debt and take-home
 
