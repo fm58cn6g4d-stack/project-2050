@@ -186,7 +186,7 @@
    "models/data/inputs/recovery-adoption.json": "55e581ef7b0898d7997b4e3c98540a97db16b0fefc65aa89d528684f76a69b0b",
    "models/data/inputs/scenarios.json": "51172d13daa11dbce39dd24ce63e83560cbeb042cd6de9f48ebbf18c11a183c4",
    "models/data/inputs/settlement-paths.csv": "def3d89975ab8a92ef4cae9bec84bd30e14d3d47c197ca012cd37b0d80470727",
-   "models/data/inputs/settlement.json": "59c8d4868c0c3c35cf5f32d3052dd6a38f1fa40c9ae7d6397cc4f821d3127ea7",
+   "models/data/inputs/settlement.json": "ff0ab92c1154c2e826cb4185780a0182fd65acafbe865ce676bfe26962361d45",
    "models/data/inputs/votes-bills.csv": "b789257ed53185ba61bad385bddf7714686d4075ccd2d09064ad8585392db0f4",
    "models/data/inputs/votes-senate.csv": "2ba0d75a064e7c62b69b3e6138374ded3aba32a1bf55f23105c9380f78423611",
    "models/tools/budget/reforms/plan.json": "5951e720456a6a20da21710d76b096fabb6a753faf109373de4e8992ac261984",
