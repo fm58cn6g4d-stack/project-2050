@@ -407,7 +407,7 @@ def markdown(d):
          'conventional score, nominal $B or % of GDP by federal fiscal year. Project arithmetic on exploratory models, '
          'not official scores.', '',
          '**The base:** the settlement as booked, %s, and G17 B\'s hold of the credits in FY2038-39 (PH-3: $%sB in '
-         'FY2038-39). Debt on it: FY2040 %s%%, FY2050 %s%%, FY2056 %s%% (as booked: %s%%, %s%%, %s%%).' % (
+         'FY2038-39). Debt on it: FY2040 %s%%, FY2050 %s%%, FY2056 %s%% (before the CLI-1 correction: %s%%, %s%%, %s%%).' % (
              'with CLI-1\'s tail on the decided step-down (booked)' if B['cli1_booked'] else
              'with CLI-1\'s tail on the decided step-down (`cli1_tail.py`; a what-if until its tier-3 row lands; '
              '$%sB over FY2040-56)' % f0(sum(B['cli1_saving'][y] for y in range(2040, 2057))),

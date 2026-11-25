@@ -463,6 +463,9 @@ def climate_path(spec, S=None, B=None):
         base = years_path(B, CL.CONFIG["legacy_gf_tn"][rid], shapes[rid], _profile(spec))
     else:
         base = profile_path(B, CL.CONFIG["legacy_gf_tn"][rid], _profile(spec))
+    after = after_amounts().get(rid)   # fixed amounts after the window for the baseline row (CLI-1's step-down), as the
+    if after:                          # fiscal model's row_path applies them before climate-integration adds its delta
+        base = after_path(B, base, after, _profile(spec))
     return {y: base[y] + CL.delta_rows(y)[rid] for y in range(Y0, Y1 + 1)}
 
 

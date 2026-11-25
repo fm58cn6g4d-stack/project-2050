@@ -16,7 +16,7 @@ CLI-1 in the budget model is a baseline row (the legacy credit set, $0.90T over 
 
 The energy model's level differs from the booking's (it counts the standby builder's credited generation and prices take-up on its own build: $1,037B over FY2030-39 against the booked $757B, `dossiers/clean-power/6-cost.md` part 5). Only its shape after FY2039 is used.
 
-## 2. The correction, priced on the booked case (a what-if until the tier-3 input row lands)
+## 2. The correction, priced on the booked case (booked: `fiscal-after.csv` carries the row)
 
 | | FY2040 | FY2041 | FY2042 | FY2043 | FY2045 | FY2047 | FY2050 | FY2056 | FY2040-56 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

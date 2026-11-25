@@ -24,22 +24,22 @@ The switches (no path of their own): the $300 credit ended, the 2 points ended, 
 
 | | FY2030 | FY2033 | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | FY2040 | FY2041 | FY2042 | FY2045 | FY2050 | FY2056 | FY2030-39 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Before the settlement | -159.6 | 132.3 | 553.9 | 840.1 | 850.0 | 855.4 | 812.2 | 614.6 | 625.1 | 639.2 | 675.2 | 823.5 | 1157.0 | 3995.5 |
-| **Booked** | **-220.8** | **-42.0** | **46.6** | **276.8** | **272.1** | **258.8** | **192.5** | **-6.0** | **-5.1** | **-0.4** | **-26.4** | **-143.2** | **-205.4** | **458.5** |
+| Before the settlement | -159.6 | 132.3 | 553.9 | 840.1 | 850.0 | 855.4 | 812.2 | 611.4 | 610.8 | 604.3 | 604.3 | 743.1 | 1079.6 | 3995.5 |
+| **Booked** | **-220.8** | **-42.0** | **46.6** | **276.8** | **272.1** | **258.8** | **192.5** | **-9.2** | **-19.3** | **-35.2** | **-97.3** | **-223.6** | **-282.8** | **458.5** |
 
 - Health contribution base rate R = 3.80% from 2035 (one rate; working assumption for the later years, memo G8 open).
-- Every year FY2040-56 closes: worst FY2042, -0.4.
-- The rate each year would need on its own: FY2040 3.77%, FY2042 3.80%, FY2045 3.70%, FY2050 3.38%, FY2056 3.32%.
-- Debt, % of GDP: FY2039 116.9, FY2040 117.8, FY2045 122.1, FY2050 126.6, FY2056 133.1 (baseline FY2040 132.7, FY2056 180.2; before the settlement 126.8 and 162.5).
+- Every year FY2040-56 closes: worst FY2040, -9.2.
+- The rate each year would need on its own: FY2040 3.76%, FY2042 3.66%, FY2045 3.45%, FY2050 3.14%, FY2056 3.14%.
+- Debt, % of GDP: FY2039 116.9, FY2040 117.8, FY2045 121.7, FY2050 125.6, FY2056 131.6 (baseline FY2040 132.7, FY2056 180.2; before the settlement 126.8 and 160.9).
 - Social Security: depletion 2093, 75-year balance -0.31% of payroll. HI (a current-law comparison after 2035): 2037. The education fund: solvent, reserve $46B in FY2040.
 
 ## The backstop (memos G5, G13): the gap if D2 or the wealth tax fails, and the base-rate points that close it
 
 | | FY2040 gap | R points | FY2045 gap | R points | FY2056 gap | R points |
 | --- | --- | --- | --- | --- | --- | --- |
-| without D2 | 243.4 | +1.09 | 297.7 | +1.08 | 320.9 | +0.75 |
-| without HS2 | 104.0 | +0.46 | 109.3 | +0.40 | 5.2 | +0.01 |
-| without both | 353.3 | +1.58 | 433.3 | +1.57 | 531.5 | +1.24 |
+| without D2 | 240.2 | +1.07 | 226.7 | +0.82 | 243.5 | +0.57 |
+| without HS2 | 100.8 | +0.45 | 38.4 | +0.14 | -72.2 | +0.00 |
+| without both | 350.1 | +1.56 | 362.4 | +1.31 | 454.1 | +1.06 |
 
 Without the wealth tax, the loss is HS2 net of the stack cap.
 
@@ -47,13 +47,13 @@ Without the wealth tax, the loss is HS2 net of the stack cap.
 
 | Risk | Basis | FY2040 | FY2045 | FY2056 | Base-rate points to cover FY2040 |
 | --- | --- | --- | --- | --- | --- |
-| The wage stack yields at the working elasticity (0.25) | stack note part 3: about $140B in FY2040 (rough, unverified) | 134.0 | 145.9 | 59.6 | +0.60 |
-| Pre-2025-law scores come in 10% low | 1-audit.md item 22 | 108.2 | 113.1 | 6.1 | +0.48 |
-| Joint yield risk: both of the above | review F-2, without the VAT row | 248.2 | 285.3 | 271.0 | +1.11 |
-| The avoidance allowance stays at 20% on the base rate | 1-audit.md item 9: the range is 10-25% | 57.0 | 51.4 | -84.7 | +0.25 |
-| The stack cap at its high end ($55B) | stack note part 4 | 9.0 | -7.9 | -176.6 | +0.04 |
-| C3A, the clean electricity compliance payments, vanish | 1-audit.md item 43 | 35.6 | 23.5 | -132.0 | +0.16 |
-| If a scorer counted the fold-in's HI shortfall as new | the grant's size; the correction stands (F-1) | 79.2 | 75.2 | -58.3 | +0.35 |
+| The wage stack yields at the working elasticity (0.25) | stack note part 3: about $140B in FY2040 (rough, unverified) | 130.8 | 74.9 | -17.9 | +0.58 |
+| Pre-2025-law scores come in 10% low | 1-audit.md item 22 | 105.0 | 42.1 | -71.4 | +0.47 |
+| Joint yield risk: both of the above | review F-2, without the VAT row | 245.0 | 214.4 | 193.6 | +1.09 |
+| The avoidance allowance stays at 20% on the base rate | 1-audit.md item 9: the range is 10-25% | 53.8 | -19.6 | -162.1 | +0.24 |
+| The stack cap at its high end ($55B) | stack note part 4 | 5.8 | -78.8 | -254.1 | +0.03 |
+| C3A, the clean electricity compliance payments, vanish | 1-audit.md item 43 | 32.4 | -47.4 | -209.5 | +0.14 |
+| If a scorer counted the fold-in's HI shortfall as new | the grant's size; the correction stands (F-1) | 76.0 | 4.3 | -135.8 | +0.34 |
 
 ## D3 (scenario Q-G; FY2030-39 average, $ a household a year)
 
