@@ -33,6 +33,13 @@
     {"id": "S10", "option": "tax_item", "params": {"key": "like_kind"}, "side": "revenue", "dec": "DEC-2026-11-24-06 (memo G12.2)", "line": "Like-kind exchanges ended beyond the booked $500K cap"},
     {"id": "S11", "option": "housing_guarantee", "params": {"mode": "C", "shaped": true}, "side": "outlay", "dec": "DEC-2026-11-24-09 (memo G14 C)", "line": "Housing stage 2 (HOU-4D.01) a capped program, not a right, shaped on enrollment"}
   ],
+  "health_fund": {
+    "basis": "The plan's health fund (HLT-7.22) booked as its own account (DEC-2026-11-25-12; the booking rule, DEC-2026-11-25-28; G26 A and G27 A point 2, DEC-2026-11-25-30, -31): recovery-budget/model.py's health_fund() sums these booked lines into the fund's sources and spending, the general fund pays the fund only its transfer, and the fund keeps FY2030-34's surplus, $250B of it as a standing reserve and the rest drawn to lower the FY2035 transfer. Increments to CBO's baseline. HI's own line (HI H1a and Part A HLT-6 share, the $425B) stays HI's until HI folds in at 2035, so it is not listed. The wealth tax (HS2, net of the stack cap S04) is one of the fund's sources by statute (G27 A point 1). The scope is DEC-2026-11-15-20's health rows and HX, with long-term care from 2035 (DEC-2026-11-11-02).",
+    "sources": ["HCU", "Settlement S06", "Settlement S03", "HCW", "HCA", "Settlement S02", "HCP", "HCH", "HEC", "HEX", "HX", "HS1", "HS2", "Settlement S04", "HS3", "HS4", "H1a", "Settlement S05"],
+    "spending": ["HLT-1", "HLT-2", "HLT-4", "HLT-6", "HLT-7", "HLT-8", "HLT-9", "HLT-10", "HLT-11"],
+    "first_year": 2030,
+    "standing_reserve_bn": 250.0
+  },
   "not_booked": {
     "G10.2": "DEC-2026-11-24-02: the FY2029 base capped at CBO's February 2026 path. It changes nothing against today's baseline; it is statutory text (2-settlement.md part 7)",
     "G11.1": "DEC-2026-11-24-03: no. The 2025 law's farm increases stay",

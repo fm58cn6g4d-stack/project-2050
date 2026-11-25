@@ -312,6 +312,15 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
                          ssa_oasdi_admin_bn=ac['oasdi'],ssa_hi_admin_bn=ac['hi'],smi_admin_bn=ac['smi'],smi_admin_premiums_bn=smi_premium,leave_admin_bn=lv['administration']*factor,development_program_bn=development[y],ss_income_tax_offset_bn=ss_offset,leave_income_tax_offset_bn=leave_offset,
                          new_income_tax_bn=taxes,recovery_credit_bn=credit(y)*credit_multiple,matched_grossup_bn=grossup,
                          macro_translation=factor,baseline_debt_bn=baseline['debt'],baseline_interest_bn=baseline['interest']))
+    # The health fund as its own account (settlement on): the general fund shows only its transfer to the fund, so the
+    # fund's own primary balance after the transfer is stripped as the other funds' are. Unified figures don't move.
+    hf=health_fund(audit,SETTLEMENT['health_fund']) if settlement and 'health_fund' in SETTLEMENT else None
+    for r in rows:
+        h=hf[r['year']] if hf else dict(sources=0.0,spending=0.0,balance=0.0,transfer=0.0,reserve=0.0)
+        own=h['spending']-h['sources']-h['transfer'] if hf else 0.0
+        r['agenda_gf_primary_bn']-=own
+        r.update(health_fund_sources_bn=h['sources'],health_fund_spending_bn=h['spending'],
+                 health_fund_gf_transfer_bn=h['transfer'],health_fund_reserve_bn=h['reserve'])
     interest,debt=f.debt_roll(b,{r['year']:r['program_primary_bn'] for r in rows},shift=rate_shift)
     for r in rows:
         y=r['year']; r['revenue_bn']=r['baseline_revenue_bn']+r['revenue_change_bn']
@@ -332,7 +341,38 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         education_depletion=edu['depletion'],education_terminal_rising=edu['terminal_rising'],education_terminal_ratio=edu['terminal_ratio'],
         leave_terminal_loan_bn=lr['terminal_loan'],leave_peak_loan_bn=lr['peak_loan'],leave_repayment_year=lr['repayment_year'])
     summary.update(f.CL.disclosure())
-    return dict(summary=summary,rows=rows,audit=audit,education=edu,ss=sr,hi=hr,leave=lr)
+    return dict(summary=summary,rows=rows,audit=audit,education=edu,ss=sr,hi=hr,leave=lr,health_fund=hf)
+
+def audit_lines(audit):
+    """{line key: {year: primary-deficit change, $B}}; a settlement item is keyed by its ID ("Settlement S06")."""
+    out={}
+    for a in audit:
+        k=a['line'].split(':')[0] if a['line'].startswith('Settlement S') else a['line']
+        out.setdefault(k,{}); out[k][a['year']]=out[k].get(a['year'],0.0)+a['primary_deficit_change_bn']
+    return out
+
+def health_fund(audit,hf):
+    """The plan's health fund (HLT-7.22) as its own account (DEC-2026-11-25-12, -28, -30, -31): its dedicated sources
+    and its spending, from the booked lines; the general fund's transfer by the health law; the fund's reserve.
+    Increments to CBO's baseline, as every line here (the baseline's own health revenue and spending are committed to
+    the fund by the plan's law and are not repeated). HI's own line ('HI H1a and Part A HLT-6 share') is not a source:
+    HI keeps it (its $425B) in its own account, which fund_primary already strips, until HI folds in at 2035.
+    The law (G27 A point 2): FY2030-34's surplus stays in the fund; the general fund pays only what the fund can't
+    meet from its reserve above the standing amount, so the rest of the surplus lowers the FY2035 transfer.
+    Returns {year: dict(sources, spending, balance, transfer, reserve)}."""
+    L=audit_lines(audit)
+    g=lambda names,y: sum(L.get(n,{}).get(y,0.0) for n in names)
+    src=hf['sources']; spend=hf['spending']
+    missing=[n for n in src+spend if n not in L]
+    if missing: raise KeyError('health fund lines not in the booked case: %s' % missing)
+    reserve=0.0; out={}
+    for y in Y:
+        S=-g(src,y); X=g(spend,y); B=S-X
+        if y<hf['first_year']: out[y]=dict(sources=S,spending=X,balance=B,transfer=0.0,reserve=0.0); continue
+        T=max(0.0,-B-max(0.0,reserve-hf['standing_reserve_bn']))
+        reserve+=B+T
+        out[y]=dict(sources=S,spending=X,balance=B,transfer=T,reserve=reserve)
+    return out
 
 def household_diagnostic(d,f,b,m,u):
     """Reconcile changed household rows; estimates of incidence, not microsimulation.
