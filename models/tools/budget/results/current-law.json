@@ -1,0 +1,267 @@
+{
+ "change": {
+  "2029": {
+   "debt_bn": 0.0,
+   "debt_gdp": 0.0,
+   "deficit_bn": 0.0
+  },
+  "2034": {
+   "debt_bn": 0.0,
+   "debt_gdp": 0.0,
+   "deficit_bn": 0.0
+  },
+  "2039": {
+   "debt_bn": 0.0,
+   "debt_gdp": 0.0,
+   "deficit_bn": 0.0
+  },
+  "2040": {
+   "debt_bn": 0.0,
+   "debt_gdp": 0.0,
+   "deficit_bn": 0.0
+  },
+  "2045": {
+   "debt_bn": 0.0,
+   "debt_gdp": 0.0,
+   "deficit_bn": 0.0
+  },
+  "2050": {
+   "debt_bn": 0.0,
+   "debt_gdp": 0.0,
+   "deficit_bn": 0.0
+  },
+  "2056": {
+   "debt_bn": 0.0,
+   "debt_gdp": 0.0,
+   "deficit_bn": 0.0
+  }
+ },
+ "current_law": {
+  "2029": {
+   "debt_bn": 38663.886,
+   "debt_gdp": 107.37,
+   "deficit_bn": 2098.452,
+   "deficit_gdp": 5.827,
+   "interest_gdp": 3.733
+  },
+  "2034": {
+   "debt_bn": 51435.165,
+   "debt_gdp": 118.587,
+   "deficit_bn": 2927.241,
+   "deficit_gdp": 6.749,
+   "interest_gdp": 4.476
+  },
+  "2039": {
+   "debt_bn": 68002.212,
+   "debt_gdp": 130.282,
+   "deficit_bn": 3729.909,
+   "deficit_gdp": 7.146,
+   "interest_gdp": 5.01
+  },
+  "2040": {
+   "debt_bn": 71902.474,
+   "debt_gdp": 132.742,
+   "deficit_bn": 3900.472,
+   "deficit_gdp": 7.201,
+   "interest_gdp": 5.118
+  },
+  "2045": {
+   "debt_bn": 94864.133,
+   "debt_gdp": 145.752,
+   "deficit_bn": 5090.279,
+   "deficit_gdp": 7.821,
+   "interest_gdp": 5.71
+  },
+  "2050": {
+   "debt_bn": 124708.684,
+   "debt_gdp": 160.478,
+   "deficit_bn": 6602.807,
+   "deficit_gdp": 8.497,
+   "interest_gdp": 6.321
+  },
+  "2056": {
+   "debt_bn": 172480.806,
+   "debt_gdp": 180.25,
+   "deficit_bn": 9015.469,
+   "deficit_gdp": 9.422,
+   "interest_gdp": 7.136
+  },
+  "FY2030-2039": {
+   "deficit_bn": 29807.433
+  }
+ },
+ "files": [
+  "fiscal-baseline.csv",
+  "fiscal-model.json",
+  "fiscal-paths.csv",
+  "funds.json",
+  "ledger.json",
+  "moving-america.json",
+  "paths.csv"
+ ],
+ "header": {
+  "baseline_vintage": "CBO, The Budget and Economic Outlook: 2026 to 2036 and the long-term budget outlook (February 2026), with the FY2026 actuals and post-February adjustments in fiscal-data.py",
+  "code": {
+   "models/tools/budget/engine/climate-integration.py": "dcf27f8e2b20216ccfb561f6e5fb2778fca03f7a35e0f2567674b4a44e203a9f",
+   "models/tools/budget/engine/fiscal-data.py": "709142a030cdecc0f7520a2ba566342a3c067bfcd17e1721f9e57a09f56a8fb3",
+   "models/tools/budget/engine/fiscal-model.py": "2013791779751075467c6d3c265583063ff8a69f1cda7cae064b9ce08b256d56",
+   "models/tools/budget/engine/fiscal-profiles.py": "fc33a46ecb2ddeeb6e4d5ec74089ea7f9526e5da21702518f0eebd0959a9343d",
+   "models/tools/budget/engine/funds-model.py": "06761a9d630dbaf579bdac509dba57430e2d538c8a2fcbb9cbf77cd767589a0a",
+   "models/tools/budget/engine/ledger-build.py": "a37ede7bc9a8c94365881f4173bad994fda32a762220441c0d3e6fe9796255b2",
+   "models/tools/budget/engine/window.py": "9b831c5d8c20c7ea3a972260413597a096cf56da3b3abb0ff916c5a22b451cf2",
+   "models/tools/budget/run.py": "9084a5bf8bc69cfc22247d61ee8c46af9f551f95c51c0d0d9d4e841bdeaed678",
+   "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
+   "models/tools/scenarios.py": "0d174308e273072ca379ffe74b4195b21272e384438c1afa6624c4cf5f96a709",
+   "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb59f769f07a5f169a3c53e8a5c35f731a591741b87409a3b8",
+   "models/tools/transportation/ntd_uza_2024.py": "10a2275caee7c1df6517940d93180c68af802fe7a34134bf4930ca8e7fa330e8",
+   "models/tools/transportation/report.py": "566b102ecbc00817d334f7645b4f83d8cf49e7b6edbbd69b8f44ce4847617335",
+   "models/tools/transportation/transit_apportionment.py": "2f5dc982f89cdfdaeb92567c7cef8e75d11aab54d52556315ad19edcef639964",
+   "models/tools/transportation/transit_pipeline_data.py": "97a275103c316f71eb139b35df7a418d83074acc85e5d9f11b9c5b2b705adb4b"
+  },
+  "commit": null,
+  "disclaimer": "Project 2050 analysis of the evidence: not an official score or a benefit determination. It never stands in for a CBO or JCT estimate or for an agency's decision on an individual case.",
+  "inputs": {
+   "legacy/sources/climate-portfolio-pricing.json": "29429bb658bb56514c9e890a5e9e08ea29720905cb6ae066854e60244cdd40b0",
+   "models/data/budget/assumptions.csv": "51b958e5053789e9a176f333b790df185eb865e44cf80425bc7c0aa822803707",
+   "models/data/budget/categories.csv": "12dc878b784a96fd287c2638bc8e299e0b6b2dcfd31c87e7528cccf4517ef82e",
+   "models/data/budget/cbo-contract-authority.csv": "6e10396107c2bde98aa3f432ddecac1127c2e471dd07c7f5439308f63e053358",
+   "models/data/budget/cbo-economic-historical.csv": "2b92845ec13e7b7c6581916a9bfefe63788c0090157505d8910d9d1c1eda0c53",
+   "models/data/budget/cbo-economic.csv": "223dfb2dd8f86c29b34f29f257af97abb1b90ffad5cea81fdabc589a1d307451",
+   "models/data/budget/cbo-historical.csv": "dd072d43ec338c79279db5b6781707482846a9c97db864242dd41032d2b94151",
+   "models/data/budget/cbo-long-term-economic.csv": "548ac30224293d303256a8e8921b6a45f961c855b36cf09e2dce196c730e88a6",
+   "models/data/budget/cbo-long-term.csv": "60b955e86bc94b5101d07403d5f9d7360950b9160688281f8bfa5baecff15918",
+   "models/data/budget/cbo-rules-of-thumb.csv": "ea268cee55370bde5034aa6f03c699ad50fc3dfd9e1dd8fd904ea9f8e688f1a0",
+   "models/data/budget/cbo-spending-2026-06-vs-02.csv": "f205303d98906a7a9cc1aac38313af9b009a580c11cb3658952dba7566c61752",
+   "models/data/budget/cbo-spending-by-function.csv": "5ce1c486e3b4c40df5d96536470a7454f852cd01a61f46f48a8ea6ba39b50aaf",
+   "models/data/budget/cbo-ten-year.csv": "e2b492d2e7a2d96a6106e438fab8a96ef981dd4d09ea765daa21158b65b11331",
+   "models/data/budget/deflators.csv": "a3204295e682b90301714cdd1d844456a5653f8b9398858a89cc35a2294a44a6",
+   "models/data/budget/omb-ba-by-function.csv": "1ffa3d067b26557ad746a508332edfd93c31532f25fcc6deed7fc85a34532698",
+   "models/data/budget/omb-discretionary.csv": "050bd4831a0a0a3dd5f25ff37c947c959f384e59d3661a010c90b56f199bb822",
+   "models/data/budget/omb-outlays-by-function.csv": "8e2c99cd75b232e0f2d413c21b67538e8b4f9f4851a71775a35cce8909922c77",
+   "models/data/budget/post-february.csv": "4f136beb7435800d027f0a1c997a7d7f8f9ed4412d7000937430ea410c303c24",
+   "models/data/budget/provision-splits.csv": "75131eef1c709b729c371e07fbd7c35667c6b960948dae583308fc0e85c9b113",
+   "models/data/budget/provisions.csv": "4ef49b6879b905819ebafb267bbab293cec82ef898688451bd86fc25bf6ce257",
+   "models/data/budget/spendout-discretionary-cbo.csv": "d6a6bdd8b75b9327a2be1d35a8b03b4d596e9cc91d072566d993244f9406a507",
+   "models/data/budget/spendout-discretionary.csv": "fa26a8173d46ea3ad1822954caf1b2cf7464859c81e35b80c357a3beb5bea09d",
+   "models/data/budget/spendout-new-programs.csv": "4da248508b6b29a85566905daaf94084e62df372d82ee15c54eb35f9e1cfec46",
+   "models/data/budget/treasury-maturity.csv": "f149355f0de6abd8f1de345791409030f0235b84f4a797fb01c8c9634a53e85b",
+   "models/data/cbo/budget_historical_budget_annual_fy_2026-02.csv": "8fee9c6ec249b8b1685a189edbb28cfa8233022f72fe4f65723eb886c7ac7309",
+   "models/data/cbo/budget_long_term_budget_annual_fy_2026-02.csv": "61018d3f4334c26a1704438e28c3b523b641c45549c8bf04c3890fd463f7a5f5",
+   "models/data/cbo/budget_spending_detail_annual_fy_2026-02.csv": "161e2432d955fe37815a761454299a0b61de06298aff9bf4fcd89bb88939e1db",
+   "models/data/cbo/budget_spending_detail_annual_fy_2026-06.csv": "eb56faa86a32e8d97ac7a8e8845ac5051a37ee6cc3fd76ca90263ef1047887f4",
+   "models/data/cbo/budget_ten_year_budget_annual_fy_2026-02.csv": "6a2d727e70fb53512e45afdcc8d145f7dc952b2d4e87ca03591cb4e5bd63f0db",
+   "models/data/cbo/economic_economic_projections_fiscal_2026-02.csv": "b157c22a34225d153c4182e701163db837bc5129850b4375b2b01015a1833d87",
+   "models/data/cbo/economic_historical_economic_annual_fy_2026-02.csv": "4152f5de9232b81bace3fae8ee33d356eb632c6be7998a845d54886aaa21eb69",
+   "models/data/cbo/economic_long_term_economic_levels_2026-02.csv": "94f7ccc10117dd72407129b1a33e903ff0e9c0b8c78d81639dc53261ff7205fe",
+   "models/data/inputs/calendar-scenarios.json": "1ac930965547eeb079062777162627040a661429c2507007a5ff825b13c0cc39",
+   "models/data/inputs/capacity-funding.csv": "f673162cb5b44d47401e6b9fc3a5aaa07fa7d0b94d8f203ab5aee6965f352a3f",
+   "models/data/inputs/carbon-parameters.csv": "1209e9fbd89f3e64c82a1af263c00fe73cf12db399b0503ca26d226e4609732f",
+   "models/data/inputs/climate-adoption.json": "f963d8329d1960c58e9bcad311c657efc7e1be5987440e1938c6a7ab9f917e83",
+   "models/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
+   "models/data/inputs/excise-offset.csv": "8cc362a5d923b38517a704cfe767364da99bb14871aec80a30ded64c8b337141",
+   "models/data/inputs/fiscal-after.csv": "f83f5bd1e0a324366eb40848835ce812c1ee10052a008e778aebbcfc542f4201",
+   "models/data/inputs/fiscal-components.csv": "4f4431e71d5d4a30fe4ba82b9aed0921733ddac88dce93108c1bc90d86b8176d",
+   "models/data/inputs/fiscal-fy2029.csv": "9cdbde562f7a1136a48d58c035ed02134dd418e4addc4c7d72fce69d1e209974",
+   "models/data/inputs/fiscal-profiles.csv": "b2e6ce01d844f500bdaf0b2af12a3f11b1efa81f9bbbb38537fba87c0248c1b2",
+   "models/data/inputs/fiscal-years.csv": "d73e19ac7db192f2960a0c0f7509767f286c358d2a8499baa457fa74c3efff96",
+   "models/data/inputs/funds-hi-rates.csv": "2255534360d5f7ef1edbc72078f92fd50d9ee3103fc55c20edd3c7f050c4e776",
+   "models/data/inputs/funds-parameters.csv": "14ba2da2f3e6b512ac8e359f9b0a6d330d794a43cbe538a2b7fa5c4d0a39519d",
+   "models/data/inputs/funds-ss-economics.csv": "06da6a41f50be9c8d35a319b70fe33bc1cc5563bc19b54623b59291499eee657",
+   "models/data/inputs/funds-ss-offbudget.csv": "f57e8887f662cba02df7c968b51cda7de7f457afbf4d7e10571f1939d4b194d3",
+   "models/data/inputs/funds-ss-provisions.csv": "8ed9f9ce45b2d1d808dd55bc84d3112e390c461f0717914f266b7eb95ade88df",
+   "models/data/inputs/funds-ss-rates.csv": "c6388ac3a0688374d3e9a5accfcaff2ab1e5a336f530df447fe3cc6166cf5d1e",
+   "models/data/inputs/funds-ss-ssa-runs.csv": "e8395c782c528874d5d9197564e485285e8fffa42d21c5729d843d8e5948a9e9",
+   "models/data/inputs/funds-ss-ssa-summary.csv": "48c6b349c6ea9db6f9c817c861b828a1128a8d86a00d2750241e50a4542a1c42",
+   "models/data/inputs/incidence-keys.csv": "8446ce68c45bcef2a55db53479aaadbfed7f8932d7a0bf6254774a8da84276bb",
+   "models/data/inputs/incidence-phase-in.csv": "2be98fd0f3a8913e0eb9bff6a9cbeb9357d40ee0ad50f1fb1ac1756b12f1f5eb",
+   "models/data/inputs/incidence-rows.csv": "8a3468083b2d07083c7383e677b0f010ab1ba9314b12635d72ff050a931c09de",
+   "models/data/inputs/ledger-bills.csv": "6e0dc616a250ad51fbd9dd5ed6f91913f65a1e60b8f81469a42de1f0ca31a251",
+   "models/data/inputs/ledger-conflicts.csv": "0859546aabb45c1157d860ccc0555cf53b541170e9328f72b6707ba1c19c4cff",
+   "models/data/inputs/ledger-cuts.csv": "1bbdea586037a37cf20d43d61b81b1ba8751b2236d4ec600b97b10c3bb308f0a",
+   "models/data/inputs/ledger-dynamic.csv": "a82113e9237ea735b6fe885d433a8ff7901bae340926bdb5b94dccc361c2ebdb",
+   "models/data/inputs/ledger-revenue.csv": "0268ee69fe1996e083ca28a06e0e2998f68ce2851661ffd3a04401392933e4d9",
+   "models/data/inputs/readme.md": "8b467a50e0b84b3745f5b165b1db1cb2929f167604427a9dbef0959fc3aeacf5",
+   "models/data/inputs/recovery-adoption.json": "55e581ef7b0898d7997b4e3c98540a97db16b0fefc65aa89d528684f76a69b0b",
+   "models/data/inputs/scenarios.json": "51172d13daa11dbce39dd24ce63e83560cbeb042cd6de9f48ebbf18c11a183c4",
+   "models/data/inputs/settlement-paths.csv": "847d12143ee97fd0dbbe774b9c0ad187061e2a33c755544654e833acef626441",
+   "models/data/inputs/settlement.json": "dd0ffa216511362a799c01a091f0d6f35239a03bf33973fec37849151023c48e",
+   "models/data/inputs/votes-bills.csv": "b789257ed53185ba61bad385bddf7714686d4075ccd2d09064ad8585392db0f4",
+   "models/data/inputs/votes-senate.csv": "2ba0d75a064e7c62b69b3e6138374ded3aba32a1bf55f23105c9380f78423611",
+   "models/tools/budget/reforms/current-law.json": "81095e57d652df66108f8e2333cb632feecc70b26397f1486fa2790a49576530"
+  },
+  "model_id": "MOD-budget",
+  "model_version": "0.2.0",
+  "price_basis": "nominal dollars",
+  "scenarios": [
+   "current-law"
+  ],
+  "schema": "p2050-results/1",
+  "scoring_convention": "conventional: no macroeconomic feedback; interest on added debt at CBO's projected rates",
+  "status": "working",
+  "uncertainty": "not quantified in this file: a reform is applied at its central figures. The engine reports the plan's cautious end (scenario DEC-CAUT) and an interest-rate stress (DEC-R1) in fiscal-paths.csv; benchmarks.md lists the misses.",
+  "units": "nominal $B by federal fiscal year; shares of GDP in percent",
+  "year_type": "fiscal"
+ },
+ "reform": {
+  "id": "current-law",
+  "kind": "current-law",
+  "label": "Current law: CBO's February 2026 baseline with the documented FY2026 actuals and post-February adjustments",
+  "note": "The default run: the same as leaving --reform out. Every other reform is reported against it.",
+  "source": "models/data/fiscal-baseline.csv (built by engine/fiscal-data.py from CBO's committed files in models/data/cbo/)"
+ },
+ "reform_result": {
+  "2029": {
+   "debt_bn": 38663.886,
+   "debt_gdp": 107.37,
+   "deficit_bn": 2098.452,
+   "deficit_gdp": 5.827,
+   "interest_gdp": 3.733
+  },
+  "2034": {
+   "debt_bn": 51435.165,
+   "debt_gdp": 118.587,
+   "deficit_bn": 2927.241,
+   "deficit_gdp": 6.749,
+   "interest_gdp": 4.476
+  },
+  "2039": {
+   "debt_bn": 68002.212,
+   "debt_gdp": 130.282,
+   "deficit_bn": 3729.909,
+   "deficit_gdp": 7.146,
+   "interest_gdp": 5.01
+  },
+  "2040": {
+   "debt_bn": 71902.474,
+   "debt_gdp": 132.742,
+   "deficit_bn": 3900.472,
+   "deficit_gdp": 7.201,
+   "interest_gdp": 5.118
+  },
+  "2045": {
+   "debt_bn": 94864.133,
+   "debt_gdp": 145.752,
+   "deficit_bn": 5090.279,
+   "deficit_gdp": 7.821,
+   "interest_gdp": 5.71
+  },
+  "2050": {
+   "debt_bn": 124708.684,
+   "debt_gdp": 160.478,
+   "deficit_bn": 6602.807,
+   "deficit_gdp": 8.497,
+   "interest_gdp": 6.321
+  },
+  "2056": {
+   "debt_bn": 172480.806,
+   "debt_gdp": 180.25,
+   "deficit_bn": 9015.469,
+   "deficit_gdp": 9.422,
+   "interest_gdp": 7.136
+  },
+  "FY2030-2039": {
+   "deficit_bn": 29807.433
+  }
+ },
+ "rows": []
+}
