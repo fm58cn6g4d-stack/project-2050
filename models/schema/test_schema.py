@@ -38,8 +38,12 @@ class Parameters(unittest.TestCase):
         self.bad('Bad-ID,1,share,2032,evidence,EV-CAR-051,,,', 'id must be')
         self.bad('a,1,share,2032,guess,EV-CAR-051,,,', 'kind must be')
         self.bad('a,1,share,32,evidence,EV-CAR-051,,,', 'is not 2032')
+        self.bad('a,nan,share,2032,evidence,EV-CAR-051,,,', 'not a finite number')
+        self.bad('a,inf,share,2032,evidence,EV-CAR-051,,,', 'not a finite number')
+        self.bad('a,1,share,2032,evidence,ASM-12,,,', 'needs an evidence ID')
+        self.bad('a,1,share,2032,calibrated,EV-CAR-051,,,', 'names the BM- benchmark')
         self.bad('a,1,share,2034-2030,evidence,EV-CAR-051,,,', 'backward')
-        self.bad('a,x,share,2032,evidence,EV-CAR-051,,,', 'not a number')
+        self.bad('a,x,share,2032,evidence,EV-CAR-051,,,', 'not a finite number')
         self.bad('a,1,share,2032,evidence,CBO says so,,,', 'needs an evidence ID')
         self.bad('a,1,share,2032,assumption,judgment,,,', 'needs a low and a high')
         self.bad('a,1,share,2032,assumption,judgment,2,3,', 'outside its range')
@@ -48,7 +52,8 @@ class Parameters(unittest.TestCase):
 
     def test_duplicate_and_missing_column(self):
         errs = P.validate(rows(GOOD + 'cbo_unins,1,share,2032,evidence,EV-CAR-051,,,\n'))
-        self.assertTrue(any('duplicate' in e for e in errs))
+        self.assertTrue(any('duplicate id and year' in e for e in errs))
+        self.assertEqual(P.validate(rows(GOOD + 'cbo_unins,38.0,million people,2033,evidence,EV-CAR-051,,,\n')), [])
         self.assertEqual(P.validate(rows('id,value\na,1\n')), ['missing column(s): unit, year, kind, source'])
 
     def test_column_map(self):
@@ -60,7 +65,7 @@ class Parameters(unittest.TestCase):
 
     def test_table_and_card_block(self):
         t = P.table(rows(GOOD))
-        self.assertIn('4 inputs: 1 traced to evidence, 2 policy parameters, 1 labeled assumptions', t)
+        self.assertIn('4 inputs: 1 traced to evidence, 2 policy parameters, 0 calibrated to a benchmark, 1 labeled assumptions', t)
         self.assertIn('| `po_rate` Public option payment rate | 1.6 | ratio | none | assumption |', t)
         self.assertIn('1.2 to 2.0', t)
         with tempfile.NamedTemporaryFile('w', suffix='.md', delete=False) as f:
@@ -81,7 +86,8 @@ def header(**kw):
     h = {'schema': R.SCHEMA, 'model_id': 'MOD-test', 'model_version': '1.2.3', 'status': 'working', 'commit': None,
          'code': {'models/tools/test/model.py': 'a' * 64}, 'inputs': {'models/tools/test/inputs.csv': 'b' * 64},
          'units': '$ billion', 'price_basis': 'nominal dollars', 'year_type': 'fiscal',
-         'baseline_vintage': 'CBO, February 2026', 'scoring_convention': 'conventional', 'disclaimer': R.DISCLAIMER}
+         'baseline_vintage': 'CBO, February 2026', 'scoring_convention': 'conventional', 'scenarios': ['baseline'],
+         'uncertainty': 'not quantified', 'disclaimer': R.DISCLAIMER}
     h.update(kw)
     return h
 
@@ -93,7 +99,8 @@ class Results(unittest.TestCase):
 
     def test_invalid(self):
         cases = {'model_id': 'household', 'model_version': '1.2', 'status': 'official', 'commit': 'abc',
-                 'disclaimer': 'not an official score', 'units': '', 'inputs': {}, 'schema': 'other'}
+                 'disclaimer': 'not an official score', 'units': '', 'inputs': {}, 'schema': 'other',
+                 'scenarios': [], 'uncertainty': ''}
         for k, v in cases.items():
             with self.subTest(k):
                 self.assertTrue(R.validate_header(header(**{k: v})))
@@ -120,7 +127,7 @@ class Results(unittest.TestCase):
 class Validation(unittest.TestCase):
     def bm(self, **kw):
         base = dict(id='BM-1', quantity='Uninsured', target=10.0, source='EV-CAR-051', vintage='CBO, Feb 2026',
-                    unit='million', tolerance=0.1)
+                    unit='million', tolerance=0.1, tolerance_basis='CBO rounds to 0.1 million')
         base.update(kw)
         return V.Benchmark(**base)
 
@@ -139,6 +146,9 @@ class Validation(unittest.TestCase):
             V.evaluate(self.bm(tolerance_kind='range'), 1.0)
         with self.assertRaises(ValueError):
             V.evaluate(self.bm(target=(8.0, 5.0)), 1.0)
+        with self.assertRaises(ValueError):
+            V.evaluate(self.bm(target=0.0), 1.0)
+        self.assertAlmostEqual(V.evaluate(self.bm(), 11.0).difference_pct, 0.1)
 
     def test_problems(self):
         ok = V.evaluate(self.bm(), 10.0)
@@ -150,12 +160,15 @@ class Validation(unittest.TestCase):
         self.assertIn('BM-1: duplicate benchmark ID', V.problems([ok, ok]))
         self.assertIn('BM-1: not evaluated', V.problems([self.bm()]))
         self.assertIn('BM-1: a target needs its source and vintage', V.problems([V.evaluate(self.bm(vintage=' '), 10.0)]))
+        self.assertIn('BM-1: a tolerance needs its basis (why this band, set before the model figure)',
+                      V.problems([V.evaluate(self.bm(tolerance_basis=''), 10.0)]))
 
     def test_render(self):
         miss = V.evaluate(self.bm(id='BM-2', explanation='CBO counts more.'), 20.0)
-        t = V.render([V.evaluate(self.bm(), 10.0), miss])
-        self.assertTrue(t.startswith('2 benchmarks: 1 pass, 1 miss.'))
-        self.assertIn('| BM-2 | Uninsured | 10.0 million | EV-CAR-051; CBO, Feb 2026 | 20.0 | 10.0 | 10% | **miss** | CBO counts more. |', t)
+        ins = V.evaluate(self.bm(id='BM-3', in_sample=True, explanation='Set from CBO.'), 10.0)
+        t = V.render([V.evaluate(self.bm(), 10.0), miss, ins])
+        self.assertTrue(t.startswith('3 benchmarks. 2 independent: 1 pass, 1 miss. 1 in-sample by construction'), t)
+        self.assertIn('| BM-2 | Uninsured | 10.0 million | EV-CAR-051; CBO, Feb 2026 | 20.0 | 10.0 (+100.0%) | 10%; CBO rounds to 0.1 million | **miss** | CBO counts more. |', t)
 
 
 if __name__ == '__main__':

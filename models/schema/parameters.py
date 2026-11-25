@@ -4,22 +4,30 @@
 Role: one rule for every model's inputs (`models/schema/README.md`, "Parameter files"). Status:
 current (stage H step H2a); provisional until the first models move onto it (H3 to H6).
 
-A parameter file is a CSV, one row per input, with these columns:
+A parameter file is a CSV, one row per input and year, with these columns:
 
-  id      required  unique, lower case: letters, digits, '_' and '.'
-  value   required  a number (or, with unit 'text', a label)
+  id      required  lower case: letters, digits, '_' and '.'; the pair (id, year) is unique, so a value
+                    that changes by year is one row per year under the same id
+  value   required  a finite number (or, with unit 'text', a label)
   unit    required  e.g. '$ billion', 'million people', 'share', 'ratio', 'text'
   year    required  the year the value is for: 2032, FY2032, CY2032, a span 2025-2034 or FY2030-FY2039,
                     or 'none' for a value with no year (an elasticity, a ratio held fixed)
-  kind    required  evidence (a measured or published figure), assumption (a judgment), or
-                    policy (a parameter of current law or of a reform, set by statute or by the plan)
-  source  required  evidence and policy rows: an evidence ID (EV-, SRC-, DEC-, ASM-) or an https URL,
-                    several joined by '; '; assumption rows: the basis in words, IDs where they exist
-  low     optional  required for an assumption: the low end of its tested range
+  kind    required  evidence (a measured or published figure); assumption (a judgment); calibrated (a
+                    value fit so the model reproduces a benchmark: source is that BM- ID and its evidence);
+                    policy (a parameter of current law, set by statute: reform values belong in a model's
+                    scenario or reform files, not here)
+  source  required  evidence and policy rows: an evidence ID (EV-, SRC-, DEC-) or an https URL, several
+                    joined by '; '; calibrated rows: the BM- ID; assumption rows: the basis in words
+                    (an ASM- ID where one exists)
+  low     optional  required for an assumption: the low end of its tested sensitivity range (the range
+                    the model is run across, not a confidence interval)
   high    optional  required for an assumption: the high end; low <= value <= high
   note    optional  plain words
 
-Optional extra columns ('label', 'group', 'statute') are allowed and carried into the table.
+Optional columns: 'locator' (the table, page or section of the source the number is on: one evidence
+entry often feeds several rows), 'price_year' (the dollars a money value is in, e.g. 2025), 'uprating'
+('none', an index name or a parameter id: how the value moves to later years; reserved now, used from
+step H3), and 'label', 'group' and 'statute', all carried into the table.
 
   python3 models/schema/parameters.py FILE [--map old=new ...] [--table] [--card CARD]
 
@@ -28,24 +36,26 @@ is 'source'); --table prints the evidence table; --card rewrites the card's gene
 (between '<!-- generated:parameters:start -->' and '<!-- generated:parameters:end -->').
 Exit 1 if the file breaks the schema. Standard library only.
 """
-import argparse, csv, io, re, sys
+import argparse, csv, io, math, re, sys
 from pathlib import Path
 
 REQUIRED = ['id', 'value', 'unit', 'year', 'kind', 'source']
 OPTIONAL = ['low', 'high', 'note']
-KINDS = ('evidence', 'assumption', 'policy')
+KINDS = ('evidence', 'assumption', 'calibrated', 'policy')
 ID_RE = re.compile(r'^[a-z0-9][a-z0-9_.]*$')
 YEAR_RE = re.compile(r'^(?:(FY|CY)?(\d{4})(?:-(?:FY|CY)?(\d{4}))?|none)$')
-EVID_RE = re.compile(r'\b(?:EV-[A-Z]+-\d+[a-z]?|SRC-\d+|DEC-\d{4}-\d{2}-\d{2}-\d+|ASM-[A-Za-z0-9-]+)\b')
+EVID_RE = re.compile(r'\b(?:EV-[A-Z]+-\d+[a-z]?|SRC-\d+|DEC-\d{4}-\d{2}-\d{2}-\d+)\b')
+BM_RE = re.compile(r'\bBM-[A-Za-z0-9-]+\b')
 URL_RE = re.compile(r'https://\S+')
 START, END = '<!-- generated:parameters:start -->', '<!-- generated:parameters:end -->'
 
 
 def number(s):
     try:
-        return float(s.replace(',', ''))
+        x = float(s.replace(',', ''))
     except (ValueError, AttributeError):
         return None
+    return x if math.isfinite(x) else None
 
 
 def read(path, colmap=None):
@@ -70,9 +80,9 @@ def validate(rows):
         at = f'row {n} ({rid or "no id"})'
         if not ID_RE.match(rid):
             errs.append(f'{at}: id must be lower case letters, digits, "_" or "."')
-        if rid in seen:
-            errs.append(f'{at}: duplicate id')
-        seen.add(rid)
+        if (rid, r.get('year', '')) in seen:
+            errs.append(f'{at}: duplicate id and year')
+        seen.add((rid, r.get('year', '')))
         for c in REQUIRED:
             if not r.get(c):
                 errs.append(f'{at}: empty {c}')
@@ -85,10 +95,14 @@ def validate(rows):
             errs.append(f'{at}: year span runs backward')
         v = number(r['value'])
         if r['value'] and v is None and r['unit'] != 'text':
-            errs.append(f'{at}: value "{r["value"]}" is not a number (use unit "text" for a label)')
+            errs.append(f'{at}: value "{r["value"]}" is not a finite number (use unit "text" for a label)')
         src = r['source']
         if r['kind'] in ('evidence', 'policy') and src and not (EVID_RE.search(src) or URL_RE.search(src)):
-            errs.append(f'{at}: a {r["kind"]} row needs an evidence ID (EV-, SRC-, DEC-, ASM-) or an https URL')
+            errs.append(f'{at}: a {r["kind"]} row needs an evidence ID (EV-, SRC-, DEC-) or an https URL')
+        if r['kind'] == 'calibrated' and src and not BM_RE.search(src):
+            errs.append(f'{at}: a calibrated row names the BM- benchmark it was fit to')
+        if r.get('price_year') and not re.match(r'^\d{4}$', r['price_year']):
+            errs.append(f'{at}: price_year must be a year')
         lo, hi = number(r.get('low', '')), number(r.get('high', ''))
         if r['kind'] == 'assumption':
             if lo is None or hi is None:
@@ -106,7 +120,7 @@ def validate(rows):
 def summary(rows):
     k = {kind: sum(1 for r in rows if r['kind'] == kind) for kind in KINDS}
     return (f"{len(rows)} inputs: {k['evidence']} traced to evidence, {k['policy']} policy parameters, "
-            f"{k['assumption']} labeled assumptions with a tested range.")
+            f"{k['calibrated']} calibrated to a benchmark, {k['assumption']} labeled assumptions with a tested range.")
 
 
 def esc(s):
@@ -116,11 +130,15 @@ def esc(s):
 def table(rows):
     """The card's evidence table (Markdown), generated from the parameter file."""
     out = [summary(rows), '', '| ID | Value | Unit | Year | Kind | Source or basis | Range |', '| --- | --- | --- | --- | --- | --- | --- |']
+    def src(r):
+        return esc(r['source']) + (f" ({esc(r['locator'])})" if r.get('locator') else '')
+    def unit(r):
+        return esc(r['unit']) + (f" ({r['price_year']} dollars)" if r.get('price_year') else '')
     for r in rows:
         rng = f"{r.get('low', '')} to {r.get('high', '')}" if r.get('low') and r.get('high') and r['low'] != r['high'] else ''
         label = r.get('label') or r.get('note', '')
         rid = f"`{r['id']}`" + (f" {esc(label)}" if label else '')
-        out.append(f"| {rid} | {esc(r['value'])} | {esc(r['unit'])} | {r['year']} | {r['kind']} | {esc(r['source'])} | {rng} |")
+        out.append(f"| {rid} | {esc(r['value'])} | {unit(r)} | {r['year']} | {r['kind']} | {src(r)} | {rng} |")
     return '\n'.join(out)
 
 

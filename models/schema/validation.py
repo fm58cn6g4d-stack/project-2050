@@ -31,10 +31,12 @@ class Benchmark:
     unit: str
     tolerance: float = 0.0  # relative: share of the target (0.25 = 25%); absolute: in `unit`; range: slack beyond the ends, in `unit`
     tolerance_kind: str = 'relative'
+    tolerance_basis: str = ''  # why this tolerance: the target's own precision, a published error band, a convention
     in_sample: bool = False  # the model was calibrated to this target: it checks arithmetic, not accuracy
     explanation: str = ''    # required for a miss or an in-sample row
     model: float = None
     difference: float = None
+    difference_pct: float = None   # difference as a share of the target (of the nearer end for a range)
     passed: bool = None
 
 
@@ -49,17 +51,20 @@ def evaluate(b, model):
         if lo > hi:
             raise ValueError(f'{b.id}: target range runs backward')
         diff = 0.0 if lo <= model <= hi else (model - hi if model > hi else model - lo)
-        if b.tolerance_kind == 'relative':
-            end = hi if model > hi else lo
-            ok = abs(diff) <= b.tolerance * abs(end)
-        else:
-            ok = abs(diff) <= b.tolerance
+        end = hi if model > hi else lo
+        if b.tolerance_kind == 'relative' and end == 0:
+            raise ValueError(f'{b.id}: a relative tolerance needs a nonzero target; use an absolute one')
+        ok = abs(diff) <= (b.tolerance * abs(end) if b.tolerance_kind == 'relative' else b.tolerance)
     else:
         if b.tolerance_kind == 'range':
             raise ValueError(f'{b.id}: a range tolerance needs a (low, high) target')
+        end = b.target
+        if b.tolerance_kind == 'relative' and end == 0:
+            raise ValueError(f'{b.id}: a relative tolerance needs a nonzero target; use an absolute one')
         diff = model - b.target
         ok = abs(diff) <= (b.tolerance * abs(b.target) if b.tolerance_kind == 'relative' else b.tolerance)
-    return replace(b, model=model, difference=diff, passed=bool(ok))
+    pct = diff / abs(end) if end else None
+    return replace(b, model=model, difference=diff, difference_pct=pct, passed=bool(ok))
 
 
 def problems(rows):
@@ -71,6 +76,8 @@ def problems(rows):
             out.append(f'{r.id}: not evaluated')
         if not r.source.strip() or not r.vintage.strip():
             out.append(f'{r.id}: a target needs its source and vintage')
+        if not r.tolerance_basis.strip():
+            out.append(f'{r.id}: a tolerance needs its basis (why this band, set before the model figure)')
         if (r.passed is False or r.in_sample) and not r.explanation.strip():
             out.append(f'{r.id}: {"a miss" if r.passed is False else "an in-sample check"} needs an explanation')
     return out
@@ -93,15 +100,19 @@ def tol_text(r):
 
 def render(rows, title='Validation'):
     """The validation table in Markdown, with a one-line count."""
-    n_pass = sum(r.passed for r in rows)
-    n_in = sum(r.in_sample for r in rows)
-    head = f'{len(rows)} benchmarks: {n_pass} pass, {len(rows) - n_pass} miss' + (f' ({n_in} in-sample by construction).' if n_in else '.')
+    ind = [r for r in rows if not r.in_sample]
+    n_pass = sum(r.passed for r in ind)
+    n_in = len(rows) - len(ind)
+    head = f'{len(rows)} benchmarks. {len(ind)} independent: {n_pass} pass, {len(ind) - n_pass} miss.'
+    if n_in:
+        head += f' {n_in} in-sample by construction (they check arithmetic, not accuracy): {sum(r.passed for r in rows if r.in_sample)} pass.'
     L = [head, '', '| ID | Quantity | Target | Source and vintage | Model | Difference | Tolerance (set in advance) | Result | Explanation |',
          '| --- | --- | --- | --- | --- | --- | --- | --- | --- |']
     for r in rows:
         res = 'pass' if r.passed else '**miss**'
         if r.in_sample:
             res += ' (in-sample)'
+        d = fmt(r.difference) + (f' ({r.difference_pct:+.1%})' if r.difference_pct is not None else '')
         L.append(f'| {r.id} | {r.quantity} | {fmt(r.target)} {r.unit} | {r.source}; {r.vintage} | {fmt(r.model)} | '
-                 f'{fmt(r.difference)} | {tol_text(r)} | {res} | {r.explanation} |')
+                 f'{d} | {tol_text(r)}; {r.tolerance_basis} | {res} | {r.explanation} |')
     return '\n'.join(L)

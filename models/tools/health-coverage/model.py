@@ -663,13 +663,15 @@ def baseline_checks(I, base):
 EVIDENCE_REGISTER = 'dossiers/care/evidence.json (EV-CAR-020 to 061, 120-121, 131, 135, 206-209, 217-229, 236-237, 243, 263)'
 
 
-def header(commit=None):
+def header(scenarios, commit=None):
     """The toolkit's results header (models/schema/results.py), stamped by models/runlog.py."""
     return runlog.header(MODEL_ID, VERSION, STATUS, code=CODE, inputs=INPUTS,
                          units='people in millions; money in $ billion (per-person amounts in dollars); 2032 unless noted',
                          price_basis='nominal dollars', year_type='calendar 2032 for the representative year; fiscal years for the FY2030-39 window',
                          baseline_vintage="CBO's February 2026 coverage baseline for 2032 (P.L. 119-21 in force, enhanced credits expired); CMS national health expenditure projections, 2024 base",
                          scoring_convention='conventional cell model: coverage flows set from CBO estimates, no labor-market or macroeconomic feedback',
+                         scenarios=scenarios,
+                         uncertainty="ranges from running each labeled assumption at its low and high value (the 'uncertainty' block); no sampling error (a cell model, not a survey sample)",
                          commit=commit)
 
 
@@ -935,11 +937,10 @@ def main():
     a = ap.parse_args()
     rows = load_inputs()
     commit = runlog.commit_for(CODE + INPUTS) if a.record else None
-    out = runlog.stamp(r3(build_all(rows)), header(commit))
+    res = r3(build_all(rows))
+    out = runlog.stamp(res, header(list(res['results']), commit))
     os.makedirs(a.out, exist_ok=True)
-    with open(os.path.join(a.out, 'results.json'), 'w') as f:
-        json.dump(out, f, indent=1, sort_keys=True)
-        f.write('\n')
+    runlog.write_json(os.path.join(a.out, 'results.json'), out)
     with open(os.path.join(a.out, 'results.md'), 'w') as f:
         f.write(md_results(out, rows))
     card = build_card(out)  # read the card before opening it for writing: --out defaults to this folder

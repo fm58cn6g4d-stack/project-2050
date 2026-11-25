@@ -11,7 +11,8 @@ sys.path.insert(0, str(HERE))
 import runlog  # noqa: E402
 
 FIELDS = dict(units='$ billion', price_basis='nominal dollars', year_type='fiscal',
-              baseline_vintage='CBO, February 2026', scoring_convention='conventional')
+              baseline_vintage='CBO, February 2026', scoring_convention='conventional', scenarios=['baseline'],
+              uncertainty='not quantified')
 
 
 def sh(root, *args):
@@ -47,7 +48,7 @@ class RunLog(unittest.TestCase):
         out = runlog.stamp({'results': {'x': 1}, 'header': {'old': True}}, h)
         p = self.root / 'build/results.json'
         p.parent.mkdir(exist_ok=True)
-        p.write_text(json.dumps(out, indent=1, sort_keys=True))
+        runlog.write_json(p, out)
         return p, out
 
     def test_header_and_stamp(self):
@@ -79,9 +80,35 @@ class RunLog(unittest.TestCase):
         rows = list(csv.DictReader(self.runs.read_text().splitlines()))
         self.assertEqual(list(rows[0]), runlog.COLUMNS)
         self.assertEqual(rows[0]['commit'], c)
-        self.assertEqual(rows[0]['results_sha256'], runlog.sha256_file(p))
         self.assertEqual(rows[0]['results_path'], 'build/results.json')
+        self.assertTrue(rows[0]['python'])
         self.assertTrue(runlog.RUN_RE.match(rows[1]['run_id']))
+        # the row's hash is the reference output's: the same run with commit null, as committed
+        ref, _ = self.write(None)
+        self.assertEqual(rows[0]['results_sha256'], runlog.sha256_file(ref))
+
+    def test_record_refuses_other_files(self):
+        p, out = self.write(self.head())
+        p.write_text(json.dumps(out))   # not the standard serialization: its hash could not be checked
+        with self.assertRaises(ValueError):
+            runlog.record(p, 'cmd', runs=self.runs, date='2026-11-25')
+        outside = Path(tempfile.mkdtemp()) / 'r.json'
+        runlog.write_json(outside, out)
+        with self.assertRaises(ValueError):
+            runlog.record(outside, 'cmd', runs=self.runs, date='2026-11-25')
+
+    def test_unlisted_imports_are_refused(self):
+        mod = self.m / 'helper.py'
+        mod.write_text('X = 1\n')
+        sys.path.insert(0, str(self.m))
+        try:
+            import helper  # noqa: F401
+            with self.assertRaises(ValueError):
+                runlog.header('MOD-toy', '1.0.0', 'working', code=['model.py'], inputs=['inputs.csv'], base=self.m, **FIELDS)
+            runlog.header('MOD-toy', '1.0.0', 'working', code=['model.py', 'helper.py'], inputs=['inputs.csv'], base=self.m, **FIELDS)
+        finally:
+            sys.path.remove(str(self.m))
+            sys.modules.pop('helper', None)
 
     def test_dirty_code_is_refused(self):
         (self.m / 'model.py').write_text('print(2)\n')

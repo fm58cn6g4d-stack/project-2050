@@ -22,6 +22,9 @@ with sort_keys stay byte-stable):
   year_type           "fiscal", "calendar" or "fiscal and calendar (see units)"
   baseline_vintage    the baseline the run starts from, e.g. "CBO, The Budget and Economic Outlook, February 2026"
   scoring_convention  e.g. "conventional: no macroeconomic feedback"
+  scenarios           the scenario or reform IDs the file holds (a list), e.g. ["baseline_2029", "restore"]
+  uncertainty         plain words on what the figures' uncertainty is and how it is shown, or
+                      "not quantified"
   disclaimer          exactly DISCLAIMER below
 
 A Markdown results file opens with the block `markdown_header()` writes, which carries the same
@@ -36,7 +39,7 @@ SCHEMA = 'p2050-results/1'
 DISCLAIMER = ("Project 2050 analysis of the evidence: not an official score or a benefit determination. "
               "It never stands in for a CBO or JCT estimate or for an agency's decision on an individual case.")
 FIELDS = ['schema', 'model_id', 'model_version', 'status', 'commit', 'code', 'inputs', 'units', 'price_basis',
-          'year_type', 'baseline_vintage', 'scoring_convention', 'disclaimer']
+          'year_type', 'baseline_vintage', 'scoring_convention', 'scenarios', 'uncertainty', 'disclaimer']
 STATUSES = ('exploratory', 'working', 'preview', 'released')
 MOD_RE = re.compile(r'^MOD-[a-z0-9]+(?:-[a-z0-9]+)*$')
 SEMVER_RE = re.compile(r'^(\d+)\.(\d+)\.(\d+)$')
@@ -78,7 +81,9 @@ def validate_header(h):
                 errs.append(f'{part}: "{p}" must be a path from the repository root')
             if not SHA_RE.match(str(s)):
                 errs.append(f'{part}: "{p}" needs a full sha256')
-    for f in ('units', 'price_basis', 'year_type', 'baseline_vintage', 'scoring_convention'):
+    if not isinstance(h['scenarios'], list) or not h['scenarios'] or not all(isinstance(x, str) and x for x in h['scenarios']):
+        errs.append('scenarios must be a list of scenario or reform IDs')
+    for f in ('units', 'price_basis', 'year_type', 'baseline_vintage', 'scoring_convention', 'uncertainty'):
         if not isinstance(h[f], str) or not h[f].strip():
             errs.append(f'{f} must be plain words')
     if h['disclaimer'] != DISCLAIMER:
@@ -98,6 +103,7 @@ def markdown_header(h):
         f"> Code: {files(h['code'])}. Inputs: {files(h['inputs'])}.",
         f"> Units: {h['units']}. Prices: {h['price_basis']}. Years: {h['year_type']}. "
         f"Baseline: {h['baseline_vintage']}. Scoring: {h['scoring_convention']}.",
+        f"> Scenarios: {', '.join(h['scenarios'])}. Uncertainty: {h['uncertainty']}",
         MD_END])
 
 

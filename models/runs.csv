@@ -1,1 +1,1 @@
-run_id,date,model_id,model_version,commit,command,results_path,results_sha256,inputs_sha256,note
+run_id,date,model_id,model_version,commit,python,command,results_path,results_sha256,inputs_sha256,note

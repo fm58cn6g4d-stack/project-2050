@@ -27,7 +27,8 @@ def toy_header(root, version):
     try:
         return runlog.header('MOD-toy', version, 'exploratory', code=['models/tools/toy/model.py'],
                              inputs=['models/tools/toy/inputs.csv'], units='$ billion', price_basis='nominal dollars',
-                             year_type='fiscal', baseline_vintage='CBO, February 2026', scoring_convention='conventional')
+                             year_type='fiscal', baseline_vintage='CBO, February 2026', scoring_convention='conventional',
+                             scenarios=['baseline'], uncertainty='not quantified')
     finally:
         runlog.ROOT = real
 
@@ -46,8 +47,8 @@ class Check(unittest.TestCase):
         self.row = {c: 'fail' for c in COLS}
         self.row.update(model_id='MOD-toy', name='Toy', path='models/tools/toy', status='exploratory', owner='x', card='',
                         parameters='', parameters_map='', results='models/tools/toy/results.json',
-                        tests='models/tools/toy/test_toy.py', notes='', rc_tests_in_checks='pass', rc_validation='partial')
-        self.write_register()
+                        tests='models/tools/toy/test_toy.py', notes='', rc_tests_in_checks='pass', rc_validation='partial',
+                        assessed_version='0.1.0')
         self.write_results('0.1.0', {'x': 1})
         self.write_changelog(['0.1.0'])
         sh(r, 'init', '-q')
@@ -70,9 +71,11 @@ class Check(unittest.TestCase):
     def write_results(self, version, results):
         d = {'header': toy_header(self.root, version), 'results': results}
         (self.root / 'models/tools/toy/results.json').write_text(json.dumps(d, indent=1, sort_keys=True))
+        self.row['assessed_version'] = version
+        self.write_register()
 
     def write_changelog(self, versions):
-        (self.root / 'models/tools/toy/CHANGELOG.md').write_text('# Toy\n\n' + ''.join(f'## {v} (2026-11-25)\n\n- x\n\n' for v in versions))
+        (self.root / 'models/tools/toy/CHANGELOG.md').write_text('# Toy\n\n' + ''.join(f'## {v} (2026-11-25)\n\n- Results: x\n\n' for v in versions))
 
     def run_check(self, *args):
         buf = io.StringIO()
@@ -149,6 +152,45 @@ class Check(unittest.TestCase):
         rc, out = self.run_check('--no-git')   # criteria and columns changed together: accepted
         self.assertNotIn('columns must be', out)
 
+    def test_new_rules(self):
+        self.write_changelog(['0.1.0', '0.2.0'])
+        self.assertIn('not newest first', self.run_check('--no-git')[1])
+        self.write_changelog(['0.1.0'])
+        self.row['assessed_version'] = '0.0.1'
+        self.row['rc_review'] = 'pass'
+        self.row['status'] = 'working'
+        self.write_register()
+        out = self.run_check('--no-git')[1]
+        self.assertIn('assessed_version "0.0.1"', out)
+        self.assertIn('a "pass" needs a link to the review', out)
+        self.assertIn('header status "exploratory" is not the register\'s "working"', out)
+        self.write_results('0.2.0', {'x': 2})
+        (self.root / 'models/tools/toy/CHANGELOG.md').write_text('# Toy\n\n## 0.2.0\n\n- new\n\n## 0.1.0\n\n- Results: x\n')
+        self.assertIn('needs a "Results:" line', self.run_check()[1])
+        self.assertIn('no base to compare', self.run_check('--no-git', '--require-base')[1])
+
+    def test_run_log_is_append_only_and_verifiable(self):
+        runs = self.root / 'models/runs.csv'
+        head = sh(self.root, 'rev-parse', 'HEAD')
+        row = ['RUN-toy-2026-11-25-a', '2026-11-25', 'MOD-toy', '0.1.0', head, '3.12.0', 'cmd', 'build/r.json', 'a' * 64, 'b' * 64, '']
+        runs.write_text(','.join(T.RUN_COLUMNS) + '\n' + ','.join(row) + '\n')
+        sh(self.root, 'commit', '-qam', 'run')
+        self.base = sh(self.root, 'rev-parse', 'HEAD')
+        self.row['rc_run_log'] = 'pass'
+        self.write_register()
+        out = self.run_check()[1]
+        self.assertNotIn('runs.csv', out)
+        self.assertNotIn('rc_run_log', out)
+        runs.write_text(','.join(T.RUN_COLUMNS) + '\n')
+        self.assertIn('append-only', self.run_check()[1])
+        orphan = list(row)
+        orphan[0], orphan[4] = 'RUN-toy-2026-11-25-b', 'd' * 40
+        runs.write_text(','.join(T.RUN_COLUMNS) + '\n' + ','.join(row) + '\n' + ','.join(orphan) + '\n')
+        self.assertIn('is not in this clone', self.run_check()[1])
+        self.write_results('0.2.0', {'x': 2})
+        self.write_changelog(['0.2.0', '0.1.0'])
+        self.assertIn('no RUN- row for the current version 0.2.0', self.run_check('--no-git')[1])
+
     def test_bad_values_and_ids(self):
         self.row['rc_card'] = 'maybe'
         self.row['model_id'] = 'household'
@@ -159,9 +201,9 @@ class Check(unittest.TestCase):
 
     def test_run_rows(self):
         runs = self.root / 'models/runs.csv'
-        good = ['RUN-toy-2026-11-25-a', '2026-11-25', 'MOD-toy', '0.1.0', 'c' * 40, 'cmd', 'build/r.json', 'a' * 64, 'b' * 64, '']
+        good = ['RUN-toy-2026-11-25-a', '2026-11-25', 'MOD-toy', '0.1.0', 'c' * 40, '3.12.0', 'cmd', 'build/r.json', 'a' * 64, 'b' * 64, '']
         runs.write_text(','.join(T.RUN_COLUMNS) + '\n' + ','.join(good) + '\n')
-        self.assertNotIn('runs.csv', self.run_check('--no-git')[1])
+        self.assertNotIn('ERROR: runs.csv', self.run_check('--no-git')[1])
         bad = list(good)
         bad[0], bad[4] = 'RUN-toy-2026-11-24-a', 'abc'
         runs.write_text(','.join(T.RUN_COLUMNS) + '\n' + ','.join(good) + '\n' + ','.join(good) + '\n' + ','.join(bad) + '\n')

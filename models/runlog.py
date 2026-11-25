@@ -11,14 +11,17 @@ A model calls it in two places:
                       code=[__file__], inputs=['inputs.csv', 'scenarios.csv'], base=HERE,
                       units='...', price_basis='nominal dollars', year_type='calendar',
                       baseline_vintage='CBO, February 2026', scoring_convention='conventional',
+                      scenarios=[...], uncertainty='...',
                       commit=runlog.commit_for(paths) if args.record else None)
-    out = runlog.stamp(results, h)                       # header first, validated
-    ...write out...
+    out = runlog.stamp(results, h)                       # header added, validated
+    runlog.write_json(path, out)                         # the one serialization
     if args.record: runlog.record(results_path, command)   # appends a RUN- row
 
 Two kinds of run:
 - **Reference runs** (`run-all.sh`, the drift check, a model's tests): commit is null and nothing is
   appended, so a rerun reproduces the committed output byte for byte.
+- A recorded row's `results_sha256` is the hash of the results with commit null, which is the committed
+  reference output when the run is the one committed: anyone can check it with `git show <commit>:<path>`.
 - **Recorded runs** (a figure about to be quoted in a dossier, a booking, a release): `--record`
   stamps the commit the run started from and appends one `RUN-` row to `models/runs.csv`. It refuses
   if the model's code or inputs differ from that commit, so the row always names code that exists.
@@ -26,7 +29,7 @@ Two kinds of run:
     python3 models/runlog.py record RESULTS.json --command "python3 ... --record" [--note TEXT]
     python3 models/runlog.py check RESULTS...     # validate headers (models/schema/results.py)
 """
-import argparse, csv, datetime, hashlib, io, json, re, subprocess, sys
+import argparse, csv, datetime, hashlib, io, json, platform, re, subprocess, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -34,8 +37,9 @@ RUNS = ROOT / 'models' / 'runs.csv'
 sys.path.insert(0, str(ROOT / 'models' / 'schema'))
 import results as schema  # noqa: E402
 
-COLUMNS = ['run_id', 'date', 'model_id', 'model_version', 'commit', 'command', 'results_path', 'results_sha256',
+COLUMNS = ['run_id', 'date', 'model_id', 'model_version', 'commit', 'python', 'command', 'results_path', 'results_sha256',
            'inputs_sha256', 'note']
+FRAME = ('models/runlog.py', 'models/schema/')   # the frame stamps results; it never changes a figure, so it is not hashed
 RUN_RE = re.compile(r'^RUN-([a-z0-9]+(?:-[a-z0-9]+)*)-(\d{4}-\d{2}-\d{2})-([a-z])$')
 
 
@@ -78,12 +82,37 @@ def commit_for(paths, base=None):
     return git('rev-parse', 'HEAD')
 
 
+def unlisted_imports(code):
+    """Repository modules loaded in this process that the code list leaves out (tests and the frame excepted)."""
+    listed = set(code)
+    out = []
+    for name, m in list(sys.modules.items()):
+        f = getattr(m, '__file__', None)
+        if not f or name == '__main__':
+            continue
+        try:
+            r = Path(f).resolve().relative_to(ROOT).as_posix()
+        except ValueError:
+            continue
+        if r.startswith(FRAME) or Path(r).name.startswith('test_') or r in listed:
+            continue
+        out.append(r)
+    return sorted(out)
+
+
 def header(model_id, version, status, code, inputs, units, price_basis, year_type, baseline_vintage,
-           scoring_convention, commit=None, base=None):
+           scoring_convention, scenarios, uncertainty, commit=None, base=None, check_imports=True):
+    """The results header. `code` lists every repository file the run executes; an imported repository
+    module missing from it is an error, so the hashes cover all the code that made the figures."""
+    code_h = hashes(code, base)
+    if check_imports:
+        missing = unlisted_imports(code_h)
+        if missing:
+            raise ValueError('results header: these imported repository modules are not in code: ' + ', '.join(missing))
     h = {'schema': schema.SCHEMA, 'model_id': model_id, 'model_version': version, 'status': status, 'commit': commit,
-         'code': hashes(code, base), 'inputs': hashes(inputs, base), 'units': units, 'price_basis': price_basis,
+         'code': code_h, 'inputs': hashes(inputs, base), 'units': units, 'price_basis': price_basis,
          'year_type': year_type, 'baseline_vintage': baseline_vintage, 'scoring_convention': scoring_convention,
-         'disclaimer': schema.DISCLAIMER}
+         'scenarios': list(scenarios), 'uncertainty': uncertainty, 'disclaimer': schema.DISCLAIMER}
     errs = schema.validate_header(h)
     if errs:
         raise ValueError('results header: ' + '; '.join(errs))
@@ -98,6 +127,23 @@ def stamp(results, h):
     out = {'header': h}
     out.update({k: v for k, v in results.items() if k != 'header'})
     return out
+
+
+def dumps(results):
+    """The one serialization of a JSON results file, so a recorded run's hash can be checked against the
+    committed reference output (`git show <commit>:<path>`)."""
+    return json.dumps(results, indent=1, sort_keys=True) + '\n'
+
+
+def write_json(path, results):
+    Path(path).write_text(dumps(results), encoding='utf-8')
+
+
+def reference_sha256(results):
+    """The sha256 of the results as a reference output: the same file with commit null."""
+    d = dict(results)
+    d['header'] = dict(d['header'], commit=None)
+    return hashlib.sha256(dumps(d).encode('utf-8')).hexdigest()
 
 
 def read_runs(path=RUNS):
@@ -137,13 +183,12 @@ def record(results_path, command, note='', runs=RUNS, date=None):
     date = date or datetime.datetime.now(datetime.timezone.utc).date().isoformat()
     rows = read_runs(runs)
     rid = next_run_id(h['model_id'], date, rows)
-    try:
-        where = rel(p)
-    except ValueError:
-        where = str(p)
+    where = rel(p)   # refuses a file outside the repository
+    if dumps(d) != p.read_text(encoding='utf-8'):
+        raise ValueError(f'{p}: not written by runlog.write_json, so its hash could not be checked against a reference output')
     row = {'run_id': rid, 'date': date, 'model_id': h['model_id'], 'model_version': h['model_version'],
-           'commit': h['commit'], 'command': command, 'results_path': where, 'results_sha256': sha256_file(p),
-           'inputs_sha256': inputs_digest(h), 'note': note}
+           'commit': h['commit'], 'python': platform.python_version(), 'command': command, 'results_path': where,
+           'results_sha256': reference_sha256(d), 'inputs_sha256': inputs_digest(h), 'note': note}
     new = not Path(runs).exists() or not Path(runs).read_text(encoding='utf-8').strip()
     with open(runs, 'a', newline='', encoding='utf-8') as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS, lineterminator='\n')

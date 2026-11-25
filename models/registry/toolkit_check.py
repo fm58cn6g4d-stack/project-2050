@@ -22,7 +22,15 @@ the release criteria it reads are provisional until Espen answers memo H1
    results file needs a higher version and a changelog entry for it; a patch bump (same major and
    minor) may not change anything outside the header.
 
-Exit 1 on any error. `--no-git` skips part 4's comparison with the base.
+   The newest changelog entry has a "Results:" line; entries run newest first; every JSON results
+   file of a model carries the same version. Any edit to a model's code changes its hash in the
+   header, so it changes the results file and takes at least a patch bump.
+5. **Recorded runs** are append-only against the base, and each row's commit is an ancestor of HEAD
+   (a warning when a shallow clone lacks it); the register's `assessed_version` matches the results
+   header, its status matches the header's, and a reviewed criterion's "pass" links its review.
+
+Exit 1 on any error. `--no-git` skips the comparisons with the base; `--require-base` (for CI) fails
+when no base is found instead of skipping.
 """
 import argparse, csv, io, json, re, subprocess, sys
 from pathlib import Path
@@ -47,12 +55,13 @@ def set_root(root):
 
 set_root(ROOT)
 CRITERIA_DECISION = None   # the DEC- ID that answers memo H1; until then nothing is released or in preview
-FIXED = ['model_id', 'name', 'path', 'status', 'owner', 'card', 'parameters', 'parameters_map', 'results', 'tests']
+FIXED = ['model_id', 'name', 'path', 'status', 'owner', 'card', 'parameters', 'parameters_map', 'results', 'tests', 'assessed_version']
 TAIL = ['notes']
 VALUES = ('pass', 'partial', 'fail', 'n/a')
 STATUSES = ('none', 'exploratory', 'working', 'preview', 'released')
-RUN_COLUMNS = ['run_id', 'date', 'model_id', 'model_version', 'commit', 'command', 'results_path', 'results_sha256',
+RUN_COLUMNS = ['run_id', 'date', 'model_id', 'model_version', 'commit', 'python', 'command', 'results_path', 'results_sha256',
                'inputs_sha256', 'note']
+URL_RE = re.compile(r'https://\S+')
 RUN_RE = re.compile(r'^RUN-([a-z0-9]+(?:-[a-z0-9]+)*)-(\d{4}-\d{2}-\d{2})-([a-z])$')
 VER_HEAD = re.compile(r'^## (\d+\.\d+\.\d+)\b', re.M)
 
@@ -130,7 +139,13 @@ def auto_criteria(row, runs):
         return t in scripts or ('"$TOOLS"/' + short) in scripts
     missing = [t for t in tests if not in_checks(t)]
     out['rc_tests_in_checks'] = ('fail', 'no tests listed') if not tests else (('pass', 'all in the checks') if not missing else ('fail', 'not in the checks: ' + ', '.join(missing)))
-    out['rc_run_log'] = ('pass', 'RUN- row found') if any(r['model_id'] == row['model_id'] for r in runs) else ('fail', 'no RUN- row in models/runs.csv')
+    mine = [r for r in runs if r['model_id'] == row['model_id']]
+    if not mine:
+        out['rc_run_log'] = ('fail', 'no RUN- row in models/runs.csv')
+    elif ver and not any(r['model_version'] == ver for r in mine):
+        out['rc_run_log'] = ('fail', f'no RUN- row for the current version {ver}')
+    else:
+        out['rc_run_log'] = ('pass', 'a RUN- row for the current version')
     res = split(row['results'])
     if not res:
         out['rc_disclaimer'] = ('fail', 'no results files listed')
@@ -160,6 +175,17 @@ def check_register(errs, warns):
         seen.add(m)
         if r['status'] not in STATUSES:
             errs.append(f'toolkit.csv {m}: status must be one of {STATUSES}')
+        ver = model_version(r)
+        if ver and r['assessed_version'] != ver:
+            errs.append(f'toolkit.csv {m}: assessed_version "{r["assessed_version"]}" is not the results header\'s {ver}; reassess the criteria')
+        for f in split(r['results']):
+            h = json_header(ROOT / f) if f.endswith('.json') else None
+            if h and h.get('status') != r['status']:
+                errs.append(f'{f}: header status "{h.get("status")}" is not the register\'s "{r["status"]}"')
+        manual = {c['id'] for c in read_csv(CRITERIA) if c['auto'] != 'yes'}
+        for c in sorted(manual):
+            if r.get(c) == 'pass' and not URL_RE.search(r['notes']):
+                errs.append(f'toolkit.csv {m}: {c} is a reviewed criterion; a "pass" needs a link to the review in notes')
         if r['status'] in ('released', 'preview') and not CRITERIA_DECISION:
             errs.append(f'toolkit.csv {m}: "{r["status"]}" before memo H1 is decided (the criteria are provisional)')
         if r['status'] == 'released' and any(r[c] != 'pass' for c in crit if r[c] != 'n/a'):
@@ -182,7 +208,7 @@ def check_register(errs, warns):
     return rows
 
 
-def check_runs(errs, models):
+def check_runs(errs, models, base=None, warns=None):
     if not RUNS.exists():
         errs.append('models/runs.csv is missing')
         return []
@@ -211,6 +237,18 @@ def check_runs(errs, models):
             errs.append(f'runs.csv {rid}: results_sha256 and inputs_sha256 must be full sha256 hashes')
         if not results_schema.semver(r['model_version']):
             errs.append(f'runs.csv {rid}: model_version is not MAJOR.MINOR.PATCH')
+        if results_schema.COMMIT_RE.match(r['commit']):
+            if git('cat-file', '-e', r['commit'] + '^{commit}')[0]:
+                if warns is not None:
+                    warns.append(f'runs.csv {rid}: commit {r["commit"][:12]} is not in this clone (a shallow history?); ancestry not checked')
+            elif git('merge-base', '--is-ancestor', r['commit'], 'HEAD')[0]:
+                errs.append(f'runs.csv {rid}: commit {r["commit"][:12]} is not an ancestor of HEAD (a squash or rewrite orphaned it)')
+        if r['results_path'].startswith('/') or '..' in Path(r['results_path']).parts:
+            errs.append(f'runs.csv {rid}: results_path must be a path from the repository root')
+    if base:
+        rc, old = git('show', f'{base}:models/runs.csv')
+        if not rc and not text.startswith(old):
+            errs.append('runs.csv: rows already on the base were changed or removed; the run log is append-only')
     return runs
 
 
@@ -267,7 +305,14 @@ def check_versions(errs, warns, rows, base):
         h = json_header(ROOT / main)
         ver = h.get('model_version')
         cl = ROOT / r['path'] / 'CHANGELOG.md'
-        entries = VER_HEAD.findall(cl.read_text(encoding='utf-8')) if cl.exists() else []
+        cl_text = cl.read_text(encoding='utf-8') if cl.exists() else ''
+        entries = VER_HEAD.findall(cl_text)
+        for f in js[1:]:
+            if (json_header(ROOT / f) or {}).get('model_version') != ver:
+                errs.append(f'{r["model_id"]}: {f} carries a different version from {main}')
+        sv = [results_schema.semver(v) for v in entries]
+        if any(a <= b for a, b in zip(sv, sv[1:])):
+            errs.append(f'{r["model_id"]}: CHANGELOG.md entries are not newest first with rising versions')
         if not entries:
             errs.append(f'{r["model_id"]}: {cl.relative_to(ROOT)} is missing or has no "## X.Y.Z" entry')
             continue
@@ -293,21 +338,31 @@ def check_versions(errs, warns, rows, base):
             continue
         if ver not in entries:
             errs.append(f'{r["model_id"]}: no CHANGELOG.md entry for {ver}')
-        if nv[:2] == ov[:2] and strip_header(old) != strip_header(json.loads((ROOT / main).read_text(encoding='utf-8'))):
-            errs.append(f'{r["model_id"]}: {ver} is a patch release but {main} changed outside its header; '
-                        f'a results change takes a minor or major version')
+        else:
+            entry = re.split(r'^## ', cl_text.split(f'## {ver}', 1)[1], flags=re.M)[0]
+            if 'Results:' not in entry:
+                errs.append(f'{r["model_id"]}: the {ver} changelog entry needs a "Results:" line saying how far the headline figures moved')
+        if nv[:2] == ov[:2]:
+            for f in [x for x in res if x.endswith('.json')]:
+                rc, t = git('show', f'{base}:{f}')
+                if not rc and strip_header(json.loads(t)) != strip_header(json.loads((ROOT / f).read_text(encoding='utf-8'))):
+                    errs.append(f'{r["model_id"]}: {ver} is a patch release but {f} changed outside its header; '
+                                f'a results change takes a minor or major version')
 
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument('--base')
     ap.add_argument('--no-git', action='store_true')
+    ap.add_argument('--require-base', action='store_true', help='fail if no base is found (for CI: fetch origin/main first)')
     a = ap.parse_args(argv)
     errs, warns = [], []
-    rows = check_register(errs, warns)
-    check_runs(errs, {r['model_id'] for r in rows})
-    check_headers(errs, rows)
     base = None if a.no_git else base_ref(a.base)
+    if a.require_base and not base:
+        errs.append('no base to compare versions against: fetch origin/main (git fetch origin main) or pass --base')
+    rows = check_register(errs, warns)
+    check_runs(errs, {r['model_id'] for r in rows}, base, warns)
+    check_headers(errs, rows)
     check_versions(errs, warns, rows, base)
     for w in warns:
         print('warning:', w)
