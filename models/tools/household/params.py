@@ -42,45 +42,56 @@ def rdown(x, step):
     return int(x // step) * step
 
 
-# ---- 2025 as enacted -------------------------------------------------------------------------------------------
-LAW_2025 = {
-    "year": 2025,
-    # sec. 1(j) brackets: upper edges of the 10, 12, 22, 24, 32 and 35% brackets (Rev. Proc. 2024-40, sec. 3.01)
-    "rates": [0.10, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37],
-    "brackets": {"joint": [23850, 96950, 206700, 394600, 501050, 751600],
-                 "single": [11925, 48475, 103350, 197300, 250525, 626350],
-                 "hoh": [17000, 64850, 103350, 197300, 250500, 626350]},
-    # capital gains and qualified dividends: top of the 0% and 15% bands (sec. 1(h), 1(j)(5))
-    "cg_brackets": {"joint": [96700, 600050], "single": [48350, 533400], "hoh": [64750, 566700]},
-    # standard deduction (sec. 63(c)(7) as amended by P.L. 119-21 sec. 70102) and the additional amount at 65
-    "std": {"joint": 31500, "single": 15750, "hoh": 23625},
-    "std_aged": {"joint": 1600, "single": 2000, "hoh": 2000},
-    # P.L. 119-21 sec. 70103: $6,000 a person 65 or older, 2025-2028, phased out at 6% of MAGI above $75,000/$150,000
-    "senior_deduction": 6000, "senior_phaseout": {"joint": 150000, "single": 75000, "hoh": 75000},
-    # child tax credit (sec. 24 as amended by P.L. 119-21 sec. 70104)
-    "ctc": 2200, "ctc_refundable": 1700, "ctc_odc": 500, "ctc_earn_floor": 2500, "ctc_refund_rate": 0.15,
-    "ctc_phaseout": {"joint": 400000, "single": 200000, "hoh": 200000}, "ctc_phaseout_rate": 0.05,
-    # earned income credit (sec. 32; Rev. Proc. 2024-40 sec. 3.07): by number of qualifying children 0, 1, 2, 3+
-    "eitc_rate": [0.0765, 0.34, 0.40, 0.45], "eitc_po_rate": [0.0765, 0.1598, 0.2106, 0.2106],
-    "eitc_earned": [8490, 12730, 17880, 17880],
-    "eitc_po_start": {"joint": [17730, 30470, 30470, 30470], "single": [10620, 23350, 23350, 23350]},
-    "eitc_invest_limit": 11950, "eitc_childless_ages": (25, 64),
-    # payroll taxes (secs. 3101, 3111, 1401, 1411); the wage base is SSA's for 2025
-    "ss_rate": 0.062, "hi_rate": 0.0145, "ss_wage_base": 176100,
-    "addl_hi_rate": 0.009, "addl_hi_threshold": {"joint": 250000, "single": 200000, "hoh": 200000},
-    "niit_rate": 0.038, "niit_threshold": {"joint": 250000, "single": 200000, "hoh": 200000},
-    # taxable Social Security (sec. 86): base and adjusted base amounts, not indexed
-    "ss_base": {"joint": 32000, "single": 25000, "hoh": 25000},
-    "ss_adj_base": {"joint": 44000, "single": 34000, "hoh": 34000},
-    # HHS poverty guideline, 48 states (90 FR 5917): one person and each additional person
-    "fpl": (15650, 5500),
-    # SNAP, FY2025 (USDA FNS cost-of-living adjustment, October 2024): maximum allotment by household size 1-8,
-    # standard deduction by size (1-3, 4, 5, 6+), the 20% earned income deduction, the 30% benefit reduction rate,
-    # the excess shelter deduction's cap for households without an elderly or disabled member, gross test 130%
-    "snap_max": [292, 536, 768, 975, 1158, 1390, 1536, 1756], "snap_std": [204, 204, 204, 217, 254, 291],
-    "snap_earn_ded": 0.20, "snap_brr": 0.30, "snap_shelter_cap": 712, "snap_gross_test": 1.30,
-    "snap_min_benefit": 23,
-}
+# ---- 2025 as enacted: read from parameters.csv (the toolkit's parameter schema, models/schema/README.md) -----------
+PARAMETERS = os.path.join(HERE, "parameters.csv")
+
+
+def _read_parameters():
+    with open(PARAMETERS, newline="") as f:
+        return list(csv.DictReader(f))
+
+
+PARAM_ROWS = _read_parameters()
+VALUES = {r["id"]: r for r in PARAM_ROWS}
+
+
+def _number(s):
+    x = float(s)
+    return int(x) if x == int(x) and "." not in s and "e" not in s.lower() else x
+
+
+def constant(pid):
+    """One input of the parameter file by its id (a number)."""
+    return _number(VALUES[pid]["value"])
+
+
+def _build_law_2025():
+    """Rebuild the law dictionary from the 'law' rows. An id is a key and then the path to the value: an integer is a
+    1-based position in a list, a word a key of a dictionary (`brackets.joint.1`, `std.hoh`, `ctc`)."""
+    out = {"year": 2025}
+    for r in PARAM_ROWS:
+        if r["group"] != "law":
+            continue
+        key, *path = r["id"].split(".")
+        node, slot = out, key
+        for p in path:
+            if p.isdigit():
+                if not isinstance(node.get(slot), list):
+                    node[slot] = []
+                node, slot = node[slot], int(p) - 1
+                while len(node) <= slot:
+                    node.append(None)
+            else:
+                if not isinstance(node.get(slot), dict):
+                    node[slot] = {}
+                node, slot = node[slot], p
+        node[slot] = _number(r["value"])
+    for k in ("eitc_childless_ages", "fpl"):
+        out[k] = tuple(out[k])
+    return out
+
+
+LAW_2025 = _build_law_2025()
 
 
 def law(year):
