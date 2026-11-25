@@ -1,6 +1,6 @@
 # Stage G step 8c: the debt-path rule, the debt limit and the central rules
 
-Role: the budget-process part of the fiscal path review (`DEC-2026-11-24-14` to `-18`), the last part of stage G step 8. It designs the debt-path rule that memos G15 B and G19 B lean on, keeps the debt limit apart from it, examines the central rules (D3, D4 and D4-B), and reads fiscal rules abroad and the US record as evidence for the design. Its forks are memos G20 to G22 (provisional). The strategy memo is [`6-strategy-memo.md`](6-strategy-memo.md). Status: **draft, stage G step 8c, November 24, 2026. Nothing here is booked, and nothing new is priced:** every figure for the plan comes from step 8a ([`4-fiscal-path.md`](4-fiscal-path.md) parts 1-2, #483) or step 8b (parts 3-6 and memos G15-G19, #484, merged). This PR also carries the three non-blocking fixes from #484's review to G15, G17 and G19, at the lead's request.
+Role: the budget-process part of the fiscal path review (`DEC-2026-11-24-14` to `-18`), the last part of stage G step 8. It designs the debt-path rule that memos G15 B and G19 B lean on, keeps the debt limit apart from it, examines the central rules (D3, D4 and D4-B), and reads fiscal rules abroad and the US record as evidence for the design. Its forks are memos G20 to G22, **decided November 25, 2026** (`DEC-2026-11-25-06` to `-11`): G20 B, G21 A and yes to each of G22's four points. The strategy memo is [`6-strategy-memo.md`](6-strategy-memo.md). Status: **stage G step 8c, November 24, 2026; G20 to G22 decided November 25 and written in by step 9** (part 6.1 is D4's rewrite and D3's new test years as proposal text). The rule's path follows G15's redraft, memo [G23](memos/G23-debt-path-redraft.md), provisional until Espen confirms it in batch 4 ([`7-batch3-revision.md`](7-batch3-revision.md)). **Nothing here is booked, and nothing new is priced here:** every figure for the plan comes from step 8a ([`4-fiscal-path.md`](4-fiscal-path.md) parts 1-2, #483) or step 8b (parts 3-6 and memos G15-G19, #484, merged). This PR also carries the three non-blocking fixes from #484's review to G15, G17 and G19, at the lead's request.
 
 Units: federal fiscal years, nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores.
 
@@ -72,9 +72,9 @@ Units: federal fiscal years, nominal $B or % of GDP. Project arithmetic on explo
 2. **No automatic cuts.** GRH's sequester and statutory PAYGO's were never allowed to bite; the threat was supposed to work and didn't.
 3. **A measured escape clause, named in advance.** The IMF's finding, and the cost of the UK's undefined "shock".
 4. **No standing carve-outs.** Germany's and the EU's are the current lesson.
-5. **An independent check.** CBO's reading beside the trustees', with the default against giving money back if they differ.
+5. **An independent check.** CBO's reading published beside the trustees', with no legal effect of its own (*Bowsher v. Synar*; part 3.8).
 
-## Part 3. The debt-path rule, as recommended (memo G20 B)
+## Part 3. The debt-path rule, as decided (memo G20 B, `DEC-2026-11-25-06`)
 
 Plain version first, then the specification.
 
@@ -83,7 +83,7 @@ Plain version first, then the specification.
 ### 3.1 Target and measure
 
 1. **The measure** is federal debt held by the public at the end of each fiscal year (Treasury's September figures), divided by nominal GDP for that fiscal year (the Bureau of Economic Analysis's four quarters). It is 8a's measure (`4-fiscal-path.md` part 1.1), so the trust funds' surpluses lower it. Both numbers are measured, not projected, so the test can't be met with an optimistic forecast.
-2. **The path, FY2040 on:** the measured ratio for FY2039 (on the booked path, 116.9%), held flat.
+2. **The path, FY2040 on:** as drafted, the measured ratio for FY2039 (on the booked path, 116.9%), held flat. Espen asked for G15 B to be "a little more aggressive on debt" (`DEC-2026-11-25-01`), so the path is redrafted as a falling one in memo [G23](memos/G23-debt-path-redraft.md); the rule's mechanics below don't change with it, only the path they measure against.
 3. **The ratchet toward 100%:** the path only moves down (part 3.3), never up except by the escape clause's restart (part 3.6) or by a new law. At 100% it stops: further gains are returned (part 3.3) until Congress sets a new path. The rule is reviewed by law every ten years, the first in 2041, with CBO's long-term outlook.
 4. **Before FY2040** the rule is in force only for the ladder's start dates (part 3.2). The trustees publish debt against the booked plan's path from FY2030, as a dry run, so the first real test isn't the first time anyone sees the table. D4-B's arc governs FY2030-39 as decided (part 6).
 
@@ -162,7 +162,11 @@ Everything borrowed counts in the measure, investment included. There is no carv
 
 - **The trustees** who already certify D2 (G13) and G18 D′'s step certify the rule's two findings, in one annual report each October: debt against the path, and the escape status. One body, one report. They are executive officers, because a trigger that executes the law can't be certified by an officer Congress controls: the Supreme Court struck Gramm-Rudman-Hollings' trigger for exactly that (*Bowsher v. Synar*, 1986) [EV-FIN-054]. Their membership isn't yet set anywhere in the repository: G5, G8 and G13 name "the plan's fund trustees" but not who they are. The rule needs it set, and this part proposes the Secretary of the Treasury as managing trustee with the Secretaries of Health and Human Services and of Labor, as Social Security's board is built. Public trustees with protection from removal, the usual answer, are on weaker ground after *Trump v. Slaughter* (2026) overruled what was left of *Humphrey's Executor* [EV-FIN-064]. So the design doesn't lean on the certifiers' independence. It leans on the next two points.
 - **The findings are arithmetic on published data:** Treasury's debt, BEA's GDP and BLS's unemployment. The only projection is the five-year check that guards a deferral or a step-down, and it uses CBO's economic assumptions, not the administration's.
-- **CBO publishes its own reading** in the same week. If CBO's and the trustees' readings differ on whether a test is met, the default applies: no deferral, no step-down, and the escape clause applies only if BLS's measured test is met. A politicized certifier can therefore delay a giveback but never trigger one.
+- **CBO publishes its own reading** in the same week, as a check with no legal effect. A CBO disagreement can't hold back a certified finding: that would give a legislative-branch agency a hand in executing the law, which *Bowsher v. Synar* rules out [EV-FIN-054]. What guards against a politicized certifier instead:
+  - **The inputs are fixed in the statute.** Every test reads published measures (Treasury's debt, BEA's GDP, BLS's unemployment rate), and the one projection, the five-year check that guards a deferral or a step-down, must use CBO's latest published economic assumptions and current law. The trustees choose no input.
+  - **A giveback waits 60 days.** A deferral or step-down takes effect no sooner than 60 days after the certification, with the trustees' table and CBO's beside it. If they differ, the trustees publish a reconciliation in that time, and Congress may stop the giveback by joint resolution under the act's expedited procedure (part 3.4), which, like any law, goes to the President.
+  - **The escape clause** applies only on BLS's measured test or a declared emergency, never on a projection.
+  So a politicized certifier has no input to bend, and a giveback it certifies wrongly is public for two months before it takes effect.
 - **The statistics have to be trusted.** A rule keyed to measured data is only as good as the agencies that measure it. The President's removal of the BLS commissioner in August 2025, which former BLS officials said undermines the credibility of federal statistics, is the warning [EV-FIN-061] [EV-FIN-062]. The plan should pair the rule with statutory protection for the principal statistical agencies' heads and release schedules (a point for democratic renewal's next touch, not priced here).
 - **Legal footing:** contingent legislation. Congress sets the path, the steps, the tests and the order; the trustees find facts (*Field v. Clark*, 1892; *J.W. Hampton v. United States*, 1928; as G5 and G13). If a finding is challenged, the default applies on its date.
 - **Burden:** one table added to an annual report the trustees already publish, and one CBO table. No new agency.
@@ -208,7 +212,7 @@ The debt limit is not a fiscal rule. It caps the borrowing needed to pay for spe
 | C | **A delegated suspension** (the 2011 model): the President certifies the need; the limit rises unless Congress passes a joint resolution of disapproval, which the President can veto | As A | Keeps a vote and a veto; in 2011 the Senate rejected disapproval 45-52 [EV-FIN-022] | Still a vote the opposition can use to message; a hostile President and Congress together could block it |
 | D | **The constitutional arguments**: the Fourteenth Amendment's Public Debt Clause, or a platinum coin | Executive action, not a law | Available if Congress won't act | The Court has construed the clause once, and how it applies to the limit is unclear (CRS) [EV-FIN-023]; previous administrations and many legal experts have rejected it [EV-FIN-019]; in 2013 the Treasury and the Fed rejected the coin [EV-FIN-024]. Debt issued under a contested authority could itself shake the market the plan most needs |
 
-**Recommendation: A, repeal, in 2029, with C as the fallback** if the votes for outright repeal aren't there. D is never the plan. It is an argument a government may need in a crisis, and a 2029 government should say plainly now that it would not rely on it, so markets don't price the chance of a contested default.
+**Decided: A, repeal, in 2029, with C as the fallback** (`DEC-2026-11-25-07`) if the votes for outright repeal aren't there. D is never the plan. It is an argument a government may need in a crisis, and a 2029 government should say plainly now that it would not rely on it, so markets don't price the chance of a contested default.
 
 **Denmark** is the usual comparison: its ceiling was raised in 2010, with all major parties' support, to stay far above outstanding debt and out of day-to-day politics, and from 1993 to 2010 debt was never within Dkr 140 billion of it (Peterson Institute, 2011, dated) [EV-FIN-030]. That is option A's effect with a number left in the statute; it is a reasonable fallback wording if repeal itself becomes the attack line.
 
@@ -235,6 +239,24 @@ Espen allowed the review to examine the project's central rules and propose chan
 
 **Not proposed:** loosening D4's paid-for-at-maturity test, or replacing D3's principle. Both are what make the plan's progressivism durable: a permanent program that isn't paid for is the easiest for a successor to cut, and a plan whose middle class falls behind loses the voters it needs for the long term.
 
+### 6.1 The rules as decided: D4's rewrite and D3's test years (proposal text)
+
+Espen decided G22's four points on November 25 (`DEC-2026-11-25-08` to `-11`). The rules' original text is in `legacy/governing/project-2050-governing-decisions.md` (D3 and D4), which is read-only, so the rules as amended live here and in the decision log. Where the two differ, the decision log and this text govern. Changes against the legacy text are marked **new**.
+
+**D4. The fiscal rule (D4-B, as amended).**
+1. *Paid for at maturity:* permanent programs' year-ten run rate is covered, tested in FY2040 (FY2039 net of time-limited lines) and every later year, on the general fund. The ten-year sum is not the test. (Unchanged.)
+2. *Investment envelope:* time-limited investments with a written return case may be borrowed for up to 0.5% of GDP a year through 2034, tapering to zero by 2040. Unused room does not carry forward, and the envelope is available only while test 1 passes. (Unchanged through FY2039.) **New (G22.3): after FY2039 there is no standing envelope or carve-out for investment.** A new envelope may be created only by a new law, only for investments with a written return case, and only while measured debt is at or below the debt path; its borrowing counts inside the path, like all other borrowing.
+3. **New (G22.2): the debt path, in place of the current-law guardrails.** Federal debt held by the public, measured at the end of each fiscal year as a share of GDP, is held at or below the path the debt-path rule sets (G20 B; part 3), tested on the measured figures from FY2040. The path is G15's (as redrafted in memo G23 and confirmed by Espen). The old guardrails (total debt below CBO's current-law path every year and by more each decade; net interest below the baseline's share of GDP) are retired as tests. The trustees' report may still show them beside the path, for comparison.
+4. *Trust funds and scoring:* Social Security, Medicare HI and the Highway Trust Fund are kept whole, read on a 75-year window for the social-insurance funds. No new trust fund is created just to hold a pay-for. Fairness follows D3. **New (G22.4), replacing "no dynamic revenue is counted": no dynamic, "works as designed" or other projected saving counts toward any test up front. Measured results count only through the debt-path rule's findings and the triggers that read them** (G16 B's and G18 D′'s step-down of the health contribution, G20 B's deferrals).
+5. *Judgment Fund:* CLI-9's contracts are scored at full expected cost when obligated; AAJA's damages are a disclosed contingent-liability line, bounded by CLI-3's cap. (Unchanged.)
+
+The Byrd rule stays as it is.
+
+**D3. The household test (as amended).** "More money in middle-class pockets; the uber-wealthy pay their fair share." For every income group below the top, the agenda's combined taxes, fees and benefits must leave households better off on net. New general-fund revenue must come mostly from the top 1% and corporations.
+- **The quintile test** runs over FY2030-39 (unchanged) **and, new (G22.1), in FY2040 and FY2050**, with everything counted, including any later revenue step at its scheduled default. If any fifth below the top falls behind in either year, the step's design changes before it is enacted: a larger rebate or dividend first, then a higher threshold.
+- **The revenue-mix test** (mostly from the top 1% and corporations) stays a test of FY2030-39 only, with the mature-year share reported (G3b, `DEC-2026-11-20-07`). Later broad revenue can't pass it by design, and the decade is where the populist start lives (`DEC-2026-11-24-18`).
+- *How the mature years are read:* the household model runs to FY2039. Step 9 reads FY2040 and FY2050 as the booked FY2039 position carried forward with income per household, plus each new step's incidence in that year (`7-batch3-revision.md` part 4). A full mature-year run of the household model is a later model step.
+
 ## Part 7. What the rule changes for G15 B, G16 B, G18 D′ and G19 B
 
 #484 has merged. At the lead's request this PR makes each change below in the memos themselves, so Espen gets one consistent batch, along with the three fixes from #484's review (G15 and G19 say where the rule lives and what B means without it; G19 A nets the $28B outside fix, about $433B with R about 5.7%; G17's years read FY2035-39). What was found, and how each memo now reads:
@@ -245,15 +267,15 @@ Espen allowed the review to examine the project's central rules and propose chan
 5. **G15 B and G19 B's starting years.** G15 B says nothing is asked before FY2040; G19 B starts its first step in FY2037. The rule works either way (the FY2037 step lowers the debt carried into FY2040, and with it the path), G15 now says the goal's test starts in FY2040 and nothing new reaches the middle class before FY2037, when G19's first steps begin.
 6. **G18 D′'s floor and G13.** G18 D′ never steps R below 3.25%; G13 steps R up if D2 misses. The rule nets G13's steps out first (part 3.9), so a D2 miss and a debt shortfall don't both raise R for the same dollars.
 
-## Part 8. The decision batch (provisional)
+## Part 8. The decision batch (decided November 25, 2026)
 
-Memos [G20](memos/G20-debt-path-rule.md), [G21](memos/G21-debt-limit.md) and [G22](memos/G22-central-rules.md) are in `memos/`. Each is decided on its own, and none is booked. The strategy memo ([`6-strategy-memo.md`](6-strategy-memo.md)) is not a fork: its recommendations are for Espen to read and redirect, not to decide item by item.
+Memos [G20](memos/G20-debt-path-rule.md), [G21](memos/G21-debt-limit.md) and [G22](memos/G22-central-rules.md) are in `memos/`. Espen decided each on its own on November 25 (`DEC-2026-11-25-06` to `-11`), each as recommended; none is booked. The strategy memo ([`6-strategy-memo.md`](6-strategy-memo.md)) is not a fork: its recommendations are for Espen to read and redirect, not to decide item by item.
 
-| Memo | Question | Recommended |
+| Memo | Question | Decided |
 | --- | --- | --- |
 | G20 | The debt-path rule's form | **B**: a measured debt path with a cancellable revenue ladder, no automatic cuts, a measured escape clause; points 1-3 (the split, the giveback order, the restart) |
 | G21 | The debt limit | **A**: repeal in 2029, the delegated suspension as the fallback; never rely on the constitutional arguments |
-| G22 | The central rules | **G22.1** D3 in the mature years: yes; **G22.2** D4's guardrail replaced by the debt path: yes, with G15 B and G20 B; **G22.3** no standing investment carve-out after FY2039: yes; **G22.4** the hard rule written into D4: yes |
+| G22 | The central rules | **G22.1** D3 in the mature years: yes; **G22.2** D4's guardrail replaced by the debt path: yes; **G22.3** no standing investment carve-out after FY2039: yes; **G22.4** the hard rule written into D4: yes (part 6.1) |
 
 ## Evidence still needed
 

@@ -1,6 +1,6 @@
 # Memo G20: The debt-path rule
 
-Role: decision memo for Espen, stage G step 8c, the fiscal path review ([`../5-budget-process.md`](../5-budget-process.md) parts 1-4; `DEC-2026-11-24-14` to `-18`). Status: **provisional, drafted November 24, 2026. Not decided; nothing booked; nothing new priced.** Figures for the plan are step 8a's and 8b's ([`../4-fiscal-path.md`](../4-fiscal-path.md); memos G15-G19, #484, in review). Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
+Role: decision memo for Espen, stage G step 8c, the fiscal path review ([`../5-budget-process.md`](../5-budget-process.md) parts 1-4; `DEC-2026-11-24-14` to `-18`). Status: **decided November 25, 2026: B, with points 1 to 3 as recommended** (`DEC-2026-11-25-06`). Its path follows G15's redraft (memo [G23](G23-debt-path-redraft.md)); its certification line is corrected for *Bowsher v. Synar* (`../5-budget-process.md` part 3.8, step 9). Nothing booked. Figures for the plan are step 8a's and 8b's ([`../4-fiscal-path.md`](../4-fiscal-path.md); memos G15-G19, #484, in review). Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
 
 ## The question
 
@@ -30,7 +30,7 @@ Memo G15 B would hold debt flat at about 117% of GDP from FY2040 and step it tow
 - **The test** runs each October. A step not yet started is deferred a year if measured debt has run at least 1 point below the path for two years *and* a five-year projection on CBO's assumptions shows the path still met without it.
 - **The escape clause:** a recession, on Claudia Sahm's measured trigger (a rise of 0.5 points in the three-month average unemployment rate above its low in the previous year; Hamilton Project, 2019) [EV-FIN-060], or an emergency declared by joint resolution. While it applies, no step starts and the automatic stabilizers run in full.
 - **The rate watch:** if the average rate on Treasury debt runs 0.75 points above the path's assumption for a year, the return procedure starts early. It never raises a tax or cuts a program by itself.
-- **The certifiers:** the trustees already named in G13 and G8, on published data, with CBO's reading published the same week. If the two disagree, nothing is given back. Executive officers must certify a trigger that executes the law (*Bowsher v. Synar*, 1986) [EV-FIN-054].
+- **The certifiers:** the trustees already named in G13 and G8, on published data and CBO's economic assumptions, with CBO's reading published the same week as a check with no legal effect: executive officers must certify a trigger that executes the law, and a legislative agency can't hold it back (*Bowsher v. Synar*, 1986) [EV-FIN-054]. A giveback waits 60 days after certification, so Congress can stop one by joint resolution.
 - **Investment** counts like any other borrowing. There is no carve-out (memo G22, point 3).
 
 **What each does on the review's numbers** (central reading: CBO's rates, r − g about +0.44):
@@ -65,5 +65,7 @@ Memo G15 B would hold debt flat at about 117% of GDP from FY2040 and step it tow
 - If you accept automatic spending limits, then **D**.
 
 ## Question for you
+
+Espen's answer (`DEC-2026-11-25-06`): **B**, points 1 to 3 as recommended.
 
 **G20.** Adopt a debt-path rule that measures debt against a path from FY2040, enacts G19's revenue steps early with each one cancellable by a measured finding, makes no automatic cuts, and stands aside in a recession (B, recommended), with its three points (the split, the order, the restart)? Or report and explain (A), add automatic tax rises when behind (C), or a spending ceiling (D)?

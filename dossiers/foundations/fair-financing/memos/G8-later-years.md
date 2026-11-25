@@ -1,6 +1,6 @@
 # Memo G8: The health contribution over time
 
-Role: decision memo for Espen, fork 8 of stage G ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) parts 3 and 7). Status: **provisional, redrafted without a VAT in step 7, November 24, 2026. Not decided.** The first draft (#469) asked how to step a VAT up over time; you turned down a VAT (`DEC-2026-11-20-07`), so this redraft asks the same question about the instrument that replaced it, the health contribution's base rate. Nominal $B on the budget model's case `mixed` with the settlement booked (`models/data/inputs/settlement.json`; `../notes/booking-results.md`). Project arithmetic on exploratory models, not official scores.
+Role: decision memo for Espen, fork 8 of stage G ([`README.md`](README.md); [`../2-settlement.md`](../2-settlement.md) parts 3 and 7). Status: **held November 24 (`DEC-2026-11-24-13`), then replaced by memo [G18](G18-g8-with-a-debt-goal.md) D′ (`DEC-2026-11-25-04`): the step-down comes only on two years of certified surplus beyond the debt goal's path, never below 3.25%.** Kept as the record of the choice. The first draft (#469) asked how to step a VAT up over time; you turned down a VAT (`DEC-2026-11-20-07`), so this redraft asks the same question about the instrument that replaced it, the health contribution's base rate. Nominal $B on the budget model's case `mixed` with the settlement booked (`models/data/inputs/settlement.json`; `../notes/booking-results.md`). Project arithmetic on exploratory models, not official scores.
 
 ## The question
 

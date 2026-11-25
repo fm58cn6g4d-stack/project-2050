@@ -1,6 +1,6 @@
 # Memo G17: Phasing in FY2035-39
 
-Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **provisional, drafted November 24, 2026. Not decided; nothing booked.** Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
+Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **decided November 25, 2026: B** (`DEC-2026-11-25-03`). Espen asked whether the credits phase down anyway: they do, by statute (CLI-1A.02), and the booked tail after FY2040 was a modeling error ([`../notes/cli1-tail-check.md`](../notes/cli1-tail-check.md); memo [G25](G25-cli1-after-the-fix.md)). PH-3 is booked with the batch's tier-3 booking, after batch 4. Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
 
 ## The question
 
@@ -31,5 +31,7 @@ The plan's general fund runs $193-277B short a year in FY2036-39, about $1.0T in
 - If the clean-energy schedule matters more than $52B, then **A**.
 
 ## Question for you
+
+Espen's answer (`DEC-2026-11-25-03`): **B.** See memo [G25](G25-cli1-after-the-fix.md) for what the CLI-1 correction changes.
 
 **G17.** Hold the clean-energy credits at their FY2037 level in FY2038-39, with long-term care's phasing as a named fallback (B, recommended)? Or phase nothing (A), also phase long-term care (C), or also phase housing's stage 2 (D)?

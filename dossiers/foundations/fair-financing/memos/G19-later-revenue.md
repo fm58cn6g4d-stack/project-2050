@@ -1,6 +1,6 @@
 # Memo G19: Later broad revenue, and its order
 
-Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **provisional, drafted November 24, 2026. Not decided; nothing booked.** Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
+Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **decided November 25, 2026: B, to be re-checked** (`DEC-2026-11-25-05`) against G15's direction that a VAT is now allowed after the first years (`DEC-2026-11-25-01`). **The re-check is memo [G24](G24-later-revenue-with-a-vat.md) (batch 4, provisional), which also re-scores this memo's sources on the post-2025 law; nothing booked.** The text below is the memo as Espen read it. Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
 
 ## The question
 
@@ -40,5 +40,7 @@ The outside screen found almost nothing else that fits (part 5.2; [`../notes/out
 - If no broad revenue is acceptable, then **D**, with G15 D.
 
 ## Question for you
+
+Espen's answer (`DEC-2026-11-25-05`): **B**, re-checked in memo [G24](G24-later-revenue-with-a-vat.md).
 
 **G19.** Enact, in the first Congress, later broad revenue starting in FY2037: deduction limits and a larger carbon fee first, an AGI surtax from FY2040 if still needed, and the health contribution last, each step cancellable by the debt-path rule (B, recommended)? Or rely on the health contribution (A), a surtax and rates from FY2040 (C), or no broad revenue (D)?
