@@ -79,7 +79,7 @@ def phasing(bk):
     def path(prefixes):
         out = {y: 0.0 for y in YEARS}
         for k, p in P.items():
-            if any(k == pre or k.startswith(pre) for pre in prefixes):
+            if any(k == pre or k.startswith(pre + ':') for pre in prefixes):   # exact, or a settlement line's label ('CLI-1' must not match CLI-10)
                 for y, v in p.items():
                     out[y] += v
         return out

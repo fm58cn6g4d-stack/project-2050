@@ -1,6 +1,6 @@
 # Memo G22: The central rules (D3, D4, D4-B)
 
-Role: decision memo for Espen, stage G step 8c, the fiscal path review ([`../5-budget-process.md`](../5-budget-process.md) part 6; `DEC-2026-11-24-14`, direction 3). Status: **provisional, drafted November 24, 2026. Not decided; nothing booked.** Four points, each a yes or no, and each decided on its own. Changing a central rule is a tier-3 decision; nothing here changes `legacy/governing/` or `charter/` until you decide it.
+Role: decision memo for Espen, stage G step 8c, the fiscal path review ([`../5-budget-process.md`](../5-budget-process.md) part 6; `DEC-2026-11-24-14`, direction 3). Status: **decided November 25, 2026: yes to all four points** (`DEC-2026-11-25-08` to `-11`; G22.2 in chat after a reminder of the guardrail). D4's rewrite and D3's new test years are written as proposal text in `../5-budget-process.md` part 6; `legacy/governing/` stays read-only, so the rules' home is the decision log and that text. Four points, each a yes or no, and each decided on its own. Changing a central rule is a tier-3 decision; nothing here changes `legacy/governing/` or `charter/` until you decide it.
 
 ## The question
 
@@ -46,5 +46,7 @@ The review found four places where the rules and the new debt goal don't fit. Ea
 **Yes to all four** (G22.2 only with G15 B and G20 B). Together they keep D3's promise in the years when the plan asks more of the middle class, make the debt goal the plan's real fiscal test, and close the two easiest routes for a successor to game it: an investment label, or a growth forecast.
 
 ## Question for you
+
+Espen's answers: **G22.1 yes** (`DEC-2026-11-25-08`), **G22.2 yes** (`-09`), **G22.3 yes** (`-10`), **G22.4 yes** (`-11`).
 
 **G22.** (1) Test D3 in FY2040 and FY2050 as well as the decade, with the revenue-mix test kept on the decade? (2) Replace D4's current-law guardrail with the debt-path rule, if you choose G15 B and G20 B? (3) No standing investment carve-out after FY2039, with room earned only while debt is on its path? (4) Write the hard rule into D4? (Recommended: yes to each.)

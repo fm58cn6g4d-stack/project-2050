@@ -1,6 +1,6 @@
 # Memo G21: The debt limit
 
-Role: decision memo for Espen, stage G step 8c, the fiscal path review ([`../5-budget-process.md`](../5-budget-process.md) part 5; `DEC-2026-11-24-16`, budget process). Status: **provisional, drafted November 24, 2026. Not decided; nothing booked.** A recommendation for 2029. What to seek in 2027-28 stays with board question 0a. Decided on its own, not as a package. It is kept apart from the debt-path rule (memo G20) on purpose.
+Role: decision memo for Espen, stage G step 8c, the fiscal path review ([`../5-budget-process.md`](../5-budget-process.md) part 5; `DEC-2026-11-24-16`, budget process). Status: **decided November 25, 2026: A** (`DEC-2026-11-25-07`). A 2029 legislative commitment; nothing to book. A recommendation for 2029. What to seek in 2027-28 stays with board question 0a. Decided on its own, not as a package. It is kept apart from the debt-path rule (memo G20) on purpose.
 
 ## The question
 
@@ -38,5 +38,7 @@ Under the Senate rule you decided (graduated cloture from the first week of 2029
 - If you want it tied to the budget, then **B**, knowing how often the House's version was suspended.
 
 ## Question for you
+
+Espen's answer (`DEC-2026-11-25-07`): **A.**
 
 **G21.** Repeal the statutory debt limit in 2029 and let the debt-path rule anchor borrowing, with a delegated suspension as the fallback and no reliance on the constitutional arguments (A, recommended)? Or tie it to the budget resolution (B), adopt the delegated suspension itself (C), or keep the constitutional arguments as the plan (D)?

@@ -1,6 +1,6 @@
 # Memo G18: G8 again, with a debt goal
 
-Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **provisional, drafted November 24, 2026. Not decided; nothing booked.** Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package. It re-asks memo [G8](G8-later-years.md), held for this review (`DEC-2026-11-24-13`).
+Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **decided November 25, 2026: D′** (`DEC-2026-11-25-04`; it replaces held G8, `DEC-2026-11-24-13`). Not booked: a trigger, so nothing changes up front. Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package. It re-asks memo [G8](G8-later-years.md), held for this review (`DEC-2026-11-24-13`).
 
 ## Why G8 changes
 
@@ -24,5 +24,7 @@ G8 asked how the health contribution's base rate should move as the defense path
 **What would change this:** with G15 D, choose G8 as before. If you want the step-down written in law now, then A, with its added cost.
 
 ## Question for you
+
+Espen's answer (`DEC-2026-11-25-04`): **D′.**
 
 **G18.** Hold the base rate and step it down only when the trustees certify a surplus beyond the debt goal's path, never below 3.25% (D′, recommended)? Or fixed steps (A), a lower start (B), or one rate (C)?

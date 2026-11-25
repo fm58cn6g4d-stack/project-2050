@@ -1,6 +1,6 @@
 # Memo G16: The take-home goal and the health contribution's rate
 
-Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **provisional, drafted November 24, 2026. Not decided; nothing booked.** Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
+Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **decided November 25, 2026: B** (`DEC-2026-11-25-02`). Not booked: the rate is the booked 3.80% to FY2040, and the step-down is a trigger, so nothing changes up front. Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
 
 ## The question
 
@@ -37,5 +37,7 @@ You carried the take-home test into this review as a goal (`DEC-2026-11-24-12`).
 **What would change this:** if take-home matters more to you than the debt goal, then C with G15 D.
 
 ## Question for you
+
+Espen's answer (`DEC-2026-11-25-02`): **B.**
 
 **G16.** Hold the health contribution's base rate at 3.80% to FY2040, then lower it toward 3.25% by a trigger on certified savings (B, recommended)? Or hold it (A), lower it to 3.25% by law (C), or aim for the 85% target now (D)?

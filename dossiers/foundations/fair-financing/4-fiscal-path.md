@@ -1,11 +1,11 @@
 # Stage G step 8: the fiscal path review
 
-Role: the harder look at spending and debt that Espen started at the stage G boundary review (`DEC-2026-11-24-14`). It prices the three debt goals (`DEC-2026-11-24-15`), checks the budget model's and the long-term tools' methods, and adds a contained dynamic layer beside the conventional score. Later parts cover phasing, revenue, outside proposals, G8 and the decision batch (step 8b), and step 8c's budget process, debt limit and central rules ([`5-budget-process.md`](5-budget-process.md), memos G20-G22) and the strategy memo ([`6-strategy-memo.md`](6-strategy-memo.md)). Status: **parts 1 and 2 drafted in stage G step 8a (#483); parts 3 to 6 and the decision batch (memos G15-G19, provisional) drafted in step 8b, November 24, 2026**. Step 8c's budget process and strategy memo are in [`5-budget-process.md`](5-budget-process.md) and [`6-strategy-memo.md`](6-strategy-memo.md). Nothing here is booked. The settlement as booked (#480, [`2-settlement.md`](2-settlement.md)) stays the plan's fiscal base (`DEC-2026-11-24-10`). This part recommends no goal: the goals draw on the same money, so step 8b recommends one, with the frontier below, in the decision batch.
+Role: the harder look at spending and debt that Espen started at the stage G boundary review (`DEC-2026-11-24-14`). It prices the three debt goals (`DEC-2026-11-24-15`), checks the budget model's and the long-term tools' methods, and adds a contained dynamic layer beside the conventional score. Later parts cover phasing, revenue, outside proposals, G8 and the decision batch (step 8b), and step 8c's budget process, debt limit and central rules ([`5-budget-process.md`](5-budget-process.md), memos G20-G22) and the strategy memo ([`6-strategy-memo.md`](6-strategy-memo.md)). Status: **parts 1 and 2 drafted in stage G step 8a (#483); parts 3 to 6 and the decision batch (memos G15-G19) in step 8b, November 24, 2026; the batch decided November 25** (`DEC-2026-11-25-01` to `-05`: G15 B made more aggressive, G16 B, G17 B, G18 D′, G19 B to be re-checked). Step 9's revision for those answers, the redrafted debt path (G23), G19's mix with a VAT (G24) and the CLI-1 correction (G25), is [`7-batch3-revision.md`](7-batch3-revision.md); the figures here are step 8's, before that revision. Step 8c's budget process and strategy memo are in [`5-budget-process.md`](5-budget-process.md) and [`6-strategy-memo.md`](6-strategy-memo.md). Nothing here is booked. The settlement as booked (#480, [`2-settlement.md`](2-settlement.md)) stays the plan's fiscal base (`DEC-2026-11-24-10`). This part recommends no goal: the goals draw on the same money, so step 8b recommends one, with the frontier below, in the decision batch.
 
 Units: federal fiscal years, nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores.
 
 **The rules this review keeps** (Espen's directions, `DEC-2026-11-24-14` to `-18`; step 8a's brief):
-- **Start populist in 2029** (`-18`): minimal new revenue from the middle class in the first years. No VAT (`DEC-2026-11-20-07`).
+- **Start populist in 2029** (`-18`): minimal new revenue from the middle class in the first years. As step 8 ran: no VAT (`DEC-2026-11-20-07`). **Since `DEC-2026-11-25-01`, a VAT or other broad measures are allowed, but not in the plan's first few years;** step 9 prices that ([`7-batch3-revision.md`](7-batch3-revision.md)).
 - **Social Security's and Medicare's long-run finances are out of scope** (`-16`).
 - **The hard rule.** Any debt goal the review recommends must be met on the conventional score with zero "works as designed" or dynamic savings. Those may only widen the margin, or lower a rate later through a trigger once they show up in measured results.
 
@@ -244,8 +244,8 @@ Inventory: [`notes/program-inventory.md`](notes/program-inventory.md) (`models/t
 | --- | --- | --- | --- |
 | PH-1 | Long-term care reaches full benefit in FY2039 instead of on its own ramp (40/55/70/85% of its FY2035-38 path) | 262 | Older and disabled people who need care. In FY2035 about 60% of the benefit's cost is deferred, about 45% in FY2036, falling to 15% in FY2038. It delays the care outcomes in health's and care's dossiers (OUT-03, OUT-08), and families keep paying privately or spend down to Medicaid for one to four years longer |
 | PH-2 | Housing's stage 2 held at its FY2036 level until FY2040, net of its booked cap (S11) | 10 | Because G14 C's cap already slows stage 2, this saves little. Up to about 200,000 families wait one to three years for an award (on the cap's own count of about 810,000 families leased in FY2040). Delays the housing outcome (OUT-04) |
-| PH-3 | Clean-energy credits held at their FY2037 level in FY2038-39 | 52 | Slower deployment in two years. The climate outcome (OUT-05) slips slightly |
-| — | All three | 323 | |
+| PH-3 | Clean-energy credits held at their FY2037 level in FY2038-39 | 47 | Slower deployment in two years. The climate outcome (OUT-05) slips slightly |
+| — | All three | 319 | |
 
 **What the candidates buy:**
 - On goal 1 ("falling from the mid-2030s"), all three cut the share needed from 1.54% to 1.35% of GDP.
@@ -315,12 +315,12 @@ These are labeled, with a range, and never in a goal test.
 - **Its proper use is a trigger.** When the trustees certify spending below D2's path, the health contribution may step down (G16, G18). That gives it back to households only once it is real.
 - No other "works as designed" saving is claimed: no flagship's dossier claims one (part 4).
 
-## Part 6. The decision batch (provisional)
+## Part 6. The decision batch (decided November 25, 2026)
 
-Memos G15 to G19 are in [`memos/`](memos/README.md). Each is decided on its own, and none is booked. The recommended set, shown on the frontier:
+Memos G15 to G19 are in [`memos/`](memos/README.md). Espen decided each on its own on November 25 (`DEC-2026-11-25-01` to `-05`); none is booked. G15 B is to be made "a little more aggressive on debt", and G19 B is to be re-checked with a VAT allowed after the first years; both come back in batch 4 (memos G23 and G24). The set as recommended and chosen, shown on the frontier:
 - **G15 B: hold debt flat from FY2040** at about 117% of GDP, met on the conventional score. Then step toward 100% by a debt-path rule as results allow (the rule is 8c's).
 - **G16 B: hold R at 3.80% to FY2040,** then lower it by trigger toward 3.25% (76.2% take-home) as certified savings appear.
-- **G17 B: hold the clean-energy credits at their FY2037 level in FY2038-39 (PH-3, about $52B)**, with long-term care's phasing (PH-1, $262B) named as the fallback. Housing's stage 2 (PH-2) saves only $10B on top of G14 C's cap, so it is left alone.
+- **G17 B: hold the clean-energy credits at their FY2037 level in FY2038-39 (PH-3, about $47B; step 8b's first count of $52B also picked up four other climate lines, corrected in step 9)**, with long-term care's phasing (PH-1, $262B) named as the fallback. Housing's stage 2 (PH-2) saves only $10B on top of G14 C's cap, so it is left alone.
 - **G18 D′:** G8's step-down measured against the debt goal.
 - **G19 B: from FY2037, limits on itemized deductions and a larger carbon fee first,** an AGI surtax from FY2040 if needed, and R last.
 

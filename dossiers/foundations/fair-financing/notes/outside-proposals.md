@@ -3,6 +3,8 @@
 Role: a screened table of published federal deficit-reduction proposals (CBO, CRFB, Peterson Solutions Initiative, Congressional Progressive Caucus, Simpson-Bowles, Domenici-Rivlin), for the plan's fiscal review. It tests each one against four rules and against what the plan already books.
 Status: research note, November 24, 2026; built by a Standard-tier subagent, checked by the step's author (stage G step 8b): "What fits" corrected for three rows already in the plan or in conflict with it.
 
+**Re-scored in step 9 for G19's sources only** ([`revision-results.md`](revision-results.md) part 1; [`../7-batch3-revision.md`](../7-batch3-revision.md) part 4.1): itemized-deduction limits (about $95B in FY2040, from 123-312), the larger carbon fee (about $15B net of its dividend, from 111-147) and the AGI surtax (about $190B). **Every other row below is still CBO's December 2024 figure on pre-2025 law, unscored on current law,** and enters no recommendation.
+
 ## What this answers and how to read it
 
 - **The need.** The plan starts in 2029. Its debt goals need about 1.35-1.54% of GDP of extra deficit reduction from FY2036, about $730-830B in FY2040, on top of the settlement (`../4-fiscal-path.md`, "In plain terms" item 3; `debt-gap-results.md`). The settlement as booked already closes the general-fund gap in FY2040 (−$6.0B; `../2-settlement.md` part 2).

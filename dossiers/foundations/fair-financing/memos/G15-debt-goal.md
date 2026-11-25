@@ -1,6 +1,6 @@
 # Memo G15: The debt goal
 
-Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **provisional, drafted November 24, 2026. Not decided; nothing booked.** Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
+Role: decision memo for Espen, stage G step 8b, the fiscal path review ([`../4-fiscal-path.md`](../4-fiscal-path.md); `DEC-2026-11-24-14` to `-18`). Status: **decided November 25, 2026: B, made more aggressive** (`DEC-2026-11-25-01`). Espen: "it needs to be a little more aggressive on debt"; the aim is "to try to keep rates below growth on average"; a VAT or other broad measures are acceptable, "just not in the first few years of the plan". **The level and path are redrafted in memo [G23](G23-debt-path-redraft.md) (batch 4, provisional) and come back to Espen to confirm; nothing booked.** The text below is the memo as Espen read it. Central r − g (CBO's rates), the conventional score; nominal $B or % of GDP. Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
 
 ## The question
 
@@ -46,5 +46,7 @@ Each is met on the conventional score with no "works as designed" or dynamic sav
 - If you would rather spend the room on take-home (G16), then **D**.
 
 ## Question for you
+
+Espen's answer (`DEC-2026-11-25-01`): **B, made more aggressive.** The redraft is memo [G23](G23-debt-path-redraft.md).
 
 **G15.** Commit the plan to holding debt flat as a share of GDP from FY2040 (about 117%), with a rule that steps the target toward 100% as results allow (B, recommended)? Or under 100% by the mid-2050s (A), under 100% by FY2050 (C), or no new goal (D)?

@@ -1,0 +1,627 @@
+Source: https://www.cbo.gov/publication/61346
+Publisher: Congressional Budget Office
+Retrieved: 2026-11-25 (copy uploaded by Espen)
+Original SHA-256: 31f7048414bcc41989d24d85776280002f9320ef89c62bac0f5e5321b8675812
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+April 29, 2025
+
+Honorable August Pfluger
+Chairman
+Republican Study Committee
+U.S. House of Representatives
+Washington, DC 20515
+Honorable Bruce Westerman
+Chairman
+Committee on Natural Resources
+U.S. House of Representatives
+Washington, DC 20515
+Re: How CBO and Joint Committee Staff Prepare Dynamic Analyses
+
+Dear Chairman Pfluger and Chairman Westerman:
+This letter responds to your questions regarding how the Congressional
+Budget Office (CBO) and staff of the Joint Committee on Taxation (Joint
+Committee staff) develop estimates of the budgetary and economic effects
+of legislation. The agencies have collaborated on the responses to your
+questions. Joint Committee staff took the lead in responding to the first
+three questions, and CBO drafted the responses to the last two questions.
+Question 1. How do you define a static score, a conventional score, and a
+dynamic score?
+CBO and Joint Committee staff provide the Members of Congress with
+estimates of the changes in future outlays and receipts that would result
+from proposed changes in federal legislation. Neither CBO nor Joint
+Committee staff produces what are generally understood to be “static
+estimates.” Every estimate of the effects of legislation prepared by CBO
+and Joint Committee staff includes potential behavioral changes by
+individuals and business entities in response to the changes in the economic
+environment that would be created by the proposed legislation.
+
+www.cbo.gov
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 2
+Our understanding is that when people refer to a “static estimate,” they
+believe that the estimate accounts for absolutely no possible changes in
+behavior by either individuals or business entities in response to the
+changes in the economic environment that would be created by the
+proposed legislation.
+Aside from when House Rule XIII requires otherwise, CBO and Joint
+Committee staff provide the Members of Congress with “conventional
+estimates” of proposed changes in legislation. A conventional estimate
+compares projected federal direct spending or receipts under the proposal
+with projected outlays or receipts under present law—that is, compared
+with the direct spending and receipts projected under the baseline that CBO
+prepares in compliance with provisions of the Deficit Control Act. All
+conventional estimates include potential behavioral changes by individuals
+and business entities in response to the changes in the economic
+environment that would be created by the proposed legislation, but they do
+not assume that such changes would alter the size of the U.S. economy as
+projected in CBO’s macroeconomic baseline. In short, conventional
+estimates prepared by CBO and Joint Committee staff are not “static”; they
+reflect myriad microeconomic behavioral responses but do not reflect
+possible macroeconomic changes.
+House Rule XIII requires that in certain circumstances, CBO and Joint
+Committee staff include macroeconomic behavioral changes in addition to
+the behavioral responses reflected in conventional estimates. The estimates
+that include those macroeconomic behavioral changes are commonly
+referred to as dynamic and are discussed in more detail below.
+Question 1a. What factors do you generally consider in a conventional
+score that are not included in a static score?
+CBO’s and Joint Committee staff’s models generally assume that
+individuals and business entities behave rationally and incorporate other
+behaviors as indicated by data and recent research. Behaviors in
+conventional estimates include the following:
+• Changes in the timing of transactions and income recognition;
+• Changes among business sectors or the legal form of doing business;
+• Changes in types of portfolio investments;
+• Changes in the form in which an employee receives compensation;
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 3
+• Changes in the amount, types, and timing of consumption; and
+• Tax planning and tax avoidance strategies.1
+Question 1b. Does your conventional analysis always hold GDP fixed?
+Generally, a conventional estimate prepared by CBO or Joint Committee
+staff does not incorporate a change in the size of the U.S. economy as
+projected in the CBO baseline of gross national product (GNP). However,
+if the legislation would significantly change the population of the United
+States, then the agencies allow for the size of the economy to change by
+estimating the income of the affected portion of the population and
+accounting for the budgetary effects of benefits provided to and taxes paid
+by those people.
+Question 1c. What factors in a dynamic score would you generally
+consider not present in a conventional score?
+Macroeconomic analyses prepared by CBO or Joint Committee staff
+generally include changes in aggregate labor supply, changes in aggregate
+domestic investment, total factor productivity, changes in aggregate
+household saving rates and incomes, national saving, and changes in
+interest rates, wages, and prices.2
+Question 2. How do you account for explicit and implicit debt in your
+dynamic analysis? Specifically, explain how changes in explicit government
+debt crowd out private investment in your dynamic analysis. Similarly,
+explain how implicit debt crowds out private investment in your dynamic
+
+1
+
+For more details and examples of behavior incorporated in Joint Committee staff conventional
+estimates, see Joint Committee on Taxation, The Joint Committee on Taxation Revenue Estimating
+Process (January 2025), https://tinyurl.com/mr33k3jz. For more information about how CBO
+prepares cost estimates, see Congressional Budget Office, CBO Describes Its Cost-Estimating
+Process (April 2023), www.cbo.gov/publication/59003, and “Does CBO do ‘dynamic analysis’?”
+(accessed April 25, 2025), www.cbo.gov/faqs#dynamic.
+2
+
+Joint Committee staff recently described its current macroeconomic models and provided an
+example of the factors that result in differences between an underlying conventional estimate and
+the estimate that results from a macroeconomic analysis. See Joint Committee on Taxation,
+Overview of JCT Methodology for Analyzing the Macroeconomic Effects of Proposed Changes in
+Tax Law (December 2024), https://tinyurl.com/5n7h6tvp. Also see Congressional Budget Office,
+“How the Expiring Individual Income Tax Provisions in the 2017 Tax Act Affect CBO’s
+Economic Forecast” (December 2024), www.cbo.gov/publication/60986.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 4
+analysis. Describe any economic differences across policy changes,
+including transfer payments, public investment, and tax reductions.
+Increases in explicit government debt due to a policy proposal can direct
+savings away from private investment toward federal debt service and
+increase the interest rate that the Federal government has to pay to attract
+additional funds to finance the budget deficit. The extent to which an
+increase in government debt can ultimately “crowd out” private investment
+depends on how people in the United States alter their savings behavior in
+response to such a change in economic conditions, as well as the response
+of foreign investors and monetary policy. Each of the three macroeconomic
+models used by Joint Committee staff accounts for domestic and foreign
+responses to increases in government debt. The models also incorporate
+different assumptions about how individuals make their saving decisions.
+(Those assumptions include expectations about the future and saver versus
+non-saver households.) For a given policy change, the magnitude of the
+crowding-out effect can therefore differ across models and ultimately
+depends on the specific policy under analysis.
+In CBO’s assessment, increases in the federal deficit reduce private
+investment. Larger deficits boost aggregate demand and reduce national
+saving, which in turn raises interest rates and crowds out private
+investment. The extent to which a policy would affect aggregate demand
+and national saving depends on its specific details.
+Implicit government debt from Social Security and Medicare obligations is
+relevant for saving behavior in macroeconomic models in which people are
+assumed to anticipate future changes to federal benefits. In such models,
+there is a distinction between a payable benefits scenario, in which future
+benefits are limited to contemporaneous funding after trust fund reserve
+depletion, and a scheduled benefits scenario, in which future benefits are
+those specified under current law without regard to the trust fund
+balances. A payable benefits scenario requires households to forecast an
+indeterminate reduction in their Social Security benefits at some time in the
+future. For consistency across all models with varying degrees of individual
+foresight, Joint Committee staff assumes that scheduled benefits will be
+paid and that the government’s budget is unified. CBO uses a suite of
+models, including its overlapping generations model, to analyze the effects
+of changes in debt related to Social Security and other policies.3
+3
+
+See Congressional Budget Office, The Long-Term Budget Outlook Under Alternative Scenarios
+for the Economy and the Budget (July 2023), pp. 8–10, www.cbo.gov/publication/59233.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 5
+Question 3. Provide information about processes for reconciling
+differences in static and dynamic scoring approaches between the CBO and
+JCT, especially on legislation with both revenue and expenditure
+implications.
+When proposed legislation involves policy changes that could alter
+individuals’ or business entities’ decisions in ways that would affect federal
+outlays as well as similar or related policy changes that alter individuals’ or
+business entities’ decisions in ways that would affect federal tax receipts,
+CBO and Joint Committee staff collaborate. Sometimes that collaboration
+involves specific joint modeling exercises; such is the case when the two
+agencies provide estimates of changes in health policy. Other times, the
+collaboration involves using the estimates developed by one agency in the
+estimates of the other agency. For example, in assessing certain proposals
+that would change legal immigration and improve tax compliance, Joint
+Committee staff uses the output of CBO’s immigration analysis as the basis
+for its estimates of the policy’s tax provisions. Likewise, CBO uses Joint
+Committee staff’s estimates of the income and payroll tax offset for its
+analysis of a proposed new fee. In still other situations, the collaboration
+involves conversations to ensure that CBO and Joint Committee staff
+incorporate comparable behavioral response parameters when providing
+estimates to Members who may be weighing options to achieve a policy
+goal through an outlay program or through a tax expenditure.
+CBO’s macroeconomic models focus on the details of federal outlays and
+incorporate tax changes more generally. By contrast, Joint Committee
+staff’s macroeconomic models focus on the details of the Internal Revenue
+Code and incorporate federal outlays more generally. The two agencies
+have limited experience conducting collaborative analysis of the effects of
+macroeconomic changes, as required under House Rule XIII, of legislation
+that involves significant changes in direct spending programs and
+significant changes in the Internal Revenue Code.4 In such situations, the
+agencies would probably separately estimate macroeconomic changes using
+existing models and then discuss the results to determine how to report the
+macroeconomic results to the House of Representatives to fulfill the
+requirement of House Rule XIII.
+Question 4. Describe any differences between how the CBO and JCT
+would score a bill up for consideration compared to how CBO and JCT
+4
+
+In 2015, the agencies collaborated on such an analysis. See Congressional Budget Office, cost
+estimate for H.R. 3762, Restoring Americans’ Healthcare Freedom Reconciliation Act of
+2015 (October 20, 2015), www.cbo.gov/publication/50918.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 6
+would incorporate the impacts of that bill into the economic baseline if it
+were signed into law. Please provide details on whether any of those
+differences are due to restrictions imposed by Congress.
+Analyses from CBO and Joint Committee staff are used by the Congress in
+several ways. The term “score” typically refers to cost estimates provided
+to the Budget Committees for budget enforcement purposes.5 Those
+advisory estimates provide information that the Congress can use as it
+implements rules and procedures when considering legislation that would
+affect the federal budget. Those rules and procedures are determined and
+enforced by the Budget Committees.
+There are three significant ways in which the cost estimate for a bill might
+differ from the full budgetary consequences reflected in CBO’s economic
+and budgetary baseline after enactment.6 First, CBO and Joint Committee
+staff may be directed not to include certain budgetary effects when
+preparing a cost estimate to be used for budget enforcement. If the bill is
+enacted, however, the effects that were excluded from the estimate are
+reflected in the baseline. Second, unless the Congress requires or requests
+otherwise, cost estimates typically reflect the expectation that the size of the
+economy remains unchanged. The budgetary effects of the bill incorporated
+in the baseline reflect the effects of the bill on the size of the economy and
+on other macroeconomic variables. Finally, cost estimates are made relative
+to the scoring baseline. If the effects of the bill interact with the economic
+and legislative changes that have occurred since the scoring baseline was
+set, the total effect reflected in subsequent baselines will differ from the
+amount reported in the cost estimate. Two recent reconciliation acts provide
+concrete examples of those differences.
+In the case of the 2022 reconciliation act (Public Law 117-169), all three of
+the reasons described above contributed to differences between the cost
+estimate for the act and the effects reflected in subsequent baselines
+produced by CBO. (Joint Committee staff provided the estimates for
+changes to tax policy enacted in the 2022 reconciliation act. By statute,
+Joint Committee staff provides revenue estimates for legislation that would
+change the Internal Revenue Code.)
+
+5
+
+For more information on CBO’s cost estimating process, see Congressional Budget Office, CBO
+Explains How It Develops the Budget Baseline (April 2023), www.cbo.gov/publication/58916.
+6
+
+In addition to those effects, which are specific to the details of the bill, any enacted legislation
+that changes deficits and debt will alter net interest costs in CBO’s subsequent baselines. Those
+effects on net interest costs are not reflected in the score.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 7
+• Guideline 14 directs CBO to exclude any budgetary savings that
+may arise when mandatory funding is provided for program
+management or administration. Therefore, the cost estimate for the
+2022 act prepared for budget enforcement purposes did not reflect
+revenue effects from enhanced Internal Revenue Service resources.7
+• Dynamic estimates were not required or requested for the
+2022 reconciliation act. As a result, estimates published by Joint
+Committee staff and CBO did not reflect any macroeconomic effects
+of the act.8
+• Finally, as has been noted by Joint Committee staff, estimates for the
+2022 reconciliation act were prepared relative to a 2021 scoring
+baseline. Economic developments that occurred after that baseline
+was set would have increased Joint Committee staff’s estimated
+costs of various energy provisions.9 In addition, the last year of the
+scoring baseline was 2031, but CBO’s subsequent baseline reflected
+the effects of the act through 2033.
+CBO’s baseline projections following enactment of the 2022 reconciliation
+act reflected the estimates prepared by CBO and Joint Committee staff that
+were used for budget enforcement as well as budgetary effects stemming
+from the three reasons described above.
+Similarly, there were differences between Joint Committee staff’s cost
+estimate for the 2017 tax act (P.L. 115-97) and the effects reflected in
+CBO’s subsequent baseline projections. Those differences were primarily
+driven by economic and legislative changes that occurred after the scoring
+baseline was set that affected the costs of the provisions included in the
+2017 tax act. For example, CBO’s April 2018 baseline projections
+incorporated revised historical data and changes in the economic outlook
+
+7
+
+See Congressional Budget Office, Estimated Budgetary Effects of H.R. 5376, the Inflation
+Reduction Act of 2022 (August 2022), www.cbo.gov/publication/58366.
+8
+
+For more information on the economic effects of the 2022 reconciliation act, see Congressional
+Budget Office, The Budget and Economic Outlook: 2023 to 2033 (February 2023), Box 2-1,
+www.cbo.gov/publication/58848.
+9
+
+For example, data that became available after the 2021 baseline was set were consistent with
+sustained higher inflation than was projected in the 2021 baseline. That increased the estimated
+cost of certain credits. For further discussion, see Joint Committee on Taxation, Factors
+Considered When Estimating the Revenue Effects of the Energy Provisions of Public Law 117-169
+and Subsequent Developments (May 2023), https://tinyurl.com/22wk2mtk.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 8
+unrelated to the 2017 tax act that increased output.10 Such changes in output
+affect the cost of tax changes. CBO’s April 2018 projections reflected the
+interaction between the 2017 tax act and those economic changes, as well
+as interactions between the 2017 tax act and legislation enacted in early
+2018 that significantly increased spending.
+Question 5. Increasing domestic energy production can reduce U.S. energy
+prices, which would significantly impact every sector of the U.S. economy.
+Please provide a detailed description of the model and methodology you
+use to dynamically score the effects of changes in domestic energy
+production on the U.S. economy and gross domestic product. What
+assumptions underlie the model, what input variables does your model
+consider, how are they weighted, and which inputs have the greatest
+potential to significantly change the model's output?
+To assess the dynamic effects of policies intended to increase energy
+production—that is, the effects that those policies would be expected to
+have on the nation’s gross domestic product (GDP)—CBO extended a
+model it previously constructed to evaluate the economic effects of
+producing oil and natural gas from shale resources.11 The extended model
+accounts for additional short-run and long-run effects that stem from
+proposed policies aimed at increasing energy production. To illustrate the
+model’s framework, CBO assessed the expected economic effects of two
+alternative scenarios. The first scenario is based on the Energy Information
+Administration’s (EIA’s) High Oil and Gas Supply (HOGS) case examined
+as part of EIA’s most recent Annual Energy Outlook.12 Under that scenario,
+the production of oil and other liquid fuels increases by almost 30 percent
+in some years over the 2025–2035 period and natural gas production, by
+10 percent. The second scenario is based on a proposed policy to expand
+offshore lease sales of oil and natural gas in which production increases by
+smaller amounts.13
+
+10
+
+For a discussion about how those revisions changed CBO’s economic projections, see
+Congressional Budget Office, “How the 2017 Tax Act Has Affected CBO’s GDP and Budget
+Projections Since January 2017,” CBO Blog (February 28, 2019),
+www.cbo.gov/publication/54994.
+11
+
+Congressional Budget Office, The Economic and Budgetary Effects of Producing Oil and
+Natural Gas From Shale (December 2014), www.cbo.gov/publication/49815.
+12
+
+Energy Information Administration, Annual Energy Outlook 2025 (April 2025),
+www.eia.gov/outlooks/aeo/.
+13
+
+BRIDGE Production Act of 2023, H.R. 5616, 118th Cong., www.congress.gov/bill/118thcongress/house-bill/5616.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 9
+CBO estimates that the first scenario would increase GDP by about
+$1.3 trillion over 10 years and would reduce the federal deficit by roughly
+$300 billion relative to CBO’s most recent baseline projections. The second
+scenario would increase GDP by about $10 billion and would reduce the
+federal deficit by about $2 billion over 10 years. CBO estimates that the
+second scenario would result in smaller increases in GDP, in part because
+the changes in energy supplies are much smaller, but also because
+significant changes in energy production take time. (The EIA scenario
+assumed that the increases occurred rapidly.) In both scenarios, the
+increases in GDP stem from an increase in energy production only. CBO’s
+estimates do not incorporate other provisions of any future bills that might
+interact with those changes in energy production.
+Analytical Method. CBO’s approach to evaluating the effect of changes in
+domestic oil and natural gas production on GDP is made up of three
+components. The first reflects the primary investment effects and measures
+the changes in aggregate demand and changes in the capital stock
+attributable to increased investment in the oil and natural gas sector. The
+second component reflects the productivity effects. It measures how the
+increased supply of oil and natural gas affects the productivity of labor and
+capital and how it raises GDP over the longer term as labor and capital are
+allocated to their more efficient uses—in particular, to energy production.
+The final component reflects the effects of an increased supply of labor and
+higher savings, which boost output in the longer term. Following the
+agency’s standard method for incorporating longer-term economic effects,
+CBO phases in part of the primary investment effect (the increase of the
+capital stock), the productivity effect, and the increase in labor and savings
+over four years. The short-run change in aggregate demand (part of the
+primary investment effect) phases out over the same period.
+Primary Investment Effects. Initial investments in the extraction of new oil
+and natural gas resources directly stimulate the economy and boost GDP in
+the short term. In CBO’s estimates, the additional investment in oil and
+natural gas extraction is the amount of investment that would be needed to
+produce a given increase in oil and natural gas production if the supply of
+oil and natural gas rose (whether because of a policy change or some other
+development). Such investment contributes to the total amount of capital in
+the economy—boosting the ratio of capital to labor each year and
+increasing GDP in the long term. That increase in investment would crowd
+out (or reduce) investment in other sectors of the economy, partly offsetting
+the investment in oil and natural gas. In the first scenario, CBO preserved
+EIA’s assumption that oil and natural gas production would quickly rise
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 10
+and modeled that the additional investment would take place quickly
+enough to generate the large increase in production in the first year. When
+evaluating a proposed policy change, however, CBO would develop its
+estimates using information about the time between project development
+and the start of production. For example, in the second scenario, CBO
+estimated that production would begin about five years after new leases
+would be put up for auction.
+Productivity Effects. The main productivity effect stems from the increased
+productivity of labor and capital resources used to produce the new oil and
+natural gas resources, measured as the market price of those supplies under
+the policy minus the average breakeven price of those supplies. Smaller
+productivity effects stem from gains from reallocating resources from the
+more costly oil and natural gas supplies produced to the new, less costly
+supplies and the productivity gains associated with lower prices of oil and
+natural gas for consumers and businesses.14
+Increased Supply of Labor and Greater Savings Stemming From
+Productivity Effects. As productivity rises, households have more income to
+save and invest. That investment boosts the economy’s productive capacity
+and GDP. Higher productivity also boosts wages, encouraging people to
+work more and also boosting GDP.
+Many factors determine the magnitude of the three components, such as the
+amount of additional energy produced because of the policy, how energy
+prices are affected, and how sensitive energy use is to changes in those
+prices. But how quickly investment responds to the new policy determines
+the sizes of those three effects over the 2025–2035 period. If long lead
+times were required before additional capital investment could occur, the
+effects of a policy on GDP would generally happen later, possibly outside
+the projection period. Conversely, if investment responded more quickly,
+the short-run increase in demand and the longer-run increases in the capital
+stock and change in productivity would provide larger effects on GDP
+during the projection period.
+Model Inputs. CBO relies on a number of energy market and broader
+economic inputs to model the component increases in GDP stemming from
+policies likely to affect energy production. Several components of the effect
+14
+
+For a detailed description of this productivity effect and its components, see Congressional
+Budget Office, The Economic and Budgetary Effects of Producing Oil and Natural Gas From
+Shale (December 2014), Appendix B, www.cbo.gov/publication/49815.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 11
+of increased energy production on GDP depend on how oil and natural gas
+prices change when new energy supplies enter the market. CBO’s estimate
+of those price changes depends on many factors, such as the expected
+amount of the new oil and natural gas supplies resulting from the policy;
+the extent to which those new supplies displace existing, higher-cost energy
+production; the size of the market to which those new supplies contribute;
+and the extent to which consumers are willing to purchase oil and natural
+gas at different prices.
+How oil and natural gas production respond to a policy depends on current
+market conditions, recent trends, and experiences with similar policies,
+among other factors, and CBO’s model accounts for those factors. For
+instance, in the second scenario, which requires that new lease offerings for
+offshore oil and natural gas be made available for auction, CBO based its
+estimate of the expected effect on oil and natural gas production that similar
+lease offerings have had on the amount and timing of oil and natural gas
+produced since 2007.
+Similarly, how existing oil and natural gas production responds to the entry
+of lower-cost competing supplies is based on a recent study that examined
+the factors driving increased production of oil and natural gas on federal
+lands.15 The sizes of those markets as well as the responsiveness of
+consumers in those markets to changes in prices are based on findings of
+recent scenarios examining the effects of alternative oil and natural gas
+prices on energy markets and the availability of alternative oil and natural
+gas resources.16 Baseline oil and natural gas prices—market prices prior to
+the proposed policy—are from CBO’s most recent economic projections.17
+For the short-run effects, CBO estimated how much investment in oil and
+natural gas development would be needed to generate the additional oil and
+natural gas expected to be produced under the new policy. That estimate is
+consistent with the approach CBO uses to forecast U.S. production of crude
+oil and petroleum products, which stems from investment in oil and natural
+gas wells. (If, instead, increased production occurred because existing wells
+were immediately more productive, as in EIA’s HOGS case, less additional
+15
+
+Brian C. Prest, How Much Would Expanding Federal Oil and Gas Leasing Increase Global
+Carbon Emissions, Resources for the Future (September 2024), https://tinyurl.com/2fv98ayp.
+16
+
+Energy Information Administration, International Energy Outlook 2023 (October 2023),
+www.eia.gov/outlooks/ieo/, and Annual Energy Outlook 2025 (April 2025)
+www.eia.gov/outlooks/aeo/.
+17
+
+Congressional Budget Office, The Budget and Economic Outlook: 2025 to 2035 (January 2025),
+www.cbo.gov/publication/60870.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 12
+investment would be needed, and the productivity effects and increased
+supply of labor and greater savings from productivity effects would be
+larger.) Additional investment boosts GDP through increased demand in the
+short run and in the long run by increasing the stock of capital.
+Dynamic Effects of Scenario 1 (EIA’s High Oil and Gas Supply Case).
+CBO assessed the effects on GDP of the HOGS case described in the
+Annual Energy Outlook 2025.18 Under scenario 1, annual oil production
+would increase by about 4.9 million barrels per day (M bbl/d), on average,
+between 2025 and 2035, and natural gas production would increase by
+about 2.7 trillion cubic feet (Tcf), on average.19 For reference, the United
+States produced about 20 M bbl/d of oil and other liquid fuels and about
+38 Tcf of natural gas in 2024.20
+Under this scenario, technically recoverable reserves of oil and natural
+gas—that is, energy resources that can be produced using current
+technology without regard to cost—are more plentiful and less costly to
+develop than in EIA’s reference case in the following ways:
+• Tight oil, tight gas, and shale gas wells are 50 percent more
+productive relative to EIA’s reference case;
+• Undiscovered oil and natural gas resources in Alaska and in the
+offshore continental United States are 50 percent higher relative to
+EIA’s reference case; and
+• The rate of technological improvement in drilling and resource
+development, which lowers the costs of accessing and producing oil
+and natural gas supplies, is 50 percent faster relative to EIA’s
+reference case.21
+
+18
+
+Energy Information Administration, Annual Energy Outlook 2025 (April 2025)
+www.eia.gov/outlooks/aeo/.
+19
+
+An increase in crude oil accounts for about two-thirds of the average increase in the amount of
+oil and other liquid fuels produced; one-third is accounted for by an increase in natural gas liquids,
+namely butane, ethane, propane, and natural gasoline. Those natural gas liquids are generally
+included as part of petroleum supplies.
+20
+
+Energy Information Administration, Monthly Energy Review (March 2025),
+www.eia.gov/totalenergy/data/monthly/previous.php.
+21
+
+Energy Information Administration, Annual Energy Outlook 2023 (April 2023), Appendix: Case
+Descriptions, www.eia.gov/outlooks/aeo/narrative/#casedescriptons.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 13
+In EIA’s scenario, the production increase occurs quickly and then
+stabilizes, requiring only a small change in the number of wells drilled. As
+a result of the increase in technically recoverable oil and natural gas, in
+EIA’s HOGS scenario production of oil and other liquid fuels would
+increase by nearly 30 percent in some years and natural gas production by
+10 percent over the 2025–2035 period.
+In practice, market responses that lead to increased energy production tend
+to take place more slowly and involve more extensive drilling. Accounting
+for an increase in drilling, CBO estimates that the resulting increase in oil
+and natural gas production would raise GDP by about 0.3 percent each year
+through 2035, on average, or by about $120 billion annually. The combined
+GDP increase through 2035 would total about $1.3 trillion (see Table 1). In
+the first year of the projection period, the primary investment effect would
+account for the entire effect on GDP, and its share of the effect would
+decline over the next three years before holding roughly steady. In the fifth
+through tenth years of the scenario, the primary investment effect would
+account for half of the total increase in GDP. CBO estimates that the
+
+GDP increases would reduce the federal deficit by about $300 billion over
+the projection period. (The increases in GDP result from changes in energy
+production only and are evaluated under current law. The change in energy
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 14
+production does not interact with other effects of any potential policy
+proposal that could affect energy production in other ways.)
+In EIA’s analysis of the same case, EIA reports that GDP would increase in
+inflation-adjusted dollars by about $4.1 trillion through 2035 (equal to
+about $4.7 trillion in nominal, inflation-unadjusted dollars). That finding is
+similar to what EIA reported for the same case in its 2022 analysis and
+somewhat higher than what the agency reported in analyses conducted
+between 2014 and 2021. By contrast, in 2023, EIA estimated that the same
+case would increase GDP by $1.1 trillion after 10 years compared with
+about $360 billion in EIA’s 2025 analysis and $560 billion in its
+2022 analysis.
+Dynamic Effects of Scenario 2. CBO also assessed the dynamic effects of
+H.R. 5616 (a bill introduced by the 118th Congress), which would have
+required the Bureau of Ocean Energy Management to conduct at least
+13 offshore oil and natural gas lease sales on the U.S. Outer Continental
+Shelf over five years.22 CBO estimated that the bill would reduce direct
+spending by $4.2 billion over the 2024–2034 period relative to CBO’s
+February 2024 baseline.23 That budgetary effect stems primarily from an
+increase in oil and natural gas production from wells drilled on the newly
+leased tracts that averaged about 30 M bbl per year (or about 0.1 M bbl/d)
+for oil and 40 billion cubic feet per year for natural gas over the second half
+of the 10-year period, reflecting time necessary after leases are sold for
+energy supplies to be available in the market. Those amounts are each, on
+average, about 2 percent of the supply increases in the EIA scenario for
+comparable years. Applying CBO’s dynamic modeling—and accounting
+for the expectation that the increased production on the federal lands would
+be partially offset by a decrease in domestic production elsewhere—CBO
+estimates that H.R. 5616 would increase GDP by about $10 billion and
+would reduce the federal deficit by about $2 billion over the 10-year
+projection period, with most of those increases taking place in the latter half
+of the period (see Table 2).
+
+22
+
+BRIDGE Production Act of 2023, H.R. 5616, 118th Cong., www.congress.gov/bill/118thcongress/house-bill/5616.
+23
+
+Congressional Budget Office, cost estimate for H.R. 5616, BRIDGE Production Act of
+2023 (February 28, 2024), www.cbo.gov/publication/60017.
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 15
+
+We hope that this information is helpful to you.
+Sincerely,
+
+Phillip L. Swagel
+Director
+Congressional Budget Office
+
+Thomas Barthold
+Chief of Staff
+Joint Committee on Taxation
+
+Honorable August Pfluger and Honorable Bruce Westerman
+Page 16
+cc:
+
+Honorable Jodey C. Arrington
+Chairman
+House Budget Committee
+Honorable Brendan F. Boyle
+Ranking Member
+House Budget Committee
+Honorable Jared Huffman
+Ranking Member
+Natural Resources Committee
+
+
