@@ -143,7 +143,7 @@ Ranked by how much they could move FY2056 debt (`notes/dynamic-results.md`):
 
 ### 2.3 The contained dynamic layer
 
-**Pre-registered, then amended in the open.** The parameters, ranges and sources were written and committed before any debt path was run with them: [`notes/dynamic-preregistration.md`](notes/dynamic-preregistration.md) and `models/tools/fiscal_dynamic_params.json`, commit 87125a0. A test fails if the file changes. After an independent red-team (PR #483), three dated amendments, AM-1 to AM-3 (`fiscal_dynamic_amendments.json`), were applied on top:
+**Pre-registered, then amended in the open.** The parameters, ranges and sources were written and committed before any debt path was run with them: [`notes/dynamic-preregistration.md`](notes/dynamic-preregistration.md) and `models/bookings/fiscal_dynamic_params.json`, commit 87125a0. A test fails if the file changes. After an independent red-team (PR #483), three dated amendments, AM-1 to AM-3 (`fiscal_dynamic_amendments.json`), were applied on top:
 - N-TOP's low end now includes JCT's 2017 anchor;
 - N-CONTRIB's favorable end now sits at its own derivation's floor;
 - DY3 and DY5 are added.

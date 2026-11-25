@@ -9,9 +9,9 @@ each with its basis in 6-cost.md. The library line and legal aid are booked (row
 D4's two timing rows (CAP-7P, G8P); the court's structure and statute tracking stay unbooked, and IMM-1's rebooking is
 a later tier-3 change.
 
-    python3 models/tools/democratic_renewal_cost.py            # the tables
-    python3 models/tools/democratic_renewal_cost.py --json     # the same as JSON
-    python3 models/tools/democratic_renewal_cost.py --check    # the self-checks
+    python3 models/bookings/democratic_renewal_cost.py            # the tables
+    python3 models/bookings/democratic_renewal_cost.py --json     # the same as JSON
+    python3 models/bookings/democratic_renewal_cost.py --check    # the self-checks
 
 Conventions: nominal $ billion by federal fiscal year, a cost positive, on the general fund unless a line says
 otherwise. Ranges run each line's low and high inputs together: a bound, not a probability interval.

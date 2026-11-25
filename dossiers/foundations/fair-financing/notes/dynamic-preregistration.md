@@ -1,6 +1,6 @@
 # The fiscal path review's dynamic layer: pre-registration
 
-Role: the parameters, ranges and sources of stage G step 8a's contained dynamic layer, written and committed **before any debt path was run with them** (the guardrail in step 8a's brief). The values live in [`models/tools/fiscal_dynamic_params.json`](../../../../models/tools/fiscal_dynamic_params.json); this note says where each comes from and where it departs from CBO and JCT. Status: registered November 24, 2026, stage G step 8a. A change after the first run is a new registration: add a dated line under "Changes after registration" with the reason, and leave the old values in Git. Read with [`../4-fiscal-path.md`](../4-fiscal-path.md) part 2.
+Role: the parameters, ranges and sources of stage G step 8a's contained dynamic layer, written and committed **before any debt path was run with them** (the guardrail in step 8a's brief). The values live in [`models/bookings/fiscal_dynamic_params.json`](../../../../models/bookings/fiscal_dynamic_params.json); this note says where each comes from and where it departs from CBO and JCT. Status: registered November 24, 2026, stage G step 8a. A change after the first run is a new registration: add a dated line under "Changes after registration" with the reason, and leave the old values in Git. Read with [`../4-fiscal-path.md`](../4-fiscal-path.md) part 2.
 
 ## The rules this layer keeps
 
