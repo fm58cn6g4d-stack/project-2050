@@ -10,11 +10,12 @@ Stage H ends with a toolkit and a site that someone can find. Where should each 
 
 **A. Both in this repository; the site on GitHub Pages (recommended).**
 - The toolkit is the `models/` folders with the register, cards and a tagged release (for example `toolkit-v0.1`) that anyone can download. The site is built from `public/site/` by a GitHub Action and served at the repository's GitHub Pages address; a custom domain can be added later.
+- Packaging inside A: each release attaches a toolkit-only archive built by the Action, and a small `pyproject.toml` lets anyone install the models with one `pip install` from the tag (no package index, no second repository).
 - *For:* no new account or service; the repository stays the only source of truth; every published page traces to a commit. *Against:* GitHub Pages offers less control over headers and redirects than a dedicated host; the toolkit sits inside a large repository full of dossier work.
 
 **B. The toolkit in its own repository; the site on GitHub Pages.**
 - A second repository holds only the released models, copied from this one at each release.
-- *For:* a clean, small download that looks like a professional product. *Against:* two copies to keep in step; a copy can drift from the models the dossiers actually use.
+- *For:* a clean, small download that looks like a professional product. *Against:* two copies to keep in step; a copy can drift from the models the dossiers actually use. A's release archive gives the same clean download without the drift.
 
 **C. Both in this repository; the site on a static host such as Cloudflare Pages.**
 - The October blueprint's recommendation (`legacy/sources/public-product-blueprint.md`, "Hosting and release maintenance"): built by GitHub Actions, served with a CDN, deploy history and rollback.
