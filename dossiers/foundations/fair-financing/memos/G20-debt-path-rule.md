@@ -2,6 +2,8 @@
 
 Role: decision memo for Espen, stage G step 8c, the fiscal path review ([`../5-budget-process.md`](../5-budget-process.md) parts 1-4; `DEC-2026-11-24-14` to `-18`). Status: **decided November 25, 2026: B, with points 1 to 3 as recommended** (`DEC-2026-11-25-06`). Its path follows G15's redraft (memo [G23](G23-debt-path-redraft.md)); its certification line is corrected for *Bowsher v. Synar* (`../5-budget-process.md` part 3.8, step 9). Nothing booked. Figures for the plan are step 8a's and 8b's ([`../4-fiscal-path.md`](../4-fiscal-path.md); memos G15-G19, #484, in review). Project arithmetic on exploratory models, not official scores. Decided on its own, not as a package.
 
+**After G28 A** (`DEC-2026-11-25-32`, November 25, 2026): B's return order drops its health-contribution step. The order is: half the lead lowers the path, then defer a tax step not yet started, then suspend a step already in force. The health contribution moves only by the health fund's own rule (G27 A, `-31`).
+
 ## The question
 
 Memo G15 B would hold debt flat at about 117% of GDP from FY2040 and step it toward 100% "as results allow". Memo G19 B would enact later broad revenue in the first Congress, with steps that can be cancelled if they aren't needed. G16 B and G18 D′ would lower the health contribution only on a surplus beyond the debt goal's path. All four depend on one rule: what counts as "results", who decides, what happens when debt runs high, and what happens in a recession. What form should that rule take?

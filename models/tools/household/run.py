@@ -35,7 +35,7 @@ SOI_2023 = {"eitc_bn": 66.27, "ctc_odc_nonref_bn": 84.42, "actc_bn": 34.53}     
 
 
 MODEL_ID = "MOD-household"
-VERSION = "0.2.0"   # CHANGELOG.md; the rule is in models/schema/README.md, "Versions"
+VERSION = "0.3.0"   # CHANGELOG.md; the rule is in models/schema/README.md, "Versions"
 STATUS = "working"
 CODE = [os.path.join(HERE, f) for f in (
     "budget.py", "conventions.py", "d3.py", "data.py", "distribution.py", "families.py", "params.py", "poverty.py",

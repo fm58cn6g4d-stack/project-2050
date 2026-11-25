@@ -1,6 +1,6 @@
 # Stage G: the financing settlement
 
-Role: the financing package for the whole plan, the one place where the plan is balanced (`DEC-2026-11-10-05`; `charter/PLAN.md` section 6, stage G; `1-audit.md` part E). It takes health's share from the top-end and corporate rows first (`DEC-2026-11-15-20`), then gives way on other spending across the whole federal budget (`DEC-2026-11-15-04`, `DEC-2026-11-20-07`), and closes FY2040 and every later year on the general fund. Status: **booked, stage G step 7, November 24, 2026.** Every fork is decided (`DEC-2026-11-20-05` to `-14`, `DEC-2026-11-24-01` to `-09`) except **memo G8, the health contribution over time, which is provisional**; the booking holds one rate from 2035 as a labelled working assumption (part 4). The booked choices are in `models/data/inputs/settlement.json`; the figures are in [`notes/booking-results.md`](notes/booking-results.md). **The clean-energy credits' cost after FY2039 is corrected to the decided step-down** (memo [G25](memos/G25-cli1-after-the-fix.md); [`notes/cli1-tail-check.md`](notes/cli1-tail-check.md)): the booking note's figures carry it (FY2040 −$16.1B, the tightest year; FY2056 −$282.8B; debt 131.5% of GDP in FY2056; the lowest base rate that would close every year is now 3.75%, and G16 B holds 3.80%), while the figures in this text's parts are as booked in step 7, before it (FY2040 −$6.0B, FY2042 −$0.4B, FY2056 −$205.4B and 133.1%).
+Role: the financing package for the whole plan, the one place where the plan is balanced (`DEC-2026-11-10-05`; `charter/PLAN.md` section 6, stage G; `1-audit.md` part E). It takes health's share from the top-end and corporate rows first (`DEC-2026-11-15-20`), then gives way on other spending across the whole federal budget (`DEC-2026-11-15-04`, `DEC-2026-11-20-07`), and closes FY2040 and every later year on the general fund. Status: **booked, stage G step 7, November 24, 2026.** Every fork is decided (`DEC-2026-11-20-05` to `-14`, `DEC-2026-11-24-01` to `-09`) except **memo G8, the health contribution over time, which is provisional**; the booking holds one rate from 2035 as a labelled working assumption (part 4). The booked choices are in `models/data/inputs/settlement.json`; the figures are in [`notes/booking-results.md`](notes/booking-results.md). **The clean-energy credits' cost after FY2039 is corrected to the decided step-down** (memo [G25](memos/G25-cli1-after-the-fix.md); [`notes/cli1-tail-check.md`](notes/cli1-tail-check.md)): the booking note's figures carry it (FY2040 −$16.1B, the tightest year; FY2056 −$282.8B; debt 131.5% of GDP in FY2056; the lowest base rate that would close every year is now 3.75%, and G16 B holds 3.80%), while the figures in this text's parts are as booked in step 7, before it (FY2040 −$6.0B, FY2042 −$0.4B, FY2056 −$205.4B and 133.1%). **Stage G step 11 booked the health fund as its own account, G26-G28 and I1 A** (part 8, which restates the general fund, the debt path and take-home: every year FY2040-56 closes, FY2030-39 is +$718.5B on the general fund with health's early surplus held in the fund, and debt is 129.3% of GDP in FY2056). Memo G8 is answered by G27 A, the fund's own rule.
 
 **Naming:** "step 7" is stage G's booking step. "G1" to "G14" are the memos in [`memos/`](memos/README.md). The ledger's revenue rows with the same names are called "row G6" and so on; a bare "G6" is a memo.
 
@@ -280,6 +280,50 @@ These add one published page per release and one table a year to reports that al
 
 - **Crop insurance:** premium subsidies cut toward 40% for the costliest policies; the insurers' expense reimbursement and guaranteed return capped, through the Risk Management Agency's Standard Reinsurance Agreement. Framed as a check on insurers' margins and the largest operations (part 2).
 - **Like-kind exchanges** end beyond the booked $500K-a-year cap (REV-TS9). Both need a score against the post-2025-law baseline (JCT for the tax item) before drafting.
+
+## Part 8. The health fund booked, and I1 (stage G step 11)
+
+`DEC-2026-11-25-30` to `-32` (G26 A, G27 A with its three points, G28 A), under `DEC-2026-11-25-12` (the health contribution is a trust-fund levy) and `-28` (each important effect booked in its appropriate place); I1 A (`-27`). Figures: [`notes/booking-results.md`](notes/booking-results.md) and [`notes/health-trust-fund-results.md`](notes/health-trust-fund-results.md), both regenerated on the booking. They supersede parts 2-3's general-fund rows and debt path, which are step 7's.
+
+**What is booked:**
+- **The health fund is its own account** in the budget model (`settlement.json`'s `health_fund`; `recovery-budget/model.py`'s `health_fund()`). Its sources are the contribution, the fold-in rows, the employer contribution, HX, the five health streams and the states' long-term care payment. **The wealth tax (HS2, net of the stack cap) is paid to the fund by statute.** Its spending is HLT-1, -2, -4 and -6 to -11. The general fund shows only its transfer to the fund. HI keeps its $425B in its own account until the 2035 fold-in.
+- **The 3.80% is re-founded** as the contribution's share of the fund's cost: 29.1% of its new spending in FY2040 (G26 A).
+- **FY2030-34's surplus stays in the fund** (G27 A point 2). Of the $391B, $250B is the standing reserve, replacing the rest of G6 C. The other $141B lowers the FY2035 transfer to $154B. Debt held by the public doesn't move.
+- **From FY2040 the contribution pays that fixed share of the fund's cost**, and the general fund's share is set in the health law as the rest (G27 A points 1 and 3). The rate steps a quarter point at most once a year when the reserve leaves the 15-25% band. It never goes below 3.25%, and it has no yearly reset. G13's backstop is the upward side. G16 B's second leg and G18 D′ are replaced.
+- **Working assumption, pending Espen (G27.1a):** the decision doesn't say whose spending the band is measured on, or which projected year the trustees test. The booking reads it on the contribution's own share of the fund's cost, tested one year ahead. That is the one reading that gives 3.80% in FY2040 and about 4.1% later, and it is the lead's direction until Espen answers.
+- **The rate as booked:** 3.80% to FY2042, then 4.05%, with 4.30% in FY2046-47 and FY2052-55, and 4.05% in FY2056.
+
+| The band read on | Highest R | R in FY2056 | Reserve in FY2056 |
+| --- | --- | --- | --- |
+| **The contribution's share of the fund's cost (booked)** | **4.30%** | **4.05%** | **$511B** |
+| The fund's new spending | 4.80% | 4.05% | $1,368B |
+| The fund's whole spending, the baseline's included | 5.30% | 4.30% | $3,836B |
+
+- **G28 A:** the contribution reaches the debt plan only as a smaller general-fund share of health's cost, set by law under the ceiling the trustees certify each year (6.20% in FY2040, 7.35% in FY2056). G20 B's return order drops its health-contribution step (`5-budget-process.md`).
+- **I1 A:** IMM-1's status line is on CBO's on-budget figure for H.R. 6. It is +$10.2B over FY2030-39 and +$2.1B in FY2040 on the general fund (IMM-1 from $0.169T to $0.179T). Social Security's gain, about $22.2B over FY2030-39, is booked in Social Security's funds as IMM-1-SS (`dossiers/immigration/6-cost.md` part 6).
+
+### The general fund, restated
+
+| $B | FY2030 | FY2033 | FY2035 | FY2036 | FY2039 | **FY2040** | FY2042 | FY2045 | FY2050 | FY2056 | FY2030-39 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Before the settlement | −160 | 133 | 555 | 841 | 814 | **607** | 601 | 606 | 746 | 1,083 | 4,006 |
+| Step 7, with #493 (before this step) | −221 | −42 | 47 | 277 | 193 | **−16** | −41 | −98 | −224 | −283 | 459 |
+| **Booked now** | **−104** | **−6** | **−93** | **278** | **194** | **−14** | **−68** | **−163** | **−322** | **−438** | **719** |
+
+- **Every year FY2040-56 still closes.** The tightest is FY2040, at −$14.1B.
+- **The decade is $260B worse on the general fund.** $391B of health's early surplus now stays in the fund, and the FY2035 draw gives back $141B. The rest of the move is IMM-1's $10B. FY2036-39 run about $194-278B short a year, as before.
+- **From FY2043 the general fund is further ahead,** because the fund's rule raises the contribution as health outgrows its base.
+
+### Debt and take-home
+
+| Debt, % of GDP | FY2039 | FY2040 | FY2045 | FY2050 | FY2056 |
+| --- | --- | --- | --- | --- | --- |
+| Step 7, with #493 | 116.9 | 117.8 | 121.7 | 125.6 | 131.5 |
+| **Booked now** | **117.0** | **117.8** | **121.4** | **124.5** | **129.3** |
+
+- **Take-home** (FY2040 incomes, no VAT): 69.0% of workers ahead at 3.80% in FY2040, unchanged. At the rule's later rates, as an indication only, it is 65.4% at 4.05% and 62.6% at 4.30%. Below 200% of poverty it is 98.4-99.5%.
+- **D3** (FY2030-39) and the revenue-mix test (65%) don't move. The rule changes the rate only from FY2043.
+- **Social Security:** IMM-1-SS adds about $22B to the funds over FY2030-39. The budget model's CBO-convention reading is unchanged at 2093 depletion.
 
 ## Method and sources
 
