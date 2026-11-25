@@ -244,8 +244,8 @@ Inventory: [`notes/program-inventory.md`](notes/program-inventory.md) (`models/t
 | --- | --- | --- | --- |
 | PH-1 | Long-term care reaches full benefit in FY2039 instead of on its own ramp (40/55/70/85% of its FY2035-38 path) | 262 | Older and disabled people who need care. In FY2035 about 60% of the benefit's cost is deferred, about 45% in FY2036, falling to 15% in FY2038. It delays the care outcomes in health's and care's dossiers (OUT-03, OUT-08), and families keep paying privately or spend down to Medicaid for one to four years longer |
 | PH-2 | Housing's stage 2 held at its FY2036 level until FY2040, net of its booked cap (S11) | 10 | Because G14 C's cap already slows stage 2, this saves little. Up to about 200,000 families wait one to three years for an award (on the cap's own count of about 810,000 families leased in FY2040). Delays the housing outcome (OUT-04) |
-| PH-3 | Clean-energy credits held at their FY2037 level in FY2038-39 | 52 | Slower deployment in two years. The climate outcome (OUT-05) slips slightly |
-| — | All three | 323 | |
+| PH-3 | Clean-energy credits held at their FY2037 level in FY2038-39 | 47 | Slower deployment in two years. The climate outcome (OUT-05) slips slightly |
+| — | All three | 319 | |
 
 **What the candidates buy:**
 - On goal 1 ("falling from the mid-2030s"), all three cut the share needed from 1.54% to 1.35% of GDP.
@@ -320,7 +320,7 @@ These are labeled, with a range, and never in a goal test.
 Memos G15 to G19 are in [`memos/`](memos/README.md). Espen decided each on its own on November 25 (`DEC-2026-11-25-01` to `-05`); none is booked. G15 B is to be made "a little more aggressive on debt", and G19 B is to be re-checked with a VAT allowed after the first years; both come back in batch 4 (memos G23 and G24). The set as recommended and chosen, shown on the frontier:
 - **G15 B: hold debt flat from FY2040** at about 117% of GDP, met on the conventional score. Then step toward 100% by a debt-path rule as results allow (the rule is 8c's).
 - **G16 B: hold R at 3.80% to FY2040,** then lower it by trigger toward 3.25% (76.2% take-home) as certified savings appear.
-- **G17 B: hold the clean-energy credits at their FY2037 level in FY2038-39 (PH-3, about $52B)**, with long-term care's phasing (PH-1, $262B) named as the fallback. Housing's stage 2 (PH-2) saves only $10B on top of G14 C's cap, so it is left alone.
+- **G17 B: hold the clean-energy credits at their FY2037 level in FY2038-39 (PH-3, about $47B; step 8b's first count of $52B also picked up four other climate lines, corrected in step 9)**, with long-term care's phasing (PH-1, $262B) named as the fallback. Housing's stage 2 (PH-2) saves only $10B on top of G14 C's cap, so it is left alone.
 - **G18 D′:** G8's step-down measured against the debt goal.
 - **G19 B: from FY2037, limits on itemized deductions and a larger carbon fee first,** an AGI surtax from FY2040 if needed, and R last.
 
