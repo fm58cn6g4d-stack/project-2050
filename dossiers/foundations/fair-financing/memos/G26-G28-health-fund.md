@@ -11,6 +11,18 @@ Role: decision memos for Espen, stage G step 10 ([`../8-health-trust-fund.md`](.
   - What the rule needs is a rate set against health's costs, and a ceiling.
 - **Health grows faster than the economy, so someone pays the difference.** D2 lets health grow a point faster than GDP, and long-term care grows faster still. The contribution's base grows about with GDP. Either the rate drifts up after 2040, or the general fund pays more each year. These memos ask which.
 
+## On top of batch 4 as decided
+
+Espen answered batch 4 before these memos were written (#503):
+- **G23 B:** debt falling to 110% of GDP by FY2056.
+- **G24 B:** G19 B's deduction limits and surtax, plus a VAT of about 4.9% from FY2035, with points 1 and 2. Point 1, the rebate, now applies only below an income threshold: "the overall goal should still be fiscal solvency".
+- **G25.1 and G25.2:** yes.
+
+The memos below read on top of that path:
+- The health contribution holds at 3.80% and carries none of the debt goal.
+- Anything that lowers the contribution's share of health's cost (G26 B), or raises it (G26 C, G27 A and B), changes how much the VAT has to raise.
+- The VAT's rate is re-priced once these are answered. G24's VAT netted about $48B a point with the rebate for every adult; with the rebate narrowed, each point nets more.
+
 ## G26. What the 3.80% stands for
 
 The booked rate is 3.25% to fold in the 2 points (G2 C) plus 0.55 points ($123B in FY2040) that closed the whole budget. Under your rule the 0.55 points need a health reason: they are the share of health's cost the contribution pays.
@@ -21,7 +33,7 @@ The booked rate is 3.25% to fold in the 2 points (G2 C) plus 0.55 points ($123B 
 | B | 3.25%, the fold alone | The general fund pays $123B more into health in FY2040 | +$123B a year (more later) | 76.2% |
 | C | Higher, for example 4.52%: the contribution takes a larger share of health's cost now, so the general fund pays less | Allowed: the fund still needs a transfer, and the rise only replaces part of it. It is G23 A's no-VAT fallback, taken now | −$161B | 56.8% |
 
-**Recommendation: A.** It keeps the settlement's numbers and gives the rate a health basis. B is better for take-home, but the $123B a year needs another source, which the debt goal (G23) already struggles to find. C buys debt reduction now at a take-home cost of 12 points. G28 keeps it available later, as a fallback.
+**Recommendation: A.** It keeps the settlement's numbers and gives the rate a health basis. B is better for take-home, but its $123B a year would fall on the VAT you chose in G24 B. That is about 2.5 more points at G24's $48B a point, and somewhat less with the rebate narrowed. C buys debt reduction now at a take-home cost of 12 points. G28 keeps it available later, as a fallback.
 
 **G26.** Re-found the 3.80% rate as the share of the health fund's cost the contribution pays (A, recommended)? Or 3.25% with the general fund paying more (B), or a higher share now (C)?
 
@@ -77,13 +89,15 @@ Two paths that aren't recommended cross the ceiling on this account, so they don
 
 **Recommendation: A.** It is what your rule says: the contribution may pay down debt by taking over part of health's general-fund bill, never by paying for anything else. The ceiling and the share in law keep that true. B is stricter than your rule and costs a larger surtax if no VAT passes.
 
+With G24 B decided, the debt plan uses the VAT, not the contribution. So G28 matters only as the fallback if the VAT isn't enacted in 2033-34. Under A, the fallback is G23 A's route on goal B: the contribution at about 5.0% (G24 A's 5.03%), below the ceiling. Under B, it is an AGI surtax of about 5 points.
+
 **G28.** Keep the health contribution available to the debt plan only as a smaller general-fund share of health's cost, by law and under a certified ceiling (A, recommended)? Or take it off the debt plan's menu entirely (B)?
 
-## Batch 4 items this changes (for Espen's page)
+## Batch 4 as decided: what this changes (for Espen's page)
 
 | Item | Change |
 | --- | --- |
-| **G23** | Unchanged, including A's no-VAT fallback at 4.52%, which passes. Note that the contribution-only plugs for C and D (6.31%, 7.43%) cross the ceiling. Under G27 A, the money each goal needs falls by about $100-160B a year in the 2050s, to be re-run |
-| **G24** | Unchanged: A, B, B′, C and D all pass. The VAT's rate is to be re-run after G27 |
-| **G25.1, G25.2** | Unchanged |
+| **G23 B (decided)** | Unaffected: R carries none of it. Under G27 A, the money it needs falls by about $100-160B a year in the 2050s, to be re-run. The contribution-only plugs for C and D (not chosen) would have crossed the ceiling |
+| **G24 B (decided)** | Unaffected: R holds at 3.80%. The VAT's rate is to be re-priced after G26-G27, with the narrowed rebate (G24.1). G24 A, the unchosen contribution route, stays the no-VAT fallback under G28 A |
+| **G25.1, G25.2 (decided)** | Unaffected |
 | Decided memos the rule touches (for the lead's `DEC-` record) | **Breaks:** G6 C's remainder. **Re-based on the fund if G27 A is chosen:** G16 B's second leg, G18 D′, and G20 B point 2's step-down. **Stand:** G13 (sized on the fund) and G19 B's "R last" (under G28's ceiling) |

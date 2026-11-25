@@ -30,7 +30,7 @@ Each item below is judged on those three tests.
    - If it fixes the general fund's share, the rate reaches **4.7%**.
    - Holding 3.80% means the general fund pays all of the drift.
    - No formula avoids this choice (G27).
-8. **In short, only one thing breaks: the rest of G6 C.**
+8. **In short, only the rest of G6 C breaks among the decided rules.** Two options nobody recommended also break: G23 C's and D's contribution-only plugs, which cross the ceiling (point 5).
    - Restate: the settlement's basis for 3.80% and its "rate each year would need" line.
    - Re-base on the fund: G16 B's second leg, G18 D′, G20 B's order.
    - Add: a ceiling.
@@ -136,7 +136,7 @@ Built from the booked case's own lines (`health_trust_fund.py`, part 1 of the no
 - **The general fund and the rule's test:** FY2040-56 still close under every version, with the fund's transfer counted as a general-fund outlay. Under C the numbers are the booking's. Under A the general fund is ahead by $101B in FY2050 and $158B in FY2056 against the booking; under B by $205B and $422B.
 - **The debt path (G15/G23):**
   - On the booked plan with no goal, FY2056 debt is 133.1% under C, 131.2% under A and 128.9% under B.
-  - The debt goals' money needed falls by those gains from the mid-2040s. G24 B's VAT, set at one rate from FY2035, would need re-running in `fiscal_revision.py` once Espen chooses. It isn't re-run here.
+  - Espen has since decided G23 B (debt falling to 110% by FY2056) and G24 B (deduction limits, the surtax and a rebated VAT from FY2035, R held at 3.80%), in #503. On that path R carries none of the debt goal, so the rule changes nothing in it directly. G26-G28 read on top of it. Under G27 A, the money G23 B needs falls by those gains from the mid-2040s. G24 B's VAT, set at one rate from FY2035, would need re-running in `fiscal_revision.py` once Espen chooses. It isn't re-run here.
 - **Take-home** (69.0% of workers ahead at 3.80%, target 85-90%):
   - unchanged in FY2040 under every version;
   - later, read at FY2040's incomes as an indication only, about 64% at A's 4.1-4.2% and about 57-58% at B's 4.7-4.8%;
