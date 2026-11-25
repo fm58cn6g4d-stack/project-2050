@@ -17,6 +17,8 @@ One thing is unchecked: whether the energy model counts the gap between starting
 
 The ten-year window (FY2030-39) isn't touched.
 
+**What it means for the health contribution.** With the correction booked, a base rate of 3.75% would close every year FY2040-56, not just 3.80%. G16 B (decided) holds 3.80% to FY2040, so the booking keeps 3.80% and the room, about $10B in FY2040 and $80B a year from FY2047, lowers debt instead. Under G18 D′ it can come back as a step-down only once the trustees certify a surplus beyond the debt path.
+
 ## The points
 
 **G25.1. Book the corrected tail. Recommended: yes.**
