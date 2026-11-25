@@ -1,0 +1,2142 @@
+{
+ "title": "A day in 2050",
+ "source_commit": "d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525",
+ "frame": "town",
+ "money_position": "last",
+ "optional_scenes": {
+  "transportation": true
+ },
+ "scenes": [
+  "floor",
+  "childcare",
+  "clinic",
+  "longterm",
+  "work",
+  "home",
+  "power",
+  "immigration",
+  "democracy",
+  "transit",
+  "money"
+ ],
+ "claims": {
+  "afa-amounts": {
+   "basis": "decision",
+   "figures": [
+    "$300",
+    "6",
+    "17",
+    "$360",
+    "2025"
+   ],
+   "statement": "Child benefit: $300 a month per child aged 6 to 17, $360 under 6, in 2025 dollars, indexed to prices",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "$300 a month at ages 6 to 17 and $360 under 6 (120%), with $2,400 in a newborn's first month (800%), in 2025 dollars, indexed to prices from 2024",
+     "line": 34,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L34"
+    }
+   ]
+  },
+  "afa-phaseout": {
+   "basis": "decision",
+   "figures": [
+    "$150,000",
+    "$112,500"
+   ],
+   "statement": "Full benefit for couples below about $150,000 ($112,500 single parents), phasing out gradually above",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "The extra amount falls by 5% of modified AGI above $150,000 for joint returns and $112,500 for others",
+     "line": 35,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L35"
+    }
+   ]
+  },
+  "afa-top": {
+   "basis": "estimate",
+   "figures": [
+    "$210,000"
+   ],
+   "statement": "Couples above about $210,000 get somewhat less than today's credit",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "about 8.8 million children in about 5.4 million families, all above about $210,000 (couples) or $165,000 (others) in 2030, get less than the 2029 law's $2,200 indexed credit would pay them",
+     "line": 35,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L35"
+    }
+   ]
+  },
+  "asylum": {
+   "basis": "decision",
+   "figures": [
+    "180",
+    "90"
+   ],
+   "statement": "Asylum officers decide within 180 days of filing (IMM-3.01); a 90-day track in a surge (IMM-3.02)",
+   "recheck": "",
+   "scenes": [
+    "immigration"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "A decision within 180 days of filing.",
+     "line": 121,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L121"
+    },
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "decide claims there in a 90-day track on the EU's model",
+     "line": 122,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L122"
+    }
+   ]
+  },
+  "awards": {
+   "basis": "decision",
+   "figures": [
+    "2030",
+    "250,000",
+    "2033"
+   ],
+   "statement": "A million new rent awards 2030-33, 250,000 a year, mandatory spending, first to people with no home of their own",
+   "recheck": "",
+   "scenes": [
+    "home"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/home/4-specification.md",
+     "anchor": "250,000 new awards each year from 2030 to 2033, with continuing help for each household after that, as mandatory spending",
+     "line": 317,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/4-specification.md#L317"
+    },
+    {
+     "path": "dossiers/home/4-specification.md",
+     "anchor": "Stage 1, 2030-33 (HOU-4A.01).** People without a home, families with children first among them.",
+     "line": 153,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/4-specification.md#L153"
+    }
+   ]
+  },
+  "backstop": {
+   "basis": "decision",
+   "figures": [],
+   "statement": "Contingent backstop: if D2 misses or the wealth tax is struck, the health contribution base rate rises in quarter-point steps",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "If D2 misses.** If spending runs more than 0.25% of GDP above the path for two years running, the health contribution's base rate rises by 0.25 points the next January",
+     "line": 242,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L242"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "On a final ruling against HS2, three steps apply in order",
+     "line": 243,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L243"
+    }
+   ]
+  },
+  "bill-credit": {
+   "basis": "decision",
+   "figures": [
+    "2030-31"
+   ],
+   "statement": "Bill credit for SNAP/SSI/LIHEAP households from winter 2030-31",
+   "recheck": "",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/5-delivery.md",
+     "anchor": "| Winter 2030-31 | The first automatic bill credits, matched from FY2030 rolls",
+     "line": 73,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/5-delivery.md#L73"
+    },
+    {
+     "path": "dossiers/clean-power/4-specification.md",
+     "anchor": "A household enrolled in SNAP, SSI, LIHEAP or the Food Distribution Program on Indian Reservations",
+     "line": 102,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/4-specification.md#L102"
+    }
+   ]
+  },
+  "bills": {
+   "basis": "estimate",
+   "figures": [
+    "2040"
+   ],
+   "statement": "Average retail electricity price about a tenth higher than current law by 2040; the bottom two-fifths come out ahead on average nationally on the carbon channel (2035)",
+   "recheck": "",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/7-validation.md",
+     "anchor": "against 14.3 and 14.7 under current law, about a tenth higher by 2040",
+     "line": 26,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/7-validation.md#L26"
+    },
+    {
+     "path": "dossiers/clean-power/7-validation.md",
+     "anchor": "The bottom two-fifths come out ahead on average, nationally",
+     "line": 58,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/7-validation.md#L58"
+    }
+   ]
+  },
+  "carbon-price": {
+   "basis": "decision",
+   "figures": [
+    "2030",
+    "$25",
+    "$150",
+    "2037"
+   ],
+   "statement": "Carbon price on power plants and large emitters from 2030 at $25 a ton, reaching $150 by 2037; dividend paid before price begins",
+   "recheck": "",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/4-specification.md",
+     "anchor": "$25 a ton of CO2 in 2030; D7's equal steps to about $46 in 2032; equal steps to $150 in 2037",
+     "line": 40,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/4-specification.md#L40"
+    },
+    {
+     "path": "dossiers/clean-power/4-specification.md",
+     "anchor": "The price and the dividend ride the same act, so the first dividend can go out before the price reaches bills (CLI-2A.03)",
+     "line": 30,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/4-specification.md#L30"
+    }
+   ]
+  },
+  "card-check": {
+   "basis": "decision",
+   "figures": [
+    "20",
+    "10"
+   ],
+   "statement": "Card check certification; election within 20 days if the union asks; bargaining within 10 days",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "when a union shows the Board valid authorization cards signed by a majority of the employees in an appropriate unit, the Board certifies it as the bargaining representative without an election",
+     "line": 87,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L87"
+    },
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "the Board holds it within 20 days of the petition unless the union agrees to a later date",
+     "line": 88,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L88"
+    },
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "bargaining begins within 10 days of a written request",
+     "line": 91,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L91"
+    }
+   ]
+  },
+  "care-cost": {
+   "basis": "estimate",
+   "figures": [
+    "$750 billion",
+    "2040",
+    "1.4%"
+   ],
+   "statement": "Care parts B-D federal cost about $750 billion in FY2040 as booked, 1.4% of GDP (project estimate; $729 billion for the decided pieces before corrections)",
+   "recheck": "",
+   "scenes": [
+    "childcare",
+    "longterm"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/6bcd-cost.md",
+     "anchor": "| Parts B-D, federal cost (the rows above) | **$750.0 billion** (1.4% of GDP) |",
+     "line": 161,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/6bcd-cost.md#L161"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "About $3.54 trillion over FY2030-39 and $729 billion in FY2040 (decided pieces)",
+     "line": 183,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L183"
+    }
+   ]
+  },
+  "care-wage": {
+   "basis": "decision",
+   "figures": [
+    "$20",
+    "2026",
+    "2030",
+    "2030-31"
+   ],
+   "statement": "$20/hour floor in 2026 dollars, rising with wages: home care and nursing home workers paid with public money from January 2030; child care and pre-K staff from the 2030-31 school year",
+   "recheck": "",
+   "scenes": [
+    "childcare",
+    "longterm"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "Every worker giving home care or nursing home care paid by Medicaid (from January 1, 2030) or by the plan (from January 1, 2035) is paid at least $20 an hour in 2026 dollars",
+     "line": 93,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L93"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "From the 2030-31 school year every child care and pre-K staff member paid from FAM-2 is paid at least HLT-10.01's floor.",
+     "line": 105,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L105"
+    }
+   ]
+  },
+  "cc-cap": {
+   "basis": "decision",
+   "figures": [
+    "7%"
+   ],
+   "statement": "No family pays more than 7% of income for child care, with no income limit",
+   "recheck": "",
+   "scenes": [
+    "childcare"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "Above that, the family's payment rises on a published sliding scale to at most 7% of income, reached at 150% of state median income",
+     "line": 71,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L71"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "No upper income limit.",
+     "line": 71,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L71"
+    }
+   ]
+  },
+  "cc-dates": {
+   "basis": "decision",
+   "figures": [
+    "85%",
+    "2030-31",
+    "4",
+    "7%",
+    "2032",
+    "3",
+    "2033-34"
+   ],
+   "statement": "Free care at/below 85% SMI and free pre-K for 4s from the 2030-31 school year; 7% cap from July 2032; pre-K for 3s by 2033-34",
+   "recheck": "",
+   "scenes": [
+    "childcare"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "Free at or below 85% of state (or territory) median income.",
+     "line": 71,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L71"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "In force in two steps: the free tier from the 2030-31 school year, the 7% cap from July 1, 2032 (FAM-2.03)",
+     "line": 71,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L71"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "4-year-olds from 2030-31 and 3-year-olds where states are ready; all 3-year-olds by 2033-34",
+     "line": 72,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L72"
+    }
+   ]
+  },
+  "cc-free": {
+   "basis": "decision",
+   "figures": [
+    "85%"
+   ],
+   "statement": "Child care free for families at or below 85% of state median income",
+   "recheck": "",
+   "scenes": [
+    "childcare"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "Free at or below 85% of state (or territory) median income.",
+     "line": 71,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L71"
+    }
+   ]
+  },
+  "cc-half": {
+   "basis": "estimate",
+   "figures": [],
+   "statement": "About half of families with young children are at or below 85% of state median income (project estimate)",
+   "recheck": "",
+   "scenes": [
+    "childcare"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/7bcd-validation.md",
+     "anchor": "free for families at or below 85% of state median income, about half of families with young children (memo 12's judgment)",
+     "line": 47,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/7bcd-validation.md#L47"
+    }
+   ]
+  },
+  "cc-parity": {
+   "basis": "decision",
+   "figures": [
+    "2036-37"
+   ],
+   "statement": "Early educators reach pay parity with elementary teachers by the 2036-37 school year",
+   "recheck": "",
+   "scenes": [
+    "childcare"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/5bcd-delivery.md",
+     "anchor": "2036-37 school year | Early educators at parity with elementary teachers",
+     "line": 66,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/5bcd-delivery.md#L66"
+    }
+   ]
+  },
+  "ces": {
+   "basis": "decision",
+   "figures": [
+    "80%",
+    "2035",
+    "100%",
+    "2040"
+   ],
+   "statement": "Clean electricity standard 80% by 2035, 100% by 2040",
+   "recheck": "",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/4-specification.md",
+     "anchor": "**The clean electricity standard: 80% by 2035, 100% by 2040**",
+     "line": 71,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/4-specification.md#L71"
+    }
+   ]
+  },
+  "ces-model": {
+   "basis": "model",
+   "figures": [
+    "73%",
+    "2035",
+    "87%",
+    "2040"
+   ],
+   "statement": "The energy model reaches 73% clean power in 2035 and 87% in 2040; grid access, not price, is the limit; suppliers short of credits pay the capped payment (CLI-3A.02)",
+   "recheck": "",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/7-validation.md",
+     "anchor": "The energy model (MOD-energy) reaches 73% in 2035, 87% in 2040 and 92% in 2045, because grid access, not price, is the limit",
+     "line": 13,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/7-validation.md#L13"
+    }
+   ]
+  },
+  "child-poverty": {
+   "basis": "estimate",
+   "figures": [
+    "9%",
+    "8",
+    "12%",
+    "13.5-14.5%",
+    "2029"
+   ],
+   "statement": "On our estimates child poverty falls to about 9% (8-12%), about a third lower",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/6-cost.md",
+     "anchor": "child SPM poverty under the decided design on the 2029 baseline is **about 9% (range 8-12%)**, against a 2029 baseline of about 13.5-14.5%",
+     "line": 102,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/6-cost.md#L102"
+    }
+   ]
+  },
+  "closes": {
+   "basis": "estimate",
+   "figures": [
+    "2040",
+    "2056"
+   ],
+   "statement": "Every year FY2040 to FY2056 closes on the general fund (taxes, cuts and the states' payment together; margin $0.4-6B a year in FY2040-44)",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "**Every year from FY2040 to FY2056 closes.**",
+     "line": 27,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L27"
+    }
+   ]
+  },
+  "copay-cap": {
+   "basis": "decision",
+   "figures": [
+    "$1,000"
+   ],
+   "statement": "Copays above twice the poverty line capped at about $1,000 a year (working figure)",
+   "recheck": "",
+   "scenes": [
+    "clinic"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/7bcd-validation.md",
+     "anchor": "the plan's copays only above 200% of poverty, capped at $1,000 a year (HLT-7.06)",
+     "line": 67,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/7bcd-validation.md#L67"
+    }
+   ]
+  },
+  "cuts": {
+   "basis": "decision",
+   "figures": [
+    "2036",
+    "$300"
+   ],
+   "statement": "Settlement: defense flat in real terms and restructured; crop insurance reform; like-kind exchanges ended",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "**defense held flat in real terms after FY2036 and restructured about 5%** (G10)",
+     "line": 24,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L24"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "**crop insurance reformed** (G11.2), **like-kind exchanges ended** (G12.2)",
+     "line": 25,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L25"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "the $300 adult credit ends, and the states pay their full current share of long-term care, as they do for health (G1);",
+     "line": 21,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L21"
+    }
+   ]
+  },
+  "d3": {
+   "basis": "estimate",
+   "figures": [
+    "2030-39"
+   ],
+   "statement": "D3: every fifth below the top comes out ahead; Q3 +$11,281 a household a year, FY2030-39 average",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "clinic",
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "$ a household a year, FY2030-39 average, measured keys, scenario Q-G",
+     "line": 143,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L143"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "On D3 every fifth below the top comes out ahead:**",
+     "line": 31,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L31"
+    }
+   ]
+  },
+  "debt-limit": {
+   "basis": "decision",
+   "figures": [
+    "2029"
+   ],
+   "statement": "Repeal the debt limit in 2029 (recommended as G21 A in 5-budget-process; decided by Espen, DEC-2026-11-25-07)",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/5-budget-process.md",
+     "anchor": "The recommendation (G21 A) is to repeal it in 2029, by regular order under the Senate's decided graduated-cloture rule",
+     "line": 16,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/5-budget-process.md#L16"
+    }
+   ]
+  },
+  "dem-cost": {
+   "basis": "estimate",
+   "figures": [
+    "2030-39",
+    "$51.6 billion",
+    "2040"
+   ],
+   "statement": "Budget model carries $503.2B over 2030-39 and $51.6B in 2040; about 75% is the agency rebuild.",
+   "recheck": "",
+   "scenes": [
+    "democracy"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/democratic-renewal/7-validation.md",
+     "anchor": "$503.2 billion over FY2030-39 and $51.6 billion in FY2040",
+     "line": 19,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/7-validation.md#L19"
+    },
+    {
+     "path": "dossiers/foundations/democratic-renewal/6-cost.md",
+     "anchor": "about 72-75% of the decade's money ($377.2 billion of the twelve rows' $503.2 billion over FY2030-39 is CAP-7S and CAP-7",
+     "line": 214,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/6-cost.md#L214"
+    }
+   ]
+  },
+  "dem-start": {
+   "basis": "decision",
+   "figures": [
+    "180",
+    "November 5, 2030",
+    "May 9, 2030"
+   ],
+   "statement": "Voting floor from the first federal general election at least 180 days after enactment: November 5, 2030 if law by May 9, 2030",
+   "recheck": "",
+   "scenes": [
+    "democracy"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/democratic-renewal/5-delivery.md",
+     "anchor": "**November 5, 2030** | First federal general election under the whole floor (D3, confirmed), if the act is law by about May 9, 2030, 180 days before",
+     "line": 226,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/5-delivery.md#L226"
+    },
+    {
+     "path": "dossiers/foundations/democratic-renewal/5-delivery.md",
+     "anchor": "every rule of the floor applies from the first regularly scheduled federal general election held at least 180 days after enactment",
+     "line": 238,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/5-delivery.md#L238"
+    }
+   ]
+  },
+  "dem-votes": {
+   "basis": "design",
+   "figures": [
+    "60"
+   ],
+   "statement": "Most bills need 60 Senate votes or a rules change",
+   "recheck": "",
+   "scenes": [
+    "democracy"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+     "anchor": "Regular order: 60 votes, or the Senate rules reform the plan assumes (legacy D2)",
+     "line": 23,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/4-specification.md#L23"
+    },
+    {
+     "path": "dossiers/foundations/democratic-renewal/7-validation.md",
+     "anchor": "the ethics, courts and civil service bills need 60 votes",
+     "line": 281,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/7-validation.md#L281"
+    }
+   ]
+  },
+  "detention": {
+   "basis": "decision",
+   "figures": [
+    "30,000"
+   ],
+   "statement": "No more than 30,000 detained on average",
+   "recheck": "",
+   "scenes": [
+    "immigration"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "Average daily detention over a fiscal year may not exceed 30,000",
+     "line": 146,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L146"
+    }
+   ]
+  },
+  "dividend": {
+   "basis": "estimate",
+   "figures": [
+    "$405",
+    "2035"
+   ],
+   "statement": "Climate Dividend about $405 an adult in 2035 (CLI-2A.01; on the energy model)",
+   "recheck": "",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/4-specification.md",
+     "anchor": "on the energy model (MOD-energy) about $120 an adult in 2030, $405 in 2035 and $486 in 2040",
+     "line": 44,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/4-specification.md#L44"
+    }
+   ]
+  },
+  "earned": {
+   "basis": "decision",
+   "figures": [],
+   "statement": "Ten years' residence -> green card after fingerprints and criminal check; Dreamers, TPS/DACA holders too; everyone else here on signing day can register and work legally",
+   "recheck": "",
+   "scenes": [
+    "immigration"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "Ten years' continuous residence before the day of application, through the registry's rolling date (IMM-1.05), with a clean record (IMM-1.08). Permanent residence on approval",
+     "line": 55,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L55"
+    },
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "Biometrics and a criminal and security check for everyone.",
+     "line": 61,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L61"
+    },
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "(2) anyone who has held TPS, DACA or humanitarian parole at any time",
+     "line": 54,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L54"
+    },
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "**Tier A: a green card on approval** (decided, memo 1 A, parts 1 and 3)",
+     "line": 54,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L54"
+    }
+   ]
+  },
+  "edu": {
+   "basis": "decision",
+   "figures": [
+    "1.65"
+   ],
+   "statement": "The education fund at 1.65 points (G7 B, DEC-2026-11-20-11)",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "the education fund at 1.65 points (G7)",
+     "line": 22,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L22"
+    }
+   ]
+  },
+  "emergency": {
+   "basis": "decision",
+   "figures": [
+    "2030",
+    "$15 billion"
+   ],
+   "statement": "Emergency fund: up to four months of area rent a year; $15 billion in 2030-31 then about $5 billion a year",
+   "recheck": "",
+   "scenes": [
+    "home"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/home/4-specification.md",
+     "anchor": "An annual cap per household of four months of the area's Fair Market Rent in any 12 months",
+     "line": 372,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/4-specification.md#L372"
+    },
+    {
+     "path": "dossiers/home/4-specification.md",
+     "anchor": "About $15 billion over 2030-31 (`DEC-2026-11-10-03`; `6-cost.md`, 2.2).",
+     "line": 419,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/4-specification.md#L419"
+    },
+    {
+     "path": "dossiers/home/4-specification.md",
+     "anchor": "A capped yearly amount of about $5 billion from FY2031, set in the statute and indexed to prices",
+     "line": 378,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/4-specification.md#L378"
+    }
+   ]
+  },
+  "emissions": {
+   "basis": "estimate",
+   "figures": [
+    "2035",
+    "41%",
+    "2005",
+    "61-66%"
+   ],
+   "statement": "Energy emissions about 41% below 2005 by 2035 against a 61-66% goal",
+   "recheck": "",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/7-validation.md",
+     "anchor": "the decided set reaches about 41% below 2005 in energy CO2 in 2035",
+     "line": 77,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/7-validation.md#L77"
+    },
+    {
+     "path": "dossiers/clean-power/4-specification.md",
+     "anchor": "61-66% below 2005 by 2035",
+     "line": 79,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/4-specification.md#L79"
+    }
+   ]
+  },
+  "everify": {
+   "basis": "decision",
+   "figures": [],
+   "statement": "E-Verify no earlier than October of the year after the law passes, and only once an independent inspector confirms status is running",
+   "recheck": "",
+   "scenes": [
+    "immigration"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "the first tranche (IMM-4.12) starts no earlier than October 1 of the calendar year after the year of enactment",
+     "line": 159,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L159"
+    },
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "the DHS Inspector General confirms whether all of these hold: (a) filing for the registry, tier A and registration (IMM-1.05) is open nationwide",
+     "line": 159,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L159"
+    }
+   ]
+  },
+  "floor-cost": {
+   "basis": "estimate",
+   "figures": [
+    "$1.85 trillion",
+    "2030-39",
+    "$298 billion",
+    "2040"
+   ],
+   "statement": "Child benefit about $1.85T over FY2030-39; the whole floor about $298B in FY2040, all-in on the general fund with INC-4 rescoped (project estimate)",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/6-cost.md",
+     "anchor": "about **$1.85 trillion over FY2030-39 (range $1.65-2.05 trillion) and $209 billion in FY2040**",
+     "line": 61,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/6-cost.md#L61"
+    },
+    {
+     "path": "dossiers/secure-floor/6-cost.md",
+     "anchor": "about **$2.59 trillion over FY2030-39 and $298 billion in FY2040** with INC-2.02 and INC-4 rescoped",
+     "line": 81,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/6-cost.md#L81"
+    }
+   ]
+  },
+  "floor-other": {
+   "basis": "decision",
+   "figures": [
+    "2025"
+   ],
+   "statement": "Food help (SNAP) cut by the 2025 law is restored",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "**SNAP: the 2025 law's cuts repealed**",
+     "line": 58,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L58"
+    }
+   ]
+  },
+  "floor-start": {
+   "basis": "decision",
+   "figures": [
+    "2030"
+   ],
+   "statement": "The child benefit (FAM-1) and the childless workers' EITC (INC-1) start in 2030",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "Effective for tax year 2030, paid monthly (FAM-1.07)",
+     "line": 34,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L34"
+    },
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "For workers without a qualifying child, from tax year 2030",
+     "line": 56,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L56"
+    }
+   ]
+  },
+  "fuel-cost": {
+   "basis": "estimate",
+   "figures": [
+    "$88",
+    "$225",
+    "2036",
+    "$141"
+   ],
+   "statement": "Typical gas car fuel tax $88 a year today to $225 in 2036; EV pays $141 in 2036",
+   "recheck": "",
+   "scenes": [
+    "transit"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/agenda/transportation/3-design.md",
+     "anchor": "For a 25-mpg car, the federal fuel tax goes from $88 a year to $225 in FY2036",
+     "line": 88,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/agenda/transportation/3-design.md#L88"
+    },
+    {
+     "path": "dossiers/agenda/transportation/3-design.md",
+     "anchor": "An electric car pays $77 a year in FY2031 and $141 in FY2036",
+     "line": 88,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/agenda/transportation/3-design.md#L88"
+    }
+   ]
+  },
+  "fuel-steps": {
+   "basis": "decision",
+   "figures": [
+    "2040-44"
+   ],
+   "statement": "MOV-29.02: after the ten steps, five more steps of 2 cents (2029 dollars) in FY2040-44, with the same pause",
+   "recheck": "",
+   "scenes": [
+    "transit"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/agenda/transportation/4-specification.md",
+     "anchor": "After the ten steps: five more steps of 2 cents (2029 dollars), FY2040-44, same pause",
+     "line": 41,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/agenda/transportation/4-specification.md#L41"
+    }
+   ]
+  },
+  "guarantee": {
+   "basis": "decision",
+   "figures": [
+    "90%",
+    "2030"
+   ],
+   "statement": "Worker guarantee for closures from 2030: up to 90% of old pay for two years; tax base replaced over ten years",
+   "recheck": "",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/4-specification.md",
+     "anchor": "**The income guarantee: 90% for two years**",
+     "line": 127,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/4-specification.md#L127"
+    },
+    {
+     "path": "dossiers/clean-power/4-specification.md",
+     "anchor": "on or after January 1, 2030: coal mines; coal- and gas-fired power plants",
+     "line": 126,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/4-specification.md#L126"
+    },
+    {
+     "path": "dossiers/clean-power/4-specification.md",
+     "anchor": "falling by 10 points a year to zero after ten years",
+     "line": 131,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/4-specification.md#L131"
+    }
+   ]
+  },
+  "hc-rate": {
+   "basis": "decision",
+   "figures": [
+    "3.80%",
+    "2035",
+    "138%",
+    "250%"
+   ],
+   "statement": "Health contribution base rate 3.80% of AGI from the January 2035 endpoint; nothing at or below 138% of poverty, phasing up to full rate at 250%",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "clinic",
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "From the January 2035 endpoint the base rate is 3.80% of AGI, with the exemption as decided (nothing at or below 138% of poverty, phasing up to the full rate at 250%)",
+     "line": 273,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L273"
+    }
+   ]
+  },
+  "hlt-dates": {
+   "basis": "decision",
+   "figures": [
+    "2029",
+    "2025",
+    "2031",
+    "$5,000",
+    "2033",
+    "2035",
+    "January 1"
+   ],
+   "statement": "2029: undo 2025 Medicaid/marketplace cuts; Jan 1 2031 uninsured, individual market and children enrolled, Medicare $5,000 yearly out-of-pocket cap; 2033-2035 Medicaid and job-based move in; everyone by Jan 1 2035",
+   "recheck": "",
+   "scenes": [
+    "clinic"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4-specification.md",
+     "anchor": "The 2029 law creates the single plan (called \"the plan\" below) as an expansion of Medicare. People join it in waves: everyone uninsured or in the individual market and every child in 2031; Medicaid enrollees and employer groups in thirds over 2033-35; everyone else on January 1, 2035.",
+     "line": 10,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4-specification.md#L10"
+    },
+    {
+     "path": "dossiers/care/4-specification.md",
+     "anchor": "Repeal the 2025 law's Medicaid eligibility cuts",
+     "line": 31,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4-specification.md#L31"
+    },
+    {
+     "path": "dossiers/care/4-specification.md",
+     "anchor": "A $5,000 yearly out-of-pocket cap in traditional Medicare and hearing and vision coverage from January 1, 2031",
+     "line": 123,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4-specification.md#L123"
+    }
+   ]
+  },
+  "hlt-national": {
+   "basis": "estimate",
+   "figures": [
+    "$491 billion",
+    "$1.55 trillion"
+   ],
+   "statement": "National health spending about $491B a year lower than current law at full scale; households stop paying about $1.55T of premiums and out-of-pocket costs, net of copays",
+   "recheck": "",
+   "scenes": [
+    "clinic"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/6-cost.md",
+     "anchor": "National health spending: about $491 billion lower than current law.",
+     "line": 29,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/6-cost.md#L29"
+    },
+    {
+     "path": "dossiers/care/6-cost.md",
+     "anchor": "Households stop paying about $1.55 trillion of premiums and out-of-pocket costs, net of the plan's copays",
+     "line": 30,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/6-cost.md#L30"
+    }
+   ]
+  },
+  "home-cost": {
+   "basis": "estimate",
+   "figures": [
+    "$0.81 trillion",
+    "2030-39",
+    "$110 billion",
+    "2040",
+    "$18.6 billion"
+   ],
+   "statement": "Housing about $0.81T over FY2030-39 and about $110B a year in FY2040 as first priced (section 6, before the settlement); the settlement's cap on stage 2 lowers FY2040 by about $18.6B",
+   "recheck": "",
+   "scenes": [
+    "home"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/home/6-cost.md",
+     "anchor": "**The housing plan costs about $0.81 trillion over FY2030-39** (central; range about $0.60-1.14 trillion) and about $110 billion a year of permanent cost in FY2040",
+     "line": 14,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/6-cost.md#L14"
+    },
+    {
+     "path": "dossiers/home/4-specification.md",
+     "anchor": "about $18.6 billion lower in FY2040 and $32.8 billion in FY2056",
+     "line": 341,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/4-specification.md#L341"
+    }
+   ]
+  },
+  "hospital-rates": {
+   "basis": "research",
+   "figures": [
+    "1.15",
+    "254%",
+    "2022"
+   ],
+   "statement": "Hospitals paid about 1.15 times Medicare after a glide; employer plans pay 254% of Medicare (RAND)",
+   "recheck": "",
+   "scenes": [
+    "clinic"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4-specification.md",
+     "anchor": "Hospital rates on a five-year glide path to about 1.15 times Medicare",
+     "line": 72,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4-specification.md#L72"
+    },
+    {
+     "path": "dossiers/care/1-problem.md",
+     "anchor": "Employers and private insurers paid on average 254% of what Medicare would have paid for the same hospital services in 2022 [EV-CAR-131] (RAND)",
+     "line": 50,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/1-problem.md#L50"
+    }
+   ]
+  },
+  "imm-cost": {
+   "basis": "estimate",
+   "figures": [
+    "$0.15 trillion",
+    "2030-39",
+    "$22.5 billion",
+    "2040"
+   ],
+   "statement": "The decided set: about +$0.15T over FY2030-39 and about +$22.5B in FY2040, with memo 6's health line at two-thirds of care's average use (DEC-2026-11-13-05)",
+   "recheck": "",
+   "scenes": [
+    "immigration"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/immigration/6-cost.md",
+     "anchor": "about **+$0.15 trillion over FY2030-39 (range about −$0.07 to +$0.43 trillion) and about +$22.5 billion in FY2040",
+     "line": 42,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/6-cost.md#L42"
+    }
+   ]
+  },
+  "imm-dates": {
+   "basis": "decision",
+   "figures": [
+    "2030"
+   ],
+   "statement": "Filing for legal status from late 2030",
+   "recheck": "",
+   "scenes": [
+    "immigration"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/immigration/4-specification.md",
+     "anchor": "Filing opens | No later than 270 days after signature (about October 1, 2030)",
+     "line": 270,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/4-specification.md#L270"
+    }
+   ]
+  },
+  "jobs": {
+   "basis": "research",
+   "figures": [
+    "$15",
+    "2025",
+    "1.3 million",
+    "1.4 million"
+   ],
+   "statement": "CBO: $15 by 2025 would cost 1.3-1.4 million jobs",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/1-problem.md",
+     "anchor": "CBO's central estimate for $15 was 1.3 million to 1.4 million fewer jobs",
+     "line": 27,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/1-problem.md#L27"
+    },
+    {
+     "path": "dossiers/work/7-validation.md",
+     "anchor": "CBO put $15 by 2025, a floor at about 61% of that year's median, at 1.3-1.4 million fewer jobs",
+     "line": 166,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/7-validation.md#L166"
+    }
+   ]
+  },
+  "labor-act": {
+   "basis": "decision",
+   "figures": [
+    "60",
+    "June 30, 2029"
+   ],
+   "statement": "Labor act needs 60 Senate votes or the rules reform; if signed after June 30, 2029, wage steps move later",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "Regular order: 60 votes, or the Senate rules reform (D2)",
+     "line": 38,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L38"
+    },
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "If the act is signed after June 30, 2029, the first step is the first January 1 at least six months after signature and each later step moves with it",
+     "line": 56,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L56"
+    }
+   ]
+  },
+  "leaseup": {
+   "basis": "estimate",
+   "figures": [
+    "90%",
+    "67%"
+   ],
+   "statement": "Plan assumes 90% of awards leased; closest recent program (EHV) reached 67% after about two years",
+   "recheck": "",
+   "scenes": [
+    "home"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/home/6-cost.md",
+     "anchor": "The central 90% leased is the cautious case for the fiscal rule.",
+     "line": 23,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/6-cost.md#L23"
+    },
+    {
+     "path": "dossiers/home/6-cost.md",
+     "anchor": "Emergency Housing Vouchers reached 67% after about two years [EV-HOU-345].",
+     "line": 108,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/6-cost.md#L108"
+    }
+   ]
+  },
+  "leave": {
+   "basis": "decision",
+   "figures": [
+    "85%"
+   ],
+   "statement": "Paid leave: twelve weeks, run by Social Security, paying 85% of the first band of wages, job protection",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "Up to twelve weeks a year (twelve times the worker's usual weekly hours) for a new child, a family member's serious health condition or one's own",
+     "line": 88,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L88"
+    },
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "85% of average monthly earnings up to the first band, 69% up to the second and 50% up to the third",
+     "line": 89,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L89"
+    }
+   ]
+  },
+  "leave-cost": {
+   "basis": "estimate",
+   "figures": [
+    "$60,000",
+    "$180"
+   ],
+   "statement": "A worker earning $60,000 pays $180 a year to start for paid leave",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/7-validation.md",
+     "anchor": "$180 a year at $60,000 at the start [EV-SEC-676]",
+     "line": 75,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/7-validation.md#L75"
+    }
+   ]
+  },
+  "leave-job": {
+   "basis": "decision",
+   "figures": [
+    "90"
+   ],
+   "statement": "FAM-3.07: an employer must restore a worker who took the benefit, after 90 days on the job, in the 2030 act",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "An employer must restore a worker who took the benefit, after 90 days on the job, to the same or an equivalent position",
+     "line": 94,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L94"
+    }
+   ]
+  },
+  "leave-start": {
+   "basis": "decision",
+   "figures": [
+    "2031",
+    "2030"
+   ],
+   "statement": "Paid leave benefits start in 2031; contributions in 2030",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/4-specification.md",
+     "anchor": "12 weeks; 85/69/50 bands; 0.6% to 1.10%; contributions 2030, benefits 2031; job back after 90 days",
+     "line": 200,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/4-specification.md#L200"
+    }
+   ]
+  },
+  "line-cook": {
+   "basis": "estimate",
+   "figures": [
+    "39%",
+    "$12.50",
+    "2032",
+    "59%",
+    "2035",
+    "52",
+    "2029"
+   ],
+   "statement": "Single adult on marketplace in non-expansion state keeps about 39% of a raise to $12.50 in 2032 vs 59% under 2029 law; from 2035 52-59%",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/7-validation.md",
+     "anchor": "a full-time single adult moving from $7.25 to the third step ($12.50 in 2032) keeps about **39% under the plan, against 59% at 2029 law**",
+     "line": 54,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/7-validation.md#L54"
+    },
+    {
+     "path": "dossiers/work/7-validation.md",
+     "anchor": "From 2035 the single plan removes the premium, and the single adult keeps 52-59% at full time.",
+     "line": 54,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/7-validation.md#L54"
+    }
+   ]
+  },
+  "ltc": {
+   "basis": "decision",
+   "figures": [
+    "2035"
+   ],
+   "statement": "From January 2035 long-term care (home care and nursing home care part) is in the single plan for anyone needing help with three ADLs or serious cognitive impairment; no asset test, no estate recovery",
+   "recheck": "",
+   "scenes": [
+    "longterm"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "Every person entitled to the plan (HLT-7.01) who needs help with **three or more of six daily activities**",
+     "line": 51,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L51"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "From January 1, 2035 the plan pays nursing homes and intermediate care facilities for people with intellectual disabilities for nursing, personal care, therapy and supervision, for every resident meeting HLT-9.01's test (or HLT-9.02's), with no asset test.",
+     "line": 58,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L58"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "No income or asset test; no estate recovery",
+     "line": 51,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L51"
+    }
+   ]
+  },
+  "ltc-bridge": {
+   "basis": "decision",
+   "figures": [
+    "2030",
+    "$10,000"
+   ],
+   "statement": "Five-year bridge from 2030 (more HCBS money tied to shorter waits); estate recovery ends and Medicaid savings limit rises to $10,000 for a single person from 2030",
+   "recheck": "",
+   "scenes": [
+    "longterm"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "The bridge: up to 10 more points of federal match for Medicaid home care, FY2030-34",
+     "line": 38,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L38"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "No estate recovery for correctly paid Medicaid, from January 1, 2030",
+     "line": 40,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L40"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "$10,000 for an individual and $20,000 for a couple, indexed to prices, for Medicaid long-term care eligibility",
+     "line": 41,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L41"
+    }
+   ]
+  },
+  "match": {
+   "basis": "decision",
+   "figures": [
+    "$25",
+    "$175",
+    "$200",
+    "2032"
+   ],
+   "statement": "6:1 match on small in-state gifts up to $200; a $25 gift brings $175; first matched cycle 2032 on the working timeline",
+   "recheck": "",
+   "scenes": [
+    "democracy"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+     "anchor": "each in-state contribution up to $200 is matched six to one",
+     "line": 197,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/4-specification.md#L197"
+    },
+    {
+     "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+     "anchor": "| A teacher who gives $25 to a House candidate | The candidate receives $175 more",
+     "line": 439,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/4-specification.md#L439"
+    },
+    {
+     "path": "dossiers/foundations/democratic-renewal/6-cost.md",
+     "anchor": "*First matched cycle 2032:* the act is enacted by spring 2030 at the latest",
+     "line": 109,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/6-cost.md#L109"
+    }
+   ]
+  },
+  "mix": {
+   "basis": "estimate",
+   "figures": [
+    "1%",
+    "65%",
+    "2030-39"
+   ],
+   "statement": "Top 1% and corporations bear 65% of new general-fund revenue over FY2030-39, health contributions left out",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "**The revenue-mix test passes:** 65% over FY2030-39, its decided window",
+     "line": 32,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L32"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "the top 1% (by incidence) and corporations (statutory) bear more than half of new general-fund revenue, with health's contributions left out",
+     "line": 166,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L166"
+    }
+   ]
+  },
+  "mov-dates": {
+   "basis": "decision",
+   "figures": [
+    "2031",
+    "October 1, 2031"
+   ],
+   "statement": "The 2031 bill (MOV-31), effective October 1, 2031: the bar on collecting location data, three-year deletion; fix-it-first as published reports and a review",
+   "recheck": "",
+   "scenes": [
+    "transit"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/agenda/transportation/5-delivery.md",
+     "anchor": "the bar on collecting location data, the three-year deletion and the private right of action are in the 2031 bill and apply from October 1, 2031 (sec. 111, MOV-31.11)",
+     "line": 81,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/agenda/transportation/5-delivery.md#L81"
+    },
+    {
+     "path": "dossiers/agenda/transportation/4-specification.md",
+     "anchor": "Moving America Act of 2031 (MOV-31) | 60 | effective Oct 1, 2031",
+     "line": 22,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/agenda/transportation/4-specification.md#L22"
+    },
+    {
+     "path": "dossiers/agenda/transportation/4-specification.md",
+     "anchor": "Division B sec. 1106: fix-it-first as published reports and a review",
+     "line": 96,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/agenda/transportation/4-specification.md#L96"
+    }
+   ]
+  },
+  "not-reached": {
+   "basis": "decision",
+   "figures": [
+    "2030"
+   ],
+   "statement": "Single adults with severe problems who are not homeless, not disabled and not in a family with children have no funded route in the 2030s",
+   "recheck": "",
+   "scenes": [
+    "home"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/home/7-validation.md",
+     "anchor": "single adults and other households with severe problems who are not homeless, not disabled and not in a family with children have no funded route in the 2030s",
+     "line": 251,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/7-validation.md#L251"
+    },
+    {
+     "path": "dossiers/home/7-validation.md",
+     "anchor": "Single adults, older renters and families just above the line wait indefinitely.",
+     "line": 421,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/7-validation.md#L421"
+    }
+   ]
+  },
+  "penalties": {
+   "basis": "decision",
+   "figures": [
+    "$50,000"
+   ],
+   "statement": "Civil penalties up to $50,000 per violation, in federal court",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "An employer that commits an unfair labor practice is liable for a civil penalty of up to $50,000 per violation",
+     "line": 96,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L96"
+    },
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "The General Counsel sues in federal district court, where either side may demand a jury",
+     "line": 96,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L96"
+    }
+   ]
+  },
+  "plan-start": {
+   "basis": "decision",
+   "figures": [
+    "2029"
+   ],
+   "statement": "The plan begins in January 2029 (DEC-2026-10-29-01)",
+   "recheck": "",
+   "scenes": [],
+   "sources": [
+    {
+     "path": "dossiers/care/4-specification.md",
+     "anchor": "The plan begins in January 2029 (`DEC-2026-10-29-01`)",
+     "line": 9,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4-specification.md#L9"
+    }
+   ]
+  },
+  "power-cost": {
+   "basis": "estimate",
+   "figures": [
+    "$1.73 trillion",
+    "2030-39",
+    "$84 billion",
+    "2040"
+   ],
+   "statement": "About $1.73T over 2030-39, a little below what the budget already carries ($1.81T), about $84B a year from 2040",
+   "recheck": "Batch 4 memo G25 and #493 correct the clean-energy credits after FY2039 (CLI-1); the $84 billion a year from 2040 may move",
+   "scenes": [
+    "power"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/clean-power/6-cost.md",
+     "anchor": "about **$1.73 trillion over FY2030-39 and $84 billion in FY2040**",
+     "line": 108,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/6-cost.md#L108"
+    },
+    {
+     "path": "dossiers/clean-power/6-cost.md",
+     "anchor": "against $1.81 trillion and $165 billion booked before",
+     "line": 38,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/clean-power/6-cost.md#L38"
+    }
+   ]
+  },
+  "prek": {
+   "basis": "decision",
+   "figures": [
+    "3",
+    "4"
+   ],
+   "statement": "Free pre-K for 3- and 4-year-olds, in all settings",
+   "recheck": "",
+   "scenes": [
+    "childcare"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "Free school-day pre-K for 3- and 4-year-olds, in every setting, at one rate",
+     "line": 72,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L72"
+    }
+   ]
+  },
+  "rebuild": {
+   "basis": "decision",
+   "figures": [
+    "54,000",
+    "2029"
+   ],
+   "statement": "Agency rebuild: about 54,000 added staff across the six largest agencies, in the first (2029) reconciliation act (R1)",
+   "recheck": "",
+   "scenes": [
+    "democracy"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/democratic-renewal/3-design.md",
+     "anchor": "about 54,000 added staff across the six agencies sized",
+     "line": 148,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/3-design.md#L148"
+    },
+    {
+     "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+     "anchor": "**2029 reconciliation act (R1)** | 51 | By about mid-2029 | CAP-7S and CAP-7 as multi-year direct appropriations, available on enactment",
+     "line": 24,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/democratic-renewal/4-specification.md#L24"
+    }
+   ]
+  },
+  "registry": {
+   "basis": "decision",
+   "figures": [
+    "1972",
+    "1986"
+   ],
+   "statement": "The registry date has been stuck at 1972 since 1986",
+   "recheck": "",
+   "scenes": [
+    "immigration"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/immigration/1-problem.md",
+     "anchor": "covers only people who entered before January 1, 1972 [EV-IMM-590]. Its date was last moved in 1986 [EV-IMM-591].",
+     "line": 92,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/1-problem.md#L92"
+    }
+   ]
+  },
+  "relatives": {
+   "basis": "decision",
+   "figures": [],
+   "statement": "Paying relatives follows each state's current rules; a national evaluation reports (by 2034) before any national decision",
+   "recheck": "",
+   "scenes": [
+    "longterm"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "a person may hire a relative on the terms their state allowed on December 31, 2034",
+     "line": 55,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L55"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "HHS runs an evaluation of paying spouses and parents of minor children, randomized where states agree, reporting by June 30, 2034 (working date). The national decision point is HLT-9.05",
+     "line": 43,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L43"
+    }
+   ]
+  },
+  "school-age": {
+   "basis": "decision",
+   "figures": [
+    "5",
+    "12"
+   ],
+   "statement": "Children 5 to 12 keep today's child care block grant (CCDBG); school-age care not made free",
+   "recheck": "",
+   "scenes": [
+    "childcare"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "**School-age children keep the block grant:** CCDF continues as a block grant for children aged 5 to 12",
+     "line": 74,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L74"
+    },
+    {
+     "path": "dossiers/care/4bcd-specification.md",
+     "anchor": "Whether to expand school-age care is left open",
+     "line": 74,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/care/4bcd-specification.md#L74"
+    }
+   ]
+  },
+  "ss": {
+   "basis": "decision",
+   "figures": [],
+   "statement": "The settlement leaves Social Security unchanged",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "**Social Security** is unchanged.",
+     "line": 33,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L33"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "nothing in the settlement touches either",
+     "line": 177,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L177"
+    }
+   ]
+  },
+  "stage2": {
+   "basis": "decision",
+   "figures": [
+    "300,000",
+    "2034",
+    "2041",
+    "2040"
+   ],
+   "statement": "Stage 2 (HOU-4D.01): capped program enrolling up to 300,000 families a year from 2034; the right named as a 2040s target with a review in 2041; no duty to house (narrowed by DEC-2026-11-24-09)",
+   "recheck": "",
+   "scenes": [
+    "home"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/home/4-specification.md",
+     "anchor": "**Enrollment** opens in 2034 at up to 300,000 families a year, in HOU-4.03's order",
+     "line": 337,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/4-specification.md#L337"
+    },
+    {
+     "path": "dossiers/home/4-specification.md",
+     "anchor": "**No duty to house** (item 5 does not take effect).",
+     "line": 339,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/4-specification.md#L339"
+    },
+    {
+     "path": "dossiers/home/4-specification.md",
+     "anchor": "**The 2040s goal, in law:** the statute names the target, a right for the full group, and a review in 2041 on the program's own data",
+     "line": 340,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/home/4-specification.md#L340"
+    }
+   ]
+  },
+  "states-ltc": {
+   "basis": "decision",
+   "figures": [],
+   "statement": "The states pay 100% of their current long-term care spending (settlement S05, HLT-9.09)",
+   "recheck": "",
+   "scenes": [
+    "longterm"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "| S05 | The states pay 100% of their current long-term care spending (HLT-9.09)",
+     "line": 66,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L66"
+    }
+   ]
+  },
+  "takeup": {
+   "basis": "estimate",
+   "figures": [
+    "70%"
+   ],
+   "statement": "We assume about 70% of eligible people apply",
+   "recheck": "",
+   "scenes": [
+    "immigration"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/immigration/6-cost.md",
+     "anchor": "About 30% of eligible people may not take up status (take-up about 70% [EV-IMM-609])",
+     "line": 85,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/immigration/6-cost.md#L85"
+    }
+   ]
+  },
+  "thin": {
+   "basis": "estimate",
+   "figures": [
+    "2040"
+   ],
+   "statement": "Margin thin FY2040-44; decade FY2030-39 not closed (FY2036-39 short)",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "The margin is thin in FY2040-44, $0.4-6B a year",
+     "line": 104,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L104"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "FY2036-39 run about $190-280B short a year. The rule doesn't test those years",
+     "line": 106,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L106"
+    }
+   ]
+  },
+  "top-rows": {
+   "basis": "decision",
+   "figures": [
+    "28%",
+    "39.6%",
+    "45%",
+    "2025"
+   ],
+   "statement": "Health's share from the top-end and corporate rows: corporate rate to 28%, top rate 39.6% above $400K, a 45% bracket above $5M, the 2025 law's cuts reversed above $450K",
+   "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge",
+   "scenes": [
+    "money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "| G1 | Corporate rate to 28%",
+     "line": 42,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L42"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "| G3 | Top rate to 39.6% above $400K",
+     "line": 46,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L46"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "| C43 | A 45% bracket above $5M",
+     "line": 47,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L47"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/2-settlement.md",
+     "anchor": "| G9 | The 2025 law's cuts reversed above $450K",
+     "line": 43,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/foundations/fair-financing/2-settlement.md#L43"
+    }
+   ]
+  },
+  "trucks": {
+   "basis": "decision",
+   "figures": [
+    "$550",
+    "1984"
+   ],
+   "statement": "Heavy trucks pay by weight and miles instead of the flat $550 heavy vehicle use tax unchanged since 1984",
+   "recheck": "",
+   "scenes": [
+    "transit"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/agenda/transportation/4-specification.md",
+     "anchor": "The weight-distance charge replaces a use tax that has been flat at $550 and unindexed since 1984",
+     "line": 53,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/agenda/transportation/4-specification.md#L53"
+    }
+   ]
+  },
+  "ui-dates": {
+   "basis": "decision",
+   "figures": [
+    "2031",
+    "January 1"
+   ],
+   "statement": "Wage insurance and UI standards from January 1, 2031",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/7-validation.md",
+     "anchor": "Wage insurance: half the hourly drop for two years, up to $10,000 a year (LAB-18) | Separations from January 1, 2031",
+     "line": 130,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/7-validation.md#L130"
+    },
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "26 weeks; 75% of high-quarter weekly pay to at least two-thirds of the state average weekly wage; $1,000 / $1,500; from January 1, 2031",
+     "line": 401,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L401"
+    }
+   ]
+  },
+  "wage-bite": {
+   "basis": "estimate",
+   "figures": [
+    "$17",
+    "2035"
+   ],
+   "statement": "$17 in 2035 is about half the median wage, on our estimates",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/7-validation.md",
+     "anchor": "$17 in 2035 is about half the national median",
+     "line": 94,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/7-validation.md#L94"
+    },
+    {
+     "path": "dossiers/work/3-design.md",
+     "anchor": "memo 1 B's floor is about half the median in 2035 on 3.5% a year nominal median growth (range 3-4%)",
+     "line": 99,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/3-design.md#L99"
+    }
+   ]
+  },
+  "wage-ins": {
+   "basis": "decision",
+   "figures": [
+    "$24",
+    "$32",
+    "$4",
+    "$10,000"
+   ],
+   "statement": "Wage insurance: half the hourly drop up to $10,000 a year for two years; the machinist laid off at $32 who takes a $24 job gets $4 an hour",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/7-validation.md",
+     "anchor": "A machinist laid off at $32 who takes a $24 job:* $4 for every hour worked, up to $10,000 a year for two years (LAB-18.02).",
+     "line": 147,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/7-validation.md#L147"
+    },
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "**Half the hourly drop, for the hours worked, up to $10,000 a year for two years**",
+     "line": 186,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L186"
+    }
+   ]
+  },
+  "wage-steps": {
+   "basis": "decision",
+   "figures": [
+    "$17.00",
+    "$9.50",
+    "2030",
+    "2035",
+    "January 1"
+   ],
+   "statement": "Minimum wage $9.50 on January 1, 2030 rising in steps to $17.00 on January 1, 2035, then indexed to the median wage, never falls",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "$9.50 an hour on January 1, 2030, then $11.00 (2031), $12.50 (2032), $14.00 (2033), $15.50 (2034) and $17.00 (January 1, 2035), Raise the Wage's schedule",
+     "line": 56,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L56"
+    },
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "the floor never falls.",
+     "line": 56,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L56"
+    },
+    {
+     "path": "dossiers/work/4-specification.md",
+     "anchor": "From January 1, 2036 (the year after the last step), the floor rises each January 1 by the percentage growth of the national media",
+     "line": 57,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/4-specification.md#L57"
+    }
+   ]
+  },
+  "work-cost": {
+   "basis": "estimate",
+   "figures": [
+    "$0.22 trillion",
+    "2030-39",
+    "$31 billion",
+    "2040"
+   ],
+   "statement": "About $0.22T over FY2030-39 and about $31B a year from FY2040, no recession assumed",
+   "recheck": "",
+   "scenes": [
+    "work"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/work/6-cost.md",
+     "anchor": "about **+$0.22 trillion over FY2030-39 (range about +$0.10 to +$0.44 trillion) and about +$31 billion in FY2040",
+     "line": 46,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/6-cost.md#L46"
+    },
+    {
+     "path": "dossiers/work/6-cost.md",
+     "anchor": "**No recession in the projection.** CBO's projection, and so the budget model's, has no recession.",
+     "line": 17,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/work/6-cost.md#L17"
+    }
+   ]
+  },
+  "work-effect": {
+   "basis": "research",
+   "figures": [
+    "2021"
+   ],
+   "statement": "Studies of the 2021 monthly CTC payments found little or no effect on work; others expecting some work reduction still find poverty falls",
+   "recheck": "",
+   "scenes": [
+    "floor"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/secure-floor/7-validation.md",
+     "anchor": "Studies of the 2021 payments find no employment effect (Ananat and others) [EV-SEC-212]; simulations predict 367,000 to 1.5 million parents leaving work (Bastian; Corinth and others) [EV-SEC-219] [EV-SEC-218]. Even the largest leaves child poverty about a fifth lower.",
+     "line": 69,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525/dossiers/secure-floor/7-validation.md#L69"
+    }
+   ]
+  }
+ },
+ "placeholders": [
+  {
+   "id": "debt-path",
+   "title": "The debt path",
+   "text": "To come: the path of the national debt under the plan, once it is confirmed.",
+   "waits_on": "Stage G step 9 (PRs #490 and #493) and Espen's batch 4 (G23)",
+   "scene": "money"
+  },
+  {
+   "id": "take-home",
+   "title": "Take-home pay",
+   "text": "To come: how many workers take home more or less once the health contribution replaces premiums.",
+   "waits_on": "Stage G step 9 and Espen's batch 4 (G23-G25)",
+   "scene": "money"
+  },
+  {
+   "id": "later-revenue",
+   "title": "Later revenue",
+   "text": "To come: whether and how the plan raises more revenue in later years, and how the health contribution moves.",
+   "waits_on": "Stage G step 9 and Espen's batch 4 (G24)",
+   "scene": "money"
+  }
+ ]
+}
