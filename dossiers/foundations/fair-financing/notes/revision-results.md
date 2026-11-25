@@ -24,7 +24,7 @@ Each goal's new deficit reduction (X, $B; PH-3 netted out) on the conventional s
 
 | Goal | Share of GDP | Start | X FY2035 | X FY2037 | X FY2039 | X FY2040 | X FY2045 | X FY2050 | X FY2056 | Interest saved FY2030-56 | Debt FY2040 / FY2050 / FY2056 | Peak |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A. Held flat from FY2040 (G15 B as decided, restated) | — | FY2035 | 0 | 123 | 133 | 457 | 464 | 596 | 899 | $4.3T | 116.1 / 116.1 / 116.1 | FY2043, 116.1 |
+| A. Held flat from FY2040 (G15 B as decided, restated) | — | FY2035 | 0 | 123 | 133 | 457 | 464 | 596 | 899 | $4.3T | 116.1 / 116.1 / 116.1 | FY2039, 116.1 |
 | B. Falling to 110% of GDP by FY2056 | 1.00% | FY2035 | 90 | 290 | 521 | 541 | 650 | 776 | 955 | $6.7T | 113.6 / 110.8 / 110.0 | FY2039, 113.8 |
 | C. Falling to 100% of GDP by FY2056 | 1.46% | FY2035 | 132 | 425 | 764 | 792 | 952 | 1,137 | 1,400 | $9.7T | 111.7 / 104.0 / 100.0 | FY2038, 112.6 |
 | D. Under 100% of GDP by FY2050 | 1.51% | FY2033 | 409 | 733 | 790 | 820 | 985 | 1,176 | 1,448 | $11.9T | 108.4 / 100.0 / 95.5 | FY2033, 109.8 |

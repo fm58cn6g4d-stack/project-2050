@@ -44,8 +44,10 @@ class Cli1Tail(unittest.TestCase):
         self.assertLess(r1[2056]['debt_gdp'], r0[2056]['debt_gdp'])
 
     def test_after_row_reproduces_the_path(self):
-        if all(abs(D['booked'][y] - D['fixed'][y]) < 0.05 for y in range(2040, 2057)):
-            self.skipTest('the correction is booked')
+        if D["is_booked"]:   # the committed fiscal-after.csv row is the one this tool computes
+            row = D['f'].PR.AFTER['CLI-1']
+            for y in T.AFTER_YEARS:
+                self.assertAlmostEqual(row[y], D['after'][y], places=2)
         tgt = T.corrected(D['booked'])
         for y in T.AFTER_YEARS:
             self.assertAlmostEqual(D['after'][y] + D['delta'][y], tgt[y], delta=0.01)

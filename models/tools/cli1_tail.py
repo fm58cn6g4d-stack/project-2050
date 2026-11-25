@@ -80,20 +80,46 @@ def after_row(f, booked):
     return {y: round(tgt[y] - share * f.CL.item('credits', y), 2) for y in AFTER_YEARS}
 
 
-def what_if(f, b, old, u):
-    """The booked case and the case with CLI-1's post-2039 rows replaced by the corrected path."""
-    c0 = K.m.build_case('mixed', f, b, old, u)
-    booked = line(c0)
-    if all(abs(booked[y] - corrected(booked)[y]) < 0.05 for y in YEARS):
-        return c0, c0, booked, booked          # the correction is already booked (after the tier-3 PR)
+def profile_path(f, b):
+    """CLI-1 as the profile alone gives it (no fiscal-after.csv row): the legacy baseline's tail plus the delta. This
+    is the path booked before the correction, rebuilt the same way whether or not the correction is booked."""
+    base = f._row_path(b, f.CL.CONFIG['legacy_gf_tn']['CLI-1'], f.PR.BILLS['CLI-1'], 'CLI-1')
+    share = f.CL.CONFIG['credit_split']['CLI-1']
+    return {y: base.get(y, 0.0) + share * f.CL.item('credits', y) for y in YEARS}
+
+
+def with_path(f, b, old, u, target):
+    """The booked case with CLI-1's FY2040-56 rows set to `target` ({year: $B})."""
     m2 = copy.deepcopy(old)
     row = next(r for r in m2['rows'] if r['id'] == 'CLI-1')
-    tgt = corrected(booked)
     for key in ('gf', 'uni'):
         for y in range(2040, 2057):
-            row[key][str(y)] = row[key]['2039'] * tgt[y] / booked[2039]
-    c1 = K.m.build_case('mixed', f, b, m2, u)
-    return c0, c1, booked, line(c1)
+            row[key][str(y)] = target[y]
+    return K.m.build_case('mixed', f, b, m2, u)
+
+
+def booked_now(old):
+    row = next(r for r in old['rows'] if r['id'] == 'CLI-1')
+    return {y: float(row['gf'].get(str(y), 0.0)) for y in YEARS}
+
+
+def is_booked(f, b, old):
+    """True once the fiscal-after.csv row is in the committed model: the booked path is the corrected one."""
+    now, pre = booked_now(old), profile_path(f, b)
+    return all(abs(now[y] - corrected(pre)[y]) < 0.05 for y in YEARS)
+
+
+def what_if(f, b, old, u):
+    """(the case before the correction, the case after it, CLI-1 before, CLI-1 after). The booked case is one of the
+    two, so the base every later tool reads is the corrected one, counted once."""
+    pre = profile_path(f, b)
+    fix = corrected(pre)
+    c_booked = K.m.build_case('mixed', f, b, old, u)
+    if is_booked(f, b, old):
+        c_pre = with_path(f, b, old, u, pre)
+        return c_pre, c_booked, line(c_pre), line(c_booked)
+    c_fix = with_path(f, b, old, u, fix)
+    return c_booked, c_fix, line(c_booked), line(c_fix)
 
 
 def build():
@@ -101,7 +127,7 @@ def build():
     c0, c1, p0, p1 = what_if(f, b, old, u)
     r0 = {r['year']: r for r in c0['rows']}
     r1 = {r['year']: r for r in c1['rows']}
-    return dict(f=f, booked=p0, fixed=p1, r0=r0, r1=r1, after=after_row(f, p0),
+    return dict(f=f, booked=p0, fixed=p1, r0=r0, r1=r1, after=after_row(f, p0), is_booked=is_booked(f, b, old),
                 share=f.CL.CONFIG['credit_split']['CLI-1'],
                 delta={y: f.CL.CONFIG['credit_split']['CLI-1'] * f.CL.item('credits', y) for y in YEARS})
 
@@ -140,7 +166,7 @@ def markdown(d):
     base = {y: p0[y] - d['delta'][y] for y in YEARS}
     L.append('| Baseline row (legacy credit set, its profile) | ' + ' | '.join(f1(base[y]) for y in show) + ' |')
     L.append('| Redesign delta (the export, to CLI-1) | ' + ' | '.join(f1(d['delta'][y]) for y in show) + ' |')
-    L.append('| **CLI-1 as booked** | ' + ' | '.join('**%s**' % f1(p0[y]) for y in show) + ' |')
+    L.append('| **CLI-1 on the old profile (booked before the correction)** | ' + ' | '.join('**%s**' % f1(p0[y]) for y in show) + ' |')
     L.append('| Energy model, decided step-down (CLI-1A.02) | ' + ' | '.join(
         f1(ENERGY_DECIDED.get(y, 0.0)) if y <= 2050 else '0.0' for y in show) + ' |')
     L.append('| **CLI-1 corrected** (booked FY2039 × the energy model\'s decline) | ' + ' | '.join(
@@ -149,18 +175,18 @@ def markdown(d):
           'generation and prices take-up on its own build: $1,037B over FY2030-39 against the booked $757B, '
           '`dossiers/clean-power/6-cost.md` part 5). Only its shape after FY2039 is used.', '']
     sav = {y: p0[y] - p1[y] for y in YEARS}
-    L += ['## 2. The correction, priced on the booked case (a what-if until the tier-3 input lands)', '',
+    L += ['## 2. The correction, priced on the booked case (%s)' % ('booked: `fiscal-after.csv` carries the row' if d['is_booked'] else 'a what-if until the tier-3 input row lands'), '',
           '| | ' + ' | '.join('FY%d' % y for y in (2040, 2041, 2042, 2043, 2045, 2047, 2050, 2056)) + ' | FY2040-56 |',
           '| --- |' + ' --- |' * 9]
     ys = (2040, 2041, 2042, 2043, 2045, 2047, 2050, 2056)
     L.append('| CLI-1 saving | ' + ' | '.join(f1(sav[y]) for y in ys) + ' | %s |' % f1(sum(sav[y] for y in range(2040, 2057))))
-    L.append('| General-fund gap, booked (− is a margin) | ' + ' | '.join(f1(r0[y]['agenda_gf_primary_bn']) for y in ys) + ' | |')
+    L.append('| General-fund gap, old profile (− is a margin) | ' + ' | '.join(f1(r0[y]['agenda_gf_primary_bn']) for y in ys) + ' | |')
     L.append('| General-fund gap, corrected | ' + ' | '.join(f1(r1[y]['agenda_gf_primary_bn']) for y in ys) + ' | |')
-    L.append('| Debt, % of GDP, booked | ' + ' | '.join(f1(r0[y]['debt_gdp']) for y in ys) + ' | |')
+    L.append('| Debt, % of GDP, old profile | ' + ' | '.join(f1(r0[y]['debt_gdp']) for y in ys) + ' | |')
     L.append('| Debt, % of GDP, corrected | ' + ' | '.join(f1(r1[y]['debt_gdp']) for y in ys) + ' | |')
     t0 = max(range(2040, 2057), key=lambda y: r0[y]['agenda_gf_primary_bn'])
     t1 = max(range(2040, 2057), key=lambda y: r1[y]['agenda_gf_primary_bn'])
-    L += ['', '- The tightest year FY2040-56: FY%d at %s booked; FY%d at %s corrected.' % (
+    L += ['', '- The tightest year FY2040-56: FY%d at %s on the old profile; FY%d at %s corrected.' % (
         t0, f1(r0[t0]['agenda_gf_primary_bn']), t1, f1(r1[t1]['agenda_gf_primary_bn'])),
           '- Interest is included in the debt figures (the model\'s own marginal rate).', '']
     L += ['## 3. The tier-3 row', '',

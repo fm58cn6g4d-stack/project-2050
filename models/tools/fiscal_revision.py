@@ -11,7 +11,7 @@ checks it.
 
 The base (`base()`): the settlement as booked (#480; case `mixed`) with three things the batch decided or found:
   * CLI-1's tail on the decided step-down (`cli1_tail.py`; a what-if until its tier-3 input row lands, then the booked
-    case itself, so nothing is counted twice);
+    case itself, so nothing is counted twice; "as booked" below is the old profile either way);
   * G17 B's hold of the clean-energy credits in FY2038-39 (PH-3, `fiscal_frontier.phasing`; `DEC-2026-11-25-03`);
   * G16 B and G18 D′ change nothing up front (triggers), and G20 B's rule measures, it doesn't raise.
 
@@ -109,7 +109,7 @@ def base():
     bk = FP.Booked(case=c1)
     ph3 = FF.phasing(booked)['PH-3']
     return dict(booked=booked, bk=bk, ph3=ph3, cli1_saving={y: p0[y] - p1[y] for y in YEARS},
-                cli1_booked=all(abs(p0[y] - p1[y]) < 0.05 for y in YEARS))
+                cli1_booked=CT.is_booked(f, b, old))
 
 
 def path(bk, level, start, ramp=1):
@@ -434,7 +434,8 @@ def markdown(d):
           '| --- | --- | --- |' + ' --- |' * len(SHOW) + ' --- | --- | --- |']
     for gid in ('A', 'B', 'C', 'D'):
         g = G[gid]; s = g['sim']
-        peak = max(range(2030, 2057), key=lambda y: s[y]['debt_gdp'])
+        top = max(s[y]['debt_gdp'] for y in range(2030, 2057))
+        peak = min(y for y in range(2030, 2057) if s[y]['debt_gdp'] >= top - 0.05)   # earliest, so a flat path reads stably
         L.append('| %s. %s | %s | FY%d | ' % (gid, g['label'], '—' if g['share'] is None else f2(g['share']) + '%', g['start']) +
                  ' | '.join(f0(g['new'][y]) for y in SHOW) +
                  ' | $%sT | %s / %s / %s | FY%d, %s |' % (f1(g['saved'] / 1000), f1(s[2040]['debt_gdp']), f1(s[2050]['debt_gdp']),
