@@ -123,6 +123,7 @@
    "tolerance": "25%"
   }
  ],
+ "evidence_register": "dossiers/care/evidence.json (EV-CAR-020 to 061, 120-121, 131, 135, 206-209, 217-229, 236-237, 243, 263)",
  "fy2030_39": {
   "public_option": {
    "series": [
@@ -650,6 +651,42 @@
  "growth": {
   "net_subsidy_cagr_2032_36": 0.057
  },
+ "header": {
+  "baseline_vintage": "CBO's February 2026 coverage baseline for 2032 (P.L. 119-21 in force, enhanced credits expired); CMS national health expenditure projections, 2024 base",
+  "code": {
+   "models/tools/health-coverage/model.py": "8a70daa1bbf9640ba54bda0914f409583f9cd880edbab0afcec904e4b65c9da8"
+  },
+  "commit": null,
+  "disclaimer": "Project 2050 analysis of the evidence: not an official score or a benefit determination. It never stands in for a CBO or JCT estimate or for an agency's decision on an individual case.",
+  "inputs": {
+   "models/tools/health-coverage/inputs.csv": "71db5175ffbcf7fee28116fcb9d212264fef170683e0ece4e3782811f9134d4a",
+   "models/tools/health-coverage/scenarios.csv": "92cf583c7b79d89eb1b023b7ecdfd21f05d43ea04226cb7348a3cbc2992af37a"
+  },
+  "model_id": "MOD-health-coverage",
+  "model_version": "0.2.0",
+  "price_basis": "nominal dollars",
+  "scenarios": [
+   "baseline_2029",
+   "restore",
+   "public_option",
+   "staged",
+   "staged_full",
+   "staged_full_kids",
+   "single_payer_cbo_like",
+   "single_payer_cbo_like_high",
+   "single_payer_cbo_like_low",
+   "single_payer_project_central",
+   "bench_law_only",
+   "bench_credits_only",
+   "bench_medicare60_only"
+  ],
+  "schema": "p2050-results/1",
+  "scoring_convention": "conventional cell model: coverage flows set from CBO estimates, no labor-market or macroeconomic feedback",
+  "status": "exploratory",
+  "uncertainty": "ranges from running each labeled assumption at its low and high value (the 'uncertainty' block); no sampling error (a cell model, not a survey sample)",
+  "units": "people in millions; money in $ billion (per-person amounts in dollars); 2032 unless noted",
+  "year_type": "calendar 2032 for the representative year; fiscal years for the FY2030-39 window"
+ },
  "hidden": [
   "single_payer_cbo_like_high",
   "single_payer_cbo_like_low",
@@ -657,7 +694,6 @@
   "bench_credits_only",
   "bench_medicare60_only"
  ],
- "model": "MOD-health-coverage",
  "results": {
   "baseline_2029": {
    "cells": {
@@ -4881,13 +4917,6 @@
    "uninsured_change": -25.833
   }
  },
- "run_log": {
-  "as_of": "2026-11-10",
-  "evidence_register": "dossiers/care/evidence.json (EV-CAR-020 to 061, 120-121, 131, 135, 206-209, 217-229, 236-237, 243, 263)",
-  "inputs_csv_sha256": "71db5175ffbc",
-  "model_version": "0.1.0",
-  "scenarios_csv_sha256": "92cf583c7b79"
- },
  "scenario_titles": {
   "baseline_2029": "Current law in 2029",
   "bench_credits_only": "Benchmark helper: credits only",
@@ -4965,7 +4994,6 @@
    "year": 2039
   }
  ],
- "status": "exploratory",
  "uncertainty": {
   "public_option": {
    "central": {
@@ -5612,6 +5640,5 @@
    ]
   }
  },
- "version": "0.1.0",
  "year": 2032
 }

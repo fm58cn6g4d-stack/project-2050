@@ -5,6 +5,7 @@ Role: the project's models, their data and checks. Status: the legacy model suit
 | Path | Holds |
 | --- | --- |
 | `tools/` | Model code. `tools/readme.md` explains each step; `tools/run-all.sh` rebuilds the common suite (`--write` to update outputs) |
+| `schema/`, `MODEL-CARD-TEMPLATE.md`, `runlog.py`, `runs.csv`, `toolkit.csv`, `release-criteria.csv` | The toolkit's common frame (stage H step H2a): the card template, the parameter, results and validation conventions, the run log, and the register of model IDs with each release criterion (provisional until memo H1). Start at `schema/README.md`; `registry/toolkit_check.py` checks them |
 | `stage-h/` | Stage H, the toolkit and front door: the audit and plan (`stage-h/1-audit.md`), the front door outline (`stage-h/2-front-door-outline.md`) and the decision memos (`stage-h/memos/`) |
 | `data/` | Model data: adopted inputs in `data/inputs/` (changing them is a decision for Espen), CBO extracts, generated JSON/CSV and dashboard files |
 
