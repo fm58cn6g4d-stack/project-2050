@@ -46,11 +46,16 @@ class SettlementBooking(unittest.TestCase):
         for y in range(2030, 2057):
             self.assertAlmostEqual(self.booked[y], screened[y], delta=0.05, msg=y)
 
-    def test_closes_2040_on_at_the_lowest_rate(self):
+    def test_closes_2040_on_at_g16b_rate(self):
         rate = self.doc['health_contribution_base_rate']['rate']
         self.assertTrue(all(self.booked[y] <= 0.05 for y in range(2040, 2057)))
         lower = SB.gap(SB.screened_case(self.ctx, self.doc, round(rate - 0.05, 2)))
-        self.assertFalse(all(lower[y] <= 0.05 for y in range(2040, 2057)))
+        # Booked as the lowest closing rate in step 7; G16 B (DEC-2026-11-25-02) then held it at 3.80% to FY2040. Since
+        # CLI-1's step-down was booked (memo G25), 3.75% also closes; the room goes to the debt path, not a lower rate.
+        self.assertEqual(rate, 3.80)
+        lower2 = SB.gap(SB.screened_case(self.ctx, self.doc, round(rate - 0.10, 2)))
+        self.assertTrue(all(lower[y] <= 0.05 for y in range(2040, 2057)))
+        self.assertFalse(all(lower2[y] <= 0.05 for y in range(2040, 2057)))
 
     def test_decisions_named_exist(self):
         text = (ROOT / 'charter/decisions.md').read_text()

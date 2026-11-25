@@ -48,7 +48,7 @@
   "DEC+ENV.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC+ENV: debt held by the public, % of GDP, FY2056",
-   "value": 192.6
+   "value": 190.9
   },
   "DEC+ENV.envelope_room": {
    "kind": "tn2",
@@ -58,17 +58,17 @@
   "DEC+ENV.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC+ENV: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.9
+   "value": 2.85
   },
   "DEC+ENV.gf_worst": {
    "kind": "pct2",
    "label": "DEC+ENV: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.9
+   "value": 1.81
   },
   "DEC+ENV.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC+ENV: net interest, % of GDP, FY2056",
-   "value": 7.6
+   "value": 7.5
   },
   "DEC+ENV.maturity_pass": {
    "kind": "text",
@@ -83,7 +83,7 @@
   "DEC+FY29.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC+FY29: debt held by the public, % of GDP, FY2056",
-   "value": 191.8
+   "value": 190.2
   },
   "DEC+FY29.envelope_room": {
    "kind": "tn2",
@@ -93,17 +93,17 @@
   "DEC+FY29.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC+FY29: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.87
+   "value": 2.82
   },
   "DEC+FY29.gf_worst": {
    "kind": "pct2",
    "label": "DEC+FY29: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.9
+   "value": 1.81
   },
   "DEC+FY29.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC+FY29: net interest, % of GDP, FY2056",
-   "value": 7.6
+   "value": 7.5
   },
   "DEC+FY29.maturity_pass": {
    "kind": "text",
@@ -118,7 +118,7 @@
   "DEC+TRIMS.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC+TRIMS: debt held by the public, % of GDP, FY2056",
-   "value": 188.5
+   "value": 186.9
   },
   "DEC+TRIMS.envelope_room": {
    "kind": "tn2",
@@ -128,12 +128,12 @@
   "DEC+TRIMS.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC+TRIMS: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.76
+   "value": 2.71
   },
   "DEC+TRIMS.gf_worst": {
    "kind": "pct2",
    "label": "DEC+TRIMS: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.81
+   "value": 1.73
   },
   "DEC+TRIMS.interest_pct.2056": {
    "kind": "pct1",
@@ -153,7 +153,7 @@
   "DEC-CAUT.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-CAUT: debt held by the public, % of GDP, FY2056",
-   "value": 318.4
+   "value": 316.8
   },
   "DEC-CAUT.envelope_room": {
    "kind": "tn2",
@@ -163,17 +163,17 @@
   "DEC-CAUT.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC-CAUT: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 7.19
+   "value": 7.13
   },
   "DEC-CAUT.gf_worst": {
    "kind": "pct2",
    "label": "DEC-CAUT: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 7.08
+   "value": 6.99
   },
   "DEC-CAUT.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC-CAUT: net interest, % of GDP, FY2056",
-   "value": 12.6
+   "value": 12.5
   },
   "DEC-CAUT.maturity_pass": {
    "kind": "text",
@@ -188,7 +188,7 @@
   "DEC-DYN.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-DYN: debt held by the public, % of GDP, FY2056",
-   "value": 194.2
+   "value": 192.6
   },
   "DEC-DYN.envelope_room": {
    "kind": "tn2",
@@ -198,17 +198,17 @@
   "DEC-DYN.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC-DYN: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.96
+   "value": 2.9
   },
   "DEC-DYN.gf_worst": {
    "kind": "pct2",
    "label": "DEC-DYN: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 2.0
+   "value": 1.92
   },
   "DEC-DYN.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC-DYN: net interest, % of GDP, FY2056",
-   "value": 7.7
+   "value": 7.6
   },
   "DEC-DYN.maturity_pass": {
    "kind": "text",
@@ -223,7 +223,7 @@
   "DEC-R1.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-R1: debt held by the public, % of GDP, FY2056",
-   "value": 228.9
+   "value": 227.1
   },
   "DEC-R1.envelope_room": {
    "kind": "tn2",
@@ -233,17 +233,17 @@
   "DEC-R1.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC-R1: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 3.62
+   "value": 3.57
   },
   "DEC-R1.gf_worst": {
    "kind": "pct2",
    "label": "DEC-R1: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.9
+   "value": 1.81
   },
   "DEC-R1.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC-R1: net interest, % of GDP, FY2056",
-   "value": 11.1
+   "value": 11.0
   },
   "DEC-R1.maturity_pass": {
    "kind": "text",
@@ -258,7 +258,7 @@
   "DEC.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC: debt held by the public, % of GDP, FY2056",
-   "value": 191.8
+   "value": 190.2
   },
   "DEC.envelope_room": {
    "kind": "tn2",
@@ -268,17 +268,17 @@
   "DEC.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.88
+   "value": 2.82
   },
   "DEC.gf_worst": {
    "kind": "pct2",
    "label": "DEC: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.9
+   "value": 1.81
   },
   "DEC.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC: net interest, % of GDP, FY2056",
-   "value": 7.6
+   "value": 7.5
   },
   "DEC.maturity_pass": {
    "kind": "text",
@@ -293,7 +293,7 @@
   "GROSS.debt_pct.2056": {
    "kind": "pct1",
    "label": "GROSS: debt held by the public, % of GDP, FY2056",
-   "value": 213.4
+   "value": 211.8
   },
   "GROSS.envelope_room": {
    "kind": "tn2",
@@ -303,12 +303,12 @@
   "GROSS.fiscal_gap": {
    "kind": "pct2",
    "label": "GROSS: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 3.61
+   "value": 3.56
   },
   "GROSS.gf_worst": {
    "kind": "pct2",
    "label": "GROSS: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 2.67
+   "value": 2.59
   },
   "GROSS.interest_pct.2056": {
    "kind": "pct1",
@@ -328,7 +328,7 @@
   "PB+S.debt_pct.2056": {
    "kind": "pct1",
    "label": "PB+S: debt held by the public, % of GDP, FY2056",
-   "value": 196.7
+   "value": 195.1
   },
   "PB+S.envelope_room": {
    "kind": "tn2",
@@ -338,17 +338,17 @@
   "PB+S.fiscal_gap": {
    "kind": "pct2",
    "label": "PB+S: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 3.04
+   "value": 2.99
   },
   "PB+S.gf_worst": {
    "kind": "pct2",
    "label": "PB+S: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 2.07
+   "value": 1.99
   },
   "PB+S.interest_pct.2056": {
    "kind": "pct1",
    "label": "PB+S: net interest, % of GDP, FY2056",
-   "value": 7.8
+   "value": 7.7
   },
   "PB+S.maturity_pass": {
    "kind": "text",
@@ -363,7 +363,7 @@
   "PB.debt_pct.2056": {
    "kind": "pct1",
    "label": "PB: debt held by the public, % of GDP, FY2056",
-   "value": 202.9
+   "value": 201.3
   },
   "PB.envelope_room": {
    "kind": "tn2",
@@ -373,17 +373,17 @@
   "PB.fiscal_gap": {
    "kind": "pct2",
    "label": "PB: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 3.25
+   "value": 3.2
   },
   "PB.gf_worst": {
    "kind": "pct2",
    "label": "PB: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 2.29
+   "value": 2.21
   },
   "PB.interest_pct.2056": {
    "kind": "pct1",
    "label": "PB: net interest, % of GDP, FY2056",
-   "value": 8.0
+   "value": 7.9
   },
   "PB.maturity_pass": {
    "kind": "text",
@@ -440,7 +440,7 @@
   "DEC+ENV.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC+ENV: debt held by the public, % of GDP, FY2056",
-   "value": 192.6
+   "value": 191.0
   },
   "DEC+ENV.envelope_room": {
    "kind": "tn2",
@@ -450,17 +450,17 @@
   "DEC+ENV.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC+ENV: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.9
+   "value": 2.85
   },
   "DEC+ENV.gf_worst": {
    "kind": "pct2",
    "label": "DEC+ENV: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.9
+   "value": 1.81
   },
   "DEC+ENV.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC+ENV: net interest, % of GDP, FY2056",
-   "value": 7.6
+   "value": 7.5
   },
   "DEC+ENV.maturity_pass": {
    "kind": "text",
@@ -470,12 +470,12 @@
   "DEC+FY29.debt_pct.2039": {
    "kind": "pct1",
    "label": "DEC+FY29: debt held by the public, % of GDP, FY2039",
-   "value": 127.3
+   "value": 127.2
   },
   "DEC+FY29.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC+FY29: debt held by the public, % of GDP, FY2056",
-   "value": 191.8
+   "value": 190.2
   },
   "DEC+FY29.envelope_room": {
    "kind": "tn2",
@@ -485,17 +485,17 @@
   "DEC+FY29.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC+FY29: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.88
+   "value": 2.82
   },
   "DEC+FY29.gf_worst": {
    "kind": "pct2",
    "label": "DEC+FY29: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.9
+   "value": 1.81
   },
   "DEC+FY29.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC+FY29: net interest, % of GDP, FY2056",
-   "value": 7.6
+   "value": 7.5
   },
   "DEC+FY29.maturity_pass": {
    "kind": "text",
@@ -510,7 +510,7 @@
   "DEC+TRIMS.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC+TRIMS: debt held by the public, % of GDP, FY2056",
-   "value": 188.5
+   "value": 186.9
   },
   "DEC+TRIMS.envelope_room": {
    "kind": "tn2",
@@ -520,12 +520,12 @@
   "DEC+TRIMS.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC+TRIMS: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.76
+   "value": 2.71
   },
   "DEC+TRIMS.gf_worst": {
    "kind": "pct2",
    "label": "DEC+TRIMS: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.81
+   "value": 1.73
   },
   "DEC+TRIMS.interest_pct.2056": {
    "kind": "pct1",
@@ -545,7 +545,7 @@
   "DEC-CAUT.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-CAUT: debt held by the public, % of GDP, FY2056",
-   "value": 318.5
+   "value": 316.9
   },
   "DEC-CAUT.envelope_room": {
    "kind": "tn2",
@@ -555,17 +555,17 @@
   "DEC-CAUT.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC-CAUT: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 7.19
+   "value": 7.14
   },
   "DEC-CAUT.gf_worst": {
    "kind": "pct2",
    "label": "DEC-CAUT: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 7.08
+   "value": 6.99
   },
   "DEC-CAUT.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC-CAUT: net interest, % of GDP, FY2056",
-   "value": 12.6
+   "value": 12.5
   },
   "DEC-CAUT.maturity_pass": {
    "kind": "text",
@@ -580,7 +580,7 @@
   "DEC-DYN.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-DYN: debt held by the public, % of GDP, FY2056",
-   "value": 194.3
+   "value": 192.7
   },
   "DEC-DYN.envelope_room": {
    "kind": "tn2",
@@ -590,17 +590,17 @@
   "DEC-DYN.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC-DYN: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.96
+   "value": 2.9
   },
   "DEC-DYN.gf_worst": {
    "kind": "pct2",
    "label": "DEC-DYN: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 2.0
+   "value": 1.92
   },
   "DEC-DYN.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC-DYN: net interest, % of GDP, FY2056",
-   "value": 7.7
+   "value": 7.6
   },
   "DEC-DYN.maturity_pass": {
    "kind": "text",
@@ -615,7 +615,7 @@
   "DEC-R1.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-R1: debt held by the public, % of GDP, FY2056",
-   "value": 228.9
+   "value": 227.2
   },
   "DEC-R1.envelope_room": {
    "kind": "tn2",
@@ -625,17 +625,17 @@
   "DEC-R1.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC-R1: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 3.62
+   "value": 3.57
   },
   "DEC-R1.gf_worst": {
    "kind": "pct2",
    "label": "DEC-R1: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.9
+   "value": 1.81
   },
   "DEC-R1.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC-R1: net interest, % of GDP, FY2056",
-   "value": 11.1
+   "value": 11.0
   },
   "DEC-R1.maturity_pass": {
    "kind": "text",
@@ -645,12 +645,12 @@
   "DEC.debt_pct.2039": {
    "kind": "pct1",
    "label": "DEC: debt held by the public, % of GDP, FY2039",
-   "value": 127.3
+   "value": 127.2
   },
   "DEC.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC: debt held by the public, % of GDP, FY2056",
-   "value": 191.8
+   "value": 190.2
   },
   "DEC.envelope_room": {
    "kind": "tn2",
@@ -660,17 +660,17 @@
   "DEC.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 2.88
+   "value": 2.82
   },
   "DEC.gf_worst": {
    "kind": "pct2",
    "label": "DEC: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 1.9
+   "value": 1.81
   },
   "DEC.interest_pct.2056": {
    "kind": "pct1",
    "label": "DEC: net interest, % of GDP, FY2056",
-   "value": 7.6
+   "value": 7.5
   },
   "DEC.maturity_pass": {
    "kind": "text",
@@ -685,7 +685,7 @@
   "GROSS.debt_pct.2056": {
    "kind": "pct1",
    "label": "GROSS: debt held by the public, % of GDP, FY2056",
-   "value": 213.4
+   "value": 211.8
   },
   "GROSS.envelope_room": {
    "kind": "tn2",
@@ -695,12 +695,12 @@
   "GROSS.fiscal_gap": {
    "kind": "pct2",
    "label": "GROSS: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 3.61
+   "value": 3.56
   },
   "GROSS.gf_worst": {
    "kind": "pct2",
    "label": "GROSS: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 2.67
+   "value": 2.59
   },
   "GROSS.interest_pct.2056": {
    "kind": "pct1",
@@ -720,7 +720,7 @@
   "PB+S.debt_pct.2056": {
    "kind": "pct1",
    "label": "PB+S: debt held by the public, % of GDP, FY2056",
-   "value": 196.8
+   "value": 195.2
   },
   "PB+S.envelope_room": {
    "kind": "tn2",
@@ -730,17 +730,17 @@
   "PB+S.fiscal_gap": {
    "kind": "pct2",
    "label": "PB+S: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 3.05
+   "value": 2.99
   },
   "PB+S.gf_worst": {
    "kind": "pct2",
    "label": "PB+S: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 2.08
+   "value": 1.99
   },
   "PB+S.interest_pct.2056": {
    "kind": "pct1",
    "label": "PB+S: net interest, % of GDP, FY2056",
-   "value": 7.8
+   "value": 7.7
   },
   "PB+S.maturity_pass": {
    "kind": "text",
@@ -755,7 +755,7 @@
   "PB.debt_pct.2056": {
    "kind": "pct1",
    "label": "PB: debt held by the public, % of GDP, FY2056",
-   "value": 202.9
+   "value": 201.3
   },
   "PB.envelope_room": {
    "kind": "tn2",
@@ -765,12 +765,12 @@
   "PB.fiscal_gap": {
    "kind": "pct2",
    "label": "PB: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 3.25
+   "value": 3.2
   },
   "PB.gf_worst": {
    "kind": "pct2",
    "label": "PB: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 2.3
+   "value": 2.21
   },
   "PB.interest_pct.2056": {
    "kind": "pct1",
