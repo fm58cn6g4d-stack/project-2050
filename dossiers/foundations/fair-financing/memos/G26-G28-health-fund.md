@@ -6,7 +6,9 @@ Role: decision memos for Espen, stage G step 10 ([`../8-health-trust-fund.md`](.
 
 - **The money already goes to health after 2035.** From FY2035 the health fund runs short every year ($538B in FY2040, $1,524B in FY2056), so every dollar of the contribution is spent on health.
 - **Before 2035 it does not.** Health's sources run $391B ahead of its new spending over FY2030-34 on the general fund's side, and the plan spends most of that elsewhere.
-- **The rate was chosen the wrong way.** 3.80% was the lowest rate that closed the *whole* budget. Several memos also move it when the general fund or the debt path does better or worse. Under your rule, the rate has to be set by the health fund's own position.
+- **The rate passes your tests, but it was chosen the wrong way.** 3.80% was the lowest rate that closed the *whole* budget. Several memos also move it when the general fund or the debt path does better or worse.
+  - Your rule allows a higher rate whenever it only replaces part of the general fund's transfer to health. That holds up to about 6.2% in FY2040 and 7.35% in FY2056, where the contribution would pay all of health's new cost.
+  - What the rule needs is a rate set against health's costs, and a ceiling.
 - **Health grows faster than the economy, so someone pays the difference.** D2 lets health grow a point faster than GDP, and long-term care grows faster still. The contribution's base grows about with GDP. Either the rate drifts up after 2040, or the general fund pays more each year. These memos ask which.
 
 ## G26. What the 3.80% stands for
@@ -17,9 +19,9 @@ The booked rate is 3.25% to fold in the 2 points (G2 C) plus 0.55 points ($123B 
 | --- | --- | --- | --- | --- |
 | **A (recommended)** | **3.80%, re-founded as the fund's rate**: the contribution pays about 15% of the fund's whole cost (about 29% of its new cost) | Every booked number stays. The general fund still pays $538B into the fund in FY2040 | none | 69.0% |
 | B | 3.25%, the fold alone | The general fund pays $123B more into health in FY2040 | +$123B a year (more later) | 76.2% |
-| C | Higher, for example 4.52%: the contribution takes a larger share of health's cost now, so the general fund pays less | Allowed by your second sentence, since the fund still needs a transfer, but it is the debt path's money in health's clothing | −$161B | 56.8% |
+| C | Higher, for example 4.52%: the contribution takes a larger share of health's cost now, so the general fund pays less | Allowed: the fund still needs a transfer, and the rise only replaces part of it. It is G23 A's no-VAT fallback, taken now | −$161B | 56.8% |
 
-**Recommendation: A.** It keeps the settlement's numbers and gives the rate a health basis. B is better for take-home, but the $123B a year needs another source, which the debt goal (G23) already struggles to find. C is G23 A's old no-VAT fallback by another name (see G28).
+**Recommendation: A.** It keeps the settlement's numbers and gives the rate a health basis. B is better for take-home, but the $123B a year needs another source, which the debt goal (G23) already struggles to find. C buys debt reduction now at a take-home cost of 12 points. G28 keeps it available later, as a fallback.
 
 **G26.** Re-found the 3.80% rate as the share of the health fund's cost the contribution pays (A, recommended)? Or 3.25% with the general fund paying more (B), or a higher share now (C)?
 
@@ -44,7 +46,9 @@ This is the trust-fund rule itself: who pays for health growing faster than the 
    - The rate steps a quarter point, at most once a year, only when the fund's projected reserve leaves a band of 15-25% of a year's spending: up if below, down if above.
    - No yearly reset, which would raise the rate in a recession.
    - Never below 3.25%.
-   - A step down comes only from the fund's own surplus, such as health spending below D2's cap, never from a general-fund or debt surplus. This replaces G16 B's second leg and G18 D′.
+   - The fund's own trigger reads only the fund, such as health spending below D2's cap. It replaces G16 B's second leg and G18 D′, which read the general fund.
+   - Those two passed your tests, since a lower rate only raises health's draw. But together with rises for the debt path, they would make the rate a general-fund lever.
+   - A debt-path change to the rate goes through G28 instead: a change to the general fund's share, by law.
    - G13's backstop stays as the upward side. Note that the wealth tax's loss is about 0.49 points on the fund alone, not 0.46 and then 0.01, because the defense surplus no longer counts. The wealth tax must also be paid to the fund by statute.
 2. **The early surplus stays in the fund. Recommended: yes.**
    - All of FY2030-34's surplus stays: HI keeps its $425B, and the fund keeps the $391B the booking had on the general fund.
@@ -57,36 +61,29 @@ This is the trust-fund rule itself: who pays for health growing faster than the 
 
 **G27.** Set the rate from the health fund's own account, with the contribution paying a fixed share of the fund's cost (A, recommended), with its three points? Or fix the general fund's share instead (B), or hold the rate in law with the general fund paying the rest (C)?
 
-## G28. The debt plan without the health contribution
+## G28. The health contribution and the debt plan
 
-Your rule takes the contribution off every debt-path menu.
+Under your rule the contribution can still help the debt, but only by replacing part of the general fund's transfer to health. Three of batch 4's paths use it that way, and all three stay below the ceiling, so they pass:
+- G23 A's no-VAT fallback: 4.52% from FY2040;
+- G24 A: 5.03%;
+- G24 D: 4.30% with a small VAT.
 
-**What changes:**
-- **G19 B:** "the health contribution last" goes.
-- **G20 B:** the return order drops "step the health contribution down". What is returned is a deferred or suspended tax step only.
-- **G24:** A (the rate to 5.03%), D (the rate 4.30%) and the comparison at 4.81% are no longer options.
-- **G23 A:** its no-VAT fallback (the rate at 4.52%) goes.
-
-**What it costs:**
-- **With a VAT (G24 B or B′):** nothing. Those mixes already hold the rate at 3.80%.
-- **Without a VAT:** the fallback must be another broad tax. On goal A that is $161B in FY2040 and $243B in FY2050, about a 3.7-point AGI surtax instead of 2. On goal B it is $276B and $415B, about 5 points.
-- **On take-home:** the defense path's surplus can no longer come back as a lower rate. Under G16 and G18 that was the route toward 76% of workers ahead.
+Two paths that aren't recommended cross the ceiling on this account, so they don't pass: G23 C with the contribution as its plug (6.31% in FY2040) and G23 D (7.43%).
 
 | | What | Cost |
 | --- | --- | --- |
-| **A (recommended)** | **Off the menu entirely.** The rate moves only by the fund's own rule (G27). The debt path's money comes from G19's steps, the VAT (G24) and the general fund | Without a VAT, a larger surtax or ordinary rates, as above |
-| B | **Allowed, but only as an open change to the fund's law**: a later Congress may lower the general fund's share, and so raise the rate, by its own vote. Never inside the debt-path rule's ladder or by a trigger, and never so far that the general fund pays less than the revenue it already spent on health | Keeps a no-VAT fallback, at the take-home cost of G24 A (about 52% of workers ahead) |
+| **A (recommended)** | **The contribution stays on the debt plan's menu, but only as a change to the general fund's share in the health law, under a ceiling.** The fund's trustees certify each year that the contribution doesn't exceed the fund's cost (6.20% in FY2040, 7.35% in FY2056 on today's figures). No debt-path trigger moves the rate directly, and G20 B's return order drops its health-contribution step | None against batch 4: G23 A's fallback and G24's options stand |
+| B | **Off the menu entirely.** The rate moves only by the fund's own rule (G27), never for the debt | Without a VAT, another broad tax: on goal A $161B in FY2040 and $243B in FY2050, an AGI surtax of about 3.7 points instead of 2; on goal B $276B and $415B, about 5 points |
 
-**Recommendation: A.** Your rule says not to treat the contribution as a general-purpose tax. B satisfies your second sentence in letter, but it uses the contribution as the debt plan's reserve tax in two steps.
+**Recommendation: A.** It is what your rule says: the contribution may pay down debt by taking over part of health's general-fund bill, never by paying for anything else. The ceiling and the share in law keep that true. B is stricter than your rule and costs a larger surtax if no VAT passes.
 
-**G28.** Take the health contribution off the debt plan's menu entirely (A, recommended)? Or allow a later law to lower the general fund's share of health's cost, outside the debt-path rule (B)?
+**G28.** Keep the health contribution available to the debt plan only as a smaller general-fund share of health's cost, by law and under a certified ceiling (A, recommended)? Or take it off the debt plan's menu entirely (B)?
 
 ## Batch 4 items this changes (for Espen's page)
 
 | Item | Change |
 | --- | --- |
-| **G23** | Options and recommendation (B) unchanged. Its "what would change this" line (no VAT, then the rate at about 4.5%) goes. Without a VAT, the fallback is a larger surtax (G28). Under G27 A, the money each goal needs falls by about $100-160B a year in the 2050s, to be re-run |
-| **G24** | A and D, and the comparison at 4.81%, are withdrawn. B, B′ and C stand. The VAT's rate is to be re-run after G27 |
-| **G25.1** | Recommendation unchanged (yes). The room it frees ($10B in FY2040, about $80B a year from FY2047) lowers debt and can never come back as a lower rate. The line that it can, under G18 D′, goes. "3.75% would close every year" no longer bears on the rate |
-| **G25.2** | Unchanged |
-| Decided memos the rule overrides (for the lead's `DEC-` record) | G6 C's remainder; G16 B's second leg; G18 D′; G19 B's "R last"; G20 B point 2's step-down of the rate. G13 stands, sized on the fund |
+| **G23** | Unchanged, including A's no-VAT fallback at 4.52%, which passes. Note that the contribution-only plugs for C and D (6.31%, 7.43%) cross the ceiling. Under G27 A, the money each goal needs falls by about $100-160B a year in the 2050s, to be re-run |
+| **G24** | Unchanged: A, B, B′, C and D all pass. The VAT's rate is to be re-run after G27 |
+| **G25.1, G25.2** | Unchanged |
+| Decided memos the rule touches (for the lead's `DEC-` record) | **Breaks:** G6 C's remainder. **Re-based on the fund if G27 A is chosen:** G16 B's second leg, G18 D′, and G20 B point 2's step-down. **Stand:** G13 (sized on the fund) and G19 B's "R last" (under G28's ceiling) |

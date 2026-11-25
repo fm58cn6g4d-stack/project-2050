@@ -210,6 +210,8 @@ def markdown(r):
           '- **A point of the base rate** raises %s in FY2040 and %s in FY2056 (`budget_scan.PER_POINT_2040`, grown on HCU\'s path). The rate at which the contribution would pay all of the fund\'s new cost, with no transfer beyond the baseline\'s: %.2f%% in FY2040, %.2f%% in FY2056.' % (
               f(rows[2040]['per_point']), f(rows[2056]['per_point']),
               BOOKED_R - rows[2040]['balance_wide'] / rows[2040]['per_point'], BOOKED_R - rows[2056]['balance_wide'] / rows[2056]['per_point']),
+          '- **That ceiling by year** (the rate above which the contribution would pay more than the fund\'s new cost): ' + ', '.join(
+              'FY%d %.2f%%' % (y, BOOKED_R - rows[y]['balance_wide'] / rows[y]['per_point']) for y in range(2035, 2057)) + '.',
           '', '## 2. The rate the fund needs, by how the general fund\'s share is defined', '',
           'Each rule is set so the rate is the booked 3.80%% in FY2040; FY2035-39 stay at 3.80%% (the transition years, met by the fund\'s reserve, part 3). '
           'A: the contribution pays a fixed %.1f%% of the fund\'s new spending (Medicare Part B\'s model, premiums at 25%% of cost). '

@@ -68,7 +68,7 @@ After Espen's trust-fund decision of November 25, #501 (the health contribution 
 | --- | --- | --- | --- |
 | G26 | What the 3.80% stands for | **A**: re-founded as the share of the fund's cost the contribution pays | none on the booking |
 | G27 | How the rate moves after 2040 | **A**: the contribution pays a fixed share of the fund's cost (Part B's model); trustees' reserve band; the early surplus kept in the fund | R about 4.1% by FY2056; general fund $158B better in FY2056 |
-| G28 | The debt plan without the health contribution | **A**: off every debt-path menu | without a VAT, a larger surtax: $161-276B in FY2040 |
+| G28 | The health contribution and the debt plan | **A**: only as a smaller general-fund share of health's cost, by law, under a certified ceiling | none against batch 4 (B, off the menu, costs a larger surtax without a VAT: $161-276B in FY2040) |
 
 ## What the settlement rests on, and who decided it
 
