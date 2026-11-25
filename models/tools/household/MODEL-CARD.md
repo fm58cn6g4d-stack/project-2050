@@ -2,6 +2,8 @@
 
 Role: the model card of `MOD-household`, the core model that measures taxes, benefits, poverty and distribution for real households (`charter/PLAN.md` 3.4). Status: **working** for the 2029 current-law baseline, the provision interface and the D3 report (with the secure floor's INC-1 to INC-5), the typical families and the 65-cent ceiling check, with 90% sampling intervals from the CPS replicate weights and the CBO-convention check (maintenance step M3; brought to the toolkit standard in step H3, 2026-11-25). It is not marked "preview" or "released": memo H1 is undecided. Owner: the Project 2050 lead session (Claude Code), through GitHub issues on this repository. Version: 0.2.0, see `CHANGELOG.md`. License: the line step H2b adds once memo H2 is answered. Every output of this model is analysis of the evidence, not an official score or a benefit determination; its results files carry that line in their header. Generated results are in [`results.md`](results.md) and `results.json`; never quote a figure from this card that `results.md` no longer shows.
 
+License: the code is Apache 2.0, this card and the model's other writing are CC BY 4.0, and its parameter and data files are CC0 (see [`LICENSES.md`](../../../LICENSES.md); `DEC-2026-11-25-33`).
+
 ## What it answers
 
 It answers, at the 2029 current-law baseline (`DEC-2026-10-29-01`):

@@ -2,6 +2,8 @@
 
 Role: the model card of `MOD-energy`, the core energy and climate model of `charter/PLAN.md` 3.4 (emissions, prices, bills, dividends; flagship 4). Status: **working**. The model runs clean power's decided set (`DEC-2026-11-13-06`, `-07`) and passes the benchmarks its status rests on: DA-1, DA-2, BL-1, PR-1 and BK-1. Two benchmarks fail, PR-2 and HI-1; both are explained below. Owner: Claude Code (the M4 worker session), reporting to the lead. Its design is `survey.md`, section 4. Generated results are in [`results.md`](results.md) and `results.json`. Never quote a figure from this card that `results.md` no longer shows.
 
+License: the code is Apache 2.0, this card and the model's other writing are CC BY 4.0, and its parameter and data files are CC0 (see [`LICENSES.md`](../../../LICENSES.md); `DEC-2026-11-25-33`).
+
 ## What it answers, and what it cannot
 
 It answers, year by year from 2025 to 2050, against the January 2029 current law (`DEC-2026-10-29-01`):
