@@ -83,7 +83,8 @@ def generate_model(tmp):
     tmp = os.path.join(tmp, "tools")
     os.mkdir(tmp)
     for f in ("ledger-build.py", "inputs.py", "fiscal-profiles.py", "scenarios.py", "fiscal-model.py", "climate-integration.py"):
-        shutil.copy(os.path.join(MODEL_TOOLS, f), tmp)
+        engine = os.path.join(MODEL_TOOLS, "budget", "engine", f)   # the engine moved there in step H4; the readers did not
+        shutil.copy(engine if os.path.exists(engine) else os.path.join(MODEL_TOOLS, f), tmp)
     env = dict(os.environ, P2050_INPUTS=os.path.join(ROOT, "models", "data", "inputs"))
     run = lambda *a: subprocess.run(a, cwd=tmp, env=env, check=True, stdout=subprocess.DEVNULL)
     run(sys.executable, os.path.join(MODEL_TOOLS, "transportation", "report.py"), "--json",

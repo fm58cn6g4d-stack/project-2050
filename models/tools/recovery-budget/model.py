@@ -44,7 +44,7 @@ def geometric(points,y):
 
 def load():
     sys.path.insert(0,str(ROOT/'models/tools'))
-    f=module('rb_fiscal',ROOT/'models/tools/fiscal-model.py')
+    f=module('rb_fiscal',ROOT/'models/tools/budget/engine/fiscal-model.py')
     b=f.read_baseline(ROOT/'models/data/fiscal-baseline.csv')
     m=json.loads((ROOT/'build/fiscal-model.json').read_text())
     with tempfile.TemporaryDirectory() as tmp:
@@ -53,7 +53,7 @@ def load():
         before=os.getcwd()
         try:
             os.chdir(tmp)
-            with contextlib.redirect_stdout(io.StringIO()): funds=module('rb_funds',ROOT/'models/tools/funds-model.py')
+            with contextlib.redirect_stdout(io.StringIO()): funds=module('rb_funds',ROOT/'models/tools/budget/engine/funds-model.py')
         finally: os.chdir(before)
     return f,b,m,funds
 
@@ -401,10 +401,10 @@ def run():
         x={r['year']:r for r in c['rows']}; z={r['year']:r for r in plus['rows']}
         required=max((x[y]['debt_gdp']-x[y-1]['debt_gdp'])/((x[y]['debt_gdp']-x[y-1]['debt_gdp'])-(z[y]['debt_gdp']-z[y-1]['debt_gdp'])) for y in range(2045,2057))
         solutions[name]=max(0,broad0+required)
-    inputs=['models/tools/climate-integration.py','models/data/inputs/climate-adoption.json','legacy/sources/climate-portfolio-pricing.json','models/data/fiscal-baseline.csv','models/data/inputs/education-adoption.json',
+    inputs=['models/tools/budget/engine/climate-integration.py','models/data/inputs/climate-adoption.json','legacy/sources/climate-portfolio-pricing.json','models/data/fiscal-baseline.csv','models/data/inputs/education-adoption.json',
             'models/data/inputs/recovery-adoption.json',
             'models/tools/recovery-budget/assumptions.json','build/fiscal-model.json','build/ledger.json',
-            'models/tools/fiscal-profiles.py','models/tools/funds-model.py',
+            'models/tools/budget/engine/fiscal-profiles.py','models/tools/budget/engine/funds-model.py',
             'legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md']
     inputs+=sorted(str(p.relative_to(ROOT)) for p in (ROOT/'models/data/inputs').glob('funds-*.csv'))
     result=dict(status=A['status'],adoption=ADOPTION,source_commit=A['source_commit'],units='nominal $B; window totals $T; federal fiscal years',

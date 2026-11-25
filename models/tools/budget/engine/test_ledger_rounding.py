@@ -1,5 +1,11 @@
 """Regression checks for decimal headline precision and the unchanged revenue inputs."""
 import unittest
+import os as _os, sys as _sys
+# Moved to models/tools/budget/engine/ (stage H step H4). The shared input readers (inputs.py, scenarios.py) stay in
+# models/tools/, which the household model also reads; run-all.sh copies them beside this file in build/.
+_TOOLS = _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "..", ".."))
+if not _os.path.exists(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "inputs.py")) and _TOOLS not in _sys.path:
+    _sys.path.append(_TOOLS)
 from inputs import money_sum, read
 
 

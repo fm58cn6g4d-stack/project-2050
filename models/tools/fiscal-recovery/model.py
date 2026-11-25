@@ -70,7 +70,7 @@ def fund_experiments():
         before=os.getcwd()
         try:
             os.chdir(tmp)
-            with contextlib.redirect_stdout(io.StringIO()): funds=module('recovery_funds',ROOT/'models/tools/funds-model.py')
+            with contextlib.redirect_stdout(io.StringIO()): funds=module('recovery_funds',ROOT/'models/tools/budget/engine/funds-model.py')
         finally: os.chdir(before)
     paths=[funds.SSF[k] for k in ('SS-1','SS-2','SS-3','SS-4','SS-5')]
     sa=A['social_security']
@@ -115,7 +115,7 @@ def run():
     rebased={e['path']:e['sha256'] for e in json.loads((HERE/'comparison-rebase.json').read_text())['entries']} if (HERE/'comparison-rebase.json').exists() else {}
     check_comparison_inputs(provenance,rebased,lambda path:(ROOT/path).read_bytes())
     global F,B
-    F=module('recovery_fiscal',ROOT/'models/tools/fiscal-model.py')
+    F=module('recovery_fiscal',ROOT/'models/tools/budget/engine/fiscal-model.py')
     B=F.read_baseline(ROOT/'models/data/fiscal-baseline.csv')
     model=json.loads((ROOT/'build/fiscal-model.json').read_text())
     ledger=json.loads((ROOT/'build/ledger.json').read_text())
@@ -238,9 +238,9 @@ def run():
             unified_2030_39_delta_vs_pre_education_tn=sum(uni[y]-old[str(y)]['prog_primary'] for y in W)/1000,
             maturity_pass=all(gf[y]<=0 for y in range(2040,2057)),years=paths))
     for scenario in scenarios: scenario.update(F.CL.disclosure())
-    files=['models/tools/climate-integration.py','models/data/inputs/climate-adoption.json','legacy/sources/climate-portfolio-pricing.json','models/tools/fiscal-recovery/model.py','models/tools/fiscal-recovery/assumptions.json','models/data/inputs/education-adoption.json',
-        'models/tools/fiscal-model.py','models/tools/funds-model.py','models/tools/household/d3.py',
-        'models/tools/household/provisions.py','models/tools/inputs.py','models/tools/fiscal-profiles.py',
+    files=['models/tools/budget/engine/climate-integration.py','models/data/inputs/climate-adoption.json','legacy/sources/climate-portfolio-pricing.json','models/tools/fiscal-recovery/model.py','models/tools/fiscal-recovery/assumptions.json','models/data/inputs/education-adoption.json',
+        'models/tools/budget/engine/fiscal-model.py','models/tools/budget/engine/funds-model.py','models/tools/household/d3.py',
+        'models/tools/household/provisions.py','models/tools/inputs.py','models/tools/budget/engine/fiscal-profiles.py',
         'models/data/fiscal-baseline.csv','build/ledger.json','build/fiscal-model.json',
         'legacy/sources/strategic-review-arithmetic.json','legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md']
     files += [str(p.relative_to(ROOT)) for p in sorted((ROOT/'models/data/inputs').glob('*.csv'))]

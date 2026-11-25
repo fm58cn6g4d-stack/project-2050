@@ -5,18 +5,19 @@ import sys
 import unittest
 
 HERE=Path(__file__).resolve().parent
-sys.path.insert(0,str(HERE))
+ROOT=HERE.parents[3]
+sys.path.insert(0,str(HERE)); sys.path.append(str(ROOT/"models/tools"))
 spec=importlib.util.spec_from_file_location('component_fiscal',HERE/'fiscal-model.py')
 fiscal=importlib.util.module_from_spec(spec);spec.loader.exec_module(fiscal)
 
 class ComponentTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.base=fiscal.read_baseline(HERE.parent/'data/fiscal-baseline.csv')
+        cls.base=fiscal.read_baseline(ROOT/'models/data/fiscal-baseline.csv')
 
     def mid(self):
         import csv
-        return float(next(r for r in csv.DictReader(open(HERE.parent/'data/inputs/ledger-bills.csv')) if r['id']=='HOU-1')['cost_mid'])
+        return float(next(r for r in csv.DictReader(open(ROOT/'models/data/inputs/ledger-bills.csv')) if r['id']=='HOU-1')['cost_mid'])
 
     def test_total_is_ledger_cost_not_an_additional_claim(self):
         path=fiscal.row_path(self.base,self.mid(),fiscal.PR.BILLS['HOU-1'],'HOU-1')
@@ -43,7 +44,7 @@ class BookingShapeTests(unittest.TestCase):
     and fade. Rows without them keep their old paths exactly."""
     @classmethod
     def setUpClass(cls):
-        cls.base=fiscal.read_baseline(HERE.parent/'data/fiscal-baseline.csv')
+        cls.base=fiscal.read_baseline(ROOT/'models/data/fiscal-baseline.csv')
 
     def test_ramp_past_2039_keeps_rising(self):
         p=fiscal.row_path(self.base,.01,dict(start=2039,ramp=3,grow='cpi'))
@@ -60,7 +61,7 @@ class BookingShapeTests(unittest.TestCase):
         self.assertEqual(p[2037],0); self.assertGreater(p[2040],0)
 
     def test_library_matches_model_for_new_shapes(self):
-        spec=importlib.util.spec_from_file_location('prov',HERE/'budget/provisions.py')
+        spec=importlib.util.spec_from_file_location('prov',ROOT/'models/tools/budget/provisions.py')
         P=importlib.util.module_from_spec(spec);spec.loader.exec_module(P)
         B=P.baseline()
         for prof in (dict(start=2039,ramp=3,grow='cpi'),dict(ramp=1,grow='cpi',perm=.2,end=2040),

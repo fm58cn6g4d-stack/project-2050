@@ -1,8 +1,9 @@
 """Accounting regressions for the adopted climate consumer, not a new climate score."""
 import csv, importlib.util, json, unittest
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2]
-s=importlib.util.spec_from_file_location('climate',ROOT/'models/tools/climate-integration.py')
+ROOT=Path(__file__).resolve().parents[4]
+import sys; sys.path.append(str(ROOT/'models/tools'))   # inputs.py, the shared reader
+s=importlib.util.spec_from_file_location('climate',ROOT/'models/tools/budget/engine/climate-integration.py')
 C=importlib.util.module_from_spec(s);s.loader.exec_module(C)
 class IntegrationTests(unittest.TestCase):
  def test_components_equal_export_without_double_count(self):

@@ -19,7 +19,7 @@ import unittest
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent.parent
+ROOT = HERE.parents[3]
 BUILD = Path(os.environ.get("BUILD", ROOT / "build"))
 INPUTS = ROOT / "models" / "data" / "inputs"
 NEEDS = ("ledger.json", "fiscal-model.json", "moving-america.json")
@@ -34,6 +34,7 @@ def load_funds():
         shutil.copy(BUILD / n, tmp)
     cwd = os.getcwd()
     sys.path.insert(0, str(HERE))
+    sys.path.append(str(ROOT / "models" / "tools"))   # inputs.py, the shared reader
     try:
         os.chdir(tmp)
         spec = importlib.util.spec_from_file_location("funds_model_under_test", HERE / "funds-model.py")
@@ -42,6 +43,7 @@ def load_funds():
     finally:
         os.chdir(cwd)
         sys.path.remove(str(HERE))
+        sys.path.remove(str(ROOT / "models" / "tools"))
         shutil.rmtree(tmp, ignore_errors=True)
     return mod
 
