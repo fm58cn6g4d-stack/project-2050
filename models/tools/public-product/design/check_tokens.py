@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Role: checks every text and color pair in tokens.json against WCAG 2.2 AA (stage H step H9).
-Status: draft, November 25, 2026. Prints the table; exits 1 if any required pair fails.
+Status: draft, November 25, 2026. Checks the top-level working set (direction C) and each direction. Prints the table; exits 1 if any required pair fails.
 Usage: python3 models/tools/public-product/design/check_tokens.py [--markdown]
 """
 import json, pathlib, sys
@@ -36,14 +36,15 @@ def ratio(a, b):
 def main():
     tokens = json.loads((pathlib.Path(__file__).with_name("tokens.json")).read_text())
     rows, failed = [], 0
-    for key, d in tokens["directions"].items():
+    sets = [("working set", tokens)] + list(tokens["directions"].items())
+    for key, d in sets:
         for mode in ("light", "dark"):
             c = d["color"][mode]
             for fg, bg, use, minimum in PAIRS:
                 r = ratio(c[fg], c[bg])
                 ok = r >= minimum
                 failed += not ok
-                rows.append((f"{key} {d['name']}", mode, f"{fg} on {bg}", c[fg], c[bg], f"{r:.2f}", minimum, "pass" if ok else "FAIL", use))
+                rows.append((f"{key} ({d['name']})" if key == "working set" else f"{key} {d['name']}", mode, f"{fg} on {bg}", c[fg], c[bg], f"{r:.2f}", minimum, "pass" if ok else "FAIL", use))
     if "--markdown" in sys.argv:
         print("| Direction | Mode | Pair | Colors | Ratio | AA needs | Result | Use |")
         print("| --- | --- | --- | --- | --- | --- | --- | --- |")
