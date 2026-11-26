@@ -39,7 +39,7 @@ You asked: "Isn’t this basically canceled out by the new larger health contrib
    - The FY2035 transfer is $371.7B, not $497.8B.
    - The general fund's FY2030-39 gap is $776.5B, not $628.1B. The general fund now carries the take-back's Social Security part in FY2031-34.
    - From FY2040 the general-fund gap doesn't move, because the law fixes the general fund's share.
-   - **Booked in #514** (`settlement.json`'s `source_shares`, budget model 0.5.0). The rate rule, rerun on the fixed figures, holds 3.80% through FY2043 (it stepped up in FY2041 in #507). It is then 4.05% in FY2044-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55 and 4.05% in FY2056.
+   - **Booked in #515** (`settlement.json`'s `source_shares`, budget model 0.5.0). The rate rule, rerun on the fixed figures, holds 3.80% through FY2043 (it stepped up in FY2041 in #507). It is then 4.05% in FY2044-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55 and 4.05% in FY2056.
    - With the new rate path, the plan's debt is 129.4% of GDP in FY2056, against 129.1% in #507. It is 121.5% in FY2045 and 124.7% in FY2050 (121.2% and 124.3%); FY2040 stays 117.8%.
 
 ## The options
@@ -83,4 +83,4 @@ None of A, B or C moves the reserve: each keeps the Social Security part out of 
 - **B** quietly takes Social Security's money for good. It is the hardest to defend once the money is large, $248B a year by FY2056.
 - **R2.** It is point 2 as decided, carried as far as the fund's own money reaches. R3 would need $83B more from the general fund in FY2030-34. Point 2 assumed that money was already health's, but it was Social Security's.
 
-**The HEX fix is booked already (#514).** It was the larger error, and the reserve figures above depend on it.
+**The HEX fix is booked already (#515).** It was the larger error, and the reserve figures above depend on it.

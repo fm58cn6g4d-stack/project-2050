@@ -72,7 +72,7 @@ After `DEC-2026-11-25-12` (the health contribution pays only for the health syst
 
 ## I2: HX's Social Security part (G29, provisional)
 
-[G29](G29-hx-social-security-part.md) answers I2 with sourced figures. The Social Security part is about 28% of the net exclusion revenue (HX less HEX; range 22-30%), about $100B in FY2040, not $290B. Espen asked for this (I2 C, `DEC-2026-11-26-02`: source the share first, then the options). G29 also found that #507 weighted HEX in full against a partly weighted HX; #514 books the fix, so the fund's reserve as built is $307.9B, not $159.5B, and FY2056 debt is 129.4%, not 129.1%. **The options are provisional, not decided.**
+[G29](G29-hx-social-security-part.md) answers I2 with sourced figures. The Social Security part is about 28% of the net exclusion revenue (HX less HEX; range 22-30%), about $100B in FY2040, not $290B. Espen asked for this (I2 C, `DEC-2026-11-26-02`: source the share first, then the options). G29 also found that #507 weighted HEX in full against a partly weighted HX; #515 books the fix, so the fund's reserve as built is $307.9B, not $159.5B, and FY2056 debt is 129.4%, not 129.1%. **The options are provisional, not decided.**
 
 | Memo | Question | Recommended | Effect |
 | --- | --- | --- | --- |

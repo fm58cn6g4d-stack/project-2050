@@ -77,7 +77,7 @@ Updated November 26, 2026 (about 03:45 UTC) by the lead, session_01UQzgBvwWV1mQ7
 
 ## Next, in order
 
-1. **The fiscal path decisions** (now): G27.1a is decided (A, `DEC-2026-11-26-01`), and I2 C (`DEC-2026-11-26-02`) asked for the share sourced first: memo G29 puts HX's OASDI part at about $100B a year in FY2040 (range $79-107B), still booked on the general fund, and #514 books G29's HEX fix. Espen's open questions are G29 (where that part goes, and the reserve) and G30 (G24.1's rebate phase-out). Then the money scene's re-pin. Re-run the settlement and the debt path as later waves add cost, at each new CBO baseline, and before 2028.
+1. **The fiscal path decisions** (now): G27.1a is decided (A, `DEC-2026-11-26-01`), and I2 C (`DEC-2026-11-26-02`) asked for the share sourced first: memo G29 puts HX's OASDI part at about $100B a year in FY2040 (range $79-107B), still booked on the general fund, and #515 books G29's HEX fix. Espen's open questions are G29 (where that part goes, and the reserve) and G30 (G24.1's rebate phase-out). Then the money scene's re-pin. Re-run the settlement and the debt path as later waves add cost, at each new CBO baseline, and before 2028.
 2. **Stage H, the toolkit and front door** (now: H2b's label, H9's Figma sync; next H10, the toolkit page, and H11, publishing, which Espen approves; a full public release needs Espen's review, `DEC-2026-11-25-19`).
 3. **Maintenance, later:** the small items above. M1 and the immigration small items are done.
 
