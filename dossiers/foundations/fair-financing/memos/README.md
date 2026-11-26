@@ -70,6 +70,14 @@ After `DEC-2026-11-25-12` (the health contribution pays only for the health syst
 | G27 | How the rate moves after 2040 | **A** (decided, `-31`): the contribution pays a fixed share of the fund's cost (Part B's model); trustees' reserve band; the early surplus kept in the fund | R about 4.1% by FY2056; general fund $158B better in FY2056 (as booked: 4.05-4.30%, 4.30% in FY2056) |
 | G28 | The health contribution and the debt plan | **A** (decided, `-32`): only as a smaller general-fund share of health's cost, by law, under a certified ceiling | none against batch 4 (B, off the menu, costs a larger surtax without a VAT: $161-276B in FY2040) |
 
+## I2: HX's Social Security part (provisional)
+
+[G29](G29-hx-social-security-part.md) answers I2 with sourced figures. The Social Security part is about 28% of the net exclusion revenue (HX less HEX; range 22-30%), about $100B in FY2040, not $290B. G29 also finds that #507 weights HEX in full against a partly weighted HX, so the fund's reserve as built is $307.9B, not $159.5B. Fixing that is a separate tier-3 PR. **Provisional, not decided.**
+
+| Memo | Question | Recommended | Effect |
+| --- | --- | --- | --- |
+| [G29](G29-hx-social-security-part.md) | Where the Social Security part of the tax on former premiums goes, and the reserve | **C**: the general fund through FY2044, Social Security from FY2045, written in law; **R2**: a $250B standing reserve, with $57.9B drawn in FY2035 | Social Security depletion 2069 instead of 2061; the general fund as booked through FY2044, still closing from FY2045 |
+
 ## What the settlement rests on, and who decided it
 
 | Assumption | Source | Decided by Espen? |
