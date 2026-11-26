@@ -2,6 +2,8 @@
 
 Role: the model card of `MOD-immigration`, which prices the immigration flagship's decided design (`dossiers/immigration/`, `DEC-2026-11-12-07` and its amendments) on federal fiscal years: the system's capacity (USCIS, the asylum corps, the immigration courts, detention), adjudication, the fiscal effect of status, and, in a separate unbooked module, the labor-market effects (`charter/PLAN.md` 3.4). It serves the dossier's section 6 and the budget model's booking. Status: **working** (set 2026-11-25, step H6: the flagship 6 figures booked in the budget model rest on it, it has tests and a validation table; it stays below "preview" and "released", which wait for memo H1). Owner: the Project 2050 lead session (Claude Code), through GitHub issues on this repository. Version: 0.2.0, see `CHANGELOG.md`; the dossier's first version is from November 12, 2026 (board row I4). License: the line step H2b adds once memo H2 is answered. Every output of this model is analysis of the evidence, not an official score or a benefit determination; its results files carry that line in their header.
 
+License: the code is Apache 2.0, this card and the model's other writing are CC BY 4.0, and its parameter and data files are CC0 (see [`LICENSES.md`](../../../LICENSES.md); `DEC-2026-11-25-33`).
+
 ## What it answers
 
 For FY2030-40 (federal fiscal years; FY2030-39 is the window, FY2040 the first permanent year), in nominal dollars, a cost positive, against current law as it will stand in January 2029:

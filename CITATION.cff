@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use Project 2050's models or writing, please cite it as below."
+title: "Project 2050: a policy program and its modeling toolkit"
+type: software
+authors:
+  - name: "Project 2050"
+repository-code: "https://github.com/fm58cn6g4d-stack/project-2050"
+license: Apache-2.0
+date-released: "2026-11-25"
+keywords:
+  - public policy
+  - federal budget
+  - microsimulation
+  - policy modeling
