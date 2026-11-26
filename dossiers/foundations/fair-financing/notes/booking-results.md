@@ -27,7 +27,7 @@ The switches (no path of their own): the $300 credit ended, the 2 points ended, 
 | Before the settlement | -159.6 | 133.0 | 555.0 | 841.4 | 851.6 | 857.2 | 814.0 | 606.5 | 606.7 | 601.2 | 605.9 | 746.0 | 1083.1 | 4005.5 |
 | **Booked** | **-103.9** | **-29.1** | **47.7** | **278.1** | **273.7** | **260.6** | **194.4** | **-14.1** | **-38.6** | **-67.8** | **-162.7** | **-322.2** | **-437.5** | **776.5** |
 
-- Health contribution base rate R = 3.80% from 2035, re-founded as the health fund's rate (G26 A); from FY2041 the fund's own rule (G27 A; the band's base a working assumption pending Espen, G27.1a): FY2040 3.80%, FY2044 4.05%, FY2046 4.30%, FY2048 4.05%, FY2052 4.30%, FY2056 4.05%.
+- Health contribution base rate R = 3.80% from 2035, re-founded as the health fund's rate (G26 A); from FY2041 the fund's own rule (G27 A; the band on the contribution's own share, tested one year ahead, G27.1a A, `DEC-2026-11-26-01`): FY2040 3.80%, FY2044 4.05%, FY2046 4.30%, FY2048 4.05%, FY2052 4.30%, FY2056 4.05%.
 - The health fund as its own account (`DEC-2026-11-25-28`, `-31`): the general fund's transfer to the fund / the fund's reserve ($B): FY2030 0.0 / 116.9, FY2034 0.0 / 307.9, FY2035 371.7 / 307.9, FY2039 656.4 / 307.9, FY2040 644.2 / 307.9, FY2045 906.2 / 230.2, FY2050 1159.7 / 341.4, FY2056 1629.2 / 505.2. The general fund's gap counts only the transfer; FY2030-34's surplus stays in the fund.
 - Every year FY2040-56 closes: worst FY2040, -14.1.
 - A general-fund reading only, not a rate under `DEC-2026-11-25-12`: the base rate at which the general fund would just close each year: FY2040 3.74%, FY2042 3.52%, FY2045 3.46%, FY2050 3.09%, FY2056 3.03%.

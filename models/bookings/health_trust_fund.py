@@ -151,8 +151,8 @@ def gross_baseline():
 
 def band_readings(rows, gross, start):
     """G27 A's rule (DEC-2026-11-25-31 point 1) under three readings of its band, "15-25% of a year's spending",
-    which the decision doesn't pin down: on the contribution's own share of the fund's cost (booked, the working
-    assumption pending Espen, G27.1a), on the fund's new spending, and on its whole spending (the baseline's own
+    which the decision doesn't pin down: on the contribution's own share of the fund's cost (booked, decided:
+    G27.1a A, DEC-2026-11-26-01), on the fund's new spending, and on its whole spending (the baseline's own
     federal health spending added). Each tests the reserve one year ahead, as booked; the reserve starts at the
     $250B standing reserve and moves by the contribution's yield less its fixed share of the cost (the general fund
     pays the rest by law). Returns {reading: (rates {year: R}, reserve FY2056)}."""
@@ -284,7 +284,7 @@ def markdown(r):
     hi_early = sum(rows[y]['hi'] for y in range(2030, 2035))
     L += ['', '## 3. The fund\'s reserve if FY2030-34\'s surplus stays in it', '',
           '- Of FY2030-34\'s surplus, %s is HI\'s credit of H1a and HLT-6\'s Part A share, which HI already holds and which folds into the fund in 2035.' % f(hi_early),
-          '- The rest, which reaches the general fund\'s figures, built over FY2030-34: %s. Held as the fund\'s standing reserve, as built (a working assumption pending Espen, I2: `DEC-2026-11-25-31` point 2 has $250B standing and $141B drawn): %s. Drawn to lower the general fund\'s transfer: %s.' % (
+          '- The rest, which reaches the general fund\'s figures, built over FY2030-34: %s. Held as the fund\'s standing reserve, as built (a working assumption pending Espen\'s answer on memo G29: `DEC-2026-11-25-31` point 2 has $250B standing and $141B drawn): %s. Drawn to lower the general fund\'s transfer: %s.' % (
               f(built), f(built - sum(draw.values())), ', '.join('FY%d %s' % (y, f(v)) for y, v in draw.items() if v) or 'none'),
           '- Unified debt is unchanged: the money is the same; only the split between the general fund and the fund moves. The general fund\'s own FY2030-34 position is %s worse, and its FY2035-39 transfer %s smaller.' % (f(built), f(sum(draw.values()))),
           '- Interest the fund would be credited on its reserve is an intragovernmental payment, netted out of the unified budget; it is not modeled.',
@@ -305,10 +305,10 @@ def markdown(r):
                                          ' / '.join(f(v[y]['agenda_gf_primary_bn']) for y in (2045, 2050, 2056))))
     L += ['', 'The general-fund gap here has the health fund as its own account (FY2030-34\'s surplus held in the fund), so its '
           'FY2030-39 years differ from step 10\'s; FY2040 and later are the same accounting.',
-          '', '## 4a. The band\'s base: the rate under each reading (G27.1a, a working assumption pending Espen)', '',
-          'The decision sets the band at "15-25% of a year\'s spending" without naming whose spending or which projected '
-          'year is tested. Booked: the contribution\'s own share of the fund\'s cost, tested one year ahead, the one reading that '
-          'gives 3.80% in FY2040 drifting to about 4.1%. Each row starts from the booked standing reserve (as built, I2).', '',
+          '', '## 4a. The band\'s base: the rate under each reading (G27.1a: A decided, `DEC-2026-11-26-01`)', '',
+          '`DEC-2026-11-25-31` set the band at "15-25% of a year\'s spending" without naming whose spending or which projected '
+          'year is tested. Espen chose A (`DEC-2026-11-26-01`): the contribution\'s own share of the fund\'s cost, tested one year ahead, '
+          'which is booked. The other readings are shown for reference. Each row starts from the booked standing reserve (as built, pending memo G29).', '',
           '| The band read on | R FY2041 | FY2045 | FY2050 | FY2056 | Highest R | Reserve FY2056 ($B) |', '| --- | --- | --- | --- | --- | --- | --- |']
     for name, (path, res) in r['bands'].items():
         L.append('| %s | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %s |' % (

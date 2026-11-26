@@ -131,9 +131,8 @@ def rate_rule(ctx, d=None):
     (the law's share, recovery-budget/model.py's health_fund()), so the fund's reserve moves only by the contribution's
     yield less s x its cost. Each year from FY2041 the trustees project the reserve one year ahead at the current rate;
     if it would leave the band (15-25%) the rate steps a quarter point, at most once a year, never below 3.25%. No
-    yearly reset. WORKING ASSUMPTION, pending Espen (G27.1a): the band is read on the contribution's own share of the
-    fund's cost and tested one year ahead; the decision names neither (part 8 of 2-settlement.md shows the other
-    readings). The reserve starts at FY2039's (the $250B standing reserve). Interest on the reserve is not modeled.
+    yearly reset. Decided (G27.1a A, DEC-2026-11-26-01): the band is read on the contribution's own share of the
+    fund's cost and tested one year ahead (part 8 of 2-settlement.md shows the other readings). The reserve starts at FY2039's (the $250B standing reserve). Interest on the reserve is not modeled.
     Returns dict(share, path {year: rate}, reserve {year: $B}, needed {year: the smooth share's rate})."""
     d = d or doc()
     hf, hr = d['health_fund'], d['health_contribution_base_rate']
@@ -329,7 +328,7 @@ def markdown(r):
           '| --- |' + ' --- |' * (len(yrs) + 1),
           '| Before the settlement | ' + ' | '.join('%.1f' % r['gap_before'][y] for y in yrs) + ' | %.1f |' % r['gap_before_2030_39'],
           '| **Booked** | ' + ' | '.join('**%.1f**' % r['gap'][y] for y in yrs) + ' | **%.1f** |' % r['gap_2030_39'], '',
-          '- Health contribution base rate R = %.2f%% from 2035, re-founded as the health fund\'s rate (G26 A); from FY2041 the fund\'s own rule (G27 A; the band\'s base a working assumption pending Espen, G27.1a): %s.' % (
+          '- Health contribution base rate R = %.2f%% from 2035, re-founded as the health fund\'s rate (G26 A); from FY2041 the fund\'s own rule (G27 A; the band on the contribution\'s own share, tested one year ahead, G27.1a A, `DEC-2026-11-26-01`): %s.' % (
               r['rate'], ', '.join('FY%d %.2f%%' % (y, v) for y, v in r['path'].items() if y == 2040 or v != r['path'][y - 1])),
           '- The health fund as its own account (`DEC-2026-11-25-28`, `-31`): the general fund\'s transfer to the fund / the fund\'s reserve ($B): ' + ', '.join(
               'FY%d %.1f / %.1f' % (y, t, v) for y, (t, v) in r['fund'].items()) + '. The general fund\'s gap counts only the transfer; FY2030-34\'s surplus stays in the fund.',

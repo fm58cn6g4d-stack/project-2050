@@ -52,7 +52,7 @@ The sensitivity adds the baseline's own federal health spending (CBO's Medicare 
 ## 3. The fund's reserve if FY2030-34's surplus stays in it
 
 - Of FY2030-34's surplus, 425.4 is HI's credit of H1a and HLT-6's Part A share, which HI already holds and which folds into the fund in 2035.
-- The rest, which reaches the general fund's figures, built over FY2030-34: 307.9. Held as the fund's standing reserve, as built (a working assumption pending Espen, I2: `DEC-2026-11-25-31` point 2 has $250B standing and $141B drawn): 307.9. Drawn to lower the general fund's transfer: none.
+- The rest, which reaches the general fund's figures, built over FY2030-34: 307.9. Held as the fund's standing reserve, as built (a working assumption pending Espen's answer on memo G29: `DEC-2026-11-25-31` point 2 has $250B standing and $141B drawn): 307.9. Drawn to lower the general fund's transfer: none.
 - Unified debt is unchanged: the money is the same; only the split between the general fund and the fund moves. The general fund's own FY2030-34 position is 307.9 worse, and its FY2035-39 transfer 0.0 smaller.
 - Interest the fund would be credited on its reserve is an intragovernmental payment, netted out of the unified budget; it is not modeled.
 - **As booked** (stage G step 11; `settlement.json`'s `health_fund`, `recovery-budget/model.py`'s `health_fund()`): the fund holds 307.9 built over FY2030-34, keeps 307.9 as its standing reserve and draws 0.0; the general fund's transfer to the fund is FY2035 371.7, FY2036 641.8, FY2037 679.4, FY2038 682.3, FY2039 656.4, FY2040 644.2, FY2045 906.2, FY2050 1159.7, FY2056 1629.2. HI's line is HI's own account until the fold-in, so it is not one of the fund's sources there.
@@ -68,9 +68,9 @@ The sensitivity adds the baseline's own federal health spending (CBO's Medicare 
 
 The general-fund gap here has the health fund as its own account (FY2030-34's surplus held in the fund), so its FY2030-39 years differ from step 10's; FY2040 and later are the same accounting.
 
-## 4a. The band's base: the rate under each reading (G27.1a, a working assumption pending Espen)
+## 4a. The band's base: the rate under each reading (G27.1a: A decided, `DEC-2026-11-26-01`)
 
-The decision sets the band at "15-25% of a year's spending" without naming whose spending or which projected year is tested. Booked: the contribution's own share of the fund's cost, tested one year ahead, the one reading that gives 3.80% in FY2040 drifting to about 4.1%. Each row starts from the booked standing reserve (as built, I2).
+`DEC-2026-11-25-31` set the band at "15-25% of a year's spending" without naming whose spending or which projected year is tested. Espen chose A (`DEC-2026-11-26-01`): the contribution's own share of the fund's cost, tested one year ahead, which is booked. The other readings are shown for reference. Each row starts from the booked standing reserve (as built, pending memo G29).
 
 | The band read on | R FY2041 | FY2045 | FY2050 | FY2056 | Highest R | Reserve FY2056 ($B) |
 | --- | --- | --- | --- | --- | --- | --- |

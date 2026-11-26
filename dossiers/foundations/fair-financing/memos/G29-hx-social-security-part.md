@@ -1,6 +1,6 @@
 # Memo G29: The Social Security part of the tax on former premiums
 
-Role: decision memo for Espen. It is question I2 from stage G step 11 (#507), with option C as the recommendation on Espen's page. Status: **provisional, not decided.** It changes no booking.
+Role: decision memo for Espen. It is question I2 from stage G step 11 (#507). You chose C on I2 (`DEC-2026-11-26-02`): source the share first, then set out the options. This memo does both. Status: **the options are provisional, not decided.** The one booking it changes is the HEX fix (finding 3), booked in #514 because it is an error whichever option you choose.
 
 Nominal $B, mixed case. These are project figures on exploratory models, not official scores. The Social Security results come from the dedicated-fund engine (`models/tools/budget/engine/funds-model.py`), run on the 2026 Trustees' rates. The general-fund and reserve results come from the recovery budget (`models/tools/recovery-budget/model.py`), run in a scratch copy.
 
@@ -12,6 +12,18 @@ That tax is income tax plus payroll tax. Under current law the Social Security (
 
 You have to decide where it goes. The rule that each important effect is booked in its appropriate place (`DEC-2026-11-25-28`) says to book it where the law puts it. The open question is whether the law should leave it with Social Security.
 
+## Your note: isn't this canceled out by the new, larger health contribution?
+
+You asked: "Isn't this basically canceled out by the new larger health contribution? Maybe not, or maybe at least this isn't how the budget model thinks about effects?" Both halves of that are partly right.
+
+- **It isn't canceled out.** The health contribution replaces Medicare's HI taxes only: the worker's HI, the 0.9% extra Medicare tax, and HI on former premiums (`models/bookings/health_trust_fund.py`, the fold-in rows HCW, HCA, HCP and HCH). It doesn't touch Social Security's 12.4% tax. And by your rule its money pays only for health (`DEC-2026-11-25-12`). So nothing in it stands in for the Social Security money.
+- **Where the Social Security part comes from.** When premiums end, the employer money that paid them becomes wages. Wages under the cap pay Social Security's 12.4%, like any other pay. Current law sends that tax to Social Security's trust funds (42 U.S.C. 401(a)). It is new Social Security revenue that the plan creates, not health money.
+- **You are right that the budget's bottom line doesn't care where it goes.** The debt path uses the unified budget, which counts Social Security and the general fund together. The same dollars are collected either way, so under A, B or C the debt held by the public is the same.
+- **Two other places do care.**
+  - **The general fund.** By law Social Security's money is off-budget, outside the general fund's totals (42 U.S.C. 911(a)). The settlement's test is the general fund's gap. If the money goes to Social Security, the general fund has about $100B a year less in FY2040.
+  - **Social Security's trust funds.** If they get the money, they last longer (2072 instead of 2061 under A).
+- **So the choice is who gets it, not whether it exists.** That is the question below.
+
 ## What this memo finds first
 
 1. **The Social Security part is about 28% of the money, not the 29.7% the booking guessed.** Sourced, the range is about 22-30%.
@@ -22,12 +34,13 @@ You have to decide where it goes. The rule that each important effect is booked 
    - FY2030-34: about $78B, not $234B.
    - FY2040: about $100B (range $79-107B).
    - FY2056: about $248B.
-3. **#507's booking needs a fix whichever option you choose.** It weights HX at 70.3% in the health fund's sources but leaves HEX at full weight, so the fund is charged for a Social Security take-back it never received. With HEX weighted like HX (scratch run, rate path as committed):
+3. **#507's booking needs a fix whichever option you choose.** It weights HX at 70.3% in the health fund's sources but leaves HEX at full weight, so the fund is charged for a Social Security take-back it never received. With HEX weighted like HX, as now booked:
    - The fund's reserve as built is **$307.9B**, not $159.5B.
    - The FY2035 transfer is $371.7B, not $497.8B.
    - The general fund's FY2030-39 gap is $776.5B, not $628.1B. The general fund now carries the take-back's Social Security part in FY2031-34.
-   - From FY2040 the general-fund gap and the debt path don't move (129.1% of GDP in FY2056), because the law fixes the general fund's share.
-   - The fix is a tier-3 change to `settlement.json`, for a separate PR.
+   - From FY2040 the general-fund gap doesn't move, because the law fixes the general fund's share.
+   - **Booked in #514** (`settlement.json`'s `source_shares`, budget model 0.5.0). The rate rule, rerun on the fixed figures, holds 3.80% through FY2043 (it stepped up in FY2041 in #507). It is then 4.05% in FY2044-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55 and 4.05% in FY2056.
+   - With the new rate path, the plan's debt is 129.4% of GDP in FY2056, against 129.1% in #507. It is 121.5% in FY2045 and 124.7% in FY2050 (121.2% and 124.3%); FY2040 stays 117.8%.
 
 ## The options
 
@@ -47,6 +60,8 @@ All three leave the general fund's share of health and the debt path's FY2056 fi
 **B** keeps the settlement as booked. Social Security gives up those 11 years, about 0.57% of taxable payroll over 75 years. That is about a fifth of what the plan's own Social Security package adds (2.81% of taxable payroll). It is a transfer from Social Security to the general fund, written in law.
 
 **C** gives Social Security most of A's gain (eight of the eleven years). It gives up the money only while the general fund has no room. The cost is a statute that names a temporary redirect, and its end date has to hold.
+
+B and C both need the plan's law to say so expressly. Section 710(b) of the Social Security Act (42 U.S.C. 911(b)) says no later law may move money between the trust funds and the general fund. Congress can still do it in a new law, and has: the 2011-12 payroll tax cut was made good to the trust funds from the general fund. But the plan would have to write it in on purpose.
 
 ## The reserve
 
@@ -68,4 +83,4 @@ None of A, B or C moves the reserve: each keeps the Social Security part out of 
 - **B** quietly takes Social Security's money for good. It is the hardest to defend once the money is large, $248B a year by FY2056.
 - **R2.** It is point 2 as decided, carried as far as the fund's own money reaches. R3 would need $83B more from the general fund in FY2030-34. Point 2 assumed that money was already health's, but it was Social Security's.
 
-**Either way, fix #507's HEX weighting first.** It is the larger error, and the reserve figures above depend on it.
+**The HEX fix is booked already (#514).** It was the larger error, and the reserve figures above depend on it.
