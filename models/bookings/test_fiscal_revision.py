@@ -46,8 +46,15 @@ class Revision(unittest.TestCase):
 
     def test_rebate(self):
         net, reb = R.vat_point(D['bk'], 2040)
-        self.assertAlmostEqual(reb, 150 * R.adults(2040) / 1000, places=6)
+        # G30 (DEC-2026-11-26-04): $150 a point for every adult, phased out over $60-80K / $120-160K of AGI
+        self.assertEqual(R.REBATE_LIMIT, {'single': (60_000, 20_000), 'joint': (120_000, 40_000)})
+        kept = R.rebate_kept()['all']
+        self.assertTrue(0.55 < kept < 0.65, kept)   # memo G30: 61% of the cost kept
+        self.assertAlmostEqual(reb, 150 * kept * R.adults(2040) / 1000, places=6)
         self.assertAlmostEqual(net + reb, R.K.VAT_POINT_2040, places=6)
+        self.assertEqual(R.rebate_factor(60_000, 'single'), 1.0)
+        self.assertEqual(R.rebate_factor(70_000, 'single'), 0.5)
+        self.assertEqual(R.rebate_factor(160_000, 'joint'), 0.0)
 
     def test_take_home_base(self):
         self.assertAlmostEqual(D['th']['base']['workers'], 69.0, delta=0.05)

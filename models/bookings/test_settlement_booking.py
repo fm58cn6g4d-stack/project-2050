@@ -46,10 +46,14 @@ class SettlementBooking(unittest.TestCase):
         screened = SB.gap(SB.screened_case(self.ctx, self.doc, hr['rate'], hr['path']))
         # the screens have no health fund: compare the general fund with the fund's own balance after its transfer
         # put back (DEC-2026-11-25-28 moves health money between the accounts, not out of the budget)
-        fund = SB.booked_case(self.ctx)['health_fund']
+        # and HX's OASDI part, which G29 C sends to Social Security's funds from FY2045, put back too (off-budget)
+        case = SB.booked_case(self.ctx)
+        fund = case['health_fund']
+        ssp = SB.K.m.social_security_part(case['audit'], self.doc['health_fund'])
+        self.assertEqual(min(ssp), 2045)
         for y in range(2030, 2057):
             own = fund[y]['spending'] - fund[y]['sources'] - fund[y]['transfer']
-            self.assertAlmostEqual(self.booked[y] + own, screened[y], delta=0.05, msg=y)
+            self.assertAlmostEqual(self.booked[y] + own - ssp.get(y, 0.0), screened[y], delta=0.05, msg=y)
 
     def test_health_fund_rule(self):
         # G27 A as booked: the share and the rate path are the rule's on the booked case; the steps are quarter points,
@@ -67,9 +71,13 @@ class SettlementBooking(unittest.TestCase):
         fund = SB.booked_case(self.ctx)['health_fund']
         self.assertEqual([fund[y]['transfer'] for y in range(2030, 2035)], [0.0] * 5)
         built = sum(fund[y]['balance'] for y in range(2030, 2035))
-        keep = built if hf['standing_reserve_bn'] is None else hf['standing_reserve_bn']   # None: as built (I2)
+        keep = built if hf['standing_reserve_bn'] is None else hf['standing_reserve_bn']   # None: as built
+        self.assertEqual(hf['standing_reserve_bn'], 250)   # G29 R2 (DEC-2026-11-26-03): $250B standing, the rest drawn in FY2035
+        self.assertGreater(built, keep)
         self.assertAlmostEqual(fund[2039]['reserve'], keep, places=6)
-        self.assertAlmostEqual(hf['source_shares']['HX'], 1 - 0.124 / 1.0765 * 0.8 / 0.31, delta=0.0005)  # HX's OASDI part out
+        # G29: OASDI's part is 0.28 of HX and of HEX alike (sourced, EV-FIN-094, -095), out of the fund's sources
+        self.assertEqual(hf['source_shares'], {'HX': 0.72, 'HEX': 0.72})
+        self.assertEqual(hf['social_security_part']['from'], 2045)   # G29 C: the general fund's through FY2044
 
     def test_closes_2040_on_at_g16b_rate(self):
         rate = self.doc['health_contribution_base_rate']['rate']

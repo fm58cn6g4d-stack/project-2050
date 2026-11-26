@@ -51,7 +51,7 @@ Each dedicated channel's revenue and outlays, kept out of the general-fund gap. 
 
 | Channel | Revenue mid | Revenue range | Outlays mid | Outlay range | Note |
 | --- | --- | --- | --- | --- | --- |
-| Social Security (OASDI) | 4.93 | 4.35-5.36 | 0.19 | 0.15-0.25 | D8 baseline; revenue stays in the trust fund; closes about 63% of the 4.45%-of-payroll 75-year gap after the haircut (funds model, legacy/index/dedicated-funds.md) |
+| Social Security (OASDI) | 4.93 | 4.35-5.36 | 0.19 | 0.15-0.25 | D8 baseline; revenue stays in the trust fund; closes about 74% of the 4.45%-of-payroll 75-year gap after the haircut (funds model, legacy/index/dedicated-funds.md) |
 | Medicare HI | 1.20 | 1.00-1.40 | 0.85 | 0.80-0.90 | H1a ($0.5T) plus HLT-6's Part A share (~$0.7T, est.); D4 read on a 75-year window, so the ~$0.3T is HI's reserve |
 | Paid-leave fund | 0.90 | 0.85-1.28 | 0.90 | 0.60-1.40 | Step-up toward 0.85% and a repayable Treasury loan; no general-fund backstop |
 | Surface transportation trust fund | 0.51 | 0.51-0.51 | 0.51 | 0.51-0.51 | Gross receipts, spent within receipts; the 24.4% income and payroll tax offset (JCT's rate) is MR6, booked on the general fund as CX; general-fund top-ups counted in MOV-29 and MOV-30 |

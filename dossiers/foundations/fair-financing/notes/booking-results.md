@@ -25,22 +25,22 @@ The switches (no path of their own): the $300 credit ended, the 2 points ended, 
 | | FY2030 | FY2033 | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | FY2040 | FY2041 | FY2042 | FY2045 | FY2050 | FY2056 | FY2030-39 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Before the settlement | -159.6 | 133.0 | 555.0 | 841.4 | 851.6 | 857.2 | 814.0 | 606.5 | 606.7 | 601.2 | 605.9 | 746.0 | 1083.1 | 4005.5 |
-| **Booked** | **-103.9** | **-29.1** | **47.7** | **278.1** | **273.7** | **260.6** | **194.4** | **-14.1** | **-38.6** | **-67.8** | **-162.7** | **-322.2** | **-437.5** | **776.5** |
+| **Booked** | **-103.9** | **-27.7** | **-15.0** | **278.1** | **273.7** | **260.6** | **194.4** | **-14.1** | **-38.6** | **-67.8** | **-19.2** | **-132.9** | **-189.4** | **718.5** |
 
-- Health contribution base rate R = 3.80% from 2035, re-founded as the health fund's rate (G26 A); from FY2041 the fund's own rule (G27 A; the band on the contribution's own share, tested one year ahead, G27.1a A, `DEC-2026-11-26-01`): FY2040 3.80%, FY2044 4.05%, FY2046 4.30%, FY2048 4.05%, FY2052 4.30%, FY2056 4.05%.
-- The health fund as its own account (`DEC-2026-11-25-28`, `-31`): the general fund's transfer to the fund / the fund's reserve ($B): FY2030 0.0 / 116.9, FY2034 0.0 / 307.9, FY2035 371.7 / 307.9, FY2039 656.4 / 307.9, FY2040 644.2 / 307.9, FY2045 906.2 / 230.2, FY2050 1159.7 / 341.4, FY2056 1629.2 / 505.2. The general fund's gap counts only the transfer; FY2030-34's surplus stays in the fund.
+- Health contribution base rate R = 3.80% from 2035, re-founded as the health fund's rate (G26 A); from FY2041 the fund's own rule (G27 A; the band on the contribution's own share, tested one year ahead, G27.1a A, `DEC-2026-11-26-01`): FY2040 3.80%, FY2043 4.05%, FY2046 4.30%, FY2048 4.05%, FY2052 4.30%, FY2056 4.05%.
+- The health fund as its own account (`DEC-2026-11-25-28`, `-31`): the general fund's transfer to the fund / the fund's reserve ($B): FY2030 0.0 / 116.9, FY2034 0.0 / 312.7, FY2035 304.6 / 250.0, FY2039 650.5 / 250.0, FY2040 638.1 / 250.0, FY2045 897.5 / 235.9, FY2050 1148.2 / 347.2, FY2056 1614.1 / 510.9. The general fund's gap counts only the transfer; FY2030-34's surplus stays in the fund.
 - Every year FY2040-56 closes: worst FY2040, -14.1.
-- A general-fund reading only, not a rate under `DEC-2026-11-25-12`: the base rate at which the general fund would just close each year: FY2040 3.74%, FY2042 3.52%, FY2045 3.46%, FY2050 3.09%, FY2056 3.03%.
-- Debt, % of GDP: FY2039 117.0, FY2040 117.8, FY2045 121.5, FY2050 124.7, FY2056 129.4 (baseline FY2040 132.7, FY2056 180.2; before the settlement 126.8 and 160.9).
+- A general-fund reading only, not a rate under `DEC-2026-11-25-12`: the base rate at which the general fund would just close each year: FY2040 3.74%, FY2042 3.52%, FY2045 3.98%, FY2050 3.66%, FY2056 3.61%.
+- Debt, % of GDP: FY2039 117.0, FY2040 117.8, FY2045 121.4, FY2050 124.5, FY2056 129.3 (baseline FY2040 132.7, FY2056 180.2; before the settlement 126.8 and 160.9).
 - Social Security: depletion 2093, 75-year balance -0.31% of payroll. HI (a current-law comparison after 2035): 2037. The education fund: solvent, reserve $46B in FY2040.
 
 ## The backstop (memos G5, G13): the gap if D2 or the wealth tax fails, and the base-rate points that close it
 
 | | FY2040 gap | R points | FY2045 gap | R points | FY2056 gap | R points |
 | --- | --- | --- | --- | --- | --- | --- |
-| without D2 | 235.3 | +1.05 | 161.3 | +0.58 | 88.8 | +0.21 |
-| without HS2 | 95.8 | +0.43 | -27.0 | +0.00 | -226.9 | +0.00 |
-| without both | 345.2 | +1.54 | 297.0 | +1.07 | 299.4 | +0.70 |
+| without D2 | 235.3 | +1.05 | 304.8 | +1.10 | 336.9 | +0.79 |
+| without HS2 | 95.8 | +0.43 | 116.5 | +0.42 | 21.2 | +0.05 |
+| without both | 345.2 | +1.54 | 440.5 | +1.59 | 547.5 | +1.28 |
 
 Without the wealth tax, the loss is HS2 net of the stack cap.
 
@@ -48,13 +48,13 @@ Without the wealth tax, the loss is HS2 net of the stack cap.
 
 | Risk | Basis | FY2040 | FY2045 | FY2056 | Base-rate points to cover FY2040 |
 | --- | --- | --- | --- | --- | --- |
-| The wage stack yields at the working elasticity (0.25) | stack note part 3: about $140B in FY2040 (rough, unverified) | 125.9 | 9.6 | -172.5 | +0.56 |
-| Pre-2025-law scores come in 10% low | 1-audit.md item 22 | 100.0 | -23.3 | -226.0 | +0.45 |
-| Joint yield risk: both of the above | review F-2, without the VAT row | 240.0 | 149.0 | 38.9 | +1.07 |
-| The avoidance allowance stays at 20% on the base rate | 1-audit.md item 9: the range is 10-25% | 48.9 | -85.0 | -316.8 | +0.22 |
-| The stack cap at its high end ($55B) | stack note part 4 | 0.9 | -144.2 | -408.7 | +0.00 |
-| C3A, the clean electricity compliance payments, vanish | 1-audit.md item 43 | 27.4 | -112.8 | -364.1 | +0.12 |
-| If a scorer counted the fold-in's HI shortfall as new | the grant's size; the correction stands (F-1) | 71.1 | -61.1 | -290.4 | +0.32 |
+| The wage stack yields at the working elasticity (0.25) | stack note part 3: about $140B in FY2040 (rough, unverified) | 125.9 | 153.1 | 75.5 | +0.56 |
+| Pre-2025-law scores come in 10% low | 1-audit.md item 22 | 100.0 | 120.2 | 22.0 | +0.45 |
+| Joint yield risk: both of the above | review F-2, without the VAT row | 240.0 | 292.5 | 287.0 | +1.07 |
+| The avoidance allowance stays at 20% on the base rate | 1-audit.md item 9: the range is 10-25% | 48.9 | 58.5 | -68.8 | +0.22 |
+| The stack cap at its high end ($55B) | stack note part 4 | 0.9 | -0.7 | -160.7 | +0.00 |
+| C3A, the clean electricity compliance payments, vanish | 1-audit.md item 43 | 27.4 | 30.7 | -116.1 | +0.12 |
+| If a scorer counted the fold-in's HI shortfall as new | the grant's size; the correction stands (F-1) | 71.1 | 82.4 | -42.4 | +0.32 |
 
 ## D3 (scenario Q-G; FY2030-39 average, $ a household a year)
 

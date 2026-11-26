@@ -164,6 +164,19 @@ def rate_rule(ctx, d=None):
     return dict(share=share, path=path, reserve=reserve, needed=needed)
 
 
+def write_ss_part(ctx):
+    """funds-ss-hx.csv: HX-SS (G29 C), the OASDI part of HX and HEX from FY2045, % of the funds model's taxable payroll,
+    negative (a gain to the funds), from the booked case (recovery-budget/model.py social_security_part())."""
+    case = booked_case(ctx)
+    ssp = K.m.social_security_part(case['audit'], doc()['health_fund'])
+    rows = ['year,hx_ss_pct_payroll,basis']
+    for i, y in enumerate(sorted(ssp)):
+        note = ('"G29 C (DEC-2026-11-26-03): recovery-budget/model.py social_security_part() on the booked case ($B) over '
+                'funds-model.py payroll(); settlement_booking.py --write"') if i == 0 else ''
+        rows.append('%d,%.4f,%s' % (y, -100 * ssp[y] / ctx.u.payroll(y), note))
+    (INPUTS / 'funds-ss-hx.csv').write_text('\n'.join(rows) + '\n')
+
+
 def write_rule(rule):
     """settlement.json's health fund share and the rate path, written in place (the file's other text unchanged)."""
     import re
@@ -391,10 +404,11 @@ def main():
     print('health fund: contribution share %.4f; rate path %s' % (rule['share'], rule['path']))
     if a.write:
         write_rule(rule)
+        write_ss_part(ctx)
         d = doc()
         der = derive(ctx, d)
         write_paths(der)
-        print('wrote settlement.json (the health fund\'s share and rate path) and settlement-paths.csv; '
+        print('wrote settlement.json (the health fund\'s share and rate path), funds-ss-hx.csv and settlement-paths.csv; '
               'rerun after the next rebuild: the rule reads the booked case')
 
 

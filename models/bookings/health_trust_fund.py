@@ -56,7 +56,7 @@ def lines_of(case):
     return out
 
 
-SHARES = K.m.SETTLEMENT['health_fund'].get('source_shares', {})   # HX: only its non-OASDI part is the fund's (I2)
+SHARES = K.m.SETTLEMENT['health_fund'].get('source_shares', {})   # HX and HEX: only their non-OASDI part is the fund's (G29)
 
 
 def grp(L, names, y):
@@ -284,7 +284,7 @@ def markdown(r):
     hi_early = sum(rows[y]['hi'] for y in range(2030, 2035))
     L += ['', '## 3. The fund\'s reserve if FY2030-34\'s surplus stays in it', '',
           '- Of FY2030-34\'s surplus, %s is HI\'s credit of H1a and HLT-6\'s Part A share, which HI already holds and which folds into the fund in 2035.' % f(hi_early),
-          '- The rest, which reaches the general fund\'s figures, built over FY2030-34: %s. Held as the fund\'s standing reserve, as built (a working assumption pending Espen\'s answer on memo G29: `DEC-2026-11-25-31` point 2 has $250B standing and $141B drawn): %s. Drawn to lower the general fund\'s transfer: %s.' % (
+          '- The rest, which reaches the general fund\'s figures, built over FY2030-34: %s. Held as the fund\'s standing reserve (G29 R2, `DEC-2026-11-26-03`: point 2\'s $250B in full; point 2 also had $141B drawn, more than the fund\'s own money reaches): %s. Drawn to lower the general fund\'s transfer: %s.' % (
               f(built), f(built - sum(draw.values())), ', '.join('FY%d %s' % (y, f(v)) for y, v in draw.items() if v) or 'none'),
           '- Unified debt is unchanged: the money is the same; only the split between the general fund and the fund moves. The general fund\'s own FY2030-34 position is %s worse, and its FY2035-39 transfer %s smaller.' % (f(built), f(sum(draw.values()))),
           '- Interest the fund would be credited on its reserve is an intragovernmental payment, netted out of the unified budget; it is not modeled.',
@@ -308,7 +308,7 @@ def markdown(r):
           '', '## 4a. The band\'s base: the rate under each reading (G27.1a: A decided, `DEC-2026-11-26-01`)', '',
           '`DEC-2026-11-25-31` set the band at "15-25% of a year\'s spending" without naming whose spending or which projected '
           'year is tested. Espen chose A (`DEC-2026-11-26-01`): the contribution\'s own share of the fund\'s cost, tested one year ahead, '
-          'which is booked. The other readings are shown for reference. Each row starts from the booked standing reserve (as built, pending memo G29).', '',
+          'which is booked. The other readings are shown for reference. Each row starts from the booked standing reserve ($250B, G29 R2).', '',
           '| The band read on | R FY2041 | FY2045 | FY2050 | FY2056 | Highest R | Reserve FY2056 ($B) |', '| --- | --- | --- | --- | --- | --- | --- |']
     for name, (path, res) in r['bands'].items():
         L.append('| %s | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %s |' % (

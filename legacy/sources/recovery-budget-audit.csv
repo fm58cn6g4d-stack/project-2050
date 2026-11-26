@@ -1656,7 +1656,7 @@ mixed,2043,Settlement S02: HCA re-derived at $70B in FY2040,-18.4527,0,18.4527
 mixed,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -7894,7 +7894,7 @@ larger_payroll,2043,Settlement S02: HCA re-derived at $70B in FY2040,-18.4527,0,
 larger_payroll,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 larger_payroll,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 larger_payroll,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-larger_payroll,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+larger_payroll,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 larger_payroll,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 larger_payroll,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 larger_payroll,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -11126,7 +11126,7 @@ mixed_downside,2043,Settlement S02: HCA re-derived at $70B in FY2040,-18.4527,0,
 mixed_downside,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed_downside,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed_downside,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed_downside,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed_downside,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed_downside,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed_downside,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed_downside,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -14360,7 +14360,7 @@ mixed_all_debt_rate_plus1,2043,Settlement S02: HCA re-derived at $70B in FY2040,
 mixed_all_debt_rate_plus1,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed_all_debt_rate_plus1,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed_all_debt_rate_plus1,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed_all_debt_rate_plus1,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed_all_debt_rate_plus1,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed_all_debt_rate_plus1,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed_all_debt_rate_plus1,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed_all_debt_rate_plus1,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -17580,7 +17580,7 @@ mixed_no_macro_translation,2043,Settlement S02: HCA re-derived at $70B in FY2040
 mixed_no_macro_translation,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed_no_macro_translation,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed_no_macro_translation,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed_no_macro_translation,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed_no_macro_translation,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed_no_macro_translation,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed_no_macro_translation,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed_no_macro_translation,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -20800,7 +20800,7 @@ mixed_leave_admin_high,2043,Settlement S02: HCA re-derived at $70B in FY2040,-18
 mixed_leave_admin_high,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed_leave_admin_high,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed_leave_admin_high,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed_leave_admin_high,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed_leave_admin_high,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed_leave_admin_high,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed_leave_admin_high,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed_leave_admin_high,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -24019,7 +24019,7 @@ mixed_ssa_medicare_all_hi,2043,Settlement S02: HCA re-derived at $70B in FY2040,
 mixed_ssa_medicare_all_hi,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed_ssa_medicare_all_hi,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed_ssa_medicare_all_hi,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed_ssa_medicare_all_hi,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed_ssa_medicare_all_hi,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed_ssa_medicare_all_hi,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed_ssa_medicare_all_hi,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed_ssa_medicare_all_hi,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -27239,7 +27239,7 @@ mixed_ssa_medicare_all_smi,2043,Settlement S02: HCA re-derived at $70B in FY2040
 mixed_ssa_medicare_all_smi,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed_ssa_medicare_all_smi,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed_ssa_medicare_all_smi,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed_ssa_medicare_all_smi,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed_ssa_medicare_all_smi,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed_ssa_medicare_all_smi,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed_ssa_medicare_all_smi,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed_ssa_medicare_all_smi,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -30459,7 +30459,7 @@ mixed_reserve_corridor,2043,Settlement S02: HCA re-derived at $70B in FY2040,-18
 mixed_reserve_corridor,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed_reserve_corridor,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed_reserve_corridor,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed_reserve_corridor,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed_reserve_corridor,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed_reserve_corridor,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed_reserve_corridor,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed_reserve_corridor,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -33692,7 +33692,7 @@ mixed_corridor_downside,2043,Settlement S02: HCA re-derived at $70B in FY2040,-1
 mixed_corridor_downside,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed_corridor_downside,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed_corridor_downside,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed_corridor_downside,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed_corridor_downside,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed_corridor_downside,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed_corridor_downside,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed_corridor_downside,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082
@@ -36926,7 +36926,7 @@ mixed_legacy_education_floor,2043,Settlement S02: HCA re-derived at $70B in FY20
 mixed_legacy_education_floor,2043,"Settlement S03: HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge",71.6101,0,-71.6101
 mixed_legacy_education_floor,2043,Settlement S04: Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes,-45.4691,0,45.4691
 mixed_legacy_education_floor,2043,Settlement S05: The states' long-term care payment at 100% (HLT-9.09),0,-174.1595,-174.1595
-mixed_legacy_education_floor,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,394.6699,0,-394.6699
+mixed_legacy_education_floor,2043,Settlement S06: The health contribution's base rate R raised from 2.25% from 2035,458.3263,0,-458.3263
 mixed_legacy_education_floor,2043,"Settlement S07: Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)",0,-112.832,-112.832
 mixed_legacy_education_floor,2043,"Settlement S08: Defense restructured, 5% below the flat-real path by FY2033",0,-63.1871,-63.1871
 mixed_legacy_education_floor,2043,Settlement S09: Crop insurance reform (REV-SC3),0,-5.3082,-5.3082

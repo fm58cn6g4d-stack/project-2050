@@ -2,6 +2,15 @@
 
 Role: the version history of `MOD-budget` (`models/schema/README.md`, "Versions"), newest first. Status: current.
 
+## 0.6.0 (2026-11-26)
+
+Espen's G29 and G30 decisions booked (`DEC-2026-11-26-03`, `-04`). New inputs and one new engine series; no change to the interface.
+- **G29 C:** the OASDI part of the tax on former premiums (HX and HEX) is now 0.28, as memo G29 sources it, not the working 0.297 (`settlement.json` `source_shares` 0.72). It stays on the general fund through FY2044 and goes to Social Security's trust funds from FY2045 (`social_security_part`). The recovery budget takes it off the general fund from FY2045 (`social_security_part()`); the dedicated-fund engine books it as HX-SS (`funds-ss-hx.csv`, a new `direct` series). Unified figures don't move. With the plan's package, Social Security's funds last to 2069, not 2061, and the 75-year balance is −1.17% of taxable payroll, not −1.64%.
+- **G29 R2:** a $250B standing reserve, with the rest of FY2030-34's surplus drawn against the FY2035 transfer: $312.7B built, $62.7B drawn, an FY2035 transfer of $304.6B. The rate rule, rerun on the $250B start, steps up in FY2043, a year earlier than in 0.5.0.
+- **Results:** the plan's debt is 129.3% of GDP in FY2056, against 129.4% in 0.5.0. The general fund's gap is −$19.2B in FY2045, −$132.9B in FY2050 and −$189.4B in FY2056 (−$162.7B, −$322.2B and −$437.5B in 0.5.0), and $718.5B over FY2030-39 ($776.5B).
+- **G30** is booked in `models/bookings/fiscal_revision.py` (the rebate's phase-out), not in this model's reference results.
+- Current law and the CBO option change only in the hashes of the changed inputs.
+
 ## 0.5.0 (2026-11-26)
 
 The health fund's sources weight HEX like HX (memo G29, finding 3; `settlement.json` `source_shares`). HEX, the tax on former premiums that the employer contribution takes back from HX, carries the same Social Security part as HX. 0.4.0 left HX's part out of the fund but kept HEX's take-back in full. A new input, with no change to the code or the interface.

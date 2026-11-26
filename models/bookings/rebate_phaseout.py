@@ -12,7 +12,8 @@ an income threshold, on the same tools that price G24 B (`fiscal_revision.py`). 
     (OUT, DED, SUR) counted as fiscal_revision.take_home_mix counts them, and each worker unit's rebate phased out on its own AGI (`fiscal_revision.TakeHome`, adults as there: head and spouse);
   * by fifth of households (D3's groups), the VAT a household pays and the rebate it gets back, FY2040.
 The threshold and range are held at the same share of incomes over time (indexed to incomes). Project arithmetic on
-exploratory models, not official scores. Nothing booked.
+exploratory models, not official scores. G30 is decided ($60K / $120K, DEC-2026-11-26-04) and booked in
+fiscal_revision.REBATE_LIMIT; the other rows are the options Espen chose among.
 
 Run after the common rebuild:  python3 models/bookings/rebate_phaseout.py [--write]
 """
@@ -30,81 +31,17 @@ FIFTHS = ('Q1', 'Q2', 'Q3', 'Q4', 'Q5')
 # (label, single and head-of-household threshold, joint threshold, phase-out width single, joint), $ of AGI
 OPTIONS = (
     ('No limit (G24 B as decided)', None, None, 0, 0),
-    ('$100K single / $200K joint (your idea)', 100_000, 200_000, 20_000, 40_000),
+    ('$100K single / $200K joint (Espen's idea)', 100_000, 200_000, 20_000, 40_000),
     ('$75K / $150K', 75_000, 150_000, 20_000, 40_000),
-    ('$60K / $120K', 60_000, 120_000, 20_000, 40_000),
+    ('$60K / $120K (decided, G30)', 60_000, 120_000, 20_000, 40_000),
     ('$40K / $80K', 40_000, 80_000, 20_000, 40_000),
 )
 
 
-def factor(agi, fs, opt):
-    """The share of the rebate a unit keeps."""
+def limit(opt):
+    """An option as fiscal_revision.REBATE_LIMIT's form ({} for no limit)."""
     _, ts, tj, ws, wj = opt
-    if ts is None:
-        return 1.0
-    t, w = (tj, wj) if fs == 'joint' else (ts, ws)
-    return min(1.0, max(0.0, 1.0 - (agi - t) / w))
-
-
-def unit_adults(u):
-    return 1 + (u['age_s'] >= 0) + u['n_dep_18'] + u['n_dep_19_23_student'] + u['n_dep_other']
-
-
-class PhasedTakeHome(FR.TakeHome):
-    """fiscal_revision.TakeHome with each unit's rebate phased out on its own AGI."""
-    opt = OPTIONS[0]
-
-    def run(self, R, vat_rate=0.0, top_bn=0.0, carb_bn=0.0, carb_div_bn=0.0):
-        HC, price = self.HC, self.hctx['price_2040']
-        o = HC.unified_package(self.hctx, self.case, HC.unified_spec(R=R, S=5.0 + self.fold, hi=2.5, form='linear'))
-        reb_adult = vat_rate * FR.REBATE_PER_POINT_2040 / price
-        top_k = top_bn * 1e9 / price / self.excess_total if self.excess_total else 0.0
-        n = ahead = n_low = ahead_low = 0.0
-        for u in self.units:
-            if not HC._is_worker(u):
-                continue
-            members = self.hh_units[u['hh']]
-            share = max(u['n_people'], 1) / sum(max(v['n_people'], 1) for v in members)
-            q = 'Q%d' % self.g5.get(u['hh'], 3)
-            n_ad = max(u['n_people'] - u['n_dep'], 1)
-            agi = u['t_agi'] * self.igrow
-            fs = 'joint' if u['t_fs'] == 'joint' else 'single'
-            extra = (vat_rate * self.per_point[q] / price * share - reb_adult * n_ad * factor(agi, fs, self.opt)
-                     + top_k * self.excess(u))
-            nn = max(u['n_people'], 1)
-            kind = 'job' if u['n_employer_cov'] > 0 else ('own' if u['n_marketplace'] > 0 else
-                                                         ('medicaid' if u['n_medicaid'] > 0 else
-                                                          ('medicare' if u['n_medicare'] > 0 else 'uninsured')))
-            prem = u['premiums_paid'] * self.hgrow
-            oop = self.oop
-            oo = (u['n_employer_cov'] * oop['esi'] + u['n_marketplace'] * oop['ng_sub'] + u['n_medicaid'] * oop['medicaid']
-                  + u['n_medicare'] * oop['medicare']
-                  + max(nn - u['n_employer_cov'] - u['n_marketplace'] - u['n_medicaid'] - u['n_medicare'], 0)
-                  * oop['uninsured']) + u['n_medicare'] * self.partb
-            today, plan = HC.visible(agi, fs, nn, kind, prem if kind == 'job' else 0.0,
-                                     oo + (prem if kind != 'job' else 0.0), o, HC.fpl200(nn),
-                                     earn=HC.earn_unit(u) * self.igrow, low2=False)
-            w = u['weight']
-            ok = plan + extra <= today
-            n += w
-            ahead += w * ok
-            if agi / (HC.fpl200(nn) / 2) < 2:
-                n_low += w
-                ahead_low += w * ok
-        return dict(workers=round(100 * ahead / n, 1), below_200fpl=round(100 * ahead_low / n_low, 1))
-
-
-def kept(th, opt):
-    """Share of the rebate's adults kept, all units and by fifth (adult-weighted, the phase-out counted)."""
-    tot, keep = {}, {}
-    for u in th.units:
-        fs = 'joint' if u['t_fs'] == 'joint' else 'single'
-        a = u['weight'] * unit_adults(u)
-        q = 'Q%d' % th.g5.get(u['hh'], 3)
-        for g in (q, 'all'):
-            tot[g] = tot.get(g, 0.0) + a
-            keep[g] = keep.get(g, 0.0) + a * factor(u['t_agi'] * th.igrow, fs, opt)
-    return {g: keep[g] / tot[g] for g in tot}
+    return {} if ts is None else {'single': (ts, ws), 'joint': (tj, wj)}
 
 
 def build():
@@ -113,22 +50,22 @@ def build():
     pp = FR.FP.per_point(FR.K.Context())
     G, _ = FR.goals(B)
     goal = G['B']['goal']
-    mat = FR.Mature()
-    th = PhasedTakeHome(mat)
-    gross, reb0 = FR.K.VAT_POINT_2040, FR.vat_point(bk, 2040)[1]
-    base_rebate = FR.REBATE_PER_POINT_2040
-    hh40 = mat.households(2040)
     fixed = FR.source_paths(bk, ('OUT', 'DED', 'SUR'))
     top = sum(p[2040] for k, p in fixed.items() if FR.SOURCES[k][6] == 'surtax')   # as fiscal_revision.take_home_mix
+    booked = FR.REBATE_LIMIT
     rows = []
     try:
+        FR.REBATE_LIMIT = {}
+        mat = FR.Mature()   # adults' share by fifth, before any limit
+        th = FR.TakeHome(mat)
+        hh40 = mat.households(2040)
+        gross, reb0 = FR.K.VAT_POINT_2040, FR.vat_point(bk, 2040)[1]
+        base = th.run(FR.FP.R_BOOKED)
         for opt in OPTIONS:
-            k = kept(th, opt)
-            FR.REBATE_PER_POINT_2040 = base_rebate * k['all']
+            FR.REBATE_LIMIT = limit(opt)
+            k = FR.rebate_kept()
             rate = FR.plug_rate(bk, B['ph3'], goal, ('OUT', 'DED', 'SUR'), 'VAT', 2035, pp)
             net, reb = FR.vat_point(bk, 2040)
-            FR.REBATE_PER_POINT_2040 = base_rebate
-            th.opt = opt
             t = th.run(FR.FP.R_BOOKED, rate, top)
             fifth = {}
             for q in FIFTHS:   # FY2040, $ a household, nominal: VAT paid at the rate, rebate received
@@ -137,9 +74,8 @@ def build():
                 fifth[q] = (vat, rb)
             rows.append(dict(opt=opt, kept=k, rate=rate, net=net, reb=reb, take=t, fifth=fifth))
     finally:
-        FR.REBATE_PER_POINT_2040 = base_rebate
-        th.opt = OPTIONS[0]
-    return dict(rows=rows, gross=gross, reb0=reb0, top=top, base=th.run(FR.FP.R_BOOKED))
+        FR.REBATE_LIMIT = booked
+    return dict(rows=rows, gross=gross, reb0=reb0, top=top, base=base)
 
 
 def pct(x):
@@ -157,7 +93,7 @@ def markdown(d):
          'and AGI surtax, then a rebated VAT from FY2035) on memo G23\'s goal B, re-solved for each limit; the take-home '
          'test and the fifths in FY2040. Thresholds are AGI at today\'s prices on FY2040 incomes, the units of the AGI '
          'surtax\'s $100K/$200K, indexed to incomes. Heads of household take the single figures. Project arithmetic on '
-         'exploratory models, not official scores. Nothing booked.', '',
+         'exploratory models, not official scores. Decided: $60K / $120K (`DEC-2026-11-26-04`), booked in `fiscal_revision.REBATE_LIMIT`; the other rows are the options.', '',
          'A VAT point raises $%.1fB net in FY2040 before the rebate; the rebate for every adult costs $%.1fB a point.' % (
              d['gross'], d['reb0']), '',
          '## 1. The options', '',

@@ -20761,7 +20761,7 @@
     "models/tools/fiscal-recovery/assumptions.json": "cd63d4a56ae602646cce31c61ccd848ebb3d9635244e1f35dab8c42aab47532b",
     "models/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
     "models/tools/budget/engine/fiscal-model.py": "2013791779751075467c6d3c265583063ff8a69f1cda7cae064b9ce08b256d56",
-    "models/tools/budget/engine/funds-model.py": "d5e3485d52bfb0134b230d4fa5157c931a747eb6e47beb9c3f54b2b474eb7a6c",
+    "models/tools/budget/engine/funds-model.py": "6101f1c6982264dbd6fa9767fcb847afcfc6342b53cd3e1821e440a2397014cc",
     "models/tools/household/d3.py": "53f4a068853b108013413fb8e23269ced979e8a33756b2bae83cfe3edce6063e",
     "models/tools/household/provisions.py": "aa506b70779a4b85088f8e0783774d3cbe0c733d0c8d1b65a05ba275bb02f9ef",
     "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
@@ -20782,8 +20782,9 @@
     "models/data/inputs/funds-hi-rates.csv": "2255534360d5f7ef1edbc72078f92fd50d9ee3103fc55c20edd3c7f050c4e776",
     "models/data/inputs/funds-parameters.csv": "14ba2da2f3e6b512ac8e359f9b0a6d330d794a43cbe538a2b7fa5c4d0a39519d",
     "models/data/inputs/funds-ss-economics.csv": "06da6a41f50be9c8d35a319b70fe33bc1cc5563bc19b54623b59291499eee657",
+    "models/data/inputs/funds-ss-hx.csv": "dca4d6e7bcf7476a7d15ee9d4bcb85e60a1afeef7f480b64482ee450aec2d073",
     "models/data/inputs/funds-ss-offbudget.csv": "07aa1ce89fed5d9a57ad25a3d095a7467872ed03036ce0baa5c497963a4db60a",
-    "models/data/inputs/funds-ss-provisions.csv": "83605445a0ce5fcb8d9319b75c69132aaa8e9620278b18f100b349ad55e7f6c2",
+    "models/data/inputs/funds-ss-provisions.csv": "d9ee8c5999d8dc591c87a6671a9ac5bab725f1fc44ceac5cec7581a9ca491288",
     "models/data/inputs/funds-ss-rates.csv": "c6388ac3a0688374d3e9a5accfcaff2ab1e5a336f530df447fe3cc6166cf5d1e",
     "models/data/inputs/funds-ss-ssa-runs.csv": "e8395c782c528874d5d9197564e485285e8fffa42d21c5729d843d8e5948a9e9",
     "models/data/inputs/funds-ss-ssa-summary.csv": "48c6b349c6ea9db6f9c817c861b828a1128a8d86a00d2750241e50a4542a1c42",
@@ -20795,7 +20796,7 @@
     "models/data/inputs/ledger-cuts.csv": "1bbdea586037a37cf20d43d61b81b1ba8751b2236d4ec600b97b10c3bb308f0a",
     "models/data/inputs/ledger-dynamic.csv": "a82113e9237ea735b6fe885d433a8ff7901bae340926bdb5b94dccc361c2ebdb",
     "models/data/inputs/ledger-revenue.csv": "0268ee69fe1996e083ca28a06e0e2998f68ce2851661ffd3a04401392933e4d9",
-    "models/data/inputs/settlement-paths.csv": "d8a6ff7a6e65edd9e23c130d63271b7f5fde77308d8a37196195cf8fa080f0b5",
+    "models/data/inputs/settlement-paths.csv": "de05db92d9c7add52503ab8f27845e9ad3eac5989e627599d58f687f6069b326",
     "models/data/inputs/votes-bills.csv": "b789257ed53185ba61bad385bddf7714686d4075ccd2d09064ad8585392db0f4",
     "models/data/inputs/votes-senate.csv": "2ba0d75a064e7c62b69b3e6138374ded3aba32a1bf55f23105c9380f78423611"
   }
