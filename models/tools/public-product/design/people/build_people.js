@@ -1,6 +1,6 @@
 // Role: writes the cast sheet and the two scene pictures for direction C as SVG (stage H step H9).
 // Usage: node models/tools/public-product/design/people/build_people.js  (writes cast.svg, scene-clinic.svg, scene-home.svg here)
-// Status: draft placeholders, November 26, 2026. Each scene shows one household, from H8's day.json (#509):
+// Status: draft placeholders, November 26, 2026 (clinic sign changed from a cross to a heart the same day). Each scene shows one household, from H8's day.json (#509):
 // scene 3 is Jordan's urgent care visit, scene 6 is Eli's room in Carol and Dev's house.
 const fs = require('fs'), path = require('path');
 const { person, CAST, SCALE } = require('./people.js');
@@ -20,9 +20,10 @@ function scene(which, W, H) {
     // Jordan's urgent care visit (day.json, jordan / clinic): he holds out a bandaged hand to a nurse; his hard hat on the chair.
     s += R(0, 0, W, H, '#FFC93C', false) + R(-3, H * 0.8, W + 6, H * 0.2 + 3, '#FFF8E6');
     s += R(W * 0.06, H * 0.1, W * 0.3, H * 0.26, '#FFF8E6');                       // window
-    s += R(W * 0.72, H * 0.06, W * 0.12, W * 0.12, '#FFF8E6')                       // plus sign
-      + R(W * 0.775, H * 0.06 + W * 0.02, W * 0.01, W * 0.08, '#B5371B', false)
-      + R(W * 0.74, H * 0.06 + W * 0.055, W * 0.08, W * 0.01, '#B5371B', false);
+    // clinic sign: a teal disc with a cream heart. Never a red (or any) cross on white: the red cross is a protected emblem (18 U.S.C. 706).
+    { const cx = W * 0.78, cy = H * 0.06 + W * 0.06, r = W * 0.06, k = r / 24;
+      s += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${r.toFixed(1)}" fill="#2A9D8F" stroke="${INK}" stroke-width="3"/>`;
+      s += `<path transform="translate(${cx.toFixed(1)} ${cy.toFixed(1)}) scale(${k.toFixed(3)})" d="M0 12 C-14 2 -14 -12 -6 -12 C-2 -12 0 -9 0 -7 C0 -9 2 -12 6 -12 C14 -12 14 2 0 12 Z" fill="#FFF8E6"/>`; }
     s += R(W * 0.04, H * 0.62, W * 0.2, H * 0.03, '#B5371B') + R(W * 0.05, H * 0.65, W * 0.02, H * 0.15, INK, false) + R(W * 0.21, H * 0.65, W * 0.02, H * 0.15, INK, false); // chair
     s += `<path d="M${W * 0.09} ${H * 0.62} Q${W * 0.09} ${H * 0.55} ${W * 0.14} ${H * 0.55} Q${W * 0.19} ${H * 0.55} ${W * 0.19} ${H * 0.62} Z" fill="#FFC93C" stroke="${INK}" stroke-width="3"/>`; // hard hat on the chair
     const jordan = { ...CAST.jordan, hardhat: false, toolbelt: false, reach: true, bandage: true };
