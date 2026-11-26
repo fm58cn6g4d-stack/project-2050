@@ -2323,5 +2323,70 @@
   ],
   "checked": "2026-11-25",
   "locator": "Question 1, page 2"
+ },
+ {
+  "id": "EV-FIN-094",
+  "statement": "CBO and JCT staff (December 2024): limiting the income and payroll tax exclusion for employment-based health insurance at the 50th percentile of premiums from 2028 would raise revenues by 985 billion dollars over 2025-2034; limiting only the income tax exclusion at the same limits would raise 709 billion. The estimates include the off-budget Social Security payroll tax.",
+  "claim": "analysis",
+  "figures": [
+   "985",
+   "709",
+   "2028",
+   "2025",
+   "2034",
+   "50th"
+  ],
+  "source": "SRC-6170",
+  "anchor": [
+   "Limit the income and payroll tax exclusion for employment-based health insurance to the 50th percentile of premiums",
+   "| Change in revenuesa | 0 | 0 | 0 | 82 | 120 | 131 | 144 | 156 | 169 | 183 | 202 | 985 |",
+   "Limit only the income tax exclusion for employment-based health insurance to the 50th percentile of premiums",
+   "| Change in revenuesa | 0 | 0 | 0 | 59 | 86 | 94 | 103 | 112 | 123 | 132 | 145 | 709 |",
+   "This option would take effect in January 2028.",
+   "Estimates include the effects on Social Security payroll tax receipts, which are classified as off-budget.",
+   "2025–2034"
+  ],
+  "grade": "B",
+  "fact_date": "2024-12-12",
+  "recheck": "2027-12-31",
+  "context": "The difference between the two alternatives, 276 billion dollars or 28% of the first, is the payroll tax part of limiting the exclusion. It is a partial limit that falls on higher premiums, so it reads the payroll share of the full exclusion from below. Used in G29 to source HX's Social Security part.",
+  "supports": [
+   "dossiers/foundations/fair-financing/memos/G29-hx-social-security-part.md"
+  ],
+  "checked": "2026-11-26",
+  "locator": "Option table (Revenues, Function 550)"
+ },
+ {
+  "id": "EV-FIN-095",
+  "statement": "From OMB's FY2017 Analytical Perspectives and CBO's 2016 projections, the tax exclusion for employer-sponsored health insurance was 342.4 billion dollars in 2016 (211.0 billion income tax, 131.4 billion payroll tax) and 479.9 billion in 2026 (307.9 billion income tax, 172.0 billion payroll tax).",
+  "claim": "analysis",
+  "figures": [
+   "342.4",
+   "211.0",
+   "131.4",
+   "479.9",
+   "307.9",
+   "172.0",
+   "2016",
+   "2026",
+   "2017"
+  ],
+  "source": "SRC-6171",
+  "anchor": [
+   "| Income Tax Exclusion | 211.0 | 307.9 | 96.9 | 45.9% | 3.9% |",
+   "| Payroll Tax Exclusion | 131.4 | 172.0 | 40.7 | 30.9% | 2.7% |",
+   "| Total Tax Exclusion | 342.4 | 479.9 | 137.6 | 40.2% | 3.4% |",
+   "| 2016 | 2026a | Change ($) | Change (%) | Real growth rate (%) |",
+   "Office of Management and Budget, Analytical Perspectives, Budget of the U.S. Government, FY 2017; Congressional Budget Office, March 2016"
+  ],
+  "grade": "C",
+  "fact_date": "2016-03",
+  "recheck": "2027-12-31",
+  "context": "The payroll tax part is 38% of the full exclusion in 2016 and 36% in 2026. The figures are OMB's and CBO's as tabulated by the author, not an independent estimate. Used in G29 for the payroll share of the full exclusion.",
+  "supports": [
+   "dossiers/foundations/fair-financing/memos/G29-hx-social-security-part.md"
+  ],
+  "checked": "2026-11-26",
+  "locator": "Table, Scheduled Changes in Spending on Major Federal Health Insurance Programs and Tax Subsidies"
  }
 ]
