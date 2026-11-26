@@ -26,6 +26,7 @@ The pictures in the frames are rough placeholders built from shapes, to show the
 | `frames.md` | Every frame in the Figma file, with a link to its node |
 | `briefs.md` | The final-art brief for C (characters, cast and style), then one brief per scene, listing each family's moment from `day.json`'s `illustration` fields with how C renders it |
 | `people/` | The placeholder people as SVG: `people.js` draws one person, `build_people.js` writes `cast.svg` and the two scene pictures (`node people/build_people.js`) |
+| `figma/` | The Figma sync for C: a one-call `use_figma` script, its test, and one SVG per frame for placing by hand. It is waiting on the Starter plan's MCP quota (`figma/README.md`) |
 | `screens/` | PNG exports: the style frame, each direction's four frames, the cast sheet and the two C scene pictures |
 
 ## What the design settles, whichever direction wins
