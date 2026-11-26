@@ -28,6 +28,19 @@ python3 models/tools/climate-portfolio/test_packages.py
 python3 dossiers/immigration/tools/test_immigration_model.py
 python3 .github/scripts/test_agent_gate.py
 echo "::endgroup::"
+
+# The toolkit's frame (stage H step H2a, wired in by H2b): the card, parameter, results-header, run-log and
+# versioning checks. In CI the checkout is the PR merged into main, so its first parent is main: the version
+# comparison runs against it. Locally the check finds origin/main itself (fetch it first).
+echo "::group::toolkit checks (models/registry/toolkit_check.py and its tests)"
+python3 models/registry/test_toolkit_check.py
+python3 models/test_runlog.py
+if [ -n "${GITHUB_ACTIONS:-}" ] && git rev-parse -q --verify HEAD^2 >/dev/null; then
+  python3 models/registry/toolkit_check.py --base "$(git rev-parse HEAD^1)" --require-base
+else
+  python3 models/registry/toolkit_check.py
+fi
+echo "::endgroup::"
 # Not run: models/tools/public-product/test_build.py stops by design when a pinned source changes
 # ("review ... before advancing source_commit"); the public edition is deliberately not refreshed.
 

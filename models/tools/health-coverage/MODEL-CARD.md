@@ -2,6 +2,8 @@
 
 Role: the model card of `MOD-health-coverage`, which compares the health design options in the care dossier on three things only: coverage (people by source and income band), federal cost (federal subsidies, net of offsets) and household cost (premiums plus out-of-pocket, before any new financing). Status: **working** (set 2026-11-25, step H3: the care dossier's flagship 2 figures rest on it, it has tests and a validation table with its three misses reported; it stays below "preview" and "released", which wait for memo H1). Owner: the Project 2050 lead session (Claude Code), through GitHub issues on this repository. Version: 0.3.0, see `CHANGELOG.md`; first version 2026-11-10. License: the line step H2b adds once memo H2 is answered. Every output of this model is analysis of the evidence, not an official score or a benefit determination; its results files carry that line in their header.
 
+License: the code is Apache 2.0, this card and the model's other writing are CC BY 4.0, and its parameter and data files are CC0 (see [`LICENSES.md`](../../../LICENSES.md); `DEC-2026-11-25-33`).
+
 Under the stopping rule (`charter/STANDARDS.md`, "What needs an answer now"; `DEC-2026-11-10-07`) and the model standard (`charter/PLAN.md` 3.4) nothing is built that no memo needs; this model exists to put the restore, public option, staged and single-payer options on one footing for flagship 2, with the evidence and the assumptions visible.
 
 ## What it answers

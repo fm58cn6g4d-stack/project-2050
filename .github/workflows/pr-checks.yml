@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
           persist-credentials: false
-          fetch-depth: 2
+          fetch-depth: 0
       - id: base
         name: Record the main commit this merge result was tested against
         run: echo "sha=$(git rev-parse HEAD^1)" >> "$GITHUB_OUTPUT"
