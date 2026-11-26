@@ -31,7 +31,7 @@ FIFTHS = ('Q1', 'Q2', 'Q3', 'Q4', 'Q5')
 # (label, single and head-of-household threshold, joint threshold, phase-out width single, joint), $ of AGI
 OPTIONS = (
     ('No limit (G24 B as decided)', None, None, 0, 0),
-    ('$100K single / $200K joint (Espen's idea)', 100_000, 200_000, 20_000, 40_000),
+    ("$100K single / $200K joint (Espen's idea)", 100_000, 200_000, 20_000, 40_000),
     ('$75K / $150K', 75_000, 150_000, 20_000, 40_000),
     ('$60K / $120K (decided, G30)', 60_000, 120_000, 20_000, 40_000),
     ('$40K / $80K', 40_000, 80_000, 20_000, 40_000),
