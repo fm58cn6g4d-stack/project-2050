@@ -71,7 +71,7 @@ G24's rebate needed no application and no income test. It was paid with the chil
 **$60K single / $120K joint, phased out over $60-80K / $120-160K.**
 - **The rate:** 2.92%, a full point below the rebate for everyone (3.92%).
 - **Households, net of the rebate:** the second fifth pays least here ($899, against $1,183 with no limit). The middle fifth pays $1,601, close to its best ($1,562 at $75K), and far below $1,901 with no limit.
-- **Workers:** tied with $75K for the most workers ahead (54.5%, against 53.1% with no limit), and more low-income workers ahead (95.4%, against 93.5%). Of the two, it has the lower rate.
+- **Workers:** tied with $75K for the most workers ahead (54.5%, against 53.1% with no limit), and more low-income workers ahead (95.4%, against 93.5%). The two tie, so the choice rests on the rate and low-income workers: $60K has the lower rate (2.92% against 3.08%) and more low-income workers ahead (95.4% against 95.1%).
 - **Who keeps it:** everyone in the bottom two fifths, and nearly four in five in the middle. The rebate goes mostly to the people it does the most for.
 - **Your $100K / $200K is a sound, milder choice.** It takes the rebate almost only from the top fifth and still lowers the rate by 0.6 of a point.
 - **I would not go to $40K / $80K.** Its rate is only 0.24 points lower than $60K's, and it takes the rebate from most of the middle fifth.
