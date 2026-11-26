@@ -166,7 +166,7 @@
    "id": "COM-1"
   },
   {
-   "cost_mid": 0.169,
+   "cost_mid": 0.179,
    "id": "IMM-1"
   },
   {
@@ -811,7 +811,7 @@
   "dynamic_lo": -1.24,
   "dynamic_mid": -0.26,
   "dynamic_optimistic": 1.14,
-  "gap_after_accepted": 3.15,
-  "gap_mid": 7.66
+  "gap_after_accepted": 3.16,
+  "gap_mid": 7.67
  }
 }

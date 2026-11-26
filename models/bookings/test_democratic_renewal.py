@@ -83,9 +83,9 @@ class CostTool(unittest.TestCase):
         self.assertAlmostEqual(c["surge"], 43.2, delta=0.05)
         self.assertAlmostEqual(c["sustained"], 29.7, delta=0.05)
         self.assertAlmostEqual(c["fy2040"], 4.7, delta=0.05)
-        self.assertAlmostEqual(self.s["gap_2040"], 604.5, delta=0.05)   # before stage G's settlement; 614.6 before CLI-1's step-down (memo G25); 615.6 before G14 C's duty-to-house removal, 602.7 before the work booking, 614.0 before this one
+        self.assertAlmostEqual(self.s["gap_2040"], 606.5, delta=0.05)   # before stage G's settlement; 604.5 before I1 A rebooked IMM-1 (DEC-2026-11-25-27); 614.6 before CLI-1's step-down (memo G25); 615.6 before G14 C's duty-to-house removal, 602.7 before the work booking, 614.0 before this one
         sh = self.s["share_of_gap_2040"]
-        self.assertAlmostEqual(100 * sh["booked"], 8.53, delta=0.005)   # 8.39 on 614.6 (before CLI-1's step-down); 8.37 on 615.6; 8.29 on the 602.7 gap and nine rows; 8.14 on 614.0
+        self.assertAlmostEqual(100 * sh["booked"], 8.50, delta=0.005)   # 8.53 on 604.5 (before I1 A); 8.39 on 614.6 (before CLI-1's step-down); 8.37 on 615.6; 8.29 on the 602.7 gap and nine rows; 8.14 on 614.0
         self.assertAlmostEqual(100 * sh["unbooked"], 0.16, delta=0.005)  # the court's structure and statute tracking
         self.assertAlmostEqual(100 * sh["unbooked_hi"], 0.22, delta=0.005)
         self.assertAlmostEqual(100 * sh["priced"], 0.42, delta=0.005)    # all four lines section 6 priced (0.41 before CLI-1's step-down)

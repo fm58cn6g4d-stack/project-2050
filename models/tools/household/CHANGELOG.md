@@ -2,6 +2,11 @@
 
 Role: the version history of `MOD-household`, newest first, one entry per version under the rule in `models/schema/README.md` ("Versions"). Each entry says how far the headline results moved. Status: current.
 
+## 0.3.0 (2026-11-25)
+
+The ledger snapshot (`snapshot/ledger.json`) updated for stage G step 11's rebooking of IMM-1 (I1 A, `DEC-2026-11-25-27`: the status line on CBO's on-budget figure for H.R. 6, the ledger midpoint from $0.169T to $0.179T). No code or interface change.
+- Results: the ledger's gap figures in `results.json` move by $0.01T (`gap_mid` 7.66 to 7.67, `gap_after_accepted` 3.15 to 3.16). No household, poverty, take-home or D3 figure moved.
+
 ## 0.2.0 (2026-11-25)
 
 Step H3 of stage H: the model brought to the toolkit standard.

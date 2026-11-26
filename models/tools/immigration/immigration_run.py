@@ -31,7 +31,7 @@ import immigration_model as M  # noqa: E402
 import immigration_path as P  # noqa: E402
 import immigration_labor as L  # noqa: E402
 
-MODEL_ID, VERSION, STATUS = 'MOD-immigration', '0.1.0', 'working'
+MODEL_ID, VERSION, STATUS = 'MOD-immigration', '0.2.0', 'working'
 SCENARIOS = ('central', 'low', 'high')
 INPUT_FILES = [M.PARAMETERS, M.PLAN, L.PARAMETERS,
                # read by care's path, which memo 6's coverage line and care's base correction run on
@@ -41,7 +41,7 @@ INPUT_FILES = [M.PARAMETERS, M.PLAN, L.PARAMETERS,
 UNITS = ('$ billion, nominal, a cost positive (a revenue gain negative), by federal fiscal year FY2030-40, on the general '
          'fund unless a key says off-budget; people in millions; judges as counts')
 BASELINE = ("current law as it will stand in January 2029 (dossiers/immigration/6-cost.md); the status line scales CBO's "
-            "2021 score of H.R. 6 (February 2021 baseline, EV-IMM-600); the courts start from EOIR's FY2026 counts "
+            "2021 on-budget score of H.R. 6 (February 2021 baseline, EV-IMM-669), its off-budget part kept apart; the courts start from EOIR's FY2026 counts "
             "(EV-IMM-100, -102, -103); E-Verify's lines scale CBO and JCT's 2013 score (EV-IMM-394, -395)")
 SCORING = ('conventional: no macroeconomic feedback; the labor-market module (labor_market) is a separate reading of '
            'the evidence, not booked and not added to any line')
@@ -97,11 +97,14 @@ def path_block():
                          'range_fy2030_39': [r(lo), r(hi)], 'range_fy2040': [r(lo40), r(hi40)]}
     ev = P.everify()
     off, on = ev['off'], ev['on'][0]
+    so = P.status_offbudget()
     adm = spend['IMM-4.12-4.15: E-Verify operations and error correction (memo 5, A)'][0]
     return {'note': "section 6's path (dossiers/immigration/6-cost.md, part 1) from the central inputs, with section 3's ranges",
             'spending': rows(spend), 'revenue': rows(rev), 'totals': totals,
             'everify_off_budget': {'fy': fy(off), 'fy2030_39': r(sum(off[y] for y in P.WINDOW)), 'fy2040': r(off[2040]),
                                    'note': "Social Security's funds: a loss (a cost), booked as IMM-EV-SS"},
+            'status_off_budget': {'fy': fy(so), 'fy2030_39': r(sum(so[y] for y in P.WINDOW)), 'fy2040': r(so[2040]),
+                                  'note': "Social Security's funds: memo 1's status, CBO's off-budget figure scaled (a gain), booked as IMM-1-SS"},
             'everify_unified_with_operations': {'fy2030_39': r(sum(off[y] + on[y] + adm[y] for y in P.WINDOW)),
                                                 'fy2040': r(off[2040] + on[2040] + adm[2040])}}
 

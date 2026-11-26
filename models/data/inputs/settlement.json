@@ -18,7 +18,9 @@
   "health_contribution_base_rate": {
     "rate": 3.8,
     "from": 2035,
-    "basis": "The fallback (DEC-2026-11-20-07, memo G3 E): the lowest base rate, to 0.05 points, that closes FY2040-56 on the general fund with every other booked item, from the January 2035 endpoint, at the fold's price (about $56B a quarter point in FY2040, grown on HCU's path). WORKING ASSUMPTION for the later years: one rate from 2035, with no step. Memo G8 (the rule over time) is provisional and undecided; any step it adds is not booked."
+    "basis": "Re-founded as the health fund's rate (G26 A, DEC-2026-11-25-30): 3.80% from the January 2035 endpoint is the share of the fund's cost the contribution pays, about 29% of its new cost in FY2040 (health_fund.contribution_share), at the fold's price (about $56B a quarter point in FY2040, grown on HCU's path). It was booked in step 7 as the fallback that closed the whole general fund (DEC-2026-11-20-07, memo G3 E); under DEC-2026-11-25-12 it is set against health's costs. From FY2041 it moves only by the health fund's own rule (G27 A, DEC-2026-11-25-31; settlement_booking.rate_rule writes the path), which replaces memo G8's question, G16 B's second leg and G18 D's step-down.",
+    "path": {"2041": 4.05, "2042": 4.05, "2043": 4.05, "2044": 4.05, "2045": 4.05, "2046": 4.05, "2047": 4.05, "2048": 4.30, "2049": 4.30, "2050": 4.05, "2051": 4.05, "2052": 4.05, "2053": 4.30, "2054": 4.30, "2055": 4.30, "2056": 4.30},
+    "path_basis": "The rate by year from FY2041 under the fund's rule: a quarter point at most once a year when the reserve, projected one year ahead, leaves 15-25% of the contribution's share of the fund's cost; never below 3.25%. WORKING ASSUMPTION, pending Espen (G27.1a): the band's base and the year tested are not named in the decision; the lead's direction, November 25, 2026, is to book this reading until Espen answers (dossiers/foundations/fair-financing/2-settlement.md part 8)."
   },
   "items": [
     {"id": "S01", "option": "gx_narrowed", "params": {}, "side": "revenue", "dec": "agent (2-settlement.md part 6 item 1; 1-audit.md part D item 3)", "line": "GX narrowed: no second haircut on H1b's folded half"},
@@ -26,13 +28,31 @@
     {"id": "S03", "option": "avoidance_by_tier", "params": {"base_allowance": 0.10}, "side": "revenue", "dec": "agent (part 6 item 3; working assumption, range 10-25%)", "line": "HCU's avoidance allowance by tier: 10% on the base rate, 20% on the surcharge"},
     {"id": "S04", "option": "stack_cap", "params": {"design": "C1"}, "side": "revenue", "dec": "DEC-2026-11-20-08 (memo G4 C1)", "line": "Stack cap C1: the wealth tax capped at 100% of a 6% return with the income taxes"},
     {"id": "S05", "option": "ltc_state_share", "params": {"share": 1.0}, "side": "outlay", "dec": "DEC-2026-11-20-05 (memo G1 A)", "line": "The states' long-term care payment at 100% (HLT-9.09)"},
-    {"id": "S06", "option": "fold_broad_points", "params": {"rate": "health_contribution_base_rate"}, "side": "revenue", "dec": "DEC-2026-11-20-06 (G2 C) and DEC-2026-11-20-07 (G3 E, the fallback)", "line": "The health contribution's base rate R raised from 2.25% from 2035"},
+    {"id": "S06", "option": "fold_broad_points", "params": {"rate": "health_contribution_base_rate", "rate_path": "health_contribution_rate_path"}, "side": "revenue", "dec": "DEC-2026-11-20-06 (G2 C) and DEC-2026-11-20-07 (G3 E, the fallback)", "line": "The health contribution's base rate R raised from 2.25% from 2035"},
     {"id": "S07", "option": "defense_flat_real", "params": {}, "side": "outlay", "dec": "NSC-1A's own rule for FY2037-39 (agent, #474); DEC-2026-11-24-01 (memo G10.1 C) after FY2039", "line": "Defense flat in real terms from FY2037 (NSC-1A, extended after FY2039)"},
     {"id": "S08", "option": "defense_restructure", "params": {"share": 0.05}, "side": "outlay", "dec": "DEC-2026-11-24-01 (memo G10.1 C; working assumption, range 3-7%)", "line": "Defense restructured, 5% below the flat-real path by FY2033"},
     {"id": "S09", "option": "crop_insurance", "params": {}, "side": "outlay", "dec": "DEC-2026-11-24-04 (memo G11.2)", "line": "Crop insurance reform (REV-SC3)"},
     {"id": "S10", "option": "tax_item", "params": {"key": "like_kind"}, "side": "revenue", "dec": "DEC-2026-11-24-06 (memo G12.2)", "line": "Like-kind exchanges ended beyond the booked $500K cap"},
     {"id": "S11", "option": "housing_guarantee", "params": {"mode": "C", "shaped": true}, "side": "outlay", "dec": "DEC-2026-11-24-09 (memo G14 C)", "line": "Housing stage 2 (HOU-4D.01) a capped program, not a right, shaped on enrollment"}
   ],
+  "health_fund": {
+    "basis": "The plan's health fund (HLT-7.22) booked as its own account (DEC-2026-11-25-12; the booking rule, DEC-2026-11-25-28; G26 A and G27 A point 2, DEC-2026-11-25-30, -31): recovery-budget/model.py's health_fund() sums these booked lines into the fund's sources and spending, the general fund pays the fund only its transfer, and the fund keeps FY2030-34's surplus, $250B of it as a standing reserve and the rest drawn to lower the FY2035 transfer. Increments to CBO's baseline. HI's own line (HI H1a and Part A HLT-6 share, the $425B) stays HI's until HI folds in at 2035, so it is not listed. The wealth tax (HS2, net of the stack cap S04) is one of the fund's sources by statute (G27 A point 1). The scope is DEC-2026-11-15-20's health rows and HX, with long-term care from 2035 (DEC-2026-11-11-02).",
+    "sources": ["HCU", "Settlement S06", "Settlement S03", "HCW", "HCA", "Settlement S02", "HCP", "HCH", "HEC", "HEX", "HX", "HS1", "HS2", "Settlement S04", "HS3", "HS4", "H1a", "Settlement S05"],
+    "spending": ["HLT-1", "HLT-2", "HLT-4", "HLT-6", "HLT-7", "HLT-8", "HLT-9", "HLT-10", "HLT-11"],
+    "first_year": 2030,
+    "standing_reserve_bn": null,
+    "fold_in_year": 2035,
+    "standing_reserve_basis": "WORKING ASSUMPTION, pending Espen (I2): the fund keeps FY2030-34's surplus as built, net of its own shortfalls in those years, as its standing reserve, with no FY2035 draw; from the 2035 fold-in the general fund pays the whole shortfall. With HX's Social Security part out of the fund's sources (source_shares), the surplus is $159.5B as booked, short of DEC-2026-11-25-31 point 2's $250B standing reserve plus $141B to lower the FY2035 transfer (lead's direction, November 25, 2026; 2-settlement.md part 8).",
+    "source_shares": {"HX": 0.703},
+    "source_shares_basis": "WORKING ASSUMPTION, pending Espen (I2), the agent's estimate, not sourced: HX (the tax on former premiums) includes the payroll tax current law credits to OASDI (ledger-revenue.csv's HX note; dossiers/care/6-cost.md item 4), which can't be health money (DEC-2026-11-25-12, -28). OASDI's part is taken as 0.297 of HX: 12.4% on wages (26 U.S.C. 3101, 3111), over 1.0765 (the employer's half grossed in, JCT's convention), times 0.8 taxable under the cap (funds-parameters.csv hi_payroll_ratio 1.25), over the exclusion's 0.31 average rate on premiums (EV-CAR-052; health-financing-findings-2026-11-15.md). Range about 0.28-0.35. That part is left out of the fund's sources and stays on the general fund as booked today; booking it in Social Security's funds (about $290B a year in FY2040) is question I2 for Espen.",
+    "contribution": ["HCU", "Settlement S06", "Settlement S03"],
+    "share_from": 2040,
+    "contribution_share": 0.290862,
+    "band": [0.15, 0.25],
+    "step": 0.25,
+    "floor": 3.25,
+    "rule_basis": "G27 A (DEC-2026-11-25-31): from FY2040 the contribution (HCU with S06 and S03) pays contribution_share of the fund's spending, written by settlement_booking.py --write as its FY2040 yield at 3.80% over that year's spending (G26 A); the general fund's transfer in law is the rest of the cost after the fund's other sources; the fund's reserve absorbs the difference between the contribution's yield and its share. band, step and floor are the decided rule's (point 1); the band's base is a working assumption pending Espen (G27.1a)."
+  },
   "not_booked": {
     "G10.2": "DEC-2026-11-24-02: the FY2029 base capped at CBO's February 2026 path. It changes nothing against today's baseline; it is statutory text (2-settlement.md part 7)",
     "G11.1": "DEC-2026-11-24-03: no. The 2025 law's farm increases stay",
