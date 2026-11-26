@@ -78,6 +78,14 @@ After `DEC-2026-11-25-12` (the health contribution pays only for the health syst
 | --- | --- | --- | --- |
 | [G29](G29-hx-social-security-part.md) | Where the Social Security part of the tax on former premiums goes, and the reserve | **C**: the general fund through FY2044, Social Security from FY2045, written in law; **R2**: a $250B standing reserve, with $57.9B drawn in FY2035 | Social Security depletion 2069 instead of 2061; the general fund as booked through FY2044, still closing from FY2045 |
 
+
+## G24.1: the VAT rebate's income limit (G30, provisional)
+
+After `DEC-2026-11-25-15` (limit the rebate to people below an income threshold) and Espen's note proposing about $100K single / $200K joint. Figures in [`../notes/rebate-phaseout-results.md`](../notes/rebate-phaseout-results.md). **Provisional, not decided; nothing booked.**
+
+| Memo | Question | Recommended | Effect |
+| --- | --- | --- | --- |
+| [G30](G30-rebate-phase-out.md) | The rebate's income threshold and phase-out | **$60K single / $120K joint**, phased out over the next $20K / $40K (options: $100K/$200K, $75K/$150K, $40K/$80K) | G24 B's VAT 2.92% instead of 3.92% for the same money; 61% of the rebate's cost kept; workers ahead 56.3% (54.8% with no limit), below 200% of poverty 95.4% (93.5%) |
 ## What the settlement rests on, and who decided it
 
 | Assumption | Source | Decided by Espen? |
