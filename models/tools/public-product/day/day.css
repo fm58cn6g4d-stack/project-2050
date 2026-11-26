@@ -36,3 +36,6 @@ footer{color:var(--muted);font-size:.9rem;padding-bottom:3rem;border-top:1px sol
 .register th,.register td{border-top:1px solid var(--line);padding:.4rem;vertical-align:top;text-align:left;overflow-wrap:anywhere}
 .recheck{color:var(--warn);font-weight:600}
 main:has(.register){max-width:72rem}
+.chooser ul{padding-left:1.1rem}.chooser li{margin:.4rem 0}
+.family{border-top:3px solid var(--accent);margin-top:2.5rem;padding-top:1rem}
+.family .about{font-size:1.05rem}.family .cast{color:var(--muted);font-size:.9rem}
