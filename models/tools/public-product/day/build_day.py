@@ -11,7 +11,11 @@ design is step H9's and the site build is H10's: the preview here is plain on pu
   python3 models/tools/public-product/day/build_day.py --check     # verify the claims and the committed preview
   python3 models/tools/public-product/day/build_day.py --report    # as --check, but source drift only warns
   python3 models/tools/public-product/day/build_day.py --pin origin/main   # re-pin to a commit on main
-  python3 models/tools/public-product/day/build_day.py --frame family --money first --no-optional --out DIR
+  python3 models/tools/public-product/day/build_day.py --family jordan --money first --no-optional --out DIR
+
+The day follows three families (`DEC-2026-11-25-23`). Each family's moments are imagined beats in that family's
+day; each moment opens to one shared scene (a flagship's provisions, start dates, costs, honest limits and hard
+questions), so the facts behind a scene are written once and read the same from every family's day.
 
 The pin. Every claim's passages are pinned to `source_commit`, a commit on main. `anchors.lock.json` records,
 for each passage, its line at that commit, and, for each cited file, the file's Git blob hash there. The build
@@ -88,8 +92,8 @@ def strip_marks(text):
 
 
 def scene_blocks(scene):
-    """(where, text) for every piece of reading text in a scene that may carry figures."""
-    out = [(f'beat {i+1}', b['text']) for i, b in enumerate(scene['beats'])]
+    """(where, text) for every piece of a shared scene's reading text that may carry figures."""
+    out = []
     d = scene['detail']
     for key, _ in SECTIONS:
         out += [(f'{key} {i+1}', t) for i, t in enumerate(d.get(key, []))]
@@ -99,6 +103,15 @@ def scene_blocks(scene):
     return out
 
 
+def moments(content):
+    """(family id, moment) for every moment in every family's day, in the order written."""
+    return [(f['id'], m) for f in content['families'] for m in f['moments']]
+
+
+def moment_blocks(m):
+    return [(f'beat {i+1}', b['text']) for i, b in enumerate(m['beats'])]
+
+
 def plain_texts(content):
     """(where, text) for reading text that must carry no figure at all (titles, framing, placeholders)."""
     out = [('title', content['title']), ('description', content['description']), ('closing', content['closing'])]
@@ -106,8 +119,11 @@ def plain_texts(content):
     out += [(f'principle {i+1}', p['title'] + ' ' + p['body']) for i, p in enumerate(content['principles'])]
     out += [(f'movement {i+1}', m['title'] + ' ' + m['body']) for i, m in enumerate(content['movement'])]
     out += [(f'person {k}', p['name'] + ' ' + p['about']) for k, p in content['people'].items()]
+    out += [(f'family {f["id"]}', f['name'] + ' ' + f['about']) for f in content['families']]
+    for fid, m in moments(content):
+        out += [(f'{fid} {m["scene"]} {k}', m[k]) for k in ('place', 'title', 'illustration')]
     for s in content['scenes']:
-        out += [(f'scene {s["id"]} {f}', s[f]) for f in ('place', 'title', 'flagship', 'illustration')]
+        out.append((f'scene {s["id"]} flagship', s['flagship']))
         for ph in s['detail'].get('placeholders', []):
             out.append((f'scene {s["id"]} placeholder {ph["id"]}', ph['title'] + ' ' + ph['text']))
     return out
@@ -117,6 +133,8 @@ def public_texts(content):
     out = [(f'intro {i+1}', t) for i, t in enumerate(content['intro'])] + plain_texts(content)
     for s in content['scenes']:
         out += [(f'scene {s["id"]} {w}', t) for w, t in scene_blocks(s)]
+    for fid, m in moments(content):
+        out += [(f'{fid} {m["scene"]} {w}', t) for w, t in moment_blocks(m)]
     return out
 
 
@@ -281,9 +299,10 @@ def validate(content, root=ROOT):
     for where, t in public_texts(content):
         for hit in banned_hits(t):
             p.append(f'{where}: banned phrase {hit!r}')
-    # Scenes and structure.
+    # Scenes, families and structure.
     people, scenes = content['people'], content['scenes']
     ids = [s['id'] for s in scenes]
+    by_id = {s['id']: s for s in scenes}
     if len(ids) != len(set(ids)):
         p.append('duplicate scene id')
     models = toolkit_ids()
@@ -294,9 +313,6 @@ def validate(content, root=ROOT):
         for key in ('begins', 'limits', 'questions'):
             if s['id'] != 'money' and not d.get(key):
                 p.append(f'scene {s["id"]}: needs at least one item under {key}')
-        for b in s['beats']:
-            if b['person'] is not None and b['person'] not in people:
-                p.append(f'scene {s["id"]}: unknown person {b["person"]}')
         for key in ('brief', 'dossier'):
             if not (root / d[key]).is_file():
                 p.append(f'scene {s["id"]}: {key} {d[key]} does not exist')
@@ -310,19 +326,43 @@ def validate(content, root=ROOT):
                 p.append(f'scene {s["id"]}: a placeholder needs id, title, text and waits_on')
     if 'money' not in ids:
         p.append('the money scene is missing')
+    fams = [f['id'] for f in content['families']]
+    if len(fams) != len(set(fams)) or not fams:
+        p.append('families must have unique ids')
+    for k, person in people.items():
+        if person.get('family') not in fams:
+            p.append(f'person {k}: family {person.get("family")} is not a family id')
+    met = set()
+    for f in content['families']:
+        seen = [m['scene'] for m in f['moments']]
+        if len(seen) != len(set(seen)):
+            p.append(f'family {f["id"]}: a scene appears twice in its day')
+        if 'money' not in seen:
+            p.append(f'family {f["id"]}: its day must end on the money (DEC-2026-11-25-25)')
+        for m in f['moments']:
+            where = f'{f["id"]} {m["scene"]}'
+            if m['scene'] not in by_id:
+                p.append(f'{where}: unknown scene {m["scene"]}')
+                continue
+            met.add(m['scene'])
+            for k in ('time', 'place', 'title', 'illustration'):
+                if not m.get(k):
+                    p.append(f'{where}: needs a {k}')
+            for b in m['beats']:
+                if b['person'] is not None and b['person'] not in people:
+                    p.append(f'{where}: unknown person {b["person"]}')
+            if not any(b['person'] and people.get(b['person'], {}).get('family') == f['id'] for b in m['beats']):
+                p.append(f'{where}: no beat for a member of the {f["id"]} family')
+            for wb, t in moment_blocks(m):
+                check_block(f'{where} {wb}', t)
+    for sid in ids:
+        if sid not in met:
+            p.append(f'scene {sid}: no family meets it')
     cfg = content['config']
-    if cfg.get('frame') not in content['orders']:
-        p.append(f'config.frame must be one of {sorted(content["orders"])}')
+    if cfg.get('default_family') not in fams:
+        p.append(f'config.default_family must be one of {fams}')
     if cfg.get('money_position') not in ('first', 'last'):
         p.append('config.money_position must be "first" or "last"')
-    for name, order in content['orders'].items():
-        if sorted(order) != sorted(ids):
-            p.append(f'orders.{name} must list every scene exactly once')
-    family = content['family']
-    for s in scenes:
-        if s['id'] != 'money' and not any(b['person'] and people.get(b['person'], {}).get('household') == family
-                                          for b in s['beats']):
-            p.append(f'scene {s["id"]}: no beat for the {family} household, so the family frame would drop it')
     unused = sorted(set(claims) - used)
     if unused:
         p.append(f'claims not used on the page: {unused}')
@@ -331,32 +371,33 @@ def validate(content, root=ROOT):
 
 # ---------------------------------------------------------------- rendering
 
-def arrange(content, frame=None, money=None, optional=None):
-    """The scenes in reading order for a frame, with the money placed and optional scenes kept or dropped."""
+def arrange(content, family=None, money=None, optional=None):
+    """Each family's moments in reading order, with the money placed and optional scenes kept or dropped.
+
+    Returns ([(family, [moment, ...]), ...], money, flags). `family` keeps only that family's day."""
     cfg = content['config']
-    frame = frame or cfg['frame']
     money = money or cfg['money_position']
     flags = dict(cfg['optional_scenes'], **(optional or {}))
     by_id = {s['id']: s for s in content['scenes']}
-    order = [by_id[i] for i in content['orders'][frame] if not by_id[i].get('optional') or flags[by_id[i]['optional']]]
-    rest = [s for s in order if s['id'] != 'money']
-    order = ([by_id['money']] + rest) if money == 'first' else (rest + [by_id['money']])
-    family = content['family'] if frame == 'family' else None
-    out = []
-    for s in order:
-        beats = s['beats']
-        if family and s['id'] != 'money':
-            beats = [b for b in beats if b['person'] and content['people'][b['person']]['household'] == family]
-        out.append(dict(s, beats=beats))
-    return out, frame, money, flags
+    days = []
+    for f in content['families']:
+        if family and f['id'] != family:
+            continue
+        order = [m for m in f['moments'] if not by_id[m['scene']].get('optional') or flags[by_id[m['scene']]['optional']]]
+        rest = [m for m in order if m['scene'] != 'money']
+        cash = [m for m in order if m['scene'] == 'money']
+        days.append((f, (cash + rest) if money == 'first' else (rest + cash)))
+    return days, money, flags
 
 
-def render(content, lock, frame=None, money=None, optional=None):
+def render(content, lock, family=None, money=None, optional=None):
     """The page, the readable register and the register's JSON, as strings."""
     claims = content['claims']
     ref = content['source_commit']
     lines = lock['lines']
-    scenes, frame, money, flags = arrange(content, frame, money, optional)
+    days, money, flags = arrange(content, family, money, optional)
+    by_id = {s['id']: s for s in content['scenes']}
+    people = content['people']
 
     def src_url(path, line=None):
         return f'{REPO}{ref}/{esc(path, quote=True)}' + (f'#L{line}' if line else '')
@@ -365,72 +406,82 @@ def render(content, lock, frame=None, money=None, optional=None):
         return f'{REPO}main/{esc(path, quote=True)}'
 
     where_used = {}
-    body = []
-    for n, s in enumerate(scenes, start=1):
-        order = []
+    articles = []
+    for f, day in days:
+        sections = []
+        for m in day:
+            s = by_id[m['scene']]
+            uid = f'{f["id"]}-{s["id"]}'
+            order = []
 
-        def cite(m, sid=s['id'], order=order):
-            ks = []
-            for cid in MARK.findall(m.group(0)):
-                if cid not in order:
-                    order.append(cid)
-                where_used.setdefault(cid, [])
-                if sid not in where_used[cid]:
-                    where_used[cid].append(sid)
-                ks.append(order.index(cid) + 1)
-            return '<sup class="cite">' + ','.join(
-                f'<a href="#{sid}-n{k}" aria-label="Evidence note {k}">{k}</a>' for k in ks) + '</sup>'
+            def cite(mt, uid=uid, order=order):
+                ks = []
+                for cid in MARK.findall(mt.group(0)):
+                    if cid not in order:
+                        order.append(cid)
+                    where_used.setdefault(cid, [])
+                    if uid not in where_used[cid]:
+                        where_used[cid].append(uid)
+                    ks.append(order.index(cid) + 1)
+                return '<sup class="cite">' + ','.join(
+                    f'<a href="#{uid}-n{k}" aria-label="Evidence note {k}">{k}</a>' for k in ks) + '</sup>'
 
-        def para(text):
-            return MARK_RUN.sub(cite, esc(re.sub(r'\s+(?=\{c:)', '', text)))
+            def para(text):
+                return MARK_RUN.sub(cite, esc(re.sub(r'\s+(?=\{c:)', '', text)))
 
-        d = s['detail']
-        tag = ' <span class="tag">Optional scene</span>' if s.get('optional') else ''
-        beats = ''.join(f'<p>{para(b["text"])}</p>' for b in s['beats'])
-        parts = []
-        for key, label in SECTIONS:
-            if d.get(key):
-                parts.append(f'<h4>{label}</h4><ul>' + ''.join(f'<li>{para(t)}</li>' for t in d[key]) + '</ul>')
-        for ph in d.get('placeholders', []):
-            parts.append(f'<div class="placeholder" data-placeholder="{esc(ph["id"])}"><h4>{esc(ph["title"])}</h4>'
-                         f'<p>{esc(ph["text"])}</p></div>')
-        if d.get('questions'):
-            parts.append('<h4>Hard questions</h4>' + ''.join(
-                f'<div class="qa"><p class="q">{para(q["q"])}</p>' + ''.join(f'<p>{para(a)}</p>' for a in q['a'])
-                + '</div>' for q in d['questions']))
-        deeper = [f'<li><a href="{gh(d["brief"])}">The brief behind this scene</a></li>',
-                  f'<li><a href="{gh(d["dossier"])}">The full dossier</a></li>']
-        deeper += [f'<li><a href="docs/{esc(m)}.html">The model: {esc(m)}</a> (our analysis, not an official score)</li>'
-                   for m in d.get('models', [])]
-        if not d.get('models'):
-            deeper.append('<li>No model yet: this scene\'s costs are priced by hand in the dossier.</li>')
-        parts.append('<h4>Go deeper</h4><ul>' + ''.join(deeper) + '</ul>')
-        notes = []
-        for k, cid in enumerate(order, start=1):
-            c = claims[cid]
-            links = '; '.join(f'<a href="{src_url(x["path"], lines[anchor_key(x["path"], x["anchor"])])}">'
-                              f'{esc(x["path"])}, line {lines[anchor_key(x["path"], x["anchor"])]}</a>'
-                              for x in c['sources'])
-            notes.append(f'<li id="{s["id"]}-n{k}"><span class="basis">{esc(BASES[c["basis"]])}.</span> '
-                         f'{esc(c["statement"])} {links}</li>')
-        notes_html = f'<h4>Evidence notes</h4><ol class="notes">{"".join(notes)}</ol>' if notes else ''
-        body.append(
-            f'<section class="scene" id="{s["id"]}" data-flagship="{esc(s["flagship"])}">'
-            f'<p class="when">{esc(s["time"])} · {esc(s["place"])} · <span class="flagship">{esc(s["flagship"])}</span>{tag}</p>'
-            f'<h2>{esc(s["title"])}</h2>'
-            f'<figure class="art"><div class="art-brief" role="img" aria-label="{esc(s["illustration"], quote=True)}">'
-            f'<span>Imagined scene</span>{esc(s["illustration"])}</div></figure>'
-            f'{beats}<details><summary>What made the difference</summary>{"".join(parts)}{notes_html}</details>'
-            '</section>')
-
+            d = s['detail']
+            tag = ' <span class="tag">Optional scene</span>' if s.get('optional') else ''
+            beats = ''.join(f'<p>{para(b["text"])}</p>' for b in m['beats'])
+            parts = []
+            for key, label in SECTIONS:
+                if d.get(key):
+                    parts.append(f'<h4>{label}</h4><ul>' + ''.join(f'<li>{para(t)}</li>' for t in d[key]) + '</ul>')
+            for ph in d.get('placeholders', []):
+                parts.append(f'<div class="placeholder" data-placeholder="{esc(ph["id"])}"><h4>{esc(ph["title"])}</h4>'
+                             f'<p>{esc(ph["text"])}</p></div>')
+            if d.get('questions'):
+                parts.append('<h4>Hard questions</h4>' + ''.join(
+                    f'<div class="qa"><p class="q">{para(q["q"])}</p>' + ''.join(f'<p>{para(a)}</p>' for a in q['a'])
+                    + '</div>' for q in d['questions']))
+            deeper = [f'<li><a href="{gh(d["brief"])}">The brief behind this scene</a></li>',
+                      f'<li><a href="{gh(d["dossier"])}">The full dossier</a></li>']
+            deeper += [f'<li><a href="docs/{esc(x)}.html">The model: {esc(x)}</a> (our analysis, not an official score)</li>'
+                       for x in d.get('models', [])]
+            if not d.get('models'):
+                deeper.append('<li>No model yet: this scene\'s costs are priced by hand in the dossier.</li>')
+            parts.append('<h4>Go deeper</h4><ul>' + ''.join(deeper) + '</ul>')
+            notes = []
+            for k, cid in enumerate(order, start=1):
+                c = claims[cid]
+                links = '; '.join(f'<a href="{src_url(x["path"], lines[anchor_key(x["path"], x["anchor"])])}">'
+                                  f'{esc(x["path"])}, line {lines[anchor_key(x["path"], x["anchor"])]}</a>'
+                                  for x in c['sources'])
+                notes.append(f'<li id="{uid}-n{k}"><span class="basis">{esc(BASES[c["basis"]])}.</span> '
+                             f'{esc(c["statement"])} {links}</li>')
+            notes_html = f'<h4>Evidence notes</h4><ol class="notes">{"".join(notes)}</ol>' if notes else ''
+            sections.append(
+                f'<section class="scene" id="{uid}" data-scene="{esc(s["id"])}" data-flagship="{esc(s["flagship"])}">'
+                f'<p class="when">{esc(m["time"])} · {esc(m["place"])} · <span class="flagship">{esc(s["flagship"])}</span>{tag}</p>'
+                f'<h3>{esc(m["title"])}</h3>'
+                f'<figure class="art"><div class="art-brief" role="img" aria-label="{esc(m["illustration"], quote=True)}">'
+                f'<span>Imagined scene</span>{esc(m["illustration"])}</div></figure>'
+                f'{beats}<details><summary>What made the difference</summary>{"".join(parts)}{notes_html}</details>'
+                '</section>')
+        toc = ''.join(f'<li><a href="#{f["id"]}-{m["scene"]}">{esc(m["time"])}: {esc(m["title"])}</a></li>' for m in day)
+        cast = ', '.join(esc(p['name']) for p in people.values() if p['family'] == f['id'])
+        articles.append(
+            f'<article class="family" id="{f["id"]}" aria-labelledby="{f["id"]}-h"><h2 id="{f["id"]}-h">{esc(f["name"])}</h2>'
+            f'<p class="about">{esc(f["about"])}</p><p class="cast">In this day: {cast}.</p>'
+            f'<nav aria-label="{esc(f["name"], quote=True)}: the day"><ol>{toc}</ol></nav>{"".join(sections)}</article>')
+    chooser = ''.join(f'<li><a href="#{f["id"]}"><strong>{esc(f["name"])}</strong></a> {esc(f["about"])}</li>'
+                      for f, _ in days)
     intro = ''.join(f'<p>{MARK_RUN.sub("", esc(t))}</p>' for t in content['intro'])
     key = ''.join(f'<li><strong>{esc(a)}</strong> {esc(b)}</li>' for a, b in content['reading_key'])
     principles = ''.join(f'<li><strong>{esc(x["title"])}.</strong> {esc(x["body"])}</li>' for x in content['principles'])
     movement = ''.join(f'<li><strong>{esc(x["title"])}.</strong> {esc(x["body"])}</li>' for x in content['movement'])
-    toc = ''.join(f'<li><a href="#{s["id"]}">{esc(s["time"])}: {esc(s["title"])}</a></li>' for s in scenes)
     css = CSS.read_text()
     edition = (f'{esc(content["edition_label"])}. Evidence pinned to <a href="{REPO}{ref}">{ref[:12]}</a> '
-               f'({esc(content["source_label"])}). Frame: {frame}; the money {money}.')
+               f'({esc(content["source_label"])}). Families: {", ".join(f["id"] for f, _ in days)}; the money {money}.')
     page = (
         '<!doctype html><html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
@@ -439,8 +490,8 @@ def render(content, lock, frame=None, money=None, optional=None):
         f'<style>{css}</style></head><body><a class="skip" href="#day">Skip to the day</a>'
         f'<header><p class="draft">Working draft for review. Not published.</p><h1>{esc(content["title"])}</h1>{intro}'
         f'<ul class="key">{key}</ul></header>'
-        f'<nav aria-label="The day"><ol>{toc}</ol></nav>'
-        f'<main id="day">{"".join(body)}</main>'
+        f'<nav class="chooser" aria-label="Choose a family"><h2>Whose day?</h2><ul>{chooser}</ul></nav>'
+        f'<main id="day">{"".join(articles)}</main>'
         f'<section class="close"><h2>What it is for</h2><ul>{principles}</ul>'
         f'<h2>How it happens</h2><ul>{movement}</ul></section>'
         f'<footer><p>{esc(content["closing"])}</p><p>{edition}</p>'
@@ -456,7 +507,7 @@ def render(content, lock, frame=None, money=None, optional=None):
         flag = f'<p class="recheck">Recheck: {esc(c["recheck"])}</p>' if c.get('recheck') else ''
         register.append(f'<tr id="{cid}"><th scope="row"><code>{cid}</code></th><td>{esc(BASES[c["basis"]])}</td>'
                         f'<td>{esc(", ".join(c.get("figures", [])) or "none")}</td><td>{esc(c["statement"])}'
-                        f'<ul>{srcs}</ul>{flag}</td><td>{esc(", ".join(where_used.get(cid, [])) or "not shown in this frame")}</td></tr>')
+                        f'<ul>{srcs}</ul>{flag}</td><td>{esc(", ".join(where_used.get(cid, [])) or "not shown in this build")}</td></tr>')
     placeholders = ''.join(f'<li><strong>{esc(ph["title"])}</strong>: waits on {esc(ph["waits_on"])}</li>'
                            for s in content['scenes'] for ph in s['detail'].get('placeholders', []))
     register_page = (
@@ -470,8 +521,8 @@ def render(content, lock, frame=None, money=None, optional=None):
         '<th scope="col">What it says, and its passages</th><th scope="col">Scenes</th></tr></thead><tbody>'
         f'{"".join(register)}</tbody></table><h2>Not yet on the page</h2><ul>{placeholders}</ul></main>'
         '<footer><p><a href="day.html">Back to the day</a></p></footer></body></html>\n')
-    data = {'title': content['title'], 'source_commit': ref, 'frame': frame, 'money_position': money,
-            'optional_scenes': flags, 'scenes': [s['id'] for s in scenes],
+    data = {'title': content['title'], 'source_commit': ref, 'money_position': money,
+            'optional_scenes': flags, 'families': {f['id']: [m['scene'] for m in day] for f, day in days},
             'claims': {cid: {'basis': c['basis'], 'figures': c.get('figures', []), 'statement': c['statement'],
                              'recheck': c.get('recheck', ''), 'scenes': where_used.get(cid, []),
                              'sources': [dict(x, line=lines[anchor_key(x['path'], x['anchor'])],
@@ -502,7 +553,7 @@ def main(argv=None):
     mode.add_argument('--report', action='store_true', help='as --check, but source drift only warns')
     mode.add_argument('--pin', metavar='REF', help='re-pin every passage to REF, a commit on origin/main')
     ap.add_argument('--out', type=Path, help='write the preview here instead of preview/')
-    ap.add_argument('--frame', choices=('town', 'family'))
+    ap.add_argument('--family', help="render only this family's day (a family id in day.json)")
     ap.add_argument('--money', choices=('first', 'last'))
     ap.add_argument('--no-optional', action='store_true', help='leave out the optional scenes')
     a = ap.parse_args(argv)
@@ -516,10 +567,12 @@ def main(argv=None):
             return 0
         lock = read_lock()
         frame = {}
-        if a.frame or a.money or a.no_optional:
+        if a.family or a.money or a.no_optional:
             if a.check or a.report:
                 ap.error('--check and --report verify the committed preview, which uses the config in day.json')
-            frame = dict(frame=a.frame, money=a.money,
+            if a.family and a.family not in [f['id'] for f in content['families']]:
+                ap.error(f'--family must be one of {[f["id"] for f in content["families"]]}')
+            frame = dict(family=a.family, money=a.money,
                          optional={k: False for k in content['config']['optional_scenes']} if a.no_optional else None)
         outputs, gone, changed = build(content, lock, strict=not a.report, **frame)
     except ContentError as e:

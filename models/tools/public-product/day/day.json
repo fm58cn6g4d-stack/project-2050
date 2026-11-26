@@ -1,25 +1,25 @@
 {
-  "schema_version": 1,
-  "source_commit": "d5c17fd9ecb4ef1c5215701ed3c9d95f1d8d0525",
-  "source_label": "main after PR #492, November 25, 2026",
-  "edition_label": "Draft for review, November 25, 2026",
+  "schema_version": 2,
+  "source_commit": "bb5add3e53666fa168779fd2c96fbd900e2a1a91",
+  "source_label": "main after PR #508, November 26, 2026",
+  "edition_label": "Draft for review, November 26, 2026 (three families)",
   "title": "A day in 2050",
-  "description": "One ordinary day in one town in 2050, and the laws behind it: what each one does, when it starts, what it costs and where it falls short.",
+  "description": "One ordinary day in 2050 through three families, and the laws behind it: what each one does, when it starts, what it costs and where it falls short.",
   "config": {
-    "frame": "town",
+    "default_family": "jordan",
     "money_position": "last",
     "optional_scenes": {
       "transportation": true
     }
   },
   "intro": [
-    "Picture an ordinary town on an ordinary day in 2050. Nobody in it is rich. Most people work, some are raising children, some are caring for a parent, a few have just lost a job. What is different is that the floor under them holds.",
-    "Every scene below is imagined: the people are composites, not real people, and the town is not a real place. But each scene shows one thing that would be different because of a law Project 2050 would pass, starting in January 2029,{c:plan-start} and each one says when that law begins, what it costs, and where it still falls short. Open any scene to see the details, the hard questions and the evidence behind every figure."
+    "Picture an ordinary day in 2050, seen through three households. Jordan is a single man in his mid-twenties, learning a trade. Maya and Sam are raising two young children, with Sam's parents a few blocks away. Carol and Dev are getting ready to retire, and their grown son Eli lives with them. Choose whose day you read: each family meets the same laws in its own way.",
+    "Every scene below is imagined: the people are composites, not real people, and nothing here is a forecast. But each scene shows something that would be different because of a law Project 2050 would pass, starting in January 2029,{c:plan-start} and each says when that law begins, what it costs, and where it still falls short. Open any scene to see the details, the hard questions and the evidence behind every figure. Each family's day ends with the money: what it all costs and who pays."
   ],
   "reading_key": [
     [
       "An imagined scene.",
-      "The people and the town are composites. Nothing here is a forecast."
+      "The people are composites and the town is not a real place. Nothing here is a forecast."
     ],
     [
       "Our analysis, not an official score.",
@@ -36,6 +36,10 @@
     [
       "Laws that need votes.",
       "Most of these laws need a supermajority in the Senate or a change to its rules; each scene shows what happens if its law passes."
+    ],
+    [
+      "Pending.",
+      "A few money figures wait on choices the project has not yet made. The page says so where they would go."
     ]
   ],
   "principles": [
@@ -57,129 +61,79 @@
     }
   ],
   "people": {
-    "tasha": {
-      "name": "Tasha",
-      "about": "a warehouse worker raising two children, Jay and Mia",
-      "household": "tasha"
+    "jordan": {
+      "name": "Jordan",
+      "about": "an apprentice electrician who rents a room across town",
+      "family": "jordan"
     },
-    "ruth": {
-      "name": "Ruth",
-      "about": "Tasha's mother, who has dementia and lives with Tasha's brother",
-      "household": "tasha"
+    "dani": {
+      "name": "Dani",
+      "about": "Jordan's roommate, who was brought here as a child",
+      "family": "jordan"
+    },
+    "maya": {
+      "name": "Maya",
+      "about": "a dental hygienist, home on leave with a new baby",
+      "family": "maya-sam"
     },
     "sam": {
       "name": "Sam",
-      "about": "Tasha's brother, a lineworker who once worked at the coal plant",
-      "household": "tasha"
+      "about": "a shift lead at a distribution center",
+      "family": "maya-sam"
     },
-    "elena": {
-      "name": "Elena",
-      "about": "Sam's wife, who came to the country as a young woman",
-      "household": "tasha"
+    "theo": {
+      "name": "Theo",
+      "about": "their son, in pre-K",
+      "family": "maya-sam"
     },
-    "carmen": {
-      "name": "Carmen",
-      "about": "Tasha's sister, a nursing assistant on night shifts, with two children",
-      "household": "tasha"
+    "nora": {
+      "name": "Nora",
+      "about": "their newborn daughter",
+      "family": "maya-sam"
     },
-    "leah": {
-      "name": "Leah",
-      "about": "Carmen's daughter, just old enough to vote",
-      "household": "tasha"
+    "hector": {
+      "name": "Hector",
+      "about": "Sam's father, retired, who came to the country as a young man",
+      "family": "maya-sam"
     },
-    "ana": {
-      "name": "Ana",
-      "about": "a neighbor with a new baby",
-      "household": "ana"
+    "lupe": {
+      "name": "Lupe",
+      "about": "Sam's mother, who has dementia",
+      "family": "maya-sam"
     },
-    "maria": {
-      "name": "Maria",
-      "about": "a teacher at the child care center",
-      "household": "maria"
+    "carol": {
+      "name": "Carol",
+      "about": "a school office manager, retiring this year",
+      "family": "carol-dev"
     },
-    "rosa": {
-      "name": "Rosa",
-      "about": "a restaurant worker",
-      "household": "rosa"
+    "dev": {
+      "name": "Dev",
+      "about": "a bus mechanic, retiring next year",
+      "family": "carol-dev"
     },
-    "luis": {
-      "name": "Luis",
-      "about": "a machinist who lost his job when his plant closed",
-      "household": "luis"
-    },
-    "denise": {
-      "name": "Denise",
-      "about": "a home health aide who lives upstairs from Carmen",
-      "household": "denise"
-    },
-    "linda-ray": {
-      "name": "Linda and Ray",
-      "about": "a retired couple on Social Security",
-      "household": "linda-ray"
-    },
-    "tomas": {
-      "name": "Tomas",
-      "about": "a cook who has lived in the town for decades",
-      "household": "tomas"
+    "eli": {
+      "name": "Eli",
+      "about": "their son, in recovery from substance use, who lives with them",
+      "family": "carol-dev"
     }
-  },
-  "family": "tasha",
-  "orders": {
-    "town": [
-      "floor",
-      "childcare",
-      "clinic",
-      "longterm",
-      "work",
-      "home",
-      "power",
-      "immigration",
-      "democracy",
-      "transit",
-      "money"
-    ],
-    "family": [
-      "floor",
-      "childcare",
-      "clinic",
-      "work",
-      "longterm",
-      "home",
-      "power",
-      "immigration",
-      "democracy",
-      "transit",
-      "money"
-    ]
   },
   "scenes": [
     {
       "id": "floor",
-      "time": "6:30 am",
-      "place": "A kitchen",
-      "title": "The money comes on the first",
       "flagship": "A secure floor",
-      "illustration": "Early light in a small kitchen. A mother glances at her phone while making breakfast; two children at the table, one still in pajamas. Through the window, a neighbor on her porch holds a newborn.",
-      "beats": [
-        {
-          "person": "tasha",
-          "text": "The phone buzzes before the coffee is ready: the child benefit is in, as it is on the first of every month. Tasha never applied for it. It started from her children's birth records, and it comes whether her hours were good this month or not."
-        },
-        {
-          "person": "ana",
-          "text": "Next door, Ana is home with her new baby on paid leave, at most of her pay, and her job is waiting for her when she goes back."
-        }
-      ],
       "detail": {
         "what_changed": [
           "A monthly child benefit for working and middle-class families: $300 a month for each child from 6 to 17 and $360 for each child under 6, in 2025 dollars and rising with prices.{c:afa-amounts} Every family below about $150,000 for couples ($112,500 for single parents), adjusted for inflation, gets the full amount, however little the parents earn.{c:afa-phaseout}",
           "It starts from records the government already holds, so families do not have to apply. A parent confirms a letter instead of filling out a form.",
           "Twelve weeks of paid leave for a new child, a family member's serious illness or your own, run by Social Security, paying 85% of the first part of your wages, with your job back if you have been on it at least 90 days, once the 2030 Social Security act passes.{c:leave}{c:leave-start}{c:leave-job}",
-          "Workers without children get a real earned income credit, and food help cut by the 2025 law is restored.{c:floor-other} A Social Security act promises full benefits on time, with a stronger minimum benefit and credit for caregiving years."
+          "Workers without children get a real earned income credit from 2030: the 2021 maximum of $1,502, rising with prices since.{c:eitc} Food help cut by the 2025 law is restored.{c:floor-other}",
+          "Paid on-ramps into the plan's jobs, in care, construction and repair, rail and transit, housing production and clean power, with a training stipend of up to $9,000 a year in 2030 dollars, rising with prices. It is an offer, never a condition: no benefit depends on taking part.{c:onramps}",
+          "A Social Security act in 2030 promises full benefits on time: if a trust fund would run short before the act's new revenue is enough, the general fund lends it the shortfall, repaid with interest. The revenue starts with the 12.4% Social Security tax on earnings above $250,000, from January 2031, and the act adds a stronger minimum benefit and credit for caregiving years.{c:ss-act}"
         ],
         "begins": [
-          "The child benefit and the workers' credit from 2030.{c:floor-start}",
-          "Paid leave from 2031; the contributions that pay for it start in 2030.{c:leave-start}"
+          "The child benefit, the workers' credit and the paid on-ramps from 2030.{c:floor-start}{c:onramps}",
+          "Paid leave from 2031; the contributions that pay for it start in 2030.{c:leave-start}",
+          "The Social Security act in 2030; its tax on earnings above $250,000 from January 2031.{c:ss-act}"
         ],
         "cost": [
           "On our estimates the child benefit costs about $1.85 trillion over 2030-39, and the whole floor about $298 billion in 2040 on the general fund, before the plan's financing.{c:floor-cost}",
@@ -187,7 +141,8 @@
         ],
         "limits": [
           "On our estimates child poverty falls to about 9% (somewhere between 8% and 12%), from about 13.5-14.5% under the law as it will stand in 2029. That is a large cut, not an end to child poverty.{c:child-poverty}",
-          "Couples above about $210,000 get somewhat less than the credit they would otherwise get.{c:afa-top}"
+          "Couples above about $210,000 get somewhat less than the credit they would otherwise get.{c:afa-top}",
+          "The workers' credit is for low pay: it phases out as earnings rise, so a worker on a steady trade wage gets little or none of it."
         ],
         "questions": [
           {
@@ -201,6 +156,12 @@
             "a": [
               "Because it is a benefit for working and middle-class families. The full amount goes to every family below about $150,000 for couples, and it falls gradually above that.{c:afa-phaseout}"
             ]
+          },
+          {
+            "q": "Is Social Security safe?",
+            "a": [
+              "The act raises new money for it, and promises full benefits on time: if a trust fund would run short before that money is enough, the general fund lends it the shortfall, repaid with interest.{c:ss-act} The plan's other taxes don't touch Social Security, which keeps its own financing.{c:ss}"
+            ]
           }
         ],
         "brief": "dossiers/secure-floor/9-public-case.md",
@@ -212,21 +173,7 @@
     },
     {
       "id": "childcare",
-      "time": "7:45 am",
-      "place": "A child care center",
-      "title": "Drop-off, and nothing to pay",
       "flagship": "Care: child care and pre-K",
-      "illustration": "A bright child care room at drop-off. A small girl runs in ahead of her mother toward a teacher kneeling to greet her; cubbies, paintings, a window onto the street.",
-      "beats": [
-        {
-          "person": "tasha",
-          "text": "Mia runs in ahead of her mother. Tasha pays nothing: her family's income is below 85% of the state's median.{c:cc-free}"
-        },
-        {
-          "person": "maria",
-          "text": "Her teacher, Maria, once earned what a fast-food job pays. Now she is paid like the teachers at the elementary school down the street.{c:cc-parity}"
-        }
-      ],
       "detail": {
         "what_changed": [
           "Child care is free for families at or below 85% of their state's median income, and no family pays more than 7% of its income for a child too young for school, with no income limit.{c:cc-free}{c:cc-cap}",
@@ -268,26 +215,13 @@
     },
     {
       "id": "clinic",
-      "time": "9:00 am",
-      "place": "A clinic",
-      "title": "No bill at the desk",
       "flagship": "Care: health",
-      "illustration": "A neighborhood clinic waiting room, unhurried. A woman in a server's apron talks with a doctor at the door of an exam room; a boy sits on a bench swinging his legs beside his mother. No payment window.",
-      "beats": [
-        {
-          "person": "rosa",
-          "text": "Rosa, who waits tables, sees a doctor about a cough that won't quit. She shows her plan card, and there is no bill at the desk. She was enrolled automatically from her tax return, and she pays no premium and no deductible."
-        },
-        {
-          "person": "tasha",
-          "text": "Down the hall, Jay gets his school checkup. No charge for that either: primary care and prevention are free for everyone."
-        }
-      ],
       "detail": {
         "what_changed": [
-          "One public health plan for everyone who lives here with legal or registered status: hospital, doctor, prescriptions, mental health and addiction care, maternity, reproductive care including abortion, dental, vision and hearing. No premiums, no deductibles, no networks, and enrollment happens automatically.",
+          "One public health plan for everyone who lives here with legal or registered status: hospital, doctor, prescriptions, mental health and addiction treatment, maternity, reproductive care including abortion, dental, vision and hearing. No premiums, no deductibles, no networks, and enrollment happens automatically.{c:hlt-benefits}",
           "No charge at all for primary care, prevention, maternity, mental health or chronic-condition drugs, and none for anyone under twice the poverty line. Above that, small copays for other care, capped at about $1,000 a year on our working figure.{c:copay-cap}",
-          "Hospitals are paid a fair rate, on a five-year glide to about 1.15 times Medicare's, where employer plans paid 254% of Medicare in 2022.{c:hospital-rates}"
+          "Hospitals are paid a fair rate, on a five-year glide to about 1.15 times Medicare's, where employer plans paid 254% of Medicare in 2022.{c:hospital-rates}",
+          "Today's Medicare moves into the plan: its separate parts, Medicare Advantage and Medigap end for covered care on January 1, 2035, and so do Medicare's premiums.{c:medicare-end}"
         ],
         "begins": [
           "From 2029 the 2025 law's Medicaid cuts are undone. From January 1, 2031, everyone uninsured, everyone who buys their own insurance and every child is enrolled, and people in traditional Medicare get a $5,000 yearly cap on what they pay.{c:hlt-dates}",
@@ -295,8 +229,8 @@
         ],
         "cost": [
           "On our estimates the country spends about $491 billion a year less on health care at full scale, while households stop paying about $1.55 trillion a year in premiums and out-of-pocket costs.{c:hlt-national}",
-          "Premiums give way to a health contribution on income: in the plan as it stands, 3.80% from 2035, with nothing owed at or below 138% of poverty, rising to the full rate at 250%.{c:hc-rate}",
-          "The federal budget's cost rises by far more than the country saves, because the government now pays what premiums used to. The health contribution and the taxes in the money scene, at the end of the day, pay for it."
+          "Premiums give way to a health contribution on income: 3.80% from 2035, with nothing owed at or below 138% of poverty, rising to the full rate at 250%.{c:hc-rate} It goes into the health fund and can pay only for health care, like the Medicare payroll tax it replaces.{c:health-fund}",
+          "The federal budget's cost rises by far more than the country saves, because the government now pays what premiums used to. The health contribution pays part of that, and the general fund pays the rest, from the taxes in the money scene at the end of the day.{c:health-fund}"
         ],
         "limits": [
           "People with no immigration status get emergency care, not the plan, so we don't say every person in the country is covered.",
@@ -325,17 +259,7 @@
     },
     {
       "id": "longterm",
-      "time": "10:30 am",
-      "place": "A living room",
-      "title": "Help at home, savings intact",
       "flagship": "Care: long-term care",
-      "illustration": "A sunny living room. A home care aide helps an older woman with her cardigan; a photo of her family on the shelf, a calendar with the aide's visits marked.",
-      "beats": [
-        {
-          "person": "ruth",
-          "text": "An aide arrives to help Ruth through her morning. Her son Sam is at work. Nobody asked Ruth to spend her savings down first: long-term care is part of the public health plan, with no asset test."
-        }
-      ],
       "detail": {
         "what_changed": [
           "Help at home and the care part of nursing-home stays are part of the single public health plan, for anyone of any age who needs help with three daily activities or has a serious cognitive impairment, with no asset test and no estate recovery.{c:ltc}",
@@ -378,31 +302,14 @@
     },
     {
       "id": "work",
-      "time": "12:00 pm",
-      "place": "A warehouse break room",
-      "title": "A raise that keeps up",
       "flagship": "Work",
-      "illustration": "A warehouse break room at noon. A woman reads a pay stub at a table; on the bulletin board behind her, a union contract summary and a posted schedule. Through a window, a man in work clothes walks into a machine shop across the street.",
-      "beats": [
-        {
-          "person": "tasha",
-          "text": "On her break Tasha reads her pay stub. The wage floor went up again this January, as it does every year with the median wage, so a raise never has to wait for Congress again."
-        },
-        {
-          "person": "tasha",
-          "text": "Her coworkers voted in their union by signing cards, and their first contract came on a deadline instead of after years of delay."
-        },
-        {
-          "person": "luis",
-          "text": "Across the street, Luis took a job paying $24 an hour after his plant closed, against his old $32. Wage insurance pays him $4 for every hour he works, for two years.{c:wage-ins}"
-        }
-      ],
       "detail": {
         "what_changed": [
           "The federal minimum wage rises in yearly steps to $17.00 an hour, then rises each year with the median wage, and never falls.{c:wage-steps}",
           "A union is certified when a majority of workers sign cards, and can still choose an election, held within 20 days. Bargaining starts within 10 days, with mediation and then binding arbitration on a timetable.{c:card-check}",
           "Penalties of up to $50,000 per violation, sought in federal court, and workers can sue on their own if the labor board does not act.{c:penalties}",
-          "Wage insurance: a worker who loses a job held three years and takes a lower-paid one gets half the hourly drop for each hour worked, up to $10,000 a year, for two years, unless they were fired for misconduct or quit without good cause.{c:wage-ins}"
+          "Wage insurance: a worker who loses a job held three years and takes a lower-paid one gets half the hourly drop for each hour worked, up to $10,000 a year, for two years, unless they were fired for misconduct or quit without good cause.{c:wage-ins}",
+          "One apprenticeship line built with employers in construction, energy, care and advanced manufacturing: sponsors are paid for each apprentice they start and each one who finishes, and part of each grant pays for apprentices' tools, transport, child care and mentors, toward a target of 600,000 new apprentices a year by 2034.{c:apprentice}"
         ],
         "begins": [
           "$9.50 on January 1, 2030, then yearly steps to $17.00 on January 1, 2035, then with the median wage.{c:wage-steps}",
@@ -414,7 +321,8 @@
         ],
         "limits": [
           "The rules ride the labor act, the hardest vote in the plan: it needs 60 Senate votes or a change to the Senate's rules, and if it is signed after June 30, 2029, every wage step moves later.{c:labor-act}",
-          "One group keeps less of a raise for a while: on our estimates a single adult buying marketplace coverage in a state that has not expanded Medicaid keeps about 39% of a raise to $12.50 in 2032, against 59% under 2029 law, and 52-59% from 2035. The fix is still open.{c:line-cook}"
+          "One group keeps less of a raise for a while: on our estimates a single adult buying marketplace coverage in a state that has not expanded Medicaid keeps about 39% of a raise to $12.50 in 2032, against 59% under 2029 law, and 52-59% from 2035. The fix is still open.{c:line-cook}",
+          "The apprenticeship target is a goal, not a forecast: nothing in the evidence yet shows 600,000 a year can be reached, and the count is published each year so everyone can see.{c:apprentice}"
         ],
         "questions": [
           {
@@ -439,39 +347,29 @@
     },
     {
       "id": "home",
-      "time": "2:00 pm",
-      "place": "An apartment",
-      "title": "A lease of their own",
       "flagship": "Housing",
-      "illustration": "A modest apartment on moving day: boxes half unpacked, two children claiming a bedroom, their mother holding a set of keys. On the stairwell above, a woman in scrubs talks with a legal aid lawyer holding a folder.",
-      "beats": [
-        {
-          "person": "carmen",
-          "text": "Carmen and her two children spent a year on Tasha's couch after an eviction. Now they have their own lease: a rent award, with someone to help them search, and rent they can pay."
-        },
-        {
-          "person": "denise",
-          "text": "Upstairs, Denise, a home health aide whose hours were cut, found a notice on her door last month. The emergency fund paid her back rent after checking that the landlord really owns the building, and she got legal help to answer the notice, one of the things the fund can pay for."
-        }
-      ],
       "detail": {
         "what_changed": [
-          "A million new rent awards from 2030 to 2033, paid as permanent spending so they never lapse in a budget fight, first for people with no home of their own: people who are homeless, families doubled up with others, and people leaving prison, a hospital or foster care with nowhere to go.{c:awards}",
+          "A million new rent awards from 2030 to 2033, paid as permanent spending so they never lapse in a budget fight, first for people with no home of their own: people who are homeless, families with children doubled up with others, and anyone leaving prison, a hospital, treatment or foster care with nowhere to go.{c:awards}{c:stage1-test}",
           "A standing emergency fund for back rent, utilities, a deposit or moving costs, up to four months of the area's rent in a year, with legal help besides.{c:emergency}",
           "Housing First: a home without first proving sobriety or entering treatment, with services offered.",
           "A program for the poorest families with children, enrolling up to 300,000 families a year within a capped budget, with a right for the whole group named in law as a goal for the 2040s.{c:stage2}",
+          "Later stages in order: very low-income renters with long-term disabilities, of any age, from 2038; then a stage named in law for the 2040s, opening in 2042 at up to 400,000 households a year, for renters with the lowest incomes and the worst needs who no earlier stage reaches, single adults among them. The bill states that stage and its date, but its money is enacted only with its financing.{c:later-stages}",
           "Homes built and repaired that stay affordable for good, repairs for low-income owners, and property-tax help for older owners in states that join."
         ],
         "begins": [
           "Rent awards from 2030, 250,000 a year through 2033.{c:awards}",
           "The emergency fund from 2030, with $15 billion in its first two years.{c:emergency}",
-          "The families' program from 2034, and a review in 2041 of making it a right.{c:stage2}"
+          "The families' program from 2034, and a review in 2041 of making it a right.{c:stage2}",
+          "Renters with disabilities from 2038; the stage for the 2040s opens in 2042 if its money is enacted.{c:later-stages}"
         ],
         "cost": [
           "About $0.81 trillion over 2030-39 and about $110 billion in 2040 as first priced, on our estimates. Capping the families' program in the financing settlement lowers the 2040 figure by about $18.6 billion.{c:home-cost}"
         ],
         "limits": [
           "A single adult who pays most of his income in rent, but is not homeless, not disabled and not raising children, has no funded route to rent help beyond the emergency fund in a crisis.{c:not-reached}",
+          "An adult without children who lives with family is not counted as without a home, so does not qualify for the first awards. The exception is a year after leaving prison, jail or foster care for a relative's or friend's home. Someone who comes home from treatment to their parents is not covered by it.{c:stage1-test}",
+          "The stage for the 2040s reaches only people who rent, and it is not paid for: the bill names it and its date, and a later Congress has to enact the money.{c:later-stages}",
           "Vouchers help only if families can use them. The plan assumes 90% of awards lead to a lease; the closest recent program reached 67% after about two years. That is the plan's weakest number.{c:leaseup}",
           "The program for the poorest families is capped: families compete by need, not by right, until a later Congress votes to make it a right.{c:stage2}"
         ],
@@ -496,21 +394,7 @@
     },
     {
       "id": "power",
-      "time": "4:00 pm",
-      "place": "A front porch as a storm comes in",
-      "title": "Storm season, dividend day",
       "flagship": "Clean power",
-      "illustration": "A retired couple on a porch as dark clouds roll in; porch light on, wind in the trees. In the distance a line crew in a bucket truck works on a new transmission line; a solar field and wind turbines on the far hills.",
-      "beats": [
-        {
-          "person": "linda-ray",
-          "text": "Linda and Ray watch the storm roll in from their porch. Their Climate Dividends arrive with their Social Security, four times a year, and there has never been a carbon charge on their gas bill."
-        },
-        {
-          "person": "sam",
-          "text": "Sam is out in the storm with his line crew. When the coal plant he worked at closed, he trained as a lineworker at 90% of his old pay, and the county got its lost tax revenue back, a little less each year, while it rebuilt.{c:guarantee}"
-        }
-      ],
       "detail": {
         "what_changed": [
           "Power plants and large factories pay for the carbon they put in the air, and most of the money comes back to every adult as a Climate Dividend, paid four times a year, tax-free, with the first payment going out before the price begins. There is no carbon charge on your gas bill or at the pump.{c:carbon-price}",
@@ -525,7 +409,7 @@
           "The worker guarantee for closures from 2030.{c:guarantee}"
         ],
         "cost": [
-          "About $1.73 trillion over 2030-39 on our estimates, a little below what the plan first set aside for these purposes, and about $84 billion in 2040.{c:power-cost}",
+          "About $1.73 trillion over 2030-39 on our estimates, a little below what the plan first set aside for these purposes, and less after that, as the clean-energy credits step down under the law to nothing by 2047.{c:power-cost}{c:credits-end}",
           "On our estimates the dividend is about $405 an adult in 2035, in that year's dollars; it moves with what polluters pay, and shrinks as pollution falls.{c:dividend}"
         ],
         "limits": [
@@ -557,25 +441,7 @@
     },
     {
       "id": "immigration",
-      "time": "5:30 pm",
-      "place": "The courthouse steps",
-      "title": "Earned, not given",
       "flagship": "Immigration",
-      "illustration": "Late-afternoon light on courthouse steps. A man in a cook's jacket holds up a certificate for a photo; a woman beside him laughs. Further up the steps, a family with a small child talks with a lawyer.",
-      "beats": [
-        {
-          "person": "tomas",
-          "text": "Tomas, a cook who has lived here for decades, stands on the courthouse steps with his citizenship papers. He earned his green card after a fingerprint check and a criminal check, proving his years here from tax records the government already held."
-        },
-        {
-          "person": "elena",
-          "text": "Sam's wife, Elena, takes the photo. She came later. She registered once sign-ups opened, worked legally on her filing receipt, and got her green card when she reached ten years here."
-        },
-        {
-          "person": null,
-          "text": "Inside, a family that crossed the border in last spring's surge hears the decision on their asylum claim, a few months after they filed, not years."
-        }
-      ],
       "detail": {
         "what_changed": [
           "Earned legal status: people who have lived here ten years or more get a green card after fingerprints and a criminal check, and so do Dreamers and people who have held temporary protection. Everyone else here on the day the law is signed can register, work legally and be protected from deportation while they reach ten years.{c:earned}",
@@ -617,30 +483,12 @@
     },
     {
       "id": "democracy",
-      "time": "7:00 pm",
-      "place": "The public library",
-      "title": "A meeting that anyone can join",
       "flagship": "Democratic renewal",
-      "illustration": "An evening town meeting in a public library: folding chairs, a candidate speaking without a podium, a young woman in the second row with a voter card in her hand. Bookshelves and a children's corner behind.",
-      "beats": [
-        {
-          "person": "leah",
-          "text": "Carmen's daughter Leah is at her first town meeting. She is newly old enough to vote, and she is already registered: the state did it from the records it holds and mailed her a notice."
-        },
-        {
-          "person": null,
-          "text": "The candidate speaking tonight raised her money from small gifts, matched six to one: a $25 gift brought her campaign $175.{c:match}"
-        },
-        {
-          "person": "tasha",
-          "text": "Earlier, Tasha called Social Security about her mother's benefits, and someone picked up. The office is staffed again."
-        }
-      ],
       "detail": {
         "what_changed": [
           "Registration done by the state from records it already holds, with a mailed notice and a way to decline; any current government, tribal, student or benefit card as identification, or a signed statement; mail voting without an excuse and at least two weeks of early voting.",
           "Preclearance returns for places with a record of recent violations, and until the next census redistricting no state may redraw its congressional map in the middle of a decade.",
-          "Small in-state gifts up to $200 matched six to one for House and Senate candidates who opt in.{c:match}",
+          "Small in-state gifts up to $200 matched six to one for House and Senate candidates who opt in. The match is voluntary: to qualify, a candidate raises a set number of small in-state gifts and accepts a lower limit on the gifts they take.{c:match}",
           "No individual stocks for members of Congress and top officials, without a forced sale; a binding code for the Justices and eighteen-year terms for future Justices, when the politics allow.",
           "The agencies every other promise runs through are rebuilt, about 54,000 added staff across six of them, with money released as each agency hires.{c:rebuild}"
         ],
@@ -655,7 +503,8 @@
         "limits": [
           "Most of this needs 60 Senate votes or a change to the Senate's rules.{c:dem-votes}",
           "Some of it may be struck down in court. Each risky part is written to fall alone, so the rest stands.",
-          "No turnout gain is promised: each rule's effect comes from separate studies, and rules interact."
+          "No turnout gain is promised: each rule's effect comes from separate studies, and rules interact.",
+          "The match reaches only candidates who choose it; a candidate who would rather rely on large gifts can still do so, under the usual limits.{c:match}"
         ],
         "questions": [
           {
@@ -681,17 +530,7 @@
     {
       "id": "transit",
       "optional": "transportation",
-      "time": "10:00 pm",
-      "place": "A night bus",
-      "title": "The route that survived",
       "flagship": "Transportation",
-      "illustration": "A lit city bus crossing a newly repaired bridge at night. Inside, a woman in scrubs leans her head against the window; a few other riders on their way to night shifts.",
-      "beats": [
-        {
-          "person": "carmen",
-          "text": "Carmen rides the bus into the city for her night shift at the hospital. The route survived because the city kept its own funding to qualify for help with running costs, and the bridge on the way was repaired, on a list of bridges the state publishes."
-        }
-      ],
       "detail": {
         "what_changed": [
           "Repair first, with states publishing which roads and bridges are falling behind: a program to rebuild the Interstate and its bridges, help to keep transit running in big cities, and passenger rail paid out only as projects prove they are ready.",
@@ -725,68 +564,57 @@
     },
     {
       "id": "money",
-      "time": "Night",
-      "place": "The end of the day",
-      "title": "The money, told plainly",
       "flagship": "Fair financing",
-      "illustration": "The town at night from a hill: houses, the clinic, the warehouse, the library, a bus crossing the bridge, a few lit windows. No people in focus.",
-      "beats": [
-        {
-          "person": null,
-          "text": "The lights go out across town. Here is what all of it costs, who pays, and who comes out ahead."
-        }
-      ],
       "detail": {
         "what_changed": [
           "The top end and corporations pay first: the corporate rate rises to 28%, the top income tax rate returns to 39.6% for the highest earners, a new 45% bracket applies to incomes in the millions, and the 2025 law's tax cuts are reversed at the top.{c:top-rows}",
-          "On our estimates the top 1% and corporations bear 65% of the plan's new general revenue over 2030-39, leaving out the health contribution that replaces premiums.{c:mix}",
-          "Premiums give way to a health contribution on income: 3.80% from 2035 in the plan as it stands, with nothing owed at or below 138% of poverty, rising to the full rate at 250%. A separate payroll contribution of 1.65 points funds the education fund.{c:hc-rate}{c:edu}",
+          "On our estimates the top 1% and corporations bear 65% of the plan's new general revenue over 2030-39, leaving out the health contribution that replaces premiums. That is the plan as booked, before the later steps below.{c:mix}",
+          "Premiums give way to a health contribution on income: 3.80% from 2035, with nothing owed at or below 138% of poverty, rising to the full rate at 250%.{c:hc-rate} It replaces the Medicare payroll tax and works like it: it goes into the health fund, pays only for the health system, and is never spent on anything else in the budget. The general fund pays the rest of health's cost.{c:health-fund} A separate payroll contribution of 1.65 points funds the education fund.{c:edu}",
           "Spending gives way too, across the whole federal budget: the plan drops its own $300 adult credit, the states keep paying their full current share of long-term care, defense is held flat after inflation after 2036 and restructured, crop insurance is reformed for the insurers and the largest farms, and a tax break for real-estate investors ends.{c:cuts}",
-          "From 2040 to 2056, on our estimates, the plan's new spending is covered every year by its taxes, its savings elsewhere in the budget and the states' payments, by a thin margin at first. That is not the same as a balanced federal budget.{c:closes}",
+          "From 2040 to 2056, on our estimates, the plan's new spending as booked is covered every year by its taxes, its savings elsewhere in the budget and the states' payments, by a thin margin at first. That is not the same as a balanced federal budget.{c:closes}",
+          "The debt: the plan's chosen path has the national debt falling to 110% of the economy by 2056, about a quarter point a year. That takes about 1.0% of the economy more in savings or revenue each year, phased in over 2035-39. The path is decided; the booked figures above don't include it yet.{c:debt-path}",
+          "The later steps that pay for that path: first, limits on itemized deductions and a surtax of 2 points on income above $100K for a single filer and $200K for a couple; then a value-added tax on what people buy, enacted in the 2033-34 Congress to start in 2035. As first scored it is about 4.9%, with a rebate. The rebate will go only to people below an income line that is still to be set, and the rate will be scored again then (pending).{c:later-steps}{c:vat}",
+          "Nothing new in those steps reaches the middle class before 2035, so the plan's first years are paid for by the top end, corporations and savings.{c:populist}",
           "The plan would repeal the debt limit in 2029, so it no longer stands in the way of paying bills Congress has already run up.{c:debt-limit}"
         ],
         "begins": [],
         "cost": [
-          "Who comes out ahead: on our estimates every fifth of households below the top comes out ahead on average, over 2030-39 and in each of the years we checked. These are averages: many households within each fifth differ.{c:d3}",
-          "The financing settlement doesn't touch Social Security, which has its own act and its own financing.{c:ss}"
+          "Who comes out ahead: on our estimates every fifth of households below the top comes out ahead on average, over 2030-39 and in 2040 and 2050 with the later steps on their first scoring. These are averages: many households within each fifth differ. With the VAT's rebate now limited by income, this is checked again when the income line is set (pending).{c:d3}",
+          "Take-home pay: on our estimates about 69% of workers take home more in 2040 on the plan as booked, once the health contribution replaces premiums. The later steps lower that to about half on their first scoring, and it is scored again with the rebate's income line (pending).{c:take-home}",
+          "The financing doesn't touch Social Security, which has its own act and its own financing.{c:ss}"
         ],
         "limits": [
-          "On our estimates the margin is thin until the mid-2040s, and the plan's first decade runs short, most in its later years as programs reach full scale.{c:thin}",
-          "If health spending runs above its path, or the wealth tax is struck down, a backstop written into law raises the health contribution a quarter point at a time to cover it.{c:backstop}",
-          "Some of the money rests on working assumptions about how much the new taxes raise; if they raise less, a later Congress has to find the difference.",
+          "On our estimates the margin is thin in the early 2040s, and the plan's first decade runs short, most in its later years as programs reach full scale.{c:thin}",
+          "If health spending runs above its path, or the wealth tax is struck down, a backstop written into law raises the health contribution a quarter point at a time to cover it, inside the health fund.{c:backstop}",
+          "Some of the money rests on working assumptions about how much the new taxes raise; if they raise less, a later Congress has to find the difference. The later steps' figures are the project's own rough re-scoring, not the official scorekeepers'.{c:later-steps}",
+          "How the health fund's accounts are kept is still being settled, so we don't yet show how the health contribution's rate moves in later years (pending).",
           "These are our analysis on the project's own models, not official scores."
         ],
         "placeholders": [
           {
-            "id": "debt-path",
-            "title": "The debt path",
-            "text": "To come: the path of the national debt under the plan, once it is confirmed.",
-            "waits_on": "Stage G step 9 (PRs #490 and #493) and Espen's batch 4 (G23)"
-          },
-          {
-            "id": "take-home",
-            "title": "Take-home pay",
-            "text": "To come: how many workers take home more or less once the health contribution replaces premiums.",
-            "waits_on": "Stage G step 9 and Espen's batch 4 (G23-G25)"
-          },
-          {
-            "id": "later-revenue",
-            "title": "Later revenue",
-            "text": "To come: whether and how the plan raises more revenue in later years, and how the health contribution moves.",
-            "waits_on": "Stage G step 9 and Espen's batch 4 (G24)"
+            "id": "fund-rate",
+            "title": "The health contribution's later rate",
+            "text": "To come: how the health contribution's rate moves in later years, once two working assumptions about the health fund's accounts are settled.",
+            "waits_on": "Espen's answers on G27.1a (the reserve band's base) and I2 (the Social Security part of HX), both in PR #507"
           }
         ],
         "questions": [
           {
             "q": "Is it paid for?",
             "a": [
-              "On our central estimates, yes, from 2040 on: every year the plan's new spending is covered by its own taxes, savings and state payments, with the top end and corporations paying first.{c:closes} But until the mid-2040s the margin is thin enough that any one of the plan's risks could erase it, and its first decade runs short.{c:thin}"
+              "On our central estimates the plan as booked covers its new spending every year from 2040 on, with its own taxes, savings and state payments, and the top end and corporations paying first.{c:closes} But the margin is thin in the early 2040s, and the first decade runs short.{c:thin} The plan also chooses to bring the debt down, and that needs the later steps, a value-added tax among them.{c:debt-path}"
             ]
           },
           {
             "q": "Who pays?",
             "a": [
-              "Corporations and the highest earners first. Then a health contribution on income, which replaces premiums and deductibles and exempts people at or below 138% of poverty.{c:hc-rate} Then savings across the rest of the federal budget, defense included."
+              "Corporations and the highest earners first. Then a health contribution on income, which replaces premiums and deductibles, exempts people at or below 138% of poverty, and pays only for health care.{c:hc-rate}{c:health-fund} Then savings across the rest of the federal budget, defense included. From 2035, a value-added tax with a rebate for people below an income line (pending).{c:vat}"
+            ]
+          },
+          {
+            "q": "Why a value-added tax, and why wait?",
+            "a": [
+              "Because the plan chooses to bring the debt down, and the health contribution can pay only for health care, so it can't carry that job alone.{c:health-fund} The tax waits until 2035 so nothing new reaches the middle class in the plan's first years.{c:populist} Limiting the rebate to people below an income line is meant to protect low and middle incomes while keeping the rate as low as it can be.{c:vat}"
             ]
           }
         ],
@@ -902,7 +730,7 @@
     },
     "backstop": {
       "basis": "decision",
-      "statement": "Contingent backstop: if D2 misses or the wealth tax is struck, the health contribution base rate rises in quarter-point steps",
+      "statement": "G13 backstop: if D2 misses, or the wealth tax is struck, the health contribution's base rate rises in quarter-point steps (kept as the fund's upward side by G27 A, DEC-2026-11-25-31)",
       "figures": [],
       "sources": [
         {
@@ -913,8 +741,7 @@
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "On a final ruling against HS2, three steps apply in order"
         }
-      ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      ]
     },
     "bill-credit": {
       "basis": "decision",
@@ -1171,7 +998,7 @@
     },
     "closes": {
       "basis": "estimate",
-      "statement": "Every year FY2040 to FY2056 closes on the general fund (taxes, cuts and the states' payment together; margin $0.4-6B a year in FY2040-44)",
+      "statement": "Every year FY2040 to FY2056 closes on the general fund as booked (taxes, cuts and the states' payment together), before G23 B's debt path is booked",
       "figures": [
         "2040",
         "2056"
@@ -1181,8 +1008,7 @@
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "**Every year from FY2040 to FY2056 closes.**"
         }
-      ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      ]
     },
     "copay-cap": {
       "basis": "decision",
@@ -1217,14 +1043,15 @@
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "the $300 adult credit ends, and the states pay their full current share of long-term care, as they do for health (G1);"
         }
-      ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      ]
     },
     "d3": {
       "basis": "estimate",
-      "statement": "D3: every fifth below the top comes out ahead; Q3 +$11,281 a household a year, FY2030-39 average",
+      "statement": "D3: every fifth below the top comes out ahead, FY2030-39 average (settlement), and in FY2040 and FY2050 in every G24 mix (before G24.1 limits the rebate)",
       "figures": [
-        "2030-39"
+        "2030-39",
+        "2040",
+        "2050"
       ],
       "sources": [
         {
@@ -1234,13 +1061,17 @@
         {
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "On D3 every fifth below the top comes out ahead:**"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "**D3 holds in every mix:** every fifth below the top stays ahead in FY2040 and FY2050"
         }
       ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      "recheck": "Re-checked when G24.1's threshold is set"
     },
     "debt-limit": {
       "basis": "decision",
-      "statement": "Repeal the debt limit in 2029 (recommended as G21 A in 5-budget-process; decided by Espen, DEC-2026-11-25-07)",
+      "statement": "Repeal the debt limit in 2029 (G21 A, decided by Espen, DEC-2026-11-25-07)",
       "figures": [
         "2029"
       ],
@@ -1249,8 +1080,7 @@
           "path": "dossiers/foundations/fair-financing/5-budget-process.md",
           "anchor": "The recommendation (G21 A) is to repeal it in 2029, by regular order under the Senate's decided graduated-cloture rule"
         }
-      ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      ]
     },
     "dem-cost": {
       "basis": "estimate",
@@ -1376,8 +1206,7 @@
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "the education fund at 1.65 points (G7)"
         }
-      ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      ]
     },
     "emergency": {
       "basis": "decision",
@@ -1555,8 +1384,7 @@
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "From the January 2035 endpoint the base rate is 3.80% of AGI, with the exemption as decided (nothing at or below 138% of poverty, phasing up to the full rate at 250%)"
         }
-      ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      ]
     },
     "hlt-dates": {
       "basis": "decision",
@@ -1854,7 +1682,7 @@
     },
     "match": {
       "basis": "decision",
-      "statement": "6:1 match on small in-state gifts up to $200; a $25 gift brings $175; first matched cycle 2032 on the working timeline",
+      "statement": "INT-5.01: for House and Senate candidates who opt in, in-state gifts up to $200 matched six to one; to qualify a candidate raises a set number of small in-state gifts and accepts a lower contribution limit; a $25 gift brings $175; first matched cycle 2032",
       "figures": [
         "$25",
         "$175",
@@ -1873,12 +1701,20 @@
         {
           "path": "dossiers/foundations/democratic-renewal/6-cost.md",
           "anchor": "*First matched cycle 2032:* the act is enacted by spring 2030 at the latest"
+        },
+        {
+          "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+          "anchor": "For House and Senate candidates who opt in"
+        },
+        {
+          "path": "dossiers/foundations/democratic-renewal/4-specification.md",
+          "anchor": "To qualify, a candidate raises a set number of small in-state gifts and accepts a lower contribution limit"
         }
       ]
     },
     "mix": {
       "basis": "estimate",
-      "statement": "Top 1% and corporations bear 65% of new general-fund revenue over FY2030-39, health contributions left out",
+      "statement": "Top 1% and corporations bear 65% of new general-fund revenue over FY2030-39, health contributions left out, as booked before G24 B's later steps",
       "figures": [
         "1%",
         "65%",
@@ -1894,7 +1730,7 @@
           "anchor": "the top 1% (by incidence) and corporations (statutory) bear more than half of new general-fund revenue, with health's contributions left out"
         }
       ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      "recheck": "Re-run when G24 B is booked (the VAT starts in FY2035, inside the test's decade)"
     },
     "mov-dates": {
       "basis": "decision",
@@ -1967,12 +1803,10 @@
     },
     "power-cost": {
       "basis": "estimate",
-      "statement": "About $1.73T over 2030-39, a little below what the budget already carries ($1.81T), about $84B a year from 2040",
+      "statement": "About $1.73T over 2030-39, a little below what the budget already carried ($1.81T). The $84B in FY2040 in 6-cost.md predates #493's CLI-1 correction, so the page no longer shows it",
       "figures": [
         "$1.73 trillion",
-        "2030-39",
-        "$84 billion",
-        "2040"
+        "2030-39"
       ],
       "sources": [
         {
@@ -1984,7 +1818,7 @@
           "anchor": "against $1.81 trillion and $165 billion booked before"
         }
       ],
-      "recheck": "Batch 4 memo G25 and #493 correct the clean-energy credits after FY2039 (CLI-1); the $84 billion a year from 2040 may move"
+      "recheck": "clean-power 6-cost.md still states $84B in FY2040 from before #493; reread when its owner restates the yearly cost"
     },
     "prek": {
       "basis": "decision",
@@ -2078,8 +1912,7 @@
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "nothing in the settlement touches either"
         }
-      ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      ]
     },
     "stage2": {
       "basis": "decision",
@@ -2131,21 +1964,21 @@
     },
     "thin": {
       "basis": "estimate",
-      "statement": "Margin thin FY2040-44; decade FY2030-39 not closed (FY2036-39 short)",
+      "statement": "The margin is thin in the early 2040s (tightest $16B in FY2040 after #493's CLI-1 correction, from $0.4B in FY2042); FY2036-39 run about $190-280B short a year",
       "figures": [
         "2040"
       ],
       "sources": [
         {
-          "path": "dossiers/foundations/fair-financing/2-settlement.md",
-          "anchor": "The margin is thin in FY2040-44, $0.4-6B a year"
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "the tightest margin goes from $0.4B (FY2042) to $16B (FY2040)"
         },
         {
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "FY2036-39 run about $190-280B short a year. The rule doesn't test those years"
         }
       ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      "recheck": "#507 (pending) moves the tightest year to $14.1B; the page quotes no figure"
     },
     "top-rows": {
       "basis": "decision",
@@ -2173,8 +2006,7 @@
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "| G9 | The 2025 law's cuts reversed above $450K"
         }
-      ],
-      "recheck": "Stage G step 9 (#490, #493) and batch 4 (G23-G25): reread once they merge"
+      ]
     },
     "trucks": {
       "basis": "decision",
@@ -2303,6 +2135,724 @@
           "anchor": "Studies of the 2021 payments find no employment effect (Ananat and others) [EV-SEC-212]; simulations predict 367,000 to 1.5 million parents leaving work (Bastian; Corinth and others) [EV-SEC-219] [EV-SEC-218]. Even the largest leaves child poverty about a fifth lower."
         }
       ]
+    },
+    "ss-act": {
+      "basis": "decision",
+      "statement": "The Social Security Solvency and Protection Act of 2030: SS-11.01 full benefits on time (the general fund lends any shortfall, repaid with interest); SS-1.01 12.4% on earnings above $250,000 from January 2031; minimum benefit (SS-3.01) and caregiver credit (SS-B4.01)",
+      "figures": [
+        "2030",
+        "12.4%",
+        "$250,000",
+        "January 2031"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "**The Social Security Solvency and Protection Act of 2030**"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "**Full benefits on time if depletion comes first**"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "the general fund lends it the shortfall, so SSA pays full benefits on time; repaid with interest from the act's revenue"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "**12.4% on earnings above $250,000**"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "From January 2031; the $250,000 line not indexed"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "**A minimum benefit at 125% of poverty for 30-year workers**"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "**A caregiver earnings credit**"
+        }
+      ]
+    },
+    "eitc": {
+      "basis": "decision",
+      "statement": "INC-1.01: the 2021 childless earned income credit made permanent from tax year 2030, maximum $1,502 indexed from 2021",
+      "figures": [
+        "2030",
+        "2021",
+        "$1,502"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "For workers without a qualifying child, from tax year 2030: the 2021 maximum of $1,502"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "all indexed to prices from 2021"
+        }
+      ]
+    },
+    "onramps": {
+      "basis": "decision",
+      "statement": "LAB-10.01-10.04: paid on-ramps in the plan's sectors, $100B over FY2030-39; a stipend up to $9,000 a year (2030 dollars, indexed); an offer, never a condition",
+      "figures": [
+        "2030",
+        "$9,000"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "Sector partnerships of employers, unions and training providers in care, construction and repair, rail and transit, housing production and clean power"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "$100 billion over FY2030-39, mandatory"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "Up to $9,000 a year in 2030 dollars, indexed, paid monthly for the weeks in training"
+        },
+        {
+          "path": "dossiers/secure-floor/4-specification.md",
+          "anchor": "No benefit in the plan depends on taking part; declining keeps every benefit"
+        }
+      ]
+    },
+    "medicare-end": {
+      "basis": "decision",
+      "statement": "HLT-7.25: today's Medicare moves into the plan at the endpoint; Parts A, B, D, Advantage and Medigap end for covered services on January 1, 2035, and Part B and D premiums end",
+      "figures": [
+        "January 1, 2035"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/care/4-specification.md",
+          "anchor": "Parts A, B and D, Advantage and Medigap end for covered services on January 1, 2035"
+        },
+        {
+          "path": "dossiers/care/4-specification.md",
+          "anchor": "Part B and D premiums end then"
+        }
+      ]
+    },
+    "hlt-benefits": {
+      "basis": "decision",
+      "statement": "HLT-7.05: comprehensive benefits, including mental health and addiction treatment",
+      "figures": [],
+      "sources": [
+        {
+          "path": "dossiers/care/4-specification.md",
+          "anchor": "mental health and addiction treatment, maternity and newborn care"
+        }
+      ]
+    },
+    "apprentice": {
+      "basis": "decision",
+      "statement": "LAB-8.01, 8.03, 8.04: one apprenticeship line paid per apprentice started and completed; at least 15% of each grant for supports; a published target of 600,000 new apprentices a year by FY2034, which no evidence in the register yet shows can be met",
+      "figures": [
+        "600,000",
+        "2034"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "**One apprenticeship line built with employers, paid per apprentice started and completed**"
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "pays for apprentices' child care, tools, transport and mentors"
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "The act sets a target of 600,000 new registered apprentices a year by FY2034"
+        },
+        {
+          "path": "dossiers/work/4-specification.md",
+          "anchor": "no evidence in the register shows it can be met"
+        }
+      ]
+    },
+    "stage1-test": {
+      "basis": "decision",
+      "statement": "HOU-4.03: stage 1 counts people with no home of their own: the literally homeless and doubled-up families with children; anyone leaving an institution (prison, jail, a hospital, treatment, foster care) with no home to go to; doubled-up after leaving counts only for prison, jail or foster care, for 12 months (DEC-2026-11-10-06). A doubled-up adult without children who left treatment is not counted (the H7 housing model's finding, #508)",
+      "figures": [
+        "12"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "One plain test, \"no home of your own\": people literally homeless, and families with children who are doubled up."
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "Anyone leaving with no home to go to has no home of their own, so the plain test already counts them"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "someone leaving prison, jail or foster care for a relative's or friend's home, doubled up, also counts for the first 12 months after leaving"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "admits doubled-up households to stage 1 only when they have children"
+        }
+      ]
+    },
+    "later-stages": {
+      "basis": "decision",
+      "statement": "HOU-4.03: stage 3 from 2038 (ELI renters with long-term disabilities); the 2040s route opens in 2042 at up to 400,000 households a year for ELI renters with worst case needs outside stages 1-3, single adults among them; the regular bill states it, R2 does not fund it, and its money is enacted only with its financing",
+      "figures": [
+        "2038",
+        "2042",
+        "400,000",
+        "2040"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "**Stage 3 (HOU-4.08, from 2038).** Extremely low-income renters with long-term disabilities, of any age"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "extremely low-income renters with worst case needs outside stages 1-3 (single adults and other households who are not disabled, and older renters who are not disabled)"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "Enrollment opens in 2042 at up to 400,000 households a year"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "The regular bill states the stage and its date; R2 does not fund it."
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "the money is enacted only with its financing, as D4 requires"
+        },
+        {
+          "path": "dossiers/home/4-specification.md",
+          "anchor": "**A stated route for the 2040s**"
+        }
+      ]
+    },
+    "credits-end": {
+      "basis": "estimate",
+      "statement": "CLI-1 corrected (#493, G25.1): on the decided statute the clean-energy credits' cost falls from about $46B in FY2040 to zero by FY2047",
+      "figures": [
+        "2047"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "On the decided statute the cost falls from about $46B in FY2040 to zero by FY2047"
+        }
+      ]
+    },
+    "health-fund": {
+      "basis": "decision",
+      "statement": "DEC-2026-11-25-12 (G26-G28, -30 to -32): the health contribution replaces the Medicare HI payroll tax and behaves like it, a trust fund; it pays only the health system's expenses; the general fund covers the fund's shortfall (HLT-7.22)",
+      "figures": [],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/8-health-trust-fund.md",
+          "anchor": "The health contribution may only be used to pay for the health system's expenses."
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/8-health-trust-fund.md",
+          "anchor": "It is the replacement for the Medicare HI payroll tax and it should behave like it (essentially a trust fund)"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/8-health-trust-fund.md",
+          "anchor": "and the general fund covers any shortfall"
+        }
+      ]
+    },
+    "debt-path": {
+      "basis": "decision",
+      "statement": "G23 B (DEC-2026-11-25-13): debt falling to 110% of GDP by FY2056, about a quarter point a year from its FY2039 peak; about 1.0% of GDP of new deficit reduction phased in over FY2035-39. Decided, not yet booked",
+      "figures": [
+        "110%",
+        "2056",
+        "1.0%",
+        "2035-39"
+      ],
+      "recheck": "Not booked yet: reread when the tier-3 booking of G23 B and G24 B lands",
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "debt falling to 110% of GDP by FY2056,** about 1.0% of GDP of new deficit reduction phased in over FY2035-39"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "B lowers debt by about a quarter point a year"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/8-health-trust-fund.md",
+          "anchor": "Espen has since decided G23 B (debt falling to 110% by FY2056)"
+        }
+      ]
+    },
+    "later-steps": {
+      "basis": "decision",
+      "statement": "G24 B (DEC-2026-11-25-14): G19 B's deduction limits and AGI surtax (2 points above $100K/$200K) stay, then a rebated VAT; the sources' re-scores are the agent's rough arithmetic, not CBO's or JCT's",
+      "figures": [
+        "2",
+        "$100K",
+        "$200K"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "G19 B's deduction limits and AGI surtax, then a VAT of about 4.9% from FY2035"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "| An AGI surtax, 2 points above $100K/$200K |"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "The re-score is the agent's own rough arithmetic, not CBO's or JCT's"
+        }
+      ]
+    },
+    "vat": {
+      "basis": "decision",
+      "statement": "G24 B and G24.2 (DEC-2026-11-25-14, -16): a VAT of about 4.9% from FY2035 as first scored, enacted in the 2033-34 Congress. G24.1 (-15) limits the rebate to people below an income threshold not yet proposed, and the rate is re-scored then: pending",
+      "figures": [
+        "4.9%",
+        "2035",
+        "2033-34"
+      ],
+      "recheck": "G24.1's threshold is still to be proposed; the rate is re-scored then. Reread when it is",
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "then a VAT of about 4.9% from FY2035 with a $150-a-point rebate for every adult"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "point 2: enact the VAT in the 2033-34 Congress"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/8-health-trust-fund.md",
+          "anchor": "G24 B (deduction limits, the surtax and a rebated VAT from FY2035, R held at 3.80%)"
+        }
+      ]
+    },
+    "populist": {
+      "basis": "design",
+      "statement": "The populist start holds under G24 B: nothing new reaches the middle class before FY2035",
+      "figures": [
+        "2035"
+      ],
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "**The populist start holds:** nothing new reaches the middle class before FY2035, seven years in."
+        }
+      ]
+    },
+    "take-home": {
+      "basis": "model",
+      "statement": "Take-home test, FY2040: 69.0% of workers ahead on the booked base; 50.7% with G24 B's mix 2 (about 53% without the test's bias), before G24.1 limits the rebate",
+      "figures": [
+        "2040"
+      ],
+      "rounded": [
+        {
+          "figure": "69%",
+          "value": "69.0",
+          "scale": 1,
+          "places": 0
+        }
+      ],
+      "recheck": "Re-scored once G24.1's threshold is set, and with #507's rate path",
+      "sources": [
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "The booked base: Q4 +12,998 in FY2040; 69.0% of workers ahead, 99.5% below 200% of poverty."
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+          "anchor": "**50.7% (about 53% without the test's bias)**"
+        }
+      ]
     }
-  }
+  },
+  "families": [
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "about": "A single man in his mid-twenties, learning a trade and renting a room across town.",
+      "moments": [
+        {
+          "scene": "work",
+          "time": "6:45 am",
+          "place": "A job site at the edge of town",
+          "title": "A trade, and a contract",
+          "illustration": "Early light over a fenced job site where a new battery building for the grid is going up. A young man in a hard hat and tool belt pulls cable with an older electrician; a union sticker on his lunch cooler.",
+          "beats": [
+            {
+              "person": "jordan",
+              "text": "Jordan is in the second year of a registered apprenticeship, wiring a new battery building for the power grid. His sponsor is paid for each apprentice it starts and each one who finishes, and part of that money bought his tools and his bus pass."
+            },
+            {
+              "person": "jordan",
+              "text": "His crew voted in their union by signing cards, and their first contract came on a deadline instead of after years of delay."
+            }
+          ]
+        },
+        {
+          "scene": "clinic",
+          "time": "12:30 pm",
+          "place": "An urgent care clinic",
+          "title": "Stitches, and a small copay",
+          "illustration": "A bright clinic room. A young man in work clothes holds out a bandaged hand to a nurse; his hard hat sits on the chair beside him.",
+          "beats": [
+            {
+              "person": "jordan",
+              "text": "Jordan slices his hand on a panel edge and gets three stitches at urgent care. He has been in the public plan since he was a kid and has never seen a premium or a deductible. Because he earns more than twice the poverty line, he pays a small copay, capped for the year."
+            }
+          ]
+        },
+        {
+          "scene": "power",
+          "time": "4:00 pm",
+          "place": "The job site, as a storm comes in",
+          "title": "Storm call",
+          "illustration": "Dark clouds roll over the job site. Workers lash down cable reels; a young man checks his phone, where a payment notice glows.",
+          "beats": [
+            {
+              "person": "jordan",
+              "text": "The crew ties down before the storm. Jordan's Climate Dividend landed last week, as it does four times a year: power plants and big factories pay for the carbon they put in the air, and most of that money comes back to every adult."
+            }
+          ]
+        },
+        {
+          "scene": "immigration",
+          "time": "5:30 pm",
+          "place": "The federal building",
+          "title": "Dani's oath",
+          "illustration": "A plain hearing room with flags. A young woman raises her right hand among a row of new citizens; a friend in work clothes holds up a phone to take her picture.",
+          "beats": [
+            {
+              "person": "dani",
+              "text": "Jordan's roommate Dani was brought here as a child. When the law passed she got her green card on approval, after fingerprints and a criminal check. Today she takes the oath as a citizen, and Jordan came straight from work to take the picture."
+            },
+            {
+              "person": null,
+              "text": "Down the hall, a family that crossed the border in last spring's surge hears the decision on their asylum claim, a few months after they filed, not years."
+            }
+          ]
+        },
+        {
+          "scene": "home",
+          "time": "6:30 pm",
+          "place": "A rented room in a shared apartment",
+          "title": "The rent is still the hard part",
+          "illustration": "A small bedroom in a shared apartment: a mattress, a desk with a laptop open to a budget, work boots by the door.",
+          "beats": [
+            {
+              "person": "jordan",
+              "text": "Rent takes the biggest bite of Jordan's pay. The plan's rent help goes first to people with no home of their own, then to the poorest families with children and renters with disabilities. A single worker like him, who isn't homeless, isn't disabled and isn't raising children, has no funded route to rent help."
+            },
+            {
+              "person": "jordan",
+              "text": "What reaches him is slower: more homes built that stay affordable for good, and the emergency fund if a crisis hits."
+            }
+          ]
+        },
+        {
+          "scene": "democracy",
+          "time": "7:30 pm",
+          "place": "The public library",
+          "title": "Twenty-five dollars, matched",
+          "illustration": "A library meeting room with folding chairs. A candidate speaks at the front; a young man near the back holds a printed flyer.",
+          "beats": [
+            {
+              "person": "jordan",
+              "text": "Jordan stops by a candidate forum at the library. He was registered to vote automatically from his driver's license record, and he gave $25 to the House candidate speaking tonight. She opted in to the small-gift match, so his gift brought her campaign $175.{c:match}"
+            }
+          ]
+        },
+        {
+          "scene": "transit",
+          "time": "10:15 pm",
+          "place": "A night bus",
+          "title": "The route that survived",
+          "illustration": "The inside of a city bus at night, half full. A young man leans his head on the window; a repaired bridge passes outside, lit by new lamps.",
+          "beats": [
+            {
+              "person": "jordan",
+              "text": "Jordan rides the bus home. The route survived because the city kept its own funding to qualify for help with running costs, and the bridge on the way was repaired, on a list of bridges the state publishes."
+            }
+          ]
+        },
+        {
+          "scene": "money",
+          "time": "Night",
+          "place": "Home",
+          "title": "What it costs, and who pays",
+          "illustration": "A phone screen in a dark room, showing a pay stub. The city lights beyond the window.",
+          "beats": [
+            {
+              "person": "jordan",
+              "text": "Before bed Jordan checks his pay stub. There is no premium on it. There is the health contribution on his income, which goes into the health fund and can pay only for health care."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maya-sam",
+      "name": "Maya and Sam",
+      "about": "A couple in their thirties with two young children, Theo and Nora. Sam's aging parents, Hector and Lupe, live a few blocks away.",
+      "moments": [
+        {
+          "scene": "floor",
+          "time": "6:30 am",
+          "place": "A kitchen",
+          "title": "The money comes on the first",
+          "illustration": "Early light in a small kitchen. A mother in a robe holds a newborn on her shoulder while checking a phone; a father pours cereal for a four-year-old still in pajamas.",
+          "beats": [
+            {
+              "person": "maya",
+              "text": "The phone buzzes before the coffee is ready: the child benefit for Theo and Nora is in, as it is on the first of every month. Maya and Sam never applied for it. It started from the children's birth records."
+            },
+            {
+              "person": "maya",
+              "text": "Maya is home with Nora on paid leave, at most of her pay, and her job is waiting for her when she goes back."
+            }
+          ]
+        },
+        {
+          "scene": "childcare",
+          "time": "8:00 am",
+          "place": "The pre-K classroom at the neighborhood school",
+          "title": "Pre-K, and a cap on what care costs",
+          "illustration": "A bright classroom of small tables. A father kneels to zip a little boy's jacket off; a teacher waves from a reading rug.",
+          "beats": [
+            {
+              "person": "sam",
+              "text": "Sam walks Theo to pre-K at the school down the street. It is free for every three- and four-year-old."
+            },
+            {
+              "person": "sam",
+              "text": "When Nora starts child care next fall, Maya and Sam earn too much for it to be free. But no family pays more than 7% of its income for a child too young for school, so they know the most it will cost.{c:cc-cap}"
+            }
+          ]
+        },
+        {
+          "scene": "clinic",
+          "time": "9:30 am",
+          "place": "The pediatrician's office",
+          "title": "A checkup with nothing to pay",
+          "illustration": "A pediatric exam room with a baby scale. A mother holds her newborn while a doctor listens with a stethoscope.",
+          "beats": [
+            {
+              "person": "nora",
+              "text": "Nora's newborn checkup costs nothing, and neither did her birth: maternity care, newborn care and primary care are free for everyone in the plan."
+            }
+          ]
+        },
+        {
+          "scene": "longterm",
+          "time": "10:30 am",
+          "place": "Hector and Lupe's living room",
+          "title": "Help at home, savings intact",
+          "illustration": "A tidy living room with family photos. A home care aide helps an older woman with a cardigan; an older man sets out two cups of tea.",
+          "beats": [
+            {
+              "person": "lupe",
+              "text": "An aide arrives to help Lupe through her morning. Nobody asked Hector and Lupe to spend down their savings first: long-term care is part of the public health plan, with no asset test."
+            },
+            {
+              "person": "sam",
+              "text": "Sam calls between shifts. He no longer worries that caring for his mother will cost his parents their house."
+            }
+          ]
+        },
+        {
+          "scene": "immigration",
+          "time": "11:00 am",
+          "place": "Hector and Lupe's kitchen",
+          "title": "A photo on the fridge",
+          "illustration": "A refrigerator door covered in grandchildren's drawings and, in the middle, a framed photo of a man holding up a green card.",
+          "beats": [
+            {
+              "person": "hector",
+              "text": "On the fridge is a photo of Hector the day he got his green card. He had lived and worked here for decades. He proved his years from tax records the government already held, passed a fingerprint and criminal check, and a few years later he became a citizen."
+            }
+          ]
+        },
+        {
+          "scene": "work",
+          "time": "1:00 pm",
+          "place": "A distribution center break room",
+          "title": "A raise that keeps up",
+          "illustration": "A break room with lockers and a vending machine. A man in a safety vest reads a pay stub; a union notice is pinned to the board behind him.",
+          "beats": [
+            {
+              "person": "sam",
+              "text": "On his break Sam looks over the new hires' pay. The wage floor went up again this January, as it does every year with the median wage, so a raise never waits for Congress."
+            },
+            {
+              "person": "sam",
+              "text": "His coworkers voted in their union by signing cards, and their first contract came on a deadline."
+            }
+          ]
+        },
+        {
+          "scene": "power",
+          "time": "4:00 pm",
+          "place": "The front porch, as a storm comes in",
+          "title": "Storm season, dividend day",
+          "illustration": "A front porch with a stroller and a tricycle. A woman holding a baby watches dark clouds; a utility truck passes on the street.",
+          "beats": [
+            {
+              "person": "maya",
+              "text": "Maya watches the storm roll in. Two Climate Dividends, hers and Sam's, came this quarter, and there has never been a carbon charge on their gas bill."
+            }
+          ]
+        },
+        {
+          "scene": "transit",
+          "time": "5:30 pm",
+          "place": "The drive home",
+          "title": "Paying by the mile, without being tracked",
+          "illustration": "A small electric car at a stoplight in evening traffic, a car seat visible in the back; a dashboard odometer in close-up.",
+          "beats": [
+            {
+              "person": "sam",
+              "text": "Sam drives home in the family's electric car. It pays its share of the roads by the mile, at what an efficient gas car pays, read from the odometer, with no tracking device."
+            }
+          ]
+        },
+        {
+          "scene": "money",
+          "time": "Night",
+          "place": "The kitchen table",
+          "title": "What it costs, and who pays",
+          "illustration": "A kitchen table after the children are asleep: a laptop, a stack of bills, two mugs, a baby monitor.",
+          "beats": [
+            {
+              "person": "maya",
+              "text": "After the children are asleep, Maya and Sam go over the month: no premiums, no deductibles, child care capped, the child benefit in. Their taxes are higher than their parents' were. On our estimates every fifth of households below the top comes out ahead on average, but an average isn't a promise for any one family.{c:d3}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carol-dev",
+      "name": "Carol and Dev",
+      "about": "A couple getting ready to retire. Their adult son, Eli, struggled with substance use and lives with them because he can't afford a place of his own. They want to help their family, and they also plan to enjoy their retirement.",
+      "moments": [
+        {
+          "scene": "floor",
+          "time": "7:00 am",
+          "place": "A kitchen",
+          "title": "Full benefits, on time",
+          "illustration": "A morning kitchen. A woman in reading glasses holds a printed statement; her husband reads over her shoulder; their grown son, in a work jacket, grabs a travel mug on his way out.",
+          "beats": [
+            {
+              "person": "carol",
+              "text": "Carol opens her Social Security statement: the full benefit she earned, on time. A 2030 act raised the money to keep it that way, and if a trust fund had ever run short first, the law has the general fund lend it the difference.{c:ss-act}"
+            },
+            {
+              "person": "eli",
+              "text": "Eli heads out to a paid training program in home repair. He gets a stipend for the weeks he trains, and nothing else he gets depends on taking part."
+            }
+          ]
+        },
+        {
+          "scene": "clinic",
+          "time": "9:00 am",
+          "place": "A community clinic",
+          "title": "Treatment, covered like any other care",
+          "illustration": "A calm clinic waiting room with plants and a counselor's door ajar. A man in his thirties signs in at the desk; nobody asks for a card.",
+          "beats": [
+            {
+              "person": "eli",
+              "text": "Eli checks in for counseling and the medication that keeps him in recovery. The plan covers addiction treatment as it covers any other care, and he has no premium or deductible to pay."
+            },
+            {
+              "person": "dev",
+              "text": "Turning sixty-five next year changes nothing about Dev's coverage: no Medicare sign-up, no premium to pay, no extra policy to shop for. The plan he has had for years just continues."
+            }
+          ]
+        },
+        {
+          "scene": "longterm",
+          "time": "10:30 am",
+          "place": "The kitchen table",
+          "title": "Planning the trip",
+          "illustration": "A kitchen table covered in a map and travel brochures. An older couple point at a coastline, laughing.",
+          "beats": [
+            {
+              "person": "dev",
+              "text": "Carol and Dev are planning their first long trip in years. They don't have to keep their savings untouched against a nursing home: if one of them someday needs help with daily life, long-term care is part of the public plan, with no asset test."
+            }
+          ]
+        },
+        {
+          "scene": "home",
+          "time": "2:00 pm",
+          "place": "Eli's room",
+          "title": "A room at his parents', for now",
+          "illustration": "A spare bedroom in a family house, a little crowded: a single bed, a toolbox, a calendar with recovery meetings circled, an apartment listing printed on the desk.",
+          "beats": [
+            {
+              "person": "eli",
+              "text": "Eli would like a place of his own, and he can't afford one yet. He doesn't qualify for the plan's first rent awards. They go to people with no home of their own, and adults staying with family count only if they have children, or for a year after leaving prison, jail or foster care. Coming home from treatment to his parents' house doesn't count."
+            },
+            {
+              "person": "eli",
+              "text": "The later stages reach the poorest families with children, then very low-income renters with disabilities. The plan names one more stage in law, for single renters with the lowest incomes and the worst rent burdens, but it isn't paid for yet, and it helps people who already rent. For now his parents' spare room is home, and Carol and Dev are glad to have him."
+            }
+          ]
+        },
+        {
+          "scene": "power",
+          "time": "4:00 pm",
+          "place": "The front porch, as a storm comes in",
+          "title": "Dividends with the check",
+          "illustration": "An older couple on a porch swing under a darkening sky, a dog at their feet, a tablet showing a deposit notice.",
+          "beats": [
+            {
+              "person": "carol",
+              "text": "Carol and Dev watch the storm roll in. Their Climate Dividends come four times a year, and when they claim Social Security, the dividends will come with their checks."
+            }
+          ]
+        },
+        {
+          "scene": "democracy",
+          "time": "5:00 pm",
+          "place": "On the phone",
+          "title": "Someone picks up",
+          "illustration": "A man on a landline in a hallway, a notepad in his hand, a Social Security envelope open on the side table.",
+          "beats": [
+            {
+              "person": "dev",
+              "text": "Dev calls Social Security to ask when he should start his benefit, and someone picks up. The office is staffed again."
+            }
+          ]
+        },
+        {
+          "scene": "money",
+          "time": "Night",
+          "place": "The living room",
+          "title": "What it costs, and who pays",
+          "illustration": "A living room lit by one lamp. An older couple on a couch with a notebook of figures; a third mug on the table for their son.",
+          "beats": [
+            {
+              "person": "carol",
+              "text": "Carol and Dev go over their retirement plan: Social Security in full, no Medicare premiums, and the health contribution on their income in place of them. They want to enjoy the years ahead, and they set a little aside to help Eli with a deposit when the time comes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
