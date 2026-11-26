@@ -27,6 +27,11 @@ def scene(content, sid):
     return next(s for s in content['scenes'] if s['id'] == sid)
 
 
+def moment(content, fid, sid):
+    fam = next(f for f in content['families'] if f['id'] == fid)
+    return next(m for m in fam['moments'] if m['scene'] == sid)
+
+
 class Content(unittest.TestCase):
     def setUp(self):
         self.content = B.load()
@@ -46,7 +51,7 @@ class Content(unittest.TestCase):
 
     def test_untraced_figure_fails(self):
         c = copy.deepcopy(self.content)
-        scene(c, 'floor')['beats'][0]['text'] += ' It is $999 a month.'
+        moment(c, 'maya-sam', 'floor')['beats'][0]['text'] += ' It is $999 a month.'
         self.assertTrue(any('figures without a cited claim' in p and '999' in p for p in self.problems(c)))
 
     def test_figure_missing_from_its_passage_fails(self):
@@ -78,15 +83,28 @@ class Content(unittest.TestCase):
     def test_titles_and_placeholders_carry_no_figures(self):
         c = copy.deepcopy(self.content)
         scene(c, 'money')['detail']['placeholders'][0]['text'] += ' About 117% of GDP.'
-        self.assertTrue(any('placeholder debt-path' in p for p in self.problems(c)))
+        self.assertTrue(any('placeholder fund-rate' in p for p in self.problems(c)))
         c = copy.deepcopy(self.content)
-        scene(c, 'clinic')['title'] = 'Covered since 2031'
-        self.assertTrue(any('scene clinic title' in p for p in self.problems(c)))
+        moment(c, 'jordan', 'clinic')['title'] = 'Covered since 2031'
+        self.assertTrue(any('jordan clinic title' in p for p in self.problems(c)))
+        c = copy.deepcopy(self.content)
+        c['families'][0]['about'] = 'A man of 25.'
+        self.assertTrue(any('family jordan' in p for p in self.problems(c)))
 
-    def test_every_scene_keeps_a_family_beat(self):
+    def test_every_moment_has_a_beat_for_its_family(self):
         c = copy.deepcopy(self.content)
-        scene(c, 'immigration')['beats'] = [b for b in scene(c, 'immigration')['beats'] if b['person'] != 'elena']
-        self.assertTrue(any('scene immigration: no beat for the tasha household' in p for p in self.problems(c)))
+        m = moment(c, 'jordan', 'immigration')
+        m['beats'] = [b for b in m['beats'] if b['person'] is None]
+        self.assertTrue(any('jordan immigration: no beat for a member of the jordan family' in p for p in self.problems(c)))
+
+    def test_every_family_ends_on_the_money_and_every_scene_is_met(self):
+        c = copy.deepcopy(self.content)
+        c['families'][1]['moments'] = [m for m in c['families'][1]['moments'] if m['scene'] != 'money']
+        self.assertTrue(any('family maya-sam: its day must end on the money' in p for p in self.problems(c)))
+        c = copy.deepcopy(self.content)
+        for f in c['families']:
+            f['moments'] = [m for m in f['moments'] if m['scene'] != 'childcare']
+        self.assertTrue(any('scene childcare: no family meets it' in p for p in self.problems(c)))
 
     def test_scenes_need_dates_limits_and_questions(self):
         c = copy.deepcopy(self.content)
@@ -99,34 +117,48 @@ class Content(unittest.TestCase):
         self.assertTrue(any('claims not used' in p and 'spare' in p for p in self.problems(c)))
 
 
-class Frames(unittest.TestCase):
+class Families(unittest.TestCase):
     def setUp(self):
         self.content = B.load()
 
-    def test_family_frame_is_a_filter_and_a_reordering(self):
-        town, *_ = B.arrange(self.content, frame='town')
-        family, *_ = B.arrange(self.content, frame='family')
-        self.assertEqual(sorted(s['id'] for s in town), sorted(s['id'] for s in family))
+    def test_three_families_and_a_chooser(self):
+        """DEC-2026-11-25-23: three families, with a way to choose whose day you read."""
+        self.assertEqual([f['id'] for f in self.content['families']], ['jordan', 'maya-sam', 'carol-dev'])
+        page = B.render(self.content, B.read_lock())['day.html']
+        self.assertIn('aria-label="Choose a family"', page)
+        for f in self.content['families']:
+            self.assertIn(f'<a href="#{f["id"]}">', page)
+            self.assertIn(f'<article class="family" id="{f["id"]}"', page)
+
+    def test_one_family_and_the_money_last(self):
+        days, money, _ = B.arrange(self.content, family='carol-dev')
+        self.assertEqual([f['id'] for f, _ in days], ['carol-dev'])
+        self.assertEqual(days[0][1][-1]['scene'], 'money')
         people = self.content['people']
-        for s in family:
-            if s['id'] != 'money':
-                self.assertTrue(s['beats'])
-                self.assertTrue(all(people[b['person']]['household'] == 'tasha' for b in s['beats']))
-        self.assertEqual([s['id'] for s in family], [i for i in self.content['orders']['family']])
+        for m in days[0][1]:
+            self.assertTrue(any(b['person'] and people[b['person']]['family'] == 'carol-dev' for b in m['beats']))
 
     def test_money_position_and_optional_scenes(self):
         first, *_ = B.arrange(self.content, money='first')
         last, *_ = B.arrange(self.content, money='last')
-        self.assertEqual(first[0]['id'], 'money')
-        self.assertEqual(last[-1]['id'], 'money')
+        for (_, a), (_, b) in zip(first, last):
+            self.assertEqual(a[0]['scene'], 'money')
+            self.assertEqual(b[-1]['scene'], 'money')
         without, *_ = B.arrange(self.content, optional={'transportation': False})
-        self.assertNotIn('transit', [s['id'] for s in without])
+        self.assertFalse(any(m['scene'] == 'transit' for _, day in without for m in day))
+        self.assertTrue(scene(self.content, 'transit').get('optional'))  # DEC-2026-11-25-24
 
     def test_placeholders_render_and_figures_do_not_leak(self):
         page = B.render(self.content, B.read_lock())['day.html']
         for ph in scene(self.content, 'money')['detail']['placeholders']:
             self.assertIn(f'data-placeholder="{ph["id"]}"', page)
             self.assertNotIn(ph['waits_on'], page)  # what it waits on is for the register, not the reader
+
+    def test_evidence_note_ids_are_unique(self):
+        import re
+        page = B.render(self.content, B.read_lock())['day.html']
+        ids = re.findall(r' id="([^"]+)"', page)
+        self.assertEqual(len(ids), len(set(ids)))
 
 
 class PinAndDrift(unittest.TestCase):
