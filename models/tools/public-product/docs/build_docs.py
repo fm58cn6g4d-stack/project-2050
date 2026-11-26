@@ -149,11 +149,17 @@ def results_header(row):
     return None, None
 
 
+def param_files(row):
+    return [f.strip() for f in (row.get('parameters') or '').split(';') if f.strip()]
+
+
 def parameter_table(row):
     if not row.get('parameters'):
         return None
     colmap = dict(x.split('=', 1) for x in filter(None, (row.get('parameters_map') or '').split(';')))
-    rows = parameters.read(ROOT / row['parameters'], colmap)
+    # A register row may list several parameter files separated by ';' (immigration, housing); the first is the
+    # model's main parameter file on the schema, and the page links the others.
+    rows = parameters.read(ROOT / param_files(row)[0], colmap)
     problems = parameters.validate(rows)
     # A file not yet on the schema (health coverage's has no year column until step H3) still shows its rows.
     rows = [{**{k: '' for k in parameters.REQUIRED + parameters.OPTIONAL}, **r} for r in rows]
@@ -202,7 +208,10 @@ def model_page(row, criteria, runs):
     table = parameter_table(row)
     if table:
         text, problems = table
-        out.append(f'<p>Generated from <a href="{REPO}{esc(row["parameters"])}">{esc(row["parameters"])}</a>.'
+        files = param_files(row)
+        out.append(f'<p>Generated from <a href="{REPO}{esc(files[0])}">{esc(files[0])}</a>.'
+                   + (' Other parameter files: ' + ', '.join(f'<a href="{REPO}{esc(f)}">{esc(f)}</a>' for f in files[1:]) + '.'
+                      if len(files) > 1 else '')
                    + (f' The file does not yet meet the schema in {len(problems)} place(s); see its toolkit step.' if problems else '')
                    + '</p>' + markdown(text, ROOT))
     else:
