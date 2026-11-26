@@ -1,6 +1,6 @@
 # Project 2050: working public edition
 
-> **Stage H (November 25, 2026):** this October edition is superseded. The rebuilt front door's content, claim register and builder are in [`day/`](day/README.md), and the toolkit's docs pages in [`docs/`](docs/build_docs.py). Step H10 retires the pages below; until then they stay as they are, unbuildable from a normal clone (stage H audit, part 2.2).
+> **Stage H (November 25, 2026):** this October edition is superseded. The rebuilt front door's content, claim register and builder are in [`day/`](day/README.md), the toolkit's docs pages in [`docs/`](docs/build_docs.py), and the visual design proposal (H9) in [`design/`](design/README.md). Step H10 retires the pages below; until then they stay as they are, unbuildable from a normal clone (stage H audit, part 2.2).
 
 
 October 25, 2026 · Draft PR #19 on `codex/public-product-blueprint`. Source `main`: `3594c784b35651ee34fc7661274219bf82f3adcb`. The expanded edition implements Espen’s direction: principles, goals and connected policy choices in plain language, with democratic movement and long-term accountability. Detailed funding and model discussion lives in the separate analysis companion. No adopted policy, date or model input changed. Read the [blueprint](../../../sources/public-product-blueprint.md).
