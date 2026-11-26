@@ -229,7 +229,7 @@
         ],
         "cost": [
           "On our estimates the country spends about $491 billion a year less on health care at full scale, while households stop paying about $1.55 trillion a year in premiums and out-of-pocket costs.{c:hlt-national}",
-          "Premiums give way to a health contribution on income: 3.80% from 2035, with nothing owed at or below 138% of poverty, rising to the full rate at 250%.{c:hc-rate} It goes into the health fund and can pay only for health care, like the Medicare payroll tax it replaces.{c:health-fund}",
+          "Premiums give way to a health contribution on income: 3.80% from 2035, with nothing owed at or below 138% of poverty, rising to the full rate at 250%.{c:hc-rate} In later years the rate can move a quarter point at a time under the health fund's own rule (pending). It goes into the health fund and can pay only for health care, like the Medicare payroll tax it replaces.{c:health-fund}",
           "The federal budget's cost rises by far more than the country saves, because the government now pays what premiums used to. The health contribution pays part of that, and the general fund pays the rest, from the taxes in the money scene at the end of the day.{c:health-fund}"
         ],
         "limits": [
@@ -569,7 +569,7 @@
         "what_changed": [
           "The top end and corporations pay first: the corporate rate rises to 28%, the top income tax rate returns to 39.6% for the highest earners, a new 45% bracket applies to incomes in the millions, and the 2025 law's tax cuts are reversed at the top.{c:top-rows}",
           "On our estimates the top 1% and corporations bear 65% of the plan's new general revenue over 2030-39, leaving out the health contribution that replaces premiums. That is the plan as booked, before the later steps below.{c:mix}",
-          "Premiums give way to a health contribution on income: 3.80% from 2035, with nothing owed at or below 138% of poverty, rising to the full rate at 250%.{c:hc-rate} It replaces the Medicare payroll tax and works like it: it goes into the health fund, pays only for the health system, and is never spent on anything else in the budget. The general fund pays the rest of health's cost.{c:health-fund} A separate payroll contribution of 1.65 points funds the education fund.{c:edu}",
+          "Premiums give way to a health contribution on income: 3.80% from 2035, with nothing owed at or below 138% of poverty, rising to the full rate at 250%.{c:hc-rate} In later years the rate can move a quarter point at a time under the health fund's own rule (pending). It replaces the Medicare payroll tax and works like it: it goes into the health fund, pays only for the health system, and is never spent on anything else in the budget. The general fund pays the rest of health's cost.{c:health-fund} A separate payroll contribution of 1.65 points funds the education fund.{c:edu}",
           "Spending gives way too, across the whole federal budget: the plan drops its own $300 adult credit, the states keep paying their full current share of long-term care, defense is held flat after inflation after 2036 and restructured, crop insurance is reformed for the insurers and the largest farms, and a tax break for real-estate investors ends.{c:cuts}",
           "From 2040 to 2056, on our estimates, the plan's new spending as booked is covered every year by its taxes, its savings elsewhere in the budget and the states' payments, by a thin margin at first. That is not the same as a balanced federal budget.{c:closes}",
           "The debt: the plan's chosen path has the national debt falling to 110% of the economy by 2056, about a quarter point a year. That takes about 1.0% of the economy more in savings or revenue each year, phased in over 2035-39. The path is decided; the booked figures above don't include it yet.{c:debt-path}",
@@ -614,7 +614,7 @@
           {
             "q": "Why a value-added tax, and why wait?",
             "a": [
-              "The other choice was a higher health contribution, which on our estimates does somewhat better for low-income workers. But the plan keeps that contribution for health care's own cost and holds its rate steady, so the debt path is paid for by other steps, a value-added tax among them.{c:health-fund}{c:vat-vs-r} The tax waits until 2035 so nothing new reaches the middle class in the plan's first years.{c:populist} Its rebate goes only to people below an income line, to keep the help for low and middle incomes; the line is still to be set (pending).{c:vat}"
+              "The other choice was a higher health contribution, which on our estimates does somewhat better for low-income workers. But the plan keeps that contribution for health care's own cost, with its rate set by the health fund's own rule, so the debt path is paid for by other steps, a value-added tax among them.{c:health-fund}{c:vat-vs-r} The tax waits until 2035 so nothing new reaches the middle class in the plan's first years.{c:populist} Its rebate goes only to people below an income line, to keep the help for low and middle incomes; the line is still to be set (pending).{c:vat}"
             ]
           }
         ],
@@ -2492,7 +2492,8 @@
           "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
           "anchor": "**But R is spoken for.**"
         }
-      ]
+      ],
+      "recheck": "The comparison predates G26-G28 (the health fund, DEC-2026-11-25-30 to -32) and G24.1's limited rebate; reread when G24 B is re-scored"
     }
   },
   "families": [
