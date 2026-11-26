@@ -5,6 +5,7 @@ Role: the art briefs for the front door (stage H step H9): the final-art brief f
 Rules for every scene:
 - The page labels every picture "imagined scene". The picture itself carries no words, except C's clock time, which is also in the text.
 - No real people or likenesses, no real places a reader could identify, no party colors, flags, logos, slogans or campaign marks, and nothing that imitates an existing campaign's look.
+- No protected emblems: no red cross, red crescent or red crystal on white (18 U.S.C. § 706 and the Geneva Conventions), and no real agency's seal. Clinics and medical signs use a neutral mark, such as the heart on a teal disc in the placeholder.
 - Cast the people as the composites they are: a range of ages, bodies, skin tones and abilities, ordinary clothes, no celebrities.
 - Every picture needs alt text that says what happens in it, written with H8's copy, not as a caption of the art.
 - **The three families (O1, `DEC-2026-11-25-23`):** the reader follows one of three families, and each scene has one picture per family that appears in it. The cast, their jobs and relations are H8's (`day.json`, `people`, #509); the final art draws them as the cast sheet does.
@@ -45,7 +46,7 @@ Direction C: The classroom tables as colored rectangles, the teacher and Theo as
 - **Maya and Sam, 9:30 am, The pediatrician's office: "A checkup with nothing to pay".** A pediatric exam room with a baby scale. A mother holds her newborn while a doctor listens with a stethoscope.
 - **Carol and Dev, 9:00 am, A community clinic: "Treatment, covered like any other care".** A calm clinic waiting room with plants and a counselor's door ajar. A man in his thirties signs in at the desk; nobody asks for a card.
 
-Direction C: No payment window, card reader or cashier's grille anywhere. Jordan's bandage as a white hand; Nora as a swaddled bundle; the counselor's door ajar as a block of light. No masks, gurneys or worry on faces.
+Direction C: The clinic sign is a neutral mark (the placeholder uses a cream heart on a teal disc), never a red cross on white, which is a protected emblem (18 U.S.C. § 706). No payment window, card reader or cashier's grille anywhere. Jordan's bandage as a white hand; Nora as a swaddled bundle; the counselor's door ajar as a block of light. No masks, gurneys or worry on faces.
 
 ## 4. Care: long-term care (`longterm`)
 
