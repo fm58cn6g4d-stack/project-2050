@@ -2626,6 +2626,31 @@
     }
    ]
   },
+  "vat-vs-r": {
+   "basis": "estimate",
+   "figures": [],
+   "statement": "Step 9, part 4.3: like for like (both from FY2035), raising the health contribution beats a rebated VAT on both household tests (55.4% against 50.7% of workers ahead; 98.0% against 91.8% of low-income workers); the VAT was recommended because R was spoken for",
+   "recheck": "",
+   "scenes": [
+    "jordan-money",
+    "maya-sam-money",
+    "carol-dev-money"
+   ],
+   "sources": [
+    {
+     "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+     "anchor": "**Like for like, R beats a rebated VAT on both household tests.**",
+     "line": 98,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/bb5add3e53666fa168779fd2c96fbd900e2a1a91/dossiers/foundations/fair-financing/7-batch3-revision.md#L98"
+    },
+    {
+     "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
+     "anchor": "**But R is spoken for.**",
+     "line": 99,
+     "url": "https://github.com/fm58cn6g4d-stack/project-2050/blob/bb5add3e53666fa168779fd2c96fbd900e2a1a91/dossiers/foundations/fair-financing/7-batch3-revision.md#L99"
+    }
+   ]
+  },
   "wage-bite": {
    "basis": "estimate",
    "figures": [

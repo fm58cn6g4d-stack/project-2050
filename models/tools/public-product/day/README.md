@@ -2,7 +2,7 @@
 
 Role: the content of the rebuilt front door, its claim register and builder, and the per-model docs pages (stage H step H8; `models/stage-h/1-audit.md`, part 3.1, row H8; the outline in `models/stage-h/2-front-door-outline.md`). Status: **draft for review, revised November 26, 2026 around three families (H8r). Not published or deployed.** It follows memo H4 A (one illustrated day plus a toolkit page, `DEC-2026-11-25-21`) and Espen's outline answers O1 to O3 (`-23` to `-25`). The visual design is step H9's; the site build is H10's, which retires the October pages in `public/site/`. The preview here is plain on purpose.
 
-**The look.** The layout is to follow design direction C, bright and bold, with stylized people (`DEC-2026-11-25-34`, in PR #506; the design work is in `models/tools/public-product/design/`, step H9, PR #505, still open). Nothing here changes the design files: the art briefs in `day.json` are written for that direction, and H9 and H10 carry them into the frames and the site.
+**The look.** The layout is to follow design direction C, bright and bold, with stylized people (Espen's choice, November 25; its decision row is added by PR #506, still open; the design work is in `models/tools/public-product/design/`, step H9, PR #505, still open). Nothing here changes the design files: the art briefs in `day.json` are written for that direction, and H9 and H10 carry them into the frames and the site.
 
 ## Files
 
