@@ -19,7 +19,7 @@ function scene(which, W, H) {
   if (which === 'clinic') {
     // Jordan's urgent care visit (day.json, jordan / clinic): he holds out a bandaged hand to a nurse; his hard hat on the chair.
     s += R(0, 0, W, H, '#FFC93C', false) + R(-3, H * 0.8, W + 6, H * 0.2 + 3, '#FFF8E6');
-    s += R(W * 0.06, H * 0.1, W * 0.3, H * 0.26, '#FFF8E6');                       // window
+    s += R(W * 0.34, H * 0.1, W * 0.3, H * 0.26, '#FFF8E6');                       // window (top left stays clear for the clock)
     // clinic sign: a teal disc with a cream heart. Never a red (or any) cross on white: the red cross is a protected emblem (18 U.S.C. 706).
     { const cx = W * 0.78, cy = H * 0.06 + W * 0.06, r = W * 0.06, k = r / 24;
       s += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${r.toFixed(1)}" fill="#2A9D8F" stroke="${INK}" stroke-width="3"/>`;
@@ -50,6 +50,7 @@ function scene(which, W, H) {
 }
 
 // The cast sheet: one row, grouped by family, every figure at the same scale.
+if (require.main !== module) { module.exports = { scene }; return; }
 const groups = [['Jordan', ['jordan', 'dani']], ['Maya and Sam', ['maya', 'sam', 'theo', 'nora', 'hector', 'lupe']], ['Carol and Dev', ['carol', 'dev', 'eli']], ['Supporting', ['nurse']]];
 const col = 170, gap = 40, top = 70, foot = 420, h = 340;
 let x = 30, cast = '';
