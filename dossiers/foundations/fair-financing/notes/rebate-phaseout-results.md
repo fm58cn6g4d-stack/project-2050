@@ -8,11 +8,13 @@ A VAT point raises $90.3B net in FY2040 before the rebate; the rebate for every 
 
 | Limit | Phase-out (single / joint) | Rebate kept | Rebate a point ($B) | Net a point ($B) | VAT rate (FY2035 on) | Workers ahead | Below 200% of poverty |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| No limit (G24 B as decided) | — | 100% | 42.1 | 48.2 | 3.92% | 54.8% | 93.5% |
-| $100K single / $200K joint (your idea) | $100K-120K / $200K-240K | 79% | 33.1 | 57.2 | 3.30% | 56.0% | 94.6% |
-| $75K / $150K | $75K-95K / $150K-190K | 69% | 28.9 | 61.4 | 3.08% | 56.2% | 95.1% |
-| $60K / $120K | $60K-80K / $120K-160K | 61% | 25.6 | 64.7 | 2.92% | 56.3% | 95.4% |
-| $40K / $80K | $40K-60K / $80K-120K | 47% | 19.8 | 70.5 | 2.68% | 56.1% | 95.8% |
+| No limit (G24 B as decided) | — | 100% | 42.1 | 48.2 | 3.92% | 53.1% | 93.5% |
+| $100K single / $200K joint (your idea) | $100K-120K / $200K-240K | 79% | 33.1 | 57.2 | 3.30% | 54.4% | 94.6% |
+| $75K / $150K | $75K-95K / $150K-190K | 69% | 28.9 | 61.4 | 3.08% | 54.5% | 95.1% |
+| $60K / $120K | $60K-80K / $120K-160K | 61% | 25.6 | 64.7 | 2.92% | 54.5% | 95.4% |
+| $40K / $80K | $40K-60K / $80K-120K | 47% | 19.8 | 70.5 | 2.68% | 54.2% | 95.8% |
+
+The take-home test counts G19 B's deduction limits, AGI surtax and the outside fix ($313.0B in FY2040), as `fiscal_revision.take_home_mix` does.
 
 Without the VAT (the plan as booked, R at 3.80%): 69.0% of workers ahead, 99.5% below 200% of poverty.
 

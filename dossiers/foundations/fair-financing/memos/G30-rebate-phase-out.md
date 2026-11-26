@@ -34,13 +34,13 @@ Thresholds are in today's dollars, the same units as the AGI surtax's $100K/$200
 
 | Limit (single / joint) | Phase-out range | Share of the rebate's cost kept | Net a VAT point | **VAT rate** | Workers ahead (take-home test) | Workers below 200% of poverty ahead |
 | --- | --- | --- | --- | --- | --- | --- |
-| No limit (G24 B as decided) | — | 100% | $48.2B | **3.92%** | 54.8% | 93.5% |
-| $100K / $200K (your idea) | $100-120K / $200-240K | 79% | $57.2B | **3.30%** | 56.0% | 94.6% |
-| $75K / $150K | $75-95K / $150-190K | 69% | $61.4B | **3.08%** | 56.2% | 95.1% |
-| **$60K / $120K (recommended)** | **$60-80K / $120-160K** | **61%** | **$64.7B** | **2.92%** | **56.3%** | **95.4%** |
-| $40K / $80K | $40-60K / $80-120K | 47% | $70.5B | **2.68%** | 56.1% | 95.8% |
+| No limit (G24 B as decided) | — | 100% | $48.2B | **3.92%** | 53.1% | 93.5% |
+| $100K / $200K (your idea) | $100-120K / $200-240K | 79% | $57.2B | **3.30%** | 54.4% | 94.6% |
+| $75K / $150K | $75-95K / $150-190K | 69% | $61.4B | **3.08%** | 54.5% | 95.1% |
+| **$60K / $120K (recommended)** | **$60-80K / $120-160K** | **61%** | **$64.7B** | **2.92%** | **54.5%** | **95.4%** |
+| $40K / $80K | $40-60K / $80-120K | 47% | $70.5B | **2.68%** | 54.2% | 95.8% |
 
-The take-home test counts the VAT and the rebate. With no VAT, 69.0% of workers are ahead, and 99.5% of those below 200% of poverty; the target is 85-90%.
+The take-home test counts the VAT and the rebate, and G19 B's deduction limits, AGI surtax and the outside fix ($313B in FY2040). With none of these, 69.0% of workers are ahead, and 99.5% of those below 200% of poverty; the target is 85-90%.
 
 **Who keeps the rebate:**
 
@@ -71,7 +71,7 @@ G24's rebate needed no application and no income test. It was paid with the chil
 **$60K single / $120K joint, phased out over $60-80K / $120-160K.**
 - **The rate:** 2.92%, a full point below the rebate for everyone (3.92%).
 - **Households, net of the rebate:** the second fifth pays least here ($899, against $1,183 with no limit). The middle fifth pays $1,601, close to its best ($1,562 at $75K), and far below $1,901 with no limit.
-- **Workers:** the most workers ahead of any option (56.3%), and more low-income workers ahead (95.4%) than with no limit.
+- **Workers:** tied with $75K for the most workers ahead (54.5%, against 53.1% with no limit), and more low-income workers ahead (95.4%, against 93.5%). Of the two, it has the lower rate.
 - **Who keeps it:** everyone in the bottom two fifths, and nearly four in five in the middle. The rebate goes mostly to the people it does the most for.
 - **Your $100K / $200K is a sound, milder choice.** It takes the rebate almost only from the top fifth and still lowers the rate by 0.6 of a point.
 - **I would not go to $40K / $80K.** Its rate is only 0.24 points lower than $60K's, and it takes the rebate from most of the middle fifth.

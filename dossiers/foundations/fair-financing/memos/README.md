@@ -85,7 +85,7 @@ After `DEC-2026-11-25-15` (limit the rebate to people below an income threshold)
 
 | Memo | Question | Recommended | Effect |
 | --- | --- | --- | --- |
-| [G30](G30-rebate-phase-out.md) | The rebate's income threshold and phase-out | **$60K single / $120K joint**, phased out over the next $20K / $40K (options: $100K/$200K, $75K/$150K, $40K/$80K) | G24 B's VAT 2.92% instead of 3.92% for the same money; 61% of the rebate's cost kept; workers ahead 56.3% (54.8% with no limit), below 200% of poverty 95.4% (93.5%) |
+| [G30](G30-rebate-phase-out.md) | The rebate's income threshold and phase-out | **$60K single / $120K joint**, phased out over the next $20K / $40K (options: $100K/$200K, $75K/$150K, $40K/$80K) | G24 B's VAT 2.92% instead of 3.92% for the same money; 61% of the rebate's cost kept; workers ahead 54.5% (53.1% with no limit), below 200% of poverty 95.4% (93.5%) |
 ## What the settlement rests on, and who decided it
 
 | Assumption | Source | Decided by Espen? |

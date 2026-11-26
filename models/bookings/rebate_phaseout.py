@@ -8,8 +8,8 @@ an income threshold, on the same tools that price G24 B (`fiscal_revision.py`). 
     across the phase-out range;
   * the VAT rate that closes memo G23's goal B with G19 B's sources (G24 B's mix 2), re-solved with the rebate's
     cost per point scaled by that share (`fiscal_revision.plug_rate`);
-  * the take-home test at that rate (workers ahead, and those below 200% of poverty), with each worker unit's rebate
-    phased out on its own AGI (`fiscal_revision.TakeHome`, adults as there: head and spouse);
+  * the take-home test at that rate (workers ahead, and those below 200% of poverty), with G19 B's top-end sources
+    (OUT, DED, SUR) counted as fiscal_revision.take_home_mix counts them, and each worker unit's rebate phased out on its own AGI (`fiscal_revision.TakeHome`, adults as there: head and spouse);
   * by fifth of households (D3's groups), the VAT a household pays and the rebate it gets back, FY2040.
 The threshold and range are held at the same share of incomes over time (indexed to incomes). Project arithmetic on
 exploratory models, not official scores. Nothing booked.
@@ -118,6 +118,8 @@ def build():
     gross, reb0 = FR.K.VAT_POINT_2040, FR.vat_point(bk, 2040)[1]
     base_rebate = FR.REBATE_PER_POINT_2040
     hh40 = mat.households(2040)
+    fixed = FR.source_paths(bk, ('OUT', 'DED', 'SUR'))
+    top = sum(p[2040] for k, p in fixed.items() if FR.SOURCES[k][6] == 'surtax')   # as fiscal_revision.take_home_mix
     rows = []
     try:
         for opt in OPTIONS:
@@ -127,7 +129,7 @@ def build():
             net, reb = FR.vat_point(bk, 2040)
             FR.REBATE_PER_POINT_2040 = base_rebate
             th.opt = opt
-            t = th.run(FR.FP.R_BOOKED, rate)
+            t = th.run(FR.FP.R_BOOKED, rate, top)
             fifth = {}
             for q in FIFTHS:   # FY2040, $ a household, nominal: VAT paid at the rate, rebate received
                 vat = rate * th.per_point[q]
@@ -137,7 +139,7 @@ def build():
     finally:
         FR.REBATE_PER_POINT_2040 = base_rebate
         th.opt = OPTIONS[0]
-    return dict(rows=rows, gross=gross, reb0=reb0, base=th.run(FR.FP.R_BOOKED))
+    return dict(rows=rows, gross=gross, reb0=reb0, top=top, base=th.run(FR.FP.R_BOOKED))
 
 
 def pct(x):
@@ -168,6 +170,7 @@ def markdown(d):
         L.append('| %s | %s | %s | %.1f | %.1f | %.2f%% | %.1f%% | %.1f%% |' % (
             lab, rng, pct(r['kept']['all']), r['reb'], r['net'], r['rate'], r['take']['workers'], r['take']['below_200fpl']))
     b = d['base']
+    L += ['', 'The take-home test counts G19 B\'s deduction limits, AGI surtax and the outside fix ($%.1fB in FY2040), as `fiscal_revision.take_home_mix` does.' % d['top']]
     L += ['', 'Without the VAT (the plan as booked, R at 3.80%%): %.1f%% of workers ahead, %.1f%% below 200%% of poverty.' % (
         b['workers'], b['below_200fpl']), '',
           '## 2. The rebate against the VAT, by fifth of households (FY2040, $ a household, nominal)', '',
