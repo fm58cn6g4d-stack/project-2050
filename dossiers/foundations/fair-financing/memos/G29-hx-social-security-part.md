@@ -34,13 +34,13 @@ You asked: "Isn’t this basically canceled out by the new larger health contrib
    - FY2030-34: about $78B, not $234B.
    - FY2040: about $100B (range $79-107B).
    - FY2056: about $248B.
-3. **#507's booking needs a fix whichever option you choose.** It weights HX at 70.3% in the health fund's sources but leaves HEX at full weight, so the fund is charged for a Social Security take-back it never received. With HEX weighted like HX, as now booked:
+3. **#507's booking needs a fix whichever option you choose.** It weights HX at 70.3% in the health fund's sources but leaves HEX at full weight, so the fund is charged for a Social Security take-back it never received. With HEX weighted like HX at the working 70.3%, the HEX-fix step in #515 (budget model 0.5.0), before G29 was decided. These are the figures the reserve options below reason from; the figures now booked, with G29 C and R2 at the sourced 72%, are in the status line above and in `../2-settlement.md` part 8 (budget model 0.6.0):
    - The fund's reserve as built is **$307.9B**, not $159.5B.
    - The FY2035 transfer is $371.7B, not $497.8B.
    - The general fund's FY2030-39 gap is $776.5B, not $628.1B. The general fund now carries the take-back's Social Security part in FY2031-34.
    - From FY2040 the general-fund gap doesn't move, because the law fixes the general fund's share.
-   - **Booked in #515** (`settlement.json`'s `source_shares`, budget model 0.5.0). The rate rule, rerun on the fixed figures, holds 3.80% through FY2043 (it stepped up in FY2041 in #507). It is then 4.05% in FY2044-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55 and 4.05% in FY2056.
-   - With the new rate path, the plan's debt is 129.4% of GDP in FY2056, against 129.1% in #507. It is 121.5% in FY2045 and 124.7% in FY2050 (121.2% and 124.3%); FY2040 stays 117.8%.
+   - **The HEX-fix step** (`settlement.json`'s `source_shares`, budget model 0.5.0). The rate rule, rerun on the fixed figures, held 3.80% through FY2043 (it stepped up in FY2041 in #507). It was then 4.05% in FY2044-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55 and 4.05% in FY2056. As now booked, with the $250B standing reserve, it holds 3.80% through FY2042 and steps up in FY2043.
+   - With that rate path, the plan's debt was 129.4% of GDP in FY2056, against 129.1% in #507: 121.5% in FY2045 and 124.7% in FY2050 (121.2% and 124.3%); FY2040 stays 117.8%. As now booked it is 121.4%, 124.5% and 129.3%.
 
 ## The options
 
