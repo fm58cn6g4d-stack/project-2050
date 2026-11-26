@@ -38,7 +38,7 @@ DATA = ROOT / 'models' / 'data'
 sys.path.insert(0, str(ROOT / 'models'))
 import runlog  # noqa: E402
 
-MODEL_ID, VERSION, STATUS = 'MOD-budget', '0.4.0', 'working'
+MODEL_ID, VERSION, STATUS = 'MOD-budget', '0.5.0', 'working'
 Y0, Y1 = 2026, 2056
 ENGINE_OUT = ('moving-america.json', 'ledger.json', 'fiscal-baseline.csv', 'fiscal-model.json', 'fiscal-paths.csv', 'funds.json')
 CURRENT_LAW = {'id': 'current-law', 'label': 'Current law (CBO\'s February 2026 baseline with the documented adjustments)',

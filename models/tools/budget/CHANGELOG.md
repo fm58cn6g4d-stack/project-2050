@@ -2,6 +2,13 @@
 
 Role: the version history of `MOD-budget` (`models/schema/README.md`, "Versions"), newest first. Status: current.
 
+## 0.5.0 (2026-11-26)
+
+The health fund's sources weight HEX like HX (memo G29, finding 3; `settlement.json` `source_shares`). HEX, the tax on former premiums that the employer contribution takes back from HX, carries the same Social Security part as HX. 0.4.0 left HX's part out of the fund but kept HEX's take-back in full. A new input, with no change to the code or the interface.
+- **Results:** the fund's reserve as built is $307.9B, up from $159.5B. The FY2035 transfer is $371.7B, down from $497.8B. The general fund's FY2030-39 gap is $776.5B, up from $628.1B, because the general fund now carries the take-back's Social Security part in FY2031-34. From FY2040 the general fund's gap doesn't move, since the law fixes its share.
+- **The rate rule steps later:** 3.80% through FY2043, 4.05% FY2044-45, 4.30% FY2046-47, 4.05% FY2048-51, 4.30% FY2052-55 and 4.05% FY2056. The plan's debt in FY2056 is 129.4% of GDP, against 129.1% in 0.4.0 (0.4.0's entry says 129.3%, its figure before the HX fix). FY2040 stays 117.8%.
+- Current law and the CBO option didn't move: their headers change only in the hashes of the changed inputs.
+
 ## 0.4.0 (2026-11-25)
 
 Stage G step 11: the health fund booked as its own account (`DEC-2026-11-25-28`, `-30` to `-32`) and IMM-1 rebooked (I1 A, `-27`).
