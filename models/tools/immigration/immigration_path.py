@@ -142,6 +142,14 @@ def everify():
     return {'on': (on, round(on_sum * 1.5, 1), 0.0, round(on[2040] * 1.5, 1), 0.0), 'off': off}
 
 
+def status_offbudget():
+    """Memo 1's Social Security side (off-budget; a gain is negative): CBO's off-budget figure for H.R. 6 scaled as the
+    status line scales the on-budget one (immigration_model.status_offbudget; EV-IMM-669). Booked as IMM-1-SS in
+    Social Security's funds, not on the general fund (DEC-2026-11-25-27, -28)."""
+    import immigration_model as m
+    return m.status_offbudget()
+
+
 def total(rows):
     t = {y: sum(r[0][y] for r in rows.values()) for y in YEARS}
     lo = sum(r[1] for r in rows.values()); hi = sum(r[2] for r in rows.values())
@@ -165,6 +173,9 @@ def main():
     off = everify()['off']
     print(f"\nOff-budget (Social Security's funds), the E-Verify mandate: {sum(off[y] for y in WINDOW):.1f} "
           f"over FY2030-39 and {off[2040]:.1f} in FY2040 (a loss to the funds).")
+    so = status_offbudget()
+    print(f"Off-budget (Social Security's funds), memo 1's status: {sum(so[y] for y in WINDOW):.1f} "
+          f"over FY2030-39 and {so[2040]:.1f} in FY2040 (a gain to the funds, booked as IMM-1-SS).")
     on = everify()['on'][0]
     adm = spend['IMM-4.12-4.15: E-Verify operations and error correction (memo 5, A)'][0]
     unified = sum(off[y] + on[y] + adm[y] for y in WINDOW)

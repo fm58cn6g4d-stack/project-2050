@@ -20,6 +20,10 @@ What is booked (central path, $ billion by federal fiscal year; a cost positive)
 - Two revenue effects, each its own base-revenue row on the path (6-cost.md, "Counting rules"): E-Verify's
   on-budget revenue under JCT's convention (IMM-EV, a gain) and the income-tax offset on the retained H-1B fee
   (IF1T, a loss). IF1's fee receipts stay outside the general fund, spent within receipts.
+- Memo 1's off-budget side, Social Security's gain on CBO's H.R. 6 pattern (EV-IMM-669, scaled as the status line):
+  IMM-1-SS in funds-ss-offbudget.csv (% of taxable payroll) and funds-ss-provisions.csv, on Social Security's funds,
+  not the general fund (I1 A, DEC-2026-11-25-27; DEC-2026-11-25-28). IMM-1's status component books CBO's on-budget
+  figure ($42.48 billion on its scale), not the unified $35.33 billion.
 - CAP-7S's $40 billion USCIS share and CAP-7's pro-rata USCIS share (7%) go to zero: IMM-1's USCIS and asylum
   lines carry USCIS's public-interest work (6-cost.md part 4; point 9).
 """
@@ -45,6 +49,10 @@ COMPONENTS = {
     None: ["IMM-3.07:"],   # wall money redirected: zero against CBO's baseline, not booked
 }
 REVENUE = {"IMM-EV": "IMM-4.12: E-Verify mandate, on-budget revenue", "IF1T": "IF1: income-tax offset"}
+# Memo 1's off-budget side, booked in Social Security's funds (I1 A, DEC-2026-11-25-27; the booking rule, -28): CBO's
+# off-budget figure for H.R. 6 scaled as the status line scales its on-budget one (immigration_path.status_offbudget()),
+# as % of taxable payroll in funds-ss-offbudget.csv's imm1_pct_payroll; negative, a gain to the funds
+SS_ID, SS_COL = "IMM-1-SS", "imm1_pct_payroll"
 # CAP-7S and CAP-7, as booked, and USCIS's shares of each (legacy/domains/domain-capacity.md, lines 127 and 149)
 CAP7S = (0.45, 0.6, 0.75)
 CAP7S_USCIS = 0.04
@@ -139,13 +147,30 @@ def booking():
     cap = {"CAP-7S": tuple(r(x - CAP7S_USCIS, 3) for x in CAP7S),
            "CAP-7": tuple(r(x * (1 - CAP7_USCIS_SHARE), 4) for x in CAP7)}
 
+    # Social Security's side of memo 1 (a gain, negative), as % of taxable payroll (funds-ss-economics.csv, the
+    # economics file interpolated geometrically between its years, as the work booking reads it)
+    so = P.status_offbudget()
+    econ = {}
+    with open(os.path.join(ROOT, "models", "data", "inputs", "funds-ss-economics.csv"), newline="", encoding="utf-8") as fh:
+        import csv
+        for x in csv.DictReader(fh):
+            econ[int(x["year"])] = float(x["taxable_payroll_bn"])
+    ss_pct = {}
+    for y in FY:
+        base = econ.get(y)
+        if base is None:
+            lo_y = max(t for t in econ if t <= y)
+            hi_y = min(t for t in econ if t >= y)
+            base = econ[lo_y] if lo_y == hi_y else econ[lo_y] * (econ[hi_y] / econ[lo_y]) ** ((y - lo_y) / (hi_y - lo_y))
+        ss_pct[y] = round(100 * so[y] / base, 4) + 0.0
     tn = lambda d: sum(d.get(y, 0.0) for y in W) / 1000  # noqa: E731
     all_ = {y: sum(v[0][y] for v in list(spend.values()) + list(rev.values())) for y in FY}
     totals = dict(dossier_window=tn(all_), dossier_fy2040=all_[2040],
                   spending_window=mid, revenue_window=-sum(v[1] for v in revenue.values()),
-                  cap_window=(CAP7S[1] - cap["CAP-7S"][1]) + (CAP7[1] - cap["CAP-7"][1]))
+                  cap_window=(CAP7S[1] - cap["CAP-7S"][1]) + (CAP7[1] - cap["CAP-7"][1]),
+                  ss_window=tn(so), ss_fy2040=so[2040])
     return dict(years=years, components={"IMM-1": comps}, ledger=ledger, revenue=revenue, revenue_perms=rperms,
-                fy2040=fy2040, cap=cap, totals=totals)
+                fy2040=fy2040, cap=cap, totals=totals, ss_pct=ss_pct)
 
 
 if __name__ == "__main__":
@@ -161,3 +186,4 @@ if __name__ == "__main__":
         print("revenue", b["revenue"], {k: round(v, 6) for k, v in b["revenue_perms"].items()})
         print("cap", b["cap"])
         print("totals", {k: round(v, 4) for k, v in b["totals"].items()})
+        print("IMM-1-SS, % of taxable payroll", b["ss_pct"])

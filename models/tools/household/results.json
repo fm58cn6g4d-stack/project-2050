@@ -3628,8 +3628,8 @@
    "dynamic_lo": -1.24,
    "dynamic_mid": -0.26,
    "dynamic_optimistic": 1.14,
-   "gap_after_accepted": 3.15,
-   "gap_mid": 7.66
+   "gap_after_accepted": 3.16,
+   "gap_mid": 7.67
   },
   "legacy": {
    "gf": {
@@ -5483,7 +5483,7 @@
    "models/tools/household/poverty.py": "c185628fc8e34a44c11c161e9c2568ae3a3d1c0f86ccdaf7b3eddbfb5341c28c",
    "models/tools/household/provisions.py": "aa506b70779a4b85088f8e0783774d3cbe0c733d0c8d1b65a05ba275bb02f9ef",
    "models/tools/household/rules.py": "10d0dca3215f2a61627b1b2b580a09ad4e50fd8bfefb8aec2840441a1d0a7767",
-   "models/tools/household/run.py": "3615922ecd692eb8d552bec55683cb6ec2911a546913391946d36e1302de22a5",
+   "models/tools/household/run.py": "d22ea4a0e0aaafbdfe0627912ee261a6b103474b0690e9d416d0a6b3a913f2f4",
    "models/tools/household/snap2025.py": "b019dbd9dc9b541ff8ea56e230396455985813bf9a7cdf44062c48edfeb51a38",
    "models/tools/household/tax.py": "3e2ed576da4f6a12af63ae0854b3bbb86e5f0e3a79570a8f9918234b8354fbae",
    "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
@@ -5503,11 +5503,11 @@
    "models/tools/household/intervals.json": "87271d7926d5e16e6cde5571a790001bacfb7086d6e2d4f095a98d55d59ccdca",
    "models/tools/household/keys.csv": "aa2f6ceb0abbeb6c92e063afbb631fbfe85d2d6e8eec2ccb088ce9b6ea52c69b",
    "models/tools/household/parameters.csv": "44ca6bae863a432b0fede272c99e9eb0a1de31f77de65ec782576de664bb1afa",
-   "models/tools/household/snapshot/ledger.json": "74b1d4e796aa9498926a9f56c675ade9b5a1847489288eee22b2db800ac4bf84",
+   "models/tools/household/snapshot/ledger.json": "dc07ab547bfad9f60fdcfcd3e83b02e7feaf509e401e5f3b57eee32ea5b1e269",
    "models/tools/household/take-home-flags.csv.gz": "46c1bad756fdf5905b86fb6f48e2a8ca4c37b1efb318e0e17b39ce1f8233531e"
   },
   "model_id": "MOD-household",
-  "model_version": "0.2.0",
+  "model_version": "0.3.0",
   "price_basis": "nominal dollars of the year shown (2025 survey dollars aged to 2029 with CBO's February 2026 projections)",
   "scenarios": [
    "A. Base package only (gap unfunded)",

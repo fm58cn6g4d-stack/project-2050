@@ -100,9 +100,11 @@ def nii_base(T, t):
 # A revenue change given directly as a dated series, % of payroll (funds-ss-offbudget.csv): E-Verify's off-budget payroll
 # loss (IMM-EV-SS; PR #328's write-up). Held at its last year's share of payroll after the series ends.
 # funds-ss-offbudget.csv carries one column per `direct` provision: loss_pct_payroll is IMM-EV-SS's, wrk_ui_pct_payroll is
-# WRK-UI-SS's (employers' larger unemployment taxes: the payroll tax lost on the deduction; the work booking).
+# WRK-UI-SS's (employers' larger unemployment taxes: the payroll tax lost on the deduction; the work booking); imm1_pct_payroll
+# is IMM-1-SS's (legal status's off-budget gain, negative: payroll tax from newly lawful workers less their added benefits,
+# CBO's H.R. 6 pattern scaled; the immigration booking, I1 A, DEC-2026-11-25-27).
 _OFFB_ROWS = read("funds-ss-offbudget.csv")
-OFFB_COL = {"IMM-EV-SS": "loss_pct_payroll", "WRK-UI-SS": "wrk_ui_pct_payroll"}
+OFFB_COL = {"IMM-EV-SS": "loss_pct_payroll", "WRK-UI-SS": "wrk_ui_pct_payroll", "IMM-1-SS": "imm1_pct_payroll"}
 OFFB_BY = {pid: {int(r["year"]): float(r[col]) for r in _OFFB_ROWS} for pid, col in OFFB_COL.items()}
 OFFB = OFFB_BY["IMM-EV-SS"]
 def direct_loss(t, pid="IMM-EV-SS"):
@@ -137,8 +139,8 @@ for r in read("funds-ss-provisions.csv"):
                         credit_factor=g("credit_factor"), extra_haircut=g("extra_haircut"), cola_bump=g("cola_bump"),
                         ledger=r["ledger_rows"], basis=r["basis"])
 SSF = {i: provision_path(p) for i, p in SSP.items()}
-# IMM-EV-SS (the immigration booking) and WRK-UI-SS (the work booking) are decided, booked plan elements, so they ride with the plan's scenarios, not current law
-SS_SCEN = {"Current law": [], "D8 baseline": ["SS-1", "SS-2", "SS-3", "SS-4", "IMM-EV-SS", "WRK-UI-SS"], "D8 + SS-5": ["SS-1", "SS-2", "SS-3", "SS-4", "SS-5", "IMM-EV-SS", "WRK-UI-SS"]}
+# IMM-EV-SS and IMM-1-SS (the immigration booking) and WRK-UI-SS (the work booking) are decided, booked plan elements, so they ride with the plan's scenarios, not current law
+SS_SCEN = {"Current law": [], "D8 baseline": ["SS-1", "SS-2", "SS-3", "SS-4", "IMM-EV-SS", "WRK-UI-SS", "IMM-1-SS"], "D8 + SS-5": ["SS-1", "SS-2", "SS-3", "SS-4", "SS-5", "IMM-EV-SS", "WRK-UI-SS", "IMM-1-SS"]}
 
 PV = {t: 1 / ifac(t) for t in range(2025, 2102)}
 PVPAY = sum(payroll(t) * PV[t] for t in YEARS)

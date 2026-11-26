@@ -13,7 +13,8 @@ Four modules, each on federal fiscal years FY2030-40, nominal $ billion, a cost 
                   800-judge cap repealed (memo 4), and appointed counsel's cost (counsel B);
   3. detention()  the 30,000 cap against case management (memo 5, A's rules);
   4. status_fiscal()  the general-fund effect of status (memo 1) from CBO's published 2021
-                  score, as `dossiers/immigration/3-design.md`, "IMM-1's score, re-derived", sets it out.
+                  score, as `dossiers/immigration/3-design.md`, "IMM-1's score, re-derived", sets it out, on
+                  CBO's on-budget figure; status_offbudget() is Social Security's side, booked apart.
 Labor-market effects are a separate module, `immigration_labor.py`, whose results are reported beside the
 booked figures and never added to them.
 
@@ -337,15 +338,33 @@ def care_base_correction(case='central'):
     return dict(saving=saving, people=people)
 
 
-def status_fiscal(case='central'):
-    """Memo 1 on CBO's 2021 score of H.R. 6, scaled, grown and netted for the single plan."""
+def _status_scale(case):
+    """Memo 1's reach against H.R. 6's, window growth, and tier A's late arrivals (who register instead)."""
     v = lambda n: val(n, case)
-    gross = v('hr6_deficit_bn') * v('reach_scale') * v('window_growth')
-    net = gross * (1 - v('health_share') * v('covered_anyway_share'))
     # Tier A's January 1 cutoff moves late arrivals to registered status: they wait for a green
     # card, so the status line falls by their share of the green-card population (IMM-1.04).
     green = v('tier_b_m') + v('tier_a_outside_b_m')
-    net *= 1 - v('tier_a_late_arrivals_m') / green
+    return v('reach_scale') * v('window_growth') * (1 - v('tier_a_late_arrivals_m') / green)
+
+
+def status_fiscal(case='central'):
+    """Memo 1 on CBO's 2021 score of H.R. 6, scaled, grown and netted for the single plan: the general fund's line.
+
+    It scales CBO's on-budget deficit figure (EV-IMM-669), as every other general-fund line in the project does
+    (I1 A, DEC-2026-11-25-27; before version 0.2.0 it scaled the unified total, $35.33 billion, which nets Social
+    Security's off-budget gain into the general fund). Social Security's side is status_offbudget()."""
+    v = lambda n: val(n, case)
+    net = v('hr6_onbudget_deficit_bn') * _status_scale(case) * (1 - v('health_share') * v('covered_anyway_share'))
+    w = sum(STATUS_SHAPE[y] for y in WINDOW)
+    return {y: net * STATUS_SHAPE[y] / w for y in YEARS}
+
+
+def status_offbudget(case='central'):
+    """Social Security's side of memo 1 (off-budget; a gain is negative): CBO's off-budget deficit change for H.R. 6
+    (EV-IMM-669: payroll tax from newly lawful workers less their added benefits), scaled as status_fiscal() scales
+    the on-budget figure, on the same yearly profile. No single-plan netting: none of it is health. Booked in its own
+    place, Social Security's funds (IMM-1-SS; DEC-2026-11-25-27, -28), never on the general fund."""
+    net = val('hr6_offbudget_deficit_bn', case) * _status_scale(case)
     w = sum(STATUS_SHAPE[y] for y in WINDOW)
     return {y: net * STATUS_SHAPE[y] / w for y in YEARS}
 

@@ -2,6 +2,12 @@
 
 Role: the version history of `MOD-budget` (`models/schema/README.md`, "Versions"), newest first. Status: current.
 
+## 0.4.0 (2026-11-25)
+
+Stage G step 11: the health fund booked as its own account (`DEC-2026-11-25-28`, `-30` to `-32`) and IMM-1 rebooked (I1 A, `-27`).
+- **Interface:** the engine (`recovery-budget/model.py`) has a `health_fund()` account. Each case's rows add `health_fund_sources_bn`, `health_fund_spending_bn`, `health_fund_gf_transfer_bn` and `health_fund_reserve_bn`, and each case adds `health_fund`. The general fund's gap counts only the transfer to the fund. The settlement's S06 takes a rate path (`settlement.json`), and the funds model a third `direct` Social Security line, IMM-1-SS.
+- **Results:** the plan's debt in FY2056 is 129.3% of GDP, down from 131.5% in 0.3.0: 2.0 points from the fund's rule and 0.1 from IMM-1. FY2040 stays 117.8%. The plan's general-fund gap moves in FY2030-35 with the fund holding its early surplus; unified figures don't. Current law and the CBO option didn't move: their headers change only in the hashes of the changed inputs.
+
 ## 0.3.0 (2026-11-25)
 
 The plan's figures moved with CLI-1's step-down after FY2039 (memo G25; #493's `fiscal-after.csv` row): a new input, no change to the code or the interface.

@@ -104,6 +104,16 @@ class Modules(unittest.TestCase):
     def test_status_is_a_cost_bounded_by_section_3(self):
         self.assertTrue(0 < m.window(m.status_fiscal()) < 150)
 
+    def test_status_splits_cbos_unified_score(self):
+        # I1 A (DEC-2026-11-25-27): the general-fund line scales CBO's on-budget figure, Social Security's side its
+        # off-budget one; the two add to CBO's unified $35.33 billion (EV-IMM-600, EV-IMM-669)
+        v = m.val
+        self.assertAlmostEqual(v('hr6_onbudget_deficit_bn') + v('hr6_offbudget_deficit_bn'), 35.33, places=6)
+        self.assertLess(m.window(m.status_offbudget()), 0)          # a gain to the funds
+        self.assertAlmostEqual(m.window(m.status_offbudget()) / v('hr6_offbudget_deficit_bn'),
+                               m.window(m.status_fiscal()) / v('hr6_onbudget_deficit_bn')
+                               / (1 - v('health_share') * v('covered_anyway_share')), places=6)
+
     def test_counsel_inside_memo_4(self):
         self.assertTrue(4 <= m.window(m.eoir()['counsel']) <= 14)
 
@@ -130,7 +140,7 @@ class Reproduction(unittest.TestCase):
         row = next(line for line in text.splitlines() if line.startswith('| **Immigration on the general fund, all**'))
         self.assertIn(f'**{window:.1f}**', row)
         self.assertIn(f'**{y2040:.1f}**', row)
-        self.assertEqual((round(window, 1), round(y2040, 1)), (149.0, 22.5))   # 6-cost.md part 1, as booked
+        self.assertEqual((round(window, 1), round(y2040, 1)), (159.2, 24.6))   # 6-cost.md part 1, as booked (I1 A)
 
     def test_committed_results_are_what_the_code_builds(self):
         with open(os.path.join(HERE, 'results.json'), encoding='utf-8') as f:
@@ -164,8 +174,8 @@ def validation_rows():
     crs_grid = list(range(m.CRS_R47637['judges_now'], m.CRS_R47637['judges_now'] + 1001, 100))
     clears_by_2032 = min(j for j in crs_grid if (m.crs_replay(j) or 9999) <= 2032)
     green = (v('tier_b_m') + v('tier_a_outside_b_m')) * v('take_up')
-    per_person = v('hr6_deficit_bn') * v('reach_scale') / green           # $ thousand, 2021-31 dollars
-    hr6_own = v('hr6_deficit_bn') * 1.0 * 1.0                             # reach 1, growth 1, no netting: H.R. 6 itself
+    per_person = v('hr6_onbudget_deficit_bn') * v('reach_scale') / green  # $ thousand, 2021-31 dollars, on-budget
+    hr6_own = v('hr6_onbudget_deficit_bn') * 1.0 * 1.0                    # reach 1, growth 1, no netting: H.R. 6 itself
     shape = sum(m.STATUS_SHAPE[y] for y in range(2030, 2036)) / sum(m.STATUS_SHAPE.values())
     custody_2027 = v('base_beds') * 365 * v('bed_day_usd_2023') * m.prices(2027, base=2023) / 1e9
     asylum_case = v('asylum_cost_per_case_usd') / 1.0
@@ -187,8 +197,8 @@ def validation_rows():
              'the input is set from this figure, so it must match to rounding',
              "In-sample by construction: `asylum_cost_per_case_usd` is DHS's figure divided out. It checks the input's arithmetic, not the corps' cost; no independent check of DHS's estimate is in the register (EV-IMM-574, the legacy review, sits below it).",
              in_sample=True), asylum_case),
-        ev(B('BM-CBO-1', "Status line on H.R. 6's own terms (reach 1, no growth, no single-plan netting): CBO's deficit increase over 2021-31",
-             35.33, 'EV-IMM-600', "CBO, H.R. 6 (American Dream and Promise Act), 2021, on its February 2021 baseline", '$ billion', 0.001, 'relative',
+        ev(B('BM-CBO-1', "Status line on H.R. 6's own terms (reach 1, no growth, no single-plan netting): CBO's on-budget deficit increase over 2021-31",
+             42.48, 'EV-IMM-669', "CBO, H.R. 6 (American Dream and Promise Act), 2021, on its February 2021 baseline", '$ billion', 0.001, 'relative',
              'an identity: the line is CBO\'s score scaled',
              "In-sample by construction: status_fiscal() scales this score, so the check covers the scaling's arithmetic only. The status line is not a microsimulation (Limits).",
              in_sample=True), hr6_own),
@@ -199,7 +209,7 @@ def validation_rows():
              in_sample=True), shape),
         ev(B('BM-CBO-3', "Status cost per person granted a green card in the first decade, before the single plan's netting, 2021-31 dollars: against CBO's Farm Workforce Modernization Act (unified to on-budget, per person)",
              (4.719 / 0.5, 8.246 / 0.5), 'EV-IMM-215; EV-IMM-216', "CBO, H.R. 1603, 2021: +$4.7 billion unified and +$8.2 billion on-budget over 2021-31, for more than 300,000 workers and 200,000 dependents", '$ thousand per person',
-             0.0, 'range', "CBO's unified and on-budget per-person figures bound the line, which carries a unified score on the general fund",
+             0.0, 'range', "CBO's unified and on-budget per-person figures bound the line, which carries CBO's on-budget score on the general fund (I1 A, DEC-2026-11-25-27)",
              "An independent check of `reach_scale`: memo 1's gross status cost per green card sits inside the band CBO's other 2021 legalization score implies. Weak: the farm bill's people reach green cards after 4-8 years in a temporary status (EV-IMM-523), so fewer benefits fall in its window, and 'more than' 500,000 people makes its per-person figures upper bounds."),
          per_person),
     ]

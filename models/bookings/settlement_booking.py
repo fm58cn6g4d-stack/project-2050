@@ -37,21 +37,28 @@ def doc():
     return json.loads((INPUTS / 'settlement.json').read_text())
 
 
-def option(ctx, item, rate):
+def option(ctx, item, rate, rate_path=None):
     params = dict(item['params'])
     if params.get('rate') == 'health_contribution_base_rate':
         params['rate'] = rate
+    if params.get('rate_path') == 'health_contribution_rate_path':
+        params['rate_path'] = doc()['health_contribution_base_rate'].get('path', {}) if rate_path is None else rate_path
     fn = S.OPTIONS.get(item['option']) or K.OPTIONS[item['option']]
     return fn(ctx, **params)
 
 
-def derive(ctx, d=None, rate=None):
-    """[(item, option result, path)] for every booked item; the path is the option's one adjustment, FY2026-56."""
+def derive(ctx, d=None, rate=None, rate_path=None):
+    """[(item, option result, path)] for every booked item; the path is the option's one adjustment, FY2026-56.
+    A screen at a single `rate` (rate given, rate_path None) holds that rate in every year from 2035."""
     d = d or doc()
+    if rate is not None and rate_path is None:
+        rate_path = {}
     rate = d['health_contribution_base_rate']['rate'] if rate is None else rate
+    if rate_path is None:
+        rate_path = d['health_contribution_base_rate'].get('path', {})
     out = []
     for it in d['items']:
-        o = option(ctx, it, rate)
+        o = option(ctx, it, rate, rate_path)
         (label, path), = o['adjust'].items()
         out.append((it, o, {y: path.get(y, 0.0) for y in YEARS}))
     return out
@@ -83,9 +90,9 @@ def booked_case(ctx):
     return K.m.build_case('mixed', ctx.f, ctx.b, ctx.old, ctx.u)
 
 
-def screened_case(ctx, d, rate):
+def screened_case(ctx, d, rate, rate_path=None):
     """The same package priced the screens' way on the pre-settlement base, as a check on the booking."""
-    opts = [o for it, o, p in derive(ctx, d, rate)]
+    opts = [o for it, o, p in derive(ctx, d, rate, rate_path)]
     # the switches: the credit, the 2 points (the fold's kw), the education rate, the HI grant, the delivery line
     adj = {}
     for o in opts:
@@ -113,6 +120,61 @@ def solve(ctx, d):
             return round(r, 2), g
         r = round(r + 0.05, 2)
     raise ValueError('no rate below 6% closes FY2040-56')
+
+
+# ---------------------------------------------------------------- the health fund's rate rule (G27 A)
+def rate_rule(ctx, d=None):
+    """The base rate from FY2041 under the health fund's own rule (G27 A, DEC-2026-11-25-31), on the booked case.
+
+    The contribution pays a fixed share s of the fund's cost from FY2040: its FY2040 yield at 3.80% over the fund's
+    spending that year (G26 A, DEC-2026-11-25-30: the 3.80% re-founded as that share). The general fund pays the rest
+    (the law's share, recovery-budget/model.py's health_fund()), so the fund's reserve moves only by the contribution's
+    yield less s x its cost. Each year from FY2041 the trustees project the reserve one year ahead at the current rate;
+    if it would leave the band (15-25%) the rate steps a quarter point, at most once a year, never below 3.25%. No
+    yearly reset. WORKING ASSUMPTION, pending Espen (G27.1a): the band is read on the contribution's own share of the
+    fund's cost and tested one year ahead; the decision names neither (part 8 of 2-settlement.md shows the other
+    readings). The reserve starts at FY2039's (the $250B standing reserve). Interest on the reserve is not modeled.
+    Returns dict(share, path {year: rate}, reserve {year: $B}, needed {year: the smooth share's rate})."""
+    d = d or doc()
+    hf, hr = d['health_fund'], d['health_contribution_base_rate']
+    case = booked_case(ctx)
+    fund = case['health_fund']
+    L = K.m.audit_lines(case['audit'])
+    hcu = ctx.line('HCU')
+    pp = {y: S.PER_POINT_2040 * hcu[y] / hcu[2040] for y in YEARS}
+    booked = {y: hr.get('path', {}).get(str(y), hr['rate']) for y in YEARS}
+    # the contribution's yield at the base rate held at 3.80%, with the booked path's own steps taken out
+    c0 = {y: -sum(L.get(n, {}).get(y, 0.0) for n in hf['contribution']) - (booked[y] - hr['rate']) * pp[y] for y in YEARS}
+    y0 = hf['share_from']
+    share = c0[y0] / fund[y0]['spending']
+    lo, hi = hf['band']
+    rate, res = hr['rate'], fund[y0 - 1]['reserve']
+    path, reserve, needed = {}, {}, {}
+    for y in range(y0, 2057):
+        target = share * fund[y]['spending']
+        if y > y0:
+            proj = res + c0[y] + (rate - hr['rate']) * pp[y] - target
+            if proj < lo * target:
+                rate = rate + hf['step']
+            elif proj > hi * target and rate - hf['step'] >= hf['floor'] - 1e-9:
+                rate = rate - hf['step']
+            path[y] = round(rate, 2)
+        res += c0[y] + (rate - hr['rate']) * pp[y] - target
+        reserve[y] = res
+        needed[y] = hr['rate'] + (target - c0[y]) / pp[y]
+    return dict(share=share, path=path, reserve=reserve, needed=needed)
+
+
+def write_rule(rule):
+    """settlement.json's health fund share and the rate path, written in place (the file's other text unchanged)."""
+    import re
+    fn = INPUTS / 'settlement.json'
+    t = fn.read_text()
+    path = '{' + ', '.join('"%d": %.2f' % (y, v) for y, v in sorted(rule['path'].items())) + '}'
+    t = re.sub(r'"path": \{[^}]*\}', '"path": ' + path, t, count=1)
+    t = re.sub(r'"contribution_share": [0-9.]+', '"contribution_share": %.6f' % rule['share'], t, count=1)
+    json.loads(t)
+    fn.write_text(t)
 
 
 # ---------------------------------------------------------------- D3
@@ -222,8 +284,13 @@ def report(ctx, d):
                education_reserve_2040=round(next(r['reserve'] for r in c['education']['rows'] if r['year'] == 2040), 1),
                items=[(it['id'], it['line'], it['dec'], round(p[2040], 1), round(p[2045], 1), round(p[2056], 1),
                        round(sum(p[y] for y in K.m.W), 1)) for it, o, p in der],
+               path={y: d['health_contribution_base_rate'].get('path', {}).get(str(y), d['health_contribution_base_rate']['rate'])
+                     for y in range(2040, 2057)},
+               fund={y: (round(c['health_fund'][y]['transfer'], 1), round(c['health_fund'][y]['reserve'], 1))
+                     for y in (2030, 2034, 2035, 2039, 2040, 2045, 2050, 2056)},
                r_needed={y: round(out_r, 2) for y, out_r in
-                         ((y, d['health_contribution_base_rate']['rate'] + g[y] / per_point(y)) for y in (2040, 2042, 2045, 2050, 2056))})
+                         ((y, d['health_contribution_base_rate'].get('path', {}).get(str(y), d['health_contribution_base_rate']['rate'])
+                           + g[y] / per_point(y)) for y in (2040, 2042, 2045, 2050, 2056))})
     risks = {}
     for name, w in (('without D2', ('D2',)), ('without HS2', ('HS2',)), ('without both', ('D2', 'HS2'))):
         r = gap(risk_case(ctx, d, w))
@@ -241,14 +308,14 @@ def report(ctx, d):
     o7, d7 = hh.D.SCEN[name7]
     out['d3_q_h7'] = {g_: round(hh.D.run(o7, d7)[0][g_]['net']) for g_ in ('Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'T1')}
     out['d3_by_year'] = {y: v for y, v in hh.D.series(o).items() if y in (2033, 2035, 2037, 2039)} if hasattr(hh.D, 'series') else None
-    out['take_home'] = S.take_home(sorted({3.25, out['rate'], 4.45}))
+    out['take_home'] = S.take_home(sorted({3.25, out['rate'], 4.45} | set(out['path'].values())))
     return out
 
 
 def markdown(r):
     yrs = (2030, 2033, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2045, 2050, 2056)
     L = ['# The financing settlement as booked: results', '',
-         'Generated by `models/tools/settlement_booking.py --report` after the common rebuild (stage G step 7). The budget '
+         'Generated by `models/bookings/settlement_booking.py --report` after the common rebuild (stage G step 7; regenerated in step 11). The budget '
          'model\'s case `mixed` with the settlement booked (`models/data/inputs/settlement.json`), against the plan before '
          'it. Nominal $B; a positive gap is a shortfall. Project arithmetic on exploratory models, not official scores. '
          'Read with [`../2-settlement.md`](../2-settlement.md).', '',
@@ -262,9 +329,12 @@ def markdown(r):
           '| --- |' + ' --- |' * (len(yrs) + 1),
           '| Before the settlement | ' + ' | '.join('%.1f' % r['gap_before'][y] for y in yrs) + ' | %.1f |' % r['gap_before_2030_39'],
           '| **Booked** | ' + ' | '.join('**%.1f**' % r['gap'][y] for y in yrs) + ' | **%.1f** |' % r['gap_2030_39'], '',
-          '- Health contribution base rate R = %.2f%% from 2035 (one rate; working assumption for the later years, memo G8 open).' % r['rate'],
+          '- Health contribution base rate R = %.2f%% from 2035, re-founded as the health fund\'s rate (G26 A); from FY2041 the fund\'s own rule (G27 A; the band\'s base a working assumption pending Espen, G27.1a): %s.' % (
+              r['rate'], ', '.join('FY%d %.2f%%' % (y, v) for y, v in r['path'].items() if y == 2040 or v != r['path'][y - 1])),
+          '- The health fund as its own account (`DEC-2026-11-25-28`, `-31`): the general fund\'s transfer to the fund / the fund\'s reserve ($B): ' + ', '.join(
+              'FY%d %.1f / %.1f' % (y, t, v) for y, (t, v) in r['fund'].items()) + '. The general fund\'s gap counts only the transfer; FY2030-34\'s surplus stays in the fund.',
           '- Every year FY2040-56 closes: worst FY%d, %.1f.' % (r['worst_year'], r['worst']),
-          '- The rate each year would need on its own: ' + ', '.join('FY%d %.2f%%' % kv for kv in r['r_needed'].items()) + '.',
+          '- A general-fund reading only, not a rate under `DEC-2026-11-25-12`: the base rate at which the general fund would just close each year: ' + ', '.join('FY%d %.2f%%' % kv for kv in r['r_needed'].items()) + '.',
           '- Debt, %% of GDP: %s (baseline FY2040 %.1f, FY2056 %.1f; before the settlement %.1f and %.1f).' % (
               ', '.join('FY%d %.1f' % kv for kv in r['debt'].items()), r['baseline_debt'][2040], r['baseline_debt'][2056],
               r['debt_before'][2040], r['debt_before'][2056]),
@@ -318,9 +388,15 @@ def main():
         print('%s %-80s FY2040 %7.1f  FY2056 %7.1f  FY2030-39 %8.1f' % (
             it['id'], it['line'][:80], p[2040], p[2056], sum(p[y] for y in K.m.W)))
     print('D3:', d3_amounts(der))
+    rule = rate_rule(ctx, d)
+    print('health fund: contribution share %.4f; rate path %s' % (rule['share'], rule['path']))
     if a.write:
+        write_rule(rule)
+        d = doc()
+        der = derive(ctx, d)
         write_paths(der)
-        print('wrote settlement-paths.csv')
+        print('wrote settlement.json (the health fund\'s share and rate path) and settlement-paths.csv; '
+              'rerun after the next rebuild: the rule reads the booked case')
 
 
 if __name__ == '__main__':

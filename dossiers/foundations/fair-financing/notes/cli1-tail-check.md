@@ -21,12 +21,12 @@ The energy model's level differs from the booking's (it counts the standby build
 | | FY2040 | FY2041 | FY2042 | FY2043 | FY2045 | FY2047 | FY2050 | FY2056 | FY2040-56 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | CLI-1 saving | 10.1 | 20.5 | 40.1 | 57.2 | 71.8 | 81.7 | 80.4 | 77.5 | 1,139.0 |
-| General-fund gap, old profile (− is a margin) | −6.0 | −5.1 | −0.4 | −5.1 | −26.4 | −77.0 | −143.2 | −205.4 | |
-| General-fund gap, corrected | −16.1 | −25.5 | −40.5 | −62.3 | −98.1 | −158.7 | −223.6 | −282.8 | |
-| Debt, % of GDP, old profile | 117.8 | 118.6 | 119.5 | 120.4 | 122.1 | 123.9 | 126.6 | 133.1 | |
-| Debt, % of GDP, corrected | 117.8 | 118.6 | 119.4 | 120.2 | 121.7 | 123.2 | 125.6 | 131.5 | |
+| General-fund gap, old profile (− is a margin) | −4.0 | −18.1 | −27.7 | −46.5 | −90.9 | −152.4 | −241.9 | −360.0 | |
+| General-fund gap, corrected | −14.1 | −38.6 | −67.8 | −103.6 | −162.7 | −234.1 | −322.2 | −437.5 | |
+| Debt, % of GDP, old profile | 117.8 | 118.6 | 119.4 | 120.1 | 121.6 | 123.2 | 125.4 | 130.7 | |
+| Debt, % of GDP, corrected | 117.8 | 118.5 | 119.2 | 119.9 | 121.2 | 122.5 | 124.3 | 129.1 | |
 
-- The tightest year FY2040-56: FY2042 at −0.4 on the old profile; FY2040 at −16.1 corrected.
+- The tightest year FY2040-56: FY2040 at −4.0 on the old profile; FY2040 at −14.1 corrected.
 - Interest is included in the debt figures (the model's own marginal rate).
 
 ## 3. The tier-3 row

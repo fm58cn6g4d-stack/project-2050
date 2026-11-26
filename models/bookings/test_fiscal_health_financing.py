@@ -52,6 +52,8 @@ ENDPOINT_ROWS = ("HCU", "HCW", "HCA", "HCP", "HCH") + STREAM_IDS
 WORK_BOOKING = {2030: -0.3, 2031: -11.0, 2032: -9.0, 2033: -10.2, 2034: -8.4, 2035: -8.3, 2036: -8.2, 2037: 10.5, 2038: 10.8, 2039: 11.1, 2040: 11.3}
 WORK_BOOKING_FY2040 = WORK_BOOKING[2040]
 CLI1_STEPDOWN_FY2040 = -10.2    # CLI-1's tail on the decided step-down, FY2040 (cli1_tail.py; memo G25)
+IMM1_ONBUDGET = dict(zip(range(2030, 2040), (0.0, 0.21, 0.41, 0.72, 1.02, 1.12, 1.33, 1.64, 1.84, 1.94)))  # I1 A's yearly change to IMM-1/status (fiscal-years.csv)
+IMM1_ONBUDGET_FY2040 = 2.1      # I1 A: IMM-1's status line on CBO's on-budget figure, FY2040 (DEC-2026-11-25-27; immigration_booking.py)
 
 
 class HealthFinancingBooking(unittest.TestCase):
@@ -224,12 +226,13 @@ class HealthFinancingBooking(unittest.TestCase):
         self.assertAlmostEqual(calls[2040], 532.1, delta=3)
         paths = {int(r["year"]): float(r["agenda_gf_primary_bn"]) for r in csv.DictReader(open(BUILD / "recovery-budget-paths.csv"))
                  if r["case"] == "mixed_before_settlement"}   # stage G's settlement (step 7) closes FY2040 on; this is the plan before it
-        self.assertAlmostEqual(paths[2040], CR.GAP_BEFORE_REASSIGN + calls[2040] + WORK_BOOKING_FY2040 + CLI1_STEPDOWN_FY2040, delta=3)
-        self.assertAlmostEqual(paths[2040], 604.5, delta=5)        # DEC-2026-11-15-11's $586B, plus the status rule, plus work's booking (602.7 before it), less CLI-1's step-down (614.0 before it)
+        self.assertAlmostEqual(paths[2040], CR.GAP_BEFORE_REASSIGN + calls[2040] + WORK_BOOKING_FY2040 + CLI1_STEPDOWN_FY2040
+                               + IMM1_ONBUDGET_FY2040, delta=3)
+        self.assertAlmostEqual(paths[2040], 606.5, delta=5)        # DEC-2026-11-15-11's $586B, plus the status rule, plus work's booking (602.7 before it), less CLI-1's step-down (614.0 before it), plus I1 A (604.5 before it)
         before = HF.paths()
         for y in W:     # the rest of the plan's gap before the booking, plus health's first call
             rest = float(before[y]["agenda_gf_primary_bn"]) - HF.need_path(HF.seam())[y]["booked"]
-            self.assertAlmostEqual(paths[y], rest + calls[y] + WORK_BOOKING[y], delta=6, msg=y)
+            self.assertAlmostEqual(paths[y], rest + calls[y] + WORK_BOOKING[y] + IMM1_ONBUDGET[y], delta=6, msg=y)
         # with the streams from FY2030 and the steps from 2031, health's own sources exceed its need before 2035
         self.assertTrue(all(calls[y] < 0 for y in range(2030, 2035)))
 

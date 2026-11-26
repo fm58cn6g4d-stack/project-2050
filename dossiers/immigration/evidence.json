@@ -9435,5 +9435,42 @@
   "supports": [
    "models/tools/immigration/labor.csv"
   ]
+ },
+ {
+  "id": "EV-IMM-669",
+  "statement": "In its final cumulative column, CBO split the American Dream and Promise Act's effects into on-budget and off-budget parts: revenues fall 5,945 million dollars on-budget and rise 8,950 million off-budget, so the on-budget deficit rises 42,480 million and the off-budget deficit falls 7,150 million.",
+  "claim": "analysis",
+  "figures": [
+   "5,945",
+   "8,950",
+   "42,480",
+   "7,150"
+  ],
+  "source": "SRC-4178",
+  "anchor": [
+   "Total Changes in Revenues 1,530 3,005 On-Budget -2,085 -5,945 Off-Budget 3,615 8,950",
+   "Total Changes in the Deficit 10,115 35,330 On-Budget 13,450 42,480 Off-Budget -3,335 -7,150",
+   "Changes in off-budget revenues arise from changes in the number of aliens in the United States who have Social Security payroll taxes withheld from their wages."
+  ],
+  "locator": "Page 1, 'Estimated Effects on Direct Spending and Revenues' table, the on-budget and off-budget rows under 'Total Changes in Revenues' and 'Total Changes in the Deficit' (cumulative 2021-2026 and 2021-2031)",
+  "grade": "C",
+  "fact_date": "2021-03",
+  "checked": "2026-11-25",
+  "recheck": "2027-11-25",
+  "context": "Millions of dollars, relative to CBO's February 2021 baseline. Read through a Firecrawl scrape of the PDF (CBO blocks direct automated access). The on-budget deficit (36,535 of on-budget outlays plus 5,945 of lost on-budget revenue) is the general fund's figure, which IMM-1's status line books (DEC-2026-11-25-27); the off-budget gain (8,950 of payroll tax less 1,800 of benefits) is Social Security's, booked as IMM-1-SS in its own place (DEC-2026-11-25-28).",
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-601",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-600",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "models/tools/immigration/parameters.csv",
+   "dossiers/immigration/6-cost.md"
+  ]
  }
 ]
