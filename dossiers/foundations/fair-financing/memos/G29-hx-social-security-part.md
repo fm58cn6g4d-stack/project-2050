@@ -34,19 +34,19 @@ You asked: "Isn’t this basically canceled out by the new larger health contrib
    - FY2030-34: about $78B, not $234B.
    - FY2040: about $100B (range $79-107B).
    - FY2056: about $248B.
-3. **#507's booking needs a fix whichever option you choose.** It weights HX at 70.3% in the health fund's sources but leaves HEX at full weight, so the fund is charged for a Social Security take-back it never received. With HEX weighted like HX at the working 70.3%, the HEX-fix step in #515 (budget model 0.5.0), before G29 was decided. These are the figures the reserve options below reason from; the figures now booked, with G29 C and R2 at the sourced 72%, are in the status line above and in `../2-settlement.md` part 8 (budget model 0.6.0):
-   - The fund's reserve as built is **$307.9B**, not $159.5B.
-   - The FY2035 transfer is $371.7B, not $497.8B.
-   - The general fund's FY2030-39 gap is $776.5B, not $628.1B. The general fund now carries the take-back's Social Security part in FY2031-34.
-   - From FY2040 the general-fund gap doesn't move, because the law fixes the general fund's share.
-   - **The HEX-fix step** (`settlement.json`'s `source_shares`, budget model 0.5.0). The rate rule, rerun on the fixed figures, held 3.80% through FY2043 (it stepped up in FY2041 in #507). It was then 4.05% in FY2044-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55 and 4.05% in FY2056. As now booked, with the $250B standing reserve, it holds 3.80% through FY2042 and steps up in FY2043.
-   - With that rate path, the plan's debt was 129.4% of GDP in FY2056, against 129.1% in #507: 121.5% in FY2045 and 124.7% in FY2050 (121.2% and 124.3%); FY2040 stays 117.8%. As now booked it is 121.4%, 124.5% and 129.3%.
+3. **#507's booking needs a fix whichever option you choose.** It weights HX at 70.3% in the health fund's sources but leaves HEX at full weight, so the fund is charged for a Social Security take-back it never received. #515 fixes it, weighting HEX like HX. **As now booked** (budget model 0.6.0: the fix, with G29 C and R2 decided and the sourced 72% weight):
+   - The fund builds **$312.7B** over FY2030-34 (#507: $159.5B), keeps $250B standing and draws **$62.7B** against the FY2035 transfer.
+   - The FY2035 transfer is **$304.6B** (#507: $497.8B).
+   - The rate rule, rerun on the $250B start, holds 3.80% through FY2042 and **steps up in FY2043** (#507: FY2041). It is then 4.05% in FY2043-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55 and 4.05% in FY2056.
+   - The plan's debt is **121.4% of GDP in FY2045, 124.5% in FY2050 and 129.3% in FY2056** (#507: 121.2%, 124.3% and 129.1%); FY2040 stays 117.8%.
+   - From FY2040 to FY2044 the general-fund gap doesn't move, because the law fixes the general fund's share. From FY2045 the general fund gives up the Social Security part (option C below) and still closes.
+   - **The step before G29 was decided** (0.5.0: the HEX fix alone, at the working 70.3%, the reserve as built). The fund's reserve was $307.9B, the FY2035 transfer $371.7B, the general fund's FY2030-39 gap $776.5B, the rate held 3.80% through FY2043, and debt was 129.4% in FY2056. The reserve options below were drafted on these figures.
 
 ## The options
 
 | | Where the Social Security part goes | Social Security trust funds, with the plan's Social Security package (D8) | General fund |
 | --- | --- | --- | --- |
-| Today's booking | General fund | Depletion in 2061; 75-year balance −1.64% of taxable payroll | As booked (with the HEX fix) |
+| The booking before G29 (the HEX fix) | General fund | Depletion in 2061; 75-year balance −1.64% of taxable payroll | As booked then |
 | **A** | Social Security, as current law does, from the start | **2072**; −1.07% (range 2070-2073) | About **$100B a year less in FY2040**, $248B in FY2056. FY2035 and FY2040 no longer close ($120B and $86B short). FY2045 on still close. FY2030-39 gap about $1,284B |
 | **B** | General fund, by law | 2061; −1.64% | As booked |
 | **C** (hybrid) | General fund through FY2044, then Social Security, both written in law | **2069**; −1.17% | As booked through FY2044. From FY2045 it still closes every year (FY2045 about $19B to spare; more after) |
@@ -65,7 +65,7 @@ B and C both need the plan's law to say so expressly. Section 710(b) of the Soci
 
 ## The reserve
 
-On the fixed figures, the fund builds **$307.9B** over FY2030-34, after meeting its own FY2033-34 shortfalls. Your decision (`DEC-2026-11-25-31`, point 2) was a $250B standing reserve plus $141B lowering the FY2035 transfer, $391B in all, which was based on figures that counted Social Security's money as health's.
+On the fixed figures as drafted (the working 70.3%; booked at the sourced 72% it is $312.7B), the fund builds **$307.9B** over FY2030-34, after meeting its own FY2033-34 shortfalls. Your decision (`DEC-2026-11-25-31`, point 2) was a $250B standing reserve plus $141B lowering the FY2035 transfer, $391B in all, which was based on figures that counted Social Security's money as health's.
 
 | | Standing reserve | Drawn in FY2035 | FY2035 transfer | Note |
 | --- | --- | --- | --- | --- |
