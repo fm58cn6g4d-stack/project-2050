@@ -14,7 +14,7 @@ You have to decide where it goes. The rule that each important effect is booked 
 
 ## Your note: isn't this canceled out by the new, larger health contribution?
 
-You asked: "Isn't this basically canceled out by the new larger health contribution? Maybe not, or maybe at least this isn't how the budget model thinks about effects?" Both halves of that are partly right.
+You asked: "Isn’t this basically canceled out by the new larger health contribution? Maybe not, or maybe at least this isn’t how the budget model thinks about effects?" Both halves of that are partly right.
 
 - **It isn't canceled out.** The health contribution replaces Medicare's HI taxes only: the worker's HI, the 0.9% extra Medicare tax, and HI on former premiums (`models/bookings/health_trust_fund.py`, the fold-in rows HCW, HCA, HCP and HCH). It doesn't touch Social Security's 12.4% tax. And by your rule its money pays only for health (`DEC-2026-11-25-12`). So nothing in it stands in for the Social Security money.
 - **Where the Social Security part comes from.** When premiums end, the employer money that paid them becomes wages. Wages under the cap pay Social Security's 12.4%, like any other pay. Current law sends that tax to Social Security's trust funds (42 U.S.C. 401(a)). It is new Social Security revenue that the plan creates, not health money.
