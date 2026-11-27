@@ -2,6 +2,13 @@
 
 Role: the version history of `MOD-budget` (`models/schema/README.md`, "Versions"), newest first. Status: current.
 
+## 0.7.0 (2026-11-27)
+
+Espen changed G29 from C to A (`DEC-2026-11-26-03`): no law in the plan diverts Social Security payroll tax from the trust funds. One input changes; no change to the code or the interface. 0.6.0 was never on main.
+- **G29 A:** the OASDI part of HX and HEX (0.28) goes to Social Security's trust funds from FY2031, HX's first year, as current law does (`settlement.json` `social_security_part` `from` 2031, not 2045). The recovery budget takes it off the general fund from then; HX-SS (`funds-ss-hx.csv`) starts in FY2031. Unified figures don't move.
+- **Results:** debt is unchanged (121.4% of GDP in FY2045, 124.5% in FY2050, 129.3% in FY2056), as are the health fund's reserve ($250B standing, $62.7B drawn in FY2035) and the rate path. The general fund's gap is +$57.3B in FY2035 and +$86.2B in FY2040, falling to +$1.8B in FY2044 (it closed in every one of those years in 0.6.0); −$19.2B in FY2045, −$132.9B in FY2050 and −$189.4B in FY2056, as in 0.6.0; and +$1,225.9B over FY2030-39 ($718.5B). With the plan's package, Social Security's funds last to 2072, not 2069, and the 75-year balance is −1.07% of taxable payroll, not −1.17%.
+- Current law and the CBO option change only in the hashes of the changed inputs.
+
 ## 0.6.0 (2026-11-26)
 
 Espen's G29 and G30 decisions booked (`DEC-2026-11-26-03`, `-04`). New inputs and one new engine series; no change to the interface.

@@ -72,11 +72,12 @@ After `DEC-2026-11-25-12` (the health contribution pays only for the health syst
 
 ## I2: HX's Social Security part (G29, decided)
 
-[G29](G29-hx-social-security-part.md) answers I2 with sourced figures. The Social Security part is about 28% of the net exclusion revenue (HX less HEX; range 22-30%), about $100B in FY2040, not $290B. Espen asked for this (I2 C, `DEC-2026-11-26-02`: source the share first, then the options). G29 also found that #507 weighted HEX in full against a partly weighted HX; #515 books the fix. **Decided November 26, 2026: C with R2** (`DEC-2026-11-26-03`), **booked in #515** at the sourced 0.28: the fund keeps $250B and draws $62.7B in FY2035; Social Security gets the part from FY2045 and lasts to 2069; FY2056 debt is 129.3%.
+[G29](G29-hx-social-security-part.md) answers I2 with sourced figures. The Social Security part is about 28% of the net exclusion revenue (HX less HEX; range 22-30%), about $100B in FY2040, not $290B. Espen asked for this (I2 C, `DEC-2026-11-26-02`: source the share first, then the options). G29 also found that #507 weighted HEX in full against a partly weighted HX; #515 books the fix. **Decided: A with R2** (`DEC-2026-11-26-03`; Espen chose C on November 26 and changed it to A on November 27), **booked in #515** at the sourced 0.28: the fund keeps $250B and draws $62.7B in FY2035; Social Security gets the part from FY2031, as current law does, and lasts to 2072; FY2056 debt is 129.3%. The general fund is short in FY2040-44 ($86B in FY2040); how to close it is G29.1, open for Espen.
 
-| Memo | Question | Recommended | Effect |
+| Memo | Question | Decided | Effect |
 | --- | --- | --- | --- |
-| [G29](G29-hx-social-security-part.md) | Where the Social Security part of the tax on former premiums goes, and the reserve | **C**: the general fund through FY2044, Social Security from FY2045, written in law; **R2**: a $250B standing reserve, with the rest drawn in FY2035 ($57.9B drafted; $62.7B booked) | Social Security depletion 2069 instead of 2061; the general fund as booked through FY2044, still closing from FY2045 |
+| [G29](G29-hx-social-security-part.md) | Where the Social Security part of the tax on former premiums goes, and the reserve | **A**: Social Security from the start, as current law does (C, the recommendation, was chosen first and replaced); **R2**: a $250B standing reserve, with the rest drawn in FY2035 ($57.9B drafted; $62.7B booked) | Social Security depletion 2072 instead of 2061; the general fund about $100B a year less in FY2040, short in FY2040-44 ($86B to $2B), closing from FY2045 |
+| [G29.1](G29-hx-social-security-part.md#g291-new-question-closing-the-general-fund-in-fy2040-44-under-a) **(open)** | How to close the general fund in FY2040-44 under A | **Recommended: 1**, count G24 B's decided sources on the general fund (no new tax; the VAT stays 2.88%); 2, a VAT alone (1.33% closes FY2040-56, 2.13% with FY2035); 3, leave it short | none on the debt path |
 
 
 ## G24.1: the VAT rebate's income limit (G30, decided)

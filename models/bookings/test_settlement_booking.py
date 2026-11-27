@@ -46,11 +46,11 @@ class SettlementBooking(unittest.TestCase):
         screened = SB.gap(SB.screened_case(self.ctx, self.doc, hr['rate'], hr['path']))
         # the screens have no health fund: compare the general fund with the fund's own balance after its transfer
         # put back (DEC-2026-11-25-28 moves health money between the accounts, not out of the budget)
-        # and HX's OASDI part, which G29 C sends to Social Security's funds from FY2045, put back too (off-budget)
+        # and HX's OASDI part, which G29 A sends to Social Security's funds from FY2031 (current law), put back too (off-budget)
         case = SB.booked_case(self.ctx)
         fund = case['health_fund']
         ssp = SB.K.m.social_security_part(case['audit'], self.doc['health_fund'])
-        self.assertEqual(min(ssp), 2045)
+        self.assertEqual(min(ssp), 2031)
         for y in range(2030, 2057):
             own = fund[y]['spending'] - fund[y]['sources'] - fund[y]['transfer']
             self.assertAlmostEqual(self.booked[y] + own - ssp.get(y, 0.0), screened[y], delta=0.05, msg=y)
@@ -77,11 +77,17 @@ class SettlementBooking(unittest.TestCase):
         self.assertAlmostEqual(fund[2039]['reserve'], keep, places=6)
         # G29: OASDI's part is 0.28 of HX and of HEX alike (sourced, EV-FIN-094, -095), out of the fund's sources
         self.assertEqual(hf['source_shares'], {'HX': 0.72, 'HEX': 0.72})
-        self.assertEqual(hf['social_security_part']['from'], 2045)   # G29 C: the general fund's through FY2044
+        self.assertEqual(hf['social_security_part']['from'], 2031)   # G29 A: Social Security's from HX's first year, as current law
 
     def test_closes_2040_on_at_g16b_rate(self):
         rate = self.doc['health_contribution_base_rate']['rate']
-        self.assertTrue(all(self.booked[y] <= 0.05 for y in range(2040, 2057)))
+        # G29 A (DEC-2026-11-26-03): HX's OASDI part goes to Social Security from FY2031, as current law does, so the
+        # general fund is short in FY2040-44 (memo G29's question G29.1) and closes from FY2045. Before that part it
+        # closes every year from FY2040, as under C; the health contribution can't fill the gap (DEC-2026-11-25-12).
+        ssp = SB.K.m.social_security_part(SB.booked_case(self.ctx)['audit'], self.doc['health_fund'])
+        self.assertTrue(all(self.booked[y] <= 0.05 for y in range(2045, 2057)))
+        self.assertTrue(all(self.booked[y] > 0 for y in range(2040, 2045)))
+        self.assertTrue(all(self.booked[y] - ssp[y] <= 0.05 for y in range(2040, 2057)))
         lower = SB.gap(SB.screened_case(self.ctx, self.doc, round(rate - 0.05, 2)))
         # Booked as the lowest closing rate in step 7; G16 B (DEC-2026-11-25-02) then held it at 3.80% to FY2040. Since
         # CLI-1's step-down was booked (memo G25), 3.75% also closes; the room goes to the debt path, not a lower rate.

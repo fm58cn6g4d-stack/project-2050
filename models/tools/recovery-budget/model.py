@@ -320,7 +320,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         h=hf[r['year']] if hf else dict(sources=0.0,spending=0.0,balance=0.0,transfer=0.0,reserve=0.0)
         own=h['spending']-h['sources']-h['transfer'] if hf else 0.0
         r['agenda_gf_primary_bn']-=own
-        # G29 C: from its start year the Social Security part of HX and HEX is credited to OASDI's trust funds (off-budget),
+        # G29 A: from its start year (FY2031, HX's first) the Social Security part of HX and HEX is credited to OASDI's trust funds (off-budget),
         # so it leaves the general fund; unified figures don't move (funds-model.py books it as HX-SS)
         r['agenda_gf_primary_bn']+=ssp.get(r['year'],0.0)
         r.update(health_fund_sources_bn=h['sources'],health_fund_spending_bn=h['spending'],
@@ -357,9 +357,9 @@ def audit_lines(audit):
     return out
 
 def social_security_part(audit,hf):
-    """G29 C (DEC-2026-11-26-03): the Social Security (OASDI) part of the lines in `source_shares` (HX and HEX), the share
-    the fund doesn't take, by year from `social_security_part.from` ($B, positive). Before then it stays on the general
-    fund; from then current law's crediting to OASDI's trust funds applies. {} if the block is absent."""
+    """G29 A (DEC-2026-11-26-03): the Social Security (OASDI) part of the lines in `source_shares` (HX and HEX), the share
+    the fund doesn't take, by year from `social_security_part.from` ($B, positive), credited to OASDI's trust funds as
+    current law does. Booked from FY2031, HX's first year. {} if the block is absent."""
     sp=hf.get('social_security_part')
     if not sp: return {}
     L=audit_lines(audit); w=hf.get('source_shares',{})

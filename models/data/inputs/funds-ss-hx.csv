@@ -1,5 +1,19 @@
 year,hx_ss_pct_payroll,basis
-2045,-0.6020,"G29 C (DEC-2026-11-26-03): recovery-budget/model.py social_security_part() on the booked case ($B) over funds-model.py payroll(); settlement_booking.py --write"
+2031,-0.0358,"G29 A (DEC-2026-11-26-03): recovery-budget/model.py social_security_part() on the booked case ($B) over funds-model.py payroll(); settlement_booking.py --write"
+2032,-0.0475,
+2033,-0.1470,
+2034,-0.2804,
+2035,-0.4383,
+2036,-0.4848,
+2037,-0.4896,
+2038,-0.4946,
+2039,-0.4997,
+2040,-0.5047,
+2041,-0.5276,
+2042,-0.5481,
+2043,-0.5666,
+2044,-0.5836,
+2045,-0.6020,
 2046,-0.6164,
 2047,-0.6288,
 2048,-0.6414,

@@ -77,7 +77,7 @@ Updated November 26, 2026 (about 03:45 UTC) by the lead, session_01UQzgBvwWV1mQ7
 
 ## Next, in order
 
-1. **The fiscal path decisions** (now): G27.1a A, G29 C with R2 and G30 ($60K / $120K) are decided (`DEC-2026-11-26-01`, `-03`, `-04`) and booked in #515: HX's OASDI part (0.28, sourced) stays on the general fund through FY2044 and goes to Social Security from FY2045 (funds to 2069); the fund keeps a $250B standing reserve; G24 B's VAT is 2.88% with the phased rebate. Next: the money scene's re-pin (tier 2), which #515 leaves stale. Re-run the settlement and the debt path as later waves add cost, at each new CBO baseline, and before 2028.
+1. **The fiscal path decisions** (now): G27.1a A, G29 A with R2 and G30 ($60K / $120K) are decided (`DEC-2026-11-26-01`, `-03`, `-04`) and booked in #515: HX's OASDI part (0.28, sourced) goes to Social Security from the start, as current law does (funds to 2072), so the general fund is short in FY2040-44 ($86B in FY2040; how to close it is memo G29's question G29.1, for Espen); the fund keeps a $250B standing reserve; G24 B's VAT is 2.88% with the phased rebate. Next: the money scene's re-pin (tier 2), which #515 leaves stale. Re-run the settlement and the debt path as later waves add cost, at each new CBO baseline, and before 2028.
 2. **Stage H, the toolkit and front door** (now: H2b's label, H9's Figma sync; next H10, the toolkit page, and H11, publishing, which Espen approves; a full public release needs Espen's review, `DEC-2026-11-25-19`).
 3. **Maintenance, later:** the small items above. M1 and the immigration small items are done.
 

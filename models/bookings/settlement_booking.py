@@ -165,13 +165,13 @@ def rate_rule(ctx, d=None):
 
 
 def write_ss_part(ctx):
-    """funds-ss-hx.csv: HX-SS (G29 C), the OASDI part of HX and HEX from FY2045, % of the funds model's taxable payroll,
+    """funds-ss-hx.csv: HX-SS (G29 A), the OASDI part of HX and HEX from FY2031 (HX's first year), % of the funds model's taxable payroll,
     negative (a gain to the funds), from the booked case (recovery-budget/model.py social_security_part())."""
     case = booked_case(ctx)
     ssp = K.m.social_security_part(case['audit'], doc()['health_fund'])
     rows = ['year,hx_ss_pct_payroll,basis']
     for i, y in enumerate(sorted(ssp)):
-        note = ('"G29 C (DEC-2026-11-26-03): recovery-budget/model.py social_security_part() on the booked case ($B) over '
+        note = ('"G29 A (DEC-2026-11-26-03): recovery-budget/model.py social_security_part() on the booked case ($B) over '
                 'funds-model.py payroll(); settlement_booking.py --write"') if i == 0 else ''
         rows.append('%d,%.4f,%s' % (y, -100 * ssp[y] / ctx.u.payroll(y), note))
     (INPUTS / 'funds-ss-hx.csv').write_text('\n'.join(rows) + '\n')
@@ -345,7 +345,10 @@ def markdown(r):
               r['rate'], ', '.join('FY%d %.2f%%' % (y, v) for y, v in r['path'].items() if y == 2040 or v != r['path'][y - 1])),
           '- The health fund as its own account (`DEC-2026-11-25-28`, `-31`): the general fund\'s transfer to the fund / the fund\'s reserve ($B): ' + ', '.join(
               'FY%d %.1f / %.1f' % (y, t, v) for y, (t, v) in r['fund'].items()) + '. The general fund\'s gap counts only the transfer; FY2030-34\'s surplus stays in the fund.',
-          '- Every year FY2040-56 closes: worst FY%d, %.1f.' % (r['worst_year'], r['worst']),
+          ('- Every year FY2040-56 closes: worst FY%d, %.1f.' % (r['worst_year'], r['worst']) if r['worst'] <= 0.05 else
+           '- Short in FY2040-56 (+ short; G29 A sends the Social Security part to Social Security from the start, memo G29\'s question G29.1): '
+           + ', '.join('FY%d %.1f' % (y, r['gap'][y]) for y in range(2040, 2057) if r['gap'][y] > 0.05)
+           + '; worst FY%d, %.1f.' % (r['worst_year'], r['worst'])),
           '- A general-fund reading only, not a rate under `DEC-2026-11-25-12`: the base rate at which the general fund would just close each year: ' + ', '.join('FY%d %.2f%%' % kv for kv in r['r_needed'].items()) + '.',
           '- Debt, %% of GDP: %s (baseline FY2040 %.1f, FY2056 %.1f; before the settlement %.1f and %.1f).' % (
               ', '.join('FY%d %.1f' % kv for kv in r['debt'].items()), r['baseline_debt'][2040], r['baseline_debt'][2056],

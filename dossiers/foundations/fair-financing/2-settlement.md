@@ -297,10 +297,10 @@ These add one published page per release and one table a year to reports that al
 
 **G27.1a, decided (A, `DEC-2026-11-26-01`):** the band is on the contribution's own share of the fund's cost, tested one year ahead. That is the reading booked since step 11; no figure moves.
 
-**G29, decided (C with R2, `DEC-2026-11-26-03`).** Espen first asked for the share to be sourced, then the options set out (I2 C, `DEC-2026-11-26-02`); [memo G29](memos/G29-hx-social-security-part.md) did both, and Espen chose its recommendation.
+**G29, decided (A with R2, `DEC-2026-11-26-03`).** Espen first asked for the share to be sourced, then the options set out (I2 C, `DEC-2026-11-26-02`); [memo G29](memos/G29-hx-social-security-part.md) did both. Espen first chose its recommendation, C, then changed it to A the same night: no law in the plan diverts Social Security payroll tax away from the trust funds.
 - HX, the tax on former premiums, includes the payroll tax that current law credits to Social Security, and that can't be health money (`-12`, `-28`). It is left out of the fund's sources.
 - **The part is 28% of HX and of HEX alike** (range 22-30%; EV-FIN-094, EV-FIN-095), so the fund takes 72% of each (`settlement.json`'s `source_shares`). Step 11 had 29.7% of HX alone, unsourced. #515 first fixed HEX's weight at 70.3% (G29, finding 3), then moved both to the sourced 72%.
-- **C: the general fund through FY2044, Social Security from FY2045, both in law** (`social_security_part`). From FY2045 the part leaves the general fund ($144B in FY2045) and is credited to Social Security's trust funds (HX-SS in the dedicated-fund engine). Unified figures don't move.
+- **A: Social Security from the start, as current law does** (`social_security_part`, from FY2031, HX's first year). The part leaves the general fund ($100B in FY2040) and is credited to Social Security's trust funds (HX-SS in the dedicated-fund engine). Unified figures don't move.
 - **R2: a $250B standing reserve.** The fund builds $312.7B over FY2030-34, net of HI's $425B and of its own shortfalls in those years. It keeps $250B standing and draws $62.7B against the FY2035 transfer, which is $304.6B. Memo G29 had $307.9B, $57.9B and $313.8B, on the working 29.7%.
 
 **The rate as booked:** 3.80% through FY2042, 4.05% in FY2043-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55, and 4.05% in FY2056.
@@ -325,11 +325,12 @@ These add one published page per release and one table a year to reports that al
 | Step 7, with #493 (before this step) | −221 | −42 | 47 | 277 | 193 | **−16** | −41 | −98 | −224 | −283 | 459 |
 | Step 11 as merged (#507) | −104 | −71 | 48 | 278 | 194 | −14 | −68 | −163 | −322 | −438 | 628 |
 | With the HEX fix (#515, before G29 was decided) | −104 | −29 | 48 | 278 | 194 | −14 | −68 | −163 | −322 | −438 | 777 |
-| **Booked now** (G29 C with R2) | **−104** | **−28** | **−15** | **278** | **194** | **−14** | **−68** | **−19** | **−133** | **−189** | **719** |
+| G29 C with R2, as first decided (0.6.0, never on main) | −104 | −28 | −15 | 278 | 194 | −14 | −68 | −19 | −133 | −189 | 719 |
+| **Booked now** (G29 A with R2) | **−104** | **−6** | **57** | **361** | **290** | **86** | **49** | **−19** | **−133** | **−189** | **1,226** |
 
-- **Every year FY2040-56 still closes.** The tightest is FY2040, at −$14.1B; FY2045, the first year Social Security gets its part, has $19.2B to spare.
-- **The decade is $260B worse on the general fund** than step 7. $250B of health's early surplus stays in the fund as its standing reserve, and IMM-1 adds $10B. FY2035 now closes, because the $62.7B draw lowers that year's transfer. FY2036-39 run about $194-278B short a year, as before.
-- **From FY2045 the general fund gives up the Social Security part** ($144B in FY2045, $189B in FY2050, $248B in FY2056), and still closes every year. **It is still ahead from the mid-2040s,** because the health law fixes its share of the fund's cost (G27 A point 3). The contribution's share holds as health outgrows its base, and the fund's rule steps the rate to keep it there.
+- **FY2040-44 no longer close.** The general fund is $86.2B short in FY2040, $70.2B in FY2041, $49.3B in FY2042, $21.9B in FY2043 and $1.8B in FY2044; it closes from FY2045 ($19.2B to spare). No booked rule fills those years: the health contribution can't (`-12`), and G24 B's VAT is set by the debt goal, which A doesn't move. The options are memo G29's question G29.1 for Espen; nothing is assumed meanwhile. Before the Social Security part, every year FY2040-56 closes, as under C.
+- **The decade is $767B worse on the general fund** than step 7. $250B of health's early surplus stays in the fund as its standing reserve, IMM-1 adds $10B, and the Social Security part takes $507B over FY2031-39. FY2035 is $57.3B short ($15.0B to spare under C, with the $62.7B draw lowering that year's transfer). FY2036-39 run about $290-361B short a year.
+- **The general fund gives up the Social Security part every year** ($72B in FY2035, $100B in FY2040, $144B in FY2045, $189B in FY2050, $248B in FY2056). **It is still ahead from the mid-2040s,** because the health law fixes its share of the fund's cost (G27 A point 3). The contribution's share holds as health outgrows its base, and the fund's rule steps the rate to keep it there.
 
 ### Debt and take-home
 
@@ -338,11 +339,11 @@ These add one published page per release and one table a year to reports that al
 | Step 7, with #493 | 116.9 | 117.8 | 121.7 | 125.6 | 131.5 |
 | Step 11 as merged (#507) | 117.0 | 117.8 | 121.2 | 124.3 | 129.1 |
 | With the HEX fix (#515, before G29 was decided) | 117.0 | 117.8 | 121.5 | 124.7 | 129.4 |
-| **Booked now** (G29 C with R2) | **117.0** | **117.8** | **121.4** | **124.5** | **129.3** |
+| **Booked now** (G29 A with R2; C gave the same) | **117.0** | **117.8** | **121.4** | **124.5** | **129.3** |
 
 - **Take-home** (FY2040 incomes, no VAT): 69.0% of workers ahead at 3.80% in FY2040, unchanged. At the rule's later rates, as an indication only, it is 65.4% at 4.05% and 62.6% at 4.30%. Below 200% of poverty it is 98.4-99.5%.
 - **D3** (FY2030-39) and the revenue-mix test (65%) don't move.
-- **Social Security:** IMM-1-SS adds about $22B to the funds over FY2030-39, and HX-SS (G29 C) the tax on former premiums' OASDI part from FY2045. With the plan's package (D8), the funds last to 2069, not 2061, and the 75-year balance is −1.17% of taxable payroll, not −1.64% (the package closes 74% of the gap, not 63%). With SS-5 too: 2094 and −0.30%. These count the revenue only; the higher taxed pay also raises earned benefits, so the gain is somewhat smaller.
+- **Social Security:** IMM-1-SS adds about $22B to the funds over FY2030-39, and HX-SS (G29 A) the tax on former premiums' OASDI part from FY2031. With the plan's package (D8), the funds last to 2072, not 2061, and the 75-year balance is −1.07% of taxable payroll, not −1.64% (the package closes 76% of the gap, not 63%; under C, 2069 and −1.17%). With SS-5 too: 2099 and −0.20%. These count the revenue only; the higher taxed pay also raises earned benefits, so the gain is somewhat smaller.
 
 ## Method and sources
 
