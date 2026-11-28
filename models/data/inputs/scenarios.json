@@ -222,7 +222,7 @@
   },
   {
    "id": "Q-G",
-   "label": "Q-G. The package the gap books after stage G's settlement (step 7): Q-H7 without ICB (the 2 points folded into the health contribution), with HCU, HCUw, HCA, HS2 and EDUP replaced by the settlement's rows (HCUg, HCUwg, HCAg, HS2g, EDUPg, EDUP gross) and GX narrowed (GXg). D3 has no rows for defense, farm payments, like-kind exchanges, the states' long-term care payment, the $300 credit or housing stage 2, so those move only the gap",
+   "label": "Q-G. The package the gap books after stage G's settlement (step 7): Q-H7 without ICB (the 2 points folded into the health contribution), with HCU, HCUw, HCA, HS2 and EDUP replaced by the settlement's rows (HCUg, HCUwg, HCAg, HS2g, EDUPg, EDUP gross) and GX narrowed (GXg); with G24 B's sources booked (DEC-2026-11-28-01) in FY2030-39: the outside fix (OUTg) and the deduction limits (DEDg) from FY2037, the VAT gross (VATg) and its rebate under G30 (VATRg) from FY2035 (the AGI surtax starts in FY2040). D3 has no rows for defense, farm payments, like-kind exchanges, the states' long-term care payment, the $300 credit or housing stage 2, so those move only the gap",
    "options": [
     "DEC",
     "H7h",
@@ -245,7 +245,11 @@
     "EDUP",
     "EDUB",
     "ICH",
-    "GXg"
+    "GXg",
+    "OUTg",
+    "DEDg",
+    "VATg",
+    "VATRg"
    ],
    "remove": [
     "C19b",

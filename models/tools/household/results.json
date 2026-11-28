@@ -3658,10 +3658,10 @@
      79
     ],
     "Q-G": [
-     14.33,
-     6.91,
+     15.73,
+     7.14,
      2.46,
-     65
+     61
     ],
     "Q-H7": [
      15.13,
@@ -4075,10 +4075,10 @@
      79
     ],
     "Q-G": [
-     14.33,
-     6.91,
+     15.73,
+     7.14,
      2.46,
-     65
+     61
     ],
     "Q-H7": [
      15.13,
@@ -5475,7 +5475,7 @@
   "code": {
    "models/tools/household/budget.py": "2762ce96ba61be742c27ae5ec4940a66f00c3dbec19f66abd24f1784319a4adc",
    "models/tools/household/conventions.py": "15f5a9c397332b1e9ab81da8d153425128b6e76859edd15d062d63f18c46da86",
-   "models/tools/household/d3.py": "53f4a068853b108013413fb8e23269ced979e8a33756b2bae83cfe3edce6063e",
+   "models/tools/household/d3.py": "cfc46267eca2a3ac4e4d52f6fe79085166b3e4ae9d807235f930036fd738127e",
    "models/tools/household/data.py": "2a52942d667512c5c2bc1f142d9859218ace5db1c9fdcf1ad55e56d64f241d23",
    "models/tools/household/distribution.py": "ad1db44c57d5257a245707a4d4458623dfde70b12bdec41b84dece92de4b13c3",
    "models/tools/household/families.py": "4bbc64f2f79ff72e33ae81a27d0e9f40983963110f9353b0c0bd4c254021fbf4",
@@ -5483,7 +5483,7 @@
    "models/tools/household/poverty.py": "c185628fc8e34a44c11c161e9c2568ae3a3d1c0f86ccdaf7b3eddbfb5341c28c",
    "models/tools/household/provisions.py": "aa506b70779a4b85088f8e0783774d3cbe0c733d0c8d1b65a05ba275bb02f9ef",
    "models/tools/household/rules.py": "10d0dca3215f2a61627b1b2b580a09ad4e50fd8bfefb8aec2840441a1d0a7767",
-   "models/tools/household/run.py": "d22ea4a0e0aaafbdfe0627912ee261a6b103474b0690e9d416d0a6b3a913f2f4",
+   "models/tools/household/run.py": "f26a2a5c85bebe73aa6ece8f027cb946b3918dcd393e74ca43f8ab9ebb1e3754",
    "models/tools/household/snap2025.py": "b019dbd9dc9b541ff8ea56e230396455985813bf9a7cdf44062c48edfeb51a38",
    "models/tools/household/tax.py": "3e2ed576da4f6a12af63ae0854b3bbb86e5f0e3a79570a8f9918234b8354fbae",
    "models/tools/inputs.py": "b3729bfe51f592a0b9540e0bd9fd2ab42081e439a470ed13ed6e97aa706df96b",
@@ -5496,24 +5496,24 @@
    "models/data/household/households.csv.gz": "34413c856024ff094b09856102fd85d546cd58a1d8feb8e6a6dc7658f8289c31",
    "models/data/household/spm.csv.gz": "2282c395e2c6c2e4589197be39d16cebbfb23fedaaf7bef10b4bf8399c34b6c7",
    "models/data/household/units.csv.gz": "b55b92b21c8d3677b644b4bfc2d11d2c0c697daa9bc1711abf404b3e51ab2e4b",
-   "models/data/inputs/incidence-keys.csv": "8446ce68c45bcef2a55db53479aaadbfed7f8932d7a0bf6254774a8da84276bb",
-   "models/data/inputs/incidence-phase-in.csv": "2be98fd0f3a8913e0eb9bff6a9cbeb9357d40ee0ad50f1fb1ac1756b12f1f5eb",
-   "models/data/inputs/incidence-rows.csv": "8a3468083b2d07083c7383e677b0f010ab1ba9314b12635d72ff050a931c09de",
-   "models/data/inputs/scenarios.json": "51172d13daa11dbce39dd24ce63e83560cbeb042cd6de9f48ebbf18c11a183c4",
+   "models/data/inputs/incidence-keys.csv": "09e3087580cfd50168f3ae952abac4f35599d8410c5a7a163f4bbc7d738c6b79",
+   "models/data/inputs/incidence-phase-in.csv": "a3b4196f6bf416e88edf39474ddab71797545cad1cc9e26b4091897213707f97",
+   "models/data/inputs/incidence-rows.csv": "015867c390ce5634ebb5d24b66ba0541aa1ec2fec02b410ce178e3b37beafa64",
+   "models/data/inputs/scenarios.json": "3c8d5940684d7853a378f646130106964388d94cd26fbd68e1246bae10645f2b",
    "models/tools/household/intervals.json": "87271d7926d5e16e6cde5571a790001bacfb7086d6e2d4f095a98d55d59ccdca",
-   "models/tools/household/keys.csv": "aa2f6ceb0abbeb6c92e063afbb631fbfe85d2d6e8eec2ccb088ce9b6ea52c69b",
+   "models/tools/household/keys.csv": "45c304d4d42f0ad6e5b1fd33d77d5d3db511dc4656dc9470b05e6ed6d7e8d0f2",
    "models/tools/household/parameters.csv": "44ca6bae863a432b0fede272c99e9eb0a1de31f77de65ec782576de664bb1afa",
    "models/tools/household/snapshot/ledger.json": "dc07ab547bfad9f60fdcfcd3e83b02e7feaf509e401e5f3b57eee32ea5b1e269",
    "models/tools/household/take-home-flags.csv.gz": "46c1bad756fdf5905b86fb6f48e2a8ca4c37b1efb318e0e17b39ce1f8233531e"
   },
   "model_id": "MOD-household",
-  "model_version": "0.3.0",
+  "model_version": "0.4.0",
   "price_basis": "nominal dollars of the year shown (2025 survey dollars aged to 2029 with CBO's February 2026 projections)",
   "scenarios": [
    "A. Base package only (gap unfunded)",
    "Q-C19. Q with the exclusion cap at the median premium (C19, the fallback)",
    "Q-EDU. Q with the EDU-9B education fund (as case mixed books it) in place of C19b and C20",
-   "Q-G. The package the gap books after stage G's settlement (step 7): Q-H7 without ICB (the 2 points folded into the health contribution), with HCU, HCUw, HCA, HS2 and EDUP replaced by the settlement's rows (HCUg, HCUwg, HCAg, HS2g, EDUPg, EDUP gross) and GX narrowed (GXg). D3 has no rows for defense, farm payments, like-kind exchanges, the states' long-term care payment, the $300 credit or housing stage 2, so those move only the gap",
+   "Q-G. The package the gap books after stage G's settlement (step 7): Q-H7 without ICB (the 2 points folded into the health contribution), with HCU, HCUw, HCA, HS2 and EDUP replaced by the settlement's rows (HCUg, HCUwg, HCAg, HS2g, EDUPg, EDUP gross) and GX narrowed (GXg); with G24 B's sources booked (DEC-2026-11-28-01) in FY2030-39: the outside fix (OUTg) and the deduction limits (DEDg) from FY2037, the VAT gross (VATg) and its rebate under G30 (VATRg) from FY2035 (the AGI surtax starts in FY2040). D3 has no rows for defense, farm payments, like-kind exchanges, the states' long-term care payment, the $300 credit or housing stage 2, so those move only the gap",
    "Q-H7. The package the gap books (case mixed): Q without C19b and C20, with the single plan as booked (its household rows on the corrected path, H7h, H7w, H7x and H7c; its long-term care title, H9; package E: HCU, the fold-in, HEC and HEX, the new streams HS1 to HS4; H1a is in Q), the education fund (EDUP, EDUB) and the indexed income contributions (ICH, ICB)",
    "Q-SAF. Q with SAF-R2 (alcohol excise dropped)",
    "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43"
@@ -7392,6 +7392,25 @@
     "source": "micro",
     "top1": 0.3
    },
+   "vat_rebate": {
+    "legacy": [
+     27.0314,
+     31.0909,
+     26.8962,
+     11.4419,
+     3.5396
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     27.0,
+     31.1,
+     26.9,
+     11.4,
+     3.5
+    ],
+    "source": "legacy",
+    "top1": 0
+   },
    "wages": {
     "legacy": [
      3,
@@ -8021,93 +8040,93 @@
      }
     }
    },
-   "Q-G. The package the gap books after stage G's settlement (step 7): Q-H7 without ICB (the 2 points folded into the health contribution), with HCU, HCUw, HCA, HS2 and EDUP replaced by the settlement's rows (HCUg, HCUwg, HCAg, HS2g, EDUPg, EDUP gross) and GX narrowed (GXg). D3 has no rows for defense, farm payments, like-kind exchanges, the states' long-term care payment, the $300 credit or housing stage 2, so those move only the gap": {
+   "Q-G. The package the gap books after stage G's settlement (step 7): Q-H7 without ICB (the 2 points folded into the health contribution), with HCU, HCUw, HCA, HS2 and EDUP replaced by the settlement's rows (HCUg, HCUwg, HCAg, HS2g, EDUPg, EDUP gross) and GX narrowed (GXg); with G24 B's sources booked (DEC-2026-11-28-01) in FY2030-39: the outside fix (OUTg) and the deduction limits (DEDg) from FY2037, the VAT gross (VATg) and its rebate under G30 (VATRg) from FY2035 (the AGI surtax starts in FY2040). D3 has no rows for defense, farm payments, like-kind exchanges, the states' long-term care payment, the $300 credit or housing stage 2, so those move only the gap": {
     "legacy": {
      "Q1": {
-      "benefit": 15573,
-      "cost": 1701,
-      "net": 13872,
-      "pct": 60.3
+      "benefit": 15862,
+      "cost": 2154,
+      "net": 13708,
+      "pct": 59.6
      },
      "Q2": {
-      "benefit": 20043,
-      "cost": 6267,
-      "net": 13776,
-      "pct": 23.0
+      "benefit": 20376,
+      "cost": 6972,
+      "net": 13404,
+      "pct": 22.3
      },
      "Q3": {
-      "benefit": 25641,
-      "cost": 13320,
-      "net": 12321,
-      "pct": 11.7
+      "benefit": 25929,
+      "cost": 14277,
+      "net": 11652,
+      "pct": 11.1
      },
      "Q4": {
-      "benefit": 28879,
-      "cost": 22519,
-      "net": 6360,
-      "pct": 3.5
+      "benefit": 29001,
+      "cost": 23800,
+      "net": 5201,
+      "pct": 2.9
      },
      "Q5": {
-      "benefit": 27934,
-      "cost": 96154,
-      "net": -68220,
-      "pct": -13.1
+      "benefit": 27971,
+      "cost": 99016,
+      "net": -71045,
+      "pct": -13.7
      },
      "Q5x": {
-      "benefit": 27858,
-      "cost": 48088,
-      "net": -20230,
+      "benefit": 27898,
+      "cost": 50180,
+      "net": -22282,
       "pct": null
      },
      "T1": {
       "benefit": 29373,
-      "cost": 1009408,
-      "net": -980034,
-      "pct": -22.8
+      "cost": 1026902,
+      "net": -997529,
+      "pct": -23.2
      }
     },
     "model": {
      "Q1": {
-      "benefit": 16371,
-      "cost": 1589,
-      "net": 14782,
-      "pct": 52.4
+      "benefit": 16646,
+      "cost": 2020,
+      "net": 14626,
+      "pct": 51.8
      },
      "Q2": {
-      "benefit": 18657,
-      "cost": 5802,
-      "net": 12855,
-      "pct": 16.7
+      "benefit": 18974,
+      "cost": 6473,
+      "net": 12501,
+      "pct": 16.3
      },
      "Q3": {
-      "benefit": 23752,
-      "cost": 12471,
-      "net": 11281,
-      "pct": 8.6
+      "benefit": 24026,
+      "cost": 13385,
+      "net": 10641,
+      "pct": 8.1
      },
      "Q4": {
-      "benefit": 26680,
-      "cost": 21156,
-      "net": 5525,
-      "pct": 2.7
+      "benefit": 26797,
+      "cost": 22362,
+      "net": 4435,
+      "pct": 2.2
      },
      "Q5": {
-      "benefit": 26943,
-      "cost": 92226,
-      "net": -65283,
-      "pct": -13.9
+      "benefit": 26979,
+      "cost": 94961,
+      "net": -67982,
+      "pct": -14.4
      },
      "Q5x": {
-      "benefit": 27058,
-      "cost": 46508,
-      "net": -19450,
+      "benefit": 27096,
+      "cost": 48511,
+      "net": -21415,
       "pct": null
      },
      "T1": {
       "benefit": 24759,
-      "cost": 960866,
-      "net": -936107,
-      "pct": -59.5
+      "cost": 977520,
+      "net": -952761,
+      "pct": -60.6
      }
     }
    },

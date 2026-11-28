@@ -111,7 +111,8 @@ class BudgetTests(unittest.TestCase):
 
     def test_all_debt_rate_shock_and_downside_fail_visible(self):
         c=self.d['cases']
-        self.assertGreater(c['mixed_all_debt_rate_plus1']['summary']['debt_gdp_2056'],c['mixed']['summary']['debt_gdp_2056']+30)
+        # +28.7 points with G24 B booked (DEC-2026-11-28-01: less debt for the shock to compound on); more than 30 before
+        self.assertGreater(c['mixed_all_debt_rate_plus1']['summary']['debt_gdp_2056'],c['mixed']['summary']['debt_gdp_2056']+25)
         self.assertFalse(c['mixed_downside']['summary']['debt_ratio_nonincreasing_2045_56'])
         self.assertEqual(c['mixed_downside']['summary']['education_depletion'],2035)
         self.assertIsNone(c['mixed_corridor_downside']['summary']['education_depletion'])

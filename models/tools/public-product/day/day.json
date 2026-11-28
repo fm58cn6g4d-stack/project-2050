@@ -454,7 +454,7 @@
           "Workplace checks with E-Verify no earlier than October of the year after the law passes, and only once an independent inspector confirms legal status is up and running.{c:everify}"
         ],
         "cost": [
-          "About $0.15 trillion over 2030-39 and about $22.5 billion in 2040, on our estimates.{c:imm-cost}"
+          "About $0.16 trillion over 2030-39 and about $24.6 billion in 2040, on our estimates.{c:imm-cost}"
         ],
         "limits": [
           "Surges will still happen. The plan meets them with more officers and a faster track, not a promise that they stop.",
@@ -568,23 +568,23 @@
       "detail": {
         "what_changed": [
           "The top end and corporations pay first: the corporate rate rises to 28%, the top income tax rate returns to 39.6% for the highest earners, a new 45% bracket applies to incomes in the millions, and the 2025 law's tax cuts are reversed at the top.{c:top-rows}",
-          "On our estimates the top 1% and corporations bear 65% of the plan's new general revenue over 2030-39, leaving out the health contribution that replaces premiums. That is the plan as booked, before the later steps below.{c:mix}",
+          "On our estimates the top 1% and corporations bear 61% of the plan's new general revenue over 2030-39, leaving out the health contribution that replaces premiums, with the later steps below counted.{c:mix}",
           "Premiums give way to a health contribution on income: 3.80% from 2035, with nothing owed at or below 138% of poverty, rising to the full rate at 250%.{c:hc-rate} In later years the rate can move a quarter point at a time under the health fund's own rule (pending). It replaces the Medicare payroll tax and works like it: it goes into the health fund, pays only for the health system, and is never spent on anything else in the budget. The general fund pays the rest of health's cost.{c:health-fund} A separate payroll contribution of 1.65 points funds the education fund.{c:edu}",
           "Spending gives way too, across the whole federal budget: the plan drops its own $300 adult credit, the states keep paying their full current share of long-term care, defense is held flat after inflation after 2036 and restructured, crop insurance is reformed for the insurers and the largest farms, and a tax break for real-estate investors ends.{c:cuts}",
-          "From 2040 to 2056, on our estimates, the plan's new spending as booked is covered every year by its taxes, its savings elsewhere in the budget and the states' payments, by a thin margin at first. That is not the same as a balanced federal budget.{c:closes}",
-          "The debt: the plan's chosen path has the national debt falling to 110% of the economy by 2056, about a quarter point a year. That takes about 1.0% of the economy more in savings or revenue each year, phased in over 2035-39. The path is decided; the booked figures above don't include it yet.{c:debt-path}",
-          "The later steps that pay for that path: first, limits on itemized deductions and a surtax of 2 points on income above $100K for a single filer and $200K for a couple; then a value-added tax on what people buy, enacted in the 2033-34 Congress to start in 2035. As first scored it is about 4.9%, with a rebate. The rebate will go only to people below an income line that is still to be set, and the rate will be scored again then (pending).{c:later-steps}{c:vat}",
+          "On our estimates, with the later steps below counted, the plan's new spending is covered by its taxes, its savings elsewhere in the budget and the states' payments in 2035 and every year from 2039 to 2056; 2036-38 run short while the value-added tax phases in. That is not the same as a balanced federal budget.{c:closes}",
+          "The debt: the plan's chosen path has the national debt falling to 110% of the economy by 2056. With the later steps below counted, it is about 114.5% in 2040 and 110% in 2056.{c:debt-path}",
+          "The later steps that pay for that path: limits on itemized deductions and a surtax of 2 points on income above $100K for a single filer and $200K for a couple; and a value-added tax on what people buy of 2.88%, enacted in the 2033-34 Congress to start in 2035. Its rebate, $150 an adult for each point, goes in full to people under $60K of income ($120K for a couple) and phases out by $80K ($160K).{c:later-steps}{c:vat}",
           "Nothing new in those steps reaches the middle class before 2035, so the plan's first years are paid for by the top end, corporations and savings.{c:populist}",
           "The plan would repeal the debt limit in 2029, so it no longer stands in the way of paying bills Congress has already run up.{c:debt-limit}"
         ],
         "begins": [],
         "cost": [
-          "Who comes out ahead: on our estimates every fifth of households below the top comes out ahead on average, over 2030-39 and in 2040 and 2050 with the later steps on their first scoring. These are averages: many households within each fifth differ. With the VAT's rebate now limited by income, this is checked again when the income line is set (pending).{c:d3}",
-          "Take-home pay: on our estimates about 69% of workers take home more in 2040 on the plan as booked, once the health contribution replaces premiums. The later steps lower that to about half on their first scoring, and it is scored again with the rebate's income line (pending).{c:take-home}",
+          "Who comes out ahead: on our estimates every fifth of households below the top comes out ahead on average over 2030-39, with the later steps counted, and in 2040 and 2050. These are averages: many households within each fifth differ.{c:d3}",
+          "Take-home pay: on our estimates about 69% of workers would take home more in 2040 once the health contribution replaces premiums. The later steps, the value-added tax among them, lower that to about 55%.{c:take-home}",
           "The financing doesn't touch Social Security, which has its own act and its own financing.{c:ss}"
         ],
         "limits": [
-          "On our estimates the margin is thin in the early 2040s, and the plan's first decade runs short, most in its later years as programs reach full scale.{c:thin}",
+          "On our estimates 2036-38 run short while the value-added tax phases in, and the plan's first decade runs a little short overall.{c:thin}",
           "If health spending runs above its path, or the wealth tax is struck down, a backstop written into law raises the health contribution a quarter point at a time to cover it, inside the health fund.{c:backstop}",
           "Some of the money rests on working assumptions about how much the new taxes raise; if they raise less, a later Congress has to find the difference. The later steps' figures are the project's own rough re-scoring, not the official scorekeepers'.{c:later-steps}",
           "How the health fund's accounts are kept is still being settled, so we don't yet show how the health contribution's rate moves in later years (pending).",
@@ -602,19 +602,19 @@
           {
             "q": "Is it paid for?",
             "a": [
-              "On our central estimates the plan as booked covers its new spending every year from 2040 on, with its own taxes, savings and state payments, and the top end and corporations paying first.{c:closes} But the margin is thin in the early 2040s, and the first decade runs short.{c:thin} The plan also chooses to bring the debt down, and that needs the later steps, a value-added tax among them.{c:debt-path}"
+              "On our central estimates the plan as booked, its later steps counted, covers its new spending in 2035 and every year from 2039 on, with its own taxes, savings and state payments, and the top end and corporations paying first; 2036-38 run short.{c:closes} The same steps, a value-added tax among them, bring the debt down to 110% of the economy by 2056.{c:debt-path}"
             ]
           },
           {
             "q": "Who pays?",
             "a": [
-              "Corporations and the highest earners first. Then a health contribution on income, which replaces premiums and deductibles, exempts people at or below 138% of poverty, and pays only for health care.{c:hc-rate}{c:health-fund} Then savings across the rest of the federal budget, defense included. From 2035, a value-added tax with a rebate for people below an income line (pending).{c:vat}"
+              "Corporations and the highest earners first. Then a health contribution on income, which replaces premiums and deductibles, exempts people at or below 138% of poverty, and pays only for health care.{c:hc-rate}{c:health-fund} Then savings across the rest of the federal budget, defense included. From 2035, a value-added tax of 2.88% with a rebate for people below an income line.{c:vat}"
             ]
           },
           {
             "q": "Why a value-added tax, and why wait?",
             "a": [
-              "The other choice was a higher health contribution, which on our estimates does somewhat better for low-income workers. But the plan keeps that contribution for health care's own cost, with its rate set by the health fund's own rule, so the debt path is paid for by other steps, a value-added tax among them.{c:health-fund}{c:vat-vs-r} The tax waits until 2035 so nothing new reaches the middle class in the plan's first years.{c:populist} Its rebate goes only to people below an income line, to keep the help for low and middle incomes; the line is still to be set (pending).{c:vat}"
+              "The other choice was a higher health contribution, which on our estimates does somewhat better for low-income workers. But the plan keeps that contribution for health care's own cost, with its rate set by the health fund's own rule, so the debt path is paid for by other steps, a value-added tax among them.{c:health-fund}{c:vat-vs-r} The tax waits until 2035 so nothing new reaches the middle class in the plan's first years.{c:populist} Its rebate goes only to people below an income line, to keep the help for low and middle incomes: in full under $60K of income ($120K for a couple), phased out by $80K ($160K).{c:vat}"
             ]
           }
         ],
@@ -998,15 +998,25 @@
     },
     "closes": {
       "basis": "estimate",
-      "statement": "Every year FY2040 to FY2056 closes on the general fund as booked (taxes, cuts and the states' payment together), before G23 B's debt path is booked",
+      "statement": "With G24 B's decided sources booked (DEC-2026-11-28-01), the general fund closes in FY2035 and every year from FY2039 to FY2056 (taxes, cuts and the states' payment together); FY2036-38 stay short while the VAT phases in",
       "figures": [
-        "2040",
-        "2056"
+        "2035",
+        "2039",
+        "2056",
+        "2036-38"
       ],
       "sources": [
         {
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
-          "anchor": "**Every year from FY2040 to FY2056 closes.**"
+          "anchor": "**The general fund closes in FY2035 and every year from FY2039.**"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "FY2036-38 stay short ($200.4B, $83.9B, $41.6B)"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "From FY2040 the general fund runs a surplus ($413.1B in FY2040, $1,071.5B in FY2056)"
         }
       ]
     },
@@ -1047,27 +1057,31 @@
     },
     "d3": {
       "basis": "estimate",
-      "statement": "D3: every fifth below the top comes out ahead, FY2030-39 average (settlement), and in FY2040 and FY2050 in every G24 mix (before G24.1 limits the rebate)",
+      "statement": "D3: every fifth below the top comes out ahead, FY2030-39 average, with G24 B booked (the fourth fifth by $4,435 a household a year), and in FY2040 and FY2050 in every G24 mix",
       "figures": [
         "2030-39",
+        "$4,435",
         "2040",
         "2050"
       ],
       "sources": [
         {
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
-          "anchor": "$ a household a year, FY2030-39 average, measured keys, scenario Q-G"
+          "anchor": "**Q4 +4,435**"
         },
         {
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
-          "anchor": "On D3 every fifth below the top comes out ahead:**"
+          "anchor": "Every fifth below the top stays ahead. The new rows"
         },
         {
           "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
           "anchor": "**D3 holds in every mix:** every fifth below the top stays ahead in FY2040 and FY2050"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "(scenario Q-G, FY2030-39 average, $ a household a year; the VAT reaches FY2035-39"
         }
-      ],
-      "recheck": "Re-checked when G24.1's threshold is set"
+      ]
     },
     "debt-limit": {
       "basis": "decision",
@@ -1473,17 +1487,17 @@
     },
     "imm-cost": {
       "basis": "estimate",
-      "statement": "The decided set: about +$0.15T over FY2030-39 and about +$22.5B in FY2040, with memo 6's health line at two-thirds of care's average use (DEC-2026-11-13-05)",
+      "statement": "The decided set: about +$0.16T over FY2030-39 and about +$24.6B in FY2040, with memo 6's health line at two-thirds of care's average use (DEC-2026-11-13-05) and IMM-1's status line on CBO's on-budget figure (DEC-2026-11-25-27)",
       "figures": [
-        "$0.15 trillion",
+        "$0.16 trillion",
         "2030-39",
-        "$22.5 billion",
+        "$24.6 billion",
         "2040"
       ],
       "sources": [
         {
           "path": "dossiers/immigration/6-cost.md",
-          "anchor": "about **+$0.15 trillion over FY2030-39 (range about −$0.07 to +$0.43 trillion) and about +$22.5 billion in FY2040"
+          "anchor": "about **+$0.16 trillion over FY2030-39 (range about −$0.07 to +$0.43 trillion) and about +$24.6 billion in FY2040"
         }
       ]
     },
@@ -1714,23 +1728,22 @@
     },
     "mix": {
       "basis": "estimate",
-      "statement": "Top 1% and corporations bear 65% of new general-fund revenue over FY2030-39, health contributions left out, as booked before G24 B's later steps",
+      "statement": "Top 1% and corporations bear 61% of new general-fund revenue over FY2030-39, health contributions left out, with G24 B's VAT and deduction limits booked (the rule asks more than half)",
       "figures": [
         "1%",
-        "65%",
+        "61%",
         "2030-39"
       ],
       "sources": [
         {
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
-          "anchor": "**The revenue-mix test passes:** 65% over FY2030-39, its decided window"
+          "anchor": "**The revenue-mix test passes at 61%** over FY2030-39"
         },
         {
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
           "anchor": "the top 1% (by incidence) and corporations (statutory) bear more than half of new general-fund revenue, with health's contributions left out"
         }
-      ],
-      "recheck": "Re-run when G24 B is booked (the VAT starts in FY2035, inside the test's decade)"
+      ]
     },
     "mov-dates": {
       "basis": "decision",
@@ -1964,21 +1977,20 @@
     },
     "thin": {
       "basis": "estimate",
-      "statement": "The margin is thin in the early 2040s (tightest $16B in FY2040 after #493's CLI-1 correction, from $0.4B in FY2042); FY2036-39 run about $190-280B short a year",
+      "statement": "With G24 B booked, FY2036-38 run short ($200.4B, $83.9B, $41.6B) while the VAT phases in and the deduction limits start; the decade (FY2030-39) is $78.5B short",
       "figures": [
-        "2040"
+        "2036-38"
       ],
       "sources": [
         {
-          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
-          "anchor": "the tightest margin goes from $0.4B (FY2042) to $16B (FY2040)"
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "FY2036-38 stay short ($200.4B, $83.9B, $41.6B)"
         },
         {
           "path": "dossiers/foundations/fair-financing/2-settlement.md",
-          "anchor": "FY2036-39 run about $190-280B short a year. The rule doesn't test those years"
+          "anchor": "The decade (FY2030-39) is $78.5B short"
         }
-      ],
-      "recheck": "#507 (pending) moves the tightest year to $14.1B; the page quotes no figure"
+      ]
     },
     "top-rows": {
       "basis": "decision",
@@ -2369,27 +2381,23 @@
       ]
     },
     "debt-path": {
-      "basis": "decision",
-      "statement": "G23 B (DEC-2026-11-25-13): debt falling to 110% of GDP by FY2056, about a quarter point a year from its FY2039 peak; about 1.0% of GDP of new deficit reduction phased in over FY2035-39. Decided, not yet booked",
+      "basis": "estimate",
+      "statement": "G23 B (DEC-2026-11-25-13): debt falling to 110% of GDP by FY2056; with G24 B booked (DEC-2026-11-28-01), debt is 114.5% of GDP in FY2040 and 110.0% in FY2056",
       "figures": [
         "110%",
         "2056",
-        "1.0%",
-        "2035-39"
+        "114.5%",
+        "2040",
+        "110.0%"
       ],
-      "recheck": "Not booked yet: reread when the tier-3 booking of G23 B and G24 B lands",
       "sources": [
         {
           "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
           "anchor": "debt falling to 110% of GDP by FY2056,** about 1.0% of GDP of new deficit reduction phased in over FY2035-39"
         },
         {
-          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
-          "anchor": "B lowers debt by about a quarter point a year"
-        },
-        {
-          "path": "dossiers/foundations/fair-financing/8-health-trust-fund.md",
-          "anchor": "Espen has since decided G23 B (debt falling to 110% by FY2056)"
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "**Debt** is 114.5% of GDP in FY2040, 113.3% in FY2045, 111.4% in FY2050 and **110.0% in FY2056**, the decided goal"
         }
       ]
     },
@@ -2418,25 +2426,27 @@
     },
     "vat": {
       "basis": "decision",
-      "statement": "G24 B and G24.2 (DEC-2026-11-25-14, -16): a VAT of about 4.9% from FY2035 as first scored, enacted in the 2033-34 Congress. G24.1 (-15) limits the rebate to people below an income threshold not yet proposed, and the rate is re-scored then: pending",
+      "statement": "G24 B, G24.2 and G30 (DEC-2026-11-25-14, -16; DEC-2026-11-26-04): a broad VAT of 2.88% from FY2035, enacted in the 2033-34 Congress, with a rebate of $150 an adult a point phased out over $60-80K of AGI for a single filer and $120-160K for a couple; booked (DEC-2026-11-28-01)",
       "figures": [
-        "4.9%",
+        "2.88%",
         "2035",
-        "2033-34"
+        "2033-34",
+        "$150",
+        "$60-80K",
+        "$120-160K"
       ],
-      "recheck": "G24.1's threshold is still to be proposed; the rate is re-scored then. Reread when it is",
       "sources": [
         {
-          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
-          "anchor": "then a VAT of about 4.9% from FY2035 with a $150-a-point rebate for every adult"
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "| S15 | A broad VAT at 2.88% from FY2035 (two-year phase-in)"
+        },
+        {
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "| S16 | The VAT's rebate, $150 an adult a point, phased out over $60-80K / $120-160K of AGI"
         },
         {
           "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
           "anchor": "point 2: enact the VAT in the 2033-34 Congress"
-        },
-        {
-          "path": "dossiers/foundations/fair-financing/8-health-trust-fund.md",
-          "anchor": "G24 B (deduction limits, the surtax and a rebated VAT from FY2035, R held at 3.80%)"
         }
       ]
     },
@@ -2455,9 +2465,10 @@
     },
     "take-home": {
       "basis": "model",
-      "statement": "Take-home test, FY2040: 69.0% of workers ahead on the booked base; 50.7% with G24 B's mix 2 (about 53% without the test's bias), before G24.1 limits the rebate",
+      "statement": "Take-home test, FY2040, everything counted: 69.0% of workers ahead before G24 B; 54.6% with G24 B booked (the VAT at 2.88% with G30's rebate, the deduction limits, the surtax and the outside fix), 95.4% below 200% of poverty",
       "figures": [
-        "2040"
+        "2040",
+        "54.6%"
       ],
       "rounded": [
         {
@@ -2465,17 +2476,22 @@
           "value": "69.0",
           "scale": 1,
           "places": 0
+        },
+        {
+          "figure": "55%",
+          "value": "54.6",
+          "scale": 1,
+          "places": 0
         }
       ],
-      "recheck": "Re-scored once G24.1's threshold is set, and with #507's rate path",
       "sources": [
         {
           "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
           "anchor": "The booked base: Q4 +12,998 in FY2040; 69.0% of workers ahead, 99.5% below 200% of poverty."
         },
         {
-          "path": "dossiers/foundations/fair-financing/7-batch3-revision.md",
-          "anchor": "**50.7% (about 53% without the test's bias)**"
+          "path": "dossiers/foundations/fair-financing/2-settlement.md",
+          "anchor": "**54.6% of workers come out ahead**, 95.4% below 200% of poverty"
         }
       ]
     },

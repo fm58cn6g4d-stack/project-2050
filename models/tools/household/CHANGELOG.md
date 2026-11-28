@@ -2,6 +2,13 @@
 
 Role: the version history of `MOD-household`, newest first, one entry per version under the rule in `models/schema/README.md` ("Versions"). Each entry says how far the headline results moved. Status: current.
 
+## 0.4.0 (2026-11-28)
+
+Stage G step 12 books G24 B's decided sources (`DEC-2026-11-28-01`) in scenario Q-G. Inputs and one rule in the revenue-mix test change; no interface change.
+- **Inputs:** four new D3 rows in Q-G (`OUTg`, `DEDg`, `VATg`, `VATRg`, written by `models/bookings/settlement_booking.py --write`), each on its own FY2030-39 profile, and a new key `vat_rebate` (the measured adults key times the share of each fifth's adults who keep the rebate under G30; `keys.csv` takes it as a legacy key).
+- **Code:** `d3.py`'s revenue-mix test counts the VAT row at its general-fund yield, net of the 25% income and payroll offset (`NET_SHARE`), as the financing screens' `packages.revenue_mix` does; the row itself is gross, what households bear.
+- **Results:** Q-G's D3 (model keys, FY2030-39 average) moves from +$14,782 / +$12,855 / +$11,281 / +$5,525 / −$65,283 (Q1-Q5) to +$14,626 / +$12,501 / +$10,641 / +$4,435 / −$67,982; every quintile below the top stays ahead. Its revenue-mix test moves from 65% to 61% (the rule asks more than half). No other scenario, poverty, tax-rate or take-home figure moved.
+
 ## 0.3.0 (2026-11-25)
 
 The ledger snapshot (`snapshot/ledger.json`) updated for stage G step 11's rebooking of IMM-1 (I1 A, `DEC-2026-11-25-27`: the status line on CBO's on-budget figure for H.R. 6, the ledger midpoint from $0.169T to $0.179T). No code or interface change.

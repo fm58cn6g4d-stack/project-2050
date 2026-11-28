@@ -2,6 +2,14 @@
 
 Role: the version history of `MOD-budget` (`models/schema/README.md`, "Versions"), newest first. Status: current.
 
+## 0.8.0 (2026-11-28)
+
+Espen decided G29.1 (option 1, `DEC-2026-11-28-01`): every revenue source the plan has decided is booked wherever the models report it. New inputs and one engine hook; no change to the interface.
+- **G24 B and PH-3 booked** as settlement items S12-S17 (`settlement.json`, `settlement-paths.csv`): the SALT-workaround fix and the itemized-deduction limits from FY2037, the AGI surtax from FY2040, the VAT at 2.88% from FY2035 with its rebate under G30 (`DEC-2026-11-25-14`, `-15`, `-16`, `DEC-2026-11-26-04`), and G17 B's hold on the clean-energy credits in FY2038-39 (`DEC-2026-11-25-03`). Priced by `models/bookings/fiscal_revision.py` `booking()`: $499.3B in FY2040 (the three steps $313.0B, the VAT net of its rebate $186.3B); PH-3 $47.2B over FY2038-39.
+- **Engine:** `recovery-budget/model.py` gains `without_items()` and `revision_items()`, so a tool can build the booked case without the items it prices (fiscal_revision solves G24 B's VAT on the plan without G24 B; on itself it would solve to zero). Every case built otherwise carries them.
+- **Results:** debt is 114.5% of GDP in FY2040, 113.3% in FY2045, 111.4% in FY2050 and 110.0% in FY2056, the decided goal (G23 B), against 117.8%, 121.4%, 124.5% and 129.3%. The general fund's gap is −$20.1B in FY2035 (+$57.3B), +$200.4B, +$83.9B and +$41.6B in FY2036-38, −$32.3B in FY2039, −$413.1B in FY2040 (+$86.2B), −$619.2B in FY2045, −$849.2B in FY2050 and −$1,071.5B in FY2056, and +$78.5B over FY2030-39 (+$1,225.9B). The health fund, its rate path and Social Security don't move.
+- Current law and the CBO option change only in the hashes of the changed inputs.
+
 ## 0.7.0 (2026-11-27)
 
 Espen changed G29 from C to A (`DEC-2026-11-26-03`): no law in the plan diverts Social Security payroll tax from the trust funds. One input changes; no change to the code or the interface. 0.6.0 was never on main.

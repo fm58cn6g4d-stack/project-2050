@@ -24,7 +24,7 @@ Units and sources:
    - **defense held flat in real terms after FY2036 and restructured about 5%** (G10);
    - **crop insurance reformed** (G11.2), **like-kind exchanges ended** (G12.2), and **housing's stage 2 kept as a capped program, not a right** (G14);
    - **the health contribution's base rate at 3.80% from 2035** (G2 C's fold, plus the fallback). The memos had 3.85% with every recommendation. Your two "no" answers (G11.1, G12.1) forgo about $8.7B in FY2040, but the $100B line's removal ($14.0B) and the duty to house's ($1.3B), which the memos' rate didn't count, more than cover them.
-5. **Every year from FY2040 to FY2056 closes.** The tightest is FY2042, at −$0.4B: the margin is thin until the mid-2040s. From then the defense path builds a surplus, about $205B by FY2056. How the rate should move as it does is memo G8, still open.
+5. **Every year from FY2040 to FY2056 closes** (step 7; since part 9, with G24 B booked, the general fund closes in FY2035 and every year from FY2039, and debt reaches 110.0% of GDP in FY2056). The tightest is FY2042, at −$0.4B: the margin is thin until the mid-2040s. From then the defense path builds a surplus, about $205B by FY2056. How the rate should move as it does is memo G8, still open.
 6. **Debt** is 117.8% of GDP in FY2040, against the baseline's 132.7%, and 133.1% in FY2056, against 180.2%.
 7. **For households:**
    - **Health's take-home test reads the same both ways** (G2b): **69.0% of workers come out ahead**, against the 85-90% target set on health costs alone (`DEC-2026-11-15-02`). Below 200% of poverty, 99.5% do. The group just above the exemption (250-400% of poverty) is at 81.5%.
@@ -328,7 +328,7 @@ These add one published page per release and one table a year to reports that al
 | G29 C with R2, as first decided (0.6.0, never on main) | −104 | −28 | −15 | 278 | 194 | −14 | −68 | −19 | −133 | −189 | 719 |
 | **Booked now** (G29 A with R2) | **−104** | **−6** | **57** | **361** | **290** | **86** | **49** | **−19** | **−133** | **−189** | **1,226** |
 
-- **FY2040-44 no longer close.** The general fund is $86.2B short in FY2040, $70.2B in FY2041, $49.3B in FY2042, $21.9B in FY2043 and $1.8B in FY2044; it closes from FY2045 ($19.2B to spare). No booked rule fills those years: the health contribution can't (`-12`), and G24 B's VAT is set by the debt goal, which A doesn't move. Espen decided G29.1 (option 1, `DEC-2026-11-28-01`): G24 B's decided sources are counted, which closes FY2035 and every year from FY2039 and takes debt to the decided 110.0% of GDP in FY2056. Their booking is the next tier-3 PR; the figures here are the plan without them until it merges. Before the Social Security part, every year FY2040-56 closes, as under C.
+- **FY2040-44 no longer close.** The general fund is $86.2B short in FY2040, $70.2B in FY2041, $49.3B in FY2042, $21.9B in FY2043 and $1.8B in FY2044; it closes from FY2045 ($19.2B to spare). No booked rule fills those years: the health contribution can't (`-12`), and G24 B's VAT is set by the debt goal, which A doesn't move. Espen decided G29.1 (option 1, `DEC-2026-11-28-01`): G24 B's decided sources are counted, which closes FY2035 and every year from FY2039 and takes debt to the decided 110.0% of GDP in FY2056. They are booked in part 9 (stage G step 12); the figures in this part are the plan without them. Before the Social Security part, every year FY2040-56 closes, as under C.
 - **The decade is $767B worse on the general fund** than step 7. $250B of health's early surplus stays in the fund as its standing reserve, IMM-1 adds $10B, and the Social Security part takes $507B over FY2031-39. FY2035 is $57.3B short ($15.0B to spare under C, with the $62.7B draw lowering that year's transfer). FY2036-39 run about $290-361B short a year.
 - **The general fund gives up the Social Security part every year** ($72B in FY2035, $100B in FY2040, $144B in FY2045, $189B in FY2050, $248B in FY2056). **It is still ahead from the mid-2040s,** because the health law fixes its share of the fund's cost (G27 A point 3). The contribution's share holds as health outgrows its base, and the fund's rule steps the rate to keep it there.
 
@@ -345,11 +345,47 @@ These add one published page per release and one table a year to reports that al
 - **D3** (FY2030-39) and the revenue-mix test (65%) don't move.
 - **Social Security:** IMM-1-SS adds about $22B to the funds over FY2030-39, and HX-SS (G29 A) the tax on former premiums' OASDI part from FY2031. With the plan's package (D8), the funds last to 2072, not 2061, and the 75-year balance is −1.07% of taxable payroll, not −1.64% (the package closes 76% of the gap, not 63%; under C, 2069 and −1.17%). With SS-5 too: 2099 and −0.20%. These count the revenue only; the higher taxed pay also raises earned benefits, so the gain is somewhat smaller.
 
+## Part 9. G24 B and PH-3 booked (stage G step 12)
+
+Espen decided G29.1 (option 1, `DEC-2026-11-28-01`) and a principle with it: every revenue source the plan has decided is booked wherever the models report it, "so the ongoing accounting is accurate when we're talking about the next set of policy decisions". This part books G24 B's decided sources (`DEC-2026-11-25-14`, `-15`, `-16`; G30, `DEC-2026-11-26-04`) and G17 B's PH-3 hold (`DEC-2026-11-25-03`, a ceiling in law by G25.2, `-18`). No new tax and no rate change. Figures: [`notes/booking-results.md`](notes/booking-results.md) and [`notes/debt-gap-results.md`](notes/debt-gap-results.md); budget model 0.8.0.
+
+| Item | What | Decided by | FY2035 | FY2040 | FY2056 | FY2030-39 |
+| --- | --- | --- | --- | --- | --- | --- |
+| S12 | The SALT-workaround fix (the outside fix), from FY2037 | G19 B, G24 B | 0 | −28.0 | −49.5 | −78.0 |
+| S13 | Limits on itemized deductions beyond C39, from FY2037 | G19 B, G24 B | 0 | −95.0 | −167.8 | −264.8 |
+| S14 | An AGI surtax of 2 points above $100K/$200K, from FY2040 | G19 B, G24 B | 0 | −190.0 | −335.6 | 0 |
+| S15 | A broad VAT at 2.88% from FY2035 (two-year phase-in), net of the income and payroll offset | G24 B, G24.2, G30 | −108.1 | −260.1 | −459.4 | −1,057.2 |
+| S16 | The VAT's rebate, $150 an adult a point, phased out over $60-80K / $120-160K of AGI | G24.1, G30 | +30.6 | +73.7 | +130.3 | +299.7 |
+| S17 | PH-3: the clean-energy credits held at their FY2037 level in FY2038-39 | G17 B, G25.2 | 0 | 0 | 0 | −47.2 |
+
+$B; − lowers the gap. Together $499.3B in FY2040: the three steps $313.0B, the VAT net of its rebate $186.3B. PH-3 saves $23.0B in FY2038 and $24.2B in FY2039, measured on CLI-1's corrected tail (the same as `fiscal_revision.py` assumed).
+
+**How they are priced.** `models/bookings/fiscal_revision.py` `booking()`: the sources' paths as in memo G24's mix 2, and the VAT at the decided 2.88%, not re-solved each run. Its own solve, on the plan without these items (`model.without_items`), still gives 2.88% on goal B (`test_fiscal_revision.py`); without that step the rate would solve to zero against itself. `settlement_booking.py` writes them as settlement items S12-S17.
+
+### The general fund and debt, restated
+
+| $B | FY2030 | FY2033 | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | **FY2040** | FY2042 | FY2045 | FY2050 | FY2056 | FY2030-39 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Part 8 (G29 A with R2) | −104 | −6 | 57 | 361 | 361 | 352 | 290 | **86** | 49 | −19 | −133 | −189 | 1,226 |
+| **Booked now** (G24 B and PH-3) | **−104** | **−6** | **−20** | **200** | **84** | **42** | **−32** | **−413** | **−488** | **−619** | **−849** | **−1,072** | **79** |
+
+- **The general fund closes in FY2035 and every year from FY2039.** FY2036-38 stay short ($200.4B, $83.9B, $41.6B): the VAT is still phasing in and the deduction limits and the outside fix start in FY2037, the surtax in FY2040. The decade (FY2030-39) is $78.5B short, against $1,225.9B. From FY2040 the general fund runs a surplus ($413.1B in FY2040, $1,071.5B in FY2056): G24 B was sized for the debt goal, not for the general fund's yearly test.
+- **Debt** is 114.5% of GDP in FY2040, 113.3% in FY2045, 111.4% in FY2050 and **110.0% in FY2056**, the decided goal (G23 B, `DEC-2026-11-25-13`), against 117.8%, 121.4%, 124.5% and 129.3% in part 8.
+- **The health fund, its rate path and Social Security don't move.** The health contribution isn't used to fill the general fund (`DEC-2026-11-25-12`), and no Social Security payroll tax leaves the trust funds (G29 A).
+
+### Households
+
+- **D3** (scenario Q-G, FY2030-39 average, $ a household a year; the VAT reaches FY2035-39, the deduction limits and the outside fix FY2037-39): Q1 +14,626, Q2 +12,501, Q3 +10,641, **Q4 +4,435**, Q5 −67,982 (part 8: +14,782, +12,855, +11,281, +5,525, −65,283). Every fifth below the top stays ahead. The new rows: the VAT gross on consumption (`VATg`), its rebate on adults phased out by G30 (`VATRg`, the new `vat_rebate` key), the deduction limits and the outside fix on the surtax key (`DEDg`, `OUTg`).
+- **The revenue-mix test passes at 61%** over FY2030-39 (65% in part 8; the rule asks more than half). The VAT counts at its general-fund yield, net of the 25% income and payroll offset, as the screens counted it.
+- **Take-home** (FY2040, everything counted, `fiscal_revision.TakeHome`): **54.6% of workers come out ahead**, 95.4% below 200% of poverty (69.0% and 99.5% without G24 B). Memo G24 gave about 50.7% for B at 4.9% before G30; G30's rate puts it here. Both stay well under the 85-90% target, as Espen chose with G24 B; the method reads a VAT about 2 points low.
+
+**The guard.** `models/data/inputs/decided-revenue.csv` names, for each stage G decision on revenue, where it is booked or why it books nothing; `models/bookings/test_decided_revenue.py` (in `run-all.sh`) fails if a revenue decision is missing from it, or a booked one has no settlement line.
+
 ## Method and sources
 
 - **Gap and debt:** `models/tools/recovery-budget/model.py` `build_case`, case `mixed`, with the settlement booked from `models/data/inputs/settlement.json` and `settlement-paths.csv` ("Settlement Snn: ..." audit lines; revenue items as revenue, the rest as outlays). `settlement=False` and the case `mixed_before_settlement` give the plan before it.
 - **The items' paths:** `models/tools/settlement_booking.py`, with the option functions of `financing-protection/packages.py` and `budget_scan.py` on the plan before the settlement; `--solve` finds the base rate; `--report` writes [`notes/booking-results.md`](notes/booking-results.md). `test_settlement_booking.py` checks the committed paths and D3 rows against the derivation, the booked case against the screens' pricing of the same package, and the rate.
-- **D3:** `models/tools/household/d3.py` on the measured keys, scenario Q-G (`scenarios.json`; rows `HCUg`, `HCUwg`, `HCAg`, `HS2g`, `EDUPg`, `GXg` in `incidence-rows.csv`). The revenue-mix test is `gf_test`; its single-year readings are `packages.single_year_levels`.
+- **D3:** `models/tools/household/d3.py` on the measured keys, scenario Q-G (`scenarios.json`; rows `HCUg`, `HCUwg`, `HCAg`, `HS2g`, `EDUPg`, `GXg`, and from part 9 `OUTg`, `DEDg`, `VATg`, `VATRg` in `incidence-rows.csv`). The revenue-mix test is `gf_test`; its single-year readings are `packages.single_year_levels`.
 - **The take-home test:** `models/tools/health_cost_review.py` through `take_home_vat.py` at each base rate with no VAT (`budget_scan.take_home`).
 - **Sources for the options:** memos G1-G14; the stack note's cap menu (`../notes/stack-2026-11-16.md` part 4); `health-household-contribution.md` sections 2 and 8; `3-budget-scan.md` and its evidence (EV-FIN-001 on); care memo 17 (option 7); the housing dossier's section 6.
 - **Health's first call:** `models/tools/health_booking.py` `first_call()`.

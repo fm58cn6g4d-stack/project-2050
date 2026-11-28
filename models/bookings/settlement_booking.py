@@ -8,6 +8,10 @@ each item with the same option functions the settlement's screens used (`financi
     which `models/tools/recovery-budget/model.py` books as "Settlement Snn: ..." lines in every case;
   * the settlement's D3 rows in `models/data/inputs/incidence-rows.csv` (the `HCUg`, `HCUwg`, `HCAg`, `HS2g`, `EDUPg`
     and `GXg` rows) and scenario Q-G in `scenarios.json`, which is Q-H7 with them.
+Step 12 (`DEC-2026-11-28-01`) adds G24 B's decided sources and G17 B's PH-3 as items S12-S17, priced by
+`fiscal_revision.booking()` on the plan without them (`model.without_items`), with their D3 rows (`OUTg`, `DEDg`, `VATg`,
+`VATRg`, the rebate on G30's `vat_rebate` key), each row's year profile and the key, written by `--write`
+(`write_d3`); `test_decided_revenue.py` checks every decided revenue source is booked.
 Status: booked inputs; `test_settlement_booking.py` checks that the committed tables equal this derivation and that the
 booked package closes FY2040-56. The same pattern as `health_booking.py` and `care_booking.py`.
 
@@ -25,6 +29,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'models/tools/financing-protection'))
+sys.path.insert(0, str(ROOT / 'models/bookings'))
 import packages as K      # noqa: E402
 import budget_scan as S   # noqa: E402
 
@@ -43,8 +48,40 @@ def option(ctx, item, rate, rate_path=None):
         params['rate'] = rate
     if params.get('rate_path') == 'health_contribution_rate_path':
         params['rate_path'] = doc()['health_contribution_base_rate'].get('path', {}) if rate_path is None else rate_path
-    fn = S.OPTIONS.get(item['option']) or K.OPTIONS[item['option']]
+    fn = S.OPTIONS.get(item['option']) or REVISION_OPTIONS.get(item['option']) or K.OPTIONS[item['option']]
     return fn(ctx, **params)
+
+
+# ---------------------------------------------------------------- G24 B and PH-3 (DEC-2026-11-28-01)
+# The decided revenue sources of memo G24 B (the deduction limits, the AGI surtax, the outside fix, and the 2.88% VAT
+# from FY2035 with G30's rebate) and G17 B's PH-3, priced by fiscal_revision.booking() on the plan without them.
+# + raises the gap. D3: each source's FY2030-39 amount on the household model's keys, as fiscal_revision's mature
+# years read them (the VAT gross on consumption, the rebate on G30's phased-out adults key, DED and OUT on surtax).
+REVISION_D3 = {   # source: (D3 row, side, key, label)
+    'OUT': ('OUTg', 'cost', 'surtax', "The SALT-workaround fix (G24 B's outside fix), from FY2037"),
+    'DED': ('DEDg', 'cost', 'surtax', 'Limits on itemized deductions beyond C39 (G24 B), from FY2037; the surtax key, a proxy'),
+    'VAT': ('VATg', 'cost', 'consumption', 'A broad VAT at 2.88% from FY2035 (G24 B), gross: what households bear'),
+    'VATR': ('VATRg', 'benefit', 'vat_rebate', "The VAT's rebate, $150 an adult a point, phased out over $60-80K / $120-160K of AGI (G30)"),
+}
+
+
+assert tuple(v[0] for v in REVISION_D3.values()) == ('OUTg', 'DEDg', 'VATg', 'VATRg')   # fiscal_revision.REVISION_D3_ROWS
+
+
+def revision_source(ctx, key):
+    import fiscal_revision as FR
+    p = FR.booking()[key]
+    sign = 1 if key in ('VATR',) else -1   # the rebate is an outlay; the others raise revenue or cut outlays
+    path = {y: sign * p.get(y, 0.0) for y in YEARS}
+    d3 = []
+    if key in REVISION_D3:
+        rid, side, k, label = REVISION_D3[key]
+        amt = sum(p.get(y, 0.0) for y in K.m.W) / 1000 * (FR.VAT_GROSS if key == 'VAT' else 1.0)
+        d3.append(('add', rid, side, amt, k, label))
+    return dict(label=key, adjust={key: path}, d3=d3)
+
+
+REVISION_OPTIONS = {'revision_source': revision_source}
 
 
 def derive(ctx, d=None, rate=None, rate_path=None):
@@ -190,8 +227,32 @@ def write_rule(rule):
 
 
 # ---------------------------------------------------------------- D3
-D3_ROWS = {   # new row id: (Q-H7 row it replaces, or None for a delta row added beside a package row)
-    'HCUg': 'HCU', 'HCUwg': 'HCUw', 'HCAg': 'HCA', 'HS2g': 'HS2', 'EDUPg': 'EDUP', 'GXg': None}
+D3_ROWS = {   # new row id: (Q-H7 row it replaces, or None for a row added beside the package's rows)
+    'HCUg': 'HCU', 'HCUwg': 'HCUw', 'HCAg': 'HCA', 'HS2g': 'HS2', 'EDUPg': 'EDUP', 'GXg': None,
+    'OUTg': None, 'DEDg': None, 'VATg': None, 'VATRg': None}   # G24 B's sources in FY2030-39 (DEC-2026-11-28-01)
+
+
+def revision_d3(derived):
+    """G24 B's D3 rows: {row id: (side, $T over FY2030-39, key, label, {year: $B}, the source's id)}."""
+    out = {}
+    for it, o, p in derived:
+        for e in o.get('d3', []):
+            if e[0] == 'add':
+                _, rid, side, amt, key, label = e
+                out[rid] = (side, round(amt, 4), key, label, {y: abs(p[y]) for y in K.m.W}, o['label'])
+    return out
+
+
+def rebate_key(hh=None):
+    """The VAT rebate's D3 key under G30: the measured adults key times the share of each fifth's adults who keep the
+    rebate (fiscal_revision.rebate_kept), renormalized; the top 1% are above every limit. (q1..q5, top1), %."""
+    import fiscal_revision as FR
+    hh = hh or K.Household()
+    sh, _ = hh.D.K['adults']
+    k = FR.rebate_kept()
+    w = [s * k['Q%d' % (i + 1)] for i, s in enumerate(sh)]
+    out = [round(100 * v / sum(w), 4) for v in w[:4]]
+    return out + [round(100 - sum(out), 4)], 0.0   # sums to 100 exactly (provisions.dist checks it)
 
 
 def d3_amounts(derived, hh=None):
@@ -215,7 +276,52 @@ def d3_amounts(derived, hh=None):
            # the convention of every other payroll row; the reviewer's note on #467) at the booked rate
            'EDUPg': base['EDUP'] * rate / 1.4 / (1 - 0.125),
            'GXg': gx * (k['GX'] - 1)}
-    return {r: round(v, 4) for r, v in out.items()}
+    out = {r: round(v, 4) for r, v in out.items()}
+    out.update({rid: v[1] for rid, v in revision_d3(derived).items()})
+    return out
+
+
+def _csv_line(vals):
+    import io
+    s = io.StringIO()
+    csv.writer(s, lineterminator='\n').writerow(vals)
+    return s.getvalue()
+
+
+def _put_line(fn, rid, line, col=0):
+    """Replace the line whose field `col` is rid, or append it; the file's other lines unchanged."""
+    lines = fn.read_text().splitlines(keepends=True)
+    for i, l in enumerate(lines):
+        if next(csv.reader([l]))[col:col + 1] == [rid]:
+            lines[i] = line
+            break
+    else:
+        lines.append(line)
+    fn.write_text(''.join(lines))
+
+
+def write_d3(derived):
+    """G24 B's D3 inputs: its rows in incidence-rows.csv, their year profiles in incidence-phase-in.csv (each row's own
+    FY2030-39 path), the rebate's key in incidence-keys.csv, and the rows in scenario Q-G."""
+    rev = revision_d3(derived)
+    for rid, (side, amt, key, label, path, src) in rev.items():
+        basis = ('stage G step 12, DEC-2026-11-28-01: settlement_booking.py revision_d3(), fiscal_revision.booking()\'s %s '
+                 'over FY2030-39%s; scenario Q-G' % (src, ', gross of the income and payroll offset (what households bear)' if rid == 'VATg' else ''))
+        _put_line(INPUTS / 'incidence-rows.csv', rid, _csv_line(['option', rid, label, side, '%.4f' % amt, key, '', basis]), col=1)
+        lv = [path[y] for y in K.m.W]
+        top = max(lv) or 1.0
+        _put_line(INPUTS / 'incidence-phase-in.csv', rid, _csv_line(
+            [rid, 'norm', ''] + ['%.4g' % (v / top) for v in lv] + ['stage G step 12: the source\'s booked FY2030-39 path (settlement_booking.py write_d3)']))
+    sh, t1 = rebate_key()
+    _put_line(INPUTS / 'incidence-keys.csv', 'vat_rebate', _csv_line(
+        ['vat_rebate'] + ['%.4f' % s for s in sh] + ['%g' % t1, "G24 B's VAT rebate under G30's phase-out (DEC-2026-11-26-04): the measured adults key times the share of each fifth's adults who keep the rebate (fiscal_revision.rebate_kept()), renormalized; none in the top 1% (settlement_booking.py rebate_key())"]))
+    fn = INPUTS / 'scenarios.json'
+    s = json.loads(fn.read_text())
+    q = next(x for x in s['incidence'] if x['id'] == 'Q-G')
+    for rid in rev:
+        if rid not in q['options']:
+            q['options'].append(rid)
+    fn.write_text(json.dumps(s, indent=1, ensure_ascii=False) + '\n')
 
 
 # ---------------------------------------------------------------- the restated figures (--report)
@@ -321,13 +427,20 @@ def report(ctx, d):
     out['d3_q_h7'] = {g_: round(hh.D.run(o7, d7)[0][g_]['net']) for g_ in ('Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'T1')}
     out['d3_by_year'] = {y: v for y, v in hh.D.series(o).items() if y in (2033, 2035, 2037, 2039)} if hasattr(hh.D, 'series') else None
     out['take_home'] = S.take_home(sorted({3.25, out['rate'], 4.45} | set(out['path'].values())))
+    # with G24 B's booked sources counted (DEC-2026-11-28-01): fiscal_revision's test, FY2040, at the booked base rate
+    import fiscal_revision as FR
+    bkp = FR.booking()
+    top = sum(bkp[k][2040] for k in FR.BOOKED_MIX)
+    th = FR.TakeHome(FR.Mature())
+    out['take_home_g24b'] = dict(R=out['rate'], vat=FR.VAT_RATE, top=round(top, 1), **th.run(out['rate'], FR.VAT_RATE, top),
+                                 before=th.run(out['rate']))
     return out
 
 
 def markdown(r):
     yrs = (2030, 2033, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2045, 2050, 2056)
     L = ['# The financing settlement as booked: results', '',
-         'Generated by `models/bookings/settlement_booking.py --report` after the common rebuild (stage G step 7; regenerated in step 11). The budget '
+         'Generated by `models/bookings/settlement_booking.py --report` after the common rebuild (stage G step 7; regenerated in steps 11 and 12, the last with G24 B and PH-3 booked, `DEC-2026-11-28-01`). The budget '
          'model\'s case `mixed` with the settlement booked (`models/data/inputs/settlement.json`), against the plan before '
          'it. Nominal $B; a positive gap is a shortfall. Project arithmetic on exploratory models, not official scores. '
          'Read with [`../2-settlement.md`](../2-settlement.md).', '',
@@ -374,7 +487,16 @@ def markdown(r):
           '- Revenue-mix test (top 1%% and corporations; health\'s contributions out), FY2030-39: %d%%.' % r['revenue_mix']]
     if r.get('d3_by_year'):
         L.append('- By year (Q1 / Q2 / Q3 / Q4 / Q5): ' + '; '.join('FY%d %s' % (y, ' / '.join('%+d' % v[g] for g in ('Q1', 'Q2', 'Q3', 'Q4', 'Q5'))) for y, v in r['d3_by_year'].items()) + '.')
-    L += ['', '## The take-home test, both ways (FY2040; no VAT)', '',
+    g = r['take_home_g24b']
+    L += ['', '## The take-home test with G24 B counted (FY2040)', '',
+          'Workers whose visible health costs plus the new sources they pay fall under the plan (`fiscal_revision.TakeHome`, '
+          'health\'s test with everything counted): the base rate at %.2f%%, the VAT at %.2f%% less its rebate under G30, and the '
+          'deduction limits, AGI surtax and outside fix ($%.1fB in FY2040) on AGI above $100K/$200K. The method reads a VAT about '
+          '2 points low (revision-results.md part 5).' % (g['R'], g['vat'], g['top']), '',
+          '| | Workers ahead | Below 200% of poverty |', '| --- | --- | --- |',
+          '| Before G24 B (R %.2f%%, nothing new) | %.1f%% | %.1f%% |' % (g['R'], g['before']['workers'], g['before']['below_200fpl']),
+          '| **G24 B booked** | **%.1f%%** | **%.1f%%** |' % (g['workers'], g['below_200fpl'])]
+    L += ['', '## The take-home test, both ways, before G24 B (FY2040; no VAT; budget_scan.take_home)', '',
           '| Base rate R | Workers ahead, health costs only | Workers ahead, everything counted | Below 200% of poverty | 250-400% of poverty | Retirees and others |',
           '| --- | --- | --- | --- | --- | --- |']
     for k, v in r['take_home'].items():
@@ -411,6 +533,7 @@ def main():
         d = doc()
         der = derive(ctx, d)
         write_paths(der)
+        write_d3(der)
         print('wrote settlement.json (the health fund\'s share and rate path), funds-ss-hx.csv and settlement-paths.csv; '
               'rerun after the next rebuild: the rule reads the booked case')
 

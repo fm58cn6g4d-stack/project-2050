@@ -56,6 +56,26 @@ class Revision(unittest.TestCase):
         self.assertEqual(R.rebate_factor(70_000, 'single'), 0.5)
         self.assertEqual(R.rebate_factor(160_000, 'joint'), 0.0)
 
+    def test_booking(self):
+        # DEC-2026-11-28-01: G24 B booked at the decided 2.88% (G30, DEC-2026-11-26-04), which goal B's solve on the plan
+        # without G24 B's own items (base()) still gives; the booked paths are the mix's, and PH-3 the base's hold
+        bk, pp = D['bk'], D['pp']
+        self.assertEqual(R.plug_rate(bk, D['B']['ph3'], D['G']['B']['goal'], R.BOOKED_MIX, 'VAT', R.VAT_START, pp), R.VAT_RATE)
+        self.assertEqual(R.VAT_RATE, 2.88)
+        b = R.booking()
+        mix = D['M'][('B', '2')]
+        self.assertEqual(mix['rate'], R.VAT_RATE)
+        for y in R.YEARS:
+            self.assertAlmostEqual(b['VAT'][y] - b['VATR'][y], mix['plug'][y], places=6)
+            for k in R.BOOKED_MIX:
+                self.assertAlmostEqual(b[k][y], mix['fixed'][k][y], places=6)
+            self.assertAlmostEqual(b['PH-3'][y], D['B']['ph3'].get(y, 0.0), places=6)
+        self.assertAlmostEqual(sum(b[k][2040] for k in R.BOOKED_MIX) + b['VAT'][2040] - b['VATR'][2040], 499.3, delta=0.1)
+        # the plan as booked carries them: on it, goal B needs nothing more
+        booked = FP.Booked()
+        self.assertLessEqual(round(booked.rows[2056]['debt_gdp'], 1), 110.0)
+        self.assertTrue(R.met(D['G']['B']['goal'], FP.simulate(booked, {})))
+
     def test_take_home_base(self):
         self.assertAlmostEqual(D['th']['base']['workers'], 69.0, delta=0.05)
 

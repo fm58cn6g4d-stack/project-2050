@@ -111,7 +111,7 @@ None of A, B or C moves the reserve: each keeps the Social Security part out of 
 
 - **Every year the test reads closes** (FY2040 on), and FY2035 and FY2039 too. FY2036-38 stay short, as they were before G29; the test doesn't read them.
 - **The debt path moves, as G24 B was decided to make it move.** Booked, G24 B takes debt to 114.5% of GDP in FY2040, 113.3% in FY2045, 111.4% in FY2050 and **110.0% in FY2056** (G23 B), against 117.8%, 121.4%, 124.5% and 129.3% for the plan without it. The VAT's rate is still 2.88%.
-- **Not yet booked.** G24 B, G30 and PH-3 are priced in `fiscal_revision.py` but are not yet in the budget model, the ledger, D3 or the take-home test. Their booking is the next tier-3 PR. Until it merges, the booked figures above are the plan without G24 B.
+- **Booked in stage G step 12** (`../2-settlement.md` part 9; budget model 0.8.0): G24 B, G30 and PH-3 are in the budget model, the ledger's recovery budget, D3 (scenario Q-G; every fifth below the top ahead, the revenue-mix test 61%) and the take-home test (54.6% of workers ahead, 95.4% below 200% of poverty). The booked figures above, before that step, are the plan without G24 B.
 
 The options as they were put to you:
 

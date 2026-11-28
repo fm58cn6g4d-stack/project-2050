@@ -50,3 +50,7 @@ HCAg,norm,HCA,,,,,,,,,,,stage G step 7: the settlement row takes HCA's profile
 HS2g,norm,HS2,,,,,,,,,,,stage G step 7: the settlement row takes HS2's profile
 EDUPg,norm,EDUP,,,,,,,,,,,stage G step 7: the settlement row takes EDUP's profile
 GXg,norm,HCU,,,,,,,,,,,stage G step 7: the settlement row takes HCU's profile
+OUTg,norm,,0,0,0,0,0,0,0,0.9287,0.9637,1,stage G step 12: the source's booked FY2030-39 path (settlement_booking.py write_d3)
+DEDg,norm,,0,0,0,0,0,0,0,0.9287,0.9637,1,stage G step 12: the source's booked FY2030-39 path (settlement_booking.py write_d3)
+VATg,norm,,0,0,0,0,0,0.4312,0.8949,0.9287,0.9637,1,stage G step 12: the source's booked FY2030-39 path (settlement_booking.py write_d3)
+VATRg,norm,,0,0,0,0,0,0.4312,0.8949,0.9287,0.9637,1,stage G step 12: the source's booked FY2030-39 path (settlement_booking.py write_d3)
