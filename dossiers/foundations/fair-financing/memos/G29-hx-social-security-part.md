@@ -1,6 +1,6 @@
 # Memo G29: The Social Security part of the tax on former premiums
 
-Role: decision memo for Espen. It is question I2 from stage G step 11 (#507). You chose C on I2 (`DEC-2026-11-26-02`): source the share first, then set out the options. This memo does both. Status: **decided: A with R2** (`DEC-2026-11-26-03`) **and booked in #515**, with the HEX fix (finding 3). On November 26 you first chose C, the recommendation; on November 27 you changed it to A: "No law passed in this plan should be essentially diverting money from freaking social security." The options and the recommendation below are kept as drafted, as the record of the choice. Booked, OASDI's part is the sourced 0.28 rather than the working 0.297. The fund builds $312.7B over FY2030-34, keeps $250B and draws $62.7B, and the FY2035 transfer is $304.6B (drafted: $307.9B, $57.9B and $313.8B). Social Security gets the part from FY2031, HX's first year: $100B in FY2040 and $248B in FY2056. With the plan's package its funds last to 2072, at −1.07% of taxable payroll. The plan's debt doesn't move: 129.3% of GDP in FY2056. **The general fund is short in FY2040-44** ($86B in FY2040, falling to $2B in FY2044) and closes from FY2045. How to close those years is a new question for you, **G29.1** (below). (`../2-settlement.md` part 8.)
+Role: decision memo for Espen. It is question I2 from stage G step 11 (#507). You chose C on I2 (`DEC-2026-11-26-02`): source the share first, then set out the options. This memo does both. Status: **decided: A with R2** (`DEC-2026-11-26-03`) **and booked in #515**, with the HEX fix (finding 3). On November 26 you first chose C, the recommendation; on November 27 you changed it to A: "No law passed in this plan should be essentially diverting money from freaking social security." The options and the recommendation below are kept as drafted, as the record of the choice. Booked, OASDI's part is the sourced 0.28 rather than the working 0.297. The fund builds $312.7B over FY2030-34, keeps $250B and draws $62.7B, and the FY2035 transfer is $304.6B (drafted: $307.9B, $57.9B and $313.8B). Social Security gets the part from FY2031, HX's first year: $100B in FY2040 and $248B in FY2056. With the plan's package its funds last to 2072, at −1.07% of taxable payroll. The plan's debt doesn't move: 129.3% of GDP in FY2056. **The general fund is short in FY2040-44** ($86B in FY2040, falling to $2B in FY2044) and closes from FY2045. **G29.1, decided November 28: option 1** (`DEC-2026-11-28-01`). G24 B's decided sources are counted in the general-fund figures, which closes those years. Its booking is the next tier-3 PR (below). (`../2-settlement.md` part 8.)
 
 Nominal $B, mixed case. These are project figures on exploratory models, not official scores. The Social Security results come from the dedicated-fund engine (`models/tools/budget/engine/funds-model.py`), run on the 2026 Trustees' rates. The general-fund and reserve results come from the recovery budget (`models/tools/recovery-budget/model.py`), run in a scratch copy.
 
@@ -87,7 +87,7 @@ None of A, B or C moves the reserve: each keeps the Social Security part out of 
 
 **The HEX fix is booked already (#515).** It was the larger error, and the reserve figures above depend on it.
 
-## G29.1 (new question): closing the general fund in FY2040-44 under A
+## G29.1 (decided: option 1): closing the general fund in FY2040-44 under A
 
 **Why it comes up.** Under A the general fund gives up the Social Security part from FY2031. The plan's debt doesn't change: the same money is collected, and it stays in Social Security's trust funds. But the settlement's test, the general fund closing in FY2040 and every later year (D4), now fails for five years.
 
@@ -99,6 +99,21 @@ None of A, B or C moves the reserve: each keeps the Social Security part out of 
 - The health contribution can't fill it (`DEC-2026-11-25-12`), and Social Security's money is off the table (your principle with A).
 - G24 B's VAT (2.88% from FY2035, with G30's phase-out) is set to meet the debt goal (G23 B, 110% of GDP by FY2056). That goal reads the whole budget, which A doesn't change, so the rate stays 2.88%.
 - G24 B is decided but not yet in the budget model's general-fund figures above.
+
+**Decided November 28, 2026: option 1** (`DEC-2026-11-28-01`). You also set a principle: every revenue source the plan has decided is booked wherever the models report it. Your words: "Yes I want to make sure that all revenues being raised under the plan's decisions, at any given time, are being booked correctly so the ongoing accounting is accurate when we're talking about the next set of policy decisions that conversation is based on truthful and current financial modeling".
+
+**With G24 B counted** (on the booked case; G24 B's sources and the 2.88% VAT from FY2035 with G30's phase-out, plus G17 B's PH-3 hold; `fiscal_revision.py`'s paths; before the interest the lower debt saves, which helps further):
+
+| General-fund gap, $B (+ short) | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | FY2040 | FY2042 | FY2044 | FY2045 | FY2050 | FY2056 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Booked now, without G24 B | 57.3 | 361.1 | 360.7 | 351.8 | 290.0 | 86.2 | 49.3 | 1.8 | −19.2 | −132.9 | −189.4 |
+| With G24 B counted | −20.1 | 200.4 | 83.9 | 41.6 | −32.3 | −413.1 | −488.3 | −576.8 | −619.2 | −849.2 | −1,071.5 |
+
+- **Every year the test reads closes** (FY2040 on), and FY2035 and FY2039 too. FY2036-38 stay short, as they were before G29; the test doesn't read them.
+- **The debt path moves, as G24 B was decided to make it move.** Booked, G24 B takes debt to 114.5% of GDP in FY2040, 113.3% in FY2045, 111.4% in FY2050 and **110.0% in FY2056** (G23 B), against 117.8%, 121.4%, 124.5% and 129.3% for the plan without it. The VAT's rate is still 2.88%.
+- **Not yet booked.** G24 B, G30 and PH-3 are priced in `fiscal_revision.py` but are not yet in the budget model, the ledger, D3 or the take-home test. Their booking is the next tier-3 PR. Until it merges, the booked figures above are the plan without G24 B.
+
+The options as they were put to you:
 
 **Options** (project figures, the same tools as G24 and G30; `models/bookings/fiscal_revision.py`):
 - **1. Count G24 B's decided sources on the general fund (recommended).** No new tax and no rate change.
