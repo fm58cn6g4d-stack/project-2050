@@ -39,7 +39,21 @@ class SettlementBooking(unittest.TestCase):
             self.assertAlmostEqual(float(rows[rid]['amount']), amt, delta=0.0006, msg=rid)
         q = next(s for s in json.loads((INPUTS / 'scenarios.json').read_text())['incidence'] if s['id'] == 'Q-G')
         self.assertNotIn('ICB', q['options'])
-        self.assertEqual(set(q['replace'].values()) | {'GXg'}, set(SB.D3_ROWS))
+        self.assertEqual(set(q['replace'].values()) | {'GXg', 'OUTg', 'DEDg', 'VATg', 'VATRg'}, set(SB.D3_ROWS))
+        # G24 B's rows (DEC-2026-11-28-01): in Q-G, each on its own booked FY2030-39 profile, the rebate on G30's key
+        rev = SB.revision_d3(self.der)
+        self.assertEqual(set(rev), {'OUTg', 'DEDg', 'VATg', 'VATRg'})
+        self.assertTrue(set(rev) <= set(q['options']))
+        prof = {r['id']: r for r in csv.DictReader((INPUTS / 'incidence-phase-in.csv').open(newline=''))}
+        for rid, (side, amt, key, label, path, src) in rev.items():
+            self.assertEqual((rows[rid]['side'], rows[rid]['parts']), (side, key), rid)
+            top = max(path.values())
+            for y in range(2030, 2040):
+                self.assertAlmostEqual(float(prof[rid]['y%d' % y]), path[y] / top, delta=0.0006, msg=(rid, y))
+        self.assertEqual([prof['VATg']['y%d' % y] for y in range(2030, 2035)], ['0'] * 5)   # the VAT from FY2035 (G24.2)
+        key = next(r for r in csv.DictReader((INPUTS / 'incidence-keys.csv').open(newline='')) if r['key'] == 'vat_rebate')
+        sh, t1 = SB.rebate_key()
+        self.assertEqual([float(key[q_]) for q_ in ('q1', 'q2', 'q3', 'q4', 'q5')] + [float(key['top1'])], sh + [t1])
 
     def test_booked_equals_screened(self):
         hr = self.doc['health_contribution_base_rate']
@@ -81,18 +95,29 @@ class SettlementBooking(unittest.TestCase):
 
     def test_closes_2040_on_at_g16b_rate(self):
         rate = self.doc['health_contribution_base_rate']['rate']
-        # G29 A (DEC-2026-11-26-03): HX's OASDI part goes to Social Security from FY2031, as current law does, so the
-        # general fund is short in FY2040-44 (memo G29's question G29.1) and closes from FY2045. Before that part it
-        # closes every year from FY2040, as under C; the health contribution can't fill the gap (DEC-2026-11-25-12).
+        # G29.1 option 1 (DEC-2026-11-28-01): with G24 B's sources and PH-3 booked (S12-S17), the general fund closes in
+        # FY2035 and every year from FY2039; FY2036-38 stay short (the VAT's first years, before the deduction limits and
+        # the surtax are whole). Without them (G29 A alone, DEC-2026-11-26-03) it was short in FY2040-44, closing from
+        # FY2045; before HX's OASDI part it closed every year from FY2040. The health contribution can't fill the gap
+        # (DEC-2026-11-25-12).
         ssp = SB.K.m.social_security_part(SB.booked_case(self.ctx)['audit'], self.doc['health_fund'])
-        self.assertTrue(all(self.booked[y] <= 0.05 for y in range(2045, 2057)))
-        self.assertTrue(all(self.booked[y] > 0 for y in range(2040, 2045)))
-        self.assertTrue(all(self.booked[y] - ssp[y] <= 0.05 for y in range(2040, 2057)))
-        lower = SB.gap(SB.screened_case(self.ctx, self.doc, round(rate - 0.05, 2)))
+        self.assertLessEqual(self.booked[2035], 0.05)
+        self.assertTrue(all(self.booked[y] > 0.05 for y in range(2036, 2039)))
+        self.assertTrue(all(self.booked[y] <= 0.05 for y in range(2039, 2057)))
+        with SB.K.m.without_items(SB.K.m.revision_items()):
+            alone = SB.gap(SB.booked_case(self.ctx))
+        self.assertEqual(sorted(SB.K.m.revision_items()), ['S12', 'S13', 'S14', 'S15', 'S16', 'S17'])
+        self.assertTrue(all(alone[y] <= 0.05 for y in range(2045, 2057)))
+        self.assertTrue(all(alone[y] > 0 for y in range(2040, 2045)))
+        self.assertTrue(all(alone[y] - ssp[y] <= 0.05 for y in range(2040, 2057)))
+        # The rate's own check, on the settlement before G24 B and PH-3 (step 7's package): with them the general fund has
+        # room to spare, which goes to the debt path (G23 B), not to a lower rate (DEC-2026-11-25-12)
+        d = dict(self.doc, items=[it for it in self.doc['items'] if it.get('from') != 'fiscal_revision'])
+        lower = SB.gap(SB.screened_case(self.ctx, d, round(rate - 0.05, 2)))
         # Booked as the lowest closing rate in step 7; G16 B (DEC-2026-11-25-02) then held it at 3.80% to FY2040. Since
         # CLI-1's step-down was booked (memo G25), 3.75% also closes; the room goes to the debt path, not a lower rate.
         self.assertEqual(rate, 3.80)
-        lower2 = SB.gap(SB.screened_case(self.ctx, self.doc, round(rate - 0.10, 2)))
+        lower2 = SB.gap(SB.screened_case(self.ctx, d, round(rate - 0.10, 2)))
         self.assertTrue(all(lower[y] <= 0.05 for y in range(2040, 2057)))
         self.assertFalse(all(lower2[y] <= 0.05 for y in range(2040, 2057)))
 

@@ -31,8 +31,8 @@ class FiscalPath(unittest.TestCase):
         sim = FP.simulate(BK)
         self.assertAlmostEqual(sim[2040]['debt_gdp'], BK.rows[2040]['debt_gdp'], places=9)
         self.assertAlmostEqual(sim[2056]['debt_gdp'], BK.rows[2056]['debt_gdp'], places=9)
-        self.assertEqual(round(sim[2040]['debt_gdp'], 1), 117.8)
-        self.assertEqual(round(sim[2056]["debt_gdp"], 1), 129.3)   # G27 A's rate rule, G29 A with R2 (DEC-2026-11-26-03: the $250B standing reserve, OASDI's 0.28 out of the fund and to Social Security from FY2031, unified figures unmoved, as under C; 129.4 with the reserve as built after the HEX fix, #515; 129.1 with HEX in full, #507; 129.3 before the HX fix); 131.6 with R held at 3.80% after I1 A, 131.5 before it; 133.1 before CLI-1's step-down was booked (memo G25)
+        self.assertEqual(round(sim[2040]['debt_gdp'], 1), 114.5)   # G24 B booked (DEC-2026-11-28-01); 117.8 before it
+        self.assertEqual(round(sim[2056]["debt_gdp"], 1), 110.0)   # G24 B and PH-3 booked (DEC-2026-11-28-01): G23 B's 110% by FY2056; 129.3 before them, with G27 A's rate rule, G29 A with R2 (DEC-2026-11-26-03: the $250B standing reserve, OASDI's 0.28 out of the fund and to Social Security from FY2031, unified figures unmoved, as under C; 129.4 with the reserve as built after the HEX fix, #515; 129.1 with HEX in full, #507; 129.3 before the HX fix); 131.6 with R held at 3.80% after I1 A, 131.5 before it; 133.1 before CLI-1's step-down was booked (memo G25)
 
     def test_r_minus_g_readings(self):
         for t in (-0.5, 1.5):

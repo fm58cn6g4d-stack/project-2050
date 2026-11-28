@@ -41,6 +41,9 @@ NOT_GF = ("SAFR2", "EDUP", "EDUPg")   # EDUP is a dedicated fund, not general-fu
 # household and employer contributions and the taxes folded into them (health_booking.py D3_CONTRIBUTIONS). HEX stays
 # in, netted with HX, and so do the new streams HS1 to HS4.
 HEALTH_CONTRIBUTIONS = ("HCU", "HCUw", "HCW", "HCA", "HCP", "HCH", "HEC", "HCUg", "HCUwg", "HCAg")   # the last three: the settlement's rows (scenario Q-G)
+# The VAT row is booked gross (what households bear); the revenue-mix test counts it at its general-fund yield, net of the
+# 25% income and payroll offset (financing-protection/packages.py EXCISE_OFFSET), as packages.revenue_mix does.
+NET_SHARE = {"VATg": 0.75}
 
 
 class D3:
@@ -95,8 +98,9 @@ class D3:
         for o in opts:
             side, amt, parts, label = self.OPTIONS[o]
             if side == "cost" and o not in NOT_GF + HEALTH_CONTRIBUTIONS:
-                total += amt
-                top1 += self.dist(parts)["T1"]
+                k = NET_SHARE.get(o, 1.0)
+                total += amt * k
+                top1 += self.dist(parts)["T1"] * k
         return round(total, 2), round(top1, 2), round(corp, 2), round(100 * (top1 + corp) / total)
 
     # ---- the year-by-year paths ----

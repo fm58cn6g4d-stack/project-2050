@@ -35,7 +35,7 @@ SOI_2023 = {"eitc_bn": 66.27, "ctc_odc_nonref_bn": 84.42, "actc_bn": 34.53}     
 
 
 MODEL_ID = "MOD-household"
-VERSION = "0.3.0"   # CHANGELOG.md; the rule is in models/schema/README.md, "Versions"
+VERSION = "0.4.0"   # CHANGELOG.md; the rule is in models/schema/README.md, "Versions"
 STATUS = "working"
 CODE = [os.path.join(HERE, f) for f in (
     "budget.py", "conventions.py", "d3.py", "data.py", "distribution.py", "families.py", "params.py", "poverty.py",
@@ -712,7 +712,10 @@ def d3_markdown(R, A):
     A(f"- **Scenario Q-G is the package the gap books since stage G's settlement** (step 7; `models/data/inputs/settlement.json`). "
       "It is Q-H7 below without ICB (the 2 points folded into the health contribution), with the health contribution at "
       "the settlement's base rate and avoidance allowance (HCUg, HCUwg), the 0.9% re-derived (HCAg), the wealth tax net "
-      "of the stack cap (HS2g), the education fund at 1.65 points counted gross (EDUPg) and GX narrowed (GXg). "
+      "of the stack cap (HS2g), the education fund at 1.65 points counted gross (EDUPg) and GX narrowed (GXg); and G24 B's "
+      "sources as booked in stage G step 12 (`DEC-2026-11-28-01`): the outside fix and the deduction limits from FY2037 "
+      "(OUTg, DEDg, on the surtax key), the 2.88% VAT gross from FY2035 (VATg, on consumption; the revenue-mix test counts it "
+      "net of the 25% offset) and its rebate under G30 (VATRg, on the `vat_rebate` key). "
       f"Q1 to Q4 are {', '.join(money(qg[g]['net']) for g in P.GROUPS[:4])} a household a year, FY2030-39 average: "
       f"{'every quintile below the top comes out ahead' if qg_ok else 'not every quintile below the top comes out ahead'}. "
       f"Its revenue-mix test is {D['model']['gf']['Q-G'][3]}%. D3 has no rows for the settlement's defense, farm, "

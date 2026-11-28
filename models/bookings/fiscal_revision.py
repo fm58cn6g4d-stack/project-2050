@@ -50,6 +50,10 @@ The take-home test (`take_home_mix`): health's test in FY2040 (`take_home_vat.py
 worker's visible health costs at R, plus the new sources a unit pays: VAT by its fifth, less its rebate (adults in the
 unit); SUR, DED and OUT by its AGI above $100K/$200K, scaled to each source's revenue; CARB by its fifth.
 
+Booked (stage G step 12, `DEC-2026-11-28-01`): G24 B's sources at the decided 2.88% VAT, and PH-3, are settlement items
+S12-S17 (`booking()`, read by `settlement_booking.py`). `base()` leaves them out (`model.without_items`), so everything
+here is priced on the plan before them, as when Espen chose among the mixes; "as booked" below means that plan.
+
 Project arithmetic on exploratory models, not official scores.
 
     python3 models/tools/fiscal_revision.py            # print
@@ -113,8 +117,11 @@ MIXES = (
 
 # ---------------------------------------------------------------- the base
 def base():
+    """The plan without the items booked from this script (G24 B's sources and PH-3, settlement S12-S17; `booking()`),
+    so that G24 B's VAT is solved on the plan before them, not on itself (it would solve to zero)."""
     f, b, old, u = K.m.load()
-    c0, c1, p0, p1 = CT.what_if(f, b, old, u)
+    with K.m.without_items(K.m.revision_items()):
+        c0, c1, p0, p1 = CT.what_if(f, b, old, u)
     booked = FP.Booked(case=c0)
     bk = FP.Booked(case=c1)
     ph3 = FF.phasing(booked)['PH-3']
@@ -187,6 +194,32 @@ def plug_path(bk, kind, start, rate, pp):
     if kind == 'VAT':
         return {y: rate * vat_point(bk, y)[0] * K.m.phase(y, start, 2) for y in YEARS}
     return {y: rate * pp[y] * K.m.phase(y, start, 1) for y in YEARS}
+
+
+# ---------------------------------------------------------------- the booking (DEC-2026-11-28-01)
+# G24 B as decided and booked: G19 B's deduction limits and AGI surtax with the outside fix, then the rebated VAT at
+# 2.88% from FY2035 (G24.2, DEC-2026-11-25-16) with G30's phase-out (DEC-2026-11-26-04). The rate is the decided one,
+# not re-solved at each run; test_fiscal_revision.py checks that goal B's solve on the plan without G24 B still gives it.
+BOOKED_MIX = ('OUT', 'DED', 'SUR')
+VAT_RATE, VAT_START = 2.88, 2035
+_BOOKING = {}
+REVISION_D3_ROWS = ('OUTg', 'DEDg', 'VATg', 'VATRg')   # their D3 rows in scenario Q-G (settlement_booking.REVISION_D3)
+
+
+def booking():
+    """The booked paths, $B by year, + raises revenue or cuts outlays: OUT, DED, SUR; VAT (net of the income and payroll
+    offset, before the rebate); VATR (the rebate's cost, phased out by G30); PH-3 (G17 B's hold on CLI-1, from
+    fiscal_frontier.phasing on the plan without it). Cached: settlement_booking.derive() calls it for each item."""
+    if not _BOOKING:
+        B = base()
+        bk = B['bk']
+        out = source_paths(bk, BOOKED_MIX)
+        ph = {y: K.m.phase(y, VAT_START, 2) for y in YEARS}
+        out['VAT'] = {y: VAT_RATE * K.VAT_POINT_2040 * bk.gdp[y] / bk.gdp[2040] * ph[y] for y in YEARS}
+        out['VATR'] = {y: VAT_RATE * vat_point(bk, y)[1] * ph[y] for y in YEARS}
+        out['PH-3'] = dict(B['ph3'])
+        _BOOKING.update(out)
+    return _BOOKING
 
 
 # ---------------------------------------------------------------- the goals
@@ -306,7 +339,8 @@ class Mature:
         self.hh = K.Household()
         D = self.hh.D
         name = next(n for n in D.SCEN if n.startswith('Q-G'))
-        self.opts = D.SCEN[name][0]
+        # Q-G before G24 B's own D3 rows (booked in step 12): the mixes add their sources to it, so it must not carry them
+        self.opts = [o for o in D.SCEN[name][0] if o not in REVISION_D3_ROWS]
         self.y2039 = D.series(self.opts)[2039]
         import provisions as P
         self.P = P
@@ -479,7 +513,11 @@ def markdown(d):
          '[`../7-batch3-revision.md`](../7-batch3-revision.md). Central r − g (CBO\'s February 2026 rates), the '
          'conventional score, nominal $B or % of GDP by federal fiscal year. Project arithmetic on exploratory models, '
          'not official scores.', '',
-         '**The base:** the settlement as booked, %s, and G17 B\'s hold of the credits in FY2038-39 (PH-3: $%sB in '
+         '**Booked since stage G step 12** (`DEC-2026-11-28-01`): G24 B, mix 2 on goal B below (the deduction limits, the AGI '
+         'surtax and the outside fix, then the VAT at %.2f%% from FY%d with G30\'s rebate), and PH-3 are settlement items S12-S17. '
+         'This note prices the forks on the plan before them, as Espen chose among them; `booking-results.md` and '
+         '`debt-gap-results.md` give the plan with them.' % (VAT_RATE, VAT_START), '',
+         '**The base:** the settlement before G24 B (step 11\'s), %s, and G17 B\'s hold of the credits in FY2038-39 (PH-3: $%sB in '
          'FY2038-39). Debt on it: FY2040 %s%%, FY2050 %s%%, FY2056 %s%% (before the CLI-1 correction: %s%%, %s%%, %s%%).' % (
              'with CLI-1\'s tail on the decided step-down (booked)' if B['cli1_booked'] else
              'with CLI-1\'s tail on the decided step-down (`cli1_tail.py`; a what-if until its tier-3 row lands; '

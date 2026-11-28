@@ -13,12 +13,24 @@ A['leave']['cap_points'] = ADOPTION['leave_cap_points']
 # Stage G's financing settlement, as booked (step 7; DEC-2026-11-20-05 to -14, DEC-2026-11-24-01 to -09): the switches
 # and the derived line paths (models/tools/settlement_booking.py writes settlement-paths.csv; its test checks them).
 SETTLEMENT = json.loads((ROOT/'models/data/inputs/settlement.json').read_text())
+# Items left out of the booked case while a tool prices them (fiscal_revision.py solves G24 B's VAT rate on the plan
+# without G24 B's own items, or the rate would solve to zero): ids, set only inside without_items().
+SETTLEMENT_SKIP=set()
 def settlement_paths():
     out=[]
     with (ROOT/'models/data/inputs/settlement-paths.csv').open() as fh:
         for r in csv.DictReader(fh):
+            if r['id'] in SETTLEMENT_SKIP: continue
             out.append((r['id'],r['line'],r['side'],{y:float(r['y%d'%y]) for y in range(2026,2057)}))
     return out
+class without_items:
+    """with without_items(ids): every case built inside leaves those settlement items out."""
+    def __init__(self,ids): self.ids=set(ids)
+    def __enter__(self): self.prev=set(SETTLEMENT_SKIP); SETTLEMENT_SKIP.update(self.ids)
+    def __exit__(self,*a): SETTLEMENT_SKIP.clear(); SETTLEMENT_SKIP.update(self.prev)
+def revision_items():
+    """The ids of the settlement items booked from fiscal_revision.py (G24 B's sources and G17 B's PH-3)."""
+    return [it['id'] for it in SETTLEMENT['items'] if it.get('from')=='fiscal_revision']
 Y = range(2026,2057)
 BUILD = ROOT/'build'   # the engine's outputs (load() can point it elsewhere)
 W = range(2030,2040)

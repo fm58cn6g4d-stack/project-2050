@@ -56,3 +56,4 @@ health_contrib_wave,legacy,,,kept: the health financing tools' own key on these 
 health_contrib_avoid,legacy,,,kept: the health financing tools' own key (health_booking.py incidence_booked())
 employer_contrib,legacy,,,kept: the health financing tools' own key on these households (health_booking.py incidence_booked())
 health_credit,legacy,,,kept: the health financing tools' own key on these households (health_booking.py incidence_booked())
+vat_rebate,legacy,,,"kept: the VAT rebate's key under G30 (incidence-keys.csv), from the measured adults key and the share of each fifth's adults who keep the rebate (settlement_booking.py rebate_key())"
