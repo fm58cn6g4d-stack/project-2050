@@ -106,6 +106,10 @@ def nii_base(T, t):
 _OFFB_ROWS = read("funds-ss-offbudget.csv")
 OFFB_COL = {"IMM-EV-SS": "loss_pct_payroll", "WRK-UI-SS": "wrk_ui_pct_payroll", "IMM-1-SS": "imm1_pct_payroll"}
 OFFB_BY = {pid: {int(r["year"]): float(r[col]) for r in _OFFB_ROWS} for pid, col in OFFB_COL.items()}
+# HX-SS (G29 A, DEC-2026-11-26-03): the OASDI part of the tax on former premiums (HX and HEX), credited to the trust funds
+# from FY2031 (HX's first year), as current law does, negative (a gain), % of taxable payroll; funds-ss-hx.csv, written by settlement_booking.py --write from the
+# booked case (recovery-budget/model.py social_security_part()). Held at its last year's share of payroll after FY2056.
+OFFB_BY["HX-SS"] = {int(r["year"]): float(r["hx_ss_pct_payroll"]) for r in read("funds-ss-hx.csv")}
 OFFB = OFFB_BY["IMM-EV-SS"]
 def direct_loss(t, pid="IMM-EV-SS"):
     s = OFFB_BY[pid]
@@ -139,8 +143,8 @@ for r in read("funds-ss-provisions.csv"):
                         credit_factor=g("credit_factor"), extra_haircut=g("extra_haircut"), cola_bump=g("cola_bump"),
                         ledger=r["ledger_rows"], basis=r["basis"])
 SSF = {i: provision_path(p) for i, p in SSP.items()}
-# IMM-EV-SS and IMM-1-SS (the immigration booking) and WRK-UI-SS (the work booking) are decided, booked plan elements, so they ride with the plan's scenarios, not current law
-SS_SCEN = {"Current law": [], "D8 baseline": ["SS-1", "SS-2", "SS-3", "SS-4", "IMM-EV-SS", "WRK-UI-SS", "IMM-1-SS"], "D8 + SS-5": ["SS-1", "SS-2", "SS-3", "SS-4", "SS-5", "IMM-EV-SS", "WRK-UI-SS", "IMM-1-SS"]}
+# IMM-EV-SS and IMM-1-SS (the immigration booking), WRK-UI-SS (the work booking) and HX-SS (the settlement, G29 A) are decided, booked plan elements, so they ride with the plan's scenarios, not current law
+SS_SCEN = {"Current law": [], "D8 baseline": ["SS-1", "SS-2", "SS-3", "SS-4", "IMM-EV-SS", "WRK-UI-SS", "IMM-1-SS", "HX-SS"], "D8 + SS-5": ["SS-1", "SS-2", "SS-3", "SS-4", "SS-5", "IMM-EV-SS", "WRK-UI-SS", "IMM-1-SS", "HX-SS"]}
 
 PV = {t: 1 / ifac(t) for t in range(2025, 2102)}
 PVPAY = sum(payroll(t) * PV[t] for t in YEARS)

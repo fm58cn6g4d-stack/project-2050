@@ -315,12 +315,17 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     # The health fund as its own account (settlement on): the general fund shows only its transfer to the fund, so the
     # fund's own primary balance after the transfer is stripped as the other funds' are. Unified figures don't move.
     hf=health_fund(audit,SETTLEMENT['health_fund']) if settlement and 'health_fund' in SETTLEMENT else None
+    ssp=social_security_part(audit,SETTLEMENT['health_fund']) if hf else {}
     for r in rows:
         h=hf[r['year']] if hf else dict(sources=0.0,spending=0.0,balance=0.0,transfer=0.0,reserve=0.0)
         own=h['spending']-h['sources']-h['transfer'] if hf else 0.0
         r['agenda_gf_primary_bn']-=own
+        # G29 A: from its start year (FY2031, HX's first) the Social Security part of HX and HEX is credited to OASDI's trust funds (off-budget),
+        # so it leaves the general fund; unified figures don't move (funds-model.py books it as HX-SS)
+        r['agenda_gf_primary_bn']+=ssp.get(r['year'],0.0)
         r.update(health_fund_sources_bn=h['sources'],health_fund_spending_bn=h['spending'],
-                 health_fund_gf_transfer_bn=h['transfer'],health_fund_reserve_bn=h['reserve'])
+                 health_fund_gf_transfer_bn=h['transfer'],health_fund_reserve_bn=h['reserve'],
+                 hx_oasdi_to_social_security_bn=ssp.get(r['year'],0.0))
     interest,debt=f.debt_roll(b,{r['year']:r['program_primary_bn'] for r in rows},shift=rate_shift)
     for r in rows:
         y=r['year']; r['revenue_bn']=r['baseline_revenue_bn']+r['revenue_change_bn']
@@ -350,6 +355,15 @@ def audit_lines(audit):
         k=a['line'].split(':')[0] if a['line'].startswith('Settlement S') else a['line']
         out.setdefault(k,{}); out[k][a['year']]=out[k].get(a['year'],0.0)+a['primary_deficit_change_bn']
     return out
+
+def social_security_part(audit,hf):
+    """G29 A (DEC-2026-11-26-03): the Social Security (OASDI) part of the lines in `source_shares` (HX and HEX), the share
+    the fund doesn't take, by year from `social_security_part.from` ($B, positive), credited to OASDI's trust funds as
+    current law does. Booked from FY2031, HX's first year. {} if the block is absent."""
+    sp=hf.get('social_security_part')
+    if not sp: return {}
+    L=audit_lines(audit); w=hf.get('source_shares',{})
+    return {y:sum((1-w[n])*-L.get(n,{}).get(y,0.0) for n in w) for y in Y if y>=sp['from']}
 
 def health_fund(audit,hf):
     """The plan's health fund (HLT-7.22) as its own account (DEC-2026-11-25-12, -28, -30, -31): its dedicated sources

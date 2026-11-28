@@ -2,6 +2,29 @@
 
 Role: the version history of `MOD-budget` (`models/schema/README.md`, "Versions"), newest first. Status: current.
 
+## 0.7.0 (2026-11-27)
+
+Espen changed G29 from C to A (`DEC-2026-11-26-03`): no law in the plan diverts Social Security payroll tax from the trust funds. One input changes; no change to the code or the interface. 0.6.0 was never on main.
+- **G29 A:** the OASDI part of HX and HEX (0.28) goes to Social Security's trust funds from FY2031, HX's first year, as current law does (`settlement.json` `social_security_part` `from` 2031, not 2045). The recovery budget takes it off the general fund from then; HX-SS (`funds-ss-hx.csv`) starts in FY2031. Unified figures don't move.
+- **Results:** debt is unchanged (121.4% of GDP in FY2045, 124.5% in FY2050, 129.3% in FY2056), as are the health fund's reserve ($250B standing, $62.7B drawn in FY2035) and the rate path. The general fund's gap is +$57.3B in FY2035 and +$86.2B in FY2040, falling to +$1.8B in FY2044 (it closed in every one of those years in 0.6.0); −$19.2B in FY2045, −$132.9B in FY2050 and −$189.4B in FY2056, as in 0.6.0; and +$1,225.9B over FY2030-39 ($718.5B). With the plan's package, Social Security's funds last to 2072, not 2069, and the 75-year balance is −1.07% of taxable payroll, not −1.17%.
+- Current law and the CBO option change only in the hashes of the changed inputs.
+
+## 0.6.0 (2026-11-26)
+
+Espen's G29 and G30 decisions booked (`DEC-2026-11-26-03`, `-04`). New inputs and one new engine series; no change to the interface.
+- **G29 C:** the OASDI part of the tax on former premiums (HX and HEX) is now 0.28, as memo G29 sources it, not the working 0.297 (`settlement.json` `source_shares` 0.72). It stays on the general fund through FY2044 and goes to Social Security's trust funds from FY2045 (`social_security_part`). The recovery budget takes it off the general fund from FY2045 (`social_security_part()`); the dedicated-fund engine books it as HX-SS (`funds-ss-hx.csv`, a new `direct` series). Unified figures don't move. With the plan's package, Social Security's funds last to 2069, not 2061, and the 75-year balance is −1.17% of taxable payroll, not −1.64%.
+- **G29 R2:** a $250B standing reserve, with the rest of FY2030-34's surplus drawn against the FY2035 transfer: $312.7B built, $62.7B drawn, an FY2035 transfer of $304.6B. The rate rule, rerun on the $250B start, steps up in FY2043, a year earlier than in 0.5.0.
+- **Results:** the plan's debt is 129.3% of GDP in FY2056, against 129.4% in 0.5.0. The general fund's gap is −$19.2B in FY2045, −$132.9B in FY2050 and −$189.4B in FY2056 (−$162.7B, −$322.2B and −$437.5B in 0.5.0), and $718.5B over FY2030-39 ($776.5B).
+- **G30** is booked in `models/bookings/fiscal_revision.py` (the rebate's phase-out), not in this model's reference results.
+- Current law and the CBO option change only in the hashes of the changed inputs.
+
+## 0.5.0 (2026-11-26)
+
+The health fund's sources weight HEX like HX (memo G29, finding 3; `settlement.json` `source_shares`). HEX, the tax on former premiums that the employer contribution takes back from HX, carries the same Social Security part as HX. 0.4.0 left HX's part out of the fund but kept HEX's take-back in full. A new input, with no change to the code or the interface.
+- **Results:** the fund's reserve as built is $307.9B, up from $159.5B. The FY2035 transfer is $371.7B, down from $497.8B. The general fund's FY2030-39 gap is $776.5B, up from $628.1B, because the general fund now carries the take-back's Social Security part in FY2031-34. From FY2040 the general fund's gap doesn't move, since the law fixes its share.
+- **The rate rule steps later:** 3.80% through FY2043, 4.05% FY2044-45, 4.30% FY2046-47, 4.05% FY2048-51, 4.30% FY2052-55 and 4.05% FY2056. The plan's debt in FY2056 is 129.4% of GDP, against 129.1% in 0.4.0 (0.4.0's entry says 129.3%, its figure before the HX fix). FY2040 stays 117.8%.
+- Current law and the CBO option didn't move: their headers change only in the hashes of the changed inputs.
+
 ## 0.4.0 (2026-11-25)
 
 Stage G step 11: the health fund booked as its own account (`DEC-2026-11-25-28`, `-30` to `-32`) and IMM-1 rebooked (I1 A, `-27`).

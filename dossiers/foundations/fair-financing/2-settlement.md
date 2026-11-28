@@ -1,6 +1,6 @@
 # Stage G: the financing settlement
 
-Role: the financing package for the whole plan, the one place where the plan is balanced (`DEC-2026-11-10-05`; `charter/PLAN.md` section 6, stage G; `1-audit.md` part E). It takes health's share from the top-end and corporate rows first (`DEC-2026-11-15-20`), then gives way on other spending across the whole federal budget (`DEC-2026-11-15-04`, `DEC-2026-11-20-07`), and closes FY2040 and every later year on the general fund. Status: **booked, stage G step 7, November 24, 2026.** Every fork is decided (`DEC-2026-11-20-05` to `-14`, `DEC-2026-11-24-01` to `-09`) except **memo G8, the health contribution over time, which is provisional**; the booking holds one rate from 2035 as a labelled working assumption (part 4). The booked choices are in `models/data/inputs/settlement.json`; the figures are in [`notes/booking-results.md`](notes/booking-results.md). **The clean-energy credits' cost after FY2039 is corrected to the decided step-down** (memo [G25](memos/G25-cli1-after-the-fix.md); [`notes/cli1-tail-check.md`](notes/cli1-tail-check.md)): the booking note's figures carry it (FY2040 −$16.1B, the tightest year; FY2056 −$282.8B; debt 131.5% of GDP in FY2056; the lowest base rate that would close every year is now 3.75%, and G16 B holds 3.80%), while the figures in this text's parts are as booked in step 7, before it (FY2040 −$6.0B, FY2042 −$0.4B, FY2056 −$205.4B and 133.1%). **Stage G step 11 booked the health fund as its own account, G26-G28 and I1 A** (part 8, which restates the general fund, the debt path and take-home: every year FY2040-56 closes, FY2030-39 is +$628.1B on the general fund with health's early surplus held in the fund, and debt is 129.1% of GDP in FY2056; two working assumptions pending Espen, G27.1a and I2). Memo G8 is answered by G27 A, the fund's own rule.
+Role: the financing package for the whole plan, the one place where the plan is balanced (`DEC-2026-11-10-05`; `charter/PLAN.md` section 6, stage G; `1-audit.md` part E). It takes health's share from the top-end and corporate rows first (`DEC-2026-11-15-20`), then gives way on other spending across the whole federal budget (`DEC-2026-11-15-04`, `DEC-2026-11-20-07`), and closes FY2040 and every later year on the general fund. Status: **booked, stage G step 7, November 24, 2026.** Every fork is decided (`DEC-2026-11-20-05` to `-14`, `DEC-2026-11-24-01` to `-09`) except **memo G8, the health contribution over time, which is provisional**; the booking holds one rate from 2035 as a labelled working assumption (part 4). The booked choices are in `models/data/inputs/settlement.json`; the figures are in [`notes/booking-results.md`](notes/booking-results.md). **The clean-energy credits' cost after FY2039 is corrected to the decided step-down** (memo [G25](memos/G25-cli1-after-the-fix.md); [`notes/cli1-tail-check.md`](notes/cli1-tail-check.md)): the booking note's figures carry it (FY2040 −$16.1B, the tightest year; FY2056 −$282.8B; debt 131.5% of GDP in FY2056; the lowest base rate that would close every year is now 3.75%, and G16 B holds 3.80%), while the figures in this text's parts are as booked in step 7, before it (FY2040 −$6.0B, FY2042 −$0.4B, FY2056 −$205.4B and 133.1%). **Stage G step 11 booked the health fund as its own account, G26-G28 and I1 A** (part 8, which restates the general fund, the debt path and take-home: every year FY2040-56 closes, FY2030-39 is +$718.5B on the general fund with $250B of health's early surplus held in the fund, and debt is 129.3% of GDP in FY2056; G27.1a A and G29 C with R2 are decided and booked). Memo G8 is answered by G27 A, the fund's own rule.
 
 **Naming:** "step 7" is stage G's booking step. "G1" to "G14" are the memos in [`memos/`](memos/README.md). The ledger's revenue rows with the same names are called "row G6" and so on; a bare "G6" is a memo.
 
@@ -295,30 +295,27 @@ These add one published page per release and one table a year to reports that al
 - **G28 A:** the contribution reaches the debt plan only as a smaller general-fund share of health's cost, set by law under the ceiling the trustees certify each year (6.20% in FY2040, 7.35% in FY2056). G20 B's return order drops its health-contribution step (`5-budget-process.md`).
 - **I1 A:** IMM-1's status line is on CBO's on-budget figure for H.R. 6, +$10.2B over FY2030-39 and +$2.1B in FY2040 on the general fund. Social Security's gain, about $22.2B over FY2030-39, is booked in Social Security's funds as IMM-1-SS (`dossiers/immigration/6-cost.md` part 6).
 
-**Two working assumptions, pending Espen:**
-- **G27.1a, the band's base.** The decision doesn't say whose spending the band is measured on, or which projected year the trustees test. The booking reads it on the contribution's own share of the fund's cost, tested one year ahead, the lead's direction until Espen answers.
-- **I2, HX's Social Security part.** HX, the tax on former premiums, includes the payroll tax that current law credits to Social Security, and that can't be health money (`-12`, `-28`).
-  - The booking leaves that part out of the fund's sources. It stays on the general fund, as booked before.
-  - It is 29.7% of HX, the agent's estimate, not sourced: 12.4% on wages, over 1.0765, times 0.8 taxable under the cap, over the exclusion's 0.31 average rate. The range is about 28-35%.
-  - That is about $234B over FY2030-34 and about $290B a year in FY2040.
-  - **Booking it in Social Security's own funds instead is question I2 for Espen.** It would cost the general fund about $290B a year from FY2040, and the settlement would no longer close.
-- **I2 also sets the reserve.** Without HX's Social Security part, the fund builds $255B over FY2030-32, then meets its own shortfalls in FY2033-34 ($30B and $66B). It enters 2035 with **$160B**, booked as built as the standing reserve, with no FY2035 draw.
-  - `-31` point 2's split would need $391B: $250B standing plus $141B to lower the FY2035 transfer.
-  - The general fund's FY2035 transfer is therefore $498B, not $154B.
+**G27.1a, decided (A, `DEC-2026-11-26-01`):** the band is on the contribution's own share of the fund's cost, tested one year ahead. That is the reading booked since step 11; no figure moves.
 
-**The rate as booked:** 3.80% in FY2040, then 4.05% from FY2041, 4.30% in FY2048-49, 4.05% in FY2050-52, and 4.30% in FY2053-56.
-- **It steps up in FY2041** because the reserve starts at $160B, 14% of the contribution's share of cost, just below the band. With the $250B the decision assumed, it held 3.80% to FY2042.
+**G29, decided (A with R2, `DEC-2026-11-26-03`).** Espen first asked for the share to be sourced, then the options set out (I2 C, `DEC-2026-11-26-02`); [memo G29](memos/G29-hx-social-security-part.md) did both. Espen first chose its recommendation, C, then changed it to A the same night: no law in the plan diverts Social Security payroll tax away from the trust funds.
+- HX, the tax on former premiums, includes the payroll tax that current law credits to Social Security, and that can't be health money (`-12`, `-28`). It is left out of the fund's sources.
+- **The part is 28% of HX and of HEX alike** (range 22-30%; EV-FIN-094, EV-FIN-095), so the fund takes 72% of each (`settlement.json`'s `source_shares`). Step 11 had 29.7% of HX alone, unsourced. #515 first fixed HEX's weight at 70.3% (G29, finding 3), then moved both to the sourced 72%.
+- **A: Social Security from the start, as current law does** (`social_security_part`, from FY2031, HX's first year). The part leaves the general fund ($100B in FY2040) and is credited to Social Security's trust funds (HX-SS in the dedicated-fund engine). Unified figures don't move.
+- **R2: a $250B standing reserve.** The fund builds $312.7B over FY2030-34, net of HI's $425B and of its own shortfalls in those years. It keeps $250B standing and draws $62.7B against the FY2035 transfer, which is $304.6B. Memo G29 had $307.9B, $57.9B and $313.8B, on the working 29.7%.
+
+**The rate as booked:** 3.80% through FY2042, 4.05% in FY2043-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55, and 4.05% in FY2056.
+- **It holds 3.80% to FY2042** because the reserve starts at $250B, 21% of the contribution's share of cost in FY2040, inside the band. It drains to the bottom of the band, and the rate steps up in FY2043, a year earlier than with the reserve as built.
 - **Why it moves back and forth between 4.05% and 4.30%:**
   - At a fixed rate the contribution's yield falls behind its fixed share, because health and long-term care grow faster than its base. So the reserve drains toward 15%.
-  - A quarter point, about $70-110B a year, then refills it toward 25% within a few years. The band is only about two steps wide ($140-240B).
-  - So the rate steps up in FY2048 and down in FY2050, then up again in FY2053.
-- **Against the first draft of this PR** (with HX whole and $250B), the rate rises two years earlier and ends at 4.30% in FY2056, not 4.05%. The general fund's gap from FY2040 doesn't move: it pays the share the law fixes, so the rate moves only the fund's reserve.
+  - A quarter point, about $70-110B a year, then refills it toward 25% within a few years. The band is only about two steps wide ($230-380B in FY2045).
+  - So the rate steps up in FY2046, down in FY2048 and up again in FY2052, and down in FY2056.
+- **The general fund's gap from FY2040 doesn't depend on the rate:** it pays the share the law fixes, so the rate moves only the fund's reserve.
 
 | The band read on | Highest R | R in FY2056 | Reserve in FY2056 |
 | --- | --- | --- | --- |
-| **The contribution's share of the fund's cost (booked)** | **4.30%** | **4.30%** | **$568B** |
-| The fund's new spending | 4.80% | 4.30% | $1,945B |
-| The fund's whole spending, the baseline's included | 5.30% | 4.05% | $4,011B |
+| **The contribution's share of the fund's cost (booked, decided)** | **4.30%** | **4.05%** | **$511B** |
+| The fund's new spending | 4.80% | 4.05% | $1,368B |
+| The fund's whole spending, the baseline's included | 5.30% | 4.30% | $3,836B |
 
 ### The general fund, restated
 
@@ -326,22 +323,27 @@ These add one published page per release and one table a year to reports that al
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Before the settlement | −160 | 133 | 555 | 841 | 814 | **607** | 601 | 606 | 746 | 1,083 | 4,006 |
 | Step 7, with #493 (before this step) | −221 | −42 | 47 | 277 | 193 | **−16** | −41 | −98 | −224 | −283 | 459 |
-| **Booked now** | **−104** | **−71** | **48** | **278** | **194** | **−14** | **−68** | **−163** | **−322** | **−438** | **628** |
+| Step 11 as merged (#507) | −104 | −71 | 48 | 278 | 194 | −14 | −68 | −163 | −322 | −438 | 628 |
+| With the HEX fix (#515, before G29 was decided) | −104 | −29 | 48 | 278 | 194 | −14 | −68 | −163 | −322 | −438 | 777 |
+| G29 C with R2, as first decided (0.6.0, never on main) | −104 | −28 | −15 | 278 | 194 | −14 | −68 | −19 | −133 | −189 | 719 |
+| **Booked now** (G29 A with R2) | **−104** | **−6** | **57** | **361** | **290** | **86** | **49** | **−19** | **−133** | **−189** | **1,226** |
 
-- **Every year FY2040-56 still closes.** The tightest is FY2040, at −$14.1B.
-- **The decade is $170B worse on the general fund.** $160B of health's early surplus now stays in the fund, and IMM-1 adds $10B. FY2036-39 run about $194-278B short a year, as before.
-- **From the mid-2040s the general fund is further ahead,** because the health law fixes its share of the fund's cost (G27 A point 3). The contribution's share holds as health outgrows its base, and the fund's rule steps the rate to keep it there.
+- **FY2040-44 no longer close.** The general fund is $86.2B short in FY2040, $70.2B in FY2041, $49.3B in FY2042, $21.9B in FY2043 and $1.8B in FY2044; it closes from FY2045 ($19.2B to spare). No booked rule fills those years: the health contribution can't (`-12`), and G24 B's VAT is set by the debt goal, which A doesn't move. Espen decided G29.1 (option 1, `DEC-2026-11-28-01`): G24 B's decided sources are counted, which closes FY2035 and every year from FY2039 and takes debt to the decided 110.0% of GDP in FY2056. Their booking is the next tier-3 PR; the figures here are the plan without them until it merges. Before the Social Security part, every year FY2040-56 closes, as under C.
+- **The decade is $767B worse on the general fund** than step 7. $250B of health's early surplus stays in the fund as its standing reserve, IMM-1 adds $10B, and the Social Security part takes $507B over FY2031-39. FY2035 is $57.3B short ($15.0B to spare under C, with the $62.7B draw lowering that year's transfer). FY2036-39 run about $290-361B short a year.
+- **The general fund gives up the Social Security part every year** ($72B in FY2035, $100B in FY2040, $144B in FY2045, $189B in FY2050, $248B in FY2056). **It is still ahead from the mid-2040s,** because the health law fixes its share of the fund's cost (G27 A point 3). The contribution's share holds as health outgrows its base, and the fund's rule steps the rate to keep it there.
 
 ### Debt and take-home
 
 | Debt, % of GDP | FY2039 | FY2040 | FY2045 | FY2050 | FY2056 |
 | --- | --- | --- | --- | --- | --- |
 | Step 7, with #493 | 116.9 | 117.8 | 121.7 | 125.6 | 131.5 |
-| **Booked now** | **117.0** | **117.8** | **121.2** | **124.3** | **129.1** |
+| Step 11 as merged (#507) | 117.0 | 117.8 | 121.2 | 124.3 | 129.1 |
+| With the HEX fix (#515, before G29 was decided) | 117.0 | 117.8 | 121.5 | 124.7 | 129.4 |
+| **Booked now** (G29 A with R2; C gave the same) | **117.0** | **117.8** | **121.4** | **124.5** | **129.3** |
 
 - **Take-home** (FY2040 incomes, no VAT): 69.0% of workers ahead at 3.80% in FY2040, unchanged. At the rule's later rates, as an indication only, it is 65.4% at 4.05% and 62.6% at 4.30%. Below 200% of poverty it is 98.4-99.5%.
 - **D3** (FY2030-39) and the revenue-mix test (65%) don't move.
-- **Social Security:** IMM-1-SS adds about $22B to the funds over FY2030-39. The budget model's CBO-convention reading is unchanged at 2093 depletion. I2 would add about $290B a year from FY2040, if Espen books it there.
+- **Social Security:** IMM-1-SS adds about $22B to the funds over FY2030-39, and HX-SS (G29 A) the tax on former premiums' OASDI part from FY2031. With the plan's package (D8), the funds last to 2072, not 2061, and the 75-year balance is −1.07% of taxable payroll, not −1.64% (the package closes 76% of the gap, not 63%; under C, 2069 and −1.17%). With SS-5 too: 2099 and −0.20%. These count the revenue only; the higher taxed pay also raises earned benefits, so the gain is somewhat smaller.
 
 ## Method and sources
 

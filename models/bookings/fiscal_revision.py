@@ -70,6 +70,10 @@ OUT = ROOT / 'dossiers/foundations/fair-financing/notes/revision-results.md'
 YEARS = FP.YEARS
 SHOW = (2035, 2037, 2039, 2040, 2045, 2050, 2056)
 REBATE_PER_POINT_2040 = 150.0            # $ an adult a VAT point, 2040 dollars, indexed to spending per adult (GDP per adult)
+# G30 (DEC-2026-11-26-04): the rebate phased out on a tax unit's AGI (FY2040 incomes at today's prices, the AGI surtax's
+# units), in full below the threshold and in a straight line to nothing across the range; heads of household take the
+# single figures. {filing: (threshold, width)}; None for no limit (G24 B before G30). Indexed to incomes.
+REBATE_LIMIT = {'single': (60_000, 20_000), 'joint': (120_000, 40_000)}
 CARB_GROSS_2040 = 85.0                   # $B: the larger fee's gross receipts in FY2040 (buildings, non-road; header)
 CARB_OFFSET = 0.244
 VAT_GROSS = 1 / (1 - K.EXCISE_OFFSET)
@@ -127,10 +131,49 @@ def adults(y):
     return c['population_m_2030'] * c['adult_share'] * (1 + c['population_growth']) ** (y - 2030)   # millions
 
 
+def rebate_factor(agi, fs, limit=None):
+    """The share of the VAT rebate a tax unit keeps under the G30 phase-out (REBATE_LIMIT unless `limit` is given)."""
+    lim = REBATE_LIMIT if limit is None else limit
+    if not lim:
+        return 1.0
+    t, w = lim['joint' if fs == 'joint' else 'single']
+    return min(1.0, max(0.0, 1.0 - (agi - t) / w))
+
+
+_KEPT = {}
+
+
+def rebate_kept(limit=None):
+    """Adult-weighted share of the rebate kept under the phase-out, all tax units ('all') and by D3 fifth ('Q1'-'Q5'), on the
+    household model's units at the take-home test's FY2040 incomes; adults are head, spouse and adult dependents."""
+    lim = REBATE_LIMIT if limit is None else limit
+    key = repr(lim)
+    if key not in _KEPT:
+        if not lim:
+            _KEPT[key] = {g: 1.0 for g in ('all', 'Q1', 'Q2', 'Q3', 'Q4', 'Q5', 'T1')}
+        else:
+            import health_financing as HF
+            X, hctx = HF.keys()[4], HF.context()
+            igrow = X['grow'] / hctx['price_2040']
+            g5 = {h['hh']: h['g5'] for h in X['B']['households']}
+            tot, keep = {}, {}
+            for u in X['B']['units']:
+                fs = 'joint' if u['t_fs'] == 'joint' else 'single'
+                a = u['weight'] * (1 + (u['age_s'] >= 0) + u['n_dep_18'] + u['n_dep_19_23_student'] + u['n_dep_other'])
+                for g in ('Q%d' % g5.get(u['hh'], 3), 'all'):
+                    tot[g] = tot.get(g, 0.0) + a
+                    keep[g] = keep.get(g, 0.0) + a * rebate_factor(u['t_agi'] * igrow, fs, lim)
+            k = {g: keep[g] / tot[g] for g in tot}
+            k['T1'] = 0.0   # the top 1% are above every limit
+            _KEPT[key] = k
+    return _KEPT[key]
+
+
 def vat_point(bk, y, rebate=True):
-    """Net $B a VAT point raises in year y, and the rebate's cost."""
+    """Net $B a VAT point raises in year y, and the rebate's cost (phased out by G30's limit)."""
     net = K.VAT_POINT_2040 * bk.gdp[y] / bk.gdp[2040]
-    reb = REBATE_PER_POINT_2040 * adults(2040) / 1000 * bk.gdp[y] / bk.gdp[2040] if rebate else 0.0   # per adult, grown with spending per adult
+    reb = (REBATE_PER_POINT_2040 * rebate_kept()['all'] * adults(2040) / 1000 * bk.gdp[y] / bk.gdp[2040]
+           if rebate else 0.0)   # per adult, grown with spending per adult
     return net - reb, reb
 
 
@@ -268,6 +311,10 @@ class Mature:
         import provisions as P
         self.P = P
         self.share = {k: P.dist([(k, 1.0)], D.K) for k in ('consumption', 'adults', 'surtax', 'energy', 'broad_20k')}
+        # the rebate's own key: adults, phased out by G30's limit within each fifth, normalized over the five fifths
+        k, a = rebate_kept(), self.share['adults']
+        tot = sum(a[g] * k[g] for g in ('Q1', 'Q2', 'Q3', 'Q4', 'Q5'))
+        self.share['rebate'] = {g: a[g] * k[g] / tot for g in a}
 
     def households(self, y):
         return self.hh.D.HH * adults(y) / adults(2035)
@@ -298,7 +345,7 @@ def incidence(bk, mix, y, pp):
         pts = mix['plug'][y] / vat_point(bk, y)[0] if vat_point(bk, y)[0] else 0.0
         net = pts * K.VAT_POINT_2040 * bk.gdp[y] / bk.gdp[2040]
         am.append(('consumption', net * VAT_GROSS))
-        am.append(('adults', -pts * vat_point(bk, y)[1]))
+        am.append(('rebate', -pts * vat_point(bk, y)[1]))
     else:
         am.append(('broad_20k', mix['plug'][y]))   # the base rate's shape: AGI above $20K/$40K (not the whole HCU key, which carries the surcharge)
     return am
@@ -344,7 +391,8 @@ class TakeHome:
         carb_bn of CARB."""
         HC, price = self.HC, self.hctx['price_2040']
         o = HC.unified_package(self.hctx, self.case, HC.unified_spec(R=R, S=5.0 + self.fold, hi=2.5, form='linear'))
-        reb_adult = vat_rate * REBATE_PER_POINT_2040 / price + carb_div_bn * 1e9 / (adults(2040) * 1e6) / price
+        reb_adult = vat_rate * REBATE_PER_POINT_2040 / price                  # the VAT rebate, phased out per unit (G30)
+        div_adult = carb_div_bn * 1e9 / (adults(2040) * 1e6) / price          # the carbon dividend, for every adult
         top_k = top_bn * 1e9 / price / self.excess_total if self.excess_total else 0.0
         n = ahead = n_low = ahead_low = 0.0
         for u in self.units:
@@ -354,10 +402,10 @@ class TakeHome:
             share = max(u['n_people'], 1) / sum(max(v['n_people'], 1) for v in members)
             q = 'Q%d' % self.g5.get(u['hh'], 3)
             n_ad = max(u['n_people'] - u['n_dep'], 1)
-            extra = (vat_rate * self.per_point[q] / price * share - reb_adult * n_ad
-                     + top_k * self.excess(u) + carb_bn * self.energy_hh[q] / price * share)
             agi = u['t_agi'] * self.igrow
             fs = 'joint' if u['t_fs'] == 'joint' else 'single'
+            extra = (vat_rate * self.per_point[q] / price * share - (reb_adult * rebate_factor(agi, fs) + div_adult) * n_ad
+                     + top_k * self.excess(u) + carb_bn * self.energy_hh[q] / price * share)
             nn = max(u['n_people'], 1)
             kind = 'job' if u['n_employer_cov'] > 0 else ('own' if u['n_marketplace'] > 0 else
                                                          ('medicaid' if u['n_medicaid'] > 0 else

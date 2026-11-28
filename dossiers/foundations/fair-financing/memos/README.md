@@ -62,22 +62,31 @@ FY2040 effects are each choice's own effect on the general-fund gap as booked (`
 
 ## Step 10's batch: the health contribution as a trust fund
 
-After `DEC-2026-11-25-12` (the health contribution pays only for the health system). The analysis is [`../8-health-trust-fund.md`](../8-health-trust-fund.md); all three memos are in [`G26-G28-health-fund.md`](G26-G28-health-fund.md). **Decided November 25, 2026: A, A with all three points, A** (`DEC-2026-11-25-30` to `-32`), **booked in stage G step 11** ([`../2-settlement.md`](../2-settlement.md) part 8). Two points are booked as working assumptions pending Espen: G27.1a, the reserve band's base and the year the trustees test; and I2, HX's Social Security part, left out of the fund's sources (about $290B a year in FY2040, an estimate), which leaves the fund a $160B reserve, not $250B plus $141B.
+After `DEC-2026-11-25-12` (the health contribution pays only for the health system). The analysis is [`../8-health-trust-fund.md`](../8-health-trust-fund.md); all three memos are in [`G26-G28-health-fund.md`](G26-G28-health-fund.md). **Decided November 25, 2026: A, A with all three points, A** (`DEC-2026-11-25-30` to `-32`), **booked in stage G step 11** ([`../2-settlement.md`](../2-settlement.md) part 8). G27.1a, the reserve band's base and the year the trustees test, is decided: A, the contribution's own share, tested one year ahead (`DEC-2026-11-26-01`). I2, HX's Social Security part, is left out of the fund's sources pending memo G29 (I2 C, `DEC-2026-11-26-02`); with G29's HEX fix the fund's reserve as built is $307.9B, not $250B plus $141B.
 
 | Memo | Question | Answer | Effect (as estimated in step 10) |
 | --- | --- | --- | --- |
 | G26 | What the 3.80% stands for | **A** (decided, `-30`): re-founded as the share of the fund's cost the contribution pays | none on the booking |
-| G27 | How the rate moves after 2040 | **A** (decided, `-31`): the contribution pays a fixed share of the fund's cost (Part B's model); trustees' reserve band; the early surplus kept in the fund | R about 4.1% by FY2056; general fund $158B better in FY2056 (as booked: 4.05-4.30%, 4.30% in FY2056) |
+| G27 | How the rate moves after 2040 | **A** (decided, `-31`): the contribution pays a fixed share of the fund's cost (Part B's model); trustees' reserve band; the early surplus kept in the fund | R about 4.1% by FY2056; general fund $158B better in FY2056 (as booked: 3.80% to FY2043, then 4.05-4.30%, 4.05% in FY2056) |
 | G28 | The health contribution and the debt plan | **A** (decided, `-32`): only as a smaller general-fund share of health's cost, by law, under a certified ceiling | none against batch 4 (B, off the menu, costs a larger surtax without a VAT: $161-276B in FY2040) |
 
-## I2: HX's Social Security part (provisional)
+## I2: HX's Social Security part (G29, decided)
 
-[G29](G29-hx-social-security-part.md) answers I2 with sourced figures. The Social Security part is about 28% of the net exclusion revenue (HX less HEX; range 22-30%), about $100B in FY2040, not $290B. G29 also finds that #507 weights HEX in full against a partly weighted HX, so the fund's reserve as built is $307.9B, not $159.5B. Fixing that is a separate tier-3 PR. **Provisional, not decided.**
+[G29](G29-hx-social-security-part.md) answers I2 with sourced figures. The Social Security part is about 28% of the net exclusion revenue (HX less HEX; range 22-30%), about $100B in FY2040, not $290B. Espen asked for this (I2 C, `DEC-2026-11-26-02`: source the share first, then the options). G29 also found that #507 weighted HEX in full against a partly weighted HX; #515 books the fix. **Decided: A with R2** (`DEC-2026-11-26-03`; Espen chose C on November 26 and changed it to A on November 27), **booked in #515** at the sourced 0.28: the fund keeps $250B and draws $62.7B in FY2035; Social Security gets the part from FY2031, as current law does, and lasts to 2072; FY2056 debt is 129.3%. The general fund is short in FY2040-44 ($86B in FY2040) as booked; G29.1 closes it by counting G24 B's decided sources (option 1, `DEC-2026-11-28-01`), whose booking is the next tier-3 PR.
+
+| Memo | Question | Decided | Effect |
+| --- | --- | --- | --- |
+| [G29](G29-hx-social-security-part.md) | Where the Social Security part of the tax on former premiums goes, and the reserve | **A**: Social Security from the start, as current law does (C, the recommendation, was chosen first and replaced); **R2**: a $250B standing reserve, with the rest drawn in FY2035 ($57.9B drafted; $62.7B booked) | Social Security depletion 2072 instead of 2061; the general fund about $100B a year less in FY2040, short in FY2040-44 ($86B to $2B), closing from FY2045 |
+| [G29.1](G29-hx-social-security-part.md#g291-decided-option-1-closing-the-general-fund-in-fy2040-44-under-a) | How to close the general fund in FY2040-44 under A | **1** (`DEC-2026-11-28-01`): count G24 B's decided sources on the general fund (no new tax; the VAT stays 2.88%), with the principle that every decided revenue source is booked where the models report it | the general fund closes FY2035 and every year from FY2039 ($413B to spare in FY2040); booked, debt falls to the decided 110.0% of GDP in FY2056 (booking: the next tier-3 PR) |
+
+
+## G24.1: the VAT rebate's income limit (G30, decided)
+
+After `DEC-2026-11-25-15` (limit the rebate to people below an income threshold) and Espen's note proposing about $100K single / $200K joint. Figures in [`../notes/rebate-phaseout-results.md`](../notes/rebate-phaseout-results.md). **Decided November 26, 2026: $60K / $120K** (`DEC-2026-11-26-04`), **booked in #515** (`fiscal_revision.REBATE_LIMIT`); G24 B's VAT is 2.88% on the booking with G29 decided (2.92% drafted).
 
 | Memo | Question | Recommended | Effect |
 | --- | --- | --- | --- |
-| [G29](G29-hx-social-security-part.md) | Where the Social Security part of the tax on former premiums goes, and the reserve | **C**: the general fund through FY2044, Social Security from FY2045, written in law; **R2**: a $250B standing reserve, with $57.9B drawn in FY2035 | Social Security depletion 2069 instead of 2061; the general fund as booked through FY2044, still closing from FY2045 |
-
+| [G30](G30-rebate-phase-out.md) | The rebate's income threshold and phase-out | **$60K single / $120K joint**, phased out over the next $20K / $40K (options: $100K/$200K, $75K/$150K, $40K/$80K) | As drafted: G24 B's VAT 2.92% instead of 3.92% for the same money; 61% of the rebate's cost kept; workers ahead 54.5% (53.1% with no limit), below 200% of poverty 95.4% (93.5%). As booked with G29 decided: VAT 2.88%, workers ahead 54.6%, below 200% of poverty 95.4% |
 ## What the settlement rests on, and who decided it
 
 | Assumption | Source | Decided by Espen? |

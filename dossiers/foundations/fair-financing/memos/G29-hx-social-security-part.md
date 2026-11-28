@@ -1,6 +1,6 @@
 # Memo G29: The Social Security part of the tax on former premiums
 
-Role: decision memo for Espen. It is question I2 from stage G step 11 (#507), with option C as the recommendation on Espen's page. Status: **provisional, not decided.** It changes no booking.
+Role: decision memo for Espen. It is question I2 from stage G step 11 (#507). You chose C on I2 (`DEC-2026-11-26-02`): source the share first, then set out the options. This memo does both. Status: **decided: A with R2** (`DEC-2026-11-26-03`) **and booked in #515**, with the HEX fix (finding 3). On November 26 you first chose C, the recommendation; on November 27 you changed it to A: "No law passed in this plan should be essentially diverting money from freaking social security." The options and the recommendation below are kept as drafted, as the record of the choice. Booked, OASDI's part is the sourced 0.28 rather than the working 0.297. The fund builds $312.7B over FY2030-34, keeps $250B and draws $62.7B, and the FY2035 transfer is $304.6B (drafted: $307.9B, $57.9B and $313.8B). Social Security gets the part from FY2031, HX's first year: $100B in FY2040 and $248B in FY2056. With the plan's package its funds last to 2072, at −1.07% of taxable payroll. The plan's debt doesn't move: 129.3% of GDP in FY2056. **The general fund is short in FY2040-44** ($86B in FY2040, falling to $2B in FY2044) and closes from FY2045. **G29.1, decided November 28: option 1** (`DEC-2026-11-28-01`). G24 B's decided sources are counted in the general-fund figures, which closes those years. Its booking is the next tier-3 PR (below). (`../2-settlement.md` part 8.)
 
 Nominal $B, mixed case. These are project figures on exploratory models, not official scores. The Social Security results come from the dedicated-fund engine (`models/tools/budget/engine/funds-model.py`), run on the 2026 Trustees' rates. The general-fund and reserve results come from the recovery budget (`models/tools/recovery-budget/model.py`), run in a scratch copy.
 
@@ -12,6 +12,18 @@ That tax is income tax plus payroll tax. Under current law the Social Security (
 
 You have to decide where it goes. The rule that each important effect is booked in its appropriate place (`DEC-2026-11-25-28`) says to book it where the law puts it. The open question is whether the law should leave it with Social Security.
 
+## Your note: isn't this canceled out by the new, larger health contribution?
+
+You asked: "Isn’t this basically canceled out by the new larger health contribution? Maybe not, or maybe at least this isn’t how the budget model thinks about effects?" Both halves of that are partly right.
+
+- **It isn't canceled out.** The health contribution replaces Medicare's HI taxes only: the worker's HI, the 0.9% extra Medicare tax, and HI on former premiums (`models/bookings/health_trust_fund.py`, the fold-in rows HCW, HCA, HCP and HCH). It doesn't touch Social Security's 12.4% tax. And by your rule its money pays only for health (`DEC-2026-11-25-12`). So nothing in it stands in for the Social Security money.
+- **Where the Social Security part comes from.** When premiums end, the employer money that paid them becomes wages. Wages under the cap pay Social Security's 12.4%, like any other pay. Current law sends that tax to Social Security's trust funds (42 U.S.C. 401(a)). It is new Social Security revenue that the plan creates, not health money.
+- **You are right that the budget's bottom line doesn't care where it goes.** The debt path uses the unified budget, which counts Social Security and the general fund together. The same dollars are collected either way, so under A, B or C the debt held by the public is the same.
+- **Two other places do care.**
+  - **The general fund.** By law Social Security's money is off-budget, outside the general fund's totals (42 U.S.C. 911(a)). The settlement's test is the general fund's gap. If the money goes to Social Security, the general fund has about $100B a year less in FY2040.
+  - **Social Security's trust funds.** If they get the money, they last longer (2072 instead of 2061 under A).
+- **So the choice is who gets it, not whether it exists.** That is the question below.
+
 ## What this memo finds first
 
 1. **The Social Security part is about 28% of the money, not the 29.7% the booking guessed.** Sourced, the range is about 22-30%.
@@ -22,18 +34,21 @@ You have to decide where it goes. The rule that each important effect is booked 
    - FY2030-34: about $78B, not $234B.
    - FY2040: about $100B (range $79-107B).
    - FY2056: about $248B.
-3. **#507's booking needs a fix whichever option you choose.** It weights HX at 70.3% in the health fund's sources but leaves HEX at full weight, so the fund is charged for a Social Security take-back it never received. With HEX weighted like HX (scratch run, rate path as committed):
-   - The fund's reserve as built is **$307.9B**, not $159.5B.
-   - The FY2035 transfer is $371.7B, not $497.8B.
-   - The general fund's FY2030-39 gap is $776.5B, not $628.1B. The general fund now carries the take-back's Social Security part in FY2031-34.
-   - From FY2040 the general-fund gap and the debt path don't move (129.1% of GDP in FY2056), because the law fixes the general fund's share.
-   - The fix is a tier-3 change to `settlement.json`, for a separate PR.
+3. **#507's booking needs a fix whichever option you choose.** It weights HX at 70.3% in the health fund's sources but leaves HEX at full weight, so the fund is charged for a Social Security take-back it never received. #515 fixes it, weighting HEX like HX. **As now booked** (budget model 0.7.0: the fix, with G29 A and R2 decided and the sourced 72% weight):
+   - The fund builds **$312.7B** over FY2030-34 (#507: $159.5B), keeps $250B standing and draws **$62.7B** against the FY2035 transfer.
+   - The FY2035 transfer is **$304.6B** (#507: $497.8B).
+   - The rate rule, rerun on the $250B start, holds 3.80% through FY2042 and **steps up in FY2043** (#507: FY2041). It is then 4.05% in FY2043-45, 4.30% in FY2046-47, 4.05% in FY2048-51, 4.30% in FY2052-55 and 4.05% in FY2056.
+   - The plan's debt is **121.4% of GDP in FY2045, 124.5% in FY2050 and 129.3% in FY2056** (#507: 121.2%, 124.3% and 129.1%); FY2040 stays 117.8%.
+   - The general fund gives up the Social Security part from FY2031, as current law has it (option A below): $72B in FY2035, $100B in FY2040, $144B in FY2045 and $248B in FY2056. Its gap is $57.3B short in FY2035 and $86.2B short in FY2040, falling to $1.8B in FY2044; it closes from FY2045 (−$19.2B), with −$132.9B in FY2050 and −$189.4B in FY2056. Over FY2030-39 it is $1,225.9B short (under C, $718.5B). Under C, FY2035 and FY2040-44 closed.
+   - Social Security's funds, with the plan's package (D8), last to **2072**, with a 75-year balance of **−1.07%** of taxable payroll (the package closes 76% of the gap). With SS-5 too: 2099 and −0.20%.
+   - **0.6.0, G29 C as first decided** (never on main): the same reserve, rate path and debt; the general fund closed in FY2035 (−$15.0B) and every year from FY2040, with $718.5B short over FY2030-39; Social Security's funds lasted to 2069, at −1.17%.
+   - **The step before G29 was decided** (0.5.0: the HEX fix alone, at the working 70.3%, the reserve as built). The fund's reserve was $307.9B, the FY2035 transfer $371.7B, the general fund's FY2030-39 gap $776.5B, the rate held 3.80% through FY2043, and debt was 129.4% in FY2056. The reserve options below were drafted on these figures.
 
 ## The options
 
 | | Where the Social Security part goes | Social Security trust funds, with the plan's Social Security package (D8) | General fund |
 | --- | --- | --- | --- |
-| Today's booking | General fund | Depletion in 2061; 75-year balance −1.64% of taxable payroll | As booked (with the HEX fix) |
+| The booking before G29 (the HEX fix) | General fund | Depletion in 2061; 75-year balance −1.64% of taxable payroll | As booked then |
 | **A** | Social Security, as current law does, from the start | **2072**; −1.07% (range 2070-2073) | About **$100B a year less in FY2040**, $248B in FY2056. FY2035 and FY2040 no longer close ($120B and $86B short). FY2045 on still close. FY2030-39 gap about $1,284B |
 | **B** | General fund, by law | 2061; −1.64% | As booked |
 | **C** (hybrid) | General fund through FY2044, then Social Security, both written in law | **2069**; −1.17% | As booked through FY2044. From FY2045 it still closes every year (FY2045 about $19B to spare; more after) |
@@ -48,9 +63,11 @@ All three leave the general fund's share of health and the debt path's FY2056 fi
 
 **C** gives Social Security most of A's gain (eight of the eleven years). It gives up the money only while the general fund has no room. The cost is a statute that names a temporary redirect, and its end date has to hold.
 
+B and C both need the plan's law to say so expressly. Section 710(b) of the Social Security Act (42 U.S.C. 911(b)) says no later law may move money between the trust funds and the general fund. Congress can still do it in a new law, and has: the 2011-12 payroll tax cut was made good to the trust funds from the general fund. But the plan would have to write it in on purpose.
+
 ## The reserve
 
-On the fixed figures, the fund builds **$307.9B** over FY2030-34, after meeting its own FY2033-34 shortfalls. Your decision (`DEC-2026-11-25-31`, point 2) was a $250B standing reserve plus $141B lowering the FY2035 transfer, $391B in all, which was based on figures that counted Social Security's money as health's.
+On the fixed figures as drafted (the working 70.3%; booked at the sourced 72% it is $312.7B), the fund builds **$307.9B** over FY2030-34, after meeting its own FY2033-34 shortfalls. Your decision (`DEC-2026-11-25-31`, point 2) was a $250B standing reserve plus $141B lowering the FY2035 transfer, $391B in all, which was based on figures that counted Social Security's money as health's.
 
 | | Standing reserve | Drawn in FY2035 | FY2035 transfer | Note |
 | --- | --- | --- | --- | --- |
@@ -60,7 +77,7 @@ On the fixed figures, the fund builds **$307.9B** over FY2030-34, after meeting 
 
 None of A, B or C moves the reserve: each keeps the Social Security part out of the fund.
 
-## Recommendation
+## Recommendation (as drafted; you chose A)
 
 **C, with R2.**
 - **C.** Your booking rule (`-28`) puts the money where the law puts it. Current law puts it with Social Security, and the plan should change that law only where it must. C changes it only for FY2031-44, while the general fund can't spare it. From FY2045 the money goes back to Social Security, with most of the solvency gain.
@@ -68,4 +85,45 @@ None of A, B or C moves the reserve: each keeps the Social Security part out of 
 - **B** quietly takes Social Security's money for good. It is the hardest to defend once the money is large, $248B a year by FY2056.
 - **R2.** It is point 2 as decided, carried as far as the fund's own money reaches. R3 would need $83B more from the general fund in FY2030-34. Point 2 assumed that money was already health's, but it was Social Security's.
 
-**Either way, fix #507's HEX weighting first.** It is the larger error, and the reserve figures above depend on it.
+**The HEX fix is booked already (#515).** It was the larger error, and the reserve figures above depend on it.
+
+## G29.1 (decided: option 1): closing the general fund in FY2040-44 under A
+
+**Why it comes up.** Under A the general fund gives up the Social Security part from FY2031. The plan's debt doesn't change: the same money is collected, and it stays in Social Security's trust funds. But the settlement's test, the general fund closing in FY2040 and every later year (D4), now fails for five years.
+
+| General-fund gap, $B (+ short) | FY2035 | FY2040 | FY2041 | FY2042 | FY2043 | FY2044 | FY2045 | FY2050 | FY2056 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Booked, G29 A | 57.3 | 86.2 | 70.2 | 49.3 | 21.9 | 1.8 | −19.2 | −132.9 | −189.4 |
+
+**No booked rule closes it, so nothing is assumed.**
+- The health contribution can't fill it (`DEC-2026-11-25-12`), and Social Security's money is off the table (your principle with A).
+- G24 B's VAT (2.88% from FY2035, with G30's phase-out) is set to meet the debt goal (G23 B, 110% of GDP by FY2056). That goal reads the whole budget, which A doesn't change, so the rate stays 2.88%.
+- G24 B is decided but not yet in the budget model's general-fund figures above.
+
+**Decided November 28, 2026: option 1** (`DEC-2026-11-28-01`). You also set a principle: every revenue source the plan has decided is booked wherever the models report it. Your words: "Yes I want to make sure that all revenues being raised under the plan's decisions, at any given time, are being booked correctly so the ongoing accounting is accurate when we're talking about the next set of policy decisions that conversation is based on truthful and current financial modeling".
+
+**With G24 B counted** (on the booked case; G24 B's sources and the 2.88% VAT from FY2035 with G30's phase-out, plus G17 B's PH-3 hold; `fiscal_revision.py`'s paths; before the interest the lower debt saves, which helps further):
+
+| General-fund gap, $B (+ short) | FY2035 | FY2036 | FY2037 | FY2038 | FY2039 | FY2040 | FY2042 | FY2044 | FY2045 | FY2050 | FY2056 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Booked now, without G24 B | 57.3 | 361.1 | 360.7 | 351.8 | 290.0 | 86.2 | 49.3 | 1.8 | −19.2 | −132.9 | −189.4 |
+| With G24 B counted | −20.1 | 200.4 | 83.9 | 41.6 | −32.3 | −413.1 | −488.3 | −576.8 | −619.2 | −849.2 | −1,071.5 |
+
+- **Every year the test reads closes** (FY2040 on), and FY2035 and FY2039 too. FY2036-38 stay short, as they were before G29; the test doesn't read them.
+- **The debt path moves, as G24 B was decided to make it move.** Booked, G24 B takes debt to 114.5% of GDP in FY2040, 113.3% in FY2045, 111.4% in FY2050 and **110.0% in FY2056** (G23 B), against 117.8%, 121.4%, 124.5% and 129.3% for the plan without it. The VAT's rate is still 2.88%.
+- **Not yet booked.** G24 B, G30 and PH-3 are priced in `fiscal_revision.py` but are not yet in the budget model, the ledger, D3 or the take-home test. Their booking is the next tier-3 PR. Until it merges, the booked figures above are the plan without G24 B.
+
+The options as they were put to you:
+
+**Options** (project figures, the same tools as G24 and G30; `models/bookings/fiscal_revision.py`):
+- **1. Count G24 B's decided sources on the general fund (recommended).** No new tax and no rate change.
+  - In FY2040 they raise $499B: the VAT $186B, and the deduction limits, the AGI surtax and the SALT fix $313B.
+  - Counted, the general fund closes in FY2035 ($20B to spare) and every year from FY2039 ($413B to spare in FY2040).
+  - Even without the VAT, the deduction limits and surtax alone close FY2040-44. Only FY2035 needs the VAT.
+  - The debt path doesn't change: G24 B still brings debt to 110% by FY2056. Counting its money on the general-fund test doesn't spend it twice, because the test and the debt goal read the same dollars.
+  - FY2036-38 stay short, as under C. The test doesn't read those years.
+  - The cost: the general-fund test now leans on G24 B being enacted. Under C it closed without it.
+- **2. A VAT sized to close the general fund by itself**, from FY2035 with G30's phase-out. **1.33%** closes FY2040-56, and **2.13%** closes FY2035 too. Both are below the 2.88% G24 B already sets, so in practice this is option 1.
+- **3. Leave FY2040-44 short, and report it.** The settlement already leaves FY2036-39 short. The debt goal is met either way.
+
+Not offered: health money, Social Security's money, or redirecting the part (G29 B or C), which you have ruled out.
